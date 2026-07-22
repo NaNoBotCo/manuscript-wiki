@@ -1,0 +1,1149 @@
+{
+ "nodes": [
+  {
+   "id": "entity_lersi",
+   "type": "file",
+   "file": "entity-lersi.md",
+   "x": 330,
+   "y": -130,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_yantra",
+   "type": "file",
+   "file": "entity-yantra.md",
+   "x": 270,
+   "y": 111,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_katha",
+   "type": "file",
+   "file": "entity-katha.md",
+   "x": 105,
+   "y": 297,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_holasat",
+   "type": "file",
+   "file": "entity-holasat.md",
+   "x": -128,
+   "y": 386,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_naga",
+   "type": "file",
+   "file": "entity-naga.md",
+   "x": -374,
+   "y": 356,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_thammasat",
+   "type": "file",
+   "file": "entity-thammasat.md",
+   "x": -579,
+   "y": 214,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_mangraisat",
+   "type": "file",
+   "file": "entity-mangraisat.md",
+   "x": -694,
+   "y": -6,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_phrommachat",
+   "type": "file",
+   "file": "entity-phrommachat.md",
+   "x": -694,
+   "y": -254,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_suep_cata",
+   "type": "file",
+   "file": "entity-suep_cata.md",
+   "x": -579,
+   "y": -474,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_su_khwan",
+   "type": "file",
+   "file": "entity-su_khwan.md",
+   "x": -374,
+   "y": -616,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_sut_thon",
+   "type": "file",
+   "file": "entity-sut_thon.md",
+   "x": -128,
+   "y": -646,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_vessantara",
+   "type": "file",
+   "file": "entity-vessantara.md",
+   "x": 105,
+   "y": -557,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "entity_mahasamai",
+   "type": "text",
+   "text": "**Mahāsamaya Sutta**\n`entity:mahasamai` — no article yet",
+   "x": 310,
+   "y": -291,
+   "width": 300,
+   "height": 100
+  },
+  {
+   "id": "genre_tamnan_chronicle",
+   "type": "file",
+   "file": "genre-tamnan_chronicle.md",
+   "x": 710,
+   "y": -130,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_magic_ritual",
+   "type": "file",
+   "file": "genre-magic_ritual.md",
+   "x": 589,
+   "y": 319,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_jataka",
+   "type": "file",
+   "file": "genre-jataka.md",
+   "x": 260,
+   "y": 649,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_law_customary",
+   "type": "file",
+   "file": "genre-law_customary.md",
+   "x": -190,
+   "y": 770,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_astrology",
+   "type": "file",
+   "file": "genre-astrology.md",
+   "x": -639,
+   "y": 649,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_buddhist_canonical",
+   "type": "file",
+   "file": "genre-buddhist_canonical.md",
+   "x": -969,
+   "y": 319,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_liturgy_chanting",
+   "type": "file",
+   "file": "genre-liturgy_chanting.md",
+   "x": -1090,
+   "y": -130,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_didactic_moral",
+   "type": "file",
+   "file": "genre-didactic_moral.md",
+   "x": -969,
+   "y": -579,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_poetry_literary",
+   "type": "file",
+   "file": "genre-poetry_literary.md",
+   "x": -640,
+   "y": -909,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_grammar_lexicography",
+   "type": "file",
+   "file": "genre-grammar_lexicography.md",
+   "x": -190,
+   "y": -1030,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_other",
+   "type": "file",
+   "file": "genre-other.md",
+   "x": 260,
+   "y": -909,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "genre_divination_omen",
+   "type": "text",
+   "text": "**Divination & Omens · การทำนาย**\n`genre:divination_omen` — no article yet",
+   "x": 629,
+   "y": -500,
+   "width": 300,
+   "height": 100
+  },
+  {
+   "id": "subgenre_tamnan_chronicle_Secular History",
+   "type": "file",
+   "file": "subgenre-tamnan_chronicle_secular_history.md",
+   "x": 1050,
+   "y": -130,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "subgenre_buddhist_canonical_Abhidhamma",
+   "type": "file",
+   "file": "subgenre-buddhist_canonical_abhidhamma.md",
+   "x": 430,
+   "y": 943,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "subgenre_buddhist_canonical_Sutta",
+   "type": "file",
+   "file": "subgenre-buddhist_canonical_sutta.md",
+   "x": -809,
+   "y": 943,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "subgenre_buddhist_canonical_Vinaya",
+   "type": "file",
+   "file": "subgenre-buddhist_canonical_vinaya.md",
+   "x": -1430,
+   "y": -130,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "subgenre_tamnan_chronicle_Buddhist Chronicle",
+   "type": "file",
+   "file": "subgenre-tamnan_chronicle_buddhist_chronicle.md",
+   "x": -810,
+   "y": -1203,
+   "width": 380,
+   "height": 260
+  },
+  {
+   "id": "subgenre_tamnan_chronicle_Tamnan",
+   "type": "file",
+   "file": "subgenre-tamnan_chronicle_tamnan.md",
+   "x": 430,
+   "y": -1203,
+   "width": 380,
+   "height": 260
+  }
+ ],
+ "edges": [
+  {
+   "id": "e0",
+   "fromNode": "entity_lersi",
+   "toNode": "entity_yantra",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "teacher of"
+  },
+  {
+   "id": "e1",
+   "fromNode": "entity_lersi",
+   "toNode": "entity_katha",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "teacher of"
+  },
+  {
+   "id": "e2",
+   "fromNode": "entity_lersi",
+   "toNode": "entity_holasat",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "teacher of"
+  },
+  {
+   "id": "e3",
+   "fromNode": "entity_lersi",
+   "toNode": "genre_tamnan_chronicle",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e4",
+   "fromNode": "entity_yantra",
+   "toNode": "entity_katha",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "invokes"
+  },
+  {
+   "id": "e5",
+   "fromNode": "entity_yantra",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e6",
+   "fromNode": "entity_katha",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e7",
+   "fromNode": "entity_naga",
+   "toNode": "genre_jataka",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "depicted in"
+  },
+  {
+   "id": "e8",
+   "fromNode": "entity_naga",
+   "toNode": "entity_yantra",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e9",
+   "fromNode": "entity_thammasat",
+   "toNode": "entity_mangraisat",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "paired with"
+  },
+  {
+   "id": "e10",
+   "fromNode": "entity_thammasat",
+   "toNode": "genre_law_customary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e11",
+   "fromNode": "entity_mangraisat",
+   "toNode": "genre_law_customary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e12",
+   "fromNode": "entity_holasat",
+   "toNode": "entity_phrommachat",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "paired with"
+  },
+  {
+   "id": "e13",
+   "fromNode": "entity_holasat",
+   "toNode": "genre_astrology",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e14",
+   "fromNode": "entity_phrommachat",
+   "toNode": "genre_astrology",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e15",
+   "fromNode": "entity_suep_cata",
+   "toNode": "entity_su_khwan",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e16",
+   "fromNode": "entity_suep_cata",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e17",
+   "fromNode": "entity_sut_thon",
+   "toNode": "entity_su_khwan",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e18",
+   "fromNode": "entity_sut_thon",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e19",
+   "fromNode": "entity_su_khwan",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e20",
+   "fromNode": "entity_vessantara",
+   "toNode": "genre_jataka",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e21",
+   "fromNode": "entity_mahasamai",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "part of"
+  },
+  {
+   "id": "e22",
+   "fromNode": "genre_astrology",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e23",
+   "fromNode": "genre_buddhist_canonical",
+   "toNode": "genre_jataka",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e24",
+   "fromNode": "genre_buddhist_canonical",
+   "toNode": "genre_liturgy_chanting",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e25",
+   "fromNode": "genre_didactic_moral",
+   "toNode": "genre_law_customary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e26",
+   "fromNode": "genre_didactic_moral",
+   "toNode": "genre_poetry_literary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e27",
+   "fromNode": "genre_grammar_lexicography",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e28",
+   "fromNode": "genre_grammar_lexicography",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e29",
+   "fromNode": "genre_jataka",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e30",
+   "fromNode": "genre_jataka",
+   "toNode": "genre_liturgy_chanting",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e31",
+   "fromNode": "genre_law_customary",
+   "toNode": "genre_tamnan_chronicle",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e32",
+   "fromNode": "genre_law_customary",
+   "toNode": "genre_didactic_moral",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e33",
+   "fromNode": "genre_liturgy_chanting",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e34",
+   "fromNode": "genre_liturgy_chanting",
+   "toNode": "genre_jataka",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e35",
+   "fromNode": "genre_magic_ritual",
+   "toNode": "genre_astrology",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e36",
+   "fromNode": "genre_magic_ritual",
+   "toNode": "genre_liturgy_chanting",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e37",
+   "fromNode": "genre_other",
+   "toNode": "genre_astrology",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e38",
+   "fromNode": "genre_other",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e39",
+   "fromNode": "genre_poetry_literary",
+   "toNode": "genre_jataka",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e40",
+   "fromNode": "genre_poetry_literary",
+   "toNode": "genre_tamnan_chronicle",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e41",
+   "fromNode": "genre_tamnan_chronicle",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e42",
+   "fromNode": "genre_tamnan_chronicle",
+   "toNode": "genre_law_customary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e43",
+   "fromNode": "entity_lersi",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e44",
+   "fromNode": "entity_lersi",
+   "toNode": "entity_yantra",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e45",
+   "fromNode": "entity_lersi",
+   "toNode": "entity_katha",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e46",
+   "fromNode": "entity_lersi",
+   "toNode": "genre_tamnan_chronicle",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e47",
+   "fromNode": "entity_phrommachat",
+   "toNode": "genre_astrology",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e48",
+   "fromNode": "entity_phrommachat",
+   "toNode": "genre_divination_omen",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e49",
+   "fromNode": "entity_phrommachat",
+   "toNode": "entity_holasat",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e50",
+   "fromNode": "entity_phrommachat",
+   "toNode": "entity_katha",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e51",
+   "fromNode": "entity_katha",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e52",
+   "fromNode": "entity_katha",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e53",
+   "fromNode": "entity_katha",
+   "toNode": "entity_holasat",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e54",
+   "fromNode": "entity_katha",
+   "toNode": "entity_yantra",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e55",
+   "fromNode": "entity_yantra",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e56",
+   "fromNode": "entity_yantra",
+   "toNode": "entity_katha",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e57",
+   "fromNode": "entity_yantra",
+   "toNode": "genre_astrology",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e58",
+   "fromNode": "entity_yantra",
+   "toNode": "entity_holasat",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e59",
+   "fromNode": "entity_naga",
+   "toNode": "genre_jataka",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e60",
+   "fromNode": "entity_naga",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e61",
+   "fromNode": "entity_naga",
+   "toNode": "entity_yantra",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e62",
+   "fromNode": "entity_naga",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e63",
+   "fromNode": "entity_holasat",
+   "toNode": "genre_astrology",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e64",
+   "fromNode": "entity_holasat",
+   "toNode": "genre_divination_omen",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e65",
+   "fromNode": "entity_holasat",
+   "toNode": "entity_katha",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e66",
+   "fromNode": "entity_holasat",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e67",
+   "fromNode": "entity_suep_cata",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e68",
+   "fromNode": "entity_suep_cata",
+   "toNode": "genre_astrology",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e69",
+   "fromNode": "entity_suep_cata",
+   "toNode": "entity_su_khwan",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e70",
+   "fromNode": "entity_suep_cata",
+   "toNode": "entity_holasat",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e71",
+   "fromNode": "entity_sut_thon",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e72",
+   "fromNode": "entity_sut_thon",
+   "toNode": "entity_suep_cata",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e73",
+   "fromNode": "entity_sut_thon",
+   "toNode": "entity_su_khwan",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e74",
+   "fromNode": "entity_sut_thon",
+   "toNode": "genre_liturgy_chanting",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e75",
+   "fromNode": "entity_su_khwan",
+   "toNode": "genre_magic_ritual",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e76",
+   "fromNode": "entity_su_khwan",
+   "toNode": "entity_suep_cata",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e77",
+   "fromNode": "entity_su_khwan",
+   "toNode": "genre_liturgy_chanting",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e78",
+   "fromNode": "entity_su_khwan",
+   "toNode": "entity_holasat",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e79",
+   "fromNode": "entity_vessantara",
+   "toNode": "genre_jataka",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e80",
+   "fromNode": "entity_vessantara",
+   "toNode": "genre_liturgy_chanting",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e81",
+   "fromNode": "entity_vessantara",
+   "toNode": "genre_poetry_literary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e82",
+   "fromNode": "entity_vessantara",
+   "toNode": "entity_katha",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e83",
+   "fromNode": "entity_mangraisat",
+   "toNode": "genre_law_customary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e84",
+   "fromNode": "entity_mangraisat",
+   "toNode": "genre_tamnan_chronicle",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e85",
+   "fromNode": "entity_mangraisat",
+   "toNode": "entity_thammasat",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e86",
+   "fromNode": "entity_mangraisat",
+   "toNode": "subgenre_tamnan_chronicle_Secular History",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e87",
+   "fromNode": "entity_thammasat",
+   "toNode": "genre_law_customary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e88",
+   "fromNode": "entity_thammasat",
+   "toNode": "entity_mangraisat",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e89",
+   "fromNode": "entity_thammasat",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e90",
+   "fromNode": "subgenre_buddhist_canonical_Abhidhamma",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e91",
+   "fromNode": "subgenre_buddhist_canonical_Abhidhamma",
+   "toNode": "genre_grammar_lexicography",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e92",
+   "fromNode": "subgenre_buddhist_canonical_Abhidhamma",
+   "toNode": "genre_liturgy_chanting",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e93",
+   "fromNode": "subgenre_buddhist_canonical_Sutta",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e94",
+   "fromNode": "subgenre_buddhist_canonical_Sutta",
+   "toNode": "genre_grammar_lexicography",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e95",
+   "fromNode": "subgenre_buddhist_canonical_Sutta",
+   "toNode": "entity_katha",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e96",
+   "fromNode": "subgenre_buddhist_canonical_Vinaya",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e97",
+   "fromNode": "subgenre_buddhist_canonical_Vinaya",
+   "toNode": "genre_liturgy_chanting",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e98",
+   "fromNode": "subgenre_buddhist_canonical_Vinaya",
+   "toNode": "genre_grammar_lexicography",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e99",
+   "fromNode": "subgenre_tamnan_chronicle_Buddhist Chronicle",
+   "toNode": "genre_tamnan_chronicle",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e100",
+   "fromNode": "subgenre_tamnan_chronicle_Buddhist Chronicle",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e101",
+   "fromNode": "subgenre_tamnan_chronicle_Buddhist Chronicle",
+   "toNode": "genre_law_customary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e102",
+   "fromNode": "subgenre_tamnan_chronicle_Secular History",
+   "toNode": "genre_tamnan_chronicle",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e103",
+   "fromNode": "subgenre_tamnan_chronicle_Secular History",
+   "toNode": "genre_law_customary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e104",
+   "fromNode": "subgenre_tamnan_chronicle_Secular History",
+   "toNode": "genre_poetry_literary",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e105",
+   "fromNode": "subgenre_tamnan_chronicle_Tamnan",
+   "toNode": "genre_tamnan_chronicle",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e106",
+   "fromNode": "subgenre_tamnan_chronicle_Tamnan",
+   "toNode": "subgenre_tamnan_chronicle_Buddhist Chronicle",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  },
+  {
+   "id": "e107",
+   "fromNode": "subgenre_tamnan_chronicle_Tamnan",
+   "toNode": "genre_buddhist_canonical",
+   "fromSide": "bottom",
+   "toSide": "top",
+   "label": "related to"
+  }
+ ]
+}

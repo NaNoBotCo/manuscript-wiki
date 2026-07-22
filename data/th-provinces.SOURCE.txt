@@ -1,0 +1,18 @@
+th-provinces.json — outer-ring polygons for all 77 Thai provinces.
+
+SOURCE   Natural Earth, ne_10m_admin_1_states_provinces (adm0_a3 = THA)
+         https://www.naturalearthdata.com/
+LICENCE  Public domain. Natural Earth places no restrictions on use.
+         Credited on /w/geo anyway, because attribution is good manners
+         and this site cites its sources everywhere else.
+
+PROCESSING
+  · outer ring only (holes are invisible at the size this widget draws)
+  · Ramer-Douglas-Peucker simplification, epsilon 0.02 degrees (~2 km)
+  · coordinates rounded to 3 decimals
+  · at most 3 rings per province (mainland + largest islands)
+  Result: 26,498 points -> 2,678 (10.1%), 44 KB.
+
+WHY BAKED IN RATHER THAN FETCHED
+  The widget must work as a single saved file with no network. Map tiles
+  cannot do that; vector outlines can.

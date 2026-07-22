@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  LaunchAgent: refresh the public GitHub Pages copy of the Lanna Wiki on a timer.
+
+  Cadence below = every day at 03:00 (no Weekday key = daily). Change StartCalendarInterval
+  to taste: add <key>Weekday</key><integer>0</integer> back for weekly (0 = Sunday); for
+  several times a week, use an <array> of dicts. If the Mac is asleep at the scheduled
+  time, launchd runs the job at the next wake — so it stays "consistent", just not
+  to-the-minute.
+
+  Install (one time) — from the manuscript-wiki folder:
+    cp "publishing/com.nanobotco.lannawiki.refresh.plist" ~/Library/LaunchAgents/
+    launchctl load  ~/Library/LaunchAgents/com.nanobotco.lannawiki.refresh.plist
+  Run once now to test:
+    launchctl start com.nanobotco.lannawiki.refresh
+  Stop automating:
+    launchctl unload ~/Library/LaunchAgents/com.nanobotco.lannawiki.refresh.plist
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.nanobotco.lannawiki.refresh</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>~/Developer/claude code projects/manuscript-wiki/publishing/publish_site.sh</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>3</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+
+  <!-- so PATH finds git / gh / python3 the way a login shell would -->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <false/>
+  <key>StandardOutPath</key>
+  <string>/tmp/lanna-wiki-publish.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/lanna-wiki-publish.log</string>
+</dict>
+</plist>

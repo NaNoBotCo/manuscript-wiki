@@ -1,0 +1,18 @@
+# Caddy reverse proxy for the live Lanna Manuscript Wiki — automatic HTTPS via
+# Let's Encrypt, zero extra config. Install Caddy on the VPS (see caddyserver.com
+# for your distro), replace the domain below, then:
+#   cp deploy/Caddyfile /etc/caddy/Caddyfile
+#   systemctl reload caddy
+#
+# Requires: the domain's DNS A/AAAA record already pointing at this VPS's IP —
+# Caddy issues the cert on first request, so that has to resolve first.
+
+your-domain.example {
+    reverse_proxy 127.0.0.1:4190
+
+    # wiki.py is stdlib http.server, single-threaded-ish under load — Caddy's
+    # default timeouts are fine for a read-mostly catalog site, no tuning needed
+    # at this traffic scale. Revisit if/when this gets busy.
+
+    encode gzip
+}

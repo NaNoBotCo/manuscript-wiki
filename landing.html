@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<!-- wichaa:landing -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="mbowO_1lvZ7GtPkaSkFK3XUkJqLEEk1NQSlZHiEitKw">
+<title>wichaa · living traditions of sacred knowledge</title>
+<meta name="description" content="Wichaa — living traditions of sacred, practical knowledge that draw no line between science, magic, medicine and nature. Lanna manuscripts, the amulet market they still feed, and the global St. Expedite cult, in one free, open archive."><meta name="keywords" content="wichaa, Lanna manuscripts, Northern Thai, Thai amulets, sak yant, yantra, katha, takrut, Thai astrology, Thai magic, Buddhist manuscripts, palm-leaf manuscripts, Tai Tham script, Chiang Mai, Southeast Asian manuscripts, Thai occult, digital humanities">
+<link rel="canonical" href="{{SITE}}/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="wichaa · living traditions of sacred knowledge">
+<meta property="og:description" content="Wichaa — Northern Thai knowledge, where no line is drawn between science, magic, medicine and nature. Nearly 7,000 manuscripts and the living market they still feed. Free & open.">
+<meta property="og:url" content="{{SITE}}/">
+<meta property="og:image" content="{{SITE}}/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root{
+    --bg:#f4efe3; --panel:#fdfbf5; --ink:#26302a; --muted:#6d6455;
+    --gold:#a8791e; --gold-soft:#c9a24a; --crimson:#8c3b2e; --line:#e5dcc7;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+    font-size:19px;line-height:1.7;-webkit-font-smoothing:antialiased}
+  a{color:var(--crimson);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 26px}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15;color:var(--ink)}
+  .rule{width:64px;height:2px;background:var(--gold);border:0;margin:26px auto}
+
+  header.hero{text-align:center;padding:78px 26px 30px}
+  .mark{font-family:var(--serif);letter-spacing:.5em;text-transform:lowercase;
+    color:var(--gold);font-size:15px;margin-bottom:26px;padding-left:.5em}
+  .yantra{width:96px;height:96px;margin:0 auto 22px;display:block;opacity:.9}
+  header.hero h1{font-size:clamp(34px,6vw,58px);margin:0 0 14px;letter-spacing:.01em}
+  .kh{color:var(--gold)}
+  .lede{font-family:var(--serif);font-size:clamp(19px,2.6vw,25px);color:#3c463f;
+    max-width:720px;margin:0 auto;font-style:italic}
+  .cta{margin:34px 0 6px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;padding:13px 26px;border-radius:999px;font-weight:600;
+    font-size:17px;border:1.5px solid var(--gold)}
+  .btn.primary{background:var(--ink);color:#f6f1e4;border-color:var(--ink)}
+  .btn.primary:hover{background:#31413a;text-decoration:none}
+  .btn.ghost{color:var(--ink)}
+  .btn.ghost:hover{background:#efe7d5;text-decoration:none}
+
+  .facts{padding:22px 0 8px}
+  .factgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:18px;margin-top:10px}
+  .fact{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    padding:22px 22px 20px;text-align:center}
+  .fact .n{font-family:var(--serif);font-size:38px;font-weight:600;color:var(--ink);
+    line-height:1;letter-spacing:-.01em}
+  .fact .n small{font-size:19px;color:var(--gold);font-weight:600}
+  .fact .l{margin-top:9px;font-size:15.5px;color:var(--muted);line-height:1.45}
+
+  section{padding:60px 0}
+  .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:13px;
+    font-weight:700;color:var(--gold)}
+  section h2{font-size:clamp(27px,4vw,38px);margin:8px 0 0}
+
+  .feature{background:var(--panel);border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line)}
+  .thread{display:grid;grid-template-columns:1fr 88px 1fr;gap:0;align-items:stretch;
+    margin-top:30px}
+  .pane{padding:28px;border:1px solid var(--line);background:var(--bg);border-radius:14px}
+  .pane .shot{margin:-28px -28px 20px;border-radius:14px 14px 0 0;overflow:hidden;
+    aspect-ratio:16/11;background:#e9dfc4;position:relative}
+  .pane .shot img{width:100%;height:100%;object-fit:cover;display:block}
+  .pane .shot .cap{position:absolute;left:0;right:0;bottom:0;padding:8px 14px;
+    font-size:12.5px;color:#f6f1e4;background:linear-gradient(transparent,rgba(20,24,20,.72));
+    font-family:var(--sans)}
+  .pane .tag{font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:700}
+  .pane.arch .tag{color:var(--gold)}
+  .pane.market .tag{color:var(--crimson)}
+  .pane h3{font-size:22px;margin:10px 0 6px}
+  .pane .th{font-family:var(--serif);font-size:20px;color:#43403a}
+  .pane p{font-size:16.5px;color:#43473f;margin:12px 0}
+  .pane .meta{font-size:15px;color:var(--muted)}
+  .link-of{display:flex;align-items:center;justify-content:center}
+  .knot{font-family:var(--serif);color:var(--gold);font-size:15px;text-align:center;
+    letter-spacing:.1em;text-transform:uppercase}
+  .knot .dot{display:block;width:2px;height:34px;background:var(--gold-soft);margin:8px auto}
+  .feature .say{max-width:760px;margin:30px auto 0;font-family:var(--serif);font-size:20px;
+    font-style:italic;color:#3c463f;text-align:center}
+
+  .testimony{background:var(--ink);color:#efe8d8}
+  .testimony .eyebrow{color:var(--gold-soft)}
+  .testimony h2{color:#fbf6ea}
+  .testify{max-width:720px;margin:24px auto 0;font-family:var(--serif);font-size:21px;
+    line-height:1.75;color:#e9e1cf}
+  .testify p{margin:0 0 20px}
+  .testify .first::first-letter{font-size:64px;float:left;line-height:.8;padding:6px 12px 0 0;
+    color:var(--gold-soft);font-weight:600}
+  .testify .makernote{font-size:16.5px;line-height:1.6;color:#cfc6b1;font-style:italic;
+    border-top:1px solid #3b4a43;margin-top:26px;padding-top:20px}
+  .testify .makernote b{font-style:normal;color:var(--gold-soft)}
+  .testify .tamboon{font-size:16.5px;color:#e3dcc9;margin-top:22px}
+  .testify .tamboon b{color:var(--gold-soft)}
+  .testify .tamboon a{color:var(--gold-soft);text-decoration:underline}
+  .tamboon-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px;font-family:var(--sans)}
+  .testimony .btn.primary{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+  .testimony .btn.primary:hover{background:var(--gold-soft)}
+  .testimony .btn.ghost{color:#efe8d8;border-color:var(--gold-soft)}
+  .testimony .btn.ghost:hover{background:#ffffff14;text-decoration:none}
+  footer .kofi{display:inline-block;margin-top:10px;padding:9px 18px;border-radius:999px;
+    background:var(--gold);color:var(--ink);font-weight:700;border:1.5px solid var(--gold)}
+  footer .kofi:hover{background:var(--gold-soft);text-decoration:none}
+  .sign{margin-top:8px;font-style:italic;color:var(--gold-soft);text-align:right}
+
+  .ways{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+  .way{flex:1 1 210px;background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px}
+  .way b{font-family:var(--serif);font-size:18px;display:block}
+  .way span{font-size:14.5px;color:var(--muted)}
+  .machines{margin-top:22px;font-size:15.5px;color:var(--muted);
+    border-left:2px solid var(--gold-soft);padding-left:16px}
+  .machines code{font-family:var(--sans);background:#efe7d5;padding:1px 6px;border-radius:5px}
+
+  footer{border-top:1px solid var(--line);padding:40px 0 60px;text-align:center;
+    color:var(--muted);font-size:15.5px}
+  footer .free{font-family:var(--serif);font-size:19px;color:var(--ink)}
+  .sharefoot{margin:8px 0;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+  .sharefoot button{background:none;border:1px solid var(--line);border-radius:50%;width:34px;height:34px;
+    font-size:15px;cursor:pointer;color:var(--ink);margin:0 2px;line-height:1;vertical-align:middle}
+  .sharefoot button:hover{background:var(--gold);color:#fff;border-color:var(--gold)}
+
+  @media(max-width:720px){
+    .thread{grid-template-columns:1fr}
+    .knot .dot{height:20px}
+  }
+
+  .geosec{background:#fff}
+  .geowrap{display:grid;grid-template-columns:1fr minmax(0,520px);gap:48px;align-items:center}
+  @media(max-width:860px){.geowrap{grid-template-columns:1fr;gap:24px}}
+  .geotext h2{margin:6px 0 16px;line-height:1.15}
+  .geotext p{margin:0 0 14px;max-width:46ch}
+  .geolink{display:inline-block;margin-top:6px;font-weight:700;text-decoration:none;
+    color:#1F4E4A;border-bottom:2px solid #1F4E4A;padding-bottom:2px}
+  .geofig svg.geomap{width:100%;height:auto;display:block}
+  .geokey{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin-top:10px;
+    font-size:14px;color:#5d5750}
+  .geokey span{display:flex;align-items:center;gap:7px}
+  .geokey i{width:14px;height:14px;border-radius:3px;display:inline-block}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="mark">wichaa · วิชา</div>
+  <svg class="yantra" viewBox="0 0 100 100" fill="none" stroke="#a8791e" stroke-width="1.5" aria-hidden="true">
+    <circle cx="50" cy="50" r="46"/><circle cx="50" cy="50" r="37"/>
+    <rect x="26" y="26" width="48" height="48" transform="rotate(45 50 50)"/>
+    <rect x="30" y="30" width="40" height="40"/>
+    <circle cx="50" cy="50" r="7" fill="#a8791e" stroke="none"/>
+    <path d="M50 12 V22 M50 78 V88 M12 50 H22 M78 50 H88"/>
+  </svg>
+  <h1>Living traditions of <span class="kh">wichaa</span></h1>
+  <p class="lede"><i>Wichaa</i> means knowledge — where no line is drawn between science,
+    magic, medicine, and nature. Not one culture's craft but a human one: Lanna palm-leaf
+    manuals, the amulets they still feed, and a globe-spanning saint-cult — one living
+    archive, carried from palm-leaf to phone screen.</p>
+  <div class="cta">
+    <a class="btn primary" href="/browse">Enter the archive →</a>
+    <a class="btn ghost" href="#thread">See a single thread</a>
+    <a class="btn ghost" href="/support">☕ Tam boon</a>
+  </div>
+  <hr class="rule">
+</header>
+
+<div class="wrap facts">
+  <div class="factgrid">
+    <div class="fact"><div class="n">{{MANUSCRIPTS}}</div><div class="l">Lanna manuscripts, from {{TEMPLES}} temples across {{PROVINCES}} provinces</div></div>
+    <div class="fact"><div class="n">1471<small> CE</small></div><div class="l">the oldest — a 555-year-old scripture from Wat Lai Hin Luang, Lampang</div></div>
+    <div class="fact"><div class="n">{{IMAGES}}</div><div class="l">manuscript page images, viewable on demand</div></div>
+    <div class="fact"><div class="n">31</div><div class="l">complete manuals of working magic, digitised page by page — 4,500+ pages</div></div>
+    <div class="fact"><div class="n">{{MARKET}}<small>+</small></div><div class="l">living amulets — the same wichaa, still worn and traded today</div></div>
+    <div class="fact"><div class="n">3<small> months</small></div><div class="l">built by one person, in Chiang Mai — free and open, forever</div></div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">The corpus</div>
+    <h2>Three traditions, one wichaa</h2>
+    <p style="max-width:44rem;opacity:.85">Wichaa is the subject; each of these is a tradition
+      within it — coequal, none the trunk. The seam between them is provenance, not structure:
+      an antique palm-leaf manual, an amulet for sale today, and a saint petitioned in New Orleans
+      are all the same human craft of turning knowledge to effect.</p>
+    <div class="ways">
+      <a class="way" href="/browse"><b>Lanna manuscripts</b><span>{{MANUSCRIPTS}} palm-leaf folios of divination, astrology &amp; magic from the Thai north</span></a>
+      <a class="way" href="/market"><b>The amulet market</b><span>{{MARKET}}+ sacred objects as they trade today — the same wichaa, still living</span></a>
+      <a class="way" href="/expedite"><b>St. Expedite</b><span>a global Catholic-and-folk saint-cult of urgent causes — 192 shrines mapped</span></a>
+      <a class="way" href="/wats"><b>Wats of the Lanna north</b><span>{{WATS}} temples across five provinces — the tradition standing up in the landscape, {{WATS_HERITAGE}} heritage-registered</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="feature" id="thread">
+  <div class="wrap">
+    <div class="eyebrow">One thread, six centuries</div>
+    <h2>The takrut — from the manual to the market</h2>
+    <p style="max-width:760px;margin:14px 0 0;color:#43473f">
+      A <em>takrut</em> is a spell inscribed on a thin metal scroll, rolled tight, empowered
+      with <em>katha</em>, and worn for protection or love. The knowledge for making one is
+      old and exact. Here it is at both ends of six hundred years — the recipe, and the result.</p>
+
+    <div class="thread">
+      <div class="pane arch">
+        <div class="shot"><img src="/assets/landing/takrut-manuscript.jpg" alt="A yantra diagram from the charm-making manual, manuscript #6983" loading="lazy">
+          <div class="cap">Folio from #6983 — a yantra diagram, hand-drawn</div></div>
+        <div class="tag">From the archive</div>
+        <h3>ตำราสร้างเครื่องรางของขลัง</h3>
+        <div class="th">“Making Sacred Charms &amp; Amulets”</div>
+        <p>A 170-page master-manual of the craft — every page now transcribed and translated.
+          Among its formulas: how to inscribe, roll, and awaken a <b>takrut</b>.</p>
+        <div class="meta">Manuscript #6983 · 170 folios · fully bilingual<br>
+          → <a href="/read/6983/">Read it, Thai &amp; English</a></div>
+      </div>
+
+      <div class="link-of">
+        <div class="knot">ตะกรุด<span class="dot"></span>takrut<span class="dot"></span>the same word,<br>on both sides</div>
+      </div>
+
+      <div class="pane market">
+        <div class="shot"><img src="/assets/landing/takrut-market.jpg" alt="Finished takrut charms in glass vials, for sale today" loading="lazy">
+          <div class="cap">Listed today — the finished charm, in hand</div></div>
+        <div class="tag">In today's market</div>
+        <h3>ตะกรุดเรียกนาง</h3>
+        <div class="th">“Lady-calling takrut,” Luang Phor Tui</div>
+        <p>A finished takrut for sale on a phone this morning — a love-drawing scroll from a
+          named monk, doing exactly the work the old manual describes.</p>
+        <div class="meta">฿300–400 · listed regularly<br>
+          → <a href="https://www.lazada.co.th/catalog/?q=ตะกรุดเรียกนาง" target="_blank" rel="noopener">See listings ↗</a>
+          · <a href="/market">the whole living market</a></div>
+      </div>
+    </div>
+
+    <p class="say">The manuscript is the recipe. The amulet is the result. The word
+      <b>ตะกรุด</b> is written on both — and the tradition is still changing hands.</p>
+  </div>
+</section>
+
+<section class="testimony">
+  <div class="wrap">
+    <div class="eyebrow">The work</div>
+    <h2>An archive, still growing</h2>
+    <div class="testify">
+      <p class="first">This is a home for <b>wichaa</b> — sacred, practical knowledge in every
+        idiom it's kept. It holds the manuscripts of the Thai north, the marketplaces where
+        amulets change hands, and a globe-spanning saint-cult of urgent causes; it will keep
+        growing, and reaching wherever knowledge leads.</p>
+      <p>Everything here is gathered politely — from the public domain, from the open market,
+        from wherever knowledge can be gleaned — and kept for posterity. It is given freely:
+        no ads, no paywall, an offering. In the north they never called it magic, or science.
+        They called it wichaa. There was never a border to cross.</p>
+      <p class="makernote"><b>A note from the maker.</b> NaN. If someone asks me if I'm
+        Buddhist, I say yes. I also say yes to Quaker. I would not say yes to anything else —
+        except believing in <b>nāgas</b>. I follow everything that leads me, with information
+        science. I'd do it for free; I wouldn't mind a cup of 7-Eleven noodles.</p>
+      <p class="tamboon">The archive stays free, always. But the reading is done by
+        machines, and machine-time costs a little — about <b>$0.06</b> to read one page,
+        a few dollars for a whole manual. If you're moved to, you can put a coin in the
+        bowl: it buys the bots time to read one more text, so everyone can have it. That's
+        <i>tam boon</i> — merit made by opening a book for others. And you get to
+        <a href="/activity">watch the bots work</a>.</p>
+      <p class="tamboon-cta">
+        <a class="btn primary" href="https://ko-fi.com/defiantchiangmai" target="_blank" rel="noopener">☕ Make merit on Ko-fi</a>
+        <a class="btn ghost" href="/support">What your gift does →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- The map earns a place here rather than in the widget drawer: it is the one
+     picture that states the whole thesis of the site — the tradition was
+     written in one small place and is traded across a whole country. Inline
+     SVG, so it paints with the page: no iframe, no script, no second request. -->
+<section class="geosec">
+  <div class="wrap geowrap">
+    <div class="geotext">
+      <div class="eyebrow">Where the tradition lives</div>
+      <h2>Written in the north.<br>Traded everywhere.</h2>
+      <p>Every surviving manuscript we have catalogued comes from a handful of
+      northern provinces — the old Lanna kingdom. Every one of those traditions
+      is still being sold, today, from nearly every province in Thailand.</p>
+      <p>The dark land is where the books are. The gold circles are where the
+      amulets ship from. They barely overlap, and that gap is the whole story.</p>
+      <a class="geolink" href="/w/geo">Open the full map &rarr;</a>
+    </div>
+    <div class="geofig">{{GEOMAP}}</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Ways in</div>
+    <h2>Wander wherever it leads you</h2>
+    <div class="ways">
+      <a class="way" href="/browse"><b>Browse</b><span>all {{MANUSCRIPTS}} manuscripts, by place, script, genre</span></a>
+      <a class="way" href="/articles"><b>Articles</b><span>the tradition explained, subject by subject</span></a>
+      <a class="way" href="/graph"><b>Graph</b><span>lersi, yantra, katha — how they connect</span></a>
+      <a class="way" href="/textbooks"><b>Textbooks</b><span>31 manuals of working magic, page by page</span></a>
+      <a class="way" href="/glossary/"><b>Glossary</b><span>the tradition's words, in Thai · English · 中文</span></a>
+      <a class="way" href="/na/"><b>The 108 Na</b><span>142 sacred glyphs, each paired with its page</span></a>
+      <a class="way" href="/moon"><b>The moon complication</b><span>a working dial — two moons on one turning disc</span></a>
+      <a class="way" href="/market"><b>Market</b><span>the same tradition, still trading today</span></a>
+      <a class="way" href="/expedite"><b>St. Expedite</b><span>a global saint-cult of urgent causes — 192 shrines</span></a>
+      <a class="way" href="/wats"><b>Wats of the Lanna north</b><span>{{WATS}} temples mapped, {{WATS_HERITAGE}} heritage-registered</span></a>
+      <a class="way" href="/diagrams"><b>Diagrams</b><span>yantra plates and sak-yant stencils</span></a>
+      <a class="way" href="/widgets"><b>Widgets &amp; shit</b><span>small free tools that do one thing — no accounts, no app store</span></a>
+      <a class="way" href="/explore"><b>The full overview</b><span>counts, facets, and search</span></a>
+    </div>
+    <p class="machines">Built to be read by people <em>and</em> by machines — faithfully.
+      An AI or agent can start at <code>/llms.txt</code> or the <a href="/api/index.json">API index</a>;
+      the whole corpus is open under CC-BY.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="free">Free. Open. No ads, no paywall — an offering for posterity.</p>
+    <p class="sharefoot" aria-label="Share this archive">Share&nbsp;
+      <button data-sh="fb" title="Share on Facebook">f</button>
+      <button data-sh="line" title="Share on LINE">L</button>
+      <button data-sh="tg" title="Share on Telegram">✈</button>
+      <button data-sh="copy" title="Copy link">🔗</button></p>
+    <p><a class="kofi" href="https://ko-fi.com/defiantchiangmai" target="_blank" rel="noopener">☕ Tam boon — sponsor a page</a>
+      &nbsp;·&nbsp; <a href="/support">how support works</a></p>
+    <p>Scholarship &amp; metadata under <a href="/LICENSE">CC-BY 4.0</a>. High-resolution
+      images remain with the libraries that hold them.<br>
+      Built in Chiang Mai by NaN · <a href="mailto:530kings@proton.me">530kings@proton.me</a></p>
+  </div>
+</footer>
+
+<script>(function(){var f=document.querySelector('.sharefoot');if(!f)return;
+f.addEventListener('click',function(e){var b=e.target.closest('[data-sh]');if(!b)return;
+var k=b.getAttribute('data-sh'),u=encodeURIComponent(location.href),t=encodeURIComponent(document.title);
+if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){var o=b.textContent;b.textContent='✓';setTimeout(function(){b.textContent=o;},1500);});}return;}
+var m={fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};
+if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script>
+</body>
+</html>

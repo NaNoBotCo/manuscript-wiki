@@ -1,0 +1,58 @@
+# systemd unit for the live Lanna Manuscript Wiki server.
+#
+# Install (on the VPS, as root):
+#   cp deploy/lanna-wiki.service /etc/systemd/system/
+#   systemctl daemon-reload
+#   systemctl enable --now lanna-wiki
+#
+# Assumes the repo layout from this project is deployed to /opt/lanna/ with
+# both manuscript-wiki/ and manuscript-crawler/ as siblings (wiki.py auto-detects
+# catalog.db at ../manuscript-crawler/crawler/catalog.db — see _resolve_catalog()
+# in wiki.py). Adjust WorkingDirectory/User to match your actual deploy path/user.
+#
+# PORT/CATALOG_DB/STORE_DIR/EPUB_DIR all have sane auto-detected defaults (see
+# wiki.py) — override here only if the deploy layout differs from local dev.
+#
+# ! BEFORE exposing this publicly — do_POST route status:
+#   /api/ocr     GATED (2026-07-12): requests carrying X-Forwarded-For (i.e.
+#                anything arriving through the reverse proxy) get a 403 pointing
+#                at the Ko-fi sponsorship path; only direct localhost calls run
+#                it. Public OCR = /api/kofi-webhook -> queue -> worker.
+#   /api/reveal  STILL OPEN: shells out to `open` (a Finder convenience;
+#                meaningless on headless Linux but still an unauthenticated
+#                subprocess call). Gate the same way or remove before deploy.
+#   /api/annotation, /api/feature  STILL OPEN: unauthenticated local-JSON writes,
+#                low risk but should get the same X-Forwarded-For gate.
+
+[Unit]
+Description=Lanna Manuscript Wiki (public server — see write-route warning above)
+After=network.target
+
+[Service]
+Type=simple
+User=lanna
+WorkingDirectory=/opt/lanna/manuscript-wiki
+ExecStart=/usr/bin/python3 /opt/lanna/manuscript-wiki/wiki.py
+Environment=PORT=4190
+# Sponsored jobs via Ko-fi (donation message "TRANSLATE 6968" or "OCR 6968"):
+# set this to the Verification Token shown at ko-fi.com → Settings → API/Webhooks,
+# and set that page's webhook URL to https://<your-domain>/api/kofi-webhook .
+# Unset → the webhook route answers 503 and sponsorship is simply off.
+#Environment=KOFI_TOKEN=paste-kofi-verification-token-here
+#
+# Sponsored TRANSLATE jobs additionally need the translation engine key; without
+# it they queue politely ("waiting…") and run automatically once it appears.
+# Pricing knobs live in wiki.py next to the webhook: PAGE_TOKENS (measured
+# tokens/page per tier), PRICE_IN/OUT_PER_MTOK, SUSTAIN_MULT=2.5 (donors fund
+# 2.5x raw token cost — the sustainability margin), FX_TO_USD (static, refresh
+# occasionally).
+#Environment=ANTHROPIC_API_KEY=paste-key-here
+Restart=on-failure
+RestartSec=5
+# General hardening (independent of the do_POST issue above — apply regardless):
+NoNewPrivileges=true
+ProtectSystem=full
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

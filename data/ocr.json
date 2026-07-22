@@ -1,0 +1,34 @@
+{
+  "f7d789f9d5e437921c457f24ec1be1cfae8cc618a90f595e3b4ee8e6ac912d1e": {
+    "text": "[VLM first-pass — Claude, NOT an expert-verified transcription]\n\nScript: Tham Lanna (Tai Tham). Support: DLNTM / Chiang Mai University Library digitisation; text in ink on a dark, low-contrast ground (blackened mulberry paper / high-contrast photographic capture). ~11 lines of dense cursive.\nFolio number: ๒ (folio 2), marked top-left.\nWork: \"Holasat\" (โหราศาสตร์) — a Lanna astrology / horoscopy treatise.\n\nBody reading: the hand is regular monastic Tham Lanna, but on this dark ground a faithful glyph-by-glyph transliteration needs contrast-normalisation (see transcribe.py preprocess) plus expert paleographic verification. Not asserting line text here to avoid seeding the corpus with unverified readings. Confidence in body ~0.2; confidence in script + folio number ~0.9.\n\nNote: seq 2 (sha 20048d58…) appears to be a duplicate exposure of this same folio.",
+    "lang": "tai_tham",
+    "engine": "claude-vlm",
+    "script": "tai_tham",
+    "confidence": 0.2,
+    "at": "2026-07-11T05:04:55.533773+00:00"
+  },
+  "20048d582db5e294baca5ca1543b1f191f7f1a824545a415d70e60590980e2dc": {
+    "text": "[VLM first-pass — Claude, NOT an expert-verified transcription]\n\nScript: Tham Lanna (Tai Tham). Support: DLNTM / Chiang Mai University Library digitisation; text in ink on a dark, low-contrast ground (blackened mulberry paper / high-contrast photographic capture). ~11 lines of dense cursive.\nFolio number: ๒ (folio 2), marked top-left.\nWork: \"Holasat\" (โหราศาสตร์) — a Lanna astrology / horoscopy treatise.\n\nBody reading: the hand is regular monastic Tham Lanna, but on this dark ground a faithful glyph-by-glyph transliteration needs contrast-normalisation (see transcribe.py preprocess) plus expert paleographic verification. Not asserting line text here to avoid seeding the corpus with unverified readings. Confidence in body ~0.2; confidence in script + folio number ~0.9.\n\nNote: seq 2 (sha 20048d58…) appears to be a duplicate exposure of this same folio.",
+    "lang": "tai_tham",
+    "engine": "claude-vlm",
+    "script": "tai_tham",
+    "confidence": 0.2,
+    "at": "2026-07-11T05:04:55.751623+00:00"
+  },
+  "4747f46d8e7bdb9684b555fb0bcd0f074ea59acf38156284cda486abd93309cb": {
+    "text": "[VLM first-pass — Claude, NOT an expert-verified transcription]\n\nScript: Tham Lanna (Tai Tham). Support: DLNTM / Chiang Mai University Library; ink on dark low-contrast ground. This capture stacks two folios (upper + lower), each ~15 lines of dense cursive.\nFolio number: ๓ (folio 3), marked top-left.\nWork: \"Holasat\" (โหราศาสตร์) — Lanna astrology / horoscopy.\n\nBody reading: after contrast-normalisation (autocontrast + equalize + unsharp) legibility improves markedly, but a faithful transliteration still needs the multi-pass transcribe.py run + expert review. Withholding line text rather than fabricating. Confidence in body ~0.3 (post-enhancement); script + folio number ~0.9.\n\nNote: seq 4 (sha 303b2917…) appears to be a duplicate exposure of this same folio.",
+    "lang": "tai_tham",
+    "engine": "claude-vlm",
+    "script": "tai_tham",
+    "confidence": 0.3,
+    "at": "2026-07-11T05:04:55.785511+00:00"
+  },
+  "303b29179772e6e8b243a22485b6e08e7c568656c807e76edad4c16017abb736": {
+    "text": "[VLM first-pass — Claude, NOT an expert-verified transcription]\n\nScript: Tham Lanna (Tai Tham). Support: DLNTM / Chiang Mai University Library; ink on dark low-contrast ground. This capture stacks two folios (upper + lower), each ~15 lines of dense cursive.\nFolio number: ๓ (folio 3), marked top-left.\nWork: \"Holasat\" (โหราศาสตร์) — Lanna astrology / horoscopy.\n\nBody reading: after contrast-normalisation (autocontrast + equalize + unsharp) legibility improves markedly, but a faithful transliteration still needs the multi-pass transcribe.py run + expert review. Withholding line text rather than fabricating. Confidence in body ~0.3 (post-enhancement); script + folio number ~0.9.\n\nNote: seq 4 (sha 303b2917…) appears to be a duplicate exposure of this same folio.",
+    "lang": "tai_tham",
+    "engine": "claude-vlm",
+    "script": "tai_tham",
+    "confidence": 0.3,
+    "at": "2026-07-11T05:04:55.821267+00:00"
+  }
+}
