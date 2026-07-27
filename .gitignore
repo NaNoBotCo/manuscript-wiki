@@ -27,3 +27,4 @@ cache/
 
 # machine-local Claude config — absolute paths, not portable
 .claude/settings.local.json
+.claude/launch.json

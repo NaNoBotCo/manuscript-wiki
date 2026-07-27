@@ -11,7 +11,8 @@
   to-the-minute.
 
   Install (one time) — from the manuscript-wiki folder:
-    cp "publishing/com.nanobotco.lannawiki.refresh.plist" ~/Library/LaunchAgents/
+    sed "s|REPO_PATH|$(pwd)|" publishing/com.nanobotco.lannawiki.refresh.plist > /tmp/lannawiki.plist
+    cp /tmp/lannawiki.plist ~/Library/LaunchAgents/com.nanobotco.lannawiki.refresh.plist
     launchctl load  ~/Library/LaunchAgents/com.nanobotco.lannawiki.refresh.plist
   Run once now to test:
     launchctl start com.nanobotco.lannawiki.refresh
@@ -26,7 +27,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>
-    <string>~/Developer/claude code projects/manuscript-wiki/publishing/publish_site.sh</string>
+    <string>REPO_PATH/publishing/publish_site.sh</string>
   </array>
 
   <key>StartCalendarInterval</key>
