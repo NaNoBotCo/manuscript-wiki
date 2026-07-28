@@ -7942,6 +7942,21 @@ SIDE_TOOLS = [
                   ("Download as one file",
                    "https://nanobotco.github.io/skipdjt/skipdjt-offline.html")],
     },
+    {
+        "name": "มดแดง Mot Dang",
+        "url": "https://motdang.net",
+        "tag": "chiang mai · chiang rai · city directory",
+        "blurb": ("A Thai-first city directory for Chiang Mai and Chiang Rai, built the "
+                  "1997 way — categories instead of a search box, counts in parens, "
+                  "no tracking, no pay-to-rank. Wats, food, doctors, markets, real "
+                  "estate, and the good things down every soi."),
+        "facts": ["7,000+ places, sorted into real local categories",
+                  "open data: every category downloads as GeoJSON",
+                  "explicitly welcomes AI crawlers by name in robots.txt"],
+        "card": "https://motdang.net/card.png",
+        "extra": [("Open it", "https://motdang.net"),
+                  ("Why it beats Google here", "https://motdang.net/why.html")],
+    },
 ]
 
 
