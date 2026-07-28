@@ -34,6 +34,7 @@ import os
 import re
 import shutil
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -370,9 +371,47 @@ def main():
               f"Point --out at a 'docs' subfolder of the repo, not the repo root.",
               file=sys.stderr)
         return 1
+    # THE WIPE MUST SPARE WHAT NO GENERATOR OWNS.
+    #
+    # PAGE_SPECS below is hand-maintained and builds 22 pages; routes.py declares
+    # 33. The other eleven — /hun, /jovilabe, /redspot, /divination, /atlas, /need,
+    # /nuea, /trails, /trail/*, /graph-audit — come from modules (hunpayont.py,
+    # jovilabe.py, redspot.py, atlas.py, maproom.py) that are LIBRARIES with no
+    # main() and no CLI, so publish_site.sh cannot invoke them. Their output was
+    # written once and has lived in docs/ ever since.
+    #
+    # An unconditional rmtree therefore deletes eleven live routes on every run and
+    # nothing puts them back. That is what happened on 2026-07-28 03:06: 7,049 files
+    # removed, wichaa.net/hun, /jovilabe and /need serving 404 until restored by hand.
+    #
+    # Until those modules grow real entry points and join the pipeline, the honest
+    # thing is to leave their output alone rather than destroy pages we cannot
+    # rebuild. Everything build_static owns is still wiped and rebuilt from scratch.
+    UNMANAGED = (
+        "hun", "jovilabe", "redspot", "divination", "atlas",
+        "need", "nuea", "trails", "trail", "graph-audit",
+        "api/graph", "api/trails.json",
+    )
     if out.exists():
+        # Move-aside/move-back rather than a filtered walk: it handles the nested
+        # api/… entries for free and never leaves a half-deleted tree behind.
+        keep = Path(tempfile.mkdtemp(prefix="lanna-keep-", dir=out.parent))
+        for rel in UNMANAGED:
+            src = out / rel
+            if src.exists():
+                (keep / rel).parent.mkdir(parents=True, exist_ok=True)
+                shutil.move(str(src), str(keep / rel))
         shutil.rmtree(out)
-    out.mkdir(parents=True)
+        out.mkdir(parents=True)
+        for rel in UNMANAGED:
+            src = keep / rel
+            if src.exists():
+                (out / rel).parent.mkdir(parents=True, exist_ok=True)
+                shutil.move(str(src), str(out / rel))
+        shutil.rmtree(keep, ignore_errors=True)
+        print(f"  preserved {len(UNMANAGED)} unmanaged route(s) across the wipe")
+    else:
+        out.mkdir(parents=True)
     print(f"Building static site → {out}")
     print(f"  catalogue: {wiki.CATALOG_DB}")
     print(f"  base path: {base}")

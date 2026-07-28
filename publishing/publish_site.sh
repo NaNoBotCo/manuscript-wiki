@@ -182,6 +182,21 @@ if grep -rIl -e "/Users/" -e "/home/" -e "$HOME" "$SITE_REPO/docs" \
   exit 2
 fi
 
+# 2c. COMPLETENESS GATE — runs after EVERY generator, immediately before `git add`.
+#     The privacy gate above catches what should not ship; this catches what did not
+#     get built. On 2026-07-22 a publish pushed a site missing fifteen directories
+#     (/moon, /hun, /support, /articles, /expedite …) because the build reached its
+#     end, printed ERRORS: 0 and exited 0 — success only ever meant "did not crash".
+#     verify_build.py was written that day but never wired in here, so on 2026-07-28
+#     the same collapse shipped again: 7,049 files removed, /hun /jovilabe /need
+#     serving 404 on wichaa.net. It walks routes.py against what is on disk.
+#     Exit non-zero stops the publish BEFORE the commit rather than after the push.
+log "Completeness gate → verify_build.py against routes.py"
+"$PY" "$WIKI_DIR/verify_build.py" --docs "$SITE_REPO/docs" || {
+  echo "✗ incomplete build — NOT publishing (nothing committed, nothing pushed)" >&2
+  exit 3
+}
+
 # 3. commit only if the working tree changed
 cd "$SITE_REPO"
 git add docs
