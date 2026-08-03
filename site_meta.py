@@ -755,6 +755,26 @@ def dataset_jsonld(docs: Path, site: str) -> dict:
     }
 
 
+def website_jsonld(site: str) -> dict:
+    """WebSite + SearchAction (the sitelinks-searchbox lever) and a top-level
+    Organization — homepage-only, per Google's own guidance for this markup.
+    /browse?q=... is a real, working search route (see wiki.py NAV/search wiring)."""
+    return {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "wichaa",
+        "url": site + "/",
+        "publisher": {"@type": "Organization", "name": "NaNoBotCo",
+                      "url": site + "/", "email": "530kings@proton.me"},
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {"@type": "EntryPoint",
+                      "urlTemplate": f"{site}/browse?q={{search_term_string}}"},
+            "query-input": "required name=search_term_string",
+        },
+    }
+
+
 def manuscript_jsonld(rec: dict, site: str, mid: str, docs: Path | None = None) -> dict:
     ms = rec.get("manuscript", rec) if isinstance(rec, dict) else {}
     title = ms.get("title") or ms.get("titleEnglish") or ms.get("titleThai") or f"Manuscript {mid}"
@@ -985,7 +1005,10 @@ def main(argv=None) -> int:
                                  SECTION_DESC.get(route, SITE_DESC))
         elif not re.search(r'name=[\'"]keywords', cur):
             extra += f'<meta name="keywords" content="{kw}">'
-        if inject(hp, [ds], extra=extra):
+        # WebSite+SearchAction+Organization is sitelinks-searchbox markup — Google's
+        # own guidance is homepage-only, not repeated on every section page.
+        blocks = [ds, website_jsonld(site)] if route == "" else [ds]
+        if inject(hp, blocks, extra=extra):
             n_pages += 1
     # per-manuscript CreativeWork JSON-LD into each pre-rendered reader page
     n_read = 0

@@ -8006,7 +8006,9 @@ SIDE_TOOLS_CSS = """
 """
 
 SIDE_TOOLS_PAGE = page(
-    "Widgets & shit \u2014 wichaa",
+    # <title>/og:title only \u2014 this is what search engines index and display in
+    # results, so it stays clean while the on-page H1 below keeps the real voice.
+    "Widgets \u2014 wichaa",
     SIDE_TOOLS_CSS,
     "<header><div><h1>Widgets &amp; shit</h1>"
     "<p class=sub>Small tools that do one thing, built because something needed "

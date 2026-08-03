@@ -55,6 +55,9 @@ os.environ.setdefault("CATALOG_DB", str(_default_db))
 os.environ.setdefault("STORE_DIR", str(Path(os.environ["CATALOG_DB"]).parent / "store"))
 
 import wiki  # noqa: E402  (env must be set first)
+import cartography  # noqa: E402
+import manuscript_pages  # noqa: E402
+import article_pages  # noqa: E402
 
 
 # ---- the client shim, injected into every page -----------------------------------
@@ -543,6 +546,10 @@ def main():
     # 3. per-manuscript detail (raw scans not bundled → hasLocal forced False) ----
     ms_ids = [r["id"] for r in wiki.all_manuscripts()]
     reader_ids = []  # manuscripts with ≥1 transcribed page — get a static /read export
+    # Knowledge graph, built once — feeds each manuscript's "threads" (named lateral
+    # relations with receipts), the one field manuscript_pages.page_html() renders
+    # that manuscript_detail() doesn't already carry. See cartography.threads_for().
+    g, _cart_meta = cartography.build()
     for mid in ms_ids:
         det = wiki.manuscript_detail(mid)
         if not det:
@@ -556,6 +563,15 @@ def main():
             reader_ids.append(mid)
         write_json(api / "manuscript" / f"{mid}.json",
                    {"manuscript": det, "annotation": {"notes": "", "tags": []}})
+
+        # 3a. /m/<id>/ — a real, server-rendered, indexable page per manuscript (Phase
+        # F, decision 6 in manuscript_pages.py). /m?id=<id> stays the interactive SPA;
+        # this is the door search engines and share-unfurlers actually see.
+        det["threads"] = cartography.threads_for(g, f"ms:{mid}")
+        write_text(out / "m" / str(mid) / "index.html",
+                   inject(manuscript_pages.page_html(det, wiki, base), base))
+        manifest.append({"route": f"m/{mid}/",
+                          "label": det.get("title") or f"Manuscript {mid}", "kind": "entity"})
     print(f"  · {len(ms_ids)} manuscript details")
 
     # 3b. bilingual reader pages (/read?id=N) — fully server-rendered (no client-side
@@ -620,6 +636,12 @@ def main():
             print(f"    ! slug collision: {key} vs {seen[slug]} → {slug}", file=sys.stderr)
         seen[slug] = key
         write_json(api / "article" / f"{slug}.json", prof)
+        # /a/<slug>/ — a real, server-rendered, indexable page per subject (same
+        # "two doors" fix as /m/<id>/). /a?id=<key> stays the interactive view.
+        write_text(out / "a" / slug / "index.html",
+                   inject(article_pages.page_html(prof, slug, wiki), base))
+        manifest.append({"route": f"a/{slug}/", "label": prof.get("label") or value,
+                          "kind": "entity"})
         n_art += 1
     print(f"  · {n_art} articles")
 

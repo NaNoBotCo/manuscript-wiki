@@ -109,7 +109,19 @@ def build_data(db: Path):
 def render_page(data, site):
     entries_json = json.dumps(data["entries"], ensure_ascii=False)
     langs_json = json.dumps(LANGS, ensure_ascii=False)
+    jsonld = json.dumps({
+        "@context": "https://schema.org", "@type": "DefinedTermSet",
+        "name": "Glossary of wichaa", "url": f"{site}/glossary/",
+        "description": ("A multilingual glossary of Northern Thai wichaa — the terms of "
+                        "the tradition, in Thai, English and 中文."),
+        "hasDefinedTerm": [
+            {"@type": "DefinedTerm", "name": e["term"], "alternateName": e["roman"],
+             "description": e["glosses"].get("en", ""), "inDefinedTermSet": f"{site}/glossary/"}
+            for e in data["entries"]
+        ],
+    }, ensure_ascii=False)
     return PAGE.replace("{{SITE}}", site).replace("{{COUNT}}", str(data["count"]))\
+        .replace("{{JSONLD}}", jsonld)\
         .replace("{{ENTRIES}}", entries_json).replace("{{LANGS}}", langs_json)
 
 
@@ -127,6 +139,7 @@ PAGE = r"""<!doctype html>
 <meta property="og:image" content="{{SITE}}/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{SITE}}/og.jpg">
+<script type="application/ld+json">{{JSONLD}}</script>
 <style>
  :root{--bg:#f4efe3;--panel:#fdfbf5;--ink:#26302a;--muted:#6d6455;--gold:#a8791e;
   --gold-soft:#c9a24a;--crimson:#8c3b2e;--line:#e5dcc7;

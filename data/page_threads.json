@@ -1,0 +1,40 @@
+{
+  "_comment": "Curated page-level threads (WAYFINDING_PLAN.md Phase B). Each entry TRANSCRIBES a relation the site already asserts in routes.py descriptions/comments — editorial site structure, provenance=authored, like the landing doors. rel keys come from strings.PAIRS. Injected before </main> by build_static.py.",
+  "/moon": [
+    {"href": "/jovilabe", "rel": "paired", "label": "The Jovilabe", "note": "same method, a far bigger mechanism"},
+    {"href": "/redspot", "rel": "paired", "label": "The Red Spot dial"},
+    {"href": "/hun", "rel": "see_also", "label": "Hun Payont", "note": "it reads the moon too"},
+    {"href": "/a?s=genre:astrology", "rel": "about", "label": "Astrology — the reckoning of time"}
+  ],
+  "/jovilabe": [
+    {"href": "/moon", "rel": "paired", "label": "The moon complication", "note": "its smaller cousin"},
+    {"href": "/redspot", "rel": "paired", "label": "The Red Spot dial", "note": "the same four moons, seen from inside"},
+    {"href": "/a?s=genre:astrology", "rel": "about", "label": "Astrology — the reckoning of time"}
+  ],
+  "/redspot": [
+    {"href": "/jovilabe", "rel": "paired", "label": "The Jovilabe", "note": "its mirror image"},
+    {"href": "/moon", "rel": "see_also", "label": "The moon complication"}
+  ],
+  "/hun": [
+    {"href": "/moon", "rel": "see_also", "label": "The moon complication", "note": "the effigy reads the same moon"},
+    {"href": "/market", "rel": "see_also", "label": "Living market", "note": "where it goes shopping"}
+  ],
+  "/market": [
+    {"href": "/w/geo", "rel": "see_also", "label": "Geography widget", "note": "manuscript heartland vs market, shareable"},
+    {"href": "/w/prices", "rel": "see_also", "label": "Prices widget"},
+    {"href": "/w/regions", "rel": "see_also", "label": "Regions widget"},
+    {"href": "/w/trends", "rel": "see_also", "label": "Trends widget"}
+  ],
+  "/widgets": [
+    {"href": "/w", "rel": "includes", "label": "The data-widget shelf", "note": "6 shareable, embeddable data views"},
+    {"href": "/w/geo", "rel": "includes", "label": "Geography — corpus vs market"},
+    {"href": "/w/prices", "rel": "includes", "label": "Prices"},
+    {"href": "/w/regions", "rel": "includes", "label": "Regions"},
+    {"href": "/w/trends", "rel": "includes", "label": "Trends"},
+    {"href": "/w/products", "rel": "includes", "label": "Newest listings"},
+    {"href": "/w/answers", "rel": "includes", "label": "Thai Answers feed"}
+  ],
+  "/wats": [
+    {"href": "/wats/app/", "rel": "install_app", "label": "Wat map — offline app", "note": "installable, works with no signal"}
+  ]
+}

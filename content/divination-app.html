@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taoist Oracle</title>
+<style>
+  :root{
+    --bg:#f4efe6; --panel:#fffdf8; --ink:#241f18; --muted:#6b5f4d;
+    --line:#d8cdb8; --yang:#2f2a20; --yin:#2f2a20;
+    --accent:#b23a2e; --accent2:#1f6f6a; --good:#1f6f6a; --bad:#b23a2e;
+    --shadow:0 2px 10px rgba(60,45,20,.12);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#14120e; --panel:#201c15; --ink:#f0e9db; --muted:#b6a988;
+      --line:#3a3327; --yang:#f0e9db; --yin:#f0e9db;
+      --accent:#e0705f; --accent2:#5fc7bf; --good:#5fc7bf; --bad:#e0705f;
+      --shadow:0 2px 14px rgba(0,0,0,.5);
+    }
+  }
+  *{box-sizing:border-box}
+  html{font-size:20px}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Georgia,"Songti SC",serif;
+    line-height:1.5; padding:1.2rem;
+  }
+  .wrap{max-width:52rem; margin:0 auto}
+  h1{font-size:2rem; margin:.2rem 0 .1rem; letter-spacing:.02em}
+  .sub{color:var(--muted); margin:0 0 1.4rem; font-size:1.05rem}
+  .methods{display:grid; grid-template-columns:1fr; gap:.7rem; margin-bottom:1.2rem}
+  @media(min-width:640px){.methods{grid-template-columns:1fr 1fr}}
+  button.method{
+    font:inherit; font-size:1.15rem; text-align:left; cursor:pointer;
+    background:var(--panel); color:var(--ink); border:2px solid var(--line);
+    border-radius:14px; padding:1rem 1.1rem; box-shadow:var(--shadow);
+    transition:border-color .15s, transform .05s;
+  }
+  button.method:hover{border-color:var(--accent)}
+  button.method:active{transform:translateY(1px)}
+  button.method .zh{font-size:1.3rem; margin-right:.4rem}
+  button.method small{display:block; color:var(--muted); font-size:.9rem; margin-top:.25rem}
+  .numrow{display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; margin:.6rem 0}
+  .numrow input{
+    font:inherit; font-size:1.3rem; width:6rem; padding:.4rem .6rem;
+    border:2px solid var(--line); border-radius:10px; background:var(--panel); color:var(--ink);
+  }
+  .numrow button, .go{
+    font:inherit; font-size:1.1rem; cursor:pointer; background:var(--accent); color:#fff;
+    border:none; border-radius:10px; padding:.55rem 1.1rem;
+  }
+  #out{margin-top:.4rem}
+  .card{
+    background:var(--panel); border:2px solid var(--line); border-radius:16px;
+    padding:1.3rem 1.4rem; box-shadow:var(--shadow); margin-bottom:1.1rem;
+  }
+  .card h2{margin:.1rem 0 .1rem; font-size:1.5rem}
+  .card .meta{color:var(--muted); font-size:1rem; margin-bottom:.9rem}
+  .pair{display:grid; grid-template-columns:1fr; gap:1.1rem}
+  @media(min-width:620px){.pair{grid-template-columns:1fr 1fr}}
+  .hexbox{}
+  .hexbox .cap{font-size:1rem; color:var(--muted); margin-bottom:.5rem; text-transform:uppercase; letter-spacing:.08em}
+  .hex .ln{display:flex; align-items:center; gap:.7rem; height:1.5rem; margin:.42rem 0}
+  .bar{height:100%; flex:1; border-radius:4px; background:var(--yang)}
+  .yin{display:flex; gap:14%; flex:1; height:100%}
+  .yin .bar{flex:1}
+  .ln.move .bar{background:var(--accent)}
+  .ln .tag{width:2.6rem; font-size:.85rem; color:var(--accent); text-align:left}
+  .name{margin-top:.7rem; font-size:1.55rem; font-weight:600}
+  .name .num{color:var(--muted); font-weight:400; font-size:1.1rem}
+  .tri{color:var(--muted); font-size:1rem; margin-top:.2rem}
+  .gloss{margin-top:.6rem; font-size:1.1rem}
+  .verdict{margin-top:1rem; padding:.9rem 1rem; border-radius:12px; font-size:1.15rem;
+    border-left:6px solid var(--accent2); background:color-mix(in srgb, var(--accent2) 12%, transparent)}
+  .verdict.good{border-left-color:var(--good)}
+  .verdict.bad{border-left-color:var(--bad)}
+  table.sheet{width:100%; border-collapse:collapse; font-size:1.05rem; margin-top:.5rem}
+  table.sheet td{padding:.3rem .5rem; border-bottom:1px solid var(--line); white-space:nowrap}
+  table.sheet .g{width:34%}
+  .miniyang,.miniyin{display:inline-block; vertical-align:middle}
+  .miniyang{width:2.6rem;height:.7rem;background:var(--yang);border-radius:3px}
+  .miniyin{width:2.6rem;height:.7rem;background:linear-gradient(90deg,var(--yin) 40%,transparent 40% 60%,var(--yin) 60%)}
+  .miniyang.m,.miniyin.m{outline:2px solid var(--accent)}
+  .facts{margin-top:1rem; font-size:1.05rem; color:var(--ink)}
+  .facts b{color:var(--muted); font-weight:600}
+  .hint{color:var(--muted); font-size:1rem; margin-top:.9rem}
+  details.odds{background:var(--panel); border:2px solid var(--line); border-radius:14px;
+    padding:.3rem 1.1rem; margin-bottom:1.2rem; box-shadow:var(--shadow)}
+  details.odds summary{cursor:pointer; font-size:1.1rem; padding:.6rem 0; color:var(--ink)}
+  details.odds[open] summary{color:var(--accent); margin-bottom:.4rem}
+  table.odds{width:100%; border-collapse:collapse; font-size:1.05rem; margin:.4rem 0 1rem}
+  table.odds th,table.odds td{padding:.4rem .5rem; text-align:right; border-bottom:1px solid var(--line)}
+  table.odds th:first-child,table.odds td:first-child{text-align:left}
+  table.odds th{color:var(--muted); font-weight:600}
+  table.odds tr.move td{color:var(--accent)}
+  .odds p{font-size:1.05rem; margin:.5rem 0}
+  .odds b{color:var(--muted)}
+  /* --- yarrow ritual animation --- */
+  .animtoggle{display:inline-flex; align-items:center; gap:.5rem; color:var(--muted);
+    font-size:1rem; margin:-.5rem 0 1.2rem; cursor:pointer}
+  .animtoggle input{width:1.1rem; height:1.1rem; accent-color:var(--accent)}
+  .stage{background:var(--panel); border:2px solid var(--line); border-radius:16px;
+    padding:1.3rem 1.4rem; box-shadow:var(--shadow); margin-bottom:1.1rem}
+  .stagehead{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:1rem}
+  .stagehead .cap{color:var(--muted); font-size:1.05rem}
+  .stagehead .skip{color:var(--muted); font-size:.9rem; cursor:pointer; border-bottom:1px dotted var(--muted)}
+  .mat{display:flex; justify-content:center; align-items:flex-end; gap:2px; min-height:46px}
+  .stalk{width:4px; height:38px; border-radius:2px; flex:0 0 auto;
+    background:linear-gradient(180deg,#c9a24b,#8a6c2a);
+    transition:opacity .5s ease, width .5s ease, margin .4s ease, filter .4s ease}
+  .stalk.in{opacity:0}
+  .stalk.pivot{margin-left:26px}
+  .stalk.gone{opacity:0; width:0}
+  .stalk.glow{filter:brightness(1.25) drop-shadow(0 0 4px rgba(201,162,75,.75))}
+  .counts{color:var(--muted); font-size:1.05rem; margin-top:.9rem; min-height:1.5rem; text-align:center}
+  .buildhex{margin-top:1.2rem; display:flex; flex-direction:column; gap:.42rem; align-items:center}
+  .brow{display:flex; gap:.7rem; width:220px; height:20px; align-items:center}
+  .brow .bar{height:100%; flex:1; border-radius:4px; background:var(--yang)}
+  .brow .yin{display:flex; gap:14%; flex:1; height:100%}
+  .brow.ph{opacity:.16}
+  .brow.ph::before{content:""; flex:1; height:100%; border:1.5px dashed var(--muted); border-radius:4px}
+  .brow.move .bar{background:var(--accent)}
+  @media (prefers-color-scheme:dark){.stalk{background:linear-gradient(180deg,#d8b45c,#7d611f)}}
+  @media (prefers-reduced-motion:reduce){.stalk{transition:none}}
+  /* --- intention field --- */
+  .intent-wrap{margin-bottom:1.2rem}
+  .intent-wrap input{width:100%; font:inherit; font-size:1.2rem; padding:.75rem 1rem;
+    border:2px solid var(--line); border-radius:12px; background:var(--panel); color:var(--ink)}
+  .intent-wrap input:focus{outline:none; border-color:var(--accent)}
+  .qline{font-size:1.25rem; font-style:italic; margin:0 0 1rem; padding-left:.9rem;
+    border-left:4px solid var(--accent)}
+  /* --- interpretation blocks --- */
+  .judg{margin:1.1rem 0; padding:1rem 1.1rem; border-radius:12px; border:1px solid var(--line);
+    background:color-mix(in srgb, var(--accent2) 7%, transparent)}
+  .judg .zh{font-size:1.4rem; line-height:1.4}
+  .judg .en{font-size:1.1rem; margin-top:.35rem}
+  .judg .src{font-size:.85rem; color:var(--muted); margin-top:.4rem}
+  .protocol{margin:1rem 0; padding:.85rem 1rem; border-radius:12px; font-size:1.1rem;
+    border-left:5px solid var(--accent); background:color-mix(in srgb, var(--accent) 9%, transparent)}
+  h3.sec{font-size:1.2rem; margin:1.4rem 0 .6rem; color:var(--muted); letter-spacing:.03em}
+  .lines2{display:flex; flex-direction:column; gap:.55rem}
+  .lrow{display:flex; gap:.85rem; align-items:flex-start; padding:.7rem .8rem; border-radius:10px;
+    border:1px solid transparent}
+  .lrow.moving{border-color:var(--accent); background:color-mix(in srgb, var(--accent) 8%, transparent)}
+  .lrow .lg{flex:0 0 auto; padding-top:.35rem}
+  .lrow .lg .miniyang,.lrow .lg .miniyin{width:2.4rem}
+  .lrow .lt{flex:1}
+  .lrow .lhead{font-size:1.05rem; font-weight:600}
+  .lrow.moving .lhead{color:var(--accent)}
+  .lrow .lzh{font-size:1.2rem; margin-top:.2rem}
+  .lrow .len{font-size:1.05rem; margin-top:.15rem}
+  .lrow .ldoc{font-size:.92rem; color:var(--muted); margin-top:.3rem}
+  .transl-note{font-size:.85rem; color:var(--muted); margin-top:1rem; font-style:italic}
+  .jlist{display:flex; flex-direction:column; gap:.7rem}
+  .jrow{padding:.6rem .8rem; border:1px solid var(--line); border-radius:10px}
+  .jw{font-size:.9rem; color:var(--muted)}
+  .jq{font-style:italic; margin:.15rem 0}
+  .jh{font-size:1.05rem}
+  /* --- bazi --- */
+  .bzform{display:flex; gap:.6rem; flex-wrap:wrap; align-items:end; margin:.6rem 0}
+  .bzform label{display:flex; flex-direction:column; font-size:.85rem; color:var(--muted); gap:.2rem}
+  .bzform input,.bzform select{font:inherit; font-size:1.15rem; padding:.4rem .5rem;
+    border:2px solid var(--line); border-radius:9px; background:var(--panel); color:var(--ink)}
+  .bzform input{width:5rem}
+  .pillars4{display:grid; grid-template-columns:repeat(4,1fr); gap:.7rem; margin:1rem 0}
+  @media(max-width:620px){.pillars4{grid-template-columns:1fr 1fr}}
+  .pcol{border:1px solid var(--line); border-radius:12px; padding:.7rem .7rem; text-align:center}
+  .pcol.dayp{border-color:var(--accent); background:color-mix(in srgb, var(--accent) 6%, transparent)}
+  .pcol .plab{font-size:.82rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em}
+  .pcol .pgz{font-size:2rem; margin:.15rem 0}
+  .pcol .pan{font-size:.9rem; color:var(--muted)}
+  .pcol .pgod{margin-top:.35rem; font-size:.98rem}
+  .pcol .phid{margin-top:.45rem; font-size:.82rem; color:var(--muted); line-height:1.55}
+  .pcol .pny{margin-top:.45rem; font-size:.8rem; color:var(--muted)}
+  .elrow{display:flex; flex-direction:column; gap:.35rem; margin:.8rem 0; max-width:440px}
+  .elbar{display:flex; align-items:center; gap:.6rem}
+  .elbar .eln{width:5.5rem; font-size:1rem}
+  .elbar .elt{height:.85rem; background:var(--accent2); border-radius:5px; min-width:2px}
+  .elbar .elz{font-size:.85rem; color:var(--muted)}
+  .elbar.absent .eln{opacity:.6}
+  .luckrow{display:flex; gap:.5rem; flex-wrap:wrap; margin:.6rem 0}
+  .luckp{border:1px solid var(--line); border-radius:9px; padding:.4rem .6rem; text-align:center; font-size:.9rem}
+  .luckp b{display:block; font-size:1.15rem}
+  .luckp span{color:var(--muted); font-size:.78rem}
+  .tests{font-size:.8rem;color:var(--muted);margin-top:2rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>☯ Taoist Oracle</h1>
+  <p class="sub">Cast-oracle methods on one engine — I Ching, Plum Blossom, Wen Wang Gua.</p>
+
+  <div class="intent-wrap">
+    <input id="intent" type="text" autocomplete="off"
+      placeholder="Hold a question or intention (optional)…">
+  </div>
+
+  <div class="methods" id="menu"></div>
+
+  <label class="animtoggle"><input type="checkbox" id="anim" checked> Animate the yarrow ritual (the 49-stalk casting)</label>
+
+  <details class="odds" id="guide">
+    <summary>ⓘ Which method, when? — how to choose</summary>
+    <div id="guidebody"></div>
+  </details>
+
+  <details class="odds" id="odds">
+    <summary>ⓘ About the odds — three coins vs. yarrow stalks</summary>
+    <div id="oddsbody"></div>
+  </details>
+
+  <div id="controls"></div>
+  <div id="out"></div>
+
+  <details class="odds" id="journal">
+    <summary>📓 Journal — past readings <span id="jcount"></span></summary>
+    <div id="journalbody"></div>
+  </details>
+
+  <div class="tests" id="tests"></div>
+</div>
+
+<script>
+"use strict";
+/*ZHOUYI_DATA_START*/
+const ZHOUYI_DATA = {"1":{"name":"乾","judg":{"zh":"乾：元亨，利貞。","en":"The Creative. Great and originating, penetrating; it furthers firm correctness."},"lines":[{"zh":"潛龍，勿用。","en":"A hidden dragon. Do not act."},{"zh":"見龍在田，利見大人。","en":"The dragon appears in the field. It furthers one to see the great person."},{"zh":"君子終日乾乾，夕惕若，厲，无咎。","en":"The noble one is active all day and watchful at nightfall. Danger, but no blame."},{"zh":"或躍在淵，无咎。","en":"Wavering flight over the deep. No blame."},{"zh":"飛龍在天，利見大人。","en":"A dragon flying in the sky. It furthers one to see the great person."},{"zh":"亢龍有悔。","en":"An arrogant dragon has cause to repent."}],"extra":{"zh":"見群龍无首，吉。","en":"A host of dragons appears, none as head. Good fortune."}},"2":{"name":"坤","judg":{"zh":"坤：元亨，利牝馬之貞。君子有攸往，先迷後得主，利西南得朋，東北喪朋。安貞，吉。","en":"The Receptive. Great and originating, furthering through the constancy of a mare. The noble one has somewhere to go: leading, he goes astray; following, he finds a lord. Gain friends in the southwest, lose them in the northeast. Rest in constancy — good fortune."},"lines":[{"zh":"履霜，堅冰至。","en":"Treading on hoarfrost — hard ice is coming."},{"zh":"直，方，大，不習无不利。","en":"Straight, square, great. Without effort, nothing is unfavorable."},{"zh":"含章可貞。或從王事，无成有終。","en":"Hidden excellence, kept firm. If you serve the king, claim no success, but bring things to a close."},{"zh":"括囊；无咎，无譽。","en":"A tied-up sack. No blame, no praise."},{"zh":"黃裳，元吉。","en":"A yellow lower garment. Supreme good fortune."},{"zh":"龍戰于野，其血玄黃。","en":"Dragons fight in the meadow; their blood is black and yellow."}],"extra":{"zh":"利永貞。","en":"Furthering through enduring constancy."}},"3":{"name":"屯","judg":{"zh":"屯：元亨，利貞，勿用有攸往，利建侯。","en":"Difficulty at the beginning. Great and originating, furthering constancy. Do not set out anywhere. It furthers one to appoint helpers."},"lines":[{"zh":"磐桓；利居貞，利建侯。","en":"Hesitation, holding back. It furthers dwelling in constancy and appointing helpers."},{"zh":"屯如邅如，乘馬班如。匪寇婚媾，女子貞不字，十年乃字。","en":"Beset and turning back, horses pulling away. Not a robber but a suitor. The maiden stays firm and does not pledge; after ten years she pledges."},{"zh":"即鹿无虞，惟入于林中，君子幾不如舍，往吝。","en":"Chasing deer with no forester, only deeper into the woods. The noble one reads the signs and lets go; to go on brings regret."},{"zh":"乘馬班如，求婚媾，往吉，无不利。","en":"Horses pulling away. Seek the union — to go brings fortune; nothing is unfavorable."},{"zh":"屯其膏，小貞吉，大貞凶。","en":"Hoarding the bounty. In small things, constancy is fortunate; in great things, ill."},{"zh":"乘馬班如，泣血漣如。","en":"Horses pulling away; weeping tears of blood in streams."}],"extra":null},"4":{"name":"蒙","judg":{"zh":"蒙：亨。匪我求童蒙，童蒙求我。初筮告，再三瀆，瀆則不告。利貞。","en":"Youthful folly. Success. I do not seek the young fool; the young fool seeks me. The first divination I answer; ask twice or thrice and it profanes — the profaned I do not answer. It furthers constancy."},"lines":[{"zh":"發蒙，利用刑人，用說桎梏，以往吝。","en":"To open folly, it helps to apply discipline and remove fetters; but to go on that way brings regret."},{"zh":"包蒙吉；納婦吉；子克家。","en":"To bear with the foolish brings fortune; to take a wife brings fortune; the son can keep the house."},{"zh":"勿用取女；見金夫，不有躬，无攸利。","en":"Do not take this woman: seeing a man of gold she loses herself. Nothing furthers."},{"zh":"困蒙，吝。","en":"Trapped in folly. Regret."},{"zh":"童蒙，吉。","en":"Childlike folly. Good fortune."},{"zh":"擊蒙；不利為寇，利禦寇。","en":"Striking at folly. It does not help to play the robber; it helps to fend off robbers."}],"extra":null},"5":{"name":"需","judg":{"zh":"需：有孚，光亨，貞吉。利涉大川。","en":"Waiting. With sincerity, radiant success; constancy brings fortune. It furthers crossing the great water."},"lines":[{"zh":"需于郊。利用恆，无咎。","en":"Waiting in the meadow. It helps to stay constant; no blame."},{"zh":"需于沙。小有言，終吉。","en":"Waiting on the sand. A little talk against you; in the end, fortune."},{"zh":"需于泥，致寇至。","en":"Waiting in the mud. It invites the robbers."},{"zh":"需于血，出自穴。","en":"Waiting in blood. Get out of the pit."},{"zh":"需于酒食，貞吉。","en":"Waiting with wine and food. Constancy brings fortune."},{"zh":"入于穴，有不速之客三人來，敬之終吉。","en":"Into the pit. Three uninvited guests arrive; honor them and the end is fortunate."}],"extra":null},"6":{"name":"訟","judg":{"zh":"訟：有孚，窒。惕中吉。終凶。利見大人，不利涉大川。","en":"Conflict. Sincerity blocked. Caution and balance bring fortune; carried to the end, ill. It furthers seeing the great person; it does not further crossing the great water."},"lines":[{"zh":"不永所事，小有言，終吉。","en":"Do not prolong the matter. A little talk against you; the end is fortunate."},{"zh":"不克訟，歸而逋，其邑人三百戶，无眚。","en":"You cannot win the dispute; go home and withdraw. Your town of three hundred households stays free of harm."},{"zh":"食舊德，貞厲，終吉，或從王事，无成。","en":"Live on old virtue. Firmness amid danger; the end is fortunate. If you serve the king, claim no success."},{"zh":"不克訟，復即命渝，安貞吉。","en":"You cannot win; turn back to accept fate and change course. Rest in constancy — fortune."},{"zh":"訟元吉。","en":"To arbitrate the dispute. Supreme good fortune."},{"zh":"或錫之鞶帶，終朝三褫之。","en":"Granted a leather belt of honor — thrice torn away before the morning ends."}],"extra":null},"7":{"name":"師","judg":{"zh":"師：貞，丈人，吉无咎。","en":"The Army. Constancy and a seasoned leader — good fortune, no blame."},"lines":[{"zh":"師出以律，否臧凶。","en":"The army marches by discipline; without it, however good the cause, ill."},{"zh":"在師中吉，无咎，王三錫命。","en":"In the midst of the army — fortune, no blame. The king thrice confers his charge."},{"zh":"師或輿尸，凶。","en":"The army may cart corpses home. Ill."},{"zh":"師左次，无咎。","en":"The army camps and draws back. No blame."},{"zh":"田有禽，利執言，无咎。長子帥師，弟子輿尸，貞凶。","en":"Game in the field; it helps to seize it, no blame. Let the eldest lead the host; if the young lead, they cart corpses. Constancy against ill."},{"zh":"大君有命，開國承家，小人勿用。","en":"The great ruler issues commands, founds states and families. Do not employ small men."}],"extra":null},"8":{"name":"比","judg":{"zh":"比：吉。原筮元永貞，无咎。不寧方來，後夫凶。","en":"Holding Together. Good fortune. Inquire again: are you great, enduring, firm? Then no blame. The restless come; those who come late meet ill."},"lines":[{"zh":"有孚，比之，无咎。有孚盈缶，終來有它吉。","en":"Sincerity in holding together — no blame. Sincerity brimming like a full jar; in the end other good fortune comes."},{"zh":"比之自內，貞吉。","en":"Holding together from within. Constancy brings fortune."},{"zh":"比之匪人。","en":"Holding together with the wrong people."},{"zh":"外比之，貞吉。","en":"Holding together with those beyond. Constancy brings fortune."},{"zh":"顯比，王用三驅，失前禽。邑人不誡，吉。","en":"Manifest union. The king hunts on three sides, letting the game before him go. The townsfolk need no warning. Good fortune."},{"zh":"比之无首，凶。","en":"Holding together without a head. Ill."}],"extra":null},"9":{"name":"小畜","judg":{"zh":"小畜：亨。密雲不雨，自我西郊。","en":"Small Taming. Success. Dense clouds, no rain, from our western fields."},"lines":[{"zh":"復自道，何其咎，吉。","en":"Return to your own road — what blame in that? Good fortune."},{"zh":"牽復，吉。","en":"Drawn back to return. Good fortune."},{"zh":"輿說輻，夫妻反目。","en":"The cart loses its spokes; husband and wife avert their eyes."},{"zh":"有孚，血去惕出，无咎。","en":"Sincerity; blood departs, fear leaves. No blame."},{"zh":"有孚攣如，富以其鄰。","en":"Sincerity binding others; rich, and sharing with the neighbor."},{"zh":"既雨既處，尚德載，婦貞厲。月幾望，君子征凶。","en":"The rain has come, things rest; virtue is carried full. For the wife, firmness amid danger. The moon nearly full; if the noble one presses on, ill."}],"extra":null},"10":{"name":"履","judg":{"zh":"履：履虎尾，不咥人，亨。","en":"Treading. Treading on the tiger's tail; it does not bite. Success."},"lines":[{"zh":"素履，往无咎。","en":"Simple conduct. To go brings no blame."},{"zh":"履道坦坦，幽人貞吉。","en":"Treading a smooth, level road. For the quiet recluse, constancy brings fortune."},{"zh":"眇能視，跛能履，履虎尾，咥人，凶。武人為于大君。","en":"The one-eyed think they see, the lame think they walk; treading the tiger's tail, they are bitten. Ill. A bravo playing the great ruler."},{"zh":"履虎尾，愬愬，終吉。","en":"Treading the tiger's tail with wary dread; the end is fortunate."},{"zh":"夬履，貞厲。","en":"Resolute treading. Firmness amid danger."},{"zh":"視履考祥，其旋元吉。","en":"Look back over your conduct and weigh the omens; if the round is complete, supreme good fortune."}],"extra":null},"11":{"name":"泰","judg":{"zh":"泰：小往大來，吉亨。","en":"Peace. The small departs, the great arrives. Good fortune, success."},"lines":[{"zh":"拔茅茹，以其彙，征吉。","en":"Pulling up thatch-grass, roots and all; to set out brings fortune."},{"zh":"包荒，用馮河，不遐遺，朋亡，得尚于中行。","en":"Bearing with the wild, fording the river, not neglecting the distant, not clinging to friends — thus you walk the middle way."},{"zh":"无平不陂，无往不復，艱貞无咎。勿恤其孚，于食有福。","en":"No plain without a slope, no going without return. Firm in hardship, no blame. Do not fret over sincerity; there is fortune in your food."},{"zh":"翩翩，不富，以其鄰，不戒以孚。","en":"Fluttering down, not rich, yet with the neighbors — not warned, but sincere."},{"zh":"帝乙歸妹，以祉元吉。","en":"King Yi gives his daughter in marriage; blessing and supreme good fortune."},{"zh":"城復于隍，勿用師。自邑告命，貞吝。","en":"The wall falls back into the moat. Do not use the army. Announce your will in your own town. Firmness brings regret."}],"extra":null},"12":{"name":"否","judg":{"zh":"否：否之匪人，不利君子貞，大往小來。","en":"Standstill. Obstruction by the wrong people; it does not further the noble one's constancy. The great departs, the small arrives."},"lines":[{"zh":"拔茅茹，以其彙，貞吉亨。","en":"Pulling up thatch-grass, roots and all; constancy brings fortune and success."},{"zh":"包承。小人吉，大人否，亨。","en":"Bearing and complying. For small men, fortune; the great one endures the standstill — and succeeds."},{"zh":"包羞。","en":"Bearing shame."},{"zh":"有命，无咎，疇離祉。","en":"One acts by command; no blame. His fellows share the blessing."},{"zh":"休否，大人吉。其亡其亡，繫于苞桑。","en":"The standstill wanes; for the great one, fortune. 'What if it fails, what if it fails' — so bound to a cluster of mulberry roots."},{"zh":"傾否，先否後喜。","en":"The standstill overturns; first obstruction, then joy."}],"extra":null},"13":{"name":"同人","judg":{"zh":"同人：同人于野，亨。利涉大川，利君子貞。","en":"Fellowship. Fellowship in the open. Success. It furthers crossing the great water; it furthers the noble one's constancy."},"lines":[{"zh":"同人于門，无咎。","en":"Fellowship at the gate. No blame."},{"zh":"同人于宗，吝。","en":"Fellowship only with the clan. Regret."},{"zh":"伏戎于莽，升其高陵，三歲不興。","en":"Weapons hidden in the thicket, climbing the high ridge; for three years no rising."},{"zh":"乘其墉，弗克攻，吉。","en":"Mounting the wall but not attacking. Good fortune."},{"zh":"同人，先號咷而後笑。大師克相遇。","en":"Fellowship: first weeping and wailing, then laughter. The great armies manage to meet."},{"zh":"同人于郊，无悔。","en":"Fellowship in the meadow. No regret."}],"extra":null},"14":{"name":"大有","judg":{"zh":"大有：元亨。","en":"Great Possession. Supreme success."},"lines":[{"zh":"无交害，匪咎，艱則无咎。","en":"No dealings with harm — no blame; hold the hardship in mind and stay blameless."},{"zh":"大車以載，有攸往，无咎。","en":"A great cart for loading; somewhere to go. No blame."},{"zh":"公用亨于天子，小人弗克。","en":"A duke offers tribute to the Son of Heaven; a small man could not."},{"zh":"匪其彭，无咎。","en":"He does not flaunt his wealth. No blame."},{"zh":"厥孚交如，威如；吉。","en":"His sincerity, met in kind, with dignity. Good fortune."},{"zh":"自天祐之，吉无不利。","en":"Blessed from heaven. Good fortune, nothing unfavorable."}],"extra":null},"15":{"name":"謙","judg":{"zh":"謙：亨，君子有終。","en":"Modesty. Success. The noble one carries it through to the end."},"lines":[{"zh":"謙謙君子，用涉大川，吉。","en":"The modest, modest noble one; with this he crosses the great water. Good fortune."},{"zh":"鳴謙，貞吉。","en":"Modesty that finds voice. Constancy brings fortune."},{"zh":"勞謙，君子有終，吉。","en":"Toiling and modest; the noble one carries it through. Good fortune."},{"zh":"无不利，撝謙。","en":"Nothing unfavorable in a display of modesty."},{"zh":"不富，以其鄰，利用侵伐，无不利。","en":"Not rich, yet with the neighbors; it helps to march against the unruly. Nothing unfavorable."},{"zh":"鳴謙，利用行師，征邑國。","en":"Modesty that finds voice; it helps to move the army and discipline one's own towns."}],"extra":null},"16":{"name":"豫","judg":{"zh":"豫：利建侯，行師。","en":"Enthusiasm. It furthers appointing helpers and setting armies in motion."},"lines":[{"zh":"鳴豫，凶。","en":"Enthusiasm that boasts aloud. Ill."},{"zh":"介于石，不終日，貞吉。","en":"Firm as a rock; not waiting out the day. Constancy brings fortune."},{"zh":"盱豫，悔。遲有悔。","en":"Looking up for pleasure — regret. Delay brings regret."},{"zh":"由豫，大有得。勿疑。朋盍簪。","en":"The source of enthusiasm; great is the gain. Do not doubt; friends gather like clasped hair."},{"zh":"貞疾，恆不死。","en":"A persistent illness, yet one lives on and does not die."},{"zh":"冥豫，成有渝，无咎。","en":"Deluded in pleasure; but if, once formed, it changes, no blame."}],"extra":null},"17":{"name":"隨","judg":{"zh":"隨：元亨利貞，无咎。","en":"Following. Supreme success, furthering constancy. No blame."},"lines":[{"zh":"官有渝，貞吉。出門交有功。","en":"The office changes; constancy brings fortune. Go out the gate and make worthy ties."},{"zh":"系小子，失丈夫。","en":"Cleaving to the little boy, you lose the grown man."},{"zh":"系丈夫，失小子。隨有求得，利居貞。","en":"Cleaving to the grown man, you lose the little boy. Following, you seek and gain; it furthers dwelling in constancy."},{"zh":"隨有獲，貞凶。有孚在道，以明，何咎。","en":"Following brings a catch; constancy against ill. With sincerity on the road, made clear — what blame?"},{"zh":"孚于嘉，吉。","en":"Sincere toward the good. Good fortune."},{"zh":"拘系之，乃從維之。王用亨于西山。","en":"Held fast and bound to it. The king makes offering on the western mountain."}],"extra":null},"18":{"name":"蠱","judg":{"zh":"蠱：元亨，利涉大川。先甲三日，後甲三日。","en":"Work on the Decayed. Supreme success. It furthers crossing the great water. Three days before the start, three days after."},"lines":[{"zh":"幹父之蠱，有子，考无咎，厲終吉。","en":"Mending the father's decay; with such a son, the departed father is without blame. Danger, but the end is fortunate."},{"zh":"幹母之蠱，不可貞。","en":"Mending the mother's decay; do not be too rigid."},{"zh":"幹父之蠱，小有悔，无大咎。","en":"Mending the father's decay; a little regret, no great blame."},{"zh":"裕父之蠱，往見吝。","en":"Indulging the father's decay; to go on, you meet regret."},{"zh":"幹父之蠱，用譽。","en":"Mending the father's decay; you win praise."},{"zh":"不事王侯，高尚其事。","en":"Serving neither king nor lord, he holds his own concerns lofty."}],"extra":null},"19":{"name":"臨","judg":{"zh":"臨：元，亨，利，貞。至于八月有凶。","en":"Approach. Great, penetrating, furthering, firm. Come the eighth month, there is ill."},"lines":[{"zh":"咸臨，貞吉。","en":"Approach in concert. Constancy brings fortune."},{"zh":"咸臨，吉无不利。","en":"Approach in concert. Good fortune; nothing unfavorable."},{"zh":"甘臨，无攸利。既憂之，无咎。","en":"Sweet, easy approach; nothing furthers. But once you grieve over it, no blame."},{"zh":"至臨，无咎。","en":"Approach at its fullest. No blame."},{"zh":"知臨，大君之宜，吉。","en":"Wise approach, fitting a great ruler. Good fortune."},{"zh":"敦臨，吉无咎。","en":"Generous approach. Good fortune, no blame."}],"extra":null},"20":{"name":"觀","judg":{"zh":"觀：盥而不薦，有孚顒若。","en":"Contemplation. Hands washed, the offering not yet made; sincere and dignified regard."},"lines":[{"zh":"童觀，小人无咎，君子吝。","en":"A boy's viewing; for the small man no blame, for the noble one regret."},{"zh":"闚觀，利女貞。","en":"Peeping through a crack; it furthers a woman's constancy."},{"zh":"觀我生，進退。","en":"Contemplating my own life, whether to advance or retreat."},{"zh":"觀國之光，利用賓于王。","en":"Contemplating the glory of the realm; it furthers being the king's guest."},{"zh":"觀我生，君子无咎。","en":"Contemplating my own life; the noble one is without blame."},{"zh":"觀其生，君子无咎。","en":"Contemplating his life's course; the noble one is without blame."}],"extra":null},"21":{"name":"噬嗑","judg":{"zh":"噬嗑：亨。利用獄。","en":"Biting Through. Success. It furthers the use of law."},"lines":[{"zh":"屨校滅趾，无咎。","en":"Feet in the stocks, toes hidden. No blame."},{"zh":"噬膚滅鼻，无咎。","en":"Biting through tender flesh, the nose sinks in. No blame."},{"zh":"噬臘肉，遇毒；小吝，无咎。","en":"Biting dried meat and meeting poison; small regret, no blame."},{"zh":"噬乾胏，得金矢，利艱貞，吉。","en":"Biting bony dried meat and finding a metal arrow; it furthers firmness in hardship. Good fortune."},{"zh":"噬乾肉，得黃金，貞厲，无咎。","en":"Biting dried meat and finding yellow gold; firmness amid danger. No blame."},{"zh":"何校滅耳，凶。","en":"A cangue on the neck, the ears hidden. Ill."}],"extra":null},"22":{"name":"賁","judg":{"zh":"賁：亨。小利有攸往。","en":"Grace. Success. In small matters it furthers to have somewhere to go."},"lines":[{"zh":"賁其趾，舍車而徒。","en":"Gracing his feet; he leaves the carriage and walks."},{"zh":"賁其須。","en":"Gracing his beard."},{"zh":"賁如濡如，永貞吉。","en":"Graced and glistening; enduring constancy brings fortune."},{"zh":"賁如皤如，白馬翰如，匪寇婚媾。","en":"Graced yet plain white, a white horse like wings; not a robber but a suitor."},{"zh":"賁于丘園，束帛戔戔，吝，終吉。","en":"Grace on the hill-garden; a roll of silk, small and thin. Regret, yet the end is fortunate."},{"zh":"白賁，无咎。","en":"White grace, plain and simple. No blame."}],"extra":null},"23":{"name":"剝","judg":{"zh":"剝：不利有攸往。","en":"Splitting Apart. It does not further to have somewhere to go."},"lines":[{"zh":"剝床以足，蔑貞凶。","en":"The bed is split at the legs; constancy is scorned. Ill."},{"zh":"剝床以辨，蔑貞凶。","en":"The bed is split at the frame; constancy is scorned. Ill."},{"zh":"剝之，无咎。","en":"He splits away with them, yet no blame."},{"zh":"剝床以膚，凶。","en":"The bed is split to the skin. Ill."},{"zh":"貫魚，以宮人寵，无不利。","en":"A string of fish; favor for the palace women. Nothing unfavorable."},{"zh":"碩果不食，君子得輿，小人剝廬。","en":"A great fruit left uneaten; the noble one gains a carriage, the small man's hut is stripped."}],"extra":null},"24":{"name":"復","judg":{"zh":"復：亨。出入无疾，朋來无咎。反復其道，七日來復，利有攸往。","en":"Return. Success. Going out and in without harm; friends come, no blame. The way turns and returns — in seven days it comes back. It furthers to have somewhere to go."},"lines":[{"zh":"不遠復，无祗悔，元吉。","en":"Returning from no great distance, before regret sets in. Supreme good fortune."},{"zh":"休復，吉。","en":"A good return. Good fortune."},{"zh":"頻復，厲无咎。","en":"Returning again and again; danger, but no blame."},{"zh":"中行獨復。","en":"Walking in the middle, he returns alone."},{"zh":"敦復，无悔。","en":"A noble return. No regret."},{"zh":"迷復，凶，有災眚。用行師，終有大敗，以其國君，凶；至于十年，不克征。","en":"A deluded return. Ill, with disaster and fault. Send the army and it ends in great defeat, reaching the ruler; for ten years no campaign succeeds."}],"extra":null},"25":{"name":"无妄","judg":{"zh":"无妄：元亨，利貞。其匪正有眚，不利有攸往。","en":"Innocence. Supreme success, furthering constancy. If not upright, there is fault; it does not further to have somewhere to go."},"lines":[{"zh":"无妄，往吉。","en":"Innocent. To go brings good fortune."},{"zh":"不耕獲，不菑畬，則利有攸往。","en":"Not plowing for the harvest, not clearing for the crop — then it furthers to have somewhere to go."},{"zh":"无妄之災，或繫之牛，行人之得，邑人之災。","en":"Undeserved calamity: a tethered ox, taken by a passerby, is the townsman's loss."},{"zh":"可貞，无咎。","en":"One can stay firm. No blame."},{"zh":"无妄之疾，勿藥有喜。","en":"An undeserved illness; use no medicine and there will be joy."},{"zh":"无妄，行有眚，无攸利。","en":"Innocent, yet to act now brings fault; nothing furthers."}],"extra":null},"26":{"name":"大畜","judg":{"zh":"大畜：利貞，不家食吉，利涉大川。","en":"Great Taming. It furthers constancy. Not eating at home brings fortune. It furthers crossing the great water."},"lines":[{"zh":"有厲利已。","en":"Danger is near; it helps to halt."},{"zh":"輿說輹。","en":"The cart's axle-straps are stripped off."},{"zh":"良馬逐，利艱貞。曰閑輿衛，利有攸往。","en":"Good horses in pursuit; it furthers firmness in hardship. Practice daily with cart and guard; it furthers to have somewhere to go."},{"zh":"童牛之牿，元吉。","en":"A guard-board on a young ox's horns. Supreme good fortune."},{"zh":"豶豕之牙，吉。","en":"The tusks of a gelded boar. Good fortune."},{"zh":"何天之衢，亨。","en":"One attains the highway of heaven. Success."}],"extra":null},"27":{"name":"頤","judg":{"zh":"頤：貞吉。觀頤，自求口實。","en":"Nourishment. Constancy brings fortune. Watch what nourishes; seek your own food by your own effort."},"lines":[{"zh":"舍爾靈龜，觀我朵頤，凶。","en":"You leave your magic tortoise and watch me, jaws drooping. Ill."},{"zh":"顛頤，拂經，于丘頤，征凶。","en":"Nourishment upside down, against the norm; turning to the hill for food. To set out, ill."},{"zh":"拂頤，貞凶，十年勿用，无攸利。","en":"Against nourishment; constancy against ill. For ten years do nothing; nothing furthers."},{"zh":"顛頤，吉，虎視眈眈，其欲逐逐，无咎。","en":"Nourishment from above; good fortune. A tiger's fixed gaze, desire upon desire — no blame."},{"zh":"拂經，居貞吉，不可涉大川。","en":"Against the norm; dwelling in constancy brings fortune. Do not cross the great water."},{"zh":"由頤，厲吉，利涉大川。","en":"The source of nourishment; danger, yet fortune. It furthers crossing the great water."}],"extra":null},"28":{"name":"大過","judg":{"zh":"大過：棟橈，利有攸往，亨。","en":"Great Exceeding. The ridgepole sags. It furthers to have somewhere to go. Success."},"lines":[{"zh":"藉用白茅，无咎。","en":"Spreading white rushes beneath the offering. No blame."},{"zh":"枯楊生稊，老夫得其女妻，无不利。","en":"A withered poplar sprouts; an old man takes a young wife. Nothing unfavorable."},{"zh":"棟橈，凶。","en":"The ridgepole sags to breaking. Ill."},{"zh":"棟隆，吉；有它吝。","en":"The ridgepole braced up; good fortune. But other aims bring regret."},{"zh":"枯楊生華，老婦得士夫，无咎无譽。","en":"A withered poplar flowers; an old woman takes a young husband. No blame, no praise."},{"zh":"過涉滅頂，凶，无咎。","en":"Wading too far, the water covers the head. Ill, but no blame."}],"extra":null},"29":{"name":"坎","judg":{"zh":"坎：習坎，有孚，維心亨，行有尚。","en":"The Abysmal Water. The doubled abyss. With sincerity, the heart wins through; action is honored."},"lines":[{"zh":"習坎，入于坎窞，凶。","en":"In the doubled abyss, falling into a pit within it. Ill."},{"zh":"坎有險，求小得。","en":"The abyss holds danger; seek, and gain a little."},{"zh":"來之坎坎，險且枕，入于坎窞，勿用。","en":"Abyss on abyss, coming and going; danger, and resting on it; falling into the pit. Do not act."},{"zh":"樽酒簋貳，用缶，納約自牖，終无咎。","en":"A jug of wine, two bowls, earthenware; simple gifts passed through the window. In the end, no blame."},{"zh":"坎不盈，祗既平，无咎。","en":"The abyss not yet full, only leveling out. No blame."},{"zh":"係用徽纆，寘于叢棘，三歲不得，凶。","en":"Bound with cords, set among thorns; for three years finding no way out. Ill."}],"extra":null},"30":{"name":"離","judg":{"zh":"離：利貞，亨。畜牝牛，吉。","en":"The Clinging Fire. It furthers constancy. Success. Tend a cow, and there is good fortune."},"lines":[{"zh":"履錯然，敬之无咎。","en":"Footsteps crisscross in confusion; treat it with respect and no blame."},{"zh":"黃離，元吉。","en":"Yellow radiance. Supreme good fortune."},{"zh":"日昃之離，不鼓缶而歌，則大耋之嗟，凶。","en":"The light of the setting sun; if you do not drum and sing, then comes an old man's lament. Ill."},{"zh":"突如其來如，焚如，死如，棄如。","en":"Sudden its coming — flaring up, dying down, cast away."},{"zh":"出涕沱若，戚嗟若，吉。","en":"Tears streaming, sighing in grief. Good fortune."},{"zh":"王用出征，有嘉折首，獲匪其醜，无咎。","en":"The king marches out; fine success in breaking the leaders. He takes captives but not the followers. No blame."}],"extra":null},"31":{"name":"咸","judg":{"zh":"咸：亨，利貞，取女吉。","en":"Influence. Success. It furthers constancy. To take a wife brings good fortune."},"lines":[{"zh":"咸其拇。","en":"Influence in the big toe."},{"zh":"咸其腓，凶，居吉。","en":"Influence in the calves. Ill; but to stay put brings fortune."},{"zh":"咸其股，執其隨，往吝。","en":"Influence in the thighs, clinging to what follows; to go on brings regret."},{"zh":"貞吉，悔亡，憧憧往來，朋從爾思。","en":"Constancy brings fortune, regret vanishes. If you flit restlessly to and fro, only friends follow your thoughts."},{"zh":"咸其脢，无悔。","en":"Influence in the flesh of the back. No regret."},{"zh":"咸其輔頰舌。","en":"Influence in the jaws, cheeks, and tongue."}],"extra":null},"32":{"name":"恆","judg":{"zh":"恆：亨，无咎，利貞，利有攸往。","en":"Duration. Success, no blame. It furthers constancy; it furthers to have somewhere to go."},"lines":[{"zh":"浚恆，貞凶，无攸利。","en":"Seeking duration too deep, too soon; constancy against ill. Nothing furthers."},{"zh":"悔亡。","en":"Regret vanishes."},{"zh":"不恆其德，或承之羞，貞吝。","en":"Not steady in his virtue; he meets with shame. Firmness brings regret."},{"zh":"田无禽。","en":"A field with no game."},{"zh":"恆其德，貞，婦人吉，夫子凶。","en":"Steady in virtue, firm; for a wife, fortune; for a man, ill."},{"zh":"振恆，凶。","en":"Restless, agitated duration. Ill."}],"extra":null},"33":{"name":"遯","judg":{"zh":"遯：亨，小利貞。","en":"Retreat. Success. In small things it furthers constancy."},"lines":[{"zh":"遯尾，厲，勿用有攸往。","en":"At the tail of the retreat; danger. Do not set out anywhere."},{"zh":"執之用黃牛之革，莫之勝說。","en":"Held fast with yellow oxhide; none can loose it."},{"zh":"係遯，有疾厲，畜臣妾吉。","en":"Retreat entangled; a sickening danger. Yet to keep servants and maids brings fortune."},{"zh":"好遯，君子吉，小人否。","en":"Retreat despite liking; for the noble one, fortune; the small man cannot."},{"zh":"嘉遯，貞吉。","en":"Admirable retreat. Constancy brings fortune."},{"zh":"肥遯，无不利。","en":"Ample, easy retreat. Nothing unfavorable."}],"extra":null},"34":{"name":"大壯","judg":{"zh":"大壯：利貞。","en":"Great Power. It furthers constancy."},"lines":[{"zh":"壯于趾，征凶，有孚。","en":"Power in the toes; to march brings ill — of that be sure."},{"zh":"貞吉。","en":"Constancy brings fortune."},{"zh":"小人用壯，君子用罔，貞厲。羝羊觸藩，羸其角。","en":"The small man uses force, the noble one uses none; firmness amid danger. A ram butts the fence and snags its horns."},{"zh":"貞吉悔亡，藩決不羸，壯于大輿之輹。","en":"Constancy brings fortune, regret vanishes. The fence gives way, no snagging; power like the axle of a great cart."},{"zh":"喪羊于易，无悔。","en":"Losing the ram with ease. No regret."},{"zh":"羝羊觸藩，不能退，不能遂，无攸利，艱則吉。","en":"The ram butts the fence and can neither retreat nor advance; nothing furthers. But hold through the hardship and there is fortune."}],"extra":null},"35":{"name":"晉","judg":{"zh":"晉：康侯用錫馬蕃庶，晝日三接。","en":"Progress. A prince who brings peace, given horses in abundance, received three times in a day."},"lines":[{"zh":"晉如，摧如，貞吉。罔孚，裕无咎。","en":"Advancing, then thrown back; constancy brings fortune. If not yet trusted, stay generous and blameless."},{"zh":"晉如，愁如，貞吉。受茲介福，于其王母。","en":"Advancing, yet sorrowful; constancy brings fortune. You receive great blessing from your ancestress."},{"zh":"眾允，悔亡。","en":"All trust him; regret vanishes."},{"zh":"晉如碩鼠，貞厲。","en":"Advancing like a hoarding rat; firmness amid danger."},{"zh":"悔亡，失得勿恤，往吉，无不利。","en":"Regret vanishes; do not fret over loss or gain. To go brings fortune; nothing unfavorable."},{"zh":"晉其角，維用伐邑，厲吉无咎，貞吝。","en":"Advancing with the horns, used only to discipline one's own town; danger, yet fortune, no blame. Firmness brings regret."}],"extra":null},"36":{"name":"明夷","judg":{"zh":"明夷：利艱貞。","en":"Darkening of the Light. It furthers firmness in hardship."},"lines":[{"zh":"明夷于飛，垂其翼。君子于行，三日不食，有攸往，主人有言。","en":"The light darkens in flight, wings drooping. The noble one on his way goes three days unfed; where he goes, the host has words against him."},{"zh":"明夷，夷于左股，用拯馬壯，吉。","en":"The light darkens, wounded in the left thigh; saved by a strong horse. Good fortune."},{"zh":"明夷于南狩，得其大首，不可疾貞。","en":"The light darkens in the southern hunt; the great head is taken. Do not press too quickly for correctness."},{"zh":"入于左腹，獲明夷之心，出于門庭。","en":"Entering the left belly, he grasps the heart of the darkening, and leaves gate and court."},{"zh":"箕子之明夷，利貞。","en":"The darkening of Jizi. It furthers constancy."},{"zh":"不明晦，初登于天，後入于地。","en":"No light, only dark; first mounting to heaven, then sinking into the earth."}],"extra":null},"37":{"name":"家人","judg":{"zh":"家人：利女貞。","en":"The Family. It furthers a woman's constancy."},"lines":[{"zh":"閑有家，悔亡。","en":"Firm rules in the household; regret vanishes."},{"zh":"无攸遂，在中饋，貞吉。","en":"She takes nothing on herself but tends the food at the center. Constancy brings fortune."},{"zh":"家人嗃嗃，悔厲吉；婦子嘻嘻，終吝。","en":"The family under stern rule; regret and danger, yet fortune. If wife and children only giggle, the end is regret."},{"zh":"富家，大吉。","en":"She enriches the house. Great good fortune."},{"zh":"王假有家，勿恤，往吉。","en":"The king reaches the heart of his family; do not worry. To go brings fortune."},{"zh":"有孚威如，終吉。","en":"Sincerity crowned with dignity; the end is fortunate."}],"extra":null},"38":{"name":"睽","judg":{"zh":"睽：小事吉。","en":"Opposition. In small matters, good fortune."},"lines":[{"zh":"悔亡，喪馬勿逐，自復；見惡人无咎。","en":"Regret vanishes. Lose your horse, do not chase it — it returns of itself. Meet even bad men, and no blame."},{"zh":"遇主于巷，无咎。","en":"Meeting one's lord in a lane. No blame."},{"zh":"見輿曳，其牛掣，其人天且劓，无初有終。","en":"A cart dragged back, its ox held fast, the driver branded and his nose cut off. No good start, but a good end."},{"zh":"睽孤，遇元夫，交孚，厲无咎。","en":"Isolated in opposition, he meets a good man; they join in sincerity. Danger, but no blame."},{"zh":"悔亡，厥宗噬膚，往何咎。","en":"Regret vanishes. His kin bites through the flesh; going on, what blame?"},{"zh":"睽孤，見豕負塗，載鬼一車，先張之弧，後說之弧，匪寇婚媾，往遇雨則吉。","en":"Isolated in opposition, he sees a pig caked in mud, a cart full of ghosts; first he draws his bow, then lays it down — no robber but a suitor. Going on, he meets rain, and there is fortune."}],"extra":null},"39":{"name":"蹇","judg":{"zh":"蹇：利西南，不利東北；利見大人，貞吉。","en":"Obstruction. The southwest furthers, the northeast does not. It furthers seeing the great person. Constancy brings fortune."},"lines":[{"zh":"往蹇，來譽。","en":"Going leads to obstruction; coming back brings praise."},{"zh":"王臣蹇蹇，匪躬之故。","en":"The king's servant meets obstruction upon obstruction — not for his own sake."},{"zh":"往蹇來反。","en":"Going leads to obstruction; so he turns back."},{"zh":"往蹇來連。","en":"Going leads to obstruction; coming back, he unites with others."},{"zh":"大蹇朋來。","en":"Amid the greatest obstruction, friends come."},{"zh":"往蹇來碩，吉；利見大人。","en":"Going leads to obstruction; coming back brings greatness. Good fortune. It furthers seeing the great person."}],"extra":null},"40":{"name":"解","judg":{"zh":"解：利西南，无所往，其來復吉。有攸往，夙吉。","en":"Deliverance. The southwest furthers. If nothing more is to be done, return brings fortune. If something is to be done, do it early — fortune."},"lines":[{"zh":"无咎。","en":"No blame."},{"zh":"田獲三狐，得黃矢，貞吉。","en":"In the hunt, three foxes taken and a yellow arrow found. Constancy brings fortune."},{"zh":"負且乘，致寇至，貞吝。","en":"Bearing a load yet riding a carriage invites robbers. Firmness brings regret."},{"zh":"解而拇，朋至斯孚。","en":"Free yourself from your big toe; then friends come and trust you."},{"zh":"君子維有解，吉；有孚于小人。","en":"The noble one delivers himself; good fortune. Even small men are shown his sincerity."},{"zh":"公用射隼于高墉之上，獲之，无不利。","en":"The duke shoots a hawk atop the high wall and takes it. Nothing unfavorable."}],"extra":null},"41":{"name":"損","judg":{"zh":"損：有孚，元吉，无咎，可貞，利有攸往。曷之用，二簋可用享。","en":"Decrease. With sincerity, supreme good fortune, no blame; one may stay firm; it furthers to have somewhere to go. And how to use it? Two bowls suffice for the offering."},"lines":[{"zh":"巳事遄往，无咎，酌損之。","en":"Finish your task and hurry to help; no blame. But weigh how much you give away."},{"zh":"利貞，征凶，弗損，益之。","en":"It furthers constancy; to march is ill. Without decreasing yourself, you add to others."},{"zh":"三人行，則損一人；一人行，則得其友。","en":"Three walking together lose one; one walking alone finds a companion."},{"zh":"損其疾，使遄有喜，无咎。","en":"Lessen your faults; make haste and there is joy. No blame."},{"zh":"或益之，十朋之龜弗克違，元吉。","en":"Someone enriches him — a tortoise worth ten strings of shells, not to be refused. Supreme good fortune."},{"zh":"弗損益之，无咎，貞吉，有攸往，得臣无家。","en":"Increasing others without diminishing himself; no blame, constancy brings fortune. Somewhere to go; he gains servants beyond his own house."}],"extra":null},"42":{"name":"益","judg":{"zh":"益：利有攸往，利涉大川。","en":"Increase. It furthers to have somewhere to go; it furthers crossing the great water."},"lines":[{"zh":"利用為大作，元吉，无咎。","en":"It furthers doing great deeds; supreme good fortune, no blame."},{"zh":"或益之，十朋之龜弗克違，永貞吉。王用享于帝，吉。","en":"Someone enriches him — a tortoise worth ten strings of shells, not to be refused. Enduring constancy brings fortune. The king offers to God; good fortune."},{"zh":"益之用凶事，无咎。有孚中行，告公用圭。","en":"Enriched even through misfortune; no blame. With sincerity, walking the middle, he reports to the duke with the jade token."},{"zh":"中行，告公從。利用為依遷國。","en":"Walking the middle, he advises the duke, who follows. It furthers moving the capital."},{"zh":"有孚惠心，勿問元吉。有孚惠我德。","en":"A sincere, kind heart — no need to ask: supreme good fortune. Others sincerely honor your virtue."},{"zh":"莫益之，或擊之，立心勿恆，凶。","en":"None enrich him; some strike at him. His heart is set on nothing steady. Ill."}],"extra":null},"43":{"name":"夬","judg":{"zh":"夬：揚于王庭，孚號，有厲，告自邑，不利即戎，利有攸往。","en":"Breakthrough. Proclaim it in the king's court. A sincere outcry, and danger. Announce it in your own town. It does not further to take up arms; it furthers to have somewhere to go."},"lines":[{"zh":"壯于前趾，往不勝為咎。","en":"Power in the advancing toes; to go and not prevail is blame."},{"zh":"惕號，莫夜有戎，勿恤。","en":"A wary cry; arms may come by night — do not fear."},{"zh":"壯于頄，有凶。君子夬夬，獨行，遇雨，若濡，有慍，无咎。","en":"Power in the cheekbones; ill. The noble one, resolute, walks alone, meets rain and is drenched, is resented — yet no blame."},{"zh":"臀无膚，其行次且。牽羊悔亡，聞言不信。","en":"Buttocks stripped of skin, walking haltingly. Led like a sheep, regret would vanish — but hearing this, he will not believe."},{"zh":"莧陸夬夬，中行无咎。","en":"Weeds cleared away with resolve; walking the middle, no blame."},{"zh":"无號，終有凶。","en":"No cry for help; in the end, ill."}],"extra":null},"44":{"name":"姤","judg":{"zh":"姤：女壯，勿用取女。","en":"Coming to Meet. A bold, strong woman. Do not take her to wife."},"lines":[{"zh":"繫于金柅，貞吉，有攸往，見凶，羸豕孚蹢躅。","en":"Braked with a metal chock; constancy brings fortune. To go somewhere meets ill. A lean pig, sure to jump about."},{"zh":"包有魚，无咎，不利賓。","en":"Fish in the wrapper; no blame. But do not offer it to guests."},{"zh":"臀无膚，其行次且，厲，无大咎。","en":"Buttocks stripped of skin, walking haltingly; danger, but no great blame."},{"zh":"包无魚，起凶。","en":"No fish in the wrapper; ill arises."},{"zh":"以杞包瓜，含章，有隕自天。","en":"A willow shades the melon; hidden brilliance; something drops from heaven."},{"zh":"姤其角，吝，无咎。","en":"Meeting with the horns; regret, but no blame."}],"extra":null},"45":{"name":"萃","judg":{"zh":"萃：亨。王假有廟，利見大人，亨，利貞。用大牲吉，利有攸往。","en":"Gathering Together. Success. The king reaches his temple. It furthers seeing the great person; success, furthering constancy. Great offerings bring fortune; it furthers to have somewhere to go."},"lines":[{"zh":"有孚不終，乃亂乃萃，若號一握為笑，勿恤，往无咎。","en":"Sincerity that fails to hold; then disorder, then gathering. Cry out, and a handful turns to laughter. Do not worry; going brings no blame."},{"zh":"引吉，无咎，孚乃利用禴。","en":"Drawn together; good fortune, no blame. With sincerity, even a small spring offering serves."},{"zh":"萃如，嗟如，无攸利，往无咎，小吝。","en":"Gathering, then sighing; nothing furthers. Going brings no blame, only small regret."},{"zh":"大吉，无咎。","en":"Great good fortune. No blame."},{"zh":"萃有位，无咎。匪孚，元永貞，悔亡。","en":"Gathering around his position; no blame. If some do not trust, be great, enduring, and firm, and regret vanishes."},{"zh":"齎咨涕洟，无咎。","en":"Lamenting, tears and sniveling. No blame."}],"extra":null},"46":{"name":"升","judg":{"zh":"升：元亨，用見大人，勿恤，南征吉。","en":"Pushing Upward. Supreme success. Seek to see the great person; do not worry. To march south brings fortune."},"lines":[{"zh":"允升，大吉。","en":"Welcomed upward. Great good fortune."},{"zh":"孚乃利用禴，无咎。","en":"With sincerity, even a small spring offering serves. No blame."},{"zh":"升虛邑。","en":"Climbing up into an empty town."},{"zh":"王用亨于岐山，吉无咎。","en":"The king makes offering on Mount Qi. Good fortune, no blame."},{"zh":"貞吉，升階。","en":"Constancy brings fortune; mounting the stairs step by step."},{"zh":"冥升，利于不息之貞。","en":"Climbing in the dark; it furthers unceasing constancy."}],"extra":null},"47":{"name":"困","judg":{"zh":"困：亨，貞，大人吉，无咎，有言不信。","en":"Oppression. Success. For the firm and truly great, good fortune, no blame. Words now will not be believed."},"lines":[{"zh":"臀困于株木，入于幽谷，三歲不覿。","en":"Bruised on a tree-stump, entering a gloomy valley; for three years unseen."},{"zh":"困于酒食，朱紱方來，利用享祀，征凶，无咎。","en":"Oppressed amid wine and food; the scarlet sash arrives. It furthers making offering. To march is ill, but no blame."},{"zh":"困于石，據于蒺蔾，入于其宮，不見其妻，凶。","en":"Oppressed by a rock, clutching at thorns; entering his house, he does not see his wife. Ill."},{"zh":"來徐徐，困于金車，吝，有終。","en":"Coming slowly, oppressed by a metal carriage; regret, yet an end."},{"zh":"劓刖，困于赤紱，乃徐有說，利用祭祀。","en":"Nose and feet cut off, oppressed by the crimson sash; slowly there is relief. It furthers to sacrifice."},{"zh":"困于葛藟，于臲卼，曰動悔。有悔，征吉。","en":"Oppressed by creepers, on a tottering height, saying 'to move is to regret.' Repent, and to go on brings fortune."}],"extra":null},"48":{"name":"井","judg":{"zh":"井：改邑不改井，无喪无得，往來井井。汔至，亦未繘井，羸其瓶，凶。","en":"The Well. The town may move, the well does not. It neither loses nor gains; all come and go and draw from it. But if one all but reaches the water and the rope falls short, or the jug breaks — ill."},"lines":[{"zh":"井泥不食，舊井无禽。","en":"A muddy well no one drinks from; an old well where not even birds come."},{"zh":"井谷射鮒，瓮敝漏。","en":"The well leaks to the minnows below; the jug is cracked and drains away."},{"zh":"井渫不食，為我心惻，可用汲，王明，並受其福。","en":"The well cleaned but undrunk — it grieves my heart. It could be drawn; were the king wise, all would share the blessing."},{"zh":"井甃，无咎。","en":"The well is lined with brick. No blame."},{"zh":"井冽，寒泉食。","en":"The well is clear; its cold spring is drunk."},{"zh":"井收勿幕，有孚元吉。","en":"The well drawn from and left uncovered; with sincerity, supreme good fortune."}],"extra":null},"49":{"name":"革","judg":{"zh":"革：巳日乃孚，元亨利貞，悔亡。","en":"Revolution. On the day it is done, it is believed. Supreme success, furthering constancy; regret vanishes."},"lines":[{"zh":"鞏用黃牛之革。","en":"Bound fast with yellow oxhide."},{"zh":"巳日乃革之，征吉，无咎。","en":"When the day comes, then make the change; to march brings fortune, no blame."},{"zh":"征凶，貞厲，革言三就，有孚。","en":"To march is ill; firmness amid danger. When talk of change has come round thrice, there is trust."},{"zh":"悔亡，有孚改命，吉。","en":"Regret vanishes; with sincerity, the mandate is changed. Good fortune."},{"zh":"大人虎變，未占有孚。","en":"The great one changes like a tiger; even before divining, he is trusted."},{"zh":"君子豹變，小人革面，征凶，居貞吉。","en":"The noble one changes like a leopard; small men change their faces. To march is ill; to abide firm brings fortune."}],"extra":null},"50":{"name":"鼎","judg":{"zh":"鼎：元吉，亨。","en":"The Cauldron. Supreme good fortune. Success."},"lines":[{"zh":"鼎顛趾，利出否，得妾以其子，无咎。","en":"The cauldron tipped on its legs; good for pouring out the bad. Taking a concubine for her son's sake. No blame."},{"zh":"鼎有實，我仇有疾，不我能即，吉。","en":"The cauldron full of food; my rival is sick and cannot reach me. Good fortune."},{"zh":"鼎耳革，其行塞，雉膏不食，方雨虧悔，終吉。","en":"The cauldron's handles altered, its use blocked; the rich pheasant goes uneaten. But rain comes, regret wanes; the end is fortunate."},{"zh":"鼎折足，覆公餗，其形渥，凶。","en":"The cauldron's leg breaks, the duke's meal is spilled, its shame drenches him. Ill."},{"zh":"鼎黃耳，金鉉，利貞。","en":"The cauldron with yellow handles and metal rings. It furthers constancy."},{"zh":"鼎玉鉉，大吉，无不利。","en":"The cauldron with rings of jade. Great good fortune; nothing unfavorable."}],"extra":null},"51":{"name":"震","judg":{"zh":"震：亨。震來虩虩，笑言啞啞。震驚百里，不喪匕鬯。","en":"The Arousing Thunder. Success. Thunder comes with terror, then laughter and talk. It startles for a hundred li, yet he does not drop the sacrificial ladle and wine."},"lines":[{"zh":"震來虩虩，後笑言啞啞，吉。","en":"Thunder comes with terror, then laughter and talk. Good fortune."},{"zh":"震來厲，億喪貝，躋于九陵，勿逐，七日得。","en":"Thunder comes with danger; a hundred thousand in wealth lost. Climb the nine hills; do not chase it — in seven days you regain it."},{"zh":"震蘇蘇，震行无眚。","en":"Thunder leaves him dazed; but if it moves him to act, no fault."},{"zh":"震遂泥。","en":"Thunder sinks into the mud."},{"zh":"震往來厲，億无喪，有事。","en":"Thunder coming and going, all danger; but nothing is lost — there is work to do."},{"zh":"震索索，視矍矍，征凶。震不于其躬，于其鄰，无咎。婚媾有言。","en":"Thunder leaves him trembling, glancing about; to go on is ill. But if it strikes not himself but his neighbor, no blame — though kin may murmur."}],"extra":null},"52":{"name":"艮","judg":{"zh":"艮：艮其背，不獲其身，行其庭，不見其人，无咎。","en":"Keeping Still, Mountain. Stillness in the back, till the self is forgotten; walking the courtyard, seeing no one there. No blame."},"lines":[{"zh":"艮其趾，无咎，利永貞。","en":"Stillness in the toes. No blame; it furthers enduring constancy."},{"zh":"艮其腓，不拯其隨，其心不快。","en":"Stillness in the calves; he cannot rescue the one he follows, and his heart is uneasy."},{"zh":"艮其限，列其夤，厲薰心。","en":"Stillness at the waist, wrenching the spine; danger smolders in the heart."},{"zh":"艮其身，无咎。","en":"Stillness in the trunk. No blame."},{"zh":"艮其輔，言有序，悔亡。","en":"Stillness in the jaws; words in order. Regret vanishes."},{"zh":"敦艮，吉。","en":"Wholehearted stillness. Good fortune."}],"extra":null},"53":{"name":"漸","judg":{"zh":"漸：女歸吉，利貞。","en":"Development. The maiden marries; good fortune. It furthers constancy."},"lines":[{"zh":"鴻漸于干，小子厲，有言，无咎。","en":"Wild geese draw near the shore; the young one in danger, spoken against, yet no blame."},{"zh":"鴻漸于磐，飲食衎衎，吉。","en":"Wild geese draw near the rock; eating and drinking in ease and joy. Good fortune."},{"zh":"鴻漸于陸，夫征不復，婦孕不育，凶；利禦寇。","en":"Wild geese draw near the plateau; the husband marches and does not return, the wife conceives but does not raise the child. Ill; it helps to fend off robbers."},{"zh":"鴻漸于木，或得其桷，无咎。","en":"Wild geese draw near the trees; perhaps a flat branch to rest on. No blame."},{"zh":"鴻漸于陵，婦三歲不孕，終莫之勝，吉。","en":"Wild geese draw near the ridge; for three years the wife does not conceive, yet in the end nothing prevails against her. Good fortune."},{"zh":"鴻漸于陸，其羽可用為儀，吉。","en":"Wild geese draw near the heights; their feathers serve for the sacred dance. Good fortune."}],"extra":null},"54":{"name":"歸妹","judg":{"zh":"歸妹：征凶，无攸利。","en":"The Marrying Maiden. To act is ill; nothing furthers."},"lines":[{"zh":"歸妹以娣，跛能履，征吉。","en":"The maiden married as a junior bride; the lame can still tread. To go on brings fortune."},{"zh":"眇能視，利幽人之貞。","en":"One-eyed, yet able to see; it furthers the constancy of a solitary one."},{"zh":"歸妹以須，反歸以娣。","en":"The maiden waiting to marry; she returns and goes as a junior bride."},{"zh":"歸妹愆期，遲歸有時。","en":"The maiden lets the term pass; a late marriage will have its time."},{"zh":"帝乙歸妹，其君之袂，不如其娣之袂良，月幾望，吉。","en":"King Yi gives his daughter in marriage; her sleeves are less fine than her bridesmaid's. The moon nearly full. Good fortune."},{"zh":"女承筐无實，士刲羊无血，无攸利。","en":"The woman holds a basket with nothing in it; the man stabs the sheep, no blood flows. Nothing furthers."}],"extra":null},"55":{"name":"豐","judg":{"zh":"豐：亨，王假之，勿憂，宜日中。","en":"Abundance. Success. The king attains it; do not grieve — be like the sun at noon."},"lines":[{"zh":"遇其配主，雖旬无咎，往有尚。","en":"Meeting his match; though ten days pass, no blame. To go is honored."},{"zh":"豐其蔀，日中見斗，往得疑疾，有孚發若，吉。","en":"The screen so thick that at noon he sees the Dipper; to go now draws suspicion. Let sincerity break forth. Good fortune."},{"zh":"豐其沛，日中見沬，折其右肱，无咎。","en":"The curtain so thick that at noon he sees the small stars; he breaks his right arm. No blame."},{"zh":"豐其蔀，日中見斗，遇其夷主，吉。","en":"The screen so thick that at noon he sees the Dipper; he meets his equal. Good fortune."},{"zh":"來章，有慶譽，吉。","en":"Brilliant men come; there is blessing and praise. Good fortune."},{"zh":"豐其屋，蔀其家，闚其戶，闃其无人，三歲不覿，凶。","en":"His house made grand but screens off his home; peering in the door, all is still, no one there; for three years unseen. Ill."}],"extra":null},"56":{"name":"旅","judg":{"zh":"旅：小亨，旅貞吉。","en":"The Wanderer. Small success. For the wanderer, constancy brings fortune."},"lines":[{"zh":"旅瑣瑣，斯其所取災。","en":"The wanderer, petty and mean — thus he draws disaster on himself."},{"zh":"旅即次，懷其資，得童僕貞。","en":"The wanderer reaches an inn, holds his goods, and gains a young servant's loyalty."},{"zh":"旅焚其次，喪其童僕，貞厲。","en":"The wanderer's inn burns down; he loses his young servant. Firmness amid danger."},{"zh":"旅于處，得其資斧，我心不快。","en":"The wanderer at a resting place, with goods and an axe; yet my heart is uneasy."},{"zh":"射雉一矢亡，終以譽命。","en":"Shooting a pheasant, one arrow lost; in the end, praise and appointment."},{"zh":"鳥焚其巢，旅人先笑後號咷。喪牛于易，凶。","en":"The bird's nest burns; the wanderer first laughs, then wails. He loses the ox too easily. Ill."}],"extra":null},"57":{"name":"巽","judg":{"zh":"巽：小亨，利攸往，利見大人。","en":"The Gentle Wind. Small success. It furthers having somewhere to go; it furthers seeing the great person."},"lines":[{"zh":"進退，利武人之貞。","en":"Advancing and retreating; it furthers the constancy of a warrior."},{"zh":"巽在床下，用史巫紛若，吉，无咎。","en":"Penetrating beneath the bed; using scribes and shamans in great number. Good fortune, no blame."},{"zh":"頻巽，吝。","en":"Penetrating over and over. Regret."},{"zh":"悔亡，田獲三品。","en":"Regret vanishes; the hunt takes game of three kinds."},{"zh":"貞吉悔亡，无不利。无初有終，先庚三日，後庚三日，吉。","en":"Constancy brings fortune, regret vanishes; nothing unfavorable. No good start, but a good end. Three days before the turning, three days after. Good fortune."},{"zh":"巽在床下，喪其資斧，貞凶。","en":"Penetrating beneath the bed; he loses his goods and his axe. Firmness against ill."}],"extra":null},"58":{"name":"兌","judg":{"zh":"兌：亨，利貞。","en":"The Joyous Lake. Success. It furthers constancy."},"lines":[{"zh":"和兌，吉。","en":"The joy of harmony. Good fortune."},{"zh":"孚兌，吉，悔亡。","en":"The joy of sincerity; good fortune, regret vanishes."},{"zh":"來兌，凶。","en":"Coming to court pleasure. Ill."},{"zh":"商兌，未寧，介疾有喜。","en":"Weighing where to take joy, not yet at rest; keep from harm and there is gladness."},{"zh":"孚于剝，有厲。","en":"Trusting in what would erode you; there is danger."},{"zh":"引兌。","en":"Alluring others to pleasure."}],"extra":null},"59":{"name":"渙","judg":{"zh":"渙：亨。王假有廟，利涉大川，利貞。","en":"Dispersion. Success. The king reaches his temple. It furthers crossing the great water; it furthers constancy."},"lines":[{"zh":"用拯馬壯，吉。","en":"Rescue with the strength of a horse. Good fortune."},{"zh":"渙奔其机，悔亡。","en":"Amid dispersion, he hurries to his support; regret vanishes."},{"zh":"渙其躬，无悔。","en":"He disperses his own self-regard. No regret."},{"zh":"渙其群，元吉。渙有丘，匪夷所思。","en":"He disperses the factions; supreme good fortune. From dispersion, a gathering like a hill — beyond ordinary thought."},{"zh":"渙汗其大號，渙王居，无咎。","en":"Dispersing, he issues his great decree like sweat; he scatters the royal stores. No blame."},{"zh":"渙其血，去逖出，无咎。","en":"He disperses its blood, keeps far from harm, and departs. No blame."}],"extra":null},"60":{"name":"節","judg":{"zh":"節：亨。苦節，不可貞。","en":"Limitation. Success. But galling limits cannot be kept."},"lines":[{"zh":"不出戶庭，无咎。","en":"Not leaving the inner court. No blame."},{"zh":"不出門庭，凶。","en":"Not leaving the outer gate. Ill."},{"zh":"不節若，則嗟若，无咎。","en":"One who keeps no measure will come to lament; but the blame is his own."},{"zh":"安節，亨。","en":"Contented in one's limits. Success."},{"zh":"甘節，吉；往有尚。","en":"Sweet limitation; good fortune. To go on is honored."},{"zh":"苦節，貞凶，悔亡。","en":"Galling limitation; firmness against ill. Yet regret vanishes."}],"extra":null},"61":{"name":"中孚","judg":{"zh":"中孚：豚魚吉，利涉大川，利貞。","en":"Inner Truth. It reaches even pigs and fishes; good fortune. It furthers crossing the great water; it furthers constancy."},"lines":[{"zh":"虞吉，有它不燕。","en":"Prepared, there is fortune; but a hidden aim leaves no peace."},{"zh":"鳴鶴在陰，其子和之，我有好爵，吾與爾靡之。","en":"A crane calls in the shade, its young answer. 'I have a good cup; I will share it with you.'"},{"zh":"得敵，或鼓或罷，或泣或歌。","en":"Facing his match: now drumming, now stopping, now weeping, now singing."},{"zh":"月幾望，馬匹亡，无咎。","en":"The moon nearly full; the team-mate horse is gone. No blame."},{"zh":"有孚攣如，无咎。","en":"Sincerity that binds others fast. No blame."},{"zh":"翰音登于天，貞凶。","en":"A cock's crow rising to heaven. Firmness against ill."}],"extra":null},"62":{"name":"小過","judg":{"zh":"小過：亨，利貞，可小事，不可大事。飛鳥遺之音，不宜上，宜下，大吉。","en":"Small Exceeding. Success; it furthers constancy. In small things one may act, not in great. The flying bird leaves its cry — better to go down than up. Great good fortune."},"lines":[{"zh":"飛鳥以凶。","en":"A bird flying too high. Ill."},{"zh":"過其祖，遇其妣；不及其君，遇其臣；无咎。","en":"Passing the grandfather, he meets the grandmother; not reaching the ruler, he meets the minister. No blame."},{"zh":"弗過防之，從或戕之，凶。","en":"Not going too far, but on guard; if he lets down, someone strikes him. Ill."},{"zh":"无咎，弗過遇之。往厲必戒，勿用永貞。","en":"No blame; without excess he meets the moment. Going on is dangerous — be wary; do not hold rigidly firm forever."},{"zh":"密雲不雨，自我西郊，公弋取彼在穴。","en":"Dense clouds, no rain, from our western fields; the duke shoots and takes the game in the cave."},{"zh":"弗遇過之，飛鳥離之，凶，是謂災眚。","en":"Not meeting it but overshooting; the flying bird strays off. Ill — this is called calamity and self-made harm."}],"extra":null},"63":{"name":"既濟","judg":{"zh":"既濟：亨，小利貞，初吉終亂。","en":"After Completion. Success in small things; it furthers constancy. Fortunate at the start, disordered at the end."},"lines":[{"zh":"曳其輪，濡其尾，无咎。","en":"He brakes the wheel; the fox wets its tail. No blame."},{"zh":"婦喪其茀，勿逐，七日得。","en":"The wife loses her carriage-screen; do not chase it — in seven days she finds it."},{"zh":"高宗伐鬼方，三年克之，小人勿用。","en":"Gaozong attacks the Devil's Country; in three years he subdues it. Do not employ small men."},{"zh":"繻有衣袽，終日戒。","en":"Fine clothes turn to rags; be on guard all day long."},{"zh":"東鄰殺牛，不如西鄰之禴祭，實受其福。","en":"The eastern neighbor slays an ox; less worthy than the western neighbor's small offering, which truly receives the blessing."},{"zh":"濡其首，厲。","en":"He wets his head. Danger."}],"extra":null},"64":{"name":"未濟","judg":{"zh":"未濟：亨，小狐汔濟，濡其尾，无攸利。","en":"Before Completion. Success. The little fox, almost across, wets its tail; nothing furthers."},"lines":[{"zh":"濡其尾，吝。","en":"He wets his tail. Regret."},{"zh":"曳其輪，貞吉。","en":"He brakes the wheel. Constancy brings fortune."},{"zh":"未濟，征凶，利涉大川。","en":"Not yet across; to march is ill, yet it furthers crossing the great water."},{"zh":"貞吉，悔亡，震用伐鬼方，三年有賞于大國。","en":"Constancy brings fortune, regret vanishes. With thunder he attacks the Devil's Country; in three years, reward from the great kingdom."},{"zh":"貞吉，无悔，君子之光，有孚，吉。","en":"Constancy brings fortune, no regret. The light of the noble one, filled with sincerity. Good fortune."},{"zh":"有孚于飲酒，无咎，濡其首，有孚失是。","en":"Sincerity in drinking wine; no blame. But wet your head, and even sincerity loses its measure."}],"extra":null}};
+/*ZHOUYI_DATA_END*/
+/* ============================================================
+   ENGINE  — ported from the tested Python spine (core/ + methods/)
+   ============================================================ */
+
+// ---- Wu Xing 五行 ------------------------------------------------
+const WOOD=0,FIRE=1,EARTH=2,METAL=3,WATER=4;
+const EL=[["木","Wood"],["火","Fire"],["土","Earth"],["金","Metal"],["水","Water"]];
+const SHENG={0:1,1:2,2:3,3:4,4:0};          // generates
+const KE={0:2,2:4,4:1,1:3,3:0};             // overcomes
+function relation(subject,other){
+  if(subject===other) return "same";
+  if(SHENG[other]===subject) return "generates_me";
+  if(SHENG[subject]===other) return "i_generate";
+  if(KE[other]===subject) return "overcomes_me";
+  if(KE[subject]===other) return "i_overcome";
+}
+const SIX_REL={same:["兄弟","Siblings"],generates_me:["父母","Parent"],
+  i_generate:["子孫","Offspring"],overcomes_me:["官鬼","Officer/Ghost"],
+  i_overcome:["妻財","Wealth"]};
+
+// ---- Ba Gua 八卦 -------------------------------------------------
+// [hanzi,pinyin,english,symbol,[bottom,mid,top],element]
+const TRIGRAMS=[
+  ["乾","Qián","Heaven","☰",[1,1,1],METAL],
+  ["兌","Duì","Lake","☱",[1,1,0],METAL],
+  ["離","Lí","Fire","☲",[1,0,1],FIRE],
+  ["震","Zhèn","Thunder","☳",[1,0,0],WOOD],
+  ["巽","Xùn","Wind","☴",[0,1,1],WOOD],
+  ["坎","Kǎn","Water","☵",[0,1,0],WATER],
+  ["艮","Gèn","Mountain","☶",[0,0,1],EARTH],
+  ["坤","Kūn","Earth","☷",[0,0,0],EARTH],
+];
+const BITS2TRI={};
+TRIGRAMS.forEach((t,i)=>BITS2TRI[t[4].join("")]=i);
+
+// King Wen table: [num,hanzi,pinyin,english,lower,upper,gloss]
+const KINGWEN=[
+ [1,"乾","Qián","The Creative",0,0,"Pure initiating force; sustained, upright action succeeds."],
+ [2,"坤","Kūn","The Receptive",7,7,"Yielding devotion; carry, nourish, follow rather than lead."],
+ [3,"屯","Zhūn","Difficulty at the Beginning",3,5,"A hard sprouting; find helpers, do not force the first move."],
+ [4,"蒙","Méng","Youthful Folly",5,6,"Inexperience seeking a teacher; answer the sincere question once."],
+ [5,"需","Xū","Waiting",0,5,"Danger ahead; nourish yourself and wait with confidence."],
+ [6,"訟","Sòng","Conflict",5,0,"Dispute you cannot win outright; seek mediation, do not push to the end."],
+ [7,"師","Shī","The Army",5,7,"Discipline under one trusted leader; a just cause moves the mass."],
+ [8,"比","Bǐ","Holding Together",7,5,"Union around a center; join early and sincerely or be left out."],
+ [9,"小畜","Xiǎo Xù","Small Taming",0,4,"Gentle restraint of strength; small means, patient accumulation."],
+ [10,"履","Lǚ","Treading",1,0,"Walking on the tiger's tail; correct conduct disarms danger."],
+ [11,"泰","Tài","Peace",0,7,"Heaven and earth mingle; flourishing, but tend the turning point."],
+ [12,"否","Pǐ","Standstill",7,0,"Powers drift apart; withdraw, keep integrity, wait out the block."],
+ [13,"同人","Tóng Rén","Fellowship",2,0,"Open community with all; shared aims in the light succeed."],
+ [14,"大有","Dà Yǒu","Great Possession",0,2,"Abundance clearly held; be modest and generous with plenty."],
+ [15,"謙","Qiān","Modesty",6,7,"Height that stays low; modesty carries every undertaking through."],
+ [16,"豫","Yù","Enthusiasm",7,3,"Readiness that moves others; align with the time, rouse gladly."],
+ [17,"隨","Suí","Following",3,1,"Adapt and follow; lead by yielding to what is right now."],
+ [18,"蠱","Gǔ","Work on the Decayed",4,6,"Repair what was spoiled; face the rot, then rebuild carefully."],
+ [19,"臨","Lín","Approach",1,7,"Something great draws near; act while the season favors growth."],
+ [20,"觀","Guān","Contemplation",7,4,"Observe from height; be the example others take their bearings by."],
+ [21,"噬嗑","Shì Kè","Biting Through",3,2,"An obstacle in the bite; act decisively, apply just correction."],
+ [22,"賁","Bì","Grace",2,6,"Beauty and form; adornment helps in small things, not the essential."],
+ [23,"剝","Bō","Splitting Apart",7,6,"The structure erodes from below; do not act, preserve the seed."],
+ [24,"復","Fù","Return",3,7,"The light returns; a turning point, movement resumes gently."],
+ [25,"無妄","Wú Wàng","Innocence",3,0,"Act from the unspoiled instinct; the unexpected tests sincerity."],
+ [26,"大畜","Dà Xù","Great Taming",0,6,"Great force held and stored; discipline builds real power."],
+ [27,"頤","Yí","Nourishment",3,6,"Watch what you take in and give out; feed the right things."],
+ [28,"大過","Dà Guò","Great Exceeding",4,1,"The beam sags under load; extraordinary times, act while you can."],
+ [29,"坎","Kǎn","The Abysmal Water",5,5,"Repeated danger; stay sincere, flow through, do not lose the center."],
+ [30,"離","Lí","The Clinging Fire",2,2,"Radiance that depends on its fuel; clarity through what you cleave to."],
+ [31,"咸","Xián","Influence",6,1,"Mutual attraction; keep the heart open and receptive to move another."],
+ [32,"恆","Héng","Duration",4,3,"Enduring constancy; hold your course, renew without changing aim."],
+ [33,"遯","Dùn","Retreat",6,0,"Timely withdrawal; retreat is strength when the small advances."],
+ [34,"大壯","Dà Zhuàng","Great Power",0,3,"Great vigor; power is safe only when joined to what is right."],
+ [35,"晉","Jìn","Progress",7,2,"Easy rising like the sun; advance in the open, be recognized."],
+ [36,"明夷","Míng Yí","Darkening of the Light",2,7,"The light is wounded; veil your brilliance, endure the dark time."],
+ [37,"家人","Jiā Rén","The Family",2,4,"Order within the house; each keeps their place, warmth with limits."],
+ [38,"睽","Kuí","Opposition",1,2,"Estrangement and misreading; small accord is possible, not the large."],
+ [39,"蹇","Jiǎn","Obstruction",6,5,"An obstacle you cannot pass alone; turn inward, seek allies."],
+ [40,"解","Xiè","Deliverance",5,3,"The knot loosens; resolve tension, forgive, return to the ordinary."],
+ [41,"損","Sǔn","Decrease",1,6,"Decrease below to serve above; sincere reduction brings gain."],
+ [42,"益","Yì","Increase",3,4,"Decrease above to enrich below; a favorable time for great deeds."],
+ [43,"夬","Guài","Breakthrough",0,1,"Resolute breakthrough; name the wrong openly, not by force alone."],
+ [44,"姤","Gòu","Coming to Meet",4,0,"An unbidden meeting; a small dark thing enters, do not let it spread."],
+ [45,"萃","Cuì","Gathering Together",7,1,"Gathering around a center; assemble with a clear focal purpose."],
+ [46,"升","Shēng","Pushing Upward",4,7,"Effortful ascent; grow step by step, seek the one who can help."],
+ [47,"困","Kùn","Oppression",5,1,"Exhaustion and confinement; keep faith inwardly, say little."],
+ [48,"井","Jǐng","The Well",4,5,"The constant source; the well does not move, tend it and it feeds all."],
+ [49,"革","Gé","Revolution",2,1,"Radical change at the right moment; molt only when trust is ready."],
+ [50,"鼎","Dǐng","The Cauldron",4,2,"Transforming and nourishing; refine the raw into the offered."],
+ [51,"震","Zhèn","The Arousing Thunder",3,3,"Shock that startles then passes; keep composure, laughter follows."],
+ [52,"艮","Gèn","Keeping Still Mountain",6,6,"Stillness at the right time; quiet the mind, act only when moved."],
+ [53,"漸","Jiàn","Development",6,4,"Gradual, orderly progress; advance like a tree, no skipped stages."],
+ [54,"歸妹","Guī Mèi","The Marrying Maiden",1,3,"Entering a subordinate bond; know your place, keep the long view."],
+ [55,"豐","Fēng","Abundance",2,3,"A peak of fullness; be like the noon sun, use the bright hour well."],
+ [56,"旅","Lǚ","The Wanderer",6,2,"A stranger in transit; stay modest and correct, hold few things."],
+ [57,"巽","Xùn","The Gentle Wind",4,4,"Penetrating influence; gentle persistence reaches where force cannot."],
+ [58,"兌","Duì","The Joyous Lake",1,1,"Open gladness; true joy is shared and honest, not flattery."],
+ [59,"渙","Huàn","Dispersion",5,4,"Dissolving rigidity; scatter what blocks, reunite around a purpose."],
+ [60,"節","Jié","Limitation",1,5,"Wholesome limits; set measures, but do not make them galling."],
+ [61,"中孚","Zhōng Fú","Inner Truth",1,4,"Sincerity at the center; inner truth moves even the distant and dumb."],
+ [62,"小過","Xiǎo Guò","Small Exceeding",6,3,"Exceed only in small things; stay low, the bird should not fly high."],
+ [63,"既濟","Jì Jì","After Completion",2,5,"The task is done; order achieved decays, guard against the slack."],
+ [64,"未濟","Wèi Jì","Before Completion",5,2,"Almost there; the crossing is not finished, place each step with care."],
+];
+const BY_NUM={}, BY_TRI={};
+KINGWEN.forEach(r=>{BY_NUM[r[0]]=r; BY_TRI[r[4]+","+r[5]]=r[0];});
+
+function bitsOf(values){return values.map(v=>(v===1||v===7||v===9)?1:0);}
+function transformBits(values){return values.map(v=> v===6?1 : v===9?0 : (v===1||v===7)?1:0);}
+function triIndex(b3){return BITS2TRI[b3.join("")];}
+function hexNumber(b6){return BY_TRI[triIndex(b6.slice(0,3))+","+triIndex(b6.slice(3,6))];}
+function movingPositions(values){const o=[];values.forEach((v,i)=>{if(v===6||v===9)o.push(i+1);});return o;}
+function Hexagram(b6){
+  const num=hexNumber(b6), r=BY_NUM[num];
+  return {bits:b6,number:num,hanzi:r[1],pinyin:r[2],english:r[3],
+    lower:r[4],upper:r[5],gloss:r[6],
+    palaceElement:TRIGRAMS[r[5]][5],
+    label(){return "#"+num+" "+r[1]+" "+r[2]+" — "+r[3];}};
+}
+
+// ---- Ganzhi 干支 -------------------------------------------------
+const STEMS=["甲","乙","丙","丁","戊","己","庚","辛","壬","癸"];
+const STEM_PY=["Jiǎ","Yǐ","Bǐng","Dīng","Wù","Jǐ","Gēng","Xīn","Rén","Guǐ"];
+const BRANCHES=["子","丑","寅","卯","辰","巳","午","未","申","酉","戌","亥"];
+const BRANCH_PY=["Zǐ","Chǒu","Yín","Mǎo","Chén","Sì","Wǔ","Wèi","Shēn","Yǒu","Xū","Hài"];
+const BRANCH_EL=[WATER,EARTH,WOOD,WOOD,EARTH,FIRE,FIRE,EARTH,METAL,METAL,EARTH,WATER];
+const BRANCH_ANIMAL=["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Rooster","Dog","Pig"];
+
+function gregorianToJD(y,m,d,hour){ // JD at given UT hour (default midnight)
+  hour=hour||0;
+  if(m<=2){y-=1;m+=12;}
+  const a=Math.floor(y/100), b=2-a+Math.floor(a/4);
+  return Math.floor(365.25*(y+4716))+Math.floor(30.6001*(m+1))+d+b-1524.5+hour/24;
+}
+const CST=8/24;
+function midnightJD(y,m,d){return gregorianToJD(y,m,d)-CST;}
+const DAY_ANCHOR=midnightJD(2000,1,7);        // = 甲子 (index 0)
+function dayIndex(y,m,d){return ((Math.round(midnightJD(y,m,d)-DAY_ANCHOR))%60+60)%60;}
+function pillar(idx){idx=((idx%60)+60)%60;return {index:idx,stem:idx%10,branch:idx%12,
+  element:Math.floor(idx%10/2),branchElement:BRANCH_EL[idx%12],
+  zh(){return STEMS[idx%10]+BRANCHES[idx%12];},
+  en(){return STEM_PY[idx%10]+" "+BRANCH_PY[idx%12];}};}
+function combine(stem,branch){for(let i=0;i<60;i++)if(i%10===stem&&i%12===branch)return i;}
+function hourBranchOf(hour){return ((hour+1)>>1)%12;}
+function voidBranches(dp){
+  const ds=dp.index-(dp.index%10), cov=new Set();
+  for(let i=0;i<10;i++)cov.add((ds+i)%12);
+  const out=[];for(let b=0;b<12;b++)if(!cov.has(b))out.push(b);return out;
+}
+
+// ---- Calendar (Meeus) — only Plum Blossom TIME needs this --------
+const RAD=Math.PI/180;
+function solarLongitude(jd){
+  const t=(jd-2451545)/36525;
+  const l0=280.46646+36000.76983*t+0.0003032*t*t;
+  const m=(357.52911+35999.05029*t-0.0001537*t*t)*RAD;
+  const c=(1.914602-0.004817*t-0.000014*t*t)*Math.sin(m)
+        +(0.019993-0.000101*t)*Math.sin(2*m)+0.000289*Math.sin(3*m);
+  const omega=(125.04-1934.136*t)*RAD;
+  return ((l0+c-0.00569-0.00478*Math.sin(omega))%360+360)%360;
+}
+function solarTermJD(target,approx){
+  let jd=approx;
+  for(let i=0;i<50;i++){
+    let diff=((target-solarLongitude(jd)+180)%360+360)%360-180;
+    if(Math.abs(diff)<1e-7)break; jd+=diff/0.98565;
+  } return jd;
+}
+function newmoonJD(k){
+  const t=k/1236.85;
+  let jde=2451550.09766+29.530588861*k+0.00015437*t*t-0.00000015*t**3+0.00000000073*t**4;
+  const m=(2.5534+29.1053567*k-0.0000014*t*t-0.00000011*t**3)*RAD;
+  const mp=(201.5643+385.81693528*k+0.0107582*t*t+0.00001238*t**3)*RAD;
+  const f=(160.7108+390.67050284*k-0.0016118*t*t-0.00000227*t**3)*RAD;
+  const om=(124.7746-1.56375588*k+0.0020672*t*t+0.00000215*t**3)*RAD;
+  const e=1-0.002516*t-0.0000074*t*t;
+  const c=-0.40720*Math.sin(mp)+0.17241*e*Math.sin(m)+0.01608*Math.sin(2*mp)
+    +0.01039*Math.sin(2*f)+0.00739*e*Math.sin(mp-m)-0.00514*e*Math.sin(mp+m)
+    +0.00208*e*e*Math.sin(2*m)-0.00111*Math.sin(mp-2*f)-0.00057*Math.sin(mp+2*f)
+    +0.00056*e*Math.sin(2*mp+m)-0.00042*Math.sin(3*mp)+0.00042*e*Math.sin(m+2*f)
+    +0.00038*e*Math.sin(m-2*f)-0.00024*e*Math.sin(2*mp-m)-0.00017*Math.sin(om)
+    -0.00007*Math.sin(mp+2*m)+0.00004*Math.sin(2*mp-2*f)+0.00004*Math.sin(3*m)
+    +0.00003*Math.sin(mp+m-2*f)+0.00003*Math.sin(2*mp+2*f)-0.00003*Math.sin(mp+m+2*f)
+    +0.00003*Math.sin(mp-m+2*f)-0.00002*Math.sin(mp-m-2*f)-0.00002*Math.sin(3*mp+m)
+    +0.00002*Math.sin(4*mp);
+  return jde+c;
+}
+function jdToGregorian(jd){
+  jd+=0.5; let z=Math.floor(jd), f=jd-z, a;
+  if(z<2299161)a=z; else {const al=Math.floor((z-1867216.25)/36524.25); a=z+1+al-Math.floor(al/4);}
+  const b=a+1524, c=Math.floor((b-122.1)/365.25), d=Math.floor(365.25*c), e=Math.floor((b-d)/30.6001);
+  const day=b-d-Math.floor(30.6001*e)+f;
+  const month=e<14?e-1:e-13;
+  const year=month>2?c-4716:c-4715;
+  return [year,month,day];
+}
+function kNear(jd){return Math.round((jd-2451550.09766)/29.530588861);}
+function nmDayStart(k){const nm=newmoonJD(k)+CST;const g=jdToGregorian(nm);return midnightJD(g[0],g[1],Math.floor(g[2]));}
+function newmoonOnOrBefore(jd){
+  let k=kNear(jd);
+  while(nmDayStart(k)>jd+0.5)k--;
+  while(nmDayStart(k+1)<=jd+0.5)k++;
+  return nmDayStart(k);
+}
+function termForYear(year,deg){
+  const approxDay=(((deg-280)%360)+360)%360/0.98565;
+  return solarTermJD(deg,gregorianToJD(year,1,1)+approxDay);
+}
+function winterSolsticeJD(year){const j=termForYear(year,270)+CST;const g=jdToGregorian(j);return midnightJD(g[0],g[1],Math.floor(g[2]));}
+function hasMajorTerm(a,b){let l0=solarLongitude(a),l1=solarLongitude(b);if(l1<l0)l1+=360;return Math.floor(l1/30)>Math.floor(l0/30);}
+function monthStarts(from,to){
+  const out=[]; let k=kNear(from)-2;
+  while(true){const d0=nmDayStart(k); if(d0>to)break; if(d0>=from-0.5)out.push(d0); k++;}
+  return out;
+}
+function lunarDate(year,month,day){
+  const target=midnightJD(year,month,day);
+  const wsYear=target>=winterSolsticeJD(year)?year:year-1;
+  const wsPrev=winterSolsticeJD(wsYear), wsNext=winterSolsticeJD(wsYear+1);
+  const m11=newmoonOnOrBefore(wsPrev), nextM11=newmoonOnOrBefore(wsNext);
+  let starts=monthStarts(m11-1,nextM11+40).filter(s=>s>=m11-0.5).sort((a,b)=>a-b);
+  let monthsInYear=starts.filter(s=>s>=m11-0.5&&s<nextM11-0.5).length;
+  const leapNeeded=monthsInYear===13; let leapAssigned=false;
+  let monthNo=11,lastNum=11; const labels=[];
+  for(let i=0;i<starts.length;i++){
+    const s=starts[i], nxt=i+1<starts.length?starts[i+1]:s+30;
+    let isLeap=false;
+    if(leapNeeded&&!leapAssigned&&i>0&&!hasMajorTerm(s,nxt)){isLeap=true;leapAssigned=true;}
+    let num;
+    if(isLeap){num=lastNum;} else {num=monthNo;lastNum=monthNo;monthNo=monthNo===12?1:monthNo+1;}
+    labels.push([s,num,isLeap,nxt]);
+  }
+  let chosen=labels[0];
+  for(const l of labels){if(l[0]-0.5<=target&&target<l[3]-0.5){chosen=l;break;}}
+  const lday=Math.round(target-chosen[0])+1;
+  let lyear=wsYear+1; if(chosen[1]>=11)lyear=wsYear;
+  return {year:lyear,month:chosen[1],is_leap:chosen[2],day:lday};
+}
+
+// ---- Method: Yijing ---------------------------------------------
+// Per-line probabilities, exact. Both methods: 50/50 yin-yang, 25% moving.
+const LINE_PROBS={coin:{6:1/8,7:3/8,8:3/8,9:1/8},yarrow:{6:1/16,7:5/16,8:7/16,9:3/16}};
+// three coins -> exact 1/8,3/8,3/8,1/8
+function coinLine(){let s=0;for(let i=0;i<3;i++)s+=Math.random()<0.5?3:2;return s;}
+// draw from the traditional yarrow distribution (equivalent to the 49-stalk rite)
+const YARROW_CDF=[[6,1/16],[7,6/16],[8,13/16],[9,1]];
+function yarrowLine(){const r=Math.random();for(const pair of YARROW_CDF){if(r<pair[1])return pair[0];}return 9;}
+function castYijing(method){
+  const fn=method==="yarrow"?yarrowLine:coinLine;
+  const values=[0,0,0,0,0,0].map(()=>fn());
+  const moving=movingPositions(values);
+  return {method,values,primary:Hexagram(bitsOf(values)),moving,
+    changed:moving.length?Hexagram(transformBits(values)):null};
+}
+
+// ---- Method: Mei Hua --------------------------------------------
+function triBits(xt){let n=xt%8; if(n===0)n=8; return TRIGRAMS[n-1][4];}
+function meihuaBuild(upperNum,lowerNum,movingTotal){
+  const ub=triBits(upperNum), lb=triBits(lowerNum);
+  const bits=lb.concat(ub);
+  let line=movingTotal%6; if(line===0)line=6;
+  const primary=Hexagram(bits);
+  const tb=bits.slice(); tb[line-1]=1-tb[line-1];
+  const changed=Hexagram(tb);
+  const inLower=line<=3;
+  const lowerEl=TRIGRAMS[triIndex(lb)][5], upperEl=TRIGRAMS[triIndex(ub)][5];
+  let useEl,hostEl,hostPos,usePos;
+  if(inLower){useEl=lowerEl;hostEl=upperEl;hostPos="upper";usePos="lower";}
+  else{useEl=upperEl;hostEl=lowerEl;hostPos="lower";usePos="upper";}
+  const rel=relation(hostEl,useEl);
+  const V={same:["Host and Use share an element — steady, evenly matched.","n"],
+    generates_me:["Use generates Host — outside forces nourish you. Favorable.","good"],
+    i_overcome:["Host overcomes Use — you command the situation. Favorable.","good"],
+    i_generate:["Host generates Use — you spend yourself outward. Draining.","bad"],
+    overcomes_me:["Use overcomes Host — the situation presses on you. Adverse.","bad"]};
+  return {primary,changed,moving:[line],
+    host:{pos:hostPos,element:hostEl},use:{pos:usePos,element:useEl},
+    verdict:V[rel][0],tone:V[rel][1]};
+}
+function meihuaFromNumbers(a,b){return meihuaBuild(a,b,a+b);}
+function meihuaFromTime(y,m,d,h){
+  const lun=lunarDate(y,m,d);
+  const yb=(((lun.year-4)%12)+12)%12+1, hb=hourBranchOf(h)+1;
+  const up=yb+lun.month+lun.day, lo=up+hb;
+  const r=meihuaBuild(up,lo,lo);
+  r.lunar=lun; r.inputs={yb,month:lun.month,day:lun.day,hb};
+  return r;
+}
+
+// ---- Method: Liu Yao --------------------------------------------
+const NAJIA={0:[[0,2,4],[6,8,10]],1:[[5,3,1],[11,9,7]],2:[[3,1,11],[9,7,5]],
+  3:[[0,2,4],[6,8,10]],4:[[1,11,9],[7,5,3]],5:[[2,4,6],[8,10,0]],
+  6:[[4,6,8],[10,0,2]],7:[[7,5,3],[1,11,9]]};
+const POS_FLIPS=[[],[1],[1,2],[1,2,3],[1,2,3,4],[1,2,3,4,5],[1,2,3,5],[5]];
+const WORLD_LINE=[6,1,2,3,4,5,4,3];
+const BEASTS=["青龍","朱雀","勾陳","螣蛇","白虎","玄武"];
+const BEAST_START={0:0,1:0,2:1,3:1,4:2,5:3,6:4,7:4,8:5,9:5};
+const PALACE=(function(){
+  const out={};
+  for(let t=0;t<8;t++){
+    const head=TRIGRAMS[t][4].concat(TRIGRAMS[t][4]);
+    POS_FLIPS.forEach((flips,pos)=>{
+      const bits=head.map((b,i)=>flips.includes(i+1)?1-b:b);
+      out[hexNumber(bits)]=[t,pos];
+    });
+  } return out;
+})();
+function lineBranches(hex){return NAJIA[hex.lower][0].concat(NAJIA[hex.upper][1]);}
+function liuyaoAnalyze(hex,y,m,d,h,palaceElOverride){
+  const dp=pillar(dayIndex(y,m,d));
+  const pp=PALACE[hex.number], pt=pp[0], pos=pp[1];
+  const palaceEl=palaceElOverride==null?TRIGRAMS[pt][5]:palaceElOverride;
+  const world=WORLD_LINE[pos], response=((world+3-1)%6)+1;
+  const vset=new Set(voidBranches(dp)); const beast0=BEAST_START[dp.stem];
+  const br=lineBranches(hex), lines=[];
+  for(let i=0;i<6;i++){
+    const b=br[i], el=BRANCH_EL[b], rel=relation(palaceEl,el);
+    lines.push({pos:i+1,branch:b,branchName:BRANCHES[b],element:el,
+      relative:SIX_REL[rel],world:i+1===world,response:i+1===response,
+      isVoid:vset.has(b),beast:BEASTS[(beast0+i)%6]});
+  }
+  return {palace:TRIGRAMS[pt],palaceElement:palaceEl,world,response,dayPillar:dp,
+    voidBranches:voidBranches(dp).sort((a,b)=>a-b).map(b=>BRANCHES[b]),lines};
+}
+function castLiuyao(y,m,d,h){
+  const base=castYijing("coin");
+  base.overlay=liuyaoAnalyze(base.primary,y,m,d,h);
+  if(base.changed)base.overlayChanged=liuyaoAnalyze(base.changed,y,m,d,h,base.overlay.palaceElement);
+  return base;
+}
+
+// ---- Method: Bazi 八字 / Four Pillars ----------------------------
+// year (立春-bounded), month (solar-term) and hour pillars, ported from ganzhi.py
+const STEM_ELEMENT=[0,0,1,1,2,2,3,3,4,4];   // stem//2 -> WOOD..WATER
+function yearPillarIdx(y,m,d){
+  const lichun=solarTermJD(315,gregorianToJD(y,2,1))+CST;
+  const g=jdToGregorian(lichun);
+  let yy=y;
+  if(midnightJD(y,m,d)<midnightJD(g[0],g[1],Math.floor(g[2]))) yy-=1;
+  return ((yy-4)%60+60)%60;
+}
+function monthPillarIdx(y,m,d,h){
+  const lon=solarLongitude(gregorianToJD(y,m,d,h));
+  const branch=(Math.floor(((((lon-315)%360)+360)%360)/30)+2)%12;
+  const yp=pillar(yearPillarIdx(y,m,d));
+  const order=(((branch-2)%12)+12)%12;
+  const stem=((yp.stem%5)*2+2+order)%10;
+  return combine(stem,branch);
+}
+function hourPillarIdx(dayStem,hour){
+  const branch=hourBranchOf(hour);
+  return combine(((dayStem%5)*2+branch)%10, branch);
+}
+function fourPillars(y,m,d,h){
+  const dp=pillar(dayIndex(y,m,d));
+  return {year:pillar(yearPillarIdx(y,m,d)), month:pillar(monthPillarIdx(y,m,d,h)),
+          day:dp, hour:pillar(hourPillarIdx(dp.stem,h))};
+}
+const HIDDEN_STEMS={0:[9],1:[5,9,7],2:[0,2,4],3:[1],4:[4,1,9],5:[2,6,4],
+  6:[3,5],7:[5,3,1],8:[6,8,4],9:[7],10:[4,7,3],11:[8,0]};
+const TEN_GODS={"same,true":["比肩","Peer"],"same,false":["劫財","Rob Wealth"],
+  "i_generate,true":["食神","Eating God"],"i_generate,false":["傷官","Hurting Officer"],
+  "i_overcome,true":["偏財","Indirect Wealth"],"i_overcome,false":["正財","Direct Wealth"],
+  "overcomes_me,true":["七殺","Seven Killings"],"overcomes_me,false":["正官","Direct Officer"],
+  "generates_me,true":["偏印","Indirect Resource"],"generates_me,false":["正印","Direct Resource"]};
+function tenGod(dm,other){
+  const rel=relation(STEM_ELEMENT[dm],STEM_ELEMENT[other]);
+  return TEN_GODS[rel+","+((dm%2)===(other%2))];
+}
+const NAYIN=[["海中金","Metal in the Sea"],["爐中火","Fire in the Furnace"],
+  ["大林木","Wood of the Great Forest"],["路旁土","Earth by the Roadside"],
+  ["劍鋒金","Metal of the Sword's Edge"],["山頭火","Fire on the Mountain Peak"],
+  ["澗下水","Water in the Ravine"],["城頭土","Earth of the City Wall"],
+  ["白鑞金","White Wax Metal"],["楊柳木","Willow Wood"],
+  ["泉中水","Water of the Spring"],["屋上土","Earth on the Rooftop"],
+  ["霹靂火","Thunderbolt Fire"],["松柏木","Pine and Cypress Wood"],
+  ["長流水","Long-Flowing Water"],["沙中金","Metal in the Sand"],
+  ["山下火","Fire at the Foot of the Hill"],["平地木","Wood of the Level Ground"],
+  ["壁上土","Earth on the Wall"],["金箔金","Gold-Foil Metal"],
+  ["覆燈火","Sheltered Lamp Fire"],["天河水","Water of the Milky Way"],
+  ["大驛土","Earth of the Great Post-Road"],["釵釧金","Metal of Hairpin and Bracelet"],
+  ["桑柘木","Mulberry Wood"],["大溪水","Water of the Great Stream"],
+  ["沙中土","Earth in the Sand"],["天上火","Fire in the Heavens"],
+  ["石榴木","Pomegranate Wood"],["大海水","Water of the Great Ocean"]];
+function nayinOf(idx){return NAYIN[Math.floor((((idx%60)+60)%60)/2)];}
+function baziPillarView(p,dm,isDay){
+  const hidden=HIDDEN_STEMS[p.branch];
+  return {stem:p.stem, branch:p.branch, stemZh:STEMS[p.stem], branchZh:BRANCHES[p.branch][0],
+    nameZh:p.zh(), animal:BRANCH_ANIMAL[p.branch], stemElement:STEM_ELEMENT[p.stem],
+    branchElement:BRANCH_EL[p.branch], stemGod:isDay?null:tenGod(dm,p.stem),
+    hidden:hidden.map(s=>({stem:s,zh:STEMS[s],element:STEM_ELEMENT[s],god:tenGod(dm,s)})),
+    nayin:nayinOf(p.index)};
+}
+function baziElements(pl){
+  const t=[0,0,0,0,0];
+  for(const k of ["year","month","day","hour"]){
+    t[STEM_ELEMENT[pl[k].stem]]++; t[STEM_ELEMENT[HIDDEN_STEMS[pl[k].branch][0]]]++;
+  }
+  return t;
+}
+function baziStrength(pl){
+  const dm=pl.day.stem, dmEl=STEM_ELEMENT[dm]; let support=0,drain=0;
+  for(const k of ["year","month","day","hour"]){
+    for(const s of [pl[k].stem, HIDDEN_STEMS[pl[k].branch][0]]){
+      const rel=relation(dmEl,STEM_ELEMENT[s]);
+      if(rel==="same"||rel==="generates_me") support++; else drain++;
+    }
+  }
+  const monthRel=relation(dmEl, STEM_ELEMENT[HIDDEN_STEMS[pl.month.branch][0]]);
+  const seasoned=(monthRel==="same"||monthRel==="generates_me");
+  let label = (support>drain&&seasoned)?"leans strong"
+            : (drain>support&&!seasoned)?"leans weak":"mixed / balanced";
+  return {support,drain,monthSupports:seasoned,label};
+}
+function jieJD(jd,forward){
+  const lon=solarLongitude(jd);
+  const k=forward?Math.floor((lon-15)/30)+1:Math.ceil((lon-15)/30)-1;
+  const target=((15+30*k)%360+360)%360;
+  const diff=(((target-lon)%360)+540)%360-180;
+  return solarTermJD(target, jd+diff/0.98565);
+}
+function luckPillars(y,m,d,h,gender,count){
+  count=count||8;
+  if(gender!=="male"&&gender!=="female") return null;
+  const yp=pillar(yearPillarIdx(y,m,d));
+  const yearYang=(yp.stem%2===0);
+  const forward=(yearYang&&gender==="male")||(!yearYang&&gender==="female");
+  const birth=gregorianToJD(y,m,d,h);
+  const days=Math.abs(jieJD(birth,forward)-birth);
+  const startY=Math.floor(days/3);
+  let startM=Math.round((days/3-startY)*12); let sy=startY;
+  if(startM===12){sy++;startM=0;}
+  const mi=monthPillarIdx(y,m,d,h), step=forward?1:-1, out=[];
+  for(let i=0;i<count;i++){
+    const p=pillar(((mi+step*(i+1))%60+60)%60);
+    out.push({nameZh:p.zh(),animal:BRANCH_ANIMAL[p.branch],stemElement:STEM_ELEMENT[p.stem],startAge:sy+10*i});
+  }
+  return {forward,startAgeYears:sy,startAgeMonths:startM,pillars:out};
+}
+function baziChart(y,m,d,h,gender){
+  const pl=fourPillars(y,m,d,h), dm=pl.day.stem, order=["year","month","day","hour"];
+  const views={}; for(const k of order) views[k]=baziPillarView(pl[k],dm,k==="day");
+  return {input:{year:y,month:m,day:d,hour:h,gender:gender||null}, order, pillars:views,
+    dayMaster:{stem:dm,zh:STEMS[dm],element:STEM_ELEMENT[dm],polarity:dm%2===0?"yang":"yin"},
+    elements:baziElements(pl), strength:baziStrength(pl), luck:luckPillars(y,m,d,h,gender)};
+}
+
+/* ============================================================
+   UI
+   ============================================================ */
+const $=s=>document.querySelector(s);
+function elName(e){return EL[e][0]+" "+EL[e][1];}
+
+function lineRow(value,bit,moving){
+  const yang = value!=null ? (value===7||value===9) : bit===1;
+  const isMove = value!=null ? (value===6||value===9) : moving;
+  const tag = isMove ? (yang?"→ ○":"→ ×") : "";
+  const bar = yang ? '<span class="bar"></span>'
+                   : '<span class="yin"><span class="bar"></span><span class="bar"></span></span>';
+  return '<div class="ln '+(isMove?'move':'')+'">'+bar+'<span class="tag">'+tag+'</span></div>';
+}
+function hexBlock(hex,values,cap){
+  let rows="";
+  for(let p=6;p>=1;p--){
+    rows += values ? lineRow(values[p-1],null,false) : lineRow(null,hex.bits[p-1],false);
+  }
+  return '<div class="hexbox">'
+    + (cap?'<div class="cap">'+cap+'</div>':'')
+    + '<div class="hex">'+rows+'</div>'
+    + '<div class="name"><span class="num">#'+hex.number+'</span> '+hex.hanzi+' '+hex.pinyin+' — '+hex.english+'</div>'
+    + '<div class="tri">'+TRIGRAMS[hex.upper][3]+' upper '+TRIGRAMS[hex.upper][0]+' '+TRIGRAMS[hex.upper][2]
+      +' · '+TRIGRAMS[hex.lower][3]+' lower '+TRIGRAMS[hex.lower][0]+' '+TRIGRAMS[hex.lower][2]+'</div>'
+    + '<div class="gloss">'+hex.gloss+'</div></div>';
+}
+
+// ============ interpretation — grounded in the received texts =============
+// ZHOUYI[num] = {judg:{zh,en}, lines:[{zh,en} x6], extra:{zh,en}|null}
+// Populated from the canonical 卦辭/爻辭 (Zhou Yi, ctext.org, public domain);
+// English is my own concise translation of the canonical line.
+const ZHOUYI = (typeof ZHOUYI_DATA !== "undefined") ? ZHOUYI_DATA : {};
+
+const POS_PLACE=[
+  "the beginning — the feet, what is only starting and still hidden",
+  "the inner center — the field, the trusted servant; a balanced place",
+  "the threshold — top of the lower trigram, exposed and transitional",
+  "the approach to power — the minister beside the ruler; caution and service",
+  "the seat of power — the ruler's place, central and honored",
+  "beyond the summit — the sage past power, or the excess of going too far"
+];
+const MOVE_NOTE={
+  yang:"Old yang (9): strength at its peak, beginning to yield to yin — culmination, and the first turn downward.",
+  yin:"Old yin (6): yielding carried to its end, beginning to firm into yang — a turn toward action."
+};
+function lineDoctrine(pos,yang,bits){
+  const correct=(yang&&pos%2===1)||(!yang&&pos%2===0);
+  const central=(pos===2||pos===5);
+  const partner=pos<=3?pos+3:pos-3;
+  const responds=bits[pos-1]!==bits[partner-1];
+  let s="位 "+POS_PLACE[pos-1]+". ";
+  if(central) s+="中 central, a place of balance. ";
+  s+= correct ? "正 a "+(yang?"firm":"yielding")+" line in its proper place. "
+              : "不當 a "+(yang?"firm":"yielding")+" line out of place — some tension. ";
+  s+= responds ? "應 holds correspondence with line "+partner+"."
+               : "no correspondence with line "+partner+".";
+  return s;
+}
+function readingProtocol(n){
+  return [
+    "No moving lines — read the Judgment (卦辭); the figure stands as it is.",
+    "One moving line — read that line's 爻辭; it carries the answer.",
+    "Two moving lines — read both 爻辭; the upper of the two weighs more.",
+    "Three moving lines — read the Judgments of both present and changed hexagram; the present is the trunk, the changed the tendency.",
+    "Four moving lines — read the two still lines of the changed hexagram; the lower of them governs.",
+    "Five moving lines — read the single still line of the changed hexagram.",
+    "Six moving lines — read the Judgment of the changed hexagram (for 乾/坤, their 用九/用六 text)."
+  ][n];
+}
+function esc(s){return (s||"").replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function qBlock(q){return q?'<div class="qline">“'+esc(q)+'”</div>':"";}
+function judgmentBlock(hex){
+  const z=ZHOUYI[hex.number];
+  if(!z||!z.judg) return '<div class="judg"><div class="en">'+hex.gloss+'</div>'
+    +'<div class="src">reading gloss (canonical text not yet loaded)</div></div>';
+  return '<div class="judg"><div class="zh">'+z.judg.zh+'</div>'
+    +'<div class="en">'+z.judg.en+'</div>'
+    +'<div class="src">卦辭 the Judgment · my translation of the canonical text</div></div>';
+}
+function lineItems(reading){
+  const items=[], bits=reading.primary.bits;
+  for(let p=1;p<=6;p++){
+    let yang,moving;
+    if(reading.values){const v=reading.values[p-1]; yang=(v===7||v===9); moving=(v===6||v===9);}
+    else {yang=bits[p-1]===1; moving=reading.moving.indexOf(p)>=0;}
+    items.push({pos:p,yang:yang,moving:moving});
+  }
+  return items;
+}
+function linesBlock(reading){
+  const z=ZHOUYI[reading.primary.number], bits=reading.primary.bits, items=lineItems(reading);
+  let rows="";
+  for(let i=items.length-1;i>=0;i--){                 // top (6) to bottom (1)
+    const it=items[i], p=it.pos;
+    const type=it.moving?(it.yang?["老陽","old yang"]:["老陰","old yin"])
+                        :(it.yang?["少陽","young yang"]:["少陰","young yin"]);
+    const glyph='<span class="'+(it.yang?'miniyang':'miniyin')+(it.moving?' m':'')+'"></span>';
+    const lz=z&&z.lines&&z.lines[p-1];
+    const canon=lz?'<div class="lzh">'+lz.zh+'</div><div class="len">'+lz.en+'</div>':"";
+    rows+='<div class="lrow'+(it.moving?' moving':'')+'"><div class="lg">'+glyph+'</div><div class="lt">'
+      +'<div class="lhead">Line '+p+' · '+type[0]+' '+type[1]+(it.moving?' — moving':'')+'</div>'
+      +canon
+      +'<div class="ldoc">'+lineDoctrine(p,it.yang,bits)+(it.moving?' — '+MOVE_NOTE[it.yang?'yang':'yin']:'')+'</div>'
+      +'</div></div>';
+  }
+  return '<div class="lines2">'+rows+'</div>';
+}
+const TRANSL_NOTE='<div class="transl-note">Chinese is the canonical 卦辭/爻辭 (Zhou Yi, public domain). '
+  +'English is my own concise translation of that text; the 位/中/正/應 notes are traditional line-position theory.</div>';
+
+// ---- journal (localStorage) ----
+function loadLog(){try{return JSON.parse(localStorage.getItem("oracle.log")||"[]");}catch(e){return [];}}
+function logReading(method,q,r,extra){
+  const e={t:new Date().toISOString(),method:method,q:q||"",
+    primary:r.primary?r.primary.number:null,pname:r.primary?(r.primary.hanzi+" "+r.primary.english):"",
+    moving:r.moving?r.moving.slice():[],changed:r.changed?r.changed.number:null,
+    cname:r.changed?(r.changed.hanzi+" "+r.changed.english):"",extra:extra||""};
+  const log=loadLog(); log.unshift(e);
+  localStorage.setItem("oracle.log",JSON.stringify(log.slice(0,200)));
+  renderJournal();
+}
+function renderJournal(){
+  const log=loadLog(), c=$("#jcount"), body=$("#journalbody");
+  if(c) c.textContent=log.length?("("+log.length+")"):"";
+  if(!body) return;
+  if(!log.length){body.innerHTML='<p style="color:var(--muted)">No readings yet. Your casts are recorded here — stored only in this browser.</p>';return;}
+  let h='<div style="margin:.3rem 0 1rem"><button class="go" id="jclear">Clear journal</button></div><div class="jlist">';
+  for(const e of log){
+    const when=new Date(e.t).toLocaleString();
+    const mv=e.moving&&e.moving.length?(' · moving '+e.moving.join(",")):'';
+    const ch=e.changed?(' → #'+e.changed+' '+esc(e.cname)):'';
+    h+='<div class="jrow"><div class="jw">'+when+' · '+esc(e.method)+'</div>'
+      +(e.q?'<div class="jq">“'+esc(e.q)+'”</div>':'')
+      +'<div class="jh">'+(e.primary?('#'+e.primary+' '):'')+esc(e.pname)+ch+mv+(e.extra?(' · '+esc(e.extra)):'')+'</div></div>';
+  }
+  h+='</div>';
+  body.innerHTML=h;
+  const cb=$("#jclear"); if(cb) cb.onclick=function(){ if(confirm("Clear the whole journal? This cannot be undone.")){localStorage.removeItem("oracle.log");renderJournal();} };
+}
+function buildGuide(){
+  const b=$("#guidebody"); if(!b) return;
+  b.innerHTML=
+   '<p><b>易經 I Ching (coins or yarrow)</b> — for a situation you are inside and want to understand as it moves. The moving lines are the point: they mark the pivots. Ask “what is really going on, and where is it heading?” Coins for speed; yarrow for the meditative rite and its traditional weighting.</p>'
+   +'<p><b>梅花 Plum Blossom</b> — for reading a moment or an omen rather than posing a question. A number, a time, a thing you noticed becomes the oracle; the 體/用 elements give a clean favorable / adverse read. Reach for it when you do not want to cast — you want to read what is already in front of you.</p>'
+   +'<p><b>文王卦 Wen Wang Gua</b> — for concrete, worldly questions: will it happen, when, who is involved. The six relatives map the question onto people, money, authority and outcome; the void and day pillar give timing. The most predictive of the three.</p>'
+   +'<p style="color:var(--muted)">Rule of thumb — <b>understand →</b> I Ching · <b>read the moment →</b> Plum Blossom · <b>predict an outcome →</b> Wen Wang Gua.</p>';
+}
+function getQ(){const el=$("#intent"); return el?el.value.trim():"";}
+
+function renderYijing(r,q){
+  const label=r.method==="yarrow"?"yarrow stalks":"three coins";
+  let html='<div class="card"><h2>易經 Yijing</h2>'+qBlock(q)+'<div class="meta">cast by '+label+'</div>'
+    +'<div class="pair">'+hexBlock(r.primary,r.values,"Present");
+  if(r.moving.length) html+=hexBlock(r.changed,null,"Changes into");
+  html+='</div>';
+  html+='<div class="protocol">'+readingProtocol(r.moving.length)+'</div>';
+  html+=judgmentBlock(r.primary);
+  html+='<h3 class="sec">The six lines'+(r.moving.length?' — moving lines highlighted':'')+'</h3>';
+  html+=linesBlock(r);
+  if(r.moving.length){
+    html+='<h3 class="sec">Changes into · #'+r.changed.number+' '+r.changed.hanzi+' '+r.changed.english+'</h3>';
+    html+=judgmentBlock(r.changed);
+  }
+  html+=TRANSL_NOTE;
+  return html+"</div>";
+}
+function renderMeihua(r,q){
+  let head="";
+  if(r.lunar){const L=r.lunar,leap=L.is_leap?"leap ":"";
+    head='<div class="meta">this moment → lunar '+L.year+', '+leap+'month '+L.month+', day '+L.day
+      +' &nbsp;·&nbsp; '+r.inputs.yb+'+'+r.inputs.month+'+'+r.inputs.day+' (+'+r.inputs.hb+')</div>';}
+  let html='<div class="card"><h2>梅花易數 Plum Blossom</h2>'+qBlock(q)+head
+    +'<div class="pair">'+hexBlock(r.primary,null,"Hexagram")+hexBlock(r.changed,null,"Changes into")+'</div>'
+    +'<div class="facts"><b>Moving line:</b> '+r.moving[0]+'</div>'
+    +'<div class="facts" style="margin-top:.4rem"><b>體 Host (self):</b> '+elName(r.host.element)
+      +' · <b>用 Use:</b> '+elName(r.use.element)+'</div>'
+    +'<div class="verdict '+(r.tone==='good'?'good':r.tone==='bad'?'bad':'')+'">'+r.verdict+'</div>';
+  html+=judgmentBlock(r.primary);
+  html+='<h3 class="sec">The six lines — moving line highlighted</h3>'+linesBlock(r)+TRANSL_NOTE;
+  return html+'</div>';
+}
+function sheet(hex,values,ov,title,movingSet,showMarks){
+  let rows="";
+  for(let p=6;p>=1;p--){
+    const l=ov.lines[p-1];
+    const yang=values?(values[p-1]===7||values[p-1]===9):hex.bits[p-1]===1;
+    const isMove=values?(values[p-1]===6||values[p-1]===9):(movingSet&&movingSet.has(p));
+    const glyph='<span class="'+(yang?'miniyang':'miniyin')+' '+(isMove?'m':'')+'"></span>';
+    const mark=(showMarks&&l.world?"世":"")+(showMarks&&l.response?"應":"");
+    rows+='<tr><td>'+(mark||"&nbsp;")+'</td><td>'+l.beast+'</td><td>'+l.relative[0]+'</td>'
+      +'<td>'+l.branchName+EL[l.element][0]+(l.isVoid?" 空":"")+'</td>'
+      +'<td class="g">'+glyph+'</td></tr>';
+  }
+  return '<div class="hexbox"><div class="cap">'+title+': #'+hex.number+' '+hex.hanzi+' '+hex.english+'</div>'
+    +'<table class="sheet">'+rows+'</table></div>';
+}
+function renderLiuyao(r,when,q){
+  const ov=r.overlay;
+  let html='<div class="card"><h2>文王卦 Wen Wang Gua / 六爻 Liu Yao</h2>'+qBlock(q)
+    +'<div class="meta">'+when+'</div><div class="pair">'
+    +sheet(r.primary,r.values,ov,"Present",null,true);
+  if(r.changed) html+=sheet(r.changed,null,r.overlayChanged,"Changed",new Set(r.moving),false);
+  html+='</div><div class="facts">'
+    +'<b>Day pillar:</b> '+ov.dayPillar.zh()+' ('+ov.dayPillar.en()+') &nbsp;·&nbsp;'
+    +'<b>Void 旬空:</b> '+ov.voidBranches.join(" ")+'<br>'
+    +'<b>Palace:</b> '+ov.palace[0]+' '+ov.palace[2]+' — '+elName(ov.palaceElement)+' &nbsp;·&nbsp;'
+    +'<b>世 World:</b> line '+ov.world+' &nbsp; <b>應 Response:</b> line '+ov.response+'</div></div>';
+  return html;
+}
+
+function renderBazi(c){
+  const i=c.input, dm=c.dayMaster;
+  const glab={year:"Year 年",month:"Month 月",day:"Day 日",hour:"Hour 時"};
+  let cols="";
+  for(const k of c.order){
+    const p=c.pillars[k];
+    const god=p.stemGod?(p.stemGod[0]+" "+p.stemGod[1]):"日主 self";
+    const hid=p.hidden.map(function(h){return h.zh+" "+h.god[0];}).join(" · ");
+    cols+='<div class="pcol'+(k==="day"?" dayp":"")+'">'
+      +'<div class=plab>'+glab[k]+'</div><div class=pgz>'+p.nameZh+'</div>'
+      +'<div class=pan>'+p.animal+'</div><div class=pgod>'+esc(god)+'</div>'
+      +'<div class=phid>藏干 '+esc(hid)+'</div>'
+      +'<div class=pny>納音 '+p.nayin[0]+'<br>'+p.nayin[1]+'</div></div>';
+  }
+  let maxc=1; for(let e=0;e<5;e++) if(c.elements[e]>maxc) maxc=c.elements[e];
+  let els="";
+  for(let e=0;e<5;e++){const n=c.elements[e];
+    els+='<div class="elbar'+(n===0?" absent":"")+'"><span class=eln>'+elName(e)+'</span>'
+      +'<span class=elt style="width:'+(n/maxc*220)+'px"></span>'
+      +'<span class=elz>'+n+(n===0?" · absent":"")+'</span></div>';}
+  const s=c.strength;
+  let luck;
+  if(c.luck){
+    luck='<h3 class="sec">Luck pillars 大運 — '+(c.luck.forward?"forward 順":"backward 逆")
+      +', from age '+c.luck.startAgeYears+'y '+c.luck.startAgeMonths+'m</h3><div class=luckrow>'
+      +c.luck.pillars.map(function(p){return '<div class=luckp><b>'+p.nameZh+'</b>'+p.animal
+        +'<span>age '+p.startAge+'</span></div>';}).join("")+'</div>';
+  } else {
+    luck='<p class=hint>Add a birth sex to compute the 大運 luck pillars — the traditional rule keys their direction off it. The chart above needs no such input.</p>';
+  }
+  const pad=function(n){return String(n).padStart(2,"0");};
+  return '<div class="card"><h2>八字 Bazi — Four Pillars of Destiny</h2>'
+    +'<div class=meta>'+i.year+'-'+pad(i.month)+'-'+pad(i.day)+' '+pad(i.hour)+':00'+(i.gender?" · "+i.gender:"")+'</div>'
+    +'<div class=facts><b>Day Master 日主:</b> '+dm.zh+' — '+elName(dm.element)+', '+dm.polarity+'</div>'
+    +'<div class=pillars4>'+cols+'</div>'
+    +'<h3 class="sec">Five Elements — the eight characters</h3><div class=elrow>'+els+'</div>'
+    +'<div class=protocol><b>Day-Master balance</b> (a heuristic, not a verdict): <b>'+s.label+'</b> — '
+      +'supporters '+s.support+' vs drainers '+s.drain+'; the birth month '
+      +(s.monthSupports?"supports":"does not support")+' the Day Master.</div>'
+    +luck
+    +'<div class=transl-note>The pillars, hidden stems, Ten Gods, nayin and luck cycles are exact rule-based computation. The strength read is a labelled heuristic — real 用神 assessment is an interpretive craft, not a fortune.</div></div>';
+}
+function baziForm(){
+  $("#controls").innerHTML='<div class="bzform">'
+    +'<label>Year<input id=bzY type=number value="1990"></label>'
+    +'<label>Month<input id=bzM type=number value="6" min=1 max=12></label>'
+    +'<label>Day<input id=bzD type=number value="15" min=1 max=31></label>'
+    +'<label>Hour<input id=bzH type=number value="9" min=0 max=23></label>'
+    +'<label>Birth sex (for luck)<select id=bzG><option value="">— skip —</option>'
+    +'<option value="male">male</option><option value="female">female</option></select></label>'
+    +'<button class="go" id=bzGo>Cast the chart</button></div>';
+  $("#bzGo").onclick=function(){
+    const y=+$("#bzY").value||2000,m=+$("#bzM").value||1,d=+$("#bzD").value||1,h=+$("#bzH").value||0;
+    const g=$("#bzG").value||null;
+    const c=baziChart(y,m,d,h,g);
+    show(renderBazi(c));
+    logNote("Bazi 八字", y+"-"+String(m).padStart(2,"0")+"-"+String(d).padStart(2,"0")
+      +" · Day Master "+c.dayMaster.zh+" "+elName(c.dayMaster.element));
+  };
+}
+function logNote(method,summary){
+  const e={t:new Date().toISOString(),method:method,q:"",primary:null,pname:summary,
+    moving:[],changed:null,cname:"",extra:""};
+  const log=loadLog(); log.unshift(e);
+  localStorage.setItem("oracle.log",JSON.stringify(log.slice(0,200))); renderJournal();
+}
+
+// menu wiring
+const METHODS=[
+  ["易經","I Ching — three coins","quick cast, even odds",function(){const q=getQ();const r=castYijing("coin");show(renderYijing(r,q));logReading("I Ching · coins",q,r);}],
+  ["易經","I Ching — yarrow stalks","the 49-stalk rite, watch it unfold",function(){
+    const q=getQ();const r=castYijing("yarrow");
+    const on=$("#anim")&&$("#anim").checked;
+    const reduce=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if(on&&!reduce) animateYarrow(r,q); else {show(renderYijing(r,q));logReading("I Ching · yarrow",q,r);}
+  }],
+  ["梅花","Plum Blossom — two numbers","you give two numbers",function(){numberForm();}],
+  ["梅花","Plum Blossom — this moment","from the current lunar date",function(){const q=getQ();const n=new Date();const r=meihuaFromTime(n.getFullYear(),n.getMonth()+1,n.getDate(),n.getHours());show(renderMeihua(r,q));logReading("Plum Blossom · moment",q,r);}],
+  ["文王","Wen Wang Gua (Liu Yao)","full six-line overlay for now",function(){const q=getQ();const n=new Date();const r=castLiuyao(n.getFullYear(),n.getMonth()+1,n.getDate(),n.getHours());show(renderLiuyao(r,n.toLocaleString(),q));logReading("Wen Wang Gua",q,r,"day "+r.overlay.dayPillar.zh());}],
+  ["八字","Bazi — Four Pillars chart","a birth moment, the deterministic chart",function(){baziForm();}],
+];
+function buildMenu(){
+  $("#menu").innerHTML=METHODS.map(function(m,i){
+    return '<button class="method" data-i="'+i+'"><span class="zh">'+m[0]+'</span>'+m[1]+'<small>'+m[2]+'</small></button>';}).join("");
+  document.querySelectorAll(".method").forEach(function(b){b.onclick=function(){$("#controls").innerHTML="";METHODS[+b.dataset.i][3]();};});
+}
+function numberForm(){
+  $("#controls").innerHTML='<div class="numrow">'
+    +'<label>Number 1 <input id="n1" type="number" value="7"></label>'
+    +'<label>Number 2 <input id="n2" type="number" value="8"></label>'
+    +'<button class="go" id="ngo">Cast</button></div>';
+  $("#ngo").onclick=function(){const q=getQ();const r=meihuaFromNumbers(+$("#n1").value||1,+$("#n2").value||1);show(renderMeihua(r,q));logReading("Plum Blossom · numbers",q,r);};
+}
+function show(html){$("#out").innerHTML=html; $("#out").scrollIntoView({behavior:"smooth",block:"start"});}
+buildMenu();
+
+/* ---- the yarrow ritual animation ----
+   The line value is already fixed (drawn from the exact distribution). Here we
+   choreograph the traditional Three Changes to land on it, using authentic
+   stalk counts: change 1 sets aside 5 or 9, changes 2 & 3 set aside 4 or 8, and
+   49 minus what is set aside, divided by 4, is the line (6/7/8/9). */
+const LINE_TYPE={6:["老陰","old yin"],7:["少陽","young yang"],8:["少陰","young yin"],9:["老陽","old yang"]};
+function stalkDecompose(v){
+  const opts=[];
+  for(const c1 of [5,9])for(const c2 of [4,8])for(const c3 of [4,8])
+    if(49-c1-c2-c3===v*4) opts.push([c1,c2,c3]);
+  return opts[Math.floor(Math.random()*opts.length)];
+}
+function sleep(ms){return new Promise(function(r){ if(window.__skip) return r(); setTimeout(r,ms); });}
+
+async function animateYarrow(reading,q){
+  window.__skip=false;
+  $("#out").innerHTML=
+    '<div class="stage" id="stage">'
+    +'<div class="stagehead"><span class="cap" id="ycap">Yarrow stalks — gathering fifty, one set aside</span>'
+    +'<span class="skip" id="yskip">skip →</span></div>'
+    +'<div class="mat" id="ymat"></div>'
+    +'<div class="counts" id="ycounts">&nbsp;</div>'
+    +'<div class="buildhex" id="ybuild"></div></div>';
+  $("#out").scrollIntoView({behavior:"smooth",block:"start"});
+  const mat=$("#ymat"), cap=$("#ycap"), counts=$("#ycounts"), build=$("#ybuild");
+  $("#stage").addEventListener("click",function(){window.__skip=true;});
+  $("#yskip").addEventListener("click",function(e){e.stopPropagation();window.__skip=true;});
+
+  // placeholder hexagram, top (line 6) to bottom (line 1)
+  const slots={};
+  for(let p=6;p>=1;p--){const d=document.createElement("div");d.className="brow ph";build.appendChild(d);slots[p]=d;}
+
+  function newStalks(n){
+    mat.innerHTML=""; const arr=[];
+    for(let i=0;i<n;i++){const s=document.createElement("i");s.className="stalk in";mat.appendChild(s);arr.push(s);}
+    requestAnimationFrame(function(){arr.forEach(function(s){s.classList.remove("in");});});
+    return arr;
+  }
+  async function setAside(arr,count){
+    const victims=arr.slice(arr.length-count);
+    victims.forEach(function(s){s.classList.add("gone");});
+    await sleep(520);
+    victims.forEach(function(s){s.remove();});
+    arr.length=arr.length-count;
+  }
+  function fillSlot(el,value,moving){
+    const yang=(value===7||value===9);
+    el.className="brow"+(moving?" move":"");
+    el.innerHTML = yang ? '<span class="bar"></span>'
+      : '<span class="yin"><span class="bar"></span><span class="bar"></span></span>';
+  }
+
+  for(let li=0; li<6; li++){
+    cap.textContent="Line "+(li+1)+" of 6 — gathering 49 stalks";
+    let S=newStalks(49); let remaining=49; counts.innerHTML="49 stalks in hand";
+    await sleep(520);
+    const dec=stalkDecompose(reading.values[li]);
+    for(let ci=0; ci<3; ci++){
+      cap.textContent="Line "+(li+1)+" · change "+(ci+1)+" of 3 — divide the heap, set aside the remainder";
+      const pivot=Math.max(1,Math.min(S.length-2,Math.floor(S.length/2)+(Math.floor(Math.random()*7)-3)));
+      if(S[pivot]) S[pivot].classList.add("pivot");
+      await sleep(440);
+      await setAside(S,dec[ci]);
+      remaining-=dec[ci];
+      mat.querySelectorAll(".pivot").forEach(function(s){s.classList.remove("pivot");});
+      counts.innerHTML="set aside <b>"+dec[ci]+"</b> · <b>"+remaining+"</b> remain";
+      await sleep(320);
+    }
+    S.forEach(function(s){s.classList.add("glow");});
+    const v=reading.values[li], t=LINE_TYPE[v];
+    counts.innerHTML=remaining+" ÷ 4 = <b>"+(remaining/4)+"</b> → "+v+" "+t[0]+" "+t[1]+(reading.moving.includes(li+1)?" (moving)":"");
+    await sleep(680);
+    fillSlot(slots[li+1],v,reading.moving.includes(li+1));
+    S.forEach(function(s){s.classList.add("gone");});
+    await sleep(300); mat.innerHTML="";
+  }
+  cap.textContent="The hexagram is complete";
+  await sleep(400);
+  show(renderYijing(reading,q));
+  logReading("I Ching · yarrow",q,reading);
+}
+
+// remember the animation preference
+(function(){
+  const box=$("#anim"); if(!box) return;
+  const saved=localStorage.getItem("oracle.anim");
+  if(saved!==null) box.checked=(saved==="1");
+  box.addEventListener("change",function(){localStorage.setItem("oracle.anim",box.checked?"1":"0");});
+})();
+
+// ---- the odds panel ----
+function buildOdds(){
+  const rows=[[9,"老陽","old yang",true],[8,"少陰","young yin",false],
+    [7,"少陽","young yang",false],[6,"老陰","old yin",true]];
+  const pct=x=>(x*100).toFixed(2)+"%";
+  let body='<table class="odds"><tr><th>line</th><th>yarrow</th><th>three coins</th></tr>';
+  for(const r of rows){
+    body+='<tr class="'+(r[3]?'move':'')+'"><td>'+r[0]+' '+r[1]+' '+r[2]+(r[3]?' (moving)':'')
+      +'</td><td>'+pct(LINE_PROBS.yarrow[r[0]])+'</td><td>'+pct(LINE_PROBS.coin[r[0]])+'</td></tr>';
+  }
+  body+='</table>'
+    +'<p><b>Same under both methods:</b> every line is 50% yin / 50% yang, and any line is '
+    +'moving (changing) exactly 25% of the time.</p>'
+    +'<p><b>What coins change — only the lean:</b> yarrow leans toward stable young-yin '
+    +'(少陰, its commonest line) and, among moving lines, toward old-yang over old-yin by 3 to 1 — '
+    +'a built-in tilt toward yang giving way to yin. Coins flatten that to perfect symmetry: '
+    +'old yin and old yang become equally likely. Same amount of change, no direction to it.</p>';
+  $("#oddsbody").innerHTML=body;
+}
+buildOdds();
+buildGuide();
+renderJournal();
+
+/* ---- in-page self-tests: proves the JS engine matches the Python ---- */
+(function(){
+  const T=[];
+  const ok=function(n,c){T.push((c?"✓":"✗")+" "+n);};
+  ok("KingWen 64",Object.keys(BY_NUM).length===64);
+  ok("Tai=11",BY_TRI["0,7"]===11); ok("JiJi=63",BY_TRI["2,5"]===63);
+  ok("anchor 2000-01-07=甲子",dayIndex(2000,1,7)===0);
+  ok("void 甲子=戌亥",voidBranches(pillar(0)).join()==="10,11");
+  ok("CNY 2023-01-22",(function(){const l=lunarDate(2023,1,22);return l.year===2023&&l.month===1&&l.day===1&&!l.is_leap;})());
+  ok("CNY 2024-02-10",(function(){const l=lunarDate(2024,2,10);return l.month===1&&l.day===1;})());
+  ok("CNY 2025-01-29",(function(){const l=lunarDate(2025,1,29);return l.month===1&&l.day===1;})());
+  ok("2023 leap-2",(function(){const l=lunarDate(2023,3,22);return l.month===2&&l.is_leap;})());
+  ok("大有#14 Qian palace",PALACE[14][0]===0);
+  ok("Qian najia",lineBranches(Hexagram([1,1,1,1,1,1])).join()==="0,2,4,6,8,10");
+  const pass=T.filter(function(x){return x[0]==="✓";}).length;
+  $("#tests").textContent="engine self-check: "+pass+"/"+T.length+" — "+T.join("  ");
+})();
+</script>
+</body>
+</html>

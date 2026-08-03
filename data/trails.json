@@ -1,0 +1,80 @@
+{
+  "_comment": "Hand-authored trails (WAYFINDING_PLAN.md Phase D). A trail is an ordered walk through the knowledge graph with one line of narration per step. EVERY `node` must exist in the graph — trails.py refuses to build one that points at a node the corpus no longer has, because a published trail is a promise. EVERY number in `say` was checked against the graph on 2026-07-23 and is written so it stays true as counts drift (\"more than 20\", not \"exactly 21\") wherever the point survives the drift. Authored provenance: a human wrote these; the bot-assembled ones are generated in trails.py and wear a label saying so.",
+
+  "trails": [
+    {
+      "slug": "the-same-word",
+      "title_th": "คำเดียวกัน",
+      "title_en": "The same word, still being said",
+      "blurb": "A word written into a palm-leaf manual, and the same word on a listing you can buy from tonight. This is the seam the whole archive is built on.",
+      "author": "hand",
+      "steps": [
+        {"node": "ms:6966", "say": "Start in a compendium of old katha — the Pali spell-formulae a practitioner copies out and keeps. It is one of more than twenty manuscripts here that carry the word เมตตา, loving-kindness."},
+        {"node": "term:เมตตา", "say": "เมตตา is not a museum word. It is a working term: what a charm is FOR. Follow it out of the manuscript and into the vocabulary the archive has tagged."},
+        {"node": "term:เมตตามหานิยม", "say": "Its bigger cousin, เมตตามหานิยม — loving-kindness plus mass-popularity, the charm that makes a person liked. Twelve manuscripts, and hundreds of live listings."},
+        {"node": "item:3408", "say": "Now the market. Hundreds of listings on sale today are described with เมตตา — this one is a packet of wan, the herb compound, sold for exactly that. The same word, the same purpose, priced in baht and posted with a photograph."},
+        {"node": "finding:echoshared-vocabulary", "say": "The bots noticed this pattern before anyone pointed at it: a shared vocabulary running from the palm-leaf to the shopfront. Here is the finding, with every record it counted."}
+      ]
+    },
+
+    {
+      "slug": "wat-chiang-man",
+      "title_th": "วัดเชียงมั่น",
+      "title_en": "The wat that still holds them",
+      "blurb": "One temple in Chiang Mai, 137 manuscripts, and a five-minute walk to two more wats. The only place in this archive where the shelf and the map meet by name.",
+      "author": "hand",
+      "steps": [
+        {"node": "place:wat-chiang-man", "say": "Wat Chiang Man — recorded at 18.7938 N, 98.9894 E, inside the square moat of the old city. A registered Thai historic site, and listed as active."},
+        {"node": "temple:Wat Chiang Man", "say": "The catalogue names this wat as the holding place of 137 manuscripts. Of every temple named in the corpus, it is the only one that also appears on the map by exactly this name — the others are mostly in Phrae, Lampang and Nan, outside the mapped area. One bridge, and a great many still to build."},
+        {"node": "ms:727", "say": "One of the 137: a palm-leaf text catalogued from this temple's collection. The manuscript is here; the building it came from is a bus ride away."},
+        {"node": "place:wat-lam-chang", "say": "143 metres away — วัดล่ามช้าง, close enough that the two are a single stop on foot."},
+        {"node": "place:wat-chiang-yuen", "say": "289 metres on, วัดเชียงยืน. Three wats, under half a kilometre, and a shelf of manuscripts between them."}
+      ]
+    },
+
+    {
+      "slug": "the-fifty-six-khoi",
+      "title_th": "กระดาษข่อย ๕๖ ฉบับ",
+      "title_en": "The fifty-six on khoi paper",
+      "blurb": "Almost everything here was written on palm leaf. Fifty-six manuscripts were not — and what is written on paper turns out to be a different kind of book.",
+      "author": "hand",
+      "steps": [
+        {"node": "finding:raritymaterialkhoi", "say": "A curiosity bot flagged this one at full confidence: khoi paper is the rare support in this collection."},
+        {"node": "material:khoi", "say": "Khoi — mulberry-bark paper, folded concertina-style rather than strung as leaves. A different object to hold, and usually a later one."},
+        {"node": "ms:80", "say": "Along keng soeng moeng khon — one of the fifty-six."},
+        {"node": "ms:3043", "say": "Mahawong taeng on — another. Paper travels with the vernacular: almanacs, medicine, magic, the working texts rather than the canon."},
+        {"node": "material:palm_leaf", "say": "For contrast, the majority support: palm leaf, which is what most of this archive physically is."}
+      ]
+    },
+
+    {
+      "slug": "three-tongues",
+      "title_th": "สามภาษาในหน้าเดียว",
+      "title_en": "Three tongues on one page",
+      "blurb": "Pali for the sacred, Lan Na for the local, Thai for the modern — and manuscripts where they share a single page.",
+      "author": "hand",
+      "steps": [
+        {"node": "finding:languagepolyglot", "say": "The bots' finding: manuscripts that are not written in one language but in several at once."},
+        {"node": "language:Pali", "say": "Pali — the liturgical language, carried north with the canon. The largest language node in the archive."},
+        {"node": "language:Lan Na", "say": "Lan Na (Kham Mueang), the northern vernacular — deliberately kept distinct from central Thai here, because they are not the same tongue."},
+        {"node": "script:tham_lanna", "say": "And the hand it is written in: Tham Lanna, อักษรธรรมล้านนา, the Dhamma script — the single most common script in the collection."},
+        {"node": "genre:magic_ritual", "say": "The polyglot pages cluster in the working genres: magic and ritual, where a Pali formula sits inside a Lan Na instruction."}
+      ]
+    },
+
+    {
+      "slug": "old-city-walk",
+      "title_th": "เดินในเวียง",
+      "title_en": "A walk inside the old city",
+      "blurb": "Four wats within a few hundred metres of each other in the walled city of Chiang Mai — a real walk, ordered by how far apart they actually are.",
+      "author": "hand",
+      "steps": [
+        {"node": "place:wat-chiang-man", "say": "Begin at Wat Chiang Man, inside the moat. Heritage-registered, and the one wat here whose name the manuscript catalogue also knows."},
+        {"node": "place:wat-lam-chang", "say": "143 metres: วัดล่ามช้าง. The distances on this trail are measured between recorded coordinates, not estimated."},
+        {"node": "place:wat-chiang-yuen", "say": "289 metres from the start: วัดเชียงยืน."},
+        {"node": "place:wat-saen-mueang-ma-luang", "say": "320 metres: วัดแสนเมืองมาหลวง. Four temples, one walk, and every one of them a page here with its own photographs and sources."},
+        {"node": "page:/wats", "say": "When you want the rest of them: 1,466 mapped temples, of which a few hundred carry photographs."}
+      ]
+    }
+  ]
+}

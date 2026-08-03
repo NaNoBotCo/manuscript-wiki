@@ -120,8 +120,25 @@ def merge_into_diagrams(docs: Path, data: dict) -> int:
 
 def render_page(data: dict, site: str) -> str:
     entries_json = json.dumps(data["entries"], ensure_ascii=False)
+    # A representative na page image, so a shared /na/ link unfurls with an actual
+    # glyph instead of nothing — the first entry's first page, same "pick one real
+    # thing" approach as the site's other og:image fallbacks.
+    entries = data.get("entries") or []
+    first_page = entries[0]["pages"][0] if entries and entries[0].get("pages") else None
+    ogimg = f"{site}/pimg/{MANUSCRIPT_ID}/{first_page}.png" if first_page else f"{site}/og.jpg"
+    jsonld = json.dumps({
+        "@context": "https://schema.org", "@type": "CollectionPage",
+        "name": "The 108 Na", "url": f"{site}/na/",
+        "description": f"Every na (sacred syllable-glyph) from the Scripture of 108 Magical "
+                       f"Na, paired one by one with the actual page it was drawn on — "
+                       f"{data['count']} entries.",
+        "isPartOf": {"@type": "Manuscript", "name": data.get("titleEnglish", ""),
+                     "url": f"{site}/m/{MANUSCRIPT_ID}/"},
+        "mainEntity": {"@type": "ItemList", "numberOfItems": data["count"]},
+    }, ensure_ascii=False)
     return PAGE.replace("{{SITE}}", site).replace("{{MID}}", str(MANUSCRIPT_ID)) \
         .replace("{{COUNT}}", str(data["count"])) \
+        .replace("{{OGIMG}}", ogimg).replace("{{JSONLD}}", jsonld) \
         .replace("{{TITLE_EN}}", data.get("titleEnglish", "")) \
         .replace("{{ENTRIES}}", entries_json)
 
@@ -132,6 +149,16 @@ PAGE = r"""<!doctype html>
 <title>The 108 Na · wichaa</title>
 <meta name="description" content="Every na (sacred syllable-glyph) from the Scripture of 108 Magical Na, paired one by one with the actual page it was drawn on — {{COUNT}} entries.">
 <link rel="canonical" href="{{SITE}}/na/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="wichaa">
+<meta property="og:title" content="The 108 Na · wichaa">
+<meta property="og:description" content="Every na (sacred syllable-glyph) from the Scripture of 108 Magical Na, paired one by one with the actual page it was drawn on — {{COUNT}} entries.">
+<meta property="og:url" content="{{SITE}}/na/">
+<meta property="og:image" content="{{OGIMG}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The 108 Na · wichaa">
+<meta name="twitter:image" content="{{OGIMG}}">
+<script type="application/ld+json">{{JSONLD}}</script>
 <style>
  :root{--bg:#f4efe3;--panel:#fdfbf5;--ink:#26302a;--muted:#6d6455;--gold:#a8791e;
   --gold-soft:#c9a24a;--crimson:#8c3b2e;--line:#e5dcc7;

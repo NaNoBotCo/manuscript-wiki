@@ -28,6 +28,8 @@ import re
 import sys
 from pathlib import Path
 
+import cards
+
 HERE = Path(__file__).resolve().parent
 E = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 
@@ -63,7 +65,7 @@ def facets_of(p, kind, article=None):
     return f
 
 
-def page_html(p, kind, site, back, article=None):
+def page_html(p, kind, site, back, article=None, fallback_img=""):
     name = p.get("nameRoman") or p.get("name") or p.get("id")
     thai = p.get("name") if p.get("name") and p.get("name") != p.get("nameRoman") else None
     ph = (p.get("photos") or [{}])[0] or {}
@@ -83,7 +85,7 @@ def page_html(p, kind, site, back, article=None):
                             p.get("province") and f"{p['province']} province", "Thailand"] if b]
         desc = clip((thai + " — " if thai else "") + ", ".join(bits), 300)
 
-    og_img = ph.get("thumb") or ""
+    og_img = ph.get("thumb") or fallback_img or ""
     jsonld = {
         "@context": "https://schema.org", "@type": "Place", "name": name,
         "url": url, "description": desc,
@@ -303,7 +305,7 @@ def main():
     api.mkdir(parents=True, exist_ok=True)
 
     records = [(w, "wat") for w in d.get("wats", [])] + [(x, "sacred") for x in d.get("sacred", [])]
-    manifest, n_img = [], 0
+    manifest, n_img, n_card = [], 0, 0
     for p, kind in records:
         pid = p.get("id")
         if not pid or p.get("lat") is None:
@@ -316,7 +318,21 @@ def main():
         if det.get("photos"):
             p = dict(p)
             p["photos"] = det["photos"]
-        (out / pid / "index.html").write_text(page_html(p, kind, site, back, art), encoding="utf-8")
+        # No Wikimedia photo for most places (~83%) — draw a Pillow text card
+        # (name + province, the site's own dark ground) rather than let the share
+        # unfurl fall back to the generic sitewide card. cards.text_card_bytes()
+        # degrades to None (Pillow/font unavailable, or no name), which just means
+        # og_img falls through to the sitewide default as before.
+        fallback_img = ""
+        if not (p.get("photos") or []):
+            name = p.get("nameRoman") or p.get("name") or pid
+            subtitle = ", ".join(b for b in (p.get("province"), "Thailand") if b)
+            card_path = out / pid / "card.jpg"
+            if cards.text_card_bytes(name, subtitle, cache_path=card_path):
+                fallback_img = f"{site}/place/{pid}/card.jpg"
+                n_card += 1
+        (out / pid / "index.html").write_text(
+            page_html(p, kind, site, back, art, fallback_img), encoding="utf-8")
         rec = dict(p)
         if art:
             rec["article"] = art
@@ -339,8 +355,8 @@ def main():
     keep = [e for e in cur.get("pages", []) if not str(e.get("route", "")).startswith("place/")]
     pj.write_text(json.dumps({"pages": keep + manifest}, ensure_ascii=False), encoding="utf-8")
 
-    print(f"place pages: {len(manifest)} written to place/ ({n_img} with an og:image) "
-          f"· api/place/*.json · registered in api/pages.json")
+    print(f"place pages: {len(manifest)} written to place/ ({n_img} with a real photo, "
+          f"{n_card} with a drawn fallback card) · api/place/*.json · registered in api/pages.json")
     return 0
 
 
