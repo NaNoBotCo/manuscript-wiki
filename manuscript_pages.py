@@ -293,8 +293,12 @@ def page_html(det, wiki, base="/"):
                      f'<a href="/read/{mid}/">Read the bilingual text →</a></div>')
     elif det.get("extentPages") or det.get("pageCount"):
         pages = det.get("extentPages") or det.get("pageCount") or 0
+        # Small volumes cost under a dollar — int() showed "About $0", which
+        # reads as either broken or a lie. Under $5, say the cents.
+        cost = pages * 0.06
+        cost_txt = f"${cost:,.2f}" if cost < 5 else f"${int(cost):,}"
         read_html = (f'<div class=read>{pages:,} pages, not yet transcribed. '
-                     f'About ${int(pages * 0.06):,} would have the bots read the whole '
+                     f'About {cost_txt} would have the bots read the whole '
                      f'volume, at $0.06 a page. '
                      f'<a href="{KOFI}" target=_blank rel=noopener>☕ Sponsor it being read →</a></div>')
     else:
