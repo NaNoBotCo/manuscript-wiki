@@ -2714,7 +2714,12 @@ def og_card_bytes():
 # store_pages/ (the digested textbook page PNGs) sits beside the crawler catalog,
 # one level up from crawler/. Page images are addressed by (manuscript, page_no)
 # and validated against this base so a crafted path can't escape it.
-PAGES_BASE = CATALOG_DB.resolve().parent.parent
+# PAGES_BASE env override: when the publish pipeline snapshots catalog.db to a
+# temp dir (CATALOG_DB then points into /tmp), the images are NOT next to the
+# snapshot — the override keeps this pointing at the real crawler tree. Deriving
+# it from a relocated CATALOG_DB silently emptied gallery_snapshot() (plates=0,
+# no pimg shipped) for two weeks in July 2026.
+PAGES_BASE = Path(os.environ.get("PAGES_BASE", CATALOG_DB.resolve().parent.parent))
 
 
 def page_image_path(mid, page_no):

@@ -29,6 +29,7 @@ Exit 0 = safe to commit. Exit 1 = do not publish, and it says what is absent.
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -59,6 +60,34 @@ EXTRA_EXPECTED = (
 MIN_HTML_PAGES = 25
 
 
+def check_gallery_data(docs: Path) -> list[str]:
+    """Routes existing is not enough — a page can be present but hollow.
+
+    From 2026-07-21 to 2026-08-04 every hourly publish shipped api/gallery.json
+    with plates=[] and no pimg/ PNGs (the DB snapshot moved CATALOG_DB to /tmp
+    and wiki.py derived PAGES_BASE from it), and this gate's route checks passed
+    throughout. So also verify the plate DATA is whole: plates non-empty, and
+    every plate's /pimg/<mid>/<page>.png physically in the build.
+    """
+    problems: list[str] = []
+    gj = docs / "api" / "gallery.json"
+    try:
+        gallery = json.loads(gj.read_text(encoding="utf-8"))
+    except Exception as e:
+        return [f"api/gallery.json unreadable ({e})"]
+    plates = gallery.get("plates") or []
+    if not plates:
+        return ["api/gallery.json has 0 plates — the plate store was invisible "
+                "at build time (PAGES_BASE/store_pages missing?)"]
+    absent = [p for p in plates
+              if not (docs / "pimg" / str(p["id"]) / f"{p['page']}.png").is_file()]
+    if absent:
+        problems.append(f"{len(absent)} of {len(plates)} plates in gallery.json "
+                        f"have no pimg PNG in the build (first: "
+                        f"pimg/{absent[0]['id']}/{absent[0]['page']}.png)")
+    return problems
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--docs", required=True, help="the built site directory")
@@ -80,6 +109,9 @@ def main(argv=None) -> int:
     for extra in EXTRA_EXPECTED:
         if not (docs / extra).is_file():
             missing.append(f"{'(site file)':<14} expected {extra}")
+
+    for problem in check_gallery_data(docs):
+        missing.append(f"{'(plate data)':<14} {problem}")
 
     html_count = sum(1 for _ in docs.rglob("index.html"))
 

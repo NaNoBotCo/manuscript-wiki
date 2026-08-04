@@ -45,6 +45,17 @@ WIKI_DIR="$HOME/Developer/claude code projects/manuscript-wiki"
 SITE_REPO="${SITE_REPO:-$HOME/Developer/claude code projects/nanobotco-lanna}"
 export CATALOG_DB="${CATALOG_DB:-$HOME/Developer/claude code projects/manuscript-crawler/crawler/catalog.db}"
 export STORE_DIR="${STORE_DIR:-$HOME/Developer/claude code projects/manuscript-crawler/crawler/store}"
+# PAGES_BASE (store_pages/ parent) must be pinned here: wiki.py otherwise derives
+# it from CATALOG_DB's location, and step 0 moves CATALOG_DB to a /tmp snapshot —
+# which silently emptied the plates gallery and shipped no pimg/ PNGs (Jul 2026).
+export PAGES_BASE="${PAGES_BASE:-$HOME/Developer/claude code projects/manuscript-crawler}"
+# Same trap, smaller blast radius: ACTIVITY_LEDGER also defaults relative to
+# CATALOG_DB, so without this pin /activity publishes with no ledger history.
+# (SCHEDULER_DIR is deliberately NOT pinned: scheduler.py was retired ~2026-07-22
+# in favour of forever.sh cycles, so its jobs.json describes bots nothing runs —
+# an empty schedule table is the truthful rendering until /activity learns to
+# read the forever.sh pipeline instead.)
+export ACTIVITY_LEDGER="${ACTIVITY_LEDGER:-$HOME/Developer/claude code projects/manuscript-crawler/crawler/activity.jsonl}"
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"; }
 
