@@ -83,9 +83,66 @@ WW-5/WW-6/WW-7 third.
 **Writes.** `manuscript_pages.py` facts block · `scripts/bridge_wat_registry.py` ·
 `data/wat_bridge.json` · vault frontmatter via migrate · `build_place_pages.py`.
 
-**Acceptance.** `/place/wat-sung-men/` (or its slug) shows holdings + founded line;
-≥600 bridged with zero guesses; `validate.py --strict` green; `verify_build.py`
-green; graph summary shows `adjudicated > 0`.
+**Landed 2026-08-17.** Manuscript pages render the stamp (holding temple's
+founding year, nikaya, rank, รหัสวัด, with the match route in a title
+attribute). `scripts/bridge_wat_registry.py` joins register codes to vault place
+ids and `build_place_pages.py` renders the holdings band:
+`/place/wat-sung-men/` now reads **"1,805 manuscripts — canonical 1,032 ·
+jātaka 358 · grammar 154 · chronicle 147"**, with a working deep link into
+`/browse?temple=Wat%20Sung%20Men`.
+
+**The ≥600 target in this order was wrong.** It assumed the bridge should cover
+the vault's 1,459 places. It should not: only temples the corpus actually
+**cites** are worth bridging, which is the 113 distinct `wat_code` values on the
+manuscripts. **58 of those 113 matched, covering 4,259 manuscripts** — that is
+the number that matters, and 54 are in `cache/wat_bridge_review.txt`.
+
+Two things found on the way, both worth acting on:
+- **The vault holds 8 temples twice** — one curated note and one OSM-derived
+  record for the same ground (วัดลี: `wat-li-chiang-rai` and `wat-li-phayao`,
+  both province Phayao, 44 m apart; วัดพันอ้น: `wat-phun-ohn` and
+  `osm-way-695790006`). The bridge folds them, keeps the curated slug, and logs
+  every pair to `cache/wat_vault_duplicates.txt`. **Folding them at source
+  would tidy `/wats`, the place pages and the graph at once.** Note also that
+  `wat-li-chiang-rai` is a misnamed slug for a Phayao temple.
+- **The link had to use the catalogue's own temple string**, not the register's
+  Thai name — `/browse` filters on `provenance_temple` ("Wat Sung Men"), so
+  linking with "สูงเม่น" would have landed every reader on an empty shelf.
+
+**Still open on this order:** the vault-frontmatter enrichment (step 3) and the
+graph's `same_as` adjudicated edges (step 5) are not done. The bridge file they
+both need is now on disk.
+
+---
+
+## WW-2/WW-3 — landed 2026-08-17
+
+**WW-2.** `articles_index()` now enumerates the axes it always resolved but
+never listed: **38 article doors → 194** (135 temples, 13 genres, 10 provinces,
+8 scripts, 6 subgenres, 19 entities, 3 materials).
+`content/temple-wat_sung_men.md` has a page for the first time. Two vocabulary
+traps were refused rather than shipped, and both should stay refused:
+- `provenance_temple` carries districts ("Mueang District", "Sung Men
+  District"), bare provinces ("Phrae") and institutional holders (Siam Society,
+  Nan Provincial Museum). They are real holders and **not temples**; a
+  `Wat|วัด` gate keeps them out of the temple directory.
+- **Language is deliberately absent.** `SUBJECT` resolves it by exact match on
+  the raw column, which would publish "Monolingual Pali" and "Pali and Lan Na"
+  as nodes while `/browse` counts the eleven canonical languages
+  `taxonomy.language_components()` splits them into. Two vocabularies for one
+  axis is worse than one door fewer. It wants `node_predicate`, which is its
+  own piece of work — **the next thing to do on this order.**
+
+**WW-3.** `taxonomy.date_sort_ce()` converts CS (+638) and BE (−543) to a common
+era, and `/browse`'s date sort uses it instead of comparing date strings as
+text. **4,350 of 6,990 are datable**; CS 833 → 1471 CE, so the Wat Lai Hin Luang
+scripture now sorts first, as the front page has always claimed. The 2,640
+undated records keep their place at the end in title order and are never given a
+year. The control reads **"Most ancient first"**.
+
+**Not done from WW-3:** step 4, the Vectorize metadata (era, century, province,
+`wat_code`) and the Worker-side filters. That is a re-index and belongs in its
+own run.
 
 ---
 
