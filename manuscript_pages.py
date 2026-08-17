@@ -87,6 +87,15 @@ border-left:3px solid rgba(168,121,30,.4)}
 .tool{margin:22px 0 0;padding:15px 17px;border:1px solid var(--line);border-radius:12px;
 background:var(--panel)}
 .tool a{font-weight:700}.tool p{margin:5px 0 0;color:var(--muted);font-size:14px}
+.pages{margin:22px 0 0}
+.pages h2{font-size:19px;margin:0 0 4px}
+.thumbwall{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px;margin-top:10px}
+.tw{display:block;position:relative;aspect-ratio:3/4;border-radius:8px;overflow:hidden;
+border:1px solid var(--line);background:#f0efe9}
+.tw img{width:100%;height:100%;object-fit:cover;display:block}
+.tw.dia{border-color:var(--gold)}
+.tw .pgnum{position:absolute;left:4px;bottom:4px;background:rgba(38,48,42,.72);color:#fdfbf5;
+font-size:11px;padding:1px 5px;border-radius:5px}
 .peers{margin:26px 0 0;padding-top:16px;border-top:1px solid var(--line)}
 .peers h3{font-size:15px;margin:0 0 8px}.peers ul{list-style:none;margin:0 0 16px;padding:0}
 .peers li{margin:4px 0;font-size:15px}
@@ -95,6 +104,11 @@ background:var(--panel)}
 border:1px solid var(--line);border-radius:999px;color:var(--ink);font-weight:600}
 foot,.foot{display:block;margin:30px 0 0;padding-top:16px;border-top:1px solid var(--line);
 font-size:14px;color:var(--muted)}
+.cite-arch{display:inline-block;font-size:14px;font-weight:600;line-height:1.5;padding:0 9px;
+margin:0 3px;border:1px solid var(--line);border-radius:999px;background:#efe9db;
+color:var(--muted);white-space:nowrap}
+a.cite-arch{color:var(--teal)}a.cite-arch:hover{text-decoration:none;border-color:var(--teal)}
+.cite-arch.quiet{background:#f2ede1}
 @media(max-width:520px){dl.meta{grid-template-columns:1fr;gap:2px 0}
 dl.meta dt{margin-top:9px}.wrap{padding:16px 15px 48px}}
 """
@@ -168,6 +182,25 @@ def _meta_rows(det):
         elif det.get("provenance"):
             bits.append(_esc(det["provenance"]))
         rows.append(("Held at", " · ".join(bits)))
+    # What the holding temple is on paper. The register is the National Office
+    # of Buddhism's own, and the match route is recorded so a doubtful one can
+    # be found again — hence the title attribute rather than more body text.
+    if det.get("watCode"):
+        bits = []
+        if det.get("watNameTh"):
+            bits.append(_esc(det["watNameTh"]))
+        if det.get("watFoundedCe"):
+            bits.append(f'founded {det["watFoundedCe"]}')
+        for key in ("watSect", "watRank"):
+            if det.get(key):
+                bits.append(_esc(det[key]))
+        how = _esc(det.get("watMatchHow") or "")
+        code = (f'<span class="watcode" title="matched: {how}">'
+                f'รหัสวัด {_esc(det["watCode"])}</span>')
+        rows.append(("Temple register", " · ".join(bits + [code])
+                     + '<br><span class="tinynote">ทะเบียนวัด สำนักงาน'
+                       'พระพุทธศาสนาแห่งชาติ · National Office of Buddhism '
+                       'temple register</span>'))
     if det.get("date"):
         era = det.get("era")
         era_label = taxonomy.ERA_LABELS.get(era, era) if era else ""
@@ -227,13 +260,52 @@ def _jsonld(det, url, og_image, page=None, crumb_items=None):
     return "".join(f'<script type="application/ld+json">{s}</script>' for s in out)
 
 
-def page_html(det, wiki, base="/"):
+def _pages_gallery(det):
+    """Every digested page's original scan, for a contributed volume that has NOT
+    been transcribed yet — the gap where a visitor previously found nothing at all
+    (a fully-transcribed volume gets the bilingual /read/ page instead, which
+    already interleaves every scan with the text, so this would just duplicate it).
+    Emits the SAME '/pimg?mid=&n=&w=' query-string src reader_page() uses, so
+    build_static's existing image-baking regex (_bake_reader_images) resolves these
+    to real files with no new baking logic — one convention, two callers."""
+    if det.get("hasReader"):
+        return ""
+    pages = det.get("pages") or []
+    if not pages:
+        return ""
+    mid = det["id"]
+    dia = det.get("diagramPages") or 0
+    cells = []
+    for p in pages:
+        n = p["n"]
+        is_dia = p.get("kind") == "diagram"
+        title = _esc(p.get("desc") or f"Page {n}")
+        cells.append(
+            f'<a class="tw{" dia" if is_dia else ""}" '
+            f'href="/pimg?mid={mid}&amp;n={n}&amp;w=1000" target="_blank" rel="noopener" '
+            f'title="{title}">'
+            f'<img src="/pimg?mid={mid}&amp;n={n}&amp;w=1000" alt="page {n}" loading="lazy">'
+            f'<span class="pgnum">{"&#9670; " if is_dia else ""}{n}</span></a>')
+    lead = "The full volume, page by page — every scan, rendered from the source PDF."
+    if dia:
+        lead += f" &#9670; marks a page the vision pass flagged as carrying a diagram or figure."
+    return (f'<div class=pages><h2>Pages ({len(pages)}'
+            + (f' &middot; {dia} with diagrams' if dia else '') + ')</h2>'
+            f'<p class=iconolede>{lead}</p>'
+            f'<div class=thumbwall>{"".join(cells)}</div></div>')
+
+
+def page_html(det, wiki, base="/", path=None):
     """The manuscript's real page — self-contained, light, no SPA shim. `det` is
     manuscript_detail(mid) with `threads` already attached by build_static. `base`
-    is the site URL prefix, so a bundled plate hero resolves under any prefix."""
+    is the site URL prefix, so a bundled plate hero resolves under any prefix.
+    `path` is the canonical site-relative location of THIS page (e.g.
+    "m/supreme-maha-mantra-katha-6968/") — canonical/og:url must state the slug
+    URL, not the numeric legacy one; defaults to the numeric path."""
     mid = det["id"]
     site = (wiki.SITE_URL or "").rstrip("/")
-    url = f"{site}/m/{mid}/" if site else f"/m/{mid}/"
+    path = (path or f"m/{mid}/").lstrip("/")
+    url = f"{site}/{path}" if site else f"/{path}"
     title = det.get("title") or f"Manuscript #{mid}"
     title_thai = det.get("titleThai") or ""
 
@@ -323,6 +395,7 @@ def page_html(det, wiki, base="/"):
     else:
         icon_html = ""
 
+    pages_html = _pages_gallery(det)
     threads_html = strings.threads_section(det.get("threads") or [])
 
     tool_html = (f'<div class=tool><a href="/m?id={mid}">Open the interactive viewer →</a>'
@@ -385,7 +458,7 @@ def page_html(det, wiki, base="/"):
         + f"<h1>{_esc(title[:90])}</h1>"
         + (f'<p class=th>{_esc(title_thai)}</p>' if title_thai else "")
         + subj_html + hero_html + meta_html + read_html
-        + icon_html + threads_html + tool_html + peers_html + share_html + foot_html
+        + icon_html + pages_html + threads_html + tool_html + peers_html + share_html + foot_html
         + "</div></body></html>")
 
     return head + body

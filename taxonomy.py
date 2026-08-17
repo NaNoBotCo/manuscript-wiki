@@ -212,6 +212,48 @@ def era_of(date_text):
     return "Other"
 
 
+_YEAR_RE = re.compile(r"(\d{3,4})")
+
+# Cunlasakkarat epoch 638 CE and the Buddhist Era's 543-year lead. Both are the
+# standard conversions (Eade, *The Calendrical Systems of Mainland South-East
+# Asia*), and both are approximate to a year because a Lanna year straddles two
+# Gregorian ones — which is why this feeds a SORT and never a displayed date.
+_ERA_OFFSET = {"CS": 638, "BE": -543}
+
+
+def date_sort_ce(date_text, date_ce_estimate=None):
+    """A year a corpus can be ordered by, or None.
+
+    /browse offered a "Date" sort that compared `date_text` as a STRING, and
+    date_text is a fused compound — "1198 (Cunlasakkalat (CS))", "2516 (Buddhist
+    Era (BE))". Sorted as text, CS 1198 (1836 CE) files before BE 2516 (1973 CE)
+    only by the accident of "1" < "2", and the 1471 scripture that is the oldest
+    thing in the corpus lands in the middle of the list. 3,772 records are CS and
+    322 are BE, so the two systems are genuinely interleaved and text order is
+    not chronology in any part of the list.
+
+    The catalogued estimate wins where it exists (4,349 records). Otherwise the
+    year is read out of the date string and shifted by its era. A date with
+    neither returns None and sorts as absent — an undated manuscript must never
+    be given a year it does not have.
+    """
+    if date_ce_estimate:
+        try:
+            return int(date_ce_estimate)
+        except (TypeError, ValueError):
+            pass
+    era = era_of(date_text)
+    if era not in _ERA_OFFSET:
+        return None
+    m = _YEAR_RE.search(str(date_text))
+    if not m:
+        return None
+    year = int(m.group(1)) + _ERA_OFFSET[era]
+    # A converted year outside the plausible life of the corpus means the digits
+    # were something else — a shelfmark, a page count — so it is not a date.
+    return year if 1000 <= year <= 2100 else None
+
+
 # ---- material family ------------------------------------------------------------
 # palm-leaf vs paper: mulberry (saa) and khoi are two paper supports that pattern with
 # the later, vernacular texts (a holasat almanac is paper; a Tipiṭaka is palm-leaf).

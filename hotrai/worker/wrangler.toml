@@ -1,0 +1,21 @@
+# Cloudflare Worker config — the register and ธรรมทาน shelf for หอไตร.
+#
+# Deploy:
+#   cd hotrai/worker
+#   npx wrangler kv namespace create HT_KV        # note the id it prints
+#   (paste the id below) && npx wrangler deploy
+#   npx wrangler secret put ADMIN_TOKEN           # same value as admin_token.txt
+#
+# GOTCHA, same one su-khwan hit and mueang-map and mot-dang before it: the
+# namespace is TITLED "HT_KV" in the dashboard, but the binding must stay "KV",
+# because worker.js reads env.KV. The `kv namespace create` command prints a
+# snippet using the TITLE as the binding — pasting it verbatim compiles fine
+# and then 500s at runtime against an undefined binding.
+
+name = "ho-trai"
+main = "worker.js"
+compatibility_date = "2026-07-01"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "7ea6ef731d90497980b1e4294ac45e25"

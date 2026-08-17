@@ -143,8 +143,8 @@ PAGE = r"""<!doctype html>
 <style>
  :root{--bg:#f4efe3;--panel:#fdfbf5;--ink:#26302a;--muted:#6d6455;--gold:#a8791e;
   --gold-soft:#c9a24a;--crimson:#8c3b2e;--line:#e5dcc7;
-  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
-  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  --serif:"Sukhumvit Set","Noto Serif Thai",Thonburi,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:"Sukhumvit Set","Noto Sans Thai",Thonburi,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
  *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);
   font-family:var(--sans);font-size:18px;line-height:1.6}
  a{color:var(--crimson);text-decoration:none}a:hover{text-decoration:underline}

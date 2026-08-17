@@ -52,6 +52,12 @@ EXTRA_EXPECTED = (
     # Phase D: the trails index and its data (individual trail pages are a bulk
     # namespace — see routes.BULK_NAMESPACES — and are counted, not enumerated).
     "api/trails.json",
+    # หอไตร — the /hotrai route only guards the human page. These are the library:
+    # a build that shipped the hall with no texts in it would pass every other
+    # check and be an empty building.
+    "hotrai/entry.txt",
+    "hotrai/all.txt",
+    "api/hotrai.json",
 )
 
 # A whole build is big. A build that collapses to a handful of files is the

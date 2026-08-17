@@ -628,7 +628,7 @@ def og_card_svg() -> str:
     )
     return f"""<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'
      viewBox='0 0 1200 630' font-family='"Iowan Old Style",Palatino,Georgia,serif'>
-  <style>:root{{--serif:"Iowan Old Style",Palatino,Georgia,serif}}
+  <style>:root{{--serif:"Sukhumvit Set","Noto Serif Thai",Thonburi,"Iowan Old Style",Palatino,Georgia,serif}}
 {text_css}</style>
   <rect width='1200' height='630' fill='#132420'/>
   <rect width='1200' height='630' fill='none' stroke='{GOLD}' stroke-width='2'

@@ -44,11 +44,23 @@ CHROME_CANDIDATES = (
 # name -> zero-argument callable returning a standalone 1200x630 SVG string.
 def _sources():
     import moondial
+    import sukhwanweb
+    import khwantext
+    import hotrai
+    import waikhru
+    import romphon
 
     return {"moon": moondial.og_card_svg, "widgets": _widgets_card_svg,
+            "sukhwan": sukhwanweb.og_card_svg,
+            "khwan": khwantext.og_card_svg,
+            "hotrai": hotrai.og_card_svg,
+            "waikhru": waikhru.og_card_svg,
+            "blessings": romphon.og_card_svg,
             "w__geo": _geo_card_svg, "w__prices": _prices_card_svg,
             "w__regions": _regions_card_svg, "w__trends": _trends_card_svg,
-            "w__products": _products_card_svg, "w__answers": _answers_card_svg}
+            "w__products": _products_card_svg, "w__answers": _answers_card_svg,
+            "a__entity_khun_phaen": _khun_phaen_card_svg,
+            "a__entity_patiloma": _patiloma_card_svg}
 
 
 
@@ -289,6 +301,82 @@ def _geo_card_svg() -> str:
 </svg>"""
 
 
+def _khun_phaen_card_svg() -> str:
+    """Card for /a/entity_khun_phaen/. The subject's own form is a drawn na, so
+    the card draws one — an emblem in the stroke vocabulary the treatise
+    diagrams describe for นะขุนแผน (zigzag antenna, loop, descending zigzag,
+    spiral coil), not a copy of any single manuscript's glyph."""
+    import math
+
+    cx, cy, r0 = 930, 398, 128
+    turns = 3.6
+    pts = []
+    for i in range(240):
+        t = i / 239
+        a = -math.pi / 2 + t * turns * 2 * math.pi
+        r = r0 * (1 - 0.90 * t)
+        pts.append((cx + r * math.cos(a), cy + r * math.sin(a)))
+    spiral = "M" + "L".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+    top = cy - r0                       # the descender lands where the coil begins
+    zig = " ".join(f"L{930 + (22 if i % 2 else -22)},{118 + i * 18}" for i in range(1, 5))
+    glyph = (
+        f'<path d="M930,118 {zig} L930,190" fill="none" stroke="#1F4E4A" '
+        f'stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>'
+        f'<circle cx="930" cy="216" r="26" fill="none" stroke="#1F4E4A" stroke-width="6"/>'
+        f'<path d="M930,242 L930,{top:.0f}" fill="none" stroke="#1F4E4A" '
+        f'stroke-width="6" stroke-linecap="round"/>'
+        f'<path d="{spiral}" fill="none" stroke="#1F4E4A" stroke-width="6" '
+        f'stroke-linejoin="round" stroke-linecap="round" opacity=".92"/>')
+    return _card_shell(
+        ["Khun Phaen"],
+        "the hero of the epic, pressed into an amulet — &#3586;&#3640;&#3609;&#3649;&#3612;&#3609;",
+        "wichaa.net/a/entity_khun_phaen/", glyph,
+        foot=f'<text x="66" y="410" font-family="{_CARD_FONT}" font-size="30" '
+             f'font-weight="700" fill="#141b1a">a Buddha&#8217;s form, a kuman&#8217;s material</text>'
+             f'<text x="66" y="452" font-family="{_CARD_FONT}" font-size="23" '
+             f'fill="#3a4a47">na &#183; katha &#183; yant across six treatises &#183; '
+             f'237 listings on the living market</text>')
+
+
+def _patiloma_card_svg() -> str:
+    """Card for /a/entity_patiloma/. The page's showpiece is the Ruesi Yantra of
+    akhom-magic-of-phra-narai p.118: a 9x9 grid of plain numerals that reads the
+    same in every direction. The card draws that square in Thai digits, rows
+    transcribed as the article transcribes them, shaded by value so the
+    concentric mirror shows at a glance."""
+    rows = [[2, 1, 7, 6, 5, 6, 7, 1, 2],
+            [1, 7, 6, 5, 4, 5, 6, 7, 1],
+            [7, 6, 5, 4, 3, 4, 5, 6, 7],
+            [6, 5, 4, 3, 2, 3, 4, 5, 6],
+            [5, 4, 3, 2, 1, 2, 3, 4, 5],
+            [6, 5, 4, 3, 2, 3, 4, 5, 6],
+            [7, 6, 5, 4, 3, 4, 5, 6, 7],
+            [1, 7, 6, 5, 4, 5, 6, 7, 1],
+            [2, 1, 7, 6, 5, 6, 7, 1, 2]]
+    x0, y0, cell = 690, 112, 50
+    cells = []
+    for r, row in enumerate(rows):
+        for c, v in enumerate(row):
+            x, y = x0 + c * cell, y0 + r * cell
+            op = 0.06 + 0.11 * (v - 1)
+            ink = "#fff" if v >= 5 else "#141b1a"
+            cells.append(f'<rect x="{x + 2}" y="{y + 2}" width="{cell - 4}" '
+                         f'height="{cell - 4}" rx="7" fill="#1F4E4A" opacity="{op:.2f}"/>')
+            cells.append(f'<text x="{x + cell / 2:.0f}" y="{y + cell / 2 + 8:.0f}" '
+                         f'font-family="{_CARD_FONT}" font-size="24" fill="{ink}" '
+                         f'text-anchor="middle">&#{0x0E50 + v};</text>')
+    return _card_shell(
+        ["Pa&#7789;iloma"],
+        "reversal as a technology &#8212; &#3611;&#3599;&#3636;&#3650;&#3621;&#3617;, &#8220;against the hair&#8221;",
+        "wichaa.net/a/entity_patiloma/", "".join(cells),
+        foot=f'<text x="66" y="410" font-family="{_CARD_FONT}" font-size="30" '
+             f'font-weight="700" fill="#141b1a">a palindrome in every direction</text>'
+             f'<text x="66" y="452" font-family="{_CARD_FONT}" font-size="23" '
+             f'fill="#3a4a47">recited backward &#183; built as a mirror</text>'
+             f'<text x="66" y="488" font-family="{_CARD_FONT}" font-size="23" '
+             f'fill="#3a4a47">drawn as a square &#183; six witnesses, Nan to Chiang Mai</text>')
+
+
 def _widgets_card_svg() -> str:
     """Card for /widgets. The subject is a toolbox, not one artefact, so it says
     what the page is and names what is in it -- generated from wiki.SIDE_TOOLS so it
@@ -339,12 +427,12 @@ def render(svg: str, out: Path, width: int = 1200, height: int = 630) -> None:
             "svg{display:block}</style>" + svg,
             encoding="utf-8",
         )
-        # --headless (not =new): measured on Chrome 150, the new mode writes the PNG
-        # and then never exits, so a plain subprocess.run() hangs until timeout. The
-        # old mode is also what actually produces a 1200x630 file — exactly the
-        # OpenGraph size, no rescaling needed.
+        # --headless=new: current Chrome dropped the old mode, so plain --headless
+        # now hangs and never writes the PNG (verified 2026-08-08). The new mode
+        # writes the file within seconds but never exits — hence the poll-for-file
+        # loop below, which terminates Chrome once the artefact lands.
         cmd = [
-            browser, "--headless", "--disable-gpu", "--hide-scrollbars",
+            browser, "--headless=new", "--disable-gpu", "--hide-scrollbars",
             "--no-sandbox", "--no-first-run", "--no-default-browser-check",
             "--disable-extensions", "--virtual-time-budget=3000",
             f"--window-size={width},{height}",

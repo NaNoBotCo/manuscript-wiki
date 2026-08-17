@@ -386,3 +386,39 @@ Status: **item 1 DONE** (2026-07-12, see Done log); items 2–3 not started.
      instead of siblings. Fixed (close-before-open). Verified via DOM inspection:
      12 domain grids, all direct siblings of `#main`, zero nesting.
   All three verified in a real test build + browser before considering it done.
+
+## Search-index weight (flagged 2026-08-05, textbook-search session)
+- docs/api/searchdocs.json was ALREADY ~19MB before textbook translations were
+  indexed; the contributed-volume bodies (CONTRIB_BODY_CAP 60KB in
+  build_static.py) add ~3.5MB and will grow toward ~+9MB as all 30 volumes
+  translate. Gzip makes today's transfer ~5MB — tolerable, not good.
+- Proper fix someday: split the client search index (core titles/articles
+  loaded eagerly; per-volume textbook bodies lazy-loaded on first search, or
+  per-page docs linking to /read/<id>/#pN). Until then the LIVE wiki search is
+  uncapped and complete; the static site's per-volume coverage stops at the
+  60KB cap (~25 translated pages per volume now that transcription replaces
+  noisy OCR in the body — wiki.py build_search_index).
+- Same-ledger item, reader scans (2026-08-05): /read/<id>/ pages now interleave
+  every page's original scan (plate PNGs copied; other pages rendered to JPEG
+  at w=1000 via wiki.render_pdf_page). ~880 images across today's 6 reader
+  volumes ≈ +60–90MB in docs/; grows with each newly-readable volume. docs/
+  was 705MB before this. If the Pages repo nears ~1.5GB, move reader scans to
+  R2/Workers (user already runs Cloudflare) and point the baked srcs there.
+- Woven HTML + EPUB exports still interleave only diagram-kind plates, not
+  every page scan (size: base64 ×1.33 per page). If the user wants full
+  interleave in the portable artifacts too, add a --scans flag rather than
+  making 15MB files the default.
+- Publish locking (2026-08-05): publish_site.sh has NO lock, and the forever.sh
+  cycle ALSO publishes (~50min cadence — it committed at 10:27 right behind a
+  manual 10:24 publish, harmlessly that time). Two concurrent build_static runs
+  both rmtree docs/ → a corrupted commit is possible. Either flock the script
+  or route manual publishes through bot-tower's lane like the bots do.
+- REPO WEIGHT ESCALATION (2026-08-05 23:10 audit): docs/ at HEAD = 1,027MB /
+  23,273 files — past the GitHub Pages ~1GB soft limit. pimg/ alone = 655MB
+  (4,342 page JPGs covering EVERY contributed volume incl. undigested 6960 —
+  a concurrent session's build_static change exports scans corpus-wide — plus
+  449 PNG plates at 295MB). Pages still builds today, but this is the R2
+  trigger flagged earlier: move page scans to R2/Workers (nanobotco.workers.dev
+  already exists), keep only site HTML+JSON on Pages, and stop growing .git
+  by ~600MB/rebuild-era. Coordinate with the session that owns the corpus-wide
+  scan export before changing its output.

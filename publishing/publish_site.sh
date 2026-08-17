@@ -1,23 +1,80 @@
 #!/bin/bash
 # ============================================================================
-#  publish_site.sh — refresh the public GitHub Pages copy of the Lanna Wiki.
+#  publish_site.sh — refresh the public copy of the Lanna Wiki on Cloudflare.
 #
 #  What it does, every time it runs:
 #    1. rebuilds the static site from the LIVE catalogue  (build_static.py)
 #    2. drops it into the site repo's  docs/  folder
-#    3. commits ONLY if something actually changed, then pushes
+#    3. commits ONLY if something actually changed, then deploys to Cloudflare
 #
 #  If nothing in the catalogue moved, the rebuilt files are byte-identical and
 #  this does nothing — so it is safe to run on a timer as often as you like.
 #  "Consistent, not live": the public site catches up to your work each run.
 #
-#  Site: https://nanobotco.github.io/Lanna/   (repo NaNoBotCo/Lanna, main /docs)
+#  Site: https://wichaa.net/  (Cloudflare Pages: projects `wichaa` + `wichaa-m`,
+#  stitched by the `wichaa-router` Worker — see cloudflare-mirror/README.md)
+#
+#  PUBLISHING MOVED OFF GITHUB — 2026-08-12. The NaNoBotCo account was flagged on
+#  2026-08-07 and nanobotco.github.io has served 404 since, so a `git push` here
+#  published into nothing. The git commit still happens (it is the version history,
+#  and the mirror deploys FROM the committed docs/), but the step that makes the
+#  site public is now `cloudflare-mirror/deploy.sh wichaa`. If GitHub is ever
+#  restored, set PUBLISH_GITHUB=1 to resume pushing as well — the push is
+#  best-effort and can no longer fail a publish that already reached the public.
 #
 #  One-time setup: double-click  "Set up publishing.command"  once. It signs you in
 #  and does the first publish. After that this script (by hand or on the timer) keeps
 #  the public copy in step with your catalogue.
 # ============================================================================
 set -euo pipefail
+
+# ---- publish lock ---------------------------------------------------------
+# Two publishers exist (manual runs and the forever.sh cycle) and build_static
+# wipes docs/ before repopulating — two overlapping runs could commit a
+# half-built site. mkdir is atomic on APFS, so it is the lock; the PID inside
+# lets a crashed run's lock be reclaimed instead of wedging publishing forever.
+# A second publisher waits up to 15 min (a full build is ~5), then gives up
+# loudly — for the cycle that just means the next cycle publishes instead.
+#
+# build_static.py now takes THIS SAME LOCK itself, because the guard being only
+# here left the builder unprotected when run directly — which on 2026-08-09
+# wiped docs/ under a live publish. It is re-entrant via LANNA_PUBLISH_LOCK_HELD
+# below (and, failing that, by noticing the holder is an ancestor), so the
+# build we launch at step 1 does not block on the lock we are holding for it.
+LOCK_DIR="${TMPDIR:-/tmp}/lanna-publish.lock"
+_lock_stale() {  # true if the lock's recorded PID is no longer alive
+  local p; p=$(cat "$LOCK_DIR/pid" 2>/dev/null || true)
+  [ -z "$p" ] || ! kill -0 "$p" 2>/dev/null
+}
+_acquire() {
+  local waited=0
+  until mkdir "$LOCK_DIR" 2>/dev/null; do
+    if _lock_stale; then
+      echo "[lock] reclaiming stale lock (holder gone)" >&2
+      rm -rf "$LOCK_DIR"; continue
+    fi
+    if [ "$waited" -ge 900 ]; then
+      echo "✗ another publish (pid $(cat "$LOCK_DIR/pid" 2>/dev/null)) still running after 15 min — giving up" >&2
+      exit 4
+    fi
+    [ "$waited" -eq 0 ] && echo "[lock] another publish is running — waiting…" >&2
+    sleep 10; waited=$((waited + 10))
+  done
+  echo $$ > "$LOCK_DIR/pid"
+  # Tell every child (build_static.py above all) that the lock they are about to
+  # reach for is already held ON THEIR BEHALF — by us, this pid.
+  export LANNA_PUBLISH_LOCK_HELD=$$
+}
+_release() {
+  # Only ever drop a lock that is still OURS. An unconditional `rm -rf` deletes
+  # whatever lock happens to be there — including one another process legitimately
+  # took after ours was reclaimed as stale, which would leave that process building
+  # with no protection at all. Cheap check, and it keeps the failure contained.
+  if [ "$(cat "$LOCK_DIR/pid" 2>/dev/null || true)" = "$$" ]; then rm -rf "$LOCK_DIR"; fi
+  return 0
+}
+_acquire
+trap _release EXIT
 
 OWNER="NaNoBotCo"
 REPO="Lanna"
@@ -53,9 +110,13 @@ export PAGES_BASE="${PAGES_BASE:-$HOME/Developer/claude code projects/manuscript
 # CATALOG_DB, so without this pin /activity publishes with no ledger history.
 # (SCHEDULER_DIR is deliberately NOT pinned: scheduler.py was retired ~2026-07-22
 # in favour of forever.sh cycles, so its jobs.json describes bots nothing runs —
-# an empty schedule table is the truthful rendering until /activity learns to
-# read the forever.sh pipeline instead.)
+# the schedule table stays empty unless a scheduler is genuinely back in use.
+# /activity's "Crawl pipeline" card reads the forever.sh cycle state instead.)
 export ACTIVITY_LEDGER="${ACTIVITY_LEDGER:-$HOME/Developer/claude code projects/manuscript-crawler/crawler/activity.jsonl}"
+# And once more for the pipeline card: FOREVER_DIR is where wiki.py looks for
+# .forever.lock / .forever.cycle.json / forever.log, and it too defaults
+# relative to CATALOG_DB — which points at the /tmp snapshot during this build.
+export FOREVER_DIR="${FOREVER_DIR:-$HOME/Developer/claude code projects/manuscript-crawler}"
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"; }
 
@@ -88,7 +149,9 @@ if [ -z "$PY" ]; then echo "Python 3 not found."; exit 1; fi
 # touching, so a publish can no longer race the crawler. This also matches the
 # script's own "consistent, not live" contract: a snapshot, not a moving target.
 SNAP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/lanna-catalog-XXXXXX")"
-cleanup_snapshot() { [ -n "${SNAP_DIR:-}" ] && rm -rf "$SNAP_DIR"; }
+# NOTE: this trap REPLACES the _release one set at the top (bash keeps only the
+# last EXIT trap), so it must release the publish lock too.
+cleanup_snapshot() { [ -n "${SNAP_DIR:-}" ] && rm -rf "$SNAP_DIR"; _release; }
 trap cleanup_snapshot EXIT
 log "Snapshotting catalogue (immune to the live crawler) → $SNAP_DIR"
 if "$PY" - "$CATALOG_DB" "$SNAP_DIR/catalog.db" <<'SNAPPY'
@@ -212,16 +275,51 @@ log "Completeness gate → verify_build.py against routes.py"
 cd "$SITE_REPO"
 git add docs
 if git diff --cached --quiet; then
-  log "No changes since last publish — nothing to push."
+  log "No changes since last publish — nothing to deploy."
   exit 0
 fi
 
 STAMP=$(date '+%Y-%m-%d %H:%M')
 git commit -q -m "Refresh Lanna Wiki snapshot — $STAMP"
-log "Committed. Pushing to GitHub…"
-if git rev-parse --abbrev-ref --symbolic-full-name '@{u}' >/dev/null 2>&1; then
-  git push -q                       # upstream already set
-else
-  git push -q -u origin HEAD        # first push: set upstream
+log "Committed locally."
+
+# 4. PUBLISH — Cloudflare Pages, via the mirror's deploy script.
+#
+# deploy.sh owns the shape of the deployment and is the single source of truth
+# for it: wichaa is 30k+ files and Pages caps a free-plan deployment at 20,000,
+# so the build ships as two projects (`wichaa` = everything but /m/, `wichaa-m`
+# = /m/) with the `wichaa-router` Worker stitching them at the edge. Nothing is
+# dropped. Duplicating that split here would guarantee the two copies drift, so
+# this calls the real thing.
+#
+# The router itself is NOT redeployed per refresh — it is code, not content, and
+# only changes when the split does (`deploy.sh router`).
+#
+# PATH: launchd hands a background job only /usr/bin:/bin:/usr/sbin:/sbin, and
+# deploy.sh needs `npx` from Homebrew. Without this the nightly fails with
+# "npx: command not found" while a hand-run from a terminal works fine — the
+# kind of split that wastes an evening.
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
+DEPLOY_SH="$HOME/Developer/claude code projects/cloudflare-mirror/deploy.sh"
+if [ ! -x "$DEPLOY_SH" ]; then
+  echo "✗ committed, but cannot deploy: no deploy.sh at $DEPLOY_SH" >&2
+  echo "  The commit is safe; re-run once the mirror is back to publish it." >&2
+  exit 5
 fi
-log "Done. GitHub Pages will rebuild in a minute or two → ${SITE_URL}/"
+
+log "Deploying to Cloudflare → deploy.sh wichaa  (two halves, ~25 min upload)"
+"$DEPLOY_SH" wichaa
+log "Done. Live → ${SITE_URL}/"
+
+# 5. GitHub push — best-effort, OFF by default. See the header: the account is
+# flagged, so this would push into a 404. It never fails the publish, because by
+# this point the site is already public on Cloudflare.
+if [ "${PUBLISH_GITHUB:-0}" = "1" ]; then
+  log "PUBLISH_GITHUB=1 — also pushing to GitHub…"
+  if git rev-parse --abbrev-ref --symbolic-full-name '@{u}' >/dev/null 2>&1; then
+    git push -q || echo "  ! GitHub push failed (site is live on Cloudflare regardless)"
+  else
+    git push -q -u origin HEAD || echo "  ! GitHub push failed (site is live on Cloudflare regardless)"
+  fi
+fi

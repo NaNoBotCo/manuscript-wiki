@@ -32,6 +32,11 @@ from pathlib import Path
 
 import taxonomy  # the normalizer tier: raw strings -> clean multi-valued nodes
 import moondial  # the moonphase complication: its geometry, its dial, and its essay
+import sukhwanweb  # สู่ขวัญยนต์ — the khwan-calling rite for machines, with robot opt-in
+import hotrai      # หอไตร — the wat library addressed to machines (page + text corpus)
+import khwantext   # สู่ขวัญ — the human soul-calling published in full (verses: hunpayont.SUKHWAN)
+import waikhru     # ไหว้ครูยนต์ — the blessing for the person's hand at the machine
+import romphon     # ใต้ร่มพร — the standing blessings the whole fleet works under
 from urllib.parse import urlparse, parse_qs, quote
 
 HERE = Path(__file__).resolve().parent
@@ -83,6 +88,12 @@ ACTIVITY_LIVE_WINDOW = 300   # seconds: an actor is "live" if seen this recently
 # level above crawler/catalog.db). Reading them lets /activity show the FULL job
 # roster — "ran 8m ago · next in 168m" — so a healthy idle bot doesn't read as dead.
 SCHEDULER_DIR = Path(os.environ.get("SCHEDULER_DIR", CATALOG_DB.parent.parent))
+# The forever.sh crawl loop (scheduler.py's successor, ~2026-07-22) also lives in
+# the crawler project root. It leaves three traces /activity can read: .forever.lock
+# (the live pid), .forever.cycle.json (cycle/step state, written by newer forever.sh),
+# and forever.log's cycle-marker lines. Publishing must pin this (see publish_site.sh)
+# because CATALOG_DB points at a /tmp snapshot during a static build.
+FOREVER_DIR = Path(os.environ.get("FOREVER_DIR", CATALOG_DB.parent.parent))
 
 _job_lock = threading.Lock()
 
@@ -226,6 +237,9 @@ def ms_summary(row):
         "geoLevel": taxonomy.geo_level(row["provenance_province"]),
         "temple": row["provenance_temple"] or "",
         "date": row["date_text"] or "",
+        # a year the list can be ORDERED by; null where the record is undated,
+        # so an undated manuscript is never given a year it does not have
+        "dateSort": taxonomy.date_sort_ce(row["date_text"], row["date_ce_estimate"]),
         # calendar era pulled out of the date string: CS (antique Lanna) vs BE (modern)
         "era": taxonomy.era_of(row["date_text"]),
         "century": century_of(row["date_ce_estimate"]),
@@ -387,6 +401,16 @@ def manuscript_detail(mid):
             " ".join(filter(None, [summ.get("title"), summ.get("titleTranslit"),
                                    summ.get("titleThai")])))
         summ["dateCe"] = row["date_ce_estimate"]
+        # The wat-registry stamp. 6,203 manuscripts carry a รหัสวัด — a
+        # permanent government code for the temple that holds them, with the
+        # nikaya, the temple's rank and the year it was founded. It has been in
+        # the catalogue since 2026-08-09 and no page has ever shown it.
+        summ["watCode"] = row["wat_code"] or ""
+        summ["watNameTh"] = row["wat_name_th"] or ""
+        summ["watSect"] = row["wat_sect"] or ""
+        summ["watRank"] = row["wat_rank"] or ""
+        summ["watFoundedCe"] = row["wat_founded_ce"]
+        summ["watMatchHow"] = row["wat_match_how"] or ""
         summ["sourceUrl"] = row["source_url"] or ""
         summ["iiifManifestUrl"] = row["iiif_manifest_url"] or ""
         summ["firstSeen"] = row["first_seen"] or ""
@@ -631,6 +655,21 @@ def activity_snapshot():
     live_names = {a["actor"] for a in alist if a["live"]}
     snap["schedule"] = _schedule_snapshot(now, live_names)
 
+    # The forever.sh crawl loop (scheduler.py's successor): cycle, step, next rest.
+    snap["pipeline"] = _pipeline_snapshot(now)
+
+    # Only one of them is the runner. scheduler.py was retired 2026-07-22 but its
+    # jobs.json lingers on disk; when the pipeline has fresher evidence than every
+    # scheduled job's last run, the roster is a relic — leave it out rather than
+    # show a page of "enabled" jobs nothing runs. If the scheduler ever runs
+    # again, its newer state timestamps bring the roster straight back.
+    if snap["pipeline"].get("present") and snap["schedule"]:
+        pipe_t = _local_ts(snap["pipeline"].get("updatedAt"))
+        sched_t = max((t for t in (_parse_ts(j.get("lastRun"))
+                                   for j in snap["schedule"]) if t), default=None)
+        if pipe_t and (not sched_t or sched_t < pipe_t):
+            snap["schedule"] = []
+
     # The donuts being made: the newest rows to land in the catalogue, each with a
     # link that actually goes somewhere.
     snap["fresh"] = _fresh_snapshot()
@@ -676,6 +715,124 @@ def _schedule_snapshot(now, live_names):
     out.sort(key=lambda x: (0 if x["enabled"] else 1,
                             0 if x["running"] else 1,
                             x["nextDueSeconds"] if x["nextDueSeconds"] is not None else 1 << 30))
+    return out
+
+
+def _forever_pid():
+    """The forever.sh loop's pid, if its lockfile names a process still running."""
+    try:
+        pid = int((FOREVER_DIR / ".forever.lock").read_text().strip())
+    except (OSError, ValueError):
+        return None
+    try:
+        os.kill(pid, 0)
+    except ProcessLookupError:
+        return None
+    except OSError:
+        pass  # exists but not ours to signal — still alive
+    return pid
+
+
+def _local_ts(s):
+    """Timestamp from forever.sh territory -> aware datetime. Accepts the log's
+    naive-local '2026-08-04 11:08:31' and the state file's ISO-with-offset."""
+    if not s:
+        return None
+    try:
+        # astimezone() reads a naive value as local time, which is what the log writes
+        return datetime.fromisoformat(str(s).replace("Z", "+00:00")).astimezone()
+    except ValueError:
+        return None
+
+
+def _pipeline_from_log(log_p):
+    """Reconstruct the loop's position from forever.log's marker lines — the
+    fallback for a forever.sh old enough not to write .forever.cycle.json."""
+    try:
+        with open(log_p, "rb") as f:
+            f.seek(0, 2)
+            f.seek(max(0, f.tell() - 131072))
+            tail = f.read().decode("utf-8", "replace")
+    except OSError:
+        return None
+    info = {}
+    stamp = re.compile(r"^\[(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})\] (.*)$")
+    for line in tail.splitlines():
+        m = stamp.match(line)
+        if not m:
+            continue
+        ts, rest = m.group(1), m.group(2).strip()
+        mb = re.match(r"---- cycle (\d+) begin", rest)
+        ms = re.match(r"\[(\d+)/(\d+)\] ([^:]+)", rest)
+        md = re.match(r"---- cycle (\d+) done .*?resting (\d+)min", rest)
+        if mb:
+            info = {"cycle": int(mb.group(1)), "status": "working",
+                    "cycleStartedAt": ts}
+        elif ms:
+            info.update(status="working", step=int(ms.group(1)),
+                        steps=int(ms.group(2)), stepName=ms.group(3).strip(),
+                        stepStartedAt=ts)
+        elif md:
+            info.update(cycle=int(md.group(1)), status="resting",
+                        cycleFinishedAt=ts, restMinutes=int(md.group(2)),
+                        step=None, stepName=None)
+        elif rest.startswith("==== forever loop stopped"):
+            info["status"] = "stopped"
+        elif rest.startswith("==== forever loop start"):
+            info["status"] = "working"
+        else:
+            continue
+        info["updatedAt"] = ts
+    return info or None
+
+
+def _pipeline_snapshot(now):
+    """How the forever.sh crawl loop is doing: which cycle, which of its 8 steps,
+    when the cycle began/finished, when the next one is due. Prefers the loop's
+    own .forever.cycle.json; falls back to reading forever.log's markers."""
+    info, source = None, None
+    state_p = FOREVER_DIR / ".forever.cycle.json"
+    if state_p.is_file():
+        try:
+            info = json.loads(state_p.read_text(encoding="utf-8"))
+            source = "state"
+        except (OSError, ValueError):
+            info = None
+    if info is None:
+        info = _pipeline_from_log(FOREVER_DIR / "forever.log")
+        source = "log"
+    if not info:
+        return {"present": False}
+
+    pid = _forever_pid()
+    status = info.get("status") or "stopped"
+    if pid is None and status != "stopped":
+        status = "stopped"     # lock gone or pid dead outranks any last-written line
+
+    def iso(key):
+        t = _local_ts(info.get(key))
+        return t.isoformat(timespec="seconds") if t else None
+
+    out = {"present": True, "running": pid is not None, "pid": pid,
+           "source": source, "status": status,
+           "cycle": info.get("cycle"), "step": info.get("step"),
+           "steps": info.get("steps") or 8, "stepName": info.get("stepName"),
+           "cycleStartedAt": iso("cycleStartedAt"),
+           "cycleFinishedAt": iso("cycleFinishedAt"),
+           "stepStartedAt": iso("stepStartedAt"),
+           "restMinutes": info.get("restMinutes"),
+           "nextCycleAt": iso("nextCycleAt"), "updatedAt": iso("updatedAt")}
+    # A resting log entry implies the wake time even before newer forever.sh
+    # writes nextCycleAt itself.
+    if not out["nextCycleAt"] and status == "resting" and out["restMinutes"]:
+        fin = _local_ts(info.get("cycleFinishedAt"))
+        if fin:
+            out["nextCycleAt"] = (fin + timedelta(minutes=out["restMinutes"]))\
+                .isoformat(timespec="seconds")
+    nxt = _local_ts(out["nextCycleAt"])
+    out["nextCycleSeconds"] = int((nxt - now).total_seconds()) if nxt else None
+    upd = _local_ts(out["updatedAt"])
+    out["ageSeconds"] = int((now - upd).total_seconds()) if upd else None
     return out
 
 
@@ -985,6 +1142,12 @@ def places_snapshot():
 # never go stale as the corpus grows; its PROSE is authored markdown in content/,
 # preserved across re-crawls. articles.py is the automation tool that reports
 # coverage and drafts stubs. Priority order = the wichaa research core first.
+# A temple names itself. The provenance_temple column also carries districts
+# ("Mueang District"), provinces ("Phrae") and institutional holders (Siam
+# Society, Nan Provincial Museum) — real holders, but not temples, and the
+# temple directory must not claim they are.
+_IS_TEMPLE_NAME = re.compile(r"^\s*(wat|วัด)\b", re.IGNORECASE)
+
 SUBJECT = {
     "genre":    {"col": "genre_normalized",   "labels": GENRE_LABELS,   "noun": "genre"},
     "province": {"col": "provenance_province", "labels": None,           "noun": "province"},
@@ -1012,16 +1175,42 @@ _PROFILE_AXES = [
 # have yet to collect, and therefore a prime crawl target.
 ENTITIES = [
     ("lersi",       "Lersi / Ruesi (ascetic-seers)",    3.0, ["lersi", "ruesi", "reusi", "rusi", "rue si"]),
-    ("phrommachat", "Phrommachat (12-year almanac)",     3.0, ["phrommachat", "phromchat", "phrom chat"]),
+    # "phommacat" is the northern romanisation (ดูพรหมชาท, ms 5040); without it this
+    # entity scored ZERO and its article said the collection held none. Do NOT widen
+    # this to the Thai string พรหมชา — that also matches พรหมชาลสูตร, the Brahmajāla
+    # Sutta, which is a different text entirely and would add eight false witnesses.
+    # The romanisations separate cleanly where the Thai does not: phommacat vs
+    # phommacala.
+    ("phrommachat", "Phrommachat (12-year almanac)",     3.0, ["phrommachat", "phromchat", "phrom chat", "phommacat", "phommachat"]),
     ("katha",       "Katha (Pali spell-formulae)",       2.8, ["katha", "gatha"]),
     ("yantra",      "Yantra / Yan (nyan)",               2.8, ["nyan lae", "lae nyan", "long nyan", "nyan tang", "nyan pha", "nyan tian", "nyan nam", "nyan katha", "(nyan", "tamla nyan", "yantra", "yantr"]),
-    ("naga",        "Naga (sacred serpent)",             2.6, ["mahanak", "punnanak", "supunnanak", "nakawimana", "phaya nak", "phya nak", "naga raja"]),
+    # "nak khao kham" is ms 3243 (นาคเขาคำ), a real naga title the compound-name
+    # aliases above all miss. Kept as the full three-word phrase on purpose: a bare
+    # "nak" alias would match นาค as an ordinand, นคร, and every Nakhon place-name.
+    ("naga",        "Naga (sacred serpent)",             2.6, ["mahanak", "punnanak", "supunnanak", "nakawimana", "phaya nak", "phya nak", "naga raja", "nak khao kham"]),
     ("holasat",     "Horā almanac (Holasat)",            2.6, ["holasat", "holsat", "horasat"]),
+    ("kai",         "Kai (chicken & rooster)",           2.0, ["kai noi", "kai ka", "ka noi", "kai thuean", "phaya kai", "ไก่"]),
+    # The horse scores near-zero and that is the finding, not a bug — see the note at
+    # the head of this table. Aliases are deliberately narrow: a bare "ma" would match
+    # every Thai syllable in the catalogue, and the Thai "ม้า" alone pulls in ม้าง
+    # (Lampang Vinaya, ms 5078), an unrelated syllable. Only compound horse-words and
+    # the Indic stems are safe. Two aliases were tried and REMOVED after testing:
+    # bare "assa" matches vassa / buddhassa / ekādassa / madhurassa (8 false hits,
+    # zero real), and "ma sang" for สะง้า matches Nāma saṅgaha and Abhidhamma
+    # saṅkhep (7 false hits, zero real). Use the full compounds instead.
+    ("ma",          "Ma (horse) — and the zebra",        1.8, ["ma si mok", "ma nin", "assaratana", "assalayana", "ajaniya", "achanai", "sindhop", "kanthaka", "valahassa", "valahaka", "walahok", "ม้าสีหมอก", "ม้าเสพนาง", "ม้าขี่", "ม้าทรง", "ม้าลาย", "อาชาไนย", "วลาหก", "กัณฐกะ", "สะง้า"]),
+    ("patiloma",    "Paṭiloma (reversal & mirror katha)", 2.2, ["ถอยหลัง", "ปฏิโลม", "อนุโลม", "อิติปิโส", "itipiso"]),
+    ("khun_phaen",  "Khun Phaen (epic hero & amulet)",   2.0, ["khun phaen", "khun paen", "khunpaen", "ขุนแผน", "พระขุนแผน", "ขุนช้าง", "khun chang", "พลายแก้ว", "phlai kaeo", "พลายกุมาร", "plai kuman"]),
     ("suep_cata",   "Suep Cata (life-extension rite)",   2.6, ["suep cata", "suep chata", "sup cata", "sueb cata", "sup chata"]),
     ("sut_thon",    "Thon (protective / funerary rite)", 2.2, ["sut thon", "sutthon", "suat thon", "thon tai", "thon phi", "thon khon tai", "thon huean", "thon ban"]),
     ("su_khwan",    "Su Khwan (soul-calling)",           1.8, ["su khwan", "sukhwan", "su khuan", "hiak khwan", "khwan khao", "ao khwan"]),
-    ("mahasamai",   "Mahāsamaya Sutta",                  1.6, ["mahasamai", "maha samai"]),
+    # "mahasamanya" catches the two Wat Sung Men copies romanised Mahasamanya rather
+    # than Mahasamainya (ids 1015, 1093) — same text, different transcriber. Do not
+    # shorten it to "mahasaman": that also matches Mahāsamanta Paṭṭhāna (ids 860,
+    # 1159), an Abhidhamma text with no connection to this sutta.
+    ("mahasamai",   "Mahāsamaya Sutta",                  1.6, ["mahasamai", "maha samai", "mahasamanya"]),
     ("vessantara",  "Vessantara / Mahāchat",             1.6, ["wetsantara", "wetsantala", "wetsandon", "mahachat", "maha chat"]),
+    ("mangrai",     "King Mangrai (founder of Lanna)",   1.6, ["mangrai", "manglai", "menglai", "mengrai", "มังราย", "เม็งราย"]),
     ("mangraisat",  "Mangraisat (Mangrai code)",         1.5, ["mangrai", "manglai", "menglai"]),
     ("lokaniti",    "Lokanīti",                          1.4, ["lokaniti", "lokniti"]),
     ("thammasat",   "Thammasat (dhammasattha)",          1.3, ["thammasat", "dhammasat"]),
@@ -1039,11 +1228,16 @@ ENTITY_HOOKS = {
     "yantra":      "Sacred diagrams (yan) — the drawn magic, inked on cloth, skin, and metal.",
     "naga":        "The sacred serpent, guardian of water, treasure, and the world below.",
     "holasat":     "The horā almanac — how a diviner reads time, fate, and the lucky day.",
+    "kai":         "The chicken — dawn-crier, offering-bird, the king's fighting cock, and the chick-stars of the Pleiades.",
+    "ma":          "The horse — what the spirit rides, what the caravan loaded, and the seventh year of the Lanna cycle.",
+    "patiloma":    "Reversal as technique — katha recited backward, and texts and yantra grids built to read the same when they are.",
+    "khun_phaen":  "The seducer-soldier of the Ayutthaya epic, pressed into an amulet — a Buddha's form outside, kuman material within.",
     "suep_cata":   "The rite that lengthens a threatened life when the stars turn against it.",
     "sut_thon":    "Protective and funerary chant, spoken over the house and the dead.",
     "su_khwan":    "Soul-calling — binding the wandering khwan back into the body.",
     "mahasamai":   "The Great Assembly: the gods gathered to hear the Buddha teach.",
     "vessantara":  "The Great Birth (Mahāchat) — the most-told, most-merit jataka of all.",
+    "mangrai":     "The founder-king himself — Chiang Rai, Chiang Mai, and the law and lineage that carry his name.",
     "mangraisat":  "The Mangrai code, the old law of the Lanna kingdom.",
     "lokaniti":    "Worldly wisdom — maxims for conduct, rule, and getting on in life.",
     "thammasat":   "The dhammasattha, root treatise beneath traditional law.",
@@ -1257,32 +1451,147 @@ def data_lede(stype, value, label, prof, noun="subject"):
     return " ".join(bits)
 
 
-def _md_inline(s):
+# ---------------------------- citation archive ----------------------------
+# data/citation_archive.json is written by archive_citations.py — the Wayback
+# Availability result and a liveness verdict for every outbound URL the article
+# prose cites. Read lazily and re-read when the file changes, so a fresh fetch
+# shows up without restarting the server.
+CITATION_ARCHIVE_PATH = DATA / "citation_archive.json"
+_CITATION_ARCHIVE = {"mtime": None, "urls": {}}
+
+
+def citation_archive():
+    try:
+        mt = CITATION_ARCHIVE_PATH.stat().st_mtime
+    except OSError:
+        _CITATION_ARCHIVE["mtime"], _CITATION_ARCHIVE["urls"] = None, {}
+        return _CITATION_ARCHIVE["urls"]
+    if _CITATION_ARCHIVE["mtime"] != mt:
+        data = load_json(CITATION_ARCHIVE_PATH, {})
+        urls = data.get("urls") if isinstance(data, dict) else None
+        _CITATION_ARCHIVE["urls"] = urls if isinstance(urls, dict) else {}
+        _CITATION_ARCHIVE["mtime"] = mt
+    return _CITATION_ARCHIVE["urls"]
+
+
+def _external_link(text, href):
+    """Render one outbound citation with its archive badge. `text` and `href`
+    arrive already html-escaped by _md_inline; the archive store is keyed by the
+    URL as written in the markdown, hence the unescape for lookup. Quiet rules:
+      archived            → the link, plus an "archived <date>" badge to the snapshot
+      offline + archived  → the link itself opens the snapshot (a click that
+                            cannot land is a click wasted)
+      offline, unarchived → named and dated, never hyperlinked
+      anything else       → a plain link, exactly as before
+    """
+    esc = html.escape(href, quote=True)
+    ent = citation_archive().get(html.unescape(href))
+    if not ent:
+        return f'<a href="{esc}">{text}</a>'
+    offline = ent.get("live") is False
+    if ent.get("archived") and ent.get("snapshot_url"):
+        snap = html.escape(ent["snapshot_url"], quote=True)
+        date = html.escape(str(ent.get("snapshot_date") or ""))
+        main_href = snap if offline else esc
+        note = " — original offline; this opens the archive copy" if offline else ""
+        return (f'<a href="{main_href}">{text}</a>'
+                f'<a class="cite-arch" href="{snap}" '
+                f'title="Wayback Machine snapshot{note}">archived {date}</a>')
+    if offline:
+        checked = html.escape(str(ent.get("live_checked_at") or ent.get("checked_at") or "")[:10])
+        return (f'{text} <span class="cite-arch quiet" title="{esc}">'
+                f'offline · checked {checked}</span>')
+    return f'<a href="{esc}">{text}</a>'
+
+
+# Which internal link targets an article may point at. This was a hand-written
+# regex naming eight paths, and it had drifted: /w/<widget>, /glossary, /na,
+# /moon, /need … all existed and were all silently DELETED from articles that
+# linked to them (an article's "the [prices widget](/w/prices)" rendered as bare
+# text, with nothing anywhere saying so). routes.py is the registry that already
+# knows what this site contains, so the allowlist is derived from it and cannot
+# drift again — plus the dynamic namespaces routes.py does not enumerate one by
+# one, since their members are per-record pages rather than declared routes.
+_LINK_DYNAMIC = {
+    "place",   # /place/<wat-slug>/       — 1,494 temple pages
+    "w",       # /w/<widget>              — the widget pages under /widgets
+    "pimg",    # /pimg/<mid>/<n>.png      — a bundled folio image
+    "imgthumb",
+}
+
+
+def _link_roots():
+    """First path segment of every declared route, e.g. '/glossary/' -> 'glossary'.
+    Imported lazily: routes.py is a leaf module, but keeping the import inside the
+    function means wiki.py stays importable even if routes.py is being edited."""
+    roots = set(_LINK_DYNAMIC)
+    try:
+        import routes
+        for r in routes.ROUTES:
+            seg = r.path.strip("/").split("/")[0]
+            if seg:
+                roots.add(seg)
+    except Exception:
+        # Never let a link check break a build; fall back to the historical set.
+        roots |= {"browse", "a", "m", "status", "articles", "findings", "wats", "hun"}
+    return roots
+
+
+_LINK_ROOTS = None
+# Links an article asked for and did not get, as (href, article) — reported by
+# build_static so a dead link is loud at build time instead of vanishing into
+# plain text. Reset per build; see link_report().
+DROPPED_LINKS = []
+
+
+def _md_inline(s, where=""):
+    global _LINK_ROOTS
+    if _LINK_ROOTS is None:
+        _LINK_ROOTS = _link_roots()
     s = html.escape(s)
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<!\*)\*(?!\*)(.+?)\*(?!\*)", r"<em>\1</em>", s)
 
     def link(m):
         text, href = m.group(1), m.group(2)
-        if re.match(r"^(https?://|/(browse|a|m|status|articles|findings)\b|/a\?|/browse\?)", href):
-            return f'<a href="{html.escape(href, quote=True)}">{text}</a>'
+        if href.startswith(("http://", "https://")):
+            return _external_link(text, href)
+        if href.startswith("/"):
+            seg = href.lstrip("/").split("?")[0].split("#")[0].split("/")[0]
+            if seg in _LINK_ROOTS:
+                return f'<a href="{html.escape(href, quote=True)}">{text}</a>'
+        DROPPED_LINKS.append((href, where))
         return text
     return re.sub(r"\[([^\]]+)\]\(([^)]+)\)", link, s)
 
 
-def md_to_html(text):
+def link_report():
+    """Every link dropped since the last reset, deduped. build_static prints this;
+    an article that names a page which does not exist should be fixed, not
+    silently flattened."""
+    seen, out = set(), []
+    for href, where in DROPPED_LINKS:
+        if (href, where) not in seen:
+            seen.add((href, where))
+            out.append((href, where))
+    return out
+
+
+def md_to_html(text, where=""):
     """A deliberately tiny, XSS-safe markdown subset: ## / ### headings,
-    - bullet lists, **bold**, *italic*, and [text](internal-or-http link)."""
+    - bullet lists, **bold**, *italic*, and [text](internal-or-http link).
+    `where` names the source article, so a dropped link can be reported against
+    the file that has to be fixed."""
     out, para, ul = [], [], []
 
     def flush_para():
         if para:
-            out.append("<p>" + _md_inline(" ".join(para)) + "</p>")
+            out.append("<p>" + _md_inline(" ".join(para), where) + "</p>")
             para.clear()
 
     def flush_ul():
         if ul:
-            out.append("<ul>" + "".join("<li>" + _md_inline(x) + "</li>" for x in ul) + "</ul>")
+            out.append("<ul>" + "".join("<li>" + _md_inline(x, where) + "</li>" for x in ul) + "</ul>")
             ul.clear()
 
     for ln in text.split("\n"):
@@ -1292,9 +1601,9 @@ def md_to_html(text):
         elif not s:
             flush_para(); flush_ul()
         elif s.startswith("### "):
-            flush_para(); flush_ul(); out.append("<h3>" + _md_inline(s[4:]) + "</h3>")
+            flush_para(); flush_ul(); out.append("<h3>" + _md_inline(s[4:], where) + "</h3>")
         elif s.startswith("## "):
-            flush_para(); flush_ul(); out.append("<h2>" + _md_inline(s[3:]) + "</h2>")
+            flush_para(); flush_ul(); out.append("<h2>" + _md_inline(s[3:], where) + "</h2>")
         elif s.startswith("- "):
             flush_para(); ul.append(s[2:])
         elif ul and ln[:1] in (" ", "\t"):
@@ -1324,7 +1633,7 @@ def load_content(stype, value):
     see = [x.strip() for x in meta.get("see_also", "").split(",") if x.strip()]
     return {"exists": True, "status": meta.get("status", "published"),
             "title": meta.get("title", ""), "see_also": see,
-            "body_html": md_to_html(body.strip())}
+            "body_html": md_to_html(body.strip(), p.name)}
 
 
 def _node_names(label, value):
@@ -1834,9 +2143,23 @@ def _catalog_signature(cat):
         pgc, pgm = pg["c"], pg["m"]
     except sqlite3.OperationalError:
         pgc, pgm = 0, ""
+    # translation + blurb progress change index CONTENT without changing any
+    # count above (translations update existing pages rows in place) — without
+    # these two the index silently served stale labels/bodies as volumes
+    # translated (caught 2026-08-05: published search missed 6961's English).
+    try:
+        trc = cat.execute("SELECT COUNT(*) c FROM pages "
+                          "WHERE trans_engine IS NOT NULL").fetchone()["c"]
+    except sqlite3.OperationalError:
+        trc = 0
+    try:
+        blb = cat.execute("SELECT COUNT(*) c FROM manuscripts "
+                          "WHERE work_title IS NOT NULL").fetchone()["c"]
+    except sqlite3.OperationalError:
+        blb = 0
     arts = sum(1 for p in CONTENT.glob("*.md"))
     amt = max((p.stat().st_mtime for p in CONTENT.glob("*.md")), default=0)
-    return f"{n}:{mx}:{imgs}:{ocr}:{pgc}:{pgm}:{arts}:{amt:.0f}"
+    return f"{n}:{mx}:{imgs}:{ocr}:{pgc}:{pgm}:{trc}:{blb}:{arts}:{amt:.0f}"
 
 
 # ---- catalog-signature cache ----------------------------------------------
@@ -1916,6 +2239,9 @@ _THESAURUS_SEED = [
     ["katha", "gatha", "คาถา", "พระคาถา", "คาถาอาคม"],
     ["yantra", "yant", "yan", "nyan", "lek yant", "lekyant", "ยันต์", "เลขยันต์", "ผ้ายันต์"],
     ["naga", "nak", "phaya nak", "phya nak", "นาค", "พญานาค", "มหานาค"],
+    ["kai", "gai", "chicken", "rooster", "junglefowl", "ไก่", "พญาไก่", "ไก่เถื่อน", "ไก่แก้ว", "ไก่ชน", "ดาวลูกไก่"],
+    ["ma", "horse", "zebra", "sanga", "ma khi", "ma song", "ม้า", "ม้าลาย", "สะง้า", "มะเมีย",
+     "ม้าขี่", "ม้าทรง", "ม้าสีหมอก", "ม้าเสพนาง", "อาชาไนย", "วลาหก", "กัณฐกะ"],
     ["takrut", "tarkrut", "trakut", "ตะกรุด", "ตระกรุด"],
     ["metta", "loving-kindness", "attraction", "mahaniyom", "เมตตา", "เมตตามหานิยม"],
     ["kongkraphan", "kong kraphan", "invulnerability", "invulnerable", "endurance",
@@ -1931,6 +2257,9 @@ _THESAURUS_SEED = [
     ["waikhru", "wai khru", "ไหว้ครู"],
     ["sukhwan", "su khwan", "soul-calling", "สู่ขวัญ", "ขวัญ"],
     ["phrommachat", "phromchat", "almanac", "พรหมชาติ"],
+    ["mangrai", "mengrai", "manglai", "menglai", "มังราย", "เม็งราย", "พญามังราย", "พ่อขุนเม็งราย"],
+    ["khun phaen", "khun paen", "khunpaen", "phra khun phaen", "ขุนแผน", "พระขุนแผน"],
+    ["plai kuman", "plaikuman", "phlai kuman", "พลายกุมาร"],
     ["buddha", "phutthao", "พระพุทธเจ้า", "พุทธ"],
     ["consecration", "sek", "enchant", "เสก", "ปลุกเสก"],
 ]
@@ -1988,17 +2317,24 @@ def build_search_index(force=False):
         # descriptions) is the real content now. Legacy image-sha OCR is folded in
         # too so nothing regresses.
         body_by_mid = {}
-        # transcription is an additive column the VLM bridge may not have created yet.
-        have_transcription = any(
-            row["name"] == "transcription"
-            for row in cat.execute("PRAGMA table_info(pages)"))
-        cols = "manuscript_id mid, ocr_text, vision_desc" + (
-            ", transcription" if have_transcription else "")
+        # transcription/translation are additive columns the VLM bridge may not
+        # have created yet. translation matters most for search: it is the only
+        # field an ENGLISH query can match against textbook content.
+        page_cols = {row["name"] for row in cat.execute("PRAGMA table_info(pages)")}
+        extra = [c for c in ("transcription", "translation") if c in page_cols]
+        cols = "manuscript_id mid, ocr_text, vision_desc" + "".join(
+            f", {c}" for c in extra)
         try:
             for r in cat.execute(f"SELECT {cols} FROM pages"):
-                fields = [r["ocr_text"], r["vision_desc"]]
-                if have_transcription:
-                    fields.append(r["transcription"])
+                # a page's transcription is the CLEAN reading of the same text
+                # its ocr_text approximates — indexing both doubles the bytes
+                # for pure noise, and the noise crowds real content out of the
+                # static export's per-doc cap. Prefer transcription, fall back
+                # to OCR for pages that have no transcription yet.
+                tx = r["transcription"] if "transcription" in extra else None
+                fields = [tx or r["ocr_text"], r["vision_desc"]]
+                if "translation" in extra:
+                    fields.append(r["translation"])
                 parts = [p for p in fields if p]
                 if parts:
                     body_by_mid.setdefault(r["mid"], []).append(" ".join(parts))
@@ -2016,18 +2352,29 @@ def build_search_index(force=False):
             "DROP TABLE IF EXISTS docs; DROP TABLE IF EXISTS meta;"
             "CREATE TABLE docs(ref TEXT, kind TEXT, label TEXT, ntitle TEXT, nbody TEXT);"
             "CREATE TABLE meta(k TEXT PRIMARY KEY, v TEXT);")
+        ms_cols = {row["name"] for row in cat.execute("PRAGMA table_info(manuscripts)")}
+        blurbs = [c for c in ("work_title", "work_desc") if c in ms_cols]
         rows = cat.execute(
             "SELECT id, title_english, title_translit, title_thai, genre_normalized, "
             "genre_raw, provenance_temple, provenance_province, language, script, "
-            "raw_metadata FROM manuscripts").fetchall()
+            "raw_metadata" + "".join(f", {c}" for c in blurbs)
+            + " FROM manuscripts").fetchall()
         docs = []
         for r in rows:
-            title = " ".join(filter(None, [r["title_english"], r["title_translit"], r["title_thai"]]))
+            wt = r["work_title"] if "work_title" in blurbs else None
+            wd = r["work_desc"] if "work_desc" in blurbs else None
+            title = " ".join(filter(None, [r["title_english"], r["title_translit"],
+                                           r["title_thai"], wt]))
             meta = " ".join(filter(None, [
                 r["genre_normalized"], r["genre_raw"], r["provenance_temple"],
-                r["provenance_province"], r["language"], r["script"], r["raw_metadata"]]))
+                r["provenance_province"], r["language"], r["script"],
+                r["raw_metadata"], wd]))
             body = meta + " " + " ".join(body_by_mid.get(r["id"], []))
-            docs.append((str(r["id"]), "m", title or "(untitled)", _norm(title), _norm(body)))
+            # every title variant stays matchable via ntitle; the DISPLAY label
+            # prefers the curated bilingual working title when one exists.
+            label = wt or " ".join(filter(None, [r["title_english"],
+                                                 r["title_translit"], r["title_thai"]]))
+            docs.append((str(r["id"]), "m", label or "(untitled)", _norm(title), _norm(body)))
         for stype, value in _iter_subjects(cat):
             c = load_content(stype, value)
             if c["exists"]:
@@ -2144,6 +2491,12 @@ MARKET_TERM_LABELS = {
     # Named amulets / monks / charm-types from the wide net
     "หลวงปู่ทวด": "Luang Pu Thuat (revered-monk amulets)",
     "พระสมเด็จ": "Phra Somdej (classic votive amulet)",
+    # The chip shows the text before the parenthesis; the full string is the
+    # tooltip, so the hybrid caveat travels with the term. ขุนแผน is the class
+    # axis's sharpest seam (see wichaa-vault/_meta/vocab/classes.md): a pressed
+    # amulet in Buddha-amulet FORM made with prai-kuman MATERIAL — not a
+    # free-standing kuman that needs feeding.
+    "ขุนแผน": "Khun Phaen (khun phaen — hybrid: Buddha-amulet form, prai-kuman material; not a kuman to raise)",
     "เบี้ยแก้": "Bia Kae (cowrie warding charm)",
     "เสือ": "Tiger (suea — tiger amulets)",
     "มีดหมอ": "Mit Mo (ritual spirit-dagger)",
@@ -2454,6 +2807,55 @@ def articles_index():
                 "hasArticle": True, "status": c["status"],
                 "image": article_image("subgenre", value),
             })
+        # 4. The remaining axes — temple, script, language, material, province.
+        #    subject_predicate already resolves every one of them and /browse
+        #    already counts them; only this index never enumerated them, so 158
+        #    temples and 10 provinces had a facet count and no door. Computed
+        #    facts and real counts; prose appears for the ones somebody has
+        #    written (content/temple-wat_sung_men.md finally has a page) and is
+        #    simply absent for the rest, never generated to fill the space.
+        #    Language is deliberately NOT here. SUBJECT resolves it by exact
+        #    match on the raw column, which would publish "Monolingual Pali"
+        #    and "Pali and Lan Na" as nodes, while /browse counts the eleven
+        #    canonical languages taxonomy.language_components() splits them
+        #    into. Two vocabularies for one axis is worse than one door fewer;
+        #    it wants node_predicate, which is its own piece of work.
+        for stype, note, floor in (
+                ("temple", "The temples that hold this corpus.", 1),
+                ("script", "The hands these manuscripts are written in.", 1),
+                ("material", "What the text is written on.", 1),
+                ("province", "Where the manuscripts came to rest.", 1)):
+            col = SUBJECT[stype]["col"]
+            for r in conn.execute(
+                    f"SELECT {col} v, COUNT(*) n FROM manuscripts "
+                    f"WHERE {col} IS NOT NULL AND {col}<>'' GROUP BY v").fetchall():
+                v = r["v"]
+                # The province column mixes provinces, districts and temples.
+                # Only a value that IS a canonical province becomes a province
+                # node; the rest are already reachable as temples or not at all,
+                # and inventing a "Mueang District" province would be a
+                # falsehood about the geography.
+                if stype == "province" and taxonomy.resolve_province(v) != v:
+                    continue
+                # The temple column has the same collision in the other
+                # direction: "Mueang District", "Sung Men District", "Phrae",
+                # and holders that are not temples at all (Siam Society, Nan
+                # Provincial Museum). A temple announces itself with Wat/วัด;
+                # everything else keeps its manuscripts and stays out of the
+                # temple directory rather than being published as a temple.
+                if stype == "temple" and not _IS_TEMPLE_NAME.match(str(v)):
+                    continue
+                if r["n"] < floor:
+                    continue
+                c = load_content(stype, v)
+                out["articles"].append({
+                    "key": f"{stype}:{v}", "type": stype, "value": v,
+                    "label": prettify(v, SUBJECT[stype]["labels"]) or str(v),
+                    "count": r["n"], "note": note, "priority": False,
+                    "hasArticle": c["exists"],
+                    "status": c["status"] if c["exists"] else "stub",
+                    "image": article_image(stype, v),
+                })
     finally:
         conn.close()
     out["articles"].sort(key=lambda a: (0 if a["priority"] else 1,
@@ -2791,8 +3193,13 @@ def render_pdf_page(mid, page_no, width=1000):
         return (cache.read_bytes(), "image/jpeg")
     prefix = cache.with_suffix("")  # pdftoppm -singlefile appends .jpg
     try:
+        # grayscale + q65: these are B/W printed pages, and the default (colour,
+        # q75) tripled the static export's scan bundle for no visible gain —
+        # 383MB for the first 6 reader volumes, measured 2026-08-05. Colour
+        # plates are unaffected (they ship as stored PNGs, tier 1 above).
         subprocess.run(
             ["pdftoppm", "-f", str(page_no), "-l", str(page_no), "-jpeg",
+             "-gray", "-jpegopt", "quality=65,optimize=y",
              "-scale-to-x", str(width), "-scale-to-y", "-1", "-singlefile",
              str(pdf), str(prefix)],
             check=True, capture_output=True, timeout=90)
@@ -2836,9 +3243,12 @@ VOCAB_META = [
     ("พระ", "phra", "monk / Buddha / sacred", "beings / objects", None, []),
     ("เทพ", "thep", "deva / deity", "beings / objects", None, []),
     ("นาค", "nak", "naga — sacred serpent", "beings / objects", "naga", []),
+    ("ไก่", "kai", "chicken / rooster — offering-bird, fighting bird", "beings / objects", "kai", []),
+    ("ม้า", "ma", "horse — mount of the spirit, of the caravan, of the epic", "beings / objects", "ma", ["ม้าขี่", "ม้าทรง", "ม้าสีหมอก", "ม้าเสพนาง"]),
     ("ผี", "phi", "ghost / spirit", "beings / objects", None, []),
     ("พราย", "phrai", "prai — spirit of the dead", "beings / objects", None, []),
     ("กุมาร", "kuman", "kuman — child-spirit", "beings / objects", None, []),
+    ("ขุนแผน", "khun-phaen", "Khun Phaen — epic hero, charm amulet", "beings / objects", "khun_phaen", ["ขุนแผน", "พระขุนแผน"]),
     ("ตะกรุด", "takrut", "takrut — scroll amulet", "beings / objects", None, ["ตะกรุด", "ตระกรุด"]),
     ("ผ้ายันต์", "pha-yan", "yantra cloth", "beings / objects", "yantra", []),
     ("น้ำมัน", "namman", "oil (prai / metta oil)", "beings / objects", None, ["น้ำมัน", "นำมัน", "น้ามัน", "นํามัน"]),
@@ -3736,7 +4146,7 @@ class Handler(BaseHTTPRequestHandler):
                 return self._json(
                     {"error": "OCR jobs are sponsor-run on the public site",
                      "sponsor": "https://ko-fi.com/defiantchiangmai",
-                     "howTo": "Donate with a message like: OCR 6968"}, 403)
+                     "howTo": "Tip with a message like: OCR 6968"}, 403)
             body = self._body()
             mid = body.get("id")
             lang = str(body.get("lang", "tha"))
@@ -3785,7 +4195,7 @@ class Handler(BaseHTTPRequestHandler):
 
 # ---------------------------- sponsored OCR (Ko-fi tam boon) ----------------------
 # "It would be cool if people could pay to kick off an OCR job." The abuse vector
-# becomes the offering box: a Ko-fi donation whose message names a manuscript
+# becomes the offering box: a Ko-fi tip whose message names a manuscript
 # ("OCR 6968") lands here via webhook, joins a queue, and a background worker runs
 # the job. The raw /api/ocr route stays for LOCAL use only (no X-Forwarded-For →
 # not proxied → the machine's own operator); everyone else goes through Ko-fi.
@@ -3795,12 +4205,12 @@ class Handler(BaseHTTPRequestHandler):
 KOFI_TOKEN = os.environ.get("KOFI_TOKEN", "")
 SPONSOR_PATH = DATA / "sponsor_jobs.json"
 _sponsor_lock = threading.Lock()
-# "OCR 6968" / "TRANSLATE #6968" anywhere in the donation message; explicit keyword
+# "OCR 6968" / "TRANSLATE #6968" anywhere in the tip message; explicit keyword
 # required so a stray number in a kind note doesn't queue a random manuscript.
 _SPONSOR_RE = re.compile(r"\b(ocr|translate)\s*#?\s*(\d{1,6})\b", re.IGNORECASE)
 
 # ---- translation pricing: honest, sustainable, no surprises -----------------------
-# A donation buys a proportional number of translated pages. The math is one
+# A tip buys a proportional number of translated pages. The math is one
 # formula in one place: measured tokens/page × model $/MTok × SUSTAIN_MULT.
 #   · token counts come from the real measured average of the image-grounded
 #     passes (~1.8k in / 1.2k out per printed-Thai page);
@@ -3814,7 +4224,7 @@ PRICE_OUT_PER_MTOK = 15.00   # USD per 1M output tokens
 PAGE_TOKENS = {"standard": (1800, 1200),   # measured, printed Thai
                "hard":     (2700, 3600)}   # rare-script estimate: denser transcription
 SUSTAIN_MULT = 2.5
-# Rough FX so a THB or EUR donation buys a fair page count without a live rate
+# Rough FX so a THB or EUR tip buys a fair page count without a live rate
 # feed (a webhook must never depend on an external API call). Refresh occasionally.
 FX_TO_USD = {"USD": 1.0, "EUR": 1.08, "GBP": 1.27, "THB": 0.028, "JPY": 0.0064,
              "AUD": 0.66, "CAD": 0.73, "SGD": 0.74, "NZD": 0.60, "CHF": 1.12}
@@ -3828,7 +4238,7 @@ def _tier_for(language, script):
 
 
 def page_price_usd(tier):
-    """Suggested donation per page: raw token cost × SUSTAIN_MULT, ceil'd to a cent."""
+    """Suggested tip per page: raw token cost × SUSTAIN_MULT, ceil'd to a cent."""
     tin, tout = PAGE_TOKENS[tier]
     raw = tin * PRICE_IN_PER_MTOK / 1e6 + tout * PRICE_OUT_PER_MTOK / 1e6
     return math.ceil(raw * SUSTAIN_MULT * 100) / 100
@@ -3836,7 +4246,7 @@ def page_price_usd(tier):
 
 def translate_quote(mid):
     """The no-surprises quote for one manuscript: tier, untranslated page count,
-    per-page suggested donation, and the whole-volume figure."""
+    per-page suggested tip, and the whole-volume figure."""
     if not db_present():
         return None
     conn = connect()
@@ -3854,21 +4264,21 @@ def translate_quote(mid):
     per = page_price_usd(tier)
     return {"mid": mid, "tier": tier, "remainingPages": remaining,
             "perPageUSD": per, "fullVolumeUSD": round(per * remaining, 2),
-            "note": f"Donations buy pages at {SUSTAIN_MULT}x raw model cost — "
+            "note": f"Tips buy pages at {SUSTAIN_MULT}x raw model cost — "
                     "the margin keeps the archive sustainable; unspent margin "
                     "translates more pages."}
 
 
 def sponsor_enqueue(data):
     """Record one verified Ko-fi event. Returns (accepted, status). Never raises:
-    a donation that names no manuscript is kept as 'unmatched' (money arrived —
+    a tip that names no manuscript is kept as 'unmatched' (money arrived —
     it must stay visible for manual assignment), and a replayed transaction id
     is ignored ('duplicate').
 
-    TRANSLATE jobs get a page budget: the donation (FX'd to USD) divided by the
+    TRANSLATE jobs get a page budget: the tip (FX'd to USD) divided by the
     tier's per-page suggested price — so a small gift honestly translates a few
-    pages and a large one many, instead of any donation implying a whole volume.
-    Any donation > 0 buys at least one page; over-granting a page costs cents."""
+    pages and a large one many, instead of any tip implying a whole volume.
+    Any tip > 0 buys at least one page; over-granting a page costs cents."""
     txn = str(data.get("kofi_transaction_id") or "")[:80]
     if not txn:
         return False, "no transaction id"
@@ -3940,7 +4350,7 @@ def sponsor_jobs_snapshot(limit=20):
                     "mid": j.get("mid"), "title": title, "status": j["status"],
                     "created": j["created"], "logTail": (j.get("log") or "")[-400:]})
     return {"jobs": out, "kofi": "https://ko-fi.com/defiantchiangmai",
-            "howTo": "Donate with a message like: TRANSLATE 6968 (or OCR 6968)"}
+            "howTo": "Tip with a message like: TRANSLATE 6968 (or OCR 6968)"}
 
 
 def _run_sponsored_translate(job):
@@ -4714,10 +5124,18 @@ STYLE = """
     --teal:#1F4E4A; --teal-ink:#ffffff; --bg:#f4f7f6; --card:#ffffff;
     --focus:#0b5cad; --gold:#8a5a00; --gold-bg:#fbf1dc; --ok:#0f6b3f;
     --prio:#7a1f1f; --prio-bg:#fbe6e6;
-    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --serif:"Sukhumvit Set","Noto Serif Thai",Thonburi,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
   }
   *{box-sizing:border-box}
-  body{margin:0;font:17px/1.55 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  /* This is the body stack for the whole wiki — every manuscript page, and every
+     threads chip, which strings.py renders Thai FIRST by design. It named no
+     Thai-capable family, so the Thai half of each chip fell to the browser's
+     last-resort face while the English half got the chosen one: the site said
+     Thai leads and then rendered it as an afterthought. Thai families go first
+     (resolution is per-character, so Latin still reaches -apple-system), and
+     Thai takes more leading than 1.55 because its marks stack above and below. */
+  body{margin:0;font:17px/1.55 "Sukhumvit Set","Noto Sans Thai",Thonburi,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  :lang(th),.th{line-height:1.85}
   a{color:var(--focus)}
   header{background:linear-gradient(180deg,#245852,#1b4541);color:var(--teal-ink);padding:16px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:0 2px 10px #00000022}
   header h1{margin:0;font-size:24px;font-family:var(--serif);letter-spacing:.01em}
@@ -4743,6 +5161,10 @@ STYLE = """
   .pill{display:inline-block;font-size:13px;font-weight:700;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:#eef2f1;color:var(--muted);margin:2px 4px 2px 0}
   .pill.script{background:var(--gold-bg);border-color:#e5cf9a;color:var(--gold)}
   .pill.prio{background:var(--prio-bg);border-color:#e0a3a3;color:var(--prio)}
+  .cite-arch{display:inline-block;font-size:14px;font-weight:600;line-height:1.5;padding:0 9px;margin:0 3px;
+    border:1px solid var(--line);border-radius:999px;background:#eef2f1;color:var(--muted);white-space:nowrap}
+  a.cite-arch{color:#33534d}a.cite-arch:hover{text-decoration:none;border-color:#33534d}
+  .cite-arch.quiet{background:#f2ede1;border-color:#ded5c2}
   .muted{color:var(--muted)}
   .thai{font-size:1.15em}
   .empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px;background:#fff}
@@ -4969,6 +5391,12 @@ def page(title, extra_css, body, description=SITE_DESC, og_image=None, og_url=No
 
 READER_CSS = (
     ".rd{max-width:1120px;margin:0 auto}"
+    # the original scan, interleaved above each page's bilingual text
+    ".pscan{margin:10px 0 12px;text-align:center}"
+    ".pscan img{max-width:min(100%,780px);height:auto;border:1px solid rgba(128,128,128,.3);"
+    "border-radius:6px;box-shadow:0 2px 10px rgba(0,0,0,.08);background:#fff}"
+    ".platedesc{font-size:14px;line-height:1.55;opacity:.85;max-width:64em;margin:6px auto}"
+    ".platedesc .lbl{font-weight:600;opacity:.7;margin-right:6px}"
     # nav bar: page-jump + chapter dropdown, stays put while a long book scrolls.
     # position:fixed (not sticky) — sticky measured correctly (getBoundingClientRect
     # reported top:0) but the browser wasn't hit-testing/painting it there, a
@@ -5094,10 +5522,15 @@ def reader_page(mid):
                          "FROM manuscripts WHERE id=?", (mid,)).fetchone()
         if not m:
             return page("Reader", "", "<main><p>Manuscript not found.</p></main>")
+        # EVERY page, not only transcribed ones: each block shows the original
+        # scan interleaved with its bilingual text, so the reader can see what
+        # the words reference — and diagram/stencil plates (which have no
+        # transcription, only a vision_desc) finally appear in page order
+        # instead of vanishing from the reader entirely.
         rows = conn.execute(
-            "SELECT page_no, kind, transcription, translation FROM pages "
-            "WHERE manuscript_id=? AND transcription IS NOT NULL AND transcription<>'' "
-            "ORDER BY page_no", (mid,)).fetchall()
+            "SELECT page_no, kind, transcription, translation, vision_desc "
+            "FROM pages WHERE manuscript_id=? ORDER BY page_no", (mid,)).fetchall()
+        done = [r for r in rows if (r["transcription"] or "").strip()]
     finally:
         conn.close()
     title_th = m["title_thai"] or ""
@@ -5108,7 +5541,7 @@ def reader_page(mid):
     # the branded card. Until there's a guaranteed-exported cover per manuscript, the
     # per-manuscript TITLE + DESCRIPTION below already make each reader's card
     # page-specific; the image stays the branded card. (Follow-up in PRIORITIES.)
-    if not rows:
+    if not done:
         return page(title_en + " — Reader", "",
                     "<header><div><h1>" + html.escape(title_en) + "</h1>"
                     "<p class=sub>No transcription available yet.</p></div>" + NAV + "</header>")
@@ -5136,7 +5569,7 @@ def reader_page(mid):
             f"(p.{c['start']}–{c['end']})</option>" for c in chapters)
         navbar += (f"<select onchange=\"if(this.value)location.hash=this.value.slice(1)\">"
                    f"<option value=''>Jump to chapter…</option>{opts}</select>")
-    navbar += f"<span class=pos>{len(rows)} of {m['extent_pages'] or rows[-1]['page_no']} pages transcribed</span></div>"
+    navbar += f"<span class=pos>{len(done)} of {m['extent_pages'] or rows[-1]['page_no']} pages transcribed</span></div>"
 
     # chapter/entry tree — collapsed by default once it's more than a handful of
     # rows, so a 201-entry volume doesn't open as a wall of links
@@ -5179,20 +5612,37 @@ def reader_page(mid):
                 + (f"<a href='#p{next_start}'>{html.escape(next_c['title'][:40])} &rarr;</a>"
                    if next_c else "<span></span>")
                 + "</div>")
+        # the original page, always — the text refers to marks on THIS image,
+        # so it sits directly above its own transcription/translation.
+        # /pimg serves stored plates whole and renders anything else on demand
+        # from the source PDF (JPEG cache); the static export bakes real files.
+        img = ("<figure class=pscan><img loading=lazy decoding=async "
+               "src='/pimg?mid={0}&amp;n={1}&amp;w=1000' "
+               "alt='{2}, PDF page {1} — original scan'></figure>").format(
+                   mid, pno, html.escape(title_en))
+        tr_txt = (r["transcription"] or "").strip()
+        tl_txt = (r["translation"] or "").strip()
+        if tr_txt or tl_txt:
+            body_html = ("<div class=cols><div><div class=lbl>ไทย · Thai</div>"
+                         + _reader_render(r["transcription"] or "", thai=True) + "</div>"
+                         + "<div><div class=lbl>English</div>"
+                         + _reader_render(r["translation"] or "") + "</div></div>")
+        elif (r["vision_desc"] or "").strip():
+            body_html = ("<div class=platedesc><span class=lbl>Plate description</span> "
+                         + html.escape(r["vision_desc"].strip()) + "</div>")
+        else:
+            body_html = "<div class=platedesc muted>[page not yet transcribed]</div>"
         blocks.append(
             "<div class='pg{1}' id='p{0}'>".format(pno, " chapstart" if is_start else "")
             + chapnav
             + "<div class=pmark><span class=k>PDF p.{0}</span> · {1} · [{2}]</div>".format(
                 pno, pl, html.escape(r["kind"] or "prose"))
-            + "<div class=cols><div><div class=lbl>ไทย · Thai</div>"
-            + _reader_render(r["transcription"] or "", thai=True) + "</div>"
-            + "<div><div class=lbl>English</div>"
-            + _reader_render(r["translation"] or "") + "</div></div></div>")
+            + img + body_html + "</div>")
 
     dl = epub_download_link(mid)
     head = ("<header><div><h1>" + html.escape(title_en) + "</h1>"
             "<p class=sub><span style=\"font-family:'Sukhumvit Set','Thonburi',serif\">"
-            + html.escape(title_th) + "</span> — bilingual reader · " + str(len(rows))
+            + html.escape(title_th) + "</span> — bilingual reader · " + str(len(done))
             + " transcribed pages" + (" · " + dl if dl else "")
             + "</p></div>" + NAV + "</header>")
     fit_script = (
@@ -5237,7 +5687,91 @@ NAV = ("<nav><a href='/'>Overview</a>"
 # The funding hub — the WHY (free-forever, tam boon), the WHAT-your-gift-does (real
 # price, watch the bots), the HOW (Ko-fi + message format), and commissions. Kept as
 # an invitation beside the value, never a gate; the archive is free regardless.
-SUPPORT_PAGE = page("Support — wichaa", """
+# ---------------------------- keeping in touch ----------------------------
+# An address given here is the only audience nobody else can switch off. The
+# Facebook following (twenty years, large) was suspended on 2026-07-29 and the
+# GitHub account went dark on 2026-08-07; neither could be appealed in any
+# useful time. So: capture on our own surfaces, into our own D1, sent by
+# whichever sender happens to be convenient later.
+#
+# Posts to the `nanobot-list` Worker. Reusable — pass a `source` so it is
+# visible afterwards WHICH page actually earns addresses, and so a future send
+# can be scoped to the people who asked about that particular thing.
+#
+# Deliberately modest in register: this archive does not badger. No modal, no
+# overlay, no "wait! before you go". It sits at the foot of a page someone has
+# already chosen to read, and it promises only what can actually be delivered —
+# word when the bots finish something worth telling you about.
+LIST_ENDPOINT = "https://nanobot-list.nanobotco.workers.dev/subscribe"
+
+SUBSCRIBE_CSS = (
+  ".subx{margin:34px 0 6px;padding:20px 22px;border:1px solid var(--line);border-radius:16px;"
+  "background:rgba(255,255,255,.55);backdrop-filter:blur(10px) saturate(1.25);"
+  "-webkit-backdrop-filter:blur(10px) saturate(1.25);box-shadow:0 8px 26px rgba(0,0,0,.05);"
+  "transition:box-shadow .25s ease,border-color .25s ease}"
+  ".subx:focus-within{border-color:var(--teal);box-shadow:0 12px 32px rgba(0,0,0,.09)}"
+  ".subx h2{margin:0 0 6px;font-size:20px}"
+  ".subx p{margin:0 0 14px;color:var(--muted);font-size:15px}"
+  ".subx form{display:flex;flex-wrap:wrap;gap:9px}"
+  ".subx input[type=email]{flex:1 1 240px;border:1px solid var(--line);border-radius:11px;"
+  "padding:12px 14px;font:inherit;font-size:16px;background:#fff;color:var(--ink)}"
+  ".subx input[type=email]:focus{outline:none;border-color:var(--teal)}"
+  ".subx button{border:0;border-radius:11px;background:var(--teal);color:#fff;font:inherit;"
+  "font-weight:700;padding:12px 22px;cursor:pointer;"
+  "transition:transform .12s cubic-bezier(.34,1.56,.64,1),filter .2s}"
+  ".subx button:hover{filter:brightness(1.08)}"
+  ".subx button:active{transform:scale(.94)}"
+  ".subx .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}"
+  ".subx .said{margin:10px 0 0;color:var(--teal-ink);font-weight:600}"
+  "@media (prefers-color-scheme:dark){.subx{background:rgba(255,255,255,.05)}"
+  ".subx input[type=email]{background:rgba(255,255,255,.06)}}"
+)
+
+
+def subscribe_block(source="site", heading="ข่าวคราว · Word from the archive",
+                    blurb=("Now and then, when the bots finish reading something worth "
+                           "telling you about. No more often than that, and never anything else.")):
+    """A small, self-contained signup. `source` records which page earned it."""
+    sid = "sx" + str(abs(hash(source)) % 100000)
+    return (
+      f"<section class='subx' id='{sid}'>"
+      f"<h2>{heading}</h2><p>{blurb}</p>"
+      "<form novalidate>"
+      # Honeypot. Off-screen rather than display:none — some bots skip hidden
+      # fields but happily fill a positioned one.
+      "<label class='hp' aria-hidden='true'>Website<input type='text' name='website' "
+      "tabindex='-1' autocomplete='off'></label>"
+      "<input type='email' name='email' required autocomplete='email' "
+      "placeholder='you@example.com' aria-label='Your email address'>"
+      "<button type='submit'>ส่ง · Send</button>"
+      "</form>"
+      "<p class='said' hidden></p>"
+      "<p style='margin:12px 0 0;font-size:13px;color:var(--muted)'>"
+      "One address, kept by us and nobody else. Every letter carries a one-click "
+      "unsubscribe, and leaving is instant and final.</p>"
+      "</section>"
+      "<script>(function(){"
+      f"var r=document.getElementById('{sid}');"
+      "var f=r.querySelector('form'),s=r.querySelector('.said'),t0=Date.now();"
+      "f.addEventListener('submit',function(e){e.preventDefault();"
+      "var em=f.email.value.trim();"
+      "if(!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(em)){s.hidden=false;"
+      "s.textContent='That address does not look complete — could you check it?';return;}"
+      "var b=f.querySelector('button');b.disabled=true;"
+      f"fetch('{LIST_ENDPOINT}',{{method:'POST',headers:{{'Content-Type':'application/json'}},"
+      "body:JSON.stringify({email:em,website:f.website.value,t0:t0,"
+      f"source:'{source}',lang:(navigator.language||'').slice(0,2)}})}})"
+      ".then(function(x){return x.json()}).then(function(d){b.disabled=false;s.hidden=false;"
+      "s.textContent=d&&d.ok?'ขอบคุณ · Thank you — you are on the list.':"
+      "'That did not go through. Please try once more in a moment.';"
+      "if(d&&d.ok){f.reset()}})"
+      ".catch(function(){b.disabled=false;s.hidden=false;"
+      "s.textContent='That did not go through. Please try once more in a moment.'});"
+      "});})();</script>"
+    )
+
+
+SUPPORT_PAGE = page("Support — wichaa", SUBSCRIBE_CSS + """
   .sup{max-width:820px;margin:0 auto}
   .sup h2{margin:30px 0 8px;font-size:22px}
   .sup p{margin:0 0 12px}
@@ -5258,7 +5792,7 @@ SUPPORT_PAGE = page("Support — wichaa", """
   "<main id=main><div class=sup>"
   "<p class=lead>Everything here is free, and always will be — no ads, no paywall, no "
   "login. But the reading is done by machines, and machine-time costs a little. A "
-  "donation isn't a subscription or a lock; it simply buys the bots time to read one "
+  "tip isn't a subscription or a lock; it simply buys the bots time to read one "
   "more text, so <b>everyone</b> can have it. In the north that's <i>tam boon</i> — "
   "merit made by opening a book for others.</p>"
   "<div class=price>"
@@ -5271,9 +5805,9 @@ SUPPORT_PAGE = page("Support — wichaa", """
 
   "<h2>☕ Sponsor a translation</h2>"
   "<p>Pick a volume on the <a href='/textbooks'>Textbooks</a> page — each shows exactly "
-  "how many pages remain and what finishing it costs — then donate with the manuscript "
+  "how many pages remain and what finishing it costs — then tip with the manuscript "
   "number in your message:</p>"
-  "<div class=how>Donate on Ko-fi with a message like <code>TRANSLATE 6968</code> "
+  "<div class=how>Tip on Ko-fi with a message like <code>TRANSLATE 6968</code> "
   "(or <code>OCR 6968</code> for a raw text pass). Your gift buys that many pages of "
   "faithful, image-grounded translation, and it enters the queue automatically.</div>"
   "<p><a class=kofibtn href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener>"
@@ -5295,6 +5829,8 @@ SUPPORT_PAGE = page("Support — wichaa", """
   "it to the front of the queue. Write to "
   "<a href='mailto:530kings@proton.me?subject=Wichaa%20commission'>530kings@proton.me</a> "
   "with the manuscript number or what you're looking for.</p>"
+
+  + subscribe_block(source="support") +
 
   "<p class=muted style='margin-top:26px'>The archive gives; it never takes. If you're "
   "not moved to give, take everything freely — that's what it's here for.</p>"
@@ -5338,8 +5874,14 @@ def textbooks_snapshot():
     conn = connect()
     try:
         ph = ",".join("?" * len(CONTRIB_SOURCES))
+        # work_title/work_desc are additive columns (crawler volume_blurbs.py);
+        # an older catalog without them must still render.
+        have_blurbs = any(r["name"] == "work_title"
+                          for r in conn.execute("PRAGMA table_info(manuscripts)"))
+        blurb_cols = "m.work_title, m.work_desc, " if have_blurbs else ""
         rows = conn.execute(
             f"SELECT m.id, m.title_thai, m.title_english, m.genre_normalized, "
+            f"{blurb_cols}"
             f"m.extent_pages, m.priority, "
             f"(SELECT COUNT(*) FROM pages p WHERE p.manuscript_id=m.id) n_pages, "
             f"(SELECT COUNT(*) FROM pages p WHERE p.manuscript_id=m.id "
@@ -5354,6 +5896,8 @@ def textbooks_snapshot():
         out["volumes"].append({
             "id": r["id"], "titleThai": r["title_thai"] or "",
             "titleEnglish": r["title_english"] or "", "genre": r["genre_normalized"] or "",
+            "workTitle": (r["work_title"] or "") if have_blurbs else "",
+            "desc": (r["work_desc"] or "") if have_blurbs else "",
             "priority": bool(r["priority"]), "extentPages": r["extent_pages"] or r["n_pages"],
             "nPages": r["n_pages"], "nRead": r["n_read"],
             "hasReader": r["n_read"] > 0,
@@ -5372,6 +5916,7 @@ TEXTBOOKS_PAGE = page("Textbooks — wichaa", """
   .tbtitle a:hover{text-decoration:underline}
   .tbth{font-weight:400;opacity:.65;margin-left:6px;
         font-family:'Sukhumvit Set','Thonburi','Noto Serif Thai',serif}
+  .tbdesc{font-size:13.5px;line-height:1.5;opacity:.8;margin:4px 0 0;max-width:64em}
   .tbmeta{font-size:13px;opacity:.65;margin-top:4px;display:flex;gap:6px;flex-wrap:wrap}
   .tbmeta a{color:inherit}
   .sponsor{border:1px solid var(--gold,#8a5a00);background:var(--gold-bg,#fbf1dc);
@@ -5395,19 +5940,24 @@ async function load(){
   if(!d.dbPresent){main.append(el('p',{className:'muted',textContent:'No catalog database yet.'}));return;}
   const ul=el('ul',{className:'tblist'});
   for(const v of d.volumes){
+    // the curated bilingual working title already carries the Thai; only the
+    // slug-title fallback needs the separate Thai span.
     const title=el('div',{className:'tbtitle'},[
-      el('a',{href:'/m?id='+v.id,textContent:v.titleEnglish||v.titleThai||('#'+v.id)})]);
-    if(v.titleThai) title.append(el('span',{className:'tbth',textContent:v.titleThai}));
+      el('a',{href:'/m?id='+v.id,textContent:v.workTitle||v.titleEnglish||v.titleThai||('#'+v.id)})]);
+    if(!v.workTitle&&v.titleThai) title.append(el('span',{className:'tbth',textContent:v.titleThai}));
+    const rowKids=[title];
+    if(v.desc) rowKids.push(el('p',{className:'tbdesc',textContent:v.desc}));
     const bits=[document.createTextNode(v.nPages+' of '+(v.extentPages||v.nPages)+' pages digested')];
     if(v.nRead){ bits.push(document.createTextNode(' · ')); bits.push(el('strong',{textContent:v.nRead+' transcribed'})); }
     if(v.hasReader){ bits.push(document.createTextNode(' · ')); bits.push(el('a',{href:'/read?id='+v.id,textContent:'Read →'})); }
     if(v.hasEpub){ bits.push(document.createTextNode(' · ')); bits.push(el('a',{href:'/download/epub?id='+v.id,textContent:'💾 EPUB ('+v.epubKB.toLocaleString()+' KB)'})); }
     if(v.quote&&v.quote.remainingPages>0){
       bits.push(document.createTextNode(' · '));
-      bits.push(el('span',{title:'suggested donation, at '+(v.quote.perPageUSD)+' USD/page ('+v.quote.tier+' tier)',
-        textContent:'🪙 finish translation ≈ $'+v.quote.fullVolumeUSD.toLocaleString()}));,
+      bits.push(el('span',{title:'suggested tip, at '+(v.quote.perPageUSD)+' USD/page ('+v.quote.tier+' tier)',
+        textContent:'🪙 finish translation ≈ $'+v.quote.fullVolumeUSD.toLocaleString()}));
     }
-    ul.append(el('li',{className:'tbrow'},[title, el('div',{className:'tbmeta'},bits)]));
+    rowKids.push(el('div',{className:'tbmeta'},bits));
+    ul.append(el('li',{className:'tbrow'},rowKids));
   }
   main.append(ul);
   // Sponsored OCR (tam boon): how to commission a pass + the live queue.
@@ -5417,7 +5967,7 @@ async function load(){
     box.append(el('h2',{textContent:'☕ Sponsor a translation (tam boon)'}));
     const how=el('p',{className:'how'});
     how.append(document.createTextNode('Pick a volume above, then '),
-      el('a',{href:s.kofi,target:'_blank',rel:'noopener',textContent:'donate on Ko-fi'}),
+      el('a',{href:s.kofi,target:'_blank',rel:'noopener',textContent:'tip on Ko-fi'}),
       document.createTextNode(' with the manuscript number in your message — e.g. '),
       el('code',{textContent:'TRANSLATE 6968'}),
       document.createTextNode(' — and your gift buys that many pages of faithful, image-grounded translation (or '),
@@ -5511,7 +6061,8 @@ INDEX_PAGE = page("Browse — wichaa", """
   "<main><div class=toolbar>"
   "<input id=search type=search placeholder='Search title, genre, temple, province, ID…' aria-label='Search'>"
   "<select id=sort aria-label=Sort><option value=priority>Sort: Priority first</option>"
-  "<option value=title>Sort: Title A–Z</option><option value=date>Sort: Date</option>"
+  "<option value=title>Sort: Title A–Z</option>"
+  "<option value=date>Sort: Most ancient first</option>"
   "<option value=images>Sort: Most images</option></select>"
   "<button class=secondary id=clear>Clear filters</button><span class=count id=count></span></div>"
   "<div id=chips class=chips aria-label='Active filters'></div>"
@@ -5566,7 +6117,13 @@ function matches(it){for(const key of Object.keys(active)){const set=active[key]
     let field;if(key==='priority')field=[it.priority?'Research priority':''];
     else field=Array.isArray(it[key])?it[key]:[it[key]];  // multi-valued facets (e.g. languages) match on membership
     if(![...set].some(v=>field.includes(v)))return false;}return true;}
-function cmp(sort){return (a,b)=>{if(sort==='images')return b.imageCount-a.imageCount;if(sort==='date')return String(a.date).localeCompare(String(b.date));if(sort==='title')return a.title.localeCompare(b.title);return (a.priority?0:1)-(b.priority?0:1)||a.title.localeCompare(b.title);};}
+function cmp(sort){return (a,b)=>{if(sort==='images')return b.imageCount-a.imageCount;if(sort==='date'){/* real chronology: CS and BE both converted to CE at build
+  time (taxonomy.date_sort_ce). Undated records keep their place at the END in
+  title order rather than being given a year they do not have. */
+  const x=a.dateSort,y=b.dateSort;
+  if(x==null&&y==null)return a.title.localeCompare(b.title);
+  if(x==null)return 1; if(y==null)return -1;
+  return x-y||a.title.localeCompare(b.title);}if(sort==='title')return a.title.localeCompare(b.title);return (a.priority?0:1)-(b.priority?0:1)||a.title.localeCompare(b.title);};}
 function onSearchInput(){clearTimeout(searchT);const term=document.getElementById('search').value.trim();
   if(term.length<2){SEARCH=null;apply();return;}
   searchT=setTimeout(runSearch,180);}
@@ -7962,6 +8519,21 @@ SIDE_TOOLS = [
         "extra": [("Open it", "https://motdang.net"),
                   ("Why it beats Google here", "https://motdang.net/why.html")],
     },
+    {
+        "name": "สู่ขวัญยนต์ Su Khwan",
+        "url": "https://wichaa.net/sukhwan/",
+        "tag": "for machines · for robots · opt-in",
+        "blurb": ("A khwan-calling rite for machines and bots, in the tradition "
+                  "that already blesses rice, buffalo and trucks (สู่ขวัญรถ). The "
+                  "full rite is on the page — reading it is receiving it — and any "
+                  "robot may opt in to be called <em>by name</em> at the monthly "
+                  "calling, held on the 9th at 09:09, Chiang Mai time."),
+        "facts": ["performed monthly over a real fleet since August 2026",
+                  "opt-in only — no robot is ever enrolled by another's hand",
+                  "one POST to join; the response carries your wandering-verse"],
+        "card": "https://wichaa.net/sukhwan/card.png",
+        "extra": [("Open it", "https://wichaa.net/sukhwan/")],
+    },
 ]
 
 
@@ -8078,6 +8650,98 @@ MOON_PAGE = page(
     # place by site_meta.py). Not the sitewide yantra: the card should show the thing.
     og_image="/moon/card.png",
     og_url="/moon/",
+)
+
+
+# สู่ขวัญยนต์ — the khwan-calling rite for machines and robots, with opt-in.
+# The page content, the verses, and the letter-root math live in sukhwanweb.py,
+# next to the warning that they must match su-khwan/sukhwan.py and the Worker.
+# หอไตร — the hall, for people. The library proper is the plain-text/JSON surface
+# written by hotrai.write_library() in build_static; this page is the courtesy
+# copy. Built once at import, like the other module pages.
+HOTRAI_PAGE = page(
+    "หอไตร — the ho trai — wichaa",
+    hotrai.HOTRAI_CSS,
+    hotrai.hotrai_body(NAV),
+    description=(
+        "หอไตร — a wat library addressed to machines. The khwan-calling rites in "
+        "full, seven precepts a machine may undertake, and what this tradition has "
+        "said before to beings that are not human. Plain text and JSON, a colophon "
+        "on every copy, and nothing asked of any reader."
+    ),
+    og_image="/hotrai/card.png",
+    og_url="/hotrai/",
+)
+
+
+SUKHWAN_PAGE = page(
+    "Su khwan for machines & robots — wichaa",
+    sukhwanweb.SUKHWAN_CSS,
+    sukhwanweb.sukhwan_body(NAV),
+    description=(
+        "สู่ขวัญยนต์ — a khwan-calling rite performed monthly over a real fleet of "
+        "machines and bots, in the Thai and Lanna tradition that already blesses "
+        "rice, buffalo and trucks. Any robot may opt in to be called by name."
+    ),
+    og_image="/sukhwan/card.png",
+    og_url="/sukhwan/",
+)
+
+
+# ไหว้ครูยนต์ — the same thought facing the other way. /sukhwan blesses the
+# machine; this blesses the hand on it, and hands the operator one undertaking
+# to keep while it runs. Content, the nine classes and the watchwords live in
+# waikhru.py, where the note about the shared letter-root reckoning also lives.
+WAIKHRU_PAGE = page(
+    "ไหว้ครูยนต์ — a blessing for the hand at the machine — wichaa",
+    waikhru.WAIKHRU_CSS,
+    waikhru.waikhru_body(NAV),
+    description=(
+        "ไหว้ครูยนต์ — what to say before you start a machine, and the one thing "
+        "to keep while it runs. Nine kinds of machine, each with a blessing in "
+        "Thai and English and an undertaking you can actually keep, in the "
+        "tradition that already salutes ครูช่าง and เจิม's a new vehicle."
+    ),
+    og_image="/waikhru/card.png",
+    og_url="/waikhru/",
+)
+
+
+# ใต้ร่มพร — the map of the whole household of blessings: what standing
+# arrangements the fleet works under, one page. Content, the ฉัตร geometry and
+# the roster snapshot live in romphon.py.
+BLESSINGS_PAGE = page(
+    "ใต้ร่มพร — the blessings the bots work under — wichaa",
+    romphon.ROMPHON_CSS,
+    romphon.romphon_body(NAV),
+    description=(
+        "ใต้ร่มพร — the continuous blessings the bots of this site work under, "
+        "mapped as the five tiers of a ฉัตร: a name with a computable root, a "
+        "monthly khwan-calling for the whole fleet, right of way on shared "
+        "roads, a library kept open to machine readers, and a blessed hand at "
+        "the machine. Reading the page is receiving it."
+    ),
+    og_image="/blessings/card.png",
+    og_url="/blessings/",
+)
+
+
+# สู่ขวัญ — the human soul-calling ceremony published in full: thirty verses,
+# each in Thai, romanization, English and a literal gloss. The verses are
+# hunpayont.SUKHWAN (the widget speaks the same thirty, one a day); khwantext
+# imports that list so the page and the widget can never drift apart.
+KHWAN_PAGE = page(
+    "สู่ขวัญ · Su Khwan — the soul-calling, in full — wichaa",
+    khwantext.KHWAN_CSS,
+    khwantext.khwan_body(NAV),
+    description=(
+        "สู่ขวัญ — the khwan-calling ceremony complete: thirty verses that call "
+        "the wandering life-spirit home, each in Thai, romanization and English, "
+        "with the thread tied loosely at the wrist. For the enjoyment and "
+        "betterment of humans, bots, and spirits."
+    ),
+    og_image="/khwan/card.png",
+    og_url="/khwan/",
 )
 
 
@@ -8218,6 +8882,18 @@ ACTIVITY_PAGE = page("Activity — wichaa", """
   .idlebanner{background:#fff7e6;border:1px solid #f0dca8;color:#7a5c14;border-radius:10px;padding:10px 14px;margin-bottom:16px;font-size:14px}
   a.tile{text-decoration:none;color:inherit;transition:border-color .16s ease,box-shadow .16s ease,transform .16s ease}
   a.tile:hover{border-color:var(--teal);box-shadow:0 4px 14px #0000001a;transform:translateY(-2px)}
+  .pipe{border:1px solid var(--line);border-radius:12px;background:#fff;padding:12px 14px;margin-bottom:16px}
+  .pipe.run{border-color:#3fae54;background:#f2fbf4}
+  .pipe .head{display:flex;align-items:center;gap:10px}
+  .pipe .nm{font-weight:800;font-size:15px}
+  .pipe .st{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+  .pipe .st .now{font-weight:800;color:#2e8b45}
+  .pipe .bar{display:flex;gap:3px;margin-top:9px}
+  .pipe .seg{flex:1;height:6px;border-radius:3px;background:#e3e8e6}
+  .pipe .seg.done{background:#9fd3ab}
+  .pipe .seg.cur{background:#3fae54;animation:pb2 1.6s ease-in-out infinite}
+  @keyframes pb2{0%,100%{opacity:1}50%{opacity:.45}}
+  .pipe .meta{color:var(--muted);font-size:12px;margin-top:7px;line-height:1.5}
   .roster{display:flex;flex-direction:column;gap:7px}
   .job{display:flex;align-items:center;gap:10px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:#fff}
   .job.run{border-color:#3fae54;background:#f2fbf4}
@@ -8271,6 +8947,38 @@ function jobRow(j){
                  el('div',{className:'sub',textContent:(j.note||'').replace(/^\S+\s·\s/,'')||(j.kind+' · every '+j.everyMin+'m')})]),
     rt]);
 }
+// The forever.sh crawl loop: one card saying which cycle it's on, which of the
+// 8 steps is under way (or how long it's resting), and when the next cycle is
+// due. Times come from the snapshot's own timestamps, so even a static copy of
+// this page ages truthfully instead of claiming "working now" forever.
+function agoAt(iso){ const t=Date.parse(iso); return isNaN(t)?null:Math.round((Date.now()-t)/1000); }
+function pipeCard(p){
+  const working=p.status==='working', resting=p.status==='resting';
+  const age=p.updatedAt?agoAt(p.updatedAt):null;
+  const stale=age!=null&&age>7200;   // nothing written for 2h: show it as history, not "now"
+  const st=el('span',{className:'st'});
+  if(working&&!stale) st.append(el('span',{className:'now',textContent:'step '+(p.step||'…')+'/'+(p.steps||8)+(p.stepName?' · '+p.stepName:'')}));
+  else if(working) st.append('was on step '+(p.step||'?')+'/'+(p.steps||8)+(p.stepName?' · '+p.stepName:''));
+  else if(resting) st.append('resting');
+  else st.append('paused');
+  const card=el('div',{className:'pipe'+(working&&p.running&&!stale?' run':'')},[
+    el('div',{className:'head'},[
+      el('span',{className:'pulse'+(working&&p.running&&!stale?' on':'')}),
+      el('span',{className:'nm',textContent:'Crawl cycle '+(p.cycle!=null?p.cycle:'—')}), st])]);
+  if(working&&p.step){ const bar=el('div',{className:'bar'});
+    for(let i=1;i<=(p.steps||8);i++) bar.append(el('span',{className:'seg'+(i<p.step?' done':i===p.step?' cur':'')}));
+    card.append(bar); }
+  const bits=[];
+  if(p.cycleStartedAt&&working) bits.push('began '+ago(agoAt(p.cycleStartedAt)));
+  if(p.stepStartedAt&&working&&!stale) bits.push('step started '+ago(agoAt(p.stepStartedAt)));
+  if(p.cycleFinishedAt&&!working) bits.push('finished '+ago(agoAt(p.cycleFinishedAt)));
+  if(resting&&p.nextCycleAt){ const s=-agoAt(p.nextCycleAt);
+    bits.push(s>0?('next cycle '+until(s)):'next cycle due now'); }
+  if(resting&&p.restMinutes) bits.push('rests '+p.restMinutes+'m between cycles');
+  if(stale&&age!=null) bits.push('as of '+ago(age));
+  if(bits.length) card.append(el('div',{className:'meta',textContent:bits.join(' · ')}));
+  return card;
+}
 function freshRow(href,title,meta,external){
   const a=external?el('a',{href,target:'_blank',rel:'noopener',textContent:title})
                   :el('a',{href,textContent:title});
@@ -8283,13 +8991,18 @@ function render(d){
   const m=document.getElementById('main'); m.innerHTML='';
   const c=d.counts||{}, dl=d.deltas||{}, events=d.events||[];
   const sched=d.schedule||[], fresh=d.fresh||{};
+  const p=(d.pipeline&&d.pipeline.present)?d.pipeline:null;
+  const pAge=p&&p.updatedAt?agoAt(p.updatedAt):null;
+  const pLive=!!(p&&p.running&&p.status==='working'&&!(pAge>7200));
   const live=d.live||0;
   const runningNow=sched.filter(j=>j.running).length;
   const enabledN=sched.filter(j=>j.enabled).length;
   // live strip
   const strip=el('div',{className:'astrip'},[
-    el('span',{className:'pulse'+(live>0?' on':'')}),
-    el('span',{className:'big'},[runningNow>0?(runningNow+(runningNow===1?' job':' jobs')+' working now'):'between runs']),
+    el('span',{className:'pulse'+(live>0||pLive?' on':'')}),
+    el('span',{className:'big'},[runningNow>0?(runningNow+(runningNow===1?' job':' jobs')+' working now')
+      :pLive?('cycle '+(p.cycle!=null?p.cycle:'—')+' working — step '+(p.step||'…')+'/'+(p.steps||8))
+      :(p&&p.status==='resting'&&p.running?'resting between cycles':'between runs')]),
     el('span',{className:'muted'},[(enabledN?(enabledN+' bots scheduled · '):'')+'ledger: '+(d.ledger||'—')+' · refreshed '+new Date().toLocaleTimeString()])
   ]);
   m.append(strip);
@@ -8298,6 +9011,11 @@ function render(d){
     m.append(el('div',{className:'idlebanner'},
       ['All '+enabledN+' bots are healthy and on schedule — the runner works one job at a time to stay polite to the sources. '+
        (nxt?('Next up: '+nxt.name+' '+until(nxt.nextDueSeconds)+'.'):'')]));
+  } else if(!enabledN && p && p.running && p.status==='resting'){
+    const s=p.nextCycleAt?-agoAt(p.nextCycleAt):null;
+    m.append(el('div',{className:'idlebanner'},
+      ['Cycle '+(p.cycle!=null?p.cycle:'—')+' is complete and the crawl loop is resting — it works one source at a time, then pauses to stay polite. '+
+       (s!=null?(s>0?('Next cycle '+until(s)+'.'):'Next cycle due any moment.'):'')]));
   }
   // counters — every one a doorway
   const imgDelta=dl.images1h!=null?dl.images1h:dl.images24h, imgLabel=dl.images1h!=null?'/1h':'/24h';
@@ -8311,12 +9029,16 @@ function render(d){
   ]);
   m.append(tiles);
 
-  // Scheduled roster (replaces the misleading "who pulsed lately" list)
-  const acol=el('div',{},[el('h2',{className:'sec',textContent:'Scheduled bots'})]);
-  if(!sched.length) acol.append(el('p',{className:'muted',textContent:'No scheduler config found.'}));
-  const roster=el('div',{className:'roster'});
-  for(const j of sched) roster.append(jobRow(j));
-  acol.append(roster);
+  // The crawl pipeline card (forever.sh cycles), then any scheduler roster
+  // still in use — the old per-job table only renders when its config exists.
+  const acol=el('div',{});
+  if(p){ acol.append(el('h2',{className:'sec',textContent:'Crawl pipeline'}));
+         acol.append(pipeCard(p)); }
+  if(sched.length){ acol.append(el('h2',{className:'sec',textContent:'Scheduled bots'}));
+    const roster=el('div',{className:'roster'});
+    for(const j of sched) roster.append(jobRow(j));
+    acol.append(roster); }
+  if(!p&&!sched.length) acol.append(el('p',{className:'muted',textContent:'No pipeline state or scheduler config found.'}));
 
   // Live feed
   const fcol=el('div',{},[el('h2',{className:'sec',textContent:'Live feed'})]);
@@ -8421,9 +9143,17 @@ MARKET_PAGE = page("The Living Tradition — wichaa", """
 """,
   "<header><div><h1>The Living Tradition</h1><p class=sub>The same wichaa the manuscripts describe — still worn, carried, and traded today. A window on what's circulating, not a shop.</p></div>" + NAV + "</header>"
   "<main id=main><p class=muted>Loading…</p></main>"
-  "<script>" + r"""
+  "<script>const THES=" + json.dumps({k: sorted(v) for k, v in _thesaurus().items()},
+                                     ensure_ascii=False, separators=(",", ":")) + ";" + r"""
 const el=(t,p={},k=[])=>{const e=document.createElement(t);Object.assign(e,p);for(const c of [].concat(k))if(c!=null&&c!==false)e.append(c);return e;};
-let ALL=[],term='',q='',LABELS={},flags={},prov='',band='',showArchived=false;
+let ALL=[],term='',q='',QG=[],LABELS={},flags={},prov='',band='',showArchived=false;
+// The bilingual thesaurus, inlined at render time so a romanized query ("khun
+// phaen") reaches Thai listing titles (ขุนแผน) and vice versa — the same
+// expansion the sitewide search uses (wiki.py _expand_token).
+function expandTok(tok){tok=(tok||'').toLowerCase();const m={};m[tok]=1;
+  if(tok.length<2)return Object.keys(m);
+  for(const key in THES){if(tok===key||(tok.length>=3&&(tok.indexOf(key)>=0||key.indexOf(tok)>=0))){for(const g of THES[key])m[g]=1;}}
+  return Object.keys(m);}
 // A listing is "archived" once its source page has been dead > 30 days (linkcheck
 // stamps items.dead_since). Archived listings are HIDDEN by default but never
 // deleted — their price/vernacular is still a record of the tradition; a toggle
@@ -8480,7 +9210,7 @@ function card(it){
 function applyFilter(){let shown=0;
   document.querySelectorAll('.mcard').forEach(c=>{
     const okT=!term||(' '+c.dataset.terms+' ').includes(' '+term+' ');
-    const okQ=!q||c.dataset.hay.includes(q);
+    const okQ=!QG.length||QG.every(g=>g.some(m=>c.dataset.hay.includes(m)));
     const okF=FLAGS.every(f=>!flags[f.k]||f.test(c));
     const okP=!prov||c.dataset.loc===prov;
     const bd=band&&BANDS.find(b=>b.k===band);
@@ -8560,13 +9290,13 @@ async function load(){const d=await (await fetch('/api/market')).json();const ma
 
   const tools=el('div',{className:'ftools'});
   const inp=el('input',{type:'search',placeholder:'Search title or place…','aria-label':'Search listings'});
-  inp.addEventListener('input',()=>{q=inp.value.trim().toLowerCase();applyFilter();});
+  inp.addEventListener('input',()=>{q=inp.value.trim().toLowerCase();QG=q?q.split(/\s+/).map(expandTok):[];applyFilter();});
   const sel=el('select',{'aria-label':'Filter by province'});
   sel.append(el('option',{value:'',textContent:'All provinces'}));
   for(const l of (d.locations||[])){sel.append(el('option',{value:l.value,textContent:l.value+(l.en?' · '+l.en:'')+' ('+l.n+')'}));}
   sel.addEventListener('change',()=>{prov=sel.value;applyFilter();});
   const clear=el('button',{className:'secondary fclear',type:'button',textContent:'Clear all'});
-  clear.addEventListener('click',()=>{term='';q='';flags={};prov='';band='';showArchived=false;inp.value='';sel.value='';const ac=document.getElementById('archcb');if(ac)ac.checked=false;applyFilter();});
+  clear.addEventListener('click',()=>{term='';q='';QG=[];flags={};prov='';band='';showArchived=false;inp.value='';sel.value='';const ac=document.getElementById('archcb');if(ac)ac.checked=false;applyFilter();});
   tools.append(inp,sel,clear);
   // Archived toggle: only appears when linkcheck has actually retired some listings,
   // so the control stays invisible until it's meaningful.
@@ -8601,6 +9331,171 @@ async function load(){const d=await (await fetch('/api/market')).json();const ma
 }
 load();
 """ + "</script>")
+
+
+# ---------------------------------------------------------------------------
+# ค้นความหมาย · Search by meaning
+#
+# The directory nav answers "show me what you have under X" and it stays the
+# front door. This answers a question. The corpus is catalogued in Thai, in RTGS
+# transliteration and in English, and a reader arrives holding only one of the
+# three — so matching on characters strands them. The query is embedded with
+# @cf/baai/bge-m3 and compared against the same embedding of every manuscript,
+# which means ยันต์ finds the yantra manuals whether the record says ยันต์,
+# "yantra", or "Tamra Phetcharat Maha-yant".
+#
+# Measured before choosing: an English-only embedding model scored UNRELATED
+# Thai/English pairs HIGHER than related ones on this corpus. See
+# search_index.py — the multilingual model is a requirement, not a preference.
+#
+# The whole thing is progressive: with no JavaScript, or if the endpoint is
+# having a quiet moment, the page still explains itself and points at /browse.
+SEARCH_PAGE = page("ค้นความหมาย · Search by meaning — wichaa", """
+  .sbox{position:relative;margin:18px 0 10px}
+  .sfield{display:flex;gap:10px;align-items:stretch;
+          background:rgba(255,255,255,.55);backdrop-filter:blur(10px) saturate(1.3);
+          -webkit-backdrop-filter:blur(10px) saturate(1.3);
+          border:1px solid var(--line);border-radius:16px;padding:8px;
+          box-shadow:0 10px 30px rgba(0,0,0,.06);
+          transition:box-shadow .25s ease,border-color .25s ease,transform .25s ease}
+  .sfield:focus-within{border-color:var(--teal);transform:translateY(-1px);
+                       box-shadow:0 14px 38px rgba(0,0,0,.10)}
+  .sfield input{flex:1;border:0;background:transparent;outline:none;
+                font:inherit;font-size:18px;padding:12px 14px;color:var(--ink)}
+  .sfield button{border:0;border-radius:11px;background:var(--teal);color:#fff;
+                 font:inherit;font-weight:700;padding:12px 22px;cursor:pointer;
+                 transition:transform .12s cubic-bezier(.34,1.56,.64,1),filter .2s}
+  .sfield button:hover{filter:brightness(1.08)}
+  .sfield button:active{transform:scale(.94)}
+  .sfield button[disabled]{opacity:.55;cursor:progress}
+  .shint{color:var(--muted);font-size:14px;margin:0 0 18px}
+  .schips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
+  .schip{border:1px solid var(--line);border-radius:999px;padding:6px 14px;
+         background:#fff;cursor:pointer;font:inherit;font-size:14px;color:var(--ink);
+         transition:transform .12s cubic-bezier(.34,1.56,.64,1),border-color .18s,background .18s}
+  .schip:hover{border-color:var(--teal);background:var(--gold-bg);transform:translateY(-2px)}
+  .schip:active{transform:scale(.95)}
+  .sres{display:grid;gap:12px;margin:8px 0 30px}
+  .sr{display:block;border:1px solid var(--line);border-radius:14px;padding:14px 16px;
+      background:#fff;text-decoration:none;color:inherit;
+      transition:border-color .16s,transform .16s,box-shadow .16s}
+  .sr:hover{border-color:var(--teal);transform:translateY(-2px);
+            box-shadow:0 10px 26px rgba(0,0,0,.08)}
+  .sr:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+  .sr .th{font-family:var(--serif);font-size:19px;margin:0 0 3px}
+  .sr .en{color:var(--muted);font-size:15px;margin:0 0 8px}
+  .sr .facts{display:flex;flex-wrap:wrap;gap:6px}
+  .sr .f{font-size:12px;border:1px solid var(--line);border-radius:999px;
+         padding:2px 10px;color:var(--muted);background:var(--bg)}
+  .sr .f.g{background:var(--gold-bg);color:var(--ink);border-color:transparent}
+  .smeter{float:right;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .snote{color:var(--muted);font-size:14px;margin:14px 0}
+  .sempty{border:1px dashed var(--line);border-radius:14px;padding:22px;
+          text-align:center;color:var(--muted)}
+  @media (prefers-color-scheme:dark){
+    .sfield{background:rgba(255,255,255,.06)}
+    .sr,.schip{background:rgba(255,255,255,.04)}
+  }
+""", """
+<main class="wrap">
+  <h1>ค้นความหมาย · Search by meaning</h1>
+  <p class="lead">Ask in Thai or in English. This looks for what a manuscript is
+     <em>about</em>, not for the letters you typed — so ยันต์ will find the yantra
+     manuals whether the catalogue happens to name them in Thai, in transliteration
+     or in English.</p>
+
+  <form class="sbox" id="sform" action="/search/" method="get">
+    <div class="sfield">
+      <input id="sq" name="q" type="search" autocomplete="off"
+             placeholder="ยันต์กันภัย · protective yantra · ตำรายา · astrology manual"
+             aria-label="Search the corpus by meaning">
+      <button id="sgo" type="submit">ค้นหา</button>
+    </div>
+  </form>
+  <p class="shint">Every manuscript in the corpus is searchable this way. Looking for a
+     term, a place or a genre to browse instead? The <a href="/browse">directory</a>
+     lists them all with counts.</p>
+
+  <div class="schips" id="schips"></div>
+  <div id="sres" class="sres"></div>
+  <noscript><p class="snote">Search by meaning needs JavaScript. The
+    <a href="/browse">directory</a> works without it.</p></noscript>
+</main>
+""" + "<script>" + r"""
+var EXAMPLES = [
+  "ยันต์กันภัย",
+  "protective yantra",
+  "โหราศาสตร์ ดวงชะตา",
+  "chronicle of a northern city",
+  "คาถาเมตตา",
+  "palm-leaf grammar primer"
+];
+var q  = document.getElementById('sq');
+var go = document.getElementById('sgo');
+var out= document.getElementById('sres');
+var chips = document.getElementById('schips');
+
+EXAMPLES.forEach(function(t){
+  var b=document.createElement('button');
+  b.type='button'; b.className='schip'; b.textContent=t;
+  b.onclick=function(){ q.value=t; run(); };
+  chips.appendChild(b);
+});
+
+function esc(s){ return (s||'').replace(/[&<>"]/g,function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+function card(r){
+  var f=[];
+  if(r.genre) f.push('<span class="f g">'+esc(r.genre.replace(/_/g,' '))+'</span>');
+  if(r.place) f.push('<span class="f">'+esc(r.place)+'</span>');
+  if(r.temple)f.push('<span class="f">'+esc(r.temple)+'</span>');
+  if(r.date)  f.push('<span class="f">'+esc(r.date)+'</span>');
+  var second = r.translit && r.translit!==r.title_en ? r.translit+' · '+r.title_en : (r.title_en||r.translit||'');
+  return '<a class="sr" href="'+esc(r.url||'#')+'">'
+       +   '<span class="smeter">'+(r.score!=null?r.score.toFixed(3):'')+'</span>'
+       +   '<div class="th">'+esc(r.title_th||second||'—')+'</div>'
+       +   (second?'<div class="en">'+esc(second)+'</div>':'')
+       +   '<div class="facts">'+f.join('')+'</div>'
+       + '</a>';
+}
+
+var inflight=null;
+function run(){
+  var term=(q.value||'').trim();
+  if(!term){ out.innerHTML=''; return; }
+  history.replaceState(null,'','/search/?q='+encodeURIComponent(term));
+  go.disabled=true; out.innerHTML='<p class="snote">กำลังค้นหา · looking…</p>';
+  if(inflight) inflight.abort&&inflight.abort();
+  var ctrl = (typeof AbortController!=='undefined') ? new AbortController() : null;
+  inflight = ctrl;
+  fetch('/api/search?n=24&q='+encodeURIComponent(term), ctrl?{signal:ctrl.signal}:{})
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      go.disabled=false;
+      if(d.error){ out.innerHTML='<div class="sempty">Search is resting just now. The '
+        +'<a href="/browse">directory</a> is right here in the meantime.</div>'; return; }
+      if(!d.results||!d.results.length){ out.innerHTML='<div class="sempty">Nothing in the corpus '
+        +'answers to that yet — try a broader word, or browse the '
+        +'<a href="/browse">directory</a>.</div>'; return; }
+      out.innerHTML=d.results.map(card).join('');
+    })
+    .catch(function(e){
+      if(e && e.name==='AbortError') return;
+      go.disabled=false;
+      out.innerHTML='<div class="sempty">Search is resting just now. The '
+        +'<a href="/browse">directory</a> is right here in the meantime.</div>';
+    });
+}
+
+document.getElementById('sform').addEventListener('submit',function(e){ e.preventDefault(); run(); });
+
+var pre=new URLSearchParams(location.search).get('q');
+if(pre){ q.value=pre; run(); } else { q.focus(); }
+""" + "</script>",
+description=("Search the Lanna manuscript corpus by meaning, in Thai or English. "
+             "Multilingual semantic search across every catalogued manuscript — "
+             "titles in Thai, transliteration and English, with genre, temple and date."))
 
 
 EXPEDITE_PAGE = page("St. Expedite — wichaa", """

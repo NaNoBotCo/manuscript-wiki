@@ -28,13 +28,17 @@ it (root site  nanobotco.github.io ) and the whole viewer works, read-only, offl
 Nothing is uploaded. Publishing is a separate, deliberate step (see refresh_site.sh).
 """
 import argparse
+import atexit
 import html
 import json
 import os
 import re
 import shutil
+import signal
+import subprocess
 import sys
 import tempfile
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -55,6 +59,7 @@ os.environ.setdefault("CATALOG_DB", str(_default_db))
 os.environ.setdefault("STORE_DIR", str(Path(os.environ["CATALOG_DB"]).parent / "store"))
 
 import wiki  # noqa: E402  (env must be set first)
+import hotrai  # noqa: E402  — หอไตร: writes the machine-facing library files
 import cartography  # noqa: E402
 import manuscript_pages  # noqa: E402
 import article_pages  # noqa: E402
@@ -217,7 +222,15 @@ SHIM = r"""<script>
       if(src==='scan-index') return _fetch(S('/api/gallery.scan-index.json'), {});
       return _fetch(S('/api/gallery.json'), {});
     }
-    if(p==='/pimg') return _fetch(S('/pimg/'+sp.get('mid')+'/'+sp.get('n')+'.png'), {});
+    // baked pimg files are EITHER .png (stored plate) or .jpg (on-demand render) —
+    // the shim has no way to know which without a filesystem stat, so try .png
+    // first and fall back to .jpg on a miss.
+    if(p==='/pimg'){
+      var pmid=sp.get('mid'), pn=sp.get('n');
+      return _fetch(S('/pimg/'+pmid+'/'+pn+'.png'), {}).then(function(r){
+        return r.ok ? r : _fetch(S('/pimg/'+pmid+'/'+pn+'.jpg'), {});
+      });
+    }
     return _fetch(input, init);
   };
 
@@ -256,7 +269,13 @@ SHIM = r"""<script>
           var u=new URL(v, location.origin);
           if(u.origin===location.origin){
             if(u.pathname==='/pimg'){
-              v=S('/pimg/'+u.searchParams.get('mid')+'/'+u.searchParams.get('n')+'.png');
+              // same png-vs-jpg ambiguity as the fetch shim above; try .png and
+              // fall back to .jpg on load error (onerror fires at most once).
+              var pmid=u.searchParams.get('mid'), pn=u.searchParams.get('n');
+              var jpgFallback=S('/pimg/'+pmid+'/'+pn+'.jpg');
+              var imgEl=this;
+              imgEl.onerror=function(){ imgEl.onerror=null; imgEl.src=jpgFallback; };
+              v=S('/pimg/'+pmid+'/'+pn+'.png');
             } else if(u.pathname==='/img'){
               var sha=u.searchParams.get('sha');
               var w=parseInt(u.searchParams.get('w')||'0',10)||0;
@@ -351,6 +370,204 @@ def write_json(path, obj):
     write_text(path, json.dumps(obj, ensure_ascii=False))
 
 
+# ---------------------------------------------------------------------------
+# PUBLISH LOCK — one build at a time, no matter who starts it.
+#
+# main() WIPES --out before repopulating it, so two overlapping builds destroy
+# each other's work. publish_site.sh has guarded itself with an atomic-mkdir
+# lock for a while — but the guard lived in the SHELL, so running this file
+# directly (`python3 build_static.py --out …/nanobotco-lanna/docs --base /`,
+# an entirely normal thing to do by hand or from another session) took no lock
+# at all. On 2026-08-09 exactly that happened: a direct build wiped docs/ out
+# from under a publish that was mid-run, which then died in the privacy scan
+# at the end of main() with
+#     FileNotFoundError: [Errno 2] … /nanobotco-lanna/docs/divination
+# The guard belongs HERE, next to the wipe, where every caller passes.
+#
+# Same lock directory and the same semantics as publish_site.sh (atomic mkdir,
+# PID file inside, stale-lock reclaim when the recorded holder is gone) so the
+# shell and the Python interoperate rather than deadlock. `${TMPDIR:-/tmp}` and
+# the Path below resolve to the same directory — TMPDIR's trailing slash just
+# collapses.
+LOCK_DIR = Path(os.environ.get("TMPDIR") or "/tmp") / "lanna-publish.lock"
+
+# publish_site.sh ALREADY holds the lock when it invokes this script, so we must
+# not block on our own ancestor's lock — that would wedge every publish forever.
+# Two independent ways out, either of which makes acquisition re-entrant:
+#   1. the holder exports LANNA_PUBLISH_LOCK_HELD=<its pid> (publish_site.sh does),
+#   2. the recorded holder PID turns out to be one of our forebears.
+# (2) is the safety net: an old or hand-restored publish_site.sh that never
+# learned to export anything still works, it just takes the ancestor path.
+LOCK_HELD_ENV = "LANNA_PUBLISH_LOCK_HELD"
+
+
+class PublishLockBusy(RuntimeError):
+    """Another build/publish holds the lock and we were told not to wait."""
+
+
+def _lock_holder():
+    """PID recorded inside the lock, or None if absent/unreadable."""
+    try:
+        return int((LOCK_DIR / "pid").read_text().strip())
+    except Exception:
+        return None
+
+
+def _pid_alive(pid):
+    try:
+        os.kill(pid, 0)
+    except ProcessLookupError:
+        return False
+    except PermissionError:
+        return True          # alive, just owned by another user
+    except Exception:
+        return True          # unsure → assume alive; never reclaim on a guess
+    return True
+
+
+def _is_ancestor(pid, max_depth=40):
+    """True if `pid` is this process or one of the processes we run under."""
+    cur = os.getpid()
+    for _ in range(max_depth):
+        if cur == pid:
+            return True
+        if cur <= 1:
+            return False
+        try:
+            r = subprocess.run(["ps", "-o", "ppid=", "-p", str(cur)],
+                               capture_output=True, text=True, timeout=5)
+            cur = int(r.stdout.strip())
+        except Exception:
+            return False
+    return False
+
+
+def _reentrant_holder(holder):
+    """Why the existing lock is really ours (a string), or None if it is not."""
+    if holder is None:
+        return None
+    declared = (os.environ.get(LOCK_HELD_ENV) or "").strip()
+    if declared.isdigit() and int(declared) == holder:
+        return f"our caller (pid {holder}, {LOCK_HELD_ENV})"
+    if _is_ancestor(holder):
+        return f"an ancestor process (pid {holder})"
+    if declared:
+        # Set to something that is not the holder's PID — a deliberate override
+        # by some wrapper. Honour it, but say so: a stale export left in a shell
+        # would otherwise silently disable the guard.
+        print(f"  ! {LOCK_HELD_ENV}={declared!r} is not the lock holder's pid "
+              f"({holder}) — trusting it anyway and building without the lock",
+              file=sys.stderr)
+        return f"{LOCK_HELD_ENV}={declared}"
+    return None
+
+
+def _install_lock_signal_handlers():
+    """Make SIGTERM/SIGHUP unwind so the atexit release actually runs — the
+    Python equivalent of publish_site.sh's `trap _release EXIT`."""
+    def _bail(signum, _frame):
+        raise SystemExit(128 + signum)
+    for sig in (signal.SIGINT, signal.SIGTERM, signal.SIGHUP):
+        try:
+            signal.signal(sig, _bail)
+        except (ValueError, OSError):
+            pass             # not the main thread, or platform says no
+
+
+def release_publish_lock():
+    """Drop the lock, but only if it is still ours."""
+    if _lock_holder() == os.getpid():
+        shutil.rmtree(LOCK_DIR, ignore_errors=True)
+
+
+def acquire_publish_lock(wait=0.0):
+    """Take the publish lock.
+
+    Returns True when we now own it (release is wired to process exit), or
+    False when a process we are running under already holds it — nothing to
+    acquire and, crucially, nothing for us to release.
+
+    Raises PublishLockBusy if someone else holds it and `wait` seconds elapse.
+    """
+    deadline = time.monotonic() + max(0.0, wait)
+    empty_since = None
+    announced = False
+    while True:
+        try:
+            LOCK_DIR.mkdir(parents=True)
+        except FileExistsError:
+            pass
+        else:
+            (LOCK_DIR / "pid").write_text(f"{os.getpid()}\n")
+            atexit.register(release_publish_lock)
+            _install_lock_signal_handlers()
+            return True
+
+        holder = _lock_holder()
+        mine = _reentrant_holder(holder)
+        if mine:
+            print(f"  publish lock already held by {mine} — continuing (re-entrant)")
+            return False
+
+        if holder is None:
+            # Either a crash between mkdir and the pid write, or a competitor
+            # that is a few milliseconds from writing its pid. Give it a grace
+            # period rather than snatching a lock that is being claimed.
+            now = time.monotonic()
+            if empty_since is None:
+                empty_since = now
+            if now - empty_since < 5.0:
+                time.sleep(0.2)
+                continue
+            print("  [lock] reclaiming lock with no pid file (never claimed)",
+                  file=sys.stderr)
+            _reclaim_stale()
+            empty_since = None
+            continue
+        empty_since = None
+
+        if not _pid_alive(holder):
+            print(f"  [lock] reclaiming stale lock (holder pid {holder} is gone)",
+                  file=sys.stderr)
+            _reclaim_stale()
+            continue
+
+        if time.monotonic() >= deadline:
+            raise PublishLockBusy(
+                f"another build or publish (pid {holder}) is running and holds "
+                f"{LOCK_DIR}.\n"
+                f"  Refusing to start: this build would wipe the output directory "
+                f"out from under it.\n"
+                f"  Wait for it to finish, or re-run with --lock-wait 900 to queue "
+                f"behind it.\n"
+                f"  For a throwaway build to a scratch folder, --no-lock skips the "
+                f"guard entirely.")
+
+        if not announced:
+            print(f"  [lock] another build/publish (pid {holder}) is running — "
+                  f"waiting up to {wait:.0f}s…", file=sys.stderr)
+            announced = True
+        time.sleep(2)
+
+
+def _reclaim_stale():
+    """Rename the dead lock aside, then delete it.
+
+    Rename is atomic, so if two builds decide to reclaim at the same instant
+    only one of them moves the directory and the other simply loops — whereas
+    two plain rm -rf's can delete the fresh lock the winner just created.
+    (A holder that dies in the microsecond between our liveness check and this
+    rename can still be raced; that window is the same one publish_site.sh has
+    always had, and it needs a crash to open at all.)
+    """
+    aside = LOCK_DIR.with_name(LOCK_DIR.name + f".stale.{os.getpid()}")
+    try:
+        os.rename(LOCK_DIR, aside)
+    except OSError:
+        return               # someone else got there first — just loop
+    shutil.rmtree(aside, ignore_errors=True)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -359,6 +576,12 @@ def main():
     ap.add_argument("--base", default="/",
                     help="URL path the site is served under. Root site: '/'. "
                          "GitHub project repo (e.g. NaNoBotCo/Lanna): '/Lanna/'.")
+    ap.add_argument("--lock-wait", type=float, default=0.0, metavar="SECONDS",
+                    help="if another build/publish holds the lock, wait this long "
+                         "for it instead of failing straight away (default: 0)")
+    ap.add_argument("--no-lock", action="store_true",
+                    help="build without taking the publish lock. Only for a "
+                         "throwaway --out that no publish touches.")
     args = ap.parse_args()
     base = "/" + args.base.strip("/") + "/"
     if base == "//":
@@ -374,6 +597,19 @@ def main():
               f"Point --out at a 'docs' subfolder of the repo, not the repo root.",
               file=sys.stderr)
         return 1
+
+    # Everything below this line mutates `out`, starting with a wipe. Take the
+    # publish lock first, so a second build refuses to start rather than pulling
+    # the tree out from under one already in flight (see LOCK_DIR above).
+    if args.no_lock:
+        print("  ! --no-lock: building without the publish lock")
+    else:
+        try:
+            acquire_publish_lock(wait=args.lock_wait)
+        except PublishLockBusy as exc:
+            print(f"\nERROR: {exc}", file=sys.stderr)
+            return 4          # same code publish_site.sh uses for lock contention
+
     # THE WIPE MUST SPARE WHAT NO GENERATOR OWNS.
     #
     # PAGE_SPECS below is hand-maintained and builds 22 pages; routes.py declares
@@ -434,6 +670,7 @@ def main():
     PAGE_SPECS = {
         "index.html":            (wiki.OVERVIEW_PAGE, "Overview", "section"),
         "browse/index.html":     (wiki.INDEX_PAGE, "Browse manuscripts", "section"),
+        "search/index.html":     (wiki.SEARCH_PAGE, "Search by meaning", "section"),
         "m/index.html":          (wiki.DETAIL_PAGE, "Manuscript detail", "template"),
         "status/index.html":     (wiki.STATUS_PAGE, "Status", "section"),
         "a/index.html":          (wiki.ARTICLE_PAGE, "Article", "template"),
@@ -448,10 +685,27 @@ def main():
         "support/index.html":    (wiki.SUPPORT_PAGE, "Support", "section"),
         "diagrams/index.html":   (wiki.DIAGRAMS_PAGE, "Diagrams", "section"),
         "moon/index.html":       (wiki.MOON_PAGE, "The moon complication", "section"),
+        "khwan/index.html":      (wiki.KHWAN_PAGE, "Su Khwan — the calling", "section"),
         # /widgets — small standalone tools. Deliberately NOT part of the corpus
         # taxonomy: they are utilities, and folding them into the archive's facets
         # would muddy both. Add one by appending to wiki.WIDGETS.
         "widgets/index.html":    (wiki.SIDE_TOOLS_PAGE, "Widgets & shit", "section"),
+        # /sukhwan — สู่ขวัญยนต์, the khwan-calling rite for machines and robots.
+        # A /widgets side tool (see its SIDE_TOOLS entry); robot opt-in goes
+        # through the su-khwan Worker, the page itself is fully static.
+        "sukhwan/index.html":    (wiki.SUKHWAN_PAGE, "Su khwan for machines & robots", "utility"),
+        # /hotrai — หอไตร, the wat library addressed to machines. This entry writes
+        # only the human courtesy page; the library proper (entry.txt, all.txt,
+        # t/*.txt, t/*.json, api/hotrai.json) is written by hotrai.write_library()
+        # further down, and verify_build guards both halves.
+        "hotrai/index.html":     (wiki.HOTRAI_PAGE, "หอไตร — the ho trai", "section"),
+        # /waikhru — ไหว้ครูยนต์, the blessing for the hand at the machine. The
+        # human-facing twin of /sukhwan; fully static, nothing typed on it ever
+        # leaves the reader's device.
+        "waikhru/index.html":    (wiki.WAIKHRU_PAGE, "ไหว้ครูยนต์ — a blessing at the machine", "section"),
+        # /blessings — ใต้ร่มพร, the map of the household: the standing blessings
+        # the fleet works under, one page, fully static, reading is receiving.
+        "blessings/index.html":  (wiki.BLESSINGS_PAGE, "ใต้ร่มพร — the blessings the bots work under", "section"),
         "findings/index.html":   (wiki.FINDINGS_PAGE, "Discoveries", "section"),
         # activity/ is a STATIC SNAPSHOT (as-of-build state), not a live dashboard —
         # matches this whole export's "consistent, not live" design (see the docstring
@@ -514,6 +768,16 @@ def main():
     write_json(api / "img-iiif.json", iiif_map)
     print(f"  · core APIs  (+{len(iiif_map)} IIIF image URLs)")
 
+    # หอไตร — the library itself. The /hotrai HTML page above is the courtesy copy
+    # for humans; these are the files a machine reads. Same writers as everything
+    # else here, so the manifest and encoding stay consistent.
+    _ht = hotrai.write_library(out, write_text=write_text, write_json=write_json)
+    _sweep = _ht["sweep"]
+    print(f"  · ho trai  ({_ht['texts']} texts, {_sweep['verified']}/"
+          f"{_sweep['texts']} verified"
+          + (f", FAULTS: {', '.join(_sweep['faults'])}" if _sweep["faults"] else "")
+          + ")")
+
     # 2b. Analysis widgets (/w/ index + /w/<name> pages + /api/w/<name> data) ------
     # The live wiki serves these dynamically; the static export never wrote them, so
     # the "Widgets" nav item and every shareable /w/<name> link 404'd on wichaa.net.
@@ -543,7 +807,78 @@ def main():
     # is gone (see NAV in wiki.py), the map/prices/regions story now lives on /market.
     print(f"  · widgets  ({len(STATIC_WIDGETS)} pages under /w/)")
 
+    # Both the reader (/read/<id>/) and the manuscript detail page (/m/<id>/, for a
+    # digested-but-untranscribed volume's page gallery) interleave original scans as
+    # <img src='/pimg?mid=&n=&w='>. A static host can't run that on-demand route, so
+    # bake each referenced image to a real file: an already-stored plate PNG is
+    # copied whole; any other page is rendered from the source PDF via
+    # wiki.render_pdf_page's JPEG cache (grayscale, ~60–120KB/page). One factory, two
+    # independent stats counters — reader_page() emits single-quoted attrs,
+    # manuscript_pages.py emits double-quoted, so the regex accepts either.
+    def _make_image_baker():
+        stats = {"copied": 0, "rendered": 0, "missing": 0}
+        pimg_ref = re.compile(r"src=(['\"])/pimg\?mid=(\d+)&amp;n=(\d+)(?:&amp;w=(\d+))?\1")
+
+        def bake(html_text):
+            def repl(mm):
+                q = mm.group(1)
+                mid_, n_ = int(mm.group(2)), int(mm.group(3))
+                w_ = int(mm.group(4) or 1000)
+                plate = wiki.page_image_path(mid_, n_)
+                if plate:
+                    dst = out / "pimg" / str(mid_) / f"{n_}.png"
+                    if not dst.exists():
+                        dst.parent.mkdir(parents=True, exist_ok=True)
+                        shutil.copyfile(plate, dst)
+                    stats["copied"] += 1
+                    return f"src={q}{base}pimg/{mid_}/{n_}.png{q}"
+                r = wiki.render_pdf_page(mid_, n_, w_)
+                if r:
+                    dst = out / "pimg" / str(mid_) / f"{n_}.jpg"
+                    if not dst.exists():
+                        dst.parent.mkdir(parents=True, exist_ok=True)
+                        dst.write_bytes(r[0])
+                    stats["rendered"] += 1
+                    return f"src={q}{base}pimg/{mid_}/{n_}.jpg{q}"
+                stats["missing"] += 1
+                return mm.group(0)   # leave the live URL; better a 404 than a lie
+            return pimg_ref.sub(repl, html_text)
+
+        return bake, stats
+
+    _bake_gallery_images, _gallery_stats = _make_image_baker()
+    _bake_reader_images, _reader_stats = _make_image_baker()
+
     # 3. per-manuscript detail (raw scans not bundled → hasLocal forced False) ----
+    # ---- slug registry (data/slugs_manuscripts.json, minted once by
+    # scripts/mint_manuscript_slugs.py, frozen thereafter). The canonical page
+    # for a manuscript/reader lives at <slug>-<id>/; the numeric legacy path
+    # gets a meta-refresh stub so every old bookmark/Wayback capture still
+    # lands. A missing registry (or row) degrades to the numeric path.
+    _slug_reg = {}
+    _slug_file = HERE / "data" / "slugs_manuscripts.json"
+    if _slug_file.exists():
+        _slug_reg = json.loads(_slug_file.read_text())
+
+    def mpath(mid):
+        s = _slug_reg.get(str(mid))
+        return f"{s}-{mid}" if s else str(mid)
+
+    _STUB = ("<!doctype html><meta charset=utf-8><title>{t}</title>"
+             '<link rel=canonical href="{u}">'
+             '<meta http-equiv=refresh content="0; url={u}">'
+             '<meta name=robots content="noindex,follow">'
+             '<p>Moved to <a href="{u}">{t}</a>.</p>')
+
+    def write_stub(old_dir, new_url, label):
+        # canonical should be ABSOLUTE when the site origin is known — a
+        # path-relative canonical is legal but weaker for crawlers
+        _site = (wiki.SITE_URL or "").rstrip("/")
+        if _site and new_url.startswith("/"):
+            new_url = _site + new_url
+        write_text(old_dir / "index.html",
+                   _STUB.format(t=html.escape(label or ""), u=new_url))
+
     ms_ids = [r["id"] for r in wiki.all_manuscripts()]
     reader_ids = []  # manuscripts with ≥1 transcribed page — get a static /read export
     # Knowledge graph, built once — feeds each manuscript's "threads" (named lateral
@@ -566,13 +901,24 @@ def main():
 
         # 3a. /m/<id>/ — a real, server-rendered, indexable page per manuscript (Phase
         # F, decision 6 in manuscript_pages.py). /m?id=<id> stays the interactive SPA;
-        # this is the door search engines and share-unfurlers actually see.
+        # this is the door search engines and share-unfurlers actually see. A digested
+        # (but not yet transcribed) contributed volume's page_html() includes a page
+        # gallery — bake those scans too, the same way the reader's are baked below.
         det["threads"] = cartography.threads_for(g, f"ms:{mid}")
-        write_text(out / "m" / str(mid) / "index.html",
-                   inject(manuscript_pages.page_html(det, wiki, base), base))
-        manifest.append({"route": f"m/{mid}/",
+        mdir = mpath(mid)
+        write_text(out / "m" / mdir / "index.html",
+                   _bake_gallery_images(inject(
+                       manuscript_pages.page_html(det, wiki, base, path=f"m/{mdir}/"),
+                       base)))
+        if mdir != str(mid):
+            # legacy numeric path: instant meta-refresh stub, canonical forward
+            write_stub(out / "m" / str(mid), f"{base}m/{mdir}/",
+                       det.get("title") or f"Manuscript {mid}")
+        manifest.append({"route": f"m/{mdir}/",
                           "label": det.get("title") or f"Manuscript {mid}", "kind": "entity"})
-    print(f"  · {len(ms_ids)} manuscript details")
+    print(f"  · {len(ms_ids)} manuscript details — page-gallery scans: "
+          f"{_gallery_stats['copied']} plates copied, {_gallery_stats['rendered']} rendered"
+          + (f", {_gallery_stats['missing']} MISSING" if _gallery_stats["missing"] else ""))
 
     # 3b. bilingual reader pages (/read?id=N) — fully server-rendered (no client-side
     # fetch: the Thai/English text is baked straight into the HTML), so exporting it
@@ -581,29 +927,58 @@ def main():
     # route — so we ALSO patch the shim's click handler (below) to translate
     # /read?id=N clicks into this path.
     for mid in reader_ids:
-        write_text(out / "read" / str(mid) / "index.html",
-                   inject(wiki.reader_page(mid), base))
-    print(f"  · {len(reader_ids)} reader pages (/read)")
+        rdir = mpath(mid)   # a reader and its manuscript are one work, one slug
+        write_text(out / "read" / rdir / "index.html",
+                   _bake_reader_images(inject(wiki.reader_page(mid), base)))
+        if rdir != str(mid):
+            write_stub(out / "read" / str(mid), f"{base}read/{rdir}/",
+                       f"Reader — manuscript {mid}")
+    print(f"  · {len(reader_ids)} reader pages (/read) — scans: "
+          f"{_reader_stats['copied']} plates copied, {_reader_stats['rendered']} rendered"
+          + (f", {_reader_stats['missing']} MISSING" if _reader_stats["missing"] else ""))
 
     # 3c. Textbooks index — the 31 contributed (uploaded, not crawled) volumes are
     # otherwise buried among ~7,000 crawled manuscripts. One page making them
     # browsable as BOOKS: page count, how much is transcribed, a link to read.
-    _tb_rows = wiki.connect().execute(
+    _tb_conn = wiki.connect()
+    # work_title/work_desc are additive columns (crawler volume_blurbs.py) —
+    # curated bilingual working titles + a catalog note of what each book holds.
+    _tb_have_blurbs = any(r["name"] == "work_title" for r in
+                          _tb_conn.execute("PRAGMA table_info(manuscripts)"))
+    _tb_rows = _tb_conn.execute(
         "SELECT m.id, m.title_thai, m.title_english, m.genre_normalized, "
-        "m.extent_pages, m.priority, "
+        + ("m.work_title, m.work_desc, " if _tb_have_blurbs else "")
+        + "m.extent_pages, m.priority, "
         "(SELECT COUNT(*) FROM pages p WHERE p.manuscript_id=m.id) n_pages, "
         "(SELECT COUNT(*) FROM pages p WHERE p.manuscript_id=m.id "
         " AND p.transcription IS NOT NULL AND p.transcription<>'') n_read "
         "FROM manuscripts m WHERE m.source_id IN (21,22) "
         "ORDER BY m.priority DESC, n_read DESC, m.id").fetchall()
+
+    def _tb_title(r):
+        # /m/<id>/ (manuscript_pages.py), not the /m?id= SPA: the SPA's page-gallery
+        # thumbnails fetch live /pimg URLs the static shim can't resolve correctly
+        # (it always assumes .png; baked scans are .png OR .jpg), so it 404s on a
+        # static host. /m/<id>/ is the real page with the baked gallery that works.
+        wt = (r["work_title"] or "") if _tb_have_blurbs else ""
+        if wt:
+            return f"<a href='{base}m/{mpath(r['id'])}/'>{html.escape(wt)}</a>"
+        return (f"<a href='{base}m/{mpath(r['id'])}/'>{html.escape(r['title_english'] or r['title_thai'] or ('#' + str(r['id'])))}</a>"
+                + (f" <span class='tbth'>{html.escape(r['title_thai'])}</span>" if r['title_thai'] else ""))
+
+    def _tb_desc(r):
+        wd = (r["work_desc"] or "") if _tb_have_blurbs else ""
+        return f"<p class='tbdesc'>{html.escape(wd)}</p>" if wd else ""
+
     _tb_items = "".join(
         "<li class='tbrow'><div class='tbtitle'>"
-        + f"<a href='{base}m/?id={r['id']}'>{html.escape(r['title_english'] or r['title_thai'] or ('#' + str(r['id'])))}</a>"
-        + (f" <span class='tbth'>{html.escape(r['title_thai'])}</span>" if r['title_thai'] else "")
-        + "</div><div class='tbmeta'>"
+        + _tb_title(r)
+        + "</div>"
+        + _tb_desc(r)
+        + "<div class='tbmeta'>"
         + f"{r['n_pages']} of {r['extent_pages'] or r['n_pages']} pages digested"
         + (f" &middot; <strong>{r['n_read']}</strong> transcribed" if r['n_read'] else "")
-        + (f" &middot; <a href='{base}read/{r['id']}/'>Read &rarr;</a>" if r['n_read'] else "")
+        + (f" &middot; <a href='{base}read/{mpath(r['id'])}/'>Read &rarr;</a>" if r['n_read'] else "")
         + "</div></li>"
         for r in _tb_rows)
     _tb_css = (".tblist{list-style:none;margin:16px 0;padding:0;display:grid;gap:10px}"
@@ -611,6 +986,7 @@ def main():
               ".tbtitle{font-size:16px;font-weight:600}"
               ".tbth{font-weight:400;opacity:.65;margin-left:6px;"
               "font-family:'Sukhumvit Set','Thonburi','Noto Serif Thai',serif}"
+              ".tbdesc{font-size:13.5px;line-height:1.5;opacity:.8;margin:4px 0 0;max-width:64em}"
               ".tbmeta{font-size:13px;opacity:.65;margin-top:4px}")
     _tb_body = ("<header><div><h1>Textbooks</h1><p class=sub>"
                f"{len(_tb_rows)} contributed wichaa manuscripts — uploaded, not crawled, "
@@ -656,10 +1032,20 @@ def main():
     rows = wiki._search_rows() or []
     # Cap each doc body so the client-side search index stays a reasonable download.
     # Titles + the lead of every body are kept; only the long tail of folded OCR on a
-    # handful of heavily-transcribed manuscripts is truncated.
+    # handful of heavily-transcribed manuscripts is truncated. The contributed
+    # TEXTBOOKS get a much larger cap: their English translations are the only way
+    # an English query can find textbook content, and 2000 chars hid all but the
+    # first page or two (caught 2026-08-05). ~60KB × 30 volumes worst case ≈ 1.8MB
+    # raw / ~400KB gzipped once everything is translated — revisit (per-page docs
+    # or a split index) if that ever feels slow.
     BODY_CAP = 2000
+    CONTRIB_BODY_CAP = 60000
+    contrib_refs = {str(r["id"]) for r in wiki.connect().execute(
+        "SELECT id FROM manuscripts WHERE source_id IN (21,22)")}
     docs = [{"ref": r["ref"], "kind": r["kind"], "label": r["label"],
-             "ntitle": r["ntitle"] or "", "nbody": (r["nbody"] or "")[:BODY_CAP]}
+             "ntitle": r["ntitle"] or "",
+             "nbody": (r["nbody"] or "")[:CONTRIB_BODY_CAP if r["ref"] in contrib_refs
+                                         else BODY_CAP]}
             for r in rows]
     write_json(api / "searchdocs.json", docs)
     # the bilingual thesaurus, so the client can expand query tokens exactly as the
@@ -785,6 +1171,17 @@ def main():
         for rel in leaks[:40]:
             print(f"  · {rel}", file=sys.stderr)
         return 2
+
+    # Dead article links. An article naming a page that does not exist used to
+    # render as bare text with no signal anywhere — the link just evaporated.
+    # A warning, not a failure: the page is still correct prose, and a typo in
+    # one article should not stop a publish.
+    dead = wiki.link_report()
+    if dead:
+        print(f"\n! {len(dead)} article link(s) point at nothing and were rendered "
+              f"as plain text — fix the article or add the route:", file=sys.stderr)
+        for href, where in dead[:30]:
+            print(f"  · {where}: {href}", file=sys.stderr)
 
     total = sum(f.stat().st_size for f in out.rglob("*") if f.is_file())
     print(f"\nDone. {total/1024/1024:.1f} MB in {out}")

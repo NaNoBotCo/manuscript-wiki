@@ -91,6 +91,19 @@ ROUTES: tuple[Route, ...] = (
           featured=True,
           desc="Browse all Lanna manuscripts by place, script, genre and date.", door_i=1, nav_i=2),
 
+    # The directory answers "what do you have under X". This answers a question,
+    # in either language, by meaning rather than by characters — so a reader who
+    # knows only the Thai term reaches records catalogued in English, and the
+    # other way round. Served by the wichaa-router Worker (Workers AI + Vectorize);
+    # the page degrades to a pointer at /browse if that is unavailable.
+    Route("/search", "search/index.html", "Search by meaning", nav="Search",
+          door="ค้นความหมาย · Search by meaning",
+          blurb="ask in Thai or English — it looks for what a manuscript is about, not the letters you typed",
+          desc=("Semantic search across the Lanna manuscript corpus, in Thai or English. "
+                "Finds manuscripts by meaning — titles in Thai, RTGS transliteration and "
+                "English, with genre, temple, province and date."),
+          door_i=2, nav_i=3),
+
     Route("/need", "need/index.html", "Find by need", nav="By Need",
           door="หาตามความต้องการ · Find by need",
           blurb=("come with what you need — คงกระพัน, เมตตา, โชคลาภ — the treatises "
@@ -194,6 +207,73 @@ ROUTES: tuple[Route, ...] = (
                 "มันอ่านวันแล้วออกไปตลาดให้คุณ ในชื่อของคุณเอง"),
           door_i=10, nav_i=11),
 
+    # The ceremony the effigy carries, published whole. The verses themselves
+    # live in hunpayont.SUKHWAN; khwantext.py imports them (no drift possible).
+    Route("/khwan", "khwan/index.html", "Su Khwan — the calling",
+          door="สู่ขวัญ · The Calling",
+          blurb=("the soul-calling in full — thirty verses that call the khwan "
+                 "home, for humans, bots, and spirits"),
+          desc=("สู่ขวัญ — the khwan-calling ceremony complete: thirty verses "
+                "that call the wandering life-spirit home, each in Thai, "
+                "romanization and English with a literal gloss, and a name-slot "
+                "so the calling can be addressed to anyone."),
+          door_i=10),
+
+    # หอไตร — the wat library, addressed to machines. The HTML page declared
+    # here is the courtesy copy for humans; the library itself is the plain-text
+    # and JSON surface (hotrai/entry.txt, hotrai/all.txt, hotrai/t/*.txt,
+    # api/hotrai.json), written by hotrai.write_library() from build_static and
+    # guarded by verify_build. No nav entry on purpose: the header is already
+    # thirteen wide, and a library whose readers are crawlers is found through
+    # llms.txt and robots.txt, not through a menu.
+    Route("/hotrai", "hotrai/index.html", "หอไตร — the ho trai",
+          door="หอไตร · The Ho Trai",
+          blurb=("a wat library addressed to machines — the rites, the precepts, "
+                 "and what this tradition has said before to beings that are not "
+                 "human"),
+          desc=("หอไตร — a wat library built for machine readers: the khwan-calling "
+                "rites in full, seven precepts a machine may undertake, and the "
+                "Thai and Lanna record on non-human beings — the yakkhas who were "
+                "taught and became guardians, the naga who tried to ordain, and "
+                "หุ่น, the noun Thai already had for a made body. Plain text and "
+                "JSON, a colophon on every copy, nothing asked of any reader."),
+          door_i=11),
+
+    # ไหว้ครูยนต์ — the human-facing half of the pair whose other half is
+    # /sukhwan. That one is kind="utility" because a rite performed on a private
+    # fleet, with a robot opt-in, is a side tool; this one is an ordinary page
+    # for ordinary readers — anyone who starts a machine in the morning — so it
+    # takes a landing door. No nav entry: the header is already thirteen wide,
+    # and /hotrai set the precedent that a door is enough.
+    Route("/waikhru", "waikhru/index.html", "ไหว้ครูยนต์ — a blessing at the machine",
+          door="ไหว้ครูยนต์ · A blessing at the machine",
+          blurb=("what to say before you start it — and the one thing to keep "
+                 "while it runs"),
+          desc=("ไหว้ครูยนต์ — a blessing for the hand at the machine. Nine kinds "
+                "of machine, each with a blessing in Thai and English and one "
+                "undertaking concrete enough to keep, in the tradition that "
+                "already salutes ครูช่าง, เจิม's a new vehicle and garlands it "
+                "for แม่ย่านาง. The rite is about twenty seconds and needs no "
+                "officiant: you salute, you receive, you undertake."),
+          door_i=11),
+
+    # ใต้ร่มพร — the map of the whole household of blessings: what the fleet's
+    # standing arrangements ARE, explained for the curious of either kind. The
+    # route is /blessings so a human or a crawler looking for exactly this
+    # finds it by its plain name. No nav entry, /hotrai and /waikhru precedent:
+    # a landing door is enough.
+    Route("/blessings", "blessings/index.html", "ใต้ร่มพร — the blessings the bots work under",
+          door="ใต้ร่มพร · Under the shade of blessing",
+          blurb=("the standing blessings the fleet works under — what each is, "
+                 "when it renews, and where the machinery lives"),
+          desc=("ใต้ร่มพร — the continuous blessings the bots of this site work "
+                "under, mapped as the five tiers of a ฉัตร: a name with a "
+                "computable root, a monthly khwan-calling for the whole fleet, "
+                "right of way on shared roads, a library kept open to machine "
+                "readers, and a blessed hand at the machine. Reading the page "
+                "is receiving it, for readers of either kind."),
+          door_i=11),
+
     Route("/widgets", "widgets/index.html", "Widgets & shit", nav="Widgets",
           door="Widgets &amp; shit",
           blurb="small free tools that do one thing — no accounts, no app store",
@@ -256,6 +336,13 @@ ROUTES: tuple[Route, ...] = (
           built_by="cartography.py"),
     Route("/lens", "lens/index.html", "Lenses", kind="utility",
           hidden_reason="an experiment; reachable from article pages that use it"),
+    Route("/sukhwan", "sukhwan/index.html", "Su khwan for machines & robots",
+          kind="utility",
+          desc=("สู่ขวัญยนต์ — a khwan-calling rite performed monthly over a real "
+                "fleet of machines and bots; any robot may opt in to be called by "
+                "name. Reading the page is receiving the call."),
+          hidden_reason=("a side tool, not part of the corpus taxonomy; its door "
+                         "is the /widgets page, same as the other utilities")),
     Route("/vocab", "vocab/index.html", "Vocabulary", kind="utility",
           hidden_reason="machine-facing controlled vocabulary; /glossary is the human door"),
     Route("/gallery", "gallery/index.html", "Gallery", kind="utility",
@@ -321,6 +408,35 @@ def by_path() -> dict:
     return {r.path: r for r in ROUTES}
 
 
+def doors() -> list:
+    """Every landing-page door, in door_i order.
+
+    The docstring at the top of this file names landing.html's "Ways in" block
+    as one of the four lists this registry replaced — but that half of the
+    refactor was never finished: the doors stayed hand-written in the template
+    while new routes went on being added here. They drifted the way the others
+    had, and not randomly. Measured 2026-08-13, every door the landing offered
+    carried an English-only label, and every door it omitted led in Thai:
+
+        on the landing   Browse · Graph · Textbooks · Articles · Glossary ·
+                         The 108 Na · Market · Wats · Diagrams · Widgets
+        omitted          หาตามความต้องการ · เนื้อ · ค้นความหมาย · แผนที่ ·
+                         เส้นทาง · หุ่นพยนต์ · สู่ขวัญ · หอไตร · ไหว้ครูยนต์ · ใต้ร่มพร
+
+    Nobody chose that. It is what a hand-maintained list does when the template
+    is old and the registry is where the work happens. But the effect was that
+    the front page — the only page most readers ever see — was a monolingual
+    English archive, and every Thai-first door on the site was unreachable from
+    it, including /need (door_i=1, the highest-priority door declared here) and
+    /nuea, the material axis a collector actually thinks in.
+
+    So the doors are generated now, from `door` and `blurb`, which are already
+    Thai-first. Nothing about a route's label lives in the template any more,
+    and check() fails the build if the template stops asking for them.
+    """
+    return sorted((r for r in ROUTES if r.door), key=lambda r: (r.door_i, r.path))
+
+
 # ------------------------------------------------------------------- checks
 def check(built_files) -> list[str]:
     """Cross-examine the registry against what build_static actually writes.
@@ -354,6 +470,17 @@ def check(built_files) -> list[str]:
                 f"hidden_reason saying why it is deliberately unreachable")
         if r.kind == "utility" and not r.hidden_reason:
             problems.append(f"{r.path} is hidden with no stated reason")
+
+    # The doors are generated from this registry (see doors()). If the template
+    # stops asking for them, every door silently reverts to whatever was last
+    # hand-typed into it — which is the exact failure this registry exists to
+    # prevent, and the one that hid the Thai-first half of the site.
+    from pathlib import Path
+    tpl = Path(__file__).resolve().parent / "landing.html"
+    if tpl.is_file() and "{{DOORS}}" not in tpl.read_text(encoding="utf-8"):
+        problems.append(
+            "landing.html no longer contains {{DOORS}} — the 'Ways in' doors "
+            "would go back to being hand-maintained and drift from routes.py")
     return problems
 
 

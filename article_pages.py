@@ -19,9 +19,16 @@ from __future__ import annotations
 
 import html
 import json
+from pathlib import Path
 
 import cartography
 from manuscript_pages import _CSS, _esc
+
+# Per-article share-card masters (publishing/cards/a__<slug>.png). site_meta.py
+# copies each master to /a/<slug>/card.png post-build, so the master's existence
+# at build time is the only signal page_html can key og:image off — the copy
+# itself hasn't happened yet when this module renders.
+_CARD_MASTERS = Path(__file__).resolve().parent / "publishing" / "cards"
 
 
 def _hero(prof, site):
@@ -132,7 +139,13 @@ def page_html(prof, slug, wiki):
                  '<a href="/">wichaa — an open archive of Lanna manuscripts and living wichaa</a></div>')
 
     description = (lede or f"{label} in the wichaa archive.")[:300]
-    ogimg = img_url or (f"{site}/og.jpg" if site else "/og.jpg")
+    # A real folio beats a drawn card; a drawn card beats the sitewide yantra.
+    if img_url:
+        ogimg = img_url
+    elif (_CARD_MASTERS / f"a__{slug}.png").is_file():
+        ogimg = f"{site}/a/{slug}/card.png"
+    else:
+        ogimg = f"{site}/og.jpg" if site else "/og.jpg"
 
     head = (
         "<!doctype html><html lang=en><head><meta charset=utf-8>"

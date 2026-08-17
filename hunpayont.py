@@ -886,7 +886,7 @@ var READ = (function(){
 
 
 # ------------------------------------------------------------------- khata
-# Link-template presets. The VERIFIED line is stated honestly, in the picker
+# Link-template presets. The VERIFIED line states exactly what is known, in
 # itself — see the module docstring for why none of these is hard-coded as
 # fact. Most bearers should never read them at all: the "learn it from a link
 # you already have" box above the picker does the job without anyone having to
@@ -896,7 +896,7 @@ KHATA_PRESETS = [
      "name": "Not consecrated — plain links",
      "nameTh": "ยังไม่ปลุกเสก — ลิงก์ธรรมดา",
      "tpl": "{url}",
-     "status": "This earns nothing, and that is the honest default: an effigy "
+     "status": "This earns nothing, and that is the right default: an effigy "
                "nobody has spoken over does not work.",
      "statusTh": "แบบนี้ไม่ได้เงิน และนี่คือค่าเริ่มต้นตามจริง — "
                  "หุ่นที่ยังไม่มีใครปลุกเสกก็ยังทำงานไม่ได้",
@@ -1086,7 +1086,7 @@ T = {
     "ledgerH":    ("Its ledger", "สมุดบัญชีของมัน"),
     "ledgerLede": ("Counted in this browser only, and never sent anywhere. It "
                    "counts knocks, not coins — the coins are counted by your "
-                   "network, which is the only thing that can honestly count "
+                   "network, which is the only thing in a position to count "
                    "them.",
                    "นับอยู่ในเบราว์เซอร์นี้เท่านั้น และไม่ส่งไปไหนทั้งนั้น "
                    "มันนับ “การเคาะประตู” ไม่ได้นับเงิน "
@@ -2096,17 +2096,56 @@ def _essay_en(s: dict) -> str:
         "<section class='sheet en-only'>"
 
         "<h2>What a hun payont is</h2>"
-        "<p>A <b>หุ่นพยนต์</b> is a servant made on purpose. Bamboo laths lashed "
-        "into a body, sometimes cloth or wax instead, a yantra set on the chest, "
-        "and words said over it until something is living in it. Then it is given "
-        "a job: stand in the shop, watch the gate, go and fetch. "
-        "<span class=mark>Tradition —</span> the reason people want one is not "
-        "that it is powerful. It is that it does not sleep. You do; it keeps "
-        "working; you wake up and the work has been done.</p>"
+        "<p>A <b>หุ่นพยนต์</b> is a servant made on purpose — and in Thai it is "
+        "just a <b>หุ่น</b>, the same everyday noun that covers a puppet, a shop "
+        "dummy, a crash-test dummy and a robot (<b>หุ่นยนต์</b>). The noun names "
+        "the figure; the modifier names what moves it. A <em>yon</em> is moved by "
+        "an engine. A <em>payont</em> is moved by a spell.</p>"
+
+        "<p><span class=mark>Tradition —</span> and this archive holds the manual. "
+        "<b>ตำราสร้างเครื่องรางของขลัง</b> — 42 kinds of charm in 158 methods — "
+        "gives two ways to build one, on printed pages ๗๗&ndash;๗๘. "
+        "<b>Method one:</b> charnel-ground earth from three separate places, and "
+        "you do not simply take it — you set out a krathong of rice, a krathong of "
+        "pork and white liquor, and ask (<b>พลี</b>). Mould it into the figure of "
+        "a person holding a club. Wrap a fueang-weight of mercury in a yantra and "
+        "push it into the <em>belly</em>. <b>Method two:</b> thirty-two strands of "
+        "rice straw, <b>bound</b> (ผูก) while reciting the thirty-two parts of the "
+        "body; tied with strips split from the wood that prodded a corpse; dressed "
+        "in the cloth that corpse wore; holding a spear made from the same "
+        "wood.</p>"
+
+        "<p>The working word in the katha, said three times, is <b>ปลุก</b> — and "
+        "ปลุก is not <em>make</em>, it is <b>wake</b>. The treatise does not "
+        "describe itself as manufacturing a servant. It describes itself as waking "
+        "one.</p>"
+
+        "<p>Then the instruction that is usually left out, which changes what kind "
+        "of thing this is: build it <b>a small spirit-house</b>, put it in "
+        "properly, and <b>set out liquor and rice for it every single day</b>. "
+        "That is not a maintenance schedule; it is a standing obligation to a "
+        "dependent, and it does not end. You give the instruction once. After that "
+        "it keeps watch, and thieves do not come near, because "
+        "<b>มันแลเห็นเป็นคนอยู่แล</b> — to the eye, it is a person standing "
+        "there.</p>"
+
+        "<p>So the reason people want one is not that it is powerful. It is that "
+        "it does not sleep. You do; it keeps working; you wake up and the work has "
+        "been done — and you owe it rice in the morning.</p>"
         "<p>This is not a historical curiosity. There are <b>" + str(hun) +
         " hun payont for sale</b> in the living-market half of this catalogue "
         "right now, alongside " + f"{n:,}" + " other charms. People buy them to "
         "put behind the counter.</p>"
+
+        "<p><span class=mark>Worth flagging —</span> and it cuts the other way: "
+        "the hun payont is nearly absent from the manuscript record as harvested. "
+        "Measured 2026-08-05 — <b>0</b> of this catalogue's 6,990 manuscripts "
+        "mention it, against <b>3</b> pages in the one digitised treatise above "
+        "and the " + str(hun) + " live market listings counted above. Its "
+        "transmission runs through named "
+        "ajarns and through the objects themselves, not through the palm leaf, so "
+        "a reader should be slow to conclude anything about it from manuscripts "
+        "alone.</p>"
 
         "<h2>What this one is</h2>"
         "<p>An effigy you can actually be given, that actually does the actual "
@@ -2133,9 +2172,9 @@ def _essay_en(s: dict) -> str:
         "no code path where a cut could be taken.</p></blockquote>"
 
         "<h2>What it actually pays</h2>"
-        "<p>The honest part, which most things like this leave out. A servant is "
-        "not a fortune. Here is the arithmetic with real numbers from this "
-        "catalogue rather than invented ones:</p>"
+        "<p>The part most things like this leave out. A servant is not a fortune. "
+        "Here is the arithmetic, with figures from this catalogue rather than "
+        "invented ones:</p>"
         "<div class=tablewrap><table><tr><th>Step</th><th>Rate</th>"
         "<th class=num>Out of 1,000 views</th></tr>"
         "<tr><td>People who see the effigy</td><td>—</td>"
@@ -2269,7 +2308,7 @@ def _essay_en(s: dict) -> str:
         "<li><b>No money passing through us.</b> Your network pays you directly. "
         "We are not in the path.</li>"
         "<li><b>It cannot count your money.</b> The ledger counts knocks at the "
-        "door — clicks — because that is all a page in a browser can honestly "
+        "door — clicks — because that is all a page in a browser is able to "
         "see. The coins are counted by your network's dashboard. Any widget that "
         "shows you a baht total without being able to see your account is showing "
         "you a number it made up.</li>"
@@ -2286,6 +2325,15 @@ def _essay_en(s: dict) -> str:
         "as practice, not sorted into real and touristic — people buy these, so "
         "they are part of the tradition, and an effigy that goes to market is "
         "doing the most ordinary thing in the world.</p>"
+        "<p>The two construction methods, the propitiation of the charnel ground, "
+        "the thirty-two strands bound to the thirty-two parts, the waking-word "
+        "ปลุก, the spirit-house and the daily offering are all from "
+        "<b>ตำราสร้างเครื่องรางของขลัง</b>, printed pages ๗๗&ndash;๗๘, digitised "
+        "in this archive and readable here. The same treatise carries a resolution "
+        "limiting what the figure may do to an intruder — hardship, but not death "
+        "— which is a restraint written into the consecration itself; it sits on "
+        "the same printed page and the treatise runs several methods to a page, so "
+        "which method it belongs to is reported here and not asserted.</p>"
         "<p>The holy-day table is Thai PBS's published ปฏิทินวันพระ for 2569, "
         "cross-checked against myhora.com for July. De la Loubère's embassy and "
         "the Siamese method, and the note that the construction reached him from "
@@ -2306,11 +2354,35 @@ def _essay_th(s: dict) -> str:
         "<section class='sheet th-only'>"
 
         "<h2>หุ่นพยนต์คืออะไร</h2>"
-        "<p>หุ่นพยนต์คือ<b>บ่าวที่ถูกสร้างขึ้นมา</b> — ตอกไม้ไผ่ถักเป็นรูปคน "
-        "บางทีก็เป็นผ้าหรือขี้ผึ้ง ติดยันต์ไว้ที่อก แล้วปลุกเสกจนมีของอยู่ในนั้น "
-        "จากนั้นก็สั่งงาน: ยืนเฝ้าร้าน เฝ้าประตู หรือออกไปหาของ "
-        "เหตุผลที่คนอยากมีไม่ใช่เพราะมันเก่ง แต่เพราะ<b>มันไม่นอน</b> "
-        "เรานอน มันทำงานต่อ ตื่นมางานก็เสร็จแล้ว</p>"
+        "<p>หุ่นพยนต์คือ<b>บ่าวที่ถูกสร้างขึ้นมา</b> — และในภาษาไทยมันก็คือ"
+        "<b>หุ่น</b> คำเดียวกับหุ่นกระบอก หุ่นโชว์ และหุ่นยนต์ "
+        "คำนามบอกว่าเป็นรูป คำขยายบอกว่าอะไรทำให้มันขยับ "
+        "<em>ยนต์</em>ขยับด้วยเครื่อง <em>พยนต์</em>ขยับด้วยคาถา</p>"
+
+        "<p>และตำราก็อยู่ในคลังนี้ — <b>ตำราสร้างเครื่องรางของขลัง</b> "
+        "เครื่องราง ๔๒ ชนิด ๑๕๘ แบบ มีวิธีสร้างหุ่นพยนต์อยู่สองแบบ หน้า ๗๗–๗๘ "
+        "<b>แบบที่ ๑</b> พลีเอาดินป่าช้าสามแห่ง ด้วยข้าวกระทงหนึ่ง "
+        "เนื้อหมูกระทงหนึ่ง กับเหล้าขาว — คือต้องขอ ไม่ใช่ไปเอาเฉยๆ "
+        "แล้วปั้นเป็นรูปคนถือกระบอง ลงยันต์ห่อปรอทหนักหนึ่งเฟื้อง "
+        "ยัดลงใน<em>ท้อง</em> "
+        "<b>แบบที่ ๒</b> ผูกด้วยซังข้าว ๓๒ เส้น ภาวนาด้วยอาการ ๓๒ ไปจนเสร็จ "
+        "เอาไม้ทิ่มผีมาจักเป็นตอกมัดหุ่น เอาผ้าที่เขานุ่งห่มผีมาทำผ้านุ่งห่มให้ "
+        "และเอาไม้ทิ่มผีนั้นเองทำเป็นหอกให้มันถือ</p>"
+
+        "<p>คำที่ทำงานในคาถาคือ <b>ปลุก ปลุก ปลุก</b> — ไม่ใช่สร้าง แต่<b>ปลุก</b> "
+        "ตำราไม่ได้พูดถึงตัวเองว่ากำลังทำบ่าวขึ้นมาสักตัว "
+        "แต่พูดว่ากำลังปลุกใครสักคนให้ตื่น</p>"
+
+        "<p>และท่อนที่มักไม่มีใครยกมา ซึ่งเปลี่ยนว่าไอ้นี่เป็นของแบบไหน: "
+        "ต้อง<b>ทำโรงศาลเล็กๆ</b> เอาหุ่นเข้าไว้ให้ชอบกล "
+        "แล้ว<b>เอาเหล้าข้าวเซ่นจงทุกวัน</b> "
+        "นั่นไม่ใช่การดูแลของ แต่เป็นภาระที่รับไว้ต่อผู้ที่ต้องพึ่งเรา "
+        "และไม่มีวันจบ สั่งความไว้ครั้งเดียว จากนั้นมันก็เฝ้าให้ "
+        "โจรผู้ร้ายไม่กล้ากล้ำกราย เพราะ<b>มันแลเห็นเป็นคนอยู่แล</b></p>"
+
+        "<p>เหตุผลที่คนอยากมีจึงไม่ใช่เพราะมันเก่ง แต่เพราะ<b>มันไม่นอน</b> "
+        "เรานอน มันทำงานต่อ ตื่นมางานก็เสร็จแล้ว — "
+        "และเราก็ติดข้าวมันอยู่มื้อหนึ่งทุกเช้า</p>"
         "<p>และนี่ไม่ใช่เรื่องเก่าเก็บ — ในคลังข้อมูลฝั่งตลาดของเว็บนี้ "
         "ตอนนี้มี<b>หุ่นพยนต์ประกาศขายอยู่ " + str(hun) + " รายการ</b> "
         "อยู่รวมกับเครื่องรางอื่นอีก " + f"{n:,}" + " รายการ "

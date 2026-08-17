@@ -24,6 +24,9 @@ it up without anyone maintaining a list.
 import argparse
 import html
 import json
+import os
+import sqlite3
+import urllib.parse
 import re
 import sys
 from pathlib import Path
@@ -65,11 +68,104 @@ def facets_of(p, kind, article=None):
     return f
 
 
-def page_html(p, kind, site, back, article=None, fallback_img=""):
+def load_holdings(bridge_path, catalog_db):
+    """{place_id: {code, manuscripts, genres, register facts}} — what each
+    temple actually holds, from the wat-registry bridge.
+
+    This is the answer to the question a temple page most obviously raises and
+    has never been able to answer. The `held_at` relation has been in the graph
+    all along (6,549 edges) and the ONAB code has been stamped on 6,203
+    manuscripts since 2026-08-09; nothing rendered either.
+    """
+    if not Path(bridge_path).exists() or not Path(catalog_db).exists():
+        return {}
+    bridge = (json.loads(Path(bridge_path).read_text()) or {}).get("places") or {}
+    by_code = {v["wat_code"]: (pid, v) for pid, v in bridge.items()}
+    if not by_code:
+        return {}
+    con = sqlite3.connect(f"file:{catalog_db}?mode=ro&immutable=1", uri=True)
+    try:
+        rows = con.execute(
+            "SELECT wat_code, genre_normalized, COUNT(*) FROM manuscripts "
+            "WHERE wat_code IS NOT NULL AND wat_code <> '' "
+            "GROUP BY wat_code, genre_normalized").fetchall()
+        # /browse filters on the catalogue's OWN temple string ("Wat Sung
+        # Men"), not the register's Thai name — link with the wrong one and
+        # the button lands on an empty shelf.
+        temple_rows = con.execute(
+            "SELECT wat_code, provenance_temple, COUNT(*) AS n FROM manuscripts "
+            "WHERE wat_code IS NOT NULL AND wat_code <> '' "
+            "AND provenance_temple IS NOT NULL AND provenance_temple <> '' "
+            "GROUP BY wat_code, provenance_temple ORDER BY n DESC").fetchall()
+    finally:
+        con.close()
+    genres = {}
+    for code, genre, n in rows:
+        genres.setdefault(code, []).append((n, genre or "other"))
+    browse_name = {}
+    for code, temple, _n in temple_rows:
+        browse_name.setdefault(code, temple)
+    out = {}
+    for code, (pid, v) in by_code.items():
+        g = sorted(genres.get(code, []), reverse=True)
+        out[pid] = dict(v, genres=[(genre, n) for n, genre in g[:4]],
+                        browse_name=browse_name.get(code, ""))
+    return out
+
+
+def holdings_section(p, holdings, site, E):
+    """The library band on a temple page."""
+    h = holdings.get(p.get("id"))
+    if not h:
+        return ""
+    n = h.get("manuscripts") or 0
+    if not n:
+        return ""
+    browse = h.get("browse_name") or ""
+    q = urllib.parse.quote(browse)
+    rows = " · ".join(
+        f'{E(GENRE_WORDS.get(g, g.replace("_", " ")))} {c:,}'
+        for g, c in (h.get("genres") or []))
+    facts = []
+    if h.get("founded_ce"):
+        facts.append(f'founded {h["founded_ce"]}')
+    for key in ("sect", "rank"):
+        if h.get(key):
+            facts.append(E(h[key]))
+    if h.get("amphoe_th"):
+        facts.append("อ." + E(h["amphoe_th"]))
+    facts.append(f'รหัสวัด {E(h.get("wat_code", ""))}')
+    return (
+        '<div class=sec><h2>The library here</h2>'
+        f'<p><strong>{n:,}</strong> manuscript{"s" if n != 1 else ""} in this '
+        f'corpus name this temple as the place they are held.</p>'
+        + (f'<p class=muted>{rows}</p>' if rows else "")
+        + (f'<p><a href="{E(site)}/browse?temple={q}">Browse all {n:,} →</a></p>'
+           if browse else "")
+        + f'<p class=muted>{" · ".join(facts)}<br>'
+        '<span class=tiny>National Office of Buddhism temple register, '
+        'B.E. 2567 edition</span></p></div>')
+
+
+GENRE_WORDS = {
+    "buddhist_canonical": "canonical", "jataka": "jātaka",
+    "tamnan_chronicle": "chronicle", "grammar_lexicography": "grammar",
+    "astrology": "astrology", "magic_ritual": "magic & ritual",
+    "didactic_moral": "didactic", "law_customary": "customary law",
+    "poetry_literary": "poetry", "liturgy_chanting": "liturgy",
+    "medicine": "medicine", "divination_omen": "divination",
+}
+
+
+def page_html(p, kind, site, back, article=None, fallback_img="", holdings=None):
     name = p.get("nameRoman") or p.get("name") or p.get("id")
     thai = p.get("name") if p.get("name") and p.get("name") != p.get("nameRoman") else None
     ph = (p.get("photos") or [{}])[0] or {}
     sm = p.get("summary") or None
+    # The "From … on Wikipedia · licence" line is a licence condition, not
+    # decoration — a summary missing any attribution field cannot be reused at all.
+    if sm and not all(sm.get(k) for k in ("text", "url", "title", "licenseUrl", "license")):
+        sm = None
     lat, lng = p.get("lat"), p.get("lng")
     ll = f"{lat},{lng}"
     url = f"{site}/place/{p['id']}/"
@@ -207,6 +303,8 @@ background:#fff;border-radius:999px;font-size:13.5px;font-weight:700;text-decora
         h.append("<dt>Sources</dt><dd>" + " · ".join(dict.fromkeys(srcs)) + "</dd>")
     h.append("</dl></div>")
 
+    h.append(holdings_section(p, holdings or {}, site, E))
+
     # Full article, both languages. Thai first when present — this is a Thai
     # subject and the Thai articles are consistently the fuller ones. Each
     # language block carries its own attribution because CC BY-SA attaches to
@@ -304,6 +402,9 @@ def main():
     api = docs / "api" / "place"
     api.mkdir(parents=True, exist_ok=True)
 
+    holdings = load_holdings(HERE / "data" / "wat_bridge.json",
+                             os.environ.get("CATALOG_DB",
+                                 HERE.parent / "manuscript-crawler" / "crawler" / "catalog.db"))
     records = [(w, "wat") for w in d.get("wats", [])] + [(x, "sacred") for x in d.get("sacred", [])]
     manifest, n_img, n_card = [], 0, 0
     for p, kind in records:
@@ -332,7 +433,8 @@ def main():
                 fallback_img = f"{site}/place/{pid}/card.jpg"
                 n_card += 1
         (out / pid / "index.html").write_text(
-            page_html(p, kind, site, back, art, fallback_img), encoding="utf-8")
+            page_html(p, kind, site, back, art, fallback_img, holdings),
+            encoding="utf-8")
         rec = dict(p)
         if art:
             rec["article"] = art
