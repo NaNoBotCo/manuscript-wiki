@@ -231,9 +231,26 @@ bilingually with counts. The lexical and semantic paths each have half the fix.
 **Writes.** thesaurus data file + `wiki.py:2251-2276` · `index.js` re-rank ·
 search page chips.
 
-**Acceptance.** "love charm" returns เมตตา manuals through **both** paths (client
-lexical and `/api/search`); ยันต์กันภัย regression holds; empty states show
-counted doors.
+**Landed 2026-08-17.** "love charm" returns **60** results (was 0). เมตตามหานิยม
+*is* the love charm, so the English a reader reaches for went into that group
+rather than one of its own. `_vocab_groups()` generates groups from
+`data/{functions,classes,materials}.json` — which already hold the emic term,
+the English gloss and the corpus tag key, a thesaurus group in all but name — so
+the table went from ~40 groups to **375 keys** and a new vocabulary entry
+becomes searchable without anyone editing a second list. "luck" → โชคลาภ,
+"trade" → ค้าขาย, "invulnerability" → คงกระพัน. ยันต์กันภัย still returns its
+yantra manuals.
+
+**The Worker half needs a deploy that does not happen on its own.**
+`cloudflare-mirror/src/index.js` now widens the lexical re-rank through
+`api/thesaurus.json` (fetched from the Pages origin, never from wichaa.net —
+the Worker *is* wichaa.net; module-scoped plus edge-cached; a fetch failure
+means no widening rather than a failed search). But `forever.sh` runs
+`deploy.sh wichaa`, **not** `deploy.sh router`, so the client-side half ships
+automatically and the semantic half waits for `bash deploy.sh router`. Until
+then the two paths disagree, which is the state this order set out to end.
+
+**Not done:** the counted function/genre chips on the empty `/search` state.
 
 ---
 
