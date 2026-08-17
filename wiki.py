@@ -2243,7 +2243,11 @@ _THESAURUS_SEED = [
     ["ma", "horse", "zebra", "sanga", "ma khi", "ma song", "ม้า", "ม้าลาย", "สะง้า", "มะเมีย",
      "ม้าขี่", "ม้าทรง", "ม้าสีหมอก", "ม้าเสพนาง", "อาชาไนย", "วลาหก", "กัณฐกะ"],
     ["takrut", "tarkrut", "trakut", "ตะกรุด", "ตระกรุด"],
-    ["metta", "loving-kindness", "attraction", "mahaniyom", "เมตตา", "เมตตามหานิยม"],
+    # เมตตามหานิยม IS the love charm, so the English a reader reaches for
+    # belongs in this group and not in one of its own — "love charm" returned
+    # nothing while the genre it names filled the corpus.
+    ["metta", "loving-kindness", "attraction", "mahaniyom", "เมตตา", "เมตตามหานิยม",
+     "love", "love charm", "love magic", "attraction charm", "เสน่ห์", "ยาแฝด"],
     ["kongkraphan", "kong kraphan", "invulnerability", "invulnerable", "endurance",
      "คงกระพัน", "อยู่ยงคงกระพัน", "คงทน"],
     ["prai", "phrai", "พราย", "ผีพราย"],
@@ -2267,10 +2271,46 @@ _THESAURUS_SEED = [
 _THESAURUS = None
 
 
+def _vocab_groups():
+    """Thesaurus groups generated from the amulet vocabularies.
+
+    data/{functions,classes,materials}.json already hold the emic term, its
+    English gloss and the key the corpus is tagged with — which is a thesaurus
+    group in everything but name. Generating them here means the words a reader
+    reaches for ("luck", "trade", "invulnerability") find the Thai the corpus is
+    actually tagged in, and that a new vocabulary entry becomes searchable
+    without anyone editing a second list.
+    """
+    out = []
+    for fname, key in (("functions.json", "functions"),
+                       ("classes.json", "classes"),
+                       ("materials.json", "materials")):
+        path = HERE / "data" / fname
+        if not path.exists():
+            continue
+        try:
+            doc = json.loads(path.read_text())
+        except Exception:
+            continue
+        for item in doc.get(key) or []:
+            words = [item.get("term"), item.get("key", "").replace("_", " "),
+                     item.get("enGloss")]
+            # A gloss is a phrase ("luck and windfall"); keep the phrase AND its
+            # content words, so both "luck" and the whole phrase reach the term.
+            gloss = item.get("enGloss") or ""
+            words += [w for w in re.split(r"[,\s]+", gloss)
+                      if len(w) > 3 and w.lower() not in ("and", "with", "from", "that")]
+            group = [w for w in words if w]
+            if len(group) > 1:
+                out.append(group)
+    return out
+
+
 def _thesaurus():
     global _THESAURUS
     if _THESAURUS is None:
-        groups = [sorted({_norm(m) for m in g if m}) for g in _THESAURUS_SEED]
+        groups = [sorted({_norm(m) for m in g if m})
+                  for g in (_THESAURUS_SEED + _vocab_groups())]
         idx = {}
         for g in groups:
             for m in g:
