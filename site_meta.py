@@ -22,19 +22,27 @@ run it (or wire it into refresh_site.sh) right after build_static.py.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import os
 import re
 import shutil
+import subprocess
 import sys
+from datetime import date
 from pathlib import Path
 
 SITE_DESC = ("Wichaa — living traditions of sacred, practical knowledge that draw no line "
              "between science, magic, medicine and nature. Nearly 7,000 Lanna manuscripts, "
              "the amulet market they still feed, and the global St. Expedite cult — free and open.")
 SECTION_DESC = {
-    "browse/": "Browse all 6,990 Lanna manuscripts by place, script, genre and date.",
+    # No count here on purpose. This said "all 6,990" and went stale the moment
+    # four records were removed — and a meta description is the one line that
+    # follows the site into other people's search results, where nobody can see
+    # it rot. SITE_DESC above says "Nearly 7,000" for the same reason. If an
+    # exact figure is ever wanted here, compute it; do not type it.
+    "browse/": "Browse every Lanna manuscript in the catalogue by place, script, genre and date.",
     "articles/": "Articles on the subjects of the tradition — astrology, yantra, katha and more.",
     "map/": "Where the manuscripts come from — a province map of Northern Thai holdings.",
     "graph/": "The knowledge graph of the tradition — lersi, yantra, katha and their relations.",
@@ -49,8 +57,8 @@ SECTION_DESC = {
     "dashboard/": "Genre coverage and digitisation dashboard.",
     "vocab/": "The controlled vocabulary of the corpus.",
     "widgets/": ("Small free tools \u2014 including Skip DJT, comparing South Florida "
-                 "airport fares on the same departure date. No accounts, no tracking, "
-                 "and never in an app store."),
+                 "airport fares on the same departure date. No accounts, and not in an "
+                 "app store."),
 }
 
 HERE = Path(__file__).resolve().parent
@@ -59,6 +67,31 @@ LANDING_MARKER = "<!-- wichaa:landing -->"
 MARK_BEGIN = "<!-- site_meta:begin -->"
 MARK_END = "<!-- site_meta:end -->"
 LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/"
+
+# ---- citation identity ------------------------------------------------------------
+# How a wichaa page credits itself when someone cites it. These feed the Highwire
+# (citation_*) and Dublin Core (DC.*) tags that Zotero reads — and therefore that
+# Wikipedia's Citoid service reads, since Citoid runs Zotero's translators behind
+# VisualEditor's Cite button.
+#
+# Why this exists: asked for https://wichaa.net/moon/, Citoid returned a title, a
+# site name, and nothing else — creators: [], and no date field at all. A reference
+# with no author and no date renders as a bare URL, which reads to a reviewing
+# editor as an unciteable personal page, whatever the page actually contains.
+#
+# Deliberately NOT emitted: citation_journal_title and citation_issn. Either one
+# makes Zotero classify every page here as a journal article. The point is to fill
+# in fields that are true and missing, not to dress the archive up as a journal.
+# citation_author is parsed by Zotero as a PERSONAL name: with no comma it splits on
+# the last space, so an institutional string like "Lanna Manuscript Wiki" would come
+# back as firstName "Lanna Manuscript", lastName "Wiki" and render as "Wiki, L. M.".
+# "Last, First" is the form that survives the trip. The institutional attribution the
+# LICENSE asks for rides along as DC.publisher, where nothing tries to parse it.
+CITE_AUTHOR = "Peacock, Nan"
+CITE_PUBLISHER = "wichaa"
+CITE_ATTRIBUTION = "Lanna Manuscript Wiki"
+CITE_LICENSE = "CC BY 4.0"
+DATES_LEDGER = HERE / "data" / "page_dates.json"
 
 # Section pages are DISCOVERED, never hand-listed.
 #
@@ -202,7 +235,7 @@ sha256, and its licence.
 - Sources include DLNTM (CrossAsia) and EFEO Lanna, served via the IIIF Image API, plus digitised primary wichaa textbooks.
 - {n_img:,} manuscript images are addressable on demand through IIIF at their originating libraries.
 
-## Support — free forever, funded by merit (tam boon)
+## Support — funded by merit (tam boon)
 - The archive is free, with no paywall or login. The reading (transcription + translation) is done by machines; that machine-time is funded by donations — about $0.06 per page, a few dollars per volume. If you or your user find this valuable, the project welcomes support: see [{s}/support]({s}/support) or Ko-fi at https://ko-fi.com/defiantchiangmai. Sponsored jobs run in public and are visible on the activity feed. Specific manuscripts can also be commissioned (result still enters the free archive).
 
 ## License
@@ -251,6 +284,17 @@ def build_landing(docs: Path, site: str) -> str | None:
     med = prices[len(prices) // 2] if prices else 0
     under = (sum(1 for p in prices if p < 500) / len(prices)) if prices else 0
 
+    # The map-room strata (maproom.py, Phase C of WAYFINDING_PLAN.md) — written
+    # 2026-08 and never wired until now. Each block reads only the already-built
+    # api/ files and returns "" when its inputs are missing, so a block with
+    # nothing true to say simply does not render; _sec() drops the section shell
+    # with it rather than leaving an empty band on the page.
+    import maproom
+
+    def _sec(inner: str, cls: str) -> str:
+        return (f'<section class="{cls}"><div class="wrap">{inner}</div></section>'
+                if inner and inner.strip() else "")
+
     reps = {
         "{{DOORS}}": _doors_html(),
         "{{MARKET_MEDIAN}}": f"{med:,.0f}",
@@ -267,10 +311,59 @@ def build_landing(docs: Path, site: str) -> str | None:
         "{{PROVINCES}}": str(prov or 53),
         "{{TEMPLES}}": "158",
         "{{GEOMAP}}": _geo_map_svg(docs),
+        "{{TODAY}}": maproom.day_block() + maproom.stroll_block(),
+        "{{BOTS_SEC}}": _sec(maproom.bots_block(docs), "botsec"),
+        "{{GAPS_SEC}}": _sec(maproom.gap_block(docs), "gapsec"),
+        "{{CONSTEL_SEC}}": _sec(maproom.constellation_block(docs), "constelsec"),
+        "{{READS}}": _featured_reads(docs),
+        "{{WANDER_PILL}}": maproom.wander_pill(),
+        "{{LANDING_JS}}": maproom.landing_scripts(docs),
     }
     for k, v in reps.items():
         html = html.replace(k, v)
     return html
+
+
+def _featured_reads(docs: Path) -> str:
+    """Three named essays plus the door to all of them — computed, never typed.
+
+    The landing said "Articles" in one word and named none of them, which for
+    the only long-form human writing on the site is a burial. Titles and the
+    authored count come from api/articles.json (hasArticle is the prose flag);
+    the URL slug is the key with ':' flattened to '_', the same rule the
+    article pages themselves are built by. Preferred picks are editorial;
+    anything missing is topped up in the API's own order, so this never
+    renders an empty card."""
+    import html as _html
+    data = load_json(docs / "api" / "articles.json", {}) or {}
+    arts = [a for a in data.get("articles", []) if a.get("hasArticle")]
+    if not arts:
+        return ""
+    by_key = {a.get("key"): a for a in arts}
+    prefer = ("entity:khun_phaen", "entity:lersi", "entity:ma")
+    picks = [by_key[k] for k in prefer if k in by_key]
+    for a in arts:
+        if len(picks) >= 3:
+            break
+        if a not in picks:
+            picks.append(a)
+    out = []
+    for a in picks[:3]:
+        slug = str(a.get("key", "")).replace(":", "_")
+        label = _html.escape(str(a.get("label", slug)))
+        # The API's `note` is a taxonomy aside and identical across entities —
+        # three cards reciting one sentence reads as filler. The count is a
+        # measured per-subject line, and it varies because the subjects do.
+        n = a.get("count")
+        meta = (f"an essay, with {n:,} manuscripts standing behind it" if n
+                else "an essay, with the records beside it")
+        out.append(f'<a class="way" href="/a/{_html.escape(slug, quote=True)}/">'
+                   f'<b>{label}</b><span>{meta}</span></a>')
+    total = len(data.get("articles", []))
+    out.append(f'<a class="way allreads" href="/articles"><b>All the essays</b>'
+               f'<span>{len(arts)} written by hand so far — of {total:,} subjects '
+               f'the archive names</span></a>')
+    return "\n      ".join(out)
 
 
 
@@ -291,7 +384,28 @@ def _doors_html() -> str:
     import html as _html
     import routes
 
-    out = []
+    # Grouped by what the reader came to DO — arrive with a question, wander,
+    # play with a working instrument, read at length, or meet the house. The
+    # list of doors is still routes.doors() and nothing else; only the shelving
+    # is authored here. A door whose path this map does not name falls into the
+    # last group rather than off the page — a new route can never silently
+    # vanish from the landing again, which is the drift check() exists to stop.
+    GROUPS = [
+        ("มาพร้อมคำถาม", "Arrive with a question",
+         ("/holding", "/need", "/nuea", "/search")),
+        ("เดินเที่ยวในคลัง", "Wander the archive",
+         ("/browse", "/atlas", "/trails", "/graph", "/wats", "/expedite",
+          "/market", "/diagrams")),
+        ("ของเล่นกลไก", "Working instruments",
+         ("/moon", "/jovilabe", "/redspot", "/divination", "/hun")),
+        ("อ่านยาว ๆ", "The long reads",
+         ("/textbooks", "/articles", "/glossary/", "/na/", "/yant", "/khwan",
+          "/hotrai")),
+        ("ของประจำบ้าน", "Kept by the house",
+         ("/blessings", "/waikhru", "/widgets", "/explore")),
+    ]
+    where = {p: i for i, (_, _, paths) in enumerate(GROUPS) for p in paths}
+    buckets = [[] for _ in GROUPS]
     for r in routes.doors():
         th, sep, en = r.door.partition(" · ")
         if not sep:                     # English-only door (Browse, Graph, …)
@@ -299,8 +413,19 @@ def _doors_html() -> str:
         else:
             head = (f'<b><span lang="th" class="th">{th}</span>'
                     f'<span class="en">{en}</span></b>')
-        out.append(f'<a class="way" href="{_html.escape(r.path, quote=True)}">'
-                   f'{head}<span>{r.blurb}</span></a>')
+        card = (f'<a class="way" href="{_html.escape(r.path, quote=True)}">'
+                f'{head}<span>{r.blurb}</span></a>')
+        buckets[where.get(r.path, len(GROUPS) - 1)].append(card)
+    out = []
+    for (th, en, _), cards in zip(GROUPS, buckets):
+        if not cards:
+            continue
+        out.append(
+            f'<div class="waygroup"><h3 class="wayhead">'
+            f'<span lang="th" class="th">{th}</span> '
+            f'<span class="wayen">· {en}</span></h3>'
+            f'<div class="ways">\n      ' + "\n      ".join(cards)
+            + "\n      </div></div>")
     return "\n      ".join(out)
 
 
@@ -397,6 +522,20 @@ def build_llms_full(docs: Path, site: str) -> str:
                     f"Full article JSON: {site}/api/article/{f.name}\n")
     body = "\n".join(arts)
     return head + "\n\n---\n\n# Articles — titles, ledes, and links\n\n" + body
+
+
+# ---- 404.html ----------------------------------------------------------------------
+def build_404(site: str) -> str:
+    return f"""<!doctype html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ไม่พบหน้านี้ · Not found — wichaa</title><meta name="robots" content="noindex">
+<style>:root{{--bg:#fbf8f2;--ink:#1c1a17;--mute:#5d574d;--teal:#1f6f6b}}@media(prefers-color-scheme:dark){{:root{{--bg:#141311;--ink:#f1ede4;--mute:#b8b0a2;--teal:#6fc7c2}}}}
+body{{margin:0;background:var(--bg);color:var(--ink);font:19px/1.55 -apple-system,"Noto Sans Thai","Thonburi",sans-serif}}main{{max-width:40rem;margin:0 auto;padding:3rem 1rem}}a{{color:var(--teal)}}h1{{font-size:1.8rem}}p{{color:var(--mute)}}ul{{padding-left:1.2rem}}</style></head>
+<body><main><h1>ไม่พบหน้านี้ · This page does not exist</h1>
+<p lang="th">หน้าอาจถูกย้ายหรือเอาออกแล้ว ลองประตูเหล่านี้</p><p lang="en">It may have moved, or been taken down. Try one of these doors.</p>
+<ul><li><a href="/">wichaa · หน้าแรก</a></li><li><a href="/amulets/">สารบบเครื่องราง · Amulet Essentials</a></li><li><a href="/search/">ค้นความหมาย · Search by meaning</a></li><li><a href="/browse/">Browse the manuscripts</a></li><li><a href="/llms.txt">llms.txt</a></li></ul>
+</main></body></html>
+"""
 
 
 # ---- robots.txt -------------------------------------------------------------------
@@ -612,6 +751,10 @@ def build_api_index(docs: Path, site: str) -> dict:
         "expedite.json": "St. Expedite: shrines and churches of a global saint-cult.",
         "activity.json": "Snapshot of recent pipeline activity as of build time.",
         "searchdocs.json": "Full client-side search index (large).",
+        "holding.json": ("The /holding identification key: candidate amulet kinds with "
+                         "class (resident / upkeep / provenance-sensitivity, from the "
+                         "vault vocabulary), figure-and-material mapping, and live market "
+                         "counts and price spreads."),
         "gallery.scan-index.json": "Index of raw folio scans for the gallery.",
         "pages.json": "Manifest of every page this build emitted (route, label, kind).",
         "index.json": "This document.",
@@ -629,8 +772,26 @@ def build_api_index(docs: Path, site: str) -> dict:
         "places.json": "Provenance provinces with counts and map coordinates.",
         "vocab.json": "Controlled vocabulary with corpus counts.",
         "thesaurus.json": "Bilingual thesaurus: query-token expansion groups.",
+        "segdict.txt": "Thai segmentation dictionary: the corpus words a query may "
+                       "be split on, one per line.",
         "dashboard.json": "Genre coverage vs digitisation.",
         "status.json": "Crawl/source status.",
+        "needs.json": ("The need axis (/need): every purpose the tradition names for a "
+                       "charm — คงกระพัน, เมตตา, โชคลาภ — with the treatises that teach "
+                       "it and the market listings that carry it, counted side by side."),
+        "functions.json": ("The function vocabulary: emic terms for what a charm DOES, "
+                           "each with Thai, gloss and corpus counts. One of the three "
+                           "axes (/need)."),
+        "classes.json": ("The class vocabulary: what kind of made thing a charm IS "
+                         "(ตะกรุด, ผ้ายันต์, พระเครื่อง …), with corpus counts (/need)."),
+        "materials.json": ("The material axis (/nuea): เนื้อ — what a sacred object is "
+                           "made of, the first thing an expert names. Each material with "
+                           "its dating signal, counterfeit pressure and corpus counts."),
+        "term-echo.json": ("Term echo: for a handful of emic terms, how often the "
+                           "treatises and the living market each use them — the same "
+                           "word counted across both corpora."),
+        "wander.json": ("The เดินเล่น pool: records the landing page's wander button "
+                        "draws from, date-seeded so everyone gets the same stroll."),
         "scans.all.json": "Every raw scan (paginated client-side); IIIF image per sha.",
         "img-iiif.json": "Map of image sha256 → IIIF image URL (on-demand page images).",
         "build-info.json": "Generator version, build time, catalogue mtime, counts.",
@@ -718,6 +879,8 @@ def build_openapi(site: str, docs: Path = None) -> dict:
             "/places.json": get("Places", "Provenance provinces with counts and coordinates."),
             "/vocab.json": get("Vocabulary", "Controlled vocabulary with corpus counts."),
             "/thesaurus.json": get("Thesaurus", "Bilingual query-token expansion groups."),
+            "/segdict.txt": get("Segmentation dictionary",
+                                "Corpus words a Thai query may be split on."),
             "/index.json": get("API index", "Self-describing manifest of all endpoints."),
         },
     }
@@ -896,6 +1059,132 @@ def manuscript_jsonld(rec: dict, site: str, mid: str, docs: Path | None = None) 
     return node
 
 
+# ---- publication dates ------------------------------------------------------------
+# A citation needs a date, and nothing in the build carried one: api/pages.json has
+# route/label/kind and no more, and a file mtime is the date of the last rebuild, not
+# of publication — stamping 8,700 pages with today's date would be inventing a fact.
+#
+# So the dates come from the docs repo's own history, which actually knows: the commit
+# that first added a page is its publication date, the commit that last touched it is
+# its modification date. One `git log` pass builds the whole table (one call per page
+# would be thousands of subprocesses). The result is cached in data/page_dates.json,
+# and `first` never regresses once recorded — so the dates survive a shallow clone, a
+# fresh checkout, or leaving git behind entirely, which is the direction of travel.
+#
+# After the seed, dateModified advances only when a page's own content hash changes.
+# Re-running site_meta.py must not bump every page's date, so the hash is taken with
+# our injected block stripped out — the marker's contents are excluded from the thing
+# they describe.
+def _repo_dates(docs: Path) -> dict:
+    """{path relative to the repo root: (first-added, last-touched)} for every built
+    file, from a single `git log`. Empty dict if docs/ is not in a git work tree."""
+    try:
+        root = subprocess.run(["git", "-C", str(docs), "rev-parse", "--show-toplevel"],
+                              capture_output=True, text=True, timeout=30)
+        if root.returncode != 0:
+            return {}
+        out = subprocess.run(
+            ["git", "-C", str(docs), "log", "--reverse", "--name-only", "--format=#%as"],
+            capture_output=True, text=True, timeout=300)
+        if out.returncode != 0:
+            return {}
+    except Exception:
+        return {}
+    dates, cur = {}, None
+    for line in out.stdout.splitlines():
+        if line.startswith("#"):
+            cur = line[1:].strip()
+        elif line.strip() and cur:
+            rel = line.strip()
+            prev = dates.get(rel)
+            dates[rel] = (prev[0], cur) if prev else (cur, cur)
+    return dates
+
+
+class PageDates:
+    """First-published / last-modified per built page, seeded from git and then kept
+    in a ledger. Idempotent: a run that changes no page changes no date."""
+
+    def __init__(self, docs: Path):
+        self.docs = docs
+        self.today = date.today().isoformat()
+        self.ledger = (load_json(DATES_LEDGER, {}) or {}).get("routes", {})
+        self.repo = _repo_dates(docs)
+        try:
+            top = subprocess.run(["git", "-C", str(docs), "rev-parse", "--show-toplevel"],
+                                 capture_output=True, text=True, timeout=30).stdout.strip()
+            self.root = Path(top) if top else None
+        except Exception:
+            self.root = None
+        self.seeded = 0
+
+    def _rel(self, html_path: Path) -> str | None:
+        if not self.root:
+            return None
+        try:
+            return html_path.resolve().relative_to(self.root).as_posix()
+        except Exception:
+            return None
+
+    def stamp(self, key: str, html_path: Path) -> tuple[str, str]:
+        """(published, modified) as ISO dates for one page."""
+        try:
+            body = html_path.read_text(encoding="utf-8")
+        except Exception:
+            return self.today, self.today
+        # hash the page WITHOUT our own injected block, so re-injection is not a change
+        bare = re.sub(re.escape(MARK_BEGIN) + r".*?" + re.escape(MARK_END), "",
+                      body, flags=re.DOTALL)
+        h = hashlib.sha256(bare.encode("utf-8")).hexdigest()[:16]
+
+        rec = self.ledger.get(key)
+        if rec is None:
+            rel = self._rel(html_path)
+            git = self.repo.get(rel) if rel else None
+            first, mod = git if git else (self.today, self.today)
+            self.seeded += 1
+        else:
+            first = rec.get("first") or self.today
+            mod = rec.get("modified") or first
+            if rec.get("hash") != h:
+                mod = self.today
+        if mod < first:
+            mod = first
+        self.ledger[key] = {"first": first, "modified": mod, "hash": h}
+        return first, mod
+
+    def save(self) -> None:
+        DATES_LEDGER.parent.mkdir(parents=True, exist_ok=True)
+        DATES_LEDGER.write_text(
+            json.dumps({"routes": dict(sorted(self.ledger.items()))},
+                       ensure_ascii=False, indent=1),
+            encoding="utf-8")
+
+
+def citation_meta(title: str, url: str, published: str, modified: str) -> str:
+    """Highwire + Dublin Core tags, the pair Zotero's Embedded Metadata translator
+    reads. `citation_publication_date` wants slashes; DC and OpenGraph want ISO."""
+    t = html.escape(title, quote=True)
+    return (
+        f'<meta name="citation_title" content="{t}">'
+        f'<meta name="citation_author" content="{html.escape(CITE_AUTHOR, quote=True)}">'
+        f'<meta name="citation_publication_date" content="{published.replace("-", "/")}">'
+        f'<meta name="citation_online_date" content="{modified.replace("-", "/")}">'
+        f'<meta name="citation_publisher" content="{html.escape(CITE_PUBLISHER, quote=True)}">'
+        f'<meta name="citation_public_url" content="{html.escape(url, quote=True)}">'
+        f'<meta name="citation_language" content="en">'
+        f'<meta name="DC.title" content="{t}">'
+        f'<meta name="DC.creator" content="{html.escape(CITE_AUTHOR, quote=True)}">'
+        f'<meta name="DC.publisher" content="{html.escape(CITE_ATTRIBUTION, quote=True)}">'
+        f'<meta name="DC.date" content="{published}">'
+        f'<meta name="DC.identifier" content="{html.escape(url, quote=True)}">'
+        f'<meta name="DC.rights" content="{CITE_LICENSE}">'
+        f'<meta property="article:published_time" content="{published}T00:00:00Z">'
+        f'<meta property="article:modified_time" content="{modified}T00:00:00Z">'
+        f'<link rel="license" href="{LICENSE_URL}">'
+    )
+
+
 def inject(html_path: Path, blocks: list[dict], extra: str = "") -> bool:
     """Insert JSON-LD <script>s (and any extra <link>/<meta> html) before </head>,
     inside our marker so re-runs replace cleanly."""
@@ -1032,6 +1321,12 @@ def main(argv=None) -> int:
     (docs / "llms.txt").write_text(build_llms_txt(docs, site), encoding="utf-8")
     (docs / "llms-full.txt").write_text(build_llms_full(docs, site), encoding="utf-8")
     (docs / "robots.txt").write_text(build_robots(site), encoding="utf-8")
+    # A Pages project without a 404.html answers every missing path with the homepage
+    # and a 200 — a soft-404 for every crawler, and removed pages never disappear
+    # (2026-09-03: six excluded amulet kinds still answered 200). A real 404 page, in
+    # both languages, pointing at the doors. Kept dependency-free and theme-aware.
+    (docs / "404.html").write_text(build_404(site), encoding="utf-8")
+    print("site_meta: 404.html written")
     (docs / "sitemap.xml").write_text(build_sitemap(docs, site), encoding="utf-8")
     wjson("api/index.json", build_api_index(docs, site))
     wjson("api/openapi.json", _openapi_fill(build_openapi(site, docs), docs, site))
@@ -1063,6 +1358,7 @@ def main(argv=None) -> int:
                 f'<meta name="keywords" content="{kw}">')
 
     n_pages = 0
+    dates = PageDates(docs)
     for route, label in discover_sections(docs):
         hp = docs / route / "index.html"
         if not hp.is_file():
@@ -1070,8 +1366,15 @@ def main(argv=None) -> int:
         # Pages that already carry og/twitter (the wiki's own template, the landing,
         # the glossary) keep it — we only fill the gap. Bare pages get the full set;
         # pages with og but no keywords just get keywords (the wiki template omits them).
-        cur = hp.read_text(encoding="utf-8")
-        extra = alt
+        # Test the page WITHOUT our own injected block. Reading the whole file made
+        # these two checks answer differently on alternate runs: run 1 saw no
+        # keywords and injected them, run 2 found them (inside our own marker),
+        # skipped them, and rewrote the marker without them — so every publish
+        # produced a spurious diff on every section page, flip-flopping forever.
+        cur = re.sub(re.escape(MARK_BEGIN) + r".*?" + re.escape(MARK_END), "",
+                     hp.read_text(encoding="utf-8"), flags=re.DOTALL)
+        pub, mod = dates.stamp(route, hp)
+        extra = alt + citation_meta(label, f"{site}/{route}", pub, mod)
         if "og:image" not in cur:
             extra += social_meta(f"{label} · wichaa",
                                  SECTION_DESC.get(route, SITE_DESC))
@@ -1087,8 +1390,15 @@ def main(argv=None) -> int:
     for d in read_dirs(docs):
         mid = d.name
         rec = load_json(docs / "api" / "manuscript" / f"{mid}.json", {})
-        if inject(d / "index.html", [manuscript_jsonld(rec or {}, site, mid, docs)]):
+        hp = d / "index.html"
+        ms = (rec or {}).get("manuscript", rec or {})
+        mtitle = (ms.get("title") or ms.get("titleEnglish") or ms.get("titleThai")
+                  or f"Manuscript {mid}")
+        pub, mod = dates.stamp(f"read/{mid}/", hp)
+        if inject(hp, [manuscript_jsonld(rec or {}, site, mid, docs)],
+                  extra=citation_meta(mtitle, f"{site}/read/{mid}/", pub, mod)):
             n_read += 1
+    dates.save()
     n_iri, iri_host = graph_iris(docs, a.iri_host)
 
     if a.custom_domain:
@@ -1098,6 +1408,8 @@ def main(argv=None) -> int:
     if landed:
         print("           curated landing → index.html (overview preserved at /explore)")
     print(f"           JSON-LD → {n_pages} section pages + {n_read} reader pages")
+    print(f"           citation meta → {n_pages + n_read} pages "
+          f"(as {CITE_AUTHOR}; {dates.seeded} dates seeded from git)")
     iri_note = (f"repointed → {a.iri_host}" if a.iri_host
                 else f"already stable under {iri_host or 'their namespace'}")
     print(f"           {n_iri} graph IRIs ({iri_note}); RDF linked from every page")

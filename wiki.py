@@ -37,6 +37,7 @@ import hotrai      # หอไตร — the wat library addressed to machines (
 import khwantext   # สู่ขวัญ — the human soul-calling published in full (verses: hunpayont.SUKHWAN)
 import waikhru     # ไหว้ครูยนต์ — the blessing for the person's hand at the machine
 import romphon     # ใต้ร่มพร — the standing blessings the whole fleet works under
+import poppy       # ฝิ่น — the highland agricultural year, poppy then coffee
 from urllib.parse import urlparse, parse_qs, quote
 
 HERE = Path(__file__).resolve().parent
@@ -1199,6 +1200,15 @@ ENTITIES = [
     # zero real), and "ma sang" for สะง้า matches Nāma saṅgaha and Abhidhamma
     # saṅkhep (7 false hits, zero real). Use the full compounds instead.
     ("ma",          "Ma (horse) — and the zebra",        1.8, ["ma si mok", "ma nin", "assaratana", "assalayana", "ajaniya", "achanai", "sindhop", "kanthaka", "valahassa", "valahaka", "walahok", "ม้าสีหมอก", "ม้าเสพนาง", "ม้าขี่", "ม้าทรง", "ม้าลาย", "อาชาไนย", "วลาหก", "กัณฐกะ", "สะง้า"]),
+    # The elephant scores 31 — the best-attested animal in the catalogue — and
+    # every alias is a COMPOUND, verified row by row on 2026-08-19. Never bare
+    # "cang": it also matches Bojjhaṅga paritta (pocangka, ids 1266/2083). Never
+    # "chang": ตำนานช้างแส่น (ids 6863/6865) and ...ศรีช้างแสน (3529) are CHIANG
+    # SAEN in the old spelling, and ประวัติปู่อ้ายทิพช้าง (5045/5082) is a man.
+    # "cang cet ho" is the Mae Hong Son spelling of ช้างเจ็ดหัว (id 75); "cang
+    # foek" is แปงช้างเผีก in the Phayao compendium (5498); ", cang," reaches the
+    # Lampang animal-marks list (5131) where the elephant is one item in a row.
+    ("chang",       "Chang (elephant)",                  2.2, ["khwan cang", "lakkhana cang", "cang phueak", "cang phoek", "cang foek", "cang pong", "cang phong", "cang cet hua", "cang cet ho", "cang sam nga", "cang sam pai", "cang satan", "cang sattanta", "cang satanta", "phanya cang", "satanta", "sattanta", ", cang,"]),
     ("patiloma",    "Paṭiloma (reversal & mirror katha)", 2.2, ["ถอยหลัง", "ปฏิโลม", "อนุโลม", "อิติปิโส", "itipiso"]),
     ("khun_phaen",  "Khun Phaen (epic hero & amulet)",   2.0, ["khun phaen", "khun paen", "khunpaen", "ขุนแผน", "พระขุนแผน", "ขุนช้าง", "khun chang", "พลายแก้ว", "phlai kaeo", "พลายกุมาร", "plai kuman"]),
     ("suep_cata",   "Suep Cata (life-extension rite)",   2.6, ["suep cata", "suep chata", "sup cata", "sueb cata", "sup chata"]),
@@ -1212,6 +1222,25 @@ ENTITIES = [
     ("vessantara",  "Vessantara / Mahāchat",             1.6, ["wetsantara", "wetsantala", "wetsandon", "mahachat", "maha chat"]),
     ("mangrai",     "King Mangrai (founder of Lanna)",   1.6, ["mangrai", "manglai", "menglai", "mengrai", "มังราย", "เม็งราย"]),
     ("mangraisat",  "Mangraisat (Mangrai code)",         1.5, ["mangrai", "manglai", "menglai"]),
+    # The corners score ZERO and that is the finding, not a bug — the horse's
+    # rule again. Every alias below was run against all three title fields on
+    # 2026-08-27 (bare "แจ่ง", bare "jaeng", "chaeng", and all four corner
+    # compounds in both scripts): 0 hits, 0 false hits. The four แจ่ง are kept
+    # in brick, rite and speech, not on the leaf — the article says so — and
+    # the aliases stand ready to light the counter the day a tamnan witness
+    # arrives in the crawl.
+    ("jaeng",       "Jaeng (the four moat corners)",     1.5, ["แจ่ง", "jaeng", "chaeng si phum", "chaeng katam", "chaeng ku hueang", "chaeng hua lin", "แจ่งศรีภูมิ", "แจ่งกะต๊ำ", "แจ่งก๊ะต๊ำ", "แจ่งกู่เฮือง", "แจ่งหัวลิน"]),
+    # The cloth counter, NOT a colour counter — and that is the article's whole
+    # argument: 37 witnesses name cloth and none of them names a dye. Aliases
+    # verified row by row on 2026-08-31. Three were tried and REMOVED: bare
+    # "tan pha" also matches Tamnan nitan phanya tham/cueang (4 false hits, ids
+    # 2797/3116/3475/3478); bare "hue pha" matches "bok khit hue phanya pitsu"
+    # (5480); and the Thai strings ผ้า / ย้อม never fire, because this matcher
+    # reads title_english first and nearly every row has one. "nyom kham" and
+    # "nyom simma" are the corpus's ONLY two dye-words and neither dyes cloth —
+    # one gilds gold (360), one touches the sima (6084). They are kept precisely
+    # so the counter can be shown to have looked.
+    ("hom",         "Hom (indigo) and the cloth",        1.4, ["tat suea pha", "tat sue pha", "wan nung pha", "nyom kham", "nyom simma", "bangsakun", "pha ap nam", "pha thot", "nyan pha", "pha nam fon", "anisong tan pha", "tan pha kanthin", "pha kathin", "pha mahakathin", "pha watsa", "pha thong", "thwai pha cam watsa", "pha cet pak", "pha lwat", "pha khao"]),
     ("lokaniti",    "Lokanīti",                          1.4, ["lokaniti", "lokniti"]),
     ("thammasat",   "Thammasat (dhammasattha)",          1.3, ["thammasat", "dhammasat"]),
 ]
@@ -1230,6 +1259,7 @@ ENTITY_HOOKS = {
     "holasat":     "The horā almanac — how a diviner reads time, fate, and the lucky day.",
     "kai":         "The chicken — dawn-crier, offering-bird, the king's fighting cock, and the chick-stars of the Pleiades.",
     "ma":          "The horse — what the spirit rides, what the caravan loaded, and the seventh year of the Lanna cycle.",
+    "chang":       "The elephant — the six-tusked king of the jataka, the white one that chose Doi Suthep, the khwan rite on the leaf, and the twelfth year of the Lanna cycle.",
     "patiloma":    "Reversal as technique — katha recited backward, and texts and yantra grids built to read the same when they are.",
     "khun_phaen":  "The seducer-soldier of the Ayutthaya epic, pressed into an amulet — a Buddha's form outside, kuman material within.",
     "suep_cata":   "The rite that lengthens a threatened life when the stars turn against it.",
@@ -1239,8 +1269,10 @@ ENTITY_HOOKS = {
     "vessantara":  "The Great Birth (Mahāchat) — the most-told, most-merit jataka of all.",
     "mangrai":     "The founder-king himself — Chiang Rai, Chiang Mai, and the law and lineage that carry his name.",
     "mangraisat":  "The Mangrai code, the old law of the Lanna kingdom.",
+    "hom":         "Indigo — the plant, the living pot that has to be fed, and the one colour a monk may not wear.",
     "lokaniti":    "Worldly wisdom — maxims for conduct, rule, and getting on in life.",
     "thammasat":   "The dhammasattha, root treatise beneath traditional law.",
+    "jaeng":       "The four moat corners — still ritual stations: the June city-blessing lights all ten points, five gates and four jaeng and the navel.",
 }
 
 
@@ -2130,6 +2162,9 @@ def lenses_snapshot():
 SEARCH_DB = DATA / "search.db"
 
 
+_INDEX_SCHEMA = 3   # see the note at the end of _catalog_signature
+
+
 def _catalog_signature(cat):
     n = cat.execute("SELECT COUNT(*) c FROM manuscripts").fetchone()["c"]
     mx = cat.execute("SELECT COALESCE(MAX(last_seen),'') m FROM manuscripts").fetchone()["m"]
@@ -2159,7 +2194,11 @@ def _catalog_signature(cat):
         blb = 0
     arts = sum(1 for p in CONTENT.glob("*.md"))
     amt = max((p.stat().st_mtime for p in CONTENT.glob("*.md")), default=0)
-    return f"{n}:{mx}:{imgs}:{ocr}:{pgc}:{pgm}:{trc}:{blb}:{arts}:{amt:.0f}"
+    # _INDEX_SCHEMA folds the indexing CODE into the signature: a change to how
+    # nbody/labels are composed (raw_metadata cleanup, label dedupe) otherwise
+    # ships only whenever the catalogue happens to move next — silently stale
+    # until then. Bump it whenever build_search_index's row shape changes.
+    return f"{n}:{mx}:{imgs}:{ocr}:{pgc}:{pgm}:{trc}:{blb}:{arts}:{amt:.0f}:i{_INDEX_SCHEMA}"
 
 
 # ---- catalog-signature cache ----------------------------------------------
@@ -2242,6 +2281,17 @@ _THESAURUS_SEED = [
     ["kai", "gai", "chicken", "rooster", "junglefowl", "ไก่", "พญาไก่", "ไก่เถื่อน", "ไก่แก้ว", "ไก่ชน", "ดาวลูกไก่"],
     ["ma", "horse", "zebra", "sanga", "ma khi", "ma song", "ม้า", "ม้าลาย", "สะง้า", "มะเมีย",
      "ม้าขี่", "ม้าทรง", "ม้าสีหมอก", "ม้าเสพนาง", "อาชาไนย", "วลาหก", "กัณฐกะ"],
+    ["chang", "elephant", "elephants", "white elephant", "mahout", "ช้าง", "ช้างเผือก", "ปางช้าง",
+     "ควาญ", "ควาญช้าง", "คช", "คชสาร", "คชลักษณ์", "หัตถี", "กุญชร", "เอราวัณ", "ไอยรา",
+     "chaddanta", "ฉัททันต์", "สัททันตะ", "พิฆเนศ", "ganesha", "ganesh", "สู่ขวัญช้าง"],
+    # Both spellings of the plant AND both of the garment: a reader who types
+    # what the Phrae shop signs say (ม่อฮ่อม) must reach the page the Royal
+    # Society spells หม้อห้อม. คราม is the lowland species and the generic word
+    # for the colour, so it belongs in the group even though the plant differs.
+    ["hom", "indigo", "ห้อม", "ฮ่อม", "หม้อห้อม", "ม่อฮ่อม", "ม่อห้อม", "หม้อฮ่อม",
+     "khram", "คราม", "ย้อมคราม", "หม้อนิล", "นิล", "nila", "mo hom", "mohom",
+     "strobilanthes", "indigofera", "dye", "ย้อม", "ผ้า", "cloth", "ผ้าบังสุกุล",
+     "bangsukun", "bangsakun", "ตัดเสื้อผ้า", "ไทพวน", "tai phuan", "ทุ่งโฮ้ง"],
     ["takrut", "tarkrut", "trakut", "ตะกรุด", "ตระกรุด"],
     # เมตตามหานิยม IS the love charm, so the English a reader reaches for
     # belongs in this group and not in one of its own — "love charm" returned
@@ -2295,11 +2345,26 @@ def _vocab_groups():
         for item in doc.get(key) or []:
             words = [item.get("term"), item.get("key", "").replace("_", " "),
                      item.get("enGloss")]
-            # A gloss is a phrase ("luck and windfall"); keep the phrase AND its
-            # content words, so both "luck" and the whole phrase reach the term.
-            gloss = item.get("enGloss") or ""
-            words += [w for w in re.split(r"[,\s]+", gloss)
-                      if len(w) > 3 and w.lower() not in ("and", "with", "from", "that")]
+            # A MULTI-WORD gloss does not contribute its separate words, and the
+            # reason is the metals. Sixteen materials are glossed as phrases and
+            # three words are shared between them — `alloy` by นวโลหะ, เนื้อชิน,
+            # เนื้อนาค and เมฆพัด; `cloth` by จีวร and ผ้ายันต์; `paste` by
+            # เนื้อผง and เนื้อว่าน. Since _thesaurus() unions any groups that
+            # share a member, each shared word welded its materials into one bag:
+            # `alloy` expanded to twenty terms covering four metallurgically
+            # different substances, and a search for เมฆพัด reached นวโลหะ.
+            #
+            # These are the distinctions this corpus exists to hold. materials.json
+            # records counterfeitPressure and datingSignal per material precisely
+            # because นาก, เมฆพัด and นวโลหะ are not interchangeable, and a monk's
+            # robe (จีวร) is not a yantra cloth (ผ้ายันต์).
+            #
+            # A one-word gloss is safe and still pulls its weight: brass reaches
+            # ทองเหลือง. The whole phrase stays a member either way, so searching
+            # "copper-gold alloy (rose gold)" still lands on นาก.
+            gloss = (item.get("enGloss") or "").strip()
+            if gloss and len(re.split(r"[,\s]+", gloss)) == 1:
+                words.append(re.sub(r"[^\w-]", "", gloss))
             group = [w for w in words if w]
             if len(group) > 1:
                 out.append(group)
@@ -2331,6 +2396,39 @@ def _expand_token(tok):
         if tok == key or (len(tok) >= 3 and (tok in key or key in tok)):
             members.update(grp)
     return members
+
+
+def _index_meta_text(raw):
+    """raw_metadata arrives as a JSON blob on contributed rows. Its VALUES (a
+    Thai original filename, a haul note) are matchable text; its keys, braces
+    and storage paths are not — indexed raw, they surfaced verbatim in /search
+    snippets and made plumbing words ('pdf', a directory name) match every
+    contributed volume. Index the text, drop the syntax."""
+    if not raw:
+        return ""
+    try:
+        d = json.loads(raw)
+    except (ValueError, TypeError):
+        return raw
+    if not isinstance(d, dict):
+        return raw if isinstance(d, str) else str(d)
+    return " ".join(
+        str(v) for k, v in d.items()
+        if v not in (None, "") and k not in ("stored_path", "sha256")
+        # bare numbers are file sizes and ids — matchable by nobody, noise to everybody
+        and not isinstance(v, (int, float)) and not str(v).isdigit())
+
+
+def _dedupe_parts(parts):
+    """Order-preserving dedupe for display labels: rows whose English title and
+    transliteration are the same string rendered 'Untitled (X) Untitled (X)' on
+    every result card."""
+    seen, out = set(), []
+    for p in parts:
+        if p and p not in seen:
+            seen.add(p)
+            out.append(p)
+    return out
 
 
 def build_search_index(force=False):
@@ -2408,12 +2506,12 @@ def build_search_index(force=False):
             meta = " ".join(filter(None, [
                 r["genre_normalized"], r["genre_raw"], r["provenance_temple"],
                 r["provenance_province"], r["language"], r["script"],
-                r["raw_metadata"], wd]))
+                _index_meta_text(r["raw_metadata"]), wd]))
             body = meta + " " + " ".join(body_by_mid.get(r["id"], []))
             # every title variant stays matchable via ntitle; the DISPLAY label
             # prefers the curated bilingual working title when one exists.
-            label = wt or " ".join(filter(None, [r["title_english"],
-                                                 r["title_translit"], r["title_thai"]]))
+            label = wt or " ".join(_dedupe_parts([r["title_english"],
+                                                  r["title_translit"], r["title_thai"]]))
             docs.append((str(r["id"]), "m", label or "(untitled)", _norm(title), _norm(body)))
         for stype, value in _iter_subjects(cat):
             c = load_content(stype, value)
@@ -2728,22 +2826,19 @@ def expedite_snapshot():
         conn.close()
 
 
-def search(q, limit=60):
-    """Robust multilingual search. Splits the query into tokens, expands each via
-    the bilingual thesaurus + sara-am normalization, and requires every token-group
-    to hit (AND of ORs) somewhere in a doc's title or body — as a plain substring,
-    so Thai and Latin behave identically. Returns
-    {manuscripts:[{id,label,snippet}], articles:[{key,label,snippet}], query}."""
-    out = {"manuscripts": [], "articles": [], "query": q}
-    if not q or not q.strip():
-        return out
+def _match(q):
+    """The lexical matcher both search shapes share (its JS twin is
+    search_match.js, shared the same way by the static build's shim). Splits the
+    query into tokens, expands each via the bilingual thesaurus + sara-am
+    normalization, and requires every token-group to hit (AND of ORs) somewhere
+    in a doc's title or body — as a plain substring, so Thai and Latin behave
+    identically. Returns (scored, all_terms), scored best-first as
+    [(score, row, first_body_pos)]."""
     rows = _search_rows()
-    if not rows:
-        return out
     groups = [_expand_token(t) for t in q.split() if t.strip()]
     groups = [g for g in groups if g]
-    if not groups:
-        return out
+    if not rows or not groups:
+        return [], set()
     all_terms = {m for g in groups for m in g}
 
     scored = []
@@ -2770,6 +2865,16 @@ def search(q, limit=60):
         if ok:
             scored.append((score, r, first_pos))
     scored.sort(key=lambda x: -x[0])
+    return scored, all_terms
+
+
+def search(q, limit=60):
+    """Robust multilingual search — the browse page's quick-search shape. Returns
+    {manuscripts:[{id,label,snippet}], articles:[{key,label,snippet}], query}."""
+    out = {"manuscripts": [], "articles": [], "query": q}
+    if not q or not q.strip():
+        return out
+    scored, all_terms = _match(q)
 
     # cap each bucket independently so a flood of high-OCR manuscripts can't crowd
     # the authored articles out of the results
@@ -2784,6 +2889,35 @@ def search(q, limit=60):
                 continue
             snip = _snippet(r["nbody"] or r["ntitle"] or "", all_terms, pos)
             out["articles"].append({"key": r["ref"], "label": r["label"], "snippet": snip})
+    return out
+
+
+def search_meaning(q, n=24):
+    """What /search renders: the wichaa-router Worker's {query, understood,
+    count, results} shape, answered here from the lexical matcher so the dev
+    server behaves like the deployed site (whose offline twin is staticMeaning
+    in build_static.py). Only fields the lexical index really has; score is
+    omitted so the page renders no meter rather than an invented number."""
+    q = (q or "").strip()
+    out = {"query": q,
+           "understood": {"terms": q.split(), "notes": ["lexical"],
+                          "filters": {}, "basis": "words"},
+           "count": 0, "results": []}
+    if not q:
+        return out
+    scored, _terms = _match(q)
+    for score, r, pos in scored[:n]:
+        m = r["kind"] == "m"
+        out["results"].append({
+            "id": ("ms:%s" if m else "a:%s") % r["ref"],
+            "kind": "manuscript" if m else "article",
+            "mid": int(r["ref"]) if m else None,
+            # the dev server's detail routes; the static site's differ (/m/<id>/)
+            "url": ("/m?id=%s" % r["ref"]) if m else "/a?s=" + quote(str(r["ref"])),
+            "title_th": r["label"], "title_en": "", "translit": "",
+            "genre": "", "place": "", "temple": "", "date": "",
+        })
+    out["count"] = len(out["results"])
     return out
 
 
@@ -3285,12 +3419,14 @@ VOCAB_META = [
     ("นาค", "nak", "naga — sacred serpent", "beings / objects", "naga", []),
     ("ไก่", "kai", "chicken / rooster — offering-bird, fighting bird", "beings / objects", "kai", []),
     ("ม้า", "ma", "horse — mount of the spirit, of the caravan, of the epic", "beings / objects", "ma", ["ม้าขี่", "ม้าทรง", "ม้าสีหมอก", "ม้าเสพนาง"]),
+    ("ช้าง", "chang", "elephant — jataka king, white-elephant marks, the khwan rite, the animal that carries the state", "beings / objects", "chang", ["ช้างเผือก", "ปางช้าง", "สู่ขวัญช้าง", "ลักขณะช้าง", "ควาญช้าง"]),
     ("ผี", "phi", "ghost / spirit", "beings / objects", None, []),
     ("พราย", "phrai", "prai — spirit of the dead", "beings / objects", None, []),
     ("กุมาร", "kuman", "kuman — child-spirit", "beings / objects", None, []),
     ("ขุนแผน", "khun-phaen", "Khun Phaen — epic hero, charm amulet", "beings / objects", "khun_phaen", ["ขุนแผน", "พระขุนแผน"]),
     ("ตะกรุด", "takrut", "takrut — scroll amulet", "beings / objects", None, ["ตะกรุด", "ตระกรุด"]),
     ("ผ้ายันต์", "pha-yan", "yantra cloth", "beings / objects", "yantra", []),
+    ("ห้อม", "hom", "indigo — the plant, the pot, and the blue the leaf never records", "beings / objects", "hom", ["ฮ่อม", "หม้อห้อม", "ม่อฮ่อม", "คราม", "หม้อนิล"]),
     ("น้ำมัน", "namman", "oil (prai / metta oil)", "beings / objects", None, ["น้ำมัน", "นำมัน", "น้ามัน", "นํามัน"]),
     ("ว่าน", "waan", "waan — magical tuber", "beings / objects", None, []),
 ]
@@ -3956,6 +4092,8 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(200, "image/jpeg", card[0], {"Cache-Control": "max-age=86400"})
         if path == "/browse":
             return self._send(200, "text/html; charset=utf-8", INDEX_PAGE)
+        if path in ("/search", "/search/"):
+            return self._send(200, "text/html; charset=utf-8", SEARCH_PAGE)
         if path == "/m":
             return self._send(200, "text/html; charset=utf-8", DETAIL_PAGE)
         if path == "/read":
@@ -4064,7 +4202,15 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/api/graph.ttl":
             return self._send(200, "text/turtle; charset=utf-8", graph_turtle())
         if path == "/api/search":
-            return self._json(search((qs.get("q") or [""])[0]))
+            # Two consumers, two shapes (see build_static.py's shim): /search
+            # sends n= and reads the semantic {results, understood} shape; the
+            # browse quick search sends no n= and reads {manuscripts, articles}.
+            qv = (qs.get("q") or [""])[0]
+            if "n" in qs:
+                nq = (qs.get("n") or [""])[0]
+                n = (int(nq) if nq.isdigit() else 0) or 24
+                return self._json(search_meaning(qv, n))
+            return self._json(search(qv))
         if path == "/api/vocab":
             return self._json(vocab_snapshot())
         if path == "/api/gallery":
@@ -5061,6 +5207,370 @@ for(const it of D.items){
 })
 
 
+# ---------------------------------------------------------------------------
+# ทับศัพท์ — foreign words written in Thai script.
+#
+# Thailand writes English in Thai letters constantly, and a romanizer cannot
+# read it back: hand RTGS the shopfront ไนท์บาร์ซาร์ and it returns "Naibasa",
+# because it is sounding out letters that do not spell a Thai word. The
+# English is "Night Bazaar".
+#
+# The catalogue is built and maintained in the `thapsap` project, which mines
+# place registers, the Treasury's condominium roll and the amulet market for
+# these words and establishes each one's reading three ways — from a corpus
+# that recorded both names, from a person, or from the detector as a proposal.
+# This widget shows the CONFIRMED entries only, with the reading letter rules
+# produce beside the English it actually is, because the failure is the
+# argument for the catalogue and should be visible rather than asserted.
+#
+# Data: thapsap/exports/thapsap.json, overridable with THAPSAP_DATA.
+# ---------------------------------------------------------------------------
+
+def thapsap_widget():
+    import json
+    import os
+    from pathlib import Path
+
+    path = Path(os.environ.get("THAPSAP_DATA") or
+                (Path.home() / "Developer" / "claude code projects" /
+                 "thapsap" / "exports" / "thapsap.json"))
+    if not path.exists():
+        # Honest-empty: say the export has not been run
+        # rather than draw an empty table that looks like a finding.
+        return {"present": False, "entries": [], "counts": {},
+                "sources": {}, "generated": ""}
+    d = json.loads(path.read_text(encoding="utf-8"))
+    # Pass the export through rather than naming its keys one by one — the
+    # first version whitelisted five fields and silently dropped the layer
+    # data the moment the exporter grew it.
+    d["entries"] = [e for e in d.get("entries", []) if e.get("en")]
+    d["sources"] = {k: v for k, v in d.get("sources", {}).items() if v.get("present")}
+    d["present"] = True
+    return d
+
+
+WIDGETS.update({
+    "thapsap": (thapsap_widget, "ทับศัพท์ · Words written in Thai letters",
+                "Thailand writes English in Thai script — ไนท์บาร์ซาร์ is "
+                "“Night Bazaar”, and a romanizer reads it “Naibasa”. It writes "
+                "Chinese too, and the two layers leave opposite marks. "
+                "A catalogue, with the misreading beside the meaning."),
+})
+
+_WIDGET_JS.update({
+ "thapsap": r"""
+if(!D.present){main.append(el('p',{textContent:'The thapsap catalogue has not been exported yet — this widget lights up on its first export.'}));return;}
+const C=D.counts||{}, M=C.by_method||{}, L=D.layers||{}, NOTE=D.layer_note||{};
+main.append(el('p',{style:'font-weight:700',textContent:
+  `${(C.confirmed||0).toLocaleString()} confirmed words · ${(C.proposed||0).toLocaleString()} more proposed and awaiting review`}));
+main.append(el('p',{className:'muted',style:'font-size:13px;margin-top:-4px',textContent:
+  `Established: ${(M.aligned||0).toLocaleString()} by a corpus that recorded both names · ${(M.hand||0).toLocaleString()} by hand · ${(M.signal||0).toLocaleString()} proposed by the detector. Only the first two are shown.`}));
+
+// The exhibit — the failure this catalogue repairs, stated before any table.
+const ex=el('div');
+ex.style.cssText='border:1px solid #c9d6d2;border-radius:12px;background:#fff;padding:14px 18px;margin:14px 0';
+ex.append(el('div',{style:'font-size:22px;font-weight:700',textContent:'ไนท์บาร์ซาร์ คอนโดเทล'}));
+const line=el('div',{style:'font-size:14px;color:#3a4a47;margin-top:6px'});
+line.append(el('span',{textContent:'letter rules read it '}));
+line.append(el('b',{style:'color:#9b2c2c',textContent:'Naibasa Khondothen'}));
+line.append(el('span',{textContent:' — it says '}));
+line.append(el('b',{style:'color:#1F4E4A',textContent:'Night Bazaar Condotel'}));
+ex.append(line);
+main.append(ex);
+
+// ---- the layers ---------------------------------------------------------
+const LAYERS=[
+  {key:'all',   label:'All',            colour:'#1F4E4A'},
+  {key:'thapsap:en', label:'English',   colour:'#1F4E4A', mark:'การันต์ ◌์'},
+  {key:'thapsap:zh', label:'Chinese',   colour:'#B8860B', mark:'◌๊ ◌๋'},
+  {key:'thapsap:xx', label:'Unplaced',  colour:'#6b7c78', mark:'neither'},
+];
+const layerOf=k=>LAYERS.find(l=>l.key===k)||LAYERS[3];
+
+main.append(el('h3',{textContent:'Two languages, two problems, two marks',style:'margin:22px 0 4px'}));
+const why=el('div',{style:'display:grid;gap:8px;margin-bottom:14px'});
+for(const k of ['en','zh','kam_mueang']){
+  if(!NOTE[k]) continue;
+  const row=el('div',{style:'font-size:14px;line-height:1.6;color:#3a4a47'});
+  const tag=el('b',{textContent:k==='en'?'English — การันต์ ◌์  ':k==='zh'?'Chinese — ◌๊ ◌๋  ':'Northern Thai — ◌๊ ◌๋ too  '});
+  tag.style.color = k==='en'?'#1F4E4A':k==='zh'?'#B8860B':'#8B3A62';
+  row.append(tag, document.createTextNode(NOTE[k]));
+  why.append(row);
+}
+main.append(why);
+
+const tabs=el('div',{style:'display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 10px'});
+main.append(tabs);
+
+const box=el('div',{style:'margin:10px 0'});
+const q=el('input',{type:'search',placeholder:'search Thai or English…',
+  style:'width:100%;box-sizing:border-box;padding:9px 12px;border:1px solid #c9d6d2;border-radius:8px;font-size:15px'});
+box.append(q); main.append(box);
+
+const wrap=el('div',{style:'overflow-x:auto'});
+const tbl=el('table');
+tbl.style.cssText='border-collapse:collapse;width:100%;font-size:14px;min-width:600px';
+const head=el('tr');
+for(const h of ['Thai','letter rules read it','it says','layer','seen']){
+  const th=el('th',{textContent:h});
+  th.style.cssText='text-align:left;padding:7px 10px;border-bottom:2px solid #c9d6d2;font-size:12px;'
+    +'text-transform:uppercase;letter-spacing:.05em;color:#3a4a47;white-space:nowrap';
+  head.append(th);}
+tbl.append(head);
+const body=el('tbody'); tbl.append(body); wrap.append(tbl); main.append(wrap);
+const note=el('p',{className:'muted',style:'font-size:13px'}); main.append(note);
+
+let active='all';
+function drawTabs(){
+  tabs.textContent='';
+  for(const l of LAYERS){
+    const n = l.key==='all' ? D.entries.length : (L[l.key]||0);
+    if(l.key!=='all' && !n) continue;
+    const b=el('button',{textContent:`${l.label} (${n.toLocaleString()})`});
+    b.style.cssText='padding:6px 13px;border-radius:8px;font-size:13.5px;cursor:pointer;border:1px solid '
+      +(active===l.key?l.colour:'#c9d6d2')+';background:'+(active===l.key?l.colour:'#fff')
+      +';color:'+(active===l.key?'#fff':'#1a2a27');
+    b.addEventListener('click',()=>{active=l.key;drawTabs();draw(q.value);});
+    tabs.append(b);
+  }
+}
+
+function draw(filter){
+  body.textContent='';
+  const f=(filter||'').trim().toLowerCase();
+  const rows=D.entries.filter(e=>(active==='all'||e.kind===active)
+    &&(!f||e.th.includes(f)||(e.en||'').toLowerCase().includes(f)||(e.misread||'').toLowerCase().includes(f)));
+  for(const e of rows.slice(0,400)){
+    const L2=layerOf(e.kind);
+    const tr=el('tr');
+    const chip=el('span',{textContent:L2.label});
+    chip.style.cssText=`font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid ${L2.colour};color:${L2.colour};white-space:nowrap`;
+    const cells=[
+      el('span',{style:'font-size:17px',textContent:e.th}),
+      el('span',{style:'color:#9b2c2c',textContent:e.misread||'—'}),
+      el('b',{textContent:e.en}),
+      chip,
+      el('span',{style:'color:#3a4a47',textContent:e.seen>1?e.seen+'×':''}),
+    ];
+    for(const c of cells){
+      const td=el('td'); td.style.cssText='padding:6px 10px;border-bottom:1px solid #e6eeec;vertical-align:top';
+      td.append(c); tr.append(td);}
+    body.append(tr);
+  }
+  note.textContent = rows.length>400
+    ? `showing 400 of ${rows.length.toLocaleString()} — search to narrow`
+    : `${rows.length.toLocaleString()} shown`;
+}
+drawTabs(); draw('');
+q.addEventListener('input',()=>draw(q.value));
+
+// ---- the counter-example ------------------------------------------------
+// Words that look foreign and are not. This is the honest limit of the
+// method, so it is shown rather than described.
+if((D.northern_morphemes||[]).length){
+  const nb=el('div');
+  nb.style.cssText='border:1px solid #c9d6d2;border-left:3px solid #8B3A62;border-radius:8px;'
+    +'background:#fff;padding:14px 18px;margin:22px 0 0';
+  nb.append(el('div',{style:'font-weight:700;margin-bottom:5px',
+    textContent:'Words that look foreign and are not'}));
+  nb.append(el('p',{style:'font-size:14px;color:#3a4a47;margin:0 0 9px;line-height:1.6',
+    textContent:'Northern Thai carries the same rare tone marks a Chinese loan does, for the same '
+      +'reason and without being a loan at all. These '+D.northern_morphemes.length
+      +' morphemes were read out of the temple register — rare-tone words whose occurrences '
+      +'sit mostly in the eight Lanna provinces — and every one of them would otherwise have '
+      +'been catalogued as foreign.'}));
+  const chips=el('div',{style:'display:flex;flex-wrap:wrap;gap:6px'});
+  for(const w of D.northern_morphemes.slice(0,44)){
+    const c=el('span',{textContent:w});
+    c.style.cssText='font-size:15px;padding:3px 9px;border-radius:6px;background:#f4eef2;color:#6b2d4d';
+    chips.append(c);
+  }
+  nb.append(chips);
+  nb.append(el('p',{className:'muted',style:'font-size:12.5px;margin:10px 0 0',
+    textContent:'See /w/thin for what these words do on a map.'}));
+  main.append(nb);
+}
+
+const src=el('p',{className:'muted',style:'font-size:12px;margin-top:16px'});
+src.textContent='Corpora read: '+Object.values(D.sources).map(s=>s.title).join(' · ')
+  +(D.generated?' — catalogue built '+D.generated:'');
+main.append(src);
+""",
+})
+
+
+# ---------------------------------------------------------------------------
+# ถิ่น — the same thing on the ground, named differently by region.
+#
+# Every registered wat in Thailand carries a name and a province, and temple
+# names are almost entirely LANDSCAPE vocabulary: what the ground does here,
+# in the words the people who named it used. 43,855 of them is enough to ask
+# which word each part of the country reaches for.
+#
+# The answer draws Thailand's language areas without being told they exist.
+# ดอย or ม่อน leads in all eight Lanna provinces and เขา — the standard
+# Central Thai word for a hill — leads in none of them. โนน leads in twenty
+# provinces, and Isan has twenty. ควน leads in four, all southern.
+#
+# Scoring is weighted log-odds with an informative Dirichlet prior (Monroe,
+# Colaresi & Quinn 2008), computed in the thapsap project; this widget only
+# renders what that produced. Data: thapsap/exports/isogloss.json, overridable
+# with ISOGLOSS_DATA.
+# ---------------------------------------------------------------------------
+
+def thin_widget():
+    import json
+    import os
+    from pathlib import Path
+
+    path = Path(os.environ.get("ISOGLOSS_DATA") or
+                (Path.home() / "Developer" / "claude code projects" /
+                 "thapsap" / "exports" / "isogloss.json"))
+    if not path.exists():
+        return {"present": False, "isoglosses": [], "corpus": {}, "points": []}
+    d = json.loads(path.read_text(encoding="utf-8"))
+
+    # Join the province rankings to coordinates the site already keeps. A
+    # province with no coordinate is dropped rather than guessed at, and the
+    # count of what was dropped travels with the data.
+    missing = set()
+    for iso in d.get("isoglosses", []):
+        placed = {}
+        for prov, v in iso.get("by_province", {}).items():
+            coord = THAI_PROVINCE_COORDS.get(prov)
+            if not coord:
+                missing.add(prov)
+                continue
+            placed[prov] = {**v, "lat": coord[0], "lon": coord[1]}
+        iso["by_province"] = placed
+    d["present"] = True
+    d["unplaced"] = sorted(missing)
+    return d
+
+
+WIDGETS.update({
+    "thin": (thin_widget, "ถิ่น · What each region calls a hill",
+             "43,855 Thai temple names, read as a dialect map. ดอย in the "
+             "north, โนน in Isan, ควน in the south, เขา everywhere else — "
+             "the language areas drawn from naming vocabulary alone."),
+})
+
+_WIDGET_JS.update({
+ "thin": r"""
+if(!D.present){main.append(el('p',{textContent:'The isogloss dataset has not been exported yet — this widget lights up on its first export.'}));return;}
+const C=D.corpus||{};
+main.append(el('p',{style:'font-weight:700',textContent:
+  `${(C.temples||0).toLocaleString()} temple names · ${(C.words||0).toLocaleString()} words · ${(C.provinces||0)} provinces`}));
+main.append(el('p',{className:'muted',style:'font-size:13px;margin-top:-4px',textContent:
+  'Temple names are landscape vocabulary — what the ground does here, in the words the people who named it used. Each province is coloured by the word its temples prefer.'}));
+
+// One colour per word, assigned per isogloss so the legend and the map agree.
+const PALETTE=['#1F4E4A','#B8860B','#8B3A62','#2F6690','#A34E2A','#4B6D3B','#6B5B95'];
+
+const tabs=el('div',{style:'display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 4px'});
+main.append(tabs);
+const holder=el('div'); main.append(holder);
+
+let active=0;
+function tabButton(iso,i){
+  const b=el('button',{textContent:iso.gloss});
+  b.style.cssText='padding:7px 14px;border-radius:8px;font-size:14px;cursor:pointer;'
+    +'border:1px solid '+(i===active?'#1F4E4A':'#c9d6d2')+';'
+    +'background:'+(i===active?'#1F4E4A':'#fff')+';color:'+(i===active?'#fff':'#1a2a27');
+  b.addEventListener('click',()=>{active=i;render();});
+  return b;
+}
+
+function render(){
+  tabs.textContent=''; D.isoglosses.forEach((iso,i)=>tabs.append(tabButton(iso,i)));
+  holder.textContent='';
+  const iso=D.isoglosses[active];
+  const colour={}; iso.words.forEach((w,i)=>colour[w.th]=PALETTE[i%PALETTE.length]);
+
+  if(iso.note) holder.append(el('p',{className:'muted',style:'font-size:14px;max-width:62em',textContent:iso.note}));
+
+  // ---- the map -----------------------------------------------------------
+  const pts=Object.entries(iso.by_province).map(([prov,v])=>({prov,...v}));
+  const W=440,H=560,pad=22;
+  if(pts.length){
+    const lats=pts.map(p=>p.lat),lons=pts.map(p=>p.lon);
+    const la0=Math.min(...lats),la1=Math.max(...lats),lo0=Math.min(...lons),lo1=Math.max(...lons);
+    const K=Math.cos((la0+la1)/2*Math.PI/180);
+    const sc=Math.min((W-2*pad)/((lo1-lo0)*K),(H-2*pad)/(la1-la0));
+    const ox=(W-(lo1-lo0)*K*sc)/2, oy=(H-(la1-la0)*sc)/2;
+    const X=lo=>ox+(lo-lo0)*K*sc, Y=la=>oy+(la1-la)*sc;
+    const svg=(t,a={})=>{const e=document.createElementNS('http://www.w3.org/2000/svg',t);
+      for(const[k,v]of Object.entries(a))e.setAttribute(k,v);return e;};
+    const s=svg('svg',{viewBox:`0 0 ${W} ${H}`,role:'img',
+      'aria-label':'Thai provinces coloured by which word their temple names use for '+iso.gloss});
+    s.style.cssText='max-width:100%;height:auto;display:block;margin:10px auto';
+    const rates=pts.map(p=>p.rate);
+    const rmax=Math.max(...rates,1);
+    for(const p of pts){
+      const r=4+7*Math.sqrt(p.rate/rmax);
+      const c=svg('circle',{cx:X(p.lon).toFixed(1),cy:Y(p.lat).toFixed(1),r:r.toFixed(1),
+        fill:colour[p.word]||'#999','fill-opacity':.82,stroke:'#fff','stroke-width':.8});
+      const t=svg('title'); t.textContent=`${p.en||p.prov} — ${p.word} (${p.rate} per 10,000 words)`;
+      c.append(t); s.append(c);
+    }
+    holder.append(s);
+  }
+
+  // ---- legend ------------------------------------------------------------
+  const leg=el('div',{style:'display:grid;gap:6px;margin:6px 0 14px'});
+  for(const w of iso.words){
+    const row=el('div',{style:'display:flex;gap:10px;align-items:baseline;font-size:14px'});
+    const dot=el('span'); dot.style.cssText=`display:inline-block;width:12px;height:12px;border-radius:50%;background:${colour[w.th]};flex:none;position:relative;top:1px`;
+    row.append(dot,
+      el('b',{style:'font-size:17px',textContent:w.th}),
+      el('span',{style:'color:#3a4a47',textContent:w.rtgs}),
+      el('span',{style:'color:#3a4a47',textContent:'— '+w.note}),
+      el('span',{style:'color:#3a4a47;opacity:.7;margin-left:auto;white-space:nowrap',textContent:w.n.toLocaleString()+'×'}));
+    leg.append(row);
+  }
+  holder.append(leg);
+
+  // ---- rates by region ---------------------------------------------------
+  const order=['Lanna','Lower North','Isan','Central','East','West','South'];
+  const wrap=el('div',{style:'overflow-x:auto'});
+  const tbl=el('table'); tbl.style.cssText='border-collapse:collapse;width:100%;font-size:13px;min-width:560px';
+  const hr=el('tr'); hr.append(el('th',{textContent:''}));
+  for(const r of order){const th=el('th',{textContent:r});
+    th.style.cssText='text-align:right;padding:6px 8px;border-bottom:2px solid #c9d6d2;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:#3a4a47;white-space:nowrap';hr.append(th);}
+  hr.firstChild.style.cssText='border-bottom:2px solid #c9d6d2';
+  tbl.append(hr);
+  for(const w of iso.words){
+    const tr=el('tr');
+    const lab=el('td'); lab.style.cssText='padding:6px 8px;border-bottom:1px solid #e6eeec;font-size:16px;white-space:nowrap';
+    const dot=el('span'); dot.style.cssText=`display:inline-block;width:9px;height:9px;border-radius:50%;background:${colour[w.th]};margin-right:7px`;
+    lab.append(dot,document.createTextNode(w.th)); tr.append(lab);
+    const vals=order.map(r=>w.by_region[r]??0);
+    const mx=Math.max(...vals,0.001);
+    order.forEach((r,i)=>{
+      const td=el('td',{textContent:vals[i]?vals[i].toFixed(1):'·'});
+      const strong=vals[i]>=mx*0.999&&vals[i]>0;
+      td.style.cssText='padding:6px 8px;border-bottom:1px solid #e6eeec;text-align:right;'
+        +'font-variant-numeric:tabular-nums;'+(strong?'font-weight:700;color:#1F4E4A':'color:#3a4a47');
+      tr.append(td);
+    });
+    tbl.append(tr);
+  }
+  wrap.append(tbl); holder.append(wrap);
+  holder.append(el('p',{className:'muted',style:'font-size:12px',textContent:
+    'Rate per 10,000 words in that region, so regions of different size compare. Bold is the region that uses the word most.'}));
+}
+render();
+
+const foot=el('p',{className:'muted',style:'font-size:12px;margin-top:18px'});
+foot.textContent='Distinctiveness scored by weighted log-odds with an informative Dirichlet prior '
+  +'(Monroe, Colaresi & Quinn 2008), against the register as its own prior'
+  +(D.unplaced&&D.unplaced.length?` · ${D.unplaced.length} province(s) had no coordinate and are not drawn`:'')
+  +(D.generated?' · built '+D.generated:'');
+main.append(foot);
+""",
+})
+
+
 def widgets_index_page():
     """/w/ — the front door of the analysis layer: every registered widget as a
     card. New widgets appear here automatically; sharing starts with seeing."""
@@ -5827,10 +6337,10 @@ SUPPORT_PAGE = page("Support — wichaa", SUBSCRIBE_CSS + """
   .how code{background:#fff;border:1px solid var(--line);border-radius:6px;padding:1px 7px}
   .muted{color:var(--muted)}
 """,
-  "<header><div><h1>Support the archive</h1><p class=sub>Free forever — funded by "
-  "merit, not paywalls</p></div>" + NAV + "</header>"
+  "<header><div><h1>Support the archive</h1><p class=sub>Funded by merit, not "
+  "paywalls</p></div>" + NAV + "</header>"
   "<main id=main><div class=sup>"
-  "<p class=lead>Everything here is free, and always will be — no ads, no paywall, no "
+  "<p class=lead>Everything here is free — no ads, no paywall, no "
   "login. But the reading is done by machines, and machine-time costs a little. A "
   "tip isn't a subscription or a lock; it simply buys the bots time to read one "
   "more text, so <b>everyone</b> can have it. In the north that's <i>tam boon</i> — "
@@ -8549,8 +9059,8 @@ SIDE_TOOLS = [
         "url": "https://motdang.net",
         "tag": "chiang mai · chiang rai · city directory",
         "blurb": ("A Thai-first city directory for Chiang Mai and Chiang Rai, built the "
-                  "1997 way — categories instead of a search box, counts in parens, "
-                  "no tracking, no pay-to-rank. Wats, food, doctors, markets, real "
+                  "1997 way — categories instead of a search box, counts in parens. "
+                  "Wats, food, doctors, markets, real "
                   "estate, and the good things down every soi."),
         "facts": ["7,000+ places, sorted into real local categories",
                   "open data: every category downloads as GeoJSON",
@@ -8558,6 +9068,62 @@ SIDE_TOOLS = [
         "card": "https://motdang.net/card.png",
         "extra": [("Open it", "https://motdang.net"),
                   ("Why it beats Google here", "https://motdang.net/why.html")],
+    },
+    {
+        "name": "ทับศัพท์ Thap Sap",
+        "url": "https://wichaa.net/w/thapsap",
+        "tag": "linguistics · thai script · loanwords",
+        "blurb": ("Thailand writes English in Thai letters, constantly, and no "
+                  "romanizer can read it back \u2014 hand RTGS the shopfront "
+                  "<em>\u0e44\u0e19\u0e17\u0e4c\u0e1a\u0e32\u0e23\u0e4c\u0e0b\u0e32\u0e23\u0e4c</em> "
+                  "and it returns <em>Naibasa</em>, because it is sounding out "
+                  "letters that do not spell a Thai word. The sign says "
+                  "<em>Night Bazaar</em>. This is the catalogue of those words, "
+                  "each one shown with the misreading beside the meaning."),
+        "facts": ["mined from place registers, the Treasury condominium roll "
+                  "and the amulet market",
+                  "every entry records how it was established \u2014 by a corpus "
+                  "that held both names, by hand, or as a detector proposal",
+                  "searchable, embeddable, and downloadable as one file"],
+        "card": "https://wichaa.net/w/thapsap/card.png",
+        "extra": [("Open it", "https://wichaa.net/w/thapsap"),
+                  ("The linguistics door", "https://wichaa.net/phasa/")],
+    },
+    {
+        "name": "\u0e16\u0e34\u0e48\u0e19 Thin \u2014 the dialect map",
+        "url": "https://wichaa.net/w/thin",
+        "tag": "linguistics · dialect · 43,855 temples",
+        "blurb": ("Thai temple names are almost entirely landscape vocabulary "
+                  "\u2014 what the ground does here, in the words the people who "
+                  "named it used. Asked what its temples call <em>a hill</em>, "
+                  "the country divides along lines nobody drew for it: "
+                  "\u0e14\u0e2d\u0e22 in all eight Lanna provinces, \u0e42\u0e19\u0e19 in all twenty of "
+                  "Isan, \u0e04\u0e27\u0e19 in the south, \u0e40\u0e02\u0e32 everywhere else."),
+        "facts": ["every registered wat in Thailand, joined to its province",
+                  "weighted log-odds with an informative prior \u2014 neither raw "
+                  "counts nor raw ratios, both of which answer the wrong question",
+                  "the language areas fall out of the naming, unprompted"],
+        "card": "https://wichaa.net/w/thin/card.png",
+        "extra": [("Open it", "https://wichaa.net/w/thin"),
+                  ("The linguistics door", "https://wichaa.net/phasa/")],
+    },
+    {
+        "name": "\u0e1e\u0e08\u0e19\u0e32\u0e19\u0e38\u0e01\u0e23\u0e21\u0e23\u0e32\u0e01 The Lexicon",
+        "url": "https://wichaa.net/roots/",
+        "tag": "linguistics · etymology · sense-first",
+        "blurb": ("Not what a word means but <em>why</em> it means that. Each "
+                  "word\u2019s senses ordered from core to figurative, every "
+                  "compound filed under the sense that motivates it, and the "
+                  "Indic and native strata joined where they touch. The "
+                  "companion to \u0e17\u0e31\u0e1a\u0e28\u0e31\u0e1e\u0e17\u0e4c: one asks where a word came "
+                  "from, the other what a word was carried over from."),
+        "facts": ["the sense is the unit \u2014 the word is the head, the root an "
+                  "attribute",
+                  "every claim carries its confidence and its source, printed "
+                  "on the page",
+                  "asserted edges are marked apart from counted ones"],
+        "extra": [("Open it", "https://wichaa.net/roots/"),
+                  ("The linguistics door", "https://wichaa.net/phasa/")],
     },
     {
         "name": "สู่ขวัญยนต์ Su Khwan",
@@ -8629,7 +9195,7 @@ SIDE_TOOLS_PAGE = page(
     SIDE_TOOLS_CSS,
     "<header><div><h1>Widgets &amp; shit</h1>"
     "<p class=sub>Small tools that do one thing, built because something needed "
-    "doing. Free, no account, no tracking.</p></div>" + NAV + "</header>"
+    "doing. Free, no account needed.</p></div>" + NAV + "</header>"
     "<main>"
     "<p class=wlead>These are not part of the archive. The manuscripts, the market "
     "and the wats are one body of work with one taxonomy; <strong>these are "
@@ -8661,10 +9227,9 @@ SIDE_TOOLS_PAGE = page(
     "programmes charge annual rent, and stores take a cut of anything sold. These "
     "are free and cost nothing to give away. Adding a middleman would only add a "
     "reason to start charging you.</li>"
-    "<li><strong>No SDK, no analytics, no account.</strong> Store distribution "
-    "pushes you toward crash reporters, ad identifiers and sign-in. None of that is "
-    "here, and the easiest way to keep it that way is to never enter a system that "
-    "expects it.</li>"
+    "<li><strong>No SDK, no account.</strong> Store distribution "
+    "pushes you toward crash reporters, ad identifiers and sign-in; none of that is "
+    "here.</li>"
     "</ol>"
     "<p>So: bookmark it, or add it to your home screen. That <em>is</em> the "
     "install.</p>"
@@ -8672,7 +9237,7 @@ SIDE_TOOLS_PAGE = page(
     "</main>",
     description=("Small free tools from wichaa \u2014 including Skip DJT, which "
                  "compares South Florida airport fares on the same departure date. "
-                 "No accounts, no tracking, and never in an app store."),
+                 "No accounts, and not in an app store."),
     og_image="/widgets/card.png",
     og_url="/widgets/",
 )
@@ -8763,6 +9328,28 @@ BLESSINGS_PAGE = page(
     ),
     og_image="/blessings/card.png",
     og_url="/blessings/",
+)
+
+
+# ฝิ่น — the highland agricultural year: what twelve months of work above 1,000 m
+# actually contained, where the festivals were cut into it, and what changed when
+# coffee took the poppy's harvest slot. The one page here whose subject is NOT in
+# catalog.db — the palm-leaf corpus is valley monastic material and has nothing on
+# highland swidden — and the page says so instead of implying otherwise. Content,
+# the year-wheel geometry, the open rat question and the source list live in
+# poppy.py.
+POPPY_PAGE = page(
+    "ฝิ่น — the year the poppy made — wichaa",
+    poppy.POPPY_CSS,
+    poppy.poppy_body(NAV),
+    description=(
+        "ฝิ่น — the highland agricultural year of northern Thailand, drawn: "
+        "upland rice, maize and opium poppy in the same twelve months, the "
+        "Akha, Hmong, Lisu and Lahu festivals cut into the gaps between them, "
+        "and what changed for the calendar when coffee took the poppy's "
+        "harvest slot after 1969."
+    ),
+    og_url="/poppy/",
 )
 
 
@@ -8894,6 +9481,8 @@ ACTIVITY_PAGE = page("Activity — wichaa", """
   @keyframes pb{0%{box-shadow:0 0 0 0 #3fae5466}70%{box-shadow:0 0 0 9px #3fae5400}100%{box-shadow:0 0 0 0 #3fae5400}}
   .astrip .big{font-size:22px;font-weight:800;color:var(--teal)}
   .astrip .muted{margin-left:auto;font-size:13px}
+  .stalledband{background:#b3261e;color:#fff;border-radius:12px;padding:12px 18px;margin-bottom:16px;font-weight:600;line-height:1.45}
+  .stalledband small{display:block;font-weight:400;opacity:.92;margin-top:2px}
   .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-bottom:18px}
   .tile{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
   .tile b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
@@ -9046,6 +9635,27 @@ function render(d){
     el('span',{className:'muted'},[(enabledN?(enabledN+' bots scheduled · '):'')+'ledger: '+(d.ledger||'—')+' · refreshed '+new Date().toLocaleTimeString()])
   ]);
   m.append(strip);
+  // The stalled band. Computed in the READER's browser against the newest
+  // timestamp in the snapshot, deliberately: when publishing itself is what
+  // died (2026-08-23→26), this page keeps serving its last snapshot — a build-
+  // time banner would have frozen green along with everything else, while this
+  // one turns red simply because the data stopped moving under a clock that
+  // didn't. Same 24 h rule as watchdog.py, which mails the operator.
+  {
+    let newest=null;
+    const consider=t=>{const s=t?Date.parse(t):NaN; if(!isNaN(s)&&(newest==null||s>newest)) newest=s;};
+    // NOT d.now: build time is fresh whenever a publish ran, and the hourly
+    // refresher kept publishing right through the 8/23 stall — the crawl's own
+    // timestamps are the only ones that cannot lie about the crawl.
+    if(p) consider(p.updatedAt);
+    for(const e of events) consider(e.ts);
+    const quietH=newest==null?null:(Date.now()-newest)/3600000;
+    if(quietH!=null&&quietH>24){
+      m.append(el('div',{className:'stalledband'},[
+        'STALLED — the pipeline has recorded nothing for '+(quietH>48?Math.round(quietH/24)+' days':Math.round(quietH)+' hours')+'.',
+        el('small',{textContent:'Every count and event below is as of that last record. The machines usually publish many times a day; this page going quiet is itself the signal that something is wedged.'})]));
+    }
+  }
   if(runningNow===0 && enabledN>0){
     const nxt=sched.filter(j=>j.enabled&&j.nextDueSeconds!=null).sort((a,b)=>a.nextDueSeconds-b.nextDueSeconds)[0];
     m.append(el('div',{className:'idlebanner'},
@@ -9518,7 +10128,25 @@ function run(){
       if(!d.results||!d.results.length){ out.innerHTML='<div class="sempty">Nothing in the corpus '
         +'answers to that yet — try a broader word, or browse the '
         +'<a href="/browse">directory</a>.</div>'; return; }
-      out.innerHTML=d.results.map(card).join('');
+      // Say what these results REST ON. A semantic search always returns
+      // something, so silence reads as "here is your answer" even when the
+      // catalogue holds nothing of the kind — `knitting patterns` scores higher
+      // here than half the genuine hits do. Nothing in the numbers separates
+      // those two cases (see cloudflare-mirror/src/index.js), but one honest
+      // thing IS knowable: whether the reader's own words are in the catalogue
+      // at all. When they are not, these are neighbours by sense, and the reader
+      // is told so and left to judge — which is also how the corpus's real gaps
+      // become visible rather than papered over.
+      var u=d.understood||{}, lead='';
+      if(u.basis==='meaning'){
+        lead='<div class="snote">ใกล้เคียงตามความหมาย — คำที่พิมพ์ยังไม่ปรากฏในสารบัญ'
+           +' · closest by meaning — your words themselves are not in the catalogue yet</div>';
+      }
+      if(u.notes&&u.notes.indexOf('segmented')>=0&&u.terms&&u.terms.length>1){
+        lead+='<div class="snote">แยกคำเป็น '+u.terms.join(' + ')
+           +' · read as '+u.terms.join(' + ')+'</div>';
+      }
+      out.innerHTML=lead+d.results.map(card).join('');
     })
     .catch(function(e){
       if(e && e.name==='AbortError') return;
@@ -9529,6 +10157,22 @@ function run(){
 }
 
 document.getElementById('sform').addEventListener('submit',function(e){ e.preventDefault(); run(); });
+// Assistive input paths (dictation, on-screen keyboards, key automation) can
+// deliver a raw Enter WITHOUT the browser's implicit form submission — observed
+// live 2026-08-26: keydown arrives at the input, no submit ever fires. Catching
+// the key itself makes Enter work for every way of typing; preventDefault stops
+// a double run() where implicit submission does fire. isComposing guards IME
+// composition commits (dictation/CJK) from firing a half-typed search.
+q.addEventListener('keydown',function(e){
+  if((e.key==='Enter'||e.keyCode===13) && !e.isComposing){ e.preventDefault(); run(); }
+});
+// Third path for the same key: some Android soft keyboards commit Enter as an
+// editor action whose key event reads 'Unidentified'/keyCode 229 — invisible to
+// the handler above. WebKit/Blink fire the 'search' event on type=search inputs
+// from the native action itself, whatever the key event claimed to be. (It also
+// fires with an empty value when the ✕ clear control is tapped; run('') just
+// clears the results, which is what clearing should do.)
+q.addEventListener('search',function(){ run(); });
 
 var pre=new URLSearchParams(location.search).get('q');
 if(pre){ q.value=pre; run(); } else { q.focus(); }

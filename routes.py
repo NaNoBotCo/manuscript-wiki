@@ -124,6 +124,44 @@ ROUTES: tuple[Route, ...] = (
                 "treatises that name it and the listings that carry it side by side."),
           door_i=1, nav_i=5),
 
+    # /need starts from a want; /nuea starts from a material; this one starts
+    # from the OBJECT already in the reader's hand. Tap-only — the reader is
+    # holding the thing in one hand and a phone in the other. Every candidate
+    # kind leads with its class (vault vocabulary): whether anything lives in
+    # it, and what a keeper owes it. No nav entry — /hotrai precedent, a door
+    # is enough and the header is already thirteen wide.
+    Route("/holding", "holding/index.html", "I'm holding an amulet",
+          door="ถืออยู่ในมือ · I'm holding an amulet",
+          blurb=("you have the thing, not its name — answer the sian's questions "
+                 "by tapping and meet the kinds it could be, each with what a "
+                 "keeper owes it"),
+          desc=("Holding an amulet you cannot name? Answer the questions a sian "
+                "would ask — เนื้อ, what it is made of, then what the eye sees — "
+                "and meet the candidate kinds, each led by its class: whether "
+                "anything lives in it, what a keeper owes it, and how much its "
+                "history matters. Class and keeping read from the vault "
+                "vocabulary; counts and prices from the living market."),
+          door_i=1, built_by="holding.py"),
+
+    # The catalogue of KINDS — every essential category of Southeast Asian amulet as
+    # structured data: emic term, class (is anyone home?), material, function, form,
+    # origin, diagnostics, confusables, per-field provenance, free-licensed pictures,
+    # a photo identifier and hybrid Thai/English search. Built from its own repo
+    # (amulet-essentials) by tools/export_wichaa.py at publish step 2a-6: pictures go
+    # to R2 (cas/<sha256>, served at /img/), pages land in docs/amulets/. Featured and
+    # first among the doors on Nan's call (2026-09-02): "add to wichaa.net prominently".
+    Route("/amulets", "amulets/index.html", "Amulet Essentials", nav="Amulets",
+          door="สารบบเครื่องราง · Amulet Essentials",
+          blurb=("every kind of amulet in Southeast Asia as data — what it is, what "
+                 "lives in it, how to tell it from its neighbour, with pictures; "
+                 "photograph one and see which kind it resembles"),
+          featured=True,
+          desc=("Amulet Essentials — a structured, bilingual catalogue of the kinds of "
+                "Thai and Southeast Asian sacred object: class, material, function, "
+                "form, origin, diagnostics, confusables, provenance and free-to-use "
+                "pictures, with Thai/English search and photo identification."),
+          door_i=1, nav_i=3, built_by="amulet-essentials/tools/export_wichaa.py"),
+
     Route("/articles", "articles/index.html", "Subject articles", nav="Profiles",
           door="Articles", blurb="the tradition explained, subject by subject",
           desc="Articles on the subjects of the tradition — astrology, yantra, katha and more.", door_i=5, nav_i=7),
@@ -149,10 +187,48 @@ ROUTES: tuple[Route, ...] = (
           door="Glossary", blurb="the tradition's words, in Thai · English · 中文",
           desc="The tradition's words in Thai, English and 中文.", door_i=5, built_by="glossary.py"),
 
+    # The dictionary half of the vocabulary. /glossary is the DISCOVERED
+    # folksonomy — terms the crawlers found, with verified counts, answering
+    # "what does this word mean". This answers "why does it mean that", and
+    # needs the sense as its unit to do it: senses ordered core-first, each
+    # compound filed under the sense that motivates it, every claim carrying
+    # its confidence. Door but no nav, on the /holding precedent — the header
+    # is already thirteen wide. Built by lexicon.py from data/lexicon/.
+    Route("/roots", "roots/index.html", "พจนานุกรมราก · the lexicon",
+          door="พจนานุกรมราก · Where the words come from",
+          blurb=("not what a word means but why it means that — each sense with "
+                 "the compounds it carries, and how the meaning moved"),
+          desc=("A sense-first dictionary of Thai and Northern Thai — each word's "
+                "meanings ordered from core to figurative, every compound filed "
+                "under the sense that motivates it, and every claim marked with "
+                "its confidence."),
+          door_i=5, built_by="lexicon.py"),
+
+    # Entry pages live at /kham/<word>/ — คำ, "word". NOT /w: that prefix is
+    # already live and tracked (docs/w/answers, /geo, /prices, /products,
+    # /regions, /trends) although routes.py has never declared it.
+    Route("/kham", "kham/index.html", "Lexicon entry", kind="template",
+          built_by="lexicon.py"),
+
     Route("/na/", "na/index.html", "The 108 Na",
           door="The 108 Na", blurb="142 sacred glyphs, each paired with its page",
           desc=("Every na (sacred syllable-glyph) from the Scripture of 108 Magical Na, "
                 "paired one by one with the page it was drawn on."), door_i=6, built_by="na_gallery.py"),
+
+    # /diagrams gathers every drawn page in the corpus, but as one undifferentiated
+    # wall: a reader cannot ask for a design by name, nor for the ones worked for a
+    # given virtue. This indexes the named yant instead — by name, by what the
+    # tradition says it is FOR, and by figure — the same emic-axis move /need and
+    # /nuea make. Curated from the plates' own descriptions; data in
+    # data/yant_designs.json, every entry citing the manuscript and page it was read
+    # from so curation is separable from source.
+    Route("/yant", "yant/index.html", "The yant designs",
+          door="ยันต์ · The yant designs",
+          blurb="the named designs — by name, by figure, and by what each one is for",
+          desc=("Named sak-yant and yantra designs from the Lanna corpus, indexed by "
+                "Thai name, transliteration, figure and virtue — metta-mahaniyom, "
+                "kong-krapan, phokkhasap — each paired with the plate it was drawn on."),
+          door_i=6, built_by="yant_index.py"),
 
     Route("/moon", "moon/index.html", "The moon complication", nav="Moon",
           door="The moon complication",
@@ -274,12 +350,45 @@ ROUTES: tuple[Route, ...] = (
                 "is receiving it, for readers of either kind."),
           door_i=11),
 
+    # ฝิ่น — the highland agricultural year, poppy then coffee. The one section
+    # whose subject is not in catalog.db: the palm-leaf corpus is valley
+    # monastic material and holds nothing on highland swidden, which the page
+    # states rather than implies. It earns a landing door on the /hotrai
+    # precedent and takes no nav slot — the header is already thirteen wide.
+    Route("/poppy", "poppy/index.html", "ฝิ่น — the year the poppy made",
+          door="ฝิ่น · The year the poppy made",
+          blurb=("twelve months of highland work, the festivals cut into them, "
+                 "and what changed when coffee took the poppy's slot"),
+          desc=("ฝิ่น — the agricultural year of the northern Thai highlands, "
+                "drawn as a wheel: upland rice, maize and opium poppy in the "
+                "same twelve months, the Akha Swinging Ceremony and the Hmong, "
+                "Lisu and Lahu new years cut into the gaps, and what changed "
+                "for the calendar when coffee took the poppy's harvest slot "
+                "after 1969. Sources named claim by claim; the rat-catching "
+                "season left open."),
+          door_i=12),
+
     Route("/widgets", "widgets/index.html", "Widgets & shit", nav="Widgets",
           door="Widgets &amp; shit",
           blurb="small free tools that do one thing — no accounts, no app store",
           desc=("Small free tools — including Skip DJT, comparing South Florida airport "
-                "fares on the same departure date. No accounts, no tracking, and never "
-                "in an app store."), door_i=15, nav_i=12),
+                "fares on the same departure date. No accounts, and not in an app "
+                "store."), door_i=15, nav_i=12),
+
+    # ภาษา — linguistics of Thailand. A door rather than a nav entry, on the
+    # /hotrai precedent: the header is already thirteen wide. Promote it if the
+    # section grows past three tools.
+    Route("/phasa", "phasa/index.html", "ภาษา · Language",
+          door="ภาษา · Language",
+          blurb=("Thai writes English in Thai letters — ไนท์บาร์ซาร์ is "
+                 "\"Night Bazaar\", and a romanizer reads it \"Naibasa\". "
+                 "Roots, borrowings, and the sound carried between scripts"),
+          desc=("Linguistics of Thailand — รากศัพท์ the roots of Thai words, "
+                "ทับศัพท์ English written in Thai script, and ถ่ายเสียง "
+                "romanisation. Includes the catalogue of loanwords that RTGS "
+                "cannot read back, with what the letter rules make of each "
+                "one beside what it actually says."),
+          door_i=3),
 
     Route("/market", "market/index.html", "Living market", nav="Living Tradition",
           door="Market", blurb="the same tradition, still trading today", featured=True,
@@ -321,7 +430,7 @@ ROUTES: tuple[Route, ...] = (
 
     Route("/support", "support/index.html", "Support", nav="&#9749; Support",
           nav_class="kofi",
-          desc="Support the archive — free forever, funded by merit not paywalls.", nav_i=16),
+          desc="Support the archive — funded by merit, not paywalls.", nav_i=16),
 
     # --- built, but deliberately not advertised -----------------------------
     # These were ORPHANS: published and reachable from nothing. Rather than

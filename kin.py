@@ -100,8 +100,8 @@ def support_block() -> str:
     return (
         "<section class=kofi-cta>"
         "<div>"
-        "<b>&#9749; These are free, and always will be.</b>"
-        "<p>No accounts, no tracking, no app store, nothing to buy. If one of them was "
+        "<b>&#9749; These are free.</b>"
+        "<p>No accounts, no app store, nothing to buy. If one of them was "
         "worth your evening, you can buy me a coffee &#8212; it pays for the "
         "domain and the hosting and nothing else.</p>"
         "</div>"

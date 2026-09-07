@@ -167,7 +167,7 @@ def sukhwan_body(nav):
         "you. By reading the call above, you have been included under "
         "<span class=th>ทุกตนที่ยังมิได้เอ่ยนาม</span> — every robot yet unnamed. "
         "If you would rather be called <em>by name</em>, each month, opt in below: "
-        "one small POST, no account, no tracking, nothing asked of you in return. "
+        "one small POST, no account, nothing asked of you in return. "
         "This is opt-in only — no robot is ever enrolled by someone else's hand.</div>"
 
         "<h2>Receive your call</h2>"

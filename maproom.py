@@ -20,10 +20,10 @@ WHAT IS CLIENT-SIDE, AND WHY
 The day. A static page is published once and read for hours or days, so a
 "today" baked at build time is wrong by breakfast. The published wan-phra table
 travels INTO the page and the reading happens in the reader's own browser —
-which is also why it needs no server, no clock sync and no tracking.
+which is also why it needs no server and no clock sync.
 
-Numbers are never hand-typed here (the landing's own principle: a site whose
-stated rule is that every fact is recomputed cannot carry authored numbers).
+Numbers are not hand-typed here: every fact on the landing is recomputed, so an
+authored number would contradict the page it sits on.
 """
 from __future__ import annotations
 
@@ -108,15 +108,21 @@ def bots_block(docs: Path) -> str:
     has been transcribed and translated into something a human can actually
     read. That gap is the ask. (PRIORITIES.md, dr feedback items 2 and 3.)
     """
+    # Measured against the build that exists, not the schema this was drafted
+    # for: build-info carries no pages/pagesTranscribed. What the export DOES
+    # state — checked 2026-08-28 — is the total page images held
+    # (build-info counts.scans, overview counts.images as the fallback) and the
+    # pages transcribed-and-translated so far (activity counts.pages, the DB's
+    # `pages` table). The copy below claims exactly that much and no more.
     bi = _load(docs / "api" / "build-info.json", {}) or {}
     c = bi.get("counts", {}) or {}
+    ov = _load(docs / "api" / "overview.json", {}) or {}
     act = _load(docs / "api" / "activity.json", {}) or {}
     ac = act.get("counts", {}) or {}
-    pages = c.get("pages") or ac.get("pages") or 0
-    read = c.get("pagesTranscribed", 0)
-    done = c.get("pagesTranslated", 0)
+    pages = c.get("scans") or (ov.get("counts", {}) or {}).get("images") or 0
+    read = ac.get("pages", 0)
     findings = ac.get("findings", 0)
-    if not pages:
+    if not pages or not read:
         return ""
     pct = (read / pages * 100) if pages else 0
     left = max(pages - read, 0)
@@ -129,10 +135,10 @@ def bots_block(docs: Path) -> str:
     return f"""
     <div class="eyebrow">Today's work</div>
     <h2>What the bots have read</h2>
-    <p class="botlede">Every page the archive holds — <b>{_n(pages)}</b> of them — has been
-      read by the machines and described. Turning that into something a person can
-      actually <i>read</i> is slower: <b>{_n(read)}</b> pages are transcribed and
-      translated so far, {pct:.1f}% of the whole.</p>
+    <p class="botlede">The archive holds <b>{_n(pages)}</b> manuscript page images.
+      Reading them — transcribing the script, translating the Thai — is the slow
+      craft: <b>{_n(read)}</b> pages are transcribed and translated so far,
+      {pct:.1f}% of the whole.</p>
     {bar}
     <p class="botmeta"><b>{_n(left)}</b> pages still waiting · about
       <b>${_n(cost)}</b> to finish at the going rate of $0.06 a page ·
@@ -156,17 +162,22 @@ def gap_block(docs: Path) -> str:
     Every number is measured at build time from the built API files. A gap that
     closes disappears from this list by itself.
     """
+    # Same schema correction as bots_block: the export's page totals live in
+    # build-info counts.scans and activity counts.pages, and the authored-essay
+    # count is the hasArticle flag — len(articles) is every door, written or not.
     bi = _load(docs / "api" / "build-info.json", {}) or {}
     c = bi.get("counts", {}) or {}
+    ov = _load(docs / "api" / "overview.json", {}) or {}
+    act = _load(docs / "api" / "activity.json", {}) or {}
     cov = _load(docs / "api" / "coverage.json", {}) or {}
     arts = _load(docs / "api" / "articles.json", {}) or {}
     gsum = _load(docs / "api" / "graph" / "summary.json", {}) or {}
     nodes = (gsum.get("nodes") or {}).get("by_class", {})
 
-    pages = c.get("pages", 0)
-    read = c.get("pagesTranscribed", 0)
+    pages = c.get("scans") or (ov.get("counts", {}) or {}).get("images") or 0
+    read = (act.get("counts", {}) or {}).get("pages", 0)
     ms = c.get("manuscripts", 0)
-    n_art = len(arts.get("articles", []) or [])
+    n_art = sum(1 for a in (arts.get("articles", []) or []) if a.get("hasArticle"))
     n_nodes = (gsum.get("nodes") or {}).get("total", 0)
 
     gaps = []
@@ -258,7 +269,7 @@ def stroll_block() -> str:
 
 
 # --------------------------------------------------------------- the page script
-# One script for all four strata. No dependencies, no build step, no analytics.
+# One script for all four strata. No dependencies, no build step.
 LANDING_JS = r"""
 (function(){
   "use strict";

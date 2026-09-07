@@ -284,7 +284,7 @@ def index_page(trails, wiki):
 def card_bytes(t, width=1200, height=630):
     """A per-trail social card, drawn with Pillow at build time.
 
-    The house rule is that every page gets an og:image picturing the thing
+    Every page gets an og:image picturing the thing
     itself, and the masters for hand-designed cards live in publishing/cards/
     because make_card.py needs a browser. A trail cannot work that way — there
     is one per finding and more arrive whenever the bots notice something — so

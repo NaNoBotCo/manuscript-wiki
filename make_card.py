@@ -51,11 +51,14 @@ def _sources():
     import romphon
 
     return {"moon": moondial.og_card_svg, "widgets": _widgets_card_svg,
+            "holding": _holding_card_svg,
             "sukhwan": sukhwanweb.og_card_svg,
             "khwan": khwantext.og_card_svg,
             "hotrai": hotrai.og_card_svg,
             "waikhru": waikhru.og_card_svg,
             "blessings": romphon.og_card_svg,
+            "phasa": _phasa_card_svg, "w__thapsap": _thapsap_card_svg,
+            "w__thin": _thin_card_svg,
             "w__geo": _geo_card_svg, "w__prices": _prices_card_svg,
             "w__regions": _regions_card_svg, "w__trends": _trends_card_svg,
             "w__products": _products_card_svg, "w__answers": _answers_card_svg,
@@ -92,6 +95,179 @@ def _card_shell(title_lines, subtitle, route, body_svg, foot=""):
 
 def _esc(t):
     return (str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+
+
+# --- NaNoBotCo furniture -----------------------------------------------------
+# The linguistics tools are a NaNoBotCo line rather than a wichaa one — they
+# live here for now and may take their own address later, so their cards carry
+# their own identity: the portal's dark ground, Saint-Expédit shrine red and
+# auspicious gold, instead of wichaa's teal on paper. In a feed of shared
+# links that difference is the whole job of a card.
+_NBC = {"ink": "#0b0a0c", "paper": "#f5efe4", "shrine": "#d81f2c",
+        "gold": "#e7c66c", "gold_deep": "#b8933b", "muted": "#9a948a"}
+
+
+def _nbc_card_shell(eyebrow, title, subtitle, body_svg, route):
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#141118"/><stop offset="1" stop-color="{_NBC['ink']}"/>
+</linearGradient></defs>
+<rect width="1200" height="630" fill="url(#g)"/>
+<rect x="0" y="0" width="1200" height="10" fill="{_NBC['shrine']}"/>
+<text x="66" y="104" font-family="{_CARD_FONT}" font-size="22" fill="{_NBC['gold']}" letter-spacing="7">{eyebrow}</text>
+<text x="66" y="182" font-family="Georgia,serif" font-size="58" font-weight="700" fill="{_NBC['paper']}">{title}</text>
+<text x="66" y="228" font-family="{_CARD_FONT}" font-size="24" fill="{_NBC['muted']}">{subtitle}</text>
+{body_svg}
+<text x="66" y="580" font-family="{_CARD_FONT}" font-size="20" fill="{_NBC['gold_deep']}">{route}</text>
+</svg>"""
+
+
+def _thapsap_card_svg() -> str:
+    """/w/thapsap — the card IS the phenomenon.
+
+    Drawn from the widget's own payload, so the counts on the card cannot
+    drift from the counts on the page. The three rows are the highest-count
+    entries in the catalogue, which means the card restates itself as the
+    catalogue grows rather than freezing on whatever was true the day it was
+    made."""
+    import json as _json
+    import wiki
+
+    d = wiki.WIDGETS["thapsap"][0]()
+    rows = [e for e in d.get("entries", []) if e.get("misread")][:3]
+    n = d.get("counts", {}).get("confirmed", 0)
+
+    body = []
+    y = 300
+    for e in rows:
+        body.append(
+            f'<text x="66" y="{y}" font-family="{_CARD_FONT}" font-size="40" '
+            f'fill="{_NBC["paper"]}">{_esc(e["th"])}</text>')
+        body.append(
+            f'<text x="430" y="{y}" font-family="{_CARD_FONT}" font-size="30" '
+            f'fill="{_NBC["shrine"]}" text-decoration="line-through">'
+            f'{_esc(e["misread"])}</text>')
+        body.append(
+            f'<text x="740" y="{y}" font-family="{_CARD_FONT}" font-size="30" '
+            f'font-weight="700" fill="{_NBC["gold"]}">{_esc(e["en"])}</text>')
+        y += 62
+    body.append(
+        f'<text x="66" y="{y + 24}" font-family="{_CARD_FONT}" font-size="22" '
+        f'fill="{_NBC["muted"]}">{n:,} words catalogued · what a romanizer '
+        f'reads, and what it says</text>')
+    return _nbc_card_shell(
+        "NANOBOTCO · LINGUISTICS", "ทับศัพท์", "English, written in Thai letters",
+        "\n".join(body), "wichaa.net/w/thapsap")
+
+
+def _phasa_card_svg() -> str:
+    """/phasa — the linguistics door. The ศัพท์ family, which is the section's
+    whole organising idea, drawn as the three words it is made of."""
+    fam = [("รากศัพท์", "rak sap", "the root of a word"),
+           ("ทับศัพท์", "thap sap", "a word laid over"),
+           ("ถ่ายเสียง", "thai siang", "the sound, carried across")]
+    body, y = [], 320
+    for th, rom, gloss in fam:
+        body.append(f'<text x="66" y="{y}" font-family="{_CARD_FONT}" font-size="40" '
+                    f'fill="{_NBC["gold"]}">{th}</text>')
+        body.append(f'<text x="330" y="{y}" font-family="{_CARD_FONT}" font-size="26" '
+                    f'fill="{_NBC["muted"]}">{rom}</text>')
+        body.append(f'<text x="560" y="{y}" font-family="{_CARD_FONT}" font-size="26" '
+                    f'fill="{_NBC["paper"]}">{_esc(gloss)}</text>')
+        y += 66
+    body.append(f'<text x="66" y="{y + 28}" font-family="{_CARD_FONT}" font-size="22" '
+                f'fill="{_NBC["muted"]}">roots · borrowings · the sound carried '
+                f'between scripts</text>')
+    return _nbc_card_shell("NANOBOTCO · LINGUISTICS", "ภาษา", "Linguistics of Thailand",
+                           "\n".join(body), "wichaa.net/phasa")
+
+
+def _thin_card_svg() -> str:
+    """/w/thin — the dialect map. The card IS the map: 62 province dots
+    coloured by the word each one's temples use for a hill, drawn from the
+    same payload the widget draws, so the two cannot drift."""
+    import math
+
+    import wiki
+
+    d = wiki.WIDGETS["thin"][0]()
+    iso = (d.get("isoglosses") or [{}])[0]
+    words = iso.get("words") or []
+    palette = ["#e7c66c", "#d81f2c", "#8B5FBF", "#4FA3D1", "#E07A3F", "#5FBF8B"]
+    colour = {w["th"]: palette[i % len(palette)] for i, w in enumerate(words)}
+
+    pts = list(iso.get("by_province", {}).values())
+    if not pts:
+        return _nbc_card_shell("NANOBOTCO · LINGUISTICS", "ถิ่น",
+                               "no data exported yet", "", "wichaa.net/w/thin")
+    lats = [p["lat"] for p in pts]
+    lons = [p["lon"] for p in pts]
+    la0, la1 = min(lats), max(lats)
+    lo0, lo1 = min(lons), max(lons)
+    W, H, ox0, oy0 = 300, 400, 830, 120
+    K = math.cos((la0 + la1) / 2 * math.pi / 180)
+    sc = min(W / ((lo1 - lo0) * K), H / (la1 - la0))
+    ox = ox0 + (W - (lo1 - lo0) * K * sc) / 2
+    oy = oy0 + (H - (la1 - la0) * sc) / 2
+    rmax = max(p["rate"] for p in pts) or 1
+
+    dots = "".join(
+        f'<circle cx="{ox + (p["lon"] - lo0) * K * sc:.1f}" '
+        f'cy="{oy + (la1 - p["lat"]) * sc:.1f}" '
+        f'r="{3 + 6 * math.sqrt(p["rate"] / rmax):.1f}" '
+        f'fill="{colour.get(p["word"], "#888")}" fill-opacity=".85"/>'
+        for p in pts)
+
+    rows, y = [], 300
+    for w in words[:4]:
+        rows.append(f'<circle cx="76" cy="{y - 8}" r="7" fill="{colour[w["th"]]}"/>')
+        rows.append(f'<text x="98" y="{y}" font-family="{_CARD_FONT}" font-size="30" '
+                    f'fill="{_NBC["paper"]}">{_esc(w["th"])}</text>')
+        rows.append(f'<text x="210" y="{y}" font-family="{_CARD_FONT}" font-size="24" '
+                    f'fill="{_NBC["muted"]}">{_esc(w["note"])}</text>')
+        y += 48
+    n = d.get("corpus", {}).get("temples", 0)
+    rows.append(f'<text x="66" y="{y + 26}" font-family="{_CARD_FONT}" font-size="21" '
+                f'fill="{_NBC["muted"]}">{n:,} temple names · what each province '
+                f'calls a hill</text>')
+    return _nbc_card_shell("NANOBOTCO · LINGUISTICS", "ถิ่น",
+                           "The dialects of Thailand, read off its temples",
+                           dots + "".join(rows), "wichaa.net/w/thin")
+
+
+def _holding_card_svg() -> str:
+    """/holding — drawn from the same key file the page is built from, so the
+    card's counts cannot drift from the page's."""
+    import json as _json
+
+    key = _json.loads((HERE / "data" / "holding_key.json").read_text(encoding="utf-8"))
+    mats = [m for m in key["materials"] if m["key"] != "unsure"]
+    kinds = len(key["kinds"])
+    chips = []
+    x, y = 66, 428
+    short = {"organic": "ไม้ · ว่าน · เขา · organic", "relic": "ผ้า · ของครูบา · relic"}
+    for m in mats:
+        label = short.get(m["key"], f'{m["th"]} · {m["en"]}')
+        w = 30 + int(len(label) * 12.2)
+        if x + w > 1130:
+            x, y = 66, y + 66
+        chips.append(
+            f'<rect x="{x}" y="{y}" rx="26" width="{w}" height="52" fill="#ffffff" '
+            f'stroke="#d7e0dd"/>'
+            f'<text x="{x + w / 2:.0f}" y="{y + 34}" font-family="{_CARD_FONT}" '
+            f'font-size="22" fill="#1F4E4A" text-anchor="middle">{_esc(label)}</text>')
+        x += w + 14
+    body = (
+        f'<text x="66" y="352" font-family="{_CARD_FONT}" font-size="46" '
+        f'font-weight="700" fill="#141b1a">ถืออยู่ในมือ — '
+        f'<tspan fill="#1F4E4A">is anyone home?</tspan></text>'
+        f'<text x="66" y="398" font-family="{_CARD_FONT}" font-size="24" fill="#3a4a47">'
+        f'answer the sian’s questions by tapping — เนื้อ first, then what the eye sees</text>'
+        + "".join(chips))
+    return _card_shell(
+        ["I'm holding an amulet"],
+        f"{kinds} kinds · each led by its class: what lives in it, and what a keeper owes it",
+        "wichaa.net/holding", body)
 
 
 def _prices_card_svg() -> str:
@@ -240,7 +416,7 @@ def _answers_card_svg() -> str:
 
 def _geo_card_svg() -> str:
     """Card for /w/geo: the real map, same shapes and same shading the widget
-    draws. House rule is that a card shows the thing -- before the outlines
+    draws. A card shows the thing -- before the outlines
     existed this was a scatter of dots on a blank rectangle, which showed
     nothing at all."""
     import math
@@ -399,7 +575,7 @@ def _widgets_card_svg() -> str:
 <text x="600" y="466" font-family="system-ui,sans-serif" font-size="32" font-weight="700"
       fill="#22201c" text-anchor="middle">{listing}</text>
 <text x="600" y="562" font-family="system-ui,sans-serif" font-size="27"
-      fill="#5d5750" text-anchor="middle">{n} tool{"" if n == 1 else "s"} \u00b7 no accounts \u00b7 no tracking \u00b7 never in an app store</text>
+      fill="#5d5750" text-anchor="middle">{n} tool{"" if n == 1 else "s"} \u00b7 no accounts \u00b7 not in an app store</text>
 </svg>"""
 
 

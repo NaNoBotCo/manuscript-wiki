@@ -113,7 +113,7 @@ GROUPS = [
     ("making", "เบื้องหลัง · The making of",
      "The project itself — honest about its own state.",
      [
-         ("/support", "Tam boon", "free forever, funded by merit not paywalls — sponsor a page"),
+         ("/support", "Tam boon", "funded by merit, not paywalls — sponsor a page"),
          ("/activity", "The bots at work", "what the automation has been doing, and what it costs to go on"),
          ("/widgets", "Tools & shit", "small free tools that do one thing — no accounts, no app store"),
          ("/api/index.json", "For machines", "the API, the graph, llms.txt — even the bots can learn"),
