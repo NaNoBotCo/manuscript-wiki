@@ -69,3 +69,13 @@ missing, the run reports exactly what to install and changes nothing.
 
 The catalog and image store are produced by the crawler in `../crawler/`; this
 wiki only reads them.
+
+
+## Licence
+
+Records, prose and pages: CC BY-SA 4.0. Code: AGPL-3.0-or-later. Anything
+carried in from elsewhere keeps its own terms — see [LICENSE](LICENSE).
+
+**Commercial licence.** If share-alike doesn't fit your use — a corpus, a
+product, a model — a commercial licence is available.
+[Open an issue](https://github.com/NaNoBotCo/manuscript-wiki/issues) and say what you need.
