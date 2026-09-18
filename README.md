@@ -73,12 +73,15 @@ wiki only reads them.
 
 ## Licence
 
-Records, prose and pages: CC BY-SA 4.0. Code: AGPL-3.0-or-later. Anything
-carried in from elsewhere keeps its own terms — see [LICENSE](LICENSE).
+Records, prose, pages and the compilation: **CC BY 4.0**, attributed to wichaa.
+Code: **MIT**. Attribution is the only condition — name the work and link back,
+and the rest is yours: copy it, adapt it, sell it, index it, train on it.
 
-**Commercial licence.** If share-alike doesn't fit your use — a corpus, a
-product, a model — a commercial licence is available.
-[Open an issue](https://github.com/NaNoBotCo/manuscript-wiki/issues) and say what you need.
+Manuscript images and their thumbnails are not covered by that: rights remain
+with each holding library, and the record's source link names it. Wikipedia text
+carried into the articles stays CC BY-SA 4.0, Wikidata is CC0, OpenStreetMap
+data is ODbL. Each layer, with its attribution, is in [NOTICE.txt](NOTICE.txt);
+the verbatim licence text is in [LICENSE](LICENSE).
 
 ---
 

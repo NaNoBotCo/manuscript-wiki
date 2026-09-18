@@ -1,0 +1,70 @@
+The Lanna manuscript wiki — licences, in layers
+
+This repository builds wichaa.net. Different parts of it come from different
+places and cannot carry one licence between them. The layers are deliberate, and
+they are the ones wichaa.net has been publishing at /llms.txt — this file writes
+them down where a machine cloning the repository will find them.
+
+The verbatim text of the licence named first is in LICENSE beside this file.
+
+
+RECORDS, PROSE, PAGES AND THE COMPILATION
+  Creative Commons Attribution 4.0 International (CC BY 4.0)
+  SPDX-License-Identifier: CC-BY-4.0
+  https://creativecommons.org/licenses/by/4.0/
+
+  Covers the catalogue, the metadata, the synthesised articles, the controlled
+  vocabulary and the digitised contributed texts.
+
+  Attribute to: wichaa · https://wichaa.net/
+
+  Attribution is the whole of the condition — copy it, adapt it, sell it, index
+  it, train on it, and say where it came from. The licence covers sui generis
+  database rights where they exist (section 4).
+
+
+CODE
+  MIT
+  SPDX-License-Identifier: MIT
+  Copyright (c) 2026 NaN
+  Keep the copyright line and the permission notice; everything else is open.
+
+
+WHAT CARRIES ITS OWN TERMS
+
+  Manuscript images, and the 240px thumbnails derived from them in data/thumbs/
+      Rights remain with each manuscript's holding library. The record's source
+      link names the institution and its terms. Nothing is relicensed here.
+
+  Wikipedia text — the sectioned articles, the intros on place pages
+      CC BY-SA 4.0, credited on the page with a link to the licence, as the
+      licence requires. Share-alike applies to that text.
+
+  Wikidata
+      CC0 1.0 public domain dedication. Credited anyway.
+
+  OpenStreetMap-derived facility and place data
+      © OpenStreetMap contributors, Open Database Licence 1.0 (share-alike)
+      https://opendatacommons.org/licenses/odbl/1-0/
+
+  Museum comparanda — Cleveland Museum of Art, the Met, the Smithsonian
+      CC0 objects, credited to the holding museum.
+
+  Pali and its English — the ho trai texts
+      Mahāsaṅgīti Tipiṭaka and Bhante Sujato's translations, via SuttaCentral
+      bilara-data, CC0 1.0.
+
+  Zhou Yi
+      The canonical text, public domain, shown verbatim.
+
+  Province outlines — data/th-provinces.json
+      Natural Earth, ne_10m_admin_1_states_provinces. Public domain, credited
+      on /w/geo anyway. Provenance in data/th-provinces.SOURCE.txt.
+
+  Vendored libraries in vendor/
+      Each keeps the licence it arrived with.
+
+  Where an upstream licence and the layers above disagree, the upstream licence
+  governs that file.
+
+Copyright (c) 2026 NaN
