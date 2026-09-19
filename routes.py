@@ -230,6 +230,19 @@ ROUTES: tuple[Route, ...] = (
                 "kong-krapan, phokkhasap — each paired with the plate it was drawn on."),
           door_i=6, built_by="yant_index.py"),
 
+    # /yant indexes the designs. This asks the question the corpus can answer with a
+    # number instead: how often does it name สักขาลาย — the waist-to-ankle tattoo a Lanna
+    # man was expected to carry — at all? Once. That page is quoted here in both
+    # languages, because it is the only account of the custom on the disk written from
+    # inside it; every other source for the same custom is a British administrator.
+    Route("/handpoke", "handpoke/index.html", "The leg tattoo, counted",
+          door="สักขาลาย · The leg tattoo",
+          blurb="the tattoo a Lanna man wore from waist to ankle, counted in the corpus",
+          desc=("The Lanna leg tattoo — สักขาลาย — quoted from the one page of this corpus "
+                "that describes it, counted against every transcribed page, and set beside "
+                "the Burmese and Shan accounts of the same custom."),
+          door_i=6, built_by="handpoke.py"),
+
     Route("/moon", "moon/index.html", "The moon complication", nav="Moon",
           door="The moon complication",
           blurb="a working dial — two moons on one turning disc",
