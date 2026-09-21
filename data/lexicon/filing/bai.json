@@ -1,0 +1,28 @@
+{
+ "head": "bai",
+ "rule": "ใบ goes from leaf to sheet to document, and the compounds sort by which stop they made. Sense 1 keeps actual foliage (ใบตอง, ใบเลี้ยง, ไม้ใบ, กะตังใบ) and ใบบุญ, which is still a leaf — the shelter someone's merit casts over you. Sense 3 is the DOCUMENT and takes the certificates and notices, including the three named by colour: ใบแดง the wedding invitation, ใบดำ the funeral notice, ใบเหลือง the football caution — Thai names a document by the paper it is printed on. Sense 4 is the flat sheet as a physical object and takes the blades (ใบพัด, ใบจักร) and ใบปลิว, a flyer, which is a sheet before it is a document. Sense 2, the sail, was empty and takes ผ้าใบ, canvas, whose gloss says ใช้ทำใบเรือ.",
+ "senses": {
+  "1": [
+   "กะตังใบ",
+   "ใบตอง",
+   "ใบบุญ",
+   "ใบเลี้ยง",
+   "ไม้ใบ"
+  ],
+  "2": [
+   "ผ้าใบ"
+  ],
+  "3": [
+   "ใบดำ",
+   "ใบสั่ง",
+   "ใบอนุญาต",
+   "ใบเหลือง",
+   "ใบแดง"
+  ],
+  "4": [
+   "ใบจักร",
+   "ใบปลิว",
+   "ใบพัด"
+  ]
+ }
+}

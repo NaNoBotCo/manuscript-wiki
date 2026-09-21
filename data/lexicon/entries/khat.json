@@ -1,0 +1,867 @@
+{
+ "id": "w:khat",
+ "th": "ขาด",
+ "status": "mapped",
+ "rtgs": "khat",
+ "paiboon": "kàat",
+ "ipa": "/kʰaːt̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "แยกออกจากกันเพราะถูกดึง ตัด หรือฉีก เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ฟิวส์ขาด",
+     "rtgs": "fio-khat",
+     "ipa": "/fiw˧.kʰaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อดกลั้นอารมณ์โกรธไม่อยู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฟิวส์",
+      "ขาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "อุปกรณ์ไฟฟ้าชนิดหนึ่ง ใช้ต่อเข้ากั + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+    },
+    {
+     "th": "ขาดลอย",
+     "rtgs": "khat-loi",
+     "ipa": "/kʰaːt̚˨˩.lɔːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สูญไปโดยไม่มีหวังว่าจะได้คืน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาด",
+      "ลอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "ลอย"
+     ],
+     "lit": "blow + float",
+     "lit_th": "แยกออกจากกันเพราะถูกดึง ตัด หรือฉี + ทรงตัวอยู่ในอากาศ"
+    },
+    {
+     "th": "ขายขาด",
+     "rtgs": "khai-khat",
+     "ipa": "/kʰaːj˩˩˦.kʰaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขายไม่รับคืน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาย",
+      "ขาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "ขาย"
+     ],
+     "lit": "sell + blow",
+     "lit_th": "เอาของแลกเงินตรา + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+    },
+    {
+     "th": "เด็ดขาด",
+     "rtgs": "det-khat",
+     "ipa": "/det̚˨˩.kʰaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "firm"
+      ],
+      "th": "เฉียบขาด, ไม่เปลี่ยนแปลง, ว่าอย่างใดทำอย่างนั้น, ถึงที่สุด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เด็ด",
+      "ขาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ทำให้ขาดด้วยเล็บหรือนิ้ว + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+    },
+    {
+     "th": "ผูกขาด",
+     "rtgs": "phuk-khat",
+     "ipa": "/pʰuːk̚˨˩.kʰaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "corner",
+       "monopolize"
+      ],
+      "th": "สงวนสิทธิไว้แต่ผู้เดียว, โดยมากผิดกฎหมายเนื่องจากกีดกันทางการค้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ผูก",
+      "ขาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "tie + blow",
+     "lit_th": "เอาเชือกเป็นต้นสอดคล้องกันให้เกิดเ + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+    },
+    {
+     "th": "ขาดใจ",
+     "rtgs": "khat-chai",
+     "ipa": "/kʰaːt̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ้นใจ, ตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาด",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "blow + heart",
+     "lit_th": "แยกออกจากกันเพราะถูกดึง ตัด หรือฉี + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "ตัดขาด",
+     "rtgs": "tat-khat",
+     "ipa": "/tat̚˨˩.kʰaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เลิกติดต่อคบหากัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัด",
+      "ขาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "ตัด"
+     ],
+     "lit": "cut + blow",
+     "lit_th": "ทำให้ขาดด้วยของมีคม + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+    },
+    {
+     "th": "ชี้ขาด",
+     "rtgs": "chi-khat",
+     "ipa": "/t͡ɕʰiː˦˥.kʰaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "decide",
+       "conclusive"
+      ],
+      "th": "สั่งเด็ดขาด, วินิจฉัยเด็ดขาด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชี้",
+      "ขาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "เหยียดนิ้วชี้เป็นต้นตรงไปที่ใดที่ห + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+    },
+    {
+     "th": "ขาดตัว",
+     "rtgs": "khat-tua",
+     "ipa": "/kʰaːt̚˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จำกัดราคาคงที่ไม่เพิ่มไม่ลด, จำกัดราคาตายตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาด",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "blow + form",
+     "lit_th": "แยกออกจากกันเพราะถูกดึง ตัด หรือฉี + รูป"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ควรจะมีแต่ไม่มี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Severed from what should be there: lacking.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขาดตลาด",
+     "rtgs": "khat-ta-lat",
+     "ipa": "/kʰaːt̚˨˩.ta˨˩.laːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่มีขายในท้องตลาดอย่างที่เคยมี, เกิดภาวะที่ผลิตสินค้าไม่เพียงพอต่อความต้องการของตลาด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาด",
+      "ตลาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตลาด"
+     ],
+     "lit": "blow + market",
+     "lit_th": "ควรจะมีแต่ไม่มี + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ"
+    },
+    {
+     "th": "ขาดแคลน",
+     "rtgs": "khat-khlaen",
+     "ipa": "/kʰaːt̚˨˩.kʰlɛːn˧/",
+     "gloss": {
+      "en": [
+       "absent",
+       "lack",
+       "lacking"
+      ],
+      "th": "ขัดสน, อัตคัด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขาด",
+      "แคลน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "lit_th": "ควรจะมีแต่ไม่มี + ขัดสน",
+     "frame": "quality"
+    },
+    {
+     "th": "คงขาด",
+     "rtgs": "khong–khat",
+     "ipa": "/kʰoŋ˧.kʰaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยังขาด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คง",
+      "ขาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "probably + blow",
+     "lit_th": "ยังมียังเป็นอยู่อย่างเดิม + ควรจะมีแต่ไม่มี"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "มีไม่ครบ, มีไม่เต็ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Not complete, not full.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขาดเหลือ",
+     "rtgs": "khat-luea",
+     "ipa": "/kʰaːt̚˨˩.lɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ครบตามที่ควรมี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาด",
+      "เหลือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "blow + down to",
+     "lit_th": "มีไม่ครบ + เกิน"
+    },
+    {
+     "th": "ขาดทุน",
+     "rtgs": "khat-thun",
+     "ipa": "/kʰaːt̚˨˩.tʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ได้น้อยกว่าต้นทุน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาด",
+      "ทุน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "blow + fund",
+     "lit_th": "มีไม่ครบ + ของเดิมหรือเงินเดิมที่มีไว้ ลงไว้"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ไม่ครบ, บกพร่อง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "And so deficient.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ไม่เต็มตามจำนวน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Short of the count.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เดือนขาด",
+     "rtgs": "duean-khat",
+     "ipa": "/dɯa̯n˧.kʰaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เดือนทางจันทรคติที่มี 29 วัน วันสิ้นเดือนตรงกับวันแรม 14 ค่ำ คือ เดือนอ้าย เดือน 3 เดือน 5 เดือน 7 เดือน 9 เดือน 11, คู่กับ เดือนเต็ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เดือน",
+      "ขาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "month + blow"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ไม่มาตามกำหนด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Absent when due.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 2 manuscript titles, 58 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การตัดขาด",
+   "rtgs": "kan-tat-khat",
+   "ipa": "/kaːn˧.tat̚˨˩.kʰaːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตัดขาด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตัด",
+    "ขาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตัด + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+  },
+  {
+   "th": "การขายขาด",
+   "rtgs": "kan-khai-khat",
+   "ipa": "/kaːn˧.kʰaːj˩˩˦.kʰaːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขายขาด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขาย",
+    "ขาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "sale + blow",
+   "lit_th": "คำอาการนามของ ขาย + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+  },
+  {
+   "th": "การผูกขาด",
+   "rtgs": "kan-phuk-khat",
+   "ipa": "/kaːn˧.pʰuːk̚˨˩.kʰaːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "corner"
+    ],
+    "th": "คำอาการนามของ ผูกขาด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การผูก",
+    "ขาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ผูก + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+  },
+  {
+   "th": "การขาด",
+   "rtgs": "kan-khat",
+   "ipa": "/kaːn˧.kʰaːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขาด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ขาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+  },
+  {
+   "th": "การชี้ขาด",
+   "rtgs": "kan-chi-khat",
+   "ipa": "/kaːn˧.t͡ɕʰiː˦˥.kʰaːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชี้ขาด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การชี้",
+    "ขาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชี้ + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+  },
+  {
+   "th": "คูขาด",
+   "rtgs": "khu-khat",
+   "ipa": "/kʰuː˧.kʰaːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอคง จังหวัดนครราชสีมา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คู",
+    "ขาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ร่องน้ำที่ขุดขึ้นเพื่อชักน้ำหรือเก + แยกออกจากกันเพราะถูกดึง ตัด หรือฉี"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *qaːtᴰ; ร่วมเชื้อสายกับปักษ์ใต้ ค้าด, ลาว ຂາດ (ขาด), ไทลื้อ ᦃᦱᧆ (ฃาด), ไทดำ ꪄꪱꪒ (ฃาด), ไทขาว ꪄꪱꪒ, ไทใหญ่ ၶၢတ်ႇ (ข่าต), อาหม 𑜁𑜞𑜄𑜫 (ขฺรต์), จ้วง kat",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khat-2",
+   "label": "ขัด",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khat\". ขาด is kàat, ขัด is kàt — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "blow",
+  "out",
+  "absence",
+  "lack"
+ ]
+}

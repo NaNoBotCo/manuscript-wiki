@@ -1,0 +1,35 @@
+{
+ "head": "khon",
+ "rule": "คน splits almost mechanically by position: head-INITIAL takes sense 2, head-FINAL takes sense 1. Sense 2's own gloss is that broad — a formative on a noun or verb naming one connected with a thing, an action, a CONDITION, or who has that quality — and the source-filed คนพิการ already sits there, so the sixteen role-and-state words follow it, including the ordination pair คนดิบ and คนสุก, the raw man and the cooked. Sense 1 keeps คน where it still means a human being as such, which is where the head-final words land: ผู้คน, เดนคน (too vile to count as one), เกินคน (more than one), หมีคน (the sun bear, man-bear), กลางคน (the middle of a life). คนละ is the single head-initial exception — ละ is a distributive particle, not a quality, so the word counts humans rather than naming one. Sense 3 is the unrelated homograph 'to stir' and takes ไข่คน, which the dictionary marks a calque of English scrambled egg.",
+ "senses": {
+  "1": [
+   "ผู้คน",
+   "เดนคน",
+   "เกินคน",
+   "หมีคน",
+   "กลางคน",
+   "คนละ"
+  ],
+  "2": [
+   "คนเจ็บ",
+   "คนป่วย",
+   "คนไข้",
+   "คนใช้",
+   "คนงาน",
+   "คนทรง",
+   "คนโกหก",
+   "คนดี",
+   "คนสนิท",
+   "คนกลาง",
+   "คนใน",
+   "คนอื่น",
+   "คนอื่น ๆ",
+   "คนสุก",
+   "คนดิบ",
+   "คนสึก"
+  ],
+  "3": [
+   "ไข่คน"
+  ]
+ }
+}

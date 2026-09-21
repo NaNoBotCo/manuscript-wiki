@@ -1,0 +1,24 @@
+{
+ "head": "lom",
+ "rule": "ลม is moving air (3) and the same air read three other ways. The default is 3, and it takes everything outdoors and everything empty — the named winds (ลมตะวันตก, ลมตะวันออก, ลมค้า), the machinery that moves or holds air (พัดลม, ห้องลม, อัดลม), what rides on it (ติดลม, กินลม), what is struck through it (ชกลม), and the wind-as-nothing metaphors (พกลม, ลมลวง, ไข่ลม). Sense 2 is breath, so it takes the tube that carries it (หลอดลม) and the two ways of saying a person's breath has run out (หมดลม, สิ้นลม). Sense 1 is the wind ELEMENT inside the body, one of the four ธาตุ, and its own gloss says a disordered wind produces symptoms: that is where the fart (ผายลม), the wind-gates in the webs of the fingers and toes (ประตูลม) and the toxic wind of hives (ลมพิษ) belong. Sense 4 is not disease in general but ONE named illness — dizziness, blacking out, nausea — so it takes ลมแดด, sunstroke, described in the RID as เป็นลมเพราะโดนแดดจัด, and nothing else.",
+ "senses": {
+  "1": ["ประตูลม", "ลมพิษ", "ผายลม"],
+  "2": ["หลอดลม", "หมดลม", "สิ้นลม"],
+  "3": [
+   "ลมบ้าหมู",
+   "ห้องลม",
+   "ติดลม",
+   "ลมตะวันตก",
+   "ลมตะวันออก",
+   "ไข่ลม",
+   "ลมค้า",
+   "อัดลม",
+   "พกลม",
+   "กินลม",
+   "ชกลม",
+   "พัดลม",
+   "ลมลวง"
+  ],
+  "4": ["ลมแดด"]
+ }
+}

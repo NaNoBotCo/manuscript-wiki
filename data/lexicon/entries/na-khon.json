@@ -1,0 +1,686 @@
+{
+ "id": "w:na-khon",
+ "th": "นคร",
+ "status": "mapped",
+ "rtgs": "na-khon",
+ "paiboon": "ná-kɔɔn",
+ "ipa": "/na˦˥.kʰɔːn˧/",
+ "syllable_respelling": "นะ-คอน",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "city"
+    ],
+    "th": "เมืองใหญ่, กรุง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "นครรัฐ",
+     "rtgs": "na-khon-rat",
+     "ipa": "/na˦˥.kʰɔːn˧.rat̚˦˥/",
+     "gloss": {
+      "en": [
+       "city-state"
+      ],
+      "th": "เมืองที่ปกครองตนเองเป็นอิสระ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "รัฐ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.20",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "รัฐ"
+     ],
+     "lit": "city + sovereign state",
+     "lit_th": "เมืองใหญ่ + แคว้น",
+     "frame": "entity"
+    },
+    {
+     "th": "เทศบาลนคร",
+     "rtgs": "thet-sa-ban-na-khon",
+     "ipa": "/tʰeːt̚˥˩.sa˨˩.baːn˧.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "องค์กรปกครองส่วนท้องถิ่นของเมืองขนาดใหญ่ที่มีประชากรเกิน 50,000 คน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทศบาล",
+      "นคร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "องค์กรปกครองส่วนท้องถิ่นรูปแบบหนึ่ + เมืองใหญ่",
+     "frame": "entity"
+    },
+    {
+     "th": "พระนคร",
+     "rtgs": "phra-na-khon",
+     "ipa": "/pʰra˦˥.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมืองหลวง, เมืองใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "นคร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.33",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "the honorific prefix phra + city",
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + เมืองใหญ่",
+     "frame": "entity"
+    },
+    {
+     "th": "นครหลวง",
+     "rtgs": "na-khon-luang",
+     "ipa": "/na˦˥.kʰɔːn˧.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมืองหลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "หลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.18",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "city + royal",
+     "lit_th": "เมืองใหญ่ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
+    },
+    {
+     "th": "นครบาล",
+     "translit_auto": "nkhrbal",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้มีหน้าที่ในการปกครอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "บาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "บาล"
+     ],
+     "lit": "city + to guard",
+     "lit_th": "เมืองใหญ่ + เลี้ยง"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "na-khon as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 8 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 8 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 8 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "2 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "นครชุม",
+     "rtgs": "na-khon-chum",
+     "ipa": "/na˦˥.kʰɔːn˧.t͡ɕʰum˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกำแพงเพชร จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "ชุม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ชุม"
+     ],
+     "lit": "na-khon as an element in place names + abound",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มารวมกัน"
+    },
+    {
+     "th": "นครไทย",
+     "rtgs": "na-khon-thai",
+     "ipa": "/na˦˥.kʰɔːn˧.tʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "ไทย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "ไทย"
+     ],
+     "lit": "na-khon as an element in place names + Thai",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ประเทศ ใน เอเชียตะวันออกเฉียงใต้"
+    },
+    {
+     "th": "โกสัมพีนคร",
+     "rtgs": "ko-sam-phi-na-khon",
+     "ipa": "/koː˧.sam˩˩˦.pʰiː˧.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โกสัมพี",
+      "นคร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอโกสัมพีนคร จัง + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "สิงหนคร",
+     "rtgs": "sing-ha-na-khon",
+     "ipa": "/siŋ˩˩˦.ha˨˩.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสงขลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิงห",
+      "นคร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิงโต + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ศรีนคร",
+     "rtgs": "si-na-khon",
+     "ipa": "/siː˩˩˦.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศรี",
+      "นคร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ศรี"
+     ],
+     "lit": "splendour + na-khon as an element in place names",
+     "lit_th": "มิ่ง + ใช้ประกอบชื่อสถานที่",
+     "flips_with": "นครศรี",
+     "frame": "entity"
+    },
+    {
+     "th": "เทพนคร",
+     "rtgs": "thep-na-khon",
+     "ipa": "/tʰeːp̚˥˩.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกำแพงเพชร จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทพ",
+      "นคร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เทพ"
+     ],
+     "lit": "god + na-khon as an element in place names",
+     "lit_th": "เทวดา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "วัฒนานคร",
+     "rtgs": "wat-tha-na-na-khon",
+     "ipa": "/wat̚˦˥.tʰa˦˥.naː˧.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัฒนา",
+      "นคร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความเจริญ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "เรณูนคร",
+     "rtgs": "re-nu-na-khon",
+     "ipa": "/reː˧.nuː˧.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครพนม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรณู",
+      "นคร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ละออง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "นครนายก",
+     "rtgs": "na-khon-na-yok",
+     "ipa": "/na˦˥.kʰɔːn˧.naː˧.jok̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(จังหวัด~) ชื่อจังหวัดในภาคกลางของประเทศไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "นายก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผู้นำ",
+     "frame": "entity"
+    },
+    {
+     "th": "นครพนม",
+     "rtgs": "na-khon-pha-nom",
+     "ipa": "/na˦˥.kʰɔːn˧.pʰa˦˥.nom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(จังหวัด~) ชื่อจังหวัดในภาคตะวันออกเฉียงเหนือของประเทศไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "พนม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภูเขา",
+     "frame": "entity"
+    },
+    {
+     "th": "นครสวรรค์",
+     "rtgs": "na-khon-sa-wan",
+     "ipa": "/na˦˥.kʰɔːn˧.sa˨˩.wan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(จังหวัด~) ชื่อจังหวัดในภาคกลางของประเทศไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "สวรรค์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na-khon as an element in place names + heaven",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โลกของเทวดา",
+     "frame": "entity"
+    },
+    {
+     "th": "นครปฐม",
+     "rtgs": "na-khon-pa-thom",
+     "ipa": "/na˦˥.kʰɔːn˧.pa˨˩.tʰom˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(จังหวัด~) ชื่อจังหวัดในภาคกลางของประเทศไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "ปฐม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ประถม",
+     "frame": "quality"
+    },
+    {
+     "th": "นครศรี",
+     "rtgs": "na-khon-si",
+     "ipa": "/na˦˥.kʰɔːn˧.siː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปตัดทอนของ นครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "ศรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ศรี"
+     ],
+     "lit": "na-khon as an element in place names + splendour",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มิ่ง",
+     "flips_with": "ศรีนคร",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 36 manuscript titles, 414 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits —.",
+ "etymology": {
+  "summary": "ยืมมาจากเขมรเก่าสมัยอังกอร์ នគរ (นคร) (เขมรเก่าปรากฏครั้งประมาณปี ค.ศ. 878-977), จากสันสกฤต नगर (นคร)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

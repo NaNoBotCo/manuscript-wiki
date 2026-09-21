@@ -1,0 +1,11 @@
+{
+ "head": "tham-2",
+ "rule": "ทำ is the bare verb DO, and its senses differ only by what the object is. The working test is that object: sense 2 takes the THING PRODUCED, 3 takes the FIELD one works in, 4 takes the TASK carried out. So ทำครัว files at 3 beside ทำนา and ทำสวน — the kitchen is a field of work, not a product — while ทำการบ้าน, ทำความสะอาด, ทำคลอด and ทำแท้ง are tasks and file at 4 with ทำงาน. Sense 7, performing the rite pertaining to a thing, takes ทำขวัญ and ทำบุญ. Sense 8, แสดง, takes the whole family in which the object is the manner one presents — ทำที, ทำท่า, ทำเนียน, ทำตัว. Sense 1, the bare กระทำ, keeps the causatives whose object is simply an effect: ทำร้าย, ทำพิษ, ทำให้, and the poetic รันทำ, ตี + กระทำ. Senses 2, 5, 6 and 9 take nothing here, and each for a plain reason: their compounds are ทำอาหาร and ทำบ้าน, ทำผม and ทำเล็บ, ทำตามกฎ, ทำปริญญา — none of which is in this queue. The trap on this head is the Khmer infix: FOUR of nineteen words are ทำ- infixed stems, not compounds at all.",
+ "senses": {
+  "1": ["ทำร้าย", "ทำพิษ", "ทำให้", "รันทำ"],
+  "3": ["ทำครัว"],
+  "4": ["ทำการบ้าน", "ทำความสะอาด", "ทำคลอด", "ทำแท้ง"],
+  "7": ["ทำขวัญ", "ทำบุญ"],
+  "8": ["ทำที", "ทำท่า", "ทำเนียน", "ทำตัว"]
+ }
+}

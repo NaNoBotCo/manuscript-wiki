@@ -1,0 +1,610 @@
+{
+ "id": "w:sa-than",
+ "th": "สถาน",
+ "status": "mapped",
+ "rtgs": "sa-than",
+ "paiboon": "sà-tǎan",
+ "ipa": "/sa˨˩.tʰaːn˩˩˦/",
+ "syllable_respelling": "สะ-ถาน",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "place",
+     "site"
+    ],
+    "th": "ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง ที่, แหล่ง",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "โบราณสถาน",
+     "rtgs": "bo-ran-na-sa-than",
+     "ipa": "/boː˧.raːn˧.na˦˥.sa˨˩.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งที่เคลื่อนที่ไม่ได้ เช่น โบสถ์ วิหาร วัง มีอายุเก่ากว่า 100 ปีขึ้นไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โบราณ",
+      "สถาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "ancient + place",
+     "lit_th": "มีมาแล้วช้านาน + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+     "frame": "quality"
+    },
+    {
+     "th": "สถานที่",
+     "rtgs": "sa-than-thi",
+     "ipa": "/sa˨˩.tʰaːn˩˩˦.tʰiː˥˩/",
+     "gloss": {
+      "en": [
+       "facility",
+       "locus"
+      ],
+      "th": "ที่ตั้ง, แหล่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สถาน",
+      "ที่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.18, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "place + at",
+     "lit_th": "ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง + แหล่ง",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ประการ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สถานทูต",
+     "rtgs": "sa-than-thut",
+     "ipa": "/sa˨˩.tʰaːn˩˩˦.tʰuːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ทำการของทูต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สถาน",
+      "ทูต"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.29, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ประการ + ผู้นำข้อความไปแจ้งทั้ง 2 ฝ่าย",
+     "frame": "entity"
+    },
+    {
+     "th": "ศุลกสถาน",
+     "rtgs": "sun-la-ka-sa-than",
+     "ipa": "/sun˩˩˦.la˦˥.ka˨˩.sa˨˩.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ทำการศุลกากร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศุลก",
+      "สถาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.32, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "เนื่องด้วยการเก็บอากรจากสินค้าขาเข + ประการ",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A place becomes a respect, a particular — ในสถานใด.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "ความเป็นไป, ความเป็นอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "And a state, a condition.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอเชียงของ จังหวัดเชียงราย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไชยสถาน",
+     "rtgs": "chai-sa-than",
+     "ipa": "/t͡ɕʰaj˧.sa˨˩.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสารภี จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไชย",
+      "สถาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ดีกว่า + ชื่อตำบลหนึ่งในอำเภอเชียงของ จังหว",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A tambon named from a place.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 9 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['ตำบล', 'อำเภอ', 'จังหวัด'].",
+ "compounds_unassigned": [
+  {
+   "th": "สถานศึกษา",
+   "rtgs": "sa-than-suek-sa",
+   "ipa": "/sa˨˩.tʰaːn˩˩˦.sɯk̚˨˩.saː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สถานที่สำหรับศึกษา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สถาน",
+    "ศึกษา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "place + learn",
+   "lit_th": "ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง + การเล่าเรียน การฝึกฝน และการอบรม",
+   "frame": "entity"
+  },
+  {
+   "th": "รณสถาน",
+   "rtgs": "ron-na-sa-than",
+   "ipa": "/ron˧.na˦˥.sa˨˩.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สนามรบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รณ",
+    "สถาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เสียง + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "entity"
+  },
+  {
+   "th": "ฮินดูสถาน",
+   "rtgs": "hin-du-sa-than",
+   "ipa": "/hin˧.duː˧.sa˨˩.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ อินเดีย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฮินดู",
+    "สถาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "ชื่อศาสนาหนึ่งที่เกิดในอินเดีย มีว + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง"
+  },
+  {
+   "th": "พุทธสถาน",
+   "rtgs": "phut-tha-sa-than",
+   "ipa": "/pʰut̚˦˥.tʰa˦˥.sa˨˩.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สถานที่ที่เกี่ยวข้องกับพุทธศาสนา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พุทธ",
+    "สถาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "พุทธ"
+   ],
+   "lit": "the awakened one + place",
+   "lit_th": "ผู้ตรัสรู้ + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "entity"
+  },
+  {
+   "th": "ทัณฑสถาน",
+   "rtgs": "than-tha-sa-than",
+   "ipa": "/tʰan˧.tʰa˦˥.sa˨˩.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรือนจำพิเศษประเภทหนึ่ง ซึ่งใช้เป็นที่ควบคุมกักขังผู้ต้องขังเฉพาะแต่ละประเภทให้เหมาะสมกับประเภทผู้ต้องขังนั้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทัณฑ",
+    "สถาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ ทัณฑ์ + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "entity"
+  },
+  {
+   "th": "สาธารณสถาน",
+   "rtgs": "sa-tha-ra-na-sa-than",
+   "ipa": "/saː˩˩˦.tʰaː˧.ra˦˥.na˦˥.sa˨˩.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สถานที่ใด ๆ ซึ่งประชาชนมีความชอบธรรมที่จะเข้าไปได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาธารณ",
+    "สถาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ สาธารณะ + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "quality"
+  },
+  {
+   "th": "สถานภาพ",
+   "rtgs": "sa-tha-na-phap",
+   "ipa": "/sa˨˩.tʰaː˩˩˦.na˦˥.pʰaːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "character",
+     "status"
+    ],
+    "th": "ฐานะ, สถานะ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สถาน",
+    "ภาพ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "place + image",
+   "lit_th": "ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง + ความมี",
+   "frame": "entity"
+  },
+  {
+   "th": "สถานการณ์",
+   "rtgs": "sa-tha-na-kan",
+   "ipa": "/sa˨˩.tʰaː˩˩˦.na˦˥.kaːn˧/",
+   "gloss": {
+    "en": [
+     "case",
+     "situation",
+     "kayfabe"
+    ],
+    "th": "เหตุการณ์ที่กำลังเป็นไป",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สถาน",
+    "การณ์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง + เค้า",
+   "frame": "entity"
+  },
+  {
+   "th": "เทวสถาน",
+   "rtgs": "the-wa-sa-than",
+   "ipa": "/tʰeː˧.wa˦˥.sa˨˩.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "temple"
+    ],
+    "th": "สถานที่ที่เทพเจ้าหรือเทวดาประทับหรือสิงสถิต",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เทว",
+    "สถาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เทวดา + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "entity"
+  },
+  {
+   "th": "ฌาปนสถาน",
+   "rtgs": "cha-pa-na-sa-than",
+   "ipa": "/t͡ɕʰaː˧.pa˨˩.na˦˥.sa˨˩.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สถานที่เผาศพ, เมรุ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฌาปน",
+    "สถาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "การเผาศพ + ที่ตั้ง ถ้าใช้ประกอบคำอื่นหมายถึง",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต स्थान (สฺถาน); เทียบบาลี ฐาน",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

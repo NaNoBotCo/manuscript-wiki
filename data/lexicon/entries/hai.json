@@ -1,0 +1,725 @@
+{
+ "id": "w:hai",
+ "th": "หาย",
+ "status": "mapped",
+ "rtgs": "hai",
+ "paiboon": "hǎai",
+ "ipa": "/haːj˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สูญ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หายใจ",
+     "rtgs": "hai-chai",
+     "ipa": "/haːj˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "breathe"
+      ],
+      "th": "กิริยาที่ทำให้อากาศเข้าสู่และออกจากปอด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หาย",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "all + heart",
+     "lit_th": "สูญ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "flips_with": "ใจหาย"
+    },
+    {
+     "th": "ฉิบหาย",
+     "rtgs": "chip-hai",
+     "ipa": "/t͡ɕʰip̚˨˩.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สูญหมด, เสียหมด, หมดเร็ว, ป่นปี้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฉิบ",
+      "หาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "ลักษณะที่จากไปหรือหายไปเร็วเกินคาด + สูญ"
+    },
+    {
+     "th": "ใจหาย",
+     "rtgs": "chai-hai",
+     "ipa": "/t͡ɕaj˧.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ตกใจเสียวใจขึ้นทันที",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "หาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + all",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + สูญ",
+     "flips_with": "หายใจ"
+    },
+    {
+     "th": "สูญหาย",
+     "rtgs": "sun-hai",
+     "ipa": "/suːn˩˩˦.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หายไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สูญ",
+      "หาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "all + all",
+     "lit_th": "ทำให้หายสิ้นไป + สูญ"
+    },
+    {
+     "th": "ขวัญหาย",
+     "rtgs": "khwan-hai",
+     "ipa": "/kʰwan˩˩˦.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตกใจ, ใจหาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "หาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "khwan + all",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + สูญ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "หาไม่พบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "What is lost is what cannot be found.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ไม่ปรากฏ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หายตัว",
+     "rtgs": "hai–tua",
+     "ipa": "/haːj˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้ไม่เห็นตัว, มักใช้คู่กับ ล่องหน เป็น ล่องหนหายตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หาย",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "all + form",
+     "lit_th": "ไม่ปรากฏ + รูป"
+    },
+    {
+     "th": "หายหัว",
+     "rtgs": "hai–hua",
+     "ipa": "/haːj˩˩˦.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หายไปนาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หาย",
+      "หัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "all + head",
+     "lit_th": "ไม่ปรากฏ + ส่วนบนสุดของร่างกายของคนหรือสัตว์"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "And what does not appear at all.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "หมด, สิ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "And what is used up, gone.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เสียหาย",
+     "rtgs": "sia-hai",
+     "ipa": "/sia̯˩˩˦.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสื่อมเสีย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสีย",
+      "หาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "bad + all",
+     "lit_th": "เสื่อมลงไป + หมด"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "พ้นจากการเจ็บป่วย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "An illness gone: to recover.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 6 manuscript titles, 141 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['ป่วย', 'เจ็บ'].",
+ "compounds_unassigned": [
+  {
+   "th": "กระดองหาย",
+   "rtgs": "kra-dong-hai",
+   "ipa": "/kra˨˩.dɔːŋ˧.haːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดอง, ไม้สำหรับสงฟางในเวลานวดข้าว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระดอง",
+    "หาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "crust + all",
+   "lit_th": "กระดูกแข็งที่หุ้มตัวสัตว์ เช่น เต่ + สูญ"
+  },
+  {
+   "th": "กระหาย",
+   "rtgs": "kra-hai",
+   "ipa": "/kra˨˩.haːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "anxious"
+    ],
+    "th": "รู้สึกคอแห้งอยากดื่มน้ำมาก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "หาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1
+  },
+  {
+   "th": "หายยา",
+   "rtgs": "hai-ya",
+   "ipa": "/haːj˩˩˦.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หาย",
+    "ยา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ยา"
+   ],
+   "lit": "all + medicine",
+   "lit_th": "สูญ + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ"
+  },
+  {
+   "th": "ความเสียหาย",
+   "rtgs": "khwam-sia-hai",
+   "ipa": "/kʰwaːm˧.sia̯˩˩˦.haːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "cost",
+     "hurt",
+     "suffer"
+    ],
+    "th": "คำอาการนามของ เสียหาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความเสีย",
+    "หาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + สูญ"
+  },
+  {
+   "th": "การสูญหาย",
+   "rtgs": "kan-sun-hai",
+   "ipa": "/kaːn˧.suːn˩˩˦.haːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สูญหาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสูญ",
+    "หาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สูญ + สูญ"
+  },
+  {
+   "th": "กะหาย",
+   "rtgs": "ka-hai",
+   "ipa": "/ka˨˩.haːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปเลิกใช้ของ กระหาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กะ",
+    "หาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "เครื่องหมายบอกทำนองสวด + สูญ"
+  },
+  {
+   "th": "การเสียหาย",
+   "rtgs": "kan-sia-hai",
+   "ipa": "/kaːn˧.sia̯˩˩˦.haːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เสียหาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเสีย",
+    "หาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + สูญ"
+  },
+  {
+   "th": "การหาย",
+   "rtgs": "kan-hai",
+   "ipa": "/kaːn˧.haːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "หาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + สูญ"
+  },
+  {
+   "th": "หายนะ",
+   "rtgs": "ha-ya-na",
+   "ipa": "/haː˩˩˦.ja˦˥.naʔ˦˥/",
+   "gloss": {
+    "en": [
+     "catastrophe"
+    ],
+    "th": "ความเสื่อม, ความเสียหาย, ความฉิบหาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หาย",
+    "นะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "นะ"
+   ],
+   "lit": "all + the sentence particle na",
+   "lit_th": "สูญ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ʰrwɤːjᴬ; ร่วมเชื้อสายกับคำเมือง ᩉᩣ᩠ᨿ (หาย), เขิน ᩉᩣ᩠ᨿ (หาย), ลาว ຫາຍ (หาย), ไทลื้อ ᦠᦻ (หาย), ไทใหญ่ ႁၢႆ (หาย), ไทใต้คง ᥞᥣᥭᥴ (ห๋าย), พ่าเก ꩭႝ (หย์), อาหม 𑜑𑜩 (หย์) หรือ 𑜍𑜩 (รย์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩉᩣ᩠ᨿ",
+  "th": "หาย",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "all"
+ ]
+}

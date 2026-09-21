@@ -1,0 +1,11 @@
+{
+ "head": "mae",
+ "rule": "แม่ runs from the mother outward along two lines that must not be crossed. The PERSON line: sense 1 keeps actual kinship and anything about being a mother (พ่อแม่, แม่ยาย, แม่เลี้ยง, แม่ทูนหัว, เพศแม่, ภาษาแม่); sense 4 takes the woman named by her work, following แม่ครัว and แม่ค้า — แม่นม, แม่สื่อ, แม่เล้า, แม่เรือน; sense 6 takes the head of something regardless of sex, following แม่ทัพ — แม่งาน; sense 7 takes the venerated female, แม่ย่า and แม่พระ. The THING line is sense 8, เรียกสิ่งที่เป็นประธานของสิ่งต่าง ๆ ในพวกเดียวกัน — the principal member of a class — and it is the largest group: แม่สี, แม่บท, แม่กุญแจ, แม่เหล็ก, แม่แรง, แม่เบี้ย, and the idiom แม่กระชังหน้าใหญ่, where the แม่กระชัง is the main float of a fish trap.",
+ "senses": {
+  "1": ["พ่อแม่","ภาษาแม่","เพศแม่","แม่ทูนหัว","แม่ยาย","แม่เลี้ยง"],
+  "4": ["แม่นม","แม่สื่อ","แม่เรือน","แม่เล้า"],
+  "6": ["แม่งาน"],
+  "7": ["แม่พระ","แม่ย่า"],
+  "8": ["แม่กระชังหน้าใหญ่","แม่กุญแจ","แม่บท","แม่สี","แม่เบี้ย","แม่เหล็ก","แม่แรง"]
+ }
+}

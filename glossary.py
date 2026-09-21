@@ -62,6 +62,50 @@ GLOSS = {
  "ผงพุทธคุณ": {"roman":"phong phutthakhun","domain":"ritual","en":"Sacred powder of Buddha-virtue — ground from consecrated materials and pressed into amulets.","zh":"佛粉（聖粉）— 由開光材料研磨，壓入佛牌之中。"},
  "ชานหมาก": {"roman":"chan mak","domain":"ritual","en":"Chewed betel-quid — spat and worked into folk blessing, healing and love magic.","zh":"檳榔渣 — 用於民間祝福、療癒與情術。"},
  "กะลาตาเดียว": {"roman":"kala ta diao","domain":"material","en":"A rare one-eyed coconut shell — a single natural sprout-hole makes it a powerful protective charm.","zh":"獨眼椰殼 — 天然僅一芽孔的稀有椰殼，為強力護符。"},
+
+ # ---- The katha vocabulary itself — batch glossed 2026-08-19 ---------------------
+ # Source: manuscript-crawler/term_scout.py (the Enrich-tier gap finder). After the
+ # translated corpus grew to 4,592 pages, the scout's leaderboard — ordered by how
+ # many manuscripts a term appears in — was the liturgy the manuscripts are made of:
+ # the namo and refuge formulae, the heart-syllables, the Itipiso words, and the
+ # verbs and units of the rite (เสก, คาบ, ภาวนา). None had a glossary entry.
+ # These are dictionary-grade Pali/Thai terms, not interpretations; where a reading
+ # is the tradition's own (นะโมพุทธายะ = the five Buddhas) it is marked as such.
+ # `src` is provenance (ignored by the renderer); the per-manuscript spread quoted in
+ # it is the scout's doc_count at glossing time. Each term's vocab_candidates row was
+ # set status='glossed' the same day, per the scout's contract.
+ "นะโม": {"roman":"namo","domain":"katha","en":"'Homage' — the first word of the salutation (namo tassa bhagavato…), and the word with which a katha, a recipe, or a rite begins.","zh":"南無 · 禮敬 — 禮敬文（namo tassa bhagavato…）的首字；咒語、藥方與法事皆以此開頭。","src":"term-scout 2026-08-19 · 17 mss"},
+ "นะโมพุทธายะ": {"roman":"namo buddhaya","domain":"katha","en":"'Homage to the Buddha' — the five-syllable formula na-mo-phut-tha-ya, the commonest katha in the corpus. Tradition holds each syllable stands for one of the five Buddhas of this aeon (พระเจ้าห้าพระองค์); inscribed in yantra as a 5-cell row, rotated and reversed in consecration.","zh":"南無佛陀耶 — 五音節咒 na-mo-phut-tha-ya，全藏書中最常見的咒語。傳統以每一音對應本劫五佛（พระเจ้าห้าพระองค์）；常以五格書入符陣，順逆輪轉以加持。","src":"term-scout 2026-08-19 · 16 mss, 277 occurrences"},
+ "นะมะพะทะ": {"roman":"na ma pha tha","domain":"katha","en":"The four-syllable 'heart of the elements' — na, ma, pha, tha, one for each of earth, water, fire and wind. Written into 4×4 yantra squares and read forward and backward (anuloma / patiloma) while a charm is empowered.","zh":"四大心咒 — na·ma·pha·tha 四音，對應地、水、火、風四大。書於四乘四符陣，加持時順讀、逆讀。","src":"term-scout 2026-08-19 · 13 mss"},
+ "มะอะอุ": {"roman":"ma a u","domain":"katha","en":"The three syllables ma-a-u — the 'heart of the Triple Gem' (Buddha, Dhamma, Sangha) in Thai esoteric use; the same three sounds as Om (a-u-ma), reordered.","zh":"三音「麻·阿·烏」— 泰國密法中的三寶心咒（佛·法·僧）；與「唵」（a-u-ma）同音而異序。","src":"term-scout 2026-08-19 · 13 mss"},
+ "อิติปิโส": {"roman":"itipiso","domain":"katha","en":"Itipiso — the opening of the recollection of the Buddha's qualities (itipi so bhagavā arahaṃ sammāsambuddho…). The katha tradition recites it, reverses it, counts it (Itipiso 108) and lays its syllables out as yantra.","zh":"伊諦比索 — 佛德憶念文（itipi so bhagavā arahaṃ…）的起句。咒法傳統誦之、倒讀之、計數之（伊諦比索一〇八），並將其音節排為符陣。","src":"term-scout 2026-08-19 · 14 mss"},
+ "ภะคะวา": {"roman":"bhagava","domain":"katha","en":"Bhagavā, 'the Blessed One' — the Buddha's epithet and the second word of the Itipiso; often stands alone in a yantra cell as a seed-word.","zh":"薄伽梵（世尊）— 佛之尊號，Itipiso 的第二字；常單獨置於符格作種子字。","src":"term-scout 2026-08-19 · 13 mss"},
+ "ภะคะวะโต": {"roman":"bhagavato","domain":"katha","en":"'Of the Blessed One' — the form heard in the salutation namo tassa bhagavato arahato sammāsambuddhassa.","zh":"世尊（屬格）— 見於禮敬文 namo tassa bhagavato arahato sammāsambuddhassa。","src":"term-scout 2026-08-19 · 12 mss"},
+ "อะระหัง": {"roman":"arahang","domain":"katha","en":"Arahaṃ, 'the Worthy One' — first of the nine qualities of the Buddha; also breathed as a two-beat meditation word (a-ra-haṃ) and used as a seed in protective katha.","zh":"阿羅漢（應供）— 佛九德之首；亦作兩拍呼吸禪修詞（a-ra-haṃ），並為護身咒的種子音。","src":"term-scout 2026-08-19 · 14 mss"},
+ "พุทโธ": {"roman":"buddho","domain":"katha","en":"Buddho, 'the Awakened One' — the commonest meditation word of the Thai forest tradition (bud- on the in-breath, -dho on the out-breath) and a seed-word in katha; with dhammo and saṅgho it makes the Triple-Gem triad.","zh":"佛陀（覺者）— 泰國森林傳統最常用的禪修念誦詞（入息 bud-、出息 -dho），亦為咒語種子；與 dhammo、saṅgho 合為三寶三聯。","src":"term-scout 2026-08-19 · 21 mss"},
+ "ธัมโม": {"roman":"dhammo","domain":"katha","en":"Dhammo, 'the Teaching' — recited as the second of the Triple-Gem triad (buddho dhammo saṅgho).","zh":"達摩（法）— 三寶三聯之第二（buddho dhammo saṅgho）。","src":"term-scout 2026-08-19 · 15 mss"},
+ "สังโฆ": {"roman":"sangho","domain":"katha","en":"Saṅgho, 'the Community' — third of the Triple-Gem triad.","zh":"僧伽（僧）— 三寶三聯之第三。","src":"term-scout 2026-08-19 · 12 mss"},
+ "พุทธัง": {"roman":"buddhang","domain":"katha","en":"Buddhaṃ — 'the Buddha' as the object of the refuge formula: buddhaṃ saraṇaṃ gacchāmi, 'I go to the Buddha for refuge'. The three refuge lines open almost every rite in the corpus.","zh":"佛陀（受格）— 皈依文之對象：buddhaṃ saraṇaṃ gacchāmi「我皈依佛」。三皈依幾乎開啟藏書中每一場法事。","src":"term-scout 2026-08-19 · 19 mss"},
+ "ธัมมัง": {"roman":"dhammang","domain":"katha","en":"Dhammaṃ — 'the Dhamma' in the second refuge line: dhammaṃ saraṇaṃ gacchāmi.","zh":"法（受格）— 第二句皈依文：dhammaṃ saraṇaṃ gacchāmi。","src":"term-scout 2026-08-19 · 19 mss"},
+ "สังฆัง": {"roman":"sanghang","domain":"katha","en":"Saṅghaṃ — 'the Sangha' in the third refuge line: saṅghaṃ saraṇaṃ gacchāmi.","zh":"僧（受格）— 第三句皈依文：saṅghaṃ saraṇaṃ gacchāmi。","src":"term-scout 2026-08-19 · 19 mss"},
+ "สะระณัง": {"roman":"saranang","domain":"katha","en":"Saraṇaṃ, 'refuge' — the word at the centre of each refuge line.","zh":"皈依（saraṇaṃ）— 每句皈依文的中心詞。","src":"term-scout 2026-08-19 · 14 mss"},
+ "คัจฉามิ": {"roman":"gacchami","domain":"katha","en":"Gacchāmi, 'I go' — the verb that closes each refuge line.","zh":"我去 · 我往（gacchāmi）— 結束每句皈依文的動詞。","src":"term-scout 2026-08-19 · 12 mss"},
+ "สัพเพ": {"roman":"sabbe","domain":"katha","en":"Sabbe, 'all' — opens the loving-kindness and protective formulae (sabbe sattā… 'may all beings…'), which the manuscripts recite over water, oil and the body.","zh":"一切（sabbe）— 慈心與護身文之首字（sabbe sattā…「願一切眾生…」），藏書中常對水、油與身體誦之。","src":"term-scout 2026-08-19 · 13 mss"},
+ "เอหิ": {"roman":"ehi","domain":"katha","en":"Ehi, 'come!' — the summoning imperative that opens katha of calling: customers, lovers, spirits, fortune (ehi… piyaṃ mama).","zh":"來（ehi）— 召喚式命令語，開啟招客、招情、召靈、招財之咒（ehi… piyaṃ mama）。","src":"term-scout 2026-08-19 · 13 mss"},
+ "สิทธิการิยะ": {"roman":"sitthikariya","domain":"katha","en":"'May it be accomplished' — the auspicious word with which a Thai manuscript, recipe or formula opens; the scribe's invocation, and the marker that a new text is beginning.","zh":"悉地迦利耶（願得成就）— 泰文古籍、藥方或咒法起首的吉祥語；書者之祈請，亦是新篇開始的標記。","src":"term-scout 2026-08-19 · 13 mss, 205 occurrences"},
+ "สิทธิกิจจัง": {"roman":"sitthikitchang","domain":"katha","en":"'May the task succeed' — from the success-blessing siddhikiccaṃ siddhikammaṃ siddhikāriya tathāgato, recited to seal a rite or a making.","zh":"願事成就（siddhikiccaṃ）— 出自成就祝文 siddhikiccaṃ siddhikammaṃ siddhikāriya tathāgato，誦以封印法事或製作。","src":"term-scout 2026-08-19 · 12 mss"},
+ "นะมามิหัง": {"roman":"namamihang","domain":"katha","en":"Namāmihaṃ, 'I pay homage' — the closing word of many salutation-katha (… namāmihaṃ).","zh":"我禮敬（namāmihaṃ）— 眾多禮敬咒的結尾詞。","src":"term-scout 2026-08-19 · 11 mss"},
+ "ทุกขัง": {"roman":"dukkhang","domain":"katha","en":"Dukkhaṃ, 'suffering' — with aniccaṃ (impermanence) and anattā (not-self) one of the three marks; recited as a contemplation formula and used as a seed in katha.","zh":"苦（dukkhaṃ）— 與無常、無我合為三法印；作觀修文誦之，亦為咒語種子。","src":"term-scout 2026-08-19 · 12 mss"},
+ "อนัตตา": {"roman":"anatta","domain":"katha","en":"Anattā, 'not-self' — third of the three marks (aniccaṃ dukkhaṃ anattā).","zh":"無我（anattā）— 三法印之第三。","src":"term-scout 2026-08-19 · 11 mss"},
+ "กรุณา": {"roman":"karuna","domain":"katha","en":"Karuṇā, 'compassion' — second of the four brahmavihāra (mettā karuṇā muditā upekkhā), recited in sequence as a blessing and named among the qualities a charm bestows.","zh":"悲（karuṇā）— 四梵住之第二（慈悲喜捨），依序誦為祝福，亦列於法物所賜之德。","src":"term-scout 2026-08-19 · 13 mss"},
+ "มุทิตา": {"roman":"mudita","domain":"katha","en":"Muditā, 'sympathetic joy' — third of the four brahmavihāra.","zh":"喜（muditā）— 四梵住之第三。","src":"term-scout 2026-08-19 · 12 mss"},
+ "อุเบกขา": {"roman":"upekkha","domain":"katha","en":"Upekkhā, 'equanimity' — fourth of the four brahmavihāra.","zh":"捨（upekkhā）— 四梵住之第四。","src":"term-scout 2026-08-19 · 14 mss"},
+ "ภาวนา": {"roman":"phawana","domain":"ritual","en":"To cultivate by recitation — repeating a katha, in the mind or aloud, a set number of times to charge a charm or oneself; the manuscripts' verb for 'recite / meditate on'.","zh":"修念 · 持誦（bhāvanā）— 以心或口反覆誦咒若干遍，以加持法物或自身；藏書中「誦／觀修」之動詞。","src":"term-scout 2026-08-19 · 14 mss"},
+ "เสก": {"roman":"sek","domain":"ritual","en":"To consecrate by spell — breathe a katha over water, oil, wax, powder or an amulet to empower it. The central verb of the craft.","zh":"咒加持 — 對水、油、蠟、粉或護符誦咒吹氣以賦靈；法門的核心動詞。","src":"term-scout 2026-08-19 · 12 mss, 194 occurrences"},
+ "คาบ": {"roman":"khap","domain":"ritual","en":"A count of recitations — 'recite 3 คาบ, 7 คาบ, 108 คาบ'; the unit in which the manuscripts measure a katha's work.","zh":"遍（誦咒計數單位）—「誦三遍、七遍、一〇八遍」；藏書衡量咒功之單位。","src":"term-scout 2026-08-19 · 12 mss, 495 occurrences"},
+ "ธูป": {"roman":"thup","domain":"ritual","en":"Incense stick — counted out in set numbers (3, 5, 9, 16…) as the offering that opens a rite and honours the teacher-line.","zh":"香 — 以定數（三、五、九、十六…）供奉，開啟法事並敬師承。","src":"term-scout 2026-08-19 · 11 mss"},
+ "เทียน": {"roman":"thian","domain":"ritual","en":"Candle — offering and instrument both: candles of set weight and number open the rite, and their flame or dripping wax carries the consecration.","zh":"蠟燭 — 既是供品也是法器：定重定數之燭開啟法事，其火與蠟滴承載加持。","src":"term-scout 2026-08-19 · 13 mss"},
+ "ศีล": {"roman":"sin · sila","domain":"ritual","en":"The precepts (sīla — five or eight) — the moral discipline the manuscripts set alongside recitation as its condition.","zh":"戒（sīla，五戒或八戒）— 藏書與持誦並列、作為其條件的道德律儀。","src":"term-scout 2026-08-19 · 13 mss"},
 }
 
 DOMAIN_LABEL = {
@@ -80,6 +124,21 @@ def counts(conn):
         "SELECT term_raw, COUNT(DISTINCT manuscript_id) ms, COUNT(DISTINCT item_id) mkt "
         "FROM tags GROUP BY term_raw"):
         out[r["term_raw"]] = (r["ms"] or 0, r["mkt"] or 0)
+    # A term the taggers never tagged can still be counted — term_scout.py keeps,
+    # per Thai token, the number of distinct manuscripts whose TRANSCRIPTIONS
+    # contain it (vocab_candidates.doc_count). The katha vocabulary glossed
+    # 2026-08-19 lives in page text, not in title tags, so without this the
+    # glossary would say "0 manuscripts" beside a word found in 21 of them. Still
+    # a catalogue count, not an editorial one; tags win where both exist. The
+    # table may be absent on an old catalogue — then there is simply no fallback.
+    try:
+        for r in conn.execute(
+            "SELECT term, doc_count FROM vocab_candidates WHERE doc_count > 0"):
+            if r["term"] not in out or out[r["term"]][0] == 0:
+                mkt = out.get(r["term"], (0, 0))[1]
+                out[r["term"]] = (r["doc_count"] or 0, mkt)
+    except sqlite3.OperationalError:
+        pass
     return out
 
 
@@ -174,7 +233,8 @@ PAGE = r"""<!doctype html>
  footer{border-top:1px solid var(--line);margin-top:50px;padding:30px 0 60px;text-align:center;
   color:var(--muted);font-size:15px}
  .empty{text-align:center;color:var(--muted);padding:40px}
-</style></head><body>
+</style>
+<script src="/phasa/portal.js" defer></script></head><body>
 <header><div class="mark">wichaa · วิชา</div>
  <h1>Glossary</h1>
  <p class="sub">The words the tradition actually uses — in Thai, English and 中文 — each

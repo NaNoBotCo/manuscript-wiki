@@ -1,0 +1,40 @@
+{
+ "head": "khwan",
+ "rule": "The head is anchored by two source filings and they set the rule between them. เสียขวัญ sits in sense 3 because the sense gloss names it — so sense 3, the khwan itself, is not only the soul but everything about its coming and going, and that includes what English would call morale. The rite done to call it back (ทำขวัญ, เรียกขวัญ, รับขวัญ, ผูกขวัญ, บำรุงขวัญ, หมอขวัญ), the things the rite uses or leaves behind (ของขวัญ, ไข่ขวัญ, ข้าวขวัญ, ขวัญข้าว), and every word for the khwan departing (ขวัญหนี, ขวัญบิน, ขวัญหาย, ขวัญแขวน, ขวัญบ่า, ขวัญอ่อน, ขวัญเกี่ยง) or being driven out (ข่มขวัญ, ทำลายขวัญ, ขวัญเสีย) all file there. ขวัญเมือง sits in sense 4 on a Wiktionary example, so sense 4 is the PERSON who is someone's mainstay, and ขวัญตา joins it on the structure it shares with ขวัญใจ — ขวัญ plus a body part, meaning a darling. Sense 2 (มิ่งมงคล, สิริ) was empty and holds the quality rather than the person: มิ่งขวัญ, and คำขวัญ, whose gloss says the words are made เพื่อให้เป็นสิริมงคล.",
+ "senses": {
+  "2": [
+   "กล่าวขวัญ",
+   "คำขวัญ",
+   "มิ่งขวัญ"
+  ],
+  "3": [
+   "ข่มขวัญ",
+   "ขวัญข้าว",
+   "ขวัญบ่า",
+   "ขวัญบิน",
+   "ขวัญหนี",
+   "ขวัญหาย",
+   "ขวัญอ่อน",
+   "ขวัญเกี่ยง",
+   "ขวัญเสีย",
+   "ขวัญแขวน",
+   "ข้าวขวัญ",
+   "ของขวัญ",
+   "ทำขวัญ",
+   "ทำลายขวัญ",
+   "บำรุงขวัญ",
+   "ผูกขวัญ",
+   "รับขวัญ",
+   "รากขวัญ",
+   "หมอขวัญ",
+   "เรียกขวัญ",
+   "ไข่ขวัญ"
+  ],
+  "4": [
+   "จอมขวัญ",
+   "ขวัญตา",
+   "ลูกขวัญ",
+   "เมียขวัญ"
+  ]
+ }
+}

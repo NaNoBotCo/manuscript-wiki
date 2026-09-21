@@ -215,3 +215,11 @@ start in the 1830s.
   untitled canonical fascicle from Nan, Phayao or Mae Hong Son that a title search
   reports as one text may hold four, and the fourth may be a
   [katha](/a?s=entity:katha) or a horoscope.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **The deepest roots in the collection** — The ten earliest-dated manuscripts, reaching back to 1471 CE — the far anchor of the single continuous timeline that runs all the way to today's amulet stalls. [see the finding →](/findings#chronologydeep-roots)
+<!-- derived:end -->

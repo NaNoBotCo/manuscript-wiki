@@ -1,0 +1,813 @@
+{
+ "id": "w:nai-2",
+ "th": "ใน",
+ "status": "mapped",
+ "rtgs": "nai",
+ "paiboon": "nai",
+ "ipa": "/naj˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ตรงกันข้ามกับ นอก, ไม่ใช่นอก, อยู่ที่มีสิ่งอื่นปิดหรือล้อมรอบอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "preposition",
+   "pos_th": "คำบุพบท",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ข้างใน",
+     "rtgs": "khang-nai",
+     "ipa": "/kʰaːŋ˥˩.naj˧/",
+     "gloss": {
+      "en": [
+       "in",
+       "inside",
+       "inner"
+      ],
+      "th": "ตรงข้ามกับ ข้างนอก, ไม่ใช่ข้างนอก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ข้าง",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.28, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "board + in",
+     "lit_th": "เบื้อง + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "ในเมือง",
+     "rtgs": "nai-mueang",
+     "ipa": "/naj˧.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "city"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกำแพงเพชร จังหวัดกำแพงเพชร",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใน",
+      "เมือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PREP+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "in + town",
+     "lit_th": "ตรงกันข้ามกับ นอก + แดน"
+    },
+    {
+     "th": "หลับใน",
+     "rtgs": "lap-nai",
+     "ipa": "/lap̚˨˩.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลับในใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลับ",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+PREP",
+     "head": 1,
+     "lit": "fall asleep + in",
+     "lit_th": "ปิด + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "เครื่องใน",
+     "rtgs": "khrueang-nai",
+     "ipa": "/kʰrɯa̯ŋ˥˩.naj˧/",
+     "gloss": {
+      "en": [
+       "inside"
+      ],
+      "th": "อวัยวะภายในของสัตว์บางชนิด เช่น ตับ ไต ไส้ ของวัวและควาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + in",
+     "lit_th": "สิ่ง + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "วงใน",
+     "rtgs": "wong-nai",
+     "ipa": "/woŋ˧.naj˧/",
+     "gloss": {
+      "en": [
+       "inside"
+      ],
+      "th": "บุคคลหรือกลุ่มคนที่เกี่ยวข้องกับกิจการหรือเรื่องใดเรื่องหนึ่งโดยตรง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "วง",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "zone + in",
+     "lit_th": "รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "เม็ดใน",
+     "rtgs": "met-nai",
+     "ipa": "/met̚˦˥.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เม็ดละมุด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เม็ด",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "seed + in",
+     "lit_th": "ส่วนภายในของผลไม้ที่เพาะเป็นต้นขึ้ + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "ฝ่ายใน",
+     "rtgs": "fai-nai",
+     "ipa": "/faːj˨˩.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สตรีผู้มีตำแหน่งเฝ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝ่าย",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "desk + in",
+     "lit_th": "ข้าง + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "เขี้ยวแก้วใน",
+     "rtgs": "khiao–kaeo–nai",
+     "ipa": "/kʰia̯w˥˩.kɛːw˥˩.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เขี้ยวของงูพิษที่อยู่บริเวณท้ายขากรรไกรบน มีขนาดใหญ่และยาว เช่น งูปล้องทอง งูเขียวหัวจิ้งจก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขี้ยวแก้ว",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit_th": "เขี้ยวของพระพุทธเจ้า + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "นางใน",
+     "rtgs": "nang-nai",
+     "ipa": "/naːŋ˧.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นางพนักงานฝ่ายใน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาง",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "cross_listed": [
+      "นาง"
+     ],
+     "lit": "Mrs + in",
+     "lit_th": "ผู้หญิง + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "คะใน",
+     "translit_auto": "khanai",
+     "ipa": "[kʰä˥.näj˧ ~ kʰä˧.näj˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้างใน, ในกลอนเขียนเป็น คใน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คะ",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "คำลงท้ายที่ผู้หญิงใช้ในการถาม หรือ + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "ภายใน",
+     "rtgs": "phai-nai",
+     "ipa": "/pʰaːj˧.naj˧/",
+     "gloss": {
+      "en": [
+       "in",
+       "inside",
+       "within"
+      ],
+      "th": "ข้างใน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ภาย",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit_th": "บริเวณ + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "คนไข้ใน",
+     "rtgs": "khon–khai–nai",
+     "ipa": "/kʰon˧.kʰaj˥˩.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนไข้ที่พักรักษาตัวอยู่ในโรงพยาบาล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คนไข้",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "patient + in",
+     "lit_th": "ผู้ป่วย + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "ในหลวง",
+     "rtgs": "nai-luang",
+     "ipa": "/naj˧.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระมหากษัตริย์ (ใช้เฉพาะประเทศไทย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใน",
+      "หลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PREP+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "in + royal",
+     "lit_th": "ตรงกันข้ามกับ นอก + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
+    },
+    {
+     "th": "แตกใน",
+     "rtgs": "taek-nai",
+     "ipa": "/tɛːk̚˨˩.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลั่งน้ำอสุจิในช่องคลอดหรือทวารหนัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+PREP",
+     "head": 1,
+     "cross_listed": [
+      "แตก"
+     ],
+     "lit": "fracture + in",
+     "lit_th": "แยกออกจากส่วนรวม + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "กางเกงใน",
+     "rtgs": "kang-keng-nai",
+     "ipa": "/kaːŋ˧.keːŋ˧.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กางเกงสำหรับสวมไว้ชั้นใน ไม่มีขา หรือขาสั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กางเกง",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "trousers + in",
+     "lit_th": "เครื่องนุ่งมี 2 ขา + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "คนใน",
+     "rtgs": "khon-nai",
+     "ipa": "/kʰon˧.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุคคลที่เป็นพวกเดียวกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คน",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "cross_listed": [
+      "คน"
+     ],
+     "lit": "stir + in",
+     "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "เหล็กใน",
+     "rtgs": "lek-nai",
+     "ipa": "/lek̚˨˩.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เดือยแหลมที่มีในก้นหรือปลายหางสัตว์บางชนิด มีผึ้ง แมงป่อง เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหล็ก",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "iron + in",
+     "lit_th": "ธาตุลำดับที่ 26 สัญลักษณ์ Fe เป็นโ + ตรงกันข้ามกับ นอก"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "แห่ง, ของ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "preposition",
+   "pos_th": "คำบุพบท",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Inside bleached to the preposition: in, of.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "nai as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 3 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 3 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 3 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "18 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ด่านใน",
+     "rtgs": "dan-nai",
+     "ipa": "/daːn˨˩.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอด่านขุนทด จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ด่าน",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit_th": "ที่สำหรับกัก ตรวจ คอยระวังเหตุ และ + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "ไกรใน",
+     "rtgs": "krai-nai",
+     "ipa": "/kraj˧.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกงไกรลาศ จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไกร",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ในสกุล Ficus วงศ + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "หมาใน",
+     "rtgs": "ma-nai",
+     "ipa": "/maː˩˩˦.naj˧/",
+     "gloss": {
+      "en": [
+       "dhole"
+      ],
+      "th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมชนิด Cuon alpinus ในอันดับสัตว์กินเนื้อ วงศ์สุนัข (Canidae) ออกลูกเป็นตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หมา",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit": "canine + nai as an element in place names",
+     "lit_th": "สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "เขื่องใน",
+     "rtgs": "khueang-nai",
+     "ipa": "/kʰɯa̯ŋ˨˩.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุบลราชธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขื่อง",
+      "ใน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PREP",
+     "head": 1,
+     "lit_th": "ไก่ตัวเมียค่อนข้างโตแต่ยังไม่เต็มท + ใช้ประกอบชื่อสถานที่"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 13 manuscript titles, 393 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits —.",
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *C̥.daɰᴬ จากจีนยุคกลาง 內 (MC nwojH); ร่วมเชื้อสายกับลาว ໃນ (ใน), คำเมือง ᨶᩱ (ไน), ไทลื้อ ᦺᦓ (ไน), ไทใหญ่ ၼႂ်း (ใน๊), ไทดำ ꪻꪙ (ใน), อาหม 𑜃𑜧 (นว์), จ้วง ndaw, ภาษาจ้วงใต้ naw/ndaw ยืมมาจากเขมร នៃ (ไน, “แห่ง, ของ”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨶᩱ",
+  "th": "ไน",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:nai",
+   "label": "นาย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"nai\". ใน is nai, นาย is naai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "in"
+ ]
+}

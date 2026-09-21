@@ -1,0 +1,1152 @@
+{
+ "id": "w:khaeng",
+ "th": "แข็ง",
+ "status": "mapped",
+ "rtgs": "khaeng",
+ "paiboon": "kɛ̌ng",
+ "ipa": "/kʰɛŋ˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "กระด้าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "แข็งกร้าว",
+     "rtgs": "khaeng-krao",
+     "ipa": "/kʰɛŋ˩˩˦.kraːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แข็งกระด้าง, ไม่นุ่มนวล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แข็ง",
+      "กร้าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.23, next 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "lit_th": "กระด้าง + แข็งกระด้าง",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ไม่อ่อน, ไม่นิ่ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ของแข็ง",
+     "rtgs": "khong-khaeng",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰɛŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "solid"
+      ],
+      "th": "สิ่งที่รวมตัวกันแน่น, สิ่งที่มิใช่ของเหลวหรือแก๊ส",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "แข็ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + hard",
+     "lit_th": "สิ่งต่าง ๆ + ไม่อ่อน",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Rigid, and so not soft to the touch.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "กล้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Hard in the face of danger: brave.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ไม่ยอมง่าย ๆ, ไม่รู้สึกสงสาร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แข็งข้อ",
+     "rtgs": "khaeng-kho",
+     "ipa": "/kʰɛŋ˩˩˦.kʰɔː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ยอมตาม, ตั้งข้อสู้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แข็ง",
+      "ข้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.14, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "ไม่ยอมง่าย ๆ + ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร",
+     "frame": "quality"
+    },
+    {
+     "th": "กระดูกแข็ง",
+     "rtgs": "kra-duk-khaeng",
+     "ipa": "/kra˨˩.duːk̚˨˩.kʰɛŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ตายง่าย ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระดูก",
+      "แข็ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.16, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "bone + hard",
+     "lit_th": "โครงร่างกายที่มีลักษณะแข็ง + ไม่ยอมง่าย ๆ",
+     "frame": "quality"
+    },
+    {
+     "th": "ใจแข็ง",
+     "rtgs": "chai-khaeng",
+     "ipa": "/t͡ɕaj˧.kʰɛŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "adamant"
+      ],
+      "th": "ไม่ยอมง่าย ๆ, ไม่รู้สึกสงสาร, อดกลั้นความเจ็บปวดหรือทุกข์โศกไว้ได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "แข็ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + hard",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ไม่ยอมง่าย ๆ",
+     "flips_with": "แข็งใจ",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Hard toward others: unyielding, without pity.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "แรง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "วันแข็ง",
+     "rtgs": "wan-khaeng",
+     "ipa": "/wan˧.kʰɛŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วันซึ่งถือว่าดาวมีพลังแรง ได้แก่ วันอาทิตย์ วันอังคาร วันเสาร์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัน",
+      "แข็ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "วัน"
+     ],
+     "lit": "day + hard",
+     "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + แรง",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Hard in effect: strong, forceful.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ว่ายาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Hard to teach: stubborn under instruction.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "นิ่งไม่ไหวติง, ไม่กระดิกกระเดี้ย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Set rigid: motionless, unable to stir.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "เข้มแข็ง, ทนทาน, เก่ง, สู้งาน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เข้มแข็ง",
+     "rtgs": "khem-khaeng",
+     "ipa": "/kʰem˥˩.kʰɛŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แข็งแรงในการงาน, ขยันขันแข็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้ม",
+      "แข็ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 1,
+     "lit": "bright + hard",
+     "lit_th": "แรงกล้า + เข้มแข็ง",
+     "frame": "quality"
+    },
+    {
+     "th": "แข็งใจ",
+     "rtgs": "khaeng-chai",
+     "ipa": "/kʰɛŋ˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำใจให้กล้า, ทำใจให้เข้มแข็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แข็ง",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: gloss similarity 0.19, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "hard + heart",
+     "lit_th": "เข้มแข็ง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "flips_with": "ใจแข็ง",
+     "frame": "quality"
+    },
+    {
+     "th": "จุดแข็ง",
+     "rtgs": "chut-khaeng",
+     "ipa": "/t͡ɕut̚˨˩.kʰɛŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จุดที่เข้มแข็ง, จุดที่ฝ่ายตรงข้ามจะเอาชนะได้ยาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จุด",
+      "แข็ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8: gloss similarity 0.14, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "จุด"
+     ],
+     "lit": "mark + hard",
+     "lit_th": "ทำให้ไฟติด + เข้มแข็ง",
+     "frame": "quality"
+    }
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "Strong in the long run: sturdy, enduring, good at the work.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "แข็งขืน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Hardening against: resistant, defiant.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "มีค่าสูง เมื่อเทียบกับสกุลเงินอื่น (ใช้แสดงค่าเงิน)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:material"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "A currency strong against others.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 32 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits ['อ่อน', 'แข็ง'].",
+ "compounds_unassigned": [
+  {
+   "th": "แข็งแกร่ง",
+   "rtgs": "khaeng-kraeng",
+   "ipa": "/kʰɛŋ˩˩˦.krɛŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อดทนไม่ท้อถอย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แข็ง",
+    "แกร่ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 0,
+   "lit_th": "กระด้าง + แข็ง",
+   "frame": "quality"
+  },
+  {
+   "th": "การแข็ง",
+   "rtgs": "kan-khaeng",
+   "ipa": "/kaːn˧.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แข็ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "งาน + กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "ความแข็ง",
+   "rtgs": "khwam-khaeng",
+   "ipa": "/kʰwaːm˧.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แข็ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + hard",
+   "lit_th": "เรื่อง + กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "แข็งกล้า",
+   "rtgs": "khaeng–kla",
+   "ipa": "/kʰɛŋ˩˩˦.klaː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เก่งกาจ, กล้าหาญ, กล้ายิ่งนัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แข็ง",
+    "กล้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "กระด้าง + ต้นข้าวอ่อนที่เพาะจากข้าวเปลือกสำห",
+   "flips_with": "กล้าแข็ง",
+   "frame": "quality"
+  },
+  {
+   "th": "เนยแข็ง",
+   "rtgs": "noei-khaeng",
+   "ipa": "/nɤːj˧.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "cheese"
+    ],
+    "th": "คำพ้องความของ ชีส",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เนย",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "butter + hard",
+   "lit_th": "ไขมันหรือน้ำมันที่ทำจากน้ำนมสัตว์ม + กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "แข็งแรง",
+   "rtgs": "khaeng-raeng",
+   "ipa": "/kʰɛŋ˩˩˦.rɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "strong",
+     "fit",
+     "able"
+    ],
+    "th": "มีกำลังมาก, ล่ำสัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แข็ง",
+    "แรง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "แรง"
+   ],
+   "lit": "hard + bright",
+   "lit_th": "กระด้าง + กำลัง",
+   "frame": "quality"
+  },
+  {
+   "th": "น้ำแข็ง",
+   "rtgs": "nam-khaeng",
+   "ipa": "/nam˦˥.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "ice"
+    ],
+    "th": "น้ำที่ถูกความเย็นจัดจนแข็งตัวเป็นก้อน, น้ำในสถานะของแข็ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "น้ำ",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + hard",
+   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "แข็งตัว",
+   "rtgs": "khaeng-tua",
+   "ipa": "/kʰɛŋ˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เปลี่ยนสภาพไปมีลักษณะแข็ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แข็ง",
+    "ตัว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "hard + form",
+   "lit_th": "กระด้าง + รูป",
+   "frame": "quality"
+  },
+  {
+   "th": "แช่แข็ง",
+   "rtgs": "chae-khaeng",
+   "ipa": "/t͡ɕʰɛː˥˩.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "freeze"
+    ],
+    "th": "เอาใส่ไว้ในเครื่องทำความเย็นหรือน้ำแข็งจนแข็ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แช่",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "ใส่ลงในน้ำหรือของเหลวอย่างอื่น ชั่ + กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "ไม้แข็ง",
+   "translit_auto": "maikhaeng",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม้ตีระนาดมี 2 ส่วน ส่วนที่ใช้มือถือทำด้วยไม้ไผ่เหลากลม ตอนปลายที่ใช้ตีพอกด้วยผ้าชุบยางรักเมื่อตีจะมีเสียงกังวาน ใช้เฉพาะระนาดเอก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไม้",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ไม้"
+   ],
+   "lit": "wood + hard",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "มันแข็ง",
+   "rtgs": "man-khaeng",
+   "ipa": "/man˧.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มันของหมูที่ติดอยู่กับหนัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มัน",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "มัน"
+   ],
+   "lit": "it + hard",
+   "lit_th": "ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห + กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "แข็งขัน",
+   "rtgs": "khaeng-khan",
+   "ipa": "/kʰɛŋ˩˩˦.kʰan˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขยันไม่ย่อท้อ, เอาจริงเอาจัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แข็ง",
+    "ขัน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "ขัน"
+   ],
+   "lit": "hard + bowl",
+   "lit_th": "กระด้าง + ภาชนะสำหรับตักหรือใส่น้ำ มีหลายชนิ",
+   "flips_with": "ขันแข็ง",
+   "frame": "quality"
+  },
+  {
+   "th": "ขันแข็ง",
+   "rtgs": "khan-khaeng",
+   "ipa": "/kʰan˩˩˦.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อย่างเอาจริงเอาจัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขัน",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ขัน"
+   ],
+   "lit": "bowl + hard",
+   "lit_th": "ภาชนะสำหรับตักหรือใส่น้ำ มีหลายชนิ + กระด้าง",
+   "flips_with": "แข็งขัน",
+   "frame": "quality"
+  },
+  {
+   "th": "ความเข้มแข็ง",
+   "rtgs": "khwam-khem-khaeng",
+   "ipa": "/kʰwaːm˧.kʰem˥˩.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "agression",
+     "strength"
+    ],
+    "th": "คำอาการนามของ เข้มแข็ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความเข้ม",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เข้ม + กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "กระดาษแข็ง",
+   "rtgs": "kra-dat-khaeng",
+   "ipa": "/kra˨˩.daːt̚˨˩.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "cardboard"
+    ],
+    "th": "กระดาษชนิดที่แข็งและหนากว่ากระดาษหนังสือ ใช้ทำบัตรหรืองานประดิษฐ์",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กระดาษ",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "paper + hard",
+   "lit_th": "วัตถุเป็นแผ่นบาง ๆ โดยมากทำจากใยเป + กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "กล้าแข็ง",
+   "rtgs": "kla-khaeng",
+   "ipa": "/klaː˥˩.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แข็งกล้า, กล้ายิ่งนัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กล้า",
+    "แข็ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ต้นข้าวอ่อนที่เพาะจากข้าวเปลือกสำห + กระด้าง",
+   "flips_with": "แข็งกล้า",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *kʰɛːŋᴬ¹, จากไทดั้งเดิม *k.reːŋᴬ; ร่วมเชื้อสายกับคำเมือง ᨡᩯ᩠ᨦ (แขง), ᨡᩯᩢ᩠ᨦ (แขัง), ลาว ແຂງ (แขง), ไทลื้อ ᦶᦃᧂ (แฃง), ไทดำ ꪵꪄꪉ (แฃง), ไทใหญ่ ၶႅင် (แขง), ไทใต้คง ᥑᥦᥒᥴ (แฃ๋ง), พ่าเก ၵ︀ိင︀် (ขิง์), อาหม 𑜁𑜢𑜂𑜫 (ขิง์), ซาปา xeŋᴬ¹, ปู้อี jeengl, แสก เถรี่ยง (“แข็ง”) และ แข้ง (“ตึง”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩯ᩠ᨦ",
+  "th": "แขง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "hard",
+  "firm"
+ ]
+}

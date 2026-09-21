@@ -1,0 +1,48 @@
+{
+ "head": "khao-2",
+ "rule": "เข้า has sixteen senses and most are one movement seen from a different angle, so the filing turns on which angle the compound actually uses. The finding is sense 7, ถูกกัน / ลงรอยกัน / เหมาะเจาะ: Thai's entire vocabulary for one thing SUITING another is built on เข้า — เข้าตา, เข้าท่า, เข้าที, เข้าเค้า, เข้าแก๊ป, เข้าทาง, เข้าเรื่อง — and it was standing empty. Sense 13, the pole opposite ออก, takes the trade pair นำเข้า and สินค้าเข้า, which are import only because export is the other word. Sense 12 takes entering a STATE rather than a place, which is what เข้าฌาน, เข้าที่ and เข้าเงียบ do — three religions, one grammar. Sense 9 (สิง) was empty and takes เข้าฝัน, where something comes into a sleeper the way a spirit comes into a body. Sense 2 keeps arrival at a person (เข้าเฝ้า, เข้าหน้า, เข้าหู) and sense 1 keeps plain movement inward, including the two idioms that are still literally going in — เข้าครัว, เข้าโลง.",
+ "senses": {
+  "1": [
+   "เข้าครัว",
+   "เข้าหม้อ",
+   "เข้าโลง"
+  ],
+  "2": [
+   "เข้าหน้า",
+   "เข้าหู",
+   "เข้าเฝ้า",
+   "เข้าเฝ้าฯ"
+  ],
+  "5": [
+   "เข้าคู่",
+   "เข้าเศียร"
+  ],
+  "7": [
+   "เข้าตา",
+   "เข้าทาง",
+   "เข้าท่า",
+   "เข้าที",
+   "เข้าเค้า",
+   "เข้าเรื่อง",
+   "เข้าแก๊ป"
+  ],
+  "9": [
+   "เข้าฝัน"
+  ],
+  "10": [
+   "เข้าพรรษา"
+  ],
+  "12": [
+   "เข้าที่",
+   "เข้าฌาน",
+   "เข้าเงียบ"
+  ],
+  "13": [
+   "นำเข้า",
+   "สินค้าเข้า"
+  ],
+  "14": [
+   "เข้าไส้"
+  ]
+ }
+}

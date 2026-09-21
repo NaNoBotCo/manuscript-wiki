@@ -1,0 +1,656 @@
+{
+ "id": "w:kut",
+ "th": "กุด",
+ "status": "mapped",
+ "rtgs": "kut",
+ "paiboon": "gùt",
+ "ipa": "/kut̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "to cut short",
+     "to lop"
+    ],
+    "th": "ตัด",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "verb, adjective, noun",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: กุด 'to cut short'.",
+    "Declared root: กุด 'to cut short'.",
+    "Declared root: กุด 'to cut short'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ด้วนสั้นหรือเหี้ยนเข้าไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, adjective, noun",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Cut short, and so, stumpy.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "บึง, ลำน้ำที่ปลายด้วน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, adjective, noun",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: กุด, the oxbow lake — the Isan water word.",
+    "Declared root: กุด, the oxbow lake — the Isan water word.",
+    "Declared root: กุด, the oxbow lake — the Isan water word."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "kut as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 15 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 15 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 15 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "1 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "กุดจี่",
+     "rtgs": "kut-chi",
+     "ipa": "/kut̚˨˩.t͡ɕiː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแมลงพวกด้วงหลายชนิดหลายสกุล ในวงศ์ Scarabaeidae หัวแบน ขาแบน ด้านข้างขามีลักษณะเป็นหนามคล้ายฟันเลื่อย ลำตัวยาว 0.5-6.0 เซนติเมตร ส่วนใหญ่สีน้ำตาลเข้มหรือดำ อาศัยอยู่ตามมูลสัตว์ ปั้นมูลสัตว์เป็นก้อนเพื่อวางไข่ ตัวเต็ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "จี่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เผา"
+    },
+    {
+     "th": "กุดชุม",
+     "rtgs": "kut-chum",
+     "ipa": "/kut̚˨˩.t͡ɕʰum˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดยโสธร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "ชุม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "ชุม"
+     ],
+     "lit": "kut as an element in place names + abound",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มารวมกัน"
+    },
+    {
+     "th": "กุดธาตุ",
+     "rtgs": "kut-that",
+     "ipa": "/kut̚˨˩.tʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองนาคำ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "ธาตุ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "kut as an element in place names + element",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ถือว่าเป็นส่วนสำคัญที่คุมกั"
+    },
+    {
+     "th": "กุดพิมาน",
+     "rtgs": "kut-phi-man",
+     "ipa": "/kut̚˨˩.pʰi˦˥.maːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอด่านขุนทด จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "พิมาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รูปแบบอื่นของ วิมาน"
+    },
+    {
+     "th": "กุดรัง",
+     "rtgs": "kut-rang",
+     "ipa": "/kut̚˨˩.raŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดมหาสารคาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "รัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "รัง"
+     ],
+     "lit": "kut as an element in place names + nest",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam"
+    },
+    {
+     "th": "กุดเค้า",
+     "rtgs": "kut-khao",
+     "ipa": "/kut̚˨˩.kʰaw˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอมัญจาคีรี จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "เค้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่เป็นเครื่องกำหนดหมายบอกให้ร"
+    },
+    {
+     "th": "กุดขอนแก่น",
+     "rtgs": "kut-khon-kaen",
+     "ipa": "/kut̚˨˩.kʰɔːn˩˩˦.kɛn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอภูเวียง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "ขอนแก่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+PROP",
+     "head": 0
+    },
+    {
+     "th": "กุดบาก",
+     "rtgs": "kut-bak",
+     "ipa": "/kut̚˨˩.baːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสกลนคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "บาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ใช้สิ่งมีคมเช่นมีดหรือขวานเป็นต้นฟ"
+    },
+    {
+     "th": "กุดจอก",
+     "rtgs": "kut-chok",
+     "ipa": "/kut̚˨˩.t͡ɕɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบัวใหญ่ จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "จอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะเล็ก ๆ รูปอย่างขัน ถ้าใช้สำหร"
+    },
+    {
+     "th": "กุดจิก",
+     "rtgs": "kut-chik",
+     "ipa": "/kut̚˨˩.t͡ɕik̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่าคันโท จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "จิก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กิริยาที่เอาจะงอยปากสับอย่างอาการข"
+    },
+    {
+     "th": "กุดหว้า",
+     "rtgs": "kut-wa",
+     "ipa": "/kut̚˨˩.waː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกุฉินารายณ์ จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "หว้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "kut as an element in place names + jambul",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Syzygium Cu"
+    },
+    {
+     "th": "กุดโบสถ์",
+     "rtgs": "kut-bot",
+     "ipa": "/kut̚˨˩.boːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเสิงสาง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "โบสถ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "kut as an element in place names + temple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สถานที่สำหรับพระสงฆ์ใช้ประชุมทำสัง"
+    },
+    {
+     "th": "กุดโดน",
+     "rtgs": "kut-don",
+     "ipa": "/kut̚˨˩.doːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอห้วยเม็ก จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "โดน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กระทบกระทั่ง"
+    },
+    {
+     "th": "กุดจับ",
+     "rtgs": "kut-chap",
+     "ipa": "/kut̚˨˩.t͡ɕap̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุดรธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "จับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "จับ"
+     ],
+     "lit": "kut as an element in place names + grab",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ"
+    },
+    {
+     "th": "กุดกว้าง",
+     "rtgs": "kut-kwang",
+     "ipa": "/kut̚˨˩.kwaːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองเรือ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "กว้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "kut as an element in place names + wide",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ด้านสั้นที่คู่กับด้านยาว"
+    },
+    {
+     "th": "กุดน้อย",
+     "rtgs": "kut-noi",
+     "ipa": "/kut̚˨˩.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสีคิ้ว จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "น้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "น้อย"
+     ],
+     "lit": "kut as an element in place names + little",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม่มาก",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 4 manuscript titles, 17 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 16; domain seeded by keyword hits —.",
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับลาว ກຸດ (กุด), คำเมือง ᨠᩩᨯ (กุด), จ้วง gut (กุด)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨠᩩᨯ",
+  "th": "กุด",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

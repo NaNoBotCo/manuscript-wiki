@@ -1,0 +1,38 @@
+{
+ "head": "ek",
+ "rule": "เอก is a Sanskrit/Pali morpheme (एक) and its compounds sort by which of 'one' it means. Sense 1 is ONE-AND-ONLY and takes the abstractions, four of them modern ราชบัณฑิตยสภา coinages: เอกภาพ, เอกภพ (universe), เอกลักษณ์ (identity), เอกสิทธิ์ (privilege), plus เอกฉันท์, เอกราช and เอกศก, the จ.ศ. year ending in 1. Sense 2 is FIRST IN AN ORDERED SERIES, where เอก outranks โท and ตรี, and it takes all six military and police ranks — and เสียงเอก with them, because the tone series is ordered the same way. Sense 4 is 'excellent' (ชิ้นเอก, ศิษย์เอก, and the sweet ทองเอก); sense 5 is 'principal', the lead rather than the best — พระเอก, นางเอก, วิชาเอก. **เอกสาร goes to 5, not 1**, because the dictionary glosses its own morpheme: เอก (\"สำคัญ\") + สาร, and สำคัญ is sense 5's gloss word. A document is an IMPORTANT text, not one text. Sense 3 takes เอกโทษ alone, and 6 and 7 take nothing.",
+ "senses": {
+  "1": [
+   "เอกภาพ",
+   "เอกภพ",
+   "เอกฉันท์",
+   "เอกราช",
+   "เอกลักษณ์",
+   "เอกสิทธิ์",
+   "เอกศก"
+  ],
+  "2": [
+   "สิบเอก",
+   "พันเอก",
+   "พลเอก",
+   "พลตำรวจเอก",
+   "นาวาเอก",
+   "เรือเอก",
+   "เสียงเอก"
+  ],
+  "3": [
+   "เอกโทษ"
+  ],
+  "4": [
+   "ชิ้นเอก",
+   "ศิษย์เอก",
+   "ทองเอก"
+  ],
+  "5": [
+   "เอกสาร",
+   "พระเอก",
+   "นางเอก",
+   "วิชาเอก"
+  ]
+ }
+}

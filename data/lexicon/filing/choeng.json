@@ -1,0 +1,10 @@
+{
+ "head": "choeng",
+ "rule": "เชิง is a foot or base, and its useful sense is 5 — ท่าที / ท่วงที, a person's tactical bearing — which takes four of seven: แก้เชิง (countering someone's move), เชิงหนา (full of guile), ขวางเชิง (obstructing), สิ้นเชิง (utterly, glossed หมดชั้นเชิง, out of moves). Sense 1, the literal base, takes เชิงกราน, a portable stove standing on its feet. Sense 3, the patterned lower border of cloth, takes กรวยเชิง — and it is worth noting that this is the sense that ตีนจก belongs to on the head ตีน, where it was misfiled by similarity. Sense 6, ด้าน, was empty and takes เชิงสัญลักษณ์, symbolic — เชิง as 'in the ... aspect', which is a modern academic use.",
+ "senses": {
+  "1": ["เชิงกราน"],
+  "3": ["กรวยเชิง"],
+  "5": ["ขวางเชิง","สิ้นเชิง","เชิงหนา","แก้เชิง"],
+  "6": ["เชิงสัญลักษณ์"]
+ }
+}

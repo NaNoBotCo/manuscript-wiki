@@ -1,0 +1,856 @@
+{
+ "id": "w:tai-2",
+ "th": "ใต้",
+ "status": "mapped",
+ "rtgs": "tai",
+ "paiboon": "dtâai",
+ "ipa": "/taːj˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ทิศที่อยู่ทางขวามือเมื่อหันหน้าไปทางทิศตะวันออก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, preposition",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "The lower country is the south — downriver, as เหนือ is upriver.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ที่อยู่ในที่หรือฐานะต่ำกว่าสิ่งอื่นเมื่อมีการเปรียบเทียบกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, preposition",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "Below in rank rather than in space.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ไม่อยู่เหนือ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, preposition",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "Not above.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ต่ำกว่าพื้นผิวระดับหรือเกณฑ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, preposition",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ใต้ดิน",
+     "rtgs": "tai-din",
+     "ipa": "/taj˥˩.din˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่อยู่ต่ำกว่าระดับพื้นดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใต้",
+      "ดิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "under + soil",
+     "lit_th": "ต่ำกว่าพื้นผิวระดับหรือเกณฑ์ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "Below a surface, a level, a standard.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ที่ตั้งอยู่ มาจาก หรือไปทางทิศใต้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, preposition",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Of the south, or coming from it.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แอฟริกาใต้",
+     "rtgs": "aep-fri-ka-tai",
+     "ipa": "/ʔɛːp̚˦˥.fri˦˥.kaː˧.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประเทศในแอฟริกาใต้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แอฟริกา",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ทวีปทางตอนกลางของโลก อยู่ทางตะวันต + ที่ตั้งอยู่ มาจาก หรือไปทางทิศใต้"
+    },
+    {
+     "th": "แสงใต้",
+     "rtgs": "saeng-tai",
+     "ipa": "/sɛːŋ˩˩˦.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออโรราที่ขั้วโลกใต้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แสง",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แสง"
+     ],
+     "lit": "light + under",
+     "lit_th": "ความสว่าง + ที่ตั้งอยู่ มาจาก หรือไปทางทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "ขั้วโลกใต้",
+     "rtgs": "khua-lok-tai",
+     "ipa": "/kʰua̯˥˩.loːk̚˥˩.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริเวณปลายสุดของแกนโลกใต้ ที่มีละติจูด 90 องศาใต้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขั้วโลก",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "บริเวณปลายสุดของแกนโลกเหนือและใต้ท + ที่ตั้งอยู่ มาจาก หรือไปทางทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "เอเชียใต้",
+     "rtgs": "e-chia-tai",
+     "ipa": "/ʔeː˧.t͡ɕʰia̯˧.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "South Asia"
+      ],
+      "th": "กลุ่มประเทศที่ตั้งอยู่บนอนุทวีปอินเดีย (โดยหลักคือ อินเดีย ปากีสถาน บังกลาเทศ เนปาล และภูฏาน) และในมหาสมุทรอินเดีย (โดยหลักคือ ศรีลังกา และมัลดีฟส์)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เอเชีย",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1
+    },
+    {
+     "th": "มหาสมุทรใต้",
+     "translit_auto": "mhasmuthrt",
+     "gloss": {
+      "en": [
+       "Southern Ocean"
+      ],
+      "th": "มหาสมุทรที่ล้อมรอบทวีปแอนตาร์กติกา และอยู่ใต้มหาสมุทรแอตแลนติก, มหาสมุทรแปซิฟิก และมหาสมุทรอินเดีย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มหาสมุทร",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "ocean + under",
+     "lit_th": "ทะเลใหญ่ + ที่ตั้งอยู่ มาจาก หรือไปทางทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "เกาหลีใต้",
+     "rtgs": "kao-li-tai",
+     "ipa": "/kaw˧.liː˩˩˦.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "South Korea"
+      ],
+      "th": "ประเทศในเอเชีย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เกาหลี",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit": "Korean + under",
+     "lit_th": "ชื่อประเทศและชนชาติหนึ่ง อยู่ในคาบ + ที่ตั้งอยู่ มาจาก หรือไปทางทิศใต้"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ข้างล่าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, preposition",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ใต้ 'below' — taken as the origin, with 'south' derived from it, as เหนือ 'above' gives 'north'. Downriver is south in this kingdom."
+   ],
+   "compounds": [
+    {
+     "th": "ใต้ถุน",
+     "rtgs": "tai-thun",
+     "ipa": "/taj˥˩.tʰun˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ใต้พื้นเรือนซึ่งยกพื้นสูง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใต้",
+      "ถุน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ข้างล่าง + กินหรือเสพพอแก้ขัด"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "tai as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 11 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 78 of the 5333 wats in the northern registry carry it, and 82 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 11 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 11 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "78 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "จันจว้าใต้",
+     "rtgs": "chan-chwa-tai",
+     "ipa": "/t͡ɕan˧.t͡ɕwaː˥˩.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่จัน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จันจว้า",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอแม่จัน จังหวัด + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "คลองท่อมใต้",
+     "rtgs": "khlong-thom-tai",
+     "ipa": "/kʰlɔːŋ˧.tʰɔm˥˩.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองท่อม จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คลองท่อม",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่ + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "ครบุรีใต้",
+     "rtgs": "khon-bu-ri-tai",
+     "ipa": "/kʰɔːn˧.bu˨˩.riː˧.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอครบุรี จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ครบุรี",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "เสม็ดใต้",
+     "rtgs": "sa-met-tai",
+     "ipa": "/sa˨˩.met̚˨˩.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางคล้า จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสม็ด",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองชลบุรี จั + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "สะเมิงใต้",
+     "rtgs": "sa-moeng-tai",
+     "ipa": "/sa˨˩.mɤːŋ˧.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสะเมิง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สะเมิง",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่ + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "สำราญใต้",
+     "rtgs": "sam-ran-tai",
+     "ipa": "/sam˩˩˦.raːn˧.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสามชัย จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำราญ",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "enjoy + tai as an element in place names",
+     "lit_th": "สุขสบาย + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "เวียงใต้",
+     "rtgs": "wiang-tai",
+     "ipa": "/wia̯ŋ˧.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปาย จังหวัดแม่ฮ่องสอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เวียง",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เมืองที่มีกำแพงล้อม + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ริมใต้",
+     "rtgs": "rim-tai",
+     "ipa": "/rim˧.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่ริม จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ริม",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "border + tai as an element in place names",
+     "lit_th": "ชาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรายกองดินใต้",
+     "rtgs": "sai-kong-din-tai",
+     "ipa": "/saːj˧.kɔːŋ˧.din˧.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตคลองสามวา กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรายกองดิน",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อแขวงหนึ่งในเขตคลองสามวา กรุงเท + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "อ่าวลึกใต้",
+     "rtgs": "ao-luek-tai",
+     "ipa": "/ʔaːw˨˩.lɯk̚˦˥.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่าวลึก",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่ + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "บ้านใต้",
+     "rtgs": "ban-tai",
+     "ipa": "/baːn˥˩.taːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาญจนบุรี จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "ใต้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + tai as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1 manuscript titles, 45 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['ผิว', 'มือ', 'อก'].",
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *taɰꟲ; เทียบจีนยุคกลาง 底 (MC tejX); ร่วมเชื้อสายกับลาว ໃຕ້ (ใต้), ไทลื้อ ᦺᦎᧉ (ไต้), ไทใหญ่ တႂ်ႈ (ใต้), ไทใต้คง ᥖᥬᥲ (ใต้), อาหม 𑜄𑜧 (ตว์) หรือ 𑜄𑜨𑜧 (ตอ̂ว์), จ้วง dawj, จ้วงแบบจั่วเจียง dawj; เทียบเบดั้งเดิม *ɗaːwᴬ²",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:tai",
+   "label": "ตาย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"tai\". ใต้ is dtâai, ตาย is dtaai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "under"
+ ]
+}

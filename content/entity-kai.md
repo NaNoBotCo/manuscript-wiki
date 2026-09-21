@@ -1,7 +1,7 @@
 ---
 title: Kai (chicken & rooster)
 status: published
-see_also: entity:katha, genre:jataka, genre:magic_ritual, entity:naga, entity:yantra, entity:lersi, entity:khun_phaen, entity:phrommachat, entity:patiloma
+see_also: entity:katha, genre:jataka, genre:magic_ritual, entity:naga, entity:yantra, entity:lersi, entity:khun_phaen, entity:phrommachat, entity:patiloma, entity:chang
 ---
 
 ## What this is

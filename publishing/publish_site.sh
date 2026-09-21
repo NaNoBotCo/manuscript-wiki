@@ -251,11 +251,41 @@ log "Building the portal → phasa_portal.py"
 log "Building yant index → yant_index.py"
 "$PY" "$WIKI_DIR/yant_index.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
 
-# 2a-1b. /handpoke — the Lanna leg tattoo, counted against the corpus. Self-contained
-#     like yant_index.py: reads catalog.db, counts, writes its own HTML. routes.py
-#     declares it, so a failure here makes verify_build (gate 2c) refuse the publish.
+# 2a-1b. /handpoke — the whole Hand Poke site, 311 pages on 28 hand-tattooing
+#     traditions, built in its own repository (../hand-poke) and exported into this
+#     one, the way Amulet Essentials is at step 2a-6. Nan moved it here on
+#     2026-09-21: it was served from nanobotco.github.io/hand-poke with only a
+#     corpus count at this address, which meant two hosts and no way for either to
+#     carry the canonical honestly. The GitHub copy is redirect stubs now.
+#     "handpoke" is in build_static.py's UNMANAGED, so the wipe leaves the subtree
+#     alone and a publish that skips this step serves the last good copy rather than
+#     a hole. routes.py declares the route, so a failure makes verify_build (gate 2c)
+#     refuse the publish.
+log "Building Hand Poke → hand-poke/tools/export_wichaa.py"
+"$PY" "$WIKI_DIR/../hand-poke/tools/export_wichaa.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
+
+# 2a-1b-ii. /handpoke/corpus — the Lanna leg tattoo counted against the corpus, which
+#     is this repository's own question and not the site's. Self-contained like
+#     yant_index.py: reads catalog.db, counts, writes its own HTML. It runs AFTER the
+#     export, which replaces the subtree and carries this page across.
 log "Building the leg-tattoo page → handpoke.py"
 "$PY" "$WIKI_DIR/handpoke.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
+
+# 2a-1c. /kesa — the yant that writes the thirty-two parts of the body as
+#     thirty-two letters, and where that method came from. Same shape as
+#     handpoke.py: reads catalog.db, counts, writes its own HTML. It also
+#     solves the knight's-tour question the design raises; board results are
+#     cached in manuscript-wiki/data/kesa_boards.json and re-verified on every
+#     run — every stored tour is re-walked move by move, so a cache that has
+#     drifted is re-solved rather than trusted. With the cache present this step
+#     takes about two seconds; with the cache deleted it re-solves all eleven
+#     boards and takes about five minutes, because the hardest of them needs
+#     25.3M positions to settle. If a search is cut short the script writes
+#     nothing and exits 1, rather than publish a claim of exhaustiveness it did
+#     not earn. routes.py declares the page, so a failure here also makes
+#     verify_build (gate 2c) refuse the publish.
+log "Building the kesa-yant page → kesa.py"
+"$PY" "$WIKI_DIR/kesa.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
 
 # 2a-2. the visual na-compendium: every na (sacred glyph) from manuscript #6964,
 #     sliced out and paired one-by-one with the page it was drawn on. Regenerates

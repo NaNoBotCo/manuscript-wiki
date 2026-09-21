@@ -1,0 +1,39 @@
+{
+ "head": "rat",
+ "rule": "ราช is the king, and the useful line is sense 1 against sense 4. Sense 1 is a MAN who is a king — อธิราช, มหาราช, ทรราช the tyrant, ยมราช the lord of the underworld, and เอกราช, independence, which is literally being one's own king. Sense 4 is the ADJECTIVE, ที่เกี่ยวกับพระเจ้าแผ่นดิน ใช้ประกอบคำอื่น, and it takes the whole royal vocabulary that hangs off the prefix: the possessions (ราชสมบัติ, ราชอำนาจ, ราชบัลลังก์, ราชอาสน์, ราชยาน), the institutions (ราชการ, ราชสำนัก, ราชธานี, ราชอาณาจักร, ประเทศราช), the practices (ราชกิจ, ราชพิธี, ราชประเพณี, ราชโองการ, ราชสวัสดิ์) and the people (ราชสกุล, ราชบัณฑิต). ราชบุรี goes to sense 5, the name-use sense, because it is a province and this head has somewhere to put one. Pulled out 2026-09-18 as spelling-variant, a gloss that reads only รูปสะกดผิดของ X: ราชกาล, ราชวงค์. An entry that points at another spelling carries no sense of this head to file it under.",
+ "senses": {
+  "1": [
+   "ทรราช",
+   "มหาราช",
+   "ยมราช",
+   "อธิราช",
+   "เอกราช"
+  ],
+  "4": [
+   "ประเทศราช",
+   "ราชกิจ",
+   "ราชการ",
+   "ราชธานี",
+   "ราชบัณฑิต",
+   "ราชบัลลังก์",
+   "ราชประเพณี",
+   "ราชพิธี",
+   "ราชยาน",
+   "ราชสกุล",
+   "ราชสมบัติ",
+   "ราชสวัสดิ์",
+   "ราชสำนัก",
+   "ราชอาณาจักร",
+   "ราชอาสน์",
+   "ราชอำนาจ",
+   "ราชโองการ"
+  ],
+  "5": [
+   "ราชบุรี"
+  ]
+ },
+ "spelling_variants": [
+  "ราชกาล",
+  "ราชวงค์"
+ ]
+}

@@ -1,0 +1,1008 @@
+{
+ "id": "w:nuea",
+ "th": "เหนือ",
+ "status": "mapped",
+ "rtgs": "nuea",
+ "paiboon": "nʉ̌ʉa",
+ "ipa": "/nɯa̯˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อทิศตรงข้ามกับทิศใต้, ทิศที่อยู่ทางซ้ายมือเมื่อหันหน้าไปทางทิศตะวันออก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, adjective, preposition",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "อ่าวลึกเหนือ",
+     "rtgs": "ao-luek-nuea",
+     "ipa": "/ʔaːw˨˩.lɯk̚˦˥.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่าวลึก",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่ + ชื่อทิศตรงข้ามกับทิศใต้"
+    },
+    {
+     "th": "เหนือคลอง",
+     "rtgs": "nuea-khlong",
+     "ipa": "/nɯa̯˩˩˦.kʰlɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหนือ",
+      "คลอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "above + canal",
+     "lit_th": "ชื่อทิศตรงข้ามกับทิศใต้ + ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข",
+     "frame": "entity"
+    },
+    {
+     "th": "เสม็ดเหนือ",
+     "rtgs": "sa-met-nuea",
+     "ipa": "/sa˨˩.met̚˨˩.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางคล้า จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสม็ด",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองชลบุรี จั + ชื่อทิศตรงข้ามกับทิศใต้"
+    },
+    {
+     "th": "บ้านเหนือ",
+     "rtgs": "ban-nuea",
+     "ipa": "/baːn˥˩.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาญจนบุรี จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + above",
+     "lit_th": "ที่อยู่อาศัย + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "ทาเหนือ",
+     "rtgs": "tha-nuea",
+     "ipa": "/tʰaː˧.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่ออน จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทา",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "coat + above",
+     "lit_th": "คำรวมหมายถึงกิริยาอาการที่เอาของเป + ชื่อทิศตรงข้ามกับทิศใต้"
+    },
+    {
+     "th": "เวียงเหนือ",
+     "rtgs": "wiang-nuea",
+     "ipa": "/wia̯ŋ˧.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเวียงชัย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เวียง",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เมืองที่มีกำแพงล้อม + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "ริมเหนือ",
+     "rtgs": "rim-nuea",
+     "ipa": "/rim˧.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่ริม จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ริม",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "border + above",
+     "lit_th": "ชาย + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "นาเหนือ",
+     "rtgs": "na-nuea",
+     "ipa": "/naː˧.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + above",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "ตลาดเหนือ",
+     "rtgs": "ta-lat-nuea",
+     "ipa": "/ta˨˩.laːt̚˨˩.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองภูเก็ต จังหวัดภูเก็ต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตลาด"
+     ],
+     "lit": "market + above",
+     "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "ลวงเหนือ",
+     "rtgs": "luang-nuea",
+     "ipa": "/lua̯ŋ˧.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอดอยสะเก็ด จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลวง",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ทำให้หลงผิด + ชื่อทิศตรงข้ามกับทิศใต้"
+    },
+    {
+     "th": "คลองท่อมเหนือ",
+     "rtgs": "khlong-thom-nuea",
+     "ipa": "/kʰlɔːŋ˧.tʰɔm˥˩.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองท่อม จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คลองท่อม",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่ + ชื่อทิศตรงข้ามกับทิศใต้"
+    },
+    {
+     "th": "สะเมิงเหนือ",
+     "rtgs": "sa-moeng-nuea",
+     "ipa": "/sa˨˩.mɤːŋ˧.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสะเมิง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สะเมิง",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่ + ชื่อทิศตรงข้ามกับทิศใต้"
+    },
+    {
+     "th": "วังเหนือ",
+     "rtgs": "wang-nuea",
+     "ipa": "/waŋ˧.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลำปาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + above",
+     "lit_th": "ที่อยู่ของเจ้านาย + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "แคนเหนือ",
+     "rtgs": "khaen-nuea",
+     "ipa": "/kʰɛːn˧.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านไผ่ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แคน",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เครื่องเป่าชนิดหนึ่ง เสียงคล้ายออร + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
+    }
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "The upper country is the north — upriver and uphill, which in this kingdom is the same direction.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาฬสินธุ์ จังหวัดกาฬสินธุ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, adjective, preposition",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A tambon named from lying to the north.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ที่อยู่ในที่หรือฐานะสูงกว่าสิ่งอื่นเมื่อมีการเปรียบเทียบกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, adjective, preposition",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "Above in rank rather than in space.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ที่มีความรู้ความสามารถเป็นต้นสูง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, adjective, preposition",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "And above in ability.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ข้างบน, ตรงข้ามกับ ใต้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, adjective, preposition",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: เหนือ 'above' — taken here as the origin, with 'north' derived from it: the northern country is the upper country, upriver and uphill.",
+    "Declared root: เหนือ 'above' — taken here as the origin, with 'north' derived from it: the northern country is the upper country, upriver and uphill.",
+    "Declared root: เหนือ 'above' — taken here as the origin, with 'north' derived from it: the northern country is the upper country, upriver and uphill.",
+    "Declared root: เหนือ 'above' — taken here as the origin, with 'north' derived from it: the northern country is the upper country, upriver and uphill.",
+    "Declared root: เหนือ 'above' — taken here as the origin, with 'north' derived from it: the northern country is the upper country, upriver and uphill.",
+    "Declared root: เหนือ 'above' — taken here as the origin, with 'north' derived from it: the northern country is the upper country, upriver and uphill.",
+    "Declared root: เหนือ 'above' — taken here as the origin, with 'north' derived from it: the northern country is the upper country, upriver and uphill."
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ที่ตั้งอยู่ มาจาก หรือไปทางทิศเหนือ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, adjective, preposition",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แสงเหนือ",
+     "rtgs": "saeng-nuea",
+     "ipa": "/sɛːŋ˩˩˦.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออโรราที่ขั้วโลกเหนือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แสง",
+      "เหนือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.12, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แสง"
+     ],
+     "lit": "light + above",
+     "lit_th": "ความสว่าง + ที่ตั้งอยู่ มาจาก หรือไปทางทิศเหนื",
+     "frame": "entity"
+    },
+    {
+     "th": "เหนือธรรมชาติ",
+     "rtgs": "nuea-tham-ma-chat",
+     "ipa": "/nɯa̯˩˩˦.tʰam˧.ma˦˥.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "eldritch",
+       "supernatural"
+      ],
+      "th": "ซึ่งถือว่าเกิดมาจากแรงผลักดันบางอย่างที่อยู่เหนือความเข้าใจทางวิทยาศาสตร์หรือกฎธรรมชาติ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เหนือ",
+      "ธรรมชาติ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.20, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "above + nature",
+     "lit_th": "ที่ตั้งอยู่ มาจาก หรือไปทางทิศเหนื + สิ่งที่เกิดมีและเป็นอยู่ตามธรรมดาข",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Of the north, or coming from it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "พ้นขึ้นไป, เลยขึ้นไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, adjective, preposition",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "Past and above: beyond.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 5 manuscript titles, 76 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['ที่อยู่', 'เมือง', 'ตำบล', 'อำเภอ'].",
+ "compounds_unassigned": [
+  {
+   "th": "แอฟริกาเหนือ",
+   "rtgs": "aep-fri-ka-nuea",
+   "ipa": "/ʔɛːp̚˦˥.fri˦˥.kaː˧.nɯa̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(ภูมิภาค~) ภูมิภาคที่อยู่ทางตอนเหนือของแอฟริกา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แอฟริกา",
+    "เหนือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "ทวีปทางตอนกลางของโลก อยู่ทางตะวันต + ชื่อทิศตรงข้ามกับทิศใต้"
+  },
+  {
+   "th": "อเมริกาเหนือ",
+   "rtgs": "a-me-ri-ka-nuea",
+   "ipa": "/ʔa˨˩.meː˧.ri˦˥.kaː˧.nɯa̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทวีปที่ประกอบเป็นส่วนเหนือของอเมริกาส์ (อเมริกาเหนือและใต้); ซึ่งอยู่ทางตะวันออกของมหาสมุทรแปซิฟิก ทางตะวันตกของมหาสมุทรแอตแลนติก ทางเหนือของอเมริกาใต้ และทางใต้ของมหาสมุทรอาร์กติก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อเมริกา",
+    "เหนือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "ประเทศ ใน อเมริกาเหนือ + ชื่อทิศตรงข้ามกับทิศใต้"
+  },
+  {
+   "th": "ดาวเหนือ",
+   "rtgs": "dao-nuea",
+   "ipa": "/daːw˧.nɯa̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดาวฤกษ์สุกใสดวงหนึ่งที่อยู่ใกล้ที่สุดกับขั้วท้องฟ้าเหนือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดาว",
+    "เหนือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ดาว"
+   ],
+   "lit": "star + above",
+   "lit_th": "สิ่งที่เห็นเป็นดวงมีแสงระยิบระยับใ + ชื่อทิศตรงข้ามกับทิศใต้",
+   "frame": "entity"
+  },
+  {
+   "th": "ขั้วโลกเหนือ",
+   "rtgs": "khua-lok-nuea",
+   "ipa": "/kʰua̯˥˩.loːk̚˥˩.nɯa̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บริเวณปลายสุดของแกนโลกเหนือ ที่มีละติจูด 90 องศาเหนือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขั้วโลก",
+    "เหนือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "บริเวณปลายสุดของแกนโลกเหนือและใต้ท + ชื่อทิศตรงข้ามกับทิศใต้",
+   "frame": "entity"
+  },
+  {
+   "th": "เกาหลีเหนือ",
+   "rtgs": "kao-li-nuea",
+   "ipa": "/kaw˧.liː˩˩˦.nɯa̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "North Korea"
+    ],
+    "th": "ประเทศในเอเชีย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เกาหลี",
+    "เหนือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit": "Korean + above",
+   "lit_th": "ชื่อประเทศและชนชาติหนึ่ง อยู่ในคาบ + ชื่อทิศตรงข้ามกับทิศใต้"
+  },
+  {
+   "th": "เหนือหัว",
+   "rtgs": "nuea-hua",
+   "ipa": "/nɯa̯˩˩˦.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระเจ้าแผ่นดิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เหนือ",
+    "หัว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "above + head",
+   "lit_th": "ชื่อทิศตรงข้ามกับทิศใต้ + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "ความเหนือ",
+   "rtgs": "khwam-nuea",
+   "ipa": "/kʰwaːm˧.nɯa̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เหนือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "เหนือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + above",
+   "lit_th": "เรื่อง + ชื่อทิศตรงข้ามกับทิศใต้",
+   "frame": "entity"
+  },
+  {
+   "th": "มาซิโดเนียเหนือ",
+   "rtgs": "ma-si-do-nia-nuea",
+   "ipa": "/maː˧.si˦˥.doː˧.nia̯˧.nɯa̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ประเทศในยุโรป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มาซิโดเนีย",
+    "เหนือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit": "Macedonia + above",
+   "lit_th": "ภูมิภาคประวัติศาสตร์และภูมิศาสตร์ข + ชื่อทิศตรงข้ามกับทิศใต้"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ʰnɯəᴬ; ร่วมเชื้อสายกับลาว ເໜືອ (เหนือ), คำเมือง ᩉ᩠ᨶᩮᩬᩥᩋ (เหนอิอ), เขิน ᩉ᩠ᨶᩮᩬᩨ (เหนอื), ไทลื้อ ᦵᦐᦲ (เหนี), ไทดำ ꪹꪘ (เหน), ไทใหญ่ ၼိူဝ် (เนิว), ไทใต้คง ᥘᥫᥴ (เล๋อ̂), อ่ายตน ꩫ︀ိုဝ︀် (นึว์), อาหม 𑜃𑜢𑜤𑜈𑜫 (นึว์), จ้วง nw, จ้วงแบบจั่วเจียง nwe (เหนือ)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩉ᩠ᨶᩮᩬᩥᩋ",
+  "th": "เหนอิอ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:nuea-2",
+   "label": "เนื้อ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"nuea\". เหนือ is nʉ̌ʉa, เนื้อ is nʉ́ʉa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "above",
+  "o"
+ ]
+}

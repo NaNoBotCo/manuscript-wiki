@@ -1,0 +1,635 @@
+{
+ "id": "w:klap",
+ "th": "กลับ",
+ "status": "mapped",
+ "rtgs": "klap",
+ "paiboon": "glàp",
+ "ipa": "/klap̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "คืนมาสู่ภาวะเดิม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Reversal narrowed to returning to what was.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "พลิกหน้าเป็นหลัง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And to turning a thing face for back.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เปลี่ยน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กลับใจ",
+     "rtgs": "klap-chai",
+     "ipa": "/klap̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "about face"
+      ],
+      "th": "หยุดเลิกกระทำความชั่ว แล้วกลับหันมากระทำความดี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กลับ",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "back + heart",
+     "lit_th": "เปลี่ยน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "กลับลำ",
+     "rtgs": "klap-lam",
+     "ipa": "/klap̚˨˩.lam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เปลี่ยนความคิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลับ",
+      "ลำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.26, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เปลี่ยน + ตัวของคน สัตว์ หรือสิ่งต่าง ๆ ไม่น"
+    },
+    {
+     "th": "กลับกลอก",
+     "rtgs": "klap-klok",
+     "ipa": "/klap̚˨˩.klɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เปลี่ยนไปมาเชื่อถือไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลับ",
+      "กลอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.20, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "เปลี่ยน + เคลื่อนหรือขยับเขยื้อนกลับไปกลับมา",
+     "flips_with": "กลอกกลับ"
+    },
+    {
+     "th": "กลอกกลับ",
+     "rtgs": "klok-klap",
+     "ipa": "/klɔːk̚˨˩.klap̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เปลี่ยนไปมาเชื่อถือไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลอก",
+      "กลับ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.20, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "เคลื่อนหรือขยับเขยื้อนกลับไปกลับมา + เปลี่ยน",
+     "flips_with": "กลับกลอก"
+    },
+    {
+     "th": "กลับกลาย",
+     "rtgs": "klap-klai",
+     "ipa": "/klap̚˨˩.klaːj˧/",
+     "gloss": {
+      "en": [
+       "become"
+      ],
+      "th": "เปลี่ยนแปลงเป็นอย่างอื่นไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กลับ",
+      "กลาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.22, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "back + become",
+     "lit_th": "เปลี่ยน + เปลี่ยนไป"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "And loosened to changing at all.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ทำตรงกันข้ามกับที่คาดหมายหรือที่ควรจะเป็น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Turning against expectation: to do the contrary.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 31 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "กลับตาลปัตร",
+   "rtgs": "klap-ta-la-pat",
+   "ipa": "/klap̚˨˩.taː˧.la˦˥.pat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผิดความคาดหมายอย่างตรงกันข้ามแบบพลิกหน้ามือเป็นหลังมือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลับ",
+    "ตาลปัตร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ + พัดทำด้วยใบตาล มีด้ามยาว สำหรับพระ"
+  },
+  {
+   "th": "กลับคืน",
+   "rtgs": "klap-khuen",
+   "ipa": "/klap̚˨˩.kʰɯːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กลับที่เดิม, สู่สภาพเดิม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลับ",
+    "คืน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "back + back",
+   "lit_th": "ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ + ระยะเวลาตั้งแต่ย่ำค่ำถึงย่ำรุ่ง"
+  },
+  {
+   "th": "การกลับ",
+   "rtgs": "kan-klap",
+   "ipa": "/kaːn˧.klap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กลับ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "กลับ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ลับ"
+   ],
+   "lit_th": "งาน + ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ"
+  },
+  {
+   "th": "หนองกลับ",
+   "rtgs": "nong-klap",
+   "ipa": "/nɔːŋ˩˩˦.klap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอสวรรคโลก จังหวัดสุโขทัย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หนอง",
+    "กลับ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "หนอง"
+   ],
+   "lit": "abscess + back",
+   "lit_th": "แอ่งน้ำ + ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ"
+  },
+  {
+   "th": "กลับเกลือก",
+   "rtgs": "klap-klueak",
+   "ipa": "/klap̚˨˩.klɯa̯k̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กลอกขึ้นกลอกลง (ใช้แก่ตา)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลับ",
+    "เกลือก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ + กลิ้งหรือเสือกตัวไปมา"
+  },
+  {
+   "th": "มุมกลับ",
+   "rtgs": "mum-klap",
+   "ipa": "/mum˧.klap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มุมที่มีขนาดอยู่ระหว่าง 180 องศา กับ 360 องศา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มุม",
+    "กลับ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "corner + back",
+   "lit_th": "จุดที่เส้น 2 เส้นมาบรรจบกัน + ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ"
+  },
+  {
+   "th": "กลับบ้านเก่า",
+   "rtgs": "klap-ban-kao",
+   "ipa": "/klap̚˨˩.baːn˥˩.kaw˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กลับไปยังบ้านเกิดเมืองนอนของตน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลับ",
+    "บ้านเก่า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ + บ้านเดิมที่เคยอาศัย"
+  },
+  {
+   "th": "กลับคำ",
+   "rtgs": "klap-kham",
+   "ipa": "/klap̚˨˩.kʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พูดแล้วไม่เป็นตามพูด, ไม่ทำตามที่พูดไว้, พูดแล้วเปลี่ยนคำพูด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลับ",
+    "คำ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "คำ"
+   ],
+   "lit": "back + word",
+   "lit_th": "ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ + เสียงพูด"
+  },
+  {
+   "th": "การตีกลับ",
+   "rtgs": "kan-ti-klap",
+   "ipa": "/kaːn˧.tiː˧.klap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตีกลับ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตี",
+    "กลับ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "drive + back",
+   "lit_th": "คำอาการนามของ ตี + ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ"
+  },
+  {
+   "th": "ตีกลับ",
+   "rtgs": "ti-klap",
+   "ipa": "/tiː˧.klap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ย้อนกลับคืนผู้ส่ง (ใช้แก่หนังสือหรือจดหมาย)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตี",
+    "กลับ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "ตี"
+   ],
+   "lit": "hit + back",
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับลาว ກັບ (กับ), คำเมือง ᨠᩖᩢᨷ (กลับ), ᨠᩢ᩠ᨷ (กับ), ปักษ์ใต้ กลั๋บ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨠᩖᩢᨷ",
+  "th": "กลับ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "back",
+  "return"
+ ]
+}

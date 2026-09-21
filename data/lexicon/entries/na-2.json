@@ -1,0 +1,2793 @@
+{
+ "id": "w:na-2",
+ "th": "นา",
+ "status": "mapped",
+ "rtgs": "na",
+ "paiboon": "naa",
+ "ipa": "/naː˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง ๆ สำหรับปลูกข้าวเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำอนุภาค",
+   "pos_th": "คำนาม, คำอนุภาค",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'.",
+    "Declared root: นา 'paddy field'."
+   ],
+   "compounds": [
+    {
+     "th": "ทุ่งนา",
+     "rtgs": "thung-na",
+     "ipa": "/tʰuŋ˥˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ราบสำหรับปลูกข้าว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.33, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + farm",
+     "lit_th": "ที่ราบโล่ง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "flips_with": "นาทุ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "บ้านนา",
+     "rtgs": "ban-na",
+     "ipa": "/baːn˥˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชนบทซึ่งเต็มไปด้วยทุ่งนา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + farm",
+     "lit_th": "ที่อยู่อาศัย + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
+    },
+    {
+     "th": "นาสวน",
+     "rtgs": "na-suan",
+     "ipa": "/naː˧.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นาข้าวที่ปลูกในพื้นที่ซึ่งมีระดับน้ำลึกตั้งแต่ 1 เมตรลงมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "สวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สวน"
+     ],
+     "lit": "farm + garden",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+     "frame": "entity"
+    },
+    {
+     "th": "ศักดินา",
+     "rtgs": "sak-di-na",
+     "ipa": "/sak̚˨˩.di˨˩.naː˧/",
+     "gloss": {
+      "en": [
+       "feudalism"
+      ],
+      "th": "อำนาจหรือสิทธิที่พระเจ้าแผ่นดินพระราชทานให้แก่ไพร่ฟ้าข้าแผ่นดินตามศักดิ์ของแต่ละคน เดิมเป็นการถือครองที่ดินคิดเป็นจำนวนไร่ ต่อมาถือเป็นการกำหนดสถานะ สิทธิ หน้าที่ และความรับผิดชอบของคนในสังคม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ศักดิ",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ ศักดิ์ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "พื้นที่มีลักษณะคล้ายนาสำหรับทำประโยชน์อื่น ๆ เรียกตามสิ่งที่ทำ เช่น นาเกลือ นากุ้ง นาผักกระเฉด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำอนุภาค",
+   "pos_th": "คำนาม, คำอนุภาค",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นาเกลือ",
+     "rtgs": "na-kluea",
+     "ipa": "/naː˧.klɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พื้นที่ที่มีลักษณะคล้ายนาสำหรับขังน้ำทะเลเพื่อให้เกลือตกตะกอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "เกลือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เกลือ"
+     ],
+     "lit": "farm + light",
+     "lit_th": "พื้นที่มีลักษณะคล้ายนาสำหรับทำประโ + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "A field-shaped working of any kind — นาเกลือ the salt pan, นากุ้ง the shrimp pond.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ใช้ประกอบกับคำอื่นที่เกิดหรือเกี่ยวข้องกับนา เช่น เต่านา ปูนา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำอนุภาค",
+   "pos_th": "คำนาม, คำอนุภาค",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Prefixed to what lives in the paddy — เต่านา, ปูนา.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "กบนา",
+     "rtgs": "kop-na",
+     "ipa": "/kop̚˨˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อกบขนาดกลางถึงขนาดใหญ่ชนิด Hoplobatrachus rugulosus (Wiegmann) หรือ Rana rugulosus (Wiegmann) ก็มีใช้กัน ในวงศ์ Ranidae หลังสีน้ำตาลอมเขียวมีจุดสีน้ำตาลเข้มถึงดำกระจายทั่วไป ท้องสีขาวนวล กินแมลง เป็นชนิดที่มีแพร่หลายม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กบ"
+     ],
+     "lit": "frog + farm",
+     "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + ใช้ประกอบกับคำอื่นที่เกิดหรือเกี่ย",
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่นา",
+     "rtgs": "kai-na",
+     "ipa": "/kaj˨˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อที่ชาวบ้านเรียกนกที่อาศัยตามทุ่งนาหลายชนิด เช่น คุ่มสี [Coturnix chinensis (Linn.)] และนกอื่น ๆ หลายชนิดในวงศ์ Rallidae เช่น กวัก [Amaurornis phoenicurus (Pennant)] อีล้ำ [Gallinula choropus (Linn.)] อีลุ้ม [Gallicre",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไก่"
+     ],
+     "lit": "chicken + farm",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ใช้ประกอบกับคำอื่นที่เกิดหรือเกี่ย",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ตำแหน่งเจ้ากระทรวงปกครองครั้งโบราณ มีหน้าที่ดูแลรักษานาหลวงจัดหาและรักษาเสบียงอาหารสำหรับพระนคร ดูแลทุกข์สุขของชาวไร่ชาวนา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำอนุภาค",
+   "pos_th": "คำนาม, คำอนุภาค",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ชาวนา",
+     "rtgs": "chao-na",
+     "ipa": "/t͡ɕʰaːw˧.naː˧/",
+     "gloss": {
+      "en": [
+       "rice farmer",
+       "tiller",
+       "farmer"
+      ],
+      "th": "คนที่มีอาชีพปลูกข้าว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชาว",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "กลุ่มชนที่มีเชื้อชาติเดียวกัน หรือ + ตำแหน่งเจ้ากระทรวงปกครองครั้งโบราณ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The old ministry of fields, which held the royal paddies and the kingdom's rations.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "อวัยวะเพศหญิง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำอนุภาค",
+   "pos_th": "คำนาม, คำอนุภาค",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "euphemism",
+   "via_note": "A veiled term for the female genitals, the field as what bears.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "มักใช้ประกอบท้ายคำบทร้อยกรองให้มีความกระชับหรือสละสลวยขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำอนุภาค",
+   "pos_th": "คำนาม, คำอนุภาค",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme.",
+    "Declared root: the line-final particle นา of verse — a different morpheme."
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "na as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 43 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 321 of the 5333 wats in the northern registry carry it, and 266 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 43 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 43 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "321 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ละหานนา",
+     "rtgs": "la-han-na",
+     "ipa": "/la˦˥.haːn˩˩˦.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแวงน้อย จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ละหาน",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ห้วงน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "นาดี",
+     "rtgs": "na-di",
+     "ipa": "/naː˧.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดปราจีนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ดี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "na as an element in place names + good",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+     "frame": "quality"
+    },
+    {
+     "th": "คลองนา",
+     "rtgs": "khlong-na",
+     "ipa": "/kʰlɔːŋ˧.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คลอง",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "canal + na as an element in place names",
+     "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "นาแก",
+     "rtgs": "na-kae",
+     "ipa": "/naː˧.kɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครพนม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "แก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แก"
+     ],
+     "lit": "na as an element in place names + house crow",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อนกชนิด Corvus splendens ในวงศ์",
+     "frame": "entity"
+    },
+    {
+     "th": "นาขาม",
+     "rtgs": "na-kham",
+     "ipa": "/naː˧.kʰaːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกุฉินารายณ์ จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ขาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คร้าม"
+    },
+    {
+     "th": "นาชุมแสง",
+     "rtgs": "na-chum-saeng",
+     "ipa": "/naː˧.t͡ɕʰum˧.sɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอภูเวียง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ชุมแสง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์"
+    },
+    {
+     "th": "นาทวี",
+     "rtgs": "na-tha-wi",
+     "ipa": "/naː˧.tʰa˦˥.wiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสงขลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ทวี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "วี"
+     ],
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เพิ่มขึ้น"
+    },
+    {
+     "th": "นาน้อย",
+     "rtgs": "na-noi",
+     "ipa": "/naː˧.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดน่าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "น้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "น้อย"
+     ],
+     "lit": "na as an element in place names + little",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "นาคู",
+     "rtgs": "na-khu",
+     "ipa": "/naː˧.kʰuː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "คู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ร่องน้ำที่ขุดขึ้นเพื่อชักน้ำหรือเก",
+     "frame": "entity"
+    },
+    {
+     "th": "นาเกียน",
+     "rtgs": "na-kian",
+     "ipa": "/naː˧.kia̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออมก๋อย จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "เกียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อ่าว",
+     "frame": "entity"
+    },
+    {
+     "th": "นามะตูม",
+     "rtgs": "na-ma-tum",
+     "ipa": "/naː˧.ma˦˥.tuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "มะตูม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na as an element in place names + wood apple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Aegle marmelos",
+     "frame": "entity"
+    },
+    {
+     "th": "นาด้วง",
+     "rtgs": "na-duang",
+     "ipa": "/naː˧.dua̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเลย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ด้วง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อแมลงในอันดับ Coleoptera มีปีก",
+     "frame": "entity"
+    },
+    {
+     "th": "นาแห้ว",
+     "rtgs": "na-haeo",
+     "ipa": "/naː˧.hɛw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเลย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "แห้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกมีหัวในวงศ์ Cyperacea",
+     "frame": "entity"
+    },
+    {
+     "th": "นาโพธิ์",
+     "rtgs": "na-pho",
+     "ipa": "/naː˧.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดบุรีรัมย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "โพธิ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "na as an element in place names + enlightenment",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความตรัสรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "นามะเขือ",
+     "rtgs": "na-ma-khuea",
+     "ipa": "/naː˧.ma˦˥.kʰɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสหัสขันธ์ จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "มะเขือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหลายชนิดในสกุล Solanum",
+     "frame": "entity"
+    },
+    {
+     "th": "นาตาล",
+     "rtgs": "na-tan",
+     "ipa": "/naː˧.taːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุบลราชธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ตาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อพืชชนิด Borassus flabellifer L",
+     "frame": "entity"
+    },
+    {
+     "th": "นาหว้า",
+     "rtgs": "na-wa",
+     "ipa": "/naː˧.waː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครพนม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "หว้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na as an element in place names + jambul",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Syzygium Cu",
+     "frame": "entity"
+    },
+    {
+     "th": "บางนา",
+     "rtgs": "bang-na",
+     "ipa": "/baːŋ˧.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + na as an element in place names",
+     "lit_th": "ทางน้ำเล็ก ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "นาป่า",
+     "rtgs": "na-pa",
+     "ipa": "/naː˧.paː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองชลบุรี จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ป่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "na as an element in place names + forest",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+     "frame": "entity"
+    },
+    {
+     "th": "นาเพียง",
+     "rtgs": "na-phiang",
+     "ipa": "/naː˧.pʰia̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชุมแพ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "เพียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 0,
+     "lit": "na as an element in place names + just",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เท่า"
+    },
+    {
+     "th": "นาจาน",
+     "rtgs": "na-chan",
+     "ipa": "/naː˧.t͡ɕaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสีชมพู จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "จาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na as an element in place names + plate",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะรูปแบน ๆ สำหรับใส่สิ่งของต่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ม่วงนา",
+     "rtgs": "muang-na",
+     "ipa": "/mua̯ŋ˥˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอดอนจาน จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ม่วง",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "ม่วง"
+     ],
+     "lit": "purple + na as an element in place names",
+     "lit_th": "สีน้ำเงินปนแดง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "นาบัว",
+     "rtgs": "na-bua",
+     "ipa": "/naː˧.bua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนครไทย จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "บัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "na as an element in place names + lotus",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
+    },
+    {
+     "th": "นายูง",
+     "rtgs": "na-yung",
+     "ipa": "/naː˧.juːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุดรธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ยูง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "นาหมื่น",
+     "rtgs": "na-muen",
+     "ipa": "/naː˧.mɯːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดน่าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "หมื่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 0,
+     "lit": "na as an element in place names + ten thousand",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนนับเท่ากับ 10 พัน"
+    },
+    {
+     "th": "นาคำ",
+     "rtgs": "na-kham",
+     "ipa": "/naː˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออุบลรัตน์ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "คำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "na as an element in place names + word",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เสียงพูด",
+     "frame": "entity"
+    },
+    {
+     "th": "นากลาง",
+     "rtgs": "na-klang",
+     "ipa": "/naː˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดหนองบัวลำภู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "na as an element in place names + middle",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "นามน",
+     "rtgs": "na-mon",
+     "ipa": "/naː˧.mon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "มน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อยู่กับที่"
+    },
+    {
+     "th": "นางิ้ว",
+     "rtgs": "na-ngio",
+     "ipa": "/naː˧.ŋiw˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเขาสวนกวาง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "งิ้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Bombax ceib",
+     "frame": "entity"
+    },
+    {
+     "th": "นาเหนือ",
+     "rtgs": "na-nuea",
+     "ipa": "/naː˧.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "เหนือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เหนือ"
+     ],
+     "lit": "na as an element in place names + above",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "นาข่า",
+     "rtgs": "na-kha",
+     "ipa": "/naː˧.kʰaː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอมัญจาคีรี จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ข่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na as an element in place names + galangal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกชนิด Alpinia galanga",
+     "frame": "entity"
+    },
+    {
+     "th": "นาทัน",
+     "rtgs": "na-than",
+     "ipa": "/naː˧.tʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคำม่วง จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ทัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เป็นไปตามเวลาที่กำหนด"
+    },
+    {
+     "th": "นาฝาย",
+     "rtgs": "na-fai",
+     "ipa": "/naː˧.faːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอภูผาม่าน จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ฝาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่กั้นน้ำเพื่อการชลประทาน",
+     "frame": "entity"
+    },
+    {
+     "th": "นาวังหิน",
+     "rtgs": "na-wang-hin",
+     "ipa": "/naː˧.waŋ˧.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "วังหิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "หิน"
+     ],
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดศรีสะเกษ"
+    },
+    {
+     "th": "นาทม",
+     "rtgs": "na-thom",
+     "ipa": "/naː˧.tʰom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครพนม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ทม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อักษรย่อของ ทบวงมหาวิทยาลัย"
+    },
+    {
+     "th": "นาบอน",
+     "rtgs": "na-bon",
+     "ipa": "/naː˧.bɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "บอน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกหลายชนิดในวงศ์ Aracea",
+     "frame": "entity"
+    },
+    {
+     "th": "นาหม่อม",
+     "rtgs": "na-mom",
+     "ipa": "/naː˧.mɔm˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสงขลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "หม่อม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภรรยาที่เป็นสามัญชนของกรมพระราชวัง",
+     "frame": "entity"
+    },
+    {
+     "th": "นางาม",
+     "rtgs": "na-ngam",
+     "ipa": "/naː˧.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอมัญจาคีรี จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "งาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "งาม"
+     ],
+     "lit": "na as an element in place names + aesthetic",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
+    },
+    {
+     "th": "นาแพง",
+     "rtgs": "na-phaeng",
+     "ipa": "/naː˧.pʰɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโคกโพธิ์ไชย จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "แพง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีราคาสูง",
+     "frame": "quality"
+    },
+    {
+     "th": "นาโยง",
+     "rtgs": "na-yong",
+     "ipa": "/naː˧.joːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตรัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "โยง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผูกให้ต่อเนื่องกัน"
+    },
+    {
+     "th": "นาทุ่ง",
+     "rtgs": "na-thung",
+     "ipa": "/naː˧.tʰuŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสวรรคโลก จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ทุ่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "na as an element in place names + open field",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ราบโล่ง",
+     "flips_with": "ทุ่งนา",
+     "frame": "entity"
+    },
+    {
+     "th": "นาวัง",
+     "rtgs": "na-wang",
+     "ipa": "/naː˧.waŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดหนองบัวลำภู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "วัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "na as an element in place names + palace",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่อยู่ของเจ้านาย",
+     "frame": "entity"
+    },
+    {
+     "th": "นาเชือก",
+     "rtgs": "na-chueak",
+     "ipa": "/naː˧.t͡ɕʰɯa̯k̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดมหาสารคาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "เชือก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "na as an element in place names + lead",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ทำด้วยด้ายหรือป่านปอเป็นต้น",
+     "frame": "entity"
+    },
+    {
+     "th": "ล้านนา",
+     "rtgs": "lan-na",
+     "ipa": "/laːn˦˥.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(อาณาจักร~) อาณาจักรของคนไท มีเชียงใหม่เป็นเมืองหลวง ปกครองโดยราชวงศ์มังราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ล้าน",
+      "นา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "million + na as an element in place names",
+     "lit_th": "จำนวน 10 แสน + ใช้ประกอบชื่อสถานที่"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1130 manuscript titles, 2370 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 78; domain seeded by keyword hits ['toponym formative'].",
+ "compounds_unassigned": [
+  {
+   "th": "นาสา",
+   "rtgs": "na-sa",
+   "ipa": "/naː˧.saː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จมูก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นา",
+    "สา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + หมา",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "เวทนา",
+   "rtgs": "we-tha-na",
+   "ipa": "/weː˧.tʰa˦˥.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความรู้สึก, ความรู้สึกทุกข์สุข, เป็นขันธ์ 1 ในขันธ์ 5 คือ รูป เวทนา สัญญา สังขาร และวิญญาณ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เวท",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "พจนา",
+   "rtgs": "phot-cha-na",
+   "ipa": "/pʰot̚˦˥.t͡ɕa˨˩.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การเปล่งวาจา, การพูด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พจ",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the dictionary says แผลงมาจาก พจน — an altered form of พจน 'speech'. The -นา is the end of that stem.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "อักษรย่อของ พิจิตร + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "use": "false-split"
+  },
+  {
+   "th": "นามกร",
+   "rtgs": "nam-ma-kon",
+   "ipa": "/naːm˧.ma˦˥.kɔːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อ, นาม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นา",
+    "มกร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives นาม + กร. The split is นาม ('name') + กร, not นา + มกร.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นาม"
+   ],
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + มังกร",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "นายก",
+   "rtgs": "na-yok",
+   "ipa": "/naː˧.jok̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้นำ, ผู้เป็นหัวหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นา",
+    "ยก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ยก"
+   ],
+   "lit": "farm + to lift",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + เอาขึ้นให้สูงจากที่เดิมทั้งโดยตรงแ",
+   "use": "false-split"
+  },
+  {
+   "th": "มานา",
+   "rtgs": "ma-na",
+   "ipa": "/maː˧.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สิ่งของที่จัดหามาโดยการอัศจรรย์เพื่อให้เป็นอาหารแก่ชาวอิสราเอลในถิ่นทุรกันดาร (หนังสืออพยพ 16)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มา",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: manna. The dictionary traces it รากแรกสุดมาจากกรีกโบราณ μάννα, จากฮีบรู מן — Greek from Hebrew, with no Thai parts at all.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "มา"
+   ],
+   "lit": "come + farm",
+   "lit_th": "เคลื่อนออกจากที่เข้าหาตัวผู้พูด + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "use": "false-split"
+  },
+  {
+   "th": "เสนา",
+   "rtgs": "se-na",
+   "ipa": "/seː˩˩˦.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ข้าราชการฝ่ายทหาร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เส",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "เส"
+   ],
+   "lit": "to swerve + farm",
+   "lit_th": "เฉ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "use": "false-split"
+  },
+  {
+   "th": "คณนา",
+   "rtgs": "kha-na-na",
+   "ipa": "/kʰa˦˥.na˦˥.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นับ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คณ",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ คณะ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "นาวา",
+   "rtgs": "na-wa",
+   "ipa": "/naː˧.waː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นา",
+    "วา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "วา"
+   ],
+   "lit": "farm + to spread the arms",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + มาตราวัดตามวิธีประเพณี คือระยะที่ก",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "นาวี",
+   "rtgs": "na-wi",
+   "ipa": "/naː˧.wiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นา",
+    "วี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives แผลงมาจาก นาวา and ยืมมาจากอังกฤษ navy. Either way it is a boat word, not a rice field.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "วี"
+   ],
+   "lit": "farm + to fan",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + พัด",
+   "use": "false-split"
+  },
+  {
+   "th": "ภาวนา",
+   "rtgs": "pha-wa-na",
+   "ipa": "/pʰaː˧.wa˦˥.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การทำให้มีขึ้นให้เป็นขึ้นทางจิตใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาว",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความมี + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "กานา",
+   "rtgs": "ka-na",
+   "ipa": "/kaː˧.naː˥˩/",
+   "gloss": {
+    "en": [
+     "Ghana"
+    ],
+    "th": "(ประเทศ~) ประเทศในแอฟริกาตะวันตก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กา",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit": "crow + farm",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "นยนา",
+   "rtgs": "na-ya-na",
+   "ipa": "/na˦˥.ja˦˥.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดวงตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นย",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: glossed ดวงตา, an eye. Sanskrit नयन nayana. No etymology stated, so probable.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เค้าความที่ส่อให้เข้าใจเอาเอง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "เวียนนา",
+   "rtgs": "wian-na",
+   "ipa": "/wia̯n˧.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เมืองหลวงและเมืองที่ใหญ่ที่สุดของประเทศออสเตรีย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เวียน",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: Vienna, a transcribed European city name. No Thai morpheme in it. No etymology stated, so probable.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "อาการที่ของสิ่งหนึ่งเคลื่อนไหวไปรอ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "use": "false-split"
+  },
+  {
+   "th": "นานา",
+   "rtgs": "na-na",
+   "ipa": "/naː˧.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นา",
+    "นา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "farm + farm",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "นานา",
+   "rtgs": "na-na",
+   "ipa": "/naː˧.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นา",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "farm + farm",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "นัยนา",
+   "rtgs": "nai-ya-na",
+   "ipa": "/naj˧.ja˦˥.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดวงตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นัย",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: glossed ดวงตา, an eye. Sanskrit नयन nayana, the doublet of นยนา. No etymology stated, so probable.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "key + farm",
+   "lit_th": "ข้อสำคัญ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "นาซี",
+   "rtgs": "na-si",
+   "ipa": "/naː˧.siː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พรรคกรรมกรชาติสังคมนิยมเยอรมัน อดีตพรรคการเมืองฝ่ายขวาจัดในเยอรมนี นำโดย อดอล์ฟ ฮิตเลอร์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นา",
+    "ซี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + คำประกอบท้ายคำอื่นเพื่อเสริมข้อควา",
+   "use": "false-split"
+  },
+  {
+   "th": "นาลี",
+   "rtgs": "na-li",
+   "ipa": "/naː˧.liː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หลอด, ก้าน, ลำ, ช่อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นา",
+    "ลี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ลี"
+   ],
+   "lit": "farm + to go",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ไป",
+   "use": "false-split"
+  },
+  {
+   "th": "โภชนา",
+   "rtgs": "pho-cha-na",
+   "ipa": "/pʰoː˧.t͡ɕʰa˦˥.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปแบบอื่นของ โภชนะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โภช",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ของควรบริโภค + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "นานาเนก",
+   "rtgs": "na-na-nek",
+   "ipa": "/naː˧.naː˧.neːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ต่าง ๆ กันมากมาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นา",
+    "นาเนก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives นานา + อเนก. The first element is Pali นานา 'various', not นา.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + รูปตัดทอนของ นานาเนก",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "เทศนา",
+   "rtgs": "thet-sa-na",
+   "ipa": "/tʰeːt̚˥˩.sa˨˩.naː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การแสดงธรรมสั่งสอนในทางศาสนา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เทศ",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ต่างประเทศ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "นาที",
+   "rtgs": "na-thi",
+   "ipa": "/naː˧.tʰiː˧/",
+   "gloss": {
+    "en": [
+     "minute"
+    ],
+    "th": "ชื่อหน่วยเวลา เท่ากับ 1 ใน 60 ของชั่วโมง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นา",
+    "ที"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ที"
+   ],
+   "lit": "farm + time",
+   "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ครั้ง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "มีนา",
+   "rtgs": "mi-na",
+   "ipa": "/miː˧.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปตัดทอนของ มีนาคม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มี",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: its own gloss says รูปตัดทอนของ มีนาคม — a clipping of the month มีนาคม, which is มีน + อาคม. The -นา is the middle of อาคม. Same failure as สิงหา on the head หา.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "cross_listed": [
+    "มี"
+   ],
+   "lit": "have + farm",
+   "lit_th": "รวย + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "วรรณนา",
+   "rtgs": "wan-na-na",
+   "ipa": "/wan˧.na˦˥.naː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กล่าวเป็นเรื่องเป็นราวอย่างละเอียดให้ผู้ฟังนึกเห็นเป็นภาพ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วรรณ",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.01 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สี + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "พรรณนา",
+   "rtgs": "phan-na-na",
+   "ipa": "/pʰan˧.na˦˥.naː˧/",
+   "gloss": {
+    "en": [
+     "depict",
+     "describe"
+    ],
+    "th": "กล่าวเป็นเรื่องเป็นราวอย่างละเอียดให้ผู้ฟังนึกเห็นเป็นภาพ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "พรรณ",
+    "นา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.01 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำพ้องความของ ชนิด + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *naːᴬ; ร่วมเชื้อสายกับคำเมือง ᨶᩣ (นา), ลาว ນາ (นา), ไทลื้อ ᦓᦱ (นา), ไทดำ ꪙꪱ (นา), ไทขาว ꪙꪱ, ตั่ย nà, ไทใหญ่ ၼႃး (น๊า), ไทใต้คง ᥘᥣᥰ (ล๊า) หรือ ᥢᥣᥰ (น๊า), อ่ายตน ꩫ︀ႃ (นา), พ่าเก ꩫ︀ႃ (นา), อาหม 𑜃𑜠 (นะ) หรือ 𑜃𑜡 (นา), จ้วง naz, ปู้อี naz; เทียบเบดั้งเดิม *niaᴬ², ไหลดั้งเดิม *hnaːɦ (“นา; คันนา”) เกี่ยวข้องกับคำว่า นะ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨶᩣ",
+  "th": "นา",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:na",
+   "label": "หน้า",
+   "why": "spelling",
+   "distinction": "Both romanise as \"na\". นา is naa, หน้า is nâa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:na-3",
+   "label": "นะ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"na\". นา is naa, นะ is ná — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "farm",
+  "paddy field"
+ ]
+}

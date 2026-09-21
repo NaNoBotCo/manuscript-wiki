@@ -1,0 +1,858 @@
+{
+ "id": "w:nom",
+ "th": "นม",
+ "status": "mapped",
+ "rtgs": "nom",
+ "paiboon": "nom",
+ "ipa": "/nom˧/",
+ "syllable_respelling": "นะ-มะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ส่วนของร่างกาย อยู่บริเวณหน้าอก มี 2 เต้า, ของผู้หญิงมีต่อมสำหรับผลิตน้ำนมเป็นอาหารสำหรับลูกอ่อน ส่วนของผู้ชายมีขนาดเล็กและไม่มีน้ำนม, นมของสัตว์บางชนิด เช่น ลิง ค่าง ก็มี 2 เต้า เช่นเดียวกับคน ส่วนของสัตว์บางชนิด เช่น สุนัข วัว ควาย มีหลายเต้าเรียงอยู่ที่ท้องเป็น 2 แถว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: นม 'breast'.",
+    "Declared root: นม 'breast'.",
+    "Declared root: นม 'breast'.",
+    "Declared root: นม 'breast'.",
+    "Declared root: นม 'breast'."
+   ],
+   "compounds": [
+    {
+     "th": "น้ำนม",
+     "rtgs": "nam-nom",
+     "ipa": "/nam˦˥.nom˧/",
+     "gloss": {
+      "en": [
+       "milk"
+      ],
+      "th": "ของเหลวสีขาวออกมาจากนมคนและสัตว์ สำหรับเลี้ยงลูก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "นม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + milk",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "แม่นม, ราชาศัพท์ว่า พระนม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แม่นม",
+     "rtgs": "mae-nom",
+     "ipa": "/mɛː˥˩.nom˧/",
+     "gloss": {
+      "en": [
+       "nurse"
+      ],
+      "th": "หญิงที่ให้เด็กอื่นกินนมของตนแทนแม่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "นม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + milk",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + แม่นม",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The breast stands for the woman who gives it: the wet nurse.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "น้ำนม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "And for what it gives: milk.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ชื่อสิ่งที่เป็นเต้าเป็นปุ่มคล้ายนม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นมแมว",
+     "rtgs": "nom-maeo",
+     "ipa": "/nom˧.mɛːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้พุ่มรอเลื้อยชนิด Rauwenhoffia siamensis Scheff. ในวงศ์ Annonaceae ดอกสีนํ้าตาลอ่อนเกือบนวล ออกเดี่ยว ๆ ตามง่ามใบ บานเวลาเย็น กลิ่นหอม ผลสุกกินได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นม",
+      "แมว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "milk + cat",
+     "lit_th": "ชื่อสิ่งที่เป็นเต้าเป็นปุ่มคล้ายนม + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis",
+     "frame": "entity"
+    },
+    {
+     "th": "นมสวรรค์",
+     "rtgs": "nom-sa-wan",
+     "ipa": "/nom˧.sa˨˩.wan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้ล้มลุกหรือไม้พุ่มขนาดกลางชนิด Clerodendrum paniculatum. ในวงศ์ Verbenaceae ผิวใบเรียบเป็นมัน ใบโตกลมคล้ายนางแย้ม ดอกช่อ เป็นช่อสีแดงหรือสีเหลือง เป็นชั้นคล้ายฉัตร แทงออกจากเหง้า สีเขียวรูปทรงกระบอก พบขึ้นในที่มีน้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นม",
+      "สวรรค์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "milk + heaven",
+     "lit_th": "ชื่อสิ่งที่เป็นเต้าเป็นปุ่มคล้ายนม + โลกของเทวดา",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Anything shaped like a breast or a knob.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เรียกสิ่งที่มีลักษณะเป็นปุยขาวห่อหุ้มต้นผักกระเฉดว่า นมผักกระเฉด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "นมผัก, the white float on water mimosa.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เรียกสิ่งที่มีลักษณะเป็นปุยขาวห้อยติดอยู่ตามข้อพังพวยว่า นมพังพวย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "And the like growth on พังพวย.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "การนอบน้อม, การเคารพ, การไหว้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: นม < Pali namo 'homage' (นมัสการ) — unrelated.",
+    "Declared root: นม < Pali namo 'homage' (นมัสการ) — unrelated.",
+    "Declared root: นม < Pali namo 'homage' (นมัสการ) — unrelated.",
+    "Declared root: นม < Pali namo 'homage' (นมัสการ) — unrelated.",
+    "Declared root: นม < Pali namo 'homage' (นมัสการ) — unrelated."
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "อักษรย่อของ นครราชสีมา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นมร.",
+     "rtgs": "no-mo-ro",
+     "ipa": "/nɔː˧.mɔː˧.rɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อักษรย่อของ มหาวิทยาลัยนวมินทราธิราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นม",
+      "ร."
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: gloss similarity 0.30, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อักษรย่อของ นครราชสีมา + อักษรย่อของ รัชกาลที่…",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of นครราชสีมา — not a sense.",
+    "Declared root: an abbreviation of นครราชสีมา — not a sense.",
+    "Declared root: an abbreviation of นครราชสีมา — not a sense.",
+    "Declared root: an abbreviation of นครราชสีมา — not a sense.",
+    "Declared root: an abbreviation of นครราชสีมา — not a sense."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 87 manuscript titles, 519 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits ['ร่างกาย', 'ท้อง', 'ขน', 'ขา'].",
+ "compounds_unassigned": [
+  {
+   "th": "นมข้น",
+   "rtgs": "nom-khon",
+   "ipa": "/nom˧.kʰon˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นมที่มีลักษณะข้นและอาจปรุงให้มีรสหวานจัด ได้จากการทำให้น้ำบางส่วนในน้ำนมวัวระเหยไปแล้วเติมน้ำตาล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นม",
+    "ข้น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ส่วนของร่างกาย อยู่บริเวณหน้าอก มี + ลักษณะของเหลวที่มีการรวมตัวกันแน่น",
+   "frame": "quality"
+  },
+  {
+   "th": "นมส้ม",
+   "rtgs": "nom-som",
+   "ipa": "/nom˧.som˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นมเปรี้ยว จัดเป็นโครสอย่างหนึ่งในจำนวน 5 อย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นม",
+    "ส้ม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "milk + orange",
+   "lit_th": "ส่วนของร่างกาย อยู่บริเวณหน้าอก มี + ชื่อไม้พุ่มหรือไม้ต้นขนาดเล็กหลายช",
+   "frame": "entity"
+  },
+  {
+   "th": "หางนม",
+   "rtgs": "hang-nom",
+   "ipa": "/haːŋ˩˩˦.nom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "น้ำนมที่เอาครีมส่วนใหญ่ออกแล้ว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หาง",
+    "นม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "tail + milk",
+   "lit_th": "ส่วนที่ยื่นออกจากส่วนท้ายแห่งลำตัว + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+   "frame": "entity"
+  },
+  {
+   "th": "แหนม",
+   "rtgs": "naem",
+   "ipa": "/nɛːm˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาหารอย่างหนึ่ง ทำด้วยหมู หมักให้เปรี้ยว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แห",
+    "นม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แห"
+   ],
+   "lit": "net + milk",
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "การหย่านม",
+   "rtgs": "kan-ya-nom",
+   "ipa": "/kaːn˧.jaː˨˩.nom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หย่านม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหย่า",
+    "นม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "divorce + milk",
+   "lit_th": "คำอาการนามของ หย่า + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+   "frame": "entity"
+  },
+  {
+   "th": "นานนม",
+   "rtgs": "nan-nom",
+   "ipa": "/naːn˧.nom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นานมาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาน",
+    "นม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit": "great + milk",
+   "lit_th": "ยาว + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+   "flips_with": "นมนาน"
+  },
+  {
+   "th": "นมนาง",
+   "rtgs": "nom-nang",
+   "ipa": "/nom˧.naːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ วิสรรชนีย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นม",
+    "นาง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นาง"
+   ],
+   "lit": "milk + Mrs",
+   "lit_th": "ส่วนของร่างกาย อยู่บริเวณหน้าอก มี + ผู้หญิง",
+   "frame": "entity"
+  },
+  {
+   "th": "หย่านม",
+   "rtgs": "ya-nom",
+   "ipa": "/jaː˨˩.nom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เลิกกินนมแม่ (ใช้แก่เด็กและลูกสัตว์)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หย่า",
+    "นม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "divorce + milk",
+   "lit_th": "เลิกเป็นผัวเมียกัน + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี"
+  },
+  {
+   "th": "หัวนม",
+   "rtgs": "hua-nom",
+   "ipa": "/hua̯˩˩˦.nom˧/",
+   "gloss": {
+    "en": [
+     "nipple"
+    ],
+    "th": "อวัยวะส่วนที่อยู่ตอนยอดของนมมนุษย์หรือสัตว์",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หัว",
+    "นม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "head + milk",
+   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+   "frame": "entity"
+  },
+  {
+   "th": "นมนาน",
+   "rtgs": "nom-nan",
+   "ipa": "/nom˧.naːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นานมาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นม",
+    "นาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit": "milk + great",
+   "lit_th": "ส่วนของร่างกาย อยู่บริเวณหน้าอก มี + ยาว",
+   "flips_with": "นานนม"
+  },
+  {
+   "th": "นมผง",
+   "rtgs": "nom-phong",
+   "ipa": "/nom˧.pʰoŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผงที่ได้จากการนำน้ำนมไปผ่านกรรมวิธีที่ทำให้ส่วนที่เป็นน้ำระเหยออกไปหมด อาจจะเติมสารเคมีที่มีประโยชน์ต่อร่างกายลงไปด้วยก็ได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นม",
+    "ผง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "milk + powder",
+   "lit_th": "ส่วนของร่างกาย อยู่บริเวณหน้าอก มี + สิ่งละเอียด",
+   "frame": "entity"
+  },
+  {
+   "th": "ค่าน้ำนม",
+   "rtgs": "kha-nam-nom",
+   "ipa": "/kʰaː˥˩.nam˦˥.nom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เงินค่าอุปการะเลี้ยงดูที่พ่อแม่หรือผู้ปกครองฝ่ายหญิงได้รับจากฝ่ายชาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค่าน้ำ",
+    "นม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ค่า"
+   ],
+   "lit_th": "เงินที่ไก๊ด์ได้รับจากร้านซึ่งพานัก + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+   "frame": "entity"
+  },
+  {
+   "th": "นมถั่วเหลือง",
+   "rtgs": "nom-thua-lueang",
+   "ipa": "/nom˧.tʰua̯˨˩.lɯa̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "น้ำที่ได้จากการคั้นถั่วเหลือง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นม",
+    "ถั่วเหลือง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ส่วนของร่างกาย อยู่บริเวณหน้าอก มี + ชื่อถั่วชนิด Glycine max",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับคำเมือง ᨶᩫ᩠ᨾ (น็ม), ลาว ນົມ (น็ม), ไทลื้อ ᦓᦳᧄ (นุม), ไทใหญ่ ၼူမ်း (นู๊ม), ไทดำ ꪶꪙꪣ (โนม), อาหม 𑜃𑜤𑜪 (นุํ), จ้วง noemz ยืมมาจากบาลี นม (“นอบน้อม”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨶᩫ᩠ᨾ",
+  "th": "น็ม",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "milk"
+ ]
+}

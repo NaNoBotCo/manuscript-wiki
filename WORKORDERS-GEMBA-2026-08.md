@@ -109,9 +109,37 @@ Two things found on the way, both worth acting on:
   Thai name — `/browse` filters on `provenance_temple` ("Wat Sung Men"), so
   linking with "สูงเม่น" would have landed every reader on an empty shelf.
 
-**Still open on this order:** the vault-frontmatter enrichment (step 3) and the
+~~**Still open on this order:** the vault-frontmatter enrichment (step 3) and the
 graph's `same_as` adjudicated edges (step 5) are not done. The bridge file they
-both need is now on disk.
+both need is now on disk.~~
+
+**Steps 3 and 5 landed 2026-08-19.**
+- Step 3 could not go through `migrate.py` as written: migrate regenerates a
+  note wholesale and refuses any note a person has touched, and **all 58 bridged
+  notes are touched** (they carry the 08-09 province fix). So the vault gained
+  `scripts/enrich_registry.py` — a line-level MERGE that owns exactly four
+  fields (`wat_code wat_sect wat_rank wat_founded_ce`), one
+  `{type: onab_register, edition: B.E. 2567, match: …}` item in `sources[]`, and
+  four provenance entries (`confidence: crawled`), and leaves every other byte
+  alone. Idempotent (second run: 0 changes); `validate.py --strict` green.
+  `migrate.py` emits the same fields for a FRESH bridged note; both read
+  `vaultlib.registry_*` so they cannot drift. `compile.py` passes them through as
+  `watCode watSect watRank watFoundedCe` (58 records in wats.geojson / api/wats.json).
+- Found on the way and fixed at the writer: `yaml_scalar` did not quote
+  numeric-looking STRINGS, so `phone: 0815955951` compiled to the integer
+  `815955951` — and every `wat_code` begins with 0. Numeric strings are quoted now;
+  the one affected note (watdoitepnimit) was patched.
+- Also found, left alone: `migrate.py`'s "human-touched" test is `"field" in
+  text`, and its own template comment contains the word *field* — so it skips
+  **all 1,494** notes, not only edited ones. New places still get notes; existing
+  notes never refresh from the crawl. Mostly benign under vault-wins, but the
+  test should look for `source: field` (and non-empty AUTHORED fields) instead.
+- Step 5: `cartography.bridge_layer()` — `temple:<catalogue string>` ⟷
+  `place:<vault id>` as `same_as`, `prov: adjudicated`, `ev` = the register code
+  and the bridge rule. **67 edges** (131 catalogue temple strings over the 58
+  places); temple and place nodes gain `wat_code`. `adjudicated` went 0 → 67.
+  `threads_for(temple:Wat Sung Men)` now returns `/place/wat-sung-men/` with the
+  receipt.
 
 ---
 
@@ -249,6 +277,8 @@ means no widening rather than a failed search). But `forever.sh` runs
 `deploy.sh wichaa`, **not** `deploy.sh router`, so the client-side half ships
 automatically and the semantic half waits for `bash deploy.sh router`. Until
 then the two paths disagree, which is the state this order set out to end.
+*(Verified deployed by 2026-08-19: `GET wichaa.net/api/search?q=love%20charm`
+answers `understood.notes: ["widened"]`. Both halves now agree.)*
 
 **Not done:** the counted function/genre chips on the empty `/search` state.
 
@@ -346,6 +376,9 @@ deletion is manual.
 3. **Pipeline wiring.** `publish_site.sh`: run `scripts/check_articles.py`
    between build and `verify_build.py`; its exit-1 (provably-missing link
    targets) halts publish. Its warnings print; they don't halt.
+   **Landed 2026-08-19** as gate 2d (after the completeness gate, before the
+   commit; exit 4). It follows the `/tmp` catalogue snapshot through
+   `wiki.connect()`, so it sees what the build saw.
 4. **Route hygiene note** (no action this order): the eleven build-path-less
    routes (`/hun`, `/jovilabe`, …) stay on the `UNMANAGED` preserve list; any
    future order touching them starts by reading `build_hun.py`'s docstring and

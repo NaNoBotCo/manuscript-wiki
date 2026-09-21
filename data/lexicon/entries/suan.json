@@ -1,0 +1,1255 @@
+{
+ "id": "w:suan",
+ "th": "สวน",
+ "status": "mapped",
+ "rtgs": "suan",
+ "paiboon": "sǔuan",
+ "ipa": "/sua̯n˩˩˦/",
+ "syllable_respelling": "สะ-วะ-นะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: สวน 'garden'.",
+    "Declared root: สวน 'garden'.",
+    "Declared root: สวน 'garden'.",
+    "Declared root: สวน 'garden'.",
+    "Declared root: สวน 'garden'.",
+    "Declared root: สวน 'garden'.",
+    "Declared root: สวน 'garden'.",
+    "Declared root: สวน 'garden'.",
+    "Declared root: สวน 'garden'.",
+    "Declared root: สวน 'garden'."
+   ],
+   "compounds": [
+    {
+     "th": "สวนครัว",
+     "rtgs": "suan-khrua",
+     "ipa": "/sua̯n˩˩˦.kʰrua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริเวณที่ปลูกพืชผักที่ใช้เป็นอาหารในครัวเรือน เช่น พริก มะเขือ ข่า ตะไคร้ โหระพา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "ครัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.24, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "garden + kitchen",
+     "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + โรง เรือน หรือห้องสำหรับทำกับข้าวข",
+     "frame": "entity"
+    },
+    {
+     "th": "สวนสาธารณะ",
+     "rtgs": "suan-sa-tha-ra-na",
+     "ipa": "/sua̯n˩˩˦.saː˩˩˦.tʰaː˧.ra˦˥.naʔ˦˥/",
+     "gloss": {
+      "en": [
+       "park"
+      ],
+      "th": "สวนที่จัดไว้เพื่อประโยชน์สาธารณะ สำหรับพักผ่อนหย่อนใจ ออกกำลังกาย หรือจัดกิจกรรมกลางแจ้ง เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "สาธารณะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "garden + public",
+     "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + เพื่อประชาชนทั่วไป",
+     "frame": "quality"
+    },
+    {
+     "th": "สวนหย่อม",
+     "rtgs": "suan-yom",
+     "ipa": "/sua̯n˩˩˦.jɔm˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สวนไม้ประดับขนาดเล็ก จัดในเนื้อที่จำกัด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "หย่อม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก + หมู่เล็ก ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "นาสวน",
+     "rtgs": "na-suan",
+     "ipa": "/naː˧.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นาข้าวที่ปลูกในพื้นที่ซึ่งมีระดับน้ำลึกตั้งแต่ 1 เมตรลงมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + garden",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "สถานที่ซึ่งมีลักษณะเช่นนั้นในบางกรณี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สวนสัตว์",
+     "rtgs": "suan-sat",
+     "ipa": "/sua̯n˩˩˦.sat̚˨˩/",
+     "gloss": {
+      "en": [
+       "zoo"
+      ],
+      "th": "สถานที่ขนาดใหญ่สำหรับเลี้ยงสัตว์ให้อยู่ใกล้เคียงธรรมชาติมากที่สุด เพื่อประโยชน์ในการศึกษาและพักผ่อนหย่อนใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "สัตว์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "garden + animal",
+     "lit_th": "สถานที่ซึ่งมีลักษณะเช่นนั้นในบางกร + สิ่งมีชีวิตซึ่งแตกต่างไปจากพรรณไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "สวนสนุก",
+     "rtgs": "suan-sa-nuk",
+     "ipa": "/sua̯n˩˩˦.sa˨˩.nuk̚˨˩/",
+     "gloss": {
+      "en": [
+       "amusement park"
+      ],
+      "th": "สถานที่ที่รวบรวมบรรดาสิ่งที่ทำให้เกิดความสนุกสนานเพลิดเพลินไว้บริการประชาชน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "สนุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "garden + enjoy",
+     "lit_th": "สถานที่ซึ่งมีลักษณะเช่นนั้นในบางกร + ทำให้รู้สึกเพลิดเพลิน"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Any place with that planted character.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "อาการที่เคลื่อนไปตรงข้ามในเส้นทางเดียวกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สวน 'to move against, to go the opposite way'.",
+    "Declared root: สวน 'to move against, to go the opposite way'.",
+    "Declared root: สวน 'to move against, to go the opposite way'.",
+    "Declared root: สวน 'to move against, to go the opposite way'.",
+    "Declared root: สวน 'to move against, to go the opposite way'.",
+    "Declared root: สวน 'to move against, to go the opposite way'.",
+    "Declared root: สวน 'to move against, to go the opposite way'.",
+    "Declared root: สวน 'to move against, to go the opposite way'.",
+    "Declared root: สวน 'to move against, to go the opposite way'.",
+    "Declared root: สวน 'to move against, to go the opposite way'."
+   ],
+   "compounds": [
+    {
+     "th": "สวนสนาม",
+     "rtgs": "suan-sa-nam",
+     "ipa": "/sua̯n˩˩˦.sa˨˩.naːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พิธีชุมนุมพลกองทหารที่ลานกว้างเพื่อแสดงความสง่าผ่าเผย ความพร้อมเพรียง และอานุภาพของเครื่องอาวุธยุทโธปกรณ์ ให้เป็นเกียรติแก่ผู้เป็นประธานในพิธีซึ่งจะได้ตรวจดูแถวทหารที่ตั้งอยู่ คือ ตรวจพลและดูการเดินแถวของทหารเหล่านั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "สนาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "garden + field",
+     "lit_th": "อาการที่เคลื่อนไปตรงข้ามในเส้นทางเ + ลาน",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เทียบสอบขนาดหรือปริมาณเครื่องตวง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สวน 'to gauge a measure'.",
+    "Declared root: สวน 'to gauge a measure'.",
+    "Declared root: สวน 'to gauge a measure'.",
+    "Declared root: สวน 'to gauge a measure'.",
+    "Declared root: สวน 'to gauge a measure'.",
+    "Declared root: สวน 'to gauge a measure'.",
+    "Declared root: สวน 'to gauge a measure'.",
+    "Declared root: สวน 'to gauge a measure'.",
+    "Declared root: สวน 'to gauge a measure'.",
+    "Declared root: สวน 'to gauge a measure'."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เอาสายสวนใส่ทางช่องปัสสาวะให้เข้าไปในกระเพาะปัสสาวะเพื่อให้ปัสสาวะออก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สวน 'to pass a tube in' — the medical word.",
+    "Declared root: สวน 'to pass a tube in' — the medical word.",
+    "Declared root: สวน 'to pass a tube in' — the medical word.",
+    "Declared root: สวน 'to pass a tube in' — the medical word.",
+    "Declared root: สวน 'to pass a tube in' — the medical word.",
+    "Declared root: สวน 'to pass a tube in' — the medical word.",
+    "Declared root: สวน 'to pass a tube in' — the medical word.",
+    "Declared root: สวน 'to pass a tube in' — the medical word.",
+    "Declared root: สวน 'to pass a tube in' — the medical word.",
+    "Declared root: สวน 'to pass a tube in' — the medical word."
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เอาลูกสวนใส่ทวารหนักแล้วบีบน้ำยาหรือน้ำสบู่ให้เข้าไปในลำไส้ใหญ่เพื่อกระตุ้นให้ลำไส้ใหญ่บีบตัวให้อุจจาระออก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "The same passing-in, at the other end: the enema.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เย็บแบบด้วยดอกไม้หรือใบไม้ให้เป็นแถบยาว เพื่อใช้ตกแต่งประดับโครงประทุนคลุมผ้าไตรเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สวนญี่ปุ่น",
+     "rtgs": "suan-yi-pun",
+     "ipa": "/sua̯n˩˩˦.jiː˥˩.pun˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สวนที่จัดตามแบบญี่ปุ่น มีสิ่งประดับที่สำคัญคือไม้ดอก ไม้ใบ สะพาน โคม เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "ญี่ปุ่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.21, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit": "garden + Japanese"
+    }
+   ],
+   "needs_check": [
+    "Declared root: สวน 'to sew flowers into a strip'.",
+    "Declared root: สวน 'to sew flowers into a strip'.",
+    "Declared root: สวน 'to sew flowers into a strip'.",
+    "Declared root: สวน 'to sew flowers into a strip'.",
+    "Declared root: สวน 'to sew flowers into a strip'.",
+    "Declared root: สวน 'to sew flowers into a strip'.",
+    "Declared root: สวน 'to sew flowers into a strip'.",
+    "Declared root: สวน 'to sew flowers into a strip'.",
+    "Declared root: สวน 'to sew flowers into a strip'.",
+    "Declared root: สวน 'to sew flowers into a strip'."
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ถาม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สวน 'to ask'.",
+    "Declared root: สวน 'to ask'.",
+    "Declared root: สวน 'to ask'.",
+    "Declared root: สวน 'to ask'.",
+    "Declared root: สวน 'to ask'.",
+    "Declared root: สวน 'to ask'.",
+    "Declared root: สวน 'to ask'.",
+    "Declared root: สวน 'to ask'.",
+    "Declared root: สวน 'to ask'.",
+    "Declared root: สวน 'to ask'."
+   ],
+   "compounds": [
+    {
+     "th": "สืบสวน",
+     "rtgs": "suep-suan",
+     "ipa": "/sɯːp̚˨˩.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "investigate"
+      ],
+      "th": "แสวงหาข้อเท็จจริงและหลักฐานซึ่งพนักงานฝ่ายปกครองหรือตำรวจได้ปฏิบัติไปตามอำนาจและหน้าที่ เพื่อรักษาความสงบเรียบร้อยของประชาชน และเพื่อที่จะทราบรายละเอียดแห่งความผิด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สืบ",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ต่อเนื่องเป็นลำดับ + ถาม"
+    },
+    {
+     "th": "ไต่สวน",
+     "rtgs": "tai-suan",
+     "ipa": "/taj˨˩.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "examine"
+      ],
+      "th": "สอบสวนข้อเท็จจริงเพื่อวินิจฉัยว่าถูกต้องหรือไม่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไต่",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "climb + garden",
+     "lit_th": "อาการที่เคลื่อนไปหรือคืบคลานไปของส + ถาม"
+    },
+    {
+     "th": "สอบสวน",
+     "rtgs": "sop-suan",
+     "ipa": "/sɔːp̚˨˩.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "investigate"
+      ],
+      "th": "รวบรวมพยานหลักฐานและดำเนินการอย่างอื่นซึ่งพนักงานสอบสวนได้ทำไปเกี่ยวกับความผิดที่กล่าวหา เพื่อที่จะทราบข้อเท็จจริงหรือพิสูจน์ความผิด และเพื่อจะเอาตัวผู้กระทำผิดมาฟ้องลงโทษ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สอบ",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ตรวจ ทดลอง เปรียบเทียบ หรือไล่เลีย + ถาม"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "การฟัง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
+    "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
+    "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
+    "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
+    "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
+    "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
+    "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
+    "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
+    "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here.",
+    "Declared root: สวน 'hearing' — probably Pali savana; its relation to sense 8 is not established here."
+   ],
+   "compounds": [
+    {
+     "th": "สวนศาสตร์",
+     "rtgs": "sa-wa-na-sat",
+     "ipa": "/sa˨˩.wa˦˥.na˦˥.saːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "acoustics"
+      ],
+      "th": "วิชาว่าด้วยเสียง, ฟิสิกส์แขนงหนึ่งที่ศึกษาเกี่ยวกับคุณสมบัติของเสียง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "ศาสตร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "garden + discipline",
+     "lit_th": "การฟัง + ระบบวิชาความรู้",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "suan as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 9 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 9 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 9 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "20 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "สวนพริกไทย",
+     "rtgs": "suan-phrik-thai",
+     "ipa": "/sua̯n˩˩˦.pʰrik̚˦˥.tʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองปทุมธานี จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "พริกไทย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "suan as an element in place names + black pepper",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้เลื้อยชนิด Piper nigrum L.",
+     "frame": "entity"
+    },
+    {
+     "th": "หลังสวน",
+     "rtgs": "lang-suan",
+     "ipa": "/laŋ˩˩˦.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดชุมพร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัง",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หลัง"
+     ],
+     "lit": "back + suan as an element in place names",
+     "lit_th": "ซีกของกายที่ตรงข้ามกับหน้าอก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "บ้านสวน",
+     "rtgs": "ban-suan",
+     "ipa": "/baːn˥˩.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองชลบุรี จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + suan as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "สวนจิตรลดา",
+     "rtgs": "suan-chit-la-da",
+     "ipa": "/sua̯n˩˩˦.t͡ɕit̚˨˩.la˦˥.daː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตดุสิต กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "จิตรลดา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อกาพย์ชนิดหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "บางสวน",
+     "rtgs": "bang-suan",
+     "ipa": "/baːŋ˧.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางคล้า จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "สวน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + suan as an element in place names",
+     "lit_th": "ทางน้ำเล็ก ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "สวนผึ้ง",
+     "rtgs": "suan-phueng",
+     "ipa": "/sua̯n˩˩˦.pʰɯŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดราชบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "ผึ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "suan as an element in place names + bee",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อแมลงหลายชนิดในวงศ์ Apidae มีปี",
+     "frame": "entity"
+    },
+    {
+     "th": "สวนหม่อน",
+     "rtgs": "suan-mon",
+     "ipa": "/sua̯n˩˩˦.mɔn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอมัญจาคีรี จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "หม่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Morus alba L. ในวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "สวนหลวง",
+     "rtgs": "suan-luang",
+     "ipa": "/sua̯n˩˩˦.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "หลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "suan as an element in place names + royal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
+    },
+    {
+     "th": "สวนเมี่ยง",
+     "rtgs": "suan-miang",
+     "ipa": "/sua̯n˩˩˦.mia̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชาติตระการ จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวน",
+      "เมี่ยง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อต้นไม้ขนาดเล็กชนิด Camellia si",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 5 manuscript titles, 48 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 26; domain seeded by keyword hits ['สวน', 'ต้นไม้', 'ดอก', 'ใบ'].",
+ "compounds_unassigned": [
+  {
+   "th": "การสอบสวน",
+   "rtgs": "kan-sop-suan",
+   "ipa": "/kaːn˧.sɔːp̚˨˩.sua̯n˩˩˦/",
+   "gloss": {
+    "en": [
+     "investigation"
+    ],
+    "th": "คำอาการนามของ สอบสวน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การสอบ",
+    "สวน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "examination + garden",
+   "lit_th": "คำอาการนามของ สอบ + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+   "frame": "entity"
+  },
+  {
+   "th": "การสืบสวน",
+   "rtgs": "kan-suep-suan",
+   "ipa": "/kaːn˧.sɯːp̚˨˩.sua̯n˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สืบสวน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสืบ",
+    "สวน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สืบ + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+   "frame": "entity"
+  },
+  {
+   "th": "กระสวน",
+   "rtgs": "kra-suan",
+   "ipa": "/kra˨˩.sua̯n˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แบบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "สวน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: glossed แบบ, a pattern. The dictionary gives อาจร่วมเชื้อสายกับลาว ກະສວນ (กะสวน, “ส่วน”) — it belongs with ส่วน, not สวน. Hedged as อาจ, so probable.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "การไต่สวน",
+   "rtgs": "kan-tai-suan",
+   "ipa": "/kaːn˧.taj˨˩.sua̯n˩˩˦/",
+   "gloss": {
+    "en": [
+     "enquiry",
+     "inquiry"
+    ],
+    "th": "คำอาการนามของ ไต่สวน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การไต่",
+    "สวน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ไต่ + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+   "frame": "entity"
+  },
+  {
+   "th": "การสวน",
+   "rtgs": "kan-suan",
+   "ipa": "/kaːn˧.sua̯n˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สวน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "สวน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *swɯːnᴬ; เทียบจีนยุคกลาง 園 (MC hjwon); ร่วมเชื้อสายกับคำเมือง ᩈ᩠ᩅᩁ (สวร), ลาว ສວນ (สวน), ไทลื้อ ᦷᦉᧃ (โสน), ไทดำ ꪎꪺꪙ (สัวน), ไทขาว ꪎꪺꪙ, ไทใหญ่ သူၼ် (สูน), อาหม 𑜏𑜤𑜃𑜫 (สุน์), จ้วง suen ร่วมเชื้อสายกับลาว ສວນ (สวน), คำเมือง ᩈ᩠ᩅᩁ (สวร) ยืมมาจากเขมรเก่า *ស្វរ៑ (*สฺวรฺ, “ถาม”), สามารถแผลงเป็น សំន្វរ៑ (สํนฺวรฺ) ซึ่งเป็นรากของ สำนวน; ร่วมเชื้อสายกับเขมร សួរ (สัวร) ยืมมาจากบาลี สวน; เทียบสันสกฤต श्रवण (ศฺรวณ)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩈ᩠ᩅᩁ",
+  "th": "สวร",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:suan-2",
+   "label": "ส่วน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"suan\". สวน is sǔuan, ส่วน is sùuan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "garden"
+ ]
+}

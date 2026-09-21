@@ -1,0 +1,1153 @@
+{
+ "id": "w:a",
+ "th": "อา",
+ "status": "mapped",
+ "rtgs": "a",
+ "paiboon": "aa",
+ "ipa": "/ʔaː˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "father's younger sibling",
+     "uncle",
+     "aunt"
+    ],
+    "th": "น้องชายหรือน้องสาวของพ่อ, โบราณเขียนเป็น อาว์ ก็มี",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, คำอนุภาค, interjection",
+   "pos_th": "คำนาม, คำอนุภาค, คำอุทาน",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: อา, the father's younger sibling.",
+    "Declared root: อา, the father's younger sibling.",
+    "Declared root: อา, the father's younger sibling.",
+    "Declared root: อา, the father's younger sibling.",
+    "Declared root: อา, the father's younger sibling.",
+    "Declared root: อา, the father's younger sibling.",
+    "Declared root: อา, the father's younger sibling.",
+    "Declared root: อา, the father's younger sibling."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "เรียกผู้ที่มีวัยอ่อนกว่าพ่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำอนุภาค, interjection",
+   "pos_th": "คำนาม, คำอนุภาค, คำอุทาน",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Widened to anyone of an age below one's father.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "คำออกเสียงท้ายคำพูดในความรำพึงหรือวิตกเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำอนุภาค, interjection",
+   "pos_th": "คำนาม, คำอนุภาค, คำอุทาน",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: อา, the exclamation.",
+    "Declared root: อา, the exclamation.",
+    "Declared root: อา, the exclamation.",
+    "Declared root: อา, the exclamation.",
+    "Declared root: อา, the exclamation.",
+    "Declared root: อา, the exclamation.",
+    "Declared root: อา, the exclamation.",
+    "Declared root: อา, the exclamation."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "เสียงที่เปล่งออกมาในความรำพึงหรือวิตกเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำอนุภาค, interjection",
+   "pos_th": "คำนาม, คำอนุภาค, คำอุทาน",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "The exclamation names the sound of it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "วิธีแทงโปวิธีหนึ่ง โดยแทง อา เหม็ง ซั้ว กางปีก 3 ประตู โปออกประตูใดใน 3 ประตูนั้น เจ้ามือใช้ 1 ต่อ ถ้าออกประตูอื่น เจ้ามือกินหมดทั้ง 3 ประตู",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำอนุภาค, interjection",
+   "pos_th": "คำนาม, คำอนุภาค, คำอุทาน",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: อา, a stake in the game of โป.",
+    "Declared root: อา, a stake in the game of โป.",
+    "Declared root: อา, a stake in the game of โป.",
+    "Declared root: อา, a stake in the game of โป.",
+    "Declared root: อา, a stake in the game of โป.",
+    "Declared root: อา, a stake in the game of โป.",
+    "Declared root: อา, a stake in the game of โป.",
+    "Declared root: อา, a stake in the game of โป."
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "คำขึ้นต้นเครือญาติที่มาจากภาษาจีน ใช้นำหน้าชื่อคนได้ด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำอนุภาค, interjection",
+   "pos_th": "คำนาม, คำอนุภาค, คำอุทาน",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: อา, the Chinese kin prefix (อาม่า, อาโก).",
+    "Declared root: อา, the Chinese kin prefix (อาม่า, อาโก).",
+    "Declared root: อา, the Chinese kin prefix (อาม่า, อาโก).",
+    "Declared root: อา, the Chinese kin prefix (อาม่า, อาโก).",
+    "Declared root: อา, the Chinese kin prefix (อาม่า, อาโก).",
+    "Declared root: อา, the Chinese kin prefix (อาม่า, อาโก).",
+    "Declared root: อา, the Chinese kin prefix (อาม่า, อาโก).",
+    "Declared root: อา, the Chinese kin prefix (อาม่า, อาโก)."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 362 manuscript titles, 878 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 30; domain seeded by keyword hits ['เครือญาติ', 'ญาติ', 'น้อง', 'พ่อ'].",
+ "compounds_unassigned": [
+  {
+   "th": "อาทร",
+   "rtgs": "a-thon",
+   "ipa": "/ʔaː˧.tʰɔːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความเอื้อเฟื้อ, ความเอาใจใส่, ความห่วงใย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ทร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ชั่ว",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "อาทิศ",
+   "rtgs": "a-thit",
+   "ipa": "/ʔaː˧.tʰit̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปเลิกใช้ของ อาทิตย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ทิศ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ด้าน",
+   "frame": "entity"
+  },
+  {
+   "th": "อาลักษณ์",
+   "rtgs": "a-lak",
+   "ipa": "/ʔaː˧.lak̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ทำหน้าที่ทางหนังสือในราชสำนัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ลักษณ์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + สมบัติเฉพาะตัว",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "อายุ",
+   "rtgs": "a-yu",
+   "ipa": "/ʔaː˧.juʔ˦˥/",
+   "gloss": {
+    "en": [
+     "age"
+    ],
+    "th": "ช่วงเวลาที่นับจาก เวลาเกิด ถึง เวลาที่อ้างถึง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ยุ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + กล่าวชักชวน ส่งเสริม หนุน หรือเป็น",
+   "use": "false-split"
+  },
+  {
+   "th": "อาราม",
+   "rtgs": "a-ram",
+   "ipa": "/ʔaː˧.raːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ราม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + งาม",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "อากร",
+   "rtgs": "a-kon",
+   "ipa": "/ʔaː˧.kɔːn˧/",
+   "gloss": {
+    "en": [
+     "duty"
+    ],
+    "th": "หมู่, กอง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อา",
+    "กร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ผู้ทำ",
+   "frame": "entity"
+  },
+  {
+   "th": "อาสา",
+   "rtgs": "a-sa",
+   "ipa": "/ʔaː˧.saː˩˩˦/",
+   "gloss": {
+    "en": [
+     "offer"
+    ],
+    "th": "เสนอตัวเข้ารับทำ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อา",
+    "สา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + หมา",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "อาหาร",
+   "rtgs": "a-han",
+   "ipa": "/ʔaː˧.haːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "aid",
+     "food",
+     "board"
+    ],
+    "th": "ของกิน, เครื่องค้ำจุนชีวิต, เครื่องหล่อเลี้ยงชีวิต",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อา",
+    "หาร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "father's younger sibling + divide",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + แบ่งส่วนเท่า ๆ กัน",
+   "use": "false-split"
+  },
+  {
+   "th": "อานะ",
+   "rtgs": "a-na",
+   "ipa": "/ʔaː˧.naʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลูก, น้อง, (ใช้เป็นคำเรียกแสดงความรู้สึกรักและเอ็นดู)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "นะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "นะ"
+   ],
+   "lit": "father's younger sibling + the sentence particle na",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
+  },
+  {
+   "th": "อารี",
+   "rtgs": "a-ri",
+   "ipa": "/ʔaː˧.riː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เอื้อเฟื้อ, มีแก่ใจ, มีใจเผื่อแผ่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "รี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "รี"
+   ],
+   "lit": "father's younger sibling + oval",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality"
+  },
+  {
+   "th": "อาฆาต",
+   "rtgs": "a-khat",
+   "ipa": "/ʔaː˧.kʰaːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผูกใจเจ็บและอยากแก้แค้น, พยาบาท",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ฆาต"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + การฆ่า",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "อาหนี",
+   "translit_auto": "ahni",
+   "ipa": "/ʔāː.nǐ/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เหล้าชนิดหนึ่งผสมด้วยเมล็ดผลไม้ซึ่งมีกลิ่นหอมฉุน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "หนี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "father's younger sibling + shy",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ไปเสียให้พ้น"
+  },
+  {
+   "th": "อาเพศ",
+   "rtgs": "a-phet",
+   "ipa": "/ʔaː˧.pʰeːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เหตุที่เกิดขึ้นอย่างผิดปรกติวิสัย ถือว่าเป็นลางไม่ดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "เพศ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "father's younger sibling + sex",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + รูปที่แสดงให้รู้ว่าหญิงหรือชาย",
+   "frame": "entity"
+  },
+  {
+   "th": "อารย",
+   "rtgs": "a-ra-ya-",
+   "ipa": "/ʔaː˧.ra˦˥.ja˦˥./",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เจริญ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "รย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+PROP",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + อักษรย่อของ ระยอง",
+   "use": "false-split"
+  },
+  {
+   "th": "สระอา",
+   "rtgs": "sa-ra-a",
+   "ipa": "/sa˨˩.ra˨˩.ʔaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ลากข้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สระ",
+    "อา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "สระ"
+   ],
+   "lit": "vowel + father's younger sibling",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + น้องชายหรือน้องสาวของพ่อ",
+   "frame": "entity"
+  },
+  {
+   "th": "อาการ",
+   "rtgs": "a-kan",
+   "ipa": "/ʔaː˧.kaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความเป็นอยู่, ความเป็นไป, สภาพ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "การ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + งาน",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "อาชา",
+   "rtgs": "a-cha",
+   "ipa": "/ʔaː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ม้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ชา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ชา"
+   ],
+   "lit": "father's younger sibling + tea",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "entity"
+  },
+  {
+   "th": "อารยะ",
+   "rtgs": "a-ra-ya",
+   "ipa": "/ʔaː˧.ra˦˥.jaʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เจริญ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "รยะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + เร็ว",
+   "use": "false-split"
+  },
+  {
+   "th": "อาจริย",
+   "rtgs": "a-cha-ri-ya-",
+   "ipa": "/ʔaː˧.t͡ɕa˨˩.ri˦˥.ja˦˥./",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาจารย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "จริย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ความประพฤติ",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "อาเจียน",
+   "rtgs": "a-chian",
+   "ipa": "/ʔaː˧.t͡ɕia̯n˧/",
+   "gloss": {
+    "en": [
+     "cat",
+     "vomit",
+     "reject"
+    ],
+    "th": "สำรอกออกมาทางปาก, รากออกมา, อ้วกออกมา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อา",
+    "เจียน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ตัด ขริบ หรือเฉือนให้ไปตามแนวหรือใ"
+  },
+  {
+   "th": "อาจอง",
+   "rtgs": "at-ong",
+   "ipa": "/ʔaːt̚˨˩.ʔoŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "องอาจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "จอง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "อง"
+   ],
+   "lit": "father's younger sibling + book",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ผูกไว้"
+  },
+  {
+   "th": "อานันท์",
+   "translit_auto": "anant",
+   "ipa": "[ʔäː˧.nä̃n˧]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความเพลิดเพลิน, ความยินดี, ความปลื้มใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "นันท์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + รูปแบบอื่นของ นนท์",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "อาชีพ",
+   "rtgs": "a-chip",
+   "ipa": "/ʔaː˧.t͡ɕʰiːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "job",
+     "career",
+     "profession"
+    ],
+    "th": "การเลี้ยงชีพ, การทำมาหากิน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ชีพ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ชีพ"
+   ],
+   "lit": "father's younger sibling + life",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ชีวิต",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "อาผู้ชาย",
+   "rtgs": "a-phu-chai",
+   "ipa": "/ʔaː˧.pʰuː˥˩.t͡ɕʰaːj˧/",
+   "gloss": {
+    "en": [
+     "uncle"
+    ],
+    "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ผู้ชาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "father's younger sibling + male",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + มนุษย์เพศชาย",
+   "frame": "entity"
+  },
+  {
+   "th": "อาคม",
+   "rtgs": "a-khom",
+   "ipa": "/ʔaː˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เวทมนตร์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "คม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "คม"
+   ],
+   "lit": "father's younger sibling + sharp",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ไหว้",
+   "use": "false-split"
+  },
+  {
+   "th": "พระเจ้าอา",
+   "translit_auto": "phracheaa",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาชาย, น้องของพ่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พระเจ้า",
+    "อา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "God + father's younger sibling",
+   "lit_th": "พระพุทธเจ้า + น้องชายหรือน้องสาวของพ่อ",
+   "frame": "entity"
+  },
+  {
+   "th": "อาพาธ",
+   "rtgs": "a-phat",
+   "ipa": "/ʔaː˧.pʰaːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เจ็บไข้, ป่วย (ใช้กับภิกษุสามเณร)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "พาธ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ความเบียดเบียน",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "อาเซียน",
+   "rtgs": "a-sian",
+   "ipa": "/ʔaː˧.sia̯n˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำย่อของ สมาคมประชาชาติแห่งเอเชียตะวันออกเฉียงใต้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "เซียน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ผู้บำเพ็ญพรตจนมีอิทธิฤทธิ์",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "อายัด",
+   "rtgs": "a-yat",
+   "ipa": "/ʔaː˧.jat̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หน้าที่, อำนาจหน้าที่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ยัด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + บรรจุหรือใส่สิ่งใดสิ่งหนึ่งโดยอัดด"
+  },
+  {
+   "th": "อาสน",
+   "rtgs": "at-sa-na-",
+   "ipa": "/ʔaːt̚˨˩.sa˨˩.na˦˥./",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปแบบอื่นของ อาสนะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "สน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ชื่อไม้ต้นหลายชนิดหลายสกุลในหลายวง",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับอีสาน อา (“น้องสาวของพ่อ”) และ อาว (“น้องชายของพ่อ”), ลาว ອາ (อา), ไทใหญ่ ဢႃ (อา) เลียนเสียงธรรมชาติ ยืมมาจากฮกเกี้ยน 丫 (อา, “กิ่งไม้ที่แยกออกเหมือนตัว Y”) ยืมมาจากแต้จิ๋ว 阿 (a1)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

@@ -1,0 +1,5 @@
+{
+ "head": "bu-ri",
+ "rule": "บุรี is a town and sense 2 is where its place names go — it already holds fourteen อำเภอ names correctly. นนทบุรี joins them. The head's real problem is not this filing but the ten provinces sitting in sense 1, which is a mechanical failure and not a judgement: districts are glossed ชื่ออำเภอ… and the toponym filer catches them, while provinces are glossed (จังหวัด~) ชื่อจังหวัด… and the leading parenthetical defeats its anchor, so they fell through to gloss similarity. Those ten are already filed and outside what --apply can move.",
+ "senses": {"2": ["นนทบุรี"]}
+}

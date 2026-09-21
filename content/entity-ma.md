@@ -1,7 +1,7 @@
 ---
 title: Ma (horse) — and the zebra that followed it
 status: published
-see_also: entity:phrommachat, entity:khun_phaen, entity:kai, entity:naga, entity:su_khwan, entity:yantra, entity:katha, genre:magic_ritual, genre:jataka, genre:tamnan_chronicle
+see_also: entity:phrommachat, entity:khun_phaen, entity:kai, entity:naga, entity:su_khwan, entity:yantra, entity:katha, genre:magic_ritual, genre:jataka, genre:tamnan_chronicle, entity:chang
 ---
 
 ## What this is

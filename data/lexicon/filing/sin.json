@@ -1,0 +1,8 @@
+{
+ "head": "sin",
+ "rule": "สิ้น has only two senses and the whole question is whether a compound means DEATH or merely running out. Sense 2, the euphemism, takes only the words the dictionary itself glosses as ตาย — สิ้นชีวิต, สิ้นชีพ, สิ้นใจ, สิ้นอายุขัย, and สิ้นชีพิตักษัย, which is death in the register reserved for a หม่อมเจ้า. Everything else stays in sense 1 even where the thing exhausted is grave: สิ้นสติ is unconsciousness and not death, สิ้นกรรม and สิ้นเวร are the end of having to suffer, สิ้นหวัง, สิ้นคิด, สิ้นชื่อ, สิ้นท่า and สิ้นเชิง are all something running to its end. The pull to read สิ้น as dying is strong and the gloss is the check on it.",
+ "senses": {
+  "1": ["ทั้งสิ้น","สิ้นกรรม","สิ้นคิด","สิ้นชื่อ","สิ้นซาก","สิ้นสติ","สิ้นสุด","สิ้นสูญ","สิ้นท่า","สิ้นหวัง","สิ้นเชิง","สิ้นเวร","สูญสิ้น","เสร็จสิ้น"],
+  "2": ["สิ้นชีพ","สิ้นชีพิตักษัย","สิ้นชีวิต","สิ้นอายุขัย","สิ้นใจ"]
+ }
+}

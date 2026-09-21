@@ -1,0 +1,43 @@
+{
+ "head": "thang",
+ "rule": "ทาง's ten senses fan out from one road, and the road keeps most of them. Sense 1 takes anything you could physically travel — the highway, the shortcut, the dead end, the distance along it, the acts of clearing, leading, yielding and setting out — and it keeps ทางช้างเผือก, because the Milky Way is named as a road across the sky and not as a method. The abstractions divide by what they answer: sense 2 (ช่อง) is a designated channel and takes ช่องทาง; sense 3 (โอกาส) is a prospect and takes ลู่ทาง; sense 4 (แนว) is a line or bearing and takes ทิศทาง, ท่าทาง and พันทาง, the crossed strain; sense 5 (วิธีการ) is a course of action and takes ทางการ, ทางเลือก, เข้าทาง. Sense 8 is one teacher's musical manner and takes ทางเก็บ. Sense 6 (แถว, แถบ, ถิ่น), the locality, stays empty — nothing in this list names a region.",
+ "senses": {
+  "1": [
+   "กรุยทาง",
+   "ต้นทาง",
+   "ถีบทาง",
+   "ทางช้างเผือก",
+   "ทางด่วน",
+   "ทางตัน",
+   "ทางลัด",
+   "ทางหลวง",
+   "ทางออก",
+   "ทางเดิน",
+   "นำทาง",
+   "ระยะทาง",
+   "หนทาง",
+   "ให้ทาง",
+   "เดินทาง",
+   "เส้นทาง"
+  ],
+  "2": [
+   "ช่องทาง"
+  ],
+  "3": [
+   "ลู่ทาง"
+  ],
+  "4": [
+   "ทิศทาง",
+   "ท่าทาง",
+   "พันทาง"
+  ],
+  "5": [
+   "ทางการ",
+   "ทางเลือก",
+   "เข้าทาง"
+  ],
+  "8": [
+   "ทางเก็บ"
+  ]
+ }
+}

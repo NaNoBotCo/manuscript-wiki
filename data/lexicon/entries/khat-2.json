@@ -1,0 +1,889 @@
+{
+ "id": "w:khat-2",
+ "th": "ขัด",
+ "status": "mapped",
+ "rtgs": "khat",
+ "paiboon": "kàt",
+ "ipa": "/kʰat̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ให้ติดขวางไว้ไม่ให้หลุดออก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:colour"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ขัด 'to catch, to obstruct'.",
+    "Declared root: ขัด 'to catch, to obstruct'.",
+    "Declared root: ขัด 'to catch, to obstruct'.",
+    "Declared root: ขัด 'to catch, to obstruct'.",
+    "Declared root: ขัด 'to catch, to obstruct'."
+   ],
+   "compounds": [
+    {
+     "th": "ขัดขวาง",
+     "rtgs": "khat-khwang",
+     "ipa": "/kʰat̚˨˩.kʰwaːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "deter",
+       "cross",
+       "forestall"
+      ],
+      "th": "ทำให้ไม่สะดวก, ทำให้ติดขัด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขัด",
+      "ขวาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.18, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "ขวาง"
+     ],
+     "lit": "abrade + across",
+     "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + กีดกั้น"
+    },
+    {
+     "th": "ขัดกลอน",
+     "translit_auto": "khadklon",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ใส่กลอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขัด",
+      "กลอน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "abrade + poem",
+     "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ไม้ขัดประตูหน้าต่าง"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เหน็บ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:colour"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Caught in place by tucking.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ไม่ทำตาม, ฝ่าฝืน, ขืนไว้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:colour"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขัดขืน",
+     "rtgs": "khat-khuen",
+     "ipa": "/kʰat̚˨˩.kʰɯːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ประพฤติตาม, ไม่ทำตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขัด",
+      "ขืน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.16, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ไม่ทำตาม + ยั้งไว้หรือบังคับไว้ไม่ให้เป็นไปตา"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Setting oneself across: to refuse, to resist.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "แย้งกัน, ไม่ลงรอยกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:colour"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขัดแย้ง",
+     "rtgs": "khat-yaeng",
+     "ipa": "/kʰat̚˨˩.jɛːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "clash",
+       "conflict"
+      ],
+      "th": "ไม่ลงรอยกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขัด",
+      "แย้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.28, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "แย้งกัน + ไม่ตรงหรือลงรอยเดียวกัน"
+    }
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Two things across each other: to conflict.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ถูให้เกลี้ยง, ถูให้ผ่องใส, ถูให้ขึ้นเงา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:colour"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขัดเกลา",
+     "rtgs": "khat-klao",
+     "ipa": "/kʰat̚˨˩.klaw˧/",
+     "gloss": {
+      "en": [
+       "polish"
+      ],
+      "th": "ทำให้เกลี้ยงเกลา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขัด",
+      "เกลา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.30, next 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ถูให้เกลี้ยง + ทำสิ่งที่ยังขรุขระอยู่ให้เกลี้ยงหร"
+    }
+   ],
+   "needs_check": [
+    "Declared root: ขัด 'to rub smooth, to polish' — probably separate.",
+    "Declared root: ขัด 'to rub smooth, to polish' — probably separate.",
+    "Declared root: ขัด 'to rub smooth, to polish' — probably separate.",
+    "Declared root: ขัด 'to rub smooth, to polish' — probably separate.",
+    "Declared root: ขัด 'to rub smooth, to polish' — probably separate."
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ไม่ใคร่จะมี, ฝืดเคือง, ไม่คล่อง, ไม่เป็นปรกติ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:colour"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขัดสน",
+     "rtgs": "khat-son",
+     "ipa": "/kʰat̚˨˩.son˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฝืดเคือง, อัตคัด, ขาดแคลน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขัด",
+      "สน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.13, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ไม่ใคร่จะมี + ชื่อไม้ต้นหลายชนิดหลายสกุลในหลายวง"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Caught short: straitened, not running freely.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "คาด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:colour"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Tucked round the waist: to gird.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 25 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['เงา', 'ใส'].",
+ "compounds_unassigned": [
+  {
+   "th": "ขัดดุม",
+   "translit_auto": "khaddum",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(คำสุภาพ) ใส่กระดุม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขัด",
+    "ดุม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ส่วนกลางของล้อเกวียนหรือล้อรถที่มี"
+  },
+  {
+   "th": "แก้ขัด",
+   "rtgs": "kae-khat",
+   "ipa": "/kɛː˥˩.kʰat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แก้ข้อขัดข้องให้ลุล่วงไปชั่วคราว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก้",
+    "ขัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แก้"
+   ],
+   "lit": "cowrie shell used to burnish cloth + abrade",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ให้ติดขวางไว้ไม่ให้หลุดออก"
+  },
+  {
+   "th": "การแก้ขัด",
+   "rtgs": "kan-kae-khat",
+   "ipa": "/kaːn˧.kɛː˥˩.kʰat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แก้ขัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแก้",
+    "ขัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แก้ + ให้ติดขวางไว้ไม่ให้หลุดออก"
+  },
+  {
+   "th": "ขัดสมาธิ",
+   "rtgs": "khat-sa-mat",
+   "ipa": "/kʰat̚˨˩.sa˨˩.maːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นั่งคู้เข่าทั้ง 2 ข้างให้แบะลงที่พื้นแล้วเอาขาไขว้กันทับฝ่าเท้า, ถ้าเอาขาซ้อนทับกัน เรียกว่า ขัดสมาธิสองชั้น, ถ้าเอาขาขวาทับขาซ้าย เรียกว่า ขัดสมาธิราบ, ถ้าเอาฝ่าเท้าทั้ง 2 ข้างขึ้นข้างบน เรียกว่า ขัดสมาธิเพชร, ขัดสมาธิร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขัด",
+    "สมาธิ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ความตั้งมั่นแห่งจิต"
+  },
+  {
+   "th": "การขัด",
+   "rtgs": "kan-khat",
+   "ipa": "/kaːn˧.kʰat̚˨˩/",
+   "gloss": {
+    "en": [
+     "abrasion",
+     "polish",
+     "rub"
+    ],
+    "th": "คำอาการนามของ ขัด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ขัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ให้ติดขวางไว้ไม่ให้หลุดออก"
+  },
+  {
+   "th": "ขัดข้อง",
+   "rtgs": "khat-khong",
+   "ipa": "/kʰat̚˨˩.kʰɔŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่ยอมให้ทำ, ไม่ตกลงด้วย, ติดขัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขัด",
+    "ข้อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + เครื่องจักสานสำหรับใส่ปลา ปู เป็นต"
+  },
+  {
+   "th": "การติดขัด",
+   "rtgs": "kan-tit-khat",
+   "ipa": "/kaːn˧.tit̚˨˩.kʰat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ติดขัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การติด",
+    "ขัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "addiction + abrade",
+   "lit_th": "คำอาการนามของ ติด + ให้ติดขวางไว้ไม่ให้หลุดออก"
+  },
+  {
+   "th": "ติดขัด",
+   "rtgs": "tit-khat",
+   "ipa": "/tit̚˨˩.kʰat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขัดข้อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "ขัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "ติด"
+   ],
+   "lit": "fit + abrade",
+   "lit_th": "อาการที่ข้องอยู่ + ให้ติดขวางไว้ไม่ให้หลุดออก"
+  },
+  {
+   "th": "ขัดใจ",
+   "rtgs": "khat-chai",
+   "ipa": "/kʰat̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โกรธเพราะทำไม่ถูกใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขัด",
+    "ใจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "abrade + heart",
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+  },
+  {
+   "th": "ยาขัด",
+   "rtgs": "ya-khat",
+   "ipa": "/jaː˧.kʰat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สิ่งที่ใช้ขัดโลหะ หนัง หรือกระเบื้อง เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "ขัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ยา"
+   ],
+   "lit": "medicine + abrade",
+   "lit_th": "สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ + ให้ติดขวางไว้ไม่ให้หลุดออก"
+  },
+  {
+   "th": "ขัดจรวด",
+   "rtgs": "khat-cha-ruat",
+   "ipa": "/kʰat̚˨˩.t͡ɕa˨˩.rua̯t̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อัตกามของเพศชาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขัด",
+    "จรวด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "abrade + rocket",
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ชื่อดอกไม้ไฟชนิดหนึ่ง ใช้ไม้อ้อบรร"
+  },
+  {
+   "th": "ขัดเคือง",
+   "rtgs": "khat-khueang",
+   "ipa": "/kʰat̚˨˩.kʰɯa̯ŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โกรธเพราะถูกขัดใจ, ไม่พอใจกรุ่นอยู่เพราะมาขัดความคิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขัด",
+    "เคือง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ไม่พอใจและเริ่มรู้สึกโกรธ"
+  },
+  {
+   "th": "เข็มขัด",
+   "rtgs": "khem-khat",
+   "ipa": "/kʰem˩˩˦.kʰat̚˨˩/",
+   "gloss": {
+    "en": [
+     "belt"
+    ],
+    "th": "เครื่องคาดเอวชนิดหนึ่ง, สายรัดเอว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เข็ม",
+    "ขัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "needle + abrade",
+   "lit_th": "เหล็กแหลมใช้เย็บผ้าเป็นต้นหรือกลัด + ให้ติดขวางไว้ไม่ให้หลุดออก"
+  },
+  {
+   "th": "ขัดตา",
+   "rtgs": "khat-ta",
+   "ipa": "/kʰat̚˨˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดูไม่ถูกตา, ดูไม่เหมาะตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขัด",
+    "ตา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "abrade + eye",
+   "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + พ่อของแม่"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับคำเมือง ᨡᩢ᩠ᨯ (ขัด), ไทดำ ꪄꪰꪒ (ฃัด), ไทใหญ่ ၶတ်း (ขั๊ต)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩢ᩠ᨯ",
+  "th": "ขัด",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khat",
+   "label": "ขาด",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khat\". ขัด is kàt, ขาด is kàat — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "abrade",
+  "burnish",
+  "against",
+  "polish"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "head": "chue",
+ "rule": "ชื่อ has only two senses and they divide cleanly by whether the name is a LABEL or a STANDING. Sense 1 takes what a person or thing is called and every handling of that label — the kinds of name (ชื่อตัว, ชื่อเล่น, ชื่อสกุล), and writing, listing or uttering it (ลงชื่อ, รายชื่อ, ออกชื่อ). Sense 2, เกียรติยศ, takes what a name is WORTH: being spoken of, being renowned, having a bad one, losing it.",
+ "senses": {
+  "1": [
+   "ชื่อตัว",
+   "ชื่อจริง",
+   "ชื่อรอง",
+   "ชื่อสกุล",
+   "ชื่อย่อ",
+   "ชื่อเล่น",
+   "ชื่อแฝง",
+   "ชื่อว่า",
+   "รายชื่อ",
+   "ลงชื่อ",
+   "ออกชื่อ"
+  ],
+  "2": [
+   "ได้ชื่อ",
+   "ขึ้นชื่อ",
+   "ลือชื่อ",
+   "สิ้นชื่อ",
+   "ชื่อเสีย"
+  ]
+ }
+}

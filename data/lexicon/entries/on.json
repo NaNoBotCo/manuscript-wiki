@@ -1,0 +1,1321 @@
+{
+ "id": "w:on",
+ "th": "อ่อน",
+ "status": "mapped",
+ "rtgs": "on",
+ "paiboon": "ɔ̀ɔn",
+ "ipa": "/ʔɔːn˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ไม่กระด้าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หินอ่อน",
+     "rtgs": "hin-on",
+     "ipa": "/hin˩˩˦.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "marble"
+      ],
+      "th": "หินปูนชนิดที่ขัดแล้วผิวจะเป็นมัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หิน",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หิน"
+     ],
+     "lit": "rock + young",
+     "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ไม่กระด้าง",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำอ่อน",
+     "rtgs": "nam-on",
+     "ipa": "/naːm˦˥.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ละลายสบู่ได้ดี ให้ฟองได้ง่าย และไม่เกิดไคลสบู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + young",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไม่กระด้าง",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "นิ่ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อ่อนโยน",
+     "rtgs": "on-yon",
+     "ipa": "/ʔɔːn˨˩.joːn˧/",
+     "gloss": {
+      "en": [
+       "light",
+       "kind",
+       "gentle"
+      ],
+      "th": "มีกิริยาวาจานิ่มนวล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "โยน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit": "young + throw",
+     "lit_th": "นิ่ม + ซัดให้สิ่งใดสิ่งหนึ่งพ้นไปจากตัวโด",
+     "frame": "quality"
+    },
+    {
+     "th": "กระดูกอ่อน",
+     "rtgs": "kra-duk-on",
+     "ipa": "/kra˨˩.duːk̚˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "cartilage"
+      ],
+      "th": "เนื้อเยื่อยึดต่อตามโครงกระดูก โดยเฉพาะบริเวณที่กระดูกเสียดสีกัน ประกอบด้วยเมทริกซ์ ลักษณะคล้ายวุ้น พบได้ที่ใบหู ฝากล่องเสียง (ลิ้นปิดกล่องเสียง) และกล่องเสียง เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กระดูก",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "bone + young",
+     "lit_th": "โครงร่างกายที่มีลักษณะแข็ง + นิ่ม",
+     "frame": "quality"
+    },
+    {
+     "th": "ตับอ่อน",
+     "rtgs": "tap-on",
+     "ipa": "/tap̚˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "pancreas"
+      ],
+      "th": "อวัยวะประเภทต่อมของระบบทางเดินอาหารของสิ่งมีชีวิต มีหน้าที่สร้างและขับน้ำย่อยอาหารและสร้างฮอร์โมนอินซูลินและกลูคากอน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตับ",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "liver + young",
+     "lit_th": "อวัยวะประเภทต่อมของระบบทางเดินอาหา + นิ่ม",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Not hard, and so soft to the touch.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ไม่จัด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Not intense: pale in colour, mild in flavour.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ไม่แข็ง, ยอมง่าย ๆ, รู้สึกสงสาร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Not hard in character: yielding, easily moved to pity.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "อ่อนข้อ",
+     "rtgs": "on-kho",
+     "ipa": "/ʔɔːn˨˩.kʰɔː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยอมผ่อนปรนให้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "ข้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "ไม่แข็ง + ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร",
+     "frame": "quality"
+    },
+    {
+     "th": "โอนอ่อน",
+     "rtgs": "on-on",
+     "ipa": "/ʔoːn˧.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยอมตาม, คล้อยตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โอน",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit": "abalienate + young",
+     "lit_th": "น้อมลง + ไม่แข็ง",
+     "frame": "quality"
+    },
+    {
+     "th": "อ่อนน้อม",
+     "rtgs": "on-nom",
+     "ipa": "/ʔɔːn˨˩.nɔːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงกิริยาวาจาอย่างมีคารวะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "น้อม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit_th": "ไม่แข็ง + โน้ม",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ไม่แก่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Not hardened by time: not old.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ต้นอ่อน",
+     "rtgs": "ton-on",
+     "ipa": "/ton˥˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พืชในระยะงอกออกจากเมล็ด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "trunk + young",
+     "lit_th": "ลำของต้นไม้ + ไม่แก่",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "หย่อน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Slack rather than taut.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "น้อย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Little, few.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ไม่แรง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Not strong.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เข่าอ่อน",
+     "rtgs": "khao-on",
+     "ipa": "/kʰaw˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่เข่าหมดกำลังทรุดลง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข่า",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "knee + young",
+     "lit_th": "ส่วนที่ต่อระหว่างขาส่วนบนกับขาส่วน + ไม่แรง",
+     "frame": "quality"
+    },
+    {
+     "th": "จุดอ่อน",
+     "rtgs": "chut-on",
+     "ipa": "/t͡ɕut̚˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จุดอ่อนแอ, จุดที่ฝ่ายตรงข้ามจะเอาชนะได้โดยง่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จุด",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "จุด"
+     ],
+     "lit": "mark + young",
+     "lit_th": "ทำให้ไฟติด + ไม่แรง",
+     "frame": "quality"
+    },
+    {
+     "th": "อ่อนแอ",
+     "rtgs": "on-ae",
+     "ipa": "/ʔɔːn˨˩.ʔɛː˧/",
+     "gloss": {
+      "en": [
+       "weak",
+       "drop",
+       "depressed"
+      ],
+      "th": "มีกำลังน้อย, ไม่แข็งแรง, ไม่เข้มแข็ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "แอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "lit_th": "ไม่แรง + เล็ก",
+     "frame": "quality"
+    },
+    {
+     "th": "อ่อนเพลีย",
+     "rtgs": "on-phlia",
+     "ipa": "/ʔɔːn˨˩.pʰlia̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีแรงลดน้อยถอยลง, ถอยกำลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "เพลีย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit_th": "ไม่แรง + อ่อนแรง",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "อายุยังน้อย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไก่อ่อน",
+     "rtgs": "kai-on",
+     "ipa": "/kaj˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้มีประสบการณ์น้อยยังไม่รู้ทันเล่ห์เหลี่ยมของคน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ไก่"
+     ],
+     "lit": "chicken + young",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + อายุยังน้อย",
+     "frame": "quality"
+    },
+    {
+     "th": "อ่อนวัย",
+     "rtgs": "on-wai",
+     "ipa": "/ʔɔːn˨˩.waj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อายุยังไม่มาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "วัย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.28, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "อายุยังน้อย + เขตอายุ",
+     "frame": "quality"
+    }
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "Young in years.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "ยังเล็กอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เด็กอ่อน",
+     "rtgs": "dek-on",
+     "ipa": "/dek̚˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เด็กเล็ก ๆ ที่ยังไม่หย่านม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เด็ก",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 10: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "child + young",
+     "lit_th": "คนที่มีอายุยังน้อย + ยังเล็กอยู่",
+     "frame": "quality"
+    },
+    {
+     "th": "ลูกอ่อน",
+     "rtgs": "luk-on",
+     "ipa": "/luːk̚˥˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกเล็ก ๆ ที่ยังไม่หย่านม, เรียกพ่อหรือแม่ที่มีลูกเล็ก ๆ ยังไม่หย่านม ว่า พ่อลูกอ่อน แม่ลูกอ่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + young",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ยังเล็กอยู่",
+     "frame": "quality"
+    },
+    {
+     "th": "ตัวอ่อน",
+     "rtgs": "tua-on",
+     "ipa": "/tua̯˧.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัตว์ในระยะนับต่อจากไซโกตไปจนคลอด หรือออกจากไข่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "form + young",
+     "lit_th": "รูป + ยังเล็กอยู่",
+     "frame": "quality"
+    }
+   ],
+   "extends": 9,
+   "via": "specialisation",
+   "via_note": "And still small.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "ละมุนละม่อม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อ่อนช้อย",
+     "rtgs": "on-choi",
+     "ipa": "/ʔɔːn˨˩.t͡ɕʰɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีกิริยาท่าทางงดงามละมุนละไม, มีลักษณะงอนงาม, มีลักษณะงอนขึ้นอย่างลายกระหนก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "ช้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11: gloss similarity 0.11, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "lit_th": "ละมุนละม่อม + งอนงาม",
+     "frame": "quality"
+    },
+    {
+     "th": "อ่อนหวาน",
+     "rtgs": "on-wan",
+     "ipa": "/ʔɔːn˨˩.waːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไพเราะ, น่าฟัง (ใช้กับคำพูดหรือเสียงเป็นต้น)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "หวาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หวาน"
+     ],
+     "lit": "young + sweet",
+     "lit_th": "ละมุนละม่อม + มีรสอย่างรสน้ำตาล",
+     "frame": "quality"
+    }
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Gentle in manner: refined.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[RID sense 12 — no English yet]"
+    ],
+    "th": "ดัดง่าย, เปลี่ยนแปลงง่าย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อ่อนไหว",
+     "rtgs": "on-wai",
+     "ipa": "/ʔɔːn˨˩.waj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีอารมณ์เปลี่ยนแปลงง่ายตามเหตุการณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "ไหว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12: gloss similarity 0.38, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit_th": "ดัดง่าย + สั่น",
+     "frame": "quality"
+    },
+    {
+     "th": "ขวัญอ่อน",
+     "rtgs": "khwan–on",
+     "ipa": "/kʰwan˩˩˦.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกผู้ตกใจง่ายคือเด็กหรือหญิงซึ่งมักจะขวัญหายบ่อย ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "khwan + young",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ดัดง่าย",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Easily bent, easily changed.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 13,
+   "gloss": {
+    "en": [
+     "[RID sense 13 — no English yet]"
+    ],
+    "th": "ไร้ประสบการณ์, ไม่มีฝีมือ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "Green: without experience or skill.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "อ่อนหัด",
+     "rtgs": "on-hat",
+     "ipa": "/ʔɔːn˨˩.hat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ฝึกฝนมาน้อย, ไม่ชำนาญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่อน",
+      "หัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 13 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "gloss": {
+    "en": [
+     "[RID sense 14 — no English yet]"
+    ],
+    "th": "ไม่เก่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 13,
+   "via": "generalisation",
+   "via_note": "And so, not good at a thing.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ปัญญาอ่อน",
+     "rtgs": "pan-ya-on",
+     "ipa": "/pan˧.jaː˧.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาวะที่มีระดับสติปัญญาด้อยหรือต่ำกว่าปรกติ มักมีสาเหตุเกิดขึ้นในระหว่างพัฒนาการ ทำให้เด็กมีความสามารถจำกัดในด้านการเรียนรู้และมีพฤติกรรมปรับตัวไม่อยู่ในระดับที่ควรเป็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปัญญา",
+      "อ่อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 14 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "wit + young",
+     "lit_th": "ความรอบรู้ + ไม่เก่ง",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "gloss": {
+    "en": [
+     "[RID sense 15 — no English yet]"
+    ],
+    "th": "มีค่าต่ำ เมื่อเทียบกับสกุลเงินอื่น (ใช้แสดงค่าเงิน)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "A currency that is weak against others.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 10 manuscript titles, 22 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การอ่อน",
+   "rtgs": "kan-on",
+   "ipa": "/kaːn˧.ʔɔːn˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อ่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "อ่อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "งาน + ไม่กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "ความอ่อน",
+   "rtgs": "khwam-on",
+   "ipa": "/kʰwaːm˧.ʔɔːn˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อ่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "อ่อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + young",
+   "lit_th": "เรื่อง + ไม่กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "การโอนอ่อน",
+   "rtgs": "kan-on-on",
+   "ipa": "/kaːn˧.ʔoːn˧.ʔɔːn˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ โอนอ่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การโอน",
+    "อ่อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "transfer + young",
+   "lit_th": "คำอาการนามของ โอน + ไม่กระด้าง",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *ʔɔːnᴮ¹, จากไทดั้งเดิม *ʔwuːnᴮ; ร่วมเชื้อสายกับลาว ອ່ອນ (อ่อน), คำเมือง ᩋᩬ᩵ᩁ (ออ่ร), ไทลื้อ ᦀᦸᧃᧈ (อ่อ̂น), ไทดำ ꪮ꪿ꪮꪙ (อ่อน), ไทขาว ꪮꪮꪙꫀ, ไทใหญ่ ဢွၼ်ႇ (อ่อ̂น) หรือ ဢူၼ်ႈ (อู้น), อาหม 𑜒𑜨𑜃𑜫 (ออ̂น์) หรือ 𑜒𑜤𑜃𑜫 (อุน์), จ้วง unq หรือ onq, จ้วงแบบหนง oanq, แสก อูน",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩋᩬ᩵ᩁ",
+  "th": "ออ่ร",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "young"
+ ]
+}

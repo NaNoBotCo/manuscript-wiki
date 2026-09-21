@@ -1,0 +1,897 @@
+{
+ "id": "w:than-2",
+ "th": "ฐาน",
+ "status": "mapped",
+ "rtgs": "than",
+ "paiboon": "tǎan",
+ "ipa": "/tʰaːn˩˩˦/",
+ "syllable_respelling": "ถา-นะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ที่ตั้ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ฐานทัพ",
+     "rtgs": "than-thap",
+     "ipa": "/tʰaːn˩˩˦.tʰap̚˦˥/",
+     "gloss": {
+      "en": [
+       "base"
+      ],
+      "th": "ที่ตั้งแห่งกองทัพ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ฐาน",
+      "ทัพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทัพ"
+     ],
+     "lit": "bottom + army",
+     "lit_th": "ที่ตั้ง + กองทหาร",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ที่รองรับ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The place a thing stands on: its base.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ตำแหน่งหน้าที่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The place one occupies: an office, a position.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "หลักฐาน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หลักฐาน",
+     "rtgs": "lak-than",
+     "ipa": "/lak̚˨˩.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "evidence",
+       "exhibit",
+       "proof"
+      ],
+      "th": "พื้นเพมั่นคง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "ฐาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หลัก"
+     ],
+     "lit": "key + bottom",
+     "lit_th": "เสาที่ปักไว้ + หลักฐาน",
+     "frame": "entity"
+    },
+    {
+     "th": "พื้นฐาน",
+     "rtgs": "phuen-than",
+     "ipa": "/pʰɯːn˦˥.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "base",
+       "bottom",
+       "basic"
+      ],
+      "th": "รากฐาน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พื้น",
+      "ฐาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.47, next 0.29",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "floor + bottom",
+     "lit_th": "ส่วนราบด้านหน้าของสิ่งที่เป็นผืนเป + หลักฐาน",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "What an argument stands on: grounds, evidence.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ลำดับความเป็นอยู่ในสังคม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "One's standing in society.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เส้นหรือพื้นที่ซึ่งถือว่าเป็นส่วนรองรับรูปเรขาคณิต",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รากฐาน",
+     "rtgs": "rak-than",
+     "ipa": "/raːk̚˥˩.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "fundamental",
+       "base",
+       "foundation"
+      ],
+      "th": "หลักสำคัญอันเป็นพื้นฐานรองรับ, ส่วนที่เป็นพื้นรองรับสำหรับพัฒนาต่อไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ราก",
+      "ฐาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.18, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "root + bottom",
+     "lit_th": "ส่วนของต้นไม้ ตามปรกติอยู่ในดิน มี + เส้นหรือพื้นที่ซึ่งถือว่าเป็นส่วนร",
+     "flips_with": "ฐานราก",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "The base of a geometric figure.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "จำนวนที่ใช้เป็นหลักในการสร้างจำนวนอื่น ๆ โดยการยกกำลังหรือหาค่าของลอการิทึม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "The base a power is raised from.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "จำนวนที่บอกปริมาณในแต่ละหลักของตัวเลข",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 7,
+   "via": "specialisation",
+   "via_note": "And the base of a place-value system.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "จำนวนที่มีอยู่เดิมและจะนำไปคำนวณรวมกับจำนวนที่เกิดขึ้นใหม่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "metaphor",
+   "via_note": "An existing quantity that a new one is reckoned against.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "เพราะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "ฐานที่ — on the grounds that, and so, because.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 112 manuscript titles, 196 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['ขึ้น', 'ไป', 'มา'].",
+ "compounds_unassigned": [
+  {
+   "th": "พิษฐาน",
+   "translit_auto": "phisthan",
+   "ipa": "[pʰit̚˥.sä˩.tʰä̃ːn˩˥ ~ pʰit̚˥.sä˧.tʰä̃ːn˩˥]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มุ่งหมาย, ขอร้องต่อสิ่งที่ตนถือว่าศักดิ์สิทธิ์เพื่อช่วยบันดาลให้ประสบผลสำเร็จในสิ่งที่ตนมุ่งหมาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พิษ",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "พิษ"
+   ],
+   "lit": "harm + bottom",
+   "lit_th": "สิ่งที่ร้ายเป็นอันตรายแก่ร่างกายหร + ที่ตั้ง",
+   "frame": "entity"
+  },
+  {
+   "th": "ฐานราก",
+   "rtgs": "than-rak",
+   "ipa": "/tʰaːn˩˩˦.raːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โครงสร้างตอนล่างสุดที่รองรับอาคารหรือสิ่งปลูกสร้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฐาน",
+    "ราก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "bottom + root",
+   "lit_th": "ที่ตั้ง + ส่วนของต้นไม้ ตามปรกติอยู่ในดิน มี",
+   "flips_with": "รากฐาน",
+   "frame": "entity"
+  },
+  {
+   "th": "สมมติฐาน",
+   "rtgs": "som-mot-ti-than",
+   "ipa": "/som˩˩˦.mot̚˦˥.ti˨˩.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "hypothesis"
+    ],
+    "th": "รูปแบบอื่นของ สมมุติฐาน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สมมติ",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ สมมุติ + ที่ตั้ง"
+  },
+  {
+   "th": "ฐานข้อมูล",
+   "rtgs": "than-kho-mun",
+   "ipa": "/tʰaːn˩˩˦.kʰɔː˥˩.muːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แหล่งรวมข้อมูลหรือสารสนเทศที่มีโครงสร้างและความสัมพันธ์ซึ่งกันและกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฐาน",
+    "ข้อมูล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "bottom + dope",
+   "lit_th": "ที่ตั้ง + ข้อเท็จจริง หรือสิ่งที่ถือหรือยอมร",
+   "frame": "entity"
+  },
+  {
+   "th": "อธิฐาน",
+   "rtgs": "a-thi-than",
+   "ipa": "/ʔa˨˩.tʰi˦˥.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ อธิษฐาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อธิ",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ยิ่ง + ที่ตั้ง",
+   "frame": "quality",
+   "use": "spelling-variant"
+  },
+  {
+   "th": "สมมุติฐาน",
+   "rtgs": "som-mut-ti-than",
+   "ipa": "/som˩˩˦.mut̚˦˥.ti˨˩.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "postulate"
+    ],
+    "th": "ข้อคิดที่ใช้เป็นมูลฐานเพื่อหาเหตุผล ทดลอง หรือวิจัย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สมมุติ",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "suppose + bottom",
+   "lit_th": "รู้สึกนึกเอาว่า + ที่ตั้ง"
+  },
+  {
+   "th": "มาตราฐาน",
+   "rtgs": "mat-tra-than",
+   "ipa": "/maːt̚˥˩.traː˧.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ มาตรฐาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มาตรา",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "หลักกำหนดการวัดขนาด จำนวน เวลา และ + ที่ตั้ง",
+   "frame": "entity",
+   "use": "spelling-variant"
+  },
+  {
+   "th": "มูลฐาน",
+   "rtgs": "mun-la-than",
+   "ipa": "/muːn˧.la˦˥.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "basic"
+    ],
+    "th": "พื้นฐาน, รากฐาน, เค้ามูล",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "มูล",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "มูล"
+   ],
+   "lit": "base + bottom",
+   "lit_th": "โคน + ที่ตั้ง",
+   "frame": "entity"
+  },
+  {
+   "th": "รโหฐาน",
+   "rtgs": "ra-ho-than",
+   "ipa": "/ra˦˥.hoː˩˩˦.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ที่เฉพาะส่วนตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รโห",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ลับ + ที่ตั้ง",
+   "frame": "quality"
+  },
+  {
+   "th": "มาตรฐาน",
+   "rtgs": "mat-tra-than",
+   "ipa": "/maːt̚˥˩.tra˨˩.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "mark",
+     "standard"
+    ],
+    "th": "สิ่งที่ถือเอาเป็นเกณฑ์ที่รับรองกันทั่วไป",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "มาตร",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เครื่องสำหรับวัดขนาด จำนวน เวลา แล + ที่ตั้ง",
+   "frame": "entity"
+  },
+  {
+   "th": "ภูมิฐาน",
+   "rtgs": "phum-than",
+   "ipa": "/pʰuːm˧.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สง่าผ่าเผย, โก้หรู",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภูมิ",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ภูมิ"
+   ],
+   "lit": "land + bottom",
+   "lit_th": "แผ่นดิน + ที่ตั้ง",
+   "frame": "entity"
+  },
+  {
+   "th": "บรรทัดฐาน",
+   "rtgs": "ban-that-than",
+   "ipa": "/ban˧.tʰat̚˦˥.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แบบแผนสำหรับยึดถือเป็นแนวทางปฏิบัติ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บรรทัด",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ข้อความที่เขียนหรือพิมพ์เป็นต้นต่อ + ที่ตั้ง",
+   "frame": "entity"
+  },
+  {
+   "th": "กรรมฐาน",
+   "rtgs": "kam-ma-than",
+   "ipa": "/kam˧.ma˦˥.tʰaːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ที่ตั้งแห่งการงาน หมายเอาอุบายทางใจ มี 2 ประการ คือ สมถกรรมฐาน เป็นอุบายสงบใจ และวิปัสสนากรรมฐาน เป็นอุบายเรืองปัญญา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรรม",
+    "ฐาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กรรม"
+   ],
+   "lit": "karma + bottom",
+   "lit_th": "การ + ที่ตั้ง",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากบาลี ฐาน; ร่วมเชื้อสายกับลาว ຖານ (ถาน), คำเมือง ᨮᩣᨶ (ฐาน), ᨮᩣ᩠ᨶ (ฐาน)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨮᩣᨶ",
+  "th": "ฐาน",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:than",
+   "label": "ทาน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"than\". ฐาน is tǎan, ทาน is taan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "bottom"
+ ]
+}

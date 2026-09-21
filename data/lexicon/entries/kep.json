@@ -1,0 +1,858 @@
+{
+ "id": "w:kep",
+ "th": "เก็บ",
+ "status": "mapped",
+ "rtgs": "kep",
+ "paiboon": "gèp",
+ "ipa": "/kep̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "เอาไปหรือเอามาจากที่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เอาเข้าที่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Taking a thing to where it belongs: to put away.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เอาสิ่งของที่ตกหล่นอยู่ขึ้นมา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Taking up what has fallen.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "รวบรวมไว้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Taking up many: to gather.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เรียกเอา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Gathering what is owed: to collect a fee.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "รักษาไว้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เก็บงำ",
+     "rtgs": "kep-ngam",
+     "ipa": "/kep̚˨˩.ŋam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รักษาไว้ให้มิดชิด, รักษาไว้ให้ดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เก็บ",
+      "งำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.18, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "รักษาไว้ + ปิด"
+    },
+    {
+     "th": "เก็บสี",
+     "rtgs": "kep–si",
+     "ipa": "/kep̚˨˩.siː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รักษาสีไม่ให้จางตกไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เก็บ",
+      "สี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.11, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "สี"
+     ],
+     "lit": "keep + color",
+     "lit_th": "รักษาไว้ + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ"
+    },
+    {
+     "th": "เก็บไร",
+     "rtgs": "kep–rai",
+     "ipa": "/kep̚˨˩.raj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถอนผมที่ไรออกเพื่อรักษาไรผมให้งาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เก็บ",
+      "ไร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.12, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "รักษาไว้ + ชื่อสัตว์ขาปล้องหลายชนิดหลายสกุล ใ"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Put away and left there: kept, preserved.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ฆ่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "euphemism",
+   "via_note": "Put away in the other sense — to kill.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ที่เก็บไว้ (ประกอบหลังคำนาม)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เมียเก็บ",
+     "translit_auto": "meiykep",
+     "ipa": "[miaː kèp̚]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมียที่เก็บไว้ไม่ออกหน้าออกตา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เมีย",
+      "เก็บ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "wife + keep",
+     "lit_th": "ภรรยา + ที่เก็บไว้"
+    }
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "Suffixed to a noun: the kept one, the stored one.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 90 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['ตก', 'เข้า', 'ขึ้น', 'ไป'].",
+ "compounds_unassigned": [
+  {
+   "th": "เก็บผม",
+   "rtgs": "kep–phom",
+   "ipa": "/kep̚˨˩.pʰom˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เอากรรไตรเล็มผมให้เสมอกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "ผม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "keep + hair",
+   "lit_th": "เอาไปหรือเอามาจากที่ + ขนที่ขึ้นอยู่บนศีรษะ โดยปกติเป็นเส"
+  },
+  {
+   "th": "หมากเก็บ",
+   "rtgs": "mak-kep",
+   "ipa": "/maːk̚˨˩.kep̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การเล่นของเด็กใช้เม็ดกรวดหรือลูกไม้โยนแล้วเก็บ มีวิธีการเล่นและกติกาต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หมาก",
+    "เก็บ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "หมาก"
+   ],
+   "lit": "areca palm + keep",
+   "lit_th": "ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง + เอาไปหรือเอามาจากที่"
+  },
+  {
+   "th": "ทางเก็บ",
+   "translit_auto": "thangkep",
+   "ipa": "[taːŋ kèp̚]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วิธีการบรรเลงเครื่องดนตรีดำเนินทำนองทั่วไป ที่เพิ่มเติมเสียงสอดแทรกให้มีพยางค์ถี่ขึ้นมากกว่าทำนองเนื้อเพลงธรรมดา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทาง",
+    "เก็บ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ทาง"
+   ],
+   "lit": "way + keep",
+   "lit_th": "ที่สำหรับเดินไปมา + เอาไปหรือเอามาจากที่"
+  },
+  {
+   "th": "เก็บเล่ม",
+   "rtgs": "kep–lem",
+   "ipa": "/kep̚˨˩.lem˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รวบรวมหนังสือหรือแผ่นภาพที่พิมพ์ไว้แล้ว เรียงตามลำดับเลขหน้าเข้าเป็นเล่ม (ใช้แก่การพิมพ์)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "เล่ม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+CLF",
+   "head": 0,
+   "lit_th": "เอาไปหรือเอามาจากที่ + เรียกสิ่งของที่มีลักษณะยาวเรียวอย่"
+  },
+  {
+   "th": "เก็บกวาด",
+   "rtgs": "kep-kwat",
+   "ipa": "/kep̚˨˩.kwaːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เก็บข้าวของให้เข้าที่และกวาดทำความสะอาด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "กวาด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "keep + sweep",
+   "lit_th": "เอาไปหรือเอามาจากที่ + ทำให้เตียนหรือหมดฝุ่นละอองด้วยไม้ก"
+  },
+  {
+   "th": "เก็บตก",
+   "rtgs": "kep-tok",
+   "ipa": "/kep̚˨˩.tok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เก็บของที่ผู้อื่นทำตกไว้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "ตก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "ตก"
+   ],
+   "lit": "keep + decrease",
+   "lit_th": "เอาไปหรือเอามาจากที่ + พลัดลง"
+  },
+  {
+   "th": "เก็บดอกไม้",
+   "rtgs": "kep-dok-mai",
+   "ipa": "/kep̚˨˩.dɔːk̚˨˩.maj˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ปัสสาวะตามพุ่มไม้ข้างทาง (ใช้กับผู้หญิง)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "ดอกไม้"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "keep + blossom",
+   "lit_th": "เอาไปหรือเอามาจากที่ + ส่วนหนึ่งของพรรณไม้ที่ผลิออกจากต้น"
+  },
+  {
+   "th": "เก็บข้าว",
+   "rtgs": "kep–khao",
+   "ipa": "/kep̚˨˩.kʰaːw˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เอาข้าวมาจากลูกหนี้แทนเงินที่ยืมไปใช้ก่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "ข้าว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ข้าว"
+   ],
+   "lit": "keep + rice",
+   "lit_th": "เอาไปหรือเอามาจากที่ + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ"
+  },
+  {
+   "th": "เก็บเกี่ยว",
+   "rtgs": "kep-kiao",
+   "ipa": "/kep̚˨˩.kia̯w˨˩/",
+   "gloss": {
+    "en": [
+     "harvest"
+    ],
+    "th": "เก็บรวบรวมพืชผลจากที่ได้หว่านหรือลงไว้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "เกี่ยว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เอาไปหรือเอามาจากที่ + อาการที่สิ่งงอเป็นขอเกาะติดหรือเหน"
+  },
+  {
+   "th": "เก็บอาการ",
+   "rtgs": "kep-a-kan",
+   "ipa": "/kep̚˨˩.ʔaː˧.kaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่แสดงออก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "อาการ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เอาไปหรือเอามาจากที่ + ความเป็นอยู่"
+  },
+  {
+   "th": "การเก็บ",
+   "rtgs": "kan-kep",
+   "ipa": "/kaːn˧.kep̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เก็บ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "เก็บ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + เอาไปหรือเอามาจากที่"
+  },
+  {
+   "th": "เก็บกิน",
+   "rtgs": "kep-kin",
+   "ipa": "/kep̚˨˩.kin˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เก็บผลประโยชน์เอาไว้ใช้สอยยังชีพ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "กิน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "กิน"
+   ],
+   "lit": "keep + eat",
+   "lit_th": "เอาไปหรือเอามาจากที่ + เคี้ยว"
+  },
+  {
+   "th": "เก็บเล็ม",
+   "rtgs": "kep–lem",
+   "ipa": "/kep̚˨˩.lem˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ค่อย ๆ เก็บทีละน้อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "เล็ม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "keep + dress",
+   "lit_th": "เอาไปหรือเอามาจากที่ + เย็บริมชายผ้า"
+  },
+  {
+   "th": "เก็บตัว",
+   "rtgs": "kep-tua",
+   "ipa": "/kep̚˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กักตัวไว้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "ตัว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "keep + form",
+   "lit_th": "เอาไปหรือเอามาจากที่ + รูป"
+  },
+  {
+   "th": "เก็บความ",
+   "rtgs": "kep-khwam",
+   "ipa": "/kep̚˨˩.kʰwaːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เลือกเอาแต่ข้อความที่สำคัญ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก็บ",
+    "ความ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "keep + -ness",
+   "lit_th": "เอาไปหรือเอามาจากที่ + เรื่อง"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *kepᴰ; ร่วมเชื้อสายกับคำเมือง ᨠᩮᩢ᩠ᨷ (เกับ), ลาว ເກັບ (เกับ), ไทลื้อ ᦵᦂᧇ (เกบ), ไทดำ ꪹꪀꪸꪚ (เกย̂บ), ไทใหญ่ ၵဵပ်း (เก๊ป), อาหม 𑜀𑜢𑜆𑜫 (กิป์); เทียบเขมร កើប (เกิบ)，จ้วงแบบจั่วเจียง gep, จ้วง gip",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨠᩮᩢ᩠ᨷ",
+  "th": "เกับ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "keep",
+  "collect",
+  "fold",
+  "store"
+ ]
+}

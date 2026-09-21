@@ -1,0 +1,720 @@
+{
+ "id": "w:baep",
+ "th": "แบบ",
+ "status": "mapped",
+ "rtgs": "baep",
+ "paiboon": "bɛ̀ɛp",
+ "ipa": "/bɛːp̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็นแนวดำเนิน, ตัวอย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "รูปแบบ",
+     "rtgs": "rup–baep",
+     "ipa": "/ruːp̚˥˩.bɛːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "form",
+       "manner",
+       "style"
+      ],
+      "th": "รูปที่กำหนดขึ้นเป็นหลักหรือเป็นแนวซึ่งเป็นที่ยอมรับ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "แบบ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.34, next 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "รูป"
+     ],
+     "lit": "image + model",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องแบบ",
+     "rtgs": "khrueang-baep",
+     "ipa": "/kʰrɯa̯ŋ˥˩.bɛːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "uniform"
+      ],
+      "th": "เครื่องแต่งกายที่กำหนดให้แต่งเหมือน ๆ กันเฉพาะหมู่หนึ่งคณะหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "แบบ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.13, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + model",
+     "lit_th": "สิ่ง + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "อย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The model widened to a kind, a manner.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ตำรา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The model set down in writing: a textbook.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "รูปลักษณะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ออกแบบ",
+     "rtgs": "ok-baep",
+     "ipa": "/ʔɔːk̚˨˩.bɛːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "invent",
+       "design",
+       "pattern"
+      ],
+      "th": "กำหนดลักษณะและหน้าที่โดยการวาดภาพที่มีรายละเอียดสูง, ประดิษฐ์แบบ, ประดิษฐ์รูปลักษณะ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "แบบ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.29, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ออก"
+     ],
+     "lit": "tear + model",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + รูปลักษณะ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "And the shape a thing takes.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "สิ่งที่แกะหรือสลักเป็นต้นให้เป็นรอยลึกลงไป หรือนูนขึ้นมาเพื่อใช้เป็นแม่พิมพ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แม่แบบ",
+     "rtgs": "mae-baep",
+     "ipa": "/mɛː˥˩.bɛːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "model",
+       "role model"
+      ],
+      "th": "สิ่งที่เป็นต้นแบบ, แม่พิมพ์ ก็ว่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แบบ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.31, next 0.21",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + model",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งที่แกะหรือสลักเป็นต้นให้เป็นรอ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "A mould cut in relief or intaglio.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ใบตองซ้อนกันหลาย ๆ ชั้น แล้วใช้มีดเจียนให้เป็นแผ่นกลม ใช้ไม้กลัดกลัดไว้ สำหรับรองขนมบางชนิด เช่น ขนมลืมกลืน หรือตัดให้เป็นรูปต่าง ๆ ใช้รองเย็บกลีบดอกไม้มีดอกบานบุรีเป็นต้น เย็บเป็นดอกไม้ประดิษฐ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metonymy",
+   "via_note": "And the banana-leaf rounds cut on one.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 3 manuscript titles, 299 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['แกะ', 'มีด'].",
+ "compounds_unassigned": [
+  {
+   "th": "ต้นแบบ",
+   "rtgs": "ton-baep",
+   "ipa": "/ton˥˩.bɛːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "model",
+     "pilot"
+    ],
+    "th": "แบบดั้งเดิม, แบบที่มีมาแต่แรก, แบบที่ทำขึ้นไว้แต่แรก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ต้น",
+    "แบบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ต้น"
+   ],
+   "lit": "trunk + model",
+   "lit_th": "ลำของต้นไม้ + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+   "frame": "entity"
+  },
+  {
+   "th": "แบบอย่าง",
+   "rtgs": "baep-yang",
+   "ipa": "/bɛːp̚˨˩.jaːŋ˨˩/",
+   "gloss": {
+    "en": [
+     "example",
+     "model",
+     "pattern"
+    ],
+    "th": "ตัวอย่างที่จะอ้างเป็นบรรทัดฐานได้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แบบ",
+    "อย่าง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น + วิธี",
+   "frame": "entity"
+  },
+  {
+   "th": "การออกแบบ",
+   "rtgs": "kan-ok-baep",
+   "ipa": "/kaːn˧.ʔɔːk̚˨˩.bɛːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ออกแบบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การออก",
+    "แบบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออก + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+   "frame": "entity"
+  },
+  {
+   "th": "แบบฝึกหัด",
+   "rtgs": "baep-fuek-hat",
+   "ipa": "/bɛːp̚˨˩.fɯk̚˨˩.hat̚˨˩/",
+   "gloss": {
+    "en": [
+     "exercise"
+    ],
+    "th": "แบบตัวอย่างปัญหาหรือคำสั่งที่ตั้งขึ้นเพื่อให้นักเรียนฝึกตอบเป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แบบ",
+    "ฝึกหัด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "model + learn",
+   "lit_th": "สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น + ฝึกให้ชำนาญ"
+  },
+  {
+   "th": "แบบแผน",
+   "rtgs": "baep-phaen",
+   "ipa": "/bɛːp̚˨˩.pʰɛːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "method",
+     "pattern"
+    ],
+    "th": "ขนบธรรมเนียมที่กำหนดใช้หรือที่เคยประพฤติปฏิบัติสืบต่อกันมา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แบบ",
+    "แผน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "model + plan",
+   "lit_th": "สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น + สิ่งที่กำหนดถือเป็นแนวดำเนิน",
+   "frame": "entity"
+  },
+  {
+   "th": "นางแบบ",
+   "rtgs": "nang-baep",
+   "ipa": "/naːŋ˧.bɛːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "model",
+     "fashion model"
+    ],
+    "th": "ผู้หญิงที่แสดงแบบเสื้อหรือเครื่องประดับเป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นาง",
+    "แบบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "นาง"
+   ],
+   "lit": "Mrs + model",
+   "lit_th": "ผู้หญิง + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+   "frame": "entity"
+  },
+  {
+   "th": "ถ่ายแบบ",
+   "rtgs": "thai-baep",
+   "ipa": "/tʰaːj˨˩.bɛːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เอาแบบอย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถ่าย",
+    "แบบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "เอาออกจากที่หนึ่งไปใส่อีกที่หนึ่ง + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น"
+  },
+  {
+   "th": "แบบฉบับ",
+   "rtgs": "baep-cha-bap",
+   "ipa": "/bɛːp̚˨˩.t͡ɕʰa˨˩.bap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หลักปฏิบัติที่เป็นบรรทัดฐาน, บุคคลหรือสิ่งที่ถือเป็นแบบได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แบบ",
+    "ฉบับ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "model + issue",
+   "lit_th": "สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น + หนังสือเรื่องเดียวกันซึ่งมีข้อความ",
+   "frame": "entity"
+  },
+  {
+   "th": "การถ่ายแบบ",
+   "rtgs": "kan-thai-baep",
+   "ipa": "/kaːn˧.tʰaːj˨˩.bɛːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ถ่ายแบบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การถ่าย",
+    "แบบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถ่าย + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+   "frame": "entity"
+  },
+  {
+   "th": "นายแบบ",
+   "rtgs": "nai-baep",
+   "ipa": "/naːj˧.bɛːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ชายที่แสดงแบบเสื้อหรือเครื่องประดับเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาย",
+    "แบบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "นาย"
+   ],
+   "lit": "baboo + model",
+   "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+   "frame": "entity"
+  },
+  {
+   "th": "แบบสอบถาม",
+   "rtgs": "baep-sop-tham",
+   "ipa": "/bɛːp̚˨˩.sɔːp̚˨˩.tʰaːm˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แบบข้อคำถาม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แบบ",
+    "สอบถาม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "model + ask",
+   "lit_th": "สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น + ถามเพื่อขอทราบข้อมูลที่ต้องการ"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากจีนยุคกลาง 法 (MC pjop); ร่วมเชื้อสายกับลาว ແບບ (แบบ), คำเมือง ᨷᩯ᩠ᨷ (แบบ), ไทลื้อ ᦶᦢᧇᧈ (แบ่บ), เขมร បែប (แบบ), เวียดนาม phép (แฟ้ป)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨷᩯ᩠ᨷ",
+  "th": "แบบ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "model",
+  "mode",
+  "design",
+  "pattern"
+ ]
+}

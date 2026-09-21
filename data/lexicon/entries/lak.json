@@ -1,0 +1,909 @@
+{
+ "id": "w:lak",
+ "th": "หลัก",
+ "status": "mapped",
+ "rtgs": "lak",
+ "paiboon": "làk",
+ "ipa": "/lak̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "เสาที่ปักไว้, ที่ผูก, ที่มั่น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หลักลอย",
+     "rtgs": "lak-loi",
+     "ipa": "/lak̚˨˩.lɔːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่มีหลักแหล่ง, ไม่อยู่เป็นที่, เชื่อถือไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "ลอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลอย"
+     ],
+     "lit": "key + float",
+     "lit_th": "เสาที่ปักไว้ + ทรงตัวอยู่ในอากาศ"
+    },
+    {
+     "th": "หลักแหล่ง",
+     "rtgs": "lak-laeng",
+     "ipa": "/lak̚˨˩.lɛŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ซึ่งอยู่ประจำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "แหล่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เสาที่ปักไว้ + ถิ่น",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักเมือง",
+     "rtgs": "lak-mueang",
+     "ipa": "/lak̚˨˩.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(เสา~) เสาหินหรือไม้เป็นต้น ยกตั้งเป็นเครื่องหมายว่าจะตั้งเมืองที่นั้นแน่นอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "เมือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "key + town",
+     "lit_th": "เสาที่ปักไว้ + แดน",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เครื่องหมาย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A post driven in marks a thing: a sign.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เครื่องยึดเหนี่ยว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Something to take hold of and steady oneself by.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เครื่องจับยึด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A device that grips, as a post holds.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "สาระที่มั่นคง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "What one holds to in thought: a principle.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เสียหลัก",
+     "rtgs": "sia-lak",
+     "ipa": "/sia̯˩˩˦.lak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผิดไปจากหลักการ หลักเกณฑ์ หรือความถูกต้องเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสีย",
+      "หลัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "bad + key",
+     "lit_th": "เสื่อมลงไป + สาระที่มั่นคง"
+    },
+    {
+     "th": "หลักทรัพย์",
+     "rtgs": "lak-sap",
+     "ipa": "/lak̚˨˩.sap̚˦˥/",
+     "gloss": {
+      "en": [
+       "security"
+      ],
+      "th": "ตราสารหรือหลักฐานแสดงสิทธิในทรัพย์สิน เช่น ตั๋วเงินคลัง พันธบัตร ตั๋วเงิน หุ้น หุ้นกู้ หน่วยลงทุน ใบสำคัญแสดงสิทธิที่จะซื้อหุ้น หุ้นกู้ หรือซื้อหน่วยลงทุน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "ทรัพย์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สาระที่มั่นคง + เงินตรา",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักการ",
+     "rtgs": "lak-kan",
+     "ipa": "/lak̚˨˩.kaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สาระสำคัญที่ยึดถือเป็นแนวปฏิบัติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "การ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สาระที่มั่นคง + งาน",
+     "frame": "entity"
+    },
+    {
+     "th": "ประโยคหลัก",
+     "rtgs": "pra-yok-lak",
+     "ipa": "/pra˨˩.joːk̚˨˩.lak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อประโยคในตำราไวยากรณ์ได้แก่ ประโยคที่มีประโยคอื่นเป็นส่วนขยาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ประโยค",
+      "หลัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "sentence + key",
+     "lit_th": "คำพูดหรือข้อความที่ได้ความบริบูรณ์ + สาระที่มั่นคง",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักฐาน",
+     "rtgs": "lak-than",
+     "ipa": "/lak̚˨˩.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "evidence",
+       "exhibit",
+       "proof"
+      ],
+      "th": "พื้นเพมั่นคง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "ฐาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฐาน"
+     ],
+     "lit": "key + bottom",
+     "lit_th": "สาระที่มั่นคง + ที่ตั้ง",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักสูตร",
+     "rtgs": "lak-sut",
+     "ipa": "/lak̚˨˩.suːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "course"
+      ],
+      "th": "ประมวลวิชาและกิจกรรมต่าง ๆ ที่กำหนดไว้ในการศึกษาเพื่อวัตถุประสงค์อย่างใดอย่างหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "สูตร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "key + formula",
+     "lit_th": "สาระที่มั่นคง + กฎสำหรับจดจำ",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักเกณฑ์",
+     "rtgs": "lak-ken",
+     "ipa": "/lak̚˨˩.keːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลักที่กำหนดไว้เพื่อใช้วินิจฉัยและปฏิบัติตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "เกณฑ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "key + mark",
+     "lit_th": "สาระที่มั่นคง + หลักที่กำหนดไว้",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักแหลม",
+     "rtgs": "lak-laem",
+     "ipa": "/lak̚˨˩.lɛːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "clever"
+      ],
+      "th": "คมคาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "แหลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "key + tongue",
+     "lit_th": "สาระที่มั่นคง + มีปลายเสี้ยมคม",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ตำแหน่งของตัวเลขซึ่งแสดงจำนวน คือ ถ้าเป็นเลขตัวเดียว เรียกว่า จำนวนหน่วย เลข 2 ตัวเรียงกัน เรียกว่า จำนวนสิบ เลข 3 ตัวเรียงกัน เรียกว่า จำนวนร้อย เลข 4 ตัวเรียงกัน เรียกว่า จำนวนพัน เลข 5 ตัวเรียงกัน เรียกว่า จำนวนหมื่น เลข 6 ตัวเรียงกัน เรียกว่า จำนวนแสน เลข 7 ตัวเรียงกัน เรียกว่า จำนวนล้าน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A place in a numeral, each digit standing at its post.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หลักสี่",
+     "rtgs": "lak-si",
+     "ipa": "/lak̚˨˩.siː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อายุระหว่าง 40-49 ปี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "สี่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "key + four",
+     "lit_th": "ตำแหน่งของตัวเลขซึ่งแสดงจำนวน คือ + จำนวนสามบวกหนึ่ง"
+    },
+    {
+     "th": "หลักสาม",
+     "rtgs": "lak-sam",
+     "ipa": "/lak̚˨˩.saːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อายุระหว่าง 30-39 ปี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "สาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "key + three",
+     "lit_th": "ตำแหน่งของตัวเลขซึ่งแสดงจำนวน คือ + จำนวนสองบวกหนึ่ง"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "จำนวนแสน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "หลักแสน — reckoning by the hundred-thousand place.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "lak as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 5 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 5 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 5 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "2 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "หนองหลัก",
+     "rtgs": "nong-lak",
+     "ipa": "/nɔːŋ˩˩˦.lak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชุมพวง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "หลัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + lak as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักแก้ว",
+     "rtgs": "lak-kaeo",
+     "ipa": "/lak̚˨˩.kɛːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวิเศษชัยชาญ จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "แก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "lak as an element in place names + glass",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักหก",
+     "rtgs": "lak-hok",
+     "ipa": "/lak̚˨˩.hok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองปทุมธานี จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "หก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 0,
+     "lit": "lak as an element in place names + six",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวนห้าบวกหนึ่ง"
+    },
+    {
+     "th": "หลักเหลี่ยม",
+     "rtgs": "lak-liam",
+     "ipa": "/lak̚˨˩.lia̯m˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนามน จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "เหลี่ยม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ด้านที่เป็นสัน",
+     "frame": "entity"
+    },
+    {
+     "th": "หลักฟ้า",
+     "rtgs": "lak-fa",
+     "ipa": "/lak̚˨˩.faː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอไชโย จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "ฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "lak as an element in place names + sky",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1 manuscript titles, 66 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['หนี', 'มา'].",
+ "compounds_unassigned": [
+  {
+   "th": "การเสียหลัก",
+   "rtgs": "kan-sia-lak",
+   "ipa": "/kaːn˧.sia̯˩˩˦.lak̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เสียหลัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเสีย",
+    "หลัก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + เสาที่ปักไว้"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ʰlakᴰ; ร่วมเชื้อสายกับคำเมือง ᩉᩖᩢᨠ (หลัก), ลาว ຫຼັກ (หลัก), ไทลื้อ ᦜᧅ (หลัก), ไทใหญ่ လၵ်း (ลั๊ก), อาหม 𑜎𑜀𑜫 (ลก์), แสก ลั๊ก, จ้วงแบบจั่วเจียง laek, จ้วง laek ยืมโดยกึ่งเรียนรู้จากสันสกฤต लक्ष (ลกฺษ) หรือยืมโดยกึ่งเรียนรู้จากบาลี ลกฺข; ร่วมเชื้อสายกับเขมร លក្ខ (ลกฺข)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩉᩖᩢᨠ",
+  "th": "หลัก",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "key",
+  "principle",
+  "pillar"
+ ]
+}

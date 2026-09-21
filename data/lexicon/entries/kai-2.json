@@ -1,0 +1,635 @@
+{
+ "id": "w:kai-2",
+ "th": "กาย",
+ "status": "mapped",
+ "rtgs": "kai",
+ "paiboon": "gaai",
+ "ipa": "/kaːj˧/",
+ "syllable_respelling": "กาย-ยะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "body"
+    ],
+    "th": "ตัว",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ร่างกาย",
+     "rtgs": "rang-kai",
+     "ipa": "/raːŋ˥˩.kaːj˧/",
+     "gloss": {
+      "en": [
+       "body",
+       "flesh",
+       "frame"
+      ],
+      "th": "ตัวตน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ร่าง",
+      "กาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปทรง + ตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "กายศิลป์",
+     "rtgs": "kai-ya-sin",
+     "ipa": "/kaːj˧.ja˦˥.sin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "งานศิลปะที่ทำขึ้นบน ด้วย หรือประกอบด้วยร่างกายมนุษย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กาย",
+      "ศิลป์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ตัว + ฝีมือ",
+     "frame": "entity"
+    },
+    {
+     "th": "กายบริหาร",
+     "rtgs": "kai-bo-ri-han",
+     "ipa": "/kaːj˧.bɔː˧.ri˦˥.haːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การบริหารร่างกาย, การออกกำลังกายด้วยท่าทางต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กาย",
+      "บริหาร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "body + manage",
+     "lit_th": "ตัว + ปกครอง"
+    },
+    {
+     "th": "กายสิทธิ์",
+     "rtgs": "kai-ya-sit",
+     "ipa": "/kaːj˧.ja˦˥.sit̚˨˩/",
+     "gloss": {
+      "en": [
+       "psychic"
+      ],
+      "th": "มีฤทธิ์เดชอยู่ในตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กาย",
+      "สิทธิ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สิทธิ์"
+     ],
+     "lit": "body + right",
+     "lit_th": "ตัว + อำนาจอันชอบธรรม",
+     "frame": "entity"
+    },
+    {
+     "th": "กายกรรม",
+     "rtgs": "kai-ya-kam",
+     "ipa": "/kaːj˧.ja˦˥.kam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การทำทางกาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กาย",
+      "กรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กรรม"
+     ],
+     "lit": "body + karma",
+     "lit_th": "ตัว + การ",
+     "frame": "entity"
+    },
+    {
+     "th": "กายภาพ",
+     "rtgs": "kai-ya-phap",
+     "ipa": "/kaːj˧.ja˦˥.pʰaːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "physical"
+      ],
+      "th": "เกี่ยวกับสิ่งที่ไม่มีชีวิต, เกี่ยวกับสสารและพลังงาน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กาย",
+      "ภาพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "body + image",
+     "lit_th": "ตัว + ความมี",
+     "frame": "entity"
+    },
+    {
+     "th": "แก่นกาย",
+     "rtgs": "kaen-kai",
+     "ipa": "/kɛn˨˩.kaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อวัยวะเพศชาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก่น",
+      "กาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "essence + body",
+     "lit_th": "เนื้อไม้แข็งและมีสีเข้ม อยู่ถัดกระ + ตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "ฝากกาย",
+     "translit_auto": "fakkay",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มอบตัวให้อยู่ในความดูแลหรืออุปการะของผู้อื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝาก",
+      "กาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "มอบให้ไว้เป็นต้นว่าเพื่อให้ช่วยดูแ + ตัว"
+    },
+    {
+     "th": "ภาษากาย",
+     "rtgs": "pha-sa-kai",
+     "ipa": "/pʰaː˧.saː˩˩˦.kaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การใช้ความเคลื่อนไหวหรือท่าทางของร่างกาย สื่อให้ผู้คนเข้าใจตามความต้องการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภาษา",
+      "กาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ภาษา"
+     ],
+     "lit": "language + body",
+     "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + ตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "ออกกำลังกาย",
+     "rtgs": "ok-kam-lang-kai",
+     "ipa": "/ʔɔːk̚˨˩.kam˧.laŋ˧.kaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริหารร่างกายเพื่อให้แข็งแรง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออกกำลัง",
+      "กาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "exercise + body",
+     "lit_th": "ใช้กำลัง + ตัว"
+    },
+    {
+     "th": "เปลือยกาย",
+     "rtgs": "plueai-kai",
+     "ipa": "/plɯa̯j˧.kaːj˧/",
+     "gloss": {
+      "en": [
+       "strip"
+      ],
+      "th": "กายเปล่า, ไม่นุ่งผ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เปลือย",
+      "กาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "naked + body",
+     "lit_th": "ไม่มีอะไรปกปิดร่างกาย + ตัว"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "หมู่, พวก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Pali kāya is both the body and the group — a company as one body.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "อสุรกาย",
+     "rtgs": "a-su-ra-kai",
+     "ipa": "/ʔa˨˩.su˨˩.ra˦˥.kaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัตว์เกิดในอบายภูมิ พวกหนึ่งเชื่อว่าชอบหลอกหลอนคน, คู่กับ เปรต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อสุร",
+      "กาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ อสูร + หมู่",
+     "frame": "entity"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 138 manuscript titles, 49 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "ประกาย",
+   "rtgs": "pra-kai",
+   "ipa": "/pra˨˩.kaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แสงที่เห็นกระเด็นกระจายออกจากวัตถุที่ลุกเป็นไฟ, แสงที่เห็นกระเด็นกระจายออกจากของแข็งบางอย่างที่กระทบกันอย่างแรง, ความแวววาวที่เหลี่ยมเพชรเป็นต้นกระทบแสง, แสงแปลบปลาบอย่างแสงฟ้าแลบ, โดยปริยายหมายถึง แสงที่มีลักษณะที่คล้าย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ประ",
+    "กาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: a spark. The dictionary says มาจากภาษาเขมร ផ្កាយ (ผฺกาย, 'ดาว') — Khmer phkāy, a star, แผลงมาจาก ผกาย. The ประ- is not a prefix on กาย 'body'.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + ตัว",
+   "use": "false-split"
+  },
+  {
+   "th": "กายทุจริต",
+   "rtgs": "kai-ya-thut-cha-rit",
+   "ipa": "/kaːj˧.ja˦˥.tʰut̚˦˥.t͡ɕa˨˩.rit̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความประพฤติชั่วทางกาย มี 3 อย่าง ได้แก่ การฆ่าสัตว์ การลักทรัพย์ การประพฤติผิดในกาม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กาย",
+    "ทุจริต"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ตัว + ความประพฤติชั่ว",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "จักกาย",
+   "rtgs": "chak-kai",
+   "ipa": "/t͡ɕak̚˨˩.kaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แม่ทัพ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จัก",
+    "กาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ทำให้เป็นแฉก ๆ หรือหยัก ๆ คล้ายฟัน + ตัว",
+   "use": "false-split"
+  },
+  {
+   "th": "ธรรมกาย",
+   "rtgs": "tham-ma-kai",
+   "ipa": "/tʰam˧.ma˦˥.kaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กายคือธรรม ได้แก่ พระมหากรุณาธิคุณ พระปัญญาธิคุณ และพระบริสุทธิคุณ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ธรรม",
+    "กาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ธรรม"
+   ],
+   "lit": "dharma + body",
+   "lit_th": "คุณความดี + ตัว",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "การออกกำลังกาย",
+   "rtgs": "kan-ok-kam-lang-kai",
+   "ipa": "/kaːn˧.ʔɔːk̚˨˩.kam˧.laŋ˧.kaːj˧/",
+   "gloss": {
+    "en": [
+     "exercise",
+     "physical exercise"
+    ],
+    "th": "คำอาการนามของ ออกกำลังกาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การออกกำลัง",
+    "กาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "exercise + body",
+   "lit_th": "คำอาการนามของ ออกกำลัง + ตัว",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต काय (กาย) หรือบาลี กาย",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kai",
+   "label": "ไก่",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kai\". กาย is gaai, ไก่ is gài — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

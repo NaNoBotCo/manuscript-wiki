@@ -1,0 +1,922 @@
+{
+ "id": "w:ron",
+ "th": "ร้อน",
+ "status": "mapped",
+ "rtgs": "ron",
+ "paiboon": "rɔ́ɔn",
+ "ipa": "/rɔːn˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "มีความรู้สึกตามผิวหนังเหมือนถูกไฟเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "มีอุณหภูมิสูง, มีพลังงานความร้อนมาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Hot to the touch becomes high in temperature.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "กระวนกระวาย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Hot in feeling: agitated, restless.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "รีบเร่ง, ช้าอยู่ไม่ได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ก้นร้อน",
+     "rtgs": "kon-ron",
+     "ipa": "/kon˥˩.rɔːn˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นั่งอยู่ที่ใดได้ไม่นาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ร้อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.15, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ก้น"
+     ],
+     "lit": "ass + hot",
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + รีบเร่ง",
+     "frame": "quality"
+    }
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "And so urgent, unable to wait.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "คำพ้องความของ ฤดูร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ฤดูร้อน",
+     "rtgs": "rue-du-ron",
+     "ipa": "/rɯ˦˥.duː˧.rɔːn˦˥/",
+     "gloss": {
+      "en": [
+       "summer"
+      ],
+      "th": "ส่วนของปีซึ่งแกนโลกหันเข้าหาดวงอาทิตย์ ทำให้ซีกโลกเหนือหรือใต้ที่เอนเข้าได้รับแสงแดดมากขึ้น และทำให้ภูมิอากาศมีอุณหภูมิสูงกว่าอุณหภูมิเฉลี่ย, ประเทศไทยนับฤดูร้อนตั้งแต่ช่วงที่ลมมรสุมตะวันออกเฉียงเหนือเปลี่ยนไปเป็นลมมรสุม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ฤดู",
+      "ร้อน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "season + hot",
+     "lit_th": "ส่วนของปีซึ่งแบ่งโดยถือเอาภูมิอากา + คำพ้องความของ ฤดูร้อน",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ฤดูร้อน clipped to ร้อน — the season named from the heat.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 22 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['ผิว', 'มือ', 'ตา'].",
+ "compounds_unassigned": [
+  {
+   "th": "เดือดร้อน",
+   "rtgs": "dueat-ron",
+   "ipa": "/dɯa̯t̚˨˩.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เป็นทุกข์กังวลไม่เป็นสุข",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เดือด",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit": "angry + hot",
+   "lit_th": "อาการที่ของเหลวพลุ่งขึ้นเพราะความร + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "แกงร้อน",
+   "rtgs": "kaeng-ron",
+   "ipa": "/kɛːŋ˧.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อแกงจืดชนิดหนึ่งใส่วุ้นเส้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แกง",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "แกง"
+   ],
+   "lit": "curry + hot",
+   "lit_th": "กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "ความรีบร้อน",
+   "rtgs": "khwam-rip-ron",
+   "ipa": "/kʰwaːm˧.riːp̚˥˩.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "hurry"
+    ],
+    "th": "คำอาการนามของ รีบร้อน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความรีบ",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ รีบ + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "ความเผ็ดร้อน",
+   "rtgs": "khwam-phet-ron",
+   "ipa": "/kʰwaːm˧.pʰet̚˨˩.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เผ็ดร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเผ็ด",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "spiciness + hot",
+   "lit_th": "คำอาการนามของ เผ็ด + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "ของร้อน",
+   "rtgs": "khong-ron",
+   "ipa": "/kʰɔːŋ˩˩˦.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของที่มีผู้ขโมยเขาเอามาฝากไว้หรือจำหน่ายให้ ถ้ารับเอาไว้จะทำให้เดือดร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ของ",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + hot",
+   "lit_th": "สิ่งต่าง ๆ + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "เดือนร้อน",
+   "rtgs": "duean-ron",
+   "ipa": "/dɯa̯n˧.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ฤดูร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เดือน",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "month + hot",
+   "frame": "quality"
+  },
+  {
+   "th": "ความทุกข์ร้อน",
+   "rtgs": "khwam-thuk-ron",
+   "ipa": "/kʰwaːm˧.tʰuk̚˦˥.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ทุกข์ร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความทุกข์",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ทุกข์ + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "การเดือดร้อน",
+   "rtgs": "kan-dueat-ron",
+   "ipa": "/kaːn˧.dɯa̯t̚˨˩.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เดือดร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเดือด",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เดือด + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "เผ็ดร้อน",
+   "rtgs": "phet-ron",
+   "ipa": "/pʰet̚˨˩.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "acrimonious"
+    ],
+    "th": "ทั้งเผ็ดทั้งร้อนอย่างรสพริกไทยหรือดีปลี",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เผ็ด",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 1,
+   "lit": "hot + hot",
+   "lit_th": "มีรสอย่างรสพริก + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "การพักร้อน",
+   "rtgs": "kan-phak-ron",
+   "ipa": "/kaːn˧.pʰak̚˦˥.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ พักร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การพัก",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ พัก + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "ใจร้อน",
+   "rtgs": "chai-ron",
+   "ipa": "/t͡ɕaj˧.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "impatient"
+    ],
+    "th": "มีใจไม่หนักแน่น ฉุนเฉียวง่าย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ใจ",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "heart + hot",
+   "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "ทุกข์ร้อน",
+   "rtgs": "thuk-ron",
+   "ipa": "/tʰuk̚˦˥.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กังวล, เดือดร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทุกข์",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ทุกข์"
+   ],
+   "lit": "suffering + hot",
+   "lit_th": "ความยากลำบาก + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "รีบร้อน",
+   "rtgs": "rip-ron",
+   "ipa": "/riːp̚˥˩.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "hurry"
+    ],
+    "th": "อาการที่รีบทำอย่างลุกลน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รีบ",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit": "hurry + hot",
+   "lit_th": "อาการที่ทำอย่างใดอย่างหนึ่งอย่างรว + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "หัวร้อน",
+   "rtgs": "hua-ron",
+   "ipa": "/hua̯˩˩˦.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โกรธ, โมโห",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หัว",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "head + hot",
+   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "กาวร้อน",
+   "rtgs": "kao-ron",
+   "ipa": "/kaːw˧.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ กาวตราช้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กาว",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "dope + hot",
+   "lit_th": "ของเหนียวที่เคี่ยวมาจากเอ็น หนัง ก + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "การรีบร้อน",
+   "rtgs": "kan-rip-ron",
+   "ipa": "/kaːn˧.riːp̚˥˩.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ รีบร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การรีบ",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ รีบ + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "พักร้อน",
+   "rtgs": "phak-ron",
+   "ipa": "/pʰak̚˦˥.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หยุดพักผ่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พัก",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit": "rest + hot",
+   "lit_th": "หยุดชั่วคราว + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "ร้อนตัว",
+   "rtgs": "ron-tua",
+   "ipa": "/rɔːn˦˥.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กลัวว่าโทษหรือความเดือดร้อนจะมาถึงตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ร้อน",
+    "ตัว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "hot + form",
+   "lit_th": "มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ + รูป",
+   "frame": "quality"
+  },
+  {
+   "th": "กระทะร้อน",
+   "rtgs": "kra-tha-ron",
+   "ipa": "/kra˨˩.tʰa˦˥.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จานเหล็กก้นแบนและตื้น มักมีลักษณะกลมหรือสี่เหลี่ยม เมื่อจะใช้เสิร์ฟอาหารจะนำไปทำให้ร้อนจัดก่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระทะ",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "pan + hot",
+   "lit_th": "ภาชนะก้นตื้น ใช้ทอดหรือผัดอาหาร + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "หน้าร้อน",
+   "rtgs": "na-ron",
+   "ipa": "/naː˥˩.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ฤดูร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หน้า",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "หน้า"
+   ],
+   "lit": "before + hot",
+   "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  },
+  {
+   "th": "ความร้อน",
+   "rtgs": "khwam-ron",
+   "ipa": "/kʰwaːm˧.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "thermal"
+    ],
+    "th": "คำอาการนามของ ร้อน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "ร้อน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + hot",
+   "lit_th": "เรื่อง + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *rɔːnꟲ⁴, จากไทดั้งเดิม *rwuːlꟲ; ร่วมเชื้อสายกับคำเมือง ᩁᩬ᩶ᩁ (รอ้ร), อีสาน ฮ้อน, ลาว ຮ້ອນ (ฮ้อน), ไทลื้อ ᦣᦸᧃᧉ (ฮ้อ̂น), ไทดำ ꪭ꫁ꪮꪙ (ฮ้อน), ไทขาว ꪭꪮꪙꫂ, ไทใหญ่ ႁွၼ်ႉ (ห๎อ̂น), ไทใต้คง ᥞᥩᥢᥳ (ห๎อ̂น), พ่าเก ꩭွꩫ︀် (หอ̂น์), อาหม 𑜍𑜨𑜃𑜫 (รอ̂น์), แสก รูน, จ้วงแบบจั่วเจียง lonx (ล้อน) (เมืองหลงอาน), ภาษาจ้วงใต้ lanx/lvanx (ล้าน/ลว้าน) (เมือง Daxin)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩁᩬ᩶ᩁ",
+  "th": "รอ้ร",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "hot"
+ ]
+}

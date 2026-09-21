@@ -1,0 +1,996 @@
+{
+ "id": "w:khao-4",
+ "th": "ขาว",
+ "status": "mapped",
+ "rtgs": "khao",
+ "paiboon": "kǎao",
+ "ipa": "/kʰaːw˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สีชนิดหนึ่งเหมือนสำลี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "น้ำขาว",
+     "rtgs": "nam-khao",
+     "ipa": "/nam˦˥.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำเมาชนิดหนึ่งทำด้วยข้าวเหนียวนึ่งคลุกกับแป้งเหล้าซึ่งเป็นเชื้อ หมักไว้จนมีน้ำขุ่นขาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.15, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + white",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "ขาวดำ",
+     "rtgs": "khao-dam",
+     "ipa": "/kʰaːw˩˩˦.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ไม่มีสีอื่นนอกจากสีขาว สีดำ และ/หรือสีเทาเฉดต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาว",
+      "ดำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ดำ"
+     ],
+     "lit": "white + black",
+     "lit_th": "สีชนิดหนึ่งเหมือนสำลี + มุดลง ในคำว่า ดำน้ำ"
+    },
+    {
+     "th": "ซองขาว",
+     "rtgs": "song-khao",
+     "ipa": "/sɔːŋ˧.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จดหมายแจ้งให้ออกจากงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ซอง",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "envelope + white",
+     "lit_th": "ซอกหรือช่องแคบ + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "ทำเนียบขาว",
+     "rtgs": "tham-niap-khao",
+     "ipa": "/tʰam˧.nia̯p̚˥˩.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่พักและที่ทำงานทางการของประธานาธิบดีสหรัฐอเมริกา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำเนียบ",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ที่พักทางราชการของผู้มีตำแหน่งสูง + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "ผงขาว",
+     "rtgs": "phong-khao",
+     "ipa": "/pʰoŋ˩˩˦.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เฮโรอีน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผง",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "powder + white",
+     "lit_th": "สิ่งละเอียด + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่ขาว",
+     "rtgs": "khai-khao",
+     "ipa": "/kʰaj˨˩.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของไข่สัตว์ เช่น ไข่ของนก ไข่ของสัตว์เลื้อยคลาน มีสีขาวใสอยู่รอบ ๆ ไข่แดง เป็นสารโปรตีนทำหน้าที่ป้องกันส่วนที่เป็นเซลล์ของไข่ เวลาเซลล์ของไข่แบ่งตัวเจริญเป็นตัวอ่อน ไข่ขาวจะเป็นอาหารของตัวอ่อนด้วย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "egg + white",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "ปูนขาว",
+     "rtgs": "pun-khao",
+     "ipa": "/puːn˧.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปูนสุก หรือ แคลเซียมไฮดรอกไซด์ ได้จากการนำปูนดิบผสมน้ำ ใช้ผสมกับปูนซีเมนต์ ทราย และน้ำ สำหรับฉาบทาฝาผนัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปูน",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หินปูนหรือเปลือกหอยเมื่อถูกเผาจนสล + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "ตาขาว",
+     "rtgs": "ta-khao",
+     "ipa": "/taː˧.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของดวงตาที่มีสีขาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "eye + white",
+     "lit_th": "พ่อของแม่ + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "กระดานขาว",
+     "rtgs": "kra-dan-khao",
+     "ipa": "/kra˨˩.daːn˧.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระดานใหญ่พื้นลื่นสีขาว ใช้ปากกาเคมีเขียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระดาน",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "board + white",
+     "lit_th": "ไม้ซุงที่เลื่อยออกมาเป็นแผ่น ๆ + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวขาว",
+     "rtgs": "tua-khao",
+     "ipa": "/tua̯˧.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โน้ตดนตรีรูปดังนี้ 𝅗𝅥 มีความยาว 2 เคาะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "form + white",
+     "lit_th": "รูป + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "กระเจี๊ยบขาว",
+     "rtgs": "kra-chiap-khao",
+     "ipa": "/kra˨˩.t͡ɕia̯p̚˦˥.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระเจี๊ยบชนิด Abelmoschus esculentus พันธุ์ผลสีขาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระเจี๊ยบ",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อไม้ล้มลุกชนิด Abelmoschus escu + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "มีสีอย่างสำลี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The colour names what has it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "แจ่มแจ้ง, สะอาดบริสุทธิ์, ปราศจากมลทิน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "White as clean, pure, without stain.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เทียนขาว, ชื่อเครื่องยาสมุนไพร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:medicine"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ผิวขาว",
+     "rtgs": "phio-khao",
+     "ipa": "/pʰiw˩˩˦.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนขาว, ชาวตะวันตก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผิว",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่มีลักษณะบาง ๆ เป็นพื้นหุ้มอ + เทียนขาว",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "เทียนขาว, the herb named for its colour.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "khao as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 7 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 7 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 7 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "18 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "หนองขาว",
+     "rtgs": "nong-khao",
+     "ipa": "/nɔːŋ˩˩˦.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่าม่วง จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + khao as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ขมิ้นขาว",
+     "rtgs": "kha–min–khao",
+     "ipa": "/kʰa˨˩.min˥˩.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้ล้มลุกในสกุล Curcuma ในวงศ์ Zingiberaceae เหง้าสีขาวอมเหลืองอ่อน ใช้เป็นผัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขมิ้น",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "turmeric + khao as an element in place names",
+     "lit_th": "ชื่อไม้ล้มลุกชนิด Curcuma longa ใน + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้ขาว",
+     "rtgs": "mai-khao",
+     "ipa": "/maːj˦˥.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอถลาง จังหวัดภูเก็ต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "wood + khao as an element in place names",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ผาขาว",
+     "rtgs": "pha-khao",
+     "ipa": "/pʰaː˩˩˦.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเลย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผา",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หินที่เขา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ท่าลาดขาว",
+     "rtgs": "tha-lat-khao",
+     "ipa": "/tʰaː˥˩.laːt̚˥˩.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโชคชัย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่าลาด",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอชุมพวง จังหวัด + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "หมีขาว",
+     "rtgs": "mi-khao",
+     "ipa": "/miː˩˩˦.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "polar bear"
+      ],
+      "th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมชนิด Ursus maritimus ในวงศ์ Ursidae (หมี) เป็นสัตว์กินเนื้อ ออกลูกเป็นตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หมี",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "bear + khao as an element in place names",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Urs + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "บัวขาว",
+     "rtgs": "bua-khao",
+     "ipa": "/bua̯˧.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกุฉินารายณ์ จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "lotus + khao as an element in place names",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรายขาว",
+     "rtgs": "sai-khao",
+     "ipa": "/saːj˧.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองท่อม จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทราย",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "sand + khao as an element in place names",
+     "lit_th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "หนองหญ้าขาว",
+     "rtgs": "nong-ya-khao",
+     "ipa": "/nɔːŋ˩˩˦.jaː˥˩.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสีคิ้ว จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนองหญ้า",
+      "ขาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาญจนบุรี + ใช้ประกอบชื่อสถานที่"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 11 manuscript titles, 191 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['สมุนไพร', 'ยา'].",
+ "compounds_unassigned": [
+  {
+   "th": "ความขาว",
+   "rtgs": "khwam-khao",
+   "ipa": "/kʰwaːm˧.kʰaːw˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "ขาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + white",
+   "lit_th": "เรื่อง + สีชนิดหนึ่งเหมือนสำลี",
+   "frame": "entity"
+  },
+  {
+   "th": "ขาวม้า",
+   "rtgs": "khao-ma",
+   "ipa": "/kʰaːw˩˩˦.maː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(ผ้า~) ผ้าฝ้ายทอเป็นรูปสี่เหลี่ยมผืนผ้า มักมีลายตาหมากรุก ใช้ผลัดอาบน้ำหรือเคียนพุงเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขาว",
+    "ม้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the ผ้าขาวม้า cloth. The dictionary gives ยืมโดยกึ่งเรียนรู้จากเปอร์เซียคลาสสิก کمربند (กะมัรบันด, 'ผ้าคาดเอว') — a semi-learned borrowing from Classical Persian kamarband, 'waist' + 'band'. Neither ขาว 'white' nor ม้า 'horse' is in it.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "white + horse",
+   "lit_th": "สีชนิดหนึ่งเหมือนสำลี + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *xaːwᴬ; ร่วมเชื้อสายกับคำเมือง ᨡᩣ᩠ᩅ (ขาว), ปักษ์ใต้ ข้าว, ลาว ຂາວ (ขาว), ไทลื้อ ᦃᦱᧁ (ฃาว), ไทดำ ꪄꪱꪫ (ฃาว), ไทใหญ่ ၶၢဝ် (ขาว), ไทใต้คง ᥑᥣᥝᥴ (ฃ๋าว), อาหม 𑜁𑜧 (ขว์) หรือ 𑜁𑜨𑜧 (ขอ̂ว์), จ้วง kau/hau, ปู้อี haaul, แสก ห่าว; เทียบไหลดั้งเดิม *kʰaːw",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩣ᩠ᩅ",
+  "th": "ขาว",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao",
+   "label": "ข้าว",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". ขาว is kǎao, ข้าว is kâao — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao-2",
+   "label": "เข้า",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". ขาว is kǎao, เข้า is kâo — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao-3",
+   "label": "เขา",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". ขาว is kǎao, เขา is kǎo — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao-5",
+   "label": "ข่าว",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". ขาว is kǎao, ข่าว is kàao — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "white",
+  "fair"
+ ]
+}

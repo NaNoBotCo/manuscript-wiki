@@ -1,0 +1,1953 @@
+{
+ "id": "w:thong",
+ "th": "ทอง",
+ "status": "mapped",
+ "rtgs": "thong",
+ "paiboon": "tɔɔng",
+ "ipa": "/tʰɔːŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "gold"
+    ],
+    "th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหลืองสุกปลั่ง เป็นโลหะมีค่า, เรียกเต็มว่า ทองคำ",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ทองคำ",
+     "rtgs": "thong-kham",
+     "ipa": "/tʰɔːŋ˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ธาตุลำดับที่ 79 สัญลักษณ์ Au เป็นโลหะ ลักษณะเป็นของแข็งสีเหลือง ทองคำ เป็นโลหะชนิดหนึ่ง มีราคาแพง ทอง เฉย ๆ ก็เรียก, บางถิ่นของไทยเรียกว่า \"คำ\"",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "คำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "gold + word",
+     "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + เสียงพูด",
+     "frame": "entity"
+    },
+    {
+     "th": "ตกทอง",
+     "rtgs": "tok-thong",
+     "ipa": "/tok̚˨˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิธีการหลอกลวงด้วยการใช้ทองปลอมที่มีน้ำหนักมากกว่าไปแลกเป็นทองแท้ที่มีน้ำหนักน้อยกว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตก"
+     ],
+     "lit": "decrease + gold",
+     "lit_th": "พลัดลง + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล"
+    },
+    {
+     "th": "ขุดทอง",
+     "rtgs": "khut-thong",
+     "ipa": "/kʰut̚˨˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขุดดินเพื่อหาแร่ทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขุด",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "mine + gold",
+     "lit_th": "กิริยาที่สับ เจาะ แทง หรือ คุ้ยเอา + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล"
+    },
+    {
+     "th": "ทองใบ",
+     "rtgs": "thong-bai",
+     "ipa": "/tʰɔːŋ˧.baj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทองคำที่แผ่ให้เป็นแผ่นบาง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "ใบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใบ"
+     ],
+     "lit": "gold + leaf",
+     "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต",
+     "frame": "entity"
+    },
+    {
+     "th": "คานทอง",
+     "rtgs": "khan-thong",
+     "ipa": "/kʰaːn˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาวะเป็นโสดของหญิงที่มีอายุเกินวัยแต่งงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คาน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เครื่องเรือนที่ยึดเสาและรองตง ทำด้ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    },
+    {
+     "th": "กรองทอง",
+     "rtgs": "krong-thong",
+     "ipa": "/krɔːŋ˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าโปร่งที่ถักทอด้วยเส้นลวดทองหรือไหมทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กรอง",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "filter + gold",
+     "lit_th": "ร้อย + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล"
+    },
+    {
+     "th": "ดอกทอง",
+     "rtgs": "dok-thong",
+     "ipa": "/dɔːk̚˨˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงใจง่ายในทางประเวณี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอก",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "flower + gold",
+     "lit_th": "ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    },
+    {
+     "th": "จำลองทอง",
+     "translit_auto": "chamlongthong",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสัปคับจำพวกกูบ ใช้ผูกหลังช้างพัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จำลอง",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ถ่ายแบบ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล"
+    },
+    {
+     "th": "ทองข้อพระบาท",
+     "translit_auto": "thongkhophrabath",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำไลข้อเท้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "ข้อพระบาท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + ข้อเท้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ทองข้อพระกร",
+     "rtgs": "thong-kho-phra-kon",
+     "ipa": "/tʰɔːŋ˧.kʰɔː˥˩.pʰra˦˥.kɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำไลข้อมือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "ข้อพระกร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + ข้อมือ",
+     "frame": "entity"
+    },
+    {
+     "th": "ทองเค",
+     "translit_auto": "thongk",
+     "ipa": "[tʰɔ̃ːŋ˧.kʰeː˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกทองคำที่มีเกณฑ์สำหรับวัดความบริสุทธิ์เป็นกะรัตว่าทองเค, ทอง 24 กะรัต ถือเป็นทองแท้ ถ้ามีกะรัตต่ำลงมา ก็มีโลหะอื่นเจือมากขึ้นตามส่วนเช่น ทองคำ 14 กะรัต หมายถึงมีเนื้อทอง 14 ส่วน มีโลหะอื่นปน 10 ส่วน, ทองนอก ก็เรียก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "เค"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + ชื่อตัวอักษรในอักษรละติน K/k",
+     "frame": "entity"
+    },
+    {
+     "th": "ขวานทอง",
+     "rtgs": "khwan-thong",
+     "ipa": "/kʰwaːn˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำนามนัยหมายถึงประเทศไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวาน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "axe + gold",
+     "lit_th": "เครื่องมือสำหรับตัด ฟัน ผ่า ถากไม้ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    },
+    {
+     "th": "เหรียญทอง",
+     "rtgs": "rian-thong",
+     "ipa": "/ria̯n˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหรียญรางวัลที่ให้สำหรับผู้ชนะเลิศ ซึ่งก็คืออันดับที่หนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหรียญ",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "coin + gold",
+     "lit_th": "โลหะที่มีลักษณะกลมแบนหรือรูปเหลี่ย + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "เรียกสิ่งที่ทำด้วยทองเหลือง ว่า ทอง ก็มี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ทองเหลือง",
+     "rtgs": "thong-lueang",
+     "ipa": "/tʰɔːŋ˧.lɯa̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "brass"
+      ],
+      "th": "โลหะเจือชนิดหนึ่ง ประกอบด้วยทองแดงและสังกะสีลักษณะเป็นโลหะสีเหลือง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "เหลือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "frame": "quality"
+    },
+    {
+     "th": "ทองแดง",
+     "rtgs": "thong-daeng",
+     "ipa": "/tʰɔːŋ˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "copper"
+      ],
+      "th": "ธาตุลำดับที่ 29 สัญลักษณ์ Cu เป็นโลหะ ลักษณะเป็นของแข็งสีแดง หลอมละลายที่ 1,083 องศาเซลเซียส เนื้ออ่อนบุให้เป็นแผ่นบางและรีดเป็นเส้นลวดได้ง่าย เป็นตัวนำความร้อนและไฟฟ้าได้ดี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "gold + red",
+     "lit_th": "เรียกสิ่งที่ทำด้วยทองเหลือง ว่า ทอ + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Brass called gold, on the strength of the colour.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "ใช้ประกอบสิ่งต่าง ๆ บางอย่างโดยอนุโลมตามลักษณะสี เป็นชื่อเรียกเฉพาะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Prefixed to things named for their gold colour.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ทองเอก",
+     "rtgs": "thong-ek",
+     "ipa": "/tʰɔːŋ˧.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อขนมชนิดหนึ่ง เคี่ยวน้ำกะทิกับน้ำตาลจนเหนียว ทิ้งไว้ให้เย็นแล้วใส่ไข่แดง แป้งสาลี ตั้งไฟกวนจนแป้งร่อน อัดใส่พิมพ์เป็นรูปต่าง ๆ แต่งหน้าด้วยทองคำเปลวแผ่นเล็ก ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "เอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "gold + one",
+     "lit_th": "ใช้ประกอบสิ่งต่าง ๆ บางอย่างโดยอนุ + หนึ่ง"
+    },
+    {
+     "th": "กระทงทอง",
+     "rtgs": "kra-thong-thong",
+     "ipa": "/kra˨˩.tʰoŋ˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของว่างชนิดหนึ่ง มีลักษณะเป็นกระทงใส่ไส้ กระทงทำจากแป้งสาลีผสมกับไข่เป็ด หัวกะทิ เป็นต้น เอาพิมพ์กระทงจุ่มแป้งลงทอดในกระทะให้เป็นรูปกระทงตามพิมพ์ ใส่ใส้ทำด้วยเนื้อไก่ หอมใหญ่ มันฝรั่ง ผัดปรุงรสเค็มหวาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระทง",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ภาชนะเย็บด้วยใบตองหรือใบไม้เป็นต้น + ใช้ประกอบสิ่งต่าง ๆ บางอย่างโดยอนุ",
+     "frame": "entity"
+    },
+    {
+     "th": "ฝนทอง",
+     "rtgs": "fon-thong",
+     "ipa": "/fon˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(ไม้~) เครื่องหมายรูปสระ เป็นรูปรอยขีดเดียวดังนี้ ' (เหมือนไม้เอก) สำหรับเขียนบนสระ อิ เป็นสระ อี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "rain + gold",
+     "lit_th": "น้ำที่ตกลงมาจากเมฆเป็นเม็ด ๆ + ใช้ประกอบสิ่งต่าง ๆ บางอย่างโดยอนุ",
+     "frame": "entity"
+    },
+    {
+     "th": "หมอนทอง",
+     "rtgs": "mon-thong",
+     "ipa": "/mɔːn˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อมะม่วงพันธุ์หนึ่งในชนิด Mangifera indica L",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมอน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "pillow + gold",
+     "lit_th": "เครื่องสำหรับหนุนศีรษะหรือหนุนสิ่ง + ใช้ประกอบสิ่งต่าง ๆ บางอย่างโดยอนุ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ขี้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "euphemism",
+   "via_note": "A veiling word for excrement — the most valuable thing standing in for the least.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "สีเหลืองที่มีความแวววาวอย่างโลหะทอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The metal names its lustrous yellow.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "สีคล้ายเหลือง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "And loosely, anything yellowish.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "thong as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 25 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 74 of the 5333 wats in the northern registry carry it, and 58 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 25 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 25 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "74 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "โนนทอง",
+     "rtgs": "non-thong",
+     "ipa": "/noːn˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแวงใหญ่ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โนน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "mound + thong as an element in place names",
+     "lit_th": "เนิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ท่าทอง",
+     "rtgs": "tha-thong",
+     "ipa": "/tʰaː˥˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + thong as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "หนองทอง",
+     "rtgs": "nong-thong",
+     "ipa": "/nɔːŋ˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอไทรงาม จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + thong as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "อู่ทอง",
+     "rtgs": "u-thong",
+     "ipa": "/ʔuː˨˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุพรรณบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อู่",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เปลเด็ก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ขุนทอง",
+     "rtgs": "khun-thong",
+     "ipa": "/kʰun˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อนกขนาดกลางชนิด Gracula religiosa Linn. ในวงศ์ Sturnidae ปากสีส้ม ที่ท้ายทอยและหางตาทั้ง 2 ข้างมีแผ่นเนื้อสีเหลือง ขนลำตัวสีดำเลื่อมเป็นมัน ที่ปีกมีขนสีขาวแซม ตีนสีเหลืองจัด ร้องเลียนเสียงคนหรือเสียงอื่น ๆ บางอย่างได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขุน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ผู้เป็นใหญ่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ดินทอง",
+     "rtgs": "din-thong",
+     "ipa": "/din˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวังทอง จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดิน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "soil + thong as an element in place names",
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนทอง",
+     "rtgs": "don-thong",
+     "ipa": "/dɔːn˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "lit": "hill + thong as an element in place names",
+     "lit_th": "พื้นที่ที่น้ำท่วมไม่ถึง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ธารทอง",
+     "rtgs": "than-thong",
+     "ipa": "/tʰaːn˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ธาร",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สายนํ้า + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "กกทอง",
+     "rtgs": "kok-thong",
+     "ipa": "/kok̚˨˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเลย จังหวัดเลย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กก",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กก"
+     ],
+     "lit": "the -k final spelling class + thong as an element in place names",
+     "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ก ข ค ฆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ไทรทอง",
+     "rtgs": "sai-thong",
+     "ipa": "/saj˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองหาด จังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไทร",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "พานทอง",
+     "rtgs": "phan-thong",
+     "ipa": "/pʰaːn˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พาน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ภาชนะมีเชิงประเภทหนึ่ง มีหลายชนิด + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "สิงโตทอง",
+     "rtgs": "sing-to-thong",
+     "ipa": "/siŋ˩˩˦.toː˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางน้ำเปรี้ยว จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิงโต",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "lion + thong as an element in place names",
+     "lit_th": "ชื่อสัตว์ในจินตนาการของจีน ถือว่าม + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งทอง",
+     "rtgs": "thung-thong",
+     "ipa": "/tʰuŋ˥˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่าม่วง จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + thong as an element in place names",
+     "lit_th": "ที่ราบโล่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "สายทอง",
+     "rtgs": "sai-thong",
+     "ipa": "/saːj˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอป่าโมก จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "late + thong as an element in place names",
+     "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ช้างทอง",
+     "rtgs": "chang-thong",
+     "ipa": "/t͡ɕʰaːŋ˦˥.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเฉลิมพระเกียรติ จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "elephant + thong as an element in place names",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "จอมทอง",
+     "rtgs": "chom-thong",
+     "ipa": "/t͡ɕɔːm˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จอม",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ฟักทอง",
+     "rtgs": "fak-thong",
+     "ipa": "/fak̚˦˥.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้เถาชนิด Cucurbita moschata Duchesne ในวงศ์ Cucurbitaceae ผลแป้นเป็นพูโดยรอบ เนื้อในสีเหลือง กินได้ เมล็ดใช้ทำยาได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฟัก",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อไม้เถาชนิดหนึ่ง ผลใหญ่ กลมรี เ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ค้อนทอง",
+     "rtgs": "khon-thong",
+     "ipa": "/kʰɔːn˦˥.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อนกร้องเสียงดังกุ๊ก ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ค้อน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "hammer + thong as an element in place names",
+     "lit_th": "ชื่อเครื่องมือที่มีหัวและด้าม สำหร + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "วังทอง",
+     "rtgs": "wang-thong",
+     "ipa": "/waŋ˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + thong as an element in place names",
+     "lit_th": "ที่อยู่ของเจ้านาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "โพธิ์ทอง",
+     "rtgs": "pho-thong",
+     "ipa": "/pʰoː˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพธิ์",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "enlightenment + thong as an element in place names",
+     "lit_th": "ความตรัสรู้ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "เต่าทอง",
+     "rtgs": "tao-thong",
+     "ipa": "/taw˨˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแมลงพวกด้วงขนาดเล็กหลายชนิด หลายสกุล ในวงศ์ Chrysomelidae รูปร่างค่อนข้างกลม ลำตัวโค้งแบน ปีกแข็งใส โค้งนูน เมื่อหุบปีกจดกันด้านหลังทำให้มองคล้ายหลังเต่า ปีกมีลวดลายเหลือบสีทอง เรียก เต่าทอง เช่น ชนิด Aspidomorpha sa",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เต่า",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อสัตว์เลื้อยคลานหลายวงศ์ ในอันด + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรายทอง",
+     "rtgs": "sai-thong",
+     "ipa": "/saːj˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอห้วยเม็ก จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทราย",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "sand + thong as an element in place names",
+     "lit_th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "โพนทอง",
+     "rtgs": "phon-thong",
+     "ipa": "/pʰoːn˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดร้อยเอ็ด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพน",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอคำม่วง จังหวัด + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "แหลมทอง",
+     "rtgs": "laem-thong",
+     "ipa": "/lɛːm˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองบุญมาก จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แหลม",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "tongue + thong as an element in place names",
+     "lit_th": "มีปลายเสี้ยมคม + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "หว้าทอง",
+     "rtgs": "wa-thong",
+     "ipa": "/waː˥˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอภูเวียง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หว้า",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "jambul + thong as an element in place names",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Syzygium Cu + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ทองแท้",
+     "rtgs": "thong-thae",
+     "ipa": "/tʰɔːŋ˧.tʰɛː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวัดโบสถ์ จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "แท้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "thong as an element in place names + real",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ล้วน ๆ",
+     "frame": "quality"
+    },
+    {
+     "th": "บ่อทอง",
+     "rtgs": "bo-thong",
+     "ipa": "/bɔː˨˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ่อ",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ่อ"
+     ],
+     "lit": "well + thong as an element in place names",
+     "lit_th": "ช่องลึกลงไปในดินหรือในหินใช้เป็นที + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาทอง",
+     "rtgs": "khao-thong",
+     "ipa": "/kʰaw˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกระบี่ จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เขา"
+     ],
+     "lit": "mountain + thong as an element in place names",
+     "lit_th": "เนินที่นูนสูงขึ้นไปเป็นจอมเด่น + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "พลวงทอง",
+     "rtgs": "phluang-thong",
+     "ipa": "/pʰlua̯ŋ˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ่อทอง จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พลวง",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ธาตุลำดับที่ 51 สัญลักษณ์ Sb เป็นโ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "อ่างทอง",
+     "rtgs": "ang-thong",
+     "ipa": "/ʔaːŋ˨˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(จังหวัด~) ชื่อจังหวัดในภาคกลางของประเทศไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่าง",
+      "ทอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ภาชนะสำหรับใส่น้ำ เป็นต้น มักมีลัก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 15 manuscript titles, 2509 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 53; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "การขุดทอง",
+   "rtgs": "kan-khut-thong",
+   "ipa": "/kaːn˧.kʰut̚˨˩.tʰɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขุดทอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขุด",
+    "ทอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "mining + gold",
+   "lit_th": "คำอาการนามของ ขุด + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
+  },
+  {
+   "th": "ธาตุทอง",
+   "rtgs": "that-thong",
+   "ipa": "/tʰaːt̚˥˩.tʰɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ทอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ธาตุ",
+    "ทอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "element + gold",
+   "lit_th": "สิ่งที่ถือว่าเป็นส่วนสำคัญที่คุมกั + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
+  },
+  {
+   "th": "ตะเคียนทอง",
+   "rtgs": "ta-khian-thong",
+   "ipa": "/ta˨˩.kʰia̯n˧.tʰɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ตะเคียน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตะเคียน",
+    "ทอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Hopea odora + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
+  },
+  {
+   "th": "การตกทอง",
+   "rtgs": "kan-tok-thong",
+   "ipa": "/kaːn˧.tok̚˨˩.tʰɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตกทอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตก",
+    "ทอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "drop + gold",
+   "lit_th": "คำอาการนามของ ตก + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "จากจีนเก่า 銅 (OC *doːŋ, “ทองแดง”); ร่วมเชื้อสายกับลาว ທອງ (ทอง), คำเมือง ᨴᩬᨦ (ทอง), ไทลื้อ ᦑᦸᧂ (ทอ̂ง), ไทใหญ่ တွင်း (ต๊อ̂ง), เขมร ទង់ (ทง̍), ថង (ถง) และ ទង (ทง), เวียดนาม đồng (ด่ง), จ้วงแบบจั่วเจียง toŋ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨴᩬᨦ",
+  "th": "ทอง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:thong-2",
+   "label": "ท้อง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"thong\". ทอง is tɔɔng, ท้อง is tɔ́ɔng — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1309 @@
+{
+ "id": "w:khao-3",
+ "th": "เขา",
+ "status": "mapped",
+ "rtgs": "khao",
+ "paiboon": "kǎo",
+ "ipa": "/kʰaw˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: เขา 'hill'.",
+    "Declared root: เขา 'hill'.",
+    "Declared root: เขา 'hill'.",
+    "Declared root: เขา 'hill'.",
+    "Declared root: เขา 'hill'.",
+    "Declared root: เขา 'hill'.",
+    "Declared root: เขา 'hill'.",
+    "Declared root: เขา 'hill'."
+   ],
+   "compounds": [
+    {
+     "th": "ภูเขา",
+     "rtgs": "phu-khao",
+     "ipa": "/pʰuː˧.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "mount"
+      ],
+      "th": "พื้นที่ที่มีระดับสูงขึ้นจากบริเวณรอบ ๆ ตั้งแต่ 600 เมตรขึ้นไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ภู",
+      "เขา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.23, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ภู"
+     ],
+     "lit": "earth + mountain",
+     "lit_th": "ดิน + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
+    },
+    {
+     "th": "หลังเขา",
+     "rtgs": "lang-khao",
+     "ipa": "/laŋ˩˩˦.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อยู่ห่างไกลเมืองหลวงทำให้ไม่รู้ข่าวคราวหรือเรื่องราว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัง",
+      "เขา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หลัง"
+     ],
+     "lit": "back + mountain",
+     "lit_th": "ซีกของกายที่ตรงข้ามกับหน้าอก + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
+    },
+    {
+     "th": "ไหล่เขา",
+     "rtgs": "lai-khao",
+     "ipa": "/laj˨˩.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "mountainside",
+       "mountainslope"
+      ],
+      "th": "ส่วนของเขาที่ถัดยอดเขาลงมา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไหล่",
+      "เขา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "shoulder + mountain",
+     "lit_th": "ส่วนของบ่าตอนที่ติดกับต้นแขน + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
+    },
+    {
+     "th": "สันเขา",
+     "rtgs": "san-khao",
+     "ipa": "/san˩˩˦.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนสูงของภูเขาที่ยาวเป็นทิวพืดไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัน",
+      "เขา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สัน"
+     ],
+     "lit": "ridge + mountain",
+     "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
+    },
+    {
+     "th": "ชาวเขา",
+     "rtgs": "chao-khao",
+     "ipa": "/t͡ɕʰaːw˧.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลุ่มชาติพันธุ์ที่อาศัยอยู่แถบภูเขา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชาว",
+      "เขา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "กลุ่มชนที่มีเชื้อชาติเดียวกัน หรือ + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
+    },
+    {
+     "th": "เทือกเขา",
+     "rtgs": "thueak-khao",
+     "ipa": "/tʰɯa̯k̚˥˩.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "mountains"
+      ],
+      "th": "แนวเขาที่ต่อเนื่องกันไปเป็นพืด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เทือก",
+      "เขา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ที่ดินที่ไถและคราดแล้วทำให้เป็นโคล + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
+    },
+    {
+     "th": "ช่องเขา",
+     "rtgs": "chong-khao",
+     "ipa": "/t͡ɕʰɔŋ˥˩.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เส้นทางที่ใช้เป็นทางข้ามทิวเขาจากด้านหนึ่งไปยังอีกด้านหนึ่ง, ช่องที่อยู่ในระหว่างเขา 2 ลูก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "เขา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช่อง"
+     ],
+     "lit": "hole + mountain",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
+    },
+    {
+     "th": "หุบเขา",
+     "rtgs": "hup-khao",
+     "ipa": "/hup̚˨˩.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "vale",
+       "valley"
+      ],
+      "th": "แอ่งภูมิประเทศที่เป็นเส้นเป็นแนวยาว 2 ข้างแอ่งขนาบด้วยพื้นแผ่นดินสูงหรือภูเขาหรือเทือกเขา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หุบ",
+      "เขา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "fold + mountain",
+     "lit_th": "อาการรวมเข้าของสิ่งที่ขยายออก + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น"
+    },
+    {
+     "th": "เขามอ",
+     "rtgs": "khao-mo",
+     "ipa": "/kʰaw˩˩˦.mɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เขาจำลองที่ทำไว้ดูเล่นในบ้านเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "มอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "สิ่งที่งอกออกมาจากหัวสัตว์บางพวก มีลักษณะแข็ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: เขา 'horn' — a protrusion too, but the link to the hill word is not established here.",
+    "Declared root: เขา 'horn' — a protrusion too, but the link to the hill word is not established here.",
+    "Declared root: เขา 'horn' — a protrusion too, but the link to the hill word is not established here.",
+    "Declared root: เขา 'horn' — a protrusion too, but the link to the hill word is not established here.",
+    "Declared root: เขา 'horn' — a protrusion too, but the link to the hill word is not established here.",
+    "Declared root: เขา 'horn' — a protrusion too, but the link to the hill word is not established here.",
+    "Declared root: เขา 'horn' — a protrusion too, but the link to the hill word is not established here.",
+    "Declared root: เขา 'horn' — a protrusion too, but the link to the hill word is not established here."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "(นก~) ชื่อนกขนาดกลางหลายชนิดหลายสกุล ในวงศ์ Columbidae ปากสั้นตรงปลายโค้งเล็กน้อย ขนลำตัวสีเทาหรือเทาอมน้ำตาล ขนปีกมีลาย ขาสีชมพู มักอยู่เป็นคู่หรือเป็นฝูง กินเมล็ดพืชบนพื้นดิน ในประเทศไทยมีหลายชนิด เช่น เขาใหญ่หรือเขาหลวง [Streptopelia chinensis (Scopoli)] เขาลายเล็ก [Macropygia ruficeps (Temminck)] เขาเขียว [Chalcophaps indica (Linn.)] เขาชวาหรือเขาเล็ก [Geopelia striata (Linn.)]",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: นกเขา the dove — a bird name, likely from its call.",
+    "Declared root: นกเขา the dove — a bird name, likely from its call.",
+    "Declared root: นกเขา the dove — a bird name, likely from its call.",
+    "Declared root: นกเขา the dove — a bird name, likely from its call.",
+    "Declared root: นกเขา the dove — a bird name, likely from its call.",
+    "Declared root: นกเขา the dove — a bird name, likely from its call.",
+    "Declared root: นกเขา the dove — a bird name, likely from its call.",
+    "Declared root: นกเขา the dove — a bird name, likely from its call."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "คำใช้แทนผู้ที่เราพูดถึง, เป็นสรรพนามบุรุษที่ 3",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: เขา, the third-person pronoun.",
+    "Declared root: เขา, the third-person pronoun.",
+    "Declared root: เขา, the third-person pronoun.",
+    "Declared root: เขา, the third-person pronoun.",
+    "Declared root: เขา, the third-person pronoun.",
+    "Declared root: เขา, the third-person pronoun.",
+    "Declared root: เขา, the third-person pronoun.",
+    "Declared root: เขา, the third-person pronoun."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เถาวัลย์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: เขา 'vine, creeper'.",
+    "Declared root: เขา 'vine, creeper'.",
+    "Declared root: เขา 'vine, creeper'.",
+    "Declared root: เขา 'vine, creeper'.",
+    "Declared root: เขา 'vine, creeper'.",
+    "Declared root: เขา 'vine, creeper'.",
+    "Declared root: เขา 'vine, creeper'.",
+    "Declared root: เขา 'vine, creeper'."
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เข่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: เขา 'knee' (เข่า).",
+    "Declared root: เขา 'knee' (เข่า).",
+    "Declared root: เขา 'knee' (เข่า).",
+    "Declared root: เขา 'knee' (เข่า).",
+    "Declared root: เขา 'knee' (เข่า).",
+    "Declared root: เขา 'knee' (เข่า).",
+    "Declared root: เขา 'knee' (เข่า).",
+    "Declared root: เขา 'knee' (เข่า)."
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "khao as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 19 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 19 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 19 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "13 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "เขาวง",
+     "rtgs": "khao-wong",
+     "ipa": "/kʰaw˩˩˦.woŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "วง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "khao as an element in place names + zone",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาสมิง",
+     "rtgs": "khao-sa-ming",
+     "ipa": "/kʰaw˩˩˦.sa˨˩.miŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตราด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "สมิง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "เขาดิน",
+     "translit_auto": "kheadin",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเขาพนม จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "ดิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "khao as an element in place names + soil",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาน้อย",
+     "rtgs": "khao-noi",
+     "ipa": "/kʰaw˩˩˦.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่าม่วง จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "น้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "น้อย"
+     ],
+     "lit": "khao as an element in place names + little",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "เขาต่อ",
+     "rtgs": "khao-to",
+     "ipa": "/kʰaw˩˩˦.tɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปลายพระยา จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "ต่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ต่อ"
+     ],
+     "lit": "khao as an element in place names + a",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาสามสิบ",
+     "rtgs": "khao-sam-sip",
+     "ipa": "/kʰaw˩˩˦.saːm˩˩˦.sip̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเขาฉกรรจ์ จังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "สามสิบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 0,
+     "lit": "khao as an element in place names + thirty",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + จำนวน 30 คือ 10 สามหนรวมกัน"
+    },
+    {
+     "th": "เขาซก",
+     "rtgs": "khao-sok",
+     "ipa": "/kʰaw˩˩˦.sok̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองใหญ่ จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "ซก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เปียกชุ่มจนถึงหยด"
+    },
+    {
+     "th": "เขาวัว",
+     "rtgs": "khao-wua",
+     "ipa": "/kʰaw˩˩˦.wua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่าใหม่ จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "วัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Bos t",
+     "frame": "entity"
+    },
+    {
+     "th": "นกเขา",
+     "rtgs": "nok-khao",
+     "ipa": "/nok̚˦˥.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อนกขนาดกลางหลายชนิดหลายสกุล (ดูที่ เขา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "เขา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นก"
+     ],
+     "lit": "bird + khao as an element in place names",
+     "lit_th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าเขา",
+     "rtgs": "na-khao",
+     "ipa": "/naː˥˩.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเขาพนม จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "เขา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "before + khao as an element in place names",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาฉกรรจ์",
+     "rtgs": "khao-cha-kan",
+     "ipa": "/kʰaw˩˩˦.t͡ɕʰa˨˩.kan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "ฉกรรจ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ห้าวหาญ",
+     "frame": "quality"
+    },
+    {
+     "th": "เขาค้อ",
+     "rtgs": "khao-kho",
+     "ipa": "/kʰaw˩˩˦.kʰɔː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเพชรบูรณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "ค้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อปาล์มชนิด Livistona speciosa K",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาคราม",
+     "rtgs": "khao-khram",
+     "ipa": "/kʰaw˩˩˦.kʰraːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกระบี่ จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "คราม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บ้าน",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาเขน",
+     "rtgs": "khao-khen",
+     "ipa": "/kʰaw˩˩˦.kʰeːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปลายพระยา จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "เขน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องถือสำหรับป้องกันศัสตราวุธ เ",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาใหญ่",
+     "rtgs": "khao-yai",
+     "ipa": "/kʰaw˩˩˦.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออ่าวลึก จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "ใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "khao as an element in place names + huge",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "เขาย้อย",
+     "rtgs": "khao-yoi",
+     "ipa": "/kʰaw˩˩˦.jɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเพชรบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "ย้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "khao as an element in place names + drop",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ห้อยเป็นทางลงมา"
+    },
+    {
+     "th": "เขาแก้ว",
+     "rtgs": "khao-kaeo",
+     "ipa": "/kʰaw˩˩˦.kɛːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่าใหม่ จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "แก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "khao as an element in place names + glass",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาพนม",
+     "rtgs": "khao-pha-nom",
+     "ipa": "/kʰaw˩˩˦.pʰa˦˥.nom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "พนม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภูเขา",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาบายศรี",
+     "rtgs": "khao-bai-si",
+     "ipa": "/kʰaw˩˩˦.baːj˧.siː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่าใหม่ จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "บายศรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องเชิญขวัญหรือรับขวัญ ทำด้วยใ",
+     "frame": "entity"
+    },
+    {
+     "th": "เขาทอง",
+     "rtgs": "khao-thong",
+     "ipa": "/kʰaw˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกระบี่ จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "ทอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "khao as an element in place names + gold",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 5 manuscript titles, 205 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 30; domain seeded by keyword hits ['ปาก', 'หัว', 'ขน', 'ขา'].",
+ "compounds_unassigned": [
+  {
+   "th": "เขาวงกต",
+   "rtgs": "khao-wong-kot",
+   "ipa": "/kʰaw˩˩˦.woŋ˧.kot̚˨˩/",
+   "gloss": {
+    "en": [
+     "labyrinth"
+    ],
+    "th": "คำพ้องความของ วงกต",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เขา",
+    "วงกต"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "เทียบจีนยุคกลาง 丘 (MC khjuw); ร่วมเชื้อสายกับคำเมือง ᨡᩮᩢᩣ (เขัา), ลาว ເຂົາ (เข็า), ไทลื้อ ᦃᧁ (เฃา), อาหม 𑜁𑜧 (ขว์), ภาษาจ้วงใต้เมืองหลงโจว kaeu (เขา), ภาษาไตนง khau (เขา) สืบทอดจากไทดั้งเดิม *qawᴬ; ร่วมเชื้อสายกับคำเมือง ᨡᩮᩢᩣ (เขัา), ลาว ເຂົາ (เข็า), ไทลื้อ ᦃᧁ (เฃา), ไทดำ ꪹꪄꪱ (เฃา), ไทใหญ่ ၶဝ် (ขว), อาหม 𑜁𑜧 (ขว์) หรือ 𑜁𑜨𑜧 (ขอ̂ว์), จ้วง gaeu; เทียบสุ่ย baol และ ggaol, ต้งใต้ baol, ไหลดั้งเดิม *ɦəw ร่วมเชื้อสายกับลาว ເຂົາ (เข็า), ไทดำ ꪹꪎꪱ (เสา) ร่วมเชื้อสายกับอีสาน เขา, ลาว ເຂົາ (เข็า), คำเมือง ᨡᩮᩢᩣ (เขัา), ไทลื้อ ᦃᧁ (เฃา), ไทดำ ꪹꪎꪱ (เสา), ไทใหญ่ ၶဝ် (ขว), ไทใต้คง ᥑᥝᥴ (เฃ๋า), อาหม 𑜁𑜧 (ขว์), ภาษาจ้วงใต้ haeu (เขา, \"เค้า, กู\") ร่วมเชื้อสายกับภาษาจ้วงเหนือ gaeu (เกา), ภาษาจ้วงใต้ kaeu (เขา)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩮᩢᩣ",
+  "th": "เขัา",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao",
+   "label": "ข้าว",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". เขา is kǎo, ข้าว is kâao — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao-2",
+   "label": "เข้า",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". เขา is kǎo, เข้า is kâo — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao-4",
+   "label": "ขาว",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". เขา is kǎo, ขาว is kǎao — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao-5",
+   "label": "ข่าว",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". เขา is kǎo, ข่าว is kàao — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "mountain",
+  "he",
+  "she",
+  "it"
+ ]
+}

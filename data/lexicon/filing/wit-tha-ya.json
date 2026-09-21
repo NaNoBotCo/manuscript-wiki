@@ -1,0 +1,29 @@
+{
+ "head": "wit-tha-ya",
+ "rule": "วิทยา has one usable sense — ความรู้ — and sense 2 is not a rival for any of these: ชื่อจริงรวม is วิทยา as a person's given name, and no compound here is a name. So the filing is flat at 1, and the structure worth recording is positional rather than semantic. HEAD-FINAL, -วิทยา is Thai's bound equivalent of Greek -λογία, naming a discipline by its object: กีฏวิทยา insects, มีนวิทยา fish, คัพภวิทยา the embryo, คูถวิทยา faeces, จักษุวิทยา the eye. HEAD-INITIAL, วิทยา- is knowledge as a modifier on an ordinary Thai noun and names an institution or an artefact of learning rather than a field: วิทยาเขต the campus, วิทยานิพนธ์ the thesis. Both are ความรู้, which is why both file at 1. Note for the record that at least ten of these carry ศัพท์บัญญัติสำนักงานราชบัณฑิตยสภา in their etymology with the English source named — pathology, phonology, psychology, toxicology, hydrology, ontology, ophthalmology, thesis, science, computer science. They are Royal-Society calques, coined to a foreign model, not compounds that grew.",
+ "senses": {
+  "1": [
+   "ศิลปวิทยา",
+   "เทววิทยา",
+   "กีฏวิทยา",
+   "พยาธิวิทยา",
+   "วิทยาเขต",
+   "วิทยาศาสตร์",
+   "วิทยาการคอมพิวเตอร์",
+   "คูถวิทยา",
+   "วิทยานิพนธ์",
+   "มีนวิทยา",
+   "สัทวิทยา",
+   "ชีววิทยา",
+   "นักษัตรวิทยา",
+   "ภูมิวิทยา",
+   "คัพภวิทยา",
+   "พิษวิทยา",
+   "จิตวิทยา",
+   "สัตววิทยา",
+   "อุทกวิทยา",
+   "ภววิทยา",
+   "จักษุวิทยา"
+  ]
+ }
+}

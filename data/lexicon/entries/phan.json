@@ -1,0 +1,1250 @@
+{
+ "id": "w:phan",
+ "th": "พัน",
+ "status": "mapped",
+ "rtgs": "phan",
+ "paiboon": "pan",
+ "ipa": "/pʰan˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "เรียกจำนวน 10 ร้อย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun, verb",
+   "pos_th": "เลข, คำนาม, คำกริยา",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: พัน 'thousand', with the ranks that come off commanding one.",
+    "Declared root: พัน 'thousand', with the ranks that come off commanding one.",
+    "Declared root: พัน 'thousand', with the ranks that come off commanding one.",
+    "Declared root: พัน 'thousand', with the ranks that come off commanding one.",
+    "Declared root: พัน 'thousand', with the ranks that come off commanding one.",
+    "Declared root: พัน 'thousand', with the ranks that come off commanding one.",
+    "Declared root: พัน 'thousand', with the ranks that come off commanding one.",
+    "Declared root: พัน 'thousand', with the ranks that come off commanding one.",
+    "Declared root: พัน 'thousand', with the ranks that come off commanding one.",
+    "Declared root: พัน 'thousand', with the ranks that come off commanding one."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ตำแหน่งหัวหน้าทหารสมัยโบราณ สูงกว่าหัวปาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun, verb",
+   "pos_th": "เลข, คำนาม, คำกริยา",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The commander of a thousand, named from the thousand.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "บรรดาศักดิ์ชั้นประทวนต่ำกว่าหมื่น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun, verb",
+   "pos_th": "เลข, คำนาม, คำกริยา",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พันจ่าโท",
+     "rtgs": "phan-cha-tho",
+     "ipa": "/pʰan˧.t͡ɕaː˨˩.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นประทวนของกองทัพเรือ สูงกว่าพันจ่าตรี ต่ำกว่าพันจ่าเอก, ย่อว่า พ.จ.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "จ่าโท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.22, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "บรรดาศักดิ์ชั้นประทวนต่ำกว่าหมื่น + ยศทหารชั้นประทวนของกองทัพเรือ สูงก"
+    },
+    {
+     "th": "พันจ่าตรี",
+     "rtgs": "phan-cha-tri",
+     "ipa": "/pʰan˧.t͡ɕaː˨˩.triː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นประทวนของกองทัพเรือ สูงกว่าจ่าเอก ต่ำกว่าพันจ่าโท, ย่อว่า พ.จ.ต.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "จ่าตรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.23, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "บรรดาศักดิ์ชั้นประทวนต่ำกว่าหมื่น + ยศทหารชั้นประทวนของกองทัพเรือ สูงก"
+    },
+    {
+     "th": "พันจ่าเอก",
+     "rtgs": "phan-cha-ek",
+     "ipa": "/pʰan˧.t͡ɕaː˨˩.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นประทวนของกองทัพเรือ สูงกว่าพันจ่าโท ต่ำกว่าเรือตรี, ย่อว่า พ.จ.อ.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "จ่าเอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.22, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "บรรดาศักดิ์ชั้นประทวนต่ำกว่าหมื่น + ยศทหารชั้นประทวนของกองทัพเรือ สูงก"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "A warrant grade below หมื่น.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ชื่อตำแหน่งหัวหน้านายเวรในกระทรวงมหาดไทยและกลาโหม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun, verb",
+   "pos_th": "เลข, คำนาม, คำกริยา",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พันเสา",
+     "rtgs": "phan-sao",
+     "ipa": "/pʰan˧.saw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางระกำ จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "เสา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "k + pillar",
+     "lit_th": "ชื่อตำแหน่งหัวหน้านายเวรในกระทรวงม + ท่อนไม้สำหรับใช้เป็นหลักหรือเป็นเค"
+    },
+    {
+     "th": "พันชนะ",
+     "rtgs": "phan-cha-na",
+     "ipa": "/pʰan˧.t͡ɕʰa˦˥.naʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอด่านขุนทด จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "ชนะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "k + have",
+     "lit_th": "ชื่อตำแหน่งหัวหน้านายเวรในกระทรวงม + ทำให้อีกฝ่ายหนึ่งพ่ายแพ้"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "The head clerk of a bureau in Interior or Defence.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ยศทหารชั้นสัญญาบัตรรองจากนายพล",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun, verb",
+   "pos_th": "เลข, คำนาม, คำกริยา",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พันโท",
+     "rtgs": "phan-tho",
+     "ipa": "/pʰan˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพันตรี ต่ำกว่าพันเอก, ย่อว่า พ.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "โท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.31, next 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "k + two",
+     "lit_th": "ยศทหารชั้นสัญญาบัตรรองจากนายพล + สอง"
+    },
+    {
+     "th": "พันตรี",
+     "rtgs": "phan-tri",
+     "ipa": "/pʰan˧.triː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าร้อยเอก ต่ำกว่าพันโท, ย่อว่า พ.ต.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "ตรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.31, next 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ตรี"
+     ],
+     "lit": "k + fish",
+     "lit_th": "ยศทหารชั้นสัญญาบัตรรองจากนายพล + ปลา"
+    },
+    {
+     "th": "พันเอก",
+     "rtgs": "phan-ek",
+     "ipa": "/pʰan˧.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "colonel"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพันโท ต่ำกว่าพลจัตวา, ย่อว่า พ.อ.",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "เอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.32, next 0.13",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "k + one",
+     "lit_th": "ยศทหารชั้นสัญญาบัตรรองจากนายพล + หนึ่ง"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "And the commissioned ranks below นายพล — พันเอก, พันโท, พันตรี.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "วนรอบด้วยสิ่งที่เป็นเส้นสายหรือสิ่งที่มีลักษณะเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun, verb",
+   "pos_th": "เลข, คำนาม, คำกริยา",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: พัน 'to wind around' — a separate word.",
+    "Declared root: พัน 'to wind around' — a separate word.",
+    "Declared root: พัน 'to wind around' — a separate word.",
+    "Declared root: พัน 'to wind around' — a separate word.",
+    "Declared root: พัน 'to wind around' — a separate word.",
+    "Declared root: พัน 'to wind around' — a separate word.",
+    "Declared root: พัน 'to wind around' — a separate word.",
+    "Declared root: พัน 'to wind around' — a separate word.",
+    "Declared root: พัน 'to wind around' — a separate word.",
+    "Declared root: พัน 'to wind around' — a separate word."
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ม้วน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun, verb",
+   "pos_th": "เลข, คำนาม, คำกริยา",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "Winding narrowed to rolling up.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "รัดโดยรอบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun, verb",
+   "pos_th": "เลข, คำนาม, คำกริยา",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "And to binding round.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "เกี่ยวกันไปมา, เกี่ยวกันยุ่งเหยิง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun, verb",
+   "pos_th": "เลข, คำนาม, คำกริยา",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พัวพัน",
+     "rtgs": "phua-phan",
+     "ipa": "/pʰua̯˧.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกี่ยวเนื่องกัน, ผูกพันกัน, เกี่ยวโยงพาดพิงถึงกัน, พันพัว ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัว",
+      "พัน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.19, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "เป็นพวง + เกี่ยวกันไปมา",
+     "flips_with": "พันพัว"
+    },
+    {
+     "th": "ติดพัน",
+     "rtgs": "tit-phan",
+     "ipa": "/tit̚˨˩.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกี่ยวข้อง, เกี่ยวเนื่องกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "พัน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.25, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "ติด"
+     ],
+     "lit": "fit + k",
+     "lit_th": "อาการที่ข้องอยู่ + เกี่ยวกันไปมา"
+    },
+    {
+     "th": "พันพัว",
+     "rtgs": "phan-phua",
+     "ipa": "/pʰan˧.pʰua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกี่ยวเนื่องกัน, ผูกพันกัน, เกี่ยวโยงพาดพิงถึงกัน, พัวพัน ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "พัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.19, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "เกี่ยวกันไปมา + เป็นพวง",
+     "flips_with": "พัวพัน"
+    }
+   ],
+   "extends": 6,
+   "via": "generalisation",
+   "via_note": "Things wound about each other: tangled.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 64 manuscript titles, 203 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 31; domain seeded by keyword hits ['ศักดิ์', 'ทหาร', 'ยศ'].",
+ "compounds_unassigned": [
+  {
+   "th": "พันจ่าอากาศโท",
+   "rtgs": "phan-cha-a-kat-tho",
+   "ipa": "/pʰan˧.t͡ɕaː˨˩.ʔaː˧.kaːt̚˨˩.tʰoː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยศทหารชั้นประทวนของกองทัพอากาศ สูงกว่าพันจ่าอากาศตรี ต่ำกว่าพันจ่าอากาศเอก, ย่อว่า พ.อ.ท.",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พัน",
+    "จ่าอากาศโท"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "เรียกจำนวน 10 ร้อย + ยศทหารชั้นประทวนของกองทัพอากาศ สูง"
+  },
+  {
+   "th": "อำพัน",
+   "rtgs": "am-phan",
+   "ipa": "/ʔam˧.pʰan˧/",
+   "gloss": {
+    "en": [
+     "amber"
+    ],
+    "th": "ยางไม้ที่แข็งเป็นก้อน สีเหลืองใสเป็นเงา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อำ",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ปิดบัง + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "พันลอก",
+   "rtgs": "phan-lok",
+   "ipa": "/pʰan˧.lɔːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผลิ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พัน",
+    "ลอก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit": "k + abrasive",
+   "lit_th": "เรียกจำนวน 10 ร้อย + เอาเปลือกหรือผิวออกมาเป็นแผ่น ๆ"
+  },
+  {
+   "th": "การรำพัน",
+   "rtgs": "kan-ram-phan",
+   "ipa": "/kaːn˧.ram˧.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ รำพัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การรำ",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit": "dance + k",
+   "lit_th": "คำอาการนามของ รำ + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "กระพัน",
+   "rtgs": "kra-phan",
+   "ipa": "/kra˨˩.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทนทานต่อศัสตราวุธ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1
+  },
+  {
+   "th": "การผูกพัน",
+   "rtgs": "kan-phuk-phan",
+   "ipa": "/kaːn˧.pʰuːk̚˨˩.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ผูกพัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การผูก",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ผูก + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "พันทาง",
+   "rtgs": "phan-thang",
+   "ipa": "/pʰan˧.tʰaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรียกไก่ที่พ่อเป็นอู แม่เป็นแจ้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พัน",
+    "ทาง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "ทาง"
+   ],
+   "lit": "k + way",
+   "lit_th": "เรียกจำนวน 10 ร้อย + ที่สำหรับเดินไปมา"
+  },
+  {
+   "th": "เดิมพัน",
+   "rtgs": "doem-phan",
+   "ipa": "/dɤːm˧.pʰan˧/",
+   "gloss": {
+    "en": [
+     "bet"
+    ],
+    "th": "จำนวนเงินหรือทรัพย์สินอื่น ๆ ที่วางไว้เป็นประกันในการได้เสียหรือแพ้ชนะก่อนเล่นการพนัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เดิม",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "แรก + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "พันล้าน",
+   "rtgs": "phan-lan",
+   "ipa": "/pʰan˧.laːn˦˥/",
+   "gloss": {
+    "en": [
+     "billion",
+     "milliard"
+    ],
+    "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "พัน",
+    "ล้าน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit": "k + million",
+   "lit_th": "เรียกจำนวน 10 ร้อย + จำนวน 10 แสน"
+  },
+  {
+   "th": "พันฦก",
+   "rtgs": "phan-luek",
+   "ipa": "/pʰan˧.lɯk̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปเลิกใช้ของ พันลึก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พัน",
+    "ฦก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "เรียกจำนวน 10 ร้อย + รูปเลิกใช้ของ ลึก"
+  },
+  {
+   "th": "การเกี่ยวพัน",
+   "rtgs": "kan-kiao-phan",
+   "ipa": "/kaːn˧.kia̯w˨˩.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เกี่ยวพัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเกี่ยว",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เกี่ยว + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "การพัน",
+   "rtgs": "kan-phan",
+   "ipa": "/kaːn˧.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ พัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "งาน + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "การติดพัน",
+   "rtgs": "kan-tit-phan",
+   "ipa": "/kaːn˧.tit̚˨˩.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ติดพัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การติด",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit": "addiction + k",
+   "lit_th": "คำอาการนามของ ติด + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "เกี่ยวพัน",
+   "rtgs": "kiao-phan",
+   "ipa": "/kia̯w˨˩.pʰan˧/",
+   "gloss": {
+    "en": [
+     "involve"
+    ],
+    "th": "ติดเนื่องกัน, พัวพัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เกี่ยว",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "อาการที่สิ่งงอเป็นขอเกาะติดหรือเหน + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "กองพัน",
+   "translit_auto": "kongphan",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หน่วยทหารซึ่งประกอบด้วยทหาร 4 กองร้อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "cross_listed": [
+    "กอง"
+   ],
+   "lit": "desk + k",
+   "lit_th": "ทำให้รวมสุมกันไว้ + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "พันจ่าอากาศตรี",
+   "rtgs": "phan-cha-a-kat-tri",
+   "ipa": "/pʰan˧.t͡ɕaː˨˩.ʔaː˧.kaːt̚˨˩.triː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยศทหารชั้นประทวนของกองทัพอากาศ สูงกว่าจ่าอากาศเอก ต่ำกว่าพันจ่าอากาศโท, ย่อว่า พ.อ.ต.",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พัน",
+    "จ่าอากาศตรี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "เรียกจำนวน 10 ร้อย + ยศทหารชั้นประทวนของกองทัพอากาศ สูง"
+  },
+  {
+   "th": "พันจ่าอากาศเอก",
+   "rtgs": "phan-cha-a-kat-ek",
+   "ipa": "/pʰan˧.t͡ɕaː˨˩.ʔaː˧.kaːt̚˨˩.ʔeːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยศทหารชั้นประทวนของกองทัพอากาศ สูงกว่าพันจ่าอากาศโท ต่ำกว่าเรืออากาศตรี, ย่อว่า พ.อ.อ.",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พัน",
+    "จ่าอากาศเอก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "เรียกจำนวน 10 ร้อย + ยศทหารชั้นประทวนของกองทัพอากาศ สูง"
+  },
+  {
+   "th": "รำพัน",
+   "rtgs": "ram-phan",
+   "ipa": "/ram˧.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พร่ำพรรณนาตามอารมณ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รำ",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit": "dance + k",
+   "lit_th": "ผงเยื่อหรือละอองเมล็ดข้าวสาร + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "ผูกพัน",
+   "rtgs": "phuk-phan",
+   "ipa": "/pʰuːk̚˨˩.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีความเป็นห่วงกังวลเพราะรักใคร่เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ผูก",
+    "พัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit": "tie + k",
+   "lit_th": "เอาเชือกเป็นต้นสอดคล้องกันให้เกิดเ + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "พันธน",
+   "rtgs": "phan-tha-na-",
+   "ipa": "/pʰan˧.tʰa˦˥.na˦˥./",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปแบบอื่นของ พันธนะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พัน",
+    "ธน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "เรียกจำนวน 10 ร้อย + ทรัพย์สิน",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับคำเมือง ᨻᩢ᩠ᨶ (พัน), ลาว ພັນ (พัน), ไทลื้อ ᦗᧃ (พัน) ยืมมาจากจีนยุคกลาง 翻 (MC phjon); ร่วมเชื้อสายกับลาว ພັນ (พัน), ไทลื้อ ᦗᧃ (พัน), ไทใหญ่ ပၼ်း (ปั๊น)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨻᩢ᩠ᨶ",
+  "th": "พัน",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:phan-2",
+   "label": "พันธุ์",
+   "why": "spelling",
+   "distinction": "Both romanise as \"phan\". พัน is pan, พันธุ์ is pan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:phan-3",
+   "label": "ภัณฑ์",
+   "why": "spelling",
+   "distinction": "Both romanise as \"phan\". พัน is pan, ภัณฑ์ is pan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "k",
+  "thousand"
+ ]
+}

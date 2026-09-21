@@ -1,0 +1,27 @@
+{
+ "head": "a-kat",
+ "rule": "อากาศ's four senses are the void (2), the gas (1), the sky (3) and the weather (4), and a compound files by which of them it is actually about. Sense 1 takes air as a physical substance you breathe, trap, thin or condition — everything with a volume of it in a hole, a cavity, a chamber or a region. Sense 3, the sky, takes the medium you cross or send through: the whole aviation and air-force vocabulary, and broadcasting with it, because what goes out ทางอากาศ goes out overhead. Sense 4 takes air as a CONDITION rather than a substance, which is climate. Sense 2, the void, keeps only อากาศธาตุ, where a source put it.",
+ "senses": {
+  "1": [
+   "หลุมอากาศ",
+   "โพรงอากาศ",
+   "ห้องอากาศ",
+   "ปรับอากาศ",
+   "มวลอากาศ"
+  ],
+  "3": [
+   "ทัพอากาศ",
+   "กองทัพอากาศ",
+   "จอมพลอากาศ",
+   "ทหารอากาศ",
+   "อากาศยาน",
+   "เดินอากาศ",
+   "อากาศจร",
+   "ออกอากาศ",
+   "สายอากาศ"
+  ],
+  "4": [
+   "ภูมิอากาศ"
+  ]
+ }
+}

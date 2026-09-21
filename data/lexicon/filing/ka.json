@@ -1,0 +1,8 @@
+{
+ "head": "ka",
+ "rule": "กา is the head the brief warns about, and the warning is the rule: on a short Indic-looking syllable, MOST of the queue is not the head's at all. Eleven of the twenty words here are borrowed or altered stems that merely end or begin in -กา- (อุบาสิกา clipped to สีกา, กาย to กายา/กายี/กายิน, เอก to เอกา, กติกา to กฤษฎีกา, Pali kali/kālī to กาลี, Pali kākī to กากี), or pointers to another spelling (กาละแม, กาลำ), or a prefix alternation (กาเรียน = กระเรียน). Only what is actually a bird files under the bird: ปากกา, ปีกกา, กาฝาก, ไก่กา, ขว้างกา — a beak, a wing, a seed the crow drops, the crow in a list of common fowl, and the two-pointed stick thrown at one. The kettle (4) takes กาเวียน and nothing else. Senses 2 (the black shark carp), 3 (the ธนิษฐา asterism), 5 (the Northern year-name zero) and 6 (to tick a mark) take nothing here.",
+ "senses": {
+  "1": ["ขว้างกา", "ปากกา", "ไก่กา", "ปีกกา", "กาฝาก"],
+  "4": ["กาเวียน"]
+ }
+}

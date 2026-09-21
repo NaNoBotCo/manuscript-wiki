@@ -1,0 +1,907 @@
+{
+ "id": "w:sung",
+ "th": "สูง",
+ "status": "mapped",
+ "rtgs": "sung",
+ "paiboon": "sǔung",
+ "ipa": "/suːŋ˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉากกับพื้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ส่วนสูง",
+     "rtgs": "suan-sung",
+     "ipa": "/sua̯n˨˩.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความสูง (มักใช้แก่บุคคล)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ส่วน"
+     ],
+     "lit": "zone + tall",
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ที่ราบสูง",
+     "translit_auto": "thirabsung",
+     "ipa": "[tʰiː˥˩.räːp̚˥˩.sũːŋ˩˥]",
+     "gloss": {
+      "en": [
+       "plateau"
+      ],
+      "th": "ที่ราบซึ่งสูงกว่าระดับผิวโลกโดยรอบตั้งแต่ 300 เมตรขึ้นไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ที่ราบ",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "flat + tall",
+     "lit_th": "ภูมิประเทศที่เป็นที่ราบซึ่งอาจจะรา + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เหนือระดับปรกติ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Above the ordinary level.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ใฝ่สูง",
+     "rtgs": "fai-sung",
+     "ipa": "/faj˨˩.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทะเยอทะยานเกินตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใฝ่",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit_th": "มุ่ง + เหนือระดับปรกติ",
+     "frame": "quality"
+    },
+    {
+     "th": "สูงอายุ",
+     "rtgs": "sung-a-yu",
+     "ipa": "/suːŋ˩˩˦.ʔaː˧.juʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีอายุมาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สูง",
+      "อายุ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit": "tall + age",
+     "lit_th": "เหนือระดับปรกติ + ช่วงเวลาที่นับจาก เวลาเกิด ถึง เวล",
+     "frame": "quality"
+    },
+    {
+     "th": "หัวสูง",
+     "rtgs": "hua-sung",
+     "ipa": "/hua̯˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีรสนิยมสูงจนเกินตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + tall",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + เหนือระดับปรกติ",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "แหลม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Of sound: up the scale, sharp.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ระดับเหนือเสียงกลาง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อักษรสูง",
+     "rtgs": "ak-son-sung",
+     "ipa": "/ʔak̚˨˩.sɔːn˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พยัญชนะที่คำเป็นมีพื้นเสียงเป็นเสียงจัตวา ผันได้ 3 เสียง มี 2 รูป คือ ผันด้วยวรรณยุกต์ ◌่ เป็นเสียงเอก ผันด้วยวรรณยุกต์ ◌้ เป็นเสียงโทเช่น ขา ข่า ข้า คำตายพื้นเสียงเป็นเสียงเอก ผันด้วยวรรณยุกต์ ◌้ เป็นเสียงโทเช่น ขะ ข้ะ ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อักษร",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "letter + tall",
+     "lit_th": "ตัวหนังสือ + ระดับเหนือเสียงกลาง",
+     "frame": "quality"
+    }
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Above the middle pitch.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ตรงข้ามกับ ต่ำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Fixed as the opposite of ต่ำ.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ดี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "High in quality: fine, elevated.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "สูงส่ง",
+     "rtgs": "sung-song",
+     "ipa": "/suːŋ˩˩˦.soŋ˨˩/",
+     "gloss": {
+      "en": [
+       "supernal"
+      ],
+      "th": "ที่ยกย่องกันว่าดีเด่น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สูง",
+      "ส่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "cross_listed": [
+      "ส่ง"
+     ],
+     "lit": "tall + send",
+     "lit_th": "ดี + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท",
+     "frame": "quality"
+    },
+    {
+     "th": "เครื่องสูง",
+     "translit_auto": "kherueongsung",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของประดับเกียรติ, เครื่องประดับเกียรติยศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + tall",
+     "lit_th": "สิ่ง + ดี",
+     "frame": "quality"
+    },
+    {
+     "th": "ของสูง",
+     "rtgs": "khong-sung",
+     "ipa": "/kʰɔːŋ˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งศักดิ์สิทธิ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + tall",
+     "lit_th": "สิ่งต่าง ๆ + ดี",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "sung as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 9 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 9 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 9 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "6 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ห้างสูง",
+     "rtgs": "hang-sung",
+     "ipa": "/haːŋ˥˩.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองใหญ่ จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้าง",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "กระท่อมที่ทำไว้เฝ้านาเฝ้าสวน หรือท + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "สูงเม่น",
+     "rtgs": "sung-men",
+     "ipa": "/suːŋ˩˩˦.men˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดแพร่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สูง",
+      "เม่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Hys",
+     "frame": "quality"
+    },
+    {
+     "th": "หนองสูง",
+     "rtgs": "nong-sung",
+     "ipa": "/nɔːŋ˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดมุกดาหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + sung as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "โคกสูง",
+     "rtgs": "khok-sung",
+     "ipa": "/kʰoːk̚˥˩.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "mound + sung as an element in place names",
+     "lit_th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "โนนสูง",
+     "rtgs": "non-sung",
+     "ipa": "/noːn˧.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โนน",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "mound + sung as an element in place names",
+     "lit_th": "เนิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ยางสูง",
+     "rtgs": "yang-sung",
+     "ipa": "/jaːŋ˧.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอขาณุวรลักษบุรี จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "rubber + sung as an element in place names",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "มะขามสูง",
+     "rtgs": "ma-kham-sung",
+     "ipa": "/ma˦˥.kʰaːm˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มะขาม",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "tamarind + sung as an element in place names",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Tamarindus + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "สะพานสูง",
+     "rtgs": "sa-phan-sung",
+     "ipa": "/sa˨˩.pʰaːn˧.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สะพาน",
+      "สูง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "สิ่งปลูกสร้างที่ทำสำหรับข้ามแม่น้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "สูงเนิน",
+     "rtgs": "sung-noen",
+     "ipa": "/suːŋ˩˩˦.nɤːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สูง",
+      "เนิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit": "sung as an element in place names + border",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โคกขนาดใหญ่ที่ค่อยลาดสูงขึ้นจากระด",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 389 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การใฝ่สูง",
+   "rtgs": "kan-fai-sung",
+   "ipa": "/kaːn˧.faj˨˩.suːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ใฝ่สูง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การใฝ่",
+    "สูง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ใฝ่ + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+   "frame": "quality"
+  },
+  {
+   "th": "ความสูง",
+   "rtgs": "khwam-sung",
+   "ipa": "/kʰwaːm˧.suːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "height",
+     "altitude"
+    ],
+    "th": "คำอาการนามของ สูง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "สูง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + tall",
+   "lit_th": "เรื่อง + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *suːŋᴬ¹; เทียบจีนยุคกลาง 嵩 (MC sjuwng) หรือ 崧 (MC sjuwng); ร่วมเชื้อสายกับลาว ສູງ (สูง), คำเมือง ᩈᩪᨦ (สูง), ไทลื้อ ᦉᦳᧂ (สุง), ไทดำ ꪎꪴꪉ (สุง), ไทใหญ่ သုင် (สุง), ไทใต้คง ᥔᥧᥒᥴ (สู๋ง), อ่ายตน ꩬ︀ုင︀် (สุง์), พ่าเก ꩬ︀ုင︀် (สุง์), อาหม 𑜏𑜤𑜂𑜫 (สุง์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩈᩪᨦ",
+  "th": "สูง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "tall",
+  "high"
+ ]
+}

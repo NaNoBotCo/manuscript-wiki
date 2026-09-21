@@ -1,0 +1,1077 @@
+{
+ "id": "w:thung",
+ "th": "ทุ่ง",
+ "status": "mapped",
+ "rtgs": "thung",
+ "paiboon": "tûng",
+ "ipa": "/tʰuŋ˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "open field",
+     "plain"
+    ],
+    "th": "ที่ราบโล่ง",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ทุ่งนา",
+     "rtgs": "thung-na",
+     "ipa": "/tʰuŋ˥˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ราบสำหรับปลูกข้าว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "นา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.33, next 0.24",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "open field + farm",
+     "lit_th": "ที่ราบโล่ง + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "flips_with": "นาทุ่ง",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ขี้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "euphemism",
+   "via_note": "ไปทุ่ง — going to the field, the country way of not saying it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "thung as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 26 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 192 of the 5333 wats in the northern registry carry it, and 141 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 26 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 26 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "192 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ทุ่งใหญ่",
+     "rtgs": "thung-yai",
+     "ipa": "/tʰuŋ˥˩.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "thung as an element in place names + huge",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ทุ่งขวาง",
+     "rtgs": "thung-khwang",
+     "ipa": "/tʰuŋ˥˩.kʰwaːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ขวาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ขวาง"
+     ],
+     "lit": "thung as an element in place names + across",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กีดกั้น"
+    },
+    {
+     "th": "หัวทุ่ง",
+     "rtgs": "hua-thung",
+     "ipa": "/hua̯˩˩˦.tʰuŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพล จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ทุ่ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + thung as an element in place names",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งชมพู",
+     "rtgs": "thung-chom-phu",
+     "ipa": "/tʰuŋ˥˩.t͡ɕʰom˧.pʰuː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอภูเวียง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ชมพู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม้หว้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งหว้า",
+     "rtgs": "thung-wa",
+     "ipa": "/tʰuŋ˥˩.waː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสตูล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "หว้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "thung as an element in place names + jambul",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Syzygium Cu",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งยาว",
+     "rtgs": "thung-yao",
+     "ipa": "/tʰuŋ˥˩.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปาย จังหวัดแม่ฮ่องสอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ยาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ยาว"
+     ],
+     "lit": "thung as an element in place names + long",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+     "frame": "quality"
+    },
+    {
+     "th": "ทุ่งตะโก",
+     "rtgs": "thung-ta-ko",
+     "ipa": "/tʰuŋ˥˩.ta˨˩.koː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดชุมพร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ตะโก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นหลายชนิดในสกุล Diospyros",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งครุ",
+     "rtgs": "thung-khru",
+     "ipa": "/tʰuŋ˥˩.kʰruʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ครุ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะสานชนิดหนึ่ง รูปกลม ๆ เหมือนก",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งหลวง",
+     "rtgs": "thung-luang",
+     "ipa": "/tʰuŋ˥˩.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพร้าว จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "หลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "thung as an element in place names + royal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
+    },
+    {
+     "th": "ทุ่งสง",
+     "rtgs": "thung-song",
+     "ipa": "/tʰuŋ˥˩.soŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "สง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หย่งให้กระจายตัวหรือยกขึ้นให้น้ำหร"
+    },
+    {
+     "th": "ทุ่งช้าง",
+     "rtgs": "thung-chang",
+     "ipa": "/tʰuŋ˥˩.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดน่าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ช้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "thung as an element in place names + elephant",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งขนาน",
+     "rtgs": "thung-kha-nan",
+     "ipa": "/tʰuŋ˥˩.kʰa˨˩.naːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสอยดาว จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ขนาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หมู่",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งสว่าง",
+     "rtgs": "thung-sa-wang",
+     "ipa": "/tʰuŋ˥˩.sa˨˩.waːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอประทาย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "สว่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "thung as an element in place names + light",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ระยะเวลาฟ้าสาง",
+     "frame": "quality"
+    },
+    {
+     "th": "ทุ่งพระยา",
+     "rtgs": "thung-phra-ya",
+     "ipa": "/tʰuŋ˥˩.pʰra˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสนามชัยเขต จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "พระยา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บรรดาศักดิ์ข้าราชการผู้ใหญ่สูงกว่า",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งทอง",
+     "rtgs": "thung-thong",
+     "ipa": "/tʰuŋ˥˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่าม่วง จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ทอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "thung as an element in place names + gold",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งคลอง",
+     "rtgs": "thung-khlong",
+     "ipa": "/tʰuŋ˥˩.kʰlɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคำม่วง จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "คลอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "thung as an element in place names + canal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งฝน",
+     "rtgs": "thung-fon",
+     "ipa": "/tʰuŋ˥˩.fon˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุดรธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ฝน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "thung as an element in place names + rain",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + น้ำที่ตกลงมาจากเมฆเป็นเม็ด ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งไทรทอง",
+     "rtgs": "thung-sai-thong",
+     "ipa": "/tʰuŋ˥˩.saj˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอลำทับ จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ไทรทอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอคลองหาด จังหวั"
+    },
+    {
+     "th": "ทุ่งสมอ",
+     "rtgs": "thung-sa-mo",
+     "ipa": "/tʰuŋ˥˩.sa˨˩.mɔː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนมทวน จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "สมอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หิน",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งก่อ",
+     "rtgs": "thung-ko",
+     "ipa": "/tʰuŋ˥˩.kɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเวียงเชียงรุ้ง จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ก่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "thung as an element in place names + build",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำให้เกิดขึ้น มีขึ้น หรือเป็นรูปขึ"
+    },
+    {
+     "th": "นาทุ่ง",
+     "rtgs": "na-thung",
+     "ipa": "/naː˧.tʰuŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสวรรคโลก จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "ทุ่ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + thung as an element in place names",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ใช้ประกอบชื่อสถานที่",
+     "flips_with": "ทุ่งนา",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งโป่ง",
+     "rtgs": "thung-pong",
+     "ipa": "/tʰuŋ˥˩.poːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออุบลรัตน์ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "โป่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "thung as an element in place names + swollen",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
+    },
+    {
+     "th": "ตะกั่วทุ่ง",
+     "rtgs": "ta-kua-thung",
+     "ipa": "/ta˨˩.kua̯˨˩.tʰuŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพังงา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตะกั่ว",
+      "ทุ่ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "lead + thung as an element in place names",
+     "lit_th": "แร่จำพวกโลหะ มีลักษณะอ่อน ละลายตัว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "โปงทุ่ง",
+     "rtgs": "pong-thung",
+     "ipa": "/poːŋ˧.tʰuŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอดอยเต่า จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โปง",
+      "ทุ่ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เรียกลักษณะแห่งสิ่งของที่ข้างในเป็ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งอรุณ",
+     "rtgs": "thung-a-run",
+     "ipa": "/tʰuŋ˥˩.ʔa˨˩.run˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโชคชัย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "อรุณ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เวลาใกล้พระอาทิตย์จะขึ้น มี 2 ระยะ",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งทราย",
+     "rtgs": "thung-sai",
+     "ipa": "/tʰuŋ˥˩.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอทรายทองวัฒนา จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ทราย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "thung as an element in place names + sand",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 4 manuscript titles, 64 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 29; domain seeded by keyword hits ['toponym formative'].",
+ "compounds_unassigned": [
+  {
+   "th": "น้ำท่วมทุ่ง",
+   "rtgs": "nam-thuam-thung",
+   "ipa": "/naːm˦˥.tʰua̯m˥˩.tʰuŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พูดมากแต่ได้เนื้อหาสาระน้อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "น้ำท่วม",
+    "ทุ่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "flood + open field",
+   "lit_th": "ภัยธรรมชาติอย่างหนึ่งเกิดจากฝนตกใน + ที่ราบโล่ง",
+   "frame": "entity"
+  },
+  {
+   "th": "ทุ่งหญ้า",
+   "rtgs": "thung-ya",
+   "ipa": "/tʰuŋ˥˩.jaː˥˩/",
+   "gloss": {
+    "en": [
+     "grass",
+     "meadow",
+     "grassland"
+    ],
+    "th": "พื้นที่ที่ส่วนใหญ่เป็นหญ้า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ทุ่ง",
+    "หญ้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "open field + grass",
+   "lit_th": "ที่ราบโล่ง + ชื่อเรียกไม้ล้มลุกหลายชนิดหลายสกุล",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "แผลงมาจาก ท่ง, จากไทดั้งเดิม *doŋᴮ; ร่วมเชื้อสายกับลาว ທົ່ງ (ท็่ง), อีสาน ท่ง, ญ้อ ท่ง, คำเมือง ᨴᩫ᩠᩵ᨦ (ท็่ง), เขิน ᨴᩫ᩠᩵ᨦ (ท็่ง), ไทลื้อ ᦑᦳᧂᧈ (ทุ่ง), ไทดำ ꪶꪕ꪿ꪉ (โตฺ่ง), ไทใหญ่ တူင်ႈ (ตู้ง), ไทใต้คง ᥖᥨᥒ (โตง), อาหม 𑜄𑜤𑜂𑜫 (ตุง์), จ้วงแบบจั่วเจียง toŋᴮ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨴᩫ᩠᩵ᨦ",
+  "th": "ท็่ง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

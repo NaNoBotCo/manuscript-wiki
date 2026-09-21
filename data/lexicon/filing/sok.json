@@ -1,0 +1,9 @@
+{
+ "head": "sok",
+ "rule": "ศก is hair (1) or a count of years (2-4), and the compound's own gloss says which kind of count. A name built from a numeral is sense 3, the gloss for which is itself the rule for naming a จุลศักราช year by its last digit; a name built from a cycle animal is glossed plainly ปีX, so ศก stands for ปี and files at 4. Hair keeps the one royal verb whose other half is กันต์ 'to cut, shave'.",
+ "senses": {
+  "1": ["ศกกันต์"],
+  "3": ["ตรีศก", "จัตวาศก", "เบญจศก", "นพศก"],
+  "4": ["ชวดศก", "ฉลูศก", "ขาลศก", "เถาะศก", "มะโรงศก", "มะเส็งศก", "มะเมียศก", "มะแมศก", "วอกศก", "ระกาศก", "จอศก", "กุนศก", "เถลิงศก"]
+ }
+}

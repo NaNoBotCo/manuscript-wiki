@@ -2115,6 +2115,12 @@ def _essay_en(s: dict) -> str:
         "in the cloth that corpse wore; holding a spear made from the same "
         "wood.</p>"
 
+        "<p>Those thirty-two are a set — <b>อาการ ๓๒</b>, hair, body hair, nails, "
+        "teeth, skin, and on through the body to the brain. One straw each. The "
+        "same list is a yant in its own right, written as thirty-two letters and "
+        "laid in by the knight's move: "
+        "<a href=\"https://wichaa.net/kesa/\">ยันต์เกศาผิด</a>.</p>"
+
         "<p>The working word in the katha, said three times, is <b>ปลุก</b> — and "
         "ปลุก is not <em>make</em>, it is <b>wake</b>. The treatise does not "
         "describe itself as manufacturing a servant. It describes itself as waking "
@@ -2365,6 +2371,11 @@ def _essay_th(s: dict) -> str:
         "<b>แบบที่ ๒</b> ผูกด้วยซังข้าว ๓๒ เส้น ภาวนาด้วยอาการ ๓๒ ไปจนเสร็จ "
         "เอาไม้ทิ่มผีมาจักเป็นตอกมัดหุ่น เอาผ้าที่เขานุ่งห่มผีมาทำผ้านุ่งห่มให้ "
         "และเอาไม้ทิ่มผีนั้นเองทำเป็นหอกให้มันถือ</p>"
+
+        "<p>อาการ ๓๒ ที่ว่านั้นคือชุดเดียวกับที่สวดกัน — เกสา โลมา นขา ทันตา ตะโจ "
+        "ไปจนถึงมัตถะลุงคัง ซังข้าวเส้นละอาการ และชุดนี้เองก็เป็นยันต์อยู่ต่างหาก "
+        "ลงเป็นอักษร ๓๒ ตัว เดินตาม้าหมากรุก: "
+        "<a href=\"https://wichaa.net/kesa/\">ยันต์เกศาผิด</a></p>"
 
         "<p>คำที่ทำงานในคาถาคือ <b>ปลุก ปลุก ปลุก</b> — ไม่ใช่สร้าง แต่<b>ปลุก</b> "
         "ตำราไม่ได้พูดถึงตัวเองว่ากำลังทำบ่าวขึ้นมาสักตัว "

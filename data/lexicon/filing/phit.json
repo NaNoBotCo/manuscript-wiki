@@ -1,0 +1,8 @@
+{
+ "head": "phit",
+ "rule": "ผิด has two senses and they divide on whether something is WRONG or merely OTHER. Sense 1 is wrongness with fault in it — ผิดหวัง, หลงผิด, จับผิด, เอาผิด, รับผิด, and ผิดผี, breaking custom. Sense 2 is ต่างไป / แปลกไป, differing from what was expected without anyone being at fault: ผิดสังเกต (noticeably out of the ordinary), ผิดคาด (contrary to expectation), and ผิดใจ, where two people have come to differ rather than either having done wrong.",
+ "senses": {
+  "1": ["จับผิด","ผิดผี","ผิดหวัง","รับผิด","หลงผิด","เอาผิด"],
+  "2": ["ผิดคาด","ผิดสังเกต","ผิดใจ"]
+ }
+}

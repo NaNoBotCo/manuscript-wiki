@@ -1,0 +1,8 @@
+{
+ "head": "na-khon",
+ "rule": "นคร is a great city, and only นครบาล is a common noun — the office of governing one. The other five are names and go to sense 2. Four of them (นครนายก, นครพนม, นครสวรรค์, นครปฐม) carry the (จังหวัด~) marker that has been defeating the toponym filer's ^ชื่อ anchor elsewhere; here they were still unfiled rather than already misfiled, so they could be put where they belong. That makes four more instances of the shape — the exposure is not confined to บุรี, it is simply that most such words are still sitting in queues rather than in wrong senses.",
+ "senses": {
+  "1": ["นครบาล"],
+  "2": ["นครนายก","นครปฐม","นครพนม","นครศรี","นครสวรรค์"]
+ }
+}

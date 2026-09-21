@@ -1,0 +1,1292 @@
+{
+ "id": "w:ngoen",
+ "th": "เงิน",
+ "status": "mapped",
+ "rtgs": "ngoen",
+ "paiboon": "ngən",
+ "ipa": "/ŋɤn˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโลหะสีขาว เนื้อค่อนข้างอ่อน หลอมละลายที่ 960.8 องศาเซลเซียส",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เงินยวง",
+     "translit_auto": "ngeinywng",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เนื้อเงินบริสุทธิ์ที่ละลายคว้างอยู่ในเบ้า มีสีขาวผ่องเป็นมันปลาบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "ยวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + เนื้อในของขนุนที่หุ้มเมล็ด เรียกว่",
+     "frame": "entity"
+    },
+    {
+     "th": "จอเงิน",
+     "rtgs": "cho-ngoen",
+     "ipa": "/t͡ɕɔː˧.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาพยนตร์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จอ",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 11 ของรอบปีนักษัตร มีหมา + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "เกลือเงิน",
+     "rtgs": "kluea-ngoen",
+     "ipa": "/klɯa̯˧.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกลือปรกติชนิดหนึ่งชื่อซิลเวอร์ไนเทรต (AgNO₃) ลักษณะเป็นผลึกสีขาวละลายน้ำได้ ใช้ประโยชน์ในทางแพทย์ อุตสาหกรรมชุบโลหะให้เป็นเงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกลือ",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เกลือ"
+     ],
+     "lit": "light + bread",
+     "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "เหรียญเงิน",
+     "rtgs": "rian-ngoen",
+     "ipa": "/ria̯n˩˩˦.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหรียญรางวัลที่ให้สำหรับรองชนะเลิศ ซึ่งก็คืออันดับที่สอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหรียญ",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "coin + bread",
+     "lit_th": "โลหะที่มีลักษณะกลมแบนหรือรูปเหลี่ย + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "เงินเปลว",
+     "rtgs": "ngoen-pleo",
+     "ipa": "/ŋɤn˧.pleːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินที่ตีแผ่เป็นแผ่นบางมาก ๆ ใช้ปิดบนสิ่งศักดิ์สิทธิ์ที่สักการบูชา นอกจากนี้ยังใช้ในงานศิลปะ และใช้เป็นส่วนประกอบในการทำขนม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "เปลว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + เรียกไฟที่ลุกแลบออกมาหรือพวยพุ่งขึ",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องเงิน",
+     "rtgs": "khrueang-ngoen",
+     "ipa": "/kʰrɯa̯ŋ˥˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งของเครื่องใช้หรือเครื่องประดับที่ทำด้วยเงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + bread",
+     "lit_th": "สิ่ง + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำเงิน",
+     "rtgs": "nam-ngoen",
+     "ipa": "/nam˦˥.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปลานาง; ชื่อปลาน้ำจืดไม่มีเกล็ดพวกปลาเนื้ออ่อน ชนิด Phalacronotus apogon (Bleeker) หรือ Micronema apogon (Bleeker) ในวงศ์ Siluridae ปากเชิดขึ้น หนวดที่ขากรรไกรบนยาวไม่ถึงขอบแผ่นปิดเหงือกคล้ายปลาแดง แต่ไม่มีหนวดที่ขากรรไก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + bread",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "วัตถุที่ใช้วัดราคาในการซื้อขายแลกเปลี่ยนกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The metal that prices were reckoned in becomes the reckoning itself.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "วัตถุที่มีตราของรัฐ ใช้ชำระหนี้ได้ตามกฎหมาย ได้แก่ เหรียญกระษาปณ์และธนบัตร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เงินตรา",
+     "rtgs": "ngoen-tra",
+     "ipa": "/ŋɤn˧.traː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินที่รัฐกำหนดขึ้นไว้เพื่อใช้ชำระหนี้ได้ตามกฎหมาย ได้แก่ เหรียญกระษาปณ์และธนบัตร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "ตรา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.59, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตรา"
+     ],
+     "lit": "bread + seal",
+     "lit_th": "วัตถุที่มีตราของรัฐ ใช้ชำระหนี้ได้ + เครื่องหมายทำเป็นรูปต่าง ๆ มีลวดลา",
+     "frame": "entity"
+    },
+    {
+     "th": "แตกเงิน",
+     "rtgs": "taek-ngoen",
+     "ipa": "/tɛːk̚˨˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาเงินตราหน่วยใหญ่ไปแลกเป็นเงินปลีกหรือหน่วยย่อย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "แตก"
+     ],
+     "lit": "fracture + bread",
+     "lit_th": "แยกออกจากส่วนรวม + วัตถุที่มีตราของรัฐ ใช้ชำระหนี้ได้"
+    },
+    {
+     "th": "เงินทอน",
+     "rtgs": "ngoen-thon",
+     "ipa": "/ŋɤn˧.tʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินส่วนที่เกินราคาสิ่งของที่จ่ายคืนให้แก่ผู้จ่ายเงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "ทอน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "วัตถุที่มีตราของรัฐ ใช้ชำระหนี้ได้ + ตัดหรือหั่นให้เป็นท่อน"
+    },
+    {
+     "th": "เงินปลีก",
+     "rtgs": "ngoen-plik",
+     "ipa": "/ŋɤn˧.pliːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินจำนวนย่อยที่แตกออกมาจากเงินจำนวนใหญ่หน่วยใดหน่วยหนึ่งของเงินตรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "ปลีก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "วัตถุที่มีตราของรัฐ ใช้ชำระหนี้ได้ + แยกหรือหลีกออกจากหมู่จากพวกไป"
+    },
+    {
+     "th": "เงินสด",
+     "rtgs": "ngoen-sot",
+     "ipa": "/ŋɤn˧.sot̚˨˩/",
+     "gloss": {
+      "en": [
+       "cash"
+      ],
+      "th": "ตัวเงินที่มีอยู่ซึ่งใช้ได้ทันที",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "สด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "bread + fresh",
+     "lit_th": "วัตถุที่มีตราของรัฐ ใช้ชำระหนี้ได้ + ใหม่ ใช้แก่ลักษณะของสิ่งต่าง ๆ ที่",
+     "frame": "quality"
+    },
+    {
+     "th": "เงินแป",
+     "translit_auto": "ngeinp",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินย่อยของเหรียญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "แป"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "วัตถุที่มีตราของรัฐ ใช้ชำระหนี้ได้ + ส่วนหนึ่งของโครงสร้างหลังคา วางอยู",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "What the state stamps and the law will accept.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในการแลกเปลี่ยนหรือชำระหนี้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เงินเดือน",
+     "rtgs": "ngoen-duean",
+     "ipa": "/ŋɤn˧.dɯa̯n˧/",
+     "gloss": {
+      "en": [
+       "salary"
+      ],
+      "th": "เงินค่าตอบแทนการทำงานที่กำหนดให้เป็นรายเดือน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "เดือน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.23, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bread + month",
+     "frame": "entity"
+    },
+    {
+     "th": "วงเงิน",
+     "rtgs": "wong-ngoen",
+     "ipa": "/woŋ˧.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จำนวนเงินที่กำหนดไว้เพื่อทำสิ่งใดสิ่งหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วง",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.11, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "zone + bread",
+     "lit_th": "รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม + วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก",
+     "frame": "entity"
+    },
+    {
+     "th": "หมุนเงิน",
+     "translit_auto": "hmunngein",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้เงินเปลี่ยนมือโดยวิธีให้กู้หรือลงทุน เป็นต้น โดยมุ่งผลประโยชน์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมุน",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "follow + bread",
+     "lit_th": "หันเวียนไปในแนวโค้ง + วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก"
+    },
+    {
+     "th": "การเงิน",
+     "rtgs": "kan-ngoen",
+     "ipa": "/kaːn˧.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "financial",
+       "finance"
+      ],
+      "th": "กิจการเกี่ยวกับเงิน, เรื่องเกี่ยวกับเงิน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "การ",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "งาน + วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก",
+     "frame": "entity"
+    },
+    {
+     "th": "เงินดาวน์",
+     "rtgs": "ngoen-dao",
+     "ipa": "/ŋɤn˧.daːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินที่ต้องชำระครั้งแรกเมื่อทำสัญญา โดยมีข้อตกลงว่าเงินส่วนที่เหลือจะผ่อนส่งเป็นงวด ๆ ตามจำนวนที่กำหนด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "ดาวน์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก + จ่ายเงินจำนวนหนึ่งเพื่อให้ได้ทรัพย"
+    },
+    {
+     "th": "เงินเฟ้อ",
+     "rtgs": "ngoen-foe",
+     "ipa": "/ŋɤn˧.fɤː˦˥/",
+     "gloss": {
+      "en": [
+       "inflation"
+      ],
+      "th": "ภาวะทางเศรษฐกิจที่ปริมาณเงินหมุนเวียนในประเทศมากเกินไป ทำให้ราคาสินค้าแพงและเงินเสื่อมค่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "เฟ้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก + ฟุ้ง"
+    },
+    {
+     "th": "นายเงิน",
+     "rtgs": "nai-ngoen",
+     "ipa": "/naːj˧.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้เป็นเจ้าของเงินไปช่วยไถ่ทาสเอามาใช้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาย",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นาย"
+     ],
+     "lit": "baboo + bread",
+     "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก",
+     "frame": "entity"
+    },
+    {
+     "th": "เงินก้นถุง",
+     "rtgs": "ngoen-kon-thung",
+     "ipa": "/ŋɤːn˧.kon˥˩.tʰuŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินจำนวนหนึ่งที่ผู้ใหญ่มอบให้ในงานแต่งงานเป็นต้น เพื่อเก็บไว้เป็นเงินก้อนแรก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "ก้นถุง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก + เงินจำนวนหนึ่งที่ผู้ใหญ่มอบให้ในงา",
+     "frame": "entity"
+    },
+    {
+     "th": "เงินผ่อน",
+     "rtgs": "ngoen-phon",
+     "ipa": "/ŋɤːn˧.pʰɔn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินที่ชำระให้แก่เจ้าหนี้เป็นงวด ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "ผ่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก + ทำให้หย่อนหรือคลายความตึง"
+    },
+    {
+     "th": "เงินเชื่อ",
+     "rtgs": "ngoen-chuea",
+     "ipa": "/ŋɤn˧.t͡ɕʰɯa̯˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินค่าสิ่งของที่ยอมให้ชำระภายหลังเมื่อซื้อขาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "เชื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "bread + believe",
+     "lit_th": "วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก + เห็นตามด้วย"
+    },
+    {
+     "th": "เงินฝืด",
+     "rtgs": "ngoen-fuet",
+     "ipa": "/ŋɤːn˧.fɯːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาวะทางเศรษฐกิจที่ปริมาณเงินหมุนเวียนในประเทศมีน้อยไป การใช้จ่ายลดน้อยลง ทำให้ราคาสินค้าตก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "ฝืด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก + เคลื่อนไหวไม่สะดวกไม่คล่องเพราะแรง",
+     "frame": "quality"
+    },
+    {
+     "th": "ฟอกเงิน",
+     "rtgs": "fok-ngoen",
+     "ipa": "/fɔːk̚˥˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การโอน รับโอน หรือเปลี่ยนสภาพทรัพย์สินที่เกี่ยวกับการกระทำความผิดทางกฎหมายบางประการ เพื่อซุกซ่อนหรือปกปิดแหล่งที่มาของทรัพย์สินนั้น หรือช่วยเหลือผู้อื่นมิให้ต้องรับโทษหรือรับโทษน้อยลง หรือปกปิดอำพรางการได้มา ฯลฯ ซึ่งทรัพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฟอก",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bleach + bread",
+     "lit_th": "ทำให้สะอาดหมดจด + วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก"
+    },
+    {
+     "th": "ตลาดเงิน",
+     "rtgs": "ta-lat-ngoen",
+     "ipa": "/ta˨˩.laːt̚˨˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตลาดสำหรับการซื้อขายตราสารหนี้ระยะสั้น เช่น ตั๋วเงินคลัง (Treasury Bills) ตั๋วแลกเงินที่ธนาคารรับรอง (Banker’s Acceptances) ตราสารพาณิชย์หรือเอกสารการค้า (Commercial Paper) ใบรับฝากเงินที่เปลี่ยนมือได้ (Negotiable Certif",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตลาด"
+     ],
+     "lit": "market + bread",
+     "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก",
+     "frame": "entity"
+    },
+    {
+     "th": "เงินกู้",
+     "rtgs": "ngoen-ku",
+     "ipa": "/ŋɤːn˧.kuː˥˩/",
+     "gloss": {
+      "en": [
+       "loan"
+      ],
+      "th": "เงินที่ยืมโดยมีดอกเบี้ย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เงิน",
+      "กู้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "bread + restore",
+     "lit_th": "วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก + ยืมเงินโดยให้ดอกเบี้ย"
+    },
+    {
+     "th": "หน้าเงิน",
+     "rtgs": "na-ngoen",
+     "ipa": "/naː˥˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เห็นแก่เงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "before + bread",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + วัตถุที่กำหนดให้ใช้เป็นสื่อกลางในก",
+     "frame": "entity"
+    }
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "And any agreed medium of exchange.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "ngoen as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 3 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 3 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 3 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "20 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "บัวเงิน",
+     "rtgs": "bua-ngoen",
+     "ipa": "/bua̯˧.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอน้ำพอง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "lotus + ngoen as an element in place names",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "บ่อเงิน",
+     "rtgs": "bo-ngoen",
+     "ipa": "/bɔː˨˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอลาดหลุมแก้ว จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ่อ",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ่อ"
+     ],
+     "lit": "well + ngoen as an element in place names",
+     "lit_th": "ช่องลึกลงไปในดินหรือในหินใช้เป็นที + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เงิน",
+     "rtgs": "mae-ngoen",
+     "ipa": "/mɛː˥˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเชียงแสน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เงิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + ngoen as an element in place names",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 4 manuscript titles, 947 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 34; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "การฟอกเงิน",
+   "rtgs": "kan-fok-ngoen",
+   "ipa": "/kaːn˧.fɔːk̚˥˩.ŋɤn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ฟอกเงิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การฟอก",
+    "เงิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ฟอก + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
+  },
+  {
+   "th": "การแตกเงิน",
+   "rtgs": "kan-taek-ngoen",
+   "ipa": "/kaːn˧.tɛːk̚˨˩.ŋɤn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แตกเงิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแตก",
+    "เงิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "fracture + bread",
+   "lit_th": "คำอาการนามของ แตก + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
+  },
+  {
+   "th": "เงินแห้ง",
+   "rtgs": "ngoen-haeng",
+   "ipa": "/ŋɤn˧.hɛːŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ เงินเชื่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เงิน",
+    "แห้ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "แห้ง"
+   ],
+   "lit": "bread + dry",
+   "lit_th": "ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ + ไม่มีน้ำ",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *ŋɯənᴬ⁴, จากจีนเก่า 銀 (OC *ŋrɯn), จากซีโน-ทิเบตันดั้งเดิม *ŋul ~ (d-)ŋur; ร่วมเชื้อสายกับลาว ເງິນ (เงิน), คำเมือง ᨦᩮᩥ᩠ᨶ (เงิน), ไทลื้อ ᦇᦹᧃ (งืน), ไทดำ ꪹꪉꪷꪙ (เงํน), ไทขาว ꪉꪳꪙ, ไทใหญ่ ငိုၼ်း (งึ๊น), ไทใต้คง ᥒᥫᥢᥰ (เง๊อ̂น), พ่าเก င︀ိုꩫ︀် (งึน์), อาหม 𑜂𑜢𑜤𑜃𑜫 (งึน์), ปู้อี nganz, จ้วง ngaenz, แสก แญ๊น",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨦᩮᩥ᩠ᨶ",
+  "th": "เงิน",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "bread",
+  "money",
+  "bean",
+  "silver"
+ ]
+}

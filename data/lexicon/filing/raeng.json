@@ -1,0 +1,11 @@
+{
+ "head": "raeng",
+ "rule": "แรง is force, and its ten senses are that force in different registers. Sense 1 is plain strength (เรี่ยวแรง, แม่แรง — a jack being a machine for it). Sense 3 is force in the physics sense, something that changes a state, and it takes the two modern coinages แรงจูงใจ and แรงกระตุ้น, a motive and a stimulus. Sense 4 is labour as a rate of work and takes กินแรง, living off someone else's. Two empty senses fill and both are adjectival: sense 5, ฉุน / จัด / กล้า, is intensity and takes รุนแรง and อย่างแรง; sense 6, แข็ง / มีกำลัง, is being strong and takes แข็งแรง.",
+ "senses": {
+  "1": ["เรี่ยวแรง","แม่แรง"],
+  "3": ["แรงกระตุ้น","แรงจูงใจ"],
+  "4": ["กินแรง"],
+  "5": ["รุนแรง","อย่างแรง"],
+  "6": ["แข็งแรง"]
+ }
+}

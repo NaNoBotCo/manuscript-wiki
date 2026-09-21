@@ -1,0 +1,858 @@
+{
+ "id": "w:rup",
+ "th": "รูป",
+ "status": "mapped",
+ "rtgs": "rup",
+ "paiboon": "rûup",
+ "ipa": "/ruːp̚˥˩/",
+ "syllable_respelling": "รูบ-ปะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 ในขันธ์ 5 คือ รูป เวทนา สัญญา สังขาร วิญญาณ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "รูปธรรม",
+     "rtgs": "rup-pa-tham",
+     "ipa": "/ruːp̚˥˩.pa˨˩.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งที่รู้ได้ทางตา หู จมูก ลิ้น กาย อันได้แก่ รูปเสียง กลิ่น รส และสิ่งที่สามารถสัมผัสได้ด้วยกาย, คู่กับ นามธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "ธรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.18, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ธรรม"
+     ],
+     "lit": "image + dharma",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + คุณความดี",
+     "frame": "entity"
+    },
+    {
+     "th": "พุทธรูป",
+     "rtgs": "phut-tha-rup",
+     "ipa": "/pʰut̚˦˥.tʰa˦˥.ruːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(พระ~) รูปเปรียบหรือรูปแทนองค์พระพุทธเจ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พุทธ",
+      "รูป"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พุทธ"
+     ],
+     "lit": "the awakened one + image",
+     "lit_th": "ผู้ตรัสรู้ + สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1",
+     "frame": "entity"
+    },
+    {
+     "th": "รูปถ่าย",
+     "rtgs": "rup-thai",
+     "ipa": "/ruːp̚˥˩.tʰaːj˨˩/",
+     "gloss": {
+      "en": [
+       "photo"
+      ],
+      "th": "ภาพที่บันทึกไว้ด้วยวิธีให้แสงผ่านฟิล์มรูปเป็นต้นลงบนแผ่นวัสดุไวแสง เช่น กระดาษอัดรูป แล้วนำไปล้างตามกรรมวิธีเพื่อให้รูปปรากฏ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "ถ่าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + เอาออกจากที่หนึ่งไปใส่อีกที่หนึ่ง"
+    },
+    {
+     "th": "ฝังรูป",
+     "translit_auto": "fangrup",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิธีทำคุณอย่างหนึ่ง โดยปั้นรูปสมมุติของศัตรูด้วยขี้ผึ้งหรือดินเหนียว เสกคาถาอาคมแล้วนำไปฝังใต้บันไดเรือน ป่าช้า หรือทางสามแพร่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝัง",
+      "รูป"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bury + image",
+     "lit_th": "จมหรือทำให้จมลงไปจากระดับพื้นจนมิด + สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1"
+    },
+    {
+     "th": "พระรูป",
+     "translit_auto": "phrarup",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "รูป"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "the honorific prefix phra + image",
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1",
+     "frame": "entity"
+    },
+    {
+     "th": "รูปภาพ",
+     "rtgs": "rup-phap",
+     "ipa": "/ruːp̚˥˩.pʰaːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "picture",
+       "image",
+       "photograph"
+      ],
+      "th": "รูปที่วาดหรือเขียนขึ้น เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "ภาพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "image + image",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + ความมี",
+     "frame": "entity"
+    },
+    {
+     "th": "รูปสระ",
+     "rtgs": "rup-sa-ra",
+     "ipa": "/ruːp̚˥˩.sa˨˩.raʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัวอักษรที่ใช้แทนเสียงสระ เช่น ะ า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "สระ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สระ"
+     ],
+     "lit": "image + vowel",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ร่าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Form narrowed to the figure that has it.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หมดรูป",
+     "rtgs": "mot-rup",
+     "ipa": "/mot̚˨˩.ruːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ทำให้รู้สึกน่าสังเวช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมด",
+      "รูป"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "all + image",
+     "lit_th": "สิ้น + ร่าง"
+    },
+    {
+     "th": "แปรรูป",
+     "rtgs": "prae-rup",
+     "ipa": "/prɛː˧.ruːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิธีเอาเถ้าถ่านและกระดูกศพที่เผาเสร็จแล้วบนกองฟอนมาเรียงลำดับเป็นอย่างรูปคน ให้หัวอยู่ทางทิศตะวันตกแล้วหันกลับมาทางทิศตะวันออก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แปร",
+      "รูป"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "become + image",
+     "lit_th": "เปลี่ยนกลายไปจากลักษณะหรือภาวะเดิม + ร่าง"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ร่างกาย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รูปร่าง",
+     "rtgs": "rup-rang",
+     "ipa": "/ruːp̚˥˩.raːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "form",
+       "figure",
+       "pattern"
+      ],
+      "th": "ลักษณะร่างกาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "ร่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.26, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ร่างกาย + รูปทรง",
+     "frame": "entity"
+    },
+    {
+     "th": "รูปพรรณ",
+     "rtgs": "rup-pa-phan",
+     "ipa": "/ruːp̚˥˩.pa˨˩.pʰan˧/",
+     "gloss": {
+      "en": [
+       "identity"
+      ],
+      "th": "ลักษณะ, รูปร่างและสี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "พรรณ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ร่างกาย + คำพ้องความของ ชนิด",
+     "frame": "entity"
+    },
+    {
+     "th": "รูปสมบัติ",
+     "rtgs": "rup-pa-som-bat",
+     "ipa": "/ruːp̚˥˩.pa˨˩.som˩˩˦.bat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปงาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "สมบัติ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "image + riches",
+     "lit_th": "ร่างกาย + ความถึงพร้อม หมายถึง ทรัพย์สิน เงิ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "And to the body.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เค้าโครง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The form of a thing as its outline.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รูปทรง",
+     "rtgs": "rup-song",
+     "ipa": "/ruːp̚˥˩.soŋ˧/",
+     "gloss": {
+      "en": [
+       "form",
+       "shape"
+      ],
+      "th": "ทรวดทรง สัณฐาน ประกอบด้วยความกว้าง หนาหรือลึก และสูง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "ทรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทรง"
+     ],
+     "lit": "image + form",
+     "lit_th": "เค้าโครง + รูปร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "รูปการณ์",
+     "translit_auto": "rupkarn",
+     "ipa": "[ruːp̚˥˩.kä̃ːn˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลักษณะของเรื่องราว, เค้ามูลของเรื่องราว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "การณ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เค้าโครง + เค้า",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "แบบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "And as the pattern others follow.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "สำเร็จรูป",
+     "rtgs": "sam-ret-rup",
+     "ipa": "/sam˩˩˦.ret̚˨˩.ruːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ทำไว้เสร็จเรียบร้อยแล้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำเร็จ",
+      "รูป"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "finish + image",
+     "lit_th": "เสร็จ + แบบ"
+    },
+    {
+     "th": "รูปแบบ",
+     "rtgs": "rup–baep",
+     "ipa": "/ruːp̚˥˩.bɛːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "form",
+       "manner",
+       "style"
+      ],
+      "th": "รูปที่กำหนดขึ้นเป็นหลักหรือเป็นแนวซึ่งเป็นที่ยอมรับ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "แบบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แบบ"
+     ],
+     "lit": "image + model",
+     "lit_th": "แบบ + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+     "frame": "entity"
+    },
+    {
+     "th": "อัญรูป",
+     "rtgs": "an-ya-rup",
+     "ipa": "/ʔan˧.ja˦˥.ruːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ธาตุเดียวกันแต่มีสมบัติและรูปแบบต่างกัน เมื่อนำไปทำปฏิกิริยากับธาตุอื่นธาตุเดียวกัน จะให้ผลเป็นสารประกอบอันเดียวกัน เช่น ธาตุคาร์บอน มีอัญรูป คือ เพชร กับ แกรไฟต์ เมื่อนำอัญรูปทั้ง 2 นี้ ไปเผาด้วยความร้อนสูงกับธาตุออกซิเ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อัญ",
+      "รูป"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "อื่น + แบบ",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ใช้เรียกพระภิกษุสามเณร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "The classifier for monks and novices — counted by their form.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รูปชี",
+     "rtgs": "rup-chi",
+     "ipa": "/ruːp̚˥˩.t͡ɕʰiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นักบวชหญิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "ชี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้เรียกพระภิกษุสามเณร + นักบวช",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "คำใช้แทนตัวผู้พูดสำหรับพระภิกษุสามเณรพูดกับคฤหัสถ์, เป็นสรรพนามบุรุษที่ 1, ปัจจุบันใช้ อาตมา หรือ อาตมภาพ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "And the word a monk uses of himself to a layman.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 19 manuscript titles, 563 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['ร่างกาย', 'ขา', 'ตา'].",
+ "compounds_unassigned": [
+  {
+   "th": "เทวรูป",
+   "rtgs": "the-wa-rup",
+   "ipa": "/tʰeː˧.wa˦˥.ruːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปเทพเจ้าหรือเทวดาที่เคารพนับถือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เทว",
+    "รูป"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เทวดา + สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต रूप (รูป) หรือบาลี รูป; ร่วมเชื้อสายกับลาว ຮູບ (ฮูบ), ไทลื้อ ᦷᦣᧇ (โฮบ)\nเป็นศัพท์บัญญัติสำนักงานราชบัณฑิตยสภาของ figure, form (คำนาม ความหมาย 2–5 ↓)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "image"
+ ]
+}

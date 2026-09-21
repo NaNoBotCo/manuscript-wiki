@@ -15,7 +15,7 @@ counts, renders its own HTML. Declared in routes.py with built_by="handpoke.py".
 
     python3 handpoke.py --docs ../nanobotco-lanna/docs --site-url https://wichaa.net
 
-Writes  docs/handpoke/index.html  +  docs/api/handpoke.json
+Writes  docs/handpoke/corpus/index.html  +  docs/api/handpoke.json
 """
 from __future__ import annotations
 
@@ -28,7 +28,9 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 DB = Path(os.environ.get("CATALOG_DB") or (HERE.parent / "manuscript-crawler" / "crawler" / "catalog.db"))
-SITE = "https://nanobotco.github.io/hand-poke/"
+# The full site moved to wichaa on Nan's call, 2026-09-21; the GitHub copy is
+# redirect stubs now. This page is the corpus count beside it, at /handpoke/corpus.
+SITE = "https://wichaa.net/handpoke/"
 
 # the word, the transliteration, and what it means — the words a page could use
 TERMS = [
@@ -121,7 +123,7 @@ def render(c: dict, site: str) -> str:
     jsonld = json.dumps({
         "@context": "https://schema.org", "@type": "ScholarlyArticle",
         "name": "สักขาลาย — the Lanna leg tattoo, counted in the corpus",
-        "url": f"{site}/handpoke/",
+        "url": f"{site}/handpoke/corpus/",
         "description": f"The waist-to-ankle tattoo a Lanna man was expected to carry, and how "
                        f"often it appears in {c['pages']:,} transcribed manuscript pages: {kha}.",
         "isBasedOn": SITE,
@@ -139,12 +141,12 @@ PAGE = r"""<!doctype html>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>สักขาลาย · the leg tattoo, counted · wichaa</title>
 <meta name="description" content="The waist-to-ankle tattoo a Lanna man was expected to carry — quoted from the one page of this corpus that describes it, and counted against {{PAGES}} transcribed pages.">
-<link rel="canonical" href="{{SITE}}/handpoke/">
+<link rel="canonical" href="{{SITE}}/handpoke/corpus/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="wichaa">
 <meta property="og:title" content="สักขาลาย · the leg tattoo, counted">
 <meta property="og:description" content="Lanna men tattooed from the waist to the ankles, until the murals painted it as trousers. It appears on {{KHA}} page of {{PAGES}}.">
-<meta property="og:url" content="{{SITE}}/handpoke/">
+<meta property="og:url" content="{{SITE}}/handpoke/corpus/">
 <meta property="og:image" content="{{SITE}}/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{{JSONLD}}</script>
@@ -268,15 +270,16 @@ def main(argv=None) -> int:
               file=sys.stderr)
         return 1
     site = a.site_url.rstrip("/")
-    (docs / "handpoke").mkdir(parents=True, exist_ok=True)
-    (docs / "handpoke" / "index.html").write_text(render(c, site), encoding="utf-8")
+    (docs / "handpoke" / "corpus").mkdir(parents=True, exist_ok=True)
+    (docs / "handpoke" / "corpus" / "index.html").write_text(
+        render(c, site), encoding="utf-8")
     (docs / "api").mkdir(parents=True, exist_ok=True)
     (docs / "api" / "handpoke.json").write_text(
         json.dumps({"corpus": {"pages_transcribed": c["pages"], "manuscripts": c["manuscripts"]},
                     "terms": c["terms"], "companion": SITE}, ensure_ascii=False, indent=1),
         encoding="utf-8")
     kha = next((t["pages"] for t in c["terms"] if t["th"] == "สักขาลาย"), 0)
-    print(f"handpoke: /handpoke written — {c['pages']:,} pages searched, สักขาลาย on {kha}")
+    print(f"handpoke: /handpoke/corpus written — {c['pages']:,} pages searched, สักขาลาย on {kha}")
     return 0
 
 

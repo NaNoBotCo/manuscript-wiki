@@ -1,0 +1,906 @@
+{
+ "id": "w:sa",
+ "th": "สระ",
+ "status": "mapped",
+ "rtgs": "sa",
+ "paiboon": "sà",
+ "ipa": "/saʔ˨˩/",
+ "syllable_respelling": "สะ-หฺระ",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนขุด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: สระ 'pond'.",
+    "Declared root: สระ 'pond'.",
+    "Declared root: สระ 'pond'.",
+    "Declared root: สระ 'pond'.",
+    "Declared root: สระ 'pond'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เสียงพูดที่เปล่งออกมาโดยอาศัยการเคลื่อนไหวของลิ้นและริมฝีปากเป็นสำคัญ แต่ไม่มีการสกัดกั้นจากอวัยวะส่วนใดส่วนหนึ่งในปาก เช่น เสียง อะ อา โดยทั่วไปจะออกเสียงสระร่วมกับเสียงพยัญชนะหรือออกเสียงเฉพาะเสียงสระอย่างเดียวก็ได้, เสียงสระ ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สระ 'vowel' < Skt svara.",
+    "Declared root: สระ 'vowel' < Skt svara.",
+    "Declared root: สระ 'vowel' < Skt svara.",
+    "Declared root: สระ 'vowel' < Skt svara.",
+    "Declared root: สระ 'vowel' < Skt svara."
+   ],
+   "compounds": [
+    {
+     "th": "สระยาว",
+     "rtgs": "sa-ra-yao",
+     "ipa": "/sa˨˩.ra˨˩.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สระที่ออกเสียงยาว, สระที่ออกเสียงต่อเนื่อง 1 มาตราขึ้นไป ซึ่งโดยมากจะเป็น 2 มาตรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "ยาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ยาว"
+     ],
+     "lit": "vowel + long",
+     "lit_th": "เสียงพูดที่เปล่งออกมาโดยอาศัยการเค + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+     "frame": "quality"
+    },
+    {
+     "th": "ทีฆสระ",
+     "rtgs": "thi-kha-sa-ra",
+     "ipa": "/tʰiː˧.kʰa˦˥.sa˨˩.raʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สระยาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทีฆ",
+      "สระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ยาว + เสียงพูดที่เปล่งออกมาโดยอาศัยการเค",
+     "frame": "quality"
+    },
+    {
+     "th": "สระสั้น",
+     "rtgs": "sa-ra-san",
+     "ipa": "/sa˨˩.ra˨˩.san˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สระที่ออกเสียงสั้น, สระที่ออกเสียง 1 มาตรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "สั้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "vowel + short",
+     "lit_th": "เสียงพูดที่เปล่งออกมาโดยอาศัยการเค + ลักษณะส่วนหนึ่งของสิ่งใด ๆ มีกำหนด",
+     "frame": "quality"
+    },
+    {
+     "th": "รัสสระ",
+     "rtgs": "ras-sa-sa-ra",
+     "ipa": "/ras˦˥.sa˨˩.sa˨˩.raʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สระสั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัส",
+      "สระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "สั้น + เสียงพูดที่เปล่งออกมาโดยอาศัยการเค",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ตัวอักษรที่ใช้แทนเสียงสระ เช่นะ า, รูปสระ ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รูปสระ",
+     "rtgs": "rup-sa-ra",
+     "ipa": "/ruːp̚˥˩.sa˨˩.raʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัวอักษรที่ใช้แทนเสียงสระ เช่น ะ า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "สระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "รูป"
+     ],
+     "lit": "image + vowel",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + ตัวอักษรที่ใช้แทนเสียงสระ เช่นะ า",
+     "frame": "entity"
+    },
+    {
+     "th": "สระลอย",
+     "rtgs": "sa-ra-loi",
+     "ipa": "/sa˨˩.ra˨˩.lɔːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปสระที่สามารถเขียนเดี่ยว ๆ ได้โดยไม่ต้องมีพยัญชนะประกอบ มีใช้ในบางภาษา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "ลอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลอย"
+     ],
+     "lit": "vowel + float",
+     "lit_th": "ตัวอักษรที่ใช้แทนเสียงสระ เช่นะ า + ทรงตัวอยู่ในอากาศ"
+    },
+    {
+     "th": "สระจม",
+     "rtgs": "sa-ra-chom",
+     "ipa": "/sa˨˩.ra˨˩.t͡ɕom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปสระที่ไม่สามารถเขียนเดี่ยว ๆ ได้ ต้องมีพยัญชนะประกอบเสมอ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "จม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "vowel + drop",
+     "lit_th": "ตัวอักษรที่ใช้แทนเสียงสระ เช่นะ า + หายลงไปหรืออยู่ใต้ผิวพื้น"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "The vowel sound names the letter that writes it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เสียง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "And loosened to sound generally.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ฟอกให้สะอาดหมดจด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สระ 'to wash, to cleanse'.",
+    "Declared root: สระ 'to wash, to cleanse'.",
+    "Declared root: สระ 'to wash, to cleanse'.",
+    "Declared root: สระ 'to wash, to cleanse'.",
+    "Declared root: สระ 'to wash, to cleanse'."
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ชำระล้างให้สะอาด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "Washing widened to cleansing of any kind.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "sa as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 8 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 8 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 8 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "9 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "สระจรเข้",
+     "rtgs": "sa-cho-ra-khe",
+     "ipa": "/sa˨˩.t͡ɕɔː˧.ra˦˥.kʰeː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอด่านขุนทด จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "จรเข้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รูปเลิกใช้ของ จระเข้",
+     "frame": "entity"
+    },
+    {
+     "th": "สระพระ",
+     "rtgs": "sa-phra",
+     "ipa": "/sa˨˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพระทองคำ จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "พระ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "sa as an element in place names + the honorific prefix phra",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+     "frame": "entity"
+    },
+    {
+     "th": "สระสี่เหลี่ยม",
+     "rtgs": "sa-si-liam",
+     "ipa": "/sa˨˩.siː˨˩.lia̯m˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "สี่เหลี่ยม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "เวียงสระ",
+     "rtgs": "wiang-sa",
+     "ipa": "/wia̯ŋ˧.saʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุราษฎร์ธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เวียง",
+      "สระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เมืองที่มีกำแพงล้อม + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "สระโบสถ์",
+     "rtgs": "sa-bot",
+     "ipa": "/sa˨˩.boːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลพบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "โบสถ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "sa as an element in place names + temple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สถานที่สำหรับพระสงฆ์ใช้ประชุมทำสัง",
+     "frame": "entity"
+    },
+    {
+     "th": "สระขวัญ",
+     "rtgs": "sa-khwan",
+     "ipa": "/sa˨˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองสระแก้ว จังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "ขวัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "sa as an element in place names + khwan",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "สระใคร",
+     "rtgs": "sa-khrai",
+     "ipa": "/sa˨˩.kʰraj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดหนองคาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "ใคร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PRON",
+     "head": 0,
+     "lit": "sa as an element in place names + who",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คนไหน"
+    },
+    {
+     "th": "สระตะเคียน",
+     "rtgs": "sa-ta-khian",
+     "ipa": "/sa˨˩.ta˨˩.kʰia̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเสิงสาง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "ตะเคียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดใหญ่ชนิด Hopea odora",
+     "frame": "entity"
+    },
+    {
+     "th": "สระบุรี",
+     "rtgs": "sa-ra-bu-ri",
+     "ipa": "/sa˨˩.ra˨˩.bu˨˩.riː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(จังหวัด~) ชื่อจังหวัดในภาคกลางของประเทศไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "บุรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บุรี"
+     ],
+     "lit": "sa as an element in place names + town",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เมือง",
+     "frame": "entity"
+    },
+    {
+     "th": "สระแก้ว",
+     "rtgs": "sa-kaeo",
+     "ipa": "/sa˨˩.kɛːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(จังหวัด~) ชื่อจังหวัดในภาคตะวันออกของประเทศไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "แก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "sa as an element in place names + glass",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 23 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['ลิ้น', 'อวัยวะ', 'ปาก', 'ขน'].",
+ "compounds_unassigned": [
+  {
+   "th": "สระอู",
+   "rtgs": "sa-ra-u",
+   "ipa": "/sa˨˩.ra˨˩.ʔuː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ตีนคู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สระ",
+    "อู"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity"
+  },
+  {
+   "th": "สระอา",
+   "rtgs": "sa-ra-a",
+   "ipa": "/sa˨˩.ra˨˩.ʔaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ลากข้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สระ",
+    "อา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "อา"
+   ],
+   "lit": "vowel + father's younger sibling",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + น้องชายหรือน้องสาวของพ่อ",
+   "frame": "entity"
+  },
+  {
+   "th": "การสระ",
+   "rtgs": "kan-sa",
+   "ipa": "/kaːn˧.saʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สระ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "สระ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากบาลี สร (“แอ่งน้ำ”); เทียบสันสกฤต सरस् (สรสฺ, “แอ่งน้ำ”) ยืมมาจากบาลี สร (“เสียงสระ”); เทียบสันสกฤต स्वर (สฺวร, “เสียงสระ”) ยืมมาจากบาลี สร (“เสียง”); เทียบสันสกฤต स्वर (สฺวร, “เสียง”) เทียบ ชระ; ร่วมเชื้อสายกับลาว ສະ (สะ), ไทลื้อ ᦉ (ส)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "vowel"
+ ]
+}

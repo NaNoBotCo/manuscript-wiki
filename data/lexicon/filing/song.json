@@ -1,0 +1,11 @@
+{
+ "head": "song",
+ "rule": "ทรง is shape, bearing, and then the royal auxiliary — and the last is what most of this list is. The two use-note senses were both empty and they divide by what follows ทรง. Sense 11 puts ทรง in front of an ORDINARY verb or noun to raise it: ทรงงาน, ทรงธรรม, ทรงศีล, ทรงดนตรี, ทรงบาตร — work, hear a sermon, take precepts, play music, give alms. Sense 12 puts it in front of a word that is ALREADY royal vocabulary, which is why ทรงพระอักษร, ทรงพระสำอาง and ทรงพระสุคนธ์ go there and not to 11 — พระอักษร and พระสุคนธ์ are royal nouns before ทรง arrives. Sense 8, ขี่ or ถือ by the following word, takes riding and wearing: ทรงรถ, ทรงช้าง, ทรงเรือ, ทรงเครื่อง, เครื่องทรง, ผ้าทรง, เสื้อทรง. Sense 5, รองรับ, is the medium who HOSTS a spirit — ร่างทรง, คนทรง, ทรงเจ้า. Sense 1 keeps plain shape (รูปทรง, ทรงกลม, ยกทรง, ทรงตัก).",
+ "senses": {
+  "1": ["ทรงกลม","ทรงตัก","ยกทรง","รูปทรง"],
+  "5": ["คนทรง","ทรงเจ้า","ร่างทรง"],
+  "8": ["ทรงช้าง","ทรงรถ","ทรงเครื่อง","ทรงเรือ","ผ้าทรง","เครื่องทรง","เสื้อทรง"],
+  "11": ["ทรงงาน","ทรงดนตรี","ทรงธรรม","ทรงบาตร","ทรงศีล"],
+  "12": ["ทรงพระสำอาง","ทรงพระสุคนธ์","ทรงพระอักษร"]
+ }
+}

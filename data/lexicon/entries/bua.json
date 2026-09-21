@@ -1,0 +1,703 @@
+{
+ "id": "w:bua",
+ "th": "บัว",
+ "status": "mapped",
+ "rtgs": "bua",
+ "paiboon": "buua",
+ "ipa": "/bua̯˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "lotus"
+    ],
+    "th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในวงศ์ Nymphaeaceae คือ สกุล Nelumbo ใบ เป็นแผ่นกลม ขอบเรียบ ก้านใบและก้านดอกแข็ง มีตุ่มหนาม ชูใบและดอกขึ้นพ้นผิวน้ำ",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "บัวลาย",
+     "rtgs": "bua-lai",
+     "ipa": "/bua̯˧.laːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "ลาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาย"
+     ],
+     "lit": "lotus + design",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+     "frame": "entity"
+    },
+    {
+     "th": "กาบบัว",
+     "translit_auto": "kabbaw",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อนกชนิดหนึ่งปากและขายาว ขนสีขาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กาบ",
+      "บัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เปลือกหุ้มชั้นนอกของผลไม้ หรือดอกข + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
+    },
+    {
+     "th": "วังบัว",
+     "rtgs": "wang-bua",
+     "ipa": "/waŋ˧.bua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองขลุง จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "บัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + lotus",
+     "lit_th": "ที่อยู่ของเจ้านาย + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
+    },
+    {
+     "th": "บัวเงิน",
+     "rtgs": "bua-ngoen",
+     "ipa": "/bua̯˧.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอน้ำพอง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "เงิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เงิน"
+     ],
+     "lit": "lotus + bread",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "บัวขาว",
+     "rtgs": "bua-khao",
+     "ipa": "/bua̯˧.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกุฉินารายณ์ จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "ขาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขาว"
+     ],
+     "lit": "lotus + white",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "นาบัว",
+     "rtgs": "na-bua",
+     "ipa": "/naː˧.bua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนครไทย จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "บัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + lotus",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
+    },
+    {
+     "th": "บัวบาน",
+     "rtgs": "bua-ban",
+     "ipa": "/bua̯˧.baːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอยางตลาด จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "บาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + น้ำสำหรับดื่ม",
+     "frame": "entity"
+    },
+    {
+     "th": "บัวใหญ่",
+     "rtgs": "bua-yai",
+     "ipa": "/bua̯˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "ใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "lotus + huge",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + โต",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ส่วนประกอบ ทางสถาปัตยกรรมที่ทำเป็นรูปกลีบบัวติดอยู่ บนหัวเสา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "บัวกลุ่ม",
+     "rtgs": "bua-klum",
+     "ipa": "/bua̯˧.klum˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลายปูนปั้นหรือลายแกะไม้ที่ทำเป็นรูปดอกบัวที่เริ่มแย้มร้อยกันเป็นเถา อยู่ระหว่างบัลลังก์กับปลียอดของเจดีย์บางแบบหรือปลายเครื่องบนของปราสาท",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "กลุ่ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.17, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "lotus + a",
+     "lit_th": "ส่วนประกอบ ทางสถาปัตยกรรมที่ทำเป็น + คน สัตว์ หรือสิ่งต่าง ๆ ที่รวมกันเ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The lotus-petal moulding on a base or capital.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "ลวดบัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หนองบัว",
+     "rtgs": "nong-bua",
+     "ipa": "/nɔːŋ˩˩˦.bua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปตัดทอนของ หนองบัวลำภู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "บัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.25, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + lotus",
+     "lit_th": "แอ่งน้ำ + ลวดบัว",
+     "frame": "entity"
+    },
+    {
+     "th": "บัวอกไก่",
+     "rtgs": "bua-ok-kai",
+     "ipa": "/bua̯˧.ʔok̚˨˩.kaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อลวดบัวแบบหนึ่ง มีลักษณะนูนเป็นสันขึ้นอย่างอกของไก่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "อกไก่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.23, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ลวดบัว + อกของไก่",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้านบัว",
+     "translit_auto": "kanbaw",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำไลเท้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้าน",
+      "บัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.28, next 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่ต่อดอก หรือใบ หรือผล กับกิ่ + ลวดบัว",
+     "frame": "entity"
+    },
+    {
+     "th": "บัวแดง",
+     "rtgs": "bua-daeng",
+     "ipa": "/bua̯˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บัวหลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.33, next 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "lotus + red",
+     "lit_th": "ลวดบัว + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And ลวดบัว, the moulding itself.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 28 manuscript titles, 66 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits ['ดอก', 'ใบ', 'ไม้', 'นา'].",
+ "compounds_unassigned": [
+  {
+   "th": "บัวหลวง",
+   "rtgs": "bua-luang",
+   "ipa": "/bua̯˧.lua̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บัวชนิด Nelumbo nucifera Gaertn. ดอกสีขาวหรือชมพู กลิ่นหอม ใช้ในงานพิธีต่าง ๆ เมล็ดกินได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บัว",
+    "หลวง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "หลวง"
+   ],
+   "lit": "lotus + royal",
+   "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ที่เป็นของพระเจ้าแผ่นดิน",
+   "frame": "quality"
+  },
+  {
+   "th": "กบบัว",
+   "rtgs": "kop-bua",
+   "ipa": "/kop̚˨˩.bua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กบไสไม้ที่มีคมเป็นรูปต่าง ๆ ใช้ไสไม้ให้เป็นรูปตามต้องการ เช่น ไสเป็นบัวเชิงผนัง ไสเป็นรูปโค้งครึ่งวงกลมหรือโค้งอย่างเล็บมือ เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กบ",
+    "บัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กบ"
+   ],
+   "lit": "frog + lotus",
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+   "frame": "entity"
+  },
+  {
+   "th": "ดอกบัว",
+   "rtgs": "dok-bua",
+   "ipa": "/dɔːk̚˨˩.bua̯˧/",
+   "gloss": {
+    "en": [
+     "lotus"
+    ],
+    "th": "ดอกไม้ของต้นบัว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ดอก",
+    "บัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "flower + lotus",
+   "lit_th": "ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+   "frame": "entity"
+  },
+  {
+   "th": "ฝักบัว",
+   "rtgs": "fak-bua",
+   "ipa": "/fak̚˨˩.bua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(ฝี~) ชื่อฝีชนิดหนึ่ง ขึ้นตามหลังและต้นคอ มีลักษณะเหมือนฝักบัว มีหัวหลายหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฝัก",
+    "บัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ซอง + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+   "frame": "entity"
+  },
+  {
+   "th": "บัวลอย",
+   "rtgs": "bua-loi",
+   "ipa": "/bua̯˧.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อขนมชนิดหนึ่ง ทำด้วยแป้งข้าวเหนียว ปั้นเป็นเม็ดกลม ๆ เล็ก ๆ ต้มในน้ำกะทิผสมน้ำตาล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บัว",
+    "ลอย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ลอย"
+   ],
+   "lit": "lotus + float",
+   "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ทรงตัวอยู่ในอากาศ"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับอีสาน บัว, ลาว ບົວ (บ็ว), คำเมือง ᨷ᩠ᩅᩫ (บว็), เขิน ᨷ᩠ᩅᩫ (บว็), ไทลื้อ ᦷᦢ (โบ), ไทดำ ꪚꪺ (บัว), ไทใหญ่ မူဝ် (มูว), ဝူဝ် (วูว), ไทใต้คง ᥛᥨᥝ (โมว), พ่าเก မ︀ုဝ︀် (มุว์), อาหม 𑜈𑜥 (บู)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨷ᩠ᩅᩫ",
+  "th": "บว็",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

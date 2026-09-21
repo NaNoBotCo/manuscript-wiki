@@ -1,0 +1,50 @@
+{
+ "head": "khrueang",
+ "rule": "เครื่อง's five senses are a ladder — thing, set, implement, accompaniment, royal — and each rung has a test. Sense 3 (สิ่งของสำหรับใช้การ) takes what you OPERATE: machines, vehicles, instruments, utensils, and the verbs done to an engine (ติดเครื่อง, ยกเครื่อง, ฟิตเครื่อง, ห้องเครื่อง). Sense 2 (สิ่งสำหรับประกอบกันหรือเป็นพวกเดียวกัน) takes what forms a CLASS of goods rather than a tool — เครื่องเทศ, เครื่องเงิน, เครื่องเขิน, เครื่องหอม, เครื่องแบบ; you do not operate spices. Sense 4 (ของที่เข้าสำรับ) takes what comes WITH a dish: เครื่องปรุง, เครื่องแกง, เครื่องเคียง, ข้าวต้มเครื่อง. Sense 5 is the royal register and is marked on the face of the word — ทรง, ราช, พระ, or a gloss naming the king. Sense 1 is the bare สิ่งของ and should stay nearly empty: if a compound names a kind, a tool, a trimming or a king's things, one of the four specialisations has already claimed it.",
+ "senses": {
+  "2": [
+   "เครื่องดื่ม",
+   "เครื่องประดับ",
+   "เครื่องสำอาง",
+   "เครื่องหลัง",
+   "เครื่องหอม",
+   "เครื่องเขิน",
+   "เครื่องเงิน",
+   "เครื่องเทศ",
+   "เครื่องแบบ",
+   "เครื่องใน"
+  ],
+  "3": [
+   "ฟิตเครื่อง",
+   "ยกเครื่อง",
+   "ส่วนเครื่อง",
+   "ห้องเครื่อง",
+   "ติดเครื่อง",
+   "เครื่องครัว",
+   "เครื่องจักร",
+   "เครื่องดนตรี",
+   "เครื่องบิน",
+   "เครื่องปรับอากาศ",
+   "เครื่องพิมพ์",
+   "เครื่องยนต์",
+   "เครื่องสาย",
+   "เครื่องหมาย"
+  ],
+  "4": [
+   "ข้าวต้มเครื่อง",
+   "เครื่องปรุง",
+   "เครื่องเคียง",
+   "เครื่องแกง"
+  ],
+  "5": [
+   "ตั้งเครื่อง",
+   "ทรงเครื่อง",
+   "เครื่องต้น",
+   "เครื่องพระสำอาง",
+   "เครื่องยศ",
+   "เครื่องราชูปโภค",
+   "เครื่องว่าง",
+   "เครื่องสูง"
+  ]
+ }
+}

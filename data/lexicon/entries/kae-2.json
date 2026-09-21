@@ -1,0 +1,559 @@
+{
+ "id": "w:kae-2",
+ "th": "แก",
+ "status": "mapped",
+ "rtgs": "kae",
+ "paiboon": "gɛɛ",
+ "ipa": "/kɛː˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "house crow"
+    ],
+    "th": "ชื่อนกชนิด Corvus splendens ในวงศ์ Corvidae รูปร่างคล้ายกา แต่ตัวและปากเล็กกว่า ด้านหลังท้ายทอยสีเทา",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: แก, the house crow.",
+    "Declared root: แก, the house crow.",
+    "Declared root: แก, the house crow.",
+    "Declared root: แก, the house crow."
+   ],
+   "compounds": [
+    {
+     "th": "นาแก",
+     "rtgs": "na-kae",
+     "ipa": "/naː˧.kɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครพนม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "แก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + house crow",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ชื่อนกชนิด Corvus splendens ในวงศ์",
+     "frame": "entity"
+    },
+    {
+     "th": "แกแล",
+     "rtgs": "kae-lae",
+     "ipa": "/kɛː˧.lɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้พุ่มรอเลื้อยเนื้อแข็งชนิด Maclura cochinchinensis ในวงศ์ Moraceae ขึ้นในป่าดิบ ต้นมีหนาม แก่นเหลืองใช้ย้อมผ้าและทำยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก",
+      "แล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + ดู"
+    },
+    {
+     "th": "ห้วยแก",
+     "rtgs": "huai-kae",
+     "ipa": "/hua̯j˥˩.kɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชนบท จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้วย",
+      "แก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + house crow",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ชื่อนกชนิด Corvus splendens ในวงศ์",
+     "frame": "entity"
+    },
+    {
+     "th": "แกดำ",
+     "rtgs": "kae-dam",
+     "ipa": "/kɛː˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดมหาสารคาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก",
+      "ดำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ดำ"
+     ],
+     "lit": "house crow + black",
+     "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + มุดลง ในคำว่า ดำน้ำ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "สรรพนามบุรุษที่ 2 ใช้แทนผู้ที่เราพูดด้วยซึ่งเป็นผู้ที่สนิทสนม หรือผู้น้อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: แก, the familiar pronoun.",
+    "Declared root: แก, the familiar pronoun.",
+    "Declared root: แก, the familiar pronoun.",
+    "Declared root: แก, the familiar pronoun."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "สรรพนามบุรุษที่ 3 ใช้แทนผู้ที่เราพูดถึง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "The familiar second person loosened to a third.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 85 manuscript titles, 1106 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 14; domain seeded by keyword hits ['ปาก', 'หลัง'].",
+ "compounds_unassigned": [
+  {
+   "th": "แกลน",
+   "rtgs": "klaen",
+   "ipa": "/klɛːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คร้าม, กลัว, เกรง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "ลน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + อังไฟเพื่อให้ร้อนแต่ผิว ๆ หรือให้อ"
+  },
+  {
+   "th": "แกรด",
+   "rtgs": "kraet",
+   "ipa": "/krɛːt̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลาออกจากการเป็นสมาชิกของวงไอดอลญี่ปุ่นหรือเกาหลีเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "รด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + เท ราด สาด ฉีด หรือโปรยน้ำหรือของเ"
+  },
+  {
+   "th": "แกลบ",
+   "rtgs": "klaep",
+   "ipa": "/klɛːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "chaff"
+    ],
+    "th": "เปลือกข้าวที่สีหรือตำแตกออกจากเมล็ดข้าว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แก",
+    "ลบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "house crow + remove",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + ทำให้หายไปด้วยอาการเช็ดหรือถู"
+  },
+  {
+   "th": "แกล้ม",
+   "rtgs": "klaem",
+   "ipa": "/klɛːm˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของกินกับเหล้า, กับแกล้ม ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "ล้ม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "house crow + fall",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + กิริยาที่ตั้งอยู่แล้วเอนลงหรือทอดล"
+  },
+  {
+   "th": "แกละ",
+   "rtgs": "klae",
+   "ipa": "/klɛʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผมเด็กผู้ชายที่เอาไว้เป็นแหยมตรงแง่ศีรษะ เรียกว่า ผมแกละ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "ละ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ละ"
+   ],
+   "lit": "house crow + to leave",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง"
+  },
+  {
+   "th": "แกนะ",
+   "rtgs": "ka-nae",
+   "ipa": "/ka˨˩.nɛʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แกะ, สลัก, เจาะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "นะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "นะ"
+   ],
+   "lit": "house crow + the sentence particle na",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
+  },
+  {
+   "th": "แกรก",
+   "rtgs": "kraek",
+   "ipa": "/krɛːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เสียงดังเหมือนเล็บขูดพื้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "รก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + ที่กระจัดกระจายอยู่เกลื่อนกลาดไม่เ",
+   "frame": "quality"
+  },
+  {
+   "th": "รังแก",
+   "rtgs": "rang-kae",
+   "ipa": "/raŋ˧.kɛː˧/",
+   "gloss": {
+    "en": [
+     "bully"
+    ],
+    "th": "แกล้งทำความเดือดร้อนให้ผู้อื่น (มักใช้แก่ผู้มีอำนาจมากกว่า)",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "แก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รัง"
+   ],
+   "lit": "nest + house crow",
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ชื่อนกชนิด Corvus splendens ในวงศ์",
+   "frame": "entity"
+  },
+  {
+   "th": "แกระ",
+   "rtgs": "krae",
+   "ipa": "/krɛʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องมือชนิดหนึ่งสำหรับตัดรวงข้าว ใช้ทางปักษ์ใต้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "ระ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + กระทบเรียดไป"
+  },
+  {
+   "th": "แกลง",
+   "rtgs": "klaeng",
+   "ipa": "/klɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดระยอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "ลง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ลง"
+   ],
+   "lit": "house crow + drop",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
+  }
+ ],
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kae",
+   "label": "แก้",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kae\". แก is gɛɛ, แก้ is gɛ̂ɛ — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

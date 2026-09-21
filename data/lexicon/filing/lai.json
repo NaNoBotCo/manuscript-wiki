@@ -1,0 +1,24 @@
+{
+ "head": "lai",
+ "rule": "ลาย is the PATTERN and nearly everything files at 1, because Thai reads writing as pattern: a written character is a ลาย (ลายสือ, ลายลักษณ์), so is a hand (ลายมือ, ลายเซ็น), and so is the mark a person leaves on the world for good or ill (ไว้ลาย, ออกลาย). The shape senses take only what names a shape — stripes at 5 (ม้าลาย), spots and dazzle at 7 (ตาลาย). Senses 3 and 4 are the RID's own creature entries and take nothing new; sense 2, the craft, takes nothing here.",
+ "senses": {
+  "1": [
+   "ลายน้ำ",
+   "ลายมือ",
+   "ลายลักษณ์",
+   "ลายสือ",
+   "ลายเซ็น",
+   "ลายเส้น",
+   "ลายแทง",
+   "เกี้ยวลาย",
+   "ออกลาย",
+   "ไว้ลาย"
+  ],
+  "5": [
+   "ม้าลาย"
+  ],
+  "7": [
+   "ตาลาย"
+  ]
+ }
+}

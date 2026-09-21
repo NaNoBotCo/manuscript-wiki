@@ -1,0 +1,13 @@
+{
+ "head": "ton",
+ "rule": "ต้น is the trunk and everything that stands at the beginning of something. Sense 1 keeps actual plants (ต้นขจร, ต้นอ่อน, ลำต้น, ยืนต้น, ไม้ต้น). Sense 9, แรกเริ่ม, is the largest and takes what is ORIGINAL — ต้นแบบ, ต้นฉบับ, ต้นตำรับ, ต้นทุน, ต้นตอ, ต้นเหตุ, ตั้งต้น — while sense 8, plain first-in-order, takes พยัญชนะต้น and เป็นต้น. Sense 3 is the beginning of something long and takes ต้นน้ำ and ต้นทาง, a source and a road-head. Sense 2 was nearly empty and is the founder of a line: ต้นตระกูล. Sense 5 was empty and is the one worth naming — ต้น prefixed to a role means the TRUSTED OFFICER who has charge of a thing, and it gives the three ranks aboard a ship: ต้นเรือ, ต้นหน, ต้นกล, the executive officer, the navigator and the chief engineer. Sense 10 is the royal register (เครื่องต้น, เสด็จประพาสต้น).",
+ "senses": {
+  "1": ["ต้นขจร","ต้นอ่อน","ยืนต้น","ลำต้น","ไม้ต้น"],
+  "2": ["ต้นตระกูล"],
+  "3": ["ต้นทาง","ต้นน้ำ"],
+  "5": ["ต้นกล","ต้นหน","ต้นเรือ"],
+  "8": ["พยัญชนะต้น","เป็นต้น"],
+  "9": ["ตั้งต้น","ต้นตอ","ต้นตำรับ","ต้นทุน","ต้นฉบับ","ต้นเหตุ","ต้นแบบ"],
+  "10": ["เครื่องต้น","เสด็จประพาสต้น"]
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "head": "chon",
+ "rule": "This entry holds TWO unrelated words under one spelling, and the filing is almost entirely the second. Senses 1-5 are native ชน, to strike: the hard knock (1), pressed up against (2), meeting end to end (3), setting animals on each other (4) and the fighting cock that names (5). Sense 6 is Pali/Sanskrit jana, a person — a different word that happens to be spelled the same — and FOURTEEN of the eighteen queued compounds are its: every X+ชน naming a class of people, whether the modifier is Pali (ทรชน, อภิชน, อติชน, วิญญูชน, สาธุชน, วีรชน, ปัญญาชน, ประชาชน, สาธารณชน, สามัญชน, เอกชน) or Thai (มวลชน, ชุมชน, ชุมนุมชน). Only two words are the striking verb: กันชน, the bumper that takes the knock, at 1, and ชนช้าง, elephants driven into each other, at 4 — sense 4 being animals made to fight, which is exactly what a ยุทธหัตถี is. Senses 2, 3, 5 and 7 (the postal abbreviation for ชัยนาท) take nothing.",
+ "senses": {
+  "1": ["กันชน"],
+  "4": ["ชนช้าง"],
+  "6": [
+   "ปัญญาชน",
+   "มวลชน",
+   "ทรชน",
+   "สาธารณชน",
+   "ชุมนุมชน",
+   "อติชน",
+   "เอกชน",
+   "วิญญูชน",
+   "วีรชน",
+   "ชุมชน",
+   "ประชาชน",
+   "สามัญชน",
+   "สาธุชน",
+   "อภิชน"
+  ]
+ }
+}

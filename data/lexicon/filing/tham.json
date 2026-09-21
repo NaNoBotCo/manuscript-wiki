@@ -1,0 +1,14 @@
+{
+ "head": "tham",
+ "rule": "ธรรม runs from the teaching outward, and each ring has a test. Sense 2 is the TEACHING itself and takes what is preached, studied or contained (ธรรมกถา, ธรรมบท, ธรรมคุณ, นักธรรม, คติธรรม, ทรงธรรม, เปรียญธรรม) including คริสต์ธรรม, since the Bible is another religion's ธรรม and the sense does not say Buddhist. Sense 1 is VIRTUE as a quality of a person and takes ขันติธรรม, ภูมิธรรม, ศีลธรรม, มนุษยธรรม, มโนธรรม, บุญธรรม. Sense 3 is the CODE one practises by, and จริยธรรม files there because its gloss repeats sense 3's wording almost word for word — ธรรมที่เป็นข้อประพฤติปฏิบัติ. Sense 5 is justice (เที่ยงธรรม), sense 7 is law (นิติธรรม). Two senses that stood empty are filled here: sense 6, กฎเกณฑ์, takes ธรรมเนียม, a custom that binds without being law; and sense 8, สิ่งทั้งหลาย, takes ไทยธรรม, the objects offered to monks, and ธรรมชาติ, things as they simply are. Sense 9 is the suffix that leaves the meaning alone, so it takes only รูปธรรม, the twin of นามธรรม already there.",
+ "senses": {
+  "1": ["ขันติธรรม","บุญธรรม","ภูมิธรรม","มนุษยธรรม","มโนธรรม","ศีลธรรม"],
+  "2": ["คติธรรม","คริสต์ธรรม","ทรงธรรม","ธรรมกถา","ธรรมคุณ","ธรรมบท","นักธรรม","เปรียญธรรม"],
+  "3": ["จริยธรรม","ธรรมนิยม"],
+  "5": ["เที่ยงธรรม"],
+  "6": ["ธรรมเนียม"],
+  "7": ["นิติธรรม"],
+  "8": ["ธรรมชาติ","ไทยธรรม"],
+  "9": ["รูปธรรม"]
+ }
+}

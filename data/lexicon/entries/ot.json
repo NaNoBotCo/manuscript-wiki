@@ -1,0 +1,702 @@
+{
+ "id": "w:ot",
+ "th": "อด",
+ "status": "mapped",
+ "rtgs": "ot",
+ "paiboon": "òt",
+ "ipa": "/ʔot̚˨˩/",
+ "syllable_respelling": "ออ-ดอ",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "to restrain",
+     "to hold back"
+    ],
+    "th": "กลั้น",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: อด 'to restrain, to hold back'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "งดเว้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อดอาหาร",
+     "rtgs": "ot-a-han",
+     "ipa": "/ʔot̚˨˩.ʔaː˧.haːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "fast"
+      ],
+      "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อด",
+      "อาหาร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "to restrain + aid",
+     "lit_th": "งดเว้น + ของกิน"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Restraint narrowed to going without.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "ไม่ได้, ไม่สมหวัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Held back from what one wanted: to miss out.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ไม่มีอะไรกิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อดอยาก",
+     "rtgs": "ot-yak",
+     "ipa": "/ʔot̚˨˩.jaːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่มีจะกิน, ขาดแคลนอาหาร, มีไม่พอกิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อด",
+      "อยาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.33, next 0.23",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "to restrain + would",
+     "lit_th": "ไม่มีอะไรกิน + ปรารถนา"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Going without food.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "ทน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "And holding out under it: to endure.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "อักษรย่อของ อุดรธานี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of อุดรธานี."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 40 manuscript titles, 916 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "อดสู",
+   "rtgs": "ot-su",
+   "ipa": "/ʔot̚˨˩.suː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ละอายใจ, อับอายมาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อด",
+    "สู"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+PRON",
+   "head": 0,
+   "lit_th": "กลั้น + พวกคุณ"
+  },
+  {
+   "th": "พรอด",
+   "rtgs": "phrot",
+   "ipa": "/pʰrɔːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เสียงดังอย่างเสียงของเหลวปนกับลมไหลออกจากช่องเล็ก ๆ หรือขึ้นมาจากเลนตม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พร",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำแสดงความปรารถนาให้ประสบสิ่งที่เป + กลั้น"
+  },
+  {
+   "th": "กรอด",
+   "rtgs": "ka-rot",
+   "ipa": "/ka˨˩.rɔːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(นก~) ปรอด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กร",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้ทำ + กลั้น"
+  },
+  {
+   "th": "ออมอด",
+   "rtgs": "om-ot",
+   "ipa": "/ʔɔːm˧.ʔot̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ประหยัด, กระเหม็ดกระแหม่, อดออม ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ออม",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "เก็บหอมรอมริบ + กลั้น",
+   "flips_with": "อดออม"
+  },
+  {
+   "th": "ศีลอด",
+   "rtgs": "sin-ot",
+   "ipa": "/siːn˩˩˦.ʔot̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การถือบวชของชาวมุสลิม ไม่ดื่มไม่กินอะไรเลยตลอดเวลากลางวันตั้งแต่พระอาทิตย์ขึ้นจนถึงพระอาทิตย์ตกในเดือนเราะมะฎอน อันเป็นเดือนที่ 9 แห่งปีในศาสนาอิสลามนับแบบจันทรคติ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ศีล",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ข้อบัญญัติทางพระพุทธศาสนาที่กำหนดก + กลั้น"
+  },
+  {
+   "th": "การกอด",
+   "rtgs": "kan-kot",
+   "ipa": "/kaːn˧.kɔːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กอด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การก",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้กระทำ + กลั้น"
+  },
+  {
+   "th": "หยอด",
+   "rtgs": "yot",
+   "ipa": "/jɔːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ใส่ลงหรือเทลงคราวละน้อย ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หย",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ม้า + กลั้น"
+  },
+  {
+   "th": "การออมอด",
+   "rtgs": "kan-om-ot",
+   "ipa": "/kaːn˧.ʔɔːm˧.ʔot̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ออมอด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การออม",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออม + กลั้น"
+  },
+  {
+   "th": "อดทน",
+   "rtgs": "ot-thon",
+   "ipa": "/ʔot̚˨˩.tʰon˧/",
+   "gloss": {
+    "en": [
+     "patient",
+     "lump",
+     "resist"
+    ],
+    "th": "บึกบึน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อด",
+    "ทน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to restrain + abide",
+   "lit_th": "กลั้น + อดกลั้นได้"
+  },
+  {
+   "th": "อดออม",
+   "rtgs": "ot-om",
+   "ipa": "/ʔot̚˨˩.ʔɔːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ประหยัด, กระเหม็ดกระแหม่, ออมอด ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อด",
+    "ออม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กลั้น + เก็บหอมรอมริบ",
+   "flips_with": "ออมอด"
+  },
+  {
+   "th": "อดกลั้น",
+   "rtgs": "ot-klan",
+   "ipa": "/ʔot̚˨˩.klan˥˩/",
+   "gloss": {
+    "en": [
+     "stick",
+     "suffer",
+     "patient"
+    ],
+    "th": "ระงับอารมณ์",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อด",
+    "กลั้น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กลั้น + บังคับความรู้สึกหรือสิ่งที่อยู่ภาย"
+  },
+  {
+   "th": "คลอด",
+   "rtgs": "khlot",
+   "ipa": "/kʰlɔːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "deliver"
+    ],
+    "th": "ออกลูก, ออกจากครรภ์, ราชาศัพท์ว่า ประสูติ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คล",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คอ + กลั้น"
+  },
+  {
+   "th": "การอด",
+   "rtgs": "kan-ot",
+   "ipa": "/kaːn˧.ʔot̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit_th": "งาน + กลั้น"
+  },
+  {
+   "th": "เทอด",
+   "rtgs": "thoet",
+   "ipa": "/tʰɤːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปเลิกใช้ของ เทิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เท",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "pour + to restrain",
+   "lit_th": "ตะแคงหรือเอียงภาชนะเพื่อให้สิ่งที่ + กลั้น"
+  },
+  {
+   "th": "พลอด",
+   "rtgs": "phlot",
+   "ipa": "/pʰlɔːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พูดจาอ่อนหวาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พล",
+    "อด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "พล"
+   ],
+   "lit": "strength + to restrain",
+   "lit_th": "กำลัง + กลั้น"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ʔɤtᴰ; ร่วมรากกับ อึด; ร่วมเชื้อสายกับอีสาน อด หรือ อึด, ลาว ອົດ (อ็ด), ອຶດ (อึด), คำเมือง ᩋᩫ᩠ᨯ (อ็ด), ᩋᩧ᩠ᨷ (อึบ), เขิน ᩋᩫ᩠ᨯ (อ็ด) หรือ ᩋᩧ᩠ᨷ (อึบ), ไทลื้อ ᦷᦀᧆ (โอด) หรือ ᦀᦹᧇ (อืบ), ไทดำ ꪮꪳꪒ (อึด), ไทขาว ꪮꪳꪒ, ไทใหญ่ ဢိုပ်း (อึ๊ป), ไทใต้คง ᥟᥪᥙᥴ (อื๋ป), อาหม 𑜒𑜢𑜤𑜆𑜫 (อึป์); เทียบเขมร អត់ (อต̍)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩋᩫ᩠ᨯ",
+  "th": "อ็ด",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

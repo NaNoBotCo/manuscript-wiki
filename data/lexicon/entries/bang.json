@@ -1,0 +1,2521 @@
+{
+ "id": "w:bang",
+ "th": "บาง",
+ "status": "mapped",
+ "rtgs": "bang",
+ "paiboon": "baang",
+ "ipa": "/baːŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ทางน้ำเล็ก ๆ, ทางน้ำเล็กที่ไหลขึ้นลงตามระดับน้ำในแม่น้ำลำคลอง หรือทะเล",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word.",
+    "Declared root: บาง the small tidal watercourse — the Chao Phraya-delta word."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ตำบลบ้านที่อยู่หรือเคยอยู่ริมบางหรือในบริเวณที่เคยเป็นบางมาก่อน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A settlement takes the name of the watercourse it stands on.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ทั้งหมู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three.",
+    "Declared root: บาง 'some, not all' — a third word again, and the commonest of the three."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "มีส่วนสูงน้อยจากผิวพื้น, ไม่หนา, มีความหนาน้อย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse.",
+    "Declared root: บาง 'thin' — unrelated to the watercourse."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ลักษณะที่คล้ายคลึงเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "generalisation",
+   "via_note": "From literal thinness to anything with that character.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "แทงลูกบิลเลียดไปถูกอีกลูกหนึ่งเพียงผิว ๆ เรียกว่า แทงบางไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "A billiard ball struck only on its surface is struck thinly.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เรียกผู้ที่มีผมน้อยกว่าปรกติว่า ผมบาง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Thin applied to hair.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "เรียกผู้ที่อายง่ายกว่าปรกติ คือไม่ควรละอาย กลับอายว่า หน้าบาง, ตรงข้ามกับ หน้าหนา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "หน้าบาง — thin-faced, quick to feel shame, against หน้าหนา.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "เรียกผู้ที่มีรูปร่างอ้อนแอ้นสะโอดสะองว่า เอวเล็กเอวบาง หรือเอวบางร่างน้อย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Slenderness of waist and body.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "เรียกคนอ่อนแอทนความลำบากไม่ได้เพราะไม่เคยชินว่า คนผิวบาง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Thin-skinned: unused to hardship and unable to bear it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "ใช้ประกอบหน้านามหมายความว่า ไม่ใช่ทั้งหมด คือ เป็นส่วนย่อยหรือส่วนใดส่วนหนึ่งของส่วนรวม, ลาง ก็ใช้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3.",
+    "Declared root: the quantifier use of บาง 'some', with sense 3."
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "The quantifier before a noun: some of, not all of.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "bang as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 56 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Heavy in the dictionary (56 place names) but nearly absent from the northern wat registry (1 of 5333), so it builds names somewhere other than the Lanna north. WHERE is not measurable from this project's data, which is northern only.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 56 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 56 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "1 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "บางรัก",
+     "rtgs": "bang-rak",
+     "ipa": "/baːŋ˧.rak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "รัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bang as an element in place names + love",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มชนิด Calotropis gigante",
+     "frame": "entity"
+    },
+    {
+     "th": "บางเสาธง",
+     "rtgs": "bang-sao-thong",
+     "ipa": "/baːŋ˧.saw˩˩˦.tʰoŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสมุทรปราการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "เสาธง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เสาที่ใช้ชักธงขึ้นสู่ยอดเสา",
+     "frame": "entity"
+    },
+    {
+     "th": "บางแพ",
+     "rtgs": "bang-phae",
+     "ipa": "/baːŋ˧.pʰɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดราชบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "แพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bang as an element in place names + raft",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ไม้ไผ่หรือซุงเป็นต้นที่ผูกมัดเรียง",
+     "frame": "entity"
+    },
+    {
+     "th": "บางพลับ",
+     "rtgs": "bang-phlap",
+     "ipa": "/baːŋ˧.pʰlap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโพธิ์ทอง จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "พลับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bang as an element in place names + persimmon",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Diospyros malabaric",
+     "frame": "entity"
+    },
+    {
+     "th": "บางกรวย",
+     "rtgs": "bang-kruai",
+     "ipa": "/baːŋ˧.krua̯j˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนนทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "กรวย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bang as an element in place names + funnel",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รูปตันมีลักษณะฐานกลมและแหลมเรียวไป",
+     "frame": "entity"
+    },
+    {
+     "th": "บางคนที",
+     "rtgs": "bang-khon-thi",
+     "ipa": "/baːŋ˧.kʰon˧.tʰiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสมุทรสงคราม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "คนที"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กุณฑี",
+     "frame": "entity"
+    },
+    {
+     "th": "บางพูด",
+     "rtgs": "bang-phut",
+     "ipa": "/baːŋ˧.pʰuːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองปทุมธานี จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "พูด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "bang as an element in place names + speak",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เปล่งเสียงออกเป็นถ้อยคำ"
+    },
+    {
+     "th": "บางแค",
+     "rtgs": "bang-khae",
+     "ipa": "/baːŋ˧.kʰɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "แค"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Sesbania grandiflor",
+     "frame": "entity"
+    },
+    {
+     "th": "บางไผ่",
+     "rtgs": "bang-phai",
+     "ipa": "/baːŋ˧.pʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ไผ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไผ่"
+     ],
+     "lit": "bang as an element in place names + bamboo",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
+    },
+    {
+     "th": "บางกรูด",
+     "rtgs": "bang-krut",
+     "ipa": "/baːŋ˧.kruːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านโพธิ์ จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "กรูด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มะกรูด",
+     "frame": "entity"
+    },
+    {
+     "th": "บางเสด็จ",
+     "rtgs": "bang-sa-det",
+     "ipa": "/baːŋ˧.sa˨˩.det̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอป่าโมก จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "เสด็จ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำเรียกเจ้านายชั้นพระองค์เจ้าที่เป",
+     "frame": "entity"
+    },
+    {
+     "th": "บางตลาด",
+     "rtgs": "bang-ta-lat",
+     "ipa": "/baːŋ˧.ta˨˩.laːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองเขื่อน จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ตลาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตลาด"
+     ],
+     "lit": "bang as an element in place names + market",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "บางสมัคร",
+     "rtgs": "bang-sa-mak",
+     "ipa": "/baːŋ˧.sa˨˩.mak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางปะกง จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "สมัคร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ยื่นความจำนงขอเข้าร่วมเป็นสมาชิกหร"
+    },
+    {
+     "th": "บางนาง",
+     "rtgs": "bang-nang",
+     "ipa": "/baːŋ˧.naːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพานทอง จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "นาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นาง"
+     ],
+     "lit": "bang as an element in place names + Mrs",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผู้หญิง",
+     "frame": "entity"
+    },
+    {
+     "th": "บางขนาก",
+     "rtgs": "bang-kha-nak",
+     "ipa": "/baːŋ˧.kʰa˨˩.naːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางน้ำเปรี้ยว จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ขนาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกชนิด Cyperus serotinu",
+     "frame": "entity"
+    },
+    {
+     "th": "บางเล่า",
+     "rtgs": "bang-lao",
+     "ipa": "/baːŋ˧.law˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองเขื่อน จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "เล่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "bang as an element in place names + relate",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พูดหรือบอกเรื่องราวให้ผู้อื่นฟัง"
+    },
+    {
+     "th": "บางพลี",
+     "rtgs": "bang-phli",
+     "ipa": "/baːŋ˧.pʰliː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสมุทรปราการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "พลี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bang as an element in place names + sacrifice",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + การบวงสรวง",
+     "frame": "entity"
+    },
+    {
+     "th": "บางบอน",
+     "rtgs": "bang-bon",
+     "ipa": "/baːŋ˧.bɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "บอน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกหลายชนิดในวงศ์ Aracea",
+     "frame": "entity"
+    },
+    {
+     "th": "บางเลน",
+     "rtgs": "bang-len",
+     "ipa": "/baːŋ˧.leːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครปฐม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "เลน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ดินเปียกเหลวจนปั้นไม่ได้",
+     "frame": "entity"
+    },
+    {
+     "th": "บางนา",
+     "rtgs": "bang-na",
+     "ipa": "/baːŋ˧.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "นา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "bang as an element in place names + farm",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
+    },
+    {
+     "th": "บางหัก",
+     "rtgs": "bang-hak",
+     "ipa": "/baːŋ˧.hak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพานทอง จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "หัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "bang as an element in place names + tear",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พับงอ"
+    },
+    {
+     "th": "บางระกำ",
+     "rtgs": "bang-ra-kam",
+     "ipa": "/baːŋ˧.ra˦˥.kam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ระกำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อปาล์มชนิด Salacca wallichiana",
+     "frame": "entity"
+    },
+    {
+     "th": "บางทราย",
+     "rtgs": "bang-sai",
+     "ipa": "/baːŋ˧.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองชลบุรี จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ทราย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "bang as an element in place names + sand",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+     "frame": "entity"
+    },
+    {
+     "th": "บางบาล",
+     "rtgs": "bang-ban",
+     "ipa": "/baːŋ˧.baːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพระนครศรีอยุธยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "บาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "บาล"
+     ],
+     "lit": "bang as an element in place names + to guard",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เลี้ยง"
+    },
+    {
+     "th": "บางคา",
+     "rtgs": "bang-kha",
+     "ipa": "/baːŋ˧.kʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอราชสาส์น จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "คา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คา"
+     ],
+     "lit": "bang as an element in place names + cangue",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องจำคอนักโทษ ทำด้วยไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "บางพรม",
+     "rtgs": "bang-phrom",
+     "ipa": "/baːŋ˧.pʰrom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตตลิ่งชัน กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "พรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bang as an element in place names + carpet",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องลาดทำด้วยขนสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "บางโรง",
+     "rtgs": "bang-rong",
+     "ipa": "/baːŋ˧.roːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองเขื่อน จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "โรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โรง"
+     ],
+     "lit": "bang as an element in place names + shed",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ",
+     "frame": "entity"
+    },
+    {
+     "th": "บางซ้าย",
+     "rtgs": "bang-sai",
+     "ipa": "/baːŋ˧.saːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพระนครศรีอยุธยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ซ้าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "bang as an element in place names + other",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ตรงข้ามกับ ขวา",
+     "frame": "quality"
+    },
+    {
+     "th": "บางบ่อ",
+     "rtgs": "bang-bo",
+     "ipa": "/baːŋ˧.bɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสมุทรปราการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "บ่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บ่อ"
+     ],
+     "lit": "bang as an element in place names + well",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ช่องลึกลงไปในดินหรือในหินใช้เป็นที",
+     "frame": "entity"
+    },
+    {
+     "th": "บางสวน",
+     "rtgs": "bang-suan",
+     "ipa": "/baːŋ˧.sua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางคล้า จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "สวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สวน"
+     ],
+     "lit": "bang as an element in place names + garden",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+     "frame": "entity"
+    },
+    {
+     "th": "บางพูน",
+     "rtgs": "bang-phun",
+     "ipa": "/baːŋ˧.pʰuːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองปทุมธานี จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "พูน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เพิ่มให้สูงขึ้นให้มากขึ้น"
+    },
+    {
+     "th": "บางขัน",
+     "rtgs": "bang-khan",
+     "ipa": "/baːŋ˧.kʰan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ขัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขัน"
+     ],
+     "lit": "bang as an element in place names + bowl",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะสำหรับตักหรือใส่น้ำ มีหลายชนิ",
+     "frame": "entity"
+    },
+    {
+     "th": "บางกระบือ",
+     "rtgs": "bang-kra-bue",
+     "ipa": "/baːŋ˧.kra˨˩.bɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสามโคก จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "กระบือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ควาย",
+     "frame": "entity"
+    },
+    {
+     "th": "บางเตย",
+     "rtgs": "bang-toei",
+     "ipa": "/baːŋ˧.tɤːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "เตย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหรือไม้ต้นหลายชนิดในสกุ",
+     "frame": "entity"
+    },
+    {
+     "th": "บางชัน",
+     "rtgs": "bang-chan",
+     "ipa": "/baːŋ˧.t͡ɕʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตคลองสามวา กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ชัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ยกตั้งตรง"
+    },
+    {
+     "th": "บางเกลือ",
+     "rtgs": "bang-kluea",
+     "ipa": "/baːŋ˧.klɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางปะกง จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "เกลือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เกลือ"
+     ],
+     "lit": "bang as an element in place names + light",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็",
+     "frame": "entity"
+    },
+    {
+     "th": "บางไทร",
+     "rtgs": "bang-sai",
+     "ipa": "/baːŋ˧.saj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพระนครศรีอยุธยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ไทร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace",
+     "frame": "entity"
+    },
+    {
+     "th": "บางขวัญ",
+     "rtgs": "bang-khwan",
+     "ipa": "/baːŋ˧.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ขวัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "bang as an element in place names + khwan",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "บางใหญ่",
+     "rtgs": "bang-yai",
+     "ipa": "/baːŋ˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนนทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "bang as an element in place names + huge",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "บางพลัด",
+     "rtgs": "bang-phlat",
+     "ipa": "/baːŋ˧.pʰlat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "พลัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พลาด หลุด หรือตกจากที่ใดที่หนึ่ง"
+    },
+    {
+     "th": "คมบาง",
+     "rtgs": "khom-bang",
+     "ipa": "/kʰom˧.baːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คม",
+      "บาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "คม"
+     ],
+     "lit": "sharp + bang as an element in place names",
+     "lit_th": "ไหว้ + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "บางผึ้ง",
+     "rtgs": "bang-phueng",
+     "ipa": "/baːŋ˧.pʰɯŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางปะกง จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ผึ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bang as an element in place names + bee",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อแมลงหลายชนิดในวงศ์ Apidae มีปี",
+     "frame": "entity"
+    },
+    {
+     "th": "บางกะปิ",
+     "rtgs": "bang-ka-pi",
+     "ipa": "/baːŋ˧.ka˨˩.piʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "กะปิ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ของเค็มทำด้วยเคยกับเกลือโขลกและหมั",
+     "frame": "entity"
+    },
+    {
+     "th": "บางพระ",
+     "rtgs": "bang-phra",
+     "ipa": "/baːŋ˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "พระ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "bang as an element in place names + the honorific prefix phra",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+     "frame": "entity"
+    },
+    {
+     "th": "บางมด",
+     "rtgs": "bang-mot",
+     "ipa": "/baːŋ˧.mot̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตจอมทอง กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "มด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bang as an element in place names + ant",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อแมลงหลายชนิดในวงศ์ Formicidae",
+     "frame": "entity"
+    },
+    {
+     "th": "บางซื่อ",
+     "rtgs": "bang-sue",
+     "ipa": "/baːŋ˧.sɯː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ซื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ตรง",
+     "frame": "quality"
+    },
+    {
+     "th": "บางสะพาน",
+     "rtgs": "bang-sa-phan",
+     "ipa": "/baːŋ˧.sa˨˩.pʰaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดประจวบคีรีขันธ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "สะพาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งปลูกสร้างที่ทำสำหรับข้ามแม่น้ำ",
+     "frame": "entity"
+    },
+    {
+     "th": "บางซ่อน",
+     "rtgs": "bang-son",
+     "ipa": "/baːŋ˧.sɔːn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านโพธิ์ จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ซ่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "bang as an element in place names + hide",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ปิดมิดไม่ให้เห็น"
+    },
+    {
+     "th": "บางจัก",
+     "rtgs": "bang-chak",
+     "ipa": "/baːŋ˧.t͡ɕak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวิเศษชัยชาญ จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "จัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำให้เป็นแฉก ๆ หรือหยัก ๆ คล้ายฟัน"
+    },
+    {
+     "th": "บางเขน",
+     "rtgs": "bang-khen",
+     "ipa": "/baːŋ˧.kʰeːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "เขน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องถือสำหรับป้องกันศัสตราวุธ เ",
+     "frame": "entity"
+    },
+    {
+     "th": "บางวัว",
+     "rtgs": "bang-wua",
+     "ipa": "/baːŋ˧.wua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางปะกง จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "วัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Bos t",
+     "frame": "entity"
+    },
+    {
+     "th": "บางหลวง",
+     "rtgs": "bang-luang",
+     "ipa": "/baːŋ˧.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองปทุมธานี จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "หลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "bang as an element in place names + royal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
+    },
+    {
+     "th": "บางเดื่อ",
+     "rtgs": "bang-duea",
+     "ipa": "/baːŋ˧.dɯa̯˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองปทุมธานี จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "เดื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มะเดื่อ",
+     "frame": "entity"
+    },
+    {
+     "th": "บางแก้ว",
+     "rtgs": "bang-kaeo",
+     "ipa": "/baːŋ˧.kɛːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพัทลุง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "แก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bang as an element in place names + glass",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
+    },
+    {
+     "th": "บางค้อ",
+     "rtgs": "bang-kho",
+     "ipa": "/baːŋ˧.kʰɔː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตจอมทอง กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ค้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อปาล์มชนิด Livistona speciosa K",
+     "frame": "entity"
+    },
+    {
+     "th": "บางระมาด",
+     "rtgs": "bang-ra-mat",
+     "ipa": "/baːŋ˧.ra˦˥.maːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตตลิ่งชัน กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ระมาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แรด",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 2 manuscript titles, 280 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 65; domain seeded by keyword hits ['toponym formative'].",
+ "compounds_unassigned": [
+  {
+   "th": "กระหม่อมบาง",
+   "rtgs": "kra-mom-bang",
+   "ipa": "/kra˨˩.mɔm˨˩.baːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เจ็บป่วยง่าย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระหม่อม",
+    "บาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "crown + thin",
+   "lit_th": "ส่วนสูงสุดของศีรษะตอนกลาง + ทางน้ำเล็ก ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "บึงบาง",
+   "rtgs": "bueng-bang",
+   "ipa": "/bɯŋ˧.baːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บึงที่ใช้เป็นทางน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บึง",
+    "บาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "บึง"
+   ],
+   "lit": "marsh + thin",
+   "lit_th": "แหล่งน้ำขนาดใหญ่ มีน้ำขังตลอดปี + ทางน้ำเล็ก ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "บางกอก",
+   "rtgs": "bang-kok",
+   "ipa": "/baːŋ˧.kɔːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กรุงเทพมหานคร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บาง",
+    "กอก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ทางน้ำเล็ก ๆ + ดูดเลือด หนอง หรือลมออกจากร่างกาย"
+  },
+  {
+   "th": "ขม่อมบาง",
+   "rtgs": "kha-mom-bang",
+   "ipa": "/kʰa˨˩.mɔm˨˩.baːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ กระหม่อมบาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขม่อม",
+    "บาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ส่วนของกะโหลกอยู่ตรงแนวกลางศีรษะ แ + ทางน้ำเล็ก ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความบาง",
+   "rtgs": "khwam-bang",
+   "ipa": "/kʰwaːm˧.baːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ บาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "บาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + thin",
+   "lit_th": "เรื่อง + ทางน้ำเล็ก ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "บางที",
+   "rtgs": "bang-thi",
+   "ipa": "/baːŋ˧.tʰiː˧/",
+   "gloss": {
+    "en": [
+     "peradventure",
+     "maybe",
+     "perhaps"
+    ],
+    "th": "บางเวลา, บางคราว, บางครั้ง, บางหน, ลางที ก็ใช้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "บาง",
+    "ที"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ที"
+   ],
+   "lit": "thin + time",
+   "lit_th": "ทางน้ำเล็ก ๆ + ครั้ง",
+   "frame": "entity"
+  },
+  {
+   "th": "บางสุ",
+   "rtgs": "bang-su",
+   "ipa": "/baːŋ˧.suʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บงสุ์, ฝุ่น, ละออง, ธุลี โบราณใช้ว่า บางษุ ก็มี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บาง",
+    "สุ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ทางน้ำเล็ก ๆ + ซักสบงจีวรวิธีหนึ่งโดยใช้น้ำร้อนหร",
+   "use": "false-split"
+  },
+  {
+   "th": "ความเปราะบาง",
+   "rtgs": "khwam-pro-bang",
+   "ipa": "/kʰwaːm˧.prɔʔ˨˩.baːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เปราะบาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเปราะ",
+    "บาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เปราะ + ทางน้ำเล็ก ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "เปราะบาง",
+   "rtgs": "pro-bang",
+   "ipa": "/prɔʔ˨˩.baːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หักง่าย, แตกง่าย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เปราะ",
+    "บาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อไม้ล้มลุกมีเหง้าชนิด Kaempferi + ทางน้ำเล็ก ๆ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "เทียบเขมร បាង (บาง, “อ่าว”), มอญ ပါၚ် (ปาัง, “ปาก”) สืบทอดจากไทดั้งเดิม *C̥.baːŋᴬ; ร่วมเชื้อสายกับลาว ບາງ (บาง), คำเมือง ᨷᩤ᩠ᨦ (บาง), ไทใหญ่ မၢင် (มาง) หรือ ဝၢင် (วาง), ไทใต้คง ᥛᥣᥒ (มาง), อาหม 𑜈𑜂𑜫 (บง์), จ้วง mbang; เทียบสุ่ย qbaangl, ต้งใต้ mangl, เบดั้งเดิม *viaŋᴬ¹ ร่วมเชื้อสายกับลาว ບາງ (บาง), คำเมือง ᨷᩤ᩠ᨦ (บาง), ไทใหญ่ မၢင် (มาง), ไทใต้คง ᥛᥣᥒ (มาง), อาหม 𑜈𑜂𑜫 (บง์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨷᩤ᩠ᨦ",
+  "th": "บาง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:bang-2",
+   "label": "บัง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"bang\". บาง is baang, บัง is bang — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "thin",
+  "fine",
+  "some"
+ ]
+}

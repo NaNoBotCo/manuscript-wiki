@@ -1,0 +1,826 @@
+{
+ "id": "w:khok",
+ "th": "โคก",
+ "status": "mapped",
+ "rtgs": "khok",
+ "paiboon": "kôok",
+ "ipa": "/kʰoːk̚˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "mound",
+     "low rise"
+    ],
+    "th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เตี้ยกว่า",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: โคก, the low mound.",
+    "Declared root: โคก, the low mound.",
+    "Declared root: โคก, the low mound.",
+    "Declared root: โคก, the low mound."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ที่นูนสูงขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The mound loosened to anything raised.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontostoma และ Nematalosa วงศ์ Clupeidae หัวเล็ก ปากเล็ก ลำตัวสั้น แบนข้าง ท้องเป็นสันแหลม เกล็ดที่สันท้องเป็นเหลี่ยมคมเรียงต่อกันคล้ายฟันเลื่อย พื้นลำตัวสีเงิน อยู่รวมกันเป็นฝูงเล็ก ๆ ตามชายฝั่งที่มีพื้นท้องทะเลเป็นโคลน, ตะเพียนน้ำเค็ม ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "โคกโพธิ์",
+     "rtgs": "khok-pho",
+     "ipa": "/kʰoːk̚˥˩.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดปัตตานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "โพธิ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "mound + enlightenment",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ความตรัสรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกตะบอง",
+     "rtgs": "khok-ta-bong",
+     "ipa": "/kʰoːk̚˥˩.ta˨˩.bɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่ามะกา จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "ตะบอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mound + club",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ไม้สำหรับถือ ใช้ตี โดยมากมีรูปกลม",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกเจริญ",
+     "rtgs": "khok-cha-roen",
+     "ipa": "/kʰoːk̚˥˩.t͡ɕa˨˩.rɤːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลพบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "เจริญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mound + develop",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + เติบโต"
+    },
+    {
+     "th": "โคกสำโรง",
+     "rtgs": "khok-sam-rong",
+     "ipa": "/kʰoːk̚˥˩.sam˩˩˦.roːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลพบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "สำโรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อไม้ต้นชนิด Sterculia foetida L",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกสมบูรณ์",
+     "rtgs": "khok-som-bun",
+     "ipa": "/kʰoːk̚˥˩.som˩˩˦.buːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกมลาไสย จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "สมบูรณ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mound + absolute",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + บริบูรณ์"
+    },
+    {
+     "th": "โคกสะอาด",
+     "rtgs": "khok-sa-at",
+     "ipa": "/kʰoːk̚˥˩.sa˨˩.ʔaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอฆ้องชัย จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "สะอาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "mound + clean",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ไม่สกปรก",
+     "frame": "quality"
+    },
+    {
+     "th": "โคกสี",
+     "rtgs": "khok-si",
+     "ipa": "/kʰoːk̚˥˩.siː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "สี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สี"
+     ],
+     "lit": "mound + color",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกไทย",
+     "rtgs": "khok-thai",
+     "ipa": "/kʰoːk̚˥˩.tʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "ไทย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "ไทย"
+     ],
+     "lit": "mound + Thai",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ประเทศ ใน เอเชียตะวันออกเฉียงใต้"
+    },
+    {
+     "th": "บ้านโคก",
+     "rtgs": "ban-khok",
+     "ipa": "/baːn˥˩.kʰoːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุตรดิตถ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "โคก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + mound",
+     "lit_th": "ที่อยู่อาศัย + ชื่อปลาทะเลทุกชนิดในสกุล Anodontos",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกสง่า",
+     "rtgs": "khok-sa-nga",
+     "ipa": "/kʰoːk̚˥˩.sa˨˩.ŋaː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพล จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "สง่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + มีลักษณะผึ่งผายเป็นที่น่ายำเกรงหรื",
+     "frame": "quality"
+    },
+    {
+     "th": "โคกพุทรา",
+     "rtgs": "khok-phut-sa",
+     "ipa": "/kʰoːk̚˥˩.pʰut̚˦˥.saː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโพธิ์ทอง จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "พุทรา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อไม้ต้นชนิด Ziziphus mauritiana",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกโพธิ์ไชย",
+     "rtgs": "khok-pho-chai",
+     "ipa": "/kʰoːk̚˥˩.pʰoː˧.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "โพธิ์ไชย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อตำบลหนึ่งในอำเภอโคกโพธิ์ไชย จั"
+    },
+    {
+     "th": "โคกหาร",
+     "rtgs": "khok-han",
+     "ipa": "/kʰoːk̚˥˩.haːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเขาพนม จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "หาร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mound + divide",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + แบ่งส่วนเท่า ๆ กัน"
+    },
+    {
+     "th": "โคกสำราญ",
+     "rtgs": "khok-sam-ran",
+     "ipa": "/kʰoːk̚˥˩.sam˩˩˦.raːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านแฮด จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "สำราญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mound + enjoy",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + สุขสบาย"
+    },
+    {
+     "th": "โคกยาง",
+     "rtgs": "khok-yang",
+     "ipa": "/kʰoːk̚˥˩.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเหนือคลอง จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "ยาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "mound + rubber",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกเครือ",
+     "rtgs": "khok-khruea",
+     "ipa": "/kʰoːk̚˥˩.kʰrɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองกุงศรี จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "เครือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + เถาไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกสูง",
+     "rtgs": "khok-sung",
+     "ipa": "/kʰoːk̚˥˩.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "สูง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "สูง"
+     ],
+     "lit": "mound + tall",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    },
+    {
+     "th": "โคกกลาง",
+     "rtgs": "khok-klang",
+     "ipa": "/kʰoːk̚˥˩.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอประทาย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "mound + middle",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "สามโคก",
+     "rtgs": "sam-khok",
+     "ipa": "/saːm˩˩˦.kʰoːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "โคก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "three + mound",
+     "lit_th": "จำนวนสองบวกหนึ่ง + ชื่อปลาทะเลทุกชนิดในสกุล Anodontos"
+    },
+    {
+     "th": "โคกกระชาย",
+     "rtgs": "khok-kra-chai",
+     "ipa": "/kʰoːk̚˥˩.kra˨˩.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอครบุรี จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "กระชาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mound + fingerroot",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ชื่อไม้ล้มลุกชนิด Boesenbergia rot",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกกรวด",
+     "rtgs": "khok-kruat",
+     "ipa": "/kʰoːk̚˥˩.krua̯t̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "กรวด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ก้อนหินเล็ก ๆ เขื่องกว่าเม็ดทราย",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกกระเบื้อง",
+     "rtgs": "khok-kra-bueang",
+     "ipa": "/kʰoːk̚˥˩.kra˨˩.bɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านเหลื่อม จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "กระเบื้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + เครื่องมุงหลังคาหรือปูพื้นเป็นต้น",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกงาม",
+     "rtgs": "khok-ngam",
+     "ipa": "/kʰoːk̚˥˩.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านฝาง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "งาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "งาม"
+     ],
+     "lit": "mound + aesthetic",
+     "lit_th": "ชื่อปลาทะเลทุกชนิดในสกุล Anodontos + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
+    }
+   ],
+   "needs_check": [
+    "Declared root: ปลาโคก, the gizzard shad — a fish name.",
+    "Declared root: ปลาโคก, the gizzard shad — a fish name.",
+    "Declared root: ปลาโคก, the gizzard shad — a fish name.",
+    "Declared root: ปลาโคก, the gizzard shad — a fish name."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 13 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['ฟัน', 'ท้อง', 'ปาก', 'หัว'].",
+ "etymology": {
+  "summary": "ยืมมาจากเขมร គោក (โคก, “ที่ไม่มีน้ำ, แห้ง”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

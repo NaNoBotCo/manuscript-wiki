@@ -1,0 +1,974 @@
+{
+ "id": "w:ko",
+ "th": "เกาะ",
+ "status": "mapped",
+ "rtgs": "ko",
+ "paiboon": "gɔ̀",
+ "ipa": "/kɔʔ˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, interjection",
+   "pos_th": "คำนาม, คำกริยา, คำอุทาน",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: เกาะ 'island'.",
+    "Declared root: เกาะ 'island'.",
+    "Declared root: เกาะ 'island'.",
+    "Declared root: เกาะ 'island'.",
+    "Declared root: เกาะ 'island'.",
+    "Declared root: เกาะ 'island'.",
+    "Declared root: เกาะ 'island'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ละเมาะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, interjection",
+   "pos_th": "คำนาม, คำกริยา, คำอุทาน",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A copse standing alone is an island of trees.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "พื้นที่ซึ่งมีต้นไม้เป็นต้นหนาแน่น มีทุ่งหรือที่เตียนล้อมรอบ หรือสิ่งอื่นที่มีลักษณะคล้ายคลึงเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, interjection",
+   "pos_th": "คำนาม, คำกริยา, คำอุทาน",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "A dense stand with open ground all round it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "จับหรือยึดสิ่งใดไว้เพื่อทรงอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, interjection",
+   "pos_th": "คำนาม, คำกริยา, คำอุทาน",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: เกาะ 'to grip, to cling'.",
+    "Declared root: เกาะ 'to grip, to cling'.",
+    "Declared root: เกาะ 'to grip, to cling'.",
+    "Declared root: เกาะ 'to grip, to cling'.",
+    "Declared root: เกาะ 'to grip, to cling'.",
+    "Declared root: เกาะ 'to grip, to cling'.",
+    "Declared root: เกาะ 'to grip, to cling'."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เอาสิ่งมีขอเป็นต้น เกี่ยวเข้ากับสิ่งอื่นเพื่อให้ติดอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, interjection",
+   "pos_th": "คำนาม, คำกริยา, คำอุทาน",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Gripping by a hook: to catch on.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "อาการที่เข้าไปติดแน่นอยู่ หรือเข้าเป็นหมู่หรือกลุ่มเดียวกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, interjection",
+   "pos_th": "คำนาม, คำกริยา, คำอุทาน",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "generalisation",
+   "via_note": "Clinging together into a clump or a group.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ไปเอาตัวมาโดยอำนาจศาลเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, interjection",
+   "pos_th": "คำนาม, คำกริยา, คำอุทาน",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Laying hold of a person by warrant: to arrest.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "เสียงเคาะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, interjection",
+   "pos_th": "คำนาม, คำกริยา, คำอุทาน",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: เกาะ, the knocking sound.",
+    "Declared root: เกาะ, the knocking sound.",
+    "Declared root: เกาะ, the knocking sound.",
+    "Declared root: เกาะ, the knocking sound.",
+    "Declared root: เกาะ, the knocking sound.",
+    "Declared root: เกาะ, the knocking sound.",
+    "Declared root: เกาะ, the knocking sound."
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "ko as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 16 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 16 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 16 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "10 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "เกาะแก้ว",
+     "rtgs": "ko-kaeo",
+     "ipa": "/kɔʔ˨˩.kɛːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองภูเก็ต จังหวัดภูเก็ต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "แก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ko as an element in place names + glass",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
+    },
+    {
+     "th": "เกาะกูด",
+     "rtgs": "ko-kut",
+     "ipa": "/kɔʔ˨˩.kuːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตราด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "กูด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อเฟินหลายชนิดหลายสกุลและหลายวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "ท้ายเกาะ",
+     "rtgs": "thai-ko",
+     "ipa": "/tʰaːj˦˥.kɔʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสามโคก จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท้าย",
+      "เกาะ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่อยู่สุดด้านหนึ่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "วัดเกาะ",
+     "rtgs": "wat-ko",
+     "ipa": "/wat̚˦˥.kɔʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอศรีสำโรง จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "เกาะ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัด"
+     ],
+     "lit": "temple + ko as an element in place names",
+     "lit_th": "สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "เกาะสำโรง",
+     "rtgs": "ko-sam-rong",
+     "ipa": "/kɔʔ˨˩.sam˩˩˦.roːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาญจนบุรี จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "สำโรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Sterculia foetida L",
+     "frame": "entity"
+    },
+    {
+     "th": "เกาะขนุน",
+     "rtgs": "ko-kha-nun",
+     "ipa": "/kɔʔ˨˩.kʰa˨˩.nun˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนมสารคาม จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "ขนุน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ko as an element in place names + jackfruit",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดกลางถึงขนาดใหญ่ชนิด",
+     "frame": "entity"
+    },
+    {
+     "th": "เกาะยาว",
+     "rtgs": "ko-yao",
+     "ipa": "/kɔʔ˨˩.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพังงา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "ยาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ยาว"
+     ],
+     "lit": "ko as an element in place names + long",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+     "frame": "quality"
+    },
+    {
+     "th": "เกาะจันทร์",
+     "rtgs": "ko-chan",
+     "ipa": "/kɔʔ˨˩.t͡ɕan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "จันทร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
+    },
+    {
+     "th": "เกาะช้าง",
+     "rtgs": "ko-chang",
+     "ipa": "/kɔʔ˨˩.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตราด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "ช้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "ko as an element in place names + elephant",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "เกาะตาล",
+     "rtgs": "ko-tan",
+     "ipa": "/kɔʔ˨˩.taːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอขาณุวรลักษบุรี จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "ตาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อพืชชนิด Borassus flabellifer L",
+     "frame": "entity"
+    },
+    {
+     "th": "เกาะคา",
+     "rtgs": "ko-kha",
+     "ipa": "/kɔʔ˨˩.kʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลำปาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "คา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คา"
+     ],
+     "lit": "ko as an element in place names + cangue",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องจำคอนักโทษ ทำด้วยไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "เกาะกลาง",
+     "rtgs": "ko-klang",
+     "ipa": "/kɔʔ˨˩.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเกาะลันตา จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "ko as an element in place names + middle",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "เกาะขวาง",
+     "rtgs": "ko-khwang",
+     "ipa": "/kɔʔ˨˩.kʰwaːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "ขวาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ขวาง"
+     ],
+     "lit": "ko as an element in place names + across",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กีดกั้น"
+    },
+    {
+     "th": "เกาะไร่",
+     "rtgs": "ko-rai",
+     "ipa": "/kɔʔ˨˩.raj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านโพธิ์ จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "ไร่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ko as an element in place names + garden",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ปลูกพืชและต้นไม้บนไหล่เขาหรือใน",
+     "frame": "entity"
+    },
+    {
+     "th": "เกาะลอย",
+     "rtgs": "ko-loi",
+     "ipa": "/kɔʔ˨˩.lɔːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพานทอง จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "ลอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลอย"
+     ],
+     "lit": "ko as an element in place names + float",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทรงตัวอยู่ในอากาศ"
+    },
+    {
+     "th": "บ้านเกาะ",
+     "rtgs": "ban-ko",
+     "ipa": "/baːn˥˩.kɔʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "เกาะ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + ko as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 45 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['toponym formative'].",
+ "compounds_unassigned": [
+  {
+   "th": "เกาะกิน",
+   "rtgs": "ko–kin",
+   "ipa": "/kɔʔ˨˩.kin˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาศัยกินอยู่กับคนอื่นโดยเอาแต่ประโยชน์ฝ่ายเดียว ไม่ช่วยทำงานหรือช่วยเหลือจุนเจือผู้นั้น, ทำตัวดุจกาฝาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกาะ",
+    "กิน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "กิน"
+   ],
+   "lit": "island + eat",
+   "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + เคี้ยว"
+  },
+  {
+   "th": "เกาะอก",
+   "rtgs": "ko-ok",
+   "ipa": "/kɔʔ˨˩.ʔok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เสื้อสตรีไม่มีแขน ขอบบนรัดอยู่ระดับเหนืออก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกาะ",
+    "อก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "อก"
+   ],
+   "lit": "island + chest",
+   "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity"
+  },
+  {
+   "th": "เกาะแกะ",
+   "rtgs": "ko-kae",
+   "ipa": "/kɔʔ˨˩.kɛʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พูดพาดพิงเชิงชู้สาว, พูดเชิงเกี้ยวพาราสี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกาะ",
+    "แกะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "island + sheep",
+   "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + ชื่อสัตว์เคี้ยวเอื้องในสกุล Ovis ว",
+   "frame": "entity"
+  },
+  {
+   "th": "การเกาะ",
+   "rtgs": "kan-ko",
+   "ipa": "/kaːn˧.kɔʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เกาะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "เกาะ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ส่วนของแผ่นดินที่มีน้ำล้อมรอบ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "จากมอญ-เขมรดั้งเดิม *tkɔɔʔ ~ *tkɔɔh (“เกาะ”); ร่วมเชื้อสายกับลาว ເກາະ (เกาะ), เขิน ᨠᩰᩬᩡ (โกอะ), มอญ တကံ (ตกํ), เขมร កោះ (โกะ), ชอง kɑʔ, ญัฮกุร เกาะ, เวียดนาม gò (ก่อ) และมัล kɔʔ ร่วมเชื้อสายกับลาว ເກາະ (เกาะ), เขิน ᨠᩰᩬᩡ (โกอะ), จ้วง goj (ก้อ, “กำ, จับ”), จ้วงแบบจั่วเจียง goj (ก้อ, “กำ, จับ, ถือ”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "island"
+ ]
+}

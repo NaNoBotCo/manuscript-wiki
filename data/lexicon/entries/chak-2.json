@@ -1,0 +1,848 @@
+{
+ "id": "w:chak-2",
+ "th": "ชัก",
+ "status": "mapped",
+ "rtgs": "chak",
+ "paiboon": "chák",
+ "ipa": "/t͡ɕʰak̚˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่งใดสิ่งหนึ่งเพื่อให้สิ่งนั้นเคลื่อนไหวไปตามต้องการ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ชักว่าว",
+     "rtgs": "chak-wao",
+     "ipa": "/t͡ɕʰak̚˦˥.waːw˥˩/",
+     "gloss": {
+      "en": [
+       "fly a kite"
+      ],
+      "th": "เล่นว่าว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ว่าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "draw + kite",
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + เครื่องเล่นอย่างหนึ่ง มีไม้ไผ่เป็น"
+    },
+    {
+     "th": "ชักใย",
+     "rtgs": "chak-yai",
+     "ipa": "/t͡ɕʰak̚˦˥.jaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บงการอยู่เบื้องหลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ใย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + สิ่งที่เป็นเส้นเล็ก ๆ บาง ๆ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ดึง, ดึงออกมา, ดึงขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "From hauling a line to pulling anything.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชาชัก",
+     "rtgs": "cha-chak",
+     "ipa": "/t͡ɕʰaː˧.t͡ɕʰak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชาใส่นมแบบหนึ่ง หาได้ทั่วไปในมาเลเซีย สิงคโปร์ และไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชา",
+      "ชัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ชา"
+     ],
+     "lit": "tea + draw",
+     "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + ดึง"
+    },
+    {
+     "th": "สะพานชัก",
+     "rtgs": "sa-phan-chak",
+     "ipa": "/sa˨˩.pʰaːn˧.t͡ɕʰak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สะพานที่สร้างให้ยกเก็บได้เมื่อไม่ต้องการใช้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สะพาน",
+      "ชัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "สิ่งปลูกสร้างที่ทำสำหรับข้ามแม่น้ำ + ดึง"
+    },
+    {
+     "th": "คันชัก",
+     "rtgs": "khan-chak",
+     "ipa": "/kʰan˧.t͡ɕʰak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนประกอบของคันไถสำหรับเทียมวัวหรือควาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คัน",
+      "ชัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "สิ่งที่มีลักษณะยาวทำด้วยไม้เป็นต้น + ดึง"
+    },
+    {
+     "th": "ชักดาบ",
+     "rtgs": "chak-dap",
+     "ipa": "/t͡ɕʰak̚˦˥.daːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ยอมจ่ายเงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ดาบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "draw + knife",
+     "lit_th": "ดึง + อาวุธชนิดหนึ่ง มีขนาดยาวและมีคมที่"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ดึงเอามา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Pulling a thing toward oneself.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชักเก๊ะ",
+     "rtgs": "chak-ke",
+     "ipa": "/t͡ɕʰak̚˦˥.keʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลักเล็กขโมยน้อย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "เก๊ะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ดึงเอามา + ลิ้นชัก"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ดึงออกแล้วดันเข้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Pulling out and pushing back.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ลิ้นชัก",
+     "rtgs": "lin-chak",
+     "ipa": "/lin˦˥.t͡ɕʰak̚˦˥/",
+     "gloss": {
+      "en": [
+       "drawer"
+      ],
+      "th": "ส่วนหนึ่งของตู้และโต๊ะ สำหรับเก็บของ ชักออกและผลักเข้าไปได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลิ้น",
+      "ชัก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "tongue + draw",
+     "lit_th": "อวัยวะที่อยู่ในปาก มีหน้าที่ + ดึงออกแล้วดันเข้า"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "นำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Pulling someone along: to lead.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชักชวน",
+     "rtgs": "chak-chuan",
+     "ipa": "/t͡ɕʰak̚˦˥.t͡ɕʰua̯n˧/",
+     "gloss": {
+      "en": [
+       "persuade"
+      ],
+      "th": "ชวนให้ทำด้วยกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ชวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "draw + invite",
+     "lit_th": "นำ + จูงใจ"
+    },
+    {
+     "th": "ชักจูง",
+     "rtgs": "chak-chung",
+     "ipa": "/t͡ɕʰak̚˦˥.t͡ɕuːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จูงใจเพื่อให้เห็นคล้อยตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "จูง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "draw + hand",
+     "lit_th": "นำ + พาไปด้วยอาการคล้ายดึงหรือฉุด"
+    },
+    {
+     "th": "ชักนำ",
+     "rtgs": "chak-nam",
+     "ipa": "/t͡ɕʰak̚˦˥.nam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกลี้ยกล่อมหรือโน้มนำให้เห็นคล้อยตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "นำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "นำ"
+     ],
+     "lit": "draw + lead",
+     "lit_th": "นำ + ไปข้างหน้า"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "นำเอามาอ้าง, ยกเอามาอ้าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "Pulling a case in to support one's own: to cite.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เอาออก, หักออก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Pulling out: to take away, to deduct.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ขยายแนวให้ยืดออก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Drawing a line out longer.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "สี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Drawing back and forth across: to saw, to bow a fiddle.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "กระตุก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "A short sharp pull: to twitch.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "อาการที่กล้ามเนื้อกระตุกอย่างกะทันหันและรุนแรง มักมีอาการมือเท้าเกร็ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ชักกระตุก",
+     "translit_auto": "chakkratuk",
+     "ipa": "[t͡ɕʰäk̚˥.krä˩.tuk̚˩ ~ t͡ɕʰäk̚˥.krä˧.tuk̚˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่กล้ามเนื้อกระตุกอย่างกะทันหันและรุนแรง มักมีอาการมือเท้าเกร็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "กระตุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11: gloss similarity 0.90, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "draw + jerk",
+     "lit_th": "อาการที่กล้ามเนื้อกระตุกอย่างกะทัน + ดึงเข้ามาโดยเร็วทันที"
+    }
+   ],
+   "extends": 10,
+   "via": "specialisation",
+   "via_note": "And the body twitching of itself: a convulsion.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[RID sense 12 — no English yet]"
+    ],
+    "th": "ค่อนข้าง, เกือบ, เริ่ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Being pulled toward a state: rather, nearly, beginning to.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชักช้า",
+     "rtgs": "chak-cha",
+     "ipa": "/t͡ɕʰak̚˦˥.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โอ้เอ้, ล่าช้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ช้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ช้า"
+     ],
+     "lit": "draw + slow",
+     "lit_th": "ค่อนข้าง + ค่อย ๆ เคลื่อนไป"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 1 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 14; domain seeded by keyword hits ['เคลื่อน', 'เข้า', 'ขึ้น', 'ออก'].",
+ "compounds_unassigned": [
+  {
+   "th": "การชัก",
+   "rtgs": "kan-chak",
+   "ipa": "/kaːn˧.t͡ɕʰak̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ชัก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับลาว ຊັກ (ซัก), คำเมือง ᨩᩢ᩠ᨠ (ชัก), เขิน ᨩᩢ᩠ᨠ (ชัก), ไทใหญ่ ၸၵ်ႉ (จั๎ก)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨩᩢ᩠ᨠ",
+  "th": "ชัก",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:chak",
+   "label": "จักร",
+   "why": "spelling",
+   "distinction": "Both romanise as \"chak\". ชัก is chák, จักร is jàk — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "draw"
+ ]
+}

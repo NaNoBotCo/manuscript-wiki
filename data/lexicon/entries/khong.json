@@ -1,0 +1,1719 @@
+{
+ "id": "w:khong",
+ "th": "ของ",
+ "status": "mapped",
+ "rtgs": "khong",
+ "paiboon": "kɔ̌ɔng",
+ "ipa": "/kʰɔːŋ˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สิ่งต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, preposition",
+   "pos_th": "คำนาม, คำบุพบท",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ข้าวของ",
+     "rtgs": "khao-khong",
+     "ipa": "/kʰaːw˥˩.kʰɔːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งของต่าง ๆ มีเครื่องใช้เครื่องประดับเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ของ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.18, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ข้าว"
+     ],
+     "lit": "rice + by",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + สิ่งต่าง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "ของสูง",
+     "rtgs": "khong-sung",
+     "ipa": "/kʰɔːŋ˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งศักดิ์สิทธิ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "สูง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "สูง"
+     ],
+     "lit": "by + tall",
+     "lit_th": "สิ่งต่าง ๆ + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    },
+    {
+     "th": "สิ่งของ",
+     "rtgs": "sing-khong",
+     "ipa": "/siŋ˨˩.kʰɔːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "matter",
+       "article",
+       "stuff"
+      ],
+      "th": "วัตถุต่าง ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิ่ง",
+      "ของ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.15, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "animal + by",
+     "lit_th": "ของต่าง ๆ โดยไม่จำกัดว่ามีชีวิตหรื + สิ่งต่าง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "ของโจร",
+     "rtgs": "khong-chon",
+     "ipa": "/kʰɔːŋ˩˩˦.t͡ɕoːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งของที่ถูกโจรกรรมมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "โจร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "by + bandit",
+     "lit_th": "สิ่งต่าง ๆ + ผู้ร้ายที่ลักขโมยหรือปล้นสะดมทรัพย",
+     "frame": "entity"
+    },
+    {
+     "th": "ของป่า",
+     "rtgs": "khong-pa",
+     "ipa": "/kʰɔːŋ˩˩˦.paː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บรรดาของที่เกิดหรือมีขึ้นในป่าตามธรรมชาติ เช่น ไม้ ยางไม้ พืช รังนก รวงผึ้ง มูลค้างคาว ซากสัตว์ หิน ดิน กรวด ทราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ป่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "by + forest",
+     "lit_th": "สิ่งต่าง ๆ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+     "frame": "entity"
+    },
+    {
+     "th": "ของกำนัล",
+     "rtgs": "khong-kam-nan",
+     "ipa": "/kʰɔːŋ˩˩˦.kam˧.nan˧/",
+     "gloss": {
+      "en": [
+       "gift"
+      ],
+      "th": "สิ่งของที่นำไปให้แก่ผู้ที่รักและนับถือ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "กำนัล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + ของให้กันด้วยความนับถือ",
+     "frame": "entity"
+    },
+    {
+     "th": "ของเค็ม",
+     "rtgs": "khong-khem",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰem˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินที่หมักหรือดองด้วยเกลือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "เค็ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "by + salty",
+     "lit_th": "สิ่งต่าง ๆ + มีรสอย่างรสเกลือ",
+     "frame": "quality"
+    },
+    {
+     "th": "ของค้าง",
+     "rtgs": "khong-khang",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินที่เหลือข้ามคืน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ค้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + ตกลงมาหรือขึ้นไปติดอยู่กับสิ่งใดสิ"
+    },
+    {
+     "th": "ของแข็ง",
+     "rtgs": "khong-khaeng",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰɛŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "solid"
+      ],
+      "th": "สิ่งที่รวมตัวกันแน่น, สิ่งที่มิใช่ของเหลวหรือแก๊ส",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "แข็ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แข็ง"
+     ],
+     "lit": "by + hard",
+     "lit_th": "สิ่งต่าง ๆ + กระด้าง",
+     "frame": "quality"
+    },
+    {
+     "th": "ของชำ",
+     "rtgs": "khong-cham",
+     "ipa": "/kʰɔːŋ˩˩˦.t͡ɕʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของแห้งต่าง ๆ ที่ใช้เป็นอาหาร เช่น พริก กะปิ หอม กระเทียม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ชำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + ชื่อร้านหรือเรือขายของแห้งต่าง ๆ ท",
+     "frame": "entity"
+    },
+    {
+     "th": "ของว่าง",
+     "rtgs": "khong-wang",
+     "ipa": "/kʰɔːŋ˩˩˦.waːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินนอกเวลากินอาหารตามปรกติ มักกินในเวลาบ่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ว่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "by + empty",
+     "lit_th": "สิ่งต่าง ๆ + เปล่า",
+     "frame": "quality"
+    },
+    {
+     "th": "ของไหว้",
+     "rtgs": "khong-wai",
+     "ipa": "/kʰɔːŋ˩˩˦.waːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของที่ผู้น้อยนำไปให้ผู้ใหญ่ เพื่อแสดงคารวะในบางโอกาส",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ไหว้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + ทำความเคารพโดยยกมือขึ้นประนม"
+    },
+    {
+     "th": "ของเลื่อน",
+     "rtgs": "khong-luean",
+     "ipa": "/kʰɔːŋ˩˩˦.lɯa̯n˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สำรับคาวหวานที่เจ้าภาพในงานทำบุญนำไปให้ผู้ที่นับถือด้วยไมตรีจิต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "เลื่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + ยานชนิดหนึ่งไม่มีล้อ ใช้ลากไปตามท้",
+     "frame": "entity"
+    },
+    {
+     "th": "ของเสีย",
+     "rtgs": "khong-sia",
+     "ipa": "/kʰɔːŋ˩˩˦.sia̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งที่ร่างกายขับออกมาเช่นเหงื่อ ปัสสาวะ อุจจาระ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "เสีย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "by + bad",
+     "lit_th": "สิ่งต่าง ๆ + เสื่อมลงไป"
+    },
+    {
+     "th": "ของรับไหว้",
+     "rtgs": "khong-rap-wai",
+     "ipa": "/kʰɔːŋ˩˩˦.rap̚˦˥.waːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งของที่มอบให้แก่คู่บ่าวสาวเมื่อมาไหว้หลังพิธีแต่งงาน มักเป็นแก้วแหวนเงินทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "รับไหว้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + ไหว้ตอบ"
+    },
+    {
+     "th": "ของหมั้น",
+     "rtgs": "khong-man",
+     "ipa": "/kʰɔːŋ˩˩˦.man˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทรัพย์สินที่ฝ่ายชายได้ส่งมอบหรือโอนให้แก่หญิง เพื่อเป็นหลักฐานว่าจะสมรสกับหญิงนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "หมั้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + มอบสิ่งของให้ฝ่ายหญิงเพื่อแสดงความ"
+    },
+    {
+     "th": "ของขบฉัน",
+     "translit_auto": "khongkhbchan",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาหารการกินของนักบวช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ขบฉัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + เคี้ยวกิน"
+    },
+    {
+     "th": "ของระบาด",
+     "rtgs": "khong-ra-bat",
+     "ipa": "/kʰɔːŋ˩˩˦.ra˦˥.baːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทรัพย์สมบัติข้าทาสบริวารทั้งหมดที่ถูกริบราชบาต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ระบาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + กระจาย"
+    },
+    {
+     "th": "ของนอก",
+     "rtgs": "khong-nok",
+     "ipa": "/kʰɔːŋ˩˩˦.nɔːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของที่มาจากต่างประเทศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "นอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 0,
+     "cross_listed": [
+      "นอก"
+     ],
+     "lit": "by + outside",
+     "lit_th": "สิ่งต่าง ๆ + ตรงข้ามกับใน"
+    },
+    {
+     "th": "ของขึ้น",
+     "rtgs": "khong-khuen",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการผิดปรกติอย่างใดอย่างหนึ่ง เชื่อว่าเกิดจากอำนาจของขลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ขึ้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ขึ้น"
+     ],
+     "lit": "by + rise",
+     "lit_th": "สิ่งต่าง ๆ + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    },
+    {
+     "th": "ของร้อน",
+     "rtgs": "khong-ron",
+     "ipa": "/kʰɔːŋ˩˩˦.rɔːn˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของที่มีผู้ขโมยเขาเอามาฝากไว้หรือจำหน่ายให้ ถ้ารับเอาไว้จะทำให้เดือดร้อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ร้อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ร้อน"
+     ],
+     "lit": "by + hot",
+     "lit_th": "สิ่งต่าง ๆ + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+     "frame": "quality"
+    },
+    {
+     "th": "ของเก่า",
+     "rtgs": "khong-kao",
+     "ipa": "/kʰɔːŋ˩˩˦.kaw˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของโบราณ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "เก่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "by + old",
+     "lit_th": "สิ่งต่าง ๆ + ก่อน",
+     "frame": "quality"
+    },
+    {
+     "th": "ของเถื่อน",
+     "rtgs": "khong-thuean",
+     "ipa": "/kʰɔːŋ˩˩˦.tʰɯa̯n˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของที่ผิดกฎหมาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "เถื่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "by + animal",
+     "lit_th": "สิ่งต่าง ๆ + ป่า",
+     "frame": "entity"
+    },
+    {
+     "th": "ของเคียง",
+     "rtgs": "khong-khiang",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰia̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินที่เอามาตั้งเทียบข้างเพื่อกินประกอบกับอาหารบางชนิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "เคียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + ชิดกันโดยเรียงข้าง"
+    },
+    {
+     "th": "ของแสลง",
+     "rtgs": "khong-sa-laeng",
+     "ipa": "/kʰɔːŋ˩˩˦.sa˨˩.lɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของที่กินแล้วทำให้โรคกำเริบหรือสิ่งที่ไม่ถูกกับโรค",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "แสลง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + ไม่ถูกกับโรค",
+     "frame": "quality"
+    },
+    {
+     "th": "ของสงวน",
+     "rtgs": "khong-sa-nguan",
+     "ipa": "/kʰɔːŋ˩˩˦.sa˨˩.ŋua̯n˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นมหญิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "สงวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + ถนอมรักษาไว้"
+    },
+    {
+     "th": "ของเหลว",
+     "rtgs": "khong-leo",
+     "ipa": "/kʰɔːŋ˩˩˦.leːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "liquid"
+      ],
+      "th": "ของที่ไม่แข็งมีลักษณะไหลได้อย่างน้ำ, สถานะหนึ่งของสสารซึ่งมีปริมาตรคงตัวแต่รูปร่างเปลี่ยนไปได้ตามภาชนะที่รองรับ, สถานะระหว่างแก๊สกับของแข็ง (คำลักษณนามเปลี่ยนไปตามภาชนะ)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "เหลว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "by + fail",
+     "lit_th": "สิ่งต่าง ๆ + เป็นน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "ของขวัญ",
+     "rtgs": "khong-khwan",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "gift",
+       "present",
+       "tribute"
+      ],
+      "th": "สิ่งของที่ให้แก่เจ้าของขวัญเมื่อเสร็จพิธีทำขวัญแล้ว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ขวัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "by + khwan",
+     "lit_th": "สิ่งต่าง ๆ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "ของลับ",
+     "rtgs": "khong-lap",
+     "ipa": "/kʰɔːŋ˩˩˦.lap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อวัยวะเพศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ลับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลับ"
+     ],
+     "lit": "by + to whet",
+     "lit_th": "สิ่งต่าง ๆ + ถูให้คม"
+    },
+    {
+     "th": "ของตาย",
+     "rtgs": "khong-tai",
+     "ipa": "/kʰɔːŋ˩˩˦.taːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งที่ได้แน่นอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ตาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตาย"
+     ],
+     "lit": "by + demise",
+     "lit_th": "สิ่งต่าง ๆ + สิ้นใจ"
+    },
+    {
+     "th": "ของหวาน",
+     "rtgs": "khong-wan",
+     "ipa": "/kʰɔːŋ˩˩˦.waːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "sweet",
+       "dessert"
+      ],
+      "th": "ขนม, โดยมากหมายถึงที่กินหลังจากอาหารจานหลัก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "หวาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หวาน"
+     ],
+     "lit": "by + sweet",
+     "lit_th": "สิ่งต่าง ๆ + มีรสอย่างรสน้ำตาล",
+     "frame": "quality"
+    },
+    {
+     "th": "ของคาว",
+     "rtgs": "khong-khao",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินที่ประกอบด้วยเนื้อสัตว์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "คาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + กลิ่นเหม็นอย่างหนึ่งอย่างกลิ่นปลาส",
+     "frame": "entity"
+    },
+    {
+     "th": "ของชำร่วย",
+     "rtgs": "khong-cham-ruai",
+     "ipa": "/kʰɔːŋ˩˩˦.t͡ɕʰam˧.rua̯j˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของตอบแทนผู้มาช่วยงานเช่นงานแต่งงานและงานศพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ชำร่วย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + ของตอบแทนผู้มาช่วยงานเช่นงานแต่งงา",
+     "frame": "entity"
+    },
+    {
+     "th": "ของเสวย",
+     "rtgs": "khong-sa-woei",
+     "ipa": "/kʰɔːŋ˩˩˦.sa˨˩.wɤːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "เสวย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + กิน"
+    },
+    {
+     "th": "ของแห้ง",
+     "rtgs": "khong-haeng",
+     "ipa": "/kʰɔːŋ˩˩˦.hɛːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาหารแห้งที่เก็บไว้ได้นาน, เสบียงกรัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "แห้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แห้ง"
+     ],
+     "lit": "by + dry",
+     "lit_th": "สิ่งต่าง ๆ + ไม่มีน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "ของเล่น",
+     "rtgs": "khong-len",
+     "ipa": "/kʰɔːŋ˩˩˦.len˥˩/",
+     "gloss": {
+      "en": [
+       "toy"
+      ],
+      "th": "ของสำหรับเด็กเล่นเพื่อให้สนุกหรือเพลิดเพลิน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "เล่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "by + play",
+     "lit_th": "สิ่งต่าง ๆ + ทำเพื่อสนุกหรือผ่อนอารมณ์"
+    },
+    {
+     "th": "เจ้าของ",
+     "rtgs": "chao-khong",
+     "ipa": "/t͡ɕaw˥˩.kʰɔːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "owner"
+      ],
+      "th": "ผู้มีกรรมสิทธิ์ในทรัพย์สิน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เจ้า",
+      "ของ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + by",
+     "lit_th": "ผู้เป็นใหญ่ + สิ่งต่าง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "ของไหล",
+     "rtgs": "khong-lai",
+     "ipa": "/kʰɔːŋ˩˩˦.laj˩˩˦/",
+     "gloss": {
+      "en": [
+       "fluid"
+      ],
+      "th": "สสารซึ่งมีรูปร่างเปลี่ยนไปได้ตามภาชนะที่รองรับ ได้แก่ ของเหลวและแก๊ส",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ไหล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "by + run",
+     "lit_th": "สิ่งต่าง ๆ + เคลื่อนที่ไปอย่างของเหลวเช่นน้ำ"
+    },
+    {
+     "th": "ของขลัง",
+     "translit_auto": "khongkhlang",
+     "ipa": "[kʰɔ̃ːŋ˩˥.kʰlä̃ŋ˩˥]",
+     "gloss": {
+      "en": [
+       "amulet"
+      ],
+      "th": "ของที่มีอำนาจศักดิ์สิทธิ์ที่เชื่อกันว่าอาจบันดาลให้สำเร็จได้ดังประสงค์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ขลัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "สิ่งต่าง ๆ + มีกำลังหรืออำนาจที่อาจบันดาลให้เป็",
+     "frame": "quality"
+    },
+    {
+     "th": "ของหลวง",
+     "rtgs": "khong-luang",
+     "ipa": "/kʰɔːŋ˩˩˦.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของของสถาบันพระมหากษัตริย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "หลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "by + royal",
+     "lit_th": "สิ่งต่าง ๆ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
+    },
+    {
+     "th": "ของสด",
+     "rtgs": "khong-sot",
+     "ipa": "/kʰɔːŋ˩˩˦.sot̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของที่มิได้สุกด้วยความร้อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "สด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "by + fresh",
+     "lit_th": "สิ่งต่าง ๆ + ใหม่ ใช้แก่ลักษณะของสิ่งต่าง ๆ ที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ลองของ",
+     "rtgs": "long-khong",
+     "ipa": "/lɔːŋ˧.kʰɔːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทดลองดูว่าเครื่องรางของขลังนั้นจะขลังจริงหรือไม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลอง",
+      "ของ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ของที่ทำรองรับไว้ชั้นใน + สิ่งต่าง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "ของกลาง",
+     "rtgs": "khong-klang",
+     "ipa": "/kʰɔːŋ˩˩˦.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของที่ใช้ร่วมกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "by + middle",
+     "lit_th": "สิ่งต่าง ๆ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "ของดี",
+     "rtgs": "khong-di",
+     "ipa": "/kʰɔːŋ˩˩˦.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของขลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ดี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "by + good",
+     "lit_th": "สิ่งต่าง ๆ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "แห่ง (ใช้สำหรับนำหน้านามที่เป็นผู้ครอบครอง)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, preposition",
+   "pos_th": "คำนาม, คำบุพบท",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ของสงฆ์",
+     "rtgs": "khong-song",
+     "ipa": "/kʰɔːŋ˩˩˦.soŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของที่เป็นของทางวัด, ของที่สงฆ์ใช้ร่วมกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "สงฆ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.13, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "แห่ง + ภิกษุ",
+     "frame": "entity"
+    },
+    {
+     "th": "ของวัด",
+     "rtgs": "khong-wat",
+     "ipa": "/kʰɔːŋ˩˩˦.wat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของที่เป็นของทางวัด, ของที่สงฆ์หรือฆราวาสใช้ร่วมกันในวัด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "วัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.11, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "วัด"
+     ],
+     "lit": "by + temple",
+     "lit_th": "แห่ง + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+     "frame": "entity"
+    },
+    {
+     "th": "ของใช้",
+     "rtgs": "khong-chai",
+     "ipa": "/kʰɔːŋ˩˩˦.t͡ɕʰaj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของสำหรับใช้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ใช้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.15, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "by + consume",
+     "lit_th": "แห่ง + บังคับให้ทำ"
+    },
+    {
+     "th": "ของกิน",
+     "rtgs": "khong-kin",
+     "ipa": "/kʰɔːŋ˩˩˦.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของสำหรับกิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "กิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.12, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "by + eat",
+     "lit_th": "แห่ง + เคี้ยว"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The thing possessed bleached into the particle of possession.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 20 manuscript titles, 824 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 51; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การลองของ",
+   "rtgs": "kan-long-khong",
+   "ipa": "/kaːn˧.lɔːŋ˧.kʰɔːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลองของ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลอง",
+    "ของ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ลอง + สิ่งต่าง ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "เชียงของ",
+   "rtgs": "chiang-khong",
+   "ipa": "/t͡ɕʰia̯ŋ˧.kʰɔːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงราย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เชียง",
+    "ของ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: ของ here is the river, not the noun 'thing'. Chiang Khong stands on the Mekong, whose Lanna and Lao name is ของ; the dictionary's own โขง entry gives it as cognate with Lao ຂອງ. The RID states no etymology for เชียงของ, so this is probable, not verified.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำเรียกเมืองทางภาคพายัพและเหนือขึ้ + สิ่งต่าง ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "ของสาธารณะ",
+   "rtgs": "khong-sa-tha-ra-na",
+   "ipa": "/kʰɔːŋ˩˩˦.saː˩˩˦.tʰaː˧.ra˦˥.naʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ สาธารณสมบัติ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ของ",
+    "สาธารณะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "by + public",
+   "lit_th": "สิ่งต่าง ๆ + เพื่อประชาชนทั่วไป",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *χɔːŋᴬ; ร่วมเชื้อสายกับคำเมือง ᨡᩬᨦ (ของ), ลาว ຂອງ (ของ), ไทลื้อ ᦃᦸᧂ (ฃอ̂ง), ไทดำ ꪄꪮꪉ (ฃอง), ไทใหญ่ ၶွင် (ขอ̂ง), ไทใต้คง ᥑᥩᥒᥴ (ฃ๋อ̂ง), พ่าเก ၵ︀ွင︀် (ขอ̂ง์), อาหม 𑜁𑜨𑜂𑜫 (ขอ̂ง์), จ้วง hong, จ้วงแบบจั่วเจียง kong",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩬᨦ",
+  "th": "ของ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "by",
+  "of",
+  "item"
+ ]
+}

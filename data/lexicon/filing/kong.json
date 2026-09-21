@@ -1,0 +1,22 @@
+{
+ "head": "kong",
+ "rule": "กอง piles things up (1), and what is piled is either STUFF (2) or MEN (4). Sense 2 takes every mass gathered for a purpose and the abstractions built on one — the ritual fire (กองกูณฑ์), the ashes after a cremation (กองฟอน), an estate (กองมรดก), a fund (กองทุน), the common pool (กองกลาง). Sense 4 takes every organised body of personnel, and the RID's own เป็นต้น in that gloss is what lets the football lines in beside the armies: กองหน้า and กองหลัง are named the way กองหนุน and กองโจร are, a body of men with a station. Sense 1, the verb, takes the verb-on-verb compound ก่ายกอง, stacked-and-heaped, meaning abundantly. The classifier senses 3, 7 and 8 take no compounds — a classifier is used, not compounded — and 9 (the รกฟ้า tree) and 10 (the เป็นกอง intensifier, which the gloss ties to that one collocation) take nothing here either.",
+ "senses": {
+  "1": ["ก่ายกอง"],
+  "2": ["กองกูณฑ์", "กองมรดก", "กองทุน", "กองฟอน", "กองกลาง"],
+  "4": [
+   "กองทัพ",
+   "กองทัพบก",
+   "กองทัพเรือ",
+   "กองทัพอากาศ",
+   "กองพล",
+   "กองโจร",
+   "กองเกียรติยศ",
+   "กองหนุน",
+   "กองเกิน",
+   "กองสอดแนม",
+   "กองหน้า",
+   "กองหลัง"
+  ]
+ }
+}

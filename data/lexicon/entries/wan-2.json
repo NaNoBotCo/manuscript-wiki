@@ -1,0 +1,879 @@
+{
+ "id": "w:wan-2",
+ "th": "หวาน",
+ "status": "mapped",
+ "rtgs": "wan",
+ "paiboon": "wǎan",
+ "ipa": "/waːn˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "มีรสอย่างรสน้ำตาล",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เพราะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Sweet to the ear: melodious.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ชุ่มชื่น, ที่รัก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Sweet in feeling: tender, beloved.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "น่ารักชวนมอง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตาหวาน",
+     "rtgs": "ta-wan",
+     "ipa": "/taː˧.waːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นัยน์ตาฉ่ำเยิ้มชวนมอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "หวาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.18, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "eye + sweet",
+     "lit_th": "พ่อของแม่ + น่ารักชวนมอง",
+     "frame": "quality"
+    }
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "And sweet to look at.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "อ่อนสดใส ในคำว่า สีหวาน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "สีหวาน, a soft fresh colour.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ที่ทำได้ง่าย, ที่ทำได้สะดวก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Going down easily: simple to do.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ชำรุดไม่กินเกลียวกัน ในคำว่า เกลียวหวาน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เกลียวหวาน",
+     "rtgs": "kliao–wan",
+     "ipa": "/klia̯w˧.waːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกลียวของนอตเป็นต้นที่ชำรุดไม่กินเกลียวกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกลียว",
+      "หวาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "สิ่งที่มีลักษณะเป็นรอยพันหรือบิดโด + ชำรุดไม่กินเกลียวกัน ในคำว่า เกลีย",
+     "frame": "quality"
+    }
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "เกลียวหวาน, a thread worn too smooth to bite.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "(ผัก~) ชื่อไม้พุ่มชนิด Sauropus androgynus (L.) Merr. ในวงศ์ Euphorbiaceae ยอดกินได้, ผักหวานบ้าน ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ผักหวาน, the shrub named for its taste.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "(ผัก~) ชื่อไม้ต้นชนิด Melientha suavis Pierre ในวงศ์ Opiliaceae ยอดและดอกอ่อนกินได้, ผักหวานป่า ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "metonymy",
+   "via_note": "And the tree that shares the name.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1 manuscript titles, 13 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['หวาน', 'รส', 'กิน'].",
+ "compounds_unassigned": [
+  {
+   "th": "หวานเย็น",
+   "rtgs": "wan-yen",
+   "ipa": "/waːn˩˩˦.jen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของกินเป็นก้อนสี่เหลี่ยม ทำด้วยน้ำหวานหรือน้ำกะทิเป็นต้น แล้วทำให้แข็งด้วยความเย็น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หวาน",
+    "เย็น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "เย็น"
+   ],
+   "lit": "sweet + cold",
+   "lit_th": "มีรสอย่างรสน้ำตาล + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+   "frame": "quality"
+  },
+  {
+   "th": "ม่วงหวาน",
+   "rtgs": "muang-wan",
+   "ipa": "/mua̯ŋ˥˩.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอน้ำพอง จังหวัดขอนแก่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ม่วง",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "ADJ+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ม่วง"
+   ],
+   "lit": "purple + sweet",
+   "lit_th": "สีน้ำเงินปนแดง + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "ปากหวาน",
+   "rtgs": "pak–wan",
+   "ipa": "/paːk̚˨˩.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พูดจาไพเราะ มักพูดให้เขาพอใจเมื่อต้องการผลประโยชน์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ปาก",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ปาก"
+   ],
+   "lit": "mouth + sweet",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "ความอ่อนหวาน",
+   "rtgs": "khwam-on-wan",
+   "ipa": "/kʰwaːm˧.ʔɔːn˨˩.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อ่อนหวาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความอ่อน",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อ่อน + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "เครื่องหวาน",
+   "rtgs": "khrueang-wan",
+   "ipa": "/kʰrɯa̯ŋ˥˩.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ของหวาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เครื่อง",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "เครื่อง"
+   ],
+   "lit": "device + sweet",
+   "lit_th": "สิ่ง + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "ความหวาน",
+   "rtgs": "khwam-wan",
+   "ipa": "/kʰwaːm˧.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หวาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + sweet",
+   "lit_th": "เรื่อง + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "ขนมหวาน",
+   "rtgs": "kha-nom-wan",
+   "ipa": "/kʰa˨˩.nom˩˩˦.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "sweet",
+     "sweets",
+     "candy"
+    ],
+    "th": "ขนมรสชาติหวาน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขนม",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "snack + sweet",
+   "lit_th": "ของกินที่ไม่ใช่กับข้าว มักปรุงด้วย + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "ไข่หวาน",
+   "rtgs": "khai-wan",
+   "ipa": "/kʰaj˨˩.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อขนมอย่างหนึ่งทำโดยต่อยไข่ใส่ลงในน้ำเชื่อมร้อน ๆ แล้วต้มให้สุก มักใส่ขิงด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข่",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ไข่"
+   ],
+   "lit": "egg + sweet",
+   "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "น้ำปลาหวาน",
+   "rtgs": "nam-pla-wan",
+   "ipa": "/nam˦˥.plaː˧.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องจิ้มชนิดหนึ่ง ทำจากน้ำปลา น้ำตาล เกลือ พริก หอมแดง กุ้งแห้ง เป็นต้น เคี่ยวให้เข้ากันจนข้นเหนียว รับประทานกับผลไม้รสเปรี้ยว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "น้ำปลา",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "fish sauce + sweet",
+   "lit_th": "น้ำสำหรับปรุงอาหารให้มีรสเค็ม ทำจา + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "อาหารหวาน",
+   "rtgs": "a-han-wan",
+   "ipa": "/ʔaː˧.haːn˩˩˦.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขนม, โดยมากหมายถึงที่กินหลังจากอาหารจานหลัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อาหาร",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "aid + sweet",
+   "lit_th": "ของกิน + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "ของหวาน",
+   "rtgs": "khong-wan",
+   "ipa": "/kʰɔːŋ˩˩˦.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "sweet",
+     "dessert"
+    ],
+    "th": "ขนม, โดยมากหมายถึงที่กินหลังจากอาหารจานหลัก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ของ",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ของ"
+   ],
+   "lit": "by + sweet",
+   "lit_th": "สิ่งต่าง ๆ + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "ฝันหวาน",
+   "rtgs": "fan-wan",
+   "ipa": "/fan˩˩˦.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คิดถึงแต่ความสุข และความสำเร็จที่อยากให้เกิดขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฝัน",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "dream + sweet",
+   "lit_th": "การเห็นเป็นเรื่องราวเมื่อหลับ + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "เบาหวาน",
+   "rtgs": "bao-wan",
+   "ipa": "/baw˧.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อโรคชนิดหนึ่งมีระดับน้ำตาลในเลือดสูงกว่าปรกติ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เบา",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 1,
+   "lit": "mild + sweet",
+   "lit_th": "มีน้ำหนักน้อย + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "ช้อนหวาน",
+   "rtgs": "chon-wan",
+   "ipa": "/t͡ɕʰɔːn˦˥.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ช้อนด้ามยาวขนาดกลาง ใหญ่กว่าช้อนชาแต่เล็กกว่าช้อนโต๊ะ เป็นช้อนสำหรับรับประทานของหวานในการรับประทานอาหารแบบยุโรป ไทยใช้คู่กับส้อมขนาดเดียวกันสำหรับรับประทานอาหารคาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ช้อน",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "spoon + sweet",
+   "lit_th": "เครื่องใช้สำหรับตักของกิน มีด้ามจั + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "อ่อนหวาน",
+   "rtgs": "on-wan",
+   "ipa": "/ʔɔːn˨˩.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไพเราะ, น่าฟัง (ใช้กับคำพูดหรือเสียงเป็นต้น)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อ่อน",
+    "หวาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "อ่อน"
+   ],
+   "lit": "young + sweet",
+   "lit_th": "ไม่กระด้าง + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *C̥.waːlᴬ; ร่วมเชื้อสายกับคำเมือง ᩉ᩠ᩅᩣ᩠ᨶ (หวาน), เขิน ᩉ᩠ᩅᩣ᩠ᨶ (หวาน), ลาว ຫວານ (หวาน), ไทลื้อ ᦛᦱᧃ (หวาน), ไทดำ ꪪꪱꪙ (หวาน), ไทขาว ꪪꪱꪙ, ไทใหญ่ ဝၢၼ် (วาน), ไทใต้คง ᥝᥣᥢᥴ (ว๋าน), พ่าเก ဝ︀ꩫ︀် (วน์), อาหม 𑜈𑜃𑜫 (บน์), ตั่ย van, จ้วง van, แสก หว่าน; เทียบสุ่ย faanl, ต้งใต้ kuanp",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩉ᩠ᩅᩣ᩠ᨶ",
+  "th": "หวาน",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:wan",
+   "label": "วาร",
+   "why": "spelling",
+   "distinction": "Both romanise as \"wan\". หวาน is wǎan, วาร is waan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:wan-3",
+   "label": "วัน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"wan\". หวาน is wǎan, วัน is wan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "sweet"
+ ]
+}

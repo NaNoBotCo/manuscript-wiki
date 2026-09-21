@@ -1,0 +1,1641 @@
+{
+ "id": "w:fai",
+ "th": "ไฟ",
+ "status": "mapped",
+ "rtgs": "fai",
+ "paiboon": "fai",
+ "ipa": "/faj˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ ดิน น้ำ ไฟ ลม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'.",
+    "Declared root: ไฟ 'fire'."
+   ],
+   "compounds": [
+    {
+     "th": "เสือไฟ",
+     "translit_auto": "seuep",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมชนิด Pardofelis temminckii ในวงศ์เสือและแมว เป็นสัตว์กินเนื้อ ออกลูกเป็นตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสือ",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "tiger + fire",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมในวงศ์ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    },
+    {
+     "th": "ไฟกัลป์",
+     "translit_auto": "faikalp",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไฟล้างโลกเมื่อสิ้นกัป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "กัลป์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + เวลาอันยาวนานมาก",
+     "frame": "entity"
+    },
+    {
+     "th": "ไฟป่า",
+     "rtgs": "fai-pa",
+     "ipa": "/faj˧.paː˨˩/",
+     "gloss": {
+      "en": [
+       "wildfire"
+      ],
+      "th": "ไฟที่เกิดขึ้นเองในป่าธรรมชาติ และไหม้ลุกลามโดยปราศจากการควบคุม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "ป่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "fire + forest",
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+     "frame": "entity"
+    },
+    {
+     "th": "ภูเขาไฟ",
+     "rtgs": "phu-khao-fai",
+     "ipa": "/pʰuː˧.kʰaw˩˩˦.faj˧/",
+     "gloss": {
+      "en": [
+       "volcano"
+      ],
+      "th": "ภูเขาที่เกิดขึ้นโดยการปะทุของหินหนืดร้อนแรงดันสูงใต้เปลือกโลก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ภูเขา",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "mount + fire",
+     "lit_th": "พื้นที่ที่มีระดับสูงขึ้นจากบริเวณร + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดความร้อน แสงสว่าง และเปลว คือ กลุ่มแก๊สที่กำลังลุกไหม้ ทำให้ไหม้สิ่งต่าง ๆ ได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไฟฉาย",
+     "rtgs": "fai-chai",
+     "ipa": "/faj˧.t͡ɕʰaːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องทำความสว่าง ประกอบด้วยอุปกรณ์สำคัญ คือ จานฉายรูปโค้งสำหรับสะท้อนแสงและหลอดไฟฟ้า ซึ่งบรรจุอยู่ในเรือนกรอบ กับสิ่งให้พลังงานที่ก่อให้เกิดแสงสว่าง มีหลายชนิด ชนิดที่ถือติดตัวไปมาได้ มักทำเป็นรูปทรงกระบอก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "ฉาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.20, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว + เงา",
+     "frame": "entity"
+    },
+    {
+     "th": "ไฟแก๊ส",
+     "rtgs": "fai-kaet",
+     "ipa": "/faj˧.kɛːt̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไฟซึ่งเกิดจากการจุดอะเซทิลีน ซึ่งได้จากก้อนแคลเซียมคาร์ไบด์ทำปฏิกิริยากับน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "แก๊ส"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.15, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "fire + gas",
+     "lit_th": "ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว + สถานะหนึ่งของสสาร รูปร่างและปริมาต",
+     "frame": "entity"
+    },
+    {
+     "th": "โซดาไฟ",
+     "rtgs": "so-da-fai",
+     "ipa": "/soː˧.daː˧.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โซเดียมไฮดรอกไซด์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โซดา",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    },
+    {
+     "th": "รถไฟ",
+     "rtgs": "rot-fai",
+     "ipa": "/rot̚˦˥.faj˧/",
+     "gloss": {
+      "en": [
+       "train"
+      ],
+      "th": "รถที่พ่วงกันเป็นขบวนยาว ขับเคลื่อนโดยมีหัวรถจักรลากให้แล่นไปตามรางเหล็ก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รถ",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "รถ"
+     ],
+     "lit": "auto + fire",
+     "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "หม้อไฟ",
+     "rtgs": "mo-fai",
+     "ipa": "/mɔː˥˩.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาชนะชนิดหนึ่งทำด้วยโลหะ รูปทรงคล้ายชาม ก้นหม้อมีเชิง ตรงกลางมีกระบอกสูงขึ้นมาจากใต้ก้นหม้อสำหรับใส่ถ่านติดไฟ ปากหม้อมีฝาปิดใช้สำหรับใส่เกาเหลา แกงจืด เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หม้อ",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "pot + fire",
+     "lit_th": "ภาชนะประเภทหนึ่ง มีรูปทรงต่าง ๆ สำ + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "ตามไฟ",
+     "rtgs": "tam-fai",
+     "ipa": "/taːm˧.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จุดให้ไฟติดไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตาม",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "along + fire",
+     "lit_th": "ไปหรือมาข้างหลังหรือภายหลังโดยลำดั + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว"
+    },
+    {
+     "th": "ใส่ไฟ",
+     "rtgs": "sai-fai",
+     "ipa": "/saj˨˩.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เติมเชื้อเพลิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใส่",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "carry + fire",
+     "lit_th": "สวม + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว"
+    },
+    {
+     "th": "ช่องไฟ",
+     "rtgs": "chong-fai",
+     "ipa": "/t͡ɕʰɔŋ˥˩.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่องขนาดย่อม ๆ และตื้นที่ทำไว้บนฝาผนังหรือกำแพง สำหรับตั้งเครื่องตามไฟให้แสงสว่างเวลากลางคืน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช่อง"
+     ],
+     "lit": "hole + fire",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "กลไฟ",
+     "rtgs": "kon-fai",
+     "ipa": "/kon˧.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือที่ไปด้วยเครื่องจักร ซึ่งใช้กำลังไอน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กล",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กล"
+     ],
+     "lit": "trick + fire",
+     "lit_th": "การลวงหรือล่อลวงให้หลง + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "แก่ไฟ",
+     "rtgs": "kae-fai",
+     "ipa": "/kɛː˨˩.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใช้ไฟแรงเกินไป (มักใช้แก่การหุงหรือต้มที่ใช้ไฟแรงจนเกือบไหม้)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก่",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "old + fire",
+     "lit_th": "มีอายุมาก + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "quality"
+    },
+    {
+     "th": "ดอกไม้ไฟ",
+     "rtgs": "dok-mai-fai",
+     "ipa": "/dɔːk̚˨˩.maːj˦˥.faj˧/",
+     "gloss": {
+      "en": [
+       "pyrotechnics",
+       "banger",
+       "firework"
+      ],
+      "th": "เครื่องสำหรับจุดในงานเทศกาลหรืองานศพเป็นต้น ทำด้วยกระบอกไม้อ้อหรือไม้ไผ่เป็นต้น บรรจุดินดำ มีชื่อต่าง ๆ กันตามชนิด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ดอกไม้",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "blossom + fire",
+     "lit_th": "ส่วนหนึ่งของพรรณไม้ที่ผลิออกจากต้น + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "เรือนไฟ",
+     "rtgs": "ruean-fai",
+     "ipa": "/rɯa̯n˧.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระจุกตะเกียงหรือโคม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือน",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เรือน"
+     ],
+     "lit": "house + fire",
+     "lit_th": "สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "ไฟเย็น",
+     "rtgs": "fai-yen",
+     "ipa": "/faj˧.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดอกไม้ไฟชนิดหนึ่ง ลักษณะคล้ายธูป สามารถถือได้ เมื่อจุดไฟจะเป็นประกาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "เย็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "เย็น"
+     ],
+     "lit": "fire + cold",
+     "lit_th": "ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "เชื้อไฟ",
+     "rtgs": "chuea-fai",
+     "ipa": "/t͡ɕʰɯa̯˦˥.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งที่ทำให้ไฟติดง่ายเช่นกระดาษหรือไม้ที่เกรียกเป็นชิ้นเล็ก ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เชื้อ",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "seed + fire",
+     "lit_th": "สิ่งที่เป็นต้นเหตุทำให้เกิดสิ่งอื่ + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "ไม้ขีดไฟ",
+     "rtgs": "mai-khit-fai",
+     "ipa": "/maj˦˥.kʰiːt̚˨˩.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อุปกรณ์ที่ใช้สำหรับจุดไฟ ทำจากแท่งไม้อันเล็ก ๆ และมีสารติดไฟชุบอยู่ที่ปลายข้างหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้ขีด",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "match + fire",
+     "lit_th": "ไม้ขีดไฟ + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "ช่างไฟ",
+     "rtgs": "chang-fai",
+     "ipa": "/t͡ɕʰaːŋ˥˩.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้มีหน้าที่ใส่ฟืนเป็นเชื้อเพลิงที่จะต้มหม้อน้ำทำให้เกิดไอน้ำสำหรับขับเคลื่อนในเครื่องจักรไอน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่าง",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ผู้ชำนาญในการฝีมือหรือศิลปกรรมอย่า + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "เตาไฟ",
+     "rtgs": "tao-fai",
+     "ipa": "/taw˧.faj˧/",
+     "gloss": {
+      "en": [
+       "furnace",
+       "stove"
+      ],
+      "th": "ที่สำหรับก่อไฟหุงต้มอาหาร",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เตา",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ที่สำหรับก่อไฟหุงต้มหรือเผาสิ่งต่า + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "คบไฟ",
+     "rtgs": "khop-fai",
+     "ipa": "/kʰop̚˦˥.faj˧/",
+     "gloss": {
+      "en": [
+       "lamp",
+       "link"
+      ],
+      "th": "ของใช้สำหรับจุดไฟให้สว่าง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คบ",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ง่ามต้นไม้ที่กิ่งใหญ่กับลำต้นแยกกั + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "กระโจมไฟ",
+     "rtgs": "kra-chom-fai",
+     "ipa": "/kra˨˩.t͡ɕoːm˧.faj˧/",
+     "gloss": {
+      "en": [
+       "beacon"
+      ],
+      "th": "หอสูงซึ่งตามไฟฉายแสงอย่างแรงไว้บนยอดเพื่อใช้บอกสัญญาณในการเดินเรือเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กระโจม",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิ่งที่ตามปรกติมียอดเป็นลอมอย่างซุ + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "หมากไฟ",
+     "rtgs": "mak-fai",
+     "ipa": "/maːk̚˨˩.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะไฟ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หมาก"
+     ],
+     "lit": "areca palm + fire",
+     "lit_th": "ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว",
+     "frame": "entity"
+    },
+    {
+     "th": "ติดไฟ",
+     "rtgs": "tit-fai",
+     "ipa": "/tit̚˨˩.faj˧/",
+     "gloss": {
+      "en": [
+       "light",
+       "ablaze",
+       "alight"
+      ],
+      "th": "จุดไฟ, ก่อไฟ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ติด"
+     ],
+     "lit": "fit + fire",
+     "lit_th": "อาการที่ข้องอยู่ + ผลจากปฏิกิริยาเคมีซึ่งก่อให้เกิดคว"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The element described as the reaction: heat, light and flame.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ไฟฟ้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สายไฟ",
+     "rtgs": "sai-fai",
+     "ipa": "/saːj˩˩˦.faj˧/",
+     "gloss": {
+      "en": [
+       "wire",
+       "cord"
+      ],
+      "th": "รูปตัดทอนของ สายไฟฟ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "late + fire",
+     "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + ไฟฟ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "หลอดไฟ",
+     "rtgs": "lot-fai",
+     "ipa": "/lɔːt̚˨˩.faj˧/",
+     "gloss": {
+      "en": [
+       "lamp"
+      ],
+      "th": "อุปกรณ์ที่ให้ความสว่างโดยใช้พลังงานไฟฟ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลอด",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "straw + fire",
+     "lit_th": "ของกลมยาวขนาดเล็กที่มีรูตลอด + ไฟฟ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ไฟฟ้า",
+     "rtgs": "fai-fa",
+     "ipa": "/faj˧.faː˦˥/",
+     "gloss": {
+      "en": [
+       "juice"
+      ],
+      "th": "พลังงานรูปหนึ่งซึ่งเกี่ยวข้องกับการแยกตัวออกมา หรือการเคลื่อนที่ของอิเล็กตรอนหรือโปรตอนหรืออนุภาคอื่นที่มีสมบัติแสดงอำนาจคล้ายคลึงกับอิเล็กตรอนหรือโปรตอน ใช้ประโยชน์ก่อให้เกิดพลังงานอื่น เช่น ความร้อน แสงสว่าง การเคลื่อน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "ฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "fire + sky",
+     "frame": "entity"
+    },
+    {
+     "th": "สะพานไฟ",
+     "rtgs": "sa-phan-fai",
+     "ipa": "/sa˨˩.pʰaːn˧.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อุปกรณ์ไฟฟ้าคล้ายสวิตช์ สำหรับตัดกระแสไฟฟ้าจากวงจร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สะพาน",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิ่งปลูกสร้างที่ทำสำหรับข้ามแม่น้ำ + ไฟฟ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "สัญญาณไฟ",
+     "rtgs": "san-yan-fai",
+     "ipa": "/san˩˩˦.jaːn˧.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องให้สัญญาณที่ตั้งอยู่บนจุดที่ถนนสองสายตัดกัน เพื่อแจ้งให้ทราบว่าปลอดภัยหรือยัง โดยใช้ระบบสีสามสี; สัญญาณไฟจราจร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัญญาณ",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "signal + fire",
+     "lit_th": "เครื่องหมายหรือเครื่องแสดงไว้ให้เห + ไฟฟ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ไฟท้าย",
+     "rtgs": "fai-thai",
+     "ipa": "/faj˧.tʰaːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไฟท้ายรถที่ให้สัญญาณหยุด เลี้ยว หรือถอยหลัง แก่รถที่ขับตามมาข้างหลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "ท้าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ไฟฟ้า + ส่วนที่อยู่สุดด้านหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "ไฟแดง",
+     "rtgs": "fai-daeng",
+     "ipa": "/faj˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไฟจราจรที่เป็นสีแดง เป็นสัญญาณบอกยวดยานพาหนะหรือผู้ใช้ถนนให้หยุด, ถ้าเป็นไฟแดงกระพริบ หมายถึงให้หยุดรอจนกว่าจะปลอดภัยแล้วจึงไปต่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "fire + red",
+     "lit_th": "ไฟฟ้า + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ไฟเหลือง",
+     "rtgs": "fai-lueang",
+     "ipa": "/faj˧.lɯa̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไฟจราจรที่เป็นสีเหลือง เป็นสัญญาณบอกยวดยานพาหนะหรือผู้ใช้ถนนให้เตรียมหยุด, ถ้าขึ้นพร้อมไฟแดง หมายถึงเตรียมแล่นหรือเดินไป (สำหรับบางประเทศ), ถ้าเป็นไฟเหลืองกระพริบ หมายถึงให้ชะลอความเร็ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "เหลือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "frame": "quality"
+    },
+    {
+     "th": "ไฟเขียว",
+     "rtgs": "fai-khiao",
+     "ipa": "/faj˧.kʰia̯w˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไฟจราจรที่เป็นสีเขียว เป็นสัญญาณบอกยวดยานพาหนะหรือผู้ใช้ถนนให้แล่นหรือเดินไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "เขียว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ไฟฟ้า + มีสีอย่างสีใบไม้สด",
+     "frame": "quality"
+    },
+    {
+     "th": "ไฟจราจร",
+     "rtgs": "fai-cha-ra-chon",
+     "ipa": "/faj˧.t͡ɕa˨˩.raː˧.t͡ɕɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัญญาณไฟที่บอกยวดยานพาหนะหรือผู้ใช้ถนนให้แล่นหรือเดินไปหรือหยุด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "จราจร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ไฟฟ้า + การที่ยวดยานพาหนะ คน หรือสัตว์พาหน",
+     "frame": "entity"
+    },
+    {
+     "th": "ไฟหน้า",
+     "rtgs": "fai-na",
+     "ipa": "/faj˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไฟหน้ารถที่ให้แสงสว่างเมื่อขับรถตอนกลางคืนหรือขับในที่มืด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "fire + before",
+     "lit_th": "ไฟฟ้า + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Electricity, taken under the fire word.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ความเดือดร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Trouble and distress as a fire one is in.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ไฟไหม้",
+     "rtgs": "fai-mai",
+     "ipa": "/faj˧.maj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ด่วนที่สุด, เร่งรีบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "ไหม้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "fire + burn",
+     "lit_th": "ความเดือดร้อน + ติดเชื้อไฟ"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ผ่านการอยู่ไฟมาแล้ว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อยู่ไฟ",
+     "rtgs": "yu-fai",
+     "ipa": "/juː˨˩.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นอนใกล้ไฟโดยเชื่อว่าความร้อนจะทำให้มดลูกเข้าสู่ภาวะปรกติได้เร็วหลังคลอดลูกแล้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อยู่",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "dwell + fire",
+     "lit_th": "พัก + ผ่านการอยู่ไฟมาแล้ว"
+    },
+    {
+     "th": "กระดานไฟ",
+     "rtgs": "kra-dan-fai",
+     "ipa": "/kra˨˩.daːn˧.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระดานสำหรับนอนอยู่ไฟเมื่อคลอดบุตรแล้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระดาน",
+      "ไฟ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.15, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "board + fire",
+     "lit_th": "ไม้ซุงที่เลื่อยออกมาเป็นแผ่น ๆ + ผ่านการอยู่ไฟมาแล้ว",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Having come through อยู่ไฟ, the lying-by-fire after childbirth.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "อักษรกรีก Φ/φ, ฟี หรือ ฟาย ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire.",
+    "Declared root: the Greek letter Φ, filed here by the RID and not a sense of fire."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 14 manuscript titles, 69 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 44; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "การอยู่ไฟ",
+   "rtgs": "kan-yu-fai",
+   "ipa": "/kaːn˧.juː˨˩.faj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อยู่ไฟ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การอยู่",
+    "ไฟ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อยู่ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
+  },
+  {
+   "th": "การติดไฟ",
+   "rtgs": "kan-tit-fai",
+   "ipa": "/kaːn˧.tit̚˨˩.faj˧/",
+   "gloss": {
+    "en": [
+     "ignition",
+     "inflammation"
+    ],
+    "th": "คำอาการนามของ ติดไฟ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การติด",
+    "ไฟ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "addiction + fire",
+   "lit_th": "คำอาการนามของ ติด + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
+  },
+  {
+   "th": "ไฮไฟ",
+   "rtgs": "hai-fai",
+   "ipa": "/haj˧.faj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ระบบขยายสัญญาณไฟฟ้าเพื่อเปลี่ยนเป็นคลื่นเสียงออกมาได้โดยไม่เพี้ยนเลย ในช่วงความถี่ที่มนุษย์ได้ยินได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไฮ",
+    "ไฟ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ไทร + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ไซไฟ",
+   "rtgs": "sai-fai",
+   "ipa": "/saj˧.faj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ บันเทิงคดีแนววิทยาศาสตร์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไซ",
+    "ไฟ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เครื่องสานสำหรับดักปลา มีหลายชนิด + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
+  },
+  {
+   "th": "การตามไฟ",
+   "rtgs": "kan-tam-fai",
+   "ipa": "/kaːn˧.taːm˧.faj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตามไฟ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตาม",
+    "ไฟ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตาม + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *wɤjᴬ; ร่วมเชื้อสายกับคำเมือง ᨼᩱ (ไฟ), ลาว ໄຟ (ไฟ), ไทลื้อ ᦺᦝ (ไฟ), ไทดำ ꪼꪡ (ไฟ), ไทขาว ꪼꪡ, ไทแดง ꪼꪡ, ไทใหญ่ ၽႆး (ไผ๊) หรือ ၾႆး (ไฝ๊), ไทใต้คง ᥜᥭᥰ (ฝั๊ย), พ่าเก ၸ︀ႝ (ผย์), อาหม 𑜇𑜩 (ผย์), 𑜇𑜐𑜫 (ผญ์), หรือ 𑜇𑜩𑜤 (ผาย์), จ้วง feiz, ปู้อี fix, แสก วี๊; เทียบเบดั้งเดิม *vəːjᴬ² ยืมมาจากอังกฤษ phi, จากละตินช่วงปลาย phi (พี), จากกรีกโบราณ φεῖ (pheî)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨼᩱ",
+  "th": "ไฟ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "fire",
+  "light",
+  "juice"
+ ]
+}

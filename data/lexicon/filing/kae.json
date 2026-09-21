@@ -1,0 +1,12 @@
+{
+ "head": "kae",
+ "rule": "แก้ is one verb of UNDOING that the RID has split eight ways, and the branch structure does the sorting: 2 is the literal untying of what is tight, knotted or stuck; 3 generalises it to getting free of a thing; 4 turns it into repair; 5 narrows repair to making an affliction go away; 6 turns it into answering and explaining; 8 turns it into getting something back. Sort by what the RID's own gloss says is being undone, in this order: reciprocation first — ทำตอบ, ตอบโต้, หักล้าง, ขอสู้ใหม่, countering a move or a stratagem — files under 8, because paying it back is getting it back; then พ้น and ปลดเปลื้อง, being freed of a shame, a vow, a sin or a fault, files under 3; then บรรเทา and ปัดเป่า, an embarrassment or an omen dispelled, files under 5; ติดขัด and anything physically wrapped or fastened stays at 2; a defective document made correct is 4; and answering, solving or interpreting is 6. Sense 1 is the cowrie shell, an unrelated homonym, and takes nothing; sense 7 is antiphonal singing and its compounds are head-final (เพลงแก้), so none appear here.",
+ "senses": {
+  "2": ["แก้ขัด", "แก้ผ้า"],
+  "3": ["แก้บน", "แก้หน้า", "แก้โทษ", "แก้บาป", "แก้ตัว"],
+  "4": ["แก้ฟ้อง"],
+  "5": ["แก้ขวย", "แก้เขิน", "แก้เคล็ด"],
+  "6": ["แก้ต่าง", "แก้ตก", "แก้ฝัน"],
+  "8": ["แก้เชิง", "แก้เผ็ด", "แก้มือ", "แก้ลำ", "แก้แค้น", "แก้ที", "แก้หมาก"]
+ }
+}

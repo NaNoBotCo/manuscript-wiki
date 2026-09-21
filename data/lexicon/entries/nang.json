@@ -1,0 +1,1200 @@
+{
+ "id": "w:nang",
+ "th": "นาง",
+ "status": "mapped",
+ "rtgs": "nang",
+ "paiboon": "naang",
+ "ipa": "/naːŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ผู้หญิง, คำประกอบเพื่อแสดงว่าเป็นเพศหญิง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'.",
+    "Declared root: นาง 'woman'."
+   ],
+   "compounds": [
+    {
+     "th": "นางบำเรอ",
+     "rtgs": "nang-bam-roe",
+     "ipa": "/naːŋ˧.bam˧.rɤː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงที่ปรนเปรอเฉพาะชายคนใดคนหนึ่งในทางกามารมณ์โดยมิได้อยู่ในฐานะภรรยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาง",
+      "บำเรอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผู้หญิง + ปรนนิบัติให้เป็นที่ชอบใจ"
+    },
+    {
+     "th": "นางฟ้า",
+     "rtgs": "nang-fa",
+     "ipa": "/naːŋ˧.faː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นางในเทพนิยายที่ถือว่าอยู่บนสวรรค์, เทวดาผู้หญิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาง",
+      "ฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "Mrs + sky",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "คำนำหน้าชื่อหญิงซึ่งจดทะเบียนสมรส แต่หญิงซึ่งจดทะเบียนสมรสแล้วจะใช้คำนำหน้าชื่อว่า นางสาว ต่อไปก็ได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นางสาว",
+     "rtgs": "nang-sao",
+     "ipa": "/naːŋ˧.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "miss",
+       "Miss"
+      ],
+      "th": "คำนำหน้าชื่อหญิงที่มีอายุตั้งแต่ 15 ปีบริบูรณ์ขึ้นไป และยังไม่ได้จดทะเบียนสมรส แต่หญิงซึ่งจดทะเบียนสมรสแล้วหรือหญิงซึ่งเป็นหม้าย ก็มีสิทธิใช้คำนำหน้าชื่อว่า นางสาว ได้, ย่อว่า น.ส.",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นาง",
+      "สาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สาว"
+     ],
+     "lit": "Mrs + maid",
+     "lit_th": "คำนำหน้าชื่อหญิงซึ่งจดทะเบียนสมรส + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The title placed before a married woman's name.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "คำนำหน้าชื่อภรรยาที่เรียกตามราชทินนามของสามีที่มีบรรดาศักดิ์ต่ำกว่าพระยาลงมา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "And before the name of a titled man's wife.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "คำเรียกหรือคำนำหน้าชื่อหญิงที่มีพฤติกรรมไม่ดีหรือน่ารังเกียจเป็นต้น (หรือใช้คำว่า นัง)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The woman-word turned against a woman: a contemptuous prefix.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "คำเรียกสัตว์ตัวเมียโดยสุภาพ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "A polite way to speak of a female animal.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ใช้แทนคำว่า อี ที่เป็นพยางค์ต้นของบางคำเพื่อความสุภาพ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "euphemism",
+   "via_note": "Standing in for อี at the head of a word, to soften it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง เห็นเป็นรูปผู้หญิงท้อง, ดาวปลาตะเพียน ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขานาง",
+     "rtgs": "kha-nang",
+     "ipa": "/kʰaː˩˩˦.naːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Homalium tomentosum (Vent.) Benth. ในวงศ์ Flacourtiaceae ดอกเล็ก สีเหลืองอ่อน กลิ่นเหม็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขา",
+      "นาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ขา"
+     ],
+     "lit": "leg + Mrs",
+     "lit_th": "อวัยวะของมนุษย์หรือสัตว์ที่ยื่นจาก + ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง",
+     "frame": "entity"
+    },
+    {
+     "th": "นางแล",
+     "rtgs": "nang-lae",
+     "ipa": "/naːŋ˧.lɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงราย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาง",
+      "แล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง + ดู"
+    },
+    {
+     "th": "บางนาง",
+     "rtgs": "bang-nang",
+     "ipa": "/baːŋ˧.naːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพานทอง จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "นาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + Mrs",
+     "lit_th": "ทางน้ำเล็ก ๆ + ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง",
+     "frame": "entity"
+    },
+    {
+     "th": "อ่าวนาง",
+     "rtgs": "ao-nang",
+     "ipa": "/ʔaːw˨˩.naːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกระบี่ จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อ่าว",
+      "นาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "bay + Mrs",
+     "lit_th": "ส่วนของมหาสมุทร ทะเล หรือทะเลสาบ ท + ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง",
+     "frame": "entity"
+    },
+    {
+     "th": "นางรอง",
+     "rtgs": "than-to",
+     "ipa": "/tʰaːn˧.toː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดบุรีรัมย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาง",
+      "รอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "รอง"
+     ],
+     "lit": "Mrs + deputy",
+     "lit_th": "ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+    },
+    {
+     "th": "หมอนนาง",
+     "rtgs": "mon-nang",
+     "ipa": "/mɔːn˩˩˦.naːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมอน",
+      "นาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "pillow + Mrs",
+     "lit_th": "เครื่องสำหรับหนุนศีรษะหรือหนุนสิ่ง + ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง",
+     "frame": "entity"
+    },
+    {
+     "th": "นางแอ่น",
+     "rtgs": "nang-aen",
+     "ipa": "/naːŋ˧.ʔɛn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อนกขนาดเล็กในวงศ์ Apodidae, Hemiprocnidae, Hirundinidae และ Artamidae ตัวสีน้ำตาลหรือดำ ปลายปีกแหลม ใช้เวลาส่วนใหญ่บินโฉบแมลง มักอยู่รวมกันเป็นฝูง มีหลายชนิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาง",
+      "แอ่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง + ทำให้โค้งหรือนูนจากแนวหรือระดับ"
+    },
+    {
+     "th": "นางเกล็ด",
+     "translit_auto": "nangkelt",
+     "ipa": "[naːŋ.klèt]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อปลาน้ำจืดชนิด Thynnichthys thynnoides ในวงศ์ปลาตะเพียน (Cyprinidae) ลำตัวเพรียวแบนข้างเล็กน้อย ปากเล็กอยู่ปลายสุดของหัว ไม่มีหนวด เกล็ดเล็กเฉพาะบนเส้นข้างตัวมี 58–65 เกล็ด พื้นลำตัวสีเงินเป็นประกาย พบทั่วไปแต่มีชุกชุ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาง",
+      "เกล็ด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อหนึ่งของดาวฤกษ์เรวดี มี 16 ดวง + ส่วนที่เป็นแผ่น ๆ ซ้อนเหลื่อมกันห่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The lunar mansion Revati, its sixteen stars read as a pregnant woman.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ใช้กับผู้หญิง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Used of women in general.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "คำแทนผู้หญิง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A word standing in place of a woman.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "คำใช้แทนคนทุกเพศทุกวัย บางทีก็ใช้แทนสัตว์ด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "generalisation",
+   "via_note": "And loosened until it can stand for anyone, or an animal.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "คำนำหน้าชื่อเพลงไทยบางพวก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Heading the titles of a class of Thai songs.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[RID sense 12 — no English yet]"
+    ],
+    "th": "(ปลา~) แดง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำวิสามานยนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here.",
+    "Declared root: ปลานาง in the reading 'red' — obscure, and its relation to the woman word is not established here."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 57 manuscript titles, 662 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits ['สามี', 'ภรรยา', 'เมีย', 'ตา'].",
+ "compounds_unassigned": [
+  {
+   "th": "นางเอก",
+   "rtgs": "nang-ek",
+   "ipa": "/naːŋ˧.ʔeːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "lead"
+    ],
+    "th": "ตัวเอกฝ่ายหญิงในนวนิยาย ละคร หรือภาพยนตร์เป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นาง",
+    "เอก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "เอก"
+   ],
+   "lit": "Mrs + one",
+   "lit_th": "ผู้หญิง + หนึ่ง"
+  },
+  {
+   "th": "นางรำ",
+   "rtgs": "nang-ram",
+   "ipa": "/naːŋ˧.ram˧/",
+   "gloss": {
+    "en": [
+     "courtesan"
+    ],
+    "th": "หญิงผู้แสดงการร่ายรำ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นาง",
+    "รำ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "Mrs + dance",
+   "lit_th": "ผู้หญิง + ผงเยื่อหรือละอองเมล็ดข้าวสาร",
+   "frame": "entity"
+  },
+  {
+   "th": "ขมิ้นนาง",
+   "rtgs": "kha–min–nang",
+   "ipa": "/kʰa˨˩.min˥˩.naːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กระดูกอึ่ง (1.1), ชื่อไม้พุ่มชนิด Dendrolobium triangulare ในวงศ์ Leguminosae",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขมิ้น",
+    "นาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "turmeric + Mrs",
+   "lit_th": "ชื่อไม้ล้มลุกชนิด Curcuma longa ใน + ผู้หญิง",
+   "frame": "entity"
+  },
+  {
+   "th": "กบนาง",
+   "rtgs": "kop-nang",
+   "ipa": "/kop̚˨˩.naːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กบไสไม้ที่ใช้แต่งผิวไม้หลังจากที่ไสด้วยกบอย่างหยาบ ๆ มาแล้ว ทำให้ผิวไม้เรียบยิ่งขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กบ",
+    "นาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กบ"
+   ],
+   "lit": "frog + Mrs",
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + ผู้หญิง",
+   "frame": "entity"
+  },
+  {
+   "th": "นางใน",
+   "rtgs": "nang-nai",
+   "ipa": "/naːŋ˧.naj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นางพนักงานฝ่ายใน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาง",
+    "ใน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+PREP",
+   "head": 0,
+   "cross_listed": [
+    "ใน"
+   ],
+   "lit": "Mrs + in",
+   "lit_th": "ผู้หญิง + ตรงกันข้ามกับ นอก"
+  },
+  {
+   "th": "ย่านาง",
+   "rtgs": "ya-nang",
+   "ipa": "/jaː˥˩.naːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(แม่~) ผีผู้หญิงประจำรักษาเรือตามความเชื่อ, ปัจจุบันขยายไปถึงรถยนต์และเครื่องบินด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ย่า",
+    "นาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "gram + Mrs",
+   "lit_th": "แม่ของพ่อ + ผู้หญิง",
+   "frame": "entity"
+  },
+  {
+   "th": "นางแบบ",
+   "rtgs": "nang-baep",
+   "ipa": "/naːŋ˧.bɛːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "model",
+     "fashion model"
+    ],
+    "th": "ผู้หญิงที่แสดงแบบเสื้อหรือเครื่องประดับเป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นาง",
+    "แบบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "แบบ"
+   ],
+   "lit": "Mrs + model",
+   "lit_th": "ผู้หญิง + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+   "frame": "entity"
+  },
+  {
+   "th": "นมนาง",
+   "rtgs": "nom-nang",
+   "ipa": "/nom˧.naːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ วิสรรชนีย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นม",
+    "นาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "นม"
+   ],
+   "lit": "milk + Mrs",
+   "lit_th": "ส่วนของร่างกาย อยู่บริเวณหน้าอก มี + ผู้หญิง",
+   "frame": "entity"
+  },
+  {
+   "th": "นางรม",
+   "rtgs": "nang-rom",
+   "ipa": "/naːŋ˧.rom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อหอยทะเลกาบคู่หลายชนิดในวงศ์ Ostreidae รูปร่างค่อนข้างกลมหรือยาวรี มีสีต่าง ๆ กัน ส่วนใหญ่เป็นสีเทา เปลือกด้านล่างโค้งเล็กน้อย ยึดติดกับวัสดุที่เกาะ นิยมใช้เป็นอาหาร เช่น ชนิด Saccostrea forskali",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาง",
+    "รม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "รม"
+   ],
+   "lit": "Mrs + to smoke",
+   "lit_th": "ผู้หญิง + อบด้วยควันหรือไอไฟ"
+  },
+  {
+   "th": "ขุนนาง",
+   "rtgs": "khun-nang",
+   "ipa": "/kʰun˩˩˦.naːŋ˧/",
+   "gloss": {
+    "en": [
+     "aristocrat",
+     "lord"
+    ],
+    "th": "ลูกขุน, ข้าราชการฝ่ายทหารและพลเรือน แบ่งเป็นข้าราชการชั้นผู้ใหญ่มีศักดินาตั้งแต่ 400 ขึ้นไป และข้าราชการชั้นผู้น้อยมีศักดินาต่ำกว่า 400",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขุน",
+    "นาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้เป็นใหญ่ + ผู้หญิง",
+   "frame": "entity"
+  },
+  {
+   "th": "นางเลิ้ง",
+   "translit_auto": "nangleing",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(คำสุภาพ) อีเลิ้ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาง",
+    "เลิ้ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ผู้หญิง + ใหญ่",
+   "frame": "quality"
+  },
+  {
+   "th": "นิ้วนาง",
+   "rtgs": "nio-nang",
+   "ipa": "/niw˦˥.naːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นิ้วที่ 4 นับแต่หัวแม่มือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นิ้ว",
+    "นาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "finger + Mrs",
+   "lit_th": "ส่วนสุดของมือหรือเท้า แยกออกเป็น 5 + ผู้หญิง",
+   "frame": "entity"
+  },
+  {
+   "th": "นางงาม",
+   "rtgs": "nang-ngam",
+   "ipa": "/naːŋ˧.ŋaːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หญิงสาวที่ชนะการประกวดความงาม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาง",
+    "งาม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "งาม"
+   ],
+   "lit": "Mrs + aesthetic",
+   "lit_th": "ผู้หญิง + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
+  },
+  {
+   "th": "นางเก้ง",
+   "rtgs": "nang-keng",
+   "ipa": "/naːŋ˧.keːŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อีเก้ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาง",
+    "เก้ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ผู้หญิง + ชื่อสัตว์เคี้ยวเอื้องในวงศ์กวาง",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *naːŋᴬ⁴, จากไทดั้งเดิม *naːŋᴬ, จากจีนเก่า 娘 (OC *naŋ, “หญิงสาว”); ร่วมเชื้อสายกับอีสาน นาง, ลาว ນາງ (นาง), คำเมือง ᨶᩣ᩠ᨦ (นาง), ไทลื้อ ᦓᦱᧂ (นาง), ไทดำ ꪙꪱꪉ (นาง), ไทใหญ่ ၼၢင်း (น๊าง), ไทใต้คง ᥘᥣᥒᥰ (ล๊าง) หรือ ᥢᥣᥒᥰ (น๊าง), อ่ายตน ꩫ︀င︀် (นง์), อาหม 𑜃𑜂𑜫 (นง์); ร่วมเชื้อสายผ่านภาษาจีนเก่า: เขมรเก่า នាង (นาง), nâ, nõ, เขมร នាង (นาง), เวียดนาม nàng (หนั่ง), พม่า နန်း (นน์:)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨶᩣ᩠ᨦ",
+  "th": "นาง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "Mrs"
+ ]
+}

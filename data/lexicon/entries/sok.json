@@ -1,0 +1,877 @@
+{
+ "id": "w:sok",
+ "th": "ศก",
+ "status": "mapped",
+ "rtgs": "sok",
+ "paiboon": "sòk",
+ "ipa": "/sok̚˨˩/",
+ "syllable_respelling": "สอ-กอ",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "hair"
+    ],
+    "th": "ผม",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ศก 'hair'.",
+    "Declared root: ศก 'hair'."
+   ],
+   "compounds": [
+    {
+     "th": "หยักศก",
+     "rtgs": "yak-sok",
+     "ipa": "/jak̚˨˩.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "curly"
+      ],
+      "th": "ที่หยิกน้อย ๆ (ใช้แก่ผม)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หยัก",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เฉือนหรือควั่นให้เป็นรอยคอด + ผม"
+    },
+    {
+     "th": "ศกกันต์",
+     "translit_auto": "skkant",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัดจุก (ใช้กับพระราชา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศก",
+      "กันต์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผม + ตัด"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ระบบการคำนวณนับเวลาเรียงลำดับกันเป็นปี ๆ โดยถือเอาเหตุการณ์ใดเหตุการณ์หนึ่งเป็นจุดเริ่มต้น ดังในคำว่า รัตนโกสินทรศก ซึ่งถือเอาปีเริ่มสร้างกรุงรัตนโกสินทร์เป็นจุดเริ่มต้น, บางทีก็ใช้เป็นคำย่อของศักราช",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พุทธศก",
+     "rtgs": "phut-tha-sok",
+     "ipa": "/pʰut̚˦˥.tʰa˦˥.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พุทธศักราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พุทธ",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พุทธ"
+     ],
+     "lit": "the awakened one + hair",
+     "lit_th": "ผู้ตรัสรู้ + ระบบการคำนวณนับเวลาเรียงลำดับกันเป",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: ศก, the era and its years.",
+    "Declared root: ศก, the era and its years."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "คำเรียกปีหนึ่ง ๆ ของจุลศักราช เพื่อให้ทราบว่าเป็นปีที่ลงท้ายด้วย 1 2 ... หรือ 0 เช่น ถ้าลงท้ายด้วย 1 เรียกว่า เอกศก ลงท้ายด้วย 2 เรียกว่า โทศก ... ลงท้ายด้วย 0 เรียกว่า สัมฤทธิศก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "โทศก",
+     "rtgs": "tho-sok",
+     "ipa": "/tʰoː˧.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกปีจุลศักราชที่ลงท้ายด้วยเลข 2",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โท",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "two + hair",
+     "lit_th": "สอง + คำเรียกปีหนึ่ง ๆ ของจุลศักราช เพื่"
+    },
+    {
+     "th": "เอกศก",
+     "rtgs": "ek-ka-sok",
+     "ipa": "/ʔeːk̚˨˩.ka˨˩.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกปีจุลศักราชที่ลงท้ายด้วยเลข 1",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เอก",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "one + hair",
+     "lit_th": "หนึ่ง + คำเรียกปีหนึ่ง ๆ ของจุลศักราช เพื่"
+    },
+    {
+     "th": "ตรีศก",
+     "rtgs": "tri-sok",
+     "ipa": "/triː˧.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกปีจุลศักราชที่ลงท้ายด้วยเลข 3",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตรี",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตรี"
+     ],
+     "lit": "fish + hair",
+     "lit_th": "ปลา + คำเรียกปีหนึ่ง ๆ ของจุลศักราช เพื่",
+     "frame": "entity"
+    },
+    {
+     "th": "จัตวาศก",
+     "rtgs": "chat-ta-wa-sok",
+     "ipa": "/t͡ɕat̚˨˩.ta˨˩.waː˧.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกปีจุลศักราชที่ลงท้ายด้วยเลข 4",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จัตวา",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "สี่ + คำเรียกปีหนึ่ง ๆ ของจุลศักราช เพื่"
+    },
+    {
+     "th": "นพศก",
+     "rtgs": "nop-pha-sok",
+     "ipa": "/nop̚˦˥.pʰa˦˥.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกปีจุลศักราชที่ลงท้ายด้วยเลข 9",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นพ",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ นว + คำเรียกปีหนึ่ง ๆ ของจุลศักราช เพื่"
+    },
+    {
+     "th": "เบญจศก",
+     "rtgs": "ben-cha-sok",
+     "ipa": "/beːn˧.t͡ɕa˨˩.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกปีจุลศักราชที่ลงท้ายด้วยเลข 5",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เบญจ",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "ห้า + คำเรียกปีหนึ่ง ๆ ของจุลศักราช เพื่"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "A named year within the จุลศักราช cycle.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ปี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And loosely, a year.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "มะเส็งศก",
+     "rtgs": "ma-seng-sok",
+     "ipa": "/ma˦˥.seŋ˩˩˦.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีมะเส็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มะเส็ง",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 6 ของรอบปีนักษัตร มีงูเล + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "เถลิงศก",
+     "rtgs": "tha-loeng-sok",
+     "ipa": "/tʰa˨˩.lɤːŋ˩˩˦.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วันขึ้นจุลศักราชใหม่, วันขึ้นปีใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เถลิง",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ขึ้น + ปี"
+    },
+    {
+     "th": "จอศก",
+     "rtgs": "cho-sok",
+     "ipa": "/t͡ɕɔː˧.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีจอ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จอ",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 11 ของรอบปีนักษัตร มีหมา + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "เถาะศก",
+     "rtgs": "tho-sok",
+     "ipa": "/tʰɔʔ˨˩.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีเถาะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เถาะ",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "rabbit + hair",
+     "lit_th": "ชื่อปีที่ 4 ของรอบปีนักษัตร มีกระต + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "ชวดศก",
+     "rtgs": "chuat-sok",
+     "ipa": "/t͡ɕʰua̯t̚˥˩.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีชวด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชวด",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 1 ของรอบปีนักษัตร มีหนูเ + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "มะแมศก",
+     "rtgs": "ma-mae-sok",
+     "ipa": "/ma˦˥.mɛː˧.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีมะแม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มะแม",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 8 ของรอบปีนักษัตร มีแพะเ + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "ขาลศก",
+     "rtgs": "khan-sok",
+     "ipa": "/kʰaːn˩˩˦.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีขาล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาล",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 3 ของรอบปีนักษัตร มีเสือ + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "มะโรงศก",
+     "rtgs": "ma-rong-sok",
+     "ipa": "/ma˦˥.roːŋ˧.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีมะโรง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มะโรง",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 5 ของรอบปีนักษัตร มีงูให + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "กุนศก",
+     "rtgs": "kun-sok",
+     "ipa": "/kun˧.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีกุน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุน",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 12 ของรอบปีนักษัตร มีหมู + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "ฉลูศก",
+     "rtgs": "cha-lu-sok",
+     "ipa": "/t͡ɕʰa˨˩.luː˩˩˦.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีฉลู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฉลู",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 2 ของรอบปีนักษัตร มีวัวเ + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "ระกาศก",
+     "rtgs": "ra-ka-sok",
+     "ipa": "/ra˦˥.kaː˧.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีระกา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ระกา",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 10 ของรอบปีนักษัตร มีไก่ + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "วอกศก",
+     "rtgs": "wok-sok",
+     "ipa": "/wɔːk̚˥˩.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีวอก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วอก",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 9 ของรอบปีนักษัตร มีลิงเ + ปี",
+     "frame": "entity"
+    },
+    {
+     "th": "มะเมียศก",
+     "rtgs": "ma-mia-sok",
+     "ipa": "/ma˦˥.mia̯˧.sok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปีมะเมีย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มะเมีย",
+      "ศก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปีที่ 7 ของรอบปีนักษัตร มีม้าเ + ปี",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "อักษรย่อของ ศรีสะเกษ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of ศรีสะเกษ.",
+    "Declared root: an abbreviation of ศรีสะเกษ."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1 manuscript titles, 9 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['ปี', 'เวลา'].",
+ "compounds_unassigned": [
+  {
+   "th": "ศกละ",
+   "rtgs": "sa-ka-la",
+   "ipa": "/sa˨˩.ka˨˩.laʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่วน, ซีก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ศก",
+    "ละ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ละ"
+   ],
+   "lit": "hair + to leave",
+   "lit_th": "ผม + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากเขมร សក់ (สก̍, “ผม”) ยืมมาจากสันสกฤต शक (ศก); \"ศกะ\" หมายถึง ศากยวงศ์แห่งพระพุทธองค์ เพราะการบอกปีในสังคมอินเดียแต่ก่อน นิยมนับตามพระชนมายุของกษัตริย์",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

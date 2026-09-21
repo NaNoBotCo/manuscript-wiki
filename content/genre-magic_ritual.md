@@ -186,10 +186,17 @@ fences are more revealing than the methods.
   your nails on Wednesday and Monday. Bathe facing downstream, never up.
   Never step over amulets, tattooed cords, or weapons. Do not pass beneath a
   bridge, a house beam, or a fence rail, "so that the power of one's spells
-  will remain potent." And a wardrobe keyed to the week — creamy white on
-  Monday, purple with indigo on Tuesday, orange on Wednesday, green on
-  Thursday, storm-cloud grey on Friday for going to war, black on Saturday,
-  best of all.
+  will remain potent." And seven colours keyed to the week — red on Sunday,
+  creamy white on Monday, purple with indigo on Tuesday, orange-red on
+  Wednesday, yellow-green on Thursday, cloud-grey on Friday, black on Saturday.
+  Note what the verse says this wardrobe is FOR, because it is easy to misread
+  as everyday auspicious dress and it is not: *Sawatdirak* introduces the list
+  as **อนึ่งภูษาผ้าทรงณรงค์รบ — ให้มีครบเครื่องเสร็จทั้งเจ็ดสี**, the cloth worn
+  going into battle, with all seven colours ready. It is campaign dress, keyed
+  to the day you fight rather than the day you were born, and it is a different
+  list from the everyday สีประจำวัน that gives Tuesday pink and Saturday purple.
+  Both trace themselves to the มหาทักษา planetary colours; neither is the
+  other's later version. See [indigo](/a?s=entity:hom).
 
 ## Demonstrations, and a man who took a sword to another man's arm
 
@@ -348,3 +355,12 @@ p.27. Takedown and correction requests go to 530kings@proton.me.
   the weekday food prohibition, the 108-times consecration count, and the
   numeral standing in for a heart-formula. Anything that surfaces a named na or
   a named yant under a Nan or Lampang hand is a finding.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **Already legible to a machine** — The manuscripts with the most recognised Thai text — the leading edge of the whole point: making a living tradition readable to a model and not only to a scholar. [see the finding →](/findings#legibilitymachine-readable)
+- **Where the drawn tradition is thickest** — Manuscripts carrying the most diagram pages — the yantra, cosmological charts, and talismanic figures that are drawn, not written. [see the finding →](/findings#visualdiagram-rich)
+<!-- derived:end -->

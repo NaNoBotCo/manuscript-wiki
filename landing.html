@@ -141,6 +141,8 @@
   footer{border-top:1px solid var(--line);padding:40px 0 60px;text-align:center;
     color:var(--muted);font-size:15.5px}
   footer .free{font-family:var(--serif);font-size:19px;color:var(--ink)}
+  footer .fleet{margin:14px auto 0;max-width:62rem;font-size:13.5px;line-height:2}
+  footer .fleet a{margin:0 .3rem;white-space:nowrap}
   .sharefoot{margin:8px 0;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
   .sharefoot button{background:none;border:1px solid var(--line);border-radius:50%;width:34px;height:34px;
     font-size:15px;cursor:pointer;color:var(--ink);margin:0 2px;line-height:1;vertical-align:middle}
@@ -163,6 +165,68 @@
     font-size:14px;color:#5d5750}
   .geokey span{display:flex;align-items:center;gap:7px}
   .geokey i{width:14px;height:14px;border-radius:3px;display:inline-block}
+
+  /* --- the map-room strata (maproom.py) + grouped doors ------------------- */
+  .todaysec{padding:34px 0 44px;border-bottom:1px solid var(--line)}
+  .daysay{font-family:var(--serif);font-style:italic;font-size:19px;
+    color:#5a5344;margin:12px 0 0;max-width:46rem}
+  .stroll{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+  .stroll .door{background:var(--panel);border:1px solid var(--line);border-radius:999px;
+    padding:9px 18px;font-size:15.5px;color:var(--ink);min-height:44px;
+    display:inline-flex;align-items:center}
+  .stroll .door:hover{border-color:var(--gold);background:#fff;text-decoration:none}
+  .strollnote{font-size:14px;color:var(--muted);margin-top:14px}
+  .linkish{background:none;border:0;color:var(--crimson);cursor:pointer;font:inherit;
+    font-size:14px;padding:0;text-decoration:underline}
+  #wander{display:inline-block;padding:13px 26px;border-radius:999px;font-weight:600;
+    font-size:17px;border:1.5px solid var(--gold);background:none;color:var(--ink);
+    cursor:pointer;font-family:var(--sans)}
+  #wander:hover{background:#efe7d5}
+  .waygroup{margin-top:28px}
+  .wayhead{margin:0;font-weight:600}
+  .wayhead .th{font-family:var(--serif);font-size:21px;color:var(--ink)}
+  .wayhead .wayen{font-size:13px;font-weight:700;color:var(--muted);
+    letter-spacing:.1em;text-transform:uppercase}
+  .waygroup .ways{margin-top:12px}
+  .readsec{background:var(--panel);border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line)}
+  .reads .way{background:var(--bg)}
+  .reads .way.allreads{border-style:dashed}
+  .botsec{background:var(--panel);border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line)}
+  .botlede{max-width:44rem}
+  .meter{height:10px;background:#e7dfc9;border-radius:999px;overflow:hidden;
+    margin:18px 0 10px;max-width:560px}
+  .meter span{display:block;height:100%;border-radius:999px;
+    background:linear-gradient(90deg,var(--gold),var(--gold-soft))}
+  .botmeta{font-size:15px;color:var(--muted);max-width:44rem}
+  .gaps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:14px;margin-top:22px}
+  .gap{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px}
+  .gap .gaptop{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+  .gap .gapn{color:var(--gold);font-weight:700;font-size:14px;white-space:nowrap}
+  .gap p{font-size:14.5px;color:var(--muted);margin:8px 0 10px}
+  .gap a{font-weight:600;font-size:14.5px}
+  .constel{margin:26px 0 0}
+  .egograph{width:100%;height:auto;display:block}
+  .egograph .egoline{stroke:#cdbfa0;stroke-width:1}
+  .egograph text{font-family:var(--sans);fill:var(--ink);paint-order:stroke;
+    stroke:var(--bg);stroke-width:3px;stroke-linejoin:round}
+  .egograph .hubt{font-size:16px;font-weight:700}
+  .egograph .relt{font-size:11px;fill:var(--muted);font-weight:400}
+  .egograph .spoket{font-size:13px;font-weight:600}
+  .constel figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+  /* the squishy press — small, and stilled for anyone who asked for stillness */
+  @media(prefers-reduced-motion:no-preference){
+    .way,.stroll .door,.btn,#wander,.gap{transition:transform .15s ease,
+      box-shadow .15s ease,background .15s ease,border-color .15s ease}
+    .way:hover,.stroll .door:hover,.gap:hover{transform:translateY(-2px);
+      box-shadow:0 6px 16px rgba(38,48,42,.09)}
+    .btn:hover,#wander:hover{transform:translateY(-1px)}
+    .way:active,.stroll .door:active,.btn:active,#wander:active{
+      transform:translateY(1px) scale(.985);box-shadow:none}
+  }
 </style>
 </head>
 <body>
@@ -187,10 +251,15 @@
        holding an object, or a need. /need is door_i=1 in routes.py — the
        highest-priority door the registry declares — and it was reachable from
        nowhere on this page. It leads now. Browse keeps its place, one step in. -->
+  <!-- Amulet Essentials leads (Nan, 2026-09-02: "add to wichaa.net prominently"):
+       the catalogue of kinds is the door most visitors arrive wanting — they
+       hold a piece, or a photo of one. /need stays beside it. -->
   <div class="cta">
+    <a class="btn primary" href="/amulets/"><span lang="th">สารบบเครื่องราง</span> · Amulet Essentials →</a>
     <a class="btn primary" href="/need"><span lang="th">หาตามความต้องการ</span> · Find by need →</a>
     <a class="btn ghost" href="/browse">Enter the archive</a>
     <a class="btn ghost" href="/support">☕ Tam boon</a>
+    {{WANDER_PILL}}
   </div>
   <hr class="rule">
 </header>
@@ -210,6 +279,16 @@
   </div>
 </div>
 
+<!-- The site knowing what day it is — วันพระ read in the reader's own browser
+     from the published table, and eight date-seeded doors the whole world
+     shares until midnight. maproom.py's strata; the day is client-side because
+     a static page is read for days and a baked "today" is wrong by breakfast. -->
+<section class="todaysec">
+  <div class="wrap">
+    {{TODAY}}
+  </div>
+</section>
+
 <section>
   <div class="wrap">
     <div class="eyebrow">The corpus</div>
@@ -220,10 +299,27 @@
       are all the same human craft of turning knowledge to effect.</p>
     <div class="ways">
       <a class="way" href="/browse"><b>Lanna manuscripts</b><span>{{MANUSCRIPTS}} palm-leaf folios of divination, astrology &amp; magic from the Thai north</span></a>
+      <a class="way" href="/amulets/"><b>Amulet Essentials</b><span>every kind of amulet in Southeast Asia as data — what it is, what lives in it, how to tell it from its neighbour, with pictures; photograph one and see what it resembles</span></a>
       <a class="way" href="/market"><b>The amulet market</b><span>{{MARKET}}+ sacred objects as they trade today — the same wichaa, still living</span></a>
       <a class="way" href="/expedite"><b>St. Expedite</b><span>a global Catholic-and-folk saint-cult of urgent causes — 192 shrines mapped</span></a>
       <a class="way" href="/wats"><b>Wats of the Lanna north</b><span>{{WATS}} temples across five provinces — the tradition standing up in the landscape, {{WATS_HERITAGE}} heritage-registered</span></a>
     </div>
+  </div>
+</section>
+
+<!-- The doors, lifted from the bottom of the page. They were the last thing
+     before the footer, 6,000px down — the complete index of everything worth
+     lingering on, placed where only a finisher of essays would ever meet it.
+     Grouped by what the reader came to do; the list itself is still
+     routes.doors(), and check() still fails the build if {{DOORS}} goes. -->
+<section id="ways">
+  <div class="wrap">
+    <div class="eyebrow">Ways in</div>
+    <h2>Wander wherever it leads you</h2>
+    {{DOORS}}
+    <p class="machines">Built to be read by people <em>and</em> by machines — faithfully.
+      An AI or agent can start at <code>/llms.txt</code> or the <a href="/api/index.json">API index</a>;
+      the whole corpus is open under CC-BY.</p>
   </div>
 </section>
 
@@ -275,6 +371,19 @@
   </div>
 </section>
 
+<!-- The essays, by name. "Articles" was one word in a wall of doors; for the
+     only long-form human writing on the site, that is a burial. Three named,
+     the rest counted — every title and number from api/articles.json. -->
+<section class="readsec">
+  <div class="wrap">
+    <div class="eyebrow">Deep reads</div>
+    <h2>The tradition, explained by hand</h2>
+    <div class="ways reads">
+      {{READS}}
+    </div>
+  </div>
+</section>
+
 <section class="testimony">
   <div class="wrap">
     <div class="eyebrow">The work</div>
@@ -305,6 +414,8 @@
   </div>
 </section>
 
+{{BOTS_SEC}}
+
 <!-- The map earns a place here rather than in the widget drawer: it is the one
      picture that states the whole thesis of the site — the tradition was
      written in one small place and is traded across a whole country. Inline
@@ -325,18 +436,8 @@
   </div>
 </section>
 
-<section>
-  <div class="wrap">
-    <div class="eyebrow">Ways in</div>
-    <h2>Wander wherever it leads you</h2>
-    <div class="ways">
-      {{DOORS}}
-    </div>
-    <p class="machines">Built to be read by people <em>and</em> by machines — faithfully.
-      An AI or agent can start at <code>/llms.txt</code> or the <a href="/api/index.json">API index</a>;
-      the whole corpus is open under CC-BY.</p>
-  </div>
-</section>
+{{GAPS_SEC}}
+{{CONSTEL_SEC}}
 
 <footer>
   <div class="wrap">
@@ -351,6 +452,7 @@
     <p>Scholarship &amp; metadata under <a href="/LICENSE">CC-BY 4.0</a>. High-resolution
       images remain with the libraries that hold them.<br>
       Built in Chiang Mai by NaN · <a href="mailto:530kings@proton.me">530kings@proton.me</a></p>
+    {{FLEET}}
   </div>
 </footer>
 
@@ -360,5 +462,6 @@ var k=b.getAttribute('data-sh'),u=encodeURIComponent(location.href),t=encodeURIC
 if(k==='copy'){if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(function(){var o=b.textContent;b.textContent='✓';setTimeout(function(){b.textContent=o;},1500);});}return;}
 var m={fb:'https://www.facebook.com/sharer/sharer.php?u='+u,line:'https://social-plugins.line.me/lineit/share?url='+u,tg:'https://t.me/share/url?url='+u+'&text='+t};
 if(m[k])window.open(m[k],'_blank','noopener,width=600,height=520');});})();</script>
+{{LANDING_JS}}
 </body>
 </html>

@@ -1,0 +1,9 @@
+{
+ "head": "chai-3",
+ "rule": "ชาย is two unrelated words: a man (1) and an edge (2-3). The man takes the kinship and status terms (ลูกชาย, น้องชาย, พี่ชาย, เด็กชาย, เจ้าชาย, องค์ชาย) and สมชาย, being manly. The edge divides by scale, which is the only fine call here: sense 2 is the edge of an OBJECT and takes ชายคา, the eaves, and ชายพก, the tuck of a wrapped cloth; sense 3 is the edge of a TERRITORY and takes ชายหาด, ชายฝั่ง and ชายเฟือย, the weedy margin of water, beside ชายทะเล and ชายแดน already there. Sense 5 (คล้อย, บ่าย) stays empty — the declining sun is a verb here, and no compound in this list uses it.",
+ "senses": {
+  "1": ["น้องชาย","ลูกชาย","สมชาย","องค์ชาย","เจ้าชาย","เด็กชาย","พี่ชาย"],
+  "2": ["ชายคา","ชายพก"],
+  "3": ["ชายฝั่ง","ชายหาด","ชายเฟือย"]
+ }
+}

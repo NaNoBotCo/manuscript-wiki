@@ -1,0 +1,28 @@
+{
+ "head": "lok",
+ "rule": "โลก's six senses fall into four that take work. Sense 2, the multitude of people, takes every compound whose โลก is really EVERYONE — deceiving the world, going against the world, the mass of creatures. Sense 3, a division of the cosmos, takes the Buddhist realms and counts of them: the three worlds, Yama's world, the heaven-world. Sense 4, the whole earth with its countries and peoples, takes the modern political and global vocabulary — world war, world heritage, lord of the world — and the world one departs at death. Sense 5, the planet as an object, takes the geographer's and geologist's terms: hemisphere, globe, crust. Sense 1, the bare ground, keeps only โลกธาตุ, where a source put it.",
+ "senses": {
+  "2": [
+   "ลวงโลก",
+   "ขวางโลก",
+   "สัตวโลก"
+  ],
+  "3": [
+   "สามโลก",
+   "ยมโลก",
+   "สวรรคโลก"
+  ],
+  "4": [
+   "เจ้าโลก",
+   "ลาโลก",
+   "สงครามโลก",
+   "ล้างโลก",
+   "มรดกโลก"
+  ],
+  "5": [
+   "ซีกโลก",
+   "ลูกโลก",
+   "เปลือกโลก"
+  ]
+ }
+}

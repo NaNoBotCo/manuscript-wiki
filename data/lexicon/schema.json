@@ -1,0 +1,639 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://wichaa.net/api/lexicon/schema.json",
+  "title": "wichaa lexicon entry",
+  "description": "One headword and its senses. The sense is the unit; compounds hang off the sense that motivates them, not off the word.",
+  "type": "object",
+  "required": [
+    "id",
+    "th",
+    "senses",
+    "conf"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "conf": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "standard",
+        "probable",
+        "traditional",
+        "disputed",
+        "unverified"
+      ],
+      "description": "verified = checked in a named reference; standard = uncontroversial common knowledge; probable = believed, unchecked; traditional = what the tradition says, which is a fact about the tradition not about etymology; disputed = sources disagree; unverified = written down to be checked."
+    },
+    "src": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Source ids: RID (ราชบัณฑิตยสถาน), WIKT, CUR (curated/editorial), SEALANG, HAAS, plus corpus ids."
+    },
+    "gloss": {
+      "type": "object",
+      "required": [
+        "en"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "en": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "English equivalents, ordered nearest-first. Several short equivalents beat one long paraphrase."
+        },
+        "th": {
+          "type": "string"
+        },
+        "zh": {
+          "type": "string"
+        },
+        "src": {
+          "$ref": "#/definitions/src"
+        },
+        "conf": {
+          "$ref": "#/definitions/conf"
+        }
+      }
+    },
+    "example": {
+      "type": "object",
+      "required": [
+        "th",
+        "en"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "th": {
+          "type": "string"
+        },
+        "rtgs": {
+          "type": "string"
+        },
+        "ipa": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        },
+        "src": {
+          "$ref": "#/definitions/src"
+        },
+        "conf": {
+          "$ref": "#/definitions/conf"
+        }
+      }
+    },
+    "edge": {
+      "type": "object",
+      "required": [
+        "rel",
+        "to"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "rel": {
+          "type": "string",
+          "enum": [
+            "HAS_SENSE",
+            "COMPOUND_OF",
+            "IN_DOMAIN",
+            "HAS_REGISTER",
+            "FROM_ETYMON",
+            "SOUND_KEY",
+            "EXTENDS",
+            "HEADS",
+            "CALQUES",
+            "COGNATE_WITH",
+            "CLASSIFIED_BY",
+            "NEAR_SYNONYM",
+            "ANTONYM",
+            "HYPERNYM",
+            "HYPONYM",
+            "CONFUSABLE_WITH",
+            "COLLOCATES",
+            "ATTESTED_IN",
+            "SEE_ALSO",
+            "FLIPS_WITH"
+          ],
+          "description": "Relation type. The first six are structural and project to the atlas; the rest are asserted and must carry conf."
+        },
+        "to": {
+          "type": "string",
+          "description": "Target node id. May not exist yet — a dangling edge is a work item, not an error."
+        },
+        "label": {
+          "type": "string",
+          "description": "Human label if the target has no entry yet."
+        },
+        "via": {
+          "type": "string",
+          "enum": [
+            "metaphor",
+            "metonymy",
+            "specialisation",
+            "generalisation",
+            "euphemism",
+            "calque"
+          ]
+        },
+        "why": {
+          "type": "string",
+          "enum": [
+            "homophone",
+            "near-key",
+            "tone-only",
+            "spelling",
+            "sense"
+          ]
+        },
+        "distinction": {
+          "type": "string",
+          "description": "For NEAR_SYNONYM: what actually separates them. A synonym list without this is noise."
+        },
+        "note": {
+          "type": "string"
+        },
+        "conf": {
+          "$ref": "#/definitions/conf"
+        },
+        "src": {
+          "$ref": "#/definitions/src"
+        }
+      }
+    },
+    "compound": {
+      "type": "object",
+      "required": [
+        "th",
+        "gloss"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "th": {
+          "type": "string"
+        },
+        "rtgs": {
+          "type": "string"
+        },
+        "ipa": {
+          "type": "string"
+        },
+        "gloss": {
+          "$ref": "#/definitions/gloss"
+        },
+        "parts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Ordered constituents, Thai. Emits COMPOUND_OF edges."
+        },
+        "lit": {
+          "type": "string",
+          "description": "Literal reading — the motivation, which is the whole point of listing it here."
+        },
+        "lit_th": {
+          "type": "string"
+        },
+        "register": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": "string"
+        },
+        "note_th": {
+          "type": "string"
+        },
+        "is_phrase": {
+          "type": "boolean"
+        },
+        "is_name": {
+          "type": "boolean"
+        },
+        "is_classifier_use": {
+          "type": "boolean"
+        },
+        "edges": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/edge"
+          }
+        },
+        "conf": {
+          "$ref": "#/definitions/conf"
+        },
+        "src": {
+          "$ref": "#/definitions/src"
+        },
+        "needs_check": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "translit_auto": {
+          "type": "string",
+          "description": "Character-walk transliteration; not RTGS. See thai_translit.py."
+        },
+        "paiboon": {
+          "type": "string"
+        },
+        "use": {
+          "type": "string",
+          "enum": [
+            "toponym",
+            "biological",
+            "calendrical",
+            "personal-name",
+            "nominalisation",
+            "synonym-pointer",
+            "false-split",
+            "spelling-variant"
+          ],
+          "description": "What the compound DOES, read off the form of its RID definition. A place name is not a sense of the head that needs arguing about; it is the head used to name a place. `false-split` means the word is not a compound of this head at all: it is a borrowing whose first syllables happen to spell a Thai word. เมตตา is Pali mettā, not เมต + ตา 'eye'; อายุ is Sanskrit āyu, not อา + ยุ. The remainder test that built the compound set cannot see this, and the etymology can. `spelling-variant` means the gloss reads only \u0e23\u0e39\u0e1b\u0e2a\u0e30\u0e01\u0e14\u0e1c\u0e34\u0e14\u0e02\u0e2d\u0e07 X: the entry points at another spelling and carries no sense of its own. The five tags are one list in lexicon_tags.py; this enum has to match it."
+        },
+        "pattern": {
+          "type": "string",
+          "description": "Part-of-speech shape of the compound, from its constituents — N+N, N+ADJ, V+N. Thai builds most of its vocabulary this way, so the shape is worth counting."
+        },
+        "head": {
+          "type": "integer",
+          "description": "Index into `parts` of the element this entry heads. Thai compounds are overwhelmingly head-initial; where this is 1 the head word is the modifier, which is itself informative."
+        },
+        "unfiled_from_sense": {
+          "type": "integer",
+          "description": "The sense this row was pulled back OUT of. A compound filed under a sense and later found not to be a compound of the head at all keeps the number it used to sit under, so the retraction is on the record rather than silent."
+        },
+        "cross_listed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Other heads this same compound files under. น้ำตา belongs to both น้ำ and ตา and should say so rather than appearing twice in silence."
+        },
+        "transparent": {
+          "type": "boolean",
+          "description": "Whether the compound's meaning follows from its parts. ตาข่าย does once you see it; ร้อยแก้ว does not. Absent means undecided."
+        },
+        "frame": {
+          "type": "string",
+          "enum": [
+            "trait",
+            "state",
+            "act",
+            "entity",
+            "quality"
+          ],
+          "description": "What the compound PREDICATES, which in Thai depends on constituent order and not on which sense of the head is used. With a body-or-mind part as head: part-first is a standing property of the person (ใจดี kind-hearted), part-second is something that befalls or is done to it (ดีใจ glad, แข็งใจ to steel oneself). ใจดี and ดีใจ use the same sense of ใจ, so sense-filing cannot distinguish them and this field must."
+        },
+        "flips_with": {
+          "type": "string",
+          "description": "The compound made of the same two morphemes in the opposite order. ใจดี flips with ดีใจ. Where this exists the pair is the clearest possible demonstration that order, not sense, carries the meaning."
+        }
+      }
+    },
+    "sense": {
+      "type": "object",
+      "required": [
+        "n",
+        "gloss",
+        "conf"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "n": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Sense number. Order runs core -> extended -> figurative; it is an argument about how the meaning moved, so it is never alphabetical."
+        },
+        "gloss": {
+          "$ref": "#/definitions/gloss"
+        },
+        "def": {
+          "type": "string",
+          "description": "Fuller English definition where the gloss list is not enough."
+        },
+        "def_th": {
+          "type": "string"
+        },
+        "pos": {
+          "type": "string"
+        },
+        "pos_th": {
+          "type": "string"
+        },
+        "register": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "extends": {
+          "type": "integer",
+          "description": "Sense number this one grew out of. Absent = a core sense."
+        },
+        "via": {
+          "type": "string",
+          "enum": [
+            "metaphor",
+            "metonymy",
+            "specialisation",
+            "generalisation",
+            "euphemism",
+            "calque"
+          ]
+        },
+        "via_note": {
+          "type": "string",
+          "description": "Why the jump happened. This sentence is what a reader remembers."
+        },
+        "via_note_th": {
+          "type": "string"
+        },
+        "via_conf": {
+          "$ref": "#/definitions/conf"
+        },
+        "classifier": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "compounds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/compound"
+          }
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/example"
+          }
+        },
+        "collocations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cultural": {
+          "type": "string",
+          "description": "What a reader must know beyond the gloss to use or recognise it."
+        },
+        "cultural_th": {
+          "type": "string"
+        },
+        "usage": {
+          "type": "string",
+          "description": "Pragmatics — when NOT to say it."
+        },
+        "usage_th": {
+          "type": "string"
+        },
+        "period": {
+          "type": "string"
+        },
+        "edges": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/edge"
+          }
+        },
+        "conf": {
+          "$ref": "#/definitions/conf"
+        },
+        "src": {
+          "$ref": "#/definitions/src"
+        },
+        "needs_check": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "order_conf": {
+          "$ref": "#/definitions/conf",
+          "description": "Confidence in the sense ORDER specifically. Auto-ingested entries keep the source's order, which is not an argument about semantic development, so this is 'unverified' until a human ranks them."
+        }
+      }
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^w:[a-z0-9~-]+$"
+    },
+    "th": {
+      "type": "string"
+    },
+    "rtgs": {
+      "type": "string"
+    },
+    "ipa": {
+      "type": "string"
+    },
+    "tones": {
+      "type": "string",
+      "description": "Per-syllable tone, spelled out — learners need the word, not a diacritic."
+    },
+    "syllables": {
+      "type": "integer"
+    },
+    "stratum": {
+      "type": "string",
+      "enum": [
+        "tai",
+        "pali",
+        "sanskrit",
+        "khmer",
+        "chinese",
+        "mon",
+        "malay",
+        "english",
+        "portuguese",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "core_image": {
+      "type": "string",
+      "description": "The one idea every sense is a variation on. This is the field that lets a reader guess an unmet compound."
+    },
+    "core_image_th": {
+      "type": "string"
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "spelling_note": {
+      "type": "string"
+    },
+    "loose_key": {
+      "type": "string",
+      "description": "searchcore.loose() key, so confusables are found by the same machinery the site already searches with."
+    },
+    "freq": {
+      "type": "string",
+      "enum": [
+        "core",
+        "common",
+        "uncommon",
+        "rare"
+      ]
+    },
+    "lanna": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "The Northern Thai / คำเมือง reflex. Present because this is wichaa's dictionary, not a generic Thai one.",
+      "properties": {
+        "th": {
+          "type": "string"
+        },
+        "tham": {
+          "type": "string"
+        },
+        "rtgs": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        },
+        "conf": {
+          "$ref": "#/definitions/conf"
+        },
+        "src": {
+          "$ref": "#/definitions/src"
+        }
+      }
+    },
+    "etymology": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "summary_th": {
+          "type": "string"
+        },
+        "chain": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Ordered etymon ids, oldest first."
+        },
+        "root": {
+          "type": "string",
+          "description": "Indic root id where one applies — an attribute, never the spine."
+        },
+        "conf": {
+          "$ref": "#/definitions/conf"
+        },
+        "src": {
+          "$ref": "#/definitions/src"
+        }
+      }
+    },
+    "senses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/sense"
+      },
+      "minItems": 1
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/edge"
+      },
+      "description": "Word-level edges. Sense-level ones live on the sense."
+    },
+    "see_also": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conf": {
+      "$ref": "#/definitions/conf"
+    },
+    "src": {
+      "$ref": "#/definitions/src"
+    },
+    "needs_check": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "editorial": {
+      "type": "string",
+      "description": "Note to the next editor. Ships in the data, not on the page."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "listed",
+        "proposed",
+        "mapped",
+        "curated"
+      ],
+      "description": "listed = senses taken from a source, in the source's order, with compounds not yet filed under a sense and no EXTENDS chain. mapped = a human has ordered the senses as an argument about how the meaning moved and filed each compound under the sense that motivates it. The difference is the whole editorial job, so it is recorded rather than implied."
+    },
+    "compounds_unassigned": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/compound"
+      },
+      "description": "Attested compounds of this head not yet filed under a sense. Draft state only — the work queue, made visible instead of being silently attached to sense 1."
+    },
+    "translit_auto": {
+      "type": "string",
+      "description": "Deterministic character-walk transliteration (thai_translit.py). Supplies the URL slug before a human writes `rtgs`. NOT RTGS and never to be displayed as such."
+    },
+    "paiboon": {
+      "type": "string",
+      "description": "Paiboon transcription — marks tone, which RTGS does not. Kept alongside because a learner needs the tone and RTGS will not give it."
+    },
+    "syllable_respelling": {
+      "type": "string",
+      "description": "Thai respelling with syllable breaks (พด-จะ-นา-นุ-กฺรม), from Wiktionary. The honest syllable count."
+    },
+    "bridge_en": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Word-level English from the Wiktionary bridge. It describes the HEADWORD, not any one sense, and must never be printed as a sense gloss: the ingest copied it onto all 22 senses of ออก, so the 'go out' sense and the 'sea eagle' sense both claimed 'tear, out, issue'. Kept once, at the word, and used only as a fallback when composing a compound's literal reading."
+    }
+  }
+}

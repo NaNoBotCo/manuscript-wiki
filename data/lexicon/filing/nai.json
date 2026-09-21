@@ -1,0 +1,10 @@
+{
+ "head": "nai",
+ "rule": "นาย is the one in charge, and its senses grade by WHAT he is in charge of. Sense 2 is mastery in the plain sense — over a household, a purse, a workforce — and takes นายหลวง, นายเงิน, นายทุน, เจ้านาย and คุณนาย. Sense 3, head of a particular line of business, is the largest and follows its occupants นายตรวจ, นายเรือ, นายทะเบียน: นายท่า, นายอำเภอ, นายอากร, นายประกัน, นายเวร, นายธง, นายหน้า, นายคลังสินค้า, นายประเพณี, นายโรง. Sense 4, ผู้ควบคุม, was empty and is narrower than sense 3 — not the head of a trade but the man with his hands on the thing: นายท้าย at the tiller, นายงาน over the work. Sense 9, used to name a man, was also empty and takes นายแบบ, which exists only because นางแบบ does.",
+ "senses": {
+  "2": ["คุณนาย","นายทุน","นายหลวง","นายเงิน","เจ้านาย"],
+  "3": ["นายคลังสินค้า","นายท่า","นายธง","นายประกัน","นายประเพณี","นายหน้า","นายอากร","นายอำเภอ","นายเวร","นายโรง"],
+  "4": ["นายงาน","นายท้าย"],
+  "9": ["นายแบบ"]
+ }
+}

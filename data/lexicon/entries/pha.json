@@ -1,0 +1,722 @@
+{
+ "id": "w:pha",
+ "th": "ผ้า",
+ "status": "proposed",
+ "rtgs": "pha",
+ "paiboon": "pâa",
+ "ipa": "/pʰaː˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "cloth",
+     "material"
+    ],
+    "th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม ขนสัตว์ โดยวิธีทอหรืออัดให้เป็นผืน, มักเรียกตามลักษณะของสิ่งที่ทำหรือตามลักษณะที่ใช้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ผ้าอ้อม",
+     "rtgs": "pha-om",
+     "ipa": "/pʰaː˥˩.ʔɔːm˥˩/",
+     "gloss": {
+      "en": [
+       "nappy"
+      ],
+      "th": "ท่อนผ้าสำหรับปูให้เด็กนอนในเบาะ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "อ้อม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + โอบรอบ"
+    },
+    {
+     "th": "ผ้าขนสัตว์",
+     "translit_auto": "phakhnsato",
+     "ipa": "[pʰäː˥˩.kʰõn˩˥.sät̚˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าที่ทอจากขนของสัตว์บางชนิด เช่น แกะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "ขนสัตว์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "cloth + fur",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + ขนหนาที่ได้จากสัตว์บางชนิด เช่น แก",
+     "frame": "entity"
+    },
+    {
+     "th": "ผ้านุ่ง",
+     "rtgs": "pha-nung",
+     "ipa": "/pʰaː˥˩.nuŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าสำหรับนุ่งชนิดหนึ่ง มีลักษณะเป็นสี่เหลี่ยมผืนผ้า เวลานุ่งม้วนให้เป็นชายกระเบนหรือหางกระเบนแล้วสอดไปใต้หว่างขา ดึงขึ้นไปเหน็บขอบผ้าด้านหลังระดับบั้นเอวตอนที่เรียกว่า กระเบนเหน็บ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "นุ่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + ใช้ผ้าปกปิดกายท่อนล่าง"
+    },
+    {
+     "th": "ผ้าถุง",
+     "rtgs": "pha-thung",
+     "ipa": "/pʰaː˥˩.tʰuŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องนุ่งของผู้หญิง ซึ่งใช้ผืนผ้าเย็บริมด้านข้างให้ติดกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "ถุง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "cloth + bag",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + เครื่องใช้สำหรับใส่สิ่งของ ทำด้วยผ",
+     "frame": "entity"
+    },
+    {
+     "th": "ผ้าเหลือง",
+     "rtgs": "pha-lueang",
+     "ipa": "/pʰaː˥˩.lɯa̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จีวร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "เหลือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "frame": "quality"
+    },
+    {
+     "th": "ผ้าสรง",
+     "translit_auto": "phasrng",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าอาบน้ำ (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "สรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + อาบน้ำ"
+    },
+    {
+     "th": "แก้ผ้า",
+     "rtgs": "kae-pha",
+     "ipa": "/kɛː˥˩.pʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาผ้าที่นุ่งอยู่ออกจากตัว, เปลือยกายไม่นุ่งผ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ผ้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แก้"
+     ],
+     "lit": "cowrie shell used to burnish cloth + cloth",
+     "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม",
+     "frame": "entity"
+    },
+    {
+     "th": "ผ้าทรง",
+     "translit_auto": "phathrng",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสื้อผ้าเครื่องนุ่งห่ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "ทรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทรง"
+     ],
+     "lit": "cloth + form",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + รูปร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "เนื้อผ้า",
+     "rtgs": "nuea-pha",
+     "ipa": "/nɯa̯˦˥.pʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "texture"
+      ],
+      "th": "ความเป็นจริง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เนื้อ",
+      "ผ้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เนื้อ"
+     ],
+     "lit": "flesh + cloth",
+     "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม",
+     "frame": "entity"
+    },
+    {
+     "th": "ผ้าแดง",
+     "rtgs": "pha-daeng",
+     "ipa": "/pʰaː˥˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าทอด้วยด้ายย้อมสีแดงเลือดนก มักใช้ทำผ้านุ่งโจงกระเบนหรือผ้าเช็ดปากสำหรับคนกินหมากเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "cloth + red",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ผ้าโยง",
+     "rtgs": "pha-yong",
+     "ipa": "/pʰaː˥˩.joːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แถบผ้าที่โยงจากปากโกศหรือหีบศพของสามัญชน ใช้สำหรับคลี่ทอดไปยังพระสงฆ์เมื่อทอดผ้าบังสุกุล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "โยง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + ผูกให้ต่อเนื่องกัน"
+    },
+    {
+     "th": "ผ้าห่ม",
+     "rtgs": "pha-hom",
+     "ipa": "/pʰaː˥˩.hom˨˩/",
+     "gloss": {
+      "en": [
+       "cover",
+       "blanket"
+      ],
+      "th": "ผ้าที่ใช้คลุมห่มตัวเวลานอน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "ห่ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "cloth + fold",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + ขย่ม"
+    },
+    {
+     "th": "ผ้าแถบ",
+     "rtgs": "pha-thaep",
+     "ipa": "/pʰaː˥˩.tʰɛːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าผืนยาว ๆ แคบ ๆ ใช้ห่มคาดหน้าอกต่างเสื้อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "แถบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "cloth + area",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + สิ่งที่แบนยาว",
+     "frame": "entity"
+    },
+    {
+     "th": "ผ้าเกี้ยว",
+     "translit_auto": "phakeiyo",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าคาดพุงสำหรับขุนนาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "เกี้ยว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + เครื่องประดับลักษณะเป็นวงคล้ายพวงม",
+     "frame": "entity"
+    },
+    {
+     "th": "ผ้านวม",
+     "rtgs": "pha-nuam",
+     "ipa": "/pʰaː˥˩.nua̯m˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าห่มที่มีของอ่อนนุ่มเช่นสำลีอยู่ข้างในเพื่อให้ความอบอุ่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "นวม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + สิ่งที่มีของอ่อนนุ่มอยู่ข้างใน เพื",
+     "frame": "entity"
+    },
+    {
+     "th": "ผ้าแก้ว",
+     "translit_auto": "phakaeo",
+     "ipa": "[pʰäː˥˩.kɛːw˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าบางใสอย่างแก้ว เนื้อแข็ง ใช้ทำเครื่องแต่งกายหรือดอกไม้เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "แก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "cloth + glass",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
+    },
+    {
+     "th": "ผ้าผ่อน",
+     "rtgs": "pha-phon",
+     "ipa": "/pʰaː˥˩.pʰɔn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าทั่ว ๆ ไป, ผ้านุ่งผ้าห่ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "ผ่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + ทำให้หย่อนหรือคลายความตึง"
+    },
+    {
+     "th": "ผ้าอนามัย",
+     "rtgs": "pha-a-na-mai",
+     "ipa": "/pʰaː˥˩.ʔa˨˩.naː˧.maj˧/",
+     "gloss": {
+      "en": [
+       "sanitary napkin"
+      ],
+      "th": "ผ้าสำหรับซับระดู",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "อนามัย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + ความไม่มีโรค",
+     "frame": "entity"
+    },
+    {
+     "th": "ผ้าดิบ",
+     "rtgs": "pha-dip",
+     "ipa": "/pʰaː˥˩.dip̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าที่ทอด้วยด้ายที่ยังไม่ได้ฟอก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "ดิบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "cloth + animal",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + ยังไม่สุก",
+     "frame": "quality"
+    },
+    {
+     "th": "ผ้าใบ",
+     "rtgs": "pha-bai",
+     "ipa": "/pʰaː˥˩.baj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าชนิดหนึ่ง เนื้อหนา ทนทาน ใช้ทำใบเรือ กระเป๋า รองเท้า เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "ใบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใบ"
+     ],
+     "lit": "cloth + leaf",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต",
+     "frame": "entity"
+    },
+    {
+     "th": "เสื้อผ้า",
+     "rtgs": "suea-pha",
+     "ipa": "/sɯa̯˥˩.pʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "cloth",
+       "clothes",
+       "habit"
+      ],
+      "th": "เครื่องนุ่งห่ม, เครื่องแต่งตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เสื้อ",
+      "ผ้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "shirt + cloth",
+     "lit_th": "เครื่องสวมกายท่อนบนทำด้วยผ้าเป็นต้ + สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม",
+     "frame": "entity"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 34 manuscript titles, 538 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits —.",
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *pʰaːꟲ¹, จากจีนเก่า 布 (OC *paːs); ร่วมเชื้อสายกับคำเมือง ᨹ᩶ᩣ (ผ้า), ลาว ຜ້າ (ผ้า), ไทลื้อ ᦕᦱᧉ (ผ้า), ไทดำ ꪠ꫁ꪱ (ฝ้า), ไทใหญ่ ၽႃႈ (ผ้า), ไทใต้คง ᥚᥣᥲ (ผ้า), คำตี้ ၸ︀ႃႛ, อ่ายตน ၸ︀ႃ (ผา), พ่าเก ၸ︀ႃ (ผา), อาหม 𑜇𑜠 (ผะ), 𑜇𑜡 (ผา), 𑜇𑜨𑜠 (ผอ̂ะ), หรือ 𑜇𑜨𑜡 (ผอ̂า), ปักษ์ใต้ พ้า, จ้วงแบบจั่วเจียง paj, จ้วง baq",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨹ᩶ᩣ",
+  "th": "ผ้า",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

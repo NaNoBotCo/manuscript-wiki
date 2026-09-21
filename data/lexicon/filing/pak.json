@@ -1,0 +1,9 @@
+{
+ "head": "pak",
+ "rule": "ปาก splits between the organ and the speaking, and sense 7 (พูด) takes the larger share — seventeen of twenty-seven. The test is the gloss, not the literal act: ปิดปาก, หุบปาก and เย็บปาก all describe closing a mouth but are glossed ไม่พูด / หยุดพูด, so they are about silence and file with speech. So do the characterisations of how a person talks (ปากหวาน, ปากจัด, ปากหมา, ปากโป้ง, ปากปลาร้า, ปากเสีย, ปากเปียก, ฝีปาก), the slips (หลุดปาก, พลั้งปาก), the register (ภาษาปาก) and the testimony (ปากคำ). Sense 1 keeps the mouth as a physical organ doing physical things — kissing, whistling, clicking, pursing, tasting — and it keeps ปากกา and ปากไก่, since sense 1 covers animals too and a nib is named for a bird's beak. Sense 3, the rim of an opening, takes only ปากเหว, the mouth of the chasm.",
+ "senses": {
+  "1": ["กระเดาะปาก","จูบปาก","ถูกปาก","บุ้ยปาก","ปากกา","ปากไก่","ผิวปาก","ลาภปาก","เป่าปาก"],
+  "3": ["ปากเหว"],
+  "7": ["น้ำท่วมปาก","ปากคำ","ปากจัด","ปากปลาร้า","ปากหมา","ปากหวาน","ปากเปียก","ปากเสีย","ปากโป้ง","ปิดปาก","ภาษาปาก","พลั้งปาก","ฝีปาก","รับปาก","หลุดปาก","หุบปาก","เย็บปาก"]
+ }
+}

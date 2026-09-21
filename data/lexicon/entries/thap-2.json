@@ -1,0 +1,703 @@
+{
+ "id": "w:thap-2",
+ "th": "ทัพ",
+ "status": "mapped",
+ "rtgs": "thap",
+ "paiboon": "táp",
+ "ipa": "/tʰap̚˦˥/",
+ "syllable_respelling": "ทับ-พะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "army",
+     "troops"
+    ],
+    "th": "กองทหาร",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ทัพ 'army'.",
+    "Declared root: ทัพ 'army'.",
+    "Declared root: ทัพ 'army'.",
+    "Declared root: ทัพ 'army'."
+   ],
+   "compounds": [
+    {
+     "th": "ทัพอากาศ",
+     "rtgs": "thap-a-kat",
+     "ipa": "/tʰap̚˦˥.ʔaː˧.kaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กองทหารที่ป้องกันประเทศภาคน่านฟ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัพ",
+      "อากาศ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.32, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "อากาศ"
+     ],
+     "lit": "army + air",
+     "lit_th": "กองทหาร + แก๊สผสมที่ประกอบด้วยไนโตรเจนและออก",
+     "frame": "entity"
+    },
+    {
+     "th": "กรีธาทัพ",
+     "rtgs": "kri-tha-thap",
+     "ipa": "/kriː˧.tʰaː˧.tʰap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยกกระบวนทัพ, เดินกองทัพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กรีธา",
+      "ทัพ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.28, next 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เคลื่อน + กองทหาร"
+    },
+    {
+     "th": "ทัพฟ้า",
+     "rtgs": "thap-fa",
+     "ipa": "/tʰap̚˦˥.faː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กองทหารที่ป้องกันประเทศภาคน่านฟ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัพ",
+      "ฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.32, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "army + sky",
+     "frame": "entity"
+    },
+    {
+     "th": "ทัพบก",
+     "rtgs": "thap-bok",
+     "ipa": "/tʰap̚˦˥.bok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กองทหารที่ป้องกันประเทศภาคพื้นดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัพ",
+      "บก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.32, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "กองทหาร + ส่วนของผิวพื้นโลกที่ไม่ใช่ทะเลหรือ",
+     "frame": "entity"
+    },
+    {
+     "th": "ทัพเรือ",
+     "rtgs": "thap-ruea",
+     "ipa": "/tʰap̚˦˥.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กองทหารที่ป้องกันประเทศภาคน่านน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัพ",
+      "เรือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.32, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือ"
+     ],
+     "lit": "army + boat",
+     "lit_th": "กองทหาร + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ขัดตาทัพ",
+     "rtgs": "khat-ta-thap",
+     "ipa": "/kʰat̚˨˩.taː˧.tʰap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แก้ไขสถานการณ์ด้วยการหาสิ่งอื่นมาทดแทนเพื่อถ่วงเวลาให้กลับคืนสถานการณ์เดิมได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขัดตา",
+      "ทัพ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ดูไม่ถูกตา + กองทหาร"
+    },
+    {
+     "th": "ฐานทัพ",
+     "rtgs": "than-thap",
+     "ipa": "/tʰaːn˩˩˦.tʰap̚˦˥/",
+     "gloss": {
+      "en": [
+       "base"
+      ],
+      "th": "ที่ตั้งแห่งกองทัพ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ฐาน",
+      "ทัพ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ฐาน"
+     ],
+     "lit": "bottom + army",
+     "lit_th": "ที่ตั้ง + กองทหาร",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ทัพ",
+     "rtgs": "mae-thap",
+     "ipa": "/mɛː˥˩.tʰap̚˦˥/",
+     "gloss": {
+      "en": [
+       "general"
+      ],
+      "th": "นายทัพ, ผู้ทำหน้าที่คุมกองทัพ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ทัพ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + army",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + กองทหาร",
+     "frame": "entity"
+    },
+    {
+     "th": "ยกทัพ",
+     "rtgs": "yok-thap",
+     "ipa": "/jok̚˦˥.tʰap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เคลื่อนทัพไปหรือมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยก",
+      "ทัพ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ยก"
+     ],
+     "lit": "to lift + army",
+     "lit_th": "เอาขึ้นให้สูงจากที่เดิมทั้งโดยตรงแ + กองทหาร"
+    },
+    {
+     "th": "กองทัพ",
+     "rtgs": "kong-thap",
+     "ipa": "/kɔːŋ˧.tʰap̚˦˥/",
+     "gloss": {
+      "en": [
+       "army",
+       "force",
+       "troop"
+      ],
+      "th": "หน่วยทหารที่ประกอบด้วย ทหาร 3 กองพล และมีทหารหน่วยอื่น ๆ เช่น หน่วยทหารช่าง หน่วยทหารสื่อสาร หน่วยทหารรถถัง หน่วยทหารปืนใหญ่ เป็นส่วนประกอบ มีแม่ทัพเป็นผู้บังคับบัญชา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กอง",
+      "ทัพ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กอง"
+     ],
+     "lit": "desk + army",
+     "lit_th": "ทำให้รวมสุมกันไว้ + กองทหาร"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "สมบัติ, เงิน, เครื่องใช้ต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ทัพ 'goods, property' — separate.",
+    "Declared root: ทัพ 'goods, property' — separate.",
+    "Declared root: ทัพ 'goods, property' — separate.",
+    "Declared root: ทัพ 'goods, property' — separate."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "thap as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 5 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 5 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 5 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "4 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ทัพทัน",
+     "rtgs": "thap-than",
+     "ipa": "/tʰap̚˦˥.tʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุทัยธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัพ",
+      "ทัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เป็นไปตามเวลาที่กำหนด"
+    },
+    {
+     "th": "ทัพรั้ง",
+     "rtgs": "thap-rang",
+     "ipa": "/tʰap̚˦˥.raŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพระทองคำ จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัพ",
+      "รั้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หน่วงเหนี่ยวไว้"
+    },
+    {
+     "th": "ทัพราช",
+     "rtgs": "thap-rat",
+     "ipa": "/tʰap̚˦˥.raːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอตาพระยา จังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัพ",
+      "ราช"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ราช"
+     ],
+     "lit": "thap as an element in place names + king",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พระเจ้าแผ่นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "ทัพไทย",
+     "rtgs": "thap-thai",
+     "ipa": "/tʰap̚˦˥.tʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอตาพระยา จังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัพ",
+      "ไทย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "ไทย"
+     ],
+     "lit": "thap as an element in place names + Thai",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ประเทศ ใน เอเชียตะวันออกเฉียงใต้"
+    },
+    {
+     "th": "ทัพเสด็จ",
+     "rtgs": "thap-sa-det",
+     "ipa": "/tʰap̚˦˥.sa˨˩.det̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอตาพระยา จังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัพ",
+      "เสด็จ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำเรียกเจ้านายชั้นพระองค์เจ้าที่เป",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 3 manuscript titles, 11 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การยกทัพ",
+   "rtgs": "kan-yok-thap",
+   "ipa": "/kaːn˧.jok̚˦˥.tʰap̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ยกทัพ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การยก",
+    "ทัพ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "lift + army",
+   "lit_th": "คำอาการนามของ ยก + กองทหาร",
+   "frame": "entity"
+  },
+  {
+   "th": "ทัพพี",
+   "rtgs": "thap-phi",
+   "ipa": "/tʰap̚˦˥.pʰiː˧/",
+   "gloss": {
+    "en": [
+     "ladle"
+    ],
+    "th": "เครื่องตักข้าวและแกงมีรูปร่างคล้ายช้อนแต่ใหญ่กว่า ทำด้วยทองเหลืองเป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ทัพ",
+    "พี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "กองทหาร + อ้วน",
+   "frame": "quality",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากเขมรเก่า ទប្ប (ทปฺป); ร่วมเชื้อสายกับเขมร ទ័ព (ทัพ), มอญ ဒပ် (ทอบ) ยืมมาจากบาลี ทพฺพ; เทียบสันสกฤต द्रव्य (ทฺรวฺย)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:thap",
+   "label": "ทับ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"thap\". ทัพ is táp, ทับ is táp — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

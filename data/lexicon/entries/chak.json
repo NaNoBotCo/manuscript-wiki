@@ -1,0 +1,790 @@
+{
+ "id": "w:chak",
+ "th": "จักร",
+ "status": "mapped",
+ "rtgs": "chak",
+ "paiboon": "jàk",
+ "ipa": "/t͡ɕak̚˨˩/",
+ "syllable_respelling": "จัก-กฺระ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก ๆ โดยรอบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ยุทธจักร",
+     "rtgs": "yut-tha-chak",
+     "ipa": "/jut̚˦˥.tʰa˦˥.t͡ɕak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โลกของผู้ใช้ศิลปะการต่อสู้ (ใช้ในนิยายจีน)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยุทธ",
+      "จักร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.11, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ ยุทธ์ + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "สิ่งที่มีลักษณะเป็นวงกลมอย่างล้อรถ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The discus becomes the wheel it looks like.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "สิ่งที่มีรูปเป็นวงกลมมีฟันเฟืองหมุนด้วยพลังงานต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "A toothed wheel turned by power.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เรียกเครื่องกลบางชนิด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รถจักร",
+     "rtgs": "rot-chak",
+     "ipa": "/rot̚˦˥.t͡ɕak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รถหัวขบวนรถไฟ มีเครื่องยนต์ใช้ลากจูงรถไฟทั้งขบวน, หัวรถจักร ก็เรียก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รถ",
+      "จักร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "รถ"
+     ],
+     "lit": "auto + chakra",
+     "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + เรียกเครื่องกลบางชนิด",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องจักร",
+     "rtgs": "khrueang-chak",
+     "ipa": "/kʰrɯa̯ŋ˥˩.t͡ɕak̚˨˩/",
+     "gloss": {
+      "en": [
+       "machine",
+       "engine",
+       "machinery"
+      ],
+      "th": "กลอุปกรณ์ต่าง ๆ ที่ประกอบกันขึ้นเป็นเครื่อง เพื่อใช้ประโยชน์ในการผลิตสิ่งใดสิ่งหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "จักร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + chakra",
+     "lit_th": "สิ่ง + เรียกเครื่องกลบางชนิด",
+     "frame": "entity"
+    }
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "And the machines built round it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เรียกเครื่องเย็บผ้าที่ใช้เดินด้วยพลังงานหรือใช้เท้าถีบหรือใช้มือหมุนว่า จักร หรือ จักรเย็บผ้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ฝีจักร",
+     "rtgs": "fi-chak",
+     "ipa": "/fiː˩˩˦.t͡ɕak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฝีเข็มของจักรเย็บผ้าที่ถี่หรือห่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝี",
+      "จักร"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.22, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "abscess + chakra",
+     "lit_th": "โรคจำพวกหนึ่ง เป็นต่อมบวมขึ้นกลัดห + เรียกเครื่องเย็บผ้าที่ใช้เดินด้วยพ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "And the sewing machine in particular.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "บรรจบรอบแห่งปีหรือแห่งฤดู",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "A wheel of years or seasons come round.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 3 manuscript titles, 122 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits ['ฟัน', 'เท้า', 'มือ'].",
+ "compounds_unassigned": [
+  {
+   "th": "ดาราจักร",
+   "rtgs": "da-ra-chak",
+   "ipa": "/daː˧.raː˧.t͡ɕak̚˨˩/",
+   "gloss": {
+    "en": [
+     "galaxy"
+    ],
+    "th": "กลุ่มของดาวฤกษ์ ยังประกอบด้วย ดาวเคราะห์ที่โคตรรอบดาวฤกษ์ เนบิวลา และอื่นๆอีกมากมาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ดารา",
+    "จักร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ดาว + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+   "frame": "entity"
+  },
+  {
+   "th": "จักรวาล",
+   "rtgs": "chak-kra-wan",
+   "ipa": "/t͡ɕak̚˨˩.kra˨˩.waːn˧/",
+   "gloss": {
+    "en": [
+     "universe"
+    ],
+    "th": "ปริมณฑล",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "จักร",
+    "วาล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก + หาง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "จักรกรี",
+   "rtgs": "chak-kri",
+   "ipa": "/t͡ɕak̚˨˩.kriː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปเลิกใช้ของ จักรี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จักร",
+    "กรี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก + ช้าง",
+   "frame": "entity"
+  },
+  {
+   "th": "วัฏจักร",
+   "rtgs": "wat-ta-chak",
+   "ipa": "/wat̚˦˥.ta˨˩.t͡ɕak̚˨˩/",
+   "gloss": {
+    "en": [
+     "cycle"
+    ],
+    "th": "ช่วงระยะเวลาของเหตุการณ์หรือกิจกรรมชุดหนึ่งซึ่งเกิดขึ้นและดำเนินติดต่อกันไปอย่างมีระเบียบจนจบลง ณ จุดเริ่มต้นนั้นอีก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "วัฏ",
+    "จักร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "วงกลม + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+   "frame": "entity"
+  },
+  {
+   "th": "มหาจักร",
+   "rtgs": "ma-ha-chak",
+   "ipa": "/ma˦˥.haː˩˩˦.t͡ɕak̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อยาไทยแก้ลมเพื่อซางโค",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มหา",
+    "จักร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ใหญ่ + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก"
+  },
+  {
+   "th": "ธรรมจักร",
+   "rtgs": "tham-ma-chak",
+   "ipa": "/tʰam˧.ma˦˥.t͡ɕak̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อปฐมเทศนาที่พระพุทธเจ้าทรงแสดงแก่พระเบญจวัคคีย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ธรรม",
+    "จักร"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ธรรม"
+   ],
+   "lit": "dharma + chakra",
+   "lit_th": "คุณความดี + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "จักรราศี",
+   "rtgs": "chak-kra-ra-si",
+   "ipa": "/t͡ɕak̚˨˩.kra˨˩.raː˧.siː˩˩˦/",
+   "gloss": {
+    "en": [
+     "zodiac"
+    ],
+    "th": "อาณาเขตที่ดาวเคราะห์โคจรรอบดวงอาทิตย์, อาณาเขตโดยรอบดวงอาทิตย์ที่ดาวเคราะห์เดิน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "จักร",
+    "ราศี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก + กอง",
+   "frame": "entity"
+  },
+  {
+   "th": "จักรพันธุ์",
+   "rtgs": "chak-kra-phan",
+   "ipa": "/t͡ɕak̚˨˩.kra˨˩.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อจริงชาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จักร",
+    "พันธุ์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "personal-name",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "พันธุ์"
+   ],
+   "lit": "chakra + seed",
+   "lit_th": "อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก + พวกพ้อง",
+   "frame": "entity"
+  },
+  {
+   "th": "กงจักร",
+   "rtgs": "kong-chak",
+   "ipa": "/koŋ˧.t͡ɕak̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สิ่งที่มีรูปเป็นวงกลม มีริมเป็นแฉก ๆ โดยรอบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กง",
+    "จักร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ง สะกด ว + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+   "frame": "entity"
+  },
+  {
+   "th": "ขว้างจักร",
+   "rtgs": "khwang-chak",
+   "ipa": "/kʰwaːŋ˥˩.t͡ɕak̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กรีฑาประเภทลานอย่างหนึ่ง ผู้แข่งขันจะต้องยืนอยู่ในวงเขตที่กำหนด แล้วขว้างจานไม้กลมตรงกลางนูนทั้ง 2 ข้างออกไปให้ไกลที่สุด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขว้าง",
+    "จักร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "throw + chakra",
+   "lit_th": "เอี้ยวตัวเบี่ยงแขนไปทางหลังแล้วซัด + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก"
+  },
+  {
+   "th": "ใบจักร",
+   "rtgs": "bai-chak",
+   "ipa": "/baj˧.t͡ɕak̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ใบพัดของเรือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ใบ",
+    "จักร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ใบ"
+   ],
+   "lit": "leaf + chakra",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+   "frame": "entity"
+  },
+  {
+   "th": "อาณาจักร",
+   "rtgs": "a-na-chak",
+   "ipa": "/ʔaː˧.naː˧.t͡ɕak̚˨˩/",
+   "gloss": {
+    "en": [
+     "kingdom",
+     "empire",
+     "land"
+    ],
+    "th": "เขตแดนที่อยู่ในอำนาจปกครองของประเทศหนึ่ง ๆ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อาณา",
+    "จักร"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "อำนาจปกครอง + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+   "frame": "entity"
+  },
+  {
+   "th": "จักรยาน",
+   "rtgs": "chak-kra-yan",
+   "ipa": "/t͡ɕak̚˨˩.kra˨˩.jaːn˧/",
+   "gloss": {
+    "en": [
+     "bicycle",
+     "bike"
+    ],
+    "th": "รถถีบ, ยานพาหนะประเภทรถที่มีล้อ 2 ล้อ ล้อหนึ่งอยู่ข้างหน้าและอีกล้อหนึ่งอยู่ข้างหลัง มีโครงเหล็กเชื่อมล้อหน้ากับล้อหลัง มีคันบังคับด้วยมือติดตั้งอยู่บนล้อหน้า ขับเคลื่อนด้วยกำลังคนผู้ขี่ซึ่งใช้เท้าถีบบันไดรถให้วิ่ง เรียก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "จักร",
+    "ยาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก + ที่หย่อน ห้อย ย้อย หรือคล้อยลงกว่า",
+   "frame": "quality"
+  },
+  {
+   "th": "จตุจักร",
+   "rtgs": "cha-tu-chak",
+   "ipa": "/t͡ɕa˨˩.tu˨˩.t͡ɕak̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จตุ",
+    "จักร"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ จตุร + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต चक्र (จกฺร, “วงกลม”); เทียบบาลี จกฺก (“วงกลม”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:chak-2",
+   "label": "ชัก",
+   "why": "spelling",
+   "distinction": "Both romanise as \"chak\". จักร is jàk, ชัก is chák — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "chakra"
+ ]
+}

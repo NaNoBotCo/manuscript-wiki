@@ -1,0 +1,9 @@
+{
+ "head": "sung",
+ "rule": "สูง divides three ways. Sense 1 is measurable height — ส่วนสูง, ที่ราบสูง. Sense 2 is above the normal level, and it takes the words about a person being over it: สูงอายุ, ใฝ่สูง, หัวสูง. Sense 6, ดี, was empty and is the EVALUATIVE height — not tall and not excessive but exalted — and it takes สูงส่ง, ของสูง (sacred things) and เครื่องสูง, the regalia of honour. The three senses are easy to run together in English, where 'high' does all of it; Thai keeps them apart and the compounds sort cleanly once you ask whether the height is measured, exceeded, or revered.",
+ "senses": {
+  "1": ["ที่ราบสูง","ส่วนสูง"],
+  "2": ["สูงอายุ","หัวสูง","ใฝ่สูง"],
+  "6": ["ของสูง","สูงส่ง","เครื่องสูง"]
+ }
+}

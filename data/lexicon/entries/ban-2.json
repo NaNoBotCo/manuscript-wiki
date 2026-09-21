@@ -1,0 +1,640 @@
+{
+ "id": "w:ban-2",
+ "th": "บาล",
+ "status": "mapped",
+ "rtgs": "ban",
+ "paiboon": "baan",
+ "ipa": "/baːn˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 1]"
+    ],
+    "th": "เลี้ยง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "คชบาล",
+     "rtgs": "khot-cha-ban",
+     "ipa": "/kʰot̚˦˥.t͡ɕʰa˦˥.baːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนเลี้ยงช้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คช",
+      "บาล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.44, next 0.30",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ช้าง + เลี้ยง"
+    },
+    {
+     "th": "สัตวบาล",
+     "rtgs": "sat-ta-wa-ban",
+     "ipa": "/sat̚˨˩.ta˨˩.wa˦˥.baːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การเลี้ยงและดูแลสัตว์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัตว",
+      "บาล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.35, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ สัตว์ + เลี้ยง"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Guarding narrowed to rearing and feeding.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "to guard",
+     "to protect",
+     "to keep"
+    ],
+    "th": "รักษา, คุ้มครอง",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: บาล < Pali pāla 'to guard, to keep' — the origin of the rearing and governing senses.",
+    "Declared root: บาล < Pali pāla 'to guard, to keep' — the origin of the rearing and governing senses.",
+    "Declared root: บาล < Pali pāla 'to guard, to keep' — the origin of the rearing and governing senses."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "ปกครอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "And widened to governing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "มักใช้เป็นคำหลังสมาส หมายถึง ผู้รักษาไว้ซึ่งสิ่งนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นครบาล",
+     "translit_auto": "nkhrbal",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้มีหน้าที่ในการปกครอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "บาล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "นคร"
+     ],
+     "lit": "city + to guard",
+     "lit_th": "เมืองใหญ่ + มักใช้เป็นคำหลังสมาส หมายถึง ผู้รั"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "As a final element: the keeper of the thing named — โลกบาล, ทวารบาล.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 163 manuscript titles, 16 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 16; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "ขุนบาล",
+   "rtgs": "khun-ban",
+   "ipa": "/kʰun˩˩˦.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นายอากรหวย ก ข",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขุน",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้เป็นใหญ่ + เลี้ยง"
+  },
+  {
+   "th": "พญาบาล",
+   "rtgs": "pha-ya-ban",
+   "ipa": "/pʰa˦˥.jaː˧.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปเลิกใช้ของ พยาบาล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พญา",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "เจ้าแผ่นดิน + เลี้ยง"
+  },
+  {
+   "th": "ยมบาล",
+   "rtgs": "yom-ma-ban",
+   "ipa": "/jom˧.ma˦˥.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เจ้าพนักงานเมืองนรก มีหน้าที่ลงโทษ คนที่ตกนรกตามคำตัดสินของพญายม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยม",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "ร้องไห้ + เลี้ยง"
+  },
+  {
+   "th": "มนเทียรบาล",
+   "rtgs": "mon-thian-ban",
+   "ipa": "/mon˧.tʰia̯n˧.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กฎหมายว่าด้วยการปกครองภายในพระราชฐาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มนเทียร",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "เรือนหลวงซึ่งใช้เป็นที่ประทับประจำ + เลี้ยง"
+  },
+  {
+   "th": "ภูบาล",
+   "rtgs": "phu-ban",
+   "ipa": "/pʰuː˧.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระเจ้าแผ่นดิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภู",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ภู"
+   ],
+   "lit": "earth + to guard",
+   "lit_th": "ดิน + เลี้ยง",
+   "use": "false-split"
+  },
+  {
+   "th": "บางบาล",
+   "rtgs": "bang-ban",
+   "ipa": "/baːŋ˧.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดพระนครศรีอยุธยา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บาง",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "บาง"
+   ],
+   "lit": "thin + to guard",
+   "lit_th": "ทางน้ำเล็ก ๆ + เลี้ยง"
+  },
+  {
+   "th": "โรงบาล",
+   "rtgs": "rong-ban",
+   "ipa": "/roːŋ˧.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปตัดทอนของ โรงพยาบาล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โรง",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "โรง"
+   ],
+   "lit": "shed + to guard",
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + เลี้ยง"
+  },
+  {
+   "th": "กระบาล",
+   "rtgs": "kra-ban",
+   "ipa": "/kra˨˩.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่วนกลางของกะโหลกศีรษะ, หัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1
+  },
+  {
+   "th": "เทศบาล",
+   "rtgs": "thet-sa-ban",
+   "ipa": "/tʰeːt̚˥˩.sa˨˩.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "องค์กรปกครองส่วนท้องถิ่นรูปแบบหนึ่ง ประกอบด้วยนายกเทศมนตรีและสภาเทศบาล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เทศ",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "ต่างประเทศ + เลี้ยง",
+   "frame": "quality"
+  },
+  {
+   "th": "นรบาล",
+   "rtgs": "no-ra-ban",
+   "ipa": "/nɔː˧.ra˦˥.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระราชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นร",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คน + เลี้ยง",
+   "use": "false-split"
+  },
+  {
+   "th": "นฤบาล",
+   "rtgs": "na-rue-ban",
+   "ipa": "/na˦˥.rɯ˦˥.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระราชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นฤ",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คน + เลี้ยง",
+   "use": "false-split"
+  },
+  {
+   "th": "รัฐบาล",
+   "rtgs": "rat-tha-ban",
+   "ipa": "/rat̚˦˥.tʰa˨˩.baːn˧/",
+   "gloss": {
+    "en": [
+     "government"
+    ],
+    "th": "องค์กรปกครองประเทศ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "รัฐ"
+   ],
+   "lit": "sovereign state + to guard",
+   "lit_th": "แคว้น + เลี้ยง",
+   "use": "false-split"
+  },
+  {
+   "th": "โคบาล",
+   "rtgs": "kho-ban",
+   "ipa": "/kʰoː˧.baːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คนเลี้ยงวัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โค",
+    "บาล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "โค"
+   ],
+   "lit": "cow + to guard",
+   "lit_th": "วัว + เลี้ยง",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต पाल (ปาล) หรือ บาลี ปาล",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:ban",
+   "label": "บ้าน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"ban\". บาล is baan, บ้าน is bâan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

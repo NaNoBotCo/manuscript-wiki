@@ -158,3 +158,11 @@ opposite of the [canon](/a?s=genre:buddhist_canonical)'s Wat Sung Men gravity.
   of them has a transcribed page in this archive. A single full
   *Pathamasambodhi* or *Anāgatavaṃsa* would be the largest single addition of
   narrative text the collection could receive.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **The heavyweights: the longest manuscripts** — The twelve longest texts by leaf count, led by one running to 1,046 leaves. [see the finding →](/findings#scaleepic-length)
+<!-- derived:end -->

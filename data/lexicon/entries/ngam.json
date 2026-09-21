@@ -1,0 +1,916 @@
+{
+ "id": "w:ngam",
+ "th": "งาม",
+ "status": "mapped",
+ "rtgs": "ngam",
+ "paiboon": "ngaam",
+ "ipa": "/ŋaːm˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพึงใจ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "งามไส้",
+     "rtgs": "ngam-sai",
+     "ipa": "/ŋaːm˧.saj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น่าขายหน้า ใช้เป็นคำประชด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "งาม",
+      "ไส้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "ไส้"
+     ],
+     "lit": "aesthetic + intestine",
+     "lit_th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ + ส่วนของทางเดินอาหารต่อจากกระเพาะอา",
+     "frame": "quality"
+    },
+    {
+     "th": "งามงอน",
+     "rtgs": "ngam-ngon",
+     "ipa": "/ŋaːm˧.ŋɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สวยงาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "งาม",
+      "งอน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ + ส่วนปลายแห่งของบางอย่างที่เป็นรูปย",
+     "frame": "quality"
+    },
+    {
+     "th": "งามหน้า",
+     "rtgs": "ngam-na",
+     "ipa": "/ŋaːm˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น่าขายหน้า ใช้เป็นคำประชด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "งาม",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "aesthetic + before",
+     "lit_th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "quality"
+    },
+    {
+     "th": "งดงาม",
+     "rtgs": "ngot-ngam",
+     "ipa": "/ŋot̚˦˥.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "elegant"
+      ],
+      "th": "สวย, งาม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "งด",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit_th": "หยุดหรือเว้น คือ ไม่กระทำหรือไม่ดำ + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
+    },
+    {
+     "th": "งามแงะ",
+     "rtgs": "ngam-ngae",
+     "ipa": "/ŋaːm˧.ŋɛʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "งามน่าดู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "งาม",
+      "แงะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit_th": "ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ + งัดให้เผยอขึ้น",
+     "frame": "quality"
+    },
+    {
+     "th": "นางงาม",
+     "rtgs": "nang-ngam",
+     "ipa": "/naːŋ˧.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงสาวที่ชนะการประกวดความงาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาง",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "นาง"
+     ],
+     "lit": "Mrs + aesthetic",
+     "lit_th": "ผู้หญิง + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
+    },
+    {
+     "th": "เกินงาม",
+     "rtgs": "koen-ngam",
+     "ipa": "/kɤːn˧.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มากไปจนหมดงาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "เกิน"
+     ],
+     "lit": "to exceed + aesthetic",
+     "lit_th": "พ้น + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "มีลักษณะสมบูรณ์ดี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Beautiful widened to well-formed, complete.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "งอกงาม",
+     "rtgs": "ngok-ngam",
+     "ipa": "/ŋɔːk̚˥˩.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "grow"
+      ],
+      "th": "เจริญผลิดอกออกผล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "งอก",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit_th": "การเจริญจากเมล็ดออกมาเป็นต้นอ่อน + มีลักษณะสมบูรณ์ดี",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ดี, มาก, มีลักษณะที่เป็นไปตามต้องการ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "And to good, ample, as one would want it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "ngam as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 12 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 12 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 12 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "47 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "โป่งงาม",
+     "rtgs": "pong-ngam",
+     "ipa": "/poːŋ˨˩.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่สาย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โป่ง",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "swollen + ngam as an element in place names",
+     "lit_th": "ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ท่างาม",
+     "rtgs": "tha-ngam",
+     "ipa": "/tʰaː˥˩.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวัดโบสถ์ จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + ngam as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "สันทรายงาม",
+     "rtgs": "san-sai-ngam",
+     "ipa": "/san˩˩˦.saːj˧.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเทิง จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สันทราย",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ไทรงาม",
+     "rtgs": "sai-ngam",
+     "ipa": "/saj˧.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไทร",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "โพนงาม",
+     "rtgs": "phon-ngam",
+     "ipa": "/pʰoːn˧.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกมลาไสย จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพน",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอคำม่วง จังหวัด + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "สักงาม",
+     "rtgs": "sak-ngam",
+     "ipa": "/sak̚˨˩.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองลาน จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัก",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "สัก"
+     ],
+     "lit": "teak + ngam as an element in place names",
+     "lit_th": "ชื่อไม้ต้นชนิด Tectona grandis L.f + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "นางาม",
+     "rtgs": "na-ngam",
+     "ipa": "/naː˧.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอมัญจาคีรี จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + ngam as an element in place names",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ดอยงาม",
+     "rtgs": "doi-ngam",
+     "ipa": "/dɔːj˧.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอย",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ภูเขา + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "งิ้วงาม",
+     "rtgs": "ngio-ngam",
+     "ipa": "/ŋiw˦˥.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "งิ้ว",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Bombax ceib + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ผางาม",
+     "rtgs": "pha-ngam",
+     "ipa": "/pʰaː˩˩˦.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเวียงชัย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผา",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "หินที่เขา + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "เสริมงาม",
+     "rtgs": "soem-ngam",
+     "ipa": "/sɤːm˩˩˦.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลำปาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสริม",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit": "introduce + ngam as an element in place names",
+     "lit_th": "เพิ่ม + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "โคกงาม",
+     "rtgs": "khok-ngam",
+     "ipa": "/kʰoːk̚˥˩.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านฝาง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "งาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "mound + ngam as an element in place names",
+     "lit_th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 2 manuscript titles, 192 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การงอกงาม",
+   "rtgs": "kan-ngok-ngam",
+   "ipa": "/kaːn˧.ŋɔːk̚˥˩.ŋaːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ งอกงาม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การงอก",
+    "งาม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ งอก + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
+  },
+  {
+   "th": "ความงาม",
+   "rtgs": "khwam-ngam",
+   "ipa": "/kʰwaːm˧.ŋaːm˧/",
+   "gloss": {
+    "en": [
+     "beauty"
+    ],
+    "th": "คำอาการนามของ งาม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "งาม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + aesthetic",
+   "lit_th": "เรื่อง + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
+  },
+  {
+   "th": "ความสวยงาม",
+   "rtgs": "khwam-suai-ngam",
+   "ipa": "/kʰwaːm˧.sua̯j˩˩˦.ŋaːm˧/",
+   "gloss": {
+    "en": [
+     "beauty"
+    ],
+    "th": "คำอาการนามของ สวยงาม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความสวย",
+    "งาม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "beauty + aesthetic",
+   "lit_th": "คำอาการนามของ สวย + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *ŋaːmᴬ⁴ (Jonsson, 1991); ร่วมเชื้อสายกับคำเมือง ᨦᩣ᩠ᨾ (งาม), เขิน ᨦᩣ᩠ᨾ (งาม), อีสาน งาม, ลาว ງາມ (งาม), ไทลื้อ ᦇᦱᧄ (งาม), ไทใหญ่ ငၢမ်း (ง๊าม), ไทใต้คง ᥒᥣᥛᥰ (ง๊าม), พ่าเก င︀ံ (งํ), อาหม 𑜂𑜪 (งํ), จ้วง ngam (งาม, “ถูกต้อง, ดังใจ”), จ้วงแบบจั่วเจียง ngamq (“ดี, ถูกใจ”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨦᩣ᩠ᨾ",
+  "th": "งาม",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "aesthetic",
+  "beautiful",
+  "gorgeous",
+  "fine"
+ ]
+}

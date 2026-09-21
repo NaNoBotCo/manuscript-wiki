@@ -1,0 +1,40 @@
+{
+ "head": "klang",
+ "rule": "กลาง's four senses answer three different questions. Sense 1 is a POSITION or a quality: the middle one of a set (นิ้วกลาง, อักษรกลาง, สมัยกลาง), the point itself (ใจกลาง, กึ่งกลาง, ศูนย์กลาง), or the moderate and unaligned (ปานกลาง, คนกลาง, เดินสายกลาง). Sense 3 is กลาง used as a PREPOSITION, in the midst of a place or a stretch of time, and it takes the adverbial compounds — กลางคืน, กลางวัน, กลางแจ้ง, กลางหาว, กลางเดือน — including กลางทะเล, which is figurative but still 'out in the middle of'. Sense 2 (ที่รวม) was empty and it should not have been: it is the COMMON POOL, the thing held in the middle for everyone, and that is ของกลาง, กองกลาง, ช้อนกลาง, ภาษากลาง and ศาลากลาง, the hall at the centre of a province. Sense 4 takes place names, and a region named for being the middle of somewhere is still a place name: อเมริกากลาง, ตะวันออกกลาง.",
+ "senses": {
+  "1": [
+   "กลางคน",
+   "กึ่งกลาง",
+   "คนกลาง",
+   "จีนกลาง",
+   "ตัวกลาง",
+   "นิ้วกลาง",
+   "ปานกลาง",
+   "สมัยกลาง",
+   "ศูนย์กลาง",
+   "อักษรกลาง",
+   "เดินสายกลาง",
+   "ใจกลาง"
+  ],
+  "2": [
+   "กองกลาง",
+   "ของกลาง",
+   "ช้อนกลาง",
+   "ภาษากลาง",
+   "ศาลากลาง"
+  ],
+  "3": [
+   "กลางค่ำ",
+   "กลางคืน",
+   "กลางทะเล",
+   "กลางวัน",
+   "กลางหาว",
+   "กลางเดือน",
+   "กลางแจ้ง"
+  ],
+  "4": [
+   "ตะวันออกกลาง",
+   "อเมริกากลาง"
+  ]
+ }
+}

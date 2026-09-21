@@ -114,6 +114,7 @@ TYPES = {
     "same_walk_cluster": ("same walking cluster", "same walking cluster"),
     "concerns":          ("concerns",            "noticed in a finding"),
     "cites":             ("cites",               "cited by a finding"),
+    "same_as":           ("is the same temple as", "is the same temple as"),
 }
 
 # Structural-membership types: a node whose ONLY edges are these is a dead-end
@@ -396,6 +397,46 @@ def place_layer(g, near_m=1200, near_k=3):
     for (a, b), d in pairs.items():
         g.edge(a, b, "near", "computed", w=int(d), ev=f"{int(d)} m apart")
     return len(places)
+
+
+WAT_BRIDGE = HERE / "data" / "wat_bridge.json"
+
+
+def bridge_layer(g, conn):
+    """WW-1 step 5. The temple register joins two universes this graph held
+    apart: `temple:<catalogue string>` (what a manuscript record says it is held
+    at — 131 strings over 113 register codes) and `place:<vault id>` (the wat on
+    the map, with coordinates, photos, an article). scripts/bridge_wat_registry.py
+    ruled on each join — name_key + province, fails closed, ambiguity to a review
+    file — so the edge is ADJUDICATED and carries the rule as its receipt. The
+    first non-zero adjudicated count in this graph that is not the Rahu rule.
+    No bridge file → no edges, and meta says so."""
+    data = wiki.load_json(WAT_BRIDGE, None)
+    if not isinstance(data, dict) or not data.get("places"):
+        return None
+    by_code = {}
+    for r in conn.execute(
+            "SELECT DISTINCT wat_code, provenance_temple FROM manuscripts "
+            "WHERE wat_code IS NOT NULL AND wat_code<>'' "
+            "AND provenance_temple IS NOT NULL AND provenance_temple<>''"):
+        by_code.setdefault(str(r["wat_code"]), set()).add(r["provenance_temple"])
+    n = 0
+    for pid, rec in data["places"].items():
+        code = str(rec.get("wat_code") or "")
+        pnode = f"place:{pid}"
+        if not code or pnode not in g.nodes:
+            continue                      # a place the vault does not publish
+        g.node(pnode, "place", g.nodes[pnode]["label"], wat_code=code)
+        for t in sorted(by_code.get(code, ())):
+            tnode = f"temple:{t}"
+            if tnode not in g.nodes:
+                continue
+            g.node(tnode, "temple", g.nodes[tnode]["label"], wat_code=code)
+            g.edge(tnode, pnode, "same_as", "adjudicated",
+                   ev=f"ONAB register {code} · bridge rule: "
+                      f"{rec.get('matched_how') or 'name_key+province'}")
+            n += 1
+    return n
 
 
 def place_threads(near_m=1200, near_k=3):
@@ -800,6 +841,8 @@ def build(conn=None):
         meta["items"] = item_layer(g, conn)
         meta["tag_edges"] = tag_layer(g, conn)
         meta["places"] = place_layer(g)
+        br = bridge_layer(g, conn)
+        meta["bridge"] = br if br is not None else "unavailable (data/wat_bridge.json not found)"
         meta["vault"] = vault_layer(g)
         meta["findings"] = finding_layer(g, conn)
         co = proposed_layer(g)

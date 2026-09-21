@@ -233,3 +233,11 @@ on Central Thai orthography and the north did not write that way.
   often *is* the text — fate-figures, direction wheels, animal-cycle plates — and
   a title line captures almost none of it. Filling in the image download phase
   for this genre would do more for it than any amount of further title work.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **Where the stars were written down** — 2 provinces whose surviving corpus leans toward astrology — the reading of time, fate, and the calendar — well above the corpus norm. [see the finding →](/findings#provenanceastrology-heartlands)
+<!-- derived:end -->

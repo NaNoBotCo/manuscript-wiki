@@ -1,0 +1,708 @@
+{
+ "id": "w:khai-3",
+ "th": "ไข",
+ "status": "mapped",
+ "rtgs": "khai",
+ "paiboon": "kǎi",
+ "ipa": "/kʰaj˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "fat",
+     "wax",
+     "tallow"
+    ],
+    "th": "มันข้น, น้ำมันที่ได้จากสัตว์ พืช หรือแร่ ที่แข็งตัวในอุณหภูมิปรกติ",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ไข 'fat, wax'.",
+    "Declared root: ไข 'fat, wax'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "น้ำมันที่มีสถานะเป็นของแข็งเนื่องจากอยู่ในอุณหภูมิต่ำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Fat that is solid because it is cold.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "กวดสิ่งที่ยังหลวมอยู่ให้แน่นหรือทำสิ่งที่แน่นอยู่ให้หลวม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ไข 'to turn, to wind' — separate.",
+    "Declared root: ไข 'to turn, to wind' — separate."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "หมุน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไขลาน",
+     "rtgs": "khai-lan",
+     "ipa": "/kʰaj˩˩˦.laːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เตือน, บอกซ้ำบ่อย ๆ ให้ทำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข",
+      "ลาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาน"
+     ],
+     "lit": "fat + open ground",
+     "lit_th": "หมุน + บริเวณที่ว่าง",
+     "frame": "entity"
+    }
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Turning widened from the screw to anything turned.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "บอก, อธิบาย, ขยาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ข้อไข",
+     "rtgs": "kho-khai",
+     "ipa": "/kʰɔː˥˩.kʰaj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้อเฉลย, ข้ออธิบายขยายความ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้อ",
+      "ไข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.41, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร + บอก",
+     "flips_with": "ไขข้อ",
+     "frame": "entity"
+    },
+    {
+     "th": "สนองไข",
+     "rtgs": "sa-nong-khai",
+     "ipa": "/sa˨˩.nɔːŋ˩˩˦.kʰaj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กล่าวตอบ, อธิบาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สนอง",
+      "ไข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.41, next 0.26",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "meet + fat",
+     "lit_th": "ทำตามที่ได้รับคำสั่งหรือคำขอร้อง + บอก"
+    }
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Turning a thing open: to explain, to disclose.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 7 manuscript titles, 475 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 16; domain seeded by keyword hits ['หมุน'].",
+ "compounds_unassigned": [
+  {
+   "th": "ไขข้อ",
+   "rtgs": "khai-kho",
+   "ipa": "/kʰaj˩˩˦.kʰɔː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "น้ำหล่อลื่นข้อของร่างกาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข",
+    "ข้อ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "มันข้น + ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร",
+   "flips_with": "ข้อไข",
+   "frame": "entity"
+  },
+  {
+   "th": "ไขมัน",
+   "rtgs": "khai-man",
+   "ipa": "/kʰaj˩˩˦.man˧/",
+   "gloss": {
+    "en": [
+     "fat"
+    ],
+    "th": "สารประกอบอินทรีย์จำพวกหนึ่งมีทั้งในสัตว์และพืช ไม่ละลายน้ำ, ถ้าเป็นของเหลวในอุณหภูมิปรกติเรียก น้ำมัน, ถ้าเป็นของแข็งในอุณหภูมิปรกติเรียก ไข",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ไข",
+    "มัน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "มัน"
+   ],
+   "lit": "fat + it",
+   "lit_th": "มันข้น + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+   "frame": "entity"
+  },
+  {
+   "th": "ไขควง",
+   "rtgs": "khai-khuang",
+   "ipa": "/kʰaj˩˩˦.kʰua̯ŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อเหล็กเครื่องมือมีด้าม ทางปลายแบนหรือเป็นแฉก ๆ สำหรับไขตะปูควง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข",
+    "ควง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "มันข้น + แกว่งหรือทำให้หมุนไปโดยรอบ"
+  },
+  {
+   "th": "การแก้ไข",
+   "rtgs": "kan-kae-khai",
+   "ipa": "/kaːn˧.kɛː˥˩.kʰaj˩˩˦/",
+   "gloss": {
+    "en": [
+     "remedy"
+    ],
+    "th": "คำอาการนามของ แก้ไข",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การแก้",
+    "ไข"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แก้ + มันข้น",
+   "frame": "entity"
+  },
+  {
+   "th": "เงื่อนไข",
+   "rtgs": "nguean-khai",
+   "ipa": "/ŋɯa̯n˥˩.kʰaj˩˩˦/",
+   "gloss": {
+    "en": [
+     "condition"
+    ],
+    "th": "ข้อแม้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เงื่อน",
+    "ไข"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "knot + fat",
+   "lit_th": "เชือกหรือเส้นด้ายเป็นต้นที่ผูกกันเ + มันข้น",
+   "frame": "entity"
+  },
+  {
+   "th": "ไขสือ",
+   "rtgs": "khai-sue",
+   "ipa": "/kʰaj˩˩˦.sɯː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รู้แล้วทำเป็นไม่รู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข",
+    "สือ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "มันข้น + ตัวอักษร",
+   "frame": "entity"
+  },
+  {
+   "th": "ไขสันหลัง",
+   "rtgs": "khai-san-lang",
+   "ipa": "/kʰaj˩˩˦.san˩˩˦.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ประสาทส่วนกลางที่ต่อเนื่องจากประสาทส่วนปลาย มีความยาวจากระดับต้นคอถึงระดับเอว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข",
+    "สันหลัง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "มันข้น + ส่วนของร่างกายด้านหลัง ซึ่งมีกระดู",
+   "frame": "entity"
+  },
+  {
+   "th": "การสนองไข",
+   "rtgs": "kan-sa-nong-khai",
+   "ipa": "/kaːn˧.sa˨˩.nɔːŋ˩˩˦.kʰaj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สนองไข",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสนอง",
+    "ไข"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สนอง + มันข้น",
+   "frame": "entity"
+  },
+  {
+   "th": "แก้ไข",
+   "rtgs": "kae-khai",
+   "ipa": "/kɛː˥˩.kʰaj˩˩˦/",
+   "gloss": {
+    "en": [
+     "edit",
+     "key",
+     "alter"
+    ],
+    "th": "ทำส่วนที่เสียให้คืนดีอย่างเดิม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แก้",
+    "ไข"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แก้"
+   ],
+   "lit": "cowrie shell used to burnish cloth + fat",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + มันข้น",
+   "frame": "entity"
+  },
+  {
+   "th": "กระดาษไข",
+   "rtgs": "kra-dat-khai",
+   "ipa": "/kra˨˩.daːt̚˨˩.kʰaj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กระดาษอาบไข ใช้ทำแบบ ลวดลาย หรือพิมพ์อัดสำเนาแม่พิมพ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระดาษ",
+    "ไข"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "paper + fat",
+   "lit_th": "วัตถุเป็นแผ่นบาง ๆ โดยมากทำจากใยเป + มันข้น",
+   "frame": "entity"
+  },
+  {
+   "th": "ไขกระดูก",
+   "rtgs": "khai-kra-duk",
+   "ipa": "/kʰaj˩˩˦.kra˨˩.duːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เนื้อส่วนในของกระดูก บางแห่งเป็นที่สร้างเม็ดเลือดชนิดต่าง ๆ ของร่างกาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข",
+    "กระดูก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "fat + bone",
+   "lit_th": "มันข้น + โครงร่างกายที่มีลักษณะแข็ง",
+   "frame": "entity"
+  },
+  {
+   "th": "การไข",
+   "rtgs": "kan-khai",
+   "ipa": "/kaːn˧.kʰaj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ไข",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ไข"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + มันข้น",
+   "frame": "entity"
+  },
+  {
+   "th": "ไขก๊อก",
+   "rtgs": "khai-kok",
+   "ipa": "/kʰaj˩˩˦.kɔk̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลาออก, ถอนตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข",
+    "ก๊อก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "มันข้น + เครื่องเปิดปิดน้ำจากท่อหรือภาชนะ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับอีสาน ไข, ลาว ໄຂ (ไข), คำเมือง ᨡᩱ (ไข), เขิน ᨡᩱ (ไข), ไทลื้อ ᦺᦃ (ไฃ), ไทดำ ꪼꪄ (ไฃ), ไทขาว ꪼꪄ, ไทใหญ่ ၶႆ (ไข), ไทใต้คง ᥑᥭᥴ (ฃั๋ย) ยืมมาจากจีนยุคกลาง 開 (MC khoj); ร่วมเชื้อสายกับอีสาน ไข, ลาว ໄຂ (ไข), คำเมือง ᨡᩱ (ไข), เขิน ᨡᩱ (ไข), ไทลื้อ ᦺᦃ (ไฃ), ไทดำ ꪼꪄ (ไฃ), ไทขาว ꪼꪂ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩱ",
+  "th": "ไข",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khai",
+   "label": "ไข่",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khai\". ไข is kǎi, ไข่ is kài — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khai-2",
+   "label": "ขาย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khai\". ไข is kǎi, ขาย is kǎai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

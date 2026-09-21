@@ -1,0 +1,1462 @@
+{
+ "id": "w:cha",
+ "th": "ชา",
+ "status": "mapped",
+ "rtgs": "cha",
+ "paiboon": "chaa",
+ "ipa": "/t͡ɕʰaː˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia sinensis (L.) Kuntze ในวงศ์ Theaceae ขึ้นตามหุบเขาในเขตร้อน ใบใช้ชงเป็นเครื่องดื่ม, พายัพเรียก เมี่ยง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan.",
+    "Declared root: ชา 'tea' — the Chinese loan."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ใบไม้หรือดอกไม้แห้งที่ใช้ชงน้ำเป็นเครื่องดื่ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The plant names the dried leaf taken from it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "(น้ำ~) เครื่องดื่มที่ชงจากใบชา ใบไม้ ดอกไม้ ดังกล่าว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And the leaf names the drink made of it.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ช้อนชา",
+     "rtgs": "chon-cha",
+     "ipa": "/t͡ɕʰɔːn˦˥.t͡ɕʰaː˧/",
+     "gloss": {
+      "en": [
+       "teaspoon"
+      ],
+      "th": "ช้อนด้ามยาวขนาดเล็กใช้สำหรับคนชากาแฟ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ช้อน",
+      "ชา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "spoon + tea",
+     "lit_th": "เครื่องใช้สำหรับตักของกิน มีด้ามจั + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+     "frame": "entity"
+    },
+    {
+     "th": "ชาชัก",
+     "rtgs": "cha-chak",
+     "ipa": "/t͡ɕʰaː˧.t͡ɕʰak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชาใส่นมแบบหนึ่ง หาได้ทั่วไปในมาเลเซีย สิงคโปร์ และไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชา",
+      "ชัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ชัก"
+     ],
+     "lit": "tea + draw",
+     "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่"
+    },
+    {
+     "th": "ค่าน้ำชา",
+     "rtgs": "kha-nam-cha",
+     "ipa": "/kʰaː˥˩.nam˦˥.t͡ɕʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินที่จ่ายให้เจ้าหน้าที่เพื่อให้ได้รับความสะดวกในการติดต่องาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ค่าน้ำ",
+      "ชา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เงินที่ไก๊ด์ได้รับจากร้านซึ่งพานัก + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+     "frame": "entity"
+    },
+    {
+     "th": "ชาเย็น",
+     "rtgs": "cha-yen",
+     "ipa": "/t͡ɕʰaː˧.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชาที่ชงใส่น้ำตาล นม และน้ำแข็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชา",
+      "เย็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "เย็น"
+     ],
+     "lit": "tea + cold",
+     "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "ชาไข่มุก",
+     "rtgs": "cha-khai-muk",
+     "ipa": "/t͡ɕʰaː˧.kʰaj˨˩.muk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชานมใส่แป้งต้มลูกกลมเรียกว่าไข่มุก มีต้นกำเนิดจากไต้หวัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชา",
+      "ไข่มุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + วัตถุมีค่า มักมีลักษณะกลม ๆ เกิดจา",
+     "frame": "entity"
+    },
+    {
+     "th": "สุธารสชา",
+     "rtgs": "su-tha-rot-cha",
+     "ipa": "/su˨˩.tʰaː˧.rot̚˦˥.t͡ɕʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(พระ~) น้ำชา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุธารส",
+      "ชา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    },
+    {
+     "th": "ชาไทย",
+     "rtgs": "cha-thai",
+     "ipa": "/t͡ɕʰaː˧.tʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชาเย็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชา",
+      "ไทย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "ไทย"
+     ],
+     "lit": "tea + Thai",
+     "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + ประเทศ ใน เอเชียตะวันออกเฉียงใต้"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ชื่อไม้พุ่มหลายชนิดในหลายวงศ์ ใบเล็ก ที่ใช้เป็นปลูกรั้ว เช่น ชาข่อย (Acalypha siamensis Oliv. ex Gage) ในวงศ์ Euphorbiaceae, ที่นิยมปลูกเป็นไม้ดัด คือ ชาฮกเกี้ยน [Carmona retusa (Vahl) Masam.] ในวงศ์ Boraginaceae และชาใบมัน (Malpighia coccigera L.) ในวงศ์ Malpighiaceae, ชาปัตตาเวีย ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name.",
+    "Declared root: ชา, the hedge shrubs (ชาข่อย and kin) — a plant name."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เหล้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate.",
+    "Declared root: ชา 'liquor' — separate."
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "อาการที่รู้สึกน้อยกว่าปรกติ เนื่องจากเส้นประสาทรับความรู้สึกถูกกด ถูกตัดขาด หรือถูกสารพิษ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หน้าชา",
+     "rtgs": "na-cha",
+     "ipa": "/naː˥˩.t͡ɕʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่รู้สึกอับอายขายหน้าระคนโกรธ แต่ก็ตอบโต้ไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ชา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.16, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "before + tea",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + อาการที่รู้สึกน้อยกว่าปรกติ เนื่อง",
+     "frame": "entity"
+    },
+    {
+     "th": "ชินชา",
+     "rtgs": "chin-cha",
+     "ipa": "/t͡ɕʰin˧.t͡ɕʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เคยบ่อย ๆ จนเลิกเอาใจใส่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชิน",
+      "ชา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "โลหะเจือชนิดหนึ่ง ประกอบด้วยตะกั่ว + อาการที่รู้สึกน้อยกว่าปรกติ เนื่อง",
+     "frame": "entity"
+    },
+    {
+     "th": "ยาชา",
+     "rtgs": "ya-cha",
+     "ipa": "/jaː˧.t͡ɕʰaː˧/",
+     "gloss": {
+      "en": [
+       "anaesthetic"
+      ],
+      "th": "ยาที่ทาหรือฉีดให้ประสาทชา มักใช้ในการผ่าตัดหรือถอนฟัน เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ยา",
+      "ชา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "medicine + tea",
+     "lit_th": "สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ + อาการที่รู้สึกน้อยกว่าปรกติ เนื่อง",
+     "flips_with": "ชายา",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate.",
+    "Declared root: ชา 'numb' — separate."
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เรียกปลาที่จวนจะตายอยู่แล้วว่า ปลาชา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "ปลาชา, a fish gone numb and near death.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "เรียกร้านหรือเรือที่ขายเครื่องหอมต่าง ๆ มีแป้งและน้ำหอมเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate.",
+    "Declared root: ชา in ร้านชา, the perfumery stall — separate."
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "เป็น, ให้เป็น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established.",
+    "Declared root: ชา 'to be', with senses 10-12: archaic and Northern uses whose relation to each other the RID does not state and this project has not established."
+   ]
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "สบาย, ดี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "generalisation",
+   "via_note": "Archaic, and the relation is not established — recorded, not argued.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "หมายไว้, กำหนดไว้, ใช้ประกอบกับคำ กฎ เป็น กำหนดกฎชา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "generalisation",
+   "via_note": "Archaic, and the relation is not established — recorded, not argued.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[RID sense 12 — no English yet]"
+    ],
+    "th": "สังกัด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "generalisation",
+   "via_note": "Archaic, and the relation is not established — recorded, not argued.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 386 manuscript titles, 1726 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 31; domain seeded by keyword hits ['ดอก', 'ใบ', 'ไม้', 'นา'].",
+ "compounds_unassigned": [
+  {
+   "th": "การชินชา",
+   "rtgs": "kan-chin-cha",
+   "ipa": "/kaːn˧.t͡ɕʰin˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชินชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การชิน",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชิน + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "entity"
+  },
+  {
+   "th": "เดชา",
+   "rtgs": "de-cha",
+   "ipa": "/deː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อำนาจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เด",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the dictionary says แผลงมาจาก เดช, จากบาลี เตช — Pali teja, 'power'. The -ชา is the end of that stem.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "มาก ๆ + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "use": "false-split"
+  },
+  {
+   "th": "ชาตา",
+   "rtgs": "cha-ta",
+   "ipa": "/t͡ɕʰaː˧.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปแบบอื่นของ ชะตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ตา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "tea + eye",
+   "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + พ่อของแม่",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ราชา",
+   "rtgs": "ra-cha",
+   "ipa": "/raː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "king"
+    ],
+    "th": "(พระ~) พระเจ้าแผ่นดิน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รา",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รา"
+   ],
+   "lit": "joist + tea",
+   "lit_th": "ไม้ที่กระหนาบอยู่ใต้ท้องพรึงรับพื้ + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ชาระ",
+   "rtgs": "cha-ra",
+   "ipa": "/t͡ɕʰaː˧.raʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชายชู้, ชายที่รัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ระ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + กระทบเรียดไป",
+   "use": "false-split"
+  },
+  {
+   "th": "ชาติ",
+   "rtgs": "chat",
+   "ipa": "/t͡ɕʰaːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การเกิด, กำเนิด, มักใช้ว่า ชาติเกิด หรือ ชาติกำเนิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ติ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ติ"
+   ],
+   "lit": "tea + accuse",
+   "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + ชี้ข้อบกพร่อง",
+   "use": "false-split"
+  },
+  {
+   "th": "อาชา",
+   "rtgs": "a-cha",
+   "ipa": "/ʔaː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ม้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: a horse, from Pali/Sanskrit ājānīya (compare อาชาไนย). Nothing to do with tea, numbness or any other sense here. No etymology stated, so probable.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "อา"
+   ],
+   "lit": "father's younger sibling + tea",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "สุชา",
+   "rtgs": "su-cha",
+   "ipa": "/su˨˩.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้มีกำเนิดดี, ลูกผู้มีสกุลดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สุ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ซักสบงจีวรวิธีหนึ่งโดยใช้น้ำร้อนหร + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "use": "false-split"
+  },
+  {
+   "th": "ชายา",
+   "rtgs": "cha-ya",
+   "ipa": "/t͡ɕʰaː˧.jaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภรรยา (ที่ไม่เป็นเจ้า)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ยา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: a wife. Sanskrit जाया jāyā. Already tagged false-split on the head ยา for the same reason — the word splits into neither ชา + ยา nor ยา.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ยา"
+   ],
+   "lit": "tea + medicine",
+   "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ",
+   "flips_with": "ยาชา",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ความชา",
+   "rtgs": "khwam-cha",
+   "ipa": "/kʰwaːm˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + tea",
+   "lit_th": "เรื่อง + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "entity"
+  },
+  {
+   "th": "เกชา",
+   "rtgs": "ke-cha",
+   "ipa": "/keː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้หญิงญี่ปุ่นที่มีศิลปะและวิชาชีพในการปรนนิบัติผู้ชาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เก",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "cross_listed": [
+    "เก"
+   ],
+   "lit": "out of line + tea",
+   "lit_th": "ไม่ตรงตามแนว + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "ความชินชา",
+   "rtgs": "khwam-chin-cha",
+   "ipa": "/kʰwaːm˧.t͡ɕʰin˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชินชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความชิน",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชิน + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "entity"
+  },
+  {
+   "th": "ประชา",
+   "rtgs": "pra-cha",
+   "ipa": "/pra˨˩.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หมู่คน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ประ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "use": "false-split"
+  },
+  {
+   "th": "โอชา",
+   "rtgs": "o-cha",
+   "ipa": "/ʔoː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีรสดี, อร่อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โอ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "โอ"
+   ],
+   "lit": "pomelo + tea",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "วิชา",
+   "rtgs": "wi-cha",
+   "ipa": "/wi˦˥.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "course",
+     "subject"
+    ],
+    "th": "ความรู้, ความรู้ที่ได้ด้วยการเล่าเรียนหรือฝึกฝน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "วิ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ วินาที + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "กันชา",
+   "rtgs": "kan-cha",
+   "ipa": "/kan˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดเลิกใช้ของ กัญชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กัน",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: a retired spelling of กัญชา, which the dictionary gives as ยืมมาจากเขมร កញ្ឆា, จากจามตะวันตก, หรือจากสันสกฤต गञ्जा. A whole borrowing with no Thai parts.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "PRON+N",
+   "head": 1,
+   "lit_th": "สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูดเ + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "use": "false-split"
+  },
+  {
+   "th": "บรรพชา",
+   "rtgs": "ban-pha-cha",
+   "ipa": "/ban˧.pʰa˦˥.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การบวช",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บรรพ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เล่ม + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ชาดก",
+   "rtgs": "cha-dok",
+   "ipa": "/t͡ɕʰaː˧.dok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรื่องพระพุทธเจ้าที่มีมาในพระชาติก่อน ๆ ตามที่กล่าวไว้ในคัมภีร์ชื่อนี้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "ดก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + มาก",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "ชามาดา",
+   "rtgs": "cha-ma-da",
+   "ipa": "/t͡ɕʰaː˧.maː˧.daː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลูกเขย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชา",
+    "มาดา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + แม่",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ฦๅชา",
+   "rtgs": "lue-cha",
+   "ipa": "/lɯː˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปเลิกใช้ของ ลือชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฦๅ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "รูปสระในภาษาสันสกฤต ซึ่งเป็นเสียงย + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si"
+  },
+  {
+   "th": "การชา",
+   "rtgs": "kan-cha",
+   "ipa": "/kaːn˧.t͡ɕʰaː˧/",
+   "gloss": {
+    "en": [
+     "anaesthesia"
+    ],
+    "th": "คำอาการนามของ ชา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ชา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ชื่อไม้ต้นขนาดเล็กชนิด Camellia si",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ɟaːᴬ, จากจีนยุคกลาง 茶 (MC drae); ร่วมเชื้อสายกับจ้วง caz, จ้วงแบบจั่วเจียง chaz ยืมมาจากเขมร ជា (ชา, “เป็น; สบาย, ไม่ป่วยไข้”) [เจีย]",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha-2",
+   "label": "ชะ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ชา is chaa, ชะ is chá — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha-3",
+   "label": "จะ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ชา is chaa, จะ is jà — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha-4",
+   "label": "ช้า",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ชา is chaa, ช้า is cháa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "tea",
+  "asleep"
+ ]
+}

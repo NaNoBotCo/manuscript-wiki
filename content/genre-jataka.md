@@ -382,3 +382,12 @@ Son 55, Phayao 37). That shape is deceptive — see the first note.
   [Lokanīti](/a?s=entity:lokaniti) page — have been filed **into this genre**, because a
   Pali title on a palm leaf reads as scripture to a cataloguer and a birth-tale is
   scripture's nearest shelf.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **The deepest roots in the collection** — The ten earliest-dated manuscripts, reaching back to 1471 CE — the far anchor of the single continuous timeline that runs all the way to today's amulet stalls. [see the finding →](/findings#chronologydeep-roots)
+- **The heavyweights: the longest manuscripts** — The twelve longest texts by leaf count, led by one running to 1,046 leaves. [see the finding →](/findings#scaleepic-length)
+<!-- derived:end -->

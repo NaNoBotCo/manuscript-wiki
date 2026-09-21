@@ -1,0 +1,17 @@
+{
+ "head": "tok",
+ "rule": "ตก has sixteen senses off one motion, falling, and the trick is that its CORE was empty — plain physical falling had no compounds at all, though half this list is exactly that: ดาวตก, ตะวันตก, ตกตะกอน, ตกผลึก, เก็บตก, เก็บข้าวตก, ตกกล้า, and ตกหลุม / ตกหลุมพราง, which mean being deceived but are still someone dropping into a pit. Sense 2, flowing or dripping down, was also empty and takes น้ำตก and ตกมัน, the oil running at an elephant's temple. After that the senses are read off the gloss: an undesirable state (ตกงาน, สอบตก) is 6, arriving or coming through is 7 (ตกทอด, ตกเบิก), coming out is 8 (ตกกระ), going missing is 9 (ตกค้าง), dropping low from fear or exhaustion is 11 (ตกใจ, จิตตก), completion is 12 (ตกแต่ง), the hook is 13 (ตกเบ็ด) and the lure is 14 (ตกทอง).",
+ "senses": {
+  "1": ["ดาวตก","ตกกล้า","ตกตะกอน","ตกผลึก","ตกหลุม","ตกหลุมพราง","ตะวันตก","เก็บข้าวตก","เก็บตก"],
+  "2": ["ตกมัน","น้ำตก"],
+  "6": ["ตกงาน","สอบตก"],
+  "7": ["ตกทอด","ตกเบิก"],
+  "8": ["ตกกระ"],
+  "9": ["ตกค้าง"],
+  "11": ["จิตตก","ตกใจ"],
+  "12": ["ตกแต่ง"],
+  "13": ["ตกเบ็ด"],
+  "14": ["ตกทอง"],
+  "15": ["ตกรางวัล"]
+ }
+}

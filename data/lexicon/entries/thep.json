@@ -1,0 +1,857 @@
+{
+ "id": "w:thep",
+ "th": "เทพ",
+ "status": "mapped",
+ "rtgs": "thep",
+ "paiboon": "têep",
+ "ipa": "/tʰeːp̚˥˩/",
+ "syllable_respelling": "เทบ-พะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "เทวดา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:spirit"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ทวยเทพ",
+     "rtgs": "thuai-thep",
+     "ipa": "/tʰua̯j˧.tʰeːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหล่าเทวดา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทวย",
+      "เทพ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.21, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หมู่ + เทวดา",
+     "frame": "entity"
+    },
+    {
+     "th": "เทพบุตร",
+     "rtgs": "thep-pha-but",
+     "ipa": "/tʰeːp̚˥˩.pʰa˦˥.but̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เทวดาผู้ชาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทพ",
+      "บุตร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.20, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "god + fruit",
+     "lit_th": "เทวดา + ลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "เทพธิดา",
+     "rtgs": "thep-thi-da",
+     "ipa": "/tʰeːp̚˥˩.tʰi˦˥.daː˧/",
+     "gloss": {
+      "en": [
+       "goddess"
+      ],
+      "th": "เทวดาผู้หญิง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เทพ",
+      "ธิดา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.44, next 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เทวดา + ลูกหญิง",
+     "frame": "entity"
+    },
+    {
+     "th": "เทพเจ้า",
+     "rtgs": "thep-pha-chao",
+     "ipa": "/tʰeːp̚˥˩.pʰa˦˥.t͡ɕaːw˥˩/",
+     "gloss": {
+      "en": [
+       "atheist"
+      ],
+      "th": "เทวดาผู้เป็นใหญ่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เทพ",
+      "เจ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.19, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "god + thou",
+     "lit_th": "เทวดา + ผู้เป็นใหญ่",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ชื่อเพลงไทยจำพวกหนึ่งที่มีชื่อขึ้นต้นด้วยคำว่า เทพ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:spirit"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เทพนิมิต",
+     "rtgs": "thep-ni-mit",
+     "ipa": "/tʰeːp̚˥˩.ni˦˥.mit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบึงสามัคคี จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทพ",
+      "นิมิต"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อเพลงไทยจำพวกหนึ่งที่มีชื่อขึ้น + สร้าง"
+    },
+    {
+     "th": "สุเทพ",
+     "rtgs": "su-thep",
+     "ipa": "/su˨˩.tʰeːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อจริงชาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุ",
+      "เทพ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a personal-name; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ซักสบงจีวรวิธีหนึ่งโดยใช้น้ำร้อนหร + ชื่อเพลงไทยจำพวกหนึ่งที่มีชื่อขึ้น"
+    },
+    {
+     "th": "ศรีเทพ",
+     "rtgs": "si-thep",
+     "ipa": "/siː˩˩˦.tʰeːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเพชรบูรณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศรี",
+      "เทพ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ศรี"
+     ],
+     "lit": "splendour + god",
+     "lit_th": "มิ่ง + ชื่อเพลงไทยจำพวกหนึ่งที่มีชื่อขึ้น",
+     "frame": "entity"
+    },
+    {
+     "th": "เทพสถิต",
+     "rtgs": "thep-sa-thit",
+     "ipa": "/tʰeːp̚˥˩.sa˨˩.tʰit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดชัยภูมิ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทพ",
+      "สถิต"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อเพลงไทยจำพวกหนึ่งที่มีชื่อขึ้น + อยู่"
+    },
+    {
+     "th": "เทพกระษัตรี",
+     "rtgs": "thep-ka-sat-tri",
+     "ipa": "/tʰeːp̚˥˩.ka˨˩.sat̚˨˩.triː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอถลาง จังหวัดภูเก็ต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทพ",
+      "กระษัตรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อเพลงไทยจำพวกหนึ่งที่มีชื่อขึ้น + ผู้หญิง",
+     "frame": "entity"
+    },
+    {
+     "th": "เทพราช",
+     "rtgs": "thep-pha-rat",
+     "ipa": "/tʰeːp̚˥˩.pʰa˦˥.raːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านโพธิ์ จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทพ",
+      "ราช"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ราช"
+     ],
+     "lit": "god + king",
+     "lit_th": "ชื่อเพลงไทยจำพวกหนึ่งที่มีชื่อขึ้น + พระเจ้าแผ่นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "เทพเสด็จ",
+     "rtgs": "thep-sa-det",
+     "ipa": "/tʰeːp̚˥˩.sa˨˩.det̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอดอยสะเก็ด จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทพ",
+      "เสด็จ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อเพลงไทยจำพวกหนึ่งที่มีชื่อขึ้น + คำเรียกเจ้านายชั้นพระองค์เจ้าที่เป",
+     "frame": "entity"
+    },
+    {
+     "th": "เทพนคร",
+     "rtgs": "thep-na-khon",
+     "ipa": "/tʰeːp̚˥˩.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกำแพงเพชร จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทพ",
+      "นคร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นคร"
+     ],
+     "lit": "god + city",
+     "lit_th": "ชื่อเพลงไทยจำพวกหนึ่งที่มีชื่อขึ้น + เมืองใหญ่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A class of Thai songs whose titles open with เทพ.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "สมณศักดิ์พระราชาคณะสูงกว่าชั้นราช ต่ำกว่าชั้นธรรม เช่น พระเทพโมลี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:spirit"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ชั้นเทพ",
+     "rtgs": "chan-thep",
+     "ipa": "/t͡ɕʰan˦˥.tʰeːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชั้นสมณศักดิ์พระราชาคณะที่สูงกว่าชั้นราช แต่ต่ำกว่าชั้นธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชั้น",
+      "เทพ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.63, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "layer + god",
+     "lit_th": "ที่สำหรับวางของอย่างหนึ่ง มีพื้นซ้ + สมณศักดิ์พระราชาคณะสูงกว่าชั้นราช",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "An ecclesiastical grade named from the gods — above ชั้นราช, below ชั้นธรรม.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ผู้ที่มีคุณสมบัติหรือความสามารถเหนือคนธรรมดา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:spirit"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Modern: someone whose ability is not ordinary.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 9 manuscript titles, 447 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['เทวดา', 'เทพ'].",
+ "compounds_unassigned": [
+  {
+   "th": "เทพพยากรณ์",
+   "rtgs": "thep-pha-ya-kon",
+   "ipa": "/tʰeːp̚˥˩.pʰa˦˥.jaː˧.kɔːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำทำนายเหตุการณ์ในอนาคตที่มนุษย์ได้รับจากพระเจ้า หรือเทพเจ้าโดยมากมีคนทรง หรือนักบวชเป็นสื่อกลาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เทพ",
+    "พยากรณ์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "god + predict",
+   "lit_th": "เทวดา + ทำนายหรือคาดการณ์โดยอาศัยหลักวิชา"
+  },
+  {
+   "th": "กรุงเทพ",
+   "rtgs": "krung-thep",
+   "ipa": "/kruŋ˧.tʰeːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาณาจักรอยุธยา ( ราชอาณาจักร ตามชื่อปัจจุบันของ พระนครศรีอยุธยา จังหวัด, ไทย)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรุง",
+    "เทพ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เมืองหลวง + เทวดา",
+   "frame": "entity"
+  },
+  {
+   "th": "มนุษยเทพ",
+   "rtgs": "ma-nut-sa-ya-thep",
+   "ipa": "/ma˦˥.nut̚˦˥.sa˨˩.ja˦˥.tʰeːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กษัตริย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มนุษย",
+    "เทพ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สัตว์ที่รู้จักใช้เหตุผล + เทวดา",
+   "frame": "entity"
+  },
+  {
+   "th": "สมมุติเทพ",
+   "rtgs": "som-mut-ti-thep",
+   "ipa": "/som˩˩˦.mut̚˦˥.ti˨˩.tʰeːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เทวดาโดยสมมติ หมายถึง พระเจ้าแผ่นดิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สมมุติ",
+    "เทพ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "suppose + god",
+   "lit_th": "รู้สึกนึกเอาว่า + เทวดา"
+  },
+  {
+   "th": "เทพนิยาย",
+   "rtgs": "thep-ni-yai",
+   "ipa": "/tʰeːp̚˥˩.ni˦˥.jaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นิทานหรือตำนานเกี่ยวกับเทวดา, นิทานที่มีเทวดานางฟ้าเป็นตัวละครในเรื่อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เทพ",
+    "นิยาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "god + fiction",
+   "lit_th": "เทวดา + เรื่องที่เล่ากันมา",
+   "frame": "entity"
+  },
+  {
+   "th": "สมมติเทพ",
+   "rtgs": "som-mot-ti-thep",
+   "ipa": "/som˩˩˦.mot̚˦˥.ti˨˩.tʰeːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปแบบอื่นของ สมมุติเทพ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สมมติ",
+    "เทพ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ สมมุติ + เทวดา"
+  },
+  {
+   "th": "กามเทพ",
+   "rtgs": "kam-ma-thep",
+   "ipa": "/kaːm˧.ma˦˥.tʰeːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เทพเจ้าแห่งความรัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กาม",
+    "เทพ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "กาม"
+   ],
+   "lit": "desire + god",
+   "lit_th": "ความใคร่ + เทวดา",
+   "frame": "entity"
+  },
+  {
+   "th": "มหาเทพ",
+   "rtgs": "ma-ha-thep",
+   "ipa": "/ma˦˥.haː˩˩˦.tʰeːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เทวดาผู้เป็นใหญ่ (โดยมากใช้เรียกพระอิศวร)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มหา",
+    "เทพ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.11, next 0.02 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ใหญ่ + เทวดา",
+   "use": "false-split"
+  },
+  {
+   "th": "นรเทพ",
+   "rtgs": "no-ra-thep",
+   "ipa": "/nɔː˧.ra˦˥.tʰeːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระราชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นร",
+    "เทพ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.12, next 0.00 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คน + เทวดา",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "นฤเทพ",
+   "rtgs": "na-rue-thep",
+   "ipa": "/na˦˥.rɯ˦˥.tʰeːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระราชา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นฤ",
+    "เทพ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.12, next 0.00 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คน + เทวดา",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต देव (เทว) หรือ บาลี เทว",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "god",
+  "deva"
+ ]
+}

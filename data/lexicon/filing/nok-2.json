@@ -1,0 +1,9 @@
+{
+ "head": "nok-2",
+ "rule": "นอก is the outside, and the split is spatial against relational. Sense 1 is physically outside something — ภายนอก, นอกชาน (the terrace past the eaves), คนไข้นอก. Sense 2 is being outside a GROUP or a bound rather than a wall: คนนอก an outsider, นอกเรื่อง off the subject, นอกจาก excepted from, and นอกใจ, going outside a marriage. Sense 3 is abroad and takes นักเรียนนอก, one who studied overseas, beside ของนอก already there — note the head has three separate senses (3, 4, 5) for degrees of foreignness, and only the plainest of them is used here.",
+ "senses": {
+  "1": ["คนไข้นอก","นอกชาน","ภายนอก"],
+  "2": ["คนนอก","นอกจาก","นอกเรื่อง","นอกใจ"],
+  "3": ["นักเรียนนอก"]
+ }
+}

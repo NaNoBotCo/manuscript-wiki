@@ -1,0 +1,1852 @@
+{
+ "id": "w:khao",
+ "th": "ข้าว",
+ "status": "mapped",
+ "rtgs": "khao",
+ "paiboon": "kâao",
+ "ipa": "/kʰaːw˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ์ Gramineae โดยเฉพาะชนิด Oryza sativa L. เมล็ดเป็นอาหารหลัก มีหลายพันธุ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หลุมข้าว",
+     "rtgs": "lum-khao",
+     "ipa": "/lum˩˩˦.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโนนสูง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลุม",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "lacuna + rice",
+     "lit_th": "ที่ซึ่งมีลักษณะเป็นบ่อ มักมีขนาดเล + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวเกรียบ",
+     "rtgs": "khao-kriap",
+     "ipa": "/kʰaːw˥˩.kria̯p̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินทำด้วยแป้งข้าวเจ้าหรือแป้งข้าวเหนียว เป็นแผ่นตากให้แห้ง แล้วปิ้งหรือทอด มีหลายชนิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "เกรียบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ของกินที่ทำด้วยข้าวเป็นแผ่น ๆ มีหล",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวเหนียว",
+     "rtgs": "khao-niao",
+     "ipa": "/kʰaːw˥˩.nia̯w˩˩˦/",
+     "gloss": {
+      "en": [
+       "glutinous rice"
+      ],
+      "th": "ชื่อข้าวพันธุ์หนึ่งของชนิด Oryza sativa L. เนื้อเมล็ดขุ่นกว่าข้าวเจ้า เมื่อหุงหรือนึ่งแล้วเมล็ดจะเหนียวติดกัน มีชื่อต่าง ๆ กัน เช่น ข้าวเหนียวเขี้ยวงู ข้าวเหนียวดำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "เหนียว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "rice + sticky",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ดึงขาดยาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ข้าวกัญญา",
+     "rtgs": "khao-kan-ya",
+     "ipa": "/kʰaːw˥˩.kan˧.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวเหนียวดำพันธุ์หนึ่งที่เมล็ดดำเป็นมัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "กัญญา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + สาวรุ่น",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวเจ้า",
+     "rtgs": "khao-chao",
+     "ipa": "/kʰaːw˥˩.t͡ɕaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อข้าวพันธุ์หนึ่งของชนิด Oryza sativa L. เนื้อเมล็ดใสใช้หุงเป็นอาหาร เมื่อหุงแล้วเมล็ดมักร่วนและสวย มีชื่อต่าง ๆ กัน เช่น ข้าวปิ่นแก้ว ข้าวมันปู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "เจ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "rice + thou",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ผู้เป็นใหญ่",
+     "frame": "entity"
+    },
+    {
+     "th": "เกี่ยวข้าว",
+     "rtgs": "kiao-khao",
+     "ipa": "/kia̯w˨˩.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเพลงพื้นบ้านของภาคกลาง เรียกว่า เพลงเกี่ยวข้าว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกี่ยว",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "อาการที่สิ่งงอเป็นขอเกาะติดหรือเหน + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ"
+    },
+    {
+     "th": "ข้าวแดง",
+     "rtgs": "khao-daeng",
+     "ipa": "/kʰaːw˥˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมล็ดข้าวที่มีปลอกรำสีแดงหุ้มอยู่ร้อยละ 25 ของเนื้อที่เมล็ดข้าวหรือมากกว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "rice + red",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ข้าวเบือ",
+     "rtgs": "khao-buea",
+     "ipa": "/kʰaːw˥˩.bɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวสารที่ตำละเอียด ใช้ประสมกับน้ำแกงเพื่อให้น้ำแกงข้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "เบือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ข้าวสารที่ตำประสมกับเครื่องแกงเพื่",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวคั่ว",
+     "rtgs": "khao-khua",
+     "ipa": "/kʰaːw˥˩.kʰua̯˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวสารที่นำมาคั่วแล้วโขลกให้แหลก ใช้ใส่อาหารประเภทลาบแบบอีสานเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "คั่ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + เอาสิ่งของใส่กระเบื้องหรือกระทะตั้"
+    },
+    {
+     "th": "ข้าวปลูก",
+     "rtgs": "khao-pluk",
+     "ipa": "/kʰaːw˥˩.pluːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อวัยวะเพศชาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ปลูก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "rice + build",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + เอาต้นไม้หรือเมล็ด หน่อ หัว เป็นต้"
+    },
+    {
+     "th": "ข้าวหนัก",
+     "rtgs": "khao-nak",
+     "ipa": "/kʰaːw˥˩.nak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลุ่มพันธุ์ข้าวที่ได้ผลช้ากว่ากลุ่มพันธุ์ข้าวอื่น ออกรวงประมาณเดือนพฤศจิกายนถึงเดือนธันวาคม และเก็บเกี่ยวได้ในช่วงเดือนธันวาคมถึงเดือนมกราคม เช่น พันธุ์ข้าวขาวตาแห้ง 17 พันธุ์ข้าวพวงนาก 16",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "หนัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "rice + heavy",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + มีน้ำหนักมาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ข้าวบิณฑ์",
+     "rtgs": "khao-bin",
+     "ipa": "/kʰaːw˥˩.bin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวตอกปั้นเป็นรูปทรงคล้ายดอกบัวตูม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "บิณฑ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ก้อน",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวสาร",
+     "rtgs": "khao-san",
+     "ipa": "/kʰaːw˥˩.saːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวเปลือกที่สีซ้อมจนเหลือแต่เมล็ดขาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "สาร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "rice + matter",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + แก่น",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวเปลือก",
+     "rtgs": "khao-plueak",
+     "ipa": "/kʰaːw˥˩.plɯa̯k̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมล็ดข้าวที่ยังไม่ได้เอาเปลือกออก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "เปลือก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "rice + coat",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ส่วนที่หุ้มนอกของสิ่งต่าง ๆ เช่น ต",
+     "frame": "entity"
+    },
+    {
+     "th": "เก็บข้าว",
+     "rtgs": "kep–khao",
+     "ipa": "/kep̚˨˩.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาข้าวมาจากลูกหนี้แทนเงินที่ยืมไปใช้ก่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เก็บ",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เก็บ"
+     ],
+     "lit": "keep + rice",
+     "lit_th": "เอาไปหรือเอามาจากที่ + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ"
+    },
+    {
+     "th": "ข้าวตอก",
+     "rtgs": "khao-tok",
+     "ipa": "/kʰaːw˥˩.tɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวเปลือกข้าวเจ้าที่เอามาคั่วให้แตกบานเป็นดอก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ตอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "rice + hammer",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + เอาค้อนหรือสิ่งอื่นตีตะปูหรือหลักเ"
+    },
+    {
+     "th": "ข้าวโภชน์",
+     "rtgs": "khao-phot",
+     "ipa": "/kʰaːw˥˩.pʰoːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปเลิกใช้ของ ข้าวโพด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "โภชน์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + รูปแบบอื่นของ โภชนะ",
+     "frame": "entity"
+    },
+    {
+     "th": "ขวัญข้าว",
+     "rtgs": "khwan–khao",
+     "ipa": "/kʰwan˩˩˦.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มิ่งขวัญของข้าวซึ่งเจ้าของทำพิธีเชื้อเชิญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "khwan + rice",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ",
+     "flips_with": "ข้าวขวัญ",
+     "frame": "entity"
+    },
+    {
+     "th": "กากข้าว",
+     "rtgs": "kak-khao",
+     "ipa": "/kaːk̚˨˩.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวเปลือกที่ปนอยู่ในข้าวสารหรือข้าวสุก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กาก",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิ่งที่เหลือเมื่อคั้นหรือคัดเอาส่ว + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวกล้อง",
+     "rtgs": "khao-klong",
+     "ipa": "/kʰaːw˥˩.klɔŋ˥˩/",
+     "gloss": {
+      "en": [
+       "brown rice"
+      ],
+      "th": "ข้าวที่ตำหรือสีเอาเปลือกออกครั้งแรก ยังมีจมูกข้าวและเยื่อสีแดง ๆ หุ้มเมล็ดข้าวอยู่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "กล้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + วัตถุลักษณะยาวกลวงตลอด",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวเบา",
+     "rtgs": "khao-bao",
+     "ipa": "/kʰaːw˥˩.baw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลุ่มพันธุ์ข้าวที่ได้ผลเร็วกว่ากลุ่มพันธุ์ข้าวอื่น ออกรวงในช่วงปลายเดือนกันยายนถึงกลางเดือนตุลาคม และเก็บเกี่ยวได้ในช่วงต้นเดือนพฤศจิกายนถึงกลางเดือนพฤศจิกายน เช่น พันธุ์ข้าวเหนียวหางยี 71 พันธุ์ข้าวน้ำสะกุย 19, พายัพและ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "เบา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "rice + mild",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + มีน้ำหนักน้อย",
+     "frame": "quality"
+    },
+    {
+     "th": "นาบข้าว",
+     "rtgs": "nap-khao",
+     "ipa": "/naːp̚˥˩.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาไม้ยาวกดต้นข้าวที่มีรวงแก่แล้วให้ราบลงเพื่อสะดวกในการเกี่ยวข้าว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาบ",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอาสิ่งที่มีความร้อนรีดหรือกดลงไป + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ"
+    },
+    {
+     "th": "ข้าวต้อง",
+     "rtgs": "khao-tong",
+     "ipa": "/kʰaːw˥˩.tɔŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต้นข้าวในนาที่โศกใบเหลืองไป ซึ่งถือกันว่าถูกผีกระทำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ต้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ถูก"
+    },
+    {
+     "th": "ข้าวมันปู",
+     "rtgs": "khao-man-pu",
+     "ipa": "/kʰaːw˥˩.man˧.puː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวเจ้าที่มีสีแดงคล้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "มันปู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + สีแดงเจือเหลืองกับดำ",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "อาหาร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กับข้าว",
+     "rtgs": "kap-khao",
+     "ipa": "/kap̚˨˩.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาหารซึ่งปรกติใช้กินพร้อมข้าว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กับ",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.13, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "and + rice",
+     "lit_th": "เครื่องดักสัตว์ชนิดหนึ่ง มีลิ้นหรื + อาหาร",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวหลาม",
+     "rtgs": "khao-lam",
+     "ipa": "/kʰaːw˥˩.laːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวเหนียวที่บรรจุในกระบอกไม้ไผ่แล้วเผาให้สุก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "หลาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวอบ",
+     "rtgs": "khao-op",
+     "ipa": "/kʰaːw˥˩.ʔop̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวสุกที่ปรุงรสและใส่เครื่องปรุงต่าง ๆ แล้วอบให้ร้อน เรียกชื่อต่างกันไปตามเครื่องปรุง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "อบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "rice + bake",
+     "lit_th": "อาหาร + ปรุงกลิ่นด้วยควันหรือรมด้วยกลิ่นใน"
+    },
+    {
+     "th": "ไข่ข้าว",
+     "rtgs": "khai-khao",
+     "ipa": "/kʰaj˨˩.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ที่ฟักไม่เป็นตัวต้มแล้วแข็งและเหนียวผิดปรกติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "egg + rice",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + อาหาร",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวของ",
+     "rtgs": "khao-khong",
+     "ipa": "/kʰaːw˥˩.kʰɔːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งของต่าง ๆ มีเครื่องใช้เครื่องประดับเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ของ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "rice + by",
+     "lit_th": "อาหาร + สิ่งต่าง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวแขก",
+     "rtgs": "khao-khaek",
+     "ipa": "/kʰaːw˥˩.kʰɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อขนมชนิดหนึ่งทำด้วยข้าวเปียก มีหน้าคล้ายตะโก้ แต่สีเหลือง มีรสเค็ม ๆ มัน ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "แขก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "rice + guest",
+     "lit_th": "อาหาร + ผู้มาหา",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวมัน",
+     "rtgs": "khao-man",
+     "ipa": "/kʰaːw˥˩.man˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวเจ้าที่หุงด้วยกะทิ มักกินกับส้มตำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "มัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มัน"
+     ],
+     "lit": "rice + it",
+     "lit_th": "อาหาร + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวเปียก",
+     "rtgs": "khao-piak",
+     "ipa": "/kʰaːw˥˩.pia̯k̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวที่ต้มและกวนให้เละ, ข้าวที่ต้มกับน้ำกะทิเจือเกลือเล็กน้อย กวนให้สุกจนข้นหรือเละ มีรสเค็ม ๆ มัน ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "เปียก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "rice + wet",
+     "lit_th": "อาหาร + มีน้ำชุ่มปนผสมอยู่หรือติดอยู่"
+    },
+    {
+     "th": "ข้าวหมก",
+     "rtgs": "khao-mok",
+     "ipa": "/kʰaːw˥˩.mok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาหารชนิดหนึ่งของมุสลิม ประกอบด้วยข้าวสวยปรุงด้วยเครื่องเทศและขมิ้น มีเนื้อไก่หรือเนื้อแพะหมกในข้าว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "หมก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อาหาร + ซุกไว้ใต้"
+    },
+    {
+     "th": "ข้าวหมาก",
+     "rtgs": "khao-mak",
+     "ipa": "/kʰaːw˥˩.maːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินอย่างหนึ่ง ทำด้วยข้าวเหนียวนึ่งแล้วหมักกับแป้งเชื้อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "หมาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หมาก"
+     ],
+     "lit": "rice + areca palm",
+     "lit_th": "อาหาร + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวผัด",
+     "rtgs": "khao-phat",
+     "ipa": "/kʰaːw˥˩.pʰat̚˨˩/",
+     "gloss": {
+      "en": [
+       "fried rice"
+      ],
+      "th": "ข้าวสุกผัดกับน้ำมันใส่หมูเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ผัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อาหาร + เอาสิ่งที่ใช้เป็นอาหารใส่ลงในกระทะ"
+    },
+    {
+     "th": "ข้าวขวัญ",
+     "rtgs": "khao–khwan",
+     "ipa": "/kʰaːw˥˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวบายศรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ขวัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "rice + khwan",
+     "lit_th": "อาหาร + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "flips_with": "ขวัญข้าว",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวเสวย",
+     "translit_auto": "khawsewi",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าว (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "เสวย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อาหาร + กิน"
+    },
+    {
+     "th": "ข้าวสวย",
+     "rtgs": "khao-suai",
+     "ipa": "/kʰaːw˥˩.sua̯j˩˩˦/",
+     "gloss": {
+      "en": [
+       "steamed rice"
+      ],
+      "th": "ข้าวที่หุงสุกแล้ว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "สวย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "rice + beautiful",
+     "lit_th": "อาหาร + งามน่าพึงพอใจ",
+     "frame": "quality"
+    },
+    {
+     "th": "ข้าวต้ม",
+     "rtgs": "khao-tom",
+     "ipa": "/kʰaːw˥˩.tom˥˩/",
+     "gloss": {
+      "en": [
+       "porridge"
+      ],
+      "th": "ข้าวที่ต้มให้สุก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ต้ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "rice + boil",
+     "lit_th": "อาหาร + ทำให้ของเหลวเช่นน้ำหรือสิ่งอื่นที่"
+    },
+    {
+     "th": "น้ำข้าว",
+     "rtgs": "nam-khao",
+     "ipa": "/nam˦˥.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ได้จากข้าวเมื่อหุงแล้วเช็ดน้ำหรือตักน้ำออก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + rice",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + อาหาร",
+     "frame": "entity"
+    },
+    {
+     "th": "ตาน้ำข้าว",
+     "rtgs": "ta-nam-khao",
+     "ipa": "/taː˧.nam˦˥.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเรียกคนผิวขาวชาวตะวันตก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตาน้ำ",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit_th": "ทางน้ำใต้ดินที่มีน้ำไหลไม่ขาดสาย + อาหาร",
+     "frame": "entity"
+    },
+    {
+     "th": "ก่องข้าว",
+     "translit_auto": "kongkhaw",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อภาชนะสานชนิดหนึ่ง ใช้สำหรับเก็บข้าวเหนียวนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก่อง",
+      "ข้าว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เครื่องประดับหน้าอก + อาหาร",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวตาก",
+     "rtgs": "khao-tak",
+     "ipa": "/kʰaːw˥˩.taːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวสุกที่ตากแห้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ตาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อาหาร + ผึ่งให้แห้ง"
+    },
+    {
+     "th": "ข้าวสุก",
+     "rtgs": "khao-suk",
+     "ipa": "/kʰaːw˥˩.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวที่หุงสุกแล้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "สุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อาหาร + พ้นจากห่าม"
+    },
+    {
+     "th": "ข้าวหมูกรอบ",
+     "rtgs": "khao-mu-krop",
+     "ipa": "/kʰaːw˥˩.muː˩˩˦.krɔːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวสุกมีหมูกรอบวางข้างบน กินกับน้ำจิ้มทำจากซีอิ๊วและพริกชี้ฟ้าหั่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "หมูกรอบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อาหาร + หมูสามชั้นที่ต้มคลุกเกลือ แล้วทอดใ",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวปั้น",
+     "rtgs": "khao-pan",
+     "ipa": "/kʰaːw˥˩.pan˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวปากหม้อปั้นเป็นก้อนขนาดพอมือ มี 5 สี คือ สีขาวของข้าว สีครามจากครามย้อมผ้า สีดำจากเขม่าดำที่ติดก้นหม้อ สีเหลืองจากขมิ้น และสีแดงจากปูนแดง จำนวน 3-5 ก้อน นำมาวนตัวเด็กที่ป่วย เป็นการปัดรังควาน แล้วโยนข้าวทีละก้อนให้ข้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "ปั้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อาหาร + เอาสิ่งอ่อน ๆ เช่นขี้ผึ้ง ดินเหนีย"
+    },
+    {
+     "th": "ข้าวจี่",
+     "rtgs": "khao-chi",
+     "ipa": "/kʰaːw˥˩.t͡ɕiː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวเหนียวนึ่งที่นำมาปั้นเป็นก้อนหรือเสียบไม้ย่างไฟมักทาด้วยไข่ไก่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "จี่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อาหาร + เผา"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Rice stands for food itself — กินข้าว is to eat at all.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ขวบปี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "One harvest counts one year, as เข้า does in the old reckoning.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 14 manuscript titles, 22 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 54; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "การเกี่ยวข้าว",
+   "rtgs": "kan-kiao-khao",
+   "ipa": "/kaːn˧.kia̯w˨˩.kʰaːw˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เกี่ยวข้าว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเกี่ยว",
+    "ข้าว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เกี่ยว + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ",
+   "frame": "entity"
+  },
+  {
+   "th": "ข้าวเที่ยง",
+   "rtgs": "khao-thiang",
+   "ipa": "/kʰaːw˥˩.tʰia̯ŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ อาหารกลางวัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ข้าว",
+    "เที่ยง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ตรง",
+   "frame": "quality"
+  },
+  {
+   "th": "การนาบข้าว",
+   "rtgs": "kan-nap-khao",
+   "ipa": "/kaːn˧.naːp̚˥˩.kʰaːw˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ นาบข้าว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การนาบ",
+    "ข้าว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ นาบ + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ",
+   "frame": "entity"
+  },
+  {
+   "th": "ข้าวเย็น",
+   "rtgs": "khao-yen",
+   "ipa": "/kʰaːw˥˩.jen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ อาหารเย็น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ข้าว",
+    "เย็น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "เย็น"
+   ],
+   "lit": "rice + cold",
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+   "frame": "quality"
+  },
+  {
+   "th": "ข้าวกลางวัน",
+   "rtgs": "khao-klang-wan",
+   "ipa": "/kʰaːw˥˩.klaːŋ˧.wan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ อาหารกลางวัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ข้าว",
+    "กลางวัน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "rice + midday",
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ระยะเวลาตั้งแต่ย่ำรุ่งถึงย่ำค่ำ",
+   "frame": "entity"
+  },
+  {
+   "th": "ข้าวเช้า",
+   "rtgs": "khao-chao",
+   "ipa": "/kʰaːw˥˩.t͡ɕʰaːw˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ อาหารเช้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ข้าว",
+    "เช้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "rice + morning",
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + เวลาระหว่างรุ่งสว่างกับสาย",
+   "frame": "entity"
+  },
+  {
+   "th": "ข้าวซอย",
+   "rtgs": "khao-soi",
+   "ipa": "/kʰaːw˥˩.sɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออาหารชนิดหนึ่ง เป็นเส้นคล้ายบะหมี่ แล้วปรุงเครื่อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ข้าว",
+    "ซอย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "rice + lane",
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ทำถี่ ๆ",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *C̬.qawꟲ; ร่วมเชื้อสายกับคำเมือง ᨡᩮᩢ᩶ᩣ (เขั้า), ปักษ์ใต้ ค้าว, อีสาน เข่า หรือ เข้า, ปักษ์ใต้ ค้าว, ลาว ເຂົ້າ (เข็้า), ไทลื้อ ᦃᧁᧉ (เฃ้า), ไทดำ ꪹꪄ꫁ꪱ (เฃ้า), ไทใหญ่ ၶဝ်ႈ (ข้ว), ไทใต้คง ᥑᥝᥲ (เฃ้า), พ่าเก ၵ︀ွ် (เขา), อาหม 𑜁𑜧 (ขว์), 𑜁𑜨𑜧 (ขอ̂ว์) หรือ 𑜁𑜧𑜈𑜫 (ขว์ว์), จ้วง kaeux/haeux, แสก เกฺา",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩮᩢ᩶ᩣ",
+  "th": "เขั้า",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao-2",
+   "label": "เข้า",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". ข้าว is kâao, เข้า is kâo — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao-3",
+   "label": "เขา",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". ข้าว is kâao, เขา is kǎo — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao-4",
+   "label": "ขาว",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". ข้าว is kâao, ขาว is kǎao — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khao-5",
+   "label": "ข่าว",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khao\". ข้าว is kâao, ข่าว is kàao — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "rice"
+ ]
+}

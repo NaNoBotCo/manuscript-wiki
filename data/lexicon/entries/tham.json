@@ -1,0 +1,1630 @@
+{
+ "id": "w:tham",
+ "th": "ธรรม",
+ "status": "mapped",
+ "rtgs": "tham",
+ "paiboon": "tam",
+ "ipa": "/tʰam˧/",
+ "syllable_respelling": "ทำ-มะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "คุณความดี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "คุณธรรม",
+     "rtgs": "khun-na-tham",
+     "ipa": "/kʰun˧.na˦˥.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สภาพคุณงามความดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.24, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "คุณ"
+     ],
+     "lit": "you + dharma",
+     "lit_th": "คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค + คุณความดี",
+     "flips_with": "ธรรมคุณ"
+    },
+    {
+     "th": "ขันติธรรม",
+     "rtgs": "khan-ti-tham",
+     "ipa": "/kʰan˩˩˦.ti˨˩.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความอดกลั้น,ขันติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขันติ",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความอดกลั้นต่อสิ่งที่ไม่พอใจ + คุณความดี",
+     "frame": "entity"
+    },
+    {
+     "th": "ภูมิธรรม",
+     "rtgs": "phum-tham",
+     "ipa": "/pʰuːm˧.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พื้นจิตใจที่มีคุณธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ภูมิ"
+     ],
+     "lit": "land + dharma",
+     "lit_th": "แผ่นดิน + คุณความดี",
+     "frame": "entity"
+    },
+    {
+     "th": "ศีลธรรม",
+     "rtgs": "sin-tham",
+     "ipa": "/siːn˩˩˦.tʰam˧/",
+     "gloss": {
+      "en": [
+       "moral",
+       "morality"
+      ],
+      "th": "พฤติกรรมที่ดีและชอบ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ศีล",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ข้อบัญญัติทางพระพุทธศาสนาที่กำหนดก + คุณความดี",
+     "frame": "entity"
+    },
+    {
+     "th": "บุญธรรม",
+     "rtgs": "bun-tham",
+     "ipa": "/bun˧.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่รับมาเลี้ยงเป็นลูกของตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บุญ",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บุญ"
+     ],
+     "lit": "merit + dharma",
+     "lit_th": "ความสุข + คุณความดี",
+     "frame": "entity"
+    },
+    {
+     "th": "มนุษยธรรม",
+     "rtgs": "ma-nut-sa-ya-tham",
+     "ipa": "/ma˦˥.nut̚˦˥.sa˨˩.ja˦˥.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ธรรมของคน, ธรรมที่มนุษย์พึงมีต่อกัน มีเมตตากรุณาเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มนุษย",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สัตว์ที่รู้จักใช้เหตุผล + คุณความดี",
+     "frame": "entity"
+    },
+    {
+     "th": "มโนธรรม",
+     "rtgs": "ma-no-tham",
+     "ipa": "/ma˦˥.noː˧.tʰam˧/",
+     "gloss": {
+      "en": [
+       "conscience"
+      ],
+      "th": "ความรู้สึกว่าอะไรควรทำอะไรไม่ควรทำ, ความรู้สึกผิดชอบชั่วดี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มโน",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ใจ + คุณความดี",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "The teaching stands for the virtue it produces.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "คำสั่งสอนในศาสนา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ธรรมกถา",
+     "rtgs": "tham-ma-ka-tha",
+     "ipa": "/tʰam˧.ma˦˥.ka˨˩.tʰaː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การกล่าวธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ธรรม",
+      "กถา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำสั่งสอนในศาสนา + ถ้อยคำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงธรรม",
+     "rtgs": "song-tham",
+     "ipa": "/soŋ˧.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฟังธรรม, ฟังเทศน์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทรง"
+     ],
+     "lit": "form + dharma",
+     "lit_th": "รูปร่าง + คำสั่งสอนในศาสนา",
+     "frame": "entity"
+    },
+    {
+     "th": "นักธรรม",
+     "rtgs": "nak-tham",
+     "ipa": "/nak̚˦˥.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้รู้ธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นัก",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ใช้ประกอบหน้าคำอื่นหมายความว่า ผู้ + คำสั่งสอนในศาสนา",
+     "frame": "entity"
+    },
+    {
+     "th": "ธรรมบท",
+     "rtgs": "tham-ma-bot",
+     "ipa": "/tʰam˧.ma˦˥.bot̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้อแห่งธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ธรรม",
+      "บท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บท"
+     ],
+     "lit": "dharma + unit",
+     "lit_th": "คำสั่งสอนในศาสนา + ข้อความเรื่องหนึ่ง ๆ หรือตอนหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "ธรรมคุณ",
+     "rtgs": "tham-ma-khun",
+     "ipa": "/tʰam˧.ma˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(พระ~) คุณของพระธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ธรรม",
+      "คุณ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "คุณ"
+     ],
+     "lit": "dharma + you",
+     "lit_th": "คำสั่งสอนในศาสนา + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค",
+     "flips_with": "คุณธรรม"
+    },
+    {
+     "th": "คติธรรม",
+     "rtgs": "kha-ti-tham",
+     "ipa": "/kʰa˦˥.ti˨˩.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ธรรมที่เป็นแบบอย่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คติ",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "การไป + คำสั่งสอนในศาสนา",
+     "frame": "entity"
+    },
+    {
+     "th": "คริสต์ธรรม",
+     "translit_auto": "khristthrrm",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไบเบิล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คริสต์",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่อหนึ่งของพระเยซู + คำสั่งสอนในศาสนา"
+    },
+    {
+     "th": "เปรียญธรรม",
+     "translit_auto": "periyythrrm",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชั้นแห่งความรู้ภาษาบาลี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เปรียญ",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ผู้สอบความรู้พระปริยัติธรรมสายบาลี + คำสั่งสอนในศาสนา",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "หลักประพฤติปฏิบัติในศาสนา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And for the conduct it prescribes.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ธรรมนิยม",
+     "rtgs": "tham-ma-ni-yom",
+     "ipa": "/tʰam˧.ma˦˥.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความประพฤติที่มีธรรมเป็นที่ตั้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ธรรม",
+      "นิยม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นิยม"
+     ],
+     "lit": "dharma + like",
+     "lit_th": "หลักประพฤติปฏิบัติในศาสนา + การกำหนด",
+     "frame": "entity"
+    },
+    {
+     "th": "จริยธรรม",
+     "rtgs": "cha-ri-ya-tham",
+     "ipa": "/t͡ɕa˨˩.ri˦˥.ja˦˥.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ธรรมที่เป็นข้อประพฤติปฏิบัติ, ศีลธรรม, กฎศีลธรรม, หลักการของความประพฤติที่ควบคุมปัจเจกบุคคลหรือกลุ่มบุคคล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จริย",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความประพฤติ + หลักประพฤติปฏิบัติในศาสนา",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ความจริง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สัจธรรม",
+     "rtgs": "sat-cha-tham",
+     "ipa": "/sat̚˨˩.t͡ɕa˨˩.tʰam˧/",
+     "gloss": {
+      "en": [
+       "truth"
+      ],
+      "th": "ความจริงแท้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สัจ",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.40, next 0.13",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความจริง + ความจริง",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And for the truth it states.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ความยุติธรรม, ความถูกต้อง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ยุติธรรม",
+     "rtgs": "yut-ti-tham",
+     "ipa": "/jut̚˦˥.ti˨˩.tʰam˧/",
+     "gloss": {
+      "en": [
+       "just",
+       "fair",
+       "honest"
+      ],
+      "th": "ความเที่ยงธรรม, ความชอบธรรม, ความชอบด้วยเหตุผล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ยุติ",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "finish + dharma",
+     "lit_th": "ชอบ + ความยุติธรรม"
+    },
+    {
+     "th": "เป็นธรรม",
+     "rtgs": "pen-tham",
+     "ipa": "/pen˧.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถูกต้อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.21, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "are + dharma",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ความยุติธรรม"
+    },
+    {
+     "th": "ชอบธรรม",
+     "rtgs": "chop-tham",
+     "ipa": "/t͡ɕʰɔːp̚˥˩.tʰam˧/",
+     "gloss": {
+      "en": [
+       "just"
+      ],
+      "th": "ถูกต้องตามหลักธรรม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชอบ",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.27, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "like + dharma",
+     "lit_th": "พอใจและทำบ่อย ๆ + ความยุติธรรม"
+    },
+    {
+     "th": "เที่ยงธรรม",
+     "rtgs": "thiang-tham",
+     "ipa": "/tʰia̯ŋ˥˩.tʰam˧/",
+     "gloss": {
+      "en": [
+       "just"
+      ],
+      "th": "ตั้งตรงด้วยความเป็นธรรม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เที่ยง",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ตรง + ความยุติธรรม",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Virtue narrowed to justice and rightness.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "กฎ, กฎเกณฑ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Prescribed conduct widened into rule and principle — closest of the Thai senses to Pali dhamma < √dhṛ, that which upholds.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ธรรมเนียม",
+     "rtgs": "tham-niam",
+     "ipa": "/tʰam˧.nia̯m˧/",
+     "gloss": {
+      "en": [
+       "institution"
+      ],
+      "th": "ประเพณี, แบบแผน, แบบอย่าง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ธรรม",
+      "เนียม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "กฎ + ชื่อไม้พุ่มขนาดเล็กชนิด Chloranthu",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "กฎหมาย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "And rule hardened into law.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "นิติธรรม",
+     "rtgs": "ni-ti-tham",
+     "ipa": "/ni˦˥.ti˨˩.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลักพื้นฐานแห่งกฎหมายที่บุคคลทุกคนต้องอยู่ภายใต้บังคับแห่งกฎหมายอย่างเท่าเทียมกัน (rule of law)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นิติ",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "กฎหมาย + กฎหมาย",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "สิ่งทั้งหลาย, สิ่งของ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "The widest Abhidhamma reading: dhamma as any phenomenon whatever.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ไทยธรรม",
+     "rtgs": "thai-ya-tham",
+     "ipa": "/tʰaj˧.ja˦˥.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(เครื่อง~) ของทำบุญต่าง ๆ, ของถวายพระ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไทย",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "cross_listed": [
+      "ไทย"
+     ],
+     "lit": "Thai + dharma",
+     "lit_th": "ประเทศ ใน เอเชียตะวันออกเฉียงใต้ + สิ่งทั้งหลาย"
+    },
+    {
+     "th": "ธรรมชาติ",
+     "rtgs": "tham-ma-chat",
+     "ipa": "/tʰam˧.ma˦˥.t͡ɕʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "nature"
+      ],
+      "th": "สิ่งที่เกิดมีและเป็นอยู่ตามธรรมดาของสิ่งนั้น ๆ, ปรากฏการณ์ของโลกที่โดยรวมเป็นรูปธรรม ประกอบด้วยพืช สัตว์ ภูมิภาพ และลักษณะและสิ่งที่เกิดขึ้นอื่นของโลก ซึ่งต่างกับมนุษย์หรือสิ่งที่มนุษย์สร้างขึ้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ธรรม",
+      "ชาติ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชาติ"
+     ],
+     "lit": "dharma + birth",
+     "lit_th": "สิ่งทั้งหลาย + การเกิด",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "คำประกอบท้ายคำที่เป็นนามธรรม เมื่อประกอบแล้วมีความหมายไม่ต่างไปจากคำศัพท์เดิม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "วัฒนธรรม",
+     "rtgs": "wat-tha-na-tham",
+     "ipa": "/wat̚˦˥.tʰa˦˥.na˦˥.tʰam˧/",
+     "gloss": {
+      "en": [
+       "culture"
+      ],
+      "th": "สิ่งที่ทำความเจริญงอกงามให้แก่หมู่คณะ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "วัฒน",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความเจริญ + คำประกอบท้ายคำที่เป็นนามธรรม เมื่อ",
+     "frame": "entity"
+    },
+    {
+     "th": "อารยธรรม",
+     "rtgs": "a-ra-ya-tham",
+     "ipa": "/ʔaː˧.ra˦˥.ja˦˥.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความสงบสุขของสังคมที่ตั้งอยู่บนรากฐานแห่งศีลธรรมและกฎหมาย, ความเจริญด้วยขนบธรรมเนียมอันดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อารย",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "เจริญ + คำประกอบท้ายคำที่เป็นนามธรรม เมื่อ",
+     "frame": "quality"
+    },
+    {
+     "th": "นามธรรม",
+     "rtgs": "nam-ma-tham",
+     "ipa": "/naːm˧.ma˦˥.tʰam˧/",
+     "gloss": {
+      "en": [
+       "abstract"
+      ],
+      "th": "สิ่งที่ไม่มีรูป คือ รู้ไม่ได้ทางตา หู จมูก ลิ้น กาย รู้ได้เฉพาะทางใจเท่านั้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นาม",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นาม"
+     ],
+     "lit": "name + dharma",
+     "lit_th": "ชื่อ + คำประกอบท้ายคำที่เป็นนามธรรม เมื่อ",
+     "frame": "entity"
+    },
+    {
+     "th": "รูปธรรม",
+     "rtgs": "rup-pa-tham",
+     "ipa": "/ruːp̚˥˩.pa˨˩.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งที่รู้ได้ทางตา หู จมูก ลิ้น กาย อันได้แก่ รูปเสียง กลิ่น รส และสิ่งที่สามารถสัมผัสได้ด้วยกาย, คู่กับ นามธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รูป",
+      "ธรรม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "รูป"
+     ],
+     "lit": "image + dharma",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1 + คำประกอบท้ายคำที่เป็นนามธรรม เมื่อ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 8,
+   "via": "generalisation",
+   "via_note": "Bleached to a suffix forming abstract nouns.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "สมณศักดิ์พระราชาคณะ สูงกว่าชั้นเทพ ต่ำกว่าชั้นหิรัญบัฏ เรียกว่า ชั้นธรรม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "An ecclesiastical grade named from the teaching — ชั้นธรรม.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 35 manuscript titles, 284 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 40; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "ความเป็นธรรม",
+   "rtgs": "khwam-pen-tham",
+   "ipa": "/kʰwaːm˧.pen˧.tʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เป็นธรรม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเป็น",
+    "ธรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เป็น + คุณความดี",
+   "frame": "entity"
+  },
+  {
+   "th": "กัลยาณธรรม",
+   "rtgs": "kan-la-ya-na-tham",
+   "ipa": "/kan˧.la˦˥.jaː˧.na˦˥.tʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ธรรมที่ดีงาม, ธรรมอันดี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กัลยาณ",
+    "ธรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ดี + คุณความดี",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "ความชอบธรรม",
+   "rtgs": "khwam-chop-tham",
+   "ipa": "/kʰwaːm˧.t͡ɕʰɔːp̚˥˩.tʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชอบธรรม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความชอบ",
+    "ธรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "come out of the closet + dharma",
+   "lit_th": "คำอาการนามของ ชอบ + คุณความดี",
+   "frame": "entity"
+  },
+  {
+   "th": "ความเที่ยงธรรม",
+   "rtgs": "khwam-thiang-tham",
+   "ipa": "/kʰwaːm˧.tʰia̯ŋ˥˩.tʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เที่ยงธรรม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเที่ยง",
+    "ธรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "precision + dharma",
+   "lit_th": "คำอาการนามของ เที่ยง + คุณความดี",
+   "frame": "entity"
+  },
+  {
+   "th": "ธรรมจักร",
+   "rtgs": "tham-ma-chak",
+   "ipa": "/tʰam˧.ma˦˥.t͡ɕak̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อปฐมเทศนาที่พระพุทธเจ้าทรงแสดงแก่พระเบญจวัคคีย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ธรรม",
+    "จักร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "จักร"
+   ],
+   "lit": "dharma + chakra",
+   "lit_th": "คุณความดี + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "เบญจธรรม",
+   "rtgs": "ben-cha-tham",
+   "ipa": "/beːn˧.t͡ɕa˨˩.tʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ธรรมะ 5 ประการ คือ เมตตา ทาน ความสำรวมในกาม สัจจะ สติ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เบญจ",
+    "ธรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ห้า + คุณความดี",
+   "use": "false-split"
+  },
+  {
+   "th": "ธรรมบดี",
+   "rtgs": "tham-ma-bo-di",
+   "ipa": "/tʰam˧.ma˦˥.bɔː˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้เป็นใหญ่ในธรรม, เจ้าแห่งธรรม, ผู้มีธรรมเป็นใหญ่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ธรรม",
+    "บดี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คุณความดี + เจ้า",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "การทรงธรรม",
+   "rtgs": "kan-song-tham",
+   "ipa": "/kaːn˧.soŋ˧.tʰam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ทรงธรรม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การทรง",
+    "ธรรม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ทรง + คุณความดี",
+   "frame": "entity"
+  },
+  {
+   "th": "ธรรมศาสตร์",
+   "rtgs": "tham-ma-sat",
+   "ipa": "/tʰam˧.ma˦˥.saːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความรู้เกี่ยวกับหลักกฎหมายทั่วไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ธรรม",
+    "ศาสตร์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "dharma + discipline",
+   "lit_th": "คุณความดี + ระบบวิชาความรู้",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ธรรมกาย",
+   "rtgs": "tham-ma-kai",
+   "ipa": "/tʰam˧.ma˦˥.kaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กายคือธรรม ได้แก่ พระมหากรุณาธิคุณ พระปัญญาธิคุณ และพระบริสุทธิคุณ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ธรรม",
+    "กาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "กาย"
+   ],
+   "lit": "dharma + body",
+   "lit_th": "คุณความดี + ตัว",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต धर्म (ธรฺม); เทียบบาลี ธมฺม; ร่วมเชื้อสายกับลาว ທຳ (ทำ), คำเมือง ᨵᩢᨾ᩠ᨾ᩺ (ธัมม์), เขิน ᨵᨾ᩠ᨾ᩼ (ธมม์), ไทลื้อ ᦒᧄ (ธัม)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨵᩢᨾ᩠ᨾ᩺",
+  "th": "ธัมม์",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:tham-2",
+   "label": "ทำ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"tham\". ธรรม is tam, ทำ is tam — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "dharma",
+  "fair"
+ ]
+}

@@ -1,7 +1,7 @@
 ---
 title: Su Khwan (soul-calling)
 status: published
-see_also: genre:magic_ritual, entity:suep_cata, entity:sut_thon, genre:liturgy_chanting, entity:holasat, entity:katha, entity:vessantara
+see_also: genre:magic_ritual, entity:suep_cata, entity:sut_thon, genre:liturgy_chanting, entity:holasat, entity:katha, entity:vessantara, entity:chang
 ---
 ## What this is
 

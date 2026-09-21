@@ -1,0 +1,1659 @@
+{
+ "id": "w:tok",
+ "th": "ตก",
+ "status": "mapped",
+ "rtgs": "tok",
+ "paiboon": "dtòk",
+ "ipa": "/tok̚˨˩/",
+ "syllable_respelling": "ตอ-กอ",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "พลัดลง, หล่นลง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'.",
+    "Declared root: ตก 'to fall'."
+   ],
+   "compounds": [
+    {
+     "th": "ตกหลุม",
+     "rtgs": "tok-lum",
+     "ipa": "/tok̚˨˩.lum˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถูกลวงด้วยเล่ห์กลหรืออุบาย, เสียรู้, หลงกล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "หลุม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "decrease + lacuna",
+     "lit_th": "พลัดลง + ที่ซึ่งมีลักษณะเป็นบ่อ มักมีขนาดเล"
+    },
+    {
+     "th": "เก็บตก",
+     "rtgs": "kep-tok",
+     "ipa": "/kep̚˨˩.tok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เก็บของที่ผู้อื่นทำตกไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เก็บ",
+      "ตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "เก็บ"
+     ],
+     "lit": "keep + decrease",
+     "lit_th": "เอาไปหรือเอามาจากที่ + พลัดลง"
+    },
+    {
+     "th": "ตะวันตก",
+     "rtgs": "ta-wan-tok",
+     "ipa": "/ta˨˩.wan˧.tok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทิศที่ดวงอาทิตย์ลับขอบฟ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตะวัน",
+      "ตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ดวงอาทิตย์ + พลัดลง"
+    },
+    {
+     "th": "ตกตะกอน",
+     "rtgs": "tok-ta-kon",
+     "ipa": "/tok̚˨˩.ta˨˩.kɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีตะกอนนอนก้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ตะกอน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "พลัดลง + สิ่งที่ละลายปนอยู่ในน้ำหรือของเหลว"
+    },
+    {
+     "th": "ดาวตก",
+     "rtgs": "dao-tok",
+     "ipa": "/daːw˧.tok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เทหวัตถุแข็งจากอวกาศ มี 2 ชนิด ชนิดหนึ่งประกอบด้วยหินเป็นส่วนใหญ่ อีกชนิดหนึ่งประกอบด้วยเหล็กเป็นส่วนใหญ่ เมื่อเคลื่อนที่ผ่านบรรยากาศสู่ผิวโลก จะลุกไหม้ให้แสงสว่างจ้าเนื่องจากเสียดสีกับอากาศ ถ้ามีขนาดเล็กก็จะไหม้หมดก่อนถ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดาว",
+      "ตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ดาว"
+     ],
+     "lit": "star + decrease",
+     "lit_th": "สิ่งที่เห็นเป็นดวงมีแสงระยิบระยับใ + พลัดลง"
+    },
+    {
+     "th": "เก็บข้าวตก",
+     "rtgs": "kep–khao-tok",
+     "ipa": "/kep̚˨˩.kʰaːw˥˩.tok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เก็บรวงข้าวที่เก็บเกี่ยวตกหล่นในท้องนา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เก็บข้าว",
+      "ตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "เอาข้าวมาจากลูกหนี้แทนเงินที่ยืมไป + พลัดลง"
+    },
+    {
+     "th": "ตกหลุมพราง",
+     "rtgs": "tok-lum-phrang",
+     "ipa": "/tok̚˨˩.lum˩˩˦.pʰraːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถูกลวงด้วยเล่ห์กลหรืออุบาย, เสียรู้, หลงกล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "หลุมพราง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "พลัดลง + หลุมที่ทำลวงไว้"
+    },
+    {
+     "th": "ตกผลึก",
+     "rtgs": "tok-pha-luek",
+     "ipa": "/tok̚˨˩.pʰa˨˩.lɯk̚˨˩/",
+     "gloss": {
+      "en": [
+       "crystallize"
+      ],
+      "th": "กลายเป็นผลึก (ใช้กับสารละลาย)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ผลึก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "พลัดลง + ชื่อแก้วอย่างหนึ่งมีสีใสขาว เรียกว"
+    },
+    {
+     "th": "ตกกล้า",
+     "rtgs": "tok-kla",
+     "ipa": "/tok̚˨˩.klaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เพาะข้าวปลูกลงในแปลงเพาะกล้าสำหรับนาดำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "กล้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "พลัดลง + ต้นข้าวอ่อนที่เพาะจากข้าวเปลือกสำห"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ไหลลง, หยดลงมา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Falling narrowed to liquid: to flow or drip down.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ตกมัน",
+     "rtgs": "tok-man",
+     "ipa": "/tok̚˨˩.man˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลักษณะที่ต่อมน้ำมันที่ขมับของช้างบวมโตและมีน้ำมันใส ๆ ไหลออกมา ช้างตัวผู้จะมีอารมณ์รุนแรง ก้าวร้าว ดุร้าย มีกลิ่นสาบฉุน, เรียกช้างที่มีอาการเช่นนั้นว่า ช้างตกมัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "มัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "มัน"
+     ],
+     "lit": "decrease + it",
+     "lit_th": "ไหลลง + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห"
+    },
+    {
+     "th": "น้ำตก",
+     "rtgs": "nam-tok",
+     "ipa": "/nam˦˥.tok̚˨˩/",
+     "gloss": {
+      "en": [
+       "waterfall"
+      ],
+      "th": "น้ำที่ขังอยู่บนเขาตกลงมาที่หน้าผา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + decrease",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไหลลง"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ลดลง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Quantity falling: to decrease.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ล่วงเข้าเวลา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Time falling into a part of the day — ตกเย็น, ตกค่ำ.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เรียกสีที่ละลายออกหรือจางไปในเวลาซักหรือถูกแดดเป็นต้น ว่า สีตก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตกฟาก",
+     "rtgs": "tok-fak",
+     "ipa": "/tok̚˨˩.faːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกิด, เรียกเวลาที่เด็กออกพ้นครรภ์มารดาว่า เวลาตกฟาก (พื้นเรือนโบราณโดยมากเป็นฟาก)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ฟาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.14, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เรียกสีที่ละลายออกหรือจางไปในเวลาซ + ลำไม้ไผ่เป็นต้นที่ผ่าแล้วสับให้แตก"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Dye running out of cloth as liquid runs down — สีตก.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "อยู่ในภาวะที่ไม่น่าพอใจ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตกยาก",
+     "rtgs": "tok-yak",
+     "ipa": "/tok̚˨˩.jaːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลำบาก, ยากจน, ขัดสน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ยาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "decrease + bad",
+     "lit_th": "อยู่ในภาวะที่ไม่น่าพอใจ + ความลำบาก"
+    },
+    {
+     "th": "ตกงาน",
+     "rtgs": "tok-ngan",
+     "ipa": "/tok̚˨˩.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ว่างงาน, ไม่มีงานทำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "งาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "งาน"
+     ],
+     "lit": "decrease + job",
+     "lit_th": "อยู่ในภาวะที่ไม่น่าพอใจ + สิ่งหรือกิจกรรมที่ทำ"
+    },
+    {
+     "th": "สอบตก",
+     "translit_auto": "sobtk",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สอบได้คะแนนไม่ถึงเกณฑ์ที่กำหนดไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สอบ",
+      "ตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ตรวจ ทดลอง เปรียบเทียบ หรือไล่เลีย + อยู่ในภาวะที่ไม่น่าพอใจ"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "To fall into a state one would not choose.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "มาถึง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "What falls to a place has arrived there.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ตกทอด",
+     "rtgs": "tok-thot",
+     "ipa": "/tok̚˨˩.tʰɔːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สืบต่อกันมาเป็นทอด ๆ, สืบต่อจากผู้หนึ่งไปยังอีกผู้หนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ทอด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "decrease + fry",
+     "lit_th": "มาถึง + ทำให้สุกด้วยน้ำมันที่เดือด"
+    },
+    {
+     "th": "ตกเบิก",
+     "rtgs": "tok-boek",
+     "ipa": "/tok̚˨˩.bɤːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ได้รับเงินที่ค้างจ่ายย้อนหลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "เบิก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "มาถึง + เปิด"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ออก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตกลูก",
+     "rtgs": "tok-luk",
+     "ipa": "/tok̚˨˩.luːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออกลูก (ใช้แก่สัตว์สี่เท้า)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ลูก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "decrease + child",
+     "lit_th": "ออก + ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย"
+    },
+    {
+     "th": "ตกกระ",
+     "rtgs": "tok-kra",
+     "ipa": "/tok̚˨˩.kraʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีลักษณะเป็นจุดดำ ๆ เล็กบ้างโตบ้างที่ผิวกายคน สัตว์ หรือสิ่งอื่น ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "กระ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "And what falls out of something has come out.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ขาดหายไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "To drop out of a sequence: to be missing, omitted.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ตกค้าง",
+     "rtgs": "tok-khang",
+     "ipa": "/tok̚˨˩.kʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลงเหลืออยู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ค้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ขาดหายไป + ตกลงมาหรือขึ้นไปติดอยู่กับสิ่งใดสิ"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "ไม่ได้ขึ้นยานพาหนะเพราะไปไม่ทันหรือไม่มีค่าโดยสาร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "specialisation",
+   "via_note": "To be dropped by a vehicle — to miss it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "ลดลงต่ำ เป็นอาการแสดงว่ากลัว ยอมแพ้ หรือหมดกำลัง เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "To droop: the bearing of fear, defeat or exhaustion.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "จิตตก",
+     "rtgs": "chit-tok",
+     "ipa": "/t͡ɕit̚˨˩.tok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้สึกเศร้าหมองขุ่นมัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จิต",
+      "ตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "mind + decrease",
+     "lit_th": "ใจ + ลดลงต่ำ เป็นอาการแสดงว่ากลัว ยอมแพ"
+    },
+    {
+     "th": "ตกใจ",
+     "rtgs": "tok-chai",
+     "ipa": "/tok̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "scare"
+      ],
+      "th": "สะดุ้งขึ้นโดยไม่รู้ตัวเมื่อได้ยินเสียงดัง ๆ หรือมีใครมาถูกต้องตัว, ใจหาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "decrease + heart",
+     "lit_th": "ลดลงต่ำ เป็นอาการแสดงว่ากลัว ยอมแพ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[RID sense 12 — no English yet]"
+    ],
+    "th": "สำเร็จ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ปลงตก",
+     "rtgs": "plong-tok",
+     "ipa": "/ploŋ˧.tok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พิจารณาจนเห็นจริงแล้วปล่อยไปตามสภาพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปลง",
+      "ตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 12: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "เอาลง + สำเร็จ"
+    },
+    {
+     "th": "แก้ตก",
+     "translit_auto": "kaetk",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แก้ให้สำเร็จลุล่วงไปได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 12: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "แก้"
+     ],
+     "lit": "cowrie shell used to burnish cloth + decrease",
+     "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + สำเร็จ"
+    },
+    {
+     "th": "ตกแต่ง",
+     "rtgs": "tok-taeng",
+     "ipa": "/tok̚˨˩.tɛŋ˨˩/",
+     "gloss": {
+      "en": [
+       "rich",
+       "dress"
+      ],
+      "th": "ประดับ, ปรุงจัดให้ดี, ทำให้งาม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "แต่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "decrease + dress",
+     "lit_th": "สำเร็จ + จัดให้งาม"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "To come down onto terms — ตกลง, to agree, to succeed.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 13,
+   "gloss": {
+    "en": [
+     "[RID sense 13 — no English yet]"
+    ],
+    "th": "เอาเบ็ดเกี่ยวเหยื่อหย่อนลงไปให้ปลาหรือกุ้งกินแล้ววัดหรือสาวขึ้นมา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Lowering a baited line: to fish.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ตกเบ็ด",
+     "rtgs": "tok-bet",
+     "ipa": "/tok̚˨˩.bet̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อการพนันอย่างหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "เบ็ด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 13 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เอาเบ็ดเกี่ยวเหยื่อหย่อนลงไปให้ปลา + เครื่องมือสำหรับตกปลา หรือ กุ้ง รู"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "gloss": {
+    "en": [
+     "[RID sense 14 — no English yet]"
+    ],
+    "th": "หลอกล่อให้ติดหรือไม่ให้หนี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 13,
+   "via": "metaphor",
+   "via_note": "Baiting a person rather than a fish: to lure, to entrap.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ตกทอง",
+     "rtgs": "tok-thong",
+     "ipa": "/tok̚˨˩.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิธีการหลอกลวงด้วยการใช้ทองปลอมที่มีน้ำหนักมากกว่าไปแลกเป็นทองแท้ที่มีน้ำหนักน้อยกว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ทอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 14 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "decrease + gold",
+     "lit_th": "หลอกล่อให้ติดหรือไม่ให้หนี + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "gloss": {
+    "en": [
+     "[RID sense 15 — no English yet]"
+    ],
+    "th": "เอาเงินหรือสิ่งของให้ไปก่อน แล้วคิดเอาเป็นพืชผลภายหลังตามแต่จะตกลงกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตกลง",
+     "rtgs": "tok-long",
+     "ipa": "/tok̚˨˩.loŋ˧/",
+     "gloss": {
+      "en": [
+       "accept",
+       "admit",
+       "agree"
+      ],
+      "th": "หล่นหรือร่วงลงไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ลง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 15: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "ลง"
+     ],
+     "lit": "decrease + drop",
+     "lit_th": "เอาเงินหรือสิ่งของให้ไปก่อน แล้วคิ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
+    },
+    {
+     "th": "ตกรางวัล",
+     "rtgs": "tok-rang-wan",
+     "ipa": "/tok̚˨˩.raːŋ˧.wan˧/",
+     "gloss": {
+      "en": [
+       "meed"
+      ],
+      "th": "ให้รางวัล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "รางวัล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "decrease + accolade",
+     "lit_th": "เอาเงินหรือสิ่งของให้ไปก่อน แล้วคิ + สิ่งของหรือเงินที่ได้มาเพราะความดี"
+    }
+   ],
+   "extends": 13,
+   "via": "metaphor",
+   "via_note": "Advancing money or goods against a later crop — baiting a season.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 16,
+   "gloss": {
+    "en": [
+     "[RID sense 16 — no English yet]"
+    ],
+    "th": "อักษรย่อของ ตาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all.",
+    "Declared root: an abbreviation of the province name ตาก — not a sense at all."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 131 manuscript titles, 186 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 36; domain seeded by keyword hits ['หนี', 'ตก', 'เข้า', 'ขึ้น'].",
+ "compounds_unassigned": [
+  {
+   "th": "การตก",
+   "rtgs": "kan-tok",
+   "ipa": "/kaːn˧.tok̚˨˩/",
+   "gloss": {
+    "en": [
+     "drop",
+     "fall"
+    ],
+    "th": "คำอาการนามของ ตก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ตก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + พลัดลง"
+  },
+  {
+   "th": "ลานดอกไม้ตก",
+   "rtgs": "lan-dok-mai-tok",
+   "ipa": "/laːn˧.dɔːk̚˨˩.maːj˦˥.tok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอโกสัมพีนคร จังหวัดกำแพงเพชร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลานดอกไม้",
+    "ตก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "PROP+V",
+   "head": 1,
+   "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองกำแพงเพชร + พลัดลง"
+  },
+  {
+   "th": "วิตก",
+   "rtgs": "wi-tok",
+   "ipa": "/wi˦˥.tok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เป็นทุกข์, ร้อนใจ, กังวล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วิ",
+    "ตก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ วินาที + พลัดลง",
+   "use": "false-split"
+  },
+  {
+   "th": "ตกกะปิ",
+   "rtgs": "tok-ka-pi",
+   "ipa": "/tok̚˨˩.ka˨˩.piʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ปกติ, ธรรมดา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตก",
+    "กะปิ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "พลัดลง + ของเค็มทำด้วยเคยกับเกลือโขลกและหมั"
+  },
+  {
+   "th": "การปลงตก",
+   "rtgs": "kan-plong-tok",
+   "ipa": "/kaːn˧.ploŋ˧.tok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ปลงตก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การปลง",
+    "ตก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปลง + พลัดลง"
+  },
+  {
+   "th": "การเก็บตก",
+   "rtgs": "kan-kep-tok",
+   "ipa": "/kaːn˧.kep̚˨˩.tok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เก็บตก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเก็บ",
+    "ตก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เก็บ + พลัดลง"
+  },
+  {
+   "th": "ตกพรม",
+   "rtgs": "tok-phrom",
+   "ipa": "/tok̚˨˩.pʰrom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอขลุง จังหวัดจันทบุรี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตก",
+    "พรม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "decrease + carpet",
+   "lit_th": "พลัดลง + เครื่องลาดทำด้วยขนสัตว์"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *tokᴰ; ร่วมเชื้อสายกับลาว ຕົກ (ต็ก), ญ้อ ต๊ก, ไทลื้อ ᦷᦎᧅ (โตก), ไทดำ ꪶꪔꪀ (โตก), ไทใหญ่ တူၵ်း (ตู๊ก), ไทใต้คง ᥖᥨᥐᥱ (โต่ก), อาหม 𑜄𑜤𑜀𑜫 (ตุก์), ปู้อี dogt, จ้วง doek ร่วมเชื้อสายกับลาว ຕຶກ (ตึก), คำเมือง ᨲᩧ᩠ᨠ (ตึก), จ้วง dwk (ตึก, “หาปลาล่าสัตว์”), จ้วงแบบจั่วเจียง dwk (ตึก/เติก, “หาปลาล่าสัตว์”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨲᩧ᩠ᨠ",
+  "th": "ตึก",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "decrease",
+  "drop",
+  "fail",
+  "fall"
+ ]
+}

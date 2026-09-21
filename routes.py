@@ -230,18 +230,44 @@ ROUTES: tuple[Route, ...] = (
                 "kong-krapan, phokkhasap — each paired with the plate it was drawn on."),
           door_i=6, built_by="yant_index.py"),
 
+    # Nan's call, 2026-09-21: the whole hand-poke site lives here now, 311 pages on 28
+    # traditions, built in its own repository and exported into this one. It used to be
+    # served from nanobotco.github.io/hand-poke with only a corpus count at this address;
+    # that copy is redirect stubs now. The count kept its own door below.
+    Route("/handpoke", "handpoke/index.html", "Hand Poke", nav="Hand Poke",
+          door="สักลาย · Hand poke",
+          blurb="hand-tattooing worldwide — 28 traditions, the tools, the inks, the marks",
+          desc=("Hand Poke — traditional hand-tattooing across the world: the traditions, "
+                "the methods and tools, the inks, the motifs and the rites, with the Lanna "
+                "and Burmese leg tattoo set in the zone that actually carried it."),
+          door_i=6, nav_i=9, built_by="hand-poke/tools/export_wichaa.py"),
+
     # /yant indexes the designs. This asks the question the corpus can answer with a
     # number instead: how often does it name สักขาลาย — the waist-to-ankle tattoo a Lanna
     # man was expected to carry — at all? Once. That page is quoted here in both
     # languages, because it is the only account of the custom on the disk written from
     # inside it; every other source for the same custom is a British administrator.
-    Route("/handpoke", "handpoke/index.html", "The leg tattoo, counted",
+    Route("/handpoke/corpus", "handpoke/corpus/index.html", "The leg tattoo, counted",
           door="สักขาลาย · The leg tattoo",
           blurb="the tattoo a Lanna man wore from waist to ankle, counted in the corpus",
           desc=("The Lanna leg tattoo — สักขาลาย — quoted from the one page of this corpus "
                 "that describes it, counted against every transcribed page, and set beside "
                 "the Burmese and Shan accounts of the same custom."),
           door_i=6, built_by="handpoke.py"),
+
+    # The kesa yant writes the thirty-two parts of the body as thirty-two
+    # letters. /yant indexes the named designs and /hun builds the effigy; this
+    # takes one method apart and traces it back through the manuals that already
+    # carried each half of it. Self-contained like handpoke.py — it also solves
+    # the knight's-tour question the design raises, at build time.
+    Route("/kesa", "kesa/index.html", "The thirty-two parts, laid by the knight's move",
+          door="ยันต์เกศาผิด · A body as thirty-two letters",
+          blurb="the thirty-two parts of the body, one letter each, walked across the plate like a knight",
+          desc=("ยันต์เกศาผิด — the yant that lays in the first letter of each of the "
+                "thirty-two parts of the body by the knight's move. Where the method "
+                "comes from, traced through the yant manuals of this corpus, and whether "
+                "the route it describes can close."),
+          door_i=6, built_by="kesa.py"),
 
     Route("/moon", "moon/index.html", "The moon complication", nav="Moon",
           door="The moon complication",

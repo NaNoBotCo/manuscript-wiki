@@ -1,0 +1,1131 @@
+{
+ "id": "w:khu",
+ "th": "คู่",
+ "status": "mapped",
+ "rtgs": "khu",
+ "paiboon": "kûu",
+ "ipa": "/kʰuː˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "จำนวนที่หารด้วย 2 ลงตัว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "จำนวนคู่",
+     "rtgs": "cham-nuan-khu",
+     "ipa": "/t͡ɕam˧.nua̯n˧.kʰuː˥˩/",
+     "gloss": {
+      "en": [
+       "even number"
+      ],
+      "th": "จำนวนเต็มที่หารด้วย 2 ลงตัว มักจะลงท้ายด้วย 0 2 4 6 หรือ 8",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "จำนวน",
+      "คู่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.42, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "number + even",
+     "lit_th": "ยอดรวมที่กำหนดนับไว้เป็นส่วน ๆ + จำนวนที่หารด้วย 2 ลงตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "เดือนคู่",
+     "rtgs": "duean-khu",
+     "ipa": "/dɯa̯n˧.kʰuː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เดือนที่มีจำนวนคู่ คือ เดือนยี่ เดือน 4 เดือน 6 เดือน 8 เดือน 10 เดือน 12, คู่กับ เดือนคี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เดือน",
+      "คู่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "month + even",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "What pairs off evenly: an even number.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ของ 2 สิ่งที่สำหรับกันหรือใช้กำกับกันอย่างช้อนส้อม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: คู่, the pair — the origin, with 'even number' derived from it.",
+    "Declared root: คู่, the pair — the origin, with 'even number' derived from it.",
+    "Declared root: คู่, the pair — the origin, with 'even number' derived from it.",
+    "Declared root: คู่, the pair — the origin, with 'even number' derived from it.",
+    "Declared root: คู่, the pair — the origin, with 'even number' derived from it."
+   ],
+   "compounds": [
+    {
+     "th": "คู่ซี้",
+     "rtgs": "khu-si",
+     "ipa": "/kʰuː˥˩.siː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เพื่อนสนิท",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "ซี้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ของ 2 สิ่งที่สำหรับกันหรือใช้กำกับ + ตาย"
+    },
+    {
+     "th": "คู่มือ",
+     "rtgs": "khu-mue",
+     "ipa": "/kʰuː˥˩.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใช้ประโยชน์ได้เหมาะใจ, สำหรับประจำตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "even + hand",
+     "lit_th": "ของ 2 สิ่งที่สำหรับกันหรือใช้กำกับ + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+     "frame": "entity"
+    },
+    {
+     "th": "เข้าคู่",
+     "rtgs": "khao-khu",
+     "ipa": "/kʰaw˥˩.kʰuː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาไพ่ตอง 2 ใบที่เหมือนกันมาเข้าชุดกันเป็น 1 คู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "คู่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เข้า"
+     ],
+     "lit": "enter + even",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + ของ 2 สิ่งที่สำหรับกันหรือใช้กำกับ"
+    },
+    {
+     "th": "คู่ขา",
+     "rtgs": "khu-kha",
+     "ipa": "/kʰuː˥˩.kʰaː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คู่เล่นการพนันที่หย่ากันคือไม่เอาเงินกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "ขา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขา"
+     ],
+     "lit": "even + leg",
+     "lit_th": "ของ 2 สิ่งที่สำหรับกันหรือใช้กำกับ + อวัยวะของมนุษย์หรือสัตว์ที่ยื่นจาก",
+     "frame": "entity"
+    },
+    {
+     "th": "คู่หู",
+     "rtgs": "khu-hu",
+     "ipa": "/kʰuː˥˩.huː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่พูดถูกใจกัน, ที่ถูกคอกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "หู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หู"
+     ],
+     "lit": "even + ear",
+     "lit_th": "ของ 2 สิ่งที่สำหรับกันหรือใช้กำกับ + ส่วนหนึ่งของร่างกายคนและสัตว์ ทำหน",
+     "frame": "entity"
+    },
+    {
+     "th": "คู่ใจ",
+     "rtgs": "khu-chai",
+     "ipa": "/kʰuː˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนสนิทที่รู้ใจและไว้วางใจได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "even + heart",
+     "lit_th": "ของ 2 สิ่งที่สำหรับกันหรือใช้กำกับ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "คู่สวด",
+     "rtgs": "khu-suat",
+     "ipa": "/kʰuː˥˩.sua̯t̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระ 2 รูปที่ทำหน้าที่สวดญัตติในการอุปสมบทหรือการกรานกฐินเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "สวด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ของ 2 สิ่งที่สำหรับกันหรือใช้กำกับ + ว่าเป็นทำนองอย่างพระสวดมนต์"
+    },
+    {
+     "th": "คู่ผสม",
+     "rtgs": "khu-pha-som",
+     "ipa": "/kʰuː˥˩.pʰa˨˩.som˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเรียกผู้เล่นกีฬาบางประเภทเช่นแบดมินตัน เทนนิส ที่ใช้ผู้ชายกับผู้หญิงเข้าคู่กัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "ผสม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "even + mix",
+     "lit_th": "ของ 2 สิ่งที่สำหรับกันหรือใช้กำกับ + นำมารวมกัน"
+    },
+    {
+     "th": "คู่ควร",
+     "rtgs": "khu-khuan",
+     "ipa": "/kʰuː˥˩.kʰua̯n˧/",
+     "gloss": {
+      "en": [
+       "meed"
+      ],
+      "th": "เหมาะกัน, สมกัน, เสมอกัน, มีค่าเท่ากัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "ควร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "ของ 2 สิ่งที่สำหรับกันหรือใช้กำกับ + เหมาะ"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ผัวหรือเมีย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "The pair one is married into: husband or wife.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "คู่บุญ",
+     "rtgs": "khu-bun",
+     "ipa": "/kʰuː˥˩.bun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่เคยสร้างบุญกุศลร่วมกันมาในชาติก่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "บุญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บุญ"
+     ],
+     "lit": "even + merit",
+     "lit_th": "ผัวหรือเมีย + ความสุข",
+     "frame": "entity"
+    },
+    {
+     "th": "คู่ชีวิต",
+     "rtgs": "khu-chi-wit",
+     "ipa": "/kʰuː˥˩.t͡ɕʰiː˧.wit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ร่วมเป็นร่วมตาย, ผู้ร่วมทุกข์ร่วมสุข",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "ชีวิต"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชีวิต"
+     ],
+     "lit": "even + life",
+     "lit_th": "ผัวหรือเมีย + ความเป็นอยู่",
+     "frame": "entity"
+    },
+    {
+     "th": "คู่ครอง",
+     "rtgs": "khu-khrong",
+     "ipa": "/kʰuː˥˩.kʰrɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "mate"
+      ],
+      "th": "หญิงและชายที่อยู่ร่วมกันฉันผัวเมีย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "ครอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผัวหรือเมีย + ปกครองรักษาโดยความเป็นใหญ่"
+    },
+    {
+     "th": "เนื้อคู่",
+     "rtgs": "nuea-khu",
+     "ipa": "/nɯa̯˦˥.kʰuː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชายหญิงที่ถือกันว่าเคยอยู่ร่วมกันมาแต่ปางก่อน, ชายหญิงที่สมเป็นคู่ครองกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เนื้อ",
+      "คู่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เนื้อ"
+     ],
+     "lit": "flesh + even",
+     "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + ผัวหรือเมีย",
+     "frame": "entity"
+    },
+    {
+     "th": "คู่หมั้น",
+     "rtgs": "khu-man",
+     "ipa": "/kʰuː˥˩.man˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชายหญิงที่ได้หมั้นกันแล้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "หมั้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผัวหรือเมีย + มอบสิ่งของให้ฝ่ายหญิงเพื่อแสดงความ"
+    },
+    {
+     "th": "คู่สมรส",
+     "rtgs": "khu-som-rot",
+     "ipa": "/kʰuː˥˩.som˩˩˦.rot̚˦˥/",
+     "gloss": {
+      "en": [
+       "match"
+      ],
+      "th": "บุคคลที่สมรสกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "สมรส"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "even + marry",
+     "lit_th": "ผัวหรือเมีย + แต่งงาน"
+    },
+    {
+     "th": "คู่รัก",
+     "rtgs": "khu-rak",
+     "ipa": "/kʰuː˥˩.rak̚˦˥/",
+     "gloss": {
+      "en": [
+       "flame",
+       "sweetheart"
+      ],
+      "th": "หญิงชายที่ผูกสมัครรักใคร่กัน, คนรัก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "รัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "even + love",
+     "lit_th": "ผัวหรือเมีย + ชื่อไม้พุ่มชนิด Calotropis gigante",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เรียกของที่มีลักษณะเป็น 2",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Anything that comes in twos.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ฆ้องคู่",
+     "rtgs": "khong-khu",
+     "ipa": "/kʰɔːŋ˦˥.kʰuː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฆ้องที่ใช้บรรเลงในการเชิดหนังตะลุงและละครโนราชาตรี ชุดหนึ่งมี 2 ลูก, ปักษ์ใต้เรียก โหม่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฆ้อง",
+      "คู่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "gong + even",
+     "lit_th": "เครื่องตีให้เกิดเสียงอย่างหนึ่ง ทำ + เรียกของที่มีลักษณะเป็น 2",
+     "frame": "entity"
+    },
+    {
+     "th": "ดงคู่",
+     "rtgs": "dong-khu",
+     "ipa": "/doŋ˧.kʰuː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอศรีสัชนาลัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดง",
+      "คู่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดง"
+     ],
+     "lit": "deep forest + even",
+     "lit_th": "ป่าที่มีต้นไม้ใหญ่ขึ้นหนาแน่น + เรียกของที่มีลักษณะเป็น 2",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ลักษณะของสิ่ง 2 สิ่งที่ต่างกันแต่มีภาวะคล้ายคลึง หรือมีความสัมพันธ์กัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "คู่สัญญา",
+     "rtgs": "khu-san-ya",
+     "ipa": "/kʰuː˥˩.san˩˩˦.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุคคล 2 ฝ่ายหรือหลายฝ่ายซึ่งมีความผูกพันตามสัญญา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "สัญญา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.13, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "even + assurance",
+     "lit_th": "ลักษณะของสิ่ง 2 สิ่งที่ต่างกันแต่ม + ข้อตกลงระหว่างบุคคล 2 ฝ่ายหรือหลาย",
+     "frame": "entity"
+    },
+    {
+     "th": "คู่กรณี",
+     "rtgs": "khu-ka-ra-ni",
+     "ipa": "/kʰuː˥˩.ka˨˩.ra˦˥.niː˧/",
+     "gloss": {
+      "en": [
+       "party"
+      ],
+      "th": "ผู้ที่เกิดพิพาทกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "กรณี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "even + circumstance",
+     "lit_th": "ลักษณะของสิ่ง 2 สิ่งที่ต่างกันแต่ม + คดี",
+     "frame": "entity"
+    },
+    {
+     "th": "คู่แข่ง",
+     "rtgs": "khu-khaeng",
+     "ipa": "/kʰuː˥˩.kʰɛŋ˨˩/",
+     "gloss": {
+      "en": [
+       "adversary",
+       "rival",
+       "vying"
+      ],
+      "th": "ผู้ที่เข้าแข่งขันกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "แข่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ลักษณะของสิ่ง 2 สิ่งที่ต่างกันแต่ม + ชิงเอาชนะกัน"
+    },
+    {
+     "th": "คู่มิตร",
+     "rtgs": "khu-mit",
+     "ipa": "/kʰuː˥˩.mit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่มีชะตาถูกกัน เป็นมิตรกัน, ผู้ที่รักใคร่กัน ไม่เป็นภัยแก่กัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "มิตร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "even + friend",
+     "lit_th": "ลักษณะของสิ่ง 2 สิ่งที่ต่างกันแต่ม + เพื่อนรักใคร่คุ้นเคย",
+     "frame": "entity"
+    },
+    {
+     "th": "คู่อาฆาต",
+     "translit_auto": "khuakhat",
+     "ipa": "[kʰuː˥˩.ʔäː˧.kʰäːt̚˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่มีเรื่องบาดหมางกันรุนแรงและผูกพยาบาทต่อกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "อาฆาต"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ลักษณะของสิ่ง 2 สิ่งที่ต่างกันแต่ม + ผูกใจเจ็บและอยากแก้แค้น"
+    },
+    {
+     "th": "คู่พิพาท",
+     "rtgs": "khu-phi-phat",
+     "ipa": "/kʰuː˥˩.pʰi˦˥.pʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุคคลตั้งแต่ 2 ฝ่ายขึ้นไปซึ่งมีข้อโต้แย้งกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "พิพาท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ลักษณะของสิ่ง 2 สิ่งที่ต่างกันแต่ม + โต้แย้งสิทธิ์"
+    },
+    {
+     "th": "คู่กัด",
+     "rtgs": "khu-kat",
+     "ipa": "/kʰuː˥˩.kat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คู่วิวาท",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "กัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "even + bite",
+     "lit_th": "ลักษณะของสิ่ง 2 สิ่งที่ต่างกันแต่ม + เอาฟันกดไว้โดยแรง เพื่อไม่ให้สิ่งท"
+    }
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Two things unlike but comparable, set against each other.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1 manuscript titles, 271 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 29; domain seeded by keyword hits ['ผัว', 'เมีย', 'ย่า'].",
+ "compounds_unassigned": [
+  {
+   "th": "การเข้าคู่",
+   "rtgs": "kan-khao-khu",
+   "ipa": "/kaːn˧.kʰaw˥˩.kʰuː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เข้าคู่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเข้า",
+    "คู่"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "entry + even",
+   "lit_th": "คำอาการนามของ เข้า + จำนวนที่หารด้วย 2 ลงตัว",
+   "frame": "entity"
+  },
+  {
+   "th": "บังคู่",
+   "rtgs": "bang-khu",
+   "ipa": "/baŋ˧.kʰuː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ม้านั่งตัวเล็กๆ ที่ทำจากไม้ โดยใช้ไม้ 3 ชิ้นตีประกบกันด้วยตะปู",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บัง",
+    "คู่"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "บัง"
+   ],
+   "lit": "to screen + even",
+   "lit_th": "กัน กั้น หรือปิดไม่ให้เห็น ไม่ให้ผ + จำนวนที่หารด้วย 2 ลงตัว",
+   "needs_check": [
+    "LEFT UNFILED (2026-09-02): a small stool nailed up from THREE pieces of wood, so none of the five senses reaches it — not a pair, not an even number, not a spouse, not a counterpart. The dictionary gives it no etymology; บัง on its own is a Khmer loan (bang, to screen) or Malay abang, and neither reads with คู่ to make a stool. Probably a regional word borrowed whole, but there is nothing here to tag it false-split on."
+   ]
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ɡuːᴮ; ร่วมเชื้อสายกับอีสาน คู่, ลาว ຄູ່ (คู่), คำเมือง ᨣᩪ᩵ (คู่), เขิน ᨣᩪ᩵ (คู่), ไทลื้อ ᦅᦴᧈ (คู่), ไทใหญ่ ၵူႈ (กู้), ไทใต้คง ᥐᥧ (กู), อาหม 𑜀𑜥 (กู), จ้วง gouh (เก่า), จ้วงแบบจั่วเจียง kuh (คู่)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨣᩪ᩵",
+  "th": "คู่",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "even",
+  "pair",
+  "paragon"
+ ]
+}

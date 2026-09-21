@@ -1,0 +1,21 @@
+{
+ "head": "kon",
+ "rule": "ก้น is one shape — the bottom end of a thing, the end opposite the opening — applied to four kinds of thing, and the compound names which kind. The BODY (1) takes the buttocks and everything sat on, wagged or born with, and it takes animals too, because sense 1's own gloss says ส่วนท้ายของลำตัวของสัตว์: the Anopheles that rests with its abdomen in the air (ก้นปล่อง), the pipe snake said to bite with its tail (ก้นขบ), the snail whose coil is its hind end (ก้นหอย). The VESSEL (3) takes anything with a bottom that can hold, settle or leak — a bag, a pot, the dregs in it — and the money metaphors built on that (ก้นถุง, ก้นรั่ว). The HOLLOW (4) takes the far end of a space you go into rather than pour into: the bottom of the deep (ก้นบึ้ง), the back of the kitchen (ก้นครัว), the inner room of a kuti where only intimates are received (ก้นกุฏิ). The STUB (5) takes what is left when the rest is used up, which on this head is entirely tobacco. Sense 2 takes nothing, and that is a reading problem, not a finding — see the log.",
+ "senses": {
+  "1": [
+   "ก้นย้อย",
+   "ก้นอ้อย",
+   "ก้นปอด",
+   "ก้นกบ",
+   "ก้นร้อน",
+   "ก้นหนัก",
+   "ก้นกระดก",
+   "ก้นปล่อง",
+   "ก้นขบ",
+   "ก้นหอย"
+  ],
+  "3": ["นอนก้น", "ก้นตะกรน", "ก้นรั่ว", "ก้นถุง", "ก้นปิด"],
+  "4": ["ก้นบึ้ง", "ก้นครัว", "ก้นกุฏิ"],
+  "5": ["ก้นก๊อก", "ก้นกรอง", "ก้นยา"]
+ }
+}

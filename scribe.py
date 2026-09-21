@@ -54,17 +54,48 @@ def _load_findings() -> list[dict]:
     the raw markdown for both matching and the one-line gloss."""
     if not wiki.db_present():
         return []
-    conn = wiki.connect()
-    try:
-        rows = conn.execute(
-            "SELECT slug, finding_type, finding_key, title, body_md, confidence "
-            "FROM articles WHERE status='published' AND finding_key IS NOT NULL "
-            "AND finding_key<>'' ORDER BY confidence DESC").fetchall()
-    finally:
-        conn.close()
+    rows = _query_findings(wiki.connect)
     return [{"slug": r["slug"], "type": r["finding_type"], "key": r["finding_key"],
              "title": r["title"], "body_md": r["body_md"] or "",
              "confidence": r["confidence"] or 0} for r in rows]
+
+
+def _query_findings(connect):
+    """Run the findings query; on the hot-journal failure, retry from a snapshot.
+
+    In the forever.sh cycle this step follows writers, and a read-only opener
+    cannot roll a hot journal back — the exact failure publish_site.sh step 0
+    documents ("unable to open database file"; every scribe run in the cycle
+    died on it, while hand runs between cycles worked). Same cure as there: a
+    read-WRITE connection recovers the journal, sqlite's backup API takes a
+    point-in-time copy, and the query reads the private copy."""
+    import sqlite3
+    import tempfile
+    try:
+        conn = connect()
+        try:
+            return conn.execute(_FINDINGS_SQL).fetchall()
+        finally:
+            conn.close()
+    except sqlite3.OperationalError:
+        with tempfile.TemporaryDirectory(prefix="scribe-snap-") as td:
+            snap = Path(td) / "catalog.db"
+            src = sqlite3.connect(os.environ["CATALOG_DB"], timeout=60)
+            dst = sqlite3.connect(snap)
+            with dst:
+                src.backup(dst)
+            src.close()
+            dst.row_factory = sqlite3.Row
+            try:
+                return dst.execute(_FINDINGS_SQL).fetchall()
+            finally:
+                dst.close()
+
+
+_FINDINGS_SQL = (
+    "SELECT slug, finding_type, finding_key, title, body_md, confidence "
+    "FROM articles WHERE status='published' AND finding_key IS NOT NULL "
+    "AND finding_key<>'' ORDER BY confidence DESC")
 
 
 def _first_sentence(md: str) -> str:

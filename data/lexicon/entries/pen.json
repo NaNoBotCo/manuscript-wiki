@@ -1,0 +1,1026 @@
+{
+ "id": "w:pen",
+ "th": "เป็น",
+ "status": "mapped",
+ "rtgs": "pen",
+ "paiboon": "bpen",
+ "ipa": "/pen˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่างคำกับคำ เพื่อให้เห็นว่าคำหน้าและคำหลังมีภาวะ คือ ความมี ความเป็น เกี่ยวข้องกันอย่างไร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เป็นไป",
+     "rtgs": "pen-pai",
+     "ipa": "/pen˧.paj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดำเนินไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ไป"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "are + go",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + เคลื่อนจากตัวผู้พูด"
+    },
+    {
+     "th": "เป็นต้น",
+     "rtgs": "pen-ton",
+     "ipa": "/pen˧.ton˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เริ่มแรก, เป็นอันดับแรก, เป็นส่วนเบื้องต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ต้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "are + trunk",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ลำของต้นไม้"
+    },
+    {
+     "th": "เป็นที่",
+     "rtgs": "pen-thi",
+     "ipa": "/pen˧.tʰiː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีที่อยู่เป็นหลักแหล่งแน่นอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ที่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "are + at",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + แหล่ง"
+    },
+    {
+     "th": "เป็นใจ",
+     "rtgs": "pen-chai",
+     "ipa": "/pen˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้กัน, สมรู้ร่วมคิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "are + heart",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "เป็นเจ้าของ",
+     "rtgs": "pen-chao-khong",
+     "ipa": "/pen˧.t͡ɕaw˥˩.kʰɔːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "own",
+       "possess"
+      ],
+      "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "เจ้าของ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "are + owner",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ผู้มีกรรมสิทธิ์ในทรัพย์สิน"
+    },
+    {
+     "th": "เป็นอาทิ",
+     "rtgs": "pen-a-thi",
+     "ipa": "/pen˧.ʔaː˧.tʰiʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "อาทิ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ต้น ในคำว่า เป็นอาทิ"
+    },
+    {
+     "th": "เป็นหนี้",
+     "rtgs": "pen-ni",
+     "ipa": "/pen˧.niː˥˩/",
+     "gloss": {
+      "en": [
+       "owe"
+      ],
+      "th": "ติดค้างเงิน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "หนี้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + เงินที่ผู้หนึ่งติดค้างอยู่จะต้องใช"
+    },
+    {
+     "th": "เป็นลม",
+     "rtgs": "pen-lom",
+     "ipa": "/pen˧.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีอาการวิงเวียนหน้ามืด บางคราวถึงกับหมดสติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ลม"
+     ],
+     "lit": "are + wind",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
+    },
+    {
+     "th": "เป็นธรรม",
+     "rtgs": "pen-tham",
+     "ipa": "/pen˧.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถูกต้อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ธรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ธรรม"
+     ],
+     "lit": "are + dharma",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + คุณความดี"
+    },
+    {
+     "th": "จำเป็น",
+     "rtgs": "cham-pen",
+     "ipa": "/t͡ɕam˧.pen˧/",
+     "gloss": {
+      "en": [
+       "critical",
+       "essential"
+      ],
+      "th": "ต้องเป็นอย่างนั้น, ต้องทำ, ขาดไม่ได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "จำ",
+      "เป็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "remember + are",
+     "lit_th": "กำหนดไว้ในใจ + คำกริยาสำหรับแสดงความสัมพันธ์ระหว่"
+    },
+    {
+     "th": "เป็นต่อ",
+     "rtgs": "pen-to",
+     "ipa": "/pen˧.tɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ได้เปรียบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ต่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ต่อ"
+     ],
+     "lit": "are + a",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ"
+    },
+    {
+     "th": "เป็นกันเอง",
+     "rtgs": "pen-kan-eng",
+     "ipa": "/pen˧.kan˧.ʔeːŋ˧/",
+     "gloss": {
+      "en": [
+       "friendly",
+       "affable"
+      ],
+      "th": "มีความสนิทสนมคุ้นเคยกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "กันเอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + เป็นพวกเดียวกัน",
+     "frame": "quality"
+    },
+    {
+     "th": "เป็นความ",
+     "rtgs": "pen-khwam",
+     "ipa": "/pen˧.kʰwaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีคดีพิพาทหรือฟ้องร้องกันในโรงศาล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ความ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "are + -ness",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + เรื่อง",
+     "flips_with": "ความเป็น"
+    },
+    {
+     "th": "เป็นสุข",
+     "rtgs": "pen-suk",
+     "ipa": "/pen˧.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีความสุข",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "สุข"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "สุข"
+     ],
+     "lit": "are + happiness",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ความสบายกายสบายใจ"
+    },
+    {
+     "th": "เป็นห่วง",
+     "rtgs": "pen-huang",
+     "ipa": "/pen˧.hua̯ŋ˨˩/",
+     "gloss": {
+      "en": [
+       "anxious"
+      ],
+      "th": "กังวลถึง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ห่วง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + เครื่องคล้อง"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "สามารถ, ได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Being in a state becomes being able to.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "อยู่เป็น",
+     "rtgs": "yu-pen",
+     "ipa": "/juː˨˩.pen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้จักกาละเทศะ, รู้จักประจบสอพลอ, ยอมเสียเกียรติหรือศักดิ์ศรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อยู่",
+      "เป็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "dwell + are",
+     "lit_th": "พัก + สามารถ",
+     "flips_with": "เป็นอยู่"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ยังมีชีวิตอยู่, ยังไม่ตาย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แผลเป็น",
+     "rtgs": "phlae-pen",
+     "ipa": "/pʰlɛː˩˩˦.pen˧/",
+     "gloss": {
+      "en": [
+       "scar"
+      ],
+      "th": "แผลที่หายแล้ว แต่ยังมีรอยอยู่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แผล",
+      "เป็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.20, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "เนื้อหนังที่แตกแยกออกเพราะเป็นโรคห + ยังมีชีวิตอยู่"
+    },
+    {
+     "th": "เงื่อนเป็น",
+     "rtgs": "nguean-pen",
+     "ipa": "/ŋɯa̯n˥˩.pen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงื่อนที่ผูกแล้วแก้ง่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เงื่อน",
+      "เป็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "knot + are",
+     "lit_th": "เชือกหรือเส้นด้ายเป็นต้นที่ผูกกันเ + ยังมีชีวิตอยู่"
+    },
+    {
+     "th": "คำเป็น",
+     "rtgs": "kham-pen",
+     "ipa": "/kʰam˧.pen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำสระยาวที่ไม่มีตัวสะกด และคำในมาตรา กง กน กม เกย เกอว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "เป็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "word + are",
+     "lit_th": "เสียงพูด + ยังมีชีวิตอยู่"
+    },
+    {
+     "th": "เป็นอยู่",
+     "rtgs": "pen-yu",
+     "ipa": "/pen˧.juː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สภาพความเป็นไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "อยู่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "are + dwell",
+     "lit_th": "ยังมีชีวิตอยู่ + พัก",
+     "flips_with": "อยู่เป็น"
+    },
+    {
+     "th": "หน้าเป็น",
+     "rtgs": "na-pen",
+     "ipa": "/naː˥˩.pen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ทำหน้ายิ้มหรือหัวเราะอยู่เรื่อย ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "เป็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "before + are",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ยังมีชีวิตอยู่"
+    },
+    {
+     "th": "จับเป็น",
+     "rtgs": "chap-pen",
+     "ipa": "/t͡ɕap̚˨˩.pen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จับตัวมาให้ได้โดยไม่ทำให้ตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จับ",
+      "เป็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "จับ"
+     ],
+     "lit": "grab + are",
+     "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + ยังมีชีวิตอยู่"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And being at all: alive.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ประหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เป็นกลาง",
+     "rtgs": "pen-klang",
+     "ipa": "/pen˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่เข้าข้างฝ่ายใดฝ่ายหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.12, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "are + middle",
+     "lit_th": "ประหนึ่ง + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง"
+    },
+    {
+     "th": "ทำเป็น",
+     "rtgs": "tham-pen",
+     "ipa": "/tʰam˧.pen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสร้งแสดง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "เป็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "ทำ"
+     ],
+     "lit": "do + are",
+     "lit_th": "กระทำ + ประหนึ่ง"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Bleached toward comparison: as, as if.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 472 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits ['หลัง', 'ตา'].",
+ "compounds_unassigned": [
+  {
+   "th": "ความเป็น",
+   "rtgs": "khwam-pen",
+   "ipa": "/kʰwaːm˧.pen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เป็น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "เป็น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "-ness + are",
+   "lit_th": "เรื่อง + คำกริยาสำหรับแสดงความสัมพันธ์ระหว่",
+   "flips_with": "เป็นความ"
+  },
+  {
+   "th": "ความจำเป็น",
+   "rtgs": "khwam-cham-pen",
+   "ipa": "/kʰwaːm˧.t͡ɕam˧.pen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ จำเป็น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความจำ",
+    "เป็น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "memory + are",
+   "lit_th": "คำอาการนามของ จำ + คำกริยาสำหรับแสดงความสัมพันธ์ระหว่"
+  },
+  {
+   "th": "การเป็น",
+   "rtgs": "kan-pen",
+   "ipa": "/kaːn˧.pen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เป็น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "เป็น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + คำกริยาสำหรับแสดงความสัมพันธ์ระหว่"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *m̩.pelᴬ; ร่วมเชื้อสายกับอีสาน เป็น, ลาว ເປັນ (เปัน), คำเมือง ᨸᩮ᩠ᨶ (เปน), ไทลื้อ ᦔᦲᧃ (ปีน), ไทดำ ꪹꪜꪸꪙ (เปย̂น), ไทขาว ꪜꪲꪙ, ไทใหญ่ ပဵၼ် (เปน), ไทใต้คง ᥙᥥᥢ (เปน), อาหม 𑜈𑜢𑜃𑜫 (บิน์), จ้วง baenz, แสก พั๊น, จ้วงแบบจั่วเจียง binz",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨸᩮ᩠ᨶ",
+  "th": "เปน",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "are",
+  "art",
+  "be",
+  "is"
+ ]
+}

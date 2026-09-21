@@ -1,0 +1,1060 @@
+{
+ "id": "w:phon",
+ "th": "พล",
+ "status": "mapped",
+ "rtgs": "phon",
+ "paiboon": "pon",
+ "ipa": "/pʰon˧/",
+ "syllable_respelling": "พน-ละ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "strength",
+     "force"
+    ],
+    "th": "กำลัง, มักใช้ประกอบคำอื่น",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: พล < Pali/Skt bala 'strength'.",
+    "Declared root: พล < Pali/Skt bala 'strength'.",
+    "Declared root: พล < Pali/Skt bala 'strength'.",
+    "Declared root: พล < Pali/Skt bala 'strength'.",
+    "Declared root: พล < Pali/Skt bala 'strength'.",
+    "Declared root: พล < Pali/Skt bala 'strength'."
+   ],
+   "compounds": [
+    {
+     "th": "พลศึกษา",
+     "rtgs": "pha-la-suek-sa",
+     "ipa": "/pʰa˦˥.la˦˥.sɯk̚˨˩.saː˩˩˦/",
+     "gloss": {
+      "en": [
+       "physical education"
+      ],
+      "th": "การศึกษาที่จะนำไปสู่ความเจริญงอกงามและพัฒนาการทางร่างกาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พล",
+      "ศึกษา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "strength + learn",
+     "lit_th": "กำลัง + การเล่าเรียน การฝึกฝน และการอบรม",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ทหาร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไพร่พล",
+     "rtgs": "phrai-phon",
+     "ipa": "/pʰraj˥˩.pʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำลังคน, กำลังทหาร, หมู่คนในราชการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไพร่",
+      "พล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.31, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "พลเมือง + ทหาร",
+     "frame": "entity"
+    },
+    {
+     "th": "พลเรือน",
+     "rtgs": "phon-la-ruean",
+     "ipa": "/pʰon˧.la˦˥.rɯa̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประชาชน, คนทั่วไปที่ไม่ใช่ทหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "เรือน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.32, next 0.18",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือน"
+     ],
+     "lit": "strength + house",
+     "lit_th": "ทหาร + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "กองพล",
+     "translit_auto": "kongphn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หน่วยทหารซึ่งมีทหารราบ 3 กรมเป็นหลัก มีทหารหน่วยอื่น ๆ เป็นส่วนประกอบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กอง",
+      "พล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กอง"
+     ],
+     "lit": "desk + strength",
+     "lit_th": "ทำให้รวมสุมกันไว้ + ทหาร"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Strength stands for the men who carry it: troops.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "สามัญ, ธรรมดา ๆ, พื้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "The rank and file, and so, ordinary, common.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล (เดิมใช้ว่า นายพล)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พลเอก",
+     "rtgs": "phon-ek",
+     "ipa": "/pʰon˧.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพลโท ต่ำกว่าจอมพล, ย่อว่า พล.อ.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "เอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.30, next 0.18",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "strength + one",
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + หนึ่ง"
+    },
+    {
+     "th": "พลเรือเอก",
+     "rtgs": "phon-ruea-ek",
+     "ipa": "/pʰon˧.rɯa̯˧.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "admiral"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่าพลเรือโท ต่ำกว่าจอมพลเรือ, ย่อว่า พล.ร.อ.",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พล",
+      "เรือเอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.21, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + ยศทหารชั้นสัญญาบัตรของกองทัพเรือ ส",
+     "frame": "entity"
+    },
+    {
+     "th": "พลตรี",
+     "rtgs": "phon-tri",
+     "ipa": "/pʰon˧.triː˧/",
+     "gloss": {
+      "en": [
+       "majority"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพลจัตวา ต่ำกว่าพลโท, ย่อว่า พล.ต.",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พล",
+      "ตรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.16, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตรี"
+     ],
+     "lit": "strength + fish",
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + ปลา",
+     "frame": "entity"
+    },
+    {
+     "th": "พลเรือโท",
+     "rtgs": "phon-ruea-tho",
+     "ipa": "/pʰon˧.rɯa̯˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่าพลเรือตรี ต่ำกว่าพลเรือเอก, ย่อว่า พล.ร.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "เรือโท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.25, next 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + ยศทหารชั้นสัญญาบัตรของกองทัพเรือ ส",
+     "frame": "entity"
+    },
+    {
+     "th": "พลโท",
+     "rtgs": "phon-tho",
+     "ipa": "/pʰon˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพลตรี ต่ำกว่าพลเอก, ย่อว่า พล.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "โท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.27, next 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "strength + two",
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + สอง"
+    },
+    {
+     "th": "จอมพล",
+     "rtgs": "chom-phon",
+     "ipa": "/t͡ɕɔːm˧.pʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรสูงสุดของกองทัพบก สูงกว่าพลเอก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จอม",
+      "พล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา + ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล",
+     "frame": "entity"
+    },
+    {
+     "th": "พลจัตวา",
+     "rtgs": "phon-chat-ta-wa",
+     "ipa": "/pʰon˧.t͡ɕat̚˨˩.ta˨˩.waː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพันเอก ต่ำกว่าพลตรี, ย่อว่า พล.จ.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "จัตวา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.26, next 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + สี่"
+    },
+    {
+     "th": "พลเรือตรี",
+     "rtgs": "phon-ruea-tri",
+     "ipa": "/pʰon˧.rɯa̯˧.triː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่าพลเรือจัตวา ต่ำกว่าพลเรือโท, ย่อว่า พล.ร.ต.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "เรือตรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.25, next 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยศทหารและตำรวจสัญญาบัตรรองจากจอมพล + ยศทหารชั้นสัญญาบัตรของกองทัพเรือ ส",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "The general officers — พลเอก, พลโท, พลตรี.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พลกรัง",
+     "rtgs": "phon-krang",
+     "ipa": "/pʰon˧.kraŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "กรัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น + แห้ง"
+    },
+    {
+     "th": "พลสงคราม",
+     "rtgs": "phon-song-khram",
+     "ipa": "/pʰon˧.soŋ˩˩˦.kʰraːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโนนสูง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "สงคราม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "strength + war",
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น + การรบใหญ่ที่มีคนจำนวนมากต่อสู้ฆ่าฟ",
+     "frame": "entity"
+    },
+    {
+     "th": "เมืองพล",
+     "rtgs": "mueang-phon",
+     "ipa": "/mɯa̯ŋ˧.pʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพล จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เมือง",
+      "พล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "town + strength",
+     "lit_th": "แดน + ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น",
+     "flips_with": "พลเมือง",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: อำเภอพล in Khon Kaen — a place name.",
+    "Declared root: อำเภอพล in Khon Kaen — a place name.",
+    "Declared root: อำเภอพล in Khon Kaen — a place name.",
+    "Declared root: อำเภอพล in Khon Kaen — a place name.",
+    "Declared root: อำเภอพล in Khon Kaen — a place name.",
+    "Declared root: อำเภอพล in Khon Kaen — a place name."
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "อักษรย่อของ พิษณุโลก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of พิษณุโลก — not a sense.",
+    "Declared root: an abbreviation of พิษณุโลก — not a sense.",
+    "Declared root: an abbreviation of พิษณุโลก — not a sense.",
+    "Declared root: an abbreviation of พิษณุโลก — not a sense.",
+    "Declared root: an abbreviation of พิษณุโลก — not a sense.",
+    "Declared root: an abbreviation of พิษณุโลก — not a sense."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 83 manuscript titles, 392 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits ['ทหาร', 'ยศ'].",
+ "compounds_unassigned": [
+  {
+   "th": "การชุมพล",
+   "rtgs": "kan-chum-phon",
+   "ipa": "/kaːn˧.t͡ɕʰum˧.pʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชุมพล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การชุม",
+    "พล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชุม + กำลัง",
+   "frame": "entity"
+  },
+  {
+   "th": "ทุรพล",
+   "rtgs": "thu-ra-phon",
+   "ipa": "/tʰu˦˥.ra˦˥.pʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีกำลังน้อย, อ่อนแอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทุร",
+    "พล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ชั่ว + กำลัง",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "อิทธิพล",
+   "rtgs": "it-thi-phon",
+   "ipa": "/ʔit̚˨˩.tʰi˦˥.pʰon˧/",
+   "gloss": {
+    "en": [
+     "action"
+    ],
+    "th": "กำลังที่ยังผลให้สำเร็จ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "อิทธิ",
+    "พล"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ฤทธิ์ + กำลัง",
+   "frame": "entity"
+  },
+  {
+   "th": "พลวง",
+   "rtgs": "phluang",
+   "ipa": "/pʰlua̯ŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ธาตุลำดับที่ 51 สัญลักษณ์ Sb เป็นโลหะ ลักษณะเป็นของแข็งสีขาวคล้ายโลหะเงิน เปราะ หลอมละลายที่ 630.5 °ซ. มีสมบัติพิเศษ คือ ขยายตัวเมื่อแข็งตัว ใช้ประโยชน์นำไปผสมกับโลหะอื่นให้เป็นโลหะเจือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พล",
+    "วง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "strength + zone",
+   "lit_th": "กำลัง + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม",
+   "frame": "entity"
+  },
+  {
+   "th": "พลอย",
+   "rtgs": "phloi",
+   "ipa": "/pʰlɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หินที่มีเนื้อใสสีต่าง ๆ ใช้ทำเป็นเครื่องประดับมีหัวแหวนเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พล",
+    "อย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "กำลัง + เหล็ก",
+   "frame": "entity"
+  },
+  {
+   "th": "พลการ",
+   "rtgs": "pha-la-kan",
+   "ipa": "/pʰa˦˥.la˦˥.kaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การกระทำโดยใช้กำลังหรืออำนาจเป็นต้น อย่างไม่ยอมฟังเสียงใคร, อำเภอใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พล",
+    "การ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "กำลัง + งาน",
+   "frame": "entity"
+  },
+  {
+   "th": "พลเมือง",
+   "rtgs": "phon-la-mueang",
+   "ipa": "/pʰon˧.la˦˥.mɯa̯ŋ˧/",
+   "gloss": {
+    "en": [
+     "nation",
+     "citizen"
+    ],
+    "th": "ประชาชน, ราษฎร, ชาวประเทศ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "พล",
+    "เมือง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เมือง"
+   ],
+   "lit": "strength + town",
+   "lit_th": "กำลัง + แดน",
+   "flips_with": "เมืองพล",
+   "frame": "entity"
+  },
+  {
+   "th": "พลตำรวจ",
+   "rtgs": "phon-tam-ruat",
+   "ipa": "/pʰon˧.tam˧.rua̯t̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยศตำรวจชั้นต่ำสุด ต่ำกว่าสิบตำรวจตรี, ย่อว่า พลฯ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พล",
+    "ตำรวจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "strength + copper",
+   "lit_th": "กำลัง + เจ้าหน้าที่ของรัฐ ซึ่งมีหน้าที่ตรว",
+   "frame": "entity"
+  },
+  {
+   "th": "พลทหาร",
+   "rtgs": "phon-tha-han",
+   "ipa": "/pʰon˧.tʰa˦˥.haːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยศทหารชั้นต่ำสุดของกองทัพทุกเหล่า ต่ำกว่าสิบตรี จ่าตรี และจ่าอากาศตรี, ย่อว่า พลฯ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พล",
+    "ทหาร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "strength + soldier",
+   "lit_th": "กำลัง + ผู้มีหน้าที่ในเรื่องรบ",
+   "frame": "entity"
+  },
+  {
+   "th": "ชุมพล",
+   "rtgs": "chum-phon",
+   "ipa": "/t͡ɕʰum˧.pʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รวบรวมกำลังไพร่พล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชุม",
+    "พล"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ชุม"
+   ],
+   "lit": "abound + strength",
+   "lit_th": "มารวมกัน + กำลัง"
+  },
+  {
+   "th": "พลอด",
+   "rtgs": "phlot",
+   "ipa": "/pʰlɔːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พูดจาอ่อนหวาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พล",
+    "อด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "อด"
+   ],
+   "lit": "strength + to restrain",
+   "lit_th": "กำลัง + กลั้น"
+  },
+  {
+   "th": "ขุนพล",
+   "rtgs": "khun-phon",
+   "ipa": "/kʰun˩˩˦.pʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แม่ทัพ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขุน",
+    "พล"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้เป็นใหญ่ + กำลัง",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต बल (พล, “กำลัง”), จากบาลี พล (“กำลัง”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

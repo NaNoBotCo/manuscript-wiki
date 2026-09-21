@@ -1,0 +1,1192 @@
+{
+ "id": "w:tit",
+ "th": "ติด",
+ "status": "mapped",
+ "rtgs": "tit",
+ "paiboon": "dtìt",
+ "ipa": "/tit̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "อาการที่ข้องอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ติดลม",
+     "rtgs": "tit-lom",
+     "ipa": "/tit̚˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ว่าวขึ้นไปสูงได้ลมพยุงให้ทรงตัวอยู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "ลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.22, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ลม"
+     ],
+     "lit": "fit + wind",
+     "lit_th": "อาการที่ข้องอยู่ + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ประดับ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Made to catch on something: to pin, to fix as ornament.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "แนบอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Caught close against: adhering.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ทำให้เกิดขัดอยู่หรือข้องอยู่จนไม่อาจให้เคลื่อนไปได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Causing the catching: to jam, to fasten.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ชอบอย่างขาดไม่ได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Caught on a habit: unable to do without.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "อาศัยไปด้วยหรือมาด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ติดตาม",
+     "rtgs": "tit-tam",
+     "ipa": "/tit̚˨˩.taːm˧/",
+     "gloss": {
+      "en": [
+       "chase",
+       "trace"
+      ],
+      "th": "ไปด้วย, มาด้วย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "ตาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.34, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "fit + along",
+     "lit_th": "อาศัยไปด้วยหรือมาด้วย + ไปหรือมาข้างหลังหรือภายหลังโดยลำดั"
+    }
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Going along attached to someone.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ผนึก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Adhering shut: to seal.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "จุด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ติดไฟ",
+     "rtgs": "tit-fai",
+     "ipa": "/tit̚˨˩.faj˧/",
+     "gloss": {
+      "en": [
+       "light",
+       "ablaze",
+       "alight"
+      ],
+      "th": "จุดไฟ, ก่อไฟ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "ไฟ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "fit + fire",
+     "lit_th": "จุด + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ"
+    }
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Fire catching: to light.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ต่อเนื่องอย่างใกล้ชิด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Close up against, and so continuously.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "ได้รับเชื้อโรค",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ติดเชื้อ",
+     "rtgs": "tit-chuea",
+     "ipa": "/tit̚˨˩.t͡ɕʰɯa̯˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รับเชื้อโรคเข้าสู่ร่างกาย และเชื้อนั้นเจริญในร่างกาย มักแสดงอาการเจ็บป่วย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "เชื้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 10: gloss similarity 0.18, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "fit + seed",
+     "lit_th": "ได้รับเชื้อโรค + สิ่งที่เป็นต้นเหตุทำให้เกิดสิ่งอื่"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Catching an infection.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "คงอยู่หรือทำให้คงอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "Staying put, or making a thing stay.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[RID sense 12 — no English yet]"
+    ],
+    "th": "ไม่ร่วง, ไม่หลุด (ใช้กับผลไม้)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 11,
+   "via": "specialisation",
+   "via_note": "Of fruit: staying on the branch, not dropping.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 13,
+   "gloss": {
+    "en": [
+     "[RID sense 13 — no English yet]"
+    ],
+    "th": "อยู่ในที่คุมขัง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Held fast in custody.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 14,
+   "gloss": {
+    "en": [
+     "[RID sense 14 — no English yet]"
+    ],
+    "th": "กักบริเวณ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 13,
+   "via": "generalisation",
+   "via_note": "Confined to an area.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 15,
+   "gloss": {
+    "en": [
+     "[RID sense 15 — no English yet]"
+    ],
+    "th": "คล้าย, ใกล้ข้าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "metaphor",
+   "via_note": "Close to, nearly, bordering on.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 16,
+   "gloss": {
+    "en": [
+     "[RID sense 16 — no English yet]"
+    ],
+    "th": "มีหนี้สินค้างกันอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Caught by a debt still owing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 17,
+   "gloss": {
+    "en": [
+     "[RID sense 17 — no English yet]"
+    ],
+    "th": "ในการแทงโปโดยวิธีเลี่ยม ลูกค้าติดประตูข้างเคียงได้ 1 ประตู โปออกประตูที่ลูกค้าแทงเลี่ยมไว้ เจ้ามือจ่าย 2 ต่อ ถ้าออกประตูที่ลูกค้าแทงติดไว้ ไม่ได้ไม่เสีย ถ้าออกประตูอื่นนอกจากนั้น เจ้ามือกิน เช่น ลูกค้าแทงเลี่ยม 2 ติด 3 โปออก 2 เจ้ามือจ่าย 2 ต่อ ถ้าออก 3 ไม่ได้ไม่เสีย ถ้าออกหน่วยหรือครบ เจ้ามือกิน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "A gate one is caught on, in the game of โป.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 18,
+   "gloss": {
+    "en": [
+     "[RID sense 18 — no English yet]"
+    ],
+    "th": "ชื่อปลาทะเลทุกชนิดในวงศ์ Echeneidae เช่น สกุล Echeneis และ Remora มีลักษณะเฉพาะเด่นกว่าปลาอื่น ๆ ทั้งหมด คือ ที่ด้านบนของส่วนหัวมีอวัยวะรูปวงรี ลักษณะเป็นซี่เรียงตัวในแนวขวางคล้ายบานเกล็ด ใช้เป็นส่วนยึดเกาะแน่นกับปลาหรือสัตว์อื่นที่มีขนาดใหญ่กว่าหรือวัตถุลอยน้ำ ปากเชิดขึ้นอยู่ปลายสุดของหัว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "The remora, named for the sticking it does.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 5 manuscript titles, 209 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['อวัยวะ', 'ปาก', 'หัว', 'ขน'].",
+ "compounds_unassigned": [
+  {
+   "th": "ติดอ่าง",
+   "rtgs": "tit-ang",
+   "ipa": "/tit̚˨˩.ʔaːŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่พูดไม่ใคร่ออกทันใจ คือกว่าจะพูดได้แต่ละคำต้องย้ำเสียงต้นอยู่นาน จึงพูดต่อไปได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "อ่าง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "อาการที่ข้องอยู่ + ภาชนะสำหรับใส่น้ำ เป็นต้น มักมีลัก"
+  },
+  {
+   "th": "ติดสำนวน",
+   "rtgs": "tit-sam-nuan",
+   "ipa": "/tit̚˨˩.sam˩˩˦.nua̯n˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พูดใช้สำนวนมาก ๆ, พูดจาเล่นสำนวน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "สำนวน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "fit + record",
+   "lit_th": "อาการที่ข้องอยู่ + ถ้อยคำที่เรียบเรียง"
+  },
+  {
+   "th": "ติดสินบน",
+   "rtgs": "tit-sin-bon",
+   "ipa": "/tit̚˨˩.sin˩˩˦.bon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ให้สินบน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "สินบน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "fit + meed",
+   "lit_th": "อาการที่ข้องอยู่ + ทรัพย์หรือสิ่งของที่จะให้เป็นเครื่"
+  },
+  {
+   "th": "ติดตัว",
+   "rtgs": "tit-tua",
+   "ipa": "/tit̚˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "by"
+    ],
+    "th": "มีอยู่กับตัว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "ตัว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "fit + form",
+   "lit_th": "อาการที่ข้องอยู่ + รูป"
+  },
+  {
+   "th": "ติดงาน",
+   "rtgs": "tit-ngan",
+   "ipa": "/tit̚˨˩.ŋaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีงานค้างต้องทำ และปลีกตัวไม่ได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "งาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "งาน"
+   ],
+   "lit": "fit + job",
+   "lit_th": "อาการที่ข้องอยู่ + สิ่งหรือกิจกรรมที่ทำ"
+  },
+  {
+   "th": "ติดตลาด",
+   "rtgs": "tit-ta-lat",
+   "ipa": "/tit̚˨˩.ta˨˩.laːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จัดให้มีตลาดขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "ตลาด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตลาด"
+   ],
+   "lit": "fit + market",
+   "lit_th": "อาการที่ข้องอยู่ + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ"
+  },
+  {
+   "th": "การติด",
+   "rtgs": "kan-tit",
+   "ipa": "/kaːn˧.tit̚˨˩/",
+   "gloss": {
+    "en": [
+     "addiction",
+     "engagement"
+    ],
+    "th": "คำอาการนามของ ติด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ติด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + อาการที่ข้องอยู่"
+  },
+  {
+   "th": "ติดเก้ง",
+   "rtgs": "tit-keng",
+   "ipa": "/tit̚˨˩.keːŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการสมจรของสุนัขซึ่งกำลังติดกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "เก้ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "อาการที่ข้องอยู่ + ชื่อสัตว์เคี้ยวเอื้องในวงศ์กวาง"
+  },
+  {
+   "th": "ติดเครื่อง",
+   "rtgs": "tit-khrueang",
+   "ipa": "/tit̚˨˩.kʰrɯa̯ŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทำให้เครื่องจักรกลติดหรือเดิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "เครื่อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "เครื่อง"
+   ],
+   "lit": "fit + device",
+   "lit_th": "อาการที่ข้องอยู่ + สิ่ง"
+  },
+  {
+   "th": "ติดขัด",
+   "rtgs": "tit-khat",
+   "ipa": "/tit̚˨˩.kʰat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขัดข้อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "ขัด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "ขัด"
+   ],
+   "lit": "fit + abrade",
+   "lit_th": "อาการที่ข้องอยู่ + ให้ติดขวางไว้ไม่ให้หลุดออก"
+  },
+  {
+   "th": "ติดดอย",
+   "rtgs": "tit-doi",
+   "ipa": "/tit̚˨˩.dɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ซื้อหุ้นเมื่อราคาสูง แต่ต่อมาราคาปรับตัวลงต่ำ ทำให้ไม่อยากขายหุ้นเพราะจะขาดทุน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "ดอย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "อาการที่ข้องอยู่ + ภูเขา"
+  },
+  {
+   "th": "ติดพัน",
+   "rtgs": "tit-phan",
+   "ipa": "/tit̚˨˩.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เกี่ยวข้อง, เกี่ยวเนื่องกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "พัน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "พัน"
+   ],
+   "lit": "fit + k",
+   "lit_th": "อาการที่ข้องอยู่ + เรียกจำนวน 10 ร้อย"
+  },
+  {
+   "th": "ติดต่อ",
+   "rtgs": "tit-to",
+   "ipa": "/tit̚˨˩.tɔː˨˩/",
+   "gloss": {
+    "en": [
+     "contact"
+    ],
+    "th": "ไปมาหาสู่กัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "ต่อ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ต่อ"
+   ],
+   "lit": "fit + a",
+   "lit_th": "อาการที่ข้องอยู่ + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ"
+  },
+  {
+   "th": "ติดเป้ง",
+   "rtgs": "tit-peng",
+   "ipa": "/tit̚˨˩.peːŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ติดเก้ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "เป้ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "อาการที่ข้องอยู่ + ชื่อไม้พุ่ม 3 ชนิดในสกุล Phoenix ว"
+  },
+  {
+   "th": "ติดสัด",
+   "rtgs": "tit-sat",
+   "ipa": "/tit̚˨˩.sat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการสืบพันธุ์ของสัตว์ที่เป็นไปตามฤดูกาล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "สัด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "อาการที่ข้องอยู่ + ภาชนะรูปทรงกระบอก ทำด้วยไม้หรือสาน"
+  },
+  {
+   "th": "ติดอันดับ",
+   "rtgs": "tit-an-dap",
+   "ipa": "/tit̚˨˩.ʔan˧.dap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เข้าขั้นหรือลำดับที่กำหนดไว้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "อันดับ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "fit + order",
+   "lit_th": "อาการที่ข้องอยู่ + ชั้น"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับอีสาน ติด, ลาว ຕິດ (ติด), คำเมือง ᨲᩥ᩠ᨯ (ติด), เขิน ᨲᩥ᩠ᨯ (ติด), ไทลื้อ ᦎᦲᧆ (ตีด), ไทใหญ่ တိတ်း (ติ๊ต), อาหม 𑜄𑜢𑜄𑜫 (ติต์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨲᩥ᩠ᨯ",
+  "th": "ติด",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "fit",
+  "mount"
+ ]
+}

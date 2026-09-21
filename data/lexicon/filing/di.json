@@ -1,0 +1,12 @@
+{
+ "head": "di",
+ "rule": "ดี is two words: the quality (1-9) and the gall bladder (10-11), plus the Latin letter (12). The quality sense is so broad that its subdivisions rarely bite, so sense 1 keeps everything that just means good — including the compounds about thinking oneself good (อวดดี, ถือดี) and being tested on it (ลองดี). The subdivisions take only what their glosses name outright: sense 7, เก่ง, takes หัวดี, clever; sense 8, ชอบ, takes ดีใจ and ยินดี, which are gladness rather than goodness; sense 9, being in a normal state, takes ญาติดี, back on good terms, beside คืนดี already there. The gall bladder earns two: ดีซ่าน, jaundice, whose etymology is given as ดี + ซ่าน, and ดีเดือด, a rage that is literally the gall boiling. Sense 3 (สวย, งาม) stays empty — nothing in this list means beautiful.",
+ "senses": {
+  "1": ["ของดี","ขวัญดี","ดีกว่า","ดีเด่น","ดีแตก","ถือดี","ผู้ดี","พอดี","ลองดี","รู้ดี","อวดดี","เกินดี","เม็ดดี","ได้ดี","ใจดี"],
+  "7": ["หัวดี"],
+  "8": ["ดีใจ","ยินดี"],
+  "9": ["ญาติดี"],
+  "10": ["ดีเดือด"],
+  "11": ["ดีซ่าน"]
+ }
+}

@@ -1,0 +1,1117 @@
+{
+ "id": "w:taek",
+ "th": "แตก",
+ "status": "mapped",
+ "rtgs": "taek",
+ "paiboon": "dtɛ̀ɛk",
+ "ipa": "/tɛːk̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "แยกออกจากส่วนรวม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "แตกหัก",
+     "rtgs": "taek-hak",
+     "ipa": "/tɛːk̚˨˩.hak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เด็ดขาดถึงที่สุดไม่ข้างใดก็ข้างหนึ่งเป็นได้รู้ดีกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "หัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "fracture + tear",
+     "lit_th": "แยกออกจากส่วนรวม + พับงอ"
+    },
+    {
+     "th": "แตกแยก",
+     "rtgs": "taek-yaek",
+     "ipa": "/tɛːk̚˨˩.jɛːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "split"
+      ],
+      "th": "แตกสามัคคี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "แยก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "fracture + separate",
+     "lit_th": "แยกออกจากส่วนรวม + ทำให้สิ่งที่รวมกันอยู่หรือประกอบกั"
+    },
+    {
+     "th": "วงแตก",
+     "rtgs": "wong-taek",
+     "ipa": "/woŋ˧.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เลิกการรวมกลุ่มหรือกิจกรรมที่ทำเป็นกลุ่มโดยกะทันหันและแยกย้ายกันไป เพราะเกิดเหตุอย่างใดอย่างหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วง",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "zone + fracture",
+     "lit_th": "รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม + แยกออกจากส่วนรวม"
+    },
+    {
+     "th": "แตกต่าง",
+     "rtgs": "taek-tang",
+     "ipa": "/tɛːk̚˨˩.taːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "other"
+      ],
+      "th": "ไม่เหมือนกัน, ผิดกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "ต่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "fracture + other",
+     "lit_th": "แยกออกจากส่วนรวม + ภาชนะสำหรับบรรทุกสิ่งของมีคานพาดไว"
+    },
+    {
+     "th": "หน้าแตก",
+     "rtgs": "na-taek",
+     "ipa": "/naː˥˩.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ต้องได้รับความอับอายขายหน้าอย่างยิ่งเพราะผิดหวังอย่างมากหรือเพราะถูกโต้ถูกย้อนกลับมาอย่างเถียงไม่ขึ้นเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "before + fracture",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + แยกออกจากส่วนรวม"
+    },
+    {
+     "th": "โป๊ะแตก",
+     "rtgs": "po-taek",
+     "ipa": "/poʔ˦˥.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออาหารอย่างหนึ่ง ใช้ของทะเล เช่น หอยแมลงภู่สด ปลากะพง ปูม้า ปลาหมึก กุ้ง ต้มในน้ำเดือดซึ่งมีตะไคร้ ใบมะกรูด หัวหอม รากผักชี ปรุงรสเปรี้ยวเค็มด้วยมะขามหรือมะนาว น้ำปลา พริกขี้หนู พริกแห้งเผา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โป๊ะ",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ที่สำหรับดักปลาทะเล ทำด้วยเสาไม้จร + แยกออกจากส่วนรวม"
+    },
+    {
+     "th": "แพแตก",
+     "translit_auto": "phaetaek",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลักษณะที่ครอบครัวเป็นต้น แตกกระจัดกระจายแยกย้ายกันไป เพราะหัวหน้าครอบครัวหรือผู้เป็นหลักเป็นประธานประสบความวิบัติหรือเสียชีวิต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แพ",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "raft + fracture",
+     "lit_th": "ไม้ไผ่หรือซุงเป็นต้นที่ผูกมัดเรียง + แยกออกจากส่วนรวม"
+    },
+    {
+     "th": "แตกคอ",
+     "rtgs": "taek-kho",
+     "ipa": "/tɛːk̚˨˩.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมางใจกันเพราะภายหลังเกิดมีความเห็นหรือรสนิยมไม่ตรงกัน, แตกสามัคคี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "คอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "คอ"
+     ],
+     "lit": "fracture + neck",
+     "lit_th": "แยกออกจากส่วนรวม + ส่วนของร่างกายที่ต่อศีรษะกับตัว"
+    },
+    {
+     "th": "ดีแตก",
+     "rtgs": "di-taek",
+     "ipa": "/diː˧.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เคยดีมาแล้วแต่กลับเสียในภายหลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดี",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "good + fracture",
+     "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + แยกออกจากส่วนรวม",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ทำให้แยกออกจากส่วนรวม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Causing the separation rather than undergoing it.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แตกเงิน",
+     "rtgs": "taek-ngoen",
+     "ipa": "/tɛːk̚˨˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาเงินตราหน่วยใหญ่ไปแลกเป็นเงินปลีกหรือหน่วยย่อย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "เงิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "เงิน"
+     ],
+     "lit": "fracture + bread",
+     "lit_th": "ทำให้แยกออกจากส่วนรวม + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "คุมหรือควบคุมไว้ไม่อยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เบรกแตก",
+     "rtgs": "brek-taek",
+     "ipa": "/breːk̚˨˩.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่รถเบรกไม่อยู่ ชะลอไม่ได้ (ด้วยสาเหตุใด ๆ)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เบรก",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.12, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "เครื่องห้ามล้อ + คุมหรือควบคุมไว้ไม่อยู่"
+    },
+    {
+     "th": "ใจแตก",
+     "rtgs": "chai-taek",
+     "ipa": "/t͡ɕaj˧.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประพฤติไปตามที่ตนนิยมในทางที่ผิดหรือนอกโอวาทจนเคยตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + fracture",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + คุมหรือควบคุมไว้ไม่อยู่"
+    },
+    {
+     "th": "แตกตื่น",
+     "rtgs": "taek-tuen",
+     "ipa": "/tɛːk̚˨˩.tɯːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แห่กันไปด้วยความตื่นเต้น ตกอกตกใจ หรืออยากรู้อยากเห็น เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "ตื่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "fracture + wake",
+     "lit_th": "คุมหรือควบคุมไว้ไม่อยู่ + ฟื้นจากหลับ"
+    },
+    {
+     "th": "ห่วยแตก",
+     "rtgs": "huai-taek",
+     "ipa": "/hua̯j˨˩.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แย่มาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห่วย",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "แย่มาก + คุมหรือควบคุมไว้ไม่อยู่",
+     "frame": "quality"
+    },
+    {
+     "th": "ขำแตก",
+     "rtgs": "kham-taek",
+     "ipa": "/kʰam˩˩˦.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขำมาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขำ",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "มีลักษณะหน้าตาคมชวนให้มอง + คุมหรือควบคุมไว้ไม่อยู่",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A thing that will not be held together: out of control.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ปะทุ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Separating violently: to burst.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ผลิ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A bud breaking out of the stem.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ไหลออกมาเอง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "What bursts flows out of itself.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ก๊อกแตก",
+     "rtgs": "kok-taek",
+     "ipa": "/kɔk̚˦˥.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ร้องไห้น้ำตาพรั่งพรู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก๊อก",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "เครื่องเปิดปิดน้ำจากท่อหรือภาชนะ + ไหลออกมาเอง"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "มีรอยแยก, แยกออกเป็นรอย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Separated along a line: cracked.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ถังแตก",
+     "rtgs": "thang-taek",
+     "ipa": "/tʰaŋ˩˩˦.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่มีเงินในช่วงใดช่วงหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถัง",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "bucket + fracture",
+     "lit_th": "ภาชนะจำพวกหนึ่ง ทำด้วยไม้หรือโลหะเ + มีรอยแยก"
+    },
+    {
+     "th": "อกแตก",
+     "translit_auto": "ktaek",
+     "ipa": "[ʔok̚˩.tɛːk̚˨˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลักษณะของเมืองหรือวัดเป็นต้นซึ่งมีลำน้ำหรือทางผ่ากลางเรียกว่า เมืองอกแตก วัดอกแตก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อก",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "อก"
+     ],
+     "lit": "chest + fracture",
+     "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + มีรอยแยก"
+    },
+    {
+     "th": "แตกร้าว",
+     "rtgs": "taek-rao",
+     "ipa": "/tɛːk̚˨˩.raːw˦˥/",
+     "gloss": {
+      "en": [
+       "crack"
+      ],
+      "th": "บาดหมางหรือผิดใจกันจนติดต่อคบหากันอย่างเดิมไม่ได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "ร้าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "fracture + cracked",
+     "lit_th": "มีรอยแยก + มีรอยแตกลึกเป็นทางลงไปในเนื้อของสิ"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "น้ำอสุจิหลั่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แตกใน",
+     "rtgs": "taek-nai",
+     "ipa": "/tɛːk̚˨˩.naj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลั่งน้ำอสุจิในช่องคลอดหรือทวารหนัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "ใน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: gloss similarity 0.29, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+PREP",
+     "head": 0,
+     "cross_listed": [
+      "ใน"
+     ],
+     "lit": "fracture + in",
+     "lit_th": "น้ำอสุจิหลั่ง + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "น้ำแตก",
+     "rtgs": "nam-taek",
+     "ipa": "/naːm˦˥.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่น้ำอสุจิไหลออกมาเวลาเกิดความเสียวสุดยอดทางเพศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + fracture",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + น้ำอสุจิหลั่ง"
+    }
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "Of semen: released.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ตาย, แพ้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A line breaking: to be routed, to die.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "ที่อ่านหนังสือออกคล่อง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "อ่านแตก — reading that has broken through into fluency.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แตกฉาน",
+     "rtgs": "taek-chan",
+     "ipa": "/tɛːk̚˨˩.t͡ɕʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชำนิชำนาญ, เชี่ยวชาญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "ฉาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+PROP",
+     "head": 0,
+     "lit": "fracture + Shan"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "ที่มีเสียงห้าวเมื่อเริ่มเป็นหนุ่ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์, adjective",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์, คำคุณศัพท์",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เสียงแตก",
+     "translit_auto": "seiyngtaek",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียงพูดในตอนแตกเนื้อหนุ่ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียง",
+      "แตก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 11: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "เสียง"
+     ],
+     "lit": "voice + fracture",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + ที่มีเสียงห้าวเมื่อเริ่มเป็นหนุ่ม"
+    }
+   ],
+   "extends": 7,
+   "via": "metaphor",
+   "via_note": "A boy's voice cracking as it deepens.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1 manuscript titles, 53 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['อ่าน', 'หนังสือ', 'เสียง'].",
+ "compounds_unassigned": [
+  {
+   "th": "การแตก",
+   "rtgs": "kan-taek",
+   "ipa": "/kaːn˧.tɛːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "fracture"
+    ],
+    "th": "คำอาการนามของ แตก",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "แตก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + แยกออกจากส่วนรวม"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *p.reːkᴰ (“แตก; ระเบิด”); เทียบจีนเก่า 爆 (OC *proːwɢs, *poːwɢ, *proːwɢ, “ระเบิด”); ร่วมเชื้อสายกับลาว ແຕກ (แตก), ไทลื้อ ᦶᦎᧅ (แตก), ไทใหญ่ တႅၵ်ႇ (แต่ก), ไทดำ ꪵꪔꪀ (แตก), อาหม 𑜄𑜢𑜀𑜫 (ติก์)，จ้วงแบบจั่วเจียง pek， จ้วง dek",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "fracture"
+ ]
+}

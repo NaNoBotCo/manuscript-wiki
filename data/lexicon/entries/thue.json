@@ -1,0 +1,766 @@
+{
+ "id": "w:thue",
+ "th": "ถือ",
+ "status": "mapped",
+ "rtgs": "thue",
+ "paiboon": "tʉ̌ʉ",
+ "ipa": "/tʰɯː˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "เอาไว้ในมือ, จับยึดไว้ เช่น ถือมีด ถือปืน ถือหนังสือ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ทรงไว้, ดำรงไว้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Holding a thing up: to maintain, to keep.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เอาไว้ในใจ เช่น ถือศีล ถือศักดินา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ถือศีล",
+     "rtgs": "thue-sin",
+     "ipa": "/tʰɯː˩˩˦.siːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รักษาศีล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถือ",
+      "ศีล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เอาไว้ในใจ เช่น ถือศีล ถือศักดินา + ข้อบัญญัติทางพระพุทธศาสนาที่กำหนดก"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Holding in the mind rather than the hand — ถือศีล.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ยึดเอาว่า, นับเอาว่า เช่น ถือเป็นญาติกัน ถือเราถือเขา ถือพวก ถือโทษ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Holding a thing to be so: to reckon, to regard.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เชื่อมั่นว่าเป็นมงคลหรืออัปมงคล เช่น ถือไม่ให้ใครจับหัว ถือไม่ลอดใต้ถุน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Holding a thing lucky or forbidden: the observances.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "นับถือ เช่น ถือศาสนา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ยึดถือ",
+     "rtgs": "yuet-thue",
+     "ipa": "/jɯt̚˦˥.tʰɯː˩˩˦/",
+     "gloss": {
+      "en": [
+       "abide"
+      ],
+      "th": "จับถือ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ยึด",
+      "ถือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.21, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ถือเอาไว้ + นับถือ เช่น ถือศาสนา"
+    },
+    {
+     "th": "นับถือ",
+     "rtgs": "nap-thue",
+     "ipa": "/nap̚˦˥.tʰɯː˩˩˦/",
+     "gloss": {
+      "en": [
+       "value"
+      ],
+      "th": "เชื่อถือยึดมั่น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นับ",
+      "ถือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "count + hold",
+     "lit_th": "ตรวจหรือบอกให้รู้จำนวน + นับถือ เช่น ถือศาสนา"
+    },
+    {
+     "th": "เชื่อถือ",
+     "rtgs": "chuea-thue",
+     "ipa": "/t͡ɕʰɯa̯˥˩.tʰɯː˩˩˦/",
+     "gloss": {
+      "en": [
+       "credit"
+      ],
+      "th": "นับถือ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เชื่อ",
+      "ถือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.27, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "believe + hold",
+     "lit_th": "เห็นตามด้วย + นับถือ เช่น ถือศาสนา"
+    }
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Holding to a teaching: to profess a religion.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เช่า ในคำว่า ถือสวน, เช่าถือสวน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Holding land on lease — ถือสวน.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 2 manuscript titles, 100 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['สวน', 'ดิน', 'นา'].",
+ "compounds_unassigned": [
+  {
+   "th": "ถือกำเนิด",
+   "rtgs": "thue-kam-noet",
+   "ipa": "/tʰɯː˩˩˦.kam˧.nɤːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เกิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถือ",
+    "กำเนิด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "hold + bear",
+   "lit_th": "เอาไว้ในมือ + การเกิด"
+  },
+  {
+   "th": "การนับถือ",
+   "rtgs": "kan-nap-thue",
+   "ipa": "/kaːn˧.nap̚˦˥.tʰɯː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ นับถือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การนับ",
+    "ถือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "count + hold",
+   "lit_th": "คำอาการนามของ นับ + เอาไว้ในมือ"
+  },
+  {
+   "th": "การถือ",
+   "rtgs": "kan-thue",
+   "ipa": "/kaːn˧.tʰɯː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ถือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ถือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + เอาไว้ในมือ"
+  },
+  {
+   "th": "การยึดถือ",
+   "rtgs": "kan-yuet-thue",
+   "ipa": "/kaːn˧.jɯt̚˦˥.tʰɯː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ยึดถือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การยึด",
+    "ถือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ยึด + เอาไว้ในมือ"
+  },
+  {
+   "th": "การเชื่อถือ",
+   "rtgs": "kan-chuea-thue",
+   "ipa": "/kaːn˧.t͡ɕʰɯa̯˥˩.tʰɯː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เชื่อถือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเชื่อ",
+    "ถือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เชื่อ + เอาไว้ในมือ"
+  },
+  {
+   "th": "ถือตัว",
+   "rtgs": "thue-tua",
+   "ipa": "/tʰɯː˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "haughty",
+     "arrogant"
+    ],
+    "th": "ไว้ตัวไม่ยอมลดตัวเพราะหยิ่งในศักดิ์หรือฐานะของตนเป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ถือ",
+    "ตัว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "hold + form",
+   "lit_th": "เอาไว้ในมือ + รูป"
+  },
+  {
+   "th": "ถือหาง",
+   "rtgs": "thue-hang",
+   "ipa": "/tʰɯː˩˩˦.haːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เข้าทางฝ่ายที่ตนพอใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถือ",
+    "หาง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "hold + tail",
+   "lit_th": "เอาไว้ในมือ + ส่วนที่ยื่นออกจากส่วนท้ายแห่งลำตัว"
+  },
+  {
+   "th": "ความเชื่อถือ",
+   "rtgs": "khwam-chuea-thue",
+   "ipa": "/kʰwaːm˧.t͡ɕʰɯa̯˥˩.tʰɯː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เชื่อถือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเชื่อ",
+    "ถือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "idea + hold",
+   "lit_th": "คำอาการนามของ เชื่อ + เอาไว้ในมือ"
+  },
+  {
+   "th": "มือถือ",
+   "rtgs": "mue-thue",
+   "ipa": "/mɯː˧.tʰɯː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โทรศัพท์มือถือ, โทรศัพท์เคลื่อนที่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มือ",
+    "ถือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "มือ"
+   ],
+   "lit": "hand + hold",
+   "lit_th": "อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา + เอาไว้ในมือ"
+  },
+  {
+   "th": "ถือปูน",
+   "rtgs": "thue-pun",
+   "ipa": "/tʰɯː˩˩˦.puːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เอาปูนเชื่อมอิฐแต่ละแผ่นหรือสิ่งอื่นอย่างศิลาแลงขึ้นเป็นกำแพงหรือเสาเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถือ",
+    "ปูน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เอาไว้ในมือ + หินปูนหรือเปลือกหอยเมื่อถูกเผาจนสล"
+  },
+  {
+   "th": "ถือดี",
+   "rtgs": "thue-di",
+   "ipa": "/tʰɯː˩˩˦.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทะนงตัว, อวดดี, สำคัญว่ามีดีในตน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถือ",
+    "ดี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ดี"
+   ],
+   "lit": "hold + good",
+   "lit_th": "เอาไว้ในมือ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality"
+  },
+  {
+   "th": "ถือว่า",
+   "rtgs": "thue-wa",
+   "ipa": "/tʰɯː˩˩˦.waː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จัดว่า, นัยว่า, ยอมรับว่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถือ",
+    "ว่า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "ว่า"
+   ],
+   "lit": "hold + to say",
+   "lit_th": "เอาไว้ในมือ + พูด"
+  },
+  {
+   "th": "ถือสา",
+   "rtgs": "thue-sa",
+   "ipa": "/tʰɯː˩˩˦.saː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยึดเอาเป็นเรื่องเป็นราว, ถือเอาเป็นโทษ, (มักใช้ในทางปฏิเสธ)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถือ",
+    "สา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เอาไว้ในมือ + หมา"
+  }
+ ],
+ "etymology": {
+  "summary": "เทียบจีนยุคกลาง 戴 (MC tojH, “แบกไว้บนหัว”); ร่วมเชื้อสายกับอีสาน ถือ, ลาว ຖື (ถื), คำเมือง ᨳᩨ (ถื), เขิน ᨳᩨ (ถื), ไทลื้อ ᦏᦹ (ถื), จ้วง dawz, จ้วงแบบจั่วเจียง tw; เทียบไทดำ ꪕꪳ (ตฺึ), ไทขาว ꪕꪳ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨳᩨ",
+  "th": "ถื",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "hold"
+ ]
+}

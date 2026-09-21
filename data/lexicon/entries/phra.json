@@ -1,0 +1,1969 @@
+{
+ "id": "w:phra",
+ "th": "พระ",
+ "status": "mapped",
+ "rtgs": "phra",
+ "paiboon": "prá",
+ "ipa": "/pʰraʔ˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 1]"
+    ],
+    "th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุณีสงฆ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "The honorific fixed to the one who wears the robe.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "พระสมณสาสน์",
+     "translit_auto": "phrasmnsasn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จดหมาย (ใช้กับพระสังฆราช)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สมณสาสน์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + จดหมายของสมเด็จพระสังฆราชหรือประมุ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "พระพุทธรูป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พระรูป",
+     "translit_auto": "phrarup",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "รูป"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.41, next 0.27",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "รูป"
+     ],
+     "lit": "the honorific prefix phra + image",
+     "lit_th": "พระพุทธรูป + สิ่งที่รับรู้ได้ด้วยตา เป็นขันธ์ 1",
+     "frame": "entity"
+    },
+    {
+     "th": "พระแผง",
+     "rtgs": "phra-phaeng",
+     "ipa": "/pʰra˦˥.pʰɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระพิมพ์ที่หล่อติดกันเป็นแผง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "แผง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "พระพุทธรูป + เครื่องสานชนิดหนึ่ง เป็นแผ่นอย่างเ",
+     "frame": "entity"
+    },
+    {
+     "th": "พระพิมพ์",
+     "rtgs": "phra-phim",
+     "ipa": "/pʰra˦˥.pʰim˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระเครื่องที่สร้างขึ้นตามแบบแม่พิมพ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "พิมพ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พิมพ์"
+     ],
+     "lit": "the honorific prefix phra + print",
+     "lit_th": "พระพุทธรูป + รูป",
+     "frame": "entity"
+    }
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "And to the image of the Buddha.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "พระพุทธเจ้า หรือเนื่องด้วยพระพุทธเจ้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "And to the Buddha himself.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "พระเขี้ยวแก้ว",
+     "translit_auto": "phrakheiywkaeo",
+     "ipa": "[pʰräʔ˦˥.kʰiäw˥˩.kɛːw˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เขี้ยวของพระพุทธเจ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "เขี้ยวแก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "พระพุทธเจ้า หรือเนื่องด้วยพระพุทธเ + เขี้ยวของพระพุทธเจ้า",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุทธศาสนา เดือนหนึ่งมี 4 วัน คือ วันขึ้น 8 ค่ำ ขึ้น 15 ค่ำ แรม 8 ค่ำ และแรม 15 ค่ำ ถ้าเป็นเดือนขาดก็แรม 14 ค่ำ เรียกว่า วันพระ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พระโขนง",
+     "rtgs": "phra-kha-nong",
+     "ipa": "/pʰra˦˥.kʰa˨˩.noːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "โขนง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + คิ้ว",
+     "frame": "entity"
+    },
+    {
+     "th": "โกรกพระ",
+     "rtgs": "krok-phra",
+     "ipa": "/kroːk̚˨˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โกรก",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เทให้ไหลเรื่อยไปยังที่หมาย + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท"
+    },
+    {
+     "th": "พระบุ",
+     "rtgs": "phra-bu",
+     "ipa": "/pʰra˦˥.buʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพระยืน จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "บุ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ตีให้เข้ารูป"
+    },
+    {
+     "th": "ทางพระ",
+     "rtgs": "thang-phra",
+     "ipa": "/tʰaːŋ˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโพธิ์ทอง จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทาง",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทาง"
+     ],
+     "lit": "way + the honorific prefix phra",
+     "lit_th": "ที่สำหรับเดินไปมา + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
+    },
+    {
+     "th": "ขนงพระ",
+     "rtgs": "kha-nong-phra",
+     "ipa": "/kʰa˨˩.noŋ˩˩˦.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปากช่อง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขนง",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "คิ้ว + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
+    },
+    {
+     "th": "สระพระ",
+     "rtgs": "sa-phra",
+     "ipa": "/sa˨˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพระทองคำ จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สระ",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สระ"
+     ],
+     "lit": "vowel + the honorific prefix phra",
+     "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
+    },
+    {
+     "th": "บึงพระ",
+     "rtgs": "bueng-phra",
+     "ipa": "/bɯŋ˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บึง",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บึง"
+     ],
+     "lit": "marsh + the honorific prefix phra",
+     "lit_th": "แหล่งน้ำขนาดใหญ่ มีน้ำขังตลอดปี + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
+    },
+    {
+     "th": "พระแสง",
+     "rtgs": "phra-saeng",
+     "ipa": "/pʰra˦˥.sɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุราษฎร์ธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "แสง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แสง"
+     ],
+     "lit": "the honorific prefix phra + light",
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ความสว่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "พระสิงห์",
+     "rtgs": "phra-sing",
+     "ipa": "/pʰra˦˥.siŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สิงห์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + สิงโต",
+     "frame": "entity"
+    },
+    {
+     "th": "จอมพระ",
+     "rtgs": "chom-phra",
+     "ipa": "/t͡ɕɔːm˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุรินทร์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จอม",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยอดที่สูงสุดของสิ่งที่มีฐานใหญ่ปลา + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
+    },
+    {
+     "th": "พระพรหม",
+     "rtgs": "phra-phrom",
+     "ipa": "/pʰra˦˥.pʰrom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "พรหม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ชื่อพระเป็นเจ้าผู้สร้างโลก"
+    },
+    {
+     "th": "ท่าพระ",
+     "rtgs": "tha-phra",
+     "ipa": "/tʰaː˥˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + the honorific prefix phra",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
+    },
+    {
+     "th": "พระลับ",
+     "rtgs": "phra-lap",
+     "ipa": "/pʰra˦˥.lap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ลับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลับ"
+     ],
+     "lit": "the honorific prefix phra + to whet",
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ถูให้คม"
+    },
+    {
+     "th": "บางพระ",
+     "rtgs": "bang-phra",
+     "ipa": "/baːŋ˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + the honorific prefix phra",
+     "lit_th": "ทางน้ำเล็ก ๆ + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
+    },
+    {
+     "th": "พระทองคำ",
+     "rtgs": "phra-thong-kham",
+     "ipa": "/pʰra˦˥.tʰɔːŋ˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ทองคำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ธาตุลำดับที่ 79 สัญลักษณ์ Au เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "พบพระ",
+     "rtgs": "phop-phra",
+     "ipa": "/pʰop̚˦˥.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พบ",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "discover + the honorific prefix phra",
+     "lit_th": "เห็น + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท"
+    },
+    {
+     "th": "พระยืน",
+     "rtgs": "phra-yuen",
+     "ipa": "/pʰra˦˥.jɯːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ยืน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "the honorific prefix phra + stand",
+     "lit_th": "ชื่อวันประชุมถือศีลฟังธรรมในพระพุท + ตั้งอยู่"
+    },
+    {
+     "th": "หนองพระ",
+     "rtgs": "nong-phra",
+     "ipa": "/nɔːŋ˩˩˦.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวังทอง จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + the honorific prefix phra",
+     "lit_th": "แอ่งน้ำ + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากพระ",
+     "rtgs": "pak-phra",
+     "ipa": "/paːk̚˨˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองสุโขทัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ปาก"
+     ],
+     "lit": "mouth + the honorific prefix phra",
+     "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + ชื่อวันประชุมถือศีลฟังธรรมในพระพุท",
+     "frame": "entity"
+    }
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "The Buddha's day — the observance days named from him.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "พระเจ้า, พระเยซู, (ตามที่คริสต์ศาสนิกชนในเมืองไทยใช้อนุโลมเรียก)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แม่พระ",
+     "rtgs": "mae-phra",
+     "ipa": "/mɛː˥˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเรียกพระมารดาของพระเยซู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + the honorific prefix phra",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + พระเจ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "พระเจ้า",
+     "rtgs": "phra-chao",
+     "ipa": "/pʰra˦˥.t͡ɕaːw˥˩/",
+     "gloss": {
+      "en": [
+       "God",
+       "Allah"
+      ],
+      "th": "พระพุทธเจ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "เจ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "the honorific prefix phra + thou",
+     "lit_th": "พระเจ้า + ผู้เป็นใหญ่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "Taken up by Thai Christians for God and for Jesus.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "นักบวช, นักพรต",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Widened from the Buddhist monk to ascetics and religious generally.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 7]"
+    ],
+    "th": "ตัวเอกในเรื่องละคร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พระเอก",
+     "rtgs": "phra-ek",
+     "ipa": "/pʰra˦˥.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "lead"
+      ],
+      "th": "ตัวเอกฝ่ายชายในนวนิยาย ละคร หรือภาพยนตร์เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "เอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.13, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "the honorific prefix phra + one",
+     "lit_th": "ตัวเอกในเรื่องละคร + หนึ่ง"
+    },
+    {
+     "th": "พระรอง",
+     "rtgs": "phra-rong",
+     "ipa": "/pʰra˦˥.rɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระเอกที่มีบทบาทรองลงมาจากพระเอก/นางเอกในนวนิยาย ละคร หรือภาพยนตร์เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "รอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "รอง"
+     ],
+     "lit": "the honorific prefix phra + deputy",
+     "lit_th": "ตัวเอกในเรื่องละคร + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+    }
+   ],
+   "extends": 8,
+   "via": "metaphor",
+   "via_note": "The noble male lead in a play, cast in the honorific.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "the honorific prefix phra",
+     "sacred",
+     "venerable"
+    ],
+    "th": "ใช้ประกอบหน้าคำอื่นแสดงความยกย่อง เช่น เทพเจ้าหรือเทวดาผู้เป็นใหญ่ พระเจ้าแผ่นดินหรือของที่เกี่ยวข้องกับพระเจ้าแผ่นดินและเจ้านายชั้นสูง สมณศักดิ์ชั้นราชาคณะ นักบวช และสิ่งศักดิ์สิทธิ์",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พระคุณ",
+     "rtgs": "phra-khun",
+     "ipa": "/pʰra˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุญคุณ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "คุณ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "คุณ"
+     ],
+     "lit": "the honorific prefix phra + you",
+     "lit_th": "ใช้ประกอบหน้าคำอื่นแสดงความยกย่อง + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 9]"
+    ],
+    "th": "อิสริยยศเจ้านาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พระที่",
+     "translit_auto": "phrathi",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่นอน (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ที่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.40, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "the honorific prefix phra + at",
+     "lit_th": "อิสริยยศเจ้านาย + แหล่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "พระหัตถเลขา",
+     "translit_auto": "phrahatthlekha",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลายมือ (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "หัตถเลขา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.40, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + จดหมาย",
+     "frame": "entity"
+    },
+    {
+     "th": "พระอักษร",
+     "translit_auto": "phraaksn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จดหมาย (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "อักษร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.40, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "the honorific prefix phra + letter",
+     "lit_th": "อิสริยยศเจ้านาย + ตัวหนังสือ",
+     "frame": "entity"
+    },
+    {
+     "th": "พระรูปชี",
+     "translit_auto": "phrarupchi",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชี (ใช้กับเจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "รูปชี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.42, next 0.23",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + นักบวชหญิง",
+     "frame": "entity"
+    },
+    {
+     "th": "พระสำอาง",
+     "translit_auto": "phrasamang",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสำอาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สำอาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + เครื่องแป้งเครื่องหอม",
+     "frame": "entity"
+    },
+    {
+     "th": "พระภูษา",
+     "translit_auto": "phraphusa",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้านุ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ภูษา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + เครื่องนุ่งห่ม",
+     "frame": "entity"
+    },
+    {
+     "th": "พระตะพาบ",
+     "translit_auto": "phrataphab",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนโทน้ำเย็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ตะพาบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + ชื่อเต่าน้ำจืดกระดองอ่อนหลายชนิดหล",
+     "frame": "entity"
+    },
+    {
+     "th": "พระสุคนธ์",
+     "translit_auto": "phrasukhnt",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องหอม, น้ำหอม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สุคนธ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + กลิ่นหอม",
+     "frame": "entity"
+    },
+    {
+     "th": "พระองค์",
+     "rtgs": "phra-ong",
+     "ipa": "/pʰra˦˥.ʔoŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "องค์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + ส่วนของร่างกาย",
+     "frame": "entity"
+    },
+    {
+     "th": "พระฉวี",
+     "translit_auto": "phrachwi",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผิวกาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ฉวี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + ผิวกาย",
+     "frame": "entity"
+    },
+    {
+     "th": "พระนคร",
+     "rtgs": "phra-na-khon",
+     "ipa": "/pʰra˦˥.na˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมืองหลวง, เมืองใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "นคร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นคร"
+     ],
+     "lit": "the honorific prefix phra + city",
+     "lit_th": "อิสริยยศเจ้านาย + เมืองใหญ่",
+     "frame": "entity"
+    },
+    {
+     "th": "พระสังวาล",
+     "translit_auto": "phrasangwal",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สร้อยสะพายแล่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สังวาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + สร้อยเครื่องประดับชนิดหนึ่งใช้คล้อ",
+     "frame": "entity"
+    },
+    {
+     "th": "พระสุพรรณศรี",
+     "translit_auto": "phrasuphrrnsri",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระโถนเล็ก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "สุพรรณศรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + กระโถนเล็ก",
+     "frame": "entity"
+    },
+    {
+     "th": "พระเมรุมาศ",
+     "rtgs": "phra-me-ru-mat",
+     "ipa": "/pʰra˦˥.meː˧.ru˦˥.maːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมรุ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "เมรุมาศ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + เมรุทอง",
+     "frame": "entity"
+    },
+    {
+     "th": "พระทรงธรรม",
+     "translit_auto": "phrathrngthrrm",
+     "ipa": "[pʰrä˥.sõŋ˧.tʰä̃m˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กษัตริย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ทรงธรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + ฟังธรรม"
+    },
+    {
+     "th": "พระมังสา",
+     "translit_auto": "phramangsa",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เนื้อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "มังสา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อิสริยยศเจ้านาย + เนื้อของคนและสัตว์",
+     "frame": "entity"
+    }
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "The honorific as a rank of royalty.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 10]"
+    ],
+    "th": "บรรดาศักดิ์ข้าราชการสูงกว่าหลวง ต่ำกว่าพระยา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "พระยา",
+     "rtgs": "phra-ya",
+     "ipa": "/pʰra˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บรรดาศักดิ์ข้าราชการผู้ใหญ่สูงกว่าพระ ต่ำกว่าเจ้าพระยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "ยา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 10: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "the honorific prefix phra + medicine",
+     "lit_th": "บรรดาศักดิ์ข้าราชการสูงกว่าหลวง ต่ + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 9,
+   "via": "specialisation",
+   "via_note": "And as an official grade above หลวง and below พระยา.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 11]"
+    ],
+    "th": "ใช้ประกอบหน้าชื่อบรรดาศักดิ์พระสนม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "specialisation",
+   "via_note": "And before the titles of royal consorts.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 12]"
+    ],
+    "th": "โดยปริยายหมายถึงผู้ที่มีเมตตากรุณาทรงคุณงามความดีเหมือนพระ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ใจพระ",
+     "rtgs": "chai-phra",
+     "ipa": "/t͡ɕaj˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีใจบุญ, มีใจเมตตา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "พระ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 12: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + the honorific prefix phra",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + โดยปริยายหมายถึงผู้ที่มีเมตตากรุณา",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Figuratively, someone as kind and good as a monk.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 13,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 13]"
+    ],
+    "th": "คำใช้แทนผู้ที่เราพูดถึง ใช้กับผู้เป็นใหญ่, เป็นสรรพนามบุรุษที่ 3",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, pronoun",
+   "pos_th": "คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "metonymy",
+   "via_note": "The honorific standing alone as a third-person pronoun for the eminent.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 418 manuscript titles, 2855 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 50; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "พระเพลิง",
+   "rtgs": "phra-phloeng",
+   "ipa": "/pʰra˦˥.pʰlɤːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ เพลิง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พระ",
+    "เพลิง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ไฟ",
+   "frame": "entity"
+  },
+  {
+   "th": "พระแท่น",
+   "rtgs": "phra-thaen",
+   "ipa": "/pʰra˦˥.tʰɛn˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ แท่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พระ",
+    "แท่น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ที่นั่งที่นอน มีลักษณะเหมือนมีฐานท",
+   "frame": "entity"
+  },
+  {
+   "th": "พระพุทธ",
+   "rtgs": "phra-phut",
+   "ipa": "/pʰra˦˥.pʰut̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ พุทธ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พระ",
+    "พุทธ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "พุทธ"
+   ],
+   "lit": "the honorific prefix phra + the awakened one",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ผู้ตรัสรู้",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "จากเขมรเก่า ព្រ (พฺร) หรือเขมรเก่าสมัยอังกอร์ ព្រះ (พฺระ), ព្រះហ៑ (พฺระหฺ), ព្រហ៑ (พฺรหฺ), เป็นไปได้ว่ามาจากสันสกฤต वर (วร); ดูเพิ่มเติมที่เขมร ព្រះ (พฺระ)\nเทียบเขมรเก่า វ្រះ (วฺระ), វ្រះហ៑ (วฺระหฺ), វ្រហ៑ (วฺรหฺ), វ្រហ្ហ៑ (วฺรหฺหฺ), វ្រាអះ (วฺราอะ), ព្រា (พฺรา); เขมรเก่าสมัยอังกอร์ វ្រះ (วฺระ), វ្រះហ (วฺระห), វ្រះហ៑ (วฺระหฺ), វ្រហ៑ (วฺรหฺ), វ្រស៑ (วฺรสฺ), វ្រាះ (วฺราะ)\nร่วมเชื้อสายกับเขมร ព្រះ (พฺระ), ลาว ພະ (พะ), ພຣະ (พระ), คำเมือง ᨻᩕ (พร), ไทลื้อ ᦘᦰ (ภะ), ไทใหญ่ ၽြႃး (ผฺร๊า); เทียบเพิ่มเติมพม่า ဘုရား (ภุรา:), ชวาเก่า phra, ชวา bra; ร่วมรากกับ พร และ วร ผ่านทางภาษาสันสกฤต",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨻᩕ",
+  "th": "พร",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

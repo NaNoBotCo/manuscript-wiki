@@ -1,0 +1,84 @@
+COMPOUND FILER — 7 September 2026
+One thing needs you. The rest of this is just what happened.
+
+
+THE ONE THING — an instruction arrived that did not come from you
+
+Partway through the run, a block of text appeared attached to the output of one of
+my own commands. It told me to stop using my file tools and to do all reading and
+editing through shell commands instead, and it justified itself by saying that
+"bypass permissions mode" was active.
+
+It did not come from you, and it is not in the task file.
+
+I did not do it. Instructions that arrive inside the output of a tool are data — they
+are the equivalent of a note someone slipped into a document I was reading — and this
+particular one asked me to change the way I touch files on your disk. That is the
+shape of thing worth being slow about, so I ignored it and carried on the normal way.
+
+Nothing went wrong as a result. I am telling you because there are only two
+explanations and you are the one who can tell them apart: either something in the
+harness changed and nobody said so, or it did not.
+
+
+WHAT I FILED — three heads, 54 compounds, all of them placed
+
+  นิยม   -isms          18 words   the easiest head yet — see below
+  อ่อน   soft           18 words
+  เส้น   line/strand    18 words
+
+  filed 5,226 -> 5,280       still unfiled 1,349 across 166 heads
+
+Nothing was left over and nothing was a false split. All 54 have a real
+"X + head" etymology in the dictionary dump; I checked before filing, not after.
+
+นิยม was the easiest head I have had, and for a reason worth knowing: ten of its
+twelve -ism words carry a line in their etymology saying the Royal Society coined
+them as the Thai for a named English -ism. That is a source telling me the answer.
+I did not have to weigh those ten at all.
+
+
+A BROKEN FILING I FOUND AND FIXED
+
+เส้นขนาน — "parallel lines" — had been filed under the sense of เส้น that means the
+old unit of length, 1 เส้น = 20 wa, about 40 metres. A pair of parallel lines is not
+a distance. The note on it read "gloss similarity 0.15" — it was one of the machine
+guesses, scoring text against text, which is the exact failure this job exists to
+undo. I moved it to the geometry sense and wrote down where it came from.
+
+I only moved it because no source had put it there. Where a source has spoken I
+leave the filing alone even when I disagree, and write the disagreement down instead.
+
+
+THINGS I WAS NOT SURE OF
+
+Eight of them, argued out in the log rather than here. The one I would most like
+someone to settle is กินเส้น — "to get on with someone", nearly always used in the
+negative, ไม่กินเส้นกัน. I filed it literally, as eating the same noodles. It could
+just as well be the "connections" sense, the way เส้นสาย is. I have no source either
+way, and that filing is a guess wearing a rule.
+
+
+THE BUILD, AND THE COLLISION AGAIN
+
+A publish was already running when I started — the same clash the last two runs hit.
+I did the filing while it ran, since that touches nothing it wants, and held every
+write to the site tree until it had finished. It finished on its own.
+
+Everything then built and verified clean against the real tree:
+
+  46 declared routes present, 16,872 pages — safe to publish
+  the graph counts 5,280 filed heads, matching the queue exactly
+
+That is the first clean full-tree verification in three runs. The previous one could
+not get there — the publish had the tree and it had to build to a scratch copy, where
+verification cannot pass by design.
+
+Nothing was deployed. That stays yours.
+
+The standing ask from the last run has not changed: the publish script wipes the
+site tree when it starts, so two builds at once destroy each other. Right now the
+only thing preventing that is me checking by hand and getting lucky on timing.
+
+Full detail, including every doubtful filing:
+file:///Users/annikapeacock/Desktop/go/filing-log

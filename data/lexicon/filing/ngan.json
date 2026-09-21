@@ -1,0 +1,39 @@
+{
+ "head": "ngan",
+ "rule": "งาน is the plainest head yet: 23 of the 27 real compounds are sense 1 and need no argument. What matters is what is NOT sense 1. Sense 2 takes only words naming an OCCASION people gather for — งานศพ, its euphemism งานขาวดำ, and แต่งงาน, which is 'to dress the occasion'. Sense 4 takes พลังงาน alone, because energy is defined as the capacity to do work in exactly the physics sense the RID gives there. งานช้าง looks like an occasion and is not: the dictionary's second gloss is a job needing great investment and effort, so it stays at 1. Sense 3, the area measure of 100 square wah, takes NOTHING — a unit on every land document in the country has produced no compound at all.",
+ "senses": {
+  "1": [
+   "ทำงาน",
+   "ทรงงาน",
+   "ดำเนินงาน",
+   "ประสานงาน",
+   "ฝึกงาน",
+   "ติดงาน",
+   "ตกงาน",
+   "ว่างงาน",
+   "เล่นงาน",
+   "รายงาน",
+   "แผนงาน",
+   "ข่ายงาน",
+   "ทีมงาน",
+   "คนงาน",
+   "แรงงาน",
+   "แม่งาน",
+   "นายงาน",
+   "หัวงาน",
+   "โรงงาน",
+   "สำนักงาน",
+   "งานช้าง",
+   "งานศิลป์",
+   "งานอดิเรก"
+  ],
+  "2": [
+   "งานศพ",
+   "งานขาวดำ",
+   "แต่งงาน"
+  ],
+  "4": [
+   "พลังงาน"
+  ]
+ }
+}

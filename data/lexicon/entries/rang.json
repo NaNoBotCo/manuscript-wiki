@@ -1,0 +1,792 @@
+{
+ "id": "w:rang",
+ "th": "รัง",
+ "status": "mapped",
+ "rtgs": "rang",
+ "paiboon": "rang",
+ "ipa": "/raŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siamensis Miq. ในวงศ์ Dipterocarpaceae เนื้อไม้แข็ง ใช้ในการก่อสร้าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: รัง, the Shorea tree.",
+    "Declared root: รัง, the Shorea tree.",
+    "Declared root: รัง, the Shorea tree."
+   ],
+   "compounds": [
+    {
+     "th": "กุดรัง",
+     "rtgs": "kut-rang",
+     "ipa": "/kut̚˨˩.raŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดมหาสารคาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุด",
+      "รัง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กุด"
+     ],
+     "lit": "to cut short + nest",
+     "lit_th": "ตัด + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam"
+    },
+    {
+     "th": "โนนรัง",
+     "rtgs": "non-rang",
+     "ipa": "/noːn˧.raŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชุมพวง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โนน",
+      "รัง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "mound + nest",
+     "lit_th": "เนิน + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam",
+     "frame": "entity"
+    },
+    {
+     "th": "หลุมรัง",
+     "rtgs": "lum-rang",
+     "ipa": "/lum˩˩˦.raŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ่อพลอย จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลุม",
+      "รัง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "lacuna + nest",
+     "lit_th": "ที่ซึ่งมีลักษณะเป็นบ่อ มักมีขนาดเล + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "สิ่งซึ่งสัตว์พวกนก หนู และแมลงเป็นต้นทำขึ้นเพื่อเป็นที่อยู่อาศัยกำบังและฟักไข่เลี้ยงลูก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รังไข่",
+     "rtgs": "rang-khai",
+     "ipa": "/raŋ˧.kʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อวัยวะภายในร่างกายของผู้หญิงและสัตว์ตัวเมีย เป็นที่เกิดไข่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "ไข่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.14, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "nest + egg",
+     "lit_th": "สิ่งซึ่งสัตว์พวกนก หนู และแมลงเป็น + ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: รัง 'nest'.",
+    "Declared root: รัง 'nest'.",
+    "Declared root: รัง 'nest'."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "โดยปริยายเรียกสิ่งที่มีลักษณะคล้ายคลึงเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รังผึ้ง",
+     "rtgs": "rang-phueng",
+     "ipa": "/raŋ˧.pʰɯŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รังที่ผึ้งทำสำหรับอยู่อาศัยและทำน้ำผึ้ง, รังที่คนทำให้ผึ้งอาศัยทำรวงข้างใน, เรียกสิ่งที่มีลักษณะคล้ายคลึงเช่นนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "ผึ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.45, next 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "nest + bee",
+     "lit_th": "โดยปริยายเรียกสิ่งที่มีลักษณะคล้าย + ชื่อแมลงหลายชนิดในวงศ์ Apidae มีปี",
+     "frame": "entity"
+    },
+    {
+     "th": "รังแค",
+     "rtgs": "rang-khae",
+     "ipa": "/raŋ˧.kʰɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขุยหนังหัว มีลักษณะเป็นผง ๆ สีขาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "แค"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.14, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "โดยปริยายเรียกสิ่งที่มีลักษณะคล้าย + ชื่อไม้ต้นชนิด Sesbania grandiflor",
+     "frame": "entity"
+    },
+    {
+     "th": "รังนก",
+     "rtgs": "rang-nok",
+     "ipa": "/raŋ˧.nok̚˦˥/",
+     "gloss": {
+      "en": [
+       "nest"
+      ],
+      "th": "รังของนกอีแอ่นชนิดหนึ่ง เมื่อแช่น้ำมีลักษณะคล้ายวุ้น กินได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "นก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.26, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นก"
+     ],
+     "lit": "nest + bird",
+     "lit_th": "โดยปริยายเรียกสิ่งที่มีลักษณะคล้าย + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Anything shaped or used like a nest.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "แต่ง, สร้าง, ตั้ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รังสฤษฏ์",
+     "rtgs": "rang-sa-rit",
+     "ipa": "/raŋ˧.sa˨˩.rit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สร้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "สฤษฏ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.28, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "แต่ง + การทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "รังสรรค์",
+     "rtgs": "rang-san",
+     "ipa": "/raŋ˧.san˩˩˦/",
+     "gloss": {
+      "en": [
+       "create"
+      ],
+      "th": "สร้าง, แต่งตั้ง, ประดิษฐ์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "สรรค์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.40, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "แต่ง + สร้างให้มีให้เป็นขึ้น"
+    }
+   ],
+   "needs_check": [
+    "Declared root: รัง 'to build, to set up'.",
+    "Declared root: รัง 'to build, to set up'.",
+    "Declared root: รัง 'to build, to set up'."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 11 manuscript titles, 64 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['แมลง', 'สัตว์', 'นก'].",
+ "compounds_unassigned": [
+  {
+   "th": "กะรัง",
+   "rtgs": "ka-rang",
+   "ipa": "/ka˨˩.raŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ปะการัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กะ",
+    "รัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เครื่องหมายบอกทำนองสวด + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "รังเกลียด",
+   "rtgs": "rang-kliat",
+   "ipa": "/raŋ˧.klia̯t̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ รังเกียจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "เกลียด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ชัง",
+   "use": "spelling-variant"
+  },
+  {
+   "th": "รังเกียจ",
+   "rtgs": "rang-kiat",
+   "ipa": "/raŋ˧.kia̯t̚˨˩/",
+   "gloss": {
+    "en": [
+     "abominate",
+     "abomine"
+    ],
+    "th": "เกลียดเพราะรู้สึกขยะแขยงหรือไม่ชอบใจเป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "เกียจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + คด"
+  },
+  {
+   "th": "รังควาน",
+   "rtgs": "rang-khwan",
+   "ipa": "/raŋ˧.kʰwaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รบกวนทำให้รำคาญหรือเดือดร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "ควาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + กิริยาที่เอามือหรือสิ่งอื่นค้นหาสิ"
+  },
+  {
+   "th": "รังสิ",
+   "rtgs": "rang-si",
+   "ipa": "/raŋ˧.siʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แสง, แสงสว่าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "สิ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + คำประกอบท้ายคำอื่นเพื่อเสริมข้อควา",
+   "use": "false-split"
+  },
+  {
+   "th": "ตายรัง",
+   "rtgs": "tai-rang",
+   "ipa": "/taːj˧.raŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ในที่สุดก็ต้องหวนกลับมาอยู่กับครอบครัวตามเดิม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตาย",
+    "รัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ตาย"
+   ],
+   "lit": "demise + nest",
+   "lit_th": "สิ้นใจ + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam"
+  },
+  {
+   "th": "รังสี",
+   "rtgs": "rang-si",
+   "ipa": "/raŋ˧.siː˩˩˦/",
+   "gloss": {
+    "en": [
+     "ray",
+     "radiation"
+    ],
+    "th": "แสง, แสงสว่าง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "สี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "สี"
+   ],
+   "lit": "nest + color",
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "เรื้อรัง",
+   "rtgs": "ruea-rang",
+   "ipa": "/rɯa̯˦˥.raŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยืดเยื้อ, นานหาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เรื้อ",
+    "รัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ขาดการฝึกฝนเสียนาน + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam"
+  },
+  {
+   "th": "รังดุม",
+   "rtgs": "rang-dum",
+   "ipa": "/raŋ˧.dum˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ช่องที่เจาะสำหรับขัดลูกดุม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "ดุม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ส่วนกลางของล้อเกวียนหรือล้อรถที่มี",
+   "frame": "entity"
+  },
+  {
+   "th": "กาหลงรัง",
+   "rtgs": "ka–long–rang",
+   "ipa": "/kaː˧.loŋ˩˩˦.raŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ที่ไปหลงติดอยู่ ณ บ้านใดบ้านหนึ่งแล้วไม่ยอมกลับบ้านของตน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กาหลง",
+    "รัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อไม้พุ่มชนิด Bauhinia acuminata + ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam",
+   "frame": "entity"
+  },
+  {
+   "th": "รังแก",
+   "rtgs": "rang-kae",
+   "ipa": "/raŋ˧.kɛː˧/",
+   "gloss": {
+    "en": [
+     "bully"
+    ],
+    "th": "แกล้งทำความเดือดร้อนให้ผู้อื่น (มักใช้แก่ผู้มีอำนาจมากกว่า)",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัง",
+    "แก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "แก"
+   ],
+   "lit": "nest + house crow",
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ชื่อนกชนิด Corvus splendens ในวงศ์",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *raŋᴬ²; ร่วมเชื้อสายกับอีสาน ฮัง, ลาว ຮັງ (ฮัง), คำเมือง ᩁᩢ᩠ᨦ (รัง), เขิน ᩁᩢ᩠ᨦ (รัง) หรือ ᩌᩢᨦ (ฮัง), ไทลื้อ ᦣᧂ (ฮัง), ไทดำ ꪭꪰꪉ (ฮัง) หรือ ꪭꪱꪉ (ฮาง), ไทใหญ่ ႁင်း (หั๊ง), ไทใต้คง ᥞᥒᥰ (หั๊ง), อาหม 𑜍𑜂𑜫 (รง์) เทียบพม่า ရင် (รง์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩁᩢ᩠ᨦ",
+  "th": "รัง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "nest"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "head": "ngoen",
+ "rule": "เงิน is silver first and money second, and the first cut is which one a compound means. Sense 1 is the METAL and takes anything named for the substance or its colour: เกลือเงิน the nitrate, เงินเปลว the leaf, เครื่องเงิน the ware, เหรียญเงิน the second-place medal, จอเงิน the silver screen, น้ำเงิน. Among the money senses the RID's own split is physical against abstract. Sense 3 is legal tender — the coin and the note in the hand — so it takes denominations and change: เงินปลีก, เงินแป, เงินทอน, แตกเงิน, เงินสด. Sense 4 is money as the medium, and it takes SUMS and the economic life around them: what is borrowed, paid down, paid off, laundered, circulated, inflated (เงินกู้, เงินดาวน์, เงินผ่อน, ฟอกเงิน, หมุนเงิน, เงินเฟ้อ, เงินฝืด, การเงิน, ตลาดเงิน), and the people described by it (นายเงิน, หน้าเงิน). Sense 2, money as the abstract measure of price, takes nothing here and is left empty: it is a definitional sense, and no compound in this list names the measuring rather than the money.",
+ "senses": {
+  "1": [
+   "จอเงิน",
+   "น้ำเงิน",
+   "เกลือเงิน",
+   "เครื่องเงิน",
+   "เงินเปลว",
+   "เหรียญเงิน"
+  ],
+  "3": [
+   "แตกเงิน",
+   "เงินทอน",
+   "เงินปลีก",
+   "เงินสด",
+   "เงินแป"
+  ],
+  "4": [
+   "การเงิน",
+   "ตลาดเงิน",
+   "นายเงิน",
+   "ฟอกเงิน",
+   "หน้าเงิน",
+   "หมุนเงิน",
+   "เงินก้นถุง",
+   "เงินกู้",
+   "เงินดาวน์",
+   "เงินผ่อน",
+   "เงินฝืด",
+   "เงินเชื่อ",
+   "เงินเฟ้อ"
+  ]
+ }
+}

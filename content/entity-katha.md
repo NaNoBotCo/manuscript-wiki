@@ -489,3 +489,12 @@ library. The drawn half was not.**
   formulas on [kai](/a?s=entity:kai); the teacher-lineage that licenses any of it
   on [lersi](/a?s=entity:lersi). Katha is not a subject those pages borrow from.
   It is the thing they are each made of.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **Already legible to a machine** — The manuscripts with the most recognised Thai text — the leading edge of the whole point: making a living tradition readable to a model and not only to a scholar. [see the finding →](/findings#legibilitymachine-readable)
+- **Where the drawn tradition is thickest** — Manuscripts carrying the most diagram pages — the yantra, cosmological charts, and talismanic figures that are drawn, not written. [see the finding →](/findings#visualdiagram-rich)
+<!-- derived:end -->

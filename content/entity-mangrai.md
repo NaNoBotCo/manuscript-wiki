@@ -1,7 +1,7 @@
 ---
 title: King Mangrai (founder of Lanna)
 status: published
-see_also: entity:mangraisat, genre:law_customary, genre:tamnan_chronicle, subgenre:tamnan_chronicle:Secular History, genre:didactic_moral, entity:thammasat, entity:suep_cata, genre:magic_ritual
+see_also: entity:mangraisat, genre:law_customary, genre:tamnan_chronicle, subgenre:tamnan_chronicle:Secular History, genre:didactic_moral, entity:thammasat, entity:suep_cata, genre:magic_ritual, entity:chang
 ---
 ## What this is
 

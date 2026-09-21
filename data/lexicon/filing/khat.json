@@ -1,0 +1,29 @@
+{
+ "head": "khat",
+ "rule": "ขาด runs in two branches off the cut. Sense 1 keeps everything where something is SEVERED, and Thai's whole vocabulary of finality sits there, because a thing cut through cannot be rejoined: ตัดขาด, เด็ดขาด, ชี้ขาด, ผูกขาด, ขายขาด, ขาดตัว, ขาดใจ. The LACKING branch (2) takes what ought to be present and is not — ขาดตลาด, ขาดแคลน. SHORTFALL (3) takes what is present but not in full — ขาดทุน, ขาดเหลือ. Sense 5 takes a shortfall measured against a stated number: เดือนขาด, the 29-day month against เดือนเต็ม.",
+ "senses": {
+  "1": [
+   "ขายขาด",
+   "ขาดตัว",
+   "ขาดลอย",
+   "ขาดใจ",
+   "ชี้ขาด",
+   "ตัดขาด",
+   "ฟิวส์ขาด",
+   "ผูกขาด",
+   "เด็ดขาด"
+  ],
+  "2": [
+   "ขาดตลาด",
+   "ขาดแคลน",
+   "คงขาด"
+  ],
+  "3": [
+   "ขาดทุน",
+   "ขาดเหลือ"
+  ],
+  "5": [
+   "เดือนขาด"
+  ]
+ }
+}

@@ -1,0 +1,772 @@
+{
+ "id": "w:chai-2",
+ "th": "ชัย",
+ "status": "mapped",
+ "rtgs": "chai",
+ "paiboon": "chai",
+ "ipa": "/t͡ɕʰaj˧/",
+ "syllable_respelling": "ไช-ยะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "victory"
+    ],
+    "th": "การชนะ, ความชนะ",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ฆ้องชัย",
+     "rtgs": "khong-chai",
+     "ipa": "/kʰɔːŋ˦˥.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฆ้องขนาดใหญ่ สมัยโบราณใช้ตีเป็นสัญญาณในกองทัพ ในปัจจุบันใช้ตีในงานพิธีมงคลต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฆ้อง",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "gong + victory",
+     "lit_th": "เครื่องตีให้เกิดเสียงอย่างหนึ่ง ทำ + การชนะ",
+     "frame": "entity"
+    },
+    {
+     "th": "ชัยภูมิ",
+     "rtgs": "chai-ya-phum",
+     "ipa": "/t͡ɕʰaj˧.ja˦˥.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำเลที่เหมาะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัย",
+      "ภูมิ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.26",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ภูมิ"
+     ],
+     "lit": "victory + land",
+     "lit_th": "การชนะ + แผ่นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "เกยชัย",
+     "rtgs": "koei–chai",
+     "ipa": "/kɤːj˧.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกยที่ทำเฉพาะในพิธีจะเสด็จกรีธาทัพออกศึก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกย",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อมาตราหรือแม่ ซึ่งเรียกคำหรือพย + การชนะ",
+     "frame": "entity"
+    },
+    {
+     "th": "ชัยนาท",
+     "rtgs": "chai-nat",
+     "ipa": "/t͡ɕʰaj˧.naːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(จังหวัด~) ชื่อจังหวัดในภาคกลางของประเทศไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัย",
+      "นาท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "การชนะ + ความบันลือ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "chai as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 12 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 142 of the 5333 wats in the northern registry carry it, and 73 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 12 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 12 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "142 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ชัยบาดาล",
+     "rtgs": "chai-ba-dan",
+     "ipa": "/t͡ɕʰaj˧.baː˧.daːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลพบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัย",
+      "บาดาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + พื้นที่ใต้ระดับผิวดินลงไป",
+     "frame": "entity"
+    },
+    {
+     "th": "วังชัย",
+     "rtgs": "wang-chai",
+     "ipa": "/waŋ˧.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอน้ำพอง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + chai as an element in place names",
+     "lit_th": "ที่อยู่ของเจ้านาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ท่าชัย",
+     "rtgs": "tha-chai",
+     "ipa": "/tʰaː˥˩.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอศรีสัชนาลัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + chai as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "โชคชัย",
+     "rtgs": "chok-chai",
+     "ipa": "/t͡ɕʰoːk̚˥˩.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โชค",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "chance + chai as an element in place names",
+     "lit_th": "สิ่งที่นำผลมาให้โดยไม่ได้คาดหมาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ชัยบุรี",
+     "rtgs": "chai-bu-ri",
+     "ipa": "/t͡ɕʰaj˧.bu˨˩.riː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุราษฎร์ธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัย",
+      "บุรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บุรี"
+     ],
+     "lit": "chai as an element in place names + town",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เมือง",
+     "frame": "entity"
+    },
+    {
+     "th": "เวียงชัย",
+     "rtgs": "wiang-chai",
+     "ipa": "/wia̯ŋ˧.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เวียง",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เมืองที่มีกำแพงล้อม + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "วันชัย",
+     "rtgs": "wan-chai",
+     "ipa": "/wan˧.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อจริงชาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัน",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a personal-name; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "personal-name",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัน"
+     ],
+     "lit": "day + chai as an element in place names",
+     "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ชัยนาม",
+     "rtgs": "chai-nam",
+     "ipa": "/t͡ɕʰaj˧.naːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวังทอง จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัย",
+      "นาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นาม"
+     ],
+     "lit": "chai as an element in place names + name",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อ",
+     "frame": "entity"
+    },
+    {
+     "th": "โพธิ์ชัย",
+     "rtgs": "pho-chai",
+     "ipa": "/pʰoː˧.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดร้อยเอ็ด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพธิ์",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "enlightenment + chai as an element in place names",
+     "lit_th": "ความตรัสรู้ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "พลับพลาชัย",
+     "rtgs": "phlap-phla-chai",
+     "ipa": "/pʰlap̚˦˥.pʰlaː˧.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดบุรีรัมย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พลับพลา",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ที่พักชั่วคราว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "สามชัย",
+     "rtgs": "sam-chai",
+     "ipa": "/saːm˩˩˦.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 1,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "three + chai as an element in place names",
+     "lit_th": "จำนวนสองบวกหนึ่ง + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "เด่นชัย",
+     "rtgs": "den-chai",
+     "ipa": "/den˨˩.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดแพร่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เด่น",
+      "ชัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "visible + chai as an element in place names",
+     "lit_th": "ที่ปรากฏเห็นได้ชัดจะแจ้งเพราะนูนขึ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ชัยฤทธิ์",
+     "rtgs": "chai-ya-rit",
+     "ipa": "/t͡ɕʰaj˧.ja˦˥.rit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอไชโย จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัย",
+      "ฤทธิ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อำนาจศักดิ์สิทธิ์",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 46 manuscript titles, 139 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "เส้นชัย",
+   "rtgs": "sen-chai",
+   "ipa": "/sen˥˩.t͡ɕʰaj˧/",
+   "gloss": {
+    "en": [
+     "tape"
+    ],
+    "th": "เส้นที่กำหนดไว้ว่าผู้เข้าแข่งขันที่ไปถึงก่อนเป็นผู้ชนะ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เส้น",
+    "ชัย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เส้น"
+   ],
+   "lit": "mark + victory",
+   "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + การชนะ",
+   "frame": "entity"
+  },
+  {
+   "th": "มหาชัย",
+   "rtgs": "ma-ha-chai",
+   "ipa": "/ma˦˥.haː˩˩˦.t͡ɕʰaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อเพลงไทยโบราณ อัตรา 2 ชั้น หน้าทับปรบไก่ มี 2 ท่อน อยู่ในเรื่องทำขวัญ ต่อมาแปลงเป็นทางฝรั่งใช้เป็นเพลงคำนับเมื่อบุคคลสำคัญมาถึงมณฑลพิธี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มหา",
+    "ชัย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ใหญ่ + การชนะ"
+  },
+  {
+   "th": "วิชัย",
+   "rtgs": "wi-chai",
+   "ipa": "/wi˦˥.t͡ɕʰaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความชนะ, ชัยชนะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วิ",
+    "ชัย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.48 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ วินาที + การชนะ",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต जय (ชย), จากบาลี ชย; ร่วมเชื้อสายกับเขมร ជ័យ (ชัย) และ ជយ (ชย), ลาว ໄຊ (ไซ)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:chai",
+   "label": "ใจ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"chai\". ชัย is chai, ใจ is jai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:chai-3",
+   "label": "ชาย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"chai\". ชัย is chai, ชาย is chaai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

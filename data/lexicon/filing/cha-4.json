@@ -1,0 +1,9 @@
+{
+ "head": "cha-4",
+ "rule": "ช้า is slowness (1-2) and baseness (3), two unrelated words. The slowness takes what you would expect: ช้านาน, เชื่องช้า and ช้าก่อน at sense 1, ชักช้า and ล่าช้า at sense 2, being late rather than merely slow. **ป่าช้า goes to sense 3 on the dictionary's own authority** — it gives the etymology as ป่า + ช้า (\"เลว\"), naming the sense as well as the split, which is rarer than an etymology and settles a word that would otherwise look like a slow forest. A cemetery is the vile forest.",
+ "senses": {
+  "1": ["ช้าก่อน","ช้านาน","เชื่องช้า"],
+  "2": ["ชักช้า","ล่าช้า"],
+  "3": ["ป่าช้า"]
+ }
+}

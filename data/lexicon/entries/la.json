@@ -1,0 +1,799 @@
+{
+ "id": "w:la",
+ "th": "ละ",
+ "status": "mapped",
+ "rtgs": "la",
+ "paiboon": "lá",
+ "ipa": "/laʔ˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "to leave",
+     "to let go",
+     "to quit"
+    ],
+    "th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้องอยู่",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "verb, adjective, คำอนุภาค",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำอนุภาค",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ละ 'to leave, to let go'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ทิ้ง, ปล่อย, วาง, เลิก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, adjective, คำอนุภาค",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำอนุภาค",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Leaving widened to abandoning, letting go.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "เว้นว่างคำหรือข้อความโดยใช้ เครื่องหมาย ฯ หรือ ฯลฯ หรือเขียนว่างเป็น จุด ๆ ดังนี้ ... หรือเว้นว่างไว้โดยใช้เครื่องหมาย รูป -\"แสดงว่าคำหรือข้อความดังกล่าวซ้ำกับ บรรทัดบน.",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, adjective, คำอนุภาค",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำอนุภาค",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Leaving words out, marked by ฯ or ฯลฯ.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "คำประกอบคำนามให้รู้ว่าเป็น หน่วยหนึ่ง ๆ หรือส่วนหนึ่ง ๆ ในจำนวนรวม ซึ่งกำหนดเป็นราย ๆ ไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, adjective, คำอนุภาค",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำอนุภาค",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แต่ละ",
+     "rtgs": "tae-la",
+     "ipa": "/tɛː˨˩.laʔ˦˥/",
+     "gloss": {
+      "en": [
+       "a",
+       "each",
+       "every"
+      ],
+      "th": "คำที่บอกแยกเป็นจำนวนหนึ่ง ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แต่",
+      "ละ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.17, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "but + to leave",
+     "lit_th": "เฉพาะ + คำประกอบคำนามให้รู้ว่าเป็น หน่วยหน"
+    }
+   ],
+   "needs_check": [
+    "Declared root: ละ, the particle."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "คำประกอบกริยาเพื่อเน้น ความให้มีน้ำหนักหรือเพื่อบอกความแน่นอน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, adjective, คำอนุภาค",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำอนุภาค",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "generalisation",
+   "via_note": "Bleached to an emphatic after a verb.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "คำใช้ประกอบหน้าคำ ก็ ให้เป็น ละก็ เพื่อเน้นความให้กระชับขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, adjective, คำอนุภาค",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำอนุภาค",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "And in ละก็, tightening what follows.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 338 manuscript titles, 958 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['เขียน', 'บอก', 'คำ'].",
+ "compounds_unassigned": [
+  {
+   "th": "การละ",
+   "rtgs": "kan-la",
+   "ipa": "/kaːn˧.laʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ละ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ละ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง"
+  },
+  {
+   "th": "คนละ",
+   "rtgs": "khon-la",
+   "ipa": "/kʰon˧.laʔ˦˥/",
+   "gloss": {
+    "en": [
+     "each"
+    ],
+    "th": "คนหนึ่ง ๆ, แต่ละคน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คน",
+    "ละ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "คน"
+   ],
+   "lit": "stir + to leave",
+   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง"
+  },
+  {
+   "th": "แหละ",
+   "rtgs": "lae",
+   "ipa": "/lɛʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำประกอบเพื่อเน้นความ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แห",
+    "ละ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แห"
+   ],
+   "lit": "net + to leave",
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง"
+  },
+  {
+   "th": "ละมุด",
+   "rtgs": "la-mut",
+   "ipa": "/la˦˥.mut̚˦˥/",
+   "gloss": {
+    "en": [
+     "sapodilla"
+    ],
+    "th": "ชื่อไม้ต้น 2 ชนิดในสกุล Manilkara วงศ์ Sapotaceae ผลสุกรสหวาน กินได้ คือ ละมุดฝรั่ง [M. zapota (L.) P. Royen] ผลสุกสีนํ้าตาล, ละมุดสีดา หรือละมุดไทย [M. kauki (L.) Dubard] ผลสุกสีแดงคลํ้า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "มุด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "biological",
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + เอาหัวลอดเข้าไป"
+  },
+  {
+   "th": "ละลาย",
+   "rtgs": "la-lai",
+   "ipa": "/la˦˥.laːj˧/",
+   "gloss": {
+    "en": [
+     "melt",
+     "dissolve"
+    ],
+    "th": "อาการที่ของแข็งเปลี่ยนสภาพเป็นของเหลวด้วยความร้อน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "ลาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ลาย"
+   ],
+   "lit": "to leave + design",
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "use": "false-split"
+  },
+  {
+   "th": "ละลัด",
+   "rtgs": "la-lat",
+   "ipa": "/la˦˥.lat̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แมลงวัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "ลัด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + ตัดตรงไปเพื่อย่นทางย่นเวลา"
+  },
+  {
+   "th": "ละอุ่น",
+   "rtgs": "la-un",
+   "ipa": "/la˦˥.ʔun˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดระนอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "อุ่น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to leave + warm",
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + ทำให้ยังคงร้อนอยู่"
+  },
+  {
+   "th": "ละอง",
+   "rtgs": "la-ong",
+   "ipa": "/la˦˥.ʔoŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ละองละมั่งตัวผู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "อง"
+   ],
+   "lit": "to leave + the Vietnamese royal prefix ong",
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร"
+  },
+  {
+   "th": "ละงู",
+   "rtgs": "la-ngu",
+   "ipa": "/la˦˥.ŋuː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดสตูล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "งู"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "to leave + snake",
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + สัตว์เลื้อยคลานชนิดหนึ่ง ไม่มีขา ไ"
+  },
+  {
+   "th": "แกละ",
+   "rtgs": "klae",
+   "ipa": "/klɛʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผมเด็กผู้ชายที่เอาไว้เป็นแหยมตรงแง่ศีรษะ เรียกว่า ผมแกละ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "ละ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แก"
+   ],
+   "lit": "house crow + to leave",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง"
+  },
+  {
+   "th": "ละมั่ง",
+   "rtgs": "la-mang",
+   "ipa": "/la˦˥.maŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ละองละมั่งตัวเมีย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "มั่ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + มี",
+   "use": "false-split"
+  },
+  {
+   "th": "เขละ",
+   "rtgs": "khle",
+   "ipa": "/kʰleʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เละ, เละเทะ, เกะกะ, ไม่เป็นระเบียบ, เขละขละ เขะขะ ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เข",
+    "ละ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "เหล่น้อย + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง",
+   "frame": "quality"
+  },
+  {
+   "th": "ละหมาด",
+   "rtgs": "la-mat",
+   "ipa": "/la˦˥.maːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "salat"
+    ],
+    "th": "การปฏิบัติศาสนกิจในศาสนาอิสลามเพื่อชำระจิตใจให้บริสุทธิ์ ปฏิบัติวันละ 5 เวลา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "หมาด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + แห้งไม่สนิท",
+   "frame": "quality"
+  },
+  {
+   "th": "ละอาย",
+   "rtgs": "la-ai",
+   "ipa": "/la˦˥.ʔaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รู้สึกอายที่จะทำสิ่งไม่ถูกไม่ควร, ละอายใจ ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "อาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + รู้สึกกระดาก"
+  },
+  {
+   "th": "ศพละ",
+   "rtgs": "sa-pha-la",
+   "ipa": "/sa˨˩.pʰa˦˥.laʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หลายสี, ด่าง, ลาย, พร้อย, กระ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ศพ",
+    "ละ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "body + to leave",
+   "lit_th": "ซากผี + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง",
+   "use": "false-split"
+  },
+  {
+   "th": "ร้อยละ",
+   "rtgs": "roi-la",
+   "ipa": "/rɔːj˦˥.laʔ˦˥/",
+   "gloss": {
+    "en": [
+     "percent"
+    ],
+    "th": "ต่อร้อย, จำนวนส่วนในร้อยส่วน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ร้อย",
+    "ละ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit": "hundred + to leave",
+   "lit_th": "จำนวน 100 คือ 10 สิบหนรวมกัน + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง"
+  },
+  {
+   "th": "ละเว้น",
+   "rtgs": "la-wen",
+   "ipa": "/la˦˥.wen˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "งดเว้น, ยกเว้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "เว้น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "to leave + except",
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + แยกเอาออก"
+  },
+  {
+   "th": "ศกละ",
+   "rtgs": "sa-ka-la",
+   "ipa": "/sa˨˩.ka˨˩.laʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่วน, ซีก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ศก",
+    "ละ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.27, next 0.17 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ศก"
+   ],
+   "lit": "hair + to leave",
+   "lit_th": "ผม + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับอีสาน ละ, ลาว ລະ (ละ), คำเมือง ᩃᩡ (ละ), ᩃ (ล), เขิน ᩃᩡ (ละ), ไทลื้อ ᦟᦰ (ละ); เทียบเขมร លះ (ละ) หรือ ស្រឡះ (สฺรฬะ), มอญ ဗၠး (พฺลห์) ร่วมเชื้อสายกับจ้วงแบบจั่วเจียง lah (ละ, เลอะ, “ละ”) กร่อนมาจาก แล้ว",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩃᩡ",
+  "th": "ละ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

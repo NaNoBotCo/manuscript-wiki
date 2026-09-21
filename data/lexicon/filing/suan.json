@@ -1,0 +1,11 @@
+{
+ "head": "suan",
+ "rule": "สวน is at least five unrelated words, and two of its senses were filled by the DICTIONARY rather than by me. Sense 8, ถาม, was empty; สืบสวน carries the etymology สืบ + สวน (\"ถาม\"), naming the sense outright, and ไต่สวน and สอบสวน follow it — the whole investigative vocabulary is สวน meaning to question, not to garden. Sense 9, การฟัง, was also empty; สวนศาสตร์ carries สวน (\"การฟัง\") + ศาสตร์ and is the Royal Institute's coinage for acoustics — the science of listening. Sense 1 keeps actual gardens (สวนหย่อม, สวนสาธารณะ, นาสวน) and sense 2 the garden-shaped place (สวนสนุก). สวนสนาม I put at sense 3, troops passing in review along the same ground in the opposite direction; the dictionary confirms the split สวน + สนาม but not the sense, so that one is mine and arguable.",
+ "senses": {
+  "1": ["นาสวน","สวนสาธารณะ","สวนหย่อม"],
+  "2": ["สวนสนุก"],
+  "3": ["สวนสนาม"],
+  "8": ["สอบสวน","สืบสวน","ไต่สวน"],
+  "9": ["สวนศาสตร์"]
+ }
+}

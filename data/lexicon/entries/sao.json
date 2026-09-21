@@ -1,0 +1,883 @@
+{
+ "id": "w:sao",
+ "th": "สาว",
+ "status": "mapped",
+ "rtgs": "sao",
+ "paiboon": "sǎao",
+ "ipa": "/saːw˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "หญิงที่มีอายุพ้นวัยเด็ก นับตามความนิยมตั้งแต่ 15–30 ปีขึ้นไป, ถ้ายังไม่ได้แต่งงาน ใช้คำว่า นางสาว นำหน้าชื่อ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: สาว, the young woman.",
+    "Declared root: สาว, the young woman.",
+    "Declared root: สาว, the young woman.",
+    "Declared root: สาว, the young woman.",
+    "Declared root: สาว, the young woman.",
+    "Declared root: สาว, the young woman."
+   ],
+   "compounds": [
+    {
+     "th": "นางสาว",
+     "rtgs": "nang-sao",
+     "ipa": "/naːŋ˧.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "miss",
+       "Miss"
+      ],
+      "th": "คำนำหน้าชื่อหญิงที่มีอายุตั้งแต่ 15 ปีบริบูรณ์ขึ้นไป และยังไม่ได้จดทะเบียนสมรส แต่หญิงซึ่งจดทะเบียนสมรสแล้วหรือหญิงซึ่งเป็นหม้าย ก็มีสิทธิใช้คำนำหน้าชื่อว่า นางสาว ได้, ย่อว่า น.ส.",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นาง",
+      "สาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นาง"
+     ],
+     "lit": "Mrs + maid",
+     "lit_th": "ผู้หญิง + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
+    },
+    {
+     "th": "วัยสาว",
+     "rtgs": "wai-sao",
+     "ipa": "/waj˧.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วัยที่มีอายุพ้นวัยเด็ก นับตามความนิยมตั้งแต่ 15-30 ปี, ใช้แก่หญิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัย",
+      "สาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.53, next 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เขตอายุ + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
+    },
+    {
+     "th": "ชู้สาว",
+     "rtgs": "chu-sao",
+     "ipa": "/t͡ɕʰuː˦˥.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รัก ๆ ใคร่ ๆ, เชิงกามารมณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชู้",
+      "สาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ผู้ล่วงประเวณี + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
+    },
+    {
+     "th": "สาวน้อย",
+     "rtgs": "sao-noi",
+     "ipa": "/saːw˩˩˦.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเรียกหญิงในช่วงวัยแรกรุ่นหรือวัยรุ่น หรือบางครั้งอาจใช้เรียกวัยผู้ใหญ่ตอนต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาว",
+      "น้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "น้อย"
+     ],
+     "lit": "maid + little",
+     "lit_th": "หญิงที่มีอายุพ้นวัยเด็ก นับตามความ + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "สาวใภ้",
+     "rtgs": "sao-phai",
+     "ipa": "/saːw˩˩˦.pʰaj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สะใภ้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาว",
+      "ใภ้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "หญิงที่มีอายุพ้นวัยเด็ก นับตามความ + สะใภ้",
+     "frame": "entity"
+    },
+    {
+     "th": "สาวแว่น",
+     "rtgs": "sao-waen",
+     "ipa": "/saːw˩˩˦.wɛn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงที่ใส่แว่นตา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาว",
+      "แว่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "maid + lens",
+     "lit_th": "หญิงที่มีอายุพ้นวัยเด็ก นับตามความ + สิ่งที่เป็นแผ่นเป็นวงหรือเป็นดวง",
+     "frame": "entity"
+    },
+    {
+     "th": "น้องสาว",
+     "rtgs": "nong-sao",
+     "ipa": "/nɔːŋ˦˥.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "younger sister",
+       "sis"
+      ],
+      "th": "น้องที่เป็นเพศหญิง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้อง",
+      "สาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ผู้ร่วมบิดาหรือมารดาเดียวกันและเกิ + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกสาว",
+     "rtgs": "luk-sao",
+     "ipa": "/luːk̚˥˩.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "daughter"
+      ],
+      "th": "ลูกที่เป็นเพศหญิง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "สาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + maid",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
+    },
+    {
+     "th": "พี่สาว",
+     "rtgs": "phi-sao",
+     "ipa": "/pʰiː˥˩.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "elder sister"
+      ],
+      "th": "พี่ที่เป็นเพศหญิง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พี่",
+      "สาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ผู้ร่วมบิดาหรือมารดาเดียวกันและเกิ + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "คำนำหน้าชื่อหญิงสาว (มักใช้กับดารา นักร้อง)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สาวแส้",
+     "rtgs": "sao-sae",
+     "ipa": "/saːw˩˩˦.sɛː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงสาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาว",
+      "แส้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.18, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "maid + crop",
+     "lit_th": "คำนำหน้าชื่อหญิงสาว + ชื่ออุปกรณ์สำหรับปัดยุงหรือแมลง ทำ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The word placed before a young woman's name.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เรียกคนและสัตว์ที่มีท้องครั้งแรกว่า ท้องสาว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "ท้องสาว, a first pregnancy — young at the bearing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เรียกต้นไม้ที่เริ่มผลิดอกออกผลครั้งแรก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "And a tree bearing for the first time.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เรียกหญิงที่ยังไม่แก่ตามวัย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "A woman still young for her years.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เรียกหญิงที่ยังไม่แต่งงาน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เจ้าสาว",
+     "rtgs": "chao-sao",
+     "ipa": "/t͡ɕaw˥˩.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "bride"
+      ],
+      "th": "หญิงผู้เข้าพิธีแต่งงานกับเจ้าบ่าว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เจ้า",
+      "สาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.22, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + maid",
+     "lit_th": "ผู้เป็นใหญ่ + เรียกหญิงที่ยังไม่แต่งงาน",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And one not yet married.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "มีลักษณะท่าทางเป็นผู้หญิง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Having a young woman's manner.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ชักหรือดึงสิ่งที่เป็นเส้นยาว ๆ ออกจากที่เข้าหาตัว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สาว 'to draw out a long strand' — a separate word.",
+    "Declared root: สาว 'to draw out a long strand' — a separate word.",
+    "Declared root: สาว 'to draw out a long strand' — a separate word.",
+    "Declared root: สาว 'to draw out a long strand' — a separate word.",
+    "Declared root: สาว 'to draw out a long strand' — a separate word.",
+    "Declared root: สาว 'to draw out a long strand' — a separate word."
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "อาการที่คล้ายคลึงเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "generalisation",
+   "via_note": "Any action of that hand-over-hand drawing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "sao as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 3 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 3 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 3 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "3 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "สาวร้องไห้",
+     "rtgs": "sao-rong-hai",
+     "ipa": "/saːw˩˩˦.rɔːŋ˦˥.haːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวิเศษชัยชาญ จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาว",
+      "ร้องไห้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "sao as an element in place names + cry",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาการที่น้ำตาไหลเพราะประสบอารมณ์อั"
+    },
+    {
+     "th": "สาวชะโงก",
+     "rtgs": "sao-cha-ngok",
+     "ipa": "/saːw˩˩˦.t͡ɕʰa˦˥.ŋoːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางคล้า จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาว",
+      "ชะโงก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ยื่นหน้าหรือส่วนหน้าออกไป"
+    },
+    {
+     "th": "แม่สาว",
+     "rtgs": "mae-sao",
+     "ipa": "/mɛː˥˩.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่อาย จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + sao as an element in place names",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 4 manuscript titles, 50 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 16; domain seeded by keyword hits ['ต้นไม้', 'ดอก', 'ผล', 'ไม้'].",
+ "compounds_unassigned": [
+  {
+   "th": "ความสาว",
+   "rtgs": "khwam-sao",
+   "ipa": "/kʰwaːm˧.saːw˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "สาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + maid",
+   "lit_th": "เรื่อง + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+   "frame": "entity"
+  },
+  {
+   "th": "การสาว",
+   "rtgs": "kan-sao",
+   "ipa": "/kaːn˧.saːw˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "สาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *saːwᴬ (“หญิงที่ยังไม่แต่งงาน”); ร่วมเชื้อสายกับลาว ສາວ (สาว), คำเมือง ᩈᩣ᩠ᩅ (สาว), ไทลื้อ ᦉᦱᧁ (สาว), ไทดำ ꪎꪱꪫ (สาว), ไทใหญ่ သၢဝ် (สาว), ไทใต้คง ᥔᥣᥝᥴ (ส๋าว), อาหม 𑜏𑜧 (สว์), 𑜏𑜨𑜧 (สอ̂ว์), 𑜏𑜧𑜤 (สาว์), 𑜏𑜧𑜈𑜫 (สว์ว์), หรือ 𑜏𑜦𑜡 (สอ̂), จ้วง sau ร่วมเชื้อสายกับลาว ສາວ (สาว)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩈᩣ᩠ᩅ",
+  "th": "สาว",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "maid"
+ ]
+}

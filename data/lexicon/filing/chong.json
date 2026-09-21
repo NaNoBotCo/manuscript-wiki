@@ -1,0 +1,9 @@
+{
+ "head": "chong",
+ "rule": "ช่อง is an opening. Sense 1 is a gap you could pass through and takes the body cavities (ช่องท้อง, ช่องคอ, ช่องคลอด), the geographical one (ช่องแคบ, a strait), the flaw (ช่องโหว่) and ลอดช่อง, the dessert named for being pressed through holes. Sense 2 is a space marked out ON PURPOSE rather than merely left, and that is the distinction worth holding: ช่องไฟ, the niche or the gap between letters, and การ์ตูนช่อง, comics, which are panels before they are pictures. Sense 5, opportunity, takes ชี้ช่อง, pointing out the opening, beside ช่องทาง and ได้ช่อง already there.",
+ "senses": {
+  "1": ["ช่องคลอด","ช่องคอ","ช่องท้อง","ช่องแคบ","ช่องโหว่","ลอดช่อง"],
+  "2": ["การ์ตูนช่อง","ช่องไฟ"],
+  "5": ["ชี้ช่อง"]
+ }
+}

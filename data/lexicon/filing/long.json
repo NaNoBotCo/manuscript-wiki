@@ -1,0 +1,43 @@
+{
+ "head": "long",
+ "rule": "ลง has sixteen senses and NINE of them take nothing. What files divides five ways. Sense 2 is the transitive PUT DOWN ONTO, the largest group, and it covers two families that look unrelated and are not: the craft coatings, where a substance goes onto a surface (ลงรัก, ลงยา, ลงสี), and the contributions, where a resource goes into a common pot (ลงขัน, literally into the bowl; ลงทุน, ลงแรง, and ลงแขก, down into the field with the neighbours). Sense 4 is WRITE DOWN and takes the signing and registering words plus the two voting words — ลงคะแนน and ลงมติ record an opinion rather than express one. Sense 12 takes every punishment, from ลงโทษ to ลงดาบ. Sense 8 takes the four words for coming out settled (ลงตัว, ลงรอย, ลงเอย, ลงท้าย) with a caveat: 8's gloss is about conviction and these are about conclusion, but the head has no sense for ending and 8 is the nearest. 1, 14 and 15 take one word each. แพลง, โคลง and แปลง are not compounds at all — see the log.",
+ "senses": {
+  "1": [
+   "ทัวร์ลง"
+  ],
+  "2": [
+   "ลงรัก",
+   "ลงยา",
+   "ลงสี",
+   "ลงขัน",
+   "ลงทุน",
+   "ลงแรง",
+   "ลงแขก"
+  ],
+  "4": [
+   "ลงชื่อ",
+   "ลงนาม",
+   "ลงทะเบียน",
+   "ลงคะแนน",
+   "ลงมติ"
+  ],
+  "8": [
+   "ลงตัว",
+   "ลงรอย",
+   "ลงเอย",
+   "ลงท้าย"
+  ],
+  "12": [
+   "ลงโทษ",
+   "ลงทัณฑ์",
+   "ลงพระราชอาญา",
+   "ลงดาบ"
+  ],
+  "14": [
+   "บรรจุลง"
+  ],
+  "15": [
+   "ขาลง"
+  ]
+ }
+}

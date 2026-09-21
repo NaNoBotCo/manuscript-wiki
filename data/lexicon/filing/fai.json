@@ -1,0 +1,45 @@
+{
+ "head": "fai",
+ "rule": "ไฟ files by WHO LIT IT. Sense 1 is the element, so it takes fire that no one started and no one owns — ไฟป่า arises by itself, ภูเขาไฟ comes out of the earth, ไฟกัลป์ ends the world. Sense 2 is combustion you make and feed, and it takes the largest share: everything lit, fuelled, cooked on, or burned by, plus the two things named for looking like flame (หมากไฟ) or burning like it (โซดาไฟ, calqued on caustic soda). Sense 3 is electricity. The RID gives ไฟ no sense for 'a lamp' at all, so the lamps have to split by their fuel — a flame lamp (คบไฟ, เรือนไฟ, กระโจมไฟ, ช่องไฟ the wall-niche you set one in) files at 2, an electric one (ไฟหน้า, ไฟท้าย, and the whole traffic set ไฟแดง / ไฟเหลือง / ไฟเขียว / ไฟจราจร / สัญญาณไฟ) at 3. That is a line the words themselves do not draw, and a lighthouse has crossed it since the compound was made. Sense 4 (ความเดือดร้อน) takes only the figurative ไฟไหม้, 'most urgent' — not a house alight.",
+ "senses": {
+  "1": [
+   "ไฟป่า",
+   "ภูเขาไฟ",
+   "ไฟกัลป์"
+  ],
+  "2": [
+   "ติดไฟ",
+   "ตามไฟ",
+   "ใส่ไฟ",
+   "เชื้อไฟ",
+   "เตาไฟ",
+   "หม้อไฟ",
+   "แก่ไฟ",
+   "คบไฟ",
+   "ไม้ขีดไฟ",
+   "ดอกไม้ไฟ",
+   "ไฟเย็น",
+   "เรือนไฟ",
+   "ช่องไฟ",
+   "กระโจมไฟ",
+   "ช่างไฟ",
+   "รถไฟ",
+   "กลไฟ",
+   "โซดาไฟ",
+   "หมากไฟ"
+  ],
+  "3": [
+   "สะพานไฟ",
+   "สัญญาณไฟ",
+   "ไฟจราจร",
+   "ไฟแดง",
+   "ไฟเหลือง",
+   "ไฟเขียว",
+   "ไฟหน้า",
+   "ไฟท้าย"
+  ],
+  "4": [
+   "ไฟไหม้"
+  ]
+ }
+}

@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -29,6 +30,26 @@ COMPENDIUM_JSON = CRAWLER / "na_compendium.json"
 PDF = (CRAWLER / "contributed" / "thai_wichaa_texts" /
        "katha_scripture-of-108-magical-na_คัมภีร์108นะวิเศษ.pdf")
 MANUSCRIPT_ID = 6964
+
+
+def pdftoppm_bin() -> str:
+    """Absolute path to pdftoppm, or a clear SystemExit.
+
+    launchd's default PATH is /usr/bin:/bin:/usr/sbin:/sbin — no Homebrew —
+    and a bare "pdftoppm" from here killed the 03:00 nightly publish four
+    nights running (2026-08-16..19, FileNotFoundError). The plist now carries a
+    PATH, but the renderer should not depend on that: look it up, then try
+    the two places Homebrew puts it, and if it is truly absent say so in one
+    line instead of a traceback.
+    """
+    found = shutil.which("pdftoppm")
+    if found:
+        return found
+    for p in ("/opt/homebrew/bin/pdftoppm", "/usr/local/bin/pdftoppm"):
+        if Path(p).is_file():
+            return p
+    raise SystemExit("na_gallery: pdftoppm not found (brew install poppler), "
+                     "and launchd PATH has no Homebrew dir — cannot render plates")
 
 
 def ensure_compendium() -> dict:
@@ -52,13 +73,14 @@ def bundle_pages(docs: Path, pages: set[int]) -> int:
         return 0
     dest_dir = docs / "pimg" / str(MANUSCRIPT_ID)
     dest_dir.mkdir(parents=True, exist_ok=True)
+    pdftoppm = pdftoppm_bin()
     n = 0
     for p in sorted(pages):
         dest = dest_dir / f"{p}.png"
         if dest.is_file():
             continue
         with_tmp = dest_dir / f"_tmp{p}"
-        r = subprocess.run(["pdftoppm", "-f", str(p), "-l", str(p), "-png", "-r", "150",
+        r = subprocess.run([pdftoppm, "-f", str(p), "-l", str(p), "-png", "-r", "150",
                             str(PDF), str(with_tmp)], capture_output=True)
         if r.returncode != 0:
             continue

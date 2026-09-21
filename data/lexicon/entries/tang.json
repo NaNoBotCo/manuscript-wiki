@@ -1,0 +1,1441 @@
+{
+ "id": "w:tang",
+ "th": "ตั้ง",
+ "status": "mapped",
+ "rtgs": "tang",
+ "paiboon": "dtâng",
+ "ipa": "/taŋ˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชูตัว, ชูตัวหรือทำให้ทรงตัวในลักษณะที่ไม่ใช่นอนหรือล้ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "อกตั้ง",
+     "rtgs": "ok-tang",
+     "ipa": "/ʔok̚˨˩.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เต็มที่, เต็มแรง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อก",
+      "ตั้ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "อก"
+     ],
+     "lit": "chest + introduce",
+     "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + ชูตัว"
+    },
+    {
+     "th": "ตั้งไข่",
+     "rtgs": "tang-khai",
+     "ipa": "/taŋ˥˩.kʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สอนยืน, ใช้แก่เด็กเล็กที่เพิ่งหัดยืน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ไข่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "introduce + egg",
+     "lit_th": "ชูตัว + ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ"
+    },
+    {
+     "th": "ตั้งวง",
+     "rtgs": "tang-wong",
+     "ipa": "/taŋ˥˩.woŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กิริยาที่ผู้รำหักนิ้วหัวแม่มือเข้าหาฝ่ามือ นิ้วที่เหลือทั้ง 4 เรียงชิดติดกัน หักข้อมือขึ้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "วง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "introduce + zone",
+     "lit_th": "ชูตัว + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม"
+    },
+    {
+     "th": "แนวตั้ง",
+     "rtgs": "naeo-tang",
+     "ipa": "/nɛːw˧.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "vertical"
+      ],
+      "th": "แนวที่ตั้งฉากกับระดับพื้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แนว",
+      "ตั้ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "แนว"
+     ],
+     "lit": "row + introduce",
+     "lit_th": "สิ่งที่มีลักษณะเป็นแถว + ชูตัว"
+    },
+    {
+     "th": "ตั้งหน้า",
+     "rtgs": "tang-na",
+     "ipa": "/taŋ˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มุ่งหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "introduce + before",
+     "lit_th": "ชูตัว + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "flips_with": "หน้าตั้ง"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ทรง, ดำรง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Standing a thing up becomes keeping it standing: to maintain.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ตั้งตัว",
+     "rtgs": "tang-tua",
+     "ipa": "/taŋ˥˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตั้งฐานะหรือตั้งหลักฐาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "introduce + form",
+     "lit_th": "ทรง + รูป",
+     "flips_with": "ตัวตั้ง"
+    },
+    {
+     "th": "ตั้งมั่น",
+     "rtgs": "tang-man",
+     "ipa": "/taŋ˥˩.man˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตั้งกองทัพไว้ในที่ใดที่หนึ่งอย่างมั่นคง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "มั่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "มั่น"
+     ],
+     "lit": "introduce + firm",
+     "lit_th": "ทรง + แน่",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ทำให้มีขึ้น, สร้างให้มีขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "And raising it into being: to establish.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "จัดตั้ง",
+     "rtgs": "chat-tang",
+     "ipa": "/t͡ɕat̚˨˩.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "found",
+       "establish",
+       "organize"
+      ],
+      "th": "ตั้งขึ้น, แต่งตั้งให้มั่นคง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "จัด",
+      "ตั้ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "จัด"
+     ],
+     "lit": "arrange + introduce",
+     "lit_th": "ยิ่ง + ทำให้มีขึ้น"
+    },
+    {
+     "th": "ก่อตั้ง",
+     "rtgs": "ko-tang",
+     "ipa": "/kɔː˨˩.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "begin",
+       "ground",
+       "found"
+      ],
+      "th": "จัดตั้งขึ้น, ริเริ่มตั้งขึ้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ก่อ",
+      "ตั้ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "build + introduce",
+     "lit_th": "ทำให้เกิดขึ้น มีขึ้น หรือเป็นรูปขึ + ทำให้มีขึ้น"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ยกฐานะให้สูงขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Establishing a person higher: to appoint, to promote.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แต่งตั้ง",
+     "rtgs": "taeng–tang",
+     "ipa": "/tɛŋ˨˩.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "accredit",
+       "fill",
+       "appoint"
+      ],
+      "th": "ยกย่องขึ้น, ชุบเลี้ยงให้มียศ, ให้ตำแหน่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แต่ง",
+      "ตั้ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "dress + introduce",
+     "lit_th": "จัดให้งาม + ยกฐานะให้สูงขึ้น"
+    },
+    {
+     "th": "เลือกตั้ง",
+     "rtgs": "lueak-tang",
+     "ipa": "/lɯa̯k̚˥˩.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เลือกสรรบุคคลให้เป็นผู้แทนหรือให้ดำรงตำแหน่งด้วยการออกเสียงลงคะแนน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เลือก",
+      "ตั้ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "choose + introduce",
+     "lit_th": "คัดสิ่งที่มีจำนวนมากกว่าหนึ่งขึ้นไ + ยกฐานะให้สูงขึ้น"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "กำหนด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตั้งธง",
+     "rtgs": "tang-thong",
+     "ipa": "/taŋ˥˩.tʰoŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำหนดไว้ให้เป็นเช่นนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ธง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.13, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "introduce + flag",
+     "lit_th": "กำหนด + ผืนผ้ารูปสี่เหลี่ยมหรือสามเหลี่ยม"
+    },
+    {
+     "th": "ตั้งเป้า",
+     "rtgs": "tang-pao",
+     "ipa": "/taŋ˥˩.paw˥˩/",
+     "gloss": {
+      "en": [
+       "aim"
+      ],
+      "th": "กำหนดเกณฑ์หรือจุดมุ่งหมายไว้ในใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "เป้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "introduce + target",
+     "lit_th": "กำหนด + สิ่งที่กำหนดไว้เป็นจุดหมาย"
+    },
+    {
+     "th": "ข้อตั้ง",
+     "rtgs": "kho-tang",
+     "ipa": "/kʰɔː˥˩.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้อความหรือประพจน์หนึ่งซึ่งใช้สำหรับการอนุมานไปยังอีกข้อความหรือประพจน์หนึ่งที่เป็นข้อสรุป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้อ",
+      "ตั้ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร + กำหนด"
+    },
+    {
+     "th": "ตั้งใจ",
+     "rtgs": "tang-chai",
+     "ipa": "/taŋ˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "mean",
+       "aim",
+       "intend"
+      ],
+      "th": "เอาใจจดใจจ่อ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "introduce + heart",
+     "lit_th": "กำหนด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "ตั้งเวลา",
+     "rtgs": "tang-we-la",
+     "ipa": "/taŋ˥˩.weː˧.laː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เทียบนาฬิกาให้ตรงเวลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "เวลา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "introduce + time",
+     "lit_th": "กำหนด + ชั่วขณะความยาวนานที่มีอยู่หรือเป็น"
+    },
+    {
+     "th": "ตั้งนาฬิกา",
+     "rtgs": "tang-na-li-ka",
+     "ipa": "/taŋ˥˩.naː˧.li˦˥.kaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เทียบนาฬิกาให้ตรงเวลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "นาฬิกา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "introduce + clock",
+     "lit_th": "กำหนด + เครื่องบอกเวลา"
+    },
+    {
+     "th": "ตัวตั้ง",
+     "rtgs": "tua-tang",
+     "ipa": "/tua̯˧.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำตั้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ตั้ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "form + introduce",
+     "lit_th": "รูป + กำหนด",
+     "flips_with": "ตั้งตัว"
+    }
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Setting a thing down as fixed: to determine.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "วาง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Simply to place.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ตั้งแง่",
+     "rtgs": "tang-ngae",
+     "ipa": "/taŋ˥˩.ŋɛː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำชั้นเชิง, ไม่ตรงไปตรงมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "แง่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "introduce + aspect",
+     "lit_th": "วาง + ส่วนที่เป็นเหลี่ยมเป็นสันเป็นมุมหร"
+    },
+    {
+     "th": "ตั้งท่า",
+     "rtgs": "tang-tha",
+     "ipa": "/taŋ˥˩.tʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วางท่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ท่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "introduce + landing",
+     "lit_th": "วาง + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
+    },
+    {
+     "th": "หน้าตั้ง",
+     "rtgs": "na-tang",
+     "ipa": "/naː˥˩.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องจิ้มชนิดหนึ่ง ทำด้วยหมูสับ กุ้งสับ ต้มกับกะทิ ผสมเครื่องมีหัวหอม ถั่วลิสง เป็นต้น ปรุงรสด้วยเกลือ น้ำตาล น้ำมะขามเปียกเล็กน้อย สำหรับกินกับข้าวตังทอดกรอบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ตั้ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "before + introduce",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + วาง",
+     "flips_with": "ตั้งหน้า"
+    },
+    {
+     "th": "ตั้งเครื่อง",
+     "rtgs": "tang-khrueang",
+     "ipa": "/taŋ˥˩.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตั้งของกิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "เครื่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "introduce + device",
+     "lit_th": "วาง + สิ่ง"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "วางซ้อนกันมาก ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "Placing many one on another: to stack.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "เริ่ม, เริ่มมี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตั้งครรภ์",
+     "rtgs": "tang-khan",
+     "ipa": "/taŋ˥˩.kʰan˧/",
+     "gloss": {
+      "en": [
+       "carry",
+       "expect"
+      ],
+      "th": "เริ่มมีครรภ์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ครรภ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เริ่ม + ห้อง"
+    },
+    {
+     "th": "ตั้งท้อง",
+     "rtgs": "tang-thong",
+     "ipa": "/taŋ˥˩.tʰɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "expect"
+      ],
+      "th": "เริ่มมีท้อง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ท้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ท้อง"
+     ],
+     "lit": "introduce + carry",
+     "lit_th": "เริ่ม + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น"
+    },
+    {
+     "th": "ตั้งแต่",
+     "rtgs": "tang-tae",
+     "ipa": "/taŋ˥˩.tɛː˨˩/",
+     "gloss": {
+      "en": [
+       "since"
+      ],
+      "th": "นับจากเวลาหนึ่งหรือสถานที่หนึ่งเป็นต้นไป (มักใช้เข้าคู่กับคำ จนถึง หรือ จนกระทั่ง)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "แต่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "introduce + but",
+     "lit_th": "เริ่ม + เฉพาะ"
+    },
+    {
+     "th": "ตั้งต้น",
+     "rtgs": "tang-ton",
+     "ipa": "/taŋ˥˩.ton˥˩/",
+     "gloss": {
+      "en": [
+       "begin"
+      ],
+      "th": "เริ่มต้นทำ, ขึ้นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ต้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "introduce + trunk",
+     "lit_th": "เริ่ม + ลำของต้นไม้"
+    }
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "What is established begins — ตั้งต้น, ตั้งครรภ์.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "คำแสดงความหมายว่า มาก หรือ นาน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "คำตั้ง",
+     "rtgs": "kham-tang",
+     "ipa": "/kʰam˧.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำที่ยกขึ้นตั้งเพื่อนิยามความหมายในการทำพจนานุกรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "ตั้ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.15, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "word + introduce",
+     "lit_th": "เสียงพูด + คำแสดงความหมายว่า มาก หรือ นาน"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Bleached to an intensifier: as much as, as long as.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "เรียกของที่วางซ้อนกันมาก ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 7,
+   "via": "metonymy",
+   "via_note": "And the stack itself.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "ครั้ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, classifier, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำลักษณนาม, คำนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "metonymy",
+   "via_note": "One setting-up counted as one occasion.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 8 manuscript titles, 93 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 33; domain seeded by keyword hits ['สร้าง', 'ทำ'].",
+ "compounds_unassigned": [
+  {
+   "th": "การก่อตั้ง",
+   "rtgs": "kan-ko-tang",
+   "ipa": "/kaːn˧.kɔː˨˩.taŋ˥˩/",
+   "gloss": {
+    "en": [
+     "foundation",
+     "institute"
+    ],
+    "th": "คำอาการนามของ ก่อตั้ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การก่อ",
+    "ตั้ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ก่อ + ชูตัว"
+  },
+  {
+   "th": "หินตั้ง",
+   "rtgs": "hin-tang",
+   "ipa": "/hin˩˩˦.taŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอบ้านไผ่ จังหวัดขอนแก่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หิน",
+    "ตั้ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "หิน"
+   ],
+   "lit": "rock + introduce",
+   "lit_th": "ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร + ชูตัว"
+  },
+  {
+   "th": "การเลือกตั้ง",
+   "rtgs": "kan-lueak-tang",
+   "ipa": "/kaːn˧.lɯa̯k̚˥˩.taŋ˥˩/",
+   "gloss": {
+    "en": [
+     "election"
+    ],
+    "th": "คำอาการนามของ เลือกตั้ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การเลือก",
+    "ตั้ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "choice + introduce",
+   "lit_th": "คำอาการนามของ เลือก + ชูตัว"
+  },
+  {
+   "th": "การจัดตั้ง",
+   "rtgs": "kan-chat-tang",
+   "ipa": "/kaːn˧.t͡ɕat̚˨˩.taŋ˥˩/",
+   "gloss": {
+    "en": [
+     "organization",
+     "organisation"
+    ],
+    "th": "คำอาการนามของ จัดตั้ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การจัด",
+    "ตั้ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ จัด + ชูตัว"
+  },
+  {
+   "th": "การตั้ง",
+   "rtgs": "kan-tang",
+   "ipa": "/kaːn˧.taŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตั้ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ตั้ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ชูตัว"
+  },
+  {
+   "th": "การแต่งตั้ง",
+   "rtgs": "kan-taeng–tang",
+   "ipa": "/kaːn˧.tɛŋ˨˩.taŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แต่งตั้ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแต่ง",
+    "ตั้ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แต่ง + ชูตัว"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *taŋꟲ; ร่วมเชื้อสายกับลาว ຕັ້ງ (ตั้ง), คำเมือง ᨲᩢ᩠᩶ᨦ (ตั้ง), ไทลื้อ ᦎᧂᧉ (ตั้ง), ไทดำ ꪔꪰ꫁ꪉ (ตั้ง), ไทใหญ่ တင်ႈ (ตั้ง), อาหม 𑜄𑜂𑜫 (ตง์), จ้วง daengj",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨲᩢ᩠᩶ᨦ",
+  "th": "ตั้ง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "introduce",
+  "set"
+ ]
+}

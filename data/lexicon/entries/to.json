@@ -1,0 +1,1467 @@
+{
+ "id": "w:to",
+ "th": "ต่อ",
+ "status": "mapped",
+ "rtgs": "to",
+ "paiboon": "dtɔ̀ɔ",
+ "ipa": "/tɔː˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ์ มีปีก 2 คู่ ลักษณะเป็นแผ่นบางใส ปีกคู่หลังเล็กกว่าปีกคู่หน้า ปากเป็นชนิดกัดกิน เอวคอดกิ่ว ตัวเมียมีเหล็กในสำหรับต่อยปล่อยน้ำพิษทำให้เจ็บปวดได้ บางชนิดอยู่อย่างโดดเดี่ยว แต่บางชนิดรวมกลุ่มเป็นฝูง ทำรัง ที่สำคัญได้แก่ วงศ์ Vespidae เช่น ต่อหลวง (Vespa cincta)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb.",
+    "Declared root: ต่อ the wasp — a insect name unrelated to the verb."
+   ],
+   "compounds": [
+    {
+     "th": "เขาต่อ",
+     "rtgs": "khao-to",
+     "ipa": "/kʰaw˩˩˦.tɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปลายพระยา จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เขา",
+      "ต่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เขา"
+     ],
+     "lit": "mountain + a",
+     "lit_th": "เนินที่นูนสูงขึ้นไปเป็นจอมเด่น + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เพิ่มให้ยืดออกไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word.",
+    "Declared root: ต่อ 'to extend, join, continue' — the productive word."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เพิ่มให้ยาวออกไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Extending specifically in length.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ทำให้ติดกันเป็นอันเดียว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Extending until two things are one.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เชื่อมให้ติดต่อกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ติดต่อ",
+     "rtgs": "tit-to",
+     "ipa": "/tit̚˨˩.tɔː˨˩/",
+     "gloss": {
+      "en": [
+       "contact"
+      ],
+      "th": "ไปมาหาสู่กัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "ต่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ติด"
+     ],
+     "lit": "fit + a",
+     "lit_th": "อาการที่ข้องอยู่ + เชื่อมให้ติดต่อกัน"
+    }
+   ],
+   "extends": 4,
+   "via": "generalisation",
+   "via_note": "And so, to connect anything.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เอาวัตถุเช่นไม้มาประกอบเข้าเป็นรูป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Joining timber into a shape: to build.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เรียกเรือชนิดที่ทำด้วยไม้กระดานโดยนำมาต่อขึ้นเป็นรูปเรืออาศัยกงหรือมือลิงเป็นเครื่องยึด ตัวเรือป่อง หัวและท้ายเรือเรียวเชิดขึ้นตามส่วนเช่นเรือสำปั้น เรือบด เรืออีแปะ ว่า เรือต่อ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เรือต่อ",
+     "rtgs": "ruea-to",
+     "ipa": "/rɯa̯˧.tɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือชนิดที่ทำด้วยไม้กระดานโดยนำมาต่อขึ้นเป็นรูปเรืออาศัยกงหรือมือลิงเป็นเครื่องยึด ตัวเรือป่อง หัวและท้ายเรือเรียวเชิดขึ้นตามส่วน เช่น เรือสำปั้น เรือบด เรืออีแปะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "ต่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เรือ"
+     ],
+     "lit": "boat + a",
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + เรียกเรือชนิดที่ทำด้วยไม้กระดานโดย",
+     "frame": "entity"
+    }
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "เรือต่อ, the plank-built boat named from the building of it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ทำให้ติดอย่างไฟ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "Taking fire from one thing to another: to light.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ขอลดราคาให้น้อยลง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Extending a negotiation: to bargain down.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "ท้าพนันโดยยอมลดเปรียบให้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "metaphor",
+   "via_note": "Extending odds to the weaker side of a bet.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "ฝ่ายเห็นว่าได้เปรียบเป็น ฝ่ายต่อ ฝ่ายเห็นว่าสู้ได้เป็น ฝ่ายรอง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 10,
+   "via": "metonymy",
+   "via_note": "And the side that gives them — ฝ่ายต่อ, against ฝ่ายรอง.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[RID sense 12 — no English yet]"
+    ],
+    "th": "นำสัตว์เลี้ยงไปล่อสัตว์ป่าในคำว่า ต่อนก ต่อไก่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "Joining a tame bird to a wild one: to decoy.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 13,
+   "gloss": {
+    "en": [
+     "[RID sense 13 — no English yet]"
+    ],
+    "th": "เท่าตัว, เท่าทุน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 10,
+   "via": "metaphor",
+   "via_note": "At par, double — the language of the wager.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 14,
+   "gloss": {
+    "en": [
+     "[RID sense 14 — no English yet]"
+    ],
+    "th": "ทอด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Extended in a stretch or lay.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 15,
+   "gloss": {
+    "en": [
+     "[RID sense 15 — no English yet]"
+    ],
+    "th": "ออกจะ, น่าจะ, ท่าจะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Rather, likely — leaning toward.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 16,
+   "gloss": {
+    "en": [
+     "[RID sense 16 — no English yet]"
+    ],
+    "th": "ถัดไป, สืบไป, ติดต่อกันไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Next, onward, one after another.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 17,
+   "gloss": {
+    "en": [
+     "[RID sense 17 — no English yet]"
+    ],
+    "th": "เพิ่มขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Simply, to increase.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 18,
+   "gloss": {
+    "en": [
+     "[RID sense 18 — no English yet]"
+    ],
+    "th": "เรียกสัตว์เลี้ยงที่นำไปล่อสัตว์ป่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไก่ต่อ",
+     "rtgs": "kai-to",
+     "ipa": "/kaj˨˩.tɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไก่ตัวเมียที่เลี้ยงไว้เพื่อนำไปต่อไก่ป่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "ต่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 18: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไก่"
+     ],
+     "lit": "chicken + a",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + เรียกสัตว์เลี้ยงที่นำไปล่อสัตว์ป่า",
+     "frame": "entity"
+    },
+    {
+     "th": "นกต่อ",
+     "rtgs": "nok-to",
+     "ipa": "/nok̚˦˥.tɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่ทำหน้าที่ติดต่อหรือชักจูงหลอกล่อคนอื่นให้หลงเชื่อ ใช้ในทางไม่ดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "ต่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 18: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นก"
+     ],
+     "lit": "bird + a",
+     "lit_th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ + เรียกสัตว์เลี้ยงที่นำไปล่อสัตว์ป่า",
+     "frame": "entity"
+    }
+   ],
+   "extends": 12,
+   "via": "metonymy",
+   "via_note": "And the decoy animal itself.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 19,
+   "gloss": {
+    "en": [
+     "[RID sense 19 — no English yet]"
+    ],
+    "th": "เรียกสิ่งที่เชื่อมเข้าด้วยกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metonymy",
+   "via_note": "The joint, the thing connected.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 20,
+   "gloss": {
+    "en": [
+     "[RID sense 20 — no English yet]"
+    ],
+    "th": "เฉพาะ, ประจันหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ต่อสู้",
+     "rtgs": "to-su",
+     "ipa": "/tɔː˨˩.suː˥˩/",
+     "gloss": {
+      "en": [
+       "fight",
+       "combat",
+       "conflict"
+      ],
+      "th": "สู้เฉพาะหน้า, รบกัน, ตีรันกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ต่อ",
+      "สู้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 20: gloss similarity 0.16, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "a + combat",
+     "lit_th": "เฉพาะ + เอาชนะกันด้วยกำลังกาย อาวุธ หรือสต"
+    },
+    {
+     "th": "ต่อหน้า",
+     "rtgs": "to-na",
+     "ipa": "/tɔː˨˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ซึ่งหน้า, เฉพาะหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต่อ",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 20: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "a + before",
+     "lit_th": "เฉพาะ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Extended face to face: directly opposite.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 21,
+   "gloss": {
+    "en": [
+     "[RID sense 21 — no English yet]"
+    ],
+    "th": "เมื่อถึง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 16,
+   "via": "specialisation",
+   "via_note": "Upon reaching, when it comes to.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 22,
+   "gloss": {
+    "en": [
+     "[RID sense 22 — no English yet]"
+    ],
+    "th": "แต่ละ, ราย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 16,
+   "via": "metonymy",
+   "via_note": "Each, per — one after another, counted off.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 23,
+   "gloss": {
+    "en": [
+     "[RID sense 23 — no English yet]"
+    ],
+    "th": "เทียบส่วนกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 22,
+   "via": "generalisation",
+   "via_note": "And in proportion to.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 24,
+   "gloss": {
+    "en": [
+     "[RID sense 24 — no English yet]"
+    ],
+    "th": "ถ่ายทอดวิชาความรู้ให้แก่ศิษย์เป็นการเฉพาะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "Passing knowledge from teacher to pupil, one to one.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 25,
+   "gloss": {
+    "en": [
+     "[RID sense 25 — no English yet]"
+    ],
+    "th": "เรียนวิชาบางอย่างจากครูเป็นการเฉพาะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 24,
+   "via": "metonymy",
+   "via_note": "Seen from the pupil's side: to study privately.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 26,
+   "gloss": {
+    "en": [
+     "[RID sense 26 — no English yet]"
+    ],
+    "th": "จาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 20,
+   "via": "metaphor",
+   "via_note": "From, measured against a facing point.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 27,
+   "gloss": {
+    "en": [
+     "[RID sense 27 — no English yet]"
+    ],
+    "th": "รบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, classifier, คำกริยาวิเศษณ์, adjective, preposition",
+   "pos_th": "คำนาม, คำกริยา, คำลักษณนาม, คำกริยาวิเศษณ์, คำคุณศัพท์, คำบุพบท",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 20,
+   "via": "metaphor",
+   "via_note": "Facing an enemy: to fight.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 10 manuscript titles, 132 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['ปาก', 'คอ', 'หลัง', 'หัว'].",
+ "compounds_unassigned": [
+  {
+   "th": "ต่อว่า",
+   "rtgs": "to-wa",
+   "ipa": "/tɔː˨˩.waː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตำหนิว่าทำไม่ถูกต้อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ต่อ",
+    "ว่า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ว่า"
+   ],
+   "lit": "a + to say",
+   "lit_th": "ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ + พูด"
+  },
+  {
+   "th": "สานต่อ",
+   "rtgs": "san-to",
+   "ipa": "/saːn˩˩˦.tɔː˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทำต่อจากคนอื่นที่ทำค้างไว้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาน",
+    "ต่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "อาการที่ใช้เส้นตอกทำด้วยไม้ไผ่ หวา + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ"
+  },
+  {
+   "th": "การตัดต่อ",
+   "rtgs": "kan-tat-to",
+   "ipa": "/kaːn˧.tat̚˨˩.tɔː˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตัดต่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตัด",
+    "ต่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตัด + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+   "frame": "entity"
+  },
+  {
+   "th": "ตัดต่อ",
+   "rtgs": "tat-to",
+   "ipa": "/tat̚˨˩.tɔː˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตัดฟิล์มภาพยนตร์ เทปบันทึกภาพ เป็นต้น ที่ไม่ติดต่อกัน แล้วนำมาต่อกันเพื่อให้เป็นไปตามที่ต้องการ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตัด",
+    "ต่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ตัด"
+   ],
+   "lit": "cut + a",
+   "lit_th": "ทำให้ขาดด้วยของมีคม + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ"
+  },
+  {
+   "th": "การต่อ",
+   "rtgs": "kan-to",
+   "ipa": "/kaːn˧.tɔː˨˩/",
+   "gloss": {
+    "en": [
+     "engagement"
+    ],
+    "th": "คำอาการนามของ ต่อ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ต่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+   "frame": "entity"
+  },
+  {
+   "th": "ต่อต้าน",
+   "rtgs": "to-tan",
+   "ipa": "/tɔː˨˩.taːn˥˩/",
+   "gloss": {
+    "en": [
+     "cross",
+     "fight",
+     "antagonize"
+    ],
+    "th": "ปะทะไว้, ต้านทานไว้, สู้รบป้องกันไว้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ต่อ",
+    "ต้าน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ + ยันหรือรับไว้เพื่อไม่ให้ล้ำแนวเข้า"
+  },
+  {
+   "th": "การติดต่อ",
+   "rtgs": "kan-tit-to",
+   "ipa": "/kaːn˧.tit̚˨˩.tɔː˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ติดต่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การติด",
+    "ต่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "addiction + a",
+   "lit_th": "คำอาการนามของ ติด + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+   "frame": "entity"
+  },
+  {
+   "th": "การเป็นต่อ",
+   "rtgs": "kan-pen-to",
+   "ipa": "/kaːn˧.pen˧.tɔː˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เป็นต่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเป็น",
+    "ต่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เป็น + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+   "frame": "entity"
+  },
+  {
+   "th": "ต่อรอง",
+   "rtgs": "to-rong",
+   "ipa": "/tɔː˨˩.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขอลดหรือเพิ่มเงื่อนไขเพื่อให้เป็นที่ยอมรับของทั้ง 2 ฝ่าย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ต่อ",
+    "รอง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "รอง"
+   ],
+   "lit": "a + deputy",
+   "lit_th": "ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "ความเป็นต่อ",
+   "rtgs": "khwam-pen-to",
+   "ipa": "/kʰwaːm˧.pen˧.tɔː˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เป็นต่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเป็น",
+    "ต่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เป็น + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+   "frame": "entity"
+  },
+  {
+   "th": "เป็นต่อ",
+   "rtgs": "pen-to",
+   "ipa": "/pen˧.tɔː˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ได้เปรียบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เป็น",
+    "ต่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "เป็น"
+   ],
+   "lit": "are + a",
+   "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ"
+  },
+  {
+   "th": "ต่อเนื่อง",
+   "rtgs": "to-nueang",
+   "ipa": "/tɔː˨˩.nɯa̯ŋ˥˩/",
+   "gloss": {
+    "en": [
+     "constant"
+    ],
+    "th": "สม่ำเสมอ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ต่อ",
+    "เนื่อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ + ติดต่อกัน"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *toːᴮ (“ผึ้ง”); ร่วมเชื้อสายกับคำเมือง ᨲᩬᩴ᩵ (ตอํ่), ลาว ຕໍ່ (ตํ่), ไทลื้อ ᦎᦸᧈ (ต่อ̂), ไทใหญ่ တေႃႇ (ต่อ̂), จ้วง doq; เทียบเบดั้งเดิม *ɗawᴮꟲ² ร่วมเชื้อสายกับลาว ຕໍ່ (ตํ่), คำเมือง ᨲᩬᩴ᩵ (ตอํ่), ไทลื้อ ᦎᦸᧈ (ต่อ̂), ไทดำ ꪔꪷ꪿ (ตํ่), ไทใหญ่ တေႃႇ (ต่อ̂) ร่วมเชื้อสายกับคำเมือง ᨲᩬᩴ᩵ (ตอํ่), ลาว ຕໍ່ (ตํ่), เขิน ᨲᩳ᩵ (ตอ่), ไทลื้อ ᦎᦸᧈ (ต่อ̂), ไทใหญ่ တေႃႇ (ต่อ̂), อาหม 𑜄𑜦𑜡 (ตอ̂); เทียบเขมร ត (ต) หรือ ទរ (ทร), จีนยุคกลาง 鬥 (MC tuwH)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨲᩬᩴ᩵",
+  "th": "ตอํ่",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "a",
+  "an",
+  "by",
+  "per"
+ ]
+}

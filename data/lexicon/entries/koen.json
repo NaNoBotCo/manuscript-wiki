@@ -1,0 +1,604 @@
+{
+ "id": "w:koen",
+ "th": "เกิน",
+ "status": "proposed",
+ "rtgs": "koen",
+ "paiboon": "gəən",
+ "ipa": "/kɤːn˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "to exceed",
+     "beyond",
+     "over"
+    ],
+    "th": "พ้น, เลย, คำนี้ใช้แก่ลักษณะที่มีมากกว่าหรือยิ่งกว่ากำหนด",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เหลือเกิน",
+     "rtgs": "luea-koen",
+     "ipa": "/lɯa̯˩˩˦.kɤːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยิ่งนัก, เกินควร, เต็มที",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหลือ",
+      "เกิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit": "down to + to exceed",
+     "lit_th": "เกิน + พ้น",
+     "frame": "quality"
+    },
+    {
+     "th": "เกินกิน",
+     "rtgs": "koen-kin",
+     "ipa": "/kɤːn˧.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กินไม่ดีเพราะแก่เกินไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "กิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "to exceed + eat",
+     "lit_th": "พ้น + เคี้ยว",
+     "frame": "quality"
+    },
+    {
+     "th": "ล่วงเกิน",
+     "rtgs": "luang-koen",
+     "ipa": "/lua̯ŋ˥˩.kɤːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงอาการเกินสมควรต่อผู้อื่น ด้วยการลวนลาม สบประมาท หรือดูหมิ่น เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ล่วง",
+      "เกิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit_th": "ผ่านจากจุดหนึ่งไปยังอีกจุดหนึ่ง + พ้น",
+     "frame": "quality"
+    },
+    {
+     "th": "ก้ำเกิน",
+     "rtgs": "kam-koen",
+     "ipa": "/kam˥˩.kɤːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ล่วงเกิน, เกินเลย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้ำ",
+      "เกิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ด้าน + พ้น",
+     "frame": "quality"
+    },
+    {
+     "th": "เกินเลย",
+     "rtgs": "koen–loei",
+     "ipa": "/kɤːn˧.lɤːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงกิริยาวาจาต่อผู้อื่นโดยขาดสัมมาคารวะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "เลย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit_th": "พ้น + พ้นหรือเกินจุดที่กำหนด",
+     "frame": "quality"
+    },
+    {
+     "th": "เศษเกิน",
+     "rtgs": "set-koen",
+     "ipa": "/seːt̚˨˩.kɤːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เศษส่วนที่มีเศษมากกว่าส่วน เช่น 3/2",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เศษ",
+      "เกิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.25",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "end + to exceed",
+     "lit_th": "ส่วนที่เหลือใช้การไม่ได้ตามวัตถุปร + พ้น",
+     "frame": "quality"
+    },
+    {
+     "th": "เกินไป",
+     "rtgs": "koen-pai",
+     "ipa": "/kɤːn˧.paj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำประกอบท้ายคำวิเศษณ์เพื่อเน้นความหมาย แสดงว่าเกินกำหนด เกินพอดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "ไป"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit": "to exceed + go",
+     "lit_th": "พ้น + เคลื่อนจากตัวผู้พูด",
+     "frame": "quality"
+    },
+    {
+     "th": "เกินควร",
+     "rtgs": "koen-khuan",
+     "ipa": "/kɤːn˧.kʰua̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกินพอดี, เกินกว่าที่จำเป็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "ควร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.18",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "พ้น + เหมาะ"
+    },
+    {
+     "th": "เกินดี",
+     "rtgs": "koen-di",
+     "ipa": "/kɤːn˧.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เลยไปจนหมดดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "ดี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "to exceed + good",
+     "lit_th": "พ้น + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+     "frame": "quality"
+    },
+    {
+     "th": "เกินหน้า",
+     "rtgs": "koen-na",
+     "ipa": "/kɤːn˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกินกว่า เด่นกว่า หรือดีกว่าฐานะของตนเองหรือของคนอื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "to exceed + before",
+     "lit_th": "พ้น + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "quality"
+    },
+    {
+     "th": "เกินคน",
+     "rtgs": "koen-khon",
+     "ipa": "/kɤːn˧.kʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยิ่งกว่าคนสามัญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "คน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.25",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "คน"
+     ],
+     "lit": "to exceed + stir",
+     "lit_th": "พ้น + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
+     "frame": "quality"
+    },
+    {
+     "th": "เกินงาม",
+     "rtgs": "koen-ngam",
+     "ipa": "/kɤːn˧.ŋaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มากไปจนหมดงาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "งาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "งาม"
+     ],
+     "lit": "to exceed + aesthetic",
+     "lit_th": "พ้น + ลักษณะที่เห็นแล้วชวนให้ชื่นชมหรือพ",
+     "frame": "quality"
+    },
+    {
+     "th": "เกินการ",
+     "rtgs": "koen-kan",
+     "ipa": "/kɤːn˧.kaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มากกว่าที่ต้องประสงค์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "การ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.24",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit_th": "พ้น + งาน",
+     "frame": "quality"
+    },
+    {
+     "th": "เกินตัว",
+     "rtgs": "koen-tua",
+     "ipa": "/kɤːn˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกินฐานะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "to exceed + form",
+     "lit_th": "พ้น + รูป",
+     "frame": "quality"
+    },
+    {
+     "th": "กองเกิน",
+     "translit_auto": "kongkein",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ขึ้นทะเบียนรับราชการทหารแต่ทางการไม่เรียกเข้ารับราชการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กอง",
+      "เกิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "กอง"
+     ],
+     "lit": "desk + to exceed",
+     "lit_th": "ทำให้รวมสุมกันไว้ + พ้น",
+     "frame": "quality"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 7 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "ความเกิน",
+   "rtgs": "khwam-koen",
+   "ipa": "/kʰwaːm˧.kɤːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เกิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "เกิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + to exceed",
+   "lit_th": "เรื่อง + พ้น",
+   "frame": "quality"
+  },
+  {
+   "th": "การล่วงเกิน",
+   "rtgs": "kan-luang-koen",
+   "ipa": "/kaːn˧.lua̯ŋ˥˩.kɤːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ล่วงเกิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การล่วง",
+    "เกิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ล่วง + พ้น",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับลาว ເກີນ (เกีน)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

@@ -1,0 +1,854 @@
+{
+ "id": "w:rot",
+ "th": "รถ",
+ "status": "mapped",
+ "rtgs": "rot",
+ "paiboon": "rót",
+ "ipa": "/rot̚˦˥/",
+ "syllable_respelling": "ระ-ถะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ยานที่มีล้อสำหรับเคลื่อนไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "รถไฟ",
+     "rtgs": "rot-fai",
+     "ipa": "/rot̚˦˥.faj˧/",
+     "gloss": {
+      "en": [
+       "train"
+      ],
+      "th": "รถที่พ่วงกันเป็นขบวนยาว ขับเคลื่อนโดยมีหัวรถจักรลากให้แล่นไปตามรางเหล็ก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รถ",
+      "ไฟ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "auto + fire",
+     "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    },
+    {
+     "th": "รถม้า",
+     "rtgs": "rot-ma",
+     "ipa": "/rot̚˦˥.maː˦˥/",
+     "gloss": {
+      "en": [
+       "bus",
+       "carriage"
+      ],
+      "th": "รถที่ใช้ม้าเทียมลากจูงไป มีทั้งชนิด 2 ล้อ และ 4 ล้อ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รถ",
+      "ม้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "auto + horse",
+     "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus",
+     "frame": "entity"
+    },
+    {
+     "th": "รถยนต์",
+     "rtgs": "rot-yon",
+     "ipa": "/rot̚˦˥.jon˧/",
+     "gloss": {
+      "en": [
+       "auto",
+       "automobile",
+       "automocar"
+      ],
+      "th": "ยานพาหนะที่ขับเคลื่อนด้วยเครื่องยนต์ ตามปรกติมี 4 ล้อ มีหลายแบบหลายชนิดเรียกชื่อต่าง ๆ กันตามความมุ่งหมายที่ใช้เป็นต้น เช่น รถเก๋ง รถบรรทุก รถโดยสาร, เรียกย่อว่า รถ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รถ",
+      "ยนต์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + เครื่องกลไก",
+     "frame": "entity"
+    },
+    {
+     "th": "รถราง",
+     "rtgs": "rot-rang",
+     "ipa": "/rot̚˦˥.raːŋ˧/",
+     "gloss": {
+      "en": [
+       "tram"
+      ],
+      "th": "รถที่แล่นไปบนรางมีสาลี่ติดอยู่บนหลังคา ปลายมีลูกรอกแตะกับสายไฟฟ้าเพื่อนำกระแสไฟฟ้ามาใช้ขับเคลื่อน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รถ",
+      "ราง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + ร่องที่ขุดเป็นทางสำหรับให้น้ำไหล",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ยานพาหนะทุกชนิดที่ใช้ในการขนส่งทางบกซึ่งเดินด้วยกำลังเครื่องยนต์ กำลังไฟฟ้าหรือพลังงานอื่น และหมายความรวมตลอดถึงรถพ่วงของรถนั้นด้วย ทั้งนี้เว้นแต่รถไฟ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รถจักร",
+     "rtgs": "rot-chak",
+     "ipa": "/rot̚˦˥.t͡ɕak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รถหัวขบวนรถไฟ มีเครื่องยนต์ใช้ลากจูงรถไฟทั้งขบวน, หัวรถจักร ก็เรียก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รถ",
+      "จักร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.14, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "จักร"
+     ],
+     "lit": "auto + chakra",
+     "lit_th": "ยานพาหนะทุกชนิดที่ใช้ในการขนส่งทาง + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+     "frame": "entity"
+    },
+    {
+     "th": "เดินรถ",
+     "rtgs": "doen-rot",
+     "ipa": "/dɤːn˧.rot̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประกอบกิจการขนส่งทางรถ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เดิน",
+      "รถ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.11, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "walk + auto",
+     "lit_th": "ยกเท้าก้าวไป + ยานพาหนะทุกชนิดที่ใช้ในการขนส่งทาง"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The statutory definition of a vehicle.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "รถยนต์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รถยนตร์",
+     "rtgs": "rot-yon",
+     "ipa": "/rot̚˦˥.jon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปเลิกใช้ของ รถยนต์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รถ",
+      "ยนตร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.22, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "รถยนต์ + เครื่องกลไก",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And in ordinary speech, a car.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 9 manuscript titles, 164 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['เดิน', 'เคลื่อน', 'ไป', 'มา'].",
+ "compounds_unassigned": [
+  {
+   "th": "รถลาก",
+   "rtgs": "rot-lak",
+   "ipa": "/rot̚˦˥.laːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยานพาหนะชนิดหนึ่ง มี 2 ล้อ ใช้คนลาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "ลาก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "auto + draw",
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + ทำให้เคลื่อนที่ตามไปโดยวิธีต่าง ๆ"
+  },
+  {
+   "th": "กงรถ",
+   "rtgs": "kong-rot",
+   "ipa": "/koŋ˧.rot̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอห้วยแถลง จังหวัดนครราชสีมา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กง",
+    "รถ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ง สะกด ว + ยานที่มีล้อสำหรับเคลื่อนไป",
+   "frame": "entity"
+  },
+  {
+   "th": "ทรงรถ",
+   "translit_auto": "thrngrt",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขี่รถ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทรง",
+    "รถ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทรง"
+   ],
+   "lit": "form + auto",
+   "lit_th": "รูปร่าง + ยานที่มีล้อสำหรับเคลื่อนไป",
+   "frame": "entity"
+  },
+  {
+   "th": "รถกระบะ",
+   "rtgs": "rot-kra-ba",
+   "ipa": "/rot̚˦˥.kra˨˩.baʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รถชนิดหนึ่งใช้บรรทุกสิ่งของ ทำตัวถังเป็นรูปอย่างกระบะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "กระบะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + ภาชนะไม้ก้นแบนมีขอบ ใช้อย่างถาด",
+   "frame": "entity"
+  },
+  {
+   "th": "รถไฟฟ้า",
+   "rtgs": "rot-fai-fa",
+   "ipa": "/rot̚˦˥.faj˧.faː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยานพาหนะซึ่งใช้พลังงานไฟฟ้าขับเคลื่อนให้วิ่งไปตามราง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "ไฟฟ้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ฟ้า"
+   ],
+   "lit": "auto + juice",
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + พลังงานรูปหนึ่งซึ่งเกี่ยวข้องกับกา",
+   "frame": "entity"
+  },
+  {
+   "th": "รถยา",
+   "translit_auto": "rthya",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทางเดิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "ยา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ยา"
+   ],
+   "lit": "auto + medicine",
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ",
+   "frame": "entity"
+  },
+  {
+   "th": "รถถัง",
+   "rtgs": "rot-thang",
+   "ipa": "/rot̚˦˥.tʰaŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "tank"
+    ],
+    "th": "ยานเกราะ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "ถัง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "auto + bucket",
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + ภาชนะจำพวกหนึ่ง ทำด้วยไม้หรือโลหะเ",
+   "frame": "entity"
+  },
+  {
+   "th": "รถเครื่อง",
+   "rtgs": "rot-khrueang",
+   "ipa": "/rot̚˦˥.kʰrɯa̯ŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ จักรยานยนต์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "เครื่อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เครื่อง"
+   ],
+   "lit": "auto + device",
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + สิ่ง",
+   "frame": "entity"
+  },
+  {
+   "th": "การเดินรถ",
+   "rtgs": "kan-doen-rot",
+   "ipa": "/kaːn˧.dɤːn˧.rot̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เดินรถ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเดิน",
+    "รถ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "walking + auto",
+   "lit_th": "คำอาการนามของ เดิน + ยานที่มีล้อสำหรับเคลื่อนไป",
+   "frame": "entity"
+  },
+  {
+   "th": "พจนารถ",
+   "rtgs": "phot-cha-nat",
+   "ipa": "/pʰot̚˦˥.t͡ɕa˨˩.naːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เนื้อความของคำพูด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พจนา",
+    "รถ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "การเปล่งวาจา + ยานที่มีล้อสำหรับเคลื่อนไป",
+   "frame": "entity"
+  },
+  {
+   "th": "รถบรรทุก",
+   "rtgs": "rot-ban-thuk",
+   "ipa": "/rot̚˦˥.ban˧.tʰuk̚˦˥/",
+   "gloss": {
+    "en": [
+     "truck",
+     "lorry"
+    ],
+    "th": "รถที่ใช้บรรทุกสิ่งของ มีหลายขนาด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "บรรทุก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "auto + carry",
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + วางไว้ ใส่ลง หรือบรรจุลงบนยานพาหนะ"
+  },
+  {
+   "th": "รถตู้",
+   "rtgs": "rot-tu",
+   "ipa": "/rot̚˦˥.tuː˥˩/",
+   "gloss": {
+    "en": [
+     "van"
+    ],
+    "th": "ตู้รถไฟที่ใช้บรรทุกสินค้าเป็นต้น ภายในโล่ง มักปิดทึบทั้ง 4 ด้าน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "ตู้"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "auto + cupboard",
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + เครื่องเรือนสำหรับเก็บหรือใส่สิ่งข",
+   "frame": "entity"
+  },
+  {
+   "th": "รถพยาบาล",
+   "rtgs": "rot-pha-ya-ban",
+   "ipa": "/rot̚˦˥.pʰa˦˥.jaː˧.baːn˧/",
+   "gloss": {
+    "en": [
+     "ambulance"
+    ],
+    "th": "รถยนต์ของสถานพยาบาลที่ใช้รับส่งผู้ป่วยในกรณีฉุกเฉิน ระหว่างวิ่งเพื่อนำผู้ป่วยส่งสถานพยาบาลจะเปิดไซเรนขอทางให้ยวดยานอื่นหลีกทางให้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "พยาบาล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "auto + nurse",
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + ดูแลคนไข้"
+  },
+  {
+   "th": "ก๊าร์ดรถ",
+   "rtgs": "kat-rot",
+   "ipa": "/kaːt̚˦˥.rot̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พนักงานตรวจตั๋วบนรถไฟ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ก๊าร์ด",
+    "รถ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "บัตรเชิญในโอกาสต่าง ๆ + ยานที่มีล้อสำหรับเคลื่อนไป",
+   "frame": "entity"
+  },
+  {
+   "th": "อรรถ",
+   "rtgs": "at",
+   "ipa": "/ʔat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เนื้อความ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อร",
+    "รถ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้หญิง + ยานที่มีล้อสำหรับเคลื่อนไป",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "รถถีบ",
+   "rtgs": "rot-thip",
+   "ipa": "/rot̚˦˥.tʰiːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จักรยานสองล้อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "ถีบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + งอเข่าแล้วใช้ฝ่าเท้ากระแทกออกไป"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต रथ (รถ) หรือบาลี รถ; ร่วมเชื้อสายกับเขมร រត់ (รต̍), ไทลื้อ ᦷᦟᧆ (โลด), ไทใหญ่ လူတ်ႉ (ลู๎ต), ลาว ລົດ (ล็ด), ຣົຖ (ร็ถ), คำเมือง ᩁᩫ᩠ᨳ (ร็ถ)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩁᩫ᩠ᨳ",
+  "th": "ร็ถ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "auto"
+ ]
+}

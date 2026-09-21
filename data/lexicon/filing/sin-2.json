@@ -1,0 +1,8 @@
+{
+ "head": "sin-2",
+ "rule": "สิน is two unrelated words sharing a spelling — wealth (1) and cutting (2) — and the split is total. Everything about money goes to sense 1: ทรัพย์สิน, สินค้า, สินเชื่อ, สินสอด, สินบน, สินไหม, ออมสิน. Sense 2 was empty and takes exactly one word, ตัดสิน, which is a synonym compound — ตัด and สิน both mean to cut, and judging is cutting a matter through. Nothing about a verdict involves money, and reading it that way would have been the obvious mistake. แม่สิน is left unfiled: a tambon name on a head with no name-use sense.",
+ "senses": {
+  "1": ["ทรัพย์สิน","ออมสิน","สินค้า","สินบน","สินสอด","สินเชื่อ","สินไหม"],
+  "2": ["ตัดสิน"]
+ }
+}

@@ -1,0 +1,846 @@
+{
+ "id": "w:kha",
+ "th": "ค่า",
+ "status": "mapped",
+ "rtgs": "kha",
+ "paiboon": "kâa",
+ "ipa": "/kʰaː˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เป็นรูปธรรมและนามธรรม ที่มีประโยชน์ในทางใช้สอย แลกเปลี่ยน หรือทางจิตใจเป็นต้น บางอย่างก็ประเมินเป็นเงินได้ บางอย่างก็ประเมินเป็นเงินไม่ได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "มูลค่า",
+     "rtgs": "mun-la-kha",
+     "ipa": "/muːn˧.la˦˥.kʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "value",
+       "worth"
+      ],
+      "th": "ค่าของสิ่งของ, ราคาของสิ่งของ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มูล",
+      "ค่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "มูล"
+     ],
+     "lit": "base + value",
+     "lit_th": "โคน + มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "จำนวนเงินที่เป็นราคาสิ่งของหรือบริการเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ค่าเช่า",
+     "rtgs": "kha-chao",
+     "ipa": "/kʰaː˥˩.t͡ɕʰaw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ค่าตอบแทนที่ผู้เช่าจ่ายให้แก่ผู้ให้เช่า เพื่อเป็นการตอบแทนที่ได้ใช้หรือได้รับประโยชน์ในทรัพย์สินที่เช่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ค่า",
+      "เช่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "value + rent",
+     "lit_th": "จำนวนเงินที่เป็นราคาสิ่งของหรือบริ + เข้าใช้ทรัพย์สิน เช่น บ้าน ที่ดิน"
+    },
+    {
+     "th": "ค่าจ้าง",
+     "rtgs": "kha-chang",
+     "ipa": "/kʰaː˥˩.t͡ɕaːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "earnings",
+       "wage"
+      ],
+      "th": "เงินทุกประเภทและผลประโยชน์อย่างอื่นที่นายจ้างจ่ายหรือให้แก่ลูกจ้างเป็นค่าตอบแทนการทำงาน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ค่า",
+      "จ้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "value + hire",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Value narrowed to a price in money.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "จำนวนหรือตัวเลขที่ระบุปริมาณหรือขนาดของตัวแปร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And to a number standing for a quantity.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เรียกสิ่งใดสิ่งหนึ่งที่มีคุณค่ามากจนไม่อาจประเมินเป็นเงินได้ว่า เป็นสิ่งที่หาค่ามิได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ด้อยค่า",
+     "rtgs": "doi-kha",
+     "ipa": "/dɔj˥˩.kʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลดทอนคุณค่าหรือให้ร้ายสิ่งใดสิ่งหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ด้อย",
+      "ค่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.26, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ต่ำกว่าโดยคุณสมบัติ รูปสมบัติ หรือ + เรียกสิ่งใดสิ่งหนึ่งที่มีคุณค่ามาก"
+    },
+    {
+     "th": "คุณค่า",
+     "rtgs": "khun-kha",
+     "ipa": "/kʰun˧.kʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "value"
+      ],
+      "th": "สิ่งที่มีประโยชน์หรือมีมูลค่าสูง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ค่า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "คุณ"
+     ],
+     "lit": "you + value",
+     "lit_th": "คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค + เรียกสิ่งใดสิ่งหนึ่งที่มีคุณค่ามาก"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "And raised past reckoning: priceless.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 2 manuscript titles, 71 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits ['แลก', 'ราคา', 'เงิน'].",
+ "compounds_unassigned": [
+  {
+   "th": "ค่าเสียหาย",
+   "rtgs": "kha-sia-hai",
+   "ipa": "/kʰaː˥˩.sia̯˩˩˦.haːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "damage",
+     "damages"
+    ],
+    "th": "มูลค่าแห่งความเสียหายที่ผู้เสียหายพึงได้รับการชดใช้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "เสียหาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + เสื่อมเสีย"
+  },
+  {
+   "th": "ควรค่า",
+   "rtgs": "khuan-kha",
+   "ipa": "/kʰua̯n˧.kʰaː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีคุณสมบัติเหมาะสม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ควร",
+    "ค่า"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "เหมาะ + มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ"
+  },
+  {
+   "th": "ค่าปิดปาก",
+   "rtgs": "kha-pit-pak",
+   "ipa": "/kʰaː˥˩.pit̚˨˩.paːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เงินหรือผลประโยชน์ที่ให้เพื่อไม่ให้เปิดเผยความลับ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "ปิดปาก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "value + placate",
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + ไม่พูด หรือไม่ให้พูด"
+  },
+  {
+   "th": "ค่าสัมบูรณ์",
+   "rtgs": "kha-sam-bun",
+   "ipa": "/kʰaː˥˩.sam˩˩˦.buːn˧/",
+   "gloss": {
+    "en": [
+     "absolute value"
+    ],
+    "th": "ค่าของจำนวนจริงที่ไม่คำนึงถึงเครื่องหมาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "สัมบูรณ์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "value + absolute",
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + สมบูรณ์ยิ่ง",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "ค่าหัว",
+   "rtgs": "kha-hua",
+   "ipa": "/kʰaː˥˩.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ราคาที่กำหนดไว้เป็นค่าเอาชีวิต",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "หัว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "value + head",
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "ค่าโง่",
+   "rtgs": "kha-ngo",
+   "ipa": "/kʰaː˥˩.ŋoː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ค่าใช้จ่ายหรือสินไหมซึ่งไม่ควรต้องจ่ายแต่ก็ถูกบังคับให้จ่ายไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "โง่"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "value + stupid",
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + เขลา",
+   "frame": "quality"
+  },
+  {
+   "th": "ค่าเทอม",
+   "rtgs": "kha-thoem",
+   "ipa": "/kʰaː˥˩.tʰɤːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ค่าเล่าเรียนที่เก็บในภาคเรียนหนึ่ง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "เทอม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "value + term",
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + ระยะเวลาที่กำหนดไว้เป็นตอน ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "ค่าธรรมเนียม",
+   "rtgs": "kha-tham-niam",
+   "ipa": "/kʰaː˥˩.tʰam˧.nia̯m˧/",
+   "gloss": {
+    "en": [
+     "charge",
+     "due",
+     "fee"
+    ],
+    "th": "เงินหรือประโยชน์อย่างอื่นที่เรียกเก็บตามกฎหมาย เนื่องจากการให้บริการของหน่วยงานของรัฐ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "ธรรมเนียม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "value + institution",
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + ประเพณี",
+   "frame": "entity"
+  },
+  {
+   "th": "ค่าคบ",
+   "rtgs": "kha-khop",
+   "ipa": "/kʰaː˥˩.kʰop̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ง่ามต้นไม้ที่กิ่งใหญ่กับลำต้นแยกกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "คบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + ง่ามต้นไม้ที่กิ่งใหญ่กับลำต้นแยกกั",
+   "frame": "entity"
+  },
+  {
+   "th": "การด้อยค่า",
+   "rtgs": "kan-doi-kha",
+   "ipa": "/kaːn˧.dɔj˥˩.kʰaː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ด้อยค่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การด้อย",
+    "ค่า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ด้อย + มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ",
+   "frame": "entity"
+  },
+  {
+   "th": "ค่าน้ำ",
+   "rtgs": "kha-nam",
+   "ipa": "/kʰaː˥˩.naːm˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เงินที่ไก๊ด์ได้รับจากร้านซึ่งพานักท่องเที่ยวไปซื้อของ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "น้ำ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "value + water",
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+   "frame": "entity"
+  },
+  {
+   "th": "ค่านิยม",
+   "rtgs": "kha-ni-yom",
+   "ipa": "/kʰaː˥˩.ni˦˥.jom˧/",
+   "gloss": {
+    "en": [
+     "value"
+    ],
+    "th": "สิ่งที่บุคคลหรือสังคมยึดถือเป็นเครื่องช่วยตัดสินใจ และกำหนดการกระทำของตนเอง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "นิยม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นิยม"
+   ],
+   "lit": "value + like",
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + การกำหนด",
+   "frame": "entity"
+  },
+  {
+   "th": "ค่าคุ้มครอง",
+   "rtgs": "kha-khum-khrong",
+   "ipa": "/kʰaː˥˩.kʰum˦˥.kʰrɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "protection"
+    ],
+    "th": "เงินที่จ่ายให้คนร้ายหรือผู้มีอิทธิพลเพื่อไม่ให้ขัดขวางการทำกิจการ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "คุ้มครอง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + ป้องกันรักษา"
+  },
+  {
+   "th": "ค่าน้ำนม",
+   "rtgs": "kha-nam-nom",
+   "ipa": "/kʰaː˥˩.nam˦˥.nom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เงินค่าอุปการะเลี้ยงดูที่พ่อแม่หรือผู้ปกครองฝ่ายหญิงได้รับจากฝ่ายชาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "น้ำนม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นม"
+   ],
+   "lit": "value + milk",
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + ของเหลวสีขาวออกมาจากนมคนและสัตว์ ส",
+   "frame": "entity"
+  },
+  {
+   "th": "ค่าที่",
+   "rtgs": "kha-thi",
+   "ipa": "/kʰaː˥˩.tʰiː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เพราะเหตุว่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค่า",
+    "ที่"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "value + at",
+   "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + แหล่ง",
+   "frame": "entity"
+  },
+  {
+   "th": "โนนค่า",
+   "rtgs": "non-kha",
+   "ipa": "/noːn˧.kʰaː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอสูงเนิน จังหวัดนครราชสีมา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โนน",
+    "ค่า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "โนน"
+   ],
+   "lit": "mound + value",
+   "lit_th": "เนิน + มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากจีนยุคกลาง 價 (MC kaeH); ร่วมเชื้อสายกับอีสาน ค่า, ลาว ຄ່າ (ค่า), คำเมือง ᨣ᩵ᩤ (ค่า), เขิน ᨣ᩵ᩤ (ค่า), ไทลื้อ ᦅᦱᧈ (ค่า), ไทดำ ꪁ꪿ꪱ (กฺ่า), ไทขาว ꪁꪱꫀ, ไทใหญ่ ၵႃႈ (ก้า), ไทใต้คง ᥐᥣ (กา), อาหม 𑜀𑜠 (กะ)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨣ᩵ᩤ",
+  "th": "ค่า",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kha-2",
+   "label": "คา",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kha\". ค่า is kâa, คา is kaa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kha-3",
+   "label": "ขา",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kha\". ค่า is kâa, ขา is kǎa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "value"
+ ]
+}

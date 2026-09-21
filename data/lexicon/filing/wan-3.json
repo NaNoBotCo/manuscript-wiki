@@ -1,0 +1,10 @@
+{
+ "head": "wan-3",
+ "rule": "วัน is the day, and sense 1 takes the calendar words — วันที่, วันนี้, วันเกิด, วันเพ็ญ, วันแข็ง, the royal วันประสูติ and วันเฉลิมพระชนมพรรษา, and ตาวัน, the sun as the day's eye. Sense 3 is the daylight stretch and takes เที่ยงวัน; sense 4 is the legally defined working day, so วันหยุด files there as its complement. **Sense 6 is a different word entirely — Sanskrit vana, ป่าไม้ / ดง — and it was empty until ปทุมวัน**, which the dictionary splits as ปทุม + วัน: the lotus forest, now a district of Bangkok. วันชัย and วันยาว are left unfiled — a man's name and a tambon, and this head has no name-use sense for either.",
+ "senses": {
+  "1": ["ตาวัน","วันที่","วันนี้","วันประสูติ","วันเกิด","วันเฉลิมพระชนมพรรษา","วันเพ็ญ","วันแข็ง"],
+  "3": ["เที่ยงวัน"],
+  "4": ["วันหยุด"],
+  "6": ["ปทุมวัน"]
+ }
+}

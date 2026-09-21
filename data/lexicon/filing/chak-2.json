@@ -1,0 +1,12 @@
+{
+ "head": "chak-2",
+ "rule": "ชัก is pulling on a line, and its twelve senses are that pull aimed at different things. Sense 2, plain drawing, takes ชาชัก (pulled tea), สะพานชัก (a drawbridge), คันชัก (the plough's pulling beam) and ชักดาบ (drawing a blade, and refusing to pay). Sense 4 is the pull-out-and-push-back motion and takes ลิ้นชัก, a drawer, which is exactly that and nothing else. Sense 5, นำ, is pulling a PERSON and takes the three persuasion words — ชักชวน, ชักจูง, ชักนำ. Sense 3 is pulling something to oneself and takes ชักเก๊ะ, petty pilfering. Sense 1 keeps ชักใย, working the strings from behind. Sense 12, ค่อนข้าง / เริ่ม, is ชัก as a degree adverb and takes ชักช้า — becoming slow rather than pulling anything.",
+ "senses": {
+  "1": ["ชักใย"],
+  "2": ["คันชัก","ชาชัก","ชักดาบ","สะพานชัก"],
+  "3": ["ชักเก๊ะ"],
+  "4": ["ลิ้นชัก"],
+  "5": ["ชักจูง","ชักชวน","ชักนำ"],
+  "12": ["ชักช้า"]
+ }
+}

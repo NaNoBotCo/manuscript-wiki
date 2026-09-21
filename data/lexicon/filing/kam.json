@@ -1,0 +1,60 @@
+{
+ "head": "kam",
+ "rule": "กรรม is Sanskrit karman, 'the doing', and Thai runs it in two registers that must not be mixed. As the second element of a learned compound it is a noun-former — 'the work, craft or practice of X' — and that is sense 1 (การ, การกระทำ, การงาน, กิจ), which takes the great majority: every trade, science, art and crime named -กรรม, including the Royal Institute's own calques of surgery, agriculture, transaction, discourse, drama and heredity. The moral readings take only the words that actually speak of merit and fault. Sense 2, the core, is action of either colour and takes กรรมบถ, whose gloss names both the kusala and the akusala course. Sense 3 is the deed that bears ill fruit, so it takes what can be accrued and spent. Sense 4 (บาป, เคราะห์) takes กรรม standing in for the misfortune itself. Sense 6 is the grammarians' object and takes grammatical vocabulary only — not กรรมสิทธิ์, which is property law, not syntax. Pulled out 2026-09-18 as spelling-variant, a gloss that reads only รูปสะกดผิดของ X: วีระกรรม. An entry that points at another spelling carries no sense of this head to file it under.",
+ "senses": {
+  "1": [
+   "กรรมการ",
+   "กรรมพันธุ์",
+   "กรรมวิธี",
+   "กรรมศาลา",
+   "กรรมสิทธิ์",
+   "กายกรรม",
+   "กิจกรรม",
+   "คชกรรม",
+   "จารกรรม",
+   "ฆาตกรรม",
+   "ทัณฑกรรม",
+   "ทันตกรรม",
+   "ธุรกรรม",
+   "นวกรรม",
+   "นาฏกรรม",
+   "นิติกรรม",
+   "นิรโทษกรรม",
+   "ประดิษฐกรรม",
+   "ผลิตกรรม",
+   "ผาติกรรม",
+   "พันธุกรรม",
+   "พิธีกรรม",
+   "มหกรรม",
+   "วรรณกรรม",
+   "วาทกรรม",
+   "วีรกรรม",
+   "เกษตรกรรม",
+   "เภสัชกรรม",
+   "เวชกรรม",
+   "ศัลยกรรม",
+   "ศิลปกรรม",
+   "สังฆกรรม",
+   "สูติกรรม",
+   "หัตถกรรม",
+   "โจรกรรม"
+  ],
+  "2": [
+   "กรรมบถ"
+  ],
+  "3": [
+   "กรรมออนไลน์",
+   "สิ้นกรรม",
+   "หมดกรรม"
+  ],
+  "4": [
+   "เดชะกรรม"
+  ],
+  "6": [
+   "กรรมวาจก"
+  ]
+ },
+ "spelling_variants": [
+  "วีระกรรม"
+ ]
+}

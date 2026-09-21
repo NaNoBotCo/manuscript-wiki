@@ -1,0 +1,53 @@
+{
+ "head": "chao",
+ "rule": "เจ้า divides by WHAT follows it. A DOMAIN — a land, a city, a ministry, a harbour, a household, an order of monks — makes its holder the greatest one there, sense 1; so does a bare person-word, because เจ้า in front of a person is a title and nothing else (เจ้าสาว, เจ้าบ่าว, เจ้าพระยา, เจ้าขรัว). Royal BLOOD and the ranks of the royal household are sense 2 and take only those. A DUTY or an instrument rather than a domain makes its holder merely the one who holds it, sense 5 — เจ้าหน้าที่ holds a duty, เจ้าจำนวน the tax rolls, เจ้ามือ the bank at cards. An ABSTRACT QUALITY makes him full of it, sense 6, which is where the RID's ผู้ชำนาญ has to stretch to cover เจ้าอารมณ์ and เจ้าชู้ alongside เจ้าคารม. Where เจ้า comes SECOND it has usually stopped being a noun at all — the honorific appended to a revered term (ปู่เจ้า, 7), the spirit a medium receives (ทรงเจ้า, 8), the pronoun (ออเจ้า, 9) — but not always: วังเจ้า and ข้าวเจ้า still name a lord's palace and the court's rice, and stay at 1.",
+ "senses": {
+  "1": [
+   "เจ้าโลก",
+   "เจ้าแผ่นดิน",
+   "เจ้าชีวิต",
+   "เจ้าเหนือหัว",
+   "เจ้าหัว",
+   "เจ้าเมือง",
+   "เจ้ากระทรวง",
+   "เจ้าคณะ",
+   "เจ้าบ้าน",
+   "เจ้าท่า",
+   "พระเจ้า",
+   "เจ้าพระยา",
+   "เจ้าขรัว",
+   "เจ้าสาว",
+   "เจ้าบ่าว",
+   "วังเจ้า",
+   "ข้าวเจ้า"
+  ],
+  "2": [
+   "เจ้าชาย",
+   "เจ้าหญิง",
+   "พระองค์เจ้า",
+   "เจ้าจอม"
+  ],
+  "5": [
+   "เจ้าหน้าที่",
+   "เจ้าพนักงาน",
+   "เจ้าจำนวน",
+   "เจ้าตัว",
+   "เจ้ามือ"
+  ],
+  "6": [
+   "เจ้าอารมณ์",
+   "เจ้ายศ",
+   "เจ้าคารม",
+   "เจ้าชู้"
+  ],
+  "7": [
+   "ปู่เจ้า"
+  ],
+  "8": [
+   "ทรงเจ้า"
+  ],
+  "9": [
+   "ออเจ้า"
+  ]
+ }
+}

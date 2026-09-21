@@ -1,0 +1,8 @@
+{
+ "head": "san",
+ "rule": "Four of nine are the ridge. Sense 1 takes สันหลัง, the spine, สันดอน, a sandbar, and ล่ำสัน, stocky — all three confirmed by the dictionary as genuine สัน compounds. Sense 2, the blunt back of a blade, takes สันขวาน. Three were never สัน, and one of them names a failure mode not seen before: **สีสัน is สี + (สัน เป็นคำสร้อย)** — a คำสร้อย, a meaningless rhyming filler. กระสัน and สันทัด are left unfiled: neither has a ridge in its meaning, but กระ and ทัด are both real words, so the usual structural test does not apply and I have no source to name.",
+ "senses": {
+  "1": ["ล่ำสัน","สันดอน","สันหลัง"],
+  "2": ["สันขวาน"]
+ }
+}

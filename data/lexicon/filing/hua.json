@@ -1,0 +1,19 @@
+{
+ "head": "hua",
+ "rule": "หัว divides six ways and the biggest group is not the body. FRONT-OR-BEGINNING (9) takes the leader, the heading, the price on a head and the provincial towns — anything at the front of something. THE HEAD ITSELF (1) takes body parts named for it and acts done to it. THE MIND (3) takes cast of thought: หัวร้อน, หัวโบราณ, หัวสูง. A PERSON OF A BENT (4) takes roles: the cook, the banker, the canvasser. TOPMOST (11) and PROTRUDING (12) split the architectural and instrument senses. ESSENCE (16) takes หัวกะทิ, the first press, and หัวใจ, the organ that is the point of the body. ชวนหัว and เล่นหัว belong to sense 17, which is หัวเราะ 'to laugh' — a separate lexeme that merely begins with หัว, and they go there rather than anywhere in the head family.",
+ "senses": {
+  "1": ["กดหัว", "เด็ดหัว", "ไสหัว", "เวียนหัว", "หายหัว", "ดูกหัว", "กะลาหัว",
+        "ทูนหัว", "สุมหัว", "หัวไหล่", "หัวเข่า", "หัวนม", "หัวอก"],
+  "2": ["ขนหัว"],
+  "3": ["หัวสูง", "หัวโบราณ", "หัวร้อน", "ฝังหัว", "รวมหัว"],
+  "4": ["หัวป่า", "หัวเบี้ย", "หัวคะแนน", "หัวแรง"],
+  "6": ["หัวมัน", "หัวปลี"],
+  "9": ["หัวหน้า", "หัวน่า", "เจ้าหัว", "เหนือหัว", "เห็นหัว", "หมายหัว", "ค่าหัว",
+        "หัวเมือง", "หัวข้อ", "หัวเกษียน", "หัวนอน"],
+  "10": ["หัวงาน"],
+  "11": ["หัวเทียน", "หัวเม็ด"],
+  "12": ["หัวหน่าว", "หัวเหน่า", "หัวแร้ง"],
+  "16": ["หัวกะทิ", "หัวใจ"],
+  "17": ["ชวนหัว", "เล่นหัว"]
+ }
+}

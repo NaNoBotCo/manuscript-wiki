@@ -1,0 +1,723 @@
+{
+ "id": "w:rong-2",
+ "th": "ร้อง",
+ "status": "mapped",
+ "rtgs": "rong",
+ "paiboon": "rɔ́ɔng",
+ "ipa": "/rɔːŋ˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "เปล่งเสียงดัง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ออกเสียงดังเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ฟ้าร้อง",
+     "rtgs": "fa-rong",
+     "ipa": "/faː˦˥.rɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "lighting",
+       "thunder"
+      ],
+      "th": "(เสียง~) เสียงที่เกิดขึ้นเนื่องจากอากาศขยายตัวเคลื่อนที่อย่างรวดเร็วเพราะความร้อนที่เกิดจากฟ้าแลบ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ฟ้า",
+      "ร้อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "sky + sing"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The loud sound names the making of it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ใช้หมายความว่า ร้องเพลง ร้องไห้ ก็มี แล้วแต่คำแวดล้อมบ่งให้รู้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ร้องไห้",
+     "rtgs": "rong-hai",
+     "ipa": "/rɔːŋ˦˥.haːj˥˩/",
+     "gloss": {
+      "en": [
+       "cry",
+       "break down"
+      ],
+      "th": "อาการที่น้ำตาไหลเพราะประสบอารมณ์อันแรงกล้า เช่น เจ็บปวด เศร้าโศก ดีใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ร้อง",
+      "ไห้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ใช้หมายความว่า ร้องเพลง ร้องไห้ ก็ + ร้องไห้"
+    },
+    {
+     "th": "ขับร้อง",
+     "rtgs": "khap-rong",
+     "ipa": "/kʰap̚˨˩.rɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ร้องเพลง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขับ",
+      "ร้อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.14, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ต้อนให้ไป + ใช้หมายความว่า ร้องเพลง ร้องไห้ ก็"
+    },
+    {
+     "th": "ร้องเพลง",
+     "rtgs": "rong-phleng",
+     "ipa": "/rɔːŋ˦˥.pʰleːŋ˧/",
+     "gloss": {
+      "en": [
+       "sing"
+      ],
+      "th": "ขับลำเป็นทำนองต่าง ๆ, บางทีก็ใช้ว่า ร้อง คำเดียว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ร้อง",
+      "เพลง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "sing + song",
+     "lit_th": "ใช้หมายความว่า ร้องเพลง ร้องไห้ ก็ + สำเนียงขับร้อง"
+    },
+    {
+     "th": "นักร้อง",
+     "rtgs": "nak-rong",
+     "ipa": "/nak̚˦˥.rɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "singer",
+       "artist"
+      ],
+      "th": "ผู้ที่ร้องเพลงเป็นอาชีพ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นัก",
+      "ร้อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.16, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ใช้ประกอบหน้าคำอื่นหมายความว่า ผู้ + ใช้หมายความว่า ร้องเพลง ร้องไห้ ก็"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And with the right context, singing or weeping.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1 manuscript titles, 2 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits ['ร้อง', 'เสียง', 'คำ'].",
+ "compounds_unassigned": [
+  {
+   "th": "จรเข้ร้อง",
+   "rtgs": "cho-ra-khe-rong",
+   "ipa": "/t͡ɕɔː˧.ra˦˥.kʰeː˥˩.rɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอไชโย จังหวัดอ่างทอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จรเข้",
+    "ร้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "รูปเลิกใช้ของ จระเข้ + เปล่งเสียงดัง"
+  },
+  {
+   "th": "ร้องกวาง",
+   "rtgs": "rong-kwang",
+   "ipa": "/rɔːŋ˦˥.kwaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดแพร่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ร้อง",
+    "กวาง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "sing + deer",
+   "lit_th": "เปล่งเสียงดัง + ชื่อสัตว์เคี้ยวเอื้องชนิดหนึ่ง"
+  },
+  {
+   "th": "การขับร้อง",
+   "rtgs": "kan-khap-rong",
+   "ipa": "/kaːn˧.kʰap̚˨˩.rɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขับร้อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขับ",
+    "ร้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขับ + เปล่งเสียงดัง"
+  },
+  {
+   "th": "เนื้อร้อง",
+   "rtgs": "nuea-rong",
+   "ipa": "/nɯa̯˦˥.rɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "words"
+    ],
+    "th": "คำที่แต่งขึ้นเพื่อขับร้อง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "ร้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "เนื้อ"
+   ],
+   "lit": "flesh + sing",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + เปล่งเสียงดัง"
+  },
+  {
+   "th": "การเรียกร้อง",
+   "rtgs": "kan-riak-rong",
+   "ipa": "/kaːn˧.ria̯k̚˥˩.rɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "appeal",
+     "claim"
+    ],
+    "th": "คำอาการนามของ เรียกร้อง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การเรียก",
+    "ร้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เรียก + เปล่งเสียงดัง"
+  },
+  {
+   "th": "ฟ้องร้อง",
+   "rtgs": "fong-rong",
+   "ipa": "/fɔːŋ˦˥.rɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "inform"
+    ],
+    "th": "กล่าวโทษ, กล่าวหา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ฟ้อง",
+    "ร้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "กล่าวหาหรือกล่าวโทษต่อผู้ใหญ่หรือต + เปล่งเสียงดัง"
+  },
+  {
+   "th": "การฟ้องร้อง",
+   "rtgs": "kan-fong-rong",
+   "ipa": "/kaːn˧.fɔːŋ˦˥.rɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ฟ้องร้อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การฟ้อง",
+    "ร้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ฟ้อง + เปล่งเสียงดัง"
+  },
+  {
+   "th": "ร้องทุกข์",
+   "rtgs": "rong-thuk",
+   "ipa": "/rɔːŋ˦˥.tʰuk̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บอกความทุกข์เพื่อขอให้ช่วยเหลือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ร้อง",
+    "ทุกข์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ทุกข์"
+   ],
+   "lit": "sing + suffering",
+   "lit_th": "เปล่งเสียงดัง + ความยากลำบาก"
+  },
+  {
+   "th": "ขอร้อง",
+   "rtgs": "kho-rong",
+   "ipa": "/kʰɔː˩˩˦.rɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "appeal",
+     "demand",
+     "request"
+    ],
+    "th": "ขอให้ช่วยเหลือ, ขอให้ทำตามที่ขอ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขอ",
+    "ร้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ขอ"
+   ],
+   "lit": "ask + sing",
+   "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + เปล่งเสียงดัง",
+   "flips_with": "ร้องขอ"
+  },
+  {
+   "th": "ร้องขอ",
+   "rtgs": "rong-kho",
+   "ipa": "/rɔːŋ˦˥.kʰɔː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขอเป็นทางการ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ร้อง",
+    "ขอ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ขอ"
+   ],
+   "lit": "sing + ask",
+   "lit_th": "เปล่งเสียงดัง + ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่",
+   "flips_with": "ขอร้อง"
+  },
+  {
+   "th": "การร้อง",
+   "rtgs": "kan-rong",
+   "ipa": "/kaːn˧.rɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ร้อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ร้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + เปล่งเสียงดัง"
+  },
+  {
+   "th": "ร้องเรียน",
+   "rtgs": "rong-rian",
+   "ipa": "/rɔːŋ˦˥.ria̯n˧/",
+   "gloss": {
+    "en": [
+     "appeal"
+    ],
+    "th": "เสนอเรื่องราว ซึ่งโดยมากเป็นการร้องทุกข์หรือการแสดงความข้องใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ร้อง",
+    "เรียน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "เรียน"
+   ],
+   "lit": "sing + learn",
+   "lit_th": "เปล่งเสียงดัง + เข้ารับความรู้จากผู้สอน"
+  },
+  {
+   "th": "เรียกร้อง",
+   "rtgs": "riak-rong",
+   "ipa": "/ria̯k̚˥˩.rɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "demand",
+     "insist",
+     "claim"
+    ],
+    "th": "ร้องขอแกมบังคับให้ทำหรือให้งดการกระทำ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เรียก",
+    "ร้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "call + sing",
+   "lit_th": "เปล่งเสียงเพื่อให้มาหรือให้ไปเป็นต + เปล่งเสียงดัง"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *rɔːŋꟲ⁴; ร่วมเชื้อสายกับอีสาน ฮ้อง, ลาว ຮ້ອງ (ฮ้อง), คำเมือง ᩁᩬ᩶ᨦ (รอ้ง), เขิน ᩁᩬ᩶ᨦ (รอ้ง), ไทลื้อ ᦣᦸᧂᧉ (ฮ้อ̂ง), ไทดำ ꪭ꫁ꪮꪉ (ฮ้อง), ไทใหญ่ ႁွင်ႉ (ห๎อ̂ง), ไทใต้คง ᥞᥩᥒᥳ (ห๎อ̂ง), คำตี้ ꩭွင︀်ႇ, พ่าเก ꩭွင︀် (หอ̂ง์), อาหม 𑜍𑜨𑜂𑜫 (รอ̂ง์), จ้วง rongx",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩁᩬ᩶ᨦ",
+  "th": "รอ้ง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:rong",
+   "label": "โรง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"rong\". ร้อง is rɔ́ɔng, โรง is roong — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:rong-3",
+   "label": "รอง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"rong\". ร้อง is rɔ́ɔng, รอง is rɔɔng — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "sing",
+  "chirp",
+  "moan"
+ ]
+}

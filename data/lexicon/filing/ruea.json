@@ -1,0 +1,8 @@
+{
+ "head": "ruea",
+ "rule": "เรือ is almost undivided: sense 1, the vessel, takes everything that is a boat, part of a boat, done to a boat, or named after one. That last group is the only interesting call — เรือบิน and เรือเหาะ are aircraft, but Thai named them as boats of the air and the metaphor is still live, so they file with the vessel rather than anywhere else. Sense 4 is already the NAVAL sense in practice: its occupants ทหารเรือ and จอมพลเรือ are a sailor and an admiral, not ranks in the abstract, so the service words join them — กองทัพเรือ, ทัพเรือ, and ต้นเรือ, the ship's second-in-command. Everyone else who works a boat (ลูกเรือ, นายเรือ) stays in sense 1, because a crew is of the boat and not of the navy.",
+ "senses": {
+  "1": ["จะปิ้งเรือ","ทรงเรือ","ท่าเรือ","นายเรือ","ลูกเรือ","เดินเรือ","เรือขุด","เรือชำ","เรือต่อ","เรือบิน","เรือประมง","เรือยาว","เรือรบ","เรือเครื่องต้น","เรือเหาะ","เรือโดยสาร"],
+  "4": ["กองทัพเรือ","ต้นเรือ","ทัพเรือ"]
+ }
+}

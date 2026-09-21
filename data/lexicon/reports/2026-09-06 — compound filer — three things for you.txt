@@ -1,0 +1,150 @@
+COMPOUND FILER — 6 September 2026
+Three things need you. Everything else is done and logged.
+
+
+WHAT GOT DONE TONIGHT
+
+Three heads read and filed: เห, กำ, กล.
+15 compounds filed. 40 tagged as not-compounds-at-all.
+
+That ratio is the run. Two of the three heads had essentially nothing to file,
+because most of what was queued under them was never a compound in the first
+place.
+
+  เห    2 filed, 16 false        เหลา เหงา เหล้า and thirteen more are single
+                                 syllables that merely START with the letters
+                                 เห. The ห is a silent tone marker, not the
+                                 word. The corpus proved it against itself:
+                                 all sixteen have one syllable and no /h/.
+
+  กำ    0 filed, 18 false        Every one is a Khmer loan or an alteration of
+                                 some other word. กำจัด is from ขจัด, กำราบ
+                                 from กราบ, กำยาน from Malay. One (กำปัง) is
+                                 a tambon in Nakhon Ratchasima.
+
+  กล    13 filed, 6 false        Real work here. Nine went to "trick" and four
+                                 to the machine sense — ปืนกล, สมองกล and the
+                                 like. The six false ones are คลัสเตอร์ splits:
+                                 กลอน กลอย กลอก กลวง are single syllables.
+
+
+1. 637 COMPOUNDS ARE FILED BY A METHOD THE BRIEF SAYS TO NEVER USE
+
+This is the one that matters.
+
+I found กลอง — a drum — filed under กล's "machinery" sense. Its note says how
+it got there:
+
+    filed under sense 3: gloss similarity 0.11, next 0.00
+
+Gloss similarity is the tier the whole brief exists to reject. It is supposed
+to be switched off. It is not off in the data. Counting across every entry:
+
+    filed by hand      2536
+    other              1609
+    BY SIMILARITY       637     <-- across 208 heads, live on the site
+    by a source          334
+
+The thinnest are coin flips — เข้าใจ 0.12 against 0.04, เครื่องราง 0.12 against
+0.04, กลอง 0.11 against 0.00.
+
+I fixed กลอง because it was on a head I was working. I did not touch the other
+636.
+
+  YOUR CALL: move all 637 back into the queue to be read properly?
+
+  Cost:     about four months of nightly runs at the current rate.
+            The filed count drops from 5,226 to roughly 4,589 — the site
+            would visibly know less for a while.
+  If not:   12% of the filed corpus keeps resting on a method the front page
+            of my own brief calls anti-correlated with the answer.
+
+  No expiry on this one. It is not getting worse; it is just wrong.
+
+One thing I want to be straight about: I could NOT re-derive the brief's
+"9% versus 91%" number from this data, and I did not try to dress up something
+else as it. That measurement compares where a source filed a word against where
+similarity would have put THAT SAME word. All I can count here is a different
+statistic. The 637 and their provenance stand on their own; the percentage does
+not come from me.
+
+
+2. THE BUILD — I RAN IT OFF TO ONE SIDE. AND YOUR PUBLISH LOOKS STUCK.
+
+A publish was live while I worked (publish_site.sh from 10:48, build_static.py
+writing into the docs folder from 10:49). So instead of writing into that
+folder, I built to a scratch copy and checked the result there. Clean — and
+tonight's changes are all present in the built pages. I looked rather than
+assumed.
+
+What I could NOT do is the full-site verify, because a scratch copy only holds
+the dictionary pages. That check still needs to run against the real tree once
+your publish is done.
+
+  The data is correct and validated. Nothing was deployed by me.
+
+FIRST, THOUGH — YOUR PUBLISH HAS BEEN RUNNING FIVE HOURS.
+
+It started at 10:48 and is still going. On the two previous nights the same job
+took 17 minutes and 45 minutes. It is not dead — I checked twice and it is
+inching along — but it is idle about 97% of the time, so it is stuck waiting on
+something rather than working.
+
+It is not my process to kill. But it is worth your look before anything else,
+and it is the reason the full verify has not run.
+
+And here is the part that changes my ask below. The build tool says this about
+itself:
+
+    build_static.py wipes docs/ at the start, so two concurrent
+    runs destroy each other.
+
+So this was never just "my output gets committed without review." A write into
+that folder during a publish is racing a folder that got deleted underneath it.
+
+  YOUR CALL: give this task a --no-docs mode.
+
+  It has no reason to write into the site folder at all. It changes the data;
+  rebuilding the site is the publish's job. This is the third night I have
+  asked, and tonight I found the mechanism above — two builds delete each
+  other's work. A small change, and it makes the collision impossible rather
+  than merely unlikely.
+
+
+3. FORTY-TWO MORE SPLITS THAT LOOK WRONG, NOT TOUCHED
+
+I found a mechanical test for one whole class of this error: if a word's
+pronunciation has fewer syllables than the pieces it was split into, the split
+is suspect.
+
+It finds 45. Six are already filed and published. แห is the worst head with 10
+(แหวน แหลม แหนบ and friends — same story as เห). Then แก with 7, and อด, กล,
+ละ, พล, อง, โค.
+
+I fixed only the one on tonight's head. Mass-tagging the rest on a heuristic is
+exactly the automation this job refuses — they need reading, one head at a time,
+and they will come up in the queue.
+
+Two of the 45 are a DIFFERENT bug and must not be tagged: แบกรับ and พุทธศิลป์
+are real compounds whose pronunciation field lost a syllable. Also เกียจกล has
+no pronunciation recorded at all.
+
+
+ALSO WORTH KNOWING — THE BRIEF'S BORROWING TEST HAS HOLES
+
+It says a borrowed word's etymology opens with ยืมมาจาก. Tonight's forty false
+splits mostly do NOT. Two more markers earn a place:
+
+  แผลงมาจาก X    "altered from X" — the whole word is a transformation of one
+                 other word. Caught five on กำ by itself.
+
+  Read the BASE word, not just the compound. กำสรวล has no etymology of its
+  own. Its base สรวล does, and it ends by naming the exact Khmer form that
+  กำสรวล is. One lookup away, and invisible if you only check the compound.
+
+
+WHERE THE QUEUE STANDS
+
+    filed 5,226 · unfiled 1,403 across 169 heads · 132 filing tables
+
+Full detail, including the calls I was unsure about, is in the filing log.

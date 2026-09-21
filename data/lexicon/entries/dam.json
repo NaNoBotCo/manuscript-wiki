@@ -1,0 +1,985 @@
+{
+ "id": "w:dam",
+ "th": "ดำ",
+ "status": "mapped",
+ "rtgs": "dam",
+ "paiboon": "dam",
+ "ipa": "/dam˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "มุดลง ในคำว่า ดำน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ดำ 'to dive'.",
+    "Declared root: ดำ 'to dive'.",
+    "Declared root: ดำ 'to dive'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ปลูกข้าวกล้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ดำ 'to transplant rice seedlings'.",
+    "Declared root: ดำ 'to transplant rice seedlings'.",
+    "Declared root: ดำ 'to transplant rice seedlings'."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เรียกนาชนิดหนึ่งซึ่งใช้ถอนต้นกล้ามาปลูกว่า นาดำ, คู่กับ นาหว่านซึ่งใช้หว่านเมล็ดข้าวลงในนา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ปักดำ",
+     "rtgs": "pak-dam",
+     "ipa": "/pak̚˨˩.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถอนต้นกล้ามาปลูกในนาดำ โดยปัก ลงไปให้รากจมดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปัก",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.26, next 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "pin + black",
+     "lit_th": "ตั้งฝังลง + เรียกนาชนิดหนึ่งซึ่งใช้ถอนต้นกล้าม"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "นาดำ, the transplanted paddy, against นาหว่าน.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "สีอย่างสีมินหม้อ, ใช้ประกอบสิ่งต่าง ๆ บางอย่างโดยอนุโลมตามลักษณะ สี เป็นชื่อเรียกเฉพาะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ดำ 'black'.",
+    "Declared root: ดำ 'black'.",
+    "Declared root: ดำ 'black'."
+   ],
+   "compounds": [
+    {
+     "th": "หูดำ",
+     "rtgs": "hu-dam",
+     "ipa": "/huː˩˩˦.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เจ้าชู้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หู",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "หู"
+     ],
+     "lit": "ear + black",
+     "lit_th": "ส่วนหนึ่งของร่างกายคนและสัตว์ ทำหน + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "ขาวดำ",
+     "rtgs": "khao-dam",
+     "ipa": "/kʰaːw˩˩˦.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ไม่มีสีอื่นนอกจากสีขาว สีดำ และ/หรือสีเทาเฉดต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาว",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ขาว"
+     ],
+     "lit": "white + black",
+     "lit_th": "สีชนิดหนึ่งเหมือนสำลี + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "หมีดำ",
+     "translit_auto": "hmidam",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมชนิด Ursus americanus ในวงศ์ Ursidae (หมี) เป็นสัตว์กินเนื้อ ออกลูกเป็นตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมี",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "bear + black",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Urs + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "หลุมดำ",
+     "rtgs": "lum-dam",
+     "ipa": "/lum˩˩˦.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เทหวัตถุในเอกภพที่มีแรงโน้มถ่วงสูงมาก ไม่มีอะไรออกจากบริเวณนี้ได้แม้แต่แสง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลุม",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "lacuna + black",
+     "lit_th": "ที่ซึ่งมีลักษณะเป็นบ่อ มักมีขนาดเล + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "ใจดำ",
+     "rtgs": "chai-dam",
+     "ipa": "/t͡ɕaj˧.dam˧/",
+     "gloss": {
+      "en": [
+       "cruel"
+      ],
+      "th": "เห็นแก่ตัว, ไม่เอื้อเฟื้อใคร, ขาดกรุณา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + black",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "ยาดำ",
+     "rtgs": "ya-dam",
+     "ipa": "/jaː˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผลิตภัณฑ์ที่เตรียมจากน้ำยางซึ่งได้จากการกรีดโคนใบตามขวางของพืชหลายชนิดในสกุล Aloe วงศ์ Asphodelaceae นำไปเคี่ยวให้งวดแล้วทิ้งไว้ให้แข็งตัวเป็นก้อน มีสีน้ำตาลเข้ม กลิ่นไม่ชวนดม รสขม ใช้เป็นยาได้ ส่วนมากได้จากชนิด A. vera ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยา",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "medicine + black",
+     "lit_th": "สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "กระดานดำ",
+     "rtgs": "kra-dan-dam",
+     "ipa": "/kra˨˩.daːn˧.dam˧/",
+     "gloss": {
+      "en": [
+       "blackboard"
+      ],
+      "th": "กระดานใหญ่ทาสีดำหรือสีเขียว ใช้ชอล์กเขียน ใช้เป็นอุปกรณ์การสอน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กระดาน",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "board + black",
+     "lit_th": "ไม้ซุงที่เลื่อยออกมาเป็นแผ่น ๆ + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "ใบดำ",
+     "rtgs": "bai-dam",
+     "ipa": "/baj˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใบแจ้งกำหนดการฌาปนกิจศพซึ่งล้อมกรอบด้วยสีดำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใบ",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ใบ"
+     ],
+     "lit": "leaf + black",
+     "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "บัญชีดำ",
+     "rtgs": "ban-chi-dam",
+     "ipa": "/ban˧.t͡ɕʰiː˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รายชื่อบุคคลที่ไม่ต้องการติดต่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัญชี",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "list + black",
+     "lit_th": "สมุดหรือกระดาษสำหรับจดรายการต่าง ๆ + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "ตะกั่วดำ",
+     "rtgs": "ta-kua-dam",
+     "ipa": "/ta˨˩.kua̯˨˩.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดีบุก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตะกั่ว",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "lead + black",
+     "lit_th": "แร่จำพวกโลหะ มีลักษณะอ่อน ละลายตัว + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "ตาดำ",
+     "rtgs": "ta-dam",
+     "ipa": "/taː˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของดวงตาที่ไม่ใช่ตาขาว มีสีดำหรือสีเข้ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "eye + black",
+     "lit_th": "พ่อของแม่ + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "ดินดำ",
+     "rtgs": "din-dam",
+     "ipa": "/din˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผงถ่านประสมกำมะถันกับดินประสิวเป็นต้น ใช้เป็นวัตถุระเบิด, ดินปืน ก็เรียก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดิน",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "soil + black",
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "ถั่วดำ",
+     "rtgs": "thua-dam",
+     "ipa": "/tʰua̯˨˩.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมล็ดแก่ของถั่วฝักยาวชนิดที่เมล็ดสีดำ [ Vigna unguiculata (L.) Walp. subsp. cylindrica (L.) Verdc.] ในวงศ์ Leguminosae",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถั่ว",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "bean + black",
+     "lit_th": "ชื่อไม้เถาหลายชนิดหลายสกุลในวงศ์ L + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "คดีดำ",
+     "rtgs": "kha-di-dam",
+     "ipa": "/kʰa˦˥.diː˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คดีหมายเลขดำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คดี",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "case + black",
+     "lit_th": "ทาง + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "มนตร์ดำ",
+     "rtgs": "mon-dam",
+     "ipa": "/mon˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไสยศาสตร์หรือคุณไสยในทางชั่วร้าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มนตร์",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "คำเสกเป่าที่ถือว่าศักดิ์สิทธิ์ + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "ตัวดำ",
+     "rtgs": "tua-dam",
+     "ipa": "/tua̯˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โน้ตดนตรีรูปดังนี้ 𝅘𝅥 มีความยาว 1 เคาะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "form + black",
+     "lit_th": "รูป + สีอย่างสีมินหม้อ"
+    },
+    {
+     "th": "แกะดำ",
+     "rtgs": "kae-dam",
+     "ipa": "/kɛʔ˨˩.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่ทำอะไรผิดเพื่อนผิดฝูงในกลุ่มนั้น ๆ (ใช้ในทางไม่ดี)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แกะ",
+      "ดำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "sheep + black",
+     "lit_th": "ชื่อสัตว์เคี้ยวเอื้องในสกุล Ovis ว + สีอย่างสีมินหม้อ"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 7 manuscript titles, 491 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 26; domain seeded by keyword hits ['ลูก', 'ย่า', 'ตา'].",
+ "compounds_unassigned": [
+  {
+   "th": "การดำ",
+   "rtgs": "kan-dam",
+   "ipa": "/kaːn˧.dam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ดำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ดำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + มุดลง ในคำว่า ดำน้ำ"
+  },
+  {
+   "th": "ดำรัส",
+   "rtgs": "dam-rat",
+   "ipa": "/dam˧.rat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พูด (ใช้แก่เจ้านาย)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดำ",
+    "รัส"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "มุดลง ในคำว่า ดำน้ำ + สั้น",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "แกดำ",
+   "rtgs": "kae-dam",
+   "ipa": "/kɛː˧.dam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดมหาสารคาม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "ดำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แก"
+   ],
+   "lit": "house crow + black",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + มุดลง ในคำว่า ดำน้ำ"
+  },
+  {
+   "th": "ดำรี",
+   "rtgs": "dam-ri",
+   "ipa": "/dam˧.riː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ช้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดำ",
+    "รี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "รี"
+   ],
+   "lit": "black + oval",
+   "lit_th": "มุดลง ในคำว่า ดำน้ำ + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "ความดำ",
+   "rtgs": "khwam-dam",
+   "ipa": "/kʰwaːm˧.dam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ดำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "ดำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "-ness + black",
+   "lit_th": "เรื่อง + มุดลง ในคำว่า ดำน้ำ"
+  },
+  {
+   "th": "ดำริ",
+   "rtgs": "dam-ri",
+   "ipa": "/dam˧.riʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คิด, ไตร่ตรอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดำ",
+    "ริ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives แผลงมาจาก ตริ; จากเขมร — an infixed form of ตริ 'to think'. The ดำ- is the Khmer nominalising infix, not ดำ 'black' or ดำ 'to dive', and the -ริ is the tail of that stem, not ริ.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "มุดลง ในคำว่า ดำน้ำ + เริ่มคิดหรือทำแปลกจากปรกติ",
+   "use": "false-split"
+  },
+  {
+   "th": "ดำเนิน",
+   "rtgs": "dam-noen",
+   "ipa": "/dam˧.nɤːn˧/",
+   "gloss": {
+    "en": [
+     "lead",
+     "proceed"
+    ],
+    "th": "เดิน, ราชาศัพท์ใช้ว่า ทรงพระดำเนิน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ดำ",
+    "เนิน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives แผลงมาจาก เดิน; จากเขมร ដំណើរ (ฎํเณิร), itself an infixed form of ដើរ (เฎิร) 'to walk'. The ดำ- is Khmer's infix and -เนิน is the middle of that stem, not เนิน 'hillock'.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "black + border",
+   "lit_th": "มุดลง ในคำว่า ดำน้ำ + โคกขนาดใหญ่ที่ค่อยลาดสูงขึ้นจากระด",
+   "use": "false-split"
+  },
+  {
+   "th": "ดำรู",
+   "rtgs": "dam-ru",
+   "ipa": "/dam˧.ruː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "งาม, น่ารัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดำ",
+    "รู"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives แผลงมาจาก ตรู — an altered form of ตรู 'lovely', on the same infixing pattern. Not ดำ plus รู 'hole'.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "black + hole",
+   "lit_th": "มุดลง ในคำว่า ดำน้ำ + ช่อง",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ɗamᴬ; ร่วมเชื้อสายกับไทใหญ่ လမ် (ลัม), จ้วง ndaem, จ้วงแบบจั่วเจียง ndaem สืบทอดจากไทดั้งเดิม *t.namᴬ; เทียบเขมร ដាំ (ฎาํ, “ปลูก”), ออสโตรนีเซียนดั้งเดิม *taɬem (“ปลูกถ่าย”), จ้วง ndaem, จ้วงแบบจั่วเจียง ndaem สืบทอดจากไทดั้งเดิม *C̥.damᴬ; ร่วมเชื้อสายกับลาว ດຳ (ดำ), คำเมือง ᨯᩣᩴ (ดาํ), เขิน ᨯᩣᩴ (ดาํ), ไทลื้อ ᦡᧄ (ดัม), ไทดำ ꪒꪾ (ดำ), ไทใหญ่ လမ် (ลัม), อาหม 𑜃𑜪 (นํ) หรือ 𑜓𑜪 (ดํ), จ้วง ndaem; เทียบเบดั้งเดิม *zamᴬ¹, ไหลดั้งเดิม *ɗəmʔ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨯᩣᩴ",
+  "th": "ดาํ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "black"
+ ]
+}

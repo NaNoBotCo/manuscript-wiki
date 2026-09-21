@@ -191,3 +191,11 @@ digitisation project.
   tradition rather than a frozen one. [Browse it](/browse?genre=tamnan_chronicle),
   then read it against the [atlas](/atlas) — every muang on this shelf is a place
   on that map.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **The heavyweights: the longest manuscripts** — The twelve longest texts by leaf count, led by one running to 1,046 leaves. [see the finding →](/findings#scaleepic-length)
+<!-- derived:end -->

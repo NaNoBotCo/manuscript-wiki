@@ -1,0 +1,36 @@
+{
+ "head": "sen",
+ "rule": "เส้น's seven senses ask what KIND of line, and two of the sense glosses name their own members, which settles most of it. Sense 1 is the physical strand of unlimited length, and that is where every noodle, fibre and shred of tobacco goes, along with hair. Sense 2's gloss is a list of three compounds — เส้นเลือด, เส้นเอ็น, เส้นประสาท — so it holds the body's vessels and nerves and only those. Sense 3 is the line MARKED on a surface: a drawing, a finish line, a deadline. Sense 5 is the line with length and no width, which takes plane geometry and the imaginary grid on the globe alike. Sense 6's gloss is lifted almost verbatim from เส้นสาย's second gloss, so that word files there rather than under the anatomy it also means. Sense 7 is the naming use, for a thing that merely runs as a line.",
+ "senses": {
+  "1": [
+   "เส้นพระเจ้า",
+   "วุ้นเส้น",
+   "ยาเส้น",
+   "เส้นหมี่",
+   "เส้นเล็ก",
+   "เส้นจันท์",
+   "เส้นใย",
+   "กินเส้น"
+  ],
+  "2": [
+   "เส้นตื้น"
+  ],
+  "3": [
+   "ลายเส้น",
+   "เส้นชัย",
+   "เส้นตาย"
+  ],
+  "5": [
+   "เส้นแวง",
+   "เส้นรุ้ง",
+   "เส้นโค้ง",
+   "เส้นตรง"
+  ],
+  "6": [
+   "เส้นสาย"
+  ],
+  "7": [
+   "เส้นทาง"
+  ]
+ }
+}

@@ -1,0 +1,1172 @@
+{
+ "id": "w:chang",
+ "th": "ช้าง",
+ "status": "mapped",
+ "rtgs": "chang",
+ "paiboon": "cháang",
+ "ipa": "/t͡ɕʰaːŋ˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์บกที่ใหญ่ที่สุด ในวงศ์ Elephantidae ผิวหนังหนา สีดำหรือดำอมเทา รับสัมผัสได้ไว ขนสีดำ จมูกยื่นยาวเรียกว่า งวง ปลายงวงมีจะงอยสำหรับจับสิ่งของ ขมับทั้ง 2 ข้างมีรูเปิดของต่อมน้ำมัน จะมีน้ำมันไหลออกมาเมื่อถึงวัย ขาใหญ่เป็นลำ กินพืช มี 2 ชนิด คือ ช้างเอเชียและช้างแอฟริกา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ช้าง 'elephant'.",
+    "Declared root: ช้าง 'elephant'.",
+    "Declared root: ช้าง 'elephant'.",
+    "Declared root: ช้าง 'elephant'."
+   ],
+   "compounds": [
+    {
+     "th": "บ้านช้าง",
+     "rtgs": "ban-chang",
+     "ipa": "/baːn˥˩.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนัสนิคม จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + elephant",
+     "lit_th": "ที่อยู่อาศัย + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ช้างน้ำ",
+     "rtgs": "chang-nam",
+     "ipa": "/t͡ɕʰaːŋ˦˥.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัตว์ในนิยาย มีรูปร่างเหมือนช้าง มีงวงและงาคล้ายช้าง หางเป็นปลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "น้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "elephant + water",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ช้างม่อย",
+     "rtgs": "chang-moi",
+     "ipa": "/t͡ɕʰaːŋ˦˥.mɔj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "ม่อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + เคลิ้มหลับไปชั่วครู่"
+    },
+    {
+     "th": "ทับช้าง",
+     "rtgs": "thap-chang",
+     "ipa": "/tʰap̚˦˥.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสอยดาว จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทับ",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทับ"
+     ],
+     "lit": "hut + elephant",
+     "lit_th": "กระท่อมหรือสิ่งปลูกสร้างที่ทำอยู่ช + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "กกช้าง",
+     "rtgs": "kok-chang",
+     "ipa": "/kok̚˨˩.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้ล้มลุกชนิด Typha angustifolia L. ในวงศ์ Typhaceae ขึ้นในน้ำ ช่อดอกคล้ายธูปขนาดใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กก",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กก"
+     ],
+     "lit": "the -k final spelling class + elephant",
+     "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ก ข ค ฆ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ช้างคลาน",
+     "rtgs": "chang-khlan",
+     "ipa": "/t͡ɕʰaːŋ˦˥.kʰlaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "คลาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ไปด้วยมือและเข่าอย่างเด็ก"
+    },
+    {
+     "th": "โรงช้าง",
+     "rtgs": "rong-chang",
+     "ipa": "/roːŋ˧.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอป่าแดด จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โรง"
+     ],
+     "lit": "shed + elephant",
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ช้างข้าม",
+     "rtgs": "chang-kham",
+     "ipa": "/t͡ɕʰaːŋ˦˥.kʰaːm˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนายายอาม จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "ข้าม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "elephant + across",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ยกเท้าย่างผ่านเหนือสิ่งใดสิ่งหนึ่ง"
+    },
+    {
+     "th": "ท่าช้าง",
+     "rtgs": "tha-chang",
+     "ipa": "/tʰaː˥˩.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสิงห์บุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + elephant",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ช้างกลาง",
+     "rtgs": "chang-klang",
+     "ipa": "/t͡ɕʰaːŋ˦˥.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "elephant + middle",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุ่งช้าง",
+     "rtgs": "thung-chang",
+     "ipa": "/tʰuŋ˥˩.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดน่าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + elephant",
+     "lit_th": "ที่ราบโล่ง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "เท้าช้าง",
+     "rtgs": "thao-chang",
+     "ipa": "/tʰaːw˦˥.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อโรคชนิดหนึ่ง ทำให้อวัยวะส่วนใดส่วนหนึ่งมีหนังหนา หยาบ คล้ายหนังช้าง และมีขนาดโตขึ้น มักเป็นที่เท้าหรือขา สาเหตุเนื่องจากพยาธิตัวกลมฟิลาเรีย (filaria) ซึ่งมีหลายชนิด ทำให้ท่อทางเดินน้ำเหลืองของอวัยวะนั้น ๆ อุดตัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เท้า",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.13, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "foot + elephant",
+     "lit_th": "ตีน + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ด่านช้าง",
+     "rtgs": "dan-chang",
+     "ipa": "/daːn˨˩.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุพรรณบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ด่าน",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ที่สำหรับกัก ตรวจ คอยระวังเหตุ และ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนช้าง",
+     "rtgs": "don-chang",
+     "ipa": "/dɔːn˧.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "lit": "hill + elephant",
+     "lit_th": "พื้นที่ที่น้ำท่วมไม่ถึง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "หนองเสือช้าง",
+     "rtgs": "nong-suea-chang",
+     "ipa": "/nɔːŋ˩˩˦.sɯa̯˩˩˦.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองใหญ่ จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนองเสือ",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดปทุมธานี + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
+    },
+    {
+     "th": "เกาะช้าง",
+     "rtgs": "ko-chang",
+     "ipa": "/kɔʔ˨˩.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตราด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เกาะ"
+     ],
+     "lit": "island + elephant",
+     "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ช้างทอง",
+     "rtgs": "chang-thong",
+     "ipa": "/t͡ɕʰaːŋ˦˥.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเฉลิมพระเกียรติ จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "ทอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "elephant + gold",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    },
+    {
+     "th": "หนองช้าง",
+     "rtgs": "nong-chang",
+     "ipa": "/nɔːŋ˩˩˦.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสามชัย จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + elephant",
+     "lit_th": "แอ่งน้ำ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "แช่ช้าง",
+     "rtgs": "chae-chang",
+     "ipa": "/t͡ɕʰɛː˥˩.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสันกำแพง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แช่",
+      "ช้าง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ใส่ลงในน้ำหรือของเหลวอย่างอื่น ชั่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เสียใจมาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ช้าง in the reading 'deeply grieved' — obscure, and unrelated.",
+    "Declared root: ช้าง in the reading 'deeply grieved' — obscure, and unrelated.",
+    "Declared root: ช้าง in the reading 'deeply grieved' — obscure, and unrelated.",
+    "Declared root: ช้าง in the reading 'deeply grieved' — obscure, and unrelated."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 35 manuscript titles, 224 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 34; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "ช้างน้อย",
+   "rtgs": "chang-noi",
+   "ipa": "/t͡ɕʰaːŋ˦˥.nɔːj˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดาวฤกษ์ที่ 19 มี 9 ดวง เห็นเป็นรูปสะดือนาค, ดาวแมว ดาวมูล หรือ ดาวมูละ ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ช้าง",
+    "น้อย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "น้อย"
+   ],
+   "lit": "elephant + little",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ไม่มาก",
+   "frame": "quality"
+  },
+  {
+   "th": "งานช้าง",
+   "rtgs": "ngan-chang",
+   "ipa": "/ŋaːn˧.t͡ɕʰaːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "งานใหญ่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "งาน",
+    "ช้าง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "งาน"
+   ],
+   "lit": "job + elephant",
+   "lit_th": "สิ่งหรือกิจกรรมที่ทำ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "กาวช้าง",
+   "rtgs": "kao-chang",
+   "ipa": "/kaːw˧.t͡ɕʰaːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ กาวตราช้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กาว",
+    "ช้าง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "dope + elephant",
+   "lit_th": "ของเหนียวที่เคี่ยวมาจากเอ็น หนัง ก + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "ทรงช้าง",
+   "translit_auto": "thrngchang",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขี่ช้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทรง",
+    "ช้าง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ทรง"
+   ],
+   "lit": "form + elephant",
+   "lit_th": "รูปร่าง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "ขอช้าง",
+   "rtgs": "kho-chang",
+   "ipa": "/kʰɔː˩˩˦.t͡ɕʰaːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขอเหล็กมีด้าม สำหรับสับช้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขอ",
+    "ช้าง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ขอ"
+   ],
+   "lit": "ask + elephant",
+   "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "กรามช้าง",
+   "rtgs": "kram-chang",
+   "ipa": "/kraːm˧.t͡ɕʰaːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โรคมะเร็งชนิดหนึ่งขึ้นที่แถวกราม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กราม",
+    "ช้าง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ฟันที่ใช้บดเคี้ยวอาหาร + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "ช้างสาร",
+   "rtgs": "chang-san",
+   "ipa": "/t͡ɕʰaːŋ˦˥.saːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้มีอำนาจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ช้าง",
+    "สาร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "elephant + matter",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + แก่น",
+   "frame": "entity"
+  },
+  {
+   "th": "ช้างซ่อม",
+   "rtgs": "chang-som",
+   "ipa": "/t͡ɕʰaːŋ˦˥.sɔm˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ช้างสำหรับใช้ฆ่าคน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ช้าง",
+    "ซ่อม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "elephant + fix",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ทำสิ่งที่ชำรุดให้คืนดี"
+  },
+  {
+   "th": "ชนช้าง",
+   "rtgs": "chon-chang",
+   "ipa": "/t͡ɕʰon˧.t͡ɕʰaːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไสช้างเข้าปะทะกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชน",
+    "ช้าง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ชน"
+   ],
+   "lit": "hit + elephant",
+   "lit_th": "โดนแรง ๆ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
+  },
+  {
+   "th": "การชนช้าง",
+   "rtgs": "kan-chon-chang",
+   "ipa": "/kaːn˧.t͡ɕʰon˧.t͡ɕʰaːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชนช้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การชน",
+    "ช้าง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "knock + elephant",
+   "lit_th": "คำอาการนามของ ชน + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "ผัดช้าง",
+   "rtgs": "phat-chang",
+   "ipa": "/pʰat̚˨˩.t͡ɕʰaːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ล่อให้ช้างไล่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ผัด",
+    "ช้าง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "เอาสิ่งที่ใช้เป็นอาหารใส่ลงในกระทะ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
+  },
+  {
+   "th": "ช้างเผือก",
+   "rtgs": "chang-phueak",
+   "ipa": "/t͡ɕʰaːŋ˦˥.pʰɯa̯k̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ช้างที่มีลักษณะต่างจากช้างธรรมดาทั่วไป ด้วยมีสีผิว นัยน์ตา และเล็บขาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ช้าง",
+    "เผือก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ชื่อไม้ล้มลุกมีหัวชนิด Colocasia e",
+   "frame": "entity"
+  },
+  {
+   "th": "ปลงช้าง",
+   "rtgs": "plong-chang",
+   "ipa": "/ploŋ˧.t͡ɕʰaːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ปลดเปลื้องของหนักบนหลังช้างแล้วปล่อยให้พัก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ปลง",
+    "ช้าง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "เอาลง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
+  },
+  {
+   "th": "การปลงช้าง",
+   "rtgs": "kan-plong-chang",
+   "ipa": "/kaːn˧.ploŋ˧.t͡ɕʰaːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ปลงช้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การปลง",
+    "ช้าง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปลง + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "ช้างต้น",
+   "translit_auto": "changtn",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ช้างทรง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ช้าง",
+    "ต้น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ต้น"
+   ],
+   "lit": "elephant + trunk",
+   "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + ลำของต้นไม้",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *ɟaːŋꟲ², จากไทดั้งเดิม *ɟaːŋꟲ, จากจีนยุคกลาง 象 (MC zjangX); ร่วมเชื้อสายกับคำเมือง ᨩ᩶ᩣ᩠ᨦ (ช้าง), อีสาน ซ่าง, ลาว ຊ້າງ (ซ้าง), ไทลื้อ ᦋᦱᧂᧉ (ช้าง), ไทดำ ꪋ꫁ꪱꪉ (จฺ้าง), ไทใหญ่ ၸၢင်ႉ (จ๎าง), ไทใต้คง ᥓᥣᥒᥳ (จ๎าง), อาหม 𑜋𑜂𑜫 (ฉง์), จ้วง ciengh, แสก ซาง, ภาษาจ้วงใต้ changj",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨩ᩶ᩣ᩠ᨦ",
+  "th": "ช้าง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "elephant"
+ ]
+}

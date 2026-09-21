@@ -1,0 +1,867 @@
+{
+ "id": "w:man",
+ "th": "มัน",
+ "status": "mapped",
+ "rtgs": "man",
+ "paiboon": "man",
+ "ipa": "/man˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดหลายสกุลหลายวงศ์ หัวใช้เป็นอาหารได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, pronoun, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำสรรพนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: มัน, the yam and its kin."
+   ],
+   "compounds": [
+    {
+     "th": "รามัน",
+     "rtgs": "ra-man",
+     "ipa": "/raː˧.man˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดยะลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รา",
+      "มัน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "รา"
+     ],
+     "lit": "joist + it",
+     "lit_th": "ไม้ที่กระหนาบอยู่ใต้ท้องพรึงรับพื้ + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนมัน",
+     "rtgs": "don-man",
+     "ipa": "/dɔːn˧.man˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอประทาย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "มัน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "lit": "hill + it",
+     "lit_th": "พื้นที่ที่น้ำท่วมไม่ถึง + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เนื้อเยื่อเกี่ยวพันชนิดหนึ่งในคนและสัตว์ มีลักษณะนุ่ม ๆ หยุ่น ๆ มีไขมันอยู่ในตัว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, pronoun, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำสรรพนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไขมัน",
+     "rtgs": "khai-man",
+     "ipa": "/kʰaj˩˩˦.man˧/",
+     "gloss": {
+      "en": [
+       "fat"
+      ],
+      "th": "สารประกอบอินทรีย์จำพวกหนึ่งมีทั้งในสัตว์และพืช ไม่ละลายน้ำ, ถ้าเป็นของเหลวในอุณหภูมิปรกติเรียก น้ำมัน, ถ้าเป็นของแข็งในอุณหภูมิปรกติเรียก ไข",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไข",
+      "มัน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไข"
+     ],
+     "lit": "fat + it",
+     "lit_th": "มันข้น + เนื้อเยื่อเกี่ยวพันชนิดหนึ่งในคนแล",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำมัน",
+     "rtgs": "nam-man",
+     "ipa": "/nam˦˥.man˧/",
+     "gloss": {
+      "en": [
+       "oil"
+      ],
+      "th": "ของเหลวที่มีลักษณะเป็นมันลื่น ไม่ละลายน้ำ สกัดจากพืช สัตว์ แร่บางชนิด เช่น ถ่านหิน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "มัน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.16, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + it",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + เนื้อเยื่อเกี่ยวพันชนิดหนึ่งในคนแล",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: มัน 'fat, adipose tissue'."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "มีรสอย่างรสกะทิหรืออย่างถั่วลิสงคั่ว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, pronoun, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำสรรพนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "Fat names the taste of it: rich, like coconut cream or roast peanut.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เป็นเงา, ขึ้นเงา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, pronoun, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำสรรพนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "And the look of it: glossy, oiled.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "คำใช้แทนผู้ที่เราพูดถึง สำหรับผู้ใหญ่เรียกผู้น้อย มีเด็กเป็นต้นตามสถานะที่ควร สำหรับเรียกผู้อื่นอย่างไม่ยกย่อง และสำหรับเรียกสัตว์หรือสิ่งอื่นทั่ว ๆ ไปตามที่ควร, เป็นสรรพนามบุรุษที่ 3",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, pronoun, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำสรรพนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: มัน, the pronoun."
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เพลิน, ถูกอกถูกใจ, ออกรสออกชาติ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, pronoun, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำสรรพนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "And the feel of it: satisfying, absorbing.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 51 manuscript titles, 522 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['เนื้อ', 'หัว', 'ตา', 'อก'].",
+ "compounds_unassigned": [
+  {
+   "th": "ฟองมัน",
+   "rtgs": "fong-man",
+   "ipa": "/fɔːŋ˧.man˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อเครื่องหมายชนิดหนึ่ง มีรูปอย่างนี้ ๏ ในหนังสือเก่าสำหรับเขียนขึ้นต้นวรรคหรือต้นบรรทัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ฟอง",
+    "มัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "bubble + it",
+   "lit_th": "ไข่ + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+   "frame": "entity"
+  },
+  {
+   "th": "ความมัน",
+   "rtgs": "khwam-man",
+   "ipa": "/kʰwaːm˧.man˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ มัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "มัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + it",
+   "lit_th": "เรื่อง + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+   "frame": "entity"
+  },
+  {
+   "th": "มันเปลว",
+   "rtgs": "man-pleo",
+   "ipa": "/man˧.pleːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มันที่ติดอยู่ที่พุงและลำไส้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มัน",
+    "เปลว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห + เรียกไฟที่ลุกแลบออกมาหรือพวยพุ่งขึ",
+   "frame": "entity"
+  },
+  {
+   "th": "ตกมัน",
+   "rtgs": "tok-man",
+   "ipa": "/tok̚˨˩.man˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลักษณะที่ต่อมน้ำมันที่ขมับของช้างบวมโตและมีน้ำมันใส ๆ ไหลออกมา ช้างตัวผู้จะมีอารมณ์รุนแรง ก้าวร้าว ดุร้าย มีกลิ่นสาบฉุน, เรียกช้างที่มีอาการเช่นนั้นว่า ช้างตกมัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตก",
+    "มัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ตก"
+   ],
+   "lit": "decrease + it",
+   "lit_th": "พลัดลง + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห"
+  },
+  {
+   "th": "ข้าวมัน",
+   "rtgs": "khao-man",
+   "ipa": "/kʰaːw˥˩.man˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ข้าวเจ้าที่หุงด้วยกะทิ มักกินกับส้มตำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ข้าว",
+    "มัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ข้าว"
+   ],
+   "lit": "rice + it",
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+   "frame": "entity"
+  },
+  {
+   "th": "กลัดมัน",
+   "translit_auto": "kladman",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีความรู้สึกในกามารมณ์อย่างรุนแรง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลัด",
+    "มัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สวะที่ติดขวางคลองแน่นอยู่ + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+   "frame": "entity"
+  },
+  {
+   "th": "มันเทศ",
+   "rtgs": "man-thet",
+   "ipa": "/man˧.tʰeːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "sweet potato",
+     "batata"
+    ],
+    "th": "ชื่อมันชนิด Ipomoea batatas (L.) Lam. ในวงศ์ Convolvulaceae ยอดทำให้สุกแล้วกินได้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "มัน",
+    "เทศ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห + ต่างประเทศ",
+   "frame": "quality"
+  },
+  {
+   "th": "กระมัน",
+   "rtgs": "kra-man",
+   "ipa": "/kra˨˩.man˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "(ปลา~) กระโห้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "มัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
+  },
+  {
+   "th": "ทอดมัน",
+   "rtgs": "thot-man",
+   "ipa": "/tʰɔːt̚˥˩.man˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของกินชนิดหนึ่ง เอาปลาหรือกุ้งผสมกับน้ำพริก โขลกให้เข้ากันจนเหนียวแล้วทอดในน้ำมัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทอด",
+    "มัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "fry + it",
+   "lit_th": "ทำให้สุกด้วยน้ำมันที่เดือด + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห"
+  },
+  {
+   "th": "สีน้ำมัน",
+   "rtgs": "si-nam-man",
+   "ipa": "/siː˩˩˦.nam˦˥.man˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สีสำหรับระบายรูปหรือใช้ทาผนังชนิดหนึ่ง ทำขึ้นมาจากผงสีผสมกับน้ำมันลินสีดเป็นต้น มีลักษณะข้นและเหนียวไม่ละลายน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สีน้ำ",
+    "มัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "สี"
+   ],
+   "lit_th": "สีสำหรับระบายชนิดหนึ่ง ใช้น้ำเจือใ + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+   "frame": "entity"
+  },
+  {
+   "th": "การมัน",
+   "rtgs": "kan-man",
+   "ipa": "/kaːn˧.man˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ มัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "มัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+   "frame": "entity"
+  },
+  {
+   "th": "มันแข็ง",
+   "rtgs": "man-khaeng",
+   "ipa": "/man˧.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มันของหมูที่ติดอยู่กับหนัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มัน",
+    "แข็ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "แข็ง"
+   ],
+   "lit": "it + hard",
+   "lit_th": "ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห + กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "มันดี",
+   "rtgs": "man-di",
+   "ipa": "/man˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ที่อาบน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มัน",
+    "ดี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ดี"
+   ],
+   "lit": "it + good",
+   "lit_th": "ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "หัวมัน",
+   "rtgs": "hua-man",
+   "ipa": "/hua̯˩˩˦.man˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หัวที่อยู่ใต้ดินของมัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หัว",
+    "มัน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "head + it",
+   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+   "frame": "entity"
+  },
+  {
+   "th": "มันปู",
+   "rtgs": "man-pu",
+   "ipa": "/man˧.puː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สีแดงเจือเหลืองกับดำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มัน",
+    "ปู"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "it + cover",
+   "lit_th": "ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห + ชื่อสัตว์ไม่มีกระดูกสันหลังในชั้น",
+   "frame": "entity"
+  },
+  {
+   "th": "มันฝรั่ง",
+   "rtgs": "man-fa-rang",
+   "ipa": "/man˧.fa˨˩.raŋ˨˩/",
+   "gloss": {
+    "en": [
+     "potato"
+    ],
+    "th": "ชื่อมันชนิด Solanum tuberosum L. ในวงศ์ Solanaceae ตาที่กำลังงอกจากหัวเป็นพิษ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "มัน",
+    "ฝรั่ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "it + farang",
+   "lit_th": "ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห + ชนชาติผิวขาว",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *manᴬ (“พืชมีหัวใช้เป็นอาหาร”); ร่วมเชื้อสายกับลาว ມັນ (มัน), คำเมือง ᨾᩢ᩠ᨶ (มัน), เขิน ᨾᩢ᩠ᨶ (มัน), ไทลื้อ ᦙᧃ (มัน), ไทใหญ่ မၼ်း (มั๊น), อาหม 𑜉𑜃𑜫 (มน์), จ้วง maenz สืบทอดจากไทดั้งเดิม *manᴬ (“ไข; ไขมัน”); ร่วมเชื้อสายกับลาว ມັນ (มัน), คำเมือง ᨾᩢ᩠ᨶ (มัน), เขิน ᨾᩢ᩠ᨶ (มัน), ไทใหญ่ မၼ်း (มั๊น), อาหม 𑜉𑜃𑜫 (มน์), จ้วง maenz; เทียบเบดั้งเดิม *maːnᴬ² สืบทอดจากไทดั้งเดิม *manᴬ (“สรรพนามบุรุษที่ 3 เอกพจน์”); ร่วมเชื้อสายกับอีสาน มัน, ลาว ມັນ (มัน), คำเมือง ᨾᩢ᩠ᨶ (มัน), เขิน ᨾᩢ᩠ᨶ (มัน), ไทลื้อ ᦙᧃ (มัน), ไทดำ ꪣꪽ (มัน), ไทใหญ่ မၼ်း (มั๊น), ไทใต้คง ᥛᥢᥰ (มั๊น), อาหม 𑜉𑜃𑜫 (มน์), จ้วงแบบจั่วเจียง minz/mwnz, จ้วง minz/faenz",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨾᩢ᩠ᨶ",
+  "th": "มัน",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:man-2",
+   "label": "มั่น",
+   "why": "spelling",
+   "distinction": "Both romanise as \"man\". มัน is man, มั่น is mân — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "it"
+ ]
+}

@@ -1,0 +1,1670 @@
+{
+ "id": "w:pak",
+ "th": "ปาก",
+ "status": "mapped",
+ "rtgs": "pak",
+ "paiboon": "bpàak",
+ "ipa": "/paːk̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว์ อยู่ที่บริเวณใบหน้า ใช้สำหรับกินอาหาร และออกเสียง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, verb",
+   "pos_th": "คำนาม, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ถูกปาก",
+     "rtgs": "thuk-pak",
+     "ipa": "/tʰuːk̚˨˩.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีรสต้องใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถูก",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "be + mouth",
+     "lit_th": "โดน + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
+    },
+    {
+     "th": "ปากกา",
+     "rtgs": "pak-ka",
+     "ipa": "/paːk̚˨˩.kaː˧/",
+     "gloss": {
+      "en": [
+       "pen"
+      ],
+      "th": "เครื่องสำหรับขีดเขียนชนิดหนึ่ง ประกอบด้วยตัวปากและด้าม ตัวปากมักทำด้วยโลหะ เช่น ปากกาคอแร้ง ปากกาเบอร์ 5 ใช้เสียบที่ด้ามจุ้มหมึกหรือน้ำสีอื่นเขียน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "กา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กา"
+     ],
+     "lit": "mouth + crow",
+     "frame": "entity"
+    },
+    {
+     "th": "ลาภปาก",
+     "rtgs": "lap-pak",
+     "ipa": "/laːp̚˥˩.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินที่มักได้มาโดยไม่คาดคิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาภ",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิ่งที่มักจะได้มาโดยไม่คาดคิด + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+     "frame": "entity"
+    },
+    {
+     "th": "บุ้ยปาก",
+     "rtgs": "bui-pak",
+     "ipa": "/buj˥˩.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำปากยื่นบอกใบ้ให้รู้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บุ้ย",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ทำปากยื่นบอกใบ้ให้รู้ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
+    },
+    {
+     "th": "ผิวปาก",
+     "rtgs": "phio-pak",
+     "ipa": "/pʰiw˩˩˦.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "whistle"
+      ],
+      "th": "ห่อริมฝีปากให้แคบพอ แล้วเป่าลมออกให้เกิดเสียงตามที่ต้องการ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ผิว",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่มีลักษณะบาง ๆ เป็นพื้นหุ้มอ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากไก่",
+     "rtgs": "pak-kai",
+     "ipa": "/paːk̚˨˩.kaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสำหรับขีดเขียนชนิดหนึ่ง ประกอบด้วยตัวปากและด้าม ตัวปากมักทำด้วยโลหะ เช่น ปากกาคอแร้ง ปากกาเบอร์ 5 ใช้เสียบที่ด้ามจุ้มหมึกหรือน้ำสีอื่นเขียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "ไก่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไก่"
+     ],
+     "lit": "mouth + chicken",
+     "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "จูบปาก",
+     "rtgs": "chup-pak",
+     "ipa": "/t͡ɕuːp̚˨˩.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาริมฝีปากสัมผัสริมฝีปากเพื่อแสดงความรักหรือความใคร่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จูบ",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "osculate + mouth",
+     "lit_th": "เอาจมูกสัมผัสสูดแสดงความรักหรือควา + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
+    },
+    {
+     "th": "กระเดาะปาก",
+     "translit_auto": "kradeaapak",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระดกลิ้นดันเพดานให้เกิดเสียงในปาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระเดาะ",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ทำให้กระเด็นขึ้นมาเบา ๆ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
+    },
+    {
+     "th": "เป่าปาก",
+     "rtgs": "pao-pak",
+     "ipa": "/paw˨˩.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอานิ้วมือใส่ปากแล้วเป่าให้เกิดเสียง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป่า",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "play + mouth",
+     "lit_th": "พ่นลมออกมาทางปาก + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "โดยปริยายหมายถึงส่วนต่าง ๆ ที่อยู่ในบริเวณปาก เช่น ปากเปื่อย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, verb",
+   "pos_th": "คำนาม, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The parts about the mouth take its name — ปากเปื่อย.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ขอบช่องแห่งสิ่งต่าง ๆ เช่น ปากหม้อ ปากไห",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, verb",
+   "pos_th": "คำนาม, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The rim of a vessel is its mouth — ปากหม้อ, ปากไห.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ปากเหว",
+     "rtgs": "pak-heo",
+     "ipa": "/paːk̚˨˩.heːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สภาวะที่ใกล้จะล่มจม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "เหว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ขอบช่องแห่งสิ่งต่าง ๆ เช่น ปากหม้อ + ช่องลึกลงไปในภูเขา",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ต้นทางสำหรับเข้าออก เช่น ปากช่อง ปากตรอก, ถ้าเป็นทางทะเล เรียกว่า ปากน้ำ, ปากแม่น้ำ เช่น ปากพูน ปากเซ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, verb",
+   "pos_th": "คำนาม, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ปากน้ำ",
+     "rtgs": "pak-nam",
+     "ipa": "/paːk̚˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริเวณที่แควไหลลงมาบรรจบลำน้ำใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "น้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "mouth + water",
+     "lit_th": "ต้นทางสำหรับเข้าออก เช่น ปากช่อง ป + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "And the opening of any passage — ปากช่อง, ปากตรอก, ปากน้ำ.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "กลีบดอกกล้วยไม้คล้ายรูปกรวยหรือหลอดที่อยู่ตรงกลางเป็นที่อยู่ของเกสร, กระเป๋า ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, verb",
+   "pos_th": "คำนาม, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The labellum of an orchid, the flower's mouth.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เรียกสิ่งบางอย่างเช่นแหอวนหรือพยานบุคคล เช่น แหปากหนึ่ง อวน 2 ปาก พยาน 3 ปาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, verb",
+   "pos_th": "คำนาม, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A classifier for nets and for witnesses — counted by mouths.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "พูด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, verb",
+   "pos_th": "คำนาม, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The mouth stands for what it does: to speak.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ปิดปาก",
+     "rtgs": "pit-pak",
+     "ipa": "/pit̚˨˩.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "placate"
+      ],
+      "th": "ไม่พูด หรือไม่ให้พูด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ปิด",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "shut + mouth",
+     "lit_th": "กันหรือกั้นไว้ไม่ให้เผยออก + พูด"
+    },
+    {
+     "th": "ปากหวาน",
+     "rtgs": "pak–wan",
+     "ipa": "/paːk̚˨˩.waːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พูดจาไพเราะ มักพูดให้เขาพอใจเมื่อต้องการผลประโยชน์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "หวาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หวาน"
+     ],
+     "lit": "mouth + sweet",
+     "lit_th": "พูด + มีรสอย่างรสน้ำตาล"
+    },
+    {
+     "th": "รับปาก",
+     "rtgs": "rap-pak",
+     "ipa": "/rap̚˦˥.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รับคำ, บางทีก็ใช้เข้าคู่กับคำ รับคำ เป็น รับปากรับคำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "รับ"
+     ],
+     "lit": "accept + mouth",
+     "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + พูด"
+    },
+    {
+     "th": "ปากจัด",
+     "rtgs": "pak-chat",
+     "ipa": "/paːk̚˨˩.t͡ɕat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชอบพูดจาหรือโต้เถียงด้วยถ้อยคำแข็งกร้าวไม่สุภาพ, ด่าเก่ง, ชอบพูดจาหยาบคาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "จัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "จัด"
+     ],
+     "lit": "mouth + arrange",
+     "lit_th": "พูด + ยิ่ง"
+    },
+    {
+     "th": "ปากหมา",
+     "rtgs": "pak-ma",
+     "ipa": "/paːk̚˨˩.maː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชอบพูดจาว่าร้ายคนอื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "หมา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mouth + canine",
+     "lit_th": "พูด + สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา",
+     "frame": "entity"
+    },
+    {
+     "th": "ฝีปาก",
+     "rtgs": "fi-pak",
+     "ipa": "/fiː˩˩˦.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คารมของผู้กล่าว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝี",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "abscess + mouth",
+     "lit_th": "โรคจำพวกหนึ่ง เป็นต่อมบวมขึ้นกลัดห + พูด",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากโป้ง",
+     "rtgs": "pak-pong",
+     "ipa": "/paːk̚˨˩.poːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชอบพูดเปิดเผยสิ่งที่ไม่สมควรออกมาโดยไม่คำนึงถึงความผิดพลาดเสียหาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "โป้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "พูด + ใหญ่"
+    },
+    {
+     "th": "หุบปาก",
+     "rtgs": "hup-pak",
+     "ipa": "/hup̚˨˩.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "put a sock in it",
+       "pipe down"
+      ],
+      "th": "ปิดปาก, หยุดพูด, ไม่พูด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หุบ",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "fold + mouth",
+     "lit_th": "อาการรวมเข้าของสิ่งที่ขยายออก + พูด"
+    },
+    {
+     "th": "หลุดปาก",
+     "rtgs": "lut-pak",
+     "ipa": "/lut̚˨˩.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พลั้งปาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลุด",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "escape + mouth",
+     "lit_th": "ออกจากที่ที่ติดอยู่ + พูด"
+    },
+    {
+     "th": "น้ำท่วมปาก",
+     "translit_auto": "namthwmpak",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พูดไม่ออกเพราะเกรงจะมีภัยแก่ตนหรือผู้อื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำท่วม",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "flood + mouth",
+     "lit_th": "ภัยธรรมชาติอย่างหนึ่งเกิดจากฝนตกใน + พูด",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากปลาร้า",
+     "translit_auto": "pakplara",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชอบพูดหรือด่าด้วยคำหยาบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "ปลาร้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "พูด + การถนอมปลาของชาวอีสาน หมักกับเกลือ",
+     "frame": "entity"
+    },
+    {
+     "th": "เย็บปาก",
+     "rtgs": "yep-pak",
+     "ipa": "/jep̚˦˥.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปิดปากเงียบไม่ยอมพูด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เย็บ",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "sew + mouth",
+     "lit_th": "ทำให้ติดกันโดยใช้เข็มร้อยด้ายหรือเ + พูด"
+    },
+    {
+     "th": "พลั้งปาก",
+     "rtgs": "phlang-pak",
+     "ipa": "/pʰlaŋ˦˥.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พูดไปโดยไม่ทันคิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พลั้ง",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "พลาดโดยไม่ตั้งใจหรือไม่ทันคิด + พูด"
+    },
+    {
+     "th": "ปากคำ",
+     "rtgs": "pak-kham",
+     "ipa": "/paːk̚˨˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถ้อยคำที่บุคคล คู่กรณี หรือพยานให้ไว้กับเจ้าพนักงาน ศาล หรือเจ้าหน้าที่อื่นของรัฐ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "คำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "mouth + word",
+     "lit_th": "พูด + เสียงพูด",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากเปียก",
+     "translit_auto": "pakpeiyk",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกการว่ากล่าวตักเตือนซ้ำแล้วซ้ำเล่าก็ยังไม่ได้ผลตามที่มุ่งหมาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "เปียก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mouth + wet",
+     "lit_th": "พูด + มีน้ำชุ่มปนผสมอยู่หรือติดอยู่"
+    },
+    {
+     "th": "ภาษาปาก",
+     "rtgs": "pha-sa-pak",
+     "ipa": "/pʰaː˧.saː˩˩˦.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาษาพูดที่แสดงความคุ้นเคย ไม่เหมาะที่จะใช้เป็นพิธีรีตอง เช่น ตาแป๊ะ ตะบี้ตะบัน เทน้ำเทท่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภาษา",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ภาษา"
+     ],
+     "lit": "language + mouth",
+     "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + พูด",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากเสีย",
+     "rtgs": "pak-sia",
+     "ipa": "/paːk̚˨˩.sia̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชอบพูดจาว่าร้ายคนอื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "เสีย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "mouth + bad",
+     "lit_th": "พูด + เสื่อมลงไป"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "pak as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 10 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 10 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 10 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "16 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ปากท่อ",
+     "rtgs": "pak-tho",
+     "ipa": "/paːk̚˨˩.tʰɔː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดราชบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "ท่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "pak as an element in place names + tube",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งสำหรับให้สิ่งอื่นมีน้ำเป็นต้นผ",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากชม",
+     "rtgs": "pak-chom",
+     "ipa": "/paːk̚˨˩.t͡ɕʰom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเลย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "ชม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สรรเสริญ"
+    },
+    {
+     "th": "ปากพะยูน",
+     "rtgs": "pak-pha-yun",
+     "ipa": "/paːk̚˨˩.pʰa˦˥.juːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพัทลุง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "พะยูน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "pak as an element in place names + dugong",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Dugon",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากพลี",
+     "rtgs": "pak-phli",
+     "ipa": "/paːk̚˨˩.pʰliː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครนายก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "พลี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "pak as an element in place names + sacrifice",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + การบวงสรวง",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากเกร็ด",
+     "rtgs": "pak-kret",
+     "ipa": "/paːk̚˨˩.kret̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนนทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "เกร็ด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลำน้ำเล็กที่เป็นทางลัดเชื่อมลำน้ำใ",
+     "frame": "entity"
+    },
+    {
+     "th": "ปลาปาก",
+     "rtgs": "pla-pak",
+     "ipa": "/plaː˧.paːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครพนม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปลา",
+      "ปาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "fish + pak as an element in place names",
+     "lit_th": "ชื่อสัตว์น้ำเย็นมีกระดูกสันหลัง ร่ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากพนัง",
+     "rtgs": "pak-pha-nang",
+     "ipa": "/paːk̚˨˩.pʰa˦˥.naŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "พนัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำนบกั้นน้ำอย่างใหญ่",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากแคว",
+     "rtgs": "pak-khwae",
+     "ipa": "/paːk̚˨˩.kʰwɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองสุโขทัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "แคว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลำน้ำที่ไหลมารวมกับลำน้ำอีกสายหนึ่",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากช่อง",
+     "rtgs": "pak-chong",
+     "ipa": "/paːk̚˨˩.t͡ɕʰɔŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "ช่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช่อง"
+     ],
+     "lit": "pak as an element in place names + hole",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ว่างซึ่งเป็นทางเข้าออกได้",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากพระ",
+     "rtgs": "pak-phra",
+     "ipa": "/paːk̚˨˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองสุโขทัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "พระ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "pak as an element in place names + the honorific prefix phra",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1 manuscript titles, 136 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 44; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "การพลั้งปาก",
+   "rtgs": "kan-phlang-pak",
+   "ipa": "/kaːn˧.pʰlaŋ˦˥.paːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ พลั้งปาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การพลั้ง",
+    "ปาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ พลั้ง + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
+  },
+  {
+   "th": "การเย็บปาก",
+   "rtgs": "kan-yep-pak",
+   "ipa": "/kaːn˧.jep̚˦˥.paːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เย็บปาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเย็บ",
+    "ปาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เย็บ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
+  },
+  {
+   "th": "การจูบปาก",
+   "rtgs": "kan-chup-pak",
+   "ipa": "/kaːn˧.t͡ɕuːp̚˨˩.paːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ จูบปาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การจูบ",
+    "ปาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "kiss + mouth",
+   "lit_th": "คำอาการนามของ จูบ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
+  },
+  {
+   "th": "การหลุดปาก",
+   "rtgs": "kan-lut-pak",
+   "ipa": "/kaːn˧.lut̚˨˩.paːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หลุดปาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหลุด",
+    "ปาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หลุด + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
+  },
+  {
+   "th": "การปิดปาก",
+   "rtgs": "kan-pit-pak",
+   "ipa": "/kaːn˧.pit̚˨˩.paːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ปิดปาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การปิด",
+    "ปาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปิด + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
+  },
+  {
+   "th": "การหุบปาก",
+   "rtgs": "kan-hup-pak",
+   "ipa": "/kaːn˧.hup̚˨˩.paːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หุบปาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหุบ",
+    "ปาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หุบ + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *paːkᴰ; ร่วมเชื้อสายกับอีสาน ปาก, ลาว ປາກ (ปาก), คำเมือง ᨸᩣ᩠ᨠ (ปาก), ไทลื้อ ᦔᦱᧅ (ปาก), ไทดำ ꪜꪱꪀ (ปาก), ไทใหญ่ ပၢၵ်ႇ (ป่าก), อาหม 𑜆𑜀𑜫 (ปก์), แสก ป̄าก, จ้วง bak",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨸᩣ᩠ᨠ",
+  "th": "ปาก",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "mouth"
+ ]
+}

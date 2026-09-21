@@ -1,0 +1,1304 @@
+{
+ "id": "w:ton",
+ "th": "ต้น",
+ "status": "mapped",
+ "rtgs": "ton",
+ "paiboon": "dtôn",
+ "ipa": "/ton˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "trunk",
+     "plant",
+     "stem"
+    ],
+    "th": "ลำของต้นไม้, เป็นชื่อรวมทั่วไปของต้นไม้และพืชผักต่าง ๆ",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ต้นไม้",
+     "rtgs": "ton-mai",
+     "ipa": "/ton˥˩.maːj˦˥/",
+     "gloss": {
+      "en": [
+       "tree"
+      ],
+      "th": "คำรวมเรียกพืชทั่วไปโดยปรกติชนิดมีลำต้น ใช้ในความหมายที่แคบกว่า คำว่า ต้น หมายถึง พืชชนิดที่มีลำต้นใหญ่มีกิ่งแยกออกไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "ไม้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "trunk + wood",
+     "lit_th": "ลำของต้นไม้ + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "flips_with": "ไม้ต้น",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นขจร",
+     "translit_auto": "tnkhchn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต้นสลิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "ขจร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ลำของต้นไม้ + ฟุ้งไป"
+    },
+    {
+     "th": "ยืนต้น",
+     "rtgs": "yuen-ton",
+     "ipa": "/jɯːn˧.ton˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกต้นไม้ใหญ่ที่มีผลและมีอายุยืนนาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยืน",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "stand + trunk",
+     "lit_th": "ตั้งอยู่ + ลำของต้นไม้"
+    },
+    {
+     "th": "ต้นอ่อน",
+     "rtgs": "ton-on",
+     "ipa": "/ton˥˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พืชในระยะงอกออกจากเมล็ด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "อ่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "อ่อน"
+     ],
+     "lit": "trunk + young",
+     "lit_th": "ลำของต้นไม้ + ไม่กระด้าง",
+     "frame": "quality"
+    },
+    {
+     "th": "ไม้ต้น",
+     "rtgs": "mai-ton",
+     "ipa": "/maːj˦˥.ton˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้ยืนต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไม้",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "wood + trunk",
+     "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + ลำของต้นไม้",
+     "flips_with": "ต้นไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "ลำต้น",
+     "rtgs": "lam-ton",
+     "ipa": "/lam˧.ton˥˩/",
+     "gloss": {
+      "en": [
+       "stem",
+       "stalk"
+      ],
+      "th": "ส่วนของต้นไม้ที่อยู่เหนือดิน ไม่นับรวมกิ่งก้าน มีลักษณะเป็นลำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลำ",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ตัวของคน สัตว์ หรือสิ่งต่าง ๆ ไม่น + ลำของต้นไม้",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "เรียกผู้ที่นับกันว่าเป็นผู้เริ่มต้นวงศ์สกุลว่า ต้นวงศ์ ต้นสกุล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เริ่มต้น",
+     "rtgs": "roem-ton",
+     "ipa": "/rɤːm˥˩.ton˥˩/",
+     "gloss": {
+      "en": [
+       "open",
+       "arrive",
+       "begin"
+      ],
+      "th": "ตั้งต้น, ขึ้นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เริ่ม",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "arrive + trunk",
+     "lit_th": "ตั้งต้นมี เป็น หรือลงมือกระทำ + เรียกผู้ที่นับกันว่าเป็นผู้เริ่มต้"
+    },
+    {
+     "th": "ต้นตระกูล",
+     "rtgs": "ton-tra-kun",
+     "ipa": "/ton˥˩.tra˨˩.kuːn˧/",
+     "gloss": {
+      "en": [
+       "patriarch",
+       "origin"
+      ],
+      "th": "บรรพบุรุษดั้งเดิม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "ตระกูล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เรียกผู้ที่นับกันว่าเป็นผู้เริ่มต้ + สกุล",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The trunk a family grows from: ต้นวงศ์, ต้นสกุล.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "เบื้องต้นของสิ่งที่มีลักษณะกลมยาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เบื้องต้น",
+     "rtgs": "bueang-ton",
+     "ipa": "/bɯa̯ŋ˥˩.ton˥˩/",
+     "gloss": {
+      "en": [
+       "ABC",
+       "elementary"
+      ],
+      "th": "ก่อน, แรก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เบื้อง",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ทาง + เบื้องต้นของสิ่งที่มีลักษณะกลมยาว",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นน้ำ",
+     "rtgs": "ton-nam",
+     "ipa": "/ton˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แหล่งที่เกิดของลำน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "น้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "trunk + water",
+     "lit_th": "เบื้องต้นของสิ่งที่มีลักษณะกลมยาว + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นทาง",
+     "rtgs": "ton-thang",
+     "ipa": "/ton˥˩.tʰaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปากทางเข้าออกอย่างทางเข้าบ่อนการพนันเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "ทาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทาง"
+     ],
+     "lit": "trunk + way",
+     "lit_th": "เบื้องต้นของสิ่งที่มีลักษณะกลมยาว + ที่สำหรับเดินไปมา",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The butt end of anything long and round.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ตอนแรก ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "The near end in space becomes the early part in time.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "ใช้ประกอบหน้าคำอื่นแปลว่า ผู้ที่ได้รับความไว้วางใจให้มีหน้าที่รักษาสิ่งของหรือทำกิจการประจำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Placed before the name of one trusted to keep something.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ต้นเรือ",
+     "rtgs": "ton-ruea",
+     "ipa": "/ton˥˩.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รองผู้บังคับการเรือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "เรือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือ"
+     ],
+     "lit": "trunk + boat",
+     "lit_th": "ใช้ประกอบหน้าคำอื่นแปลว่า ผู้ที่ได + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นหน",
+     "rtgs": "ton-hon",
+     "ipa": "/ton˥˩.hon˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ควบคุมทิศทาง ตำแหน่งของเรือ การเดินเรือในร่องน้ำ ในการเดินเรือทะเลหรือเดินอากาศยาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "หน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบหน้าคำอื่นแปลว่า ผู้ที่ได + ทาง",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นกล",
+     "rtgs": "ton-kon",
+     "ipa": "/ton˥˩.kon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวหน้าช่างกลในเรือเดินทะเล เรือรบ เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "กล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กล"
+     ],
+     "lit": "trunk + trick",
+     "lit_th": "ใช้ประกอบหน้าคำอื่นแปลว่า ผู้ที่ได + การลวงหรือล่อลวงให้หลง",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "ชื่อเพลงไทยจำพวกหนึ่งมีชื่อขึ้นต้นด้วยคำว่า ต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ต้นเปา",
+     "rtgs": "ton-pao",
+     "ipa": "/ton˥˩.paw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสันกำแพง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "เปา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อเพลงไทยจำพวกหนึ่งมีชื่อขึ้นต้น + ซาลาเปา",
+     "frame": "entity"
+    }
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "A class of Thai songs whose titles open with ต้น.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 7]"
+    ],
+    "th": "ใช้กับต้นไม้หรือเสา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The classifier for trees and posts.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 8]"
+    ],
+    "th": "แรก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "First.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เป็นต้น",
+     "rtgs": "pen-ton",
+     "ipa": "/pen˧.ton˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เริ่มแรก, เป็นอันดับแรก, เป็นส่วนเบื้องต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "are + trunk",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + แรก"
+    },
+    {
+     "th": "พยัญชนะต้น",
+     "rtgs": "pha-yan-cha-na-ton",
+     "ipa": "/pʰa˦˥.jan˧.t͡ɕʰa˦˥.na˦˥.ton˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียงพยัญชนะที่นำหน้าพยางค์หรือตัวที่มาก่อนสระ โดยรวมถึงตัวควบกล้ำ และอักษรนำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พยัญชนะ",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "consonant + trunk",
+     "lit_th": "เสียงพูดที่เปล่งออกมาโดยใช้อวัยวะส + แรก",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 9]"
+    ],
+    "th": "แรกเริ่ม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ต้นคิด",
+     "rtgs": "ton-khit",
+     "ipa": "/ton˥˩.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ริเริ่ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "คิด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.44, next 0.29",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "คิด"
+     ],
+     "lit": "trunk + think",
+     "lit_th": "แรกเริ่ม + ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น"
+    },
+    {
+     "th": "ต้นแบบ",
+     "rtgs": "ton-baep",
+     "ipa": "/ton˥˩.bɛːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "model",
+       "pilot"
+      ],
+      "th": "แบบดั้งเดิม, แบบที่มีมาแต่แรก, แบบที่ทำขึ้นไว้แต่แรก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "แบบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แบบ"
+     ],
+     "lit": "trunk + model",
+     "lit_th": "แรกเริ่ม + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นตำรับ",
+     "rtgs": "ton-tam-rap",
+     "ipa": "/ton˥˩.tam˧.rap̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สูตรหรือตำราดั้งเดิม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "ตำรับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "แรกเริ่ม + ตำราที่กำหนดไว้เป็นเฉพาะแต่ละเรื่อ",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นทุน",
+     "rtgs": "ton-thun",
+     "ipa": "/ton˥˩.tʰun˧/",
+     "gloss": {
+      "en": [
+       "cost"
+      ],
+      "th": "ทุนเดิมสำหรับทำกิจการค้าเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "ทุน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "trunk + fund",
+     "lit_th": "แรกเริ่ม + ของเดิมหรือเงินเดิมที่มีไว้ ลงไว้",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นตอ",
+     "rtgs": "ton-to",
+     "ipa": "/ton˥˩.tɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรื่องเดิม, เหตุเดิม, ที่เกิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "ตอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "แรกเริ่ม + โคนของต้นไม้ที่ลำต้นถูกตัดหรือหักล",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นฉบับ",
+     "rtgs": "ton-cha-bap",
+     "ipa": "/ton˥˩.t͡ɕʰa˨˩.bap̚˨˩/",
+     "gloss": {
+      "en": [
+       "master",
+       "original"
+      ],
+      "th": "ฉบับจริงของเรื่องที่ประพันธ์หรือแต่งไว้เดิม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "ฉบับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "trunk + issue",
+     "lit_th": "แรกเริ่ม + หนังสือเรื่องเดียวกันซึ่งมีข้อความ",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นเหตุ",
+     "rtgs": "ton-het",
+     "ipa": "/ton˥˩.heːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนหรือสัตว์เป็นต้นที่ทำให้เกิดเหตุเกิดเรื่อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "เหตุ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "แรกเริ่ม + สิ่งหรือเรื่องที่ทำให้เกิดผล",
+     "frame": "entity"
+    },
+    {
+     "th": "ตั้งต้น",
+     "rtgs": "tang-ton",
+     "ipa": "/taŋ˥˩.ton˥˩/",
+     "gloss": {
+      "en": [
+       "begin"
+      ],
+      "th": "เริ่มต้นทำ, ขึ้นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "introduce + trunk",
+     "lit_th": "ชูตัว + แรกเริ่ม"
+    }
+   ],
+   "extends": 8,
+   "via": "generalisation",
+   "via_note": "And initial, at the outset.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 10]"
+    ],
+    "th": "เนื่องในพระเจ้าแผ่นดิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ม้าต้น",
+     "translit_auto": "matn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ม้าทรง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ม้า",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 10: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "horse + trunk",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus + เนื่องในพระเจ้าแผ่นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "ช้างต้น",
+     "translit_auto": "changtn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช้างทรง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 10: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "elephant + trunk",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + เนื่องในพระเจ้าแผ่นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องต้น",
+     "rtgs": "khrueang-ton",
+     "ipa": "/kʰrɯa̯ŋ˥˩.ton˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องทรงสำหรับพระมหากษัตริย์ในพระราชพิธี เช่น พระราชพิธีบรมราชาภิเษก, เรียกเต็มว่า ฉลองพระองค์เครื่องต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + trunk",
+     "lit_th": "สิ่ง + เนื่องในพระเจ้าแผ่นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "เสด็จประพาสต้น",
+     "translit_auto": "sedchpraphastn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไปเที่ยวธรรมดาส่วนพระองค์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสด็จประพาส",
+      "ต้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ไปเที่ยว + เนื่องในพระเจ้าแผ่นดิน"
+    }
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "Of the king — เครื่องต้น, เรือนต้น.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 101 manuscript titles, 211 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 30; domain seeded by keyword hits ['ต้นไม้', 'พืช', 'ดิน', 'ไม้'].",
+ "compounds_unassigned": [
+  {
+   "th": "การเริ่มต้น",
+   "rtgs": "kan-roem-ton",
+   "ipa": "/kaːn˧.rɤːm˥˩.ton˥˩/",
+   "gloss": {
+    "en": [
+     "initiative"
+    ],
+    "th": "คำอาการนามของ เริ่มต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การเริ่ม",
+    "ต้น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "institute + trunk",
+   "lit_th": "คำอาการนามของ เริ่ม + ลำของต้นไม้",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *tonꟲ²; ร่วมเชื้อสายกับคำเมือง ᨲᩫ᩠᩶ᨶ (ต็้น), เขิน ᨲᩫ᩠᩶ᨶ (ต็้น), ลาว ຕົ້ນ (ต็้น), ไทลื้อ ᦎᦳᧃᧉ (ตุ้น), ไทใหญ่ တူၼ်ႈ (ตู้น), ไทใต้คง ᥖᥨᥢᥲ (โต้น), พ่าเก တ︀ုꩫ︀် (ตุน์), อาหม 𑜄𑜤𑜃𑜫 (ตุน์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨲᩫ᩠᩶ᨶ",
+  "th": "ต็้น",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

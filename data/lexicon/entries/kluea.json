@@ -1,0 +1,685 @@
+{
+ "id": "w:kluea",
+ "th": "เกลือ",
+ "status": "mapped",
+ "rtgs": "kluea",
+ "paiboon": "glʉʉa",
+ "ipa": "/klɯa̯˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็นต้น โดยทั่วไปได้มาจากน้ำทะเล",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เกลือแร่",
+     "rtgs": "kluea-rae",
+     "ipa": "/klɯa̯˧.rɛː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกลือและแร่ต่าง ๆ ที่ละลายอยู่ในน้ำเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกลือ",
+      "แร่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.11, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "light + mineral",
+     "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + ธาตุหรือสารประกอบอนินทรีย์ที่เกิดข",
+     "frame": "entity"
+    },
+    {
+     "th": "นาเกลือ",
+     "rtgs": "na-kluea",
+     "ipa": "/naː˧.klɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พื้นที่ที่มีลักษณะคล้ายนาสำหรับขังน้ำทะเลเพื่อให้เกลือตกตะกอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "เกลือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.13, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + light",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็",
+     "frame": "entity"
+    },
+    {
+     "th": "เกลือสมุทร",
+     "rtgs": "kluea-sa-mut",
+     "ipa": "/klɯa̯˧.sa˨˩.mut̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกลือที่ได้จากน้ำทะเล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกลือ",
+      "สมุทร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.19, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "light + sea",
+     "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + ทะเลลึก",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "สารประกอบซึ่งประกอบด้วยโลหะหรือหมู่ธาตุที่เทียบเท่าโลหะกับอนุมูลกรด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เกลือกรด",
+     "rtgs": "kluea–krot",
+     "ipa": "/klɯa̯˧.krot̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกลือที่เกิดขึ้นโดยธาตุไฮโดรเจนชนิดที่แปรสภาพเป็นไอออนได้ ซึ่งมีอยู่ในโมเลกุลของกรด ถูกโลหะหรือหมู่ธาตุที่เทียบเท่าโลหะเข้ามาแทนที่ไม่หมด เช่น โซเดียมไฮโดรเจนซัลเฟต (NaHSO₄)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกลือ",
+      "กรด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.26, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "light + acid",
+     "lit_th": "สารประกอบซึ่งประกอบด้วยโลหะหรือหมู + สารอย่างหนึ่ง มีรสเปรี้ยว โดยปรกติ",
+     "flips_with": "กรดเกลือ",
+     "frame": "entity"
+    },
+    {
+     "th": "เกลือด่าง",
+     "rtgs": "kluea-dang",
+     "ipa": "/klɯa̯˧.daːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกลือเบสิก, เกลือที่เกิดขึ้นโดยอนุมูลกรดเข้าไปแทนที่หมู่ไฮดรอกซิล (OH) ซึ่งมีอยู่ในโมเลกุลของเบสไม่หมด เช่น เลดไฮดรอกซีคลอไรด์ [Pb(OH)Cl]",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกลือ",
+      "ด่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.12, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "light + base",
+     "lit_th": "สารประกอบซึ่งประกอบด้วยโลหะหรือหมู + น้ำขี้เถ้าที่เกรอะหรือแช่ไว้ มีรสก",
+     "frame": "entity"
+    },
+    {
+     "th": "เกลือเบสิก",
+     "rtgs": "kluea-be-sik",
+     "ipa": "/klɯa̯˧.beː˧.sik̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกลือที่เกิดขึ้นโดยอนุมูลกรดเข้าไปแทนที่หมู่ไฮดรอกซิล (OH) ซึ่งมีอยู่ในโมเลกุลของเบสไม่หมด เช่น เลดไฮดรอกซีคลอไรด์ [Pb(OH)Cl]",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกลือ",
+      "เบสิก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.13, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "สารประกอบซึ่งประกอบด้วยโลหะหรือหมู + พื้นฐาน",
+     "frame": "quality"
+    },
+    {
+     "th": "เกลือปรกติ",
+     "rtgs": "kluea-prok-ka-ti",
+     "ipa": "/klɯa̯˧.prok̚˨˩.ka˨˩.tiʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกลือที่เกิดขึ้นโดยธาตุไฮโดรเจนชนิดที่แปรสภาพเป็นไอออนได้ ซึ่งมีอยู่ในโมเลกุลของกรดถูกโลหะหรือหมู่ธาตุที่เทียบเท่าโลหะเข้ามาแทนที่จนหมดสิ้น เช่น โซเดียมซัลเฟต (Na₂SO₄)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกลือ",
+      "ปรกติ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.27, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "light + routine",
+     "lit_th": "สารประกอบซึ่งประกอบด้วยโลหะหรือหมู + ธรรมดา",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Salt in the chemist's sense: a metal with an acid radical.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "รางวัลที่ไร้ค่า (เช่นจากกาชา)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Modern slang: a worthless prize, the salt left when nothing good comes.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 3 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['เค็ม', 'อาหาร', 'รส'].",
+ "compounds_unassigned": [
+  {
+   "th": "เกลือฟอง",
+   "rtgs": "kluea–fong",
+   "ipa": "/klɯa̯˧.fɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อเกลือชนิดหนึ่งในตำรายาไทย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกลือ",
+    "ฟอง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "light + bubble",
+   "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + ไข่",
+   "frame": "entity"
+  },
+  {
+   "th": "กรดเกลือ",
+   "rtgs": "krot-kluea",
+   "ipa": "/krot̚˨˩.klɯa̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ กรดไฮโดรคลอริก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรด",
+    "เกลือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "acid + light",
+   "lit_th": "สารอย่างหนึ่ง มีรสเปรี้ยว โดยปรกติ + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็",
+   "flips_with": "เกลือกรด",
+   "frame": "entity"
+  },
+  {
+   "th": "น้ำเกลือ",
+   "rtgs": "nam-kluea",
+   "ipa": "/nam˦˥.klɯa̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "น้ำที่มีเกลือโซเดียมคลอไรด์ละลายอยู่ สำหรับฉีดเข้าหลอดเลือดดำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "น้ำ",
+    "เกลือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + light",
+   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็",
+   "frame": "entity"
+  },
+  {
+   "th": "เกลือเงิน",
+   "rtgs": "kluea-ngoen",
+   "ipa": "/klɯa̯˧.ŋɤn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เกลือปรกติชนิดหนึ่งชื่อซิลเวอร์ไนเทรต (AgNO₃) ลักษณะเป็นผลึกสีขาวละลายน้ำได้ ใช้ประโยชน์ในทางแพทย์ อุตสาหกรรมชุบโลหะให้เป็นเงิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกลือ",
+    "เงิน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เงิน"
+   ],
+   "lit": "light + bread",
+   "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
+  },
+  {
+   "th": "เกลือจืด",
+   "rtgs": "kluea-chuet",
+   "ipa": "/klɯa̯˧.t͡ɕɯːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เกลือที่ตกผลึกก่อนเกลือชนิดอื่น ๆ ในการทำนาเกลือ มีปนอยู่กับเกลือที่ใช้ในการปรุงอาหารเสมอ ไม่มีรส หรือ เกลือที่ได้จากการเผายิปซัม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกลือ",
+    "จืด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "light + fresh",
+   "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + มีรสไม่เค็มไม่เปรี้ยวเป็นต้น",
+   "frame": "quality"
+  },
+  {
+   "th": "ขี้เกลือ",
+   "rtgs": "khi-kluea",
+   "ipa": "/kʰiː˥˩.klɯa̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คราบเหงื่อที่แห้งกรังจนขึ้นขาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "เกลือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ขี้"
+   ],
+   "lit": "crap + light",
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็"
+  },
+  {
+   "th": "บ่อเกลือ",
+   "rtgs": "bo-kluea",
+   "ipa": "/bɔː˨˩.klɯa̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดน่าน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บ่อ",
+    "เกลือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "บ่อ"
+   ],
+   "lit": "well + light",
+   "lit_th": "ช่องลึกลงไปในดินหรือในหินใช้เป็นที + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็",
+   "frame": "entity"
+  },
+  {
+   "th": "เกลือหิน",
+   "rtgs": "kluea-hin",
+   "ipa": "/klɯa̯˧.hin˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เกลือสินเธาว์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกลือ",
+    "หิน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หิน"
+   ],
+   "lit": "light + rock",
+   "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+   "frame": "entity"
+  },
+  {
+   "th": "บางเกลือ",
+   "rtgs": "bang-kluea",
+   "ipa": "/baːŋ˧.klɯa̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอบางปะกง จังหวัดฉะเชิงเทรา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บาง",
+    "เกลือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "บาง"
+   ],
+   "lit": "thin + light",
+   "lit_th": "ทางน้ำเล็ก ๆ + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็",
+   "frame": "entity"
+  },
+  {
+   "th": "เกลือแกง",
+   "rtgs": "kluea-kaeng",
+   "ipa": "/klɯa̯˧.kɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โซเดียมคลอไรด์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกลือ",
+    "แกง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "แกง"
+   ],
+   "lit": "light + curry",
+   "lit_th": "วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็ + กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *klɯəᴬ², จากไทดั้งเดิม *klwɯəᴬ; ร่วมเชื้อสายกับคำเมือง ᨠᩖᩮᩬᩥᩋ (เกลอิอ), เขิน ᨠᩮᩬᩨ (เกอื), ยอง ᨠᩮᩬᩥ, อีสาน เกือ หรือ เกีย, ลาว ເກືອ (เกือ), ไทลื้อ ᦵᦂᦲ (เกี), ไทดำ ꪹꪀ (เก), ไทขาว ꪀꪷ, ไทใหญ่ ၵိူဝ် (เกิว), ไทใต้คง ᥐᥫ (เกอ̂), พ่าเก က︀ိုဝ︀် (กึว์), อาหม 𑜀𑜢𑜤𑜈𑜫 (กึว์), จ้วง gyu, จ้วงแบบหนง gow, จ้วงแบบจั่วเจียง gwe, ตั่ย cưa; เทียบลักเกีย kjie⁵¹",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨠᩖᩮᩬᩥᩋ",
+  "th": "เกลอิอ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "light",
+  "salt",
+  "golah"
+ ]
+}

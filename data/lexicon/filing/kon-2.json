@@ -1,0 +1,8 @@
+{
+ "head": "kon-2",
+ "rule": "กล is /kon/, one syllable, and that is the whole test for membership: a real compound of this head contains /kon/ in its IPA and its etymology writes กล + X or X + กล. Among the words that pass, the division is by what the กล is DOING. Sense 1 takes deception as a CONTRIVANCE — the stratagem, the fraud, the knack, and the verse forms whose artifice is the point (กลบท, กลอักษร). Sense 3 takes the machine metaphor, and takes it wherever a device or engine is meant, whether the device is a gun, a ship's engineer or a computer. Sense 2 is narrower than it looks: it is conjuring performed for an audience (เล่นกล, มายากล), and nothing queued here is a stage word. Sense 4, the poetic กล 'like, as', takes nothing. Five words fail the test outright: กลอน, กลอย, กลอก and กลวง are single syllables with the initial cluster /kl-/, split as if กล + X, and วิกล is Indic.",
+ "senses": {
+  "1": ["กลอักษร", "กลบท", "กลฉ้อฉล", "กลเม็ด", "หลงกล", "กลวิธี", "ชอบกล", "กลยุทธ์", "เกียจกล"],
+  "3": ["กลศาสตร์", "ปืนกล", "ต้นกล", "สมองกล"]
+ }
+}

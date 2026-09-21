@@ -123,7 +123,21 @@ def documents(db: sqlite3.Connection, limit: int | None) -> list[dict]:
     """).fetchall()
 
     docs = []
+    skipped = []
     for r in rows:
+        # A record with no title in ANY language is a failed scrape, not a
+        # manuscript. Four EFEO nodes fetched empty on 2026-07-08 (raw_metadata
+        # '{}', never re-crawled) and carry nothing but a source_url — and an
+        # almost-empty document embeds close to the centre of the vector space,
+        # which makes it a weak neighbour to EVERY query. They took the top three
+        # slots for "brass" and rendered as blank rows: worse than an empty
+        # result, because the reader is shown something and it says nothing.
+        #
+        # Skipped rather than indexed. If the crawl is ever repaired they come
+        # back on the next run; ids are stable, so nothing else shifts.
+        if not _clean(r["title_thai"], r["title_translit"], r["title_english"]):
+            skipped.append(r["id"])
+            continue
         t = tags.get(r["id"], [])[:12]
         text = "\n".join(filter(None, [
             _clean(r["title_thai"], r["title_translit"], r["title_english"]),
@@ -151,6 +165,9 @@ def documents(db: sqlite3.Connection, limit: int | None) -> list[dict]:
                 "date": (r["date_text"] or "")[:60],
             },
         })
+    if skipped:
+        print(f"  · skipped {len(skipped)} untitled record(s) — failed scrapes, "
+              f"not manuscripts: {skipped[:8]}")
     return docs
 
 

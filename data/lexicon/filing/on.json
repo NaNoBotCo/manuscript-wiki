@@ -1,0 +1,44 @@
+{
+ "head": "on",
+ "rule": "อ่อน's fifteen senses all descend from ไม่กระด้าง, so the question is never 'is it soft' but WHAT is soft. Four groups do the work. MATERIAL: sense 1 is the substance that is simply not hard (หินอ่อน, and น้ำอ่อน because Thai's hard water is น้ำกระด้าง — sense 1's own antonym), sense 2 is what yields to a finger, which is how anatomy names a part against its harder neighbour (กระดูกอ่อน, ตับอ่อน). FORCE: sense 8 ไม่แรง takes anything lacking แรง or กำลัง, a body as readily as a flame — อ่อนแอ, อ่อนเพลีย, เข่าอ่อน and the จุดอ่อน named off อ่อนแอ. WILL: sense 4 takes yielding to another person (อ่อนข้อ, โอนอ่อน, อ่อนน้อม), sense 11 the gentleness of manner that is not yielding (อ่อนหวาน), sense 12 the temperament that is simply easily moved (ขวัญอ่อน, with อ่อนไหว). AGE AND SKILL: sense 5 is young plant matter, 10 the still-small creature (ลูกอ่อน, ตัวอ่อน), 13 the untrained hand and 14 the dull mind.",
+ "senses": {
+  "1": [
+   "หินอ่อน",
+   "น้ำอ่อน"
+  ],
+  "2": [
+   "กระดูกอ่อน",
+   "ตับอ่อน"
+  ],
+  "4": [
+   "อ่อนข้อ",
+   "โอนอ่อน",
+   "อ่อนน้อม"
+  ],
+  "5": [
+   "ต้นอ่อน"
+  ],
+  "8": [
+   "เข่าอ่อน",
+   "จุดอ่อน",
+   "อ่อนแอ",
+   "อ่อนเพลีย"
+  ],
+  "10": [
+   "ลูกอ่อน",
+   "ตัวอ่อน"
+  ],
+  "11": [
+   "อ่อนหวาน"
+  ],
+  "12": [
+   "ขวัญอ่อน"
+  ],
+  "13": [
+   "อ่อนหัด"
+  ],
+  "14": [
+   "ปัญญาอ่อน"
+  ]
+ }
+}

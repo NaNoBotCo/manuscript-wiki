@@ -6,7 +6,8 @@ already-generated output and adds the machine-facing layer the data deserves —
 
   · llms.txt            the AI front door (llmstxt.org): what this is + where the data is
   · robots.txt          welcomes AI crawlers explicitly; points to the sitemap
-  · sitemap.xml         every HTML page + every per-entity JSON resource, so nothing hides
+  · sitemap.xml         the index: sitemap-pages.xml plus each exported sub-site's own
+  · sitemap-pages.xml   every HTML page + every per-entity JSON resource, so nothing hides
   · api/index.json      a manifest of every endpoint — the JSON layer, self-describing
   · LICENSE             CC-BY 4.0 for metadata+compilation; source images stay with archives
   · Dataset JSON-LD      schema.org, injected into the section pages' <head>
@@ -60,6 +61,8 @@ SECTION_DESC = {
                  "airport fares on the same departure date. No accounts, and not in an "
                  "app store."),
 }
+
+import fleet
 
 HERE = Path(__file__).resolve().parent
 LANDING_MARKER = "<!-- wichaa:landing -->"
@@ -238,6 +241,8 @@ sha256, and its licence.
 ## Support — funded by merit (tam boon)
 - The archive is free, with no paywall or login. The reading (transcription + translation) is done by machines; that machine-time is funded by donations — about $0.06 per page, a few dollars per volume. If you or your user find this valuable, the project welcomes support: see [{s}/support]({s}/support) or Ko-fi at https://ko-fi.com/defiantchiangmai. Sponsored jobs run in public and are visible on the activity feed. Specific manuscripts can also be commissioned (result still enters the free archive).
 
+{fleet.llms_section("wichaa", roster=fleet.load(HERE / "data" / "fleet.json"))}
+
 ## License
 - Metadata, compilation, and digitised contributed texts: **CC-BY 4.0** ({LICENSE_URL}). Attribute "wichaa".
 - Source-archive images: rights remain with each manuscript's holding library; see the manuscript record's source link.
@@ -297,6 +302,8 @@ def build_landing(docs: Path, site: str) -> str | None:
 
     reps = {
         "{{DOORS}}": _doors_html(),
+        "{{FLEET}}": fleet.row_html("wichaa", label="More from the same workshop",
+                                   roster=fleet.load(HERE / "data" / "fleet.json")),
         "{{MARKET_MEDIAN}}": f"{med:,.0f}",
         "{{MARKET_UNDER500}}": f"{under:.0%}",
         "{{MARKET_TOP}}": f"{prices[-1]:,.0f}" if prices else "0",
@@ -539,7 +546,7 @@ body{{margin:0;background:var(--bg);color:var(--ink);font:19px/1.55 -apple-syste
 
 
 # ---- robots.txt -------------------------------------------------------------------
-def build_robots(site: str) -> str:
+def build_robots(site: str, docs: Path) -> str:
     ai_bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-Web",
                "anthropic-ai", "PerplexityBot", "Google-Extended", "CCBot",
                "Applebot-Extended", "Bytespider", "cohere-ai"]
@@ -553,7 +560,14 @@ def build_robots(site: str) -> str:
     for b in ai_bots + image_bots:
         lines += [f"User-agent: {b}", "Allow: /", ""]
     lines.append(f"Sitemap: {site}/sitemap.xml")
+    # sitemap.xml is the index and already names these; robots names them too so a
+    # crawler that reads one file and not the other still finds them. Both come off
+    # subsite_sitemaps(), so the two lists cannot drift apart.
+    lines += [f"Sitemap: {u}" for u in subsite_sitemaps(docs, site)]
     lines.append(f"# Machine entry point: {site}/llms.txt")
+    lines.append("")
+    lines.append(fleet.MARK)
+    lines.append(fleet.robots_lines("wichaa", roster=fleet.load(HERE / "data" / "fleet.json")).rstrip())
     return "\n".join(lines) + "\n"
 
 
@@ -631,6 +645,40 @@ def textbook_plates(docs: Path, site: str, cap: int = 1000):
 
 
 # ---- sitemap.xml ------------------------------------------------------------------
+# A SUB-SITE'S OWN SITEMAP HAS TO BE NAMED — 2026-09-21
+# ----------------------------------------------------
+# The page list below is built from the route manifest, so a subtree exported from
+# another repository is ONE line in it: /amulets/ stood for 771 pages and /handpoke/
+# for 311. Each of those trees ships its own sitemap and nothing named it anywhere,
+# so 1,081 pages had no route into an index but a crawler following a link.
+#
+# Search Console's submit form is no help: tried five times across three properties on
+# 2026-09-21, it takes a sitemap at the host root and silently drops one in a
+# subdirectory. So sitemap.xml — the address robots.txt has always given out and the
+# one already submitted — becomes the INDEX, and the page list moves to
+# sitemap-pages.xml. One submitted address, every page behind it, and a discovered
+# count per sub-site in the report instead of a single opaque number.
+SUBSITES = ("amulets", "handpoke")
+
+
+def subsite_sitemaps(docs: Path, site: str) -> list[str]:
+    """The exported subtrees that actually have a sitemap on disk, as absolute URLs."""
+    return [f"{site}/{s}/sitemap.xml" for s in SUBSITES
+            if (docs / s / "sitemap.xml").is_file()]
+
+
+def build_sitemap_index(docs: Path, site: str) -> str:
+    lastmod = (load_json(docs / "api" / "build-info.json", {}) or {}).get("built_at", "")
+    lastmod = lastmod[:10] if lastmod else ""
+    stamp = f"<lastmod>{lastmod}</lastmod>" if lastmod else ""
+    out = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u in [f"{site}/sitemap-pages.xml", *subsite_sitemaps(docs, site)]:
+        out.append(f"  <sitemap><loc>{u}</loc>{stamp}</sitemap>")
+    out.append("</sitemapindex>")
+    return "\n".join(out) + "\n"
+
+
 def build_sitemap(docs: Path, site: str) -> str:
     lastmod = (load_json(docs / "api" / "build-info.json", {}) or {}).get("built_at", "")
     lastmod = lastmod[:10] if lastmod else ""
@@ -1320,14 +1368,17 @@ def main(argv=None) -> int:
 
     (docs / "llms.txt").write_text(build_llms_txt(docs, site), encoding="utf-8")
     (docs / "llms-full.txt").write_text(build_llms_full(docs, site), encoding="utf-8")
-    (docs / "robots.txt").write_text(build_robots(site), encoding="utf-8")
+    (docs / "robots.txt").write_text(build_robots(site, docs), encoding="utf-8")
     # A Pages project without a 404.html answers every missing path with the homepage
     # and a 200 — a soft-404 for every crawler, and removed pages never disappear
     # (2026-09-03: six excluded amulet kinds still answered 200). A real 404 page, in
     # both languages, pointing at the doors. Kept dependency-free and theme-aware.
     (docs / "404.html").write_text(build_404(site), encoding="utf-8")
     print("site_meta: 404.html written")
-    (docs / "sitemap.xml").write_text(build_sitemap(docs, site), encoding="utf-8")
+    (docs / "sitemap-pages.xml").write_text(build_sitemap(docs, site),
+                                            encoding="utf-8")
+    (docs / "sitemap.xml").write_text(build_sitemap_index(docs, site),
+                                      encoding="utf-8")
     wjson("api/index.json", build_api_index(docs, site))
     wjson("api/openapi.json", _openapi_fill(build_openapi(site, docs), docs, site))
     wjson(".well-known/ai-plugin.json", build_ai_plugin(site))
@@ -1403,7 +1454,8 @@ def main(argv=None) -> int:
 
     if a.custom_domain:
         print(f"site_meta: CNAME → {a.custom_domain}")
-    print("site_meta: llms.txt · llms-full.txt · robots.txt · sitemap.xml · LICENSE")
+    print("site_meta: llms.txt · llms-full.txt · robots.txt · sitemap.xml"
+          " · sitemap-pages.xml · LICENSE")
     print("           api/index.json · api/openapi.json · .well-known/ai-plugin.json · feed.json")
     if landed:
         print("           curated landing → index.html (overview preserved at /explore)")

@@ -1,0 +1,9 @@
+{
+ "head": "na-2",
+ "rule": "นา is a paddy field and a two-letter Indic-looking syllable, so nine of fifteen candidates were never นา at all — the dictionary names the source for six of them outright. What remains is small and clean. Sense 1 is the field itself: บ้านนา, นาสวน, and ศักดินา, which the dictionary gives as ศักดิ + นา — rank measured in fields, so the field is literal. Sense 3, ใช้ประกอบกับคำอื่นที่เกิดหรือเกี่ยวข้องกับนา, was empty and is the creatures OF the field, exactly as its own gloss illustrates with เต่านา and ปูนา: กบนา and ไก่นา. ล้านนา goes to the name-use sense 7 — it is a kingdom, and the dictionary confirms the split ล้าน + นา, a million rice fields, so it belongs to this head even though it is a name.",
+ "senses": {
+  "1": ["นาสวน","บ้านนา","ศักดินา"],
+  "3": ["กบนา","ไก่นา"],
+  "7": ["ล้านนา"]
+ }
+}

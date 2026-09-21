@@ -1,0 +1,1260 @@
+{
+ "id": "w:kop",
+ "th": "กบ",
+ "status": "mapped",
+ "rtgs": "kop",
+ "paiboon": "gòp",
+ "ipa": "/kop̚˨˩/",
+ "syllable_respelling": "กอ-บอ",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ ภ สะกด ว่า แม่กบ หรือ มาตรากบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term.",
+    "Declared root: แม่กบ, the spelling class of syllables closing in บ ป พ ฟ ภ — a grammarian's term."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ชื่อสัตว์สี่เท้าสะเทินน้ำสะเทินบกในวงศ์ Ranidae ไม่มีหาง ตีนแบนมีหนังติดเป็นพืด กระโดดได้ไกล ว่ายน้ำดำน้ำได้เร็ว มักวางไข่ในน้ำ เมื่อยังเป็นตัวอ่อนจะมีหาง อยู่ในน้ำเรียกว่า ลูกอ๊อด ภายหลังจึงงอกขา หางหดหายไป แล้วขึ้นอาศัยบนบก หน้าแล้งอยู่แต่ในรู ไม่ออกหาอาหารชั่วคราว เรียกว่า กบจำศีล มีหลายชนิดเช่น กบนา (Rana tigerina)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กบเจา",
+     "rtgs": "kop-chao",
+     "ipa": "/kop̚˨˩.t͡ɕaw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางบาล จังหวัดพระนครศรีอยุธยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "เจา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อสัตว์สี่เท้าสะเทินน้ำสะเทินบกใ + เรียกลูกชายคนที่ 9 ว่า ลูกเจา",
+     "frame": "entity"
+    },
+    {
+     "th": "กบนา",
+     "rtgs": "kop-na",
+     "ipa": "/kop̚˨˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อกบขนาดกลางถึงขนาดใหญ่ชนิด Hoplobatrachus rugulosus (Wiegmann) หรือ Rana rugulosus (Wiegmann) ก็มีใช้กัน ในวงศ์ Ranidae หลังสีน้ำตาลอมเขียวมีจุดสีน้ำตาลเข้มถึงดำกระจายทั่วไป ท้องสีขาวนวล กินแมลง เป็นชนิดที่มีแพร่หลายม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "นา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "frog + farm",
+     "lit_th": "ชื่อสัตว์สี่เท้าสะเทินน้ำสะเทินบกใ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: กบ 'frog'.",
+    "Declared root: กบ 'frog'.",
+    "Declared root: กบ 'frog'.",
+    "Declared root: กบ 'frog'.",
+    "Declared root: กบ 'frog'.",
+    "Declared root: กบ 'frog'.",
+    "Declared root: กบ 'frog'.",
+    "Declared root: กบ 'frog'.",
+    "Declared root: กบ 'frog'.",
+    "Declared root: กบ 'frog'.",
+    "Declared root: กบ 'frog'."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "(ปลา~) ปลาคางคก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "ปลากบ, the toadfish, named for the frog.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เครื่องมือช่างไม้สำหรับไสไม้ ทำหน้าไม้ให้เรียบ ให้เป็นราง หรือลอกบัว ลอกลวด มีมากชนิดด้วยกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไสกบ",
+     "rtgs": "sai-kop",
+     "ipa": "/saj˩˩˦.kop̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กดกบลงบนไม้แล้วดันกบเพื่อทำให้หน้าไม้เรียบ ให้เป็นราง หรือลอกบัว ลอกลวด เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไส",
+      "กบ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.44, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เสือกไป + เครื่องมือช่างไม้สำหรับไสไม้ ทำหน้"
+    },
+    {
+     "th": "กบผิว",
+     "rtgs": "kop-phio",
+     "ipa": "/kop̚˨˩.pʰiw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กบไสไม้ที่ใช้แต่งผิวไม้ให้เรียบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "ผิว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.22, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เครื่องมือช่างไม้สำหรับไสไม้ ทำหน้ + ส่วนที่มีลักษณะบาง ๆ เป็นพื้นหุ้มอ",
+     "frame": "entity"
+    },
+    {
+     "th": "กบนาง",
+     "rtgs": "kop-nang",
+     "ipa": "/kop̚˨˩.naːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กบไสไม้ที่ใช้แต่งผิวไม้หลังจากที่ไสด้วยกบอย่างหยาบ ๆ มาแล้ว ทำให้ผิวไม้เรียบยิ่งขึ้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "นาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.19, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นาง"
+     ],
+     "lit": "frog + Mrs",
+     "lit_th": "เครื่องมือช่างไม้สำหรับไสไม้ ทำหน้ + ผู้หญิง",
+     "frame": "entity"
+    },
+    {
+     "th": "กบบรรทัด",
+     "rtgs": "kop-ban-that",
+     "ipa": "/kop̚˨˩.ban˧.tʰat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กบไสไม้ที่มีความยาวมากถึงประมาณครึ่งเมตร ใช้ไสแต่งผิวไม้ให้ได้ระดับเดียวกันตลอด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "บรรทัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เครื่องมือช่างไม้สำหรับไสไม้ ทำหน้ + ข้อความที่เขียนหรือพิมพ์เป็นต้นต่อ",
+     "frame": "entity"
+    },
+    {
+     "th": "กบบัว",
+     "rtgs": "kop-bua",
+     "ipa": "/kop̚˨˩.bua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กบไสไม้ที่มีคมเป็นรูปต่าง ๆ ใช้ไสไม้ให้เป็นรูปตามต้องการ เช่น ไสเป็นบัวเชิงผนัง ไสเป็นรูปโค้งครึ่งวงกลมหรือโค้งอย่างเล็บมือ เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "บัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "frog + lotus",
+     "lit_th": "เครื่องมือช่างไม้สำหรับไสไม้ ทำหน้ + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
+    },
+    {
+     "th": "กบไฟฟ้า",
+     "rtgs": "kop-fai-fa",
+     "ipa": "/kop̚˨˩.faj˧.faː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กบไสไม้ที่ใช้พลังไฟฟ้า ใช้แต่งผิวไม้ให้เรียบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "ไฟฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.20, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "frog + juice",
+     "lit_th": "เครื่องมือช่างไม้สำหรับไสไม้ ทำหน้ + พลังงานรูปหนึ่งซึ่งเกี่ยวข้องกับกา",
+     "frame": "entity"
+    },
+    {
+     "th": "กบกระดี่",
+     "rtgs": "kop-kra-di",
+     "ipa": "/kop̚˨˩.kra˨˩.diː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กบไสไม้ที่มีความกว้างประมาณ 2 เซนติเมตร ยาว 45 เซนติเมตร สำหรับไสตกแต่งส่วนโครงสร้างที่เป็นบังใบ เช่น บังใบของขอบประตูหน้าต่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "กระดี่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เครื่องมือช่างไม้สำหรับไสไม้ ทำหน้ + ชื่อปลาน้ำจืด",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: กบ the carpenter's plane.",
+    "Declared root: กบ the carpenter's plane.",
+    "Declared root: กบ the carpenter's plane.",
+    "Declared root: กบ the carpenter's plane.",
+    "Declared root: กบ the carpenter's plane.",
+    "Declared root: กบ the carpenter's plane.",
+    "Declared root: กบ the carpenter's plane.",
+    "Declared root: กบ the carpenter's plane.",
+    "Declared root: กบ the carpenter's plane.",
+    "Declared root: กบ the carpenter's plane.",
+    "Declared root: กบ the carpenter's plane."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "อุปกรณ์ใช้เหลาดินสอ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "A pencil sharpener as a small plane.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ชื่อทุเรียนพันธุ์หนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: กบ, a durian cultivar.",
+    "Declared root: กบ, a durian cultivar.",
+    "Declared root: กบ, a durian cultivar.",
+    "Declared root: กบ, a durian cultivar.",
+    "Declared root: กบ, a durian cultivar.",
+    "Declared root: กบ, a durian cultivar.",
+    "Declared root: กบ, a durian cultivar.",
+    "Declared root: กบ, a durian cultivar.",
+    "Declared root: กบ, a durian cultivar.",
+    "Declared root: กบ, a durian cultivar.",
+    "Declared root: กบ, a durian cultivar."
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ชื่อไม้ล้มลุกมีหัวชนิดหนึ่งในสกุล Geodorum วงศ์ Orchidaceae หัวมีลักษณะเหมือนกบ เชื่อกันว่าใช้ในทางอยู่ยงคงกระพันได้, ข้าวอังกุลี ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: กบ, a Geodorum orchid.",
+    "Declared root: กบ, a Geodorum orchid.",
+    "Declared root: กบ, a Geodorum orchid.",
+    "Declared root: กบ, a Geodorum orchid.",
+    "Declared root: กบ, a Geodorum orchid.",
+    "Declared root: กบ, a Geodorum orchid.",
+    "Declared root: กบ, a Geodorum orchid.",
+    "Declared root: กบ, a Geodorum orchid.",
+    "Declared root: กบ, a Geodorum orchid.",
+    "Declared root: กบ, a Geodorum orchid.",
+    "Declared root: กบ, a Geodorum orchid."
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "เต็มมาก, เต็มแน่น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: กบ 'packed full'.",
+    "Declared root: กบ 'packed full'.",
+    "Declared root: กบ 'packed full'.",
+    "Declared root: กบ 'packed full'.",
+    "Declared root: กบ 'packed full'.",
+    "Declared root: กบ 'packed full'.",
+    "Declared root: กบ 'packed full'.",
+    "Declared root: กบ 'packed full'.",
+    "Declared root: กบ 'packed full'.",
+    "Declared root: กบ 'packed full'.",
+    "Declared root: กบ 'packed full'."
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ประกบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ประกบ",
+     "rtgs": "pra-kop",
+     "ipa": "/pra˨˩.kop̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แนบชิดกัน, ทาบกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ประ",
+      "กบ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + ประกบ"
+    }
+   ],
+   "needs_check": [
+    "Declared root: กบ 'to fit face to face' (ประกบ).",
+    "Declared root: กบ 'to fit face to face' (ประกบ).",
+    "Declared root: กบ 'to fit face to face' (ประกบ).",
+    "Declared root: กบ 'to fit face to face' (ประกบ).",
+    "Declared root: กบ 'to fit face to face' (ประกบ).",
+    "Declared root: กบ 'to fit face to face' (ประกบ).",
+    "Declared root: กบ 'to fit face to face' (ประกบ).",
+    "Declared root: กบ 'to fit face to face' (ประกบ).",
+    "Declared root: กบ 'to fit face to face' (ประกบ).",
+    "Declared root: กบ 'to fit face to face' (ประกบ).",
+    "Declared root: กบ 'to fit face to face' (ประกบ)."
+   ]
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "สลักไม้ที่ใส่ไว้ด้านในส่วนล่างตอนกลางของบานหน้าต่างหรือประตูทำหน้าที่คล้ายกลอน เมื่อปิดหน้าต่างหรือประตู ใช้กบนี้สอดเข้าในช่องเจาะตัวไม้ธรณี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "metonymy",
+   "via_note": "The bolt that brings a shutter face to face with its frame.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "อักษรย่อของ กระบี่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, verb, proper noun",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กบว.",
+     "rtgs": "ko-bo-wo",
+     "ipa": "/kɔː˧.bɔː˧.wɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อักษรย่อของ คณะกรรมการบริหารวิทยุกระจายเสียงและวิทยุโทรทัศน์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "ว."
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11: gloss similarity 0.23, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อักษรย่อของ กระบี่ + อักษรย่อของ วา",
+     "frame": "entity"
+    },
+    {
+     "th": "กบค.",
+     "rtgs": "ko-bo-kho",
+     "ipa": "/kɔː˧.bɔː˧.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อักษรย่อของ กรมบังคับคดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "ค."
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11: gloss similarity 0.43, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อักษรย่อของ กระบี่ + อักษรย่อของ คำคุณศัพท์",
+     "frame": "entity"
+    },
+    {
+     "th": "กบข.",
+     "rtgs": "ko-bo-kho",
+     "ipa": "/kɔː˧.bɔː˧.kʰɔː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อักษรย่อของ กองทุนบำเหน็จบำนาญข้าราชการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กบ",
+      "ข."
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11: gloss similarity 0.30, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อักษรย่อของ กระบี่ + อักษรย่อของ เขต",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of กระบี่ — not a sense.",
+    "Declared root: an abbreviation of กระบี่ — not a sense.",
+    "Declared root: an abbreviation of กระบี่ — not a sense.",
+    "Declared root: an abbreviation of กระบี่ — not a sense.",
+    "Declared root: an abbreviation of กระบี่ — not a sense.",
+    "Declared root: an abbreviation of กระบี่ — not a sense.",
+    "Declared root: an abbreviation of กระบี่ — not a sense.",
+    "Declared root: an abbreviation of กระบี่ — not a sense.",
+    "Declared root: an abbreviation of กระบี่ — not a sense.",
+    "Declared root: an abbreviation of กระบี่ — not a sense.",
+    "Declared root: an abbreviation of กระบี่ — not a sense."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 12 manuscript titles, 87 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits ['ช่าง', 'เครื่องมือ', 'ตี', 'เครื่อง'].",
+ "compounds_unassigned": [
+  {
+   "th": "กบคิ้ว",
+   "rtgs": "kop-khio",
+   "ipa": "/kop̚˨˩.kʰiw˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กบไสไม้ที่มีใบเล็กมาก ใช้ไสเจาะแต่งวงกบหรือขอบประตูให้เป็นเส้นลึกลงในเนื้อไม้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กบ",
+    "คิ้ว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "frog + eyebrow",
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + ส่วนโค้งขอบตาด้านบน ซึ่งมีขนขึ้นที",
+   "frame": "entity"
+  },
+  {
+   "th": "กบดาน",
+   "rtgs": "kop-dan",
+   "ipa": "/kop̚˨˩.daːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นอนพังพาบกับพื้นใต้น้ำ เป็นอาการของจระเข้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กบ",
+    "ดาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + แข็ง",
+   "frame": "quality"
+  },
+  {
+   "th": "กบโค้ง",
+   "rtgs": "kop-khong",
+   "ipa": "/kop̚˨˩.kʰoːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กบไสไม้ที่มีคมโค้ง ใช้ไสปรับแต่งผิวไม้ด้านในที่มีความโค้งมน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กบ",
+    "โค้ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "frog + bend",
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + น้อมลง"
+  },
+  {
+   "th": "วงกบ",
+   "rtgs": "wong-kop",
+   "ipa": "/woŋ˧.kop̚˨˩/",
+   "gloss": {
+    "en": [
+     "sash"
+    ],
+    "th": "กรอบประตูหรือหน้าต่าง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "วง",
+    "กบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "zone + frog",
+   "lit_th": "รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม + เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ",
+   "frame": "entity"
+  },
+  {
+   "th": "กบเจียด",
+   "rtgs": "kop-chiat",
+   "ipa": "/kop̚˨˩.t͡ɕia̯t̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กบไสไม้ขนาดเล็ก ใช้ไสแต่งเหลี่ยมไม้ไม่ให้คม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กบ",
+    "เจียด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + ภาชนะชนิดหนึ่งลักษณะคล้ายตะลุ่มมีฝ",
+   "frame": "entity"
+  },
+  {
+   "th": "ก้นกบ",
+   "rtgs": "kon-kop",
+   "ipa": "/kon˥˩.kop̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ปลายกระดูกสันหลังที่สุดลงมาข้างล่าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ก้น",
+    "กบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ก้น"
+   ],
+   "lit": "ass + frog",
+   "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ",
+   "frame": "entity"
+  },
+  {
+   "th": "การประกบ",
+   "rtgs": "kan-pra-kop",
+   "ipa": "/kaːn˧.pra˨˩.kop̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ประกบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การประ",
+    "กบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ประ + เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ",
+   "frame": "entity"
+  },
+  {
+   "th": "การกบ",
+   "rtgs": "kan-kop",
+   "ipa": "/kaːn˧.kop̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "กบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ",
+   "frame": "entity"
+  },
+  {
+   "th": "เป่ากบ",
+   "rtgs": "pao-kop",
+   "ipa": "/paw˨˩.kop̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การเล่นของเด็กชนิดหนึ่ง โดยมีผู้เล่น 2 คน ผลัดกันเป่ายางรัดของวงเล็ก ๆ ให้เกยทับยางของฝ่ายตรงข้าม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เป่า",
+    "กบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "play + frog",
+   "lit_th": "พ่นลมออกมาทางปาก + เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ"
+  },
+  {
+   "th": "กบขอด",
+   "rtgs": "kop-khot",
+   "ipa": "/kop̚˨˩.kʰɔːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กบไสไม้ตัวสั้น คมหนา ใช้ไสไม้ในงานหยาบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กบ",
+    "ขอด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + ขมวดเป็นปม"
+  },
+  {
+   "th": "ขี้กบ",
+   "rtgs": "khi-kop",
+   "ipa": "/kʰiː˥˩.kop̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เศษไม้ที่ออกมาด้วยการไสกบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "กบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ขี้"
+   ],
+   "lit": "crap + frog",
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ"
+  },
+  {
+   "th": "กบทู",
+   "rtgs": "kop-thu",
+   "ipa": "/kop̚˨˩.tʰuː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สันหลังคาเรือน, ไม้ข่มข้างกลอน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กบ",
+    "ทู"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + สอง"
+  },
+  {
+   "th": "การไสกบ",
+   "rtgs": "kan-sai-kop",
+   "ipa": "/kaːn˧.saj˩˩˦.kop̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ไสกบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การไส",
+    "กบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ไส + เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ",
+   "frame": "entity"
+  },
+  {
+   "th": "กบไต๋",
+   "rtgs": "kop-tai",
+   "ipa": "/kop̚˨˩.taj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ปกปิดไพ่ตัวสำคัญไว้ไม่ให้คู่แข่งรู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กบ",
+    "ไต๋"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ + กลเม็ด",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *kɤpᴰ; ร่วมเชื้อสายกับลาว ກົບ (ก็บ), คำเมือง ᨠᩫ᩠ᨷ (ก็บ), ไทใหญ่ ၵူပ်း (กู๊ป), อาหม 𑜀𑜤𑜆𑜫 (กุป์), ไทดำ ꪶꪀꪚ (โกบ), ปู้อี gobt, จ้วง goep, แสก กั๊บ; เทียบเบดั้งเดิม *kupᴰ² (“กบใหญ่”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨠᩫ᩠ᨷ",
+  "th": "ก็บ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "frog"
+ ]
+}
