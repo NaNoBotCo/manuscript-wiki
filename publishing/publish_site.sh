@@ -444,6 +444,12 @@ log "Deploying to Cloudflare → deploy.sh wichaa  (two halves, ~25 min upload)"
 "$DEPLOY_SH" wichaa
 log "Done. Live → ${SITE_URL}/"
 
+# 4b. IndexNow — tell Bing and the engines that share its feed which pages
+# changed tonight. After the deploy, because it announces URLs that must
+# already be live. Best-effort: it exits 0 on any refusal and says why.
+"$PY" "$WIKI_DIR/publishing/ping_indexnow.py" --docs "$SITE_REPO/docs" \
+  || log "  ! IndexNow ping failed (site is live regardless)"
+
 # 5. GitHub push — best-effort, OFF by default. See the header: the account is
 # flagged, so this would push into a 404. It never fails the publish, because by
 # this point the site is already public on Cloudflare.

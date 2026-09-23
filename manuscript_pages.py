@@ -37,6 +37,7 @@ from __future__ import annotations
 import html
 import json
 
+import byline
 import cartography
 import imagemeta
 import strings
@@ -248,7 +249,20 @@ def _jsonld(det, url, og_image, page=None, crumb_items=None):
         ld["image"] = imagemeta.image_object(det, og_image, page)
     if det.get("genreLabel"):
         ld["genre"] = det["genreLabel"]
-    out = [json.dumps(ld, ensure_ascii=False)]
+    # THE RECORD PAGE IS NOT THE MANUSCRIPT — 2026-09-23
+    # The palm-leaf text has no author anyone can name, and writing a living
+    # cataloguer into that field would be a false claim about the object. So
+    # the Manuscript keeps describing the thing, and a second node describes
+    # the page about it — who compiled it, who publishes it, when it last
+    # changed. Across 6,986 pages that is the difference between an archive
+    # with a name behind it and an anonymous scrape.
+    ld["@id"] = f"{url}#manuscript"
+    route = url.split("://", 1)[-1].split("/", 1)[-1] if "://" in url else url.lstrip("/")
+    out = [json.dumps(ld, ensure_ascii=False),
+           json.dumps(byline.webpage(url, det.get("title") or "Manuscript", route,
+                                     "https://creativecommons.org/licenses/by/4.0/",
+                                     about={"@id": f"{url}#manuscript"}),
+                      ensure_ascii=False)]
     if crumb_items:
         # Same trail as the visible breadcrumb (wichaa › tradition › genre › this),
         # as a real BreadcrumbList — a rich-result lever the visible nav alone isn't.

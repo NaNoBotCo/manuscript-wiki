@@ -62,6 +62,7 @@ SECTION_DESC = {
                  "app store."),
 }
 
+import byline
 import fleet
 
 HERE = Path(__file__).resolve().parent
@@ -95,6 +96,12 @@ CITE_PUBLISHER = "wichaa"
 CITE_ATTRIBUTION = "Lanna Manuscript Wiki"
 CITE_LICENSE = "CC BY 4.0"
 DATES_LEDGER = HERE / "data" / "page_dates.json"
+
+# IndexNow: one POST tells Bing, Yandex, Seznam, Naver and the engines that read
+# Bing's index which pages changed, instead of waiting for a crawl to notice.
+# The protocol proves ownership by a file at the site root whose whole content
+# is the key. publishing/ping_indexnow.py reads the key back out of this line.
+INDEXNOW_KEY = "cbdf5b2cff533ceae3a1b866d8f30b44"
 
 # Section pages are DISCOVERED, never hand-listed.
 #
@@ -680,13 +687,24 @@ def build_sitemap_index(docs: Path, site: str) -> str:
 
 
 def build_sitemap(docs: Path, site: str) -> str:
-    lastmod = (load_json(docs / "api" / "build-info.json", {}) or {}).get("built_at", "")
-    lastmod = lastmod[:10] if lastmod else ""
-    urls: list[tuple[str, str]] = []
+    # ONE DATE DOWN 16,000 URLS IS NOT A DATE — 2026-09-23
+    # ----------------------------------------------------
+    # Every URL used to carry the build's own timestamp, so the whole sitemap
+    # moved together every publish and told a crawler nothing about which page
+    # was new. This repo already knows better: PageDates keeps a per-route
+    # first/modified ledger, seeded from git history and advanced only when a
+    # page's own content hash changes. Read it here. The build date stays as
+    # the fallback for a route the ledger has not seen, which is what a genuinely
+    # new page should say anyway.
+    built = (load_json(docs / "api" / "build-info.json", {}) or {}).get("built_at", "")
+    built = built[:10] if built else ""
+    ledger = (load_json(DATES_LEDGER, {}) or {}).get("routes", {})
+    urls: list[tuple[str, str, str]] = []
     images: dict[str, list[tuple[str, str]]] = {}  # loc -> [(img_url, caption), ...]
 
     def add(path, prio):
-        urls.append((f"{site}/{path}", prio))
+        when = (ledger.get(path) or {}).get("modified") or built
+        urls.append((f"{site}/{path}", prio, when))
 
     for route, _ in discover_sections(docs):
         add(route, "0.9" if route == "" else "0.7")
@@ -701,11 +719,15 @@ def build_sitemap(docs: Path, site: str) -> str:
         # minted slug now) — resolvable forever, but never advertised
         if not d.name.isdigit():
             add(f"read/{d.name}/", "0.6")
-    # per-entity JSON resources — the real crawlable data
-    for f in sorted((docs / "api" / "article").glob("*.json")):
-        add(f"api/article/{f.name}", "0.5")
-    for f in sorted((docs / "api" / "manuscript").glob("*.json")):
-        add(f"api/manuscript/{f.name}", "0.3")
+    # THE JSON IS NOT A PAGE — 2026-09-23
+    # A sitemap is a list of pages to index. 7,183 of the 15,941 entries here
+    # were api/article/*.json and api/manuscript/*.json: one JSON resource per
+    # HTML page that already says the same thing, which is how a crawler comes
+    # to report "duplicate without user-selected canonical" and spends its
+    # visits re-reading data it cannot rank. The data stays exactly as
+    # reachable — llms.txt names it, api/index.json lists it, the Dataset
+    # JSON-LD carries it as a distribution, and every page links its own — it
+    # is simply no longer offered as a page to index.
 
     # Image entries attach to whichever indexable page actually represents that
     # image set — the Browse gallery for the corpus-wide manuscript scan, the
@@ -722,10 +744,10 @@ def build_sitemap(docs: Path, site: str) -> str:
 
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" {IMAGE_NS}>']
-    for loc, prio in urls:
+    for loc, prio, when in urls:
         row = [f"  <url><loc>{loc}</loc>"]
-        if lastmod:
-            row.append(f"<lastmod>{lastmod}</lastmod>")
+        if when:
+            row.append(f"<lastmod>{when}</lastmod>")
         row.append(f"<priority>{prio}</priority>")
         for img_url, caption in images.get(loc, []):
             row.append(f"<image:image><image:loc>{html.escape(img_url, quote=True)}</image:loc>"
@@ -1021,8 +1043,13 @@ def dataset_jsonld(docs: Path, site: str) -> dict:
                         "with a curated knowledge graph and a living-market layer."),
         "url": site + "/",
         "license": LICENSE_URL,
-        "creator": {"@type": "Organization", "name": "NaNoBotCo",
-                    "email": "530kings@proton.me"},
+        # The organisation made it and a named person compiled it. Both, because
+        # an engine ranking a research corpus looks for a human it can tie to
+        # other work, and byline.person() carries the sameAs trail that does it.
+        "creator": [{"@type": "Organization", "name": "NaNoBotCo",
+                     "email": "530kings@proton.me"},
+                    byline.person()],
+        "publisher": byline.publisher(),
         "keywords": KEYWORDS,
         "inLanguage": ["th", "en", "pi"],
         "isAccessibleForFree": True,
@@ -1375,10 +1402,10 @@ def main(argv=None) -> int:
     # both languages, pointing at the doors. Kept dependency-free and theme-aware.
     (docs / "404.html").write_text(build_404(site), encoding="utf-8")
     print("site_meta: 404.html written")
-    (docs / "sitemap-pages.xml").write_text(build_sitemap(docs, site),
-                                            encoding="utf-8")
-    (docs / "sitemap.xml").write_text(build_sitemap_index(docs, site),
-                                      encoding="utf-8")
+    (docs / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
+    # The sitemaps are written further down, after the dates pass — they read
+    # the ledger it updates, and a sitemap built before it would carry every
+    # changed page's PREVIOUS date.
     wjson("api/index.json", build_api_index(docs, site))
     wjson("api/openapi.json", _openapi_fill(build_openapi(site, docs), docs, site))
     wjson(".well-known/ai-plugin.json", build_ai_plugin(site))
@@ -1449,7 +1476,29 @@ def main(argv=None) -> int:
         if inject(hp, [manuscript_jsonld(rec or {}, site, mid, docs)],
                   extra=citation_meta(mtitle, f"{site}/read/{mid}/", pub, mod)):
             n_read += 1
+    # Entity pages (/m/, /place/, /a/ …) are rendered by their own builders and
+    # never pass through inject(), so the ledger had never seen them and their
+    # sitemap rows fell back to the build date — 8,700 URLs all claiming to have
+    # changed today. Stamping them here costs one read and one hash each and
+    # gives every row in the sitemap a date it earned.
+    n_entity = 0
+    for e in (load_json(docs / "api" / "pages.json", {}) or {}).get("pages", []):
+        if e.get("kind") != "entity":
+            continue
+        hp = docs / e["route"] / "index.html"
+        if hp.is_file():
+            dates.stamp(e["route"], hp)
+            n_entity += 1
     dates.save()
+    print(f"           page dates → {n_pages} section + {n_read} reader "
+          f"+ {n_entity} entity pages")
+
+    # Now the sitemaps, against a ledger that is current.
+    (docs / "sitemap-pages.xml").write_text(build_sitemap(docs, site),
+                                            encoding="utf-8")
+    (docs / "sitemap.xml").write_text(build_sitemap_index(docs, site),
+                                      encoding="utf-8")
+
     n_iri, iri_host = graph_iris(docs, a.iri_host)
 
     if a.custom_domain:

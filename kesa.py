@@ -31,6 +31,8 @@ import sys
 import time
 from pathlib import Path
 
+import byline
+
 HERE = Path(__file__).resolve().parent
 DB = Path(os.environ.get("CATALOG_DB") or
           (HERE.parent / "manuscript-crawler" / "crawler" / "catalog.db"))
@@ -614,14 +616,19 @@ def render(c: dict, bs: dict, site: str, orders, fixed: int, have_plates: bool) 
         "cells": [list(c) for c in PLATE_CELLS],
         "closes": closes, "n": 6}, ensure_ascii=False)
 
-    jsonld = json.dumps({
+    # An article with no author is an article no engine can attribute, and
+    # attribution to a named person with a sameAs trail is the signal that
+    # carries furthest — see byline.py.
+    jsonld = json.dumps(byline.sign({
         "@context": "https://schema.org", "@type": "ScholarlyArticle",
         "name": "ยันต์เกศาผิด — the yant that writes the thirty-two parts",
         "url": f"{site}/kesa/",
         "description": "Where the kesa yant's method comes from, traced through the "
                        "manuals in this corpus, and whether its closing loop is possible.",
+        "inLanguage": "en",
+        "isPartOf": {"@type": "Dataset", "name": "wichaa", "url": f"{site}/"},
         "license": "https://creativecommons.org/licenses/by/4.0/",
-    }, ensure_ascii=False)
+    }, "kesa/"), ensure_ascii=False)
 
     closed_line = ("no closed tour exists" if not b["closed"]["exists"]
                    else "a closed tour exists")

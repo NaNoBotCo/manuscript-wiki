@@ -26,6 +26,8 @@ import sqlite3
 import sys
 from pathlib import Path
 
+import byline
+
 HERE = Path(__file__).resolve().parent
 DB = Path(os.environ.get("CATALOG_DB") or (HERE.parent / "manuscript-crawler" / "crawler" / "catalog.db"))
 # The full site moved to wichaa on Nan's call, 2026-09-21; the GitHub copy is
@@ -120,14 +122,15 @@ def render(c: dict, site: str) -> str:
                         f'<td class="g">{cite}</td></tr>')
     src = "".join(src_rows)
     kha = next((t["pages"] for t in c["terms"] if t["th"] == "สักขาลาย"), 0)
-    jsonld = json.dumps({
+    jsonld = json.dumps(byline.sign({
         "@context": "https://schema.org", "@type": "ScholarlyArticle",
         "name": "สักขาลาย — the Lanna leg tattoo, counted in the corpus",
         "url": f"{site}/handpoke/corpus/",
         "description": f"The waist-to-ankle tattoo a Lanna man was expected to carry, and how "
                        f"often it appears in {c['pages']:,} transcribed manuscript pages: {kha}.",
+        "inLanguage": "en",
         "isBasedOn": SITE,
-    }, ensure_ascii=False)
+    }, "handpoke/", "https://creativecommons.org/licenses/by/4.0/"), ensure_ascii=False)
     return PAGE.replace("{{SITE}}", site).replace("{{JSONLD}}", jsonld) \
         .replace("{{ROWS}}", rows).replace("{{SRC}}", src) \
         .replace("{{PAGES}}", f"{c['pages']:,}").replace("{{MSS}}", f"{c['manuscripts']:,}") \
