@@ -8485,7 +8485,7 @@ function render(){const d=window.__W,main=document.getElementById('main');main.t
   sr.append(el('span',{className:'sortlab',textContent:'Sort'}));
   const sel=el('select',{className:'wsort'});
   for(const [v,label] of [['photos','Most photographs'],['name','Name (A–Z)'],
-      ['heritage','Heritage first'],['age','Oldest known first'],['near','Nearest to me']]){
+      ['heritage','Heritage first'],['age','Oldest known first'],['near','Nearest to me (straight line)']]){
     const o=el('option',{value:v,textContent:label}); if(v===sortBy)o.selected=true; sel.append(o);}
   sel.onchange=()=>{
     if(sel.value==='near'&&!here){
@@ -8545,7 +8545,7 @@ function render(){const d=window.__W,main=document.getElementById('main');main.t
 
 const SORTNOTE={
   age:'Only 8 temples have a recorded founding date — the rest sort after them, undated.',
-  near:'Distances are computed on your device; your location is never sent anywhere.',
+  near:'Straight-line distance from your device, worked out on your device. The road there can be longer: one-way streets, U-turns, the moat.',
   photos:'Temples with the most freely-licensed photographs first.'};
 function paint(grid){grid.textContent='';const items=visible();
   const note=document.getElementById('heronote');
@@ -8560,7 +8560,7 @@ function paint(grid){grid.textContent='';const items=visible();
     b.append(el('div',{className:'wt'},[w.heritage?el('span',{className:'wbadge',textContent:'Heritage'}):null,document.createTextNode(w.nameRoman||w.name||'(unnamed)')]));
     if(w.name&&w.name!==w.nameRoman)b.append(el('div',{className:'wth',textContent:w.name}));
     const bits=[];if(w.province)bits.push(w.province);
-    const dk=distKm(w); if(dk!=null)bits.push(dk<1?Math.round(dk*1000)+' m away':dk.toFixed(dk<10?1:0)+' km away');
+    const dk=distKm(w); if(dk!=null)bits.push((dk<1?Math.round(dk*1000)+' m':dk.toFixed(dk<10?1:0)+' km')+' straight-line');
     if(w.founded)bits.push('founded '+w.founded);
     if(nphotos(w))bits.push(nphotos(w)+' photo'+(nphotos(w)===1?'':'s'));
     b.append(el('div',{className:'wm',textContent:bits.join(' · ')}));

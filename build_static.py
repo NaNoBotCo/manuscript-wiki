@@ -607,6 +607,19 @@ def main():
         print(f"ERROR: catalogue not found at {wiki.CATALOG_DB}", file=sys.stderr)
         return 1
 
+    # Wat pins sit in the Lanna north (lat 17–20.6 N, lng 97.3–101.4 E). The
+    # ranges do not overlap, so a swapped lat/lng fails too. Checked before the
+    # wipe, so a bad pin stops the build with docs/ untouched.
+    _bad = [w for w in wiki.wats_snapshot().get("wats", [])
+            if w.get("lat") is not None and w.get("lng") is not None
+            and not (17.0 <= w["lat"] <= 20.6 and 97.3 <= w["lng"] <= 101.4)]
+    if _bad:
+        print(f"ERROR: {len(_bad)} wat pin(s) outside the Lanna north or lat/lng "
+              f"swapped, e.g. " + "; ".join(
+                  f"{w.get('nameRoman') or w.get('name')} {w['lat']},{w['lng']}"
+                  for w in _bad[:5]), file=sys.stderr)
+        return 1
+
     out = Path(args.out).expanduser().resolve()
     if (out / ".git").exists():
         print(f"ERROR: refusing to wipe {out} — it is a git working tree.\n"
@@ -639,7 +652,7 @@ def main():
     # nothing puts them back. That is what happened on 2026-07-28 03:06: 7,049 files
     # removed, wichaa.net/hun, /jovilabe and /need serving 404 until restored by hand.
     #
-    # Until those modules grow real entry points and join the pipeline, the honest
+    # Until those modules grow real entry points and join the pipeline, the correct
     # thing is to leave their output alone rather than destroy pages we cannot
     # rebuild. Everything build_static owns is still wiped and rebuilt from scratch.
     UNMANAGED = (
@@ -649,7 +662,7 @@ def main():
     )
     if out.exists():
         # Move-aside/move-back rather than a filtered walk: it handles the nested
-        # api/… entries for free and never leaves a half-deleted tree behind.
+        # api/… entries for free and leaves no half-deleted tree behind.
         keep = Path(tempfile.mkdtemp(prefix="lanna-keep-", dir=out.parent))
         for rel in UNMANAGED:
             src = out / rel
@@ -709,7 +722,7 @@ def main():
         # /phasa — ภาษา, the linguistics door. Gathers รากศัพท์ (roots),
         # ทับศัพท์ (English written in Thai script) and ถ่ายเสียง (romanisation)
         # as one subject. Counts and the misreading exhibit come from the
-        # thapsap catalogue's export; the page is honestly empty without it.
+        # thapsap catalogue's export; the page is empty without it.
         "phasa/index.html":      (phasa.phasa_page(wiki.NAV, wiki.page), "ภาษา · Language", "section"),
         # /sukhwan — สู่ขวัญยนต์, the khwan-calling rite for machines and robots.
         # A /widgets side tool (see its SIDE_TOOLS entry); robot opt-in goes
@@ -825,7 +838,7 @@ def main():
     # Export each data widget as a standalone page + a JSON snapshot the shim resolves.
     # `traffic` is intentionally live-only (it counts requests to the running server) —
     # it still gets a page so the index link resolves, but with an empty snapshot so it
-    # renders its honest "no traffic recorded" state instead of a frozen, stale number.
+    # renders its "no traffic recorded" state instead of a frozen, stale number.
     wdir = api / "w"
     wdir.mkdir(exist_ok=True)
     write_text(out / "w" / "index.html", inject(wiki.widgets_index_page(), base))
