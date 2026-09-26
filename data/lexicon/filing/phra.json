@@ -1,0 +1,36 @@
+{
+ "head": "phra",
+ "rule": "พระ is an honorific prefix (sense 8) with eleven specialisations under it, so nothing files at the core unless no specialisation claims it. The register decides: sense 9 is อิสริยยศเจ้านาย and takes the royal vocabulary for a body and its belongings, which is the bulk of this list — พระองค์, พระฉวี, พระมังสา for the person; พระภูษา, พระสังวาล, พระสุคนธ์, พระสำอาง for what is worn and used; พระตะพาบ, พระสุพรรณศรี for the vessels; พระเมรุมาศ, พระนคร, พระทรงธรรม for the crematorium, the capital and the king himself. Sense 1 takes the monastic register (พระสมณสาสน์, a letter used of the Sangharaja). Sense 2 is the Buddha IMAGE and takes พระพิมพ์ and พระแผง, the moulded tablet and the panel it is cast in; sense 3 is the Buddha HIMSELF and takes พระเขี้ยวแก้ว, his tooth. Sense 7 is the stage lead and takes พระรอง beside พระเอก. Only พระคุณ reaches the bare honorific of sense 8: it elevates คุณ and belongs to no register.",
+ "senses": {
+  "1": [
+   "พระสมณสาสน์"
+  ],
+  "2": [
+   "พระพิมพ์",
+   "พระแผง"
+  ],
+  "3": [
+   "พระเขี้ยวแก้ว"
+  ],
+  "7": [
+   "พระรอง"
+  ],
+  "8": [
+   "พระคุณ"
+  ],
+  "9": [
+   "พระฉวี",
+   "พระตะพาบ",
+   "พระทรงธรรม",
+   "พระนคร",
+   "พระภูษา",
+   "พระมังสา",
+   "พระสังวาล",
+   "พระสุคนธ์",
+   "พระสุพรรณศรี",
+   "พระสำอาง",
+   "พระองค์",
+   "พระเมรุมาศ"
+  ]
+ }
+}

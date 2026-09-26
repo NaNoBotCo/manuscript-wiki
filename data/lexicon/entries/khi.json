@@ -1,0 +1,1187 @@
+{
+ "id": "w:khi",
+ "th": "ขี้",
+ "status": "mapped",
+ "rtgs": "khi",
+ "paiboon": "kîi",
+ "ipa": "/kʰiː˥˩/",
+ "syllable_respelling": "คี่-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนัก, ถ่ายอุจจาระ, ราชาศัพท์ว่า ลงพระบังคนหนัก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "กากอาหารที่ร่างกายไม่ต้องการแล้วขับถ่ายออกทางทวารหนัก, อุจจาระ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The act names what it passes.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "โยนขี้",
+     "rtgs": "yon-khi",
+     "ipa": "/joːn˧.kʰiː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตำหนิ, กล่าวหา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โยน",
+      "ขี้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "throw + crap",
+     "lit_th": "ซัดให้สิ่งใดสิ่งหนึ่งพ้นไปจากตัวโด + กากอาหารที่ร่างกายไม่ต้องการแล้วขั"
+    },
+    {
+     "th": "ขี้เทา",
+     "rtgs": "khi-thao",
+     "ipa": "/kʰiː˥˩.tʰaw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี้ที่ค้างอยู่ในลำไส้เด็กที่คลอดใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เทา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "กากอาหารที่ร่างกายไม่ต้องการแล้วขั + ไป"
+    },
+    {
+     "th": "ขี้หมา",
+     "rtgs": "khi-ma",
+     "ipa": "/kʰiː˥˩.maː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อุจจาระของสุนัข",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "หมา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + canine",
+     "lit_th": "กากอาหารที่ร่างกายไม่ต้องการแล้วขั + สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "สิ่งที่ร่างกายขับถ่ายออกมาเกรอะกรังอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขี้ตา",
+     "rtgs": "khi-ta",
+     "ipa": "/kʰiː˥˩.taː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งปฏิกูลที่ขับออกมาทางตา, เศษแข็งที่ติดอยู่บริเวณตา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ตา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "crap + eye",
+     "lit_th": "สิ่งที่ร่างกายขับถ่ายออกมาเกรอะกรั + พ่อของแม่"
+    },
+    {
+     "th": "ขี้มือ",
+     "rtgs": "khi-mue",
+     "ipa": "/kʰiː˥˩.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหงื่อไคลหรือสิ่งสกปรกที่ติดอยู่ตามมือทั้งที่มองเห็นและมองไม่เห็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "crap + hand",
+     "lit_th": "สิ่งที่ร่างกายขับถ่ายออกมาเกรอะกรั + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา"
+    },
+    {
+     "th": "ขี้ตีน",
+     "rtgs": "khi-tin",
+     "ipa": "/kʰiː˥˩.tiːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฝุ่นละอองที่ติดมากับเท้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ตีน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตีน"
+     ],
+     "lit": "crap + foot",
+     "lit_th": "สิ่งที่ร่างกายขับถ่ายออกมาเกรอะกรั + อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั"
+    },
+    {
+     "th": "ขี้เกลือ",
+     "rtgs": "khi-kluea",
+     "ipa": "/kʰiː˥˩.klɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คราบเหงื่อที่แห้งกรังจนขึ้นขาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เกลือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "เกลือ"
+     ],
+     "lit": "crap + light",
+     "lit_th": "สิ่งที่ร่างกายขับถ่ายออกมาเกรอะกรั + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็"
+    },
+    {
+     "th": "ขี้เรื้อน",
+     "rtgs": "khi-ruean",
+     "ipa": "/kʰiː˥˩.rɯa̯n˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โรคผิวหนังของสุนัข เกิดจากไรสุนัขชอนไช ทำให้ผิวหนังพุพองและขนร่วง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เรื้อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "สิ่งที่ร่างกายขับถ่ายออกมาเกรอะกรั + โรคติดต่อเรื้อรัง เกิดจากเชื้อแบคท"
+    },
+    {
+     "th": "ขี้เล็บ",
+     "rtgs": "khi-lep",
+     "ipa": "/kʰiː˥˩.lep̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งปฏิกูลที่อยู่ในซอกเล็บหรืออยู่ตามเล็บ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เล็บ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + nail",
+     "lit_th": "สิ่งที่ร่างกายขับถ่ายออกมาเกรอะกรั + สิ่งซึ่งมีลักษณะแข็งอย่างเขาสัตว์อ"
+    }
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Any bodily discharge that cakes and collects.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "สิ่งที่ไม่ต้องการ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "And so anything unwanted.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขี้เค้า",
+     "rtgs": "khi-khao",
+     "ipa": "/kʰiː˥˩.kʰaw˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี้ข้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เค้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "สิ่งที่ไม่ต้องการ + สิ่งที่เป็นเครื่องกำหนดหมายบอกให้ร"
+    },
+    {
+     "th": "ขี้ข้า",
+     "rtgs": "khi-kha",
+     "ipa": "/kʰiː˥˩.kʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนรับใช้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ข้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+PRON",
+     "head": 0,
+     "lit_th": "สิ่งที่ไม่ต้องการ + เป็นสรรพนามบุรุษที่ 1 ใช้แทนตัวผู้"
+    },
+    {
+     "th": "ขี้ตะไคร่",
+     "rtgs": "khi-ta-khrai",
+     "ipa": "/kʰiː˥˩.ta˨˩.kʰraj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พืชสีเขียวที่เกิดติดอยู่ตามต้นไม้ ตามพื้นดิน หรือกำแพงที่ชุ่มชื้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ตะไคร่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "สิ่งที่ไม่ต้องการ + พืชสีเขียวที่เกิดติดอยู่ตามต้นไม้"
+    },
+    {
+     "th": "ขี้แดด",
+     "rtgs": "khi-daet",
+     "ipa": "/kʰiː˥˩.dɛːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตะไคร่ที่จับบนผิวโคลนสีเขียว ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "แดด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "สิ่งที่ไม่ต้องการ + แสงที่พุ่งจากดวงอาทิตย์ตรงมายังโลก"
+    },
+    {
+     "th": "ขี้ริ้ว",
+     "rtgs": "khi-rio",
+     "ipa": "/kʰiː˥˩.riw˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกผ้าเก่าที่ใช้เช็ดถูเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ริ้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + stripe",
+     "lit_th": "สิ่งที่ไม่ต้องการ + เส้นลายหรือสิ่งอื่นที่มีลักษณะเป็น"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เศษหรือกากที่ออกมาจากสิ่งนั้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขี้กบ",
+     "rtgs": "khi-kop",
+     "ipa": "/kʰiː˥˩.kop̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เศษไม้ที่ออกมาด้วยการไสกบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "กบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "กบ"
+     ],
+     "lit": "crap + frog",
+     "lit_th": "เศษหรือกากที่ออกมาจากสิ่งนั้น ๆ + เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ"
+    },
+    {
+     "th": "ขี้เลื่อย",
+     "rtgs": "khi-lueai",
+     "ipa": "/kʰiː˥˩.lɯa̯j˥˩/",
+     "gloss": {
+      "en": [
+       "sawdust"
+      ],
+      "th": "เศษไม้ที่เหลือจากการไสไม้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เลื่อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + saw",
+     "lit_th": "เศษหรือกากที่ออกมาจากสิ่งนั้น ๆ + เครื่องมือสำหรับตัด มีหลายชนิด ใบเ"
+    },
+    {
+     "th": "ขี้เถ้า",
+     "rtgs": "khi-thao",
+     "ipa": "/kʰiː˥˩.tʰaw˥˩/",
+     "gloss": {
+      "en": [
+       "cinder"
+      ],
+      "th": "เถ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เถ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เศษหรือกากที่ออกมาจากสิ่งนั้น ๆ + สิ่งที่เป็นผงละเอียดของสิ่งที่เหลื"
+    },
+    {
+     "th": "ขี้เหล็ก",
+     "rtgs": "khi-lek",
+     "ipa": "/kʰiː˥˩.lek̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้ต้นขนาดกลางถึงขนาดใหญ่ชนิด Senna siamea (Lam.) Irwin et Barneby ในวงศ์ Leguminosae มักขึ้นตามริมนํ้าหรือป่าชื้น ดอกสีเหลืองดกเป็นช่อใหญ่ เนื้อไม้สีนํ้าตาลแก่หรือบางทีเกือบดำ มีลายเป็นเส้นสีแก่หรือสีอ่อนกว่าพื้น แข",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เหล็ก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + iron",
+     "lit_th": "เศษหรือกากที่ออกมาจากสิ่งนั้น ๆ + ธาตุลำดับที่ 26 สัญลักษณ์ Fe เป็นโ"
+    },
+    {
+     "th": "ขี้ผึ้ง",
+     "rtgs": "khi-phueng",
+     "ipa": "/kʰiː˥˩.pʰɯŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รังผึ้งที่เอามาหุงใช้ในการต่าง ๆ เช่น ทำเทียน ทำสีผึ้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ผึ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + bee",
+     "lit_th": "เศษหรือกากที่ออกมาจากสิ่งนั้น ๆ + ชื่อแมลงหลายชนิดในวงศ์ Apidae มีปี"
+    },
+    {
+     "th": "ขี้เท่า",
+     "rtgs": "khi-thao",
+     "ipa": "/kʰiː˥˩.tʰaw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปสะกดเลิกใช้ของ ขี้เถ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "เท่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "เศษหรือกากที่ออกมาจากสิ่งนั้น ๆ + เสมอกัน"
+    },
+    {
+     "th": "ขี้ผง",
+     "rtgs": "khi-phong",
+     "ipa": "/kʰiː˥˩.pʰoŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เศษสิ่งของเล็ก ๆ หรือละเอียดที่เหลือหรือร่วงจากวัสดุต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ผง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "crap + powder",
+     "lit_th": "เศษหรือกากที่ออกมาจากสิ่งนั้น ๆ + สิ่งละเอียด"
+    }
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "The dross or residue a thing throws off — ขี้เหล็ก, ขี้เลื่อย.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 2 manuscript titles, 202 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 32; domain seeded by keyword hits ['ลง', 'ออก', 'มา'].",
+ "compounds_unassigned": [
+  {
+   "th": "ขี้ขลาด",
+   "rtgs": "khi-khlat",
+   "ipa": "/kʰiː˥˩.kʰlaːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "yellow"
+    ],
+    "th": "ขลาด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "ขลาด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + มักกลัว",
+   "frame": "quality",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
+  },
+  {
+   "th": "ขี้เซา",
+   "rtgs": "khi-sao",
+   "ipa": "/kʰiː˥˩.saw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นอนปลุกให้ตื่นยาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "เซา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + หยุดชะงัก",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
+  },
+  {
+   "th": "ขี้เกียจ",
+   "rtgs": "khi-kiat",
+   "ipa": "/kʰiː˥˩.kia̯t̚˨˩/",
+   "gloss": {
+    "en": [
+     "idle"
+    ],
+    "th": "มีนิสัยไม่ชอบทำงาน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "เกียจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + คด",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
+  },
+  {
+   "th": "ขี้เหนียว",
+   "rtgs": "khi-niao",
+   "ipa": "/kʰiː˥˩.nia̯w˩˩˦/",
+   "gloss": {
+    "en": [
+     "niggardly",
+     "cheap",
+     "parsimonious"
+    ],
+    "th": "ตระหนี่",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "เหนียว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit": "crap + sticky",
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ดึงขาดยาก",
+   "frame": "quality",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
+  },
+  {
+   "th": "ขี้ลืม",
+   "rtgs": "khi-luem",
+   "ipa": "/kʰiː˥˩.lɯːm˧/",
+   "gloss": {
+    "en": [
+     "absent-minded"
+    ],
+    "th": "ชอบลืมอยู่เป็นประจำ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "ลืม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "crap + forget",
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + หายไปจากความจำ",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
+  },
+  {
+   "th": "ขี้โม้",
+   "rtgs": "khi-mo",
+   "ipa": "/kʰiː˥˩.moː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชอบคุยโอ้อวดเกินจริง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "โม้"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + โว",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
+  },
+  {
+   "th": "ขี้เมา",
+   "rtgs": "khi-mao",
+   "ipa": "/kʰiː˥˩.maw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คนที่ชอบดื่มเหล้าและเมาเป็นประจำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "เมา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "crap + drunk",
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + อาการที่มึนจนลืมตัวขาดสติเพราะฤทธิ",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
+  },
+  {
+   "th": "ขี้ตู่",
+   "rtgs": "khi-tu",
+   "ipa": "/kʰiː˥˩.tuː˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กล่าวอ้างหรือทึกทักเอาของผู้อื่นว่าเป็นของตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "ตู่"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + กล่าวอ้างหรือทึกทักเอาของผู้อื่นว่",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
+  },
+  {
+   "th": "ขี้เสียด",
+   "rtgs": "khi-siat",
+   "ipa": "/kʰiː˥˩.sia̯t̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ สีเสียด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "เสียด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + เบียดกัน"
+  },
+  {
+   "th": "ขี้เล่น",
+   "rtgs": "khi-len",
+   "ipa": "/kʰiː˥˩.len˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชอบสนุกสนานและชอบกระเซ้าเย้าแหย่, มีอารมณ์ดีไม่งอแง (มักใช้แก่เด็กเล็ก ๆ)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขี้",
+    "เล่น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "crap + play",
+   "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + ทำเพื่อสนุกหรือผ่อนอารมณ์",
+   "needs_check": [
+    "LEFT UNFILED ON PURPOSE (2026-09-02): this is the productive ขี้- prefix meaning \"given to, prone to\", and the head has no sense for it — its gloss list stops at 5 and none of the 5 reaches a disposition. The source dictionary tags this word คำคุณศัพท์ or คำกริยา and gives it the etymology ขี้ + X, so it documents the sense in the daughter entry while omitting it from the head. Filing it under any of senses 2-5 would be wrong; adding a sense 6 needs a decision this task does not have."
+   ]
+  },
+  {
+   "th": "การขี้",
+   "rtgs": "kan-khi",
+   "ipa": "/kaːn˧.kʰiː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขี้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ขี้"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + กิริยาที่ถ่ายกากอาหารออกทางทวารหนั"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *C̬.qɯjꟲ, จากจีนเก่า 屎 (OC *hliʔ, *hri); ร่วมเชื้อสายกับคำเมือง ᨡᩦ᩶ (ขี้), ลาว ຂີ້ (ขี้), ไทลื้อ ᦃᦲᧉ (ฃี้), ไทดำ ꪄꪲ꫁ (ฃิ้), ไทขาว ꪄꪲꫂ, ไทใหญ่ ၶီႈ (ขี้), ไทใต้คง ᥑᥤᥲ (ฃี้), อาหม 𑜁𑜣 (ขี), จ้วง haex, แสก ไกฺ, จ้วงแบบจั่วเจียง kij (ขี้)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩦ᩶",
+  "th": "ขี้",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "crap"
+ ]
+}

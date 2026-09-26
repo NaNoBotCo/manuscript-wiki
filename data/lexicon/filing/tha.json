@@ -1,0 +1,10 @@
+{
+ "head": "tha",
+ "rule": "ท่า is two words: a landing place (1-4) and a posture (5-8). The landing keeps only the literal three — กรมท่า, นายท่า, ท่าเรือ. Everything else is the posture, and it splits cleanly. Sense 5 is the pose a body actually holds and takes the verbs of putting one on: ตั้งท่า, ทำท่า, วางท่า, and ท่าทาง, the bearing others see. Sense 7 is ชั้นเชิง / ท่วงที — the pose as a TACTIC — and takes the six words about reading, granting or losing an advantage: ท่าที, ทีท่า, ให้ท่า, กันท่า, เข้าท่า, หมดท่า. Sense 6, the codified move, was empty and takes สิ้นท่า, whose gloss names it outright: หมดกระบวนท่าในการต่อสู้, out of fighting forms.",
+ "senses": {
+  "1": ["กรมท่า","ท่าเรือ","นายท่า"],
+  "5": ["ตั้งท่า","ทำท่า","ท่าทาง","วางท่า"],
+  "6": ["สิ้นท่า"],
+  "7": ["กันท่า","ทีท่า","ท่าที","หมดท่า","ให้ท่า","เข้าท่า"]
+ }
+}

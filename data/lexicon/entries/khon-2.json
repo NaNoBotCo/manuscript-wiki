@@ -1,0 +1,672 @@
+{
+ "id": "w:khon-2",
+ "th": "ขน",
+ "status": "mapped",
+ "rtgs": "khon",
+ "paiboon": "kǒn",
+ "ipa": "/kʰon˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและสัตว์ และใช้ตลอดไปจนถึงที่ขึ้นบนผิวต้นไม้ ผลไม้ ใบไม้ และอื่น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ขน 'hair, fur'.",
+    "Declared root: ขน 'hair, fur'.",
+    "Declared root: ขน 'hair, fur'.",
+    "Declared root: ขน 'hair, fur'."
+   ],
+   "compounds": [
+    {
+     "th": "ขนตา",
+     "rtgs": "khon-ta",
+     "ipa": "/kʰon˩˩˦.taː˧/",
+     "gloss": {
+      "en": [
+       "eyelash"
+      ],
+      "th": "ขนที่ขึ้นรอบนัยน์ตา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขน",
+      "ตา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "coat + eye",
+     "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + พ่อของแม่",
+     "frame": "entity"
+    },
+    {
+     "th": "ขนเม่น",
+     "rtgs": "khon-men",
+     "ipa": "/kʰon˩˩˦.men˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งที่ขึ้นอย่างรอบตัวเม่น มีลักษณะแข็งเป็นลำยาว ปลายแหลม มีสีดำปนขาว นำมาใช้เป็นเครื่องประดับผม ทำด้ามปากกาหรืออื่น ๆ ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขน",
+      "เม่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Hys",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "(หญ้า~) ชื่อหญ้าชนิด Brachiaria mutica (Forssk.) Stapf ในวงศ์ Gramineae ขึ้นในที่ชื้นและชายน้ำ ข้อ กาบใบ และใบมีขน ใช้เป็นอาหารสัตว์, ปล้องขน ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "หญ้าขน, the grass named for its hairiness.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เอาสิ่งของเป็นต้นจำนวนมากจากที่หนึ่งไปยังอีกที่หนึ่งโดยบรรทุก หาบ หาม หรือด้วยวิธีอื่น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ขน 'to transport in quantity' — a separate word.",
+    "Declared root: ขน 'to transport in quantity' — a separate word.",
+    "Declared root: ขน 'to transport in quantity' — a separate word.",
+    "Declared root: ขน 'to transport in quantity' — a separate word."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 15 manuscript titles, 1172 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['หญ้า', 'ต้นไม้', 'ใบ', 'ผล'].",
+ "compounds_unassigned": [
+  {
+   "th": "ขนสัตว์",
+   "rtgs": "khon-sat",
+   "ipa": "/kʰon˩˩˦.sat̚˨˩/",
+   "gloss": {
+    "en": [
+     "fur"
+    ],
+    "th": "ขนหนาที่ได้จากสัตว์บางชนิด เช่น แกะ หมาป่า มิงก์ ซึ่งสามารถนำไปผลิตเครื่องนุ่งห่ม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "สัตว์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "coat + animal",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + สิ่งมีชีวิตซึ่งแตกต่างไปจากพรรณไม้",
+   "frame": "entity"
+  },
+  {
+   "th": "ขนอบ",
+   "translit_auto": "khnob",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นิ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "อบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "coat + bake",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + ปรุงกลิ่นด้วยควันหรือรมด้วยกลิ่นใน"
+  },
+  {
+   "th": "ขนแมว",
+   "rtgs": "khon–maeo",
+   "ipa": "/kʰon˩˩˦.mɛːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขนของแมว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "แมว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "coat + cat",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis",
+   "frame": "entity"
+  },
+  {
+   "th": "ขนเพชร",
+   "rtgs": "khon-phet",
+   "ipa": "/kʰon˩˩˦.pʰet̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขนสีขาวที่ขึ้นแปลกเป็นพิเศษ มีลักษณะยาวกว่าปรกติ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "เพชร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "coat + diamond",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + ชื่อแก้วที่แข็งที่สุดและมีน้ำแวววา",
+   "frame": "entity"
+  },
+  {
+   "th": "การขน",
+   "rtgs": "kan-khon",
+   "ipa": "/kaːn˧.kʰon˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ขน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ",
+   "frame": "entity"
+  },
+  {
+   "th": "ขนหย็อง",
+   "translit_auto": "khnhyong",
+   "ipa": "[kʰõn˩˥.jɔ̃ŋ˩˥]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขนหัวตั้งชัน ตัวลีบ หางตก เป็นอาการของไก่หรือนกที่รู้สึกกลัวไม่กล้าสู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "หย็อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + กลัว"
+  },
+  {
+   "th": "ขนพอง",
+   "rtgs": "khon–phong",
+   "ipa": "/kʰon˩˩˦.pʰɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขนตั้งชันขึ้น ที่เกิดจากความตกใจหรือความกลัว เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "พอง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "coat + blown",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + อาการที่โป่งหรือฟูขึ้นมาเพราะมีอาก"
+  },
+  {
+   "th": "ขนอม",
+   "rtgs": "kha-nom",
+   "ipa": "/kʰa˨˩.nɔːm˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "อม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + เอาสิ่งของใส่ปากแล้วหุบปากไว้ไม่กล"
+  },
+  {
+   "th": "ขนอง",
+   "rtgs": "kha-nong",
+   "ipa": "/kʰa˨˩.nɔːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หลัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "อง"
+   ],
+   "lit": "coat + the Vietnamese royal prefix ong",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ขนอุย",
+   "rtgs": "khon-ui",
+   "ipa": "/kʰon˩˩˦.ʔuj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขนอ่อนหรือขนเพิ่งแรกขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "อุย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + ลักษณะของขนอ่อนหรือขนเพิ่งแรกขึ้น",
+   "frame": "entity"
+  },
+  {
+   "th": "ขนวน",
+   "rtgs": "kha-nuan",
+   "ipa": "/kʰa˨˩.nua̯n˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอหนองนาคำ จังหวัดขอนแก่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "วน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "วน"
+   ],
+   "lit": "coat + to circle",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + เวียนไปโดยรอบ"
+  },
+  {
+   "th": "ขนหัว",
+   "rtgs": "khon-hua",
+   "ipa": "/kʰon˩˩˦.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "หัว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "หัว"
+   ],
+   "lit": "coat + head",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "ขนลุก",
+   "rtgs": "khon–luk",
+   "ipa": "/kʰon˩˩˦.luk̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขนตั้งชันขึ้น เพราะอากาศหนาว ความตกใจ หรือความเสียวซ่าน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "ลุก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + เคลื่อนขึ้นจากท่านั่งหรือท่านอน"
+  },
+  {
+   "th": "ขนอน",
+   "rtgs": "kha-non",
+   "ipa": "/kʰa˨˩.nɔːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ที่ตั้งอากรการผ่านเขต",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "อน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + เป็นคำปฏิเสธ แปลว่า ไม่"
+  },
+  {
+   "th": "ขนส่ง",
+   "rtgs": "khon-song",
+   "ipa": "/kʰon˩˩˦.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "bring",
+     "carry"
+    ],
+    "th": "ธุรกิจเกี่ยวกับการขนและการส่ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "ส่ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ส่ง"
+   ],
+   "lit": "coat + send",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *q.pɯlᴬ; ร่วมเชื้อสายกับลาว ຂົນ (ข็น), คำเมือง ᨡᩫ᩠ᨶ (ข็น), ไทลื้อ ᦃᦳᧃ (ฃุน), ไทดำ ꪶꪄꪙ (โฃน), ไทใหญ่ ၶူၼ် (ขูน), อ่ายตน ၵ︀ုꩫ︀် (ขุน์), อาหม 𑜁𑜤𑜃𑜫 (ขุน์), ปู้อี benl, จ้วง bwn, จ้วงแบบจั่วเจียง koen (“ขน”), จ้วงแบบหนง koan, แสก ปุ๋น ร่วมเชื้อสายกับลาว ຂົນ (ข็น), คำเมือง ᨡᩫ᩠ᨶ (ข็น), แสก ขุ่น, จ้วงแบบจั่วเจียง konz, จ้วง gonz",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩫ᩠ᨶ",
+  "th": "ข็น",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khon",
+   "label": "คน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khon\". ขน is kǒn, คน is kon — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "coat"
+ ]
+}

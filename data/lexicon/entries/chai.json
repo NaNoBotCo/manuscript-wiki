@@ -1,0 +1,6844 @@
+{
+ "id": "w:chai",
+ "th": "ใจ",
+ "status": "mapped",
+ "rtgs": "chai",
+ "paiboon": "jai",
+ "ipa": "/t͡ɕaj˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 1]"
+    ],
+    "th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และคิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "The organ is taken as the seat of knowing, feeling and thinking. The RID prints the faculty first, but the body part is the concrete original.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "นอนใจ",
+     "rtgs": "non-chai",
+     "ipa": "/nɔːn˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วางใจ, ไม่รีบร้อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นอน",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "dormant + heart",
+     "lit_th": "เอนตัวลงกับพื้นหรือที่ใด ๆ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจบุญ",
+     "rtgs": "chai-bun",
+     "ipa": "/t͡ɕaj˧.bun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีใจฝักใฝ่ในการบุญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "บุญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บุญ"
+     ],
+     "lit": "heart + merit",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ความสุข",
+     "frame": "entity"
+    },
+    {
+     "th": "จิตใจ",
+     "rtgs": "chit-chai",
+     "ipa": "/t͡ɕit̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "mind"
+      ],
+      "th": "ใจ, อารมณ์ทางใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "จิต",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "mind + heart",
+     "lit_th": "ใจ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "กลับใจ",
+     "rtgs": "klap-chai",
+     "ipa": "/klap̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "about face"
+      ],
+      "th": "หยุดเลิกกระทำความชั่ว แล้วกลับหันมากระทำความดี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กลับ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กลับ"
+     ],
+     "lit": "back + heart",
+     "lit_th": "ตรงกันข้ามกับภาวะเดิมหรือทิศทางเดิ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจลอย",
+     "rtgs": "chai-loi",
+     "ipa": "/t͡ɕaj˧.lɔːj˧/",
+     "gloss": {
+      "en": [
+       "absent",
+       "absent-minded",
+       "distraction"
+      ],
+      "th": "เผลอสติ, เคลิบเคลิ้ม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "ลอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลอย"
+     ],
+     "lit": "heart + float",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ทรงตัวอยู่ในอากาศ",
+     "frame": "state"
+    },
+    {
+     "th": "หลายใจ",
+     "rtgs": "lai-chai",
+     "ipa": "/laːj˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เปลี่ยนใจง่าย, เอาแน่ไม่ได้, เหลาะแหละ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลาย",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "many + heart",
+     "lit_th": "มาก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "state"
+    },
+    {
+     "th": "ถอดใจ",
+     "rtgs": "thot-chai",
+     "ipa": "/tʰɔːt̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมดกำลังใจไม่สู้ต่อไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถอด",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอาออก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจร้าย",
+     "rtgs": "chai-rai",
+     "ipa": "/t͡ɕaj˧.raːj˦˥/",
+     "gloss": {
+      "en": [
+       "mean",
+       "unkind",
+       "froward"
+      ],
+      "th": "ดุร้าย, ไม่ปรานี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "ร้าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ร้าย"
+     ],
+     "lit": "heart + bad",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ดุ",
+     "frame": "trait"
+    },
+    {
+     "th": "เป็นใจ",
+     "rtgs": "pen-chai",
+     "ipa": "/pen˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้กัน, สมรู้ร่วมคิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "are + heart",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "จริงใจ",
+     "rtgs": "ching-chai",
+     "ipa": "/t͡ɕiŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "real",
+       "sincere"
+      ],
+      "th": "บริสุทธิ์ใจ, สุจริตใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "จริง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "real + heart",
+     "lit_th": "แท้ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "state"
+    },
+    {
+     "th": "สำรวมใจ",
+     "rtgs": "sam-ruam-chai",
+     "ipa": "/sam˩˩˦.rua̯m˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำใจให้แน่วแน่, ทำใจให้สงบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำรวม",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "collect + heart",
+     "lit_th": "ระมัดระวัง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ดลใจ",
+     "rtgs": "don-chai",
+     "ipa": "/don˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "inform"
+      ],
+      "th": "มีเหตุอันไม่ปรากฏจูงใจให้คิดหรือให้ทำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ดล",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "พื้น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "ใจดำ",
+     "rtgs": "chai-dam",
+     "ipa": "/t͡ɕaj˧.dam˧/",
+     "gloss": {
+      "en": [
+       "cruel"
+      ],
+      "th": "เห็นแก่ตัว, ไม่เอื้อเฟื้อใคร, ขาดกรุณา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "ดำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ดำ"
+     ],
+     "lit": "heart + black",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + มุดลง ในคำว่า ดำน้ำ",
+     "frame": "state"
+    },
+    {
+     "th": "ข่มขืนใจ",
+     "translit_auto": "khmkhuent",
+     "ipa": "[kʰõm˩.kʰɯ̃ːn˩˥.t͡ɕäj˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บังคับให้กระทำหรืองดเว้นกระทำโดยไม่สมัครใจ แต่จำต้องฝืนใจปฏิบัติตาม เพราะไม่สามารถหลีกเลี่ยงหรือขัดขืนได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข่มขืน",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "บังคับ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจแคบ",
+     "rtgs": "chai-khaep",
+     "ipa": "/t͡ɕaj˧.kʰɛːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่คิดเอื้อเฟื้อเผื่อแผ่ใคร ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "แคบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "heart + narrow",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + มีส่วนกว้างน้อย",
+     "frame": "trait"
+    },
+    {
+     "th": "ลองใจ",
+     "rtgs": "long-chai",
+     "ipa": "/lɔːŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พิสูจน์น้ำใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลอง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ของที่ทำรองรับไว้ชั้นใน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "กาวใจ",
+     "rtgs": "kao-chai",
+     "ipa": "/kaːw˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ประสานรอยร้าวให้ผู้ที่โกรธกัน ทะเลาะกัน หรือกินแหนงแคลงใจกัน ได้กลับคืนดีกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กาว",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "dope + heart",
+     "lit_th": "ของเหนียวที่เคี่ยวมาจากเอ็น หนัง ก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "สุจริตใจ",
+     "rtgs": "su-cha-rit-chai",
+     "ipa": "/su˨˩.t͡ɕa˨˩.rit̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริสุทธิ์ใจ, จริงใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุจริต",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความประพฤติชอบ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "ใจคอ",
+     "rtgs": "chai-kho",
+     "ipa": "/t͡ɕaj˧.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จิตใจ, อัธยาศัย, อารมณ์ (มักใช้ในทางลบ ทางไม่ดี)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "คอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คอ"
+     ],
+     "lit": "heart + neck",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "ใจหมา",
+     "rtgs": "chai-ma",
+     "ipa": "/t͡ɕaj˧.maː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี้กลัว, ขี้ขลาด, ไม่กล้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "หมา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "heart + canine",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา",
+     "frame": "entity"
+    },
+    {
+     "th": "ตกลงใจ",
+     "rtgs": "tok-long-chai",
+     "ipa": "/tok̚˨˩.loŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "decide",
+       "resolve"
+      ],
+      "th": "ยินยอมโดยสมัครใจ, ตัดสินใจเด็ดขาดหลังจากใคร่ครวญแล้ว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตกลง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "accept + heart",
+     "lit_th": "หล่นหรือร่วงลงไป + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "เปลี่ยนใจ",
+     "rtgs": "plian-chai",
+     "ipa": "/plia̯n˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "about face",
+       "back out"
+      ],
+      "th": "เลิกล้มความตั้งใจเดิม, เปลี่ยนความตั้งใจเดิมไปเป็นอย่างอื่น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เปลี่ยน",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "change + heart",
+     "lit_th": "แปรหรือกลายไปจากลักษณะหรือภาวะเดิม + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจเร็ว",
+     "rtgs": "chai-reo",
+     "ipa": "/t͡ɕaj˧.rew˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตกลงใจอย่างรวดเร็วโดยไม่พิจารณาให้รอบคอบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "เร็ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "heart + quick",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ไว",
+     "frame": "trait"
+    },
+    {
+     "th": "วางใจ",
+     "rtgs": "wang-chai",
+     "ipa": "/waːŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เชื่อใจ, ไว้ใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "วาง"
+     ],
+     "lit": "put + heart",
+     "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "กำลังใจ",
+     "rtgs": "kam-lang-chai",
+     "ipa": "/kam˧.laŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สภาพของจิตใจที่มีความเชื่อมั่นและกระตือรือร้นพร้อมที่จะเผชิญกับเหตุการณ์ทุกอย่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กำลัง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "force + heart",
+     "lit_th": "แรง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "จงใจ",
+     "rtgs": "chong-chai",
+     "ipa": "/t͡ɕoŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อย่างตั้งใจ, หมายใจ, เจตนา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "เป็นคำช่วยกริยา บอกความบังคับ หรือ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "รู้ใจ",
+     "rtgs": "ru-chai",
+     "ipa": "/ruː˦˥.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้อัธยาศัยใจคอว่าเป็นอย่างไร หรือชอบอะไร ไม่ชอบอะไร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "รู้"
+     ],
+     "lit": "know + heart",
+     "lit_th": "แจ้ง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "เห็นใจ",
+     "rtgs": "hen-chai",
+     "ipa": "/hen˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เห็นน้ำใจว่าเป็นอย่างไร เช่นดีหรือชั่ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เห็น",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "see + heart",
+     "lit_th": "อาการของตาที่ประสบรูป + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ตัดสินใจ",
+     "rtgs": "tat-sin-chai",
+     "ipa": "/tat̚˨˩.sin˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "decide",
+       "determine",
+       "settle"
+      ],
+      "th": "ตกลงใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัดสิน",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "settle + heart",
+     "lit_th": "ลงความเห็นชี้ขาด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "นอกใจ",
+     "rtgs": "nok-chai",
+     "ipa": "/nɔːk̚˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "infidel"
+      ],
+      "th": "ไม่ซื่อตรงต่อสามีหรือภรรยาด้วยการคบชู้สู่สาว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นอก",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PREP+N",
+     "head": 1,
+     "cross_listed": [
+      "นอก"
+     ],
+     "lit": "outside + heart",
+     "lit_th": "ตรงข้ามกับใน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "ตัดใจ",
+     "rtgs": "tat-chai",
+     "ipa": "/tat̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ห้ามใจไม่ให้คิดในเหตุที่เกิดขึ้น, ห้ามใจไม่ให้คิดอีกต่อไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัด",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตัด"
+     ],
+     "lit": "cut + heart",
+     "lit_th": "ทำให้ขาดด้วยของมีคม + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใส่ใจ",
+     "rtgs": "sai-chai",
+     "ipa": "/saj˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "apply"
+      ],
+      "th": "ใส่ไว้ในใจ, จดจำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใส่",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "carry + heart",
+     "lit_th": "สวม + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจหิน",
+     "rtgs": "chai-hin",
+     "ipa": "/t͡ɕaj˧.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีใจโหดเหี้ยม, มีใจที่แข็งมากไม่ยอมโอนอ่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "หิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หิน"
+     ],
+     "lit": "heart + rock",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+     "frame": "entity"
+    },
+    {
+     "th": "คู่ใจ",
+     "rtgs": "khu-chai",
+     "ipa": "/kʰuː˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนสนิทที่รู้ใจและไว้วางใจได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คู่",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คู่"
+     ],
+     "lit": "even + heart",
+     "lit_th": "จำนวนที่หารด้วย 2 ลงตัว + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "ใจแข็ง",
+     "rtgs": "chai-khaeng",
+     "ipa": "/t͡ɕaj˧.kʰɛŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "adamant"
+      ],
+      "th": "ไม่ยอมง่าย ๆ, ไม่รู้สึกสงสาร, อดกลั้นความเจ็บปวดหรือทุกข์โศกไว้ได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "แข็ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แข็ง"
+     ],
+     "lit": "heart + hard",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + กระด้าง",
+     "flips_with": "แข็งใจ",
+     "frame": "trait"
+    },
+    {
+     "th": "ตั้งใจ",
+     "rtgs": "tang-chai",
+     "ipa": "/taŋ˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "mean",
+       "aim",
+       "intend"
+      ],
+      "th": "เอาใจจดใจจ่อ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "introduce + heart",
+     "lit_th": "ชูตัว + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจแตก",
+     "rtgs": "chai-taek",
+     "ipa": "/t͡ɕaj˧.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประพฤติไปตามที่ตนนิยมในทางที่ผิดหรือนอกโอวาทจนเคยตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "แตก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "แตก"
+     ],
+     "lit": "heart + fracture",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + แยกออกจากส่วนรวม",
+     "frame": "state"
+    },
+    {
+     "th": "ดูใจ",
+     "rtgs": "du-chai",
+     "ipa": "/duː˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลองดูน้ำใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดู",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "look + heart",
+     "lit_th": "ใช้สายตาเพื่อให้เห็น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจกว้าง",
+     "rtgs": "chai-kwang",
+     "ipa": "/t͡ɕaj˧.kwaːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "generous"
+      ],
+      "th": "มีความเอื้อเฟื้อเผื่อแผ่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "กว้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "heart + wide",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ด้านสั้นที่คู่กับด้านยาว",
+     "frame": "entity"
+    },
+    {
+     "th": "เชื่อใจ",
+     "rtgs": "chuea-chai",
+     "ipa": "/t͡ɕʰɯa̯˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "rely",
+       "count on"
+      ],
+      "th": "ไว้ใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เชื่อ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "believe + heart",
+     "lit_th": "เห็นตามด้วย + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจพระ",
+     "rtgs": "chai-phra",
+     "ipa": "/t͡ɕaj˧.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีใจบุญ, มีใจเมตตา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "พระ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "heart + the honorific prefix phra",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+     "frame": "entity"
+    },
+    {
+     "th": "แน่ใจ",
+     "rtgs": "nae-chai",
+     "ipa": "/nɛː˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "certain",
+       "sure",
+       "positive"
+      ],
+      "th": "มั่นใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แน่",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "แท้ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "ทันใจ",
+     "rtgs": "than-chai",
+     "ipa": "/tʰan˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เร็วทันเท่ากับใจนึกหรือต้องการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัน",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "เป็นไปตามเวลาที่กำหนด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "ใจร้อน",
+     "rtgs": "chai-ron",
+     "ipa": "/t͡ɕaj˧.rɔːn˦˥/",
+     "gloss": {
+      "en": [
+       "impatient"
+      ],
+      "th": "มีใจไม่หนักแน่น ฉุนเฉียวง่าย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "ร้อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ร้อน"
+     ],
+     "lit": "heart + hot",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+     "frame": "trait"
+    },
+    {
+     "th": "ใจเดียว",
+     "rtgs": "chai-diao",
+     "ipa": "/t͡ɕaj˧.dia̯w˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่หลายใจ, มีความรักและซื่อตรงในบุคคลเดียวหรือสิ่งเดียวไม่เปลี่ยนแปลง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "เดียว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "heart + single",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + หนึ่งเท่านั้นไม่มีอื่นอีก",
+     "frame": "trait"
+    },
+    {
+     "th": "ใจน้อย",
+     "rtgs": "chai-noi",
+     "ipa": "/t͡ɕaj˧.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โกรธง่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "น้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "น้อย"
+     ],
+     "lit": "heart + little",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ไม่มาก",
+     "flips_with": "น้อยใจ",
+     "frame": "trait"
+    },
+    {
+     "th": "ใจเพชร",
+     "rtgs": "chai-phet",
+     "ipa": "/t͡ɕaj˧.pʰet̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใจแข็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "เพชร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "heart + diamond",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ชื่อแก้วที่แข็งที่สุดและมีน้ำแวววา",
+     "frame": "entity"
+    },
+    {
+     "th": "ปลงใจ",
+     "rtgs": "plong-chai",
+     "ipa": "/ploŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตกลงใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปลง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอาลง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "เกรงใจ",
+     "rtgs": "kreng-chai",
+     "ipa": "/kreːŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่อยากจะให้ผู้อื่นรู้สึกลำบากเดือดร้อนรำคาญใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกรง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "นึกกลัวไปเอง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "เต็มใจ",
+     "rtgs": "tem-chai",
+     "ipa": "/tem˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีน้ำใจไม่บกพร่อง, มีใจสมัครด้วยยินดี, ไม่มีข้ออิดเอื้อนหรือขัดแย้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เต็ม",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "full + heart",
+     "lit_th": "มีสิ่งใดสิ่งหนึ่งบรรจุอยู่จนไม่มีท + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "state"
+    },
+    {
+     "th": "ตามใจ",
+     "rtgs": "tam-chai",
+     "ipa": "/taːm˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แล้วแต่ใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตาม",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "along + heart",
+     "lit_th": "ไปหรือมาข้างหลังหรือภายหลังโดยลำดั + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "สนใจ",
+     "rtgs": "son-chai",
+     "ipa": "/son˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "care"
+      ],
+      "th": "ตั้งใจจดจ่ออยู่กับสิ่งใดเรื่องใดเป็นพิเศษ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สน",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นหลายชนิดหลายสกุลในหลายวง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "สมัครใจ",
+     "rtgs": "sa-mak-chai",
+     "ipa": "/sa˨˩.mak̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สมัครด้วยความเต็มใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สมัคร",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ยื่นความจำนงขอเข้าร่วมเป็นสมาชิกหร + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ซื้อใจ",
+     "rtgs": "sue-chai",
+     "ipa": "/sɯː˦˥.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ให้ผลประโยชน์เพื่อแลกกับความจงรักภักดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ซื้อ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "consume + heart",
+     "lit_th": "เอาเงินตราแลกกับสิ่งของ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "เข้าใจ",
+     "rtgs": "khao-chai",
+     "ipa": "/kʰaw˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "understand",
+       "see",
+       "penetrate"
+      ],
+      "th": "รู้เรื่อง, รู้ความหมาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เข้า",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เข้า"
+     ],
+     "lit": "enter + heart",
+     "lit_th": "อาการที่เคลื่อนไปข้างในหรือทำให้เค + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "แข็งใจ",
+     "rtgs": "khaeng-chai",
+     "ipa": "/kʰɛŋ˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำใจให้กล้า, ทำใจให้เข้มแข็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แข็ง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "แข็ง"
+     ],
+     "lit": "hard + heart",
+     "lit_th": "กระด้าง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "flips_with": "ใจแข็ง",
+     "frame": "act"
+    },
+    {
+     "th": "มั่นใจ",
+     "rtgs": "man-chai",
+     "ipa": "/man˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "certain",
+       "depend",
+       "sanguine"
+      ],
+      "th": "แน่ใจ, เชื่อใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มั่น",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "มั่น"
+     ],
+     "lit": "firm + heart",
+     "lit_th": "แน่ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "state"
+    },
+    {
+     "th": "ชั่งใจ",
+     "rtgs": "chang-chai",
+     "ipa": "/t͡ɕʰaŋ˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คิดให้ถี่ถ้วนก่อนตัดสินใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชั่ง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "มาตราเงินตามวิธีประเพณี 20 ตำลึงหร + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "จูงใจ",
+     "rtgs": "chung-chai",
+     "ipa": "/t͡ɕuːŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชักนำหรือเกลี้ยกล่อมเพื่อให้เห็นคล้อยตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จูง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "hand + heart",
+     "lit_th": "พาไปด้วยอาการคล้ายดึงหรือฉุด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจง่าย",
+     "rtgs": "chai-ngai",
+     "ipa": "/t͡ɕaj˧.ŋaːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เชื่อง่าย, ยินยอมง่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "ง่าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "heart + easy",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + สะดวก",
+     "frame": "trait"
+    },
+    {
+     "th": "ใจกล้า",
+     "rtgs": "chai-kla",
+     "ipa": "/t͡ɕaj˧.klaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กล้าหาญ, มีจิตใจที่ไม่ครั่นคร้าม, กล้าทำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "กล้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ต้นข้าวอ่อนที่เพาะจากข้าวเปลือกสำห",
+     "frame": "entity"
+    },
+    {
+     "th": "ใจเบา",
+     "rtgs": "chai-bao",
+     "ipa": "/t͡ɕaj˧.baw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ยั้งคิด, เชื่อง่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "เบา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "heart + mild",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + มีน้ำหนักน้อย",
+     "flips_with": "เบาใจ",
+     "frame": "trait"
+    },
+    {
+     "th": "ตายใจ",
+     "rtgs": "tai-chai",
+     "ipa": "/taːj˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลงเชื่ออย่างไม่สงสัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตาย",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตาย"
+     ],
+     "lit": "demise + heart",
+     "lit_th": "สิ้นใจ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ใจดี",
+     "rtgs": "chai-di",
+     "ipa": "/t͡ɕaj˧.diː˧/",
+     "gloss": {
+      "en": [
+       "kind",
+       "nice",
+       "gentle"
+      ],
+      "th": "มีใจเมตตากรุณา, ไม่โกรธง่าย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "ดี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "heart + good",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+     "flips_with": "ดีใจ",
+     "frame": "trait"
+    },
+    {
+     "th": "ไว้ใจ",
+     "rtgs": "wai-chai",
+     "ipa": "/waj˦˥.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "trust"
+      ],
+      "th": "มอบความเชื่อความมั่นใจให้, วางใจ, ไว้วางใจ ก็ว่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไว้",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เก็บเข้าที่ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ขอบใจ",
+     "rtgs": "khop-chai",
+     "ipa": "/kʰɔːp̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำกล่าวแสดงความรู้สึกพอใจในความดีที่ผู้อื่นได้มีต่อตน (เป็นคำที่ผู้ใหญ่ใช้แก่ผู้น้อย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอบ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "board + heart",
+     "lit_th": "ริมรอบ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "ใจสัตว์",
+     "rtgs": "chai-sat",
+     "ipa": "/t͡ɕaj˧.sat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีจิตใจชั่วร้ายอย่างกับไม่ใช่คน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "สัตว์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "heart + animal",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + สิ่งมีชีวิตซึ่งแตกต่างไปจากพรรณไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "ใจเสาะ",
+     "rtgs": "chai-so",
+     "ipa": "/t͡ɕaj˧.sɔʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีใจขี้กลัวหรือร้องไห้ง่าย, มีใจอ่อนแอ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "เสาะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ค้น",
+     "frame": "state"
+    },
+    {
+     "th": "ใจเย็น",
+     "rtgs": "chai-yen",
+     "ipa": "/t͡ɕaj˧.jen˧/",
+     "gloss": {
+      "en": [
+       "even",
+       "gentle"
+      ],
+      "th": "ใจหนักแน่นไม่ฉุนเฉียว, ไม่รีบร้อน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "เย็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "เย็น"
+     ],
+     "lit": "heart + cold",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "trait"
+    },
+    {
+     "th": "เอาใจ",
+     "rtgs": "ao-chai",
+     "ipa": "/ʔaw˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "apply",
+       "ingratiate"
+      ],
+      "th": "คอยปฏิบัติให้ถูกใจ, ตามใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เอา",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "get + heart",
+     "lit_th": "ยึด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "ปลุกใจ",
+     "rtgs": "pluk-chai",
+     "ipa": "/pluk̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "encourage"
+      ],
+      "th": "เร้าใจให้กล้าหาญหรือกระตือรือร้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ปลุก",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "awaken + heart",
+     "lit_th": "ทำให้ตื่นจากหลับ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    },
+    {
+     "th": "อำเภอใจ",
+     "rtgs": "am-phoe-chai",
+     "ipa": "/ʔam˧.pʰɤː˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "ad lib"
+      ],
+      "th": "ความคิดเห็นโดยเอาแต่ใจตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อำเภอ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หน่วยปกครองที่รวมตำบลหลายตำบลให้อย + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "ขืนใจ",
+     "rtgs": "khuen-chai",
+     "ipa": "/kʰɯːn˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บังคับให้ยอมทำตาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขืน",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand: ใจ as the faculty — a standing disposition, or something done to or with it",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ยั้งไว้หรือบังคับไว้ไม่ให้เป็นไปตา + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "act"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "heart",
+     "the physical heart"
+    ],
+    "th": "หัวใจ",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หัวใจ",
+     "rtgs": "hua-chai",
+     "ipa": "/hua̯˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "heart"
+      ],
+      "th": "อวัยวะภายในสำหรับฉีดเลือดให้หมุนเวียนเลี้ยงร่างกาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + heart",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + หัวใจ",
+     "frame": "entity"
+    },
+    {
+     "th": "ดวงใจ",
+     "rtgs": "duang-chai",
+     "ipa": "/dua̯ŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเปรียบเทียบเรียกหญิงที่รักหรือลูกที่รัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดวง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand: ใจ as the organ, and the beloved spoken of as the heart",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "luck + heart",
+     "lit_th": "คำเรียกสิ่งที่มีลักษณะเป็นรูปกลม ๆ + หัวใจ",
+     "frame": "entity"
+    },
+    {
+     "th": "ขวัญใจ",
+     "rtgs": "khwan–chai",
+     "ipa": "/kʰwan˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยอดกำลังใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวัญ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand: ใจ as the organ, and the beloved spoken of as the heart",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "khwan + heart",
+     "lit_th": "ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย + หัวใจ",
+     "frame": "entity"
+    },
+    {
+     "th": "สายใจ",
+     "translit_auto": "sayt",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชีวิต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand: ใจ as the organ, and the beloved spoken of as the heart",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "late + heart",
+     "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + หัวใจ",
+     "frame": "entity"
+    },
+    {
+     "th": "กลอยใจ",
+     "translit_auto": "kloyt",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ร่วมคิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลอย",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand: ใจ as the organ, and the beloved spoken of as the heart",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อไม้เถามีหนามชนิด Dioscorea his + หัวใจ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "ลมหายใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หายใจ",
+     "rtgs": "hai-chai",
+     "ipa": "/haːj˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "breathe"
+      ],
+      "th": "กิริยาที่ทำให้อากาศเข้าสู่และออกจากปอด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หาย",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "หาย"
+     ],
+     "lit": "all + heart",
+     "lit_th": "สูญ + ลมหายใจ",
+     "flips_with": "ใจหาย",
+     "frame": "act"
+    },
+    {
+     "th": "กลั้นใจ",
+     "rtgs": "klan-chai",
+     "ipa": "/klan˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อั้นลมหายใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลั้น",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "บังคับความรู้สึกหรือสิ่งที่อยู่ภาย + ลมหายใจ",
+     "frame": "act"
+    },
+    {
+     "th": "สิ้นใจ",
+     "rtgs": "sin-chai",
+     "ipa": "/sin˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขาดใจ, ตาย, สิ้นลม หมดลม หรือ หมดอายุ ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิ้น",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand: ใจ as breath",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "สิ้น"
+     ],
+     "lit": "to be exhausted + heart",
+     "lit_th": "หมด + ลมหายใจ",
+     "frame": "act"
+    },
+    {
+     "th": "ถอนใจ",
+     "rtgs": "thon-chai",
+     "ipa": "/tʰɔːn˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หายใจแรงและยาวในขณะที่รู้สึกหนักใจหรือรู้สึกโล่งอกโล่งใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถอน",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand: ใจ as breath",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "draw + heart",
+     "lit_th": "ฉุดขึ้น + ลมหายใจ",
+     "frame": "act"
+    },
+    {
+     "th": "บัดใจ",
+     "rtgs": "bat-chai",
+     "ipa": "/bat̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประเดี๋ยว, ทันใด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัด",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand: ใจ as breath",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เวลา + ลมหายใจ",
+     "frame": "entity"
+    },
+    {
+     "th": "ขาดใจ",
+     "rtgs": "khat-chai",
+     "ipa": "/kʰaːt̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ้นใจ, ตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาด",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand: ใจ as breath",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขาด"
+     ],
+     "lit": "blow + heart",
+     "lit_th": "แยกออกจากกันเพราะถูกดึง ตัด หรือฉี + ลมหายใจ",
+     "frame": "act"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "Breath is what the chest does; the vital centre stands in for the breathing it performs — หายใจ is literally to release the ใจ.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ความรู้สึกนึกคิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "อุ่นใจ",
+     "rtgs": "un-chai",
+     "ipa": "/ʔun˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีความรู้สึกสบายใจขึ้น, มีความมั่นใจ, ไม่มีกังวล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อุ่น",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.31, next 0.21",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "warm + heart",
+     "lit_th": "ทำให้ยังคงร้อนอยู่ + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "ร่วมใจ",
+     "rtgs": "ruam-chai",
+     "ipa": "/rua̯m˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีความนึกคิดอย่างเดียวกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ร่วม",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.34, next 0.23",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "มีส่วนรวมอยู่ด้วยกัน + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "น้ำใจ",
+     "rtgs": "nam-chai",
+     "ipa": "/naːm˦˥.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใจแท้ ๆ, ใจจริง, ความรู้สึกนึกคิดจริง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.49, next 0.29",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + heart",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ความรู้สึกนึกคิด",
+     "frame": "entity"
+    },
+    {
+     "th": "เศร้าใจ",
+     "rtgs": "sao-chai",
+     "ipa": "/saw˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีความรู้สึกสลดหดหู่ใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เศร้า",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.41, next 0.29",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "sad + heart",
+     "lit_th": "สลด + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "เสียวใจ",
+     "rtgs": "siao-chai",
+     "ipa": "/sia̯w˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้สึกแปลบ เกิดอาการที่ทำให้ขนลุก รู้สึกวาบ ในหัวใจด้วยความกำหนัด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียว",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "รู้สึกแปลบเพราะเจ็บ + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "เฉลียวใจ",
+     "rtgs": "cha-liao-chai",
+     "ipa": "/t͡ɕʰa˨˩.lia̯w˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นึกระแวงขึ้นมา, ชักจะสงสัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เฉลียว",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "นึกระแวงขึ้นมา + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "พอใจ",
+     "rtgs": "pho-chai",
+     "ipa": "/pʰɔː˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "glad",
+       "like",
+       "pleased"
+      ],
+      "th": "สมใจ, ชอบใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พอ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "enough + heart",
+     "lit_th": "เท่าที่ต้องการ + ความรู้สึกนึกคิด"
+    },
+    {
+     "th": "น้อยใจ",
+     "rtgs": "noi-chai",
+     "ipa": "/nɔːj˦˥.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้สึกเสียใจที่ไม่ได้รับความเป็นธรรมเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้อย",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "น้อย"
+     ],
+     "lit": "little + heart",
+     "lit_th": "ไม่มาก + ความรู้สึกนึกคิด",
+     "flips_with": "ใจน้อย",
+     "frame": "state"
+    },
+    {
+     "th": "ฉุกใจ",
+     "rtgs": "chuk-chai",
+     "ipa": "/t͡ɕʰuk̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สะดุดใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฉุก",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "อาการที่เกิดขึ้นโดยพลัน + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "คาใจ",
+     "rtgs": "kha-chai",
+     "ipa": "/kʰaː˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยังข้องใจหรือยังติดใจอยู่และยังไม่ได้แก้ไขหรือทำความเข้าใจว่าจะเป็นอย่างไร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คา",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คา"
+     ],
+     "lit": "cangue + heart",
+     "lit_th": "เครื่องจำคอนักโทษ ทำด้วยไม้ + ความรู้สึกนึกคิด",
+     "frame": "entity"
+    },
+    {
+     "th": "จับใจ",
+     "rtgs": "chap-chai",
+     "ipa": "/t͡ɕap̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "entrance"
+      ],
+      "th": "ติดใจ, เป็นที่พอใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "จับ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "จับ"
+     ],
+     "lit": "grab + heart",
+     "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "หลากใจ",
+     "rtgs": "lak-chai",
+     "ipa": "/laːk̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แปลกใจ, ประหลาดใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลาก",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ต่าง ๆ + ความรู้สึกนึกคิด",
+     "frame": "state"
+    },
+    {
+     "th": "สะใจ",
+     "rtgs": "sa-chai",
+     "ipa": "/sa˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หนำใจ, สาแก่ใจ, สมใจอยาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สะ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "สวย + ความรู้สึกนึกคิด",
+     "frame": "state"
+    },
+    {
+     "th": "ตกใจ",
+     "rtgs": "tok-chai",
+     "ipa": "/tok̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "scare"
+      ],
+      "th": "สะดุ้งขึ้นโดยไม่รู้ตัวเมื่อได้ยินเสียงดัง ๆ หรือมีใครมาถูกต้องตัว, ใจหาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตก"
+     ],
+     "lit": "decrease + heart",
+     "lit_th": "พลัดลง + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "ภอใจ",
+     "rtgs": "pho-chai",
+     "ipa": "/pʰɔː˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปเลิกใช้ของ พอใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภอ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "รูปเลิกใช้ของ พอ + ความรู้สึกนึกคิด"
+    },
+    {
+     "th": "ขวยใจ",
+     "rtgs": "khuai–chai",
+     "ipa": "/kʰua̯j˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระดากใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวย",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "กระดาก + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "แหนงใจ",
+     "rtgs": "naeng-chai",
+     "ipa": "/nɛːŋ˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมางใจ, ระแวงแคลงใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แหนง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "หมาง + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "ถึงใจ",
+     "rtgs": "thueng-chai",
+     "ipa": "/tʰɯŋ˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จุใจ, สะใจ, สาแก่ใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถึง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ถึง"
+     ],
+     "lit": "arrive + heart",
+     "lit_th": "บรรลุจุดหมาย + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "ดีใจ",
+     "rtgs": "di-chai",
+     "ipa": "/diː˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยินดี, ชอบใจ, พอใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดี",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "good + heart",
+     "lit_th": "มีลักษณะที่เป็นไปในทางที่ต้องการ น + ความรู้สึกนึกคิด",
+     "flips_with": "ใจดี",
+     "frame": "state"
+    },
+    {
+     "th": "ไข้ใจ",
+     "rtgs": "khai-chai",
+     "ipa": "/kʰaj˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความระทมใจเนื่องจากผิดหวังในความรักเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข้",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความเจ็บป่วย + ความรู้สึกนึกคิด",
+     "frame": "entity"
+    },
+    {
+     "th": "ช้ำใจ",
+     "rtgs": "cham-chai",
+     "ipa": "/t͡ɕʰam˦˥.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เจ็บใจ, ระทมใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้ำ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "น่วมระบมเพราะถูกกระทบกระแทกอย่างแร + ความรู้สึกนึกคิด",
+     "frame": "state"
+    },
+    {
+     "th": "หนักใจ",
+     "rtgs": "nak-chai",
+     "ipa": "/nak̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิตก, ลำบากใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนัก",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "heavy + heart",
+     "lit_th": "มีน้ำหนักมาก + ความรู้สึกนึกคิด",
+     "frame": "state"
+    },
+    {
+     "th": "หมางใจ",
+     "rtgs": "mang-chai",
+     "ipa": "/maːŋ˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผิดใจ, ขุ่นเคืองใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "กระดาก + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "ชื่นใจ",
+     "rtgs": "chuen-chai",
+     "ipa": "/t͡ɕʰɯːn˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีความสุข, มีความพอใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่น",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "แจ่มใส + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "เจ็บใจ",
+     "rtgs": "chep-chai",
+     "ipa": "/t͡ɕep̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช้ำใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เจ็บ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "hurt + heart",
+     "lit_th": "ป่วยไข้ + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "จุใจ",
+     "rtgs": "chu-chai",
+     "ipa": "/t͡ɕu˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มากจนเป็นที่พอใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จุ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "contain + heart",
+     "lit_th": "มีขนาด ปริมาณ หรือจำนวนบรรจุ + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "เบาใจ",
+     "rtgs": "bao-chai",
+     "ipa": "/baw˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่หนักใจ, โล่งใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เบา",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "mild + heart",
+     "lit_th": "มีน้ำหนักน้อย + ความรู้สึกนึกคิด",
+     "flips_with": "ใจเบา",
+     "frame": "state"
+    },
+    {
+     "th": "ถูกใจ",
+     "rtgs": "thuk-chai",
+     "ipa": "/tʰuːk̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "like"
+      ],
+      "th": "ชอบ, ต้องใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ถูก",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "be + heart",
+     "lit_th": "โดน + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "หนำใจ",
+     "rtgs": "nam-chai",
+     "ipa": "/nam˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สาแก่ใจ, สมใจอยาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนำ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "มากพอกับความต้องการ + ความรู้สึกนึกคิด"
+    },
+    {
+     "th": "สะเทือนใจ",
+     "rtgs": "sa-thuean-chai",
+     "ipa": "/sa˨˩.tʰɯa̯n˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่สบายใจเพราะมีสิ่งใดสิ่งหนึ่งมากระทบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สะเทือน",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "มีอาการสั่นไหวเพราะถูกกระทบ + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "แปลกใจ",
+     "rtgs": "plaek-chai",
+     "ipa": "/plɛːk̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "astonished"
+      ],
+      "th": "ประหลาดใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แปลก",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "foreign + heart",
+     "lit_th": "แตกต่างไปจากที่เคยคิด เคยรู้ เคยเห + ความรู้สึกนึกคิด",
+     "frame": "state"
+    },
+    {
+     "th": "เสมอใจ",
+     "rtgs": "sa-moe-chai",
+     "ipa": "/sa˨˩.mɤː˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหมือนใจ, ได้ดังใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสมอ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "เท่ากัน + ความรู้สึกนึกคิด",
+     "frame": "state"
+    },
+    {
+     "th": "ข้องใจ",
+     "rtgs": "khong-chai",
+     "ipa": "/kʰɔŋ˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ติดใจสงสัย, ยังไม่สิ้นสงสัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้อง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เครื่องจักสานสำหรับใส่ปลา ปู เป็นต + ความรู้สึกนึกคิด",
+     "frame": "entity"
+    },
+    {
+     "th": "ค้างคาใจ",
+     "rtgs": "khang-kha-chai",
+     "ipa": "/kʰaːŋ˦˥.kʰaː˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยังข้องใจหรือยังติดใจอยู่และยังไม่ได้แก้ไขหรือทำความเข้าใจว่าจะเป็นอย่างไร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ค้างคา",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ยังไม่หมด + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "กริ่งใจ",
+     "translit_auto": "kringt",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นึกแคลงใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กริ่ง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "bell + heart",
+     "lit_th": "เครื่องบอกสัญญาณ + ความรู้สึกนึกคิด",
+     "frame": "entity"
+    },
+    {
+     "th": "อิ่มใจ",
+     "rtgs": "im-chai",
+     "ipa": "/ʔim˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปลื้มใจ, สบายใจ, ภูมิใจ, ปีติยินดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อิ่ม",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เต็มแล้ว + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "ประทับใจ",
+     "rtgs": "pra-thap-chai",
+     "ipa": "/pra˨˩.tʰap̚˦˥.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "intimidate",
+       "print",
+       "impress"
+      ],
+      "th": "ติดอกติดใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ประทับ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "อยู่ที่ + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "ใจหาย",
+     "rtgs": "chai-hai",
+     "ipa": "/t͡ɕaj˧.haːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ตกใจเสียวใจขึ้นทันที",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "หาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "หาย"
+     ],
+     "lit": "heart + all",
+     "lit_th": "ความรู้สึกนึกคิด + สูญ",
+     "flips_with": "หายใจ",
+     "frame": "state"
+    },
+    {
+     "th": "ฝังใจ",
+     "rtgs": "fang-chai",
+     "ipa": "/faŋ˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "imprint"
+      ],
+      "th": "ติดตรึงใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ฝัง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bury + heart",
+     "lit_th": "จมหรือทำให้จมลงไปจากระดับพื้นจนมิด + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "สบายใจ",
+     "rtgs": "sa-bai-chai",
+     "ipa": "/sa˨˩.baːj˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่มีทุกข์มีร้อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สบาย",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "comfortable + heart",
+     "lit_th": "อยู่ดีกินดี + ความรู้สึกนึกคิด"
+    },
+    {
+     "th": "เสียใจ",
+     "rtgs": "sia-chai",
+     "ipa": "/sia̯˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "regret",
+       "unhappy"
+      ],
+      "th": "ไม่สบายใจเพราะมีเรื่องไม่สมประสงค์หรือผิดประสงค์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เสีย",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "bad + heart",
+     "lit_th": "เสื่อมลงไป + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "แคลงใจ",
+     "rtgs": "khlaeng-chai",
+     "ipa": "/kʰlɛːŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "doubt"
+      ],
+      "th": "ไม่แน่ใจหรือวางใจลงไปได้เพราะออกจะสงสัย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แคลง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "อาการที่เรือเอียงหรือตะแคง + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "สมใจ",
+     "rtgs": "som-chai",
+     "ipa": "/som˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เป็นไปดังที่คิดไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สม",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "suitable + heart",
+     "lit_th": "เหมาะ + ความรู้สึกนึกคิด",
+     "frame": "state"
+    },
+    {
+     "th": "ได้ใจ",
+     "rtgs": "dai-chai",
+     "ipa": "/daːj˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหิมใจ, ย่ามใจ, ชะล่าใจ, กำเริบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ได้",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ได้"
+     ],
+     "lit": "have + heart",
+     "lit_th": "รับมาหรือตกมาเป็นของตัว + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "ขัดใจ",
+     "rtgs": "khat-chai",
+     "ipa": "/kʰat̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โกรธเพราะทำไม่ถูกใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขัด",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขัด"
+     ],
+     "lit": "abrade + heart",
+     "lit_th": "ให้ติดขวางไว้ไม่ให้หลุดออก + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "ภูมิใจ",
+     "rtgs": "phum-chai",
+     "ipa": "/pʰuːm˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระหยิ่มใจ, รู้สึกว่ามีเกียรติยศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ภูมิ"
+     ],
+     "lit": "land + heart",
+     "lit_th": "แผ่นดิน + ความรู้สึกนึกคิด",
+     "frame": "entity"
+    },
+    {
+     "th": "ชอบใจ",
+     "rtgs": "chop-chai",
+     "ipa": "/t͡ɕʰɔːp̚˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถูกใจ, ยินดี, พอใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชอบ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "like + heart",
+     "lit_th": "พอใจและทำบ่อย ๆ + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "สลดใจ",
+     "rtgs": "sa-lot-chai",
+     "ipa": "/sa˨˩.lot̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้สึกเศร้าใจแกมสังเวช, รู้สึกหดหู่ใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สลด",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "สังเวชใจ + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "เข็ญใจ",
+     "rtgs": "khen-chai",
+     "ipa": "/kʰen˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยากจนข้นแค้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เข็ญ",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ยาก + ความรู้สึกนึกคิด",
+     "frame": "state"
+    },
+    {
+     "th": "สาใจ",
+     "rtgs": "sa-chai",
+     "ipa": "/saː˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สาแก่ใจ, สะใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สา",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หมา + ความรู้สึกนึกคิด",
+     "frame": "entity"
+    },
+    {
+     "th": "พิมพ์ใจ",
+     "rtgs": "phim-chai",
+     "ipa": "/pʰim˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประทับใจ, ติดตรึงใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พิมพ์",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พิมพ์"
+     ],
+     "lit": "print + heart",
+     "lit_th": "รูป + ความรู้สึกนึกคิด",
+     "frame": "entity"
+    },
+    {
+     "th": "ผิดใจ",
+     "rtgs": "phit-chai",
+     "ipa": "/pʰit̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมางใจกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผิด",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "ผิด"
+     ],
+     "lit": "false + heart",
+     "lit_th": "ไม่ตรงกับความจริงหรือที่กำหนดนิยมไ + ความรู้สึกนึกคิด",
+     "frame": "state"
+    },
+    {
+     "th": "ต้องใจ",
+     "rtgs": "tong-chai",
+     "ipa": "/tɔŋ˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชอบ, ถูกใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้อง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ถูก + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "โล่งใจ",
+     "rtgs": "long-chai",
+     "ipa": "/loːŋ˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้สึกสบายใจ, หายอึดอัดใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โล่ง",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "empty + heart",
+     "lit_th": "มีลักษณะว่าง เตียน ไม่มีอะไรกีดกั้ + ความรู้สึกนึกคิด",
+     "frame": "state"
+    },
+    {
+     "th": "กินใจ",
+     "rtgs": "kin-chai",
+     "ipa": "/kin˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้สึกแหนงใจ, สะดุดใจ, กระทบใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand: ใจ as the feelings themselves — a state that befalls",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "eat + heart",
+     "lit_th": "เคี้ยว + ความรู้สึกนึกคิด",
+     "frame": "act"
+    },
+    {
+     "th": "สะดุดใจ",
+     "rtgs": "sa-dut-chai",
+     "ipa": "/sa˨˩.dut̚˨˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฉุกคิดขึ้นมาได้, ฉุกใจได้คิดเมื่อมีบางสิ่งบางอย่างมากระทบใจทำให้รู้สึกสงสัยตงิด ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สะดุด",
+      "ใจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.29, next 0.20 · refiled by hand under sense 4: a state that befalls, not the crucial point of a thing",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "trip + heart",
+     "lit_th": "อาการที่เดินหรือวิ่ง ปลายเท้าไปกระ + ความรู้สึกนึกคิด",
+     "frame": "act"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The faculty narrowed to its contents: not the seat of thought but the thoughts and feelings themselves.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "จุดสำคัญของบางสิ่งบางอย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ใจความ",
+     "rtgs": "chai-khwam",
+     "ipa": "/t͡ɕaj˧.kʰwaːm˧/",
+     "gloss": {
+      "en": [
+       "matter",
+       "essence",
+       "flavour"
+      ],
+      "th": "ส่วนสำคัญของเรื่อง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "ความ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand: ใจ as the crucial point of a thing",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "heart + -ness",
+     "lit_th": "จุดสำคัญของบางสิ่งบางอย่าง + เรื่อง",
+     "frame": "entity"
+    },
+    {
+     "th": "ใจกลาง",
+     "rtgs": "chai-klang",
+     "ipa": "/t͡ɕaj˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "centre",
+       "center",
+       "nucleus"
+      ],
+      "th": "ศูนย์กลาง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand: ใจ as the crucial point of a thing",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "heart + middle",
+     "lit_th": "จุดสำคัญของบางสิ่งบางอย่าง + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "The heart of a matter — the organ at the centre of the body becomes the crucial point of anything.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "บริเวณที่ถือว่าเป็นจุดสำคัญของสถานที่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "The centre-sense applied to places: ใจกลางเมือง, the heart of the town.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 2 manuscript titles, 242 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 209; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "การต้องใจ",
+   "rtgs": "kan-tong-chai",
+   "ipa": "/kaːn˧.tɔŋ˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ต้องใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การต้อง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ต้อง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การตั้งใจ",
+   "rtgs": "kan-tang-chai",
+   "ipa": "/kaːn˧.taŋ˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตั้งใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตั้ง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตั้ง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความถูกใจ",
+   "rtgs": "khwam-thuk-chai",
+   "ipa": "/kʰwaːm˧.tʰuːk̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ถูกใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความถูก",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถูก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การเจ็บใจ",
+   "rtgs": "kan-chep-chai",
+   "ipa": "/kaːn˧.t͡ɕep̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เจ็บใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเจ็บ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เจ็บ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การจูงใจ",
+   "rtgs": "kan-chung-chai",
+   "ipa": "/kaːn˧.t͡ɕuːŋ˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "allure"
+    ],
+    "th": "คำอาการนามของ จูงใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การจูง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ จูง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การใส่ใจ",
+   "rtgs": "kan-sai-chai",
+   "ipa": "/kaːn˧.saj˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ใส่ใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การใส่",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ใส่ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความสบายใจ",
+   "rtgs": "khwam-sa-bai-chai",
+   "ipa": "/kʰwaːm˧.sa˨˩.baːj˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "amenity"
+    ],
+    "th": "คำอาการนามของ สบายใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความสบาย",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "comfort + heart",
+   "lit_th": "คำอาการนามของ สบาย + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การดลใจ",
+   "rtgs": "kan-don-chai",
+   "ipa": "/kaːn˧.don˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ดลใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การดล",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "impulse + heart",
+   "lit_th": "คำอาการนามของ ดล + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การตัดใจ",
+   "rtgs": "kan-tat-chai",
+   "ipa": "/kaːn˧.tat̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตัดใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตัด",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตัด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การเปลี่ยนใจ",
+   "rtgs": "kan-plian-chai",
+   "ipa": "/kaːn˧.plia̯n˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เปลี่ยนใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเปลี่ยน",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "transfer + heart",
+   "lit_th": "คำอาการนามของ เปลี่ยน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความดีใจ",
+   "rtgs": "khwam-di-chai",
+   "ipa": "/kʰwaːm˧.diː˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ดีใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความดี",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ดี + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การเห็นใจ",
+   "rtgs": "kan-hen-chai",
+   "ipa": "/kaːn˧.hen˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เห็นใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเห็น",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "sight + heart",
+   "lit_th": "คำอาการนามของ เห็น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การปลุกใจ",
+   "rtgs": "kan-pluk-chai",
+   "ipa": "/kaːn˧.pluk̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ปลุกใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การปลุก",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปลุก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การปลงใจ",
+   "rtgs": "kan-plong-chai",
+   "ipa": "/kaːn˧.ploŋ˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ปลงใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การปลง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ปลง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความอุ่นใจ",
+   "rtgs": "khwam-un-chai",
+   "ipa": "/kʰwaːm˧.ʔun˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อุ่นใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความอุ่น",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อุ่น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การวางใจ",
+   "rtgs": "kan-wang-chai",
+   "ipa": "/kaːn˧.waːŋ˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ วางใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การวาง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "lie + heart",
+   "lit_th": "คำอาการนามของ วาง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การอุ่นใจ",
+   "rtgs": "kan-un-chai",
+   "ipa": "/kaːn˧.ʔun˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อุ่นใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การอุ่น",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อุ่น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การซื้อใจ",
+   "rtgs": "kan-sue-chai",
+   "ipa": "/kaːn˧.sɯː˦˥.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ซื้อใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การซื้อ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "purchase + heart",
+   "lit_th": "คำอาการนามของ ซื้อ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การเบาใจ",
+   "rtgs": "kan-bao-chai",
+   "ipa": "/kaːn˧.baw˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เบาใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเบา",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เบา + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความจุใจ",
+   "rtgs": "khwam-chu-chai",
+   "ipa": "/kʰwaːm˧.t͡ɕu˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ จุใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความจุ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ จุ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การสนใจ",
+   "rtgs": "kan-son-chai",
+   "ipa": "/kaːn˧.son˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สนใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสน",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การไว้ใจ",
+   "rtgs": "kan-wai-chai",
+   "ipa": "/kaːn˧.waj˦˥.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ไว้ใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การไว้",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ไว้ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความหลายใจ",
+   "rtgs": "khwam-lai-chai",
+   "ipa": "/kʰwaːm˧.laːj˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หลายใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความหลาย",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หลาย + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความเสียใจ",
+   "rtgs": "khwam-sia-chai",
+   "ipa": "/kʰwaːm˧.sia̯˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "hurt"
+    ],
+    "th": "คำอาการนามของ เสียใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความเสีย",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+  },
+  {
+   "th": "การเข้าใจ",
+   "rtgs": "kan-khao-chai",
+   "ipa": "/kaːn˧.kʰaw˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เข้าใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเข้า",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "entry + heart",
+   "lit_th": "คำอาการนามของ เข้า + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การมั่นใจ",
+   "rtgs": "kan-man-chai",
+   "ipa": "/kaːn˧.man˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ มั่นใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การมั่น",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ มั่น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การตัดสินใจ",
+   "rtgs": "kan-tat-sin-chai",
+   "ipa": "/kaːn˧.tat̚˨˩.sin˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "determination",
+     "judgement",
+     "judgment"
+    ],
+    "th": "คำอาการนามของ ตัดสินใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การตัดสิน",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "sentence + heart",
+   "lit_th": "คำอาการนามของ ตัดสิน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การชอบใจ",
+   "rtgs": "kan-chop-chai",
+   "ipa": "/kaːn˧.t͡ɕʰɔːp̚˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชอบใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การชอบ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชอบ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การตกใจ",
+   "rtgs": "kan-tok-chai",
+   "ipa": "/kaːn˧.tok̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตกใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตก",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "drop + heart",
+   "lit_th": "คำอาการนามของ ตก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความจริงใจ",
+   "rtgs": "khwam-ching-chai",
+   "ipa": "/kʰwaːm˧.t͡ɕiŋ˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ จริงใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความจริง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "reality + heart",
+   "lit_th": "คำอาการนามของ จริง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การลองใจ",
+   "rtgs": "kan-long-chai",
+   "ipa": "/kaːn˧.lɔːŋ˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลองใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลอง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ลอง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การหายใจ",
+   "rtgs": "kan-hai-chai",
+   "ipa": "/kaːn˧.haːj˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "breath"
+    ],
+    "th": "คำอาการนามของ หายใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การหาย",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หาย + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การขัดใจ",
+   "rtgs": "kan-khat-chai",
+   "ipa": "/kaːn˧.kʰat̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขัดใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขัด",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "abrasion + heart",
+   "lit_th": "คำอาการนามของ ขัด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การกลับใจ",
+   "rtgs": "kan-klap-chai",
+   "ipa": "/kaːn˧.klap̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กลับใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกลับ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กลับ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การขาดใจ",
+   "rtgs": "kan-khat-chai",
+   "ipa": "/kaːn˧.kʰaːt̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขาดใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขาด",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขาด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การเป็นใจ",
+   "rtgs": "kan-pen-chai",
+   "ipa": "/kaːn˧.pen˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เป็นใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเป็น",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เป็น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การถูกใจ",
+   "rtgs": "kan-thuk-chai",
+   "ipa": "/kaːn˧.tʰuːk̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ถูกใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การถูก",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถูก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การข้องใจ",
+   "rtgs": "kan-khong-chai",
+   "ipa": "/kaːn˧.kʰɔŋ˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ข้องใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การข้อง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ข้อง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การสมัครใจ",
+   "rtgs": "kan-sa-mak-chai",
+   "ipa": "/kaːn˧.sa˨˩.mak̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สมัครใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสมัคร",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สมัคร + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความมั่นใจ",
+   "rtgs": "khwam-man-chai",
+   "ipa": "/kʰwaːm˧.man˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "assurance",
+     "balls"
+    ],
+    "th": "คำอาการนามของ มั่นใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความมั่น",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ มั่น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "แม่ใจ",
+   "rtgs": "mae-chai",
+   "ipa": "/mɛː˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดพะเยา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แม่",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "mother + heart",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การขืนใจ",
+   "rtgs": "kan-khuen-chai",
+   "ipa": "/kaːn˧.kʰɯːn˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขืนใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขืน",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขืน + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความเจ็บใจ",
+   "rtgs": "khwam-chep-chai",
+   "ipa": "/kʰwaːm˧.t͡ɕep̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เจ็บใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเจ็บ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "pain + heart",
+   "lit_th": "คำอาการนามของ เจ็บ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความชอบใจ",
+   "rtgs": "khwam-chop-chai",
+   "ipa": "/kʰwaːm˧.t͡ɕʰɔːp̚˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชอบใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความชอบ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "come out of the closet + heart",
+   "lit_th": "คำอาการนามของ ชอบ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความเชื่อใจ",
+   "rtgs": "khwam-chuea-chai",
+   "ipa": "/kʰwaːm˧.t͡ɕʰɯa̯˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เชื่อใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเชื่อ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "idea + heart",
+   "lit_th": "คำอาการนามของ เชื่อ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การเกรงใจ",
+   "rtgs": "kan-kreng-chai",
+   "ipa": "/kaːn˧.kreːŋ˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เกรงใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเกรง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เกรง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การฝังใจ",
+   "rtgs": "kan-fang-chai",
+   "ipa": "/kaːn˧.faŋ˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ฝังใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การฝัง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ฝัง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความข้องใจ",
+   "rtgs": "khwam-khong-chai",
+   "ipa": "/kʰwaːm˧.kʰɔŋ˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ข้องใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความข้อง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ข้อง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความหนักใจ",
+   "rtgs": "khwam-nak-chai",
+   "ipa": "/kʰwaːm˧.nak̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หนักใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความหนัก",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หนัก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การสิ้นใจ",
+   "rtgs": "kan-sin-chai",
+   "ipa": "/kaːn˧.sin˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สิ้นใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสิ้น",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สิ้น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การเชื่อใจ",
+   "rtgs": "kan-chuea-chai",
+   "ipa": "/kaːn˧.t͡ɕʰɯa̯˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เชื่อใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเชื่อ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เชื่อ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความเบาใจ",
+   "rtgs": "khwam-bao-chai",
+   "ipa": "/kʰwaːm˧.baw˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เบาใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเบา",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เบา + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความเห็นใจ",
+   "rtgs": "khwam-hen-chai",
+   "ipa": "/kʰwaːm˧.hen˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "compassion",
+     "sympathy"
+    ],
+    "th": "คำอาการนามของ เห็นใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความเห็น",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "mind + heart",
+   "lit_th": "ข้อวินิจฉัยหรือความเชื่อที่แสดงออก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความช้ำใจ",
+   "rtgs": "khwam-cham-chai",
+   "ipa": "/kʰwaːm˧.t͡ɕʰam˦˥.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ช้ำใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความช้ำ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ช้ำ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความเป็นใจ",
+   "rtgs": "khwam-pen-chai",
+   "ipa": "/kʰwaːm˧.pen˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เป็นใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเป็น",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เป็น + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การประทับใจ",
+   "rtgs": "kan-pra-thap-chai",
+   "ipa": "/kaːn˧.pra˨˩.tʰap̚˦˥.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ประทับใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การประทับ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ประทับ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความเต็มใจ",
+   "rtgs": "khwam-tem-chai",
+   "ipa": "/kʰwaːm˧.tem˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "willingness"
+    ],
+    "th": "คำอาการนามของ เต็มใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความเต็ม",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เต็ม + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความแน่ใจ",
+   "rtgs": "khwam-nae-chai",
+   "ipa": "/kʰwaːm˧.nɛː˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แน่ใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความแน่",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แน่ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความน้อยใจ",
+   "rtgs": "khwam-noi-chai",
+   "ipa": "/kʰwaːm˧.nɔːj˦˥.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "resentment"
+    ],
+    "th": "คำอาการนามของ น้อยใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความน้อย",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ น้อย + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การตามใจ",
+   "rtgs": "kan-tam-chai",
+   "ipa": "/kaːn˧.taːm˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตามใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตาม",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตาม + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การได้ใจ",
+   "rtgs": "kan-dai-chai",
+   "ipa": "/kaːn˧.daːj˥˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ได้ใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การได้",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ได้ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การเสียใจ",
+   "rtgs": "kan-sia-chai",
+   "ipa": "/kaːn˧.sia̯˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เสียใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเสีย",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+  },
+  {
+   "th": "ความผิดใจ",
+   "rtgs": "khwam-phit-chai",
+   "ipa": "/kʰwaːm˧.pʰit̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ผิดใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความผิด",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "guilt + heart",
+   "lit_th": "คำอาการนามของ ผิด + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความพอใจ",
+   "rtgs": "khwam-pho-chai",
+   "ipa": "/kʰwaːm˧.pʰɔː˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "satisfaction"
+    ],
+    "th": "คำอาการนามของ พอใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความพอ",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ พอ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การถึงใจ",
+   "rtgs": "kan-thueng-chai",
+   "ipa": "/kaːn˧.tʰɯŋ˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ถึงใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การถึง",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถึง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความแปลกใจ",
+   "rtgs": "khwam-plaek-chai",
+   "ipa": "/kʰwaːm˧.plɛːk̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "astonishment"
+    ],
+    "th": "คำอาการนามของ แปลกใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความแปลก",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แปลก + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การเอาใจ",
+   "rtgs": "kan-ao-chai",
+   "ipa": "/kaːn˧.ʔaw˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เอาใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเอา",
+    "ใจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เอา + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *caɰᴬ², จากไทดั้งเดิม *cɤɰᴬ; ร่วมเชื้อสายกับลาว ໃຈ (ใจ), อีสาน ใจ, คำเมือง ᨧᩲ (ใจ), ᨧᩱ (ไจ), เขิน ᨧᩱ (ไจ), ไทลื้อ ᦺᦈ (ไจ), ไทดำ ꪻꪊ (ใจ), ไทขาว ꪻꪊ, ไทใหญ่ ၸႂ် (ใจ), ไทใต้คง ᥓᥬ (ใจ), พ่าเก ꩡ︀ၞ် (ใจ), อาหม 𑜋𑜨𑜧 (ฉอ̂ว์); เทียบออสโตรนีเซียนดั้งเดิม *qaCay",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨧᩲ",
+  "th": "ใจ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:chai-2",
+   "label": "ชัย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"chai\". ใจ is jai, ชัย is chai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:chai-3",
+   "label": "ชาย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"chai\". ใจ is jai, ชาย is chaai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

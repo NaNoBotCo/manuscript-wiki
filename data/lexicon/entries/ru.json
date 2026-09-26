@@ -1,0 +1,1354 @@
+{
+ "id": "w:ru",
+ "th": "รู้",
+ "status": "proposed",
+ "rtgs": "ru",
+ "paiboon": "rúu",
+ "ipa": "/ruː˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "know",
+     "learn",
+     "aware"
+    ],
+    "th": "แจ้ง, เข้าใจ, ทราบ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "รับรู้",
+     "rtgs": "rap-ru",
+     "ipa": "/rap̚˦˥.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "perceive",
+       "learn",
+       "alive to"
+      ],
+      "th": "ยืนยันว่ารู้, รับว่ารู้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รับ",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "รับ"
+     ],
+     "lit": "accept + know",
+     "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + แจ้ง"
+    },
+    {
+     "th": "เรียนรู้",
+     "rtgs": "rian-ru",
+     "ipa": "/ria̯n˧.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "learn"
+      ],
+      "th": "เข้าใจความหมายของสิ่งใดสิ่งหนึ่งโดยประสบการณ์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เรียน",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "เรียน"
+     ],
+     "lit": "learn + know",
+     "lit_th": "เข้ารับความรู้จากผู้สอน + แจ้ง"
+    },
+    {
+     "th": "รู้ตัว",
+     "rtgs": "ru-tua",
+     "ipa": "/ruː˦˥.tua̯˧/",
+     "gloss": {
+      "en": [
+       "aware"
+      ],
+      "th": "รู้สึกตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "know + form",
+     "lit_th": "แจ้ง + รูป"
+    },
+    {
+     "th": "รู้ความ",
+     "rtgs": "ru-khwam",
+     "ipa": "/ruː˦˥.kʰwaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เข้าใจภาษา (ใช้แก่เด็ก)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "ความ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "know + -ness",
+     "lit_th": "แจ้ง + เรื่อง",
+     "flips_with": "ความรู้"
+    },
+    {
+     "th": "รู้แจ้ง",
+     "rtgs": "ru-chaeng",
+     "ipa": "/ruː˦˥.t͡ɕɛːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เข้าใจดี, รู้ชัด, รู้ประจักษ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "แจ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.13",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "know + inform",
+     "lit_th": "แจ้ง + แสดงให้รู้"
+    },
+    {
+     "th": "รู้เรื่อง",
+     "rtgs": "ru-rueang",
+     "ipa": "/ruː˦˥.rɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เข้าใจเรื่อง (มักใช้ในความปฏิเสธ)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "เรื่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "know + animal",
+     "lit_th": "แจ้ง + ภาวะหรือเนื้อหาของสิ่งซึ่งเนื่องกั"
+    },
+    {
+     "th": "อวดรู้",
+     "rtgs": "uat-ru",
+     "ipa": "/ʔua̯t̚˨˩.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงให้ผู้อื่นเข้าใจว่าตนรู้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อวด",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.13",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "สำแดงให้รู้เห็น + แจ้ง"
+    },
+    {
+     "th": "รู้จัก",
+     "rtgs": "ru-chak",
+     "ipa": "/ruː˦˥.t͡ɕak̚˨˩/",
+     "gloss": {
+      "en": [
+       "know"
+      ],
+      "th": "เคยพบเคยเห็นและจำได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "จัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "แจ้ง + ทำให้เป็นแฉก ๆ หรือหยัก ๆ คล้ายฟัน"
+    },
+    {
+     "th": "รู้เท่าทัน",
+     "rtgs": "ru-thao-than",
+     "ipa": "/ruː˦˥.tʰaw˥˩.tʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้ทัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "เท่าทัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "lit_th": "แจ้ง + เทียมถึง",
+     "frame": "quality"
+    },
+    {
+     "th": "แพ้รู้",
+     "rtgs": "phae-ru",
+     "ipa": "/pʰɛː˦˥.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แพ้ความคิด, เสียที, เสียรู้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แพ้",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "lose + know",
+     "lit_th": "ชนะ + แจ้ง"
+    },
+    {
+     "th": "รู้สึก",
+     "rtgs": "ru-suek",
+     "ipa": "/ruː˦˥.sɯk̚˨˩/",
+     "gloss": {
+      "en": [
+       "feel"
+      ],
+      "th": "รู้ตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "สึก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "แจ้ง + กร่อนไป"
+    },
+    {
+     "th": "รู้ฉลาด",
+     "translit_auto": "ruchlad",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาเปรียบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "ฉลาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "lit": "know + astute",
+     "lit_th": "แจ้ง + เฉียบแหลม",
+     "frame": "quality"
+    },
+    {
+     "th": "รู้เท่า",
+     "rtgs": "ru-thao",
+     "ipa": "/ruː˦˥.tʰaw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้สึกสภาพที่เป็นจริง, รู้ตามความเป็นจริง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "เท่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "แจ้ง + เสมอกัน"
+    },
+    {
+     "th": "ตรัสรู้",
+     "rtgs": "trat-sa-ru",
+     "ipa": "/trat̚˨˩.sa˨˩.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้แจ้ง (ใช้เฉพาะพระพุทธเจ้า)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตรัส",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "พูด + แจ้ง"
+    },
+    {
+     "th": "นกรู้",
+     "translit_auto": "nkru",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่มีไหวพริบรู้เท่าทันเหตุการณ์หรือภัยที่จะมาถึงตน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "นก"
+     ],
+     "lit": "bird + know",
+     "lit_th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ + แจ้ง"
+    },
+    {
+     "th": "ผู้รู้",
+     "rtgs": "phu-ru",
+     "ipa": "/pʰuː˥˩.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่มีความรู้ความชำนาญในเรื่องนั้น ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผู้",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + แจ้ง"
+    },
+    {
+     "th": "รู้ใจ",
+     "rtgs": "ru-chai",
+     "ipa": "/ruː˦˥.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้อัธยาศัยใจคอว่าเป็นอย่างไร หรือชอบอะไร ไม่ชอบอะไร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "know + heart",
+     "lit_th": "แจ้ง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "สู่รู้",
+     "rtgs": "su-ru",
+     "ipa": "/suː˨˩.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อวดรู้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สู่",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ไปเยี่ยม + แจ้ง"
+    },
+    {
+     "th": "รู้คุณ",
+     "rtgs": "ru-khun",
+     "ipa": "/ruː˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระลึกถึงความดีที่ผู้อื่นทำให้แก่ตน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "คุณ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "คุณ"
+     ],
+     "lit": "know + you",
+     "lit_th": "แจ้ง + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค"
+    },
+    {
+     "th": "รู้หนังสือ",
+     "rtgs": "ru-nang-sue",
+     "ipa": "/ruː˦˥.naŋ˩˩˦.sɯː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อ่านออกเขียนได้, อ่านและเขียนหนังสือได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "หนังสือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "know + book",
+     "lit_th": "แจ้ง + เครื่องหมายใช้ขีดเขียนแทนเสียงหรือ"
+    },
+    {
+     "th": "รู้กัน",
+     "rtgs": "ru-kan",
+     "ipa": "/ruː˦˥.kan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้เป็นนัยกันเฉพาะในกลุ่มของตน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "กัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+PRON",
+     "head": 0,
+     "lit_th": "แจ้ง + สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูดเ"
+    },
+    {
+     "th": "ความรู้",
+     "rtgs": "khwam-ru",
+     "ipa": "/kʰwaːm˧.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "knowledge"
+      ],
+      "th": "สิ่งที่สั่งสมมาจากการศึกษาเล่าเรียน การค้นคว้า หรือประสบการณ์รวมทั้งความสามารถเชิงปฏิบัติและทักษะ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ความ",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "-ness + know",
+     "lit_th": "เรื่อง + แจ้ง",
+     "flips_with": "รู้ความ"
+    },
+    {
+     "th": "ซื้อรู้",
+     "rtgs": "sue-ru",
+     "ipa": "/sɯː˦˥.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียเงินตราหรือสิ่งของเป็นต้นโดยถูกลวง แต่ได้เป็นบทเรียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ซื้อ",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "consume + know",
+     "lit_th": "เอาเงินตราแลกกับสิ่งของ + แจ้ง"
+    },
+    {
+     "th": "รอบรู้",
+     "rtgs": "rop-ru",
+     "ipa": "/rɔːp̚˥˩.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "wise"
+      ],
+      "th": "รู้หลายอย่าง, รู้กว้างขวาง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รอบ",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "around + know",
+     "lit_th": "การบรรจบถึงกัน + แจ้ง"
+    },
+    {
+     "th": "รู้คิด",
+     "translit_auto": "rukhid",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้จักคิดอ่าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "คิด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "คิด"
+     ],
+     "lit": "know + think",
+     "lit_th": "แจ้ง + ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น"
+    },
+    {
+     "th": "ภูมิรู้",
+     "rtgs": "phum-ru",
+     "ipa": "/pʰuːm˧.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความรู้, พื้นความรู้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ภูมิ"
+     ],
+     "lit": "land + know",
+     "lit_th": "แผ่นดิน + แจ้ง"
+    },
+    {
+     "th": "สมรู้",
+     "rtgs": "som-ru",
+     "ipa": "/som˩˩˦.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ร่วมคิดกัน, เป็นใจกัน (มักใช้ในทางที่ไม่ดี)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สม",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit": "suitable + know",
+     "lit_th": "เหมาะ + แจ้ง",
+     "frame": "quality"
+    },
+    {
+     "th": "หยั่งรู้",
+     "rtgs": "yang-ru",
+     "ipa": "/jaŋ˨˩.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เล็งรู้ความจริง, ค้นหาเพื่อให้รู้ความจริง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หยั่ง",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "วัดดูเพื่อให้รู้ตื้นลึก + แจ้ง"
+    },
+    {
+     "th": "รู้ดี",
+     "rtgs": "ru-di",
+     "ipa": "/ruː˦˥.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้เป็นอย่างดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "ดี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "know + good",
+     "lit_th": "แจ้ง + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+     "frame": "quality"
+    },
+    {
+     "th": "รู้จำ",
+     "translit_auto": "rucham",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้จักจำ, รู้แล้วจำได้, จำได้เก่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "จำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "know + remember",
+     "lit_th": "แจ้ง + กำหนดไว้ในใจ"
+    },
+    {
+     "th": "รู้เห็น",
+     "rtgs": "ru-hen",
+     "ipa": "/ruː˦˥.hen˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้และเห็นเหตุการณ์ด้วยตนเอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "เห็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "know + see",
+     "lit_th": "แจ้ง + อาการของตาที่ประสบรูป"
+    },
+    {
+     "th": "รู้ทัน",
+     "rtgs": "ru-than",
+     "ipa": "/ruː˦˥.tʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้ถึงเหตุการณ์หรือความคิดของบุคคลอื่นไม่เพลี่ยงพล้ำเสียเปรียบ, รู้เท่าทัน ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "ทัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "แจ้ง + เป็นไปตามเวลาที่กำหนด"
+    },
+    {
+     "th": "เสียรู้",
+     "rtgs": "sia-ru",
+     "ipa": "/sia̯˩˩˦.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แพ้เพราะโง่กว่าเขาหรือไม่ทันชั้นเชิงเขา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสีย",
+      "รู้"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "bad + know",
+     "lit_th": "เสื่อมลงไป + แจ้ง"
+    },
+    {
+     "th": "รู้เค้า",
+     "rtgs": "ru-khao",
+     "ipa": "/ruː˦˥.kʰaw˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้เบาะแส, รู้ร่องรอย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "เค้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "แจ้ง + สิ่งที่เป็นเครื่องกำหนดหมายบอกให้ร"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 30 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 42; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การหยั่งรู้",
+   "rtgs": "kan-yang-ru",
+   "ipa": "/kaːn˧.jaŋ˨˩.ruː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หยั่งรู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหยั่ง",
+    "รู้"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หยั่ง + แจ้ง"
+  },
+  {
+   "th": "การรู้",
+   "rtgs": "kan-ru",
+   "ipa": "/kaːn˧.ruː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ รู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "รู้"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + แจ้ง"
+  },
+  {
+   "th": "การซื้อรู้",
+   "rtgs": "kan-sue-ru",
+   "ipa": "/kaːn˧.sɯː˦˥.ruː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ซื้อรู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การซื้อ",
+    "รู้"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "purchase + know",
+   "lit_th": "คำอาการนามของ ซื้อ + แจ้ง"
+  },
+  {
+   "th": "การเสียรู้",
+   "rtgs": "kan-sia-ru",
+   "ipa": "/kaːn˧.sia̯˩˩˦.ruː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เสียรู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเสีย",
+    "รู้"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + แจ้ง"
+  },
+  {
+   "th": "การอวดรู้",
+   "rtgs": "kan-uat-ru",
+   "ipa": "/kaːn˧.ʔua̯t̚˨˩.ruː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อวดรู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การอวด",
+    "รู้"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อวด + แจ้ง"
+  },
+  {
+   "th": "การตรัสรู้",
+   "rtgs": "kan-trat-sa-ru",
+   "ipa": "/kaːn˧.trat̚˨˩.sa˨˩.ruː˦˥/",
+   "gloss": {
+    "en": [
+     "enlightenment"
+    ],
+    "th": "คำอาการนามของ ตรัสรู้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การตรัส",
+    "รู้"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตรัส + แจ้ง"
+  },
+  {
+   "th": "การสู่รู้",
+   "rtgs": "kan-su-ru",
+   "ipa": "/kaːn˧.suː˨˩.ruː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สู่รู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสู่",
+    "รู้"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สู่ + แจ้ง"
+  },
+  {
+   "th": "การเรียนรู้",
+   "rtgs": "kan-rian-ru",
+   "ipa": "/kaːn˧.ria̯n˧.ruː˦˥/",
+   "gloss": {
+    "en": [
+     "learning"
+    ],
+    "th": "คำอาการนามของ เรียนรู้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การเรียน",
+    "รู้"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เรียน + แจ้ง"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *rɯːwꟲ; ร่วมเชื้อสายกับอีสาน ฮู้, ลาว ຮູ້ (ฮู้), คำเมือง ᩁᩪ᩶ (รู้), ไทลื้อ ᦣᦴᧉ (ฮู้), ไทดำ ꪭꪴ꫁ (ฮุ้), ไทขาว ꪭꪴꫂ, ไทใหญ่ ႁူႉ (หู๎), อาหม 𑜍𑜥 (รู) หรือ 𑜍𑜤𑜈𑜫 (รุว์), ตั่ย rụ, จ้วง rox, จ้วงแบบจั่วเจียง rux, แสก รอ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩁᩪ᩶",
+  "th": "รู้",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

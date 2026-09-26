@@ -1,0 +1,5 @@
+{
+ "head": "he",
+ "rule": "เห has almost no compounds. Of 18 words queued, 16 are not compounds at all: they are single syllables spelt with a leading ห (ห นำ), the silent high-class tone marker that Thai writes before a sonorant — เหลา /law/, เหงา /ŋaw/, เหล้า /law/. The corpus's own IPA proves it: a real compound of เห contains the syllable /heː/ and these contain one syllable and no /h/. The two that survive are both V+V synonym compounds in which the first element supplies the MANNER of the deflection and เห supplies the deflection itself — หัน 'turn' gradually, หัก 'snap' sharply — so both file under the core. Senses 2 (เขว, going astray) and 3 (เฉ, leaning off true) take no compounds; they are one-word senses.",
+ "senses": {"1": ["หันเห", "หักเห"]}
+}

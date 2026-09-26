@@ -1,0 +1,1178 @@
+{
+ "id": "w:ruea",
+ "th": "เรือ",
+ "status": "mapped",
+ "rtgs": "ruea",
+ "paiboon": "rʉʉa",
+ "ipa": "/rɯa̯˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำด้วยวิธีขุดไม้ทั้งต้นหรือนำกระดาน สังกะสี เหล็ก เป็นต้น มาประกอบกันเข้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เรือขุด",
+     "rtgs": "ruea-khut",
+     "ipa": "/rɯa̯˧.kʰut̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือชนิดที่ทำด้วยไม้ซุงทั้งต้นหรือทั้งท่อน ขุดด้านบนให้เป็นรางแล้วเบิกปากออกให้กว้าง ถากหัวและท้ายเรือให้เรียวเชิดขึ้นตามส่วน เช่น เรือมาด เรือชะล่า เรือพายม้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "ขุด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "boat + mine",
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + กิริยาที่สับ เจาะ แทง หรือ คุ้ยเอา"
+    },
+    {
+     "th": "เรือโดยสาร",
+     "rtgs": "ruea-doi-san",
+     "ipa": "/rɯa̯˧.doːj˧.saːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือที่บรรทุกคนโดยสารเกิน 12 คน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "โดยสาร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + อาศัยไปด้วย"
+    },
+    {
+     "th": "ลูกเรือ",
+     "rtgs": "luk-ruea",
+     "ipa": "/luːk̚˥˩.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "sailor"
+      ],
+      "th": "กะลาสี, คนประจำอยู่ในเรือโดยสารหรือเรือประมงเป็นต้นยกเว้นชั้นหัวหน้าเช่นกัปตันหรือนายท้าย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + boat",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "เรือรบ",
+     "rtgs": "ruea-rop",
+     "ipa": "/rɯa̯˧.rop̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือที่ต่อหรือดัดแปลงขึ้นเพื่อใช้ในการรบ มีขีดความสามารถต่าง ๆ เช่น ต่อตีเรือข้าศึก คุ้มกันกระบวนเรือลำเลียง และระดมยิงฝั่ง เป็นต้น มีหลายประเภท เรียกชื่อตามลักษณะและหน้าที่ที่สำคัญ เช่น เรือบรรทุกเครื่องบิน เรือดำน้ำ เร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "รบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + สู้กัน"
+    },
+    {
+     "th": "เรือชำ",
+     "rtgs": "ruea-cham",
+     "ipa": "/rɯa̯˧.t͡ɕʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือขายของแห้งต่าง ๆ ที่เป็นอาหารเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "ชำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ชื่อร้านหรือเรือขายของแห้งต่าง ๆ ท",
+     "frame": "entity"
+    },
+    {
+     "th": "เรือเครื่องต้น",
+     "translit_auto": "reuekherueongtn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือเสบียง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "เครื่องต้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + เครื่องทรงสำหรับพระมหากษัตริย์ในพร",
+     "frame": "entity"
+    },
+    {
+     "th": "เรือบิน",
+     "rtgs": "ruea-bin",
+     "ipa": "/rɯa̯˧.bin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อากาศยานชนิดหนึ่ง สามารถลอยไปด้วยถุงบรรจุแก๊สขนาดใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "บิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "boat + fly",
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ไปในอากาศด้วยกำลังปีกหรือเครื่องยน"
+    },
+    {
+     "th": "เรือต่อ",
+     "rtgs": "ruea-to",
+     "ipa": "/rɯa̯˧.tɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือชนิดที่ทำด้วยไม้กระดานโดยนำมาต่อขึ้นเป็นรูปเรืออาศัยกงหรือมือลิงเป็นเครื่องยึด ตัวเรือป่อง หัวและท้ายเรือเรียวเชิดขึ้นตามส่วน เช่น เรือสำปั้น เรือบด เรืออีแปะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "ต่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ต่อ"
+     ],
+     "lit": "boat + a",
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "นายเรือ",
+     "rtgs": "nai-ruea",
+     "ipa": "/naːj˧.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้เป็นหัวหน้าในการเดินเรือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาย",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นาย"
+     ],
+     "lit": "baboo + boat",
+     "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ท่าเรือ",
+     "rtgs": "tha-ruea",
+     "ipa": "/tʰaː˥˩.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "harbor"
+      ],
+      "th": "ที่จอดเรือ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + boat",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "จะปิ้งเรือ",
+     "rtgs": "cha-ping-ruea",
+     "ipa": "/t͡ɕa˨˩.piŋ˥˩.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แผ่นโลหะโดยมากทำเป็นรูปดอกจัน สำหรับตรึงที่โคนห่วงร้อยโซ่ผูกเรือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จะปิ้ง",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เครื่องปิดของลับของเด็กหญิง ทำด้วย + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "เรือประมง",
+     "rtgs": "ruea-pra-mong",
+     "ipa": "/rɯa̯˧.pra˨˩.moŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือกลไฟขนาดใหญ่ที่ใช้จับปลาในทะเลลึก มักมีเครื่องอุปกรณ์ที่ทันสมัยใช้จับปลา แช่ปลา และทำปลาด้วยกรรมวิธีต่าง ๆ อยู่ในทะเลได้หลาย ๆ สัปดาห์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "ประมง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + การจับสัตว์น้ำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ทรงเรือ",
+     "translit_auto": "thrngreue",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี่เรือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทรง"
+     ],
+     "lit": "form + boat",
+     "lit_th": "รูปร่าง + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "เรือเหาะ",
+     "rtgs": "ruea-ho",
+     "ipa": "/rɯa̯˧.hɔʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อากาศยานชนิดหนึ่ง สามารถลอยไปด้วยถุงบรรจุแก๊สขนาดใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "เหาะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + เคลื่อนที่ไปในอากาศด้วยฤทธิ์"
+    },
+    {
+     "th": "เดินเรือ",
+     "rtgs": "doen-ruea",
+     "ipa": "/dɤːn˧.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "navigate"
+      ],
+      "th": "ประกอบกิจการขนส่งทางเรือ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เดิน",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "walk + boat",
+     "lit_th": "ยกเท้าก้าวไป + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ"
+    },
+    {
+     "th": "เรือยาว",
+     "rtgs": "ruea-yao",
+     "ipa": "/rɯa̯˧.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือขุดชนิดหนึ่ง ตามปรกติทำด้วยไม้ซุงตะเคียน ในสมัยโบราณใช้เป็นเรือรบ ปัจจุบันใช้เป็นเรือแข่ง บางลำยาวมากสามารถบรรจุฝีพาย 55-60 คนก็มี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "ยาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ยาว"
+     ],
+     "lit": "boat + long",
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ตัวหมากรุกที่เดินตาตรงได้ตลอด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The rook, which runs the board as a boat runs the river.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เครื่องเล่นอย่างหนึ่ง เอาไม้ไผ่มาเหลาแบน ๆ ดัดให้หัวงอน ใช้พุ่งแข่งกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เรือยนต์",
+     "rtgs": "ruea-yon",
+     "ipa": "/rɯa̯˧.jon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือต่อชนิดหนึ่ง ขับเคลื่อนด้วยเครื่องยนต์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "ยนต์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.13, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เครื่องเล่นอย่างหนึ่ง เอาไม้ไผ่มาเ + เครื่องกลไก",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A boat-shaped bamboo toy for throwing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ยศทหารเรือหรือทหารอากาศชั้นสัญญาบัตรขั้นต้น ต่ำกว่าชั้นนาวาหรือนาวาอากาศ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เรือโท",
+     "rtgs": "ruea-tho",
+     "ipa": "/rɯa̯˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่าเรือตรี ต่ำกว่าเรือเอก, ย่อว่า ร.ท. และลงท้ายด้วย ร.น.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "โท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.29, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "boat + two",
+     "lit_th": "ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั + สอง"
+    },
+    {
+     "th": "ทหารเรือ",
+     "rtgs": "tha-han-ruea",
+     "ipa": "/tʰa˦˥.haːn˩˩˦.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "sailor"
+      ],
+      "th": "ทหารที่รบทางภาคน่านน้ำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทหาร",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "soldier + boat",
+     "lit_th": "ผู้มีหน้าที่ในเรื่องรบ + ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั",
+     "frame": "entity"
+    },
+    {
+     "th": "จอมพลเรือ",
+     "rtgs": "chom-phon-ruea",
+     "ipa": "/t͡ɕɔːm˧.pʰon˧.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรสูงสุดของกองทัพเรือ สูงกว่าพลเรือเอก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จอมพล",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.28, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ยศทหารชั้นสัญญาบัตรสูงสุดของกองทัพ + ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั",
+     "frame": "entity"
+    },
+    {
+     "th": "เรือตรี",
+     "rtgs": "ruea-tri",
+     "ipa": "/rɯa̯˧.triː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่าพันจ่าเอก ต่ำกว่าเรือโท, ย่อว่า ร.ต. และลงท้ายด้วย ร.น.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "ตรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตรี"
+     ],
+     "lit": "boat + fish",
+     "lit_th": "ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั + ปลา",
+     "frame": "entity"
+    },
+    {
+     "th": "เรือเอก",
+     "rtgs": "ruea-ek",
+     "ipa": "/rɯa̯˧.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่าเรือโท ต่ำกว่านาวาตรี, ย่อว่า ร.อ. และลงท้ายด้วย ร.น.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "เอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.32, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "boat + one",
+     "lit_th": "ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั + หนึ่ง"
+    },
+    {
+     "th": "กองทัพเรือ",
+     "rtgs": "kong-thap-ruea",
+     "ipa": "/kɔːŋ˧.tʰap̚˦˥.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "navy"
+      ],
+      "th": "กองทหารที่ป้องกันประเทศภาคน่านน้ำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กองทัพ",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กอง"
+     ],
+     "lit": "army + boat",
+     "lit_th": "หน่วยทหารที่ประกอบด้วย ทหาร 3 กองพ + ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นเรือ",
+     "rtgs": "ton-ruea",
+     "ipa": "/ton˥˩.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รองผู้บังคับการเรือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "trunk + boat",
+     "lit_th": "ลำของต้นไม้ + ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั",
+     "frame": "entity"
+    },
+    {
+     "th": "ทัพเรือ",
+     "rtgs": "thap-ruea",
+     "ipa": "/tʰap̚˦˥.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กองทหารที่ป้องกันประเทศภาคน่านน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัพ",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทัพ"
+     ],
+     "lit": "army + boat",
+     "lit_th": "กองทหาร + ยศทหารเรือหรือทหารอากาศชั้นสัญญาบั",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The junior commissioned naval ranks — เรือเอก, เรือโท, เรือตรี.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "อวัยวะเพศชาย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "euphemism",
+   "via_note": "A veiled term for the penis.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "ruea as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 3 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 65 of the 5333 wats in the northern registry carry it, and 29 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 3 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 3 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "65 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "บ้านเรือ",
+     "rtgs": "ban-ruea",
+     "ipa": "/baːn˥˩.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอภูเวียง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + ruea as an element in place names",
+     "lit_th": "ที่อยู่อาศัย + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ภูเรือ",
+     "rtgs": "phu-ruea",
+     "ipa": "/pʰuː˧.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเลย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภู",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ภู"
+     ],
+     "lit": "earth + ruea as an element in place names",
+     "lit_th": "ดิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "หนองเรือ",
+     "rtgs": "nong-ruea",
+     "ipa": "/nɔːŋ˩˩˦.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "เรือ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + ruea as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 8 manuscript titles, 553 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 29; domain seeded by keyword hits ['เดิน', 'เข้า', 'ไป', 'มา'].",
+ "compounds_unassigned": [
+  {
+   "th": "การเดินเรือ",
+   "rtgs": "kan-doen-ruea",
+   "ipa": "/kaːn˧.dɤːn˧.rɯa̯˧/",
+   "gloss": {
+    "en": [
+     "navigation",
+     "sailing"
+    ],
+    "th": "คำอาการนามของ เดินเรือ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การเดิน",
+    "เรือ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "walking + boat",
+   "lit_th": "คำอาการนามของ เดิน + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *rɯəᴬ⁴, จากไทดั้งเดิม *C̬.rwɯəᴬ; ร่วมเชื้อสายกับอีสาน เฮือ, ลาว ເຮືອ (เฮือ), คำเมือง ᩁᩮᩬᩥᩋ (เรอิอ), เขิน ᩁᩮᩬᩨ (เรอื), ไทลื้อ ᦵᦣᦲ (เฮี), ไทดำ ꪹꪭ (เฮ), ไทใหญ่ ႁိူဝ်း (เหิ๊ว), ไทใต้คง ᥞᥫᥰ (เห๊อ̂), พ่าเก ꩭိုဝ︀် (หึว์), อาหม 𑜍𑜢𑜤𑜈𑜫 (รึว์), จ้วง ruz, จ้วงแบบหนง lowz, จ้วงแบบจั่วเจียง lwez (เลือ), แสก หรัว หรือ รั๋ว; เทียบเบดั้งเดิม *zuaᴬ², ไหลดั้งเดิม *Cuɾaː",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩁᩮᩬᩥᩋ",
+  "th": "เรอิอ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "boat",
+  "craft"
+ ]
+}

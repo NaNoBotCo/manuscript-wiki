@@ -1,0 +1,7 @@
+{
+ "head": "nai-2",
+ "rule": "All fifteen file under sense 1, the inside, and sense 2 stays empty for a reason that can be stated rather than shrugged at: sense 2 is แห่ง / ของ, ใน as a PREPOSITION, and a preposition does not head compounds — the same argument that emptied ของ's second sense. What sense 1 shows instead is how far 'inside' reaches in Thai: an organ (เครื่องใน, เหล็กใน, เขี้ยวแก้วใน), a garment (กางเกงใน), a place in a hospital (คนไข้ใน) or a palace (ฝ่ายใน, นางใน, ในหลวง), a social position (คนใน, วงใน), a seed (เม็ดใน), a state of sleep (หลับใน), and ภายใน and คะใน, which are just 'inside' again in other registers.",
+ "senses": {
+  "1": ["กางเกงใน","คนไข้ใน","คนใน","คะใน","ฝ่ายใน","ภายใน","วงใน","หลับใน","นางใน","เขี้ยวแก้วใน","เครื่องใน","เม็ดใน","เหล็กใน","แตกใน","ในหลวง"]
+ }
+}

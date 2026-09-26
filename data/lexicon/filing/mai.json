@@ -1,0 +1,53 @@
+{
+ "head": "mai",
+ "rule": "ไม้ divides first by whether the word names a PLANT or a THING. As a plant it is either the whole category (1) — and every head-final compound lands there: ป่าไม้, ดอกไม้, ผลไม้, ลูกไม้ — or a named kind of plant (4), which takes the nine growth-habit and use terms from ไม้ผล to ไม้ยืนต้น. As a thing it is timber (2) when the wood is the substance being discussed, and a long stick (3) when the SHAPE is what earned the word: a ruler, a match, a cane, a hanger, a ranat mallet, a two-legged hoist, a cross. หน้าไม้ is the one true adjectival use here and fills the otherwise empty sense 8, a crossbow made of wood. Off the physical axis, 5 takes moves — ไม้ตาย the finishing technique, ไม้มือ the hand in motion — and 6 the manner behind one, ไม้มืด. Sense 11 is airtight and needs no argument: every vowel sign named ไม้- files there.",
+ "senses": {
+  "1": [
+   "ป่าไม้",
+   "ดอกไม้",
+   "ผลไม้",
+   "ลูกไม้"
+  ],
+  "2": [
+   "เนื้อไม้",
+   "ไม้อัด"
+  ],
+  "3": [
+   "ไม้บรรทัด",
+   "ไม้ขีด",
+   "ไม้เรียว",
+   "ไม้แขวน",
+   "ไม้แข็ง",
+   "ไม้ล้มลุก",
+   "ไม้กางเขน"
+  ],
+  "4": [
+   "ไม้ผล",
+   "ไม้ดอก",
+   "ไม้ใบ",
+   "ไม้ประดับ",
+   "ไม้พุ่ม",
+   "ไม้เถา",
+   "ไม้เลื้อย",
+   "ไม้ต้น",
+   "ไม้ยืนต้น"
+  ],
+  "5": [
+   "ไม้ตาย",
+   "ไม้มือ"
+  ],
+  "6": [
+   "ไม้มืด"
+  ],
+  "8": [
+   "หน้าไม้"
+  ],
+  "11": [
+   "ไม้มลาย",
+   "ไม้ม้วน",
+   "ไม้โอ",
+   "ไม้หน้า",
+   "ไม้ผัด"
+  ]
+ }
+}

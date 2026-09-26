@@ -58,6 +58,16 @@ EXTRA_EXPECTED = (
     "hotrai/entry.txt",
     "hotrai/all.txt",
     "api/hotrai.json",
+    # The axis pages' data (data/api_static/, copied in by build_static). The
+    # 2026-07-28 wipe deleted these six and /need said "could not load" for a
+    # month while Pages served their URLs as landing HTML, HTTP 200. The pages
+    # being present is not enough — their data must ship too.
+    "api/needs.json",
+    "api/functions.json",
+    "api/classes.json",
+    "api/materials.json",
+    "api/term-echo.json",
+    "api/wander.json",
 )
 
 # A whole build is big. A build that collapses to a handful of files is the

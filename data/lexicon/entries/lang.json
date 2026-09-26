@@ -1,0 +1,854 @@
+{
+ "id": "w:lang",
+ "th": "หลัง",
+ "status": "mapped",
+ "rtgs": "lang",
+ "paiboon": "lǎng",
+ "ipa": "/laŋ˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ซีกของกายที่ตรงข้ามกับหน้าอก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, preposition, adjective, classifier, verb",
+   "pos_th": "คำนาม, คำบุพบท, คำคุณศัพท์, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: หลัง 'the back'.",
+    "Declared root: หลัง 'the back'.",
+    "Declared root: หลัง 'the back'.",
+    "Declared root: หลัง 'the back'.",
+    "Declared root: หลัง 'the back'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ด้านที่อยู่ตรงข้ามกับด้านหน้าของสิ่งใดสิ่งหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, preposition, adjective, classifier, verb",
+   "pos_th": "คำนาม, คำบุพบท, คำคุณศัพท์, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The back of a body becomes the back of anything.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ส่วนเบื้องบน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, preposition, adjective, classifier, verb",
+   "pos_th": "คำนาม, คำบุพบท, คำคุณศัพท์, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หลังคา",
+     "rtgs": "lang-kha",
+     "ipa": "/laŋ˩˩˦.kʰaː˧/",
+     "gloss": {
+      "en": [
+       "roof"
+      ],
+      "th": "ส่วนเบื้องบนของเรือนเป็นต้น สำหรับบังแดดและฝน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หลัง",
+      "คา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.31, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คา"
+     ],
+     "lit": "back + cangue",
+     "lit_th": "ส่วนเบื้องบน + เครื่องจำคอนักโทษ ทำด้วยไม้",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The upper surface — หลังมือ, หลังคา.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "อยู่ตรงข้ามกับข้างหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, preposition, adjective, classifier, verb",
+   "pos_th": "คำนาม, คำบุพบท, คำคุณศัพท์, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Behind, against in front.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เวลาที่ยังมาไม่ถึง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, preposition, adjective, classifier, verb",
+   "pos_th": "คำนาม, คำบุพบท, คำคุณศัพท์, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Behind in space becomes after in time.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ในลำดับถัดไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, preposition, adjective, classifier, verb",
+   "pos_th": "คำนาม, คำบุพบท, คำคุณศัพท์, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "And next in a sequence.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เรียกเรือนหรือสิ่งที่มีลักษณะอย่างเรือน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, preposition, adjective, classifier, verb",
+   "pos_th": "คำนาม, คำบุพบท, คำคุณศัพท์, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "The classifier for houses — counted by their roof-backs.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "หลง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, preposition, adjective, classifier, verb",
+   "pos_th": "คำนาม, คำบุพบท, คำคุณศัพท์, คำลักษณนาม, คำกริยา",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: หลัง as a spelling of หลง 'to be lost' — not a sense.",
+    "Declared root: หลัง as a spelling of หลง 'to be lost' — not a sense.",
+    "Declared root: หลัง as a spelling of หลง 'to be lost' — not a sense.",
+    "Declared root: หลัง as a spelling of หลง 'to be lost' — not a sense.",
+    "Declared root: หลัง as a spelling of หลง 'to be lost' — not a sense."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 8 manuscript titles, 562 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits ['เรือน', 'ที่อยู่'].",
+ "compounds_unassigned": [
+  {
+   "th": "เบื้องหลัง",
+   "rtgs": "bueang-lang",
+   "ipa": "/bɯa̯ŋ˥˩.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "background"
+    ],
+    "th": "ข้างหลัง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เบื้อง",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ทาง + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
+  },
+  {
+   "th": "ทีหลัง",
+   "rtgs": "thi-lang",
+   "ipa": "/tʰiː˧.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภายหลัง, หลังจากนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ที",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ที"
+   ],
+   "lit": "time + back",
+   "lit_th": "ครั้ง + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
+  },
+  {
+   "th": "ไล่หลัง",
+   "rtgs": "lai-lang",
+   "ipa": "/laj˥˩.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "follow"
+    ],
+    "th": "ตามมาติด ๆ, ตามมาใกล้ ๆ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ไล่",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ตามไปติด ๆ เพื่อให้ทันหรือเพื่อกระ + ซีกของกายที่ตรงข้ามกับหน้าอก"
+  },
+  {
+   "th": "การหักหลัง",
+   "rtgs": "kan-hak-lang",
+   "ipa": "/kaːn˧.hak̚˨˩.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หักหลัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหัก",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หัก + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
+  },
+  {
+   "th": "กองหลัง",
+   "rtgs": "kong-lang",
+   "ipa": "/kɔːŋ˧.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "rear"
+    ],
+    "th": "ตำแหน่งในกีฬาฟุตบอลที่ผู้เล่นมีหน้าที่ป้องกันไม่ให้ผู้เล่นฝ่ายตรงข้ามยิงประตูฝ่ายตน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กอง",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "กอง"
+   ],
+   "lit": "desk + back",
+   "lit_th": "ทำให้รวมสุมกันไว้ + ซีกของกายที่ตรงข้ามกับหน้าอก"
+  },
+  {
+   "th": "การสลักหลัง",
+   "rtgs": "kan-sa-lak-lang",
+   "ipa": "/kaːn˧.sa˨˩.lak̚˨˩.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สลักหลัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสลัก",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สลัก + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
+  },
+  {
+   "th": "หลังเขา",
+   "rtgs": "lang-khao",
+   "ipa": "/laŋ˩˩˦.kʰaw˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อยู่ห่างไกลเมืองหลวงทำให้ไม่รู้ข่าวคราวหรือเรื่องราว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หลัง",
+    "เขา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เขา"
+   ],
+   "lit": "back + mountain",
+   "lit_th": "ซีกของกายที่ตรงข้ามกับหน้าอก + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+   "frame": "entity"
+  },
+  {
+   "th": "หลังสวน",
+   "rtgs": "lang-suan",
+   "ipa": "/laŋ˩˩˦.sua̯n˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดชุมพร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หลัง",
+    "สวน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "สวน"
+   ],
+   "lit": "back + garden",
+   "lit_th": "ซีกของกายที่ตรงข้ามกับหน้าอก + บริเวณที่ปลูกต้นไม้เป็นจำนวนมาก",
+   "frame": "entity"
+  },
+  {
+   "th": "สันหลัง",
+   "rtgs": "san-lang",
+   "ipa": "/san˩˩˦.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่วนของร่างกายด้านหลัง ซึ่งมีกระดูกเป็นแนวนูนลงมาตลอดหลัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สัน",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "สัน"
+   ],
+   "lit": "ridge + back",
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
+  },
+  {
+   "th": "หงายหลัง",
+   "rtgs": "ngai-lang",
+   "ipa": "/ŋaːj˩˩˦.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผิดไปจากที่คาดหวังไว้อย่างมาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หงาย",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "พลิกเอาด้านหน้าขึ้น + ซีกของกายที่ตรงข้ามกับหน้าอก"
+  },
+  {
+   "th": "การไล่หลัง",
+   "rtgs": "kan-lai-lang",
+   "ipa": "/kaːn˧.laj˥˩.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ไล่หลัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การไล่",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ไล่ + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
+  },
+  {
+   "th": "หักหลัง",
+   "rtgs": "hak-lang",
+   "ipa": "/hak̚˨˩.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "knife"
+    ],
+    "th": "ร่วมใจกันมาก่อนแล้วกลับทำร้ายให้ในภายหลัง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หัก",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "tear + back",
+   "lit_th": "พับงอ + ซีกของกายที่ตรงข้ามกับหน้าอก"
+  },
+  {
+   "th": "ลับหลัง",
+   "rtgs": "lap-lang",
+   "ipa": "/lap̚˦˥.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่ใช่ต่อหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลับ",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ลับ"
+   ],
+   "lit": "to whet + back",
+   "lit_th": "ถูให้คม + ซีกของกายที่ตรงข้ามกับหน้าอก"
+  },
+  {
+   "th": "ภายหลัง",
+   "rtgs": "phai-lang",
+   "ipa": "/pʰaːj˧.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "after",
+     "afterwards",
+     "afterward"
+    ],
+    "th": "ข้างหลัง, ต่อจากนั้นไป",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ภาย",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "บริเวณ + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
+  },
+  {
+   "th": "สลักหลัง",
+   "rtgs": "sa-lak-lang",
+   "ipa": "/sa˨˩.lak̚˨˩.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เขียนข้อความและลงลายมือชื่อที่ด้านหลังตราสาร เพื่อโอนไปซึ่งบรรดาสิทธิอันเกิดแต่ตราสารนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สลัก",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "สกัดกั้น + ซีกของกายที่ตรงข้ามกับหน้าอก"
+  },
+  {
+   "th": "เครื่องหลัง",
+   "rtgs": "khrueang-lang",
+   "ipa": "/kʰrɯa̯ŋ˥˩.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สัมภาระที่ทหารหรือนักเดินทางเป็นต้นนำติดตัวไป โดยผูกรัดไว้ข้างหลัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เครื่อง",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "เครื่อง"
+   ],
+   "lit": "device + back",
+   "lit_th": "สิ่ง + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
+  },
+  {
+   "th": "ความหลัง",
+   "rtgs": "khwam-lang",
+   "ipa": "/kʰwaːm˧.laŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรื่องราวในอดีต",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "หลัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + back",
+   "lit_th": "เรื่อง + ซีกของกายที่ตรงข้ามกับหน้าอก",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ʰlaŋᴬ; ร่วมเชื้อสายกับคำเมือง ᩉᩖᩢᨦ (หลัง), ลาว ຫຼັງ (หลัง), ไทลื้อ ᦜᧂ (หลัง), ไทดำ ꪨꪰꪉ (หลัง), ไทใหญ่ လင် (ลัง), อ่ายตน လ︀င︀် (ลง์), อาหม 𑜎𑜂𑜫 (ลง์), ปู้อี langl, จ้วง laeng",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩉᩖᩢᨦ",
+  "th": "หลัง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "back",
+  "rear"
+ ]
+}

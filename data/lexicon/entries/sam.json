@@ -1,0 +1,883 @@
+{
+ "id": "w:sam",
+ "th": "สาม",
+ "status": "mapped",
+ "rtgs": "sam",
+ "paiboon": "sǎam",
+ "ipa": "/saːm˩˩˦/",
+ "syllable_respelling": "สา-มะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "จำนวนสองบวกหนึ่ง, จำนวนจุดที่มีในนี้ (•••)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun",
+   "pos_th": "เลข, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: สาม 'three'.",
+    "Declared root: สาม 'three'.",
+    "Declared root: สาม 'three'."
+   ],
+   "compounds": [
+    {
+     "th": "สิบสาม",
+     "rtgs": "sip-sam",
+     "ipa": "/sip̚˨˩.saːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "thirteen",
+       "baker's dozen"
+      ],
+      "th": "จำนวนสิบสองบวกหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "สาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.34, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "สิบ"
+     ],
+     "lit": "ten + three",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนสองบวกหนึ่ง",
+     "flips_with": "สามสิบ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 ตกในราวเดือนกุมภาพันธ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun",
+   "pos_th": "เลข, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สามพราน",
+     "rtgs": "sam-phran",
+     "ipa": "/saːm˩˩˦.pʰraːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครปฐม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "พราน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0
+    },
+    {
+     "th": "สามเงา",
+     "rtgs": "sam-ngao",
+     "ipa": "/saːm˩˩˦.ŋaw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "เงา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "three + shadow",
+     "lit_th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 + ส่วนที่มืดเพราะมีวัตถุบังแสงทำให้แ"
+    },
+    {
+     "th": "สามโก้",
+     "rtgs": "sam-ko",
+     "ipa": "/saːm˩˩˦.koː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "โก้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 + หรูหราภูมิฐาน"
+    },
+    {
+     "th": "สามขา",
+     "rtgs": "sam-kha",
+     "ipa": "/saːm˩˩˦.kʰaː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกุฉินารายณ์ จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "ขา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ขา"
+     ],
+     "lit": "three + leg",
+     "lit_th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 + อวัยวะของมนุษย์หรือสัตว์ที่ยื่นจาก"
+    },
+    {
+     "th": "สามชุก",
+     "rtgs": "sam-chuk",
+     "ipa": "/saːm˩˩˦.t͡ɕʰuk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุพรรณบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "ชุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 + มีดื่น"
+    },
+    {
+     "th": "สามพี่น้อง",
+     "rtgs": "sam-phi-nong",
+     "ipa": "/saːm˩˩˦.pʰiː˥˩.nɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแก่งหางแมว จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "พี่น้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 + ผู้เกิดร่วมบิดามารดาเดียวกัน หรือร"
+    },
+    {
+     "th": "คลองสาม",
+     "rtgs": "khlong-sam",
+     "ipa": "/kʰlɔːŋ˧.saːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองหลวง จังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คลอง",
+      "สาม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "canal + three",
+     "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + ชื่อเดือนจันทรคติ เรียกว่า เดือน 3"
+    },
+    {
+     "th": "สามโคก",
+     "rtgs": "sam-khok",
+     "ipa": "/saːm˩˩˦.kʰoːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดปทุมธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "โคก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "three + mound",
+     "lit_th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 + ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต"
+    },
+    {
+     "th": "สามเมือง",
+     "rtgs": "sam-mueang",
+     "ipa": "/saːm˩˩˦.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสีดา จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "เมือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "three + town",
+     "lit_th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 + แดน"
+    },
+    {
+     "th": "สามเรือน",
+     "rtgs": "sam-ruean",
+     "ipa": "/saːm˩˩˦.rɯa̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอศรีสำโรง จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "เรือน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เรือน"
+     ],
+     "lit": "three + house",
+     "lit_th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี"
+    },
+    {
+     "th": "สามชัย",
+     "rtgs": "sam-chai",
+     "ipa": "/saːm˩˩˦.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "ชัย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ชัย"
+     ],
+     "lit": "three + victory",
+     "lit_th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 + การชนะ"
+    },
+    {
+     "th": "สามพวง",
+     "rtgs": "sam-phuang",
+     "ipa": "/saːm˩˩˦.pʰua̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคีรีมาศ จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "พวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "three + bunch",
+     "lit_th": "ชื่อเดือนจันทรคติ เรียกว่า เดือน 3 + กลุ่มของสิ่งที่มีลักษณะอย่างเดียวก"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "เดือน 3, the third lunar month.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "บทสรรเสริญ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun",
+   "pos_th": "เลข, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: สาม 'praise' < Skt sāman — unrelated.",
+    "Declared root: สาม 'praise' < Skt sāman — unrelated.",
+    "Declared root: สาม 'praise' < Skt sāman — unrelated."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "การสรรเสริญ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun",
+   "pos_th": "เลข, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "The praise names the act of praising.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 114 manuscript titles, 193 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['สอง', 'จำนวน', 'หนึ่ง'].",
+ "compounds_unassigned": [
+  {
+   "th": "สามง่าม",
+   "rtgs": "sam-ngam",
+   "ipa": "/saːm˩˩˦.ŋaːm˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม้หรือเหล็กที่แยกออกเป็น 3 แฉกเรียงอยู่ในแนวเดียวกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "ง่าม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "จำนวนสองบวกหนึ่ง + ลักษณะหรือสิ่งที่แยกเป็น 2 หรือ 3"
+  },
+  {
+   "th": "สามโลก",
+   "rtgs": "sam-lok",
+   "ipa": "/saːm˩˩˦.loːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โลกทั้ง 3 คือ มนุษยโลก เทวโลก และพรหมโลก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "โลก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "โลก"
+   ],
+   "lit": "three + world",
+   "lit_th": "จำนวนสองบวกหนึ่ง + แผ่นดิน"
+  },
+  {
+   "th": "สามเณร",
+   "rtgs": "sam-ma-nen",
+   "ipa": "/saːm˩˩˦.ma˦˥.neːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้ดำรงเพศอย่างภิกษุ แต่สมาทานศีล 10 ตามปกติมีอายุยังไม่ครบ 20 ปีบริบูรณ์, เรียกสั้น ๆ ว่า เณร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "เณร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "จำนวนสองบวกหนึ่ง + สามเณร"
+  },
+  {
+   "th": "สามเวท",
+   "rtgs": "sa-ma-wet",
+   "ipa": "/saː˩˩˦.ma˦˥.weːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อคัมภีร์ที่ 3 ของพระเวท ประพันธ์เป็นฉันท์ ส่วนใหญ่คัดมาจากฤคเวท สำหรับขับในพิธีบูชาด้วยน้ำโสม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "เวท"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "use": "false-split"
+  },
+  {
+   "th": "หลักสาม",
+   "rtgs": "lak-sam",
+   "ipa": "/lak̚˨˩.saːm˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อายุระหว่าง 30-39 ปี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หลัก",
+    "สาม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "cross_listed": [
+    "หลัก"
+   ],
+   "lit": "key + three",
+   "lit_th": "เสาที่ปักไว้ + จำนวนสองบวกหนึ่ง"
+  },
+  {
+   "th": "สามเหลี่ยม",
+   "rtgs": "sam-liam",
+   "ipa": "/saːm˩˩˦.lia̯m˨˩/",
+   "gloss": {
+    "en": [
+     "triangle",
+     "trigon",
+     "threeside"
+    ],
+    "th": "(รูป~) รูปเหลี่ยมที่มีด้านโดยรอบเป็นเส้นตรง 3 เส้น ปลายเส้นจดกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "เหลี่ยม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "จำนวนสองบวกหนึ่ง + ด้านที่เป็นสัน"
+  },
+  {
+   "th": "สามสิบ",
+   "rtgs": "sam-sip",
+   "ipa": "/saːm˩˩˦.sip̚˨˩/",
+   "gloss": {
+    "en": [
+     "thirty"
+    ],
+    "th": "จำนวน 30 คือ 10 สามหนรวมกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "สิบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "สิบ"
+   ],
+   "lit": "three + ten",
+   "lit_th": "จำนวนสองบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบสาม"
+  },
+  {
+   "th": "สามล้อ",
+   "rtgs": "sam-lo",
+   "ipa": "/saːm˩˩˦.lɔː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยานพาหนะถีบขนาดเล็กชนิดหนึ่งมีล้อ 3 ล้อ เรียกเต็มคำว่า จักรยานสามล้อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "ล้อ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit": "three + wheel",
+   "lit_th": "จำนวนสองบวกหนึ่ง + ส่วนของรถซึ่งเป็นวงกลมสำหรับหมุนเค"
+  },
+  {
+   "th": "สามแพร่ง",
+   "rtgs": "sam-phraeng",
+   "ipa": "/saːm˩˩˦.pʰrɛŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทางที่แยกเป็น 3 สาย เกิดจากทางสายหนึ่งมาบรรจบเป็นมุมฉากกับทางอีกสายหนึ่ง, โบราณถือว่าเป็นทางผีผ่าน ไม่เป็นมงคล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "แพร่ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "จำนวนสองบวกหนึ่ง + ทางแยกทางบก"
+  },
+  {
+   "th": "สามกษัตริย์",
+   "rtgs": "sam-ka-sat",
+   "ipa": "/saːm˩˩˦.ka˨˩.sat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปพรรณที่ในชิ้นเดียวกันมีทั้งทอง นาก และเงินสลับกัน โบราณถือว่าเป็นมงคลแก่ผู้สวม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "กษัตริย์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit": "three + crown"
+  },
+  {
+   "th": "สามเกลอ",
+   "rtgs": "sam-kloe",
+   "ipa": "/saːm˩˩˦.klɤː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องมือสำหรับตอกกระทุ้งเสาเข็ม มีลักษณะเป็นไม้ท่อนกลม มีที่จับสำหรับยก 3 ที่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "เกลอ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit": "three + friend",
+   "lit_th": "จำนวนสองบวกหนึ่ง + เพื่อนสนิท"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *sa:m, จากจีนยุคกลาง 三 (MC sam); ร่วมเชื้อสายกับคำเมือง ᩈᩣ᩠ᨾ (สาม), ลาว ສາມ (สาม), ไทลื้อ ᦉᦱᧄ (สาม), ไทดำ ꪎꪱꪣ (สาม), ไทใหญ่ သၢမ် (สาม), ไทใต้คง ᥔᥣᥛᥴ (ส๋าม), อาหม 𑜏𑜪 (สํ), ปู้อี saaml, จ้วง sam ยืมมาจากสันสกฤต साम (สาม)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩈᩣ᩠ᨾ",
+  "th": "สาม",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:sam-2",
+   "label": "สำ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"sam\". สาม is sǎam, สำ is sǎm — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "three"
+ ]
+}

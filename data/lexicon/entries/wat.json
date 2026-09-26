@@ -1,0 +1,964 @@
+{
+ "id": "w:wat",
+ "th": "วัด",
+ "status": "mapped",
+ "rtgs": "wat",
+ "paiboon": "wát",
+ "ipa": "/wat̚˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิหาร และที่อยู่ของสงฆ์หรือนักบวชเป็นต้น, ในไทยมักหมายถึงวัดของศาสนาพุทธ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: วัด, the temple.",
+    "Declared root: วัด, the temple."
+   ],
+   "compounds": [
+    {
+     "th": "วัดแขก",
+     "rtgs": "wat-khaek",
+     "ipa": "/wat̚˦˥.kʰɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ศาสนสถานของศาสนาฮินดู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "แขก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.14, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "temple + guest",
+     "lit_th": "สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ + ผู้มาหา",
+     "frame": "entity"
+    },
+    {
+     "th": "ของวัด",
+     "rtgs": "khong-wat",
+     "ipa": "/kʰɔːŋ˩˩˦.wat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของที่เป็นของทางวัด, ของที่สงฆ์หรือฆราวาสใช้ร่วมกันในวัด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "วัด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.21, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + temple",
+     "lit_th": "สิ่งต่าง ๆ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+     "frame": "entity"
+    },
+    {
+     "th": "หมาวัด",
+     "rtgs": "ma-wat",
+     "ipa": "/maː˩˩˦.wat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชายที่มีศักดิ์ต่ำกว่าปรารถนาจะเคียงคู่กับหญิงที่มีศักดิ์สูงกว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมา",
+      "วัด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "canine + temple",
+     "lit_th": "สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+     "frame": "entity"
+    },
+    {
+     "th": "เด็กวัด",
+     "rtgs": "dek-wat",
+     "ipa": "/dek̚˨˩.wat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เด็กรับใช้ปรนนิบัติสงฆ์อยู่ตามวัด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เด็ก",
+      "วัด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "child + temple",
+     "lit_th": "คนที่มีอายุยังน้อย + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+     "frame": "entity"
+    },
+    {
+     "th": "ศาลาวัด",
+     "rtgs": "sa-la-wat",
+     "ipa": "/saː˩˩˦.laː˧.wat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาคารที่ปลูกไว้ในวัดสำหรับทำบุญและศึกษาเล่าเรียนเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศาลา",
+      "วัด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "อาคารทรงไทย ปล่อยโถง ไม่กั้นฝา ใช้ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+     "frame": "entity"
+    },
+    {
+     "th": "วัดหลวง",
+     "rtgs": "wat-luang",
+     "ipa": "/wat̚˦˥.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระอารามหลวง, วัดที่พระเจ้าแผ่นดินทรงสร้าง หรือทรงพระกรุณาโปรดเกล้าฯ ให้เข้าจำนวนในบัญชีเป็นพระอารามหลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "หลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "temple + royal",
+     "lit_th": "สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
+    },
+    {
+     "th": "วัดราษฎร์",
+     "rtgs": "wat-rat",
+     "ipa": "/wat̚˦˥.raːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วัดที่ได้รับพระราชทานที่วิสุงคามสีมา แต่มิได้เข้าบัญชีเป็นพระอารามหลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "ราษฎร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ + พลเมืองของประเทศ",
+     "frame": "entity"
+    },
+    {
+     "th": "แก่วัด",
+     "rtgs": "kae-wat",
+     "ipa": "/kɛː˨˩.wat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อยู่วัดนาน, มีท่าทีหรือความคิดเห็นแบบคนที่ได้รับการอบรมจากวัดหรืออยู่วัดนาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก่",
+      "วัด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "old + temple",
+     "lit_th": "มีอายุมาก + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+     "frame": "quality"
+    },
+    {
+     "th": "จำวัด",
+     "translit_auto": "chamwad",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นอน (ใช้กับพระภิกษุสามเณร)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จำ",
+      "วัด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "remember + temple",
+     "lit_th": "กำหนดไว้ในใจ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ตวัดขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: วัด 'to swing, to sweep'.",
+    "Declared root: วัด 'to swing, to sweep'."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เหวี่ยงแขนหรือขาไปโดยแรง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Swinging an arm or a leg out hard.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "สอบขนาดหรือปริมาณของสิ่งต่าง ๆ เช่นวัดส่วนยาว ส่วนกว้าง ส่วนสูง หรือความรู้เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: วัด 'to measure' — its link to the swinging word is not established here.",
+    "Declared root: วัด 'to measure' — its link to the swinging word is not established here."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "wat as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 11 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 11 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 11 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "3 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "วัดใหม่",
+     "rtgs": "wat-mai",
+     "ipa": "/wat̚˦˥.maj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "ใหม่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหม่"
+     ],
+     "lit": "wat as an element in place names + again",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เพิ่งมี",
+     "frame": "quality"
+    },
+    {
+     "th": "วัดเกาะ",
+     "rtgs": "wat-ko",
+     "ipa": "/wat̚˦˥.kɔʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอศรีสำโรง จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "เกาะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เกาะ"
+     ],
+     "lit": "wat as an element in place names + island",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนของแผ่นดินที่มีน้ำล้อมรอบ",
+     "frame": "entity"
+    },
+    {
+     "th": "วัดท่าพระ",
+     "rtgs": "wat-tha-phra",
+     "ipa": "/wat̚˦˥.tʰaː˥˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตบางกอกใหญ่ กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "ท่าพระ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จ"
+    },
+    {
+     "th": "วัดเพลง",
+     "rtgs": "wat-phleng",
+     "ipa": "/wat̚˦˥.pʰleːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดราชบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "เพลง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wat as an element in place names + song",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สำเนียงขับร้อง",
+     "frame": "entity"
+    },
+    {
+     "th": "ท่าวัด",
+     "rtgs": "tha-wat",
+     "ipa": "/tʰaː˥˩.wat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแวงน้อย จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "วัด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + wat as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "วัดพริก",
+     "rtgs": "wat-phrik",
+     "ipa": "/wat̚˦˥.pʰrik̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "พริก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wat as an element in place names + pepper",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกในสกุล Capsicum วงศ์",
+     "frame": "entity"
+    },
+    {
+     "th": "วัดสุวรรณ",
+     "rtgs": "wat-su-wan",
+     "ipa": "/wat̚˦˥.su˨˩.wan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ่อทอง จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "สุวรรณ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทอง",
+     "frame": "entity"
+    },
+    {
+     "th": "วัดจันทร์",
+     "rtgs": "wat-chan",
+     "ipa": "/wat̚˦˥.t͡ɕan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "จันทร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0
+    },
+    {
+     "th": "วัดโบสถ์",
+     "rtgs": "wat-bot",
+     "ipa": "/wat̚˦˥.boːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "โบสถ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "wat as an element in place names + temple",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สถานที่สำหรับพระสงฆ์ใช้ประชุมทำสัง",
+     "frame": "entity"
+    },
+    {
+     "th": "วัดอรุณ",
+     "rtgs": "wat-a-run",
+     "ipa": "/wat̚˦˥.ʔa˨˩.run˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตบางกอกใหญ่ กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "อรุณ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เวลาใกล้พระอาทิตย์จะขึ้น มี 2 ระยะ",
+     "frame": "entity"
+    },
+    {
+     "th": "วัดสิงห์",
+     "rtgs": "wat-sing",
+     "ipa": "/wat̚˦˥.siŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดชัยนาท",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัด",
+      "สิงห์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิงโต",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 47 manuscript titles, 3273 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['บวช', 'สงฆ์', 'ศาสนา', 'พุทธ'].",
+ "compounds_unassigned": [
+  {
+   "th": "การวัด",
+   "rtgs": "kan-wat",
+   "ipa": "/kaːn˧.wat̚˦˥/",
+   "gloss": {
+    "en": [
+     "measure",
+     "measurement"
+    ],
+    "th": "คำอาการนามของ วัด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "วัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความแก่วัด",
+   "rtgs": "khwam-kae-wat",
+   "ipa": "/kʰwaːm˧.kɛː˨˩.wat̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แก่วัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความแก่",
+    "วัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แก่ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+   "frame": "entity"
+  },
+  {
+   "th": "การกวัด",
+   "rtgs": "kan-kwat",
+   "ipa": "/kaːn˧.kwat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กวัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การก",
+    "วัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้กระทำ + สถานที่ทางศาสนา โดยปรกติมีโบสถ์ วิ",
+   "frame": "entity"
+  },
+  {
+   "th": "กระวัด",
+   "rtgs": "kra-wat",
+   "ipa": "/kra˨˩.wat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กวัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "วัด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: its whole gloss is กวัด — it is a variant of that word, not กระ + วัด. The two are unrelated in the dictionary's own entries: วัด is ยืมมาจากเขมรกลาง វត្ត, a monastery, while กวัด is inherited, ร่วมเชื้อสายกับจ้วง gvaet ('กระดิก, สะบัด'), to flick or shake. Neither etymology is stated for กระวัด itself, so probable.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากเขมรกลาง វត្ត (วตฺต), វត (วต), វ័ត (วัต), វត្យ (วตฺย), វត្រ (วตฺร), វត្ថ (วตฺถ), -វាត (-วาต, “พุทธศาสนสถาน”); เป็นไปได้ว่าเกี่ยวข้องกับเขมรเก่า វត្ត៑ (วตฺตฺ, “ล้อมรอบ, ปิดล้อม > กำแพงล้อม”); ร่วมเชื้อสายกับเขมร វត្ត (วตฺต), คำเมือง ᩅᩢ᩠ᨯ (วัด), ลาว ວັດ (วัด), ไทลื้อ ᦞᧆ (วัด), ไทใหญ่ ဝတ်ႉ (วั๎ต) ร่วมเชื้อสายกับลาว ວັດ (วัด), คำเมือง ᩅᩢ᩠ᨯ (วัด)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩅᩢ᩠ᨯ",
+  "th": "วัด",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "temple",
+  "wat",
+  "abbey"
+ ]
+}

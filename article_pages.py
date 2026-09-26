@@ -165,7 +165,8 @@ def page_html(prof, slug, wiki):
         f'<meta name="twitter:image" content="{_esc(ogimg)}">'
         f'<script type="application/ld+json">{_jsonld(prof, url, img_url, authored)}</script>'
         f'<script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": h} for i, (n, h) in enumerate(crumb_ld)]}, ensure_ascii=False)}</script>'
-        f"<style>{_CSS}</style></head>")
+        f"<style>{_CSS}</style>"
+        '<script src="/phasa/portal.js" defer></script></head>')
 
     top = ('<div class=top><a class=mark href="/">วิชา · wichaa</a>'
            '<nav><a href="/browse">Browse</a> <a href="/articles">Subjects</a> '

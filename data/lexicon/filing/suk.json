@@ -1,0 +1,7 @@
+{
+ "head": "suk",
+ "rule": "All nine go to sense 1, สุข as the noun, and the reason to write it down is that five of them do not mean happiness at all — สุขภาพ, สาธารณสุข, สุขศึกษา, สุขนิสัย and สุขภัณฑ์ mean HEALTH and SANITATION, a modern technical register in which สุข renders the hygiene sense. The head has no such sense; the closest is sense 1's ความสบายกายสบายใจ, bodily and mental ease, which reaches it but was not written for it. I filed them there rather than invent a sense, and record here that a สุข = health sense is the obvious candidate if this head is ever revised. The rest are the plain noun: สันติสุข, สุขทุกข์, ทุกข์สุข and สุขนาฏกรรม, a comedy being a drama that ends in สุข.",
+ "senses": {
+  "1": ["ทุกข์สุข","สันติสุข","สาธารณสุข","สุขทุกข์","สุขนาฏกรรม","สุขนิสัย","สุขภัณฑ์","สุขภาพ","สุขศึกษา"]
+ }
+}

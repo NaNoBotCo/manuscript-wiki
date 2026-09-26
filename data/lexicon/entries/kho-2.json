@@ -1,0 +1,934 @@
+{
+ "id": "w:kho-2",
+ "th": "คอ",
+ "status": "mapped",
+ "rtgs": "kho",
+ "paiboon": "kɔɔ",
+ "ipa": "/kʰɔː˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "คอแดง",
+     "rtgs": "kho-daeng",
+     "ipa": "/kʰɔː˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่องูลายสาบชนิด Rhabdophis subminiatus ในวงศ์ Colubridae ตัวสีเขียวหรือเทา คอสีแดง ออกหากินเวลากลางวัน มีพิษอ่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คอ",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "neck + red",
+     "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + สีอย่างสีเลือดหรือสีชาด"
+    },
+    {
+     "th": "คอคอด",
+     "rtgs": "kho-khot",
+     "ipa": "/kʰɔː˧.kʰɔːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แผ่นดินที่กิ่วคอดและมีน้ำล้อมรอบอยู่ทั้ง 2 ด้าน ตรงที่กิ่วคอดจะเชื่อมต่อระหว่างแผ่นดินใหญ่ 2 แห่ง หรือเชื่อมต่อระหว่างแผ่นดินใหญ่กับแหลมให้ติดต่อถึงกันได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คอ",
+      "คอด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + ลักษณะของส่วนที่เล็กหรือแคบเข้าแล้"
+    },
+    {
+     "th": "คอซอง",
+     "rtgs": "kho-song",
+     "ipa": "/kʰɔː˧.sɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าผูกคอแบบหนึ่ง ผูกใต้คอปกเสื้อกะลาสี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คอ",
+      "ซอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "neck + envelope",
+     "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + ซอกหรือช่องแคบ",
+     "frame": "entity"
+    },
+    {
+     "th": "คอห่าน",
+     "rtgs": "kho-han",
+     "ipa": "/kʰɔː˧.haːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของโถส้วมตรงที่มีลักษณะคล้ายคอห่านสำหรับกักน้ำเพื่อกันกลิ่นเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คอ",
+      "ห่าน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "neck + goose",
+     "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + ชื่อนกจำพวกเป็ดขนาดใหญ่หลายชนิด วง",
+     "frame": "entity"
+    },
+    {
+     "th": "กดคอ",
+     "rtgs": "kot-kho",
+     "ipa": "/kot̚˨˩.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บังคับทำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กด",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "press + neck",
+     "lit_th": "ชื่อมาตรา กด มีตัว จ ฉ ช ซ ฌ ฏ ฎ ฐ + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "แผงคอ",
+     "rtgs": "phaeng-kho",
+     "ipa": "/pʰɛːŋ˩˩˦.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แผงทำด้วยสักหลาดหรือกำมะหยี่ สำหรับติดคอเสื้อราชปะแตนซึ่งเป็นเครื่องแบบเอกชนที่ขอเข้าเฝ้า หรือเครื่องแบบนิสิตชายจุฬาลงกรณ์มหาวิทยาลัย หรือเครื่องแบบนักเรียนโรงเรียนวชิราวุธวิทยาลัยเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แผง",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เครื่องสานชนิดหนึ่ง เป็นแผ่นอย่างเ + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "ดักคอ",
+     "rtgs": "dak-kho",
+     "ipa": "/dak̚˨˩.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พูดสกัดหรือกันไว้ล่วงหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดัก",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "คอยตรงเส้นทางที่ผู้ต้องการพบจะผ่าน + ส่วนของร่างกายที่ต่อศีรษะกับตัว"
+    },
+    {
+     "th": "คอปาด",
+     "rtgs": "kho-pat",
+     "ipa": "/kʰɔː˧.paːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสื้อที่มีคอตัดปาดตรงจากไหล่ซ้ายถึงไหล่ขวา ว่า เสื้อคอปาด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คอ",
+      "ปาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + เอาส่วนที่ไม่ต้องการออกโดยวิธีฝานบ"
+    },
+    {
+     "th": "ปลอกคอ",
+     "rtgs": "plok-kho",
+     "ipa": "/plɔːk̚˨˩.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "collar"
+      ],
+      "th": "สายรัดรอบคอ (มักใช้แก่หมา)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ปลอก",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "band + neck",
+     "lit_th": "สิ่งที่ทำเป็นวงสำหรับสวมหรือรัดของ + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "คอเต่า",
+     "rtgs": "kho-tao",
+     "ipa": "/kʰɔː˧.taw˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสื้อที่มีส่วนคอเป็นทรงกระบอกยาวเป็นพิเศษ เมื่อใส่ต้องทับทบลงมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คอ",
+      "เต่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + ชื่อสัตว์เลื้อยคลานหลายวงศ์ ในอันด",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้านคอ",
+     "rtgs": "kan-kho",
+     "ipa": "/kaːn˥˩.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลำคอด้านหลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้าน",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่ต่อดอก หรือใบ หรือผล กับกิ่ + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "เกลียวคอ",
+     "rtgs": "kliao–kho",
+     "ipa": "/klia̯w˧.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กล้ามเนื้อที่คอ สำหรับทำให้เอี้ยวคอได้สะดวก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกลียว",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิ่งที่มีลักษณะเป็นรอยพันหรือบิดโด + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "คอตีบ",
+     "translit_auto": "khotib",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อโรคติดต่ออันตรายชนิดหนึ่ง เกิดจากเชื้อแบคทีเรียชนิด Corynebacterium diphtheriae อาจทำให้ทางเดินอากาศหายใจอุดตัน เป็นเหตุให้หายใจไม่สะดวก อาจถึงแก่ชีวิตได้ มักเกิดแก่เด็กเล็ก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คอ",
+      "ตีบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + มีอาการแคบเข้าผิดปรกติ"
+    },
+    {
+     "th": "คอหอย",
+     "rtgs": "kho-hoi",
+     "ipa": "/kʰɔː˧.hɔj˩˩˦/",
+     "gloss": {
+      "en": [
+       "swallow"
+      ],
+      "th": "อวัยวะภายในลำคอ เป็นทางร่วมของระบบทางเดินอาหารและระบบทางเดินอากาศหายใจ เริ่มตั้งแต่หลังโพรงจมูก หลังช่องปากลงไปจนถึงหลังกล่องเสียง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คอ",
+      "หอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + ชื่อสัตว์ไม่มีกระดูกสันหลัง ไฟลัม",
+     "frame": "entity"
+    },
+    {
+     "th": "ช่องคอ",
+     "rtgs": "chong-kho",
+     "ipa": "/t͡ɕʰɔŋ˥˩.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "throat"
+      ],
+      "th": "โพรงที่หุ้มด้วยเยื่อ อยู่หลังจมูกกับปากและเชื่อมต่ออวัยวะทั้งสองนี้กับหลอดอาหาร",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช่อง"
+     ],
+     "lit": "hole + neck",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "ค้ำคอ",
+     "rtgs": "kham-kho",
+     "ipa": "/kʰam˦˥.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีบางสิ่งที่ทำให้อยู่ในฐานะจำใจต้องทำหรืองดเว้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ค้ำ",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bear + neck",
+     "lit_th": "เอาไม้ง่ามเป็นต้นยันไว้เพื่อไม่ให้ + ส่วนของร่างกายที่ต่อศีรษะกับตัว"
+    },
+    {
+     "th": "หักคอ",
+     "rtgs": "hak-kho",
+     "ipa": "/hak̚˨˩.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "impose"
+      ],
+      "th": "ทำให้คอ (ของสิ่งมีชีวิตหรือวัตถุ) หักหรือผิดรูป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หัก",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "tear + neck",
+     "lit_th": "พับงอ + ส่วนของร่างกายที่ต่อศีรษะกับตัว"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ส่วนของภาชนะที่คอดอยู่ระหว่างตัวกับปาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The narrow of a vessel between belly and mouth.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "คอระฆัง",
+     "rtgs": "kho-ra-khang",
+     "ipa": "/kʰɔː˧.ra˦˥.kʰaŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนพระเจดีย์ตรงคอด ต่อองค์พระเจดีย์ (ที่เรียกระฆัง) กับบัลลังก์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คอ",
+      "ระฆัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "neck + bell",
+     "lit_th": "ส่วนของภาชนะที่คอดอยู่ระหว่างตัวกั + เครื่องใช้ตีให้เกิดเสียงเป็นอาณัติ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เรียกส่วนลำต้นของพรรณไม้วงศ์ปาล์มที่อยู่ระหว่างใบล่างสุดกับยอด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The crown-shaft of a palm.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ความมีใจชอบเสพสิ่งใดสิ่งหนึ่งเป็นอาจิณ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "คอเหล้า, คอหนัง — the neck stands for the appetite that goes down it.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ใจคอ",
+     "rtgs": "chai-kho",
+     "ipa": "/t͡ɕaj˧.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จิตใจ, อัธยาศัย, อารมณ์ (มักใช้ในทางลบ ทางไม่ดี)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + neck",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ความมีใจชอบเสพสิ่งใดสิ่งหนึ่งเป็นอ",
+     "frame": "entity"
+    },
+    {
+     "th": "ถูกคอ",
+     "rtgs": "thuk-kho",
+     "ipa": "/tʰuːk̚˨˩.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชอบพอ, ถูกอัธยาศัยกัน, มีรสนิยมเข้ากันได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถูก",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "be + neck",
+     "lit_th": "โดน + ความมีใจชอบเสพสิ่งใดสิ่งหนึ่งเป็นอ"
+    },
+    {
+     "th": "แตกคอ",
+     "rtgs": "taek-kho",
+     "ipa": "/tɛːk̚˨˩.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมางใจกันเพราะภายหลังเกิดมีความเห็นหรือรสนิยมไม่ตรงกัน, แตกสามัคคี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แตก",
+      "คอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "แตก"
+     ],
+     "lit": "fracture + neck",
+     "lit_th": "แยกออกจากส่วนรวม + ความมีใจชอบเสพสิ่งใดสิ่งหนึ่งเป็นอ"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 56 manuscript titles, 338 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['ร่างกาย', 'ปาก', 'คอ'].",
+ "compounds_unassigned": [
+  {
+   "th": "การแตกคอ",
+   "rtgs": "kan-taek-kho",
+   "ipa": "/kaːn˧.tɛːk̚˨˩.kʰɔː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แตกคอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแตก",
+    "คอ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "fracture + neck",
+   "lit_th": "คำอาการนามของ แตก + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+   "frame": "entity"
+  },
+  {
+   "th": "คอก.",
+   "rtgs": "kho-o-ko",
+   "ipa": "/kʰɔː˧.ʔɔː˧.kɔː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อักษรย่อของ คณะอนุกรรมการ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คอ",
+    "ก."
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: its own gloss says อักษรย่อของ คณะอนุกรรมการ — an acronym of 'sub-committee', written with a full stop. The คอ is the initial of คณะอนุกรรมการ, not the neck. An abbreviation is not a compound.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + อักษรย่อของ กรัม",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "การหักคอ",
+   "rtgs": "kan-hak-kho",
+   "ipa": "/kaːn˧.hak̚˨˩.kʰɔː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หักคอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหัก",
+    "คอ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หัก + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *ɣɔːᴬ², จากไทดั้งเดิม *ɣoːᴬ, จากจีนยุคกลาง 喉 (MC huw, “กล่องเสียง; ลำคอ”); ร่วมเชื้อสายกับคำเมือง ᨤᩬᩴ (ฅอํ), เขิน ᨤᩳ (ฅอ), ลาว ຄໍ (คํ), ไทดำ ꪁꪷ (กฺํ), ไทใหญ่ ၶေႃး (ข๊อ̂), ไทใต้คง ᥑᥨᥝᥰ (โฃ๊ว), พ่าเก ၵ︀ေ︀ႃ (ขอ̂), อาหม 𑜁𑜦𑜡 (ขอ̂) หรือ 𑜁𑜞𑜦𑜡 (ขฺรอ̂), จ้วง hoz, แสก กฺ๊อ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨤᩬᩴ",
+  "th": "ฅอํ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kho",
+   "label": "ขอ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kho\". คอ is kɔɔ, ขอ is kɔ̌ɔ — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kho-3",
+   "label": "โค",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kho\". คอ is kɔɔ, โค is koo — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "neck"
+ ]
+}

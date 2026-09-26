@@ -14,13 +14,11 @@
 #  Site: https://wichaa.net/  (Cloudflare Pages: projects `wichaa` + `wichaa-m`,
 #  stitched by the `wichaa-router` Worker — see cloudflare-mirror/README.md)
 #
-#  PUBLISHING MOVED OFF GITHUB — 2026-08-12. The NaNoBotCo account was flagged on
-#  2026-08-07 and nanobotco.github.io has served 404 since, so a `git push` here
-#  published into nothing. The git commit still happens (it is the version history,
-#  and the mirror deploys FROM the committed docs/), but the step that makes the
-#  site public is now `cloudflare-mirror/deploy.sh wichaa`. If GitHub is ever
-#  restored, set PUBLISH_GITHUB=1 to resume pushing as well — the push is
-#  best-effort and can no longer fail a publish that already reached the public.
+#  WHAT MAKES THE SITE PUBLIC — 2026-08-12 onward: `cloudflare-mirror/deploy.sh
+#  wichaa`, not a git push. The git commit still happens (it is the version
+#  history, and the mirror deploys FROM the committed docs/). Set PUBLISH_GITHUB=1
+#  to push as well; that push is best-effort and cannot fail a publish that has
+#  already reached the public.
 #
 #  One-time setup: double-click  "Set up publishing.command"  once. It signs you in
 #  and does the first publish. After that this script (by hand or on the timer) keeps
@@ -189,9 +187,14 @@ fi
 #     nothing lost, plus aliases, emic type, geoPrecision and per-field provenance.
 VAULT="$HOME/Developer/claude code projects/wichaa-vault"
 if [ -d "$VAULT" ]; then
-  log "Vault → notes → JSON  (migrate + compile)"
+  log "Vault → notes → JSON  (migrate + enrich_registry + compile)"
   "$PY" "$WIKI_DIR/sync_wats.py" || echo "  ! sync_wats failed"
   "$PY" "$VAULT/scripts/migrate.py" --write || echo "  ! migrate failed"
+  #     enrich_registry (WW-1 step 3, 2026-08-19) merges the temple register's
+  #     facts onto the notes the bridge file names — migrate cannot reach them,
+  #     because every bridged note carries a human edit. Idempotent and
+  #     line-level, so it sits here before the validator, which gates it.
+  "$PY" "$VAULT/scripts/enrich_registry.py" --write || echo "  ! enrich_registry failed"
   "$PY" "$VAULT/scripts/validate.py" --strict || { echo "✗ vault validation failed — refusing to publish"; exit 1; }
   "$PY" "$VAULT/scripts/compile.py" --write || { echo "✗ compile failed"; exit 1; }
 fi
@@ -205,6 +208,84 @@ log "Building static site → $SITE_REPO/docs  (base $SITE_BASE)"
 #     glossary page lands in the sitemap and gets its JSON-LD.
 log "Building glossary → glossary.py"
 "$PY" "$WIKI_DIR/glossary.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
+
+# 2a-1a. the lexicon: the sense-first dictionary → docs/roots/ + docs/kham/<word>/ +
+#     docs/api/lexicon/. Built here rather than added to build_static.py's
+#     UNMANAGED list, which is what /yant's near-miss below argues for: a module
+#     with a real CLI belongs in the pipeline, and anything surviving only as an
+#     untracked working copy is one rebuild from disappearing.
+log "Building lexicon → lexicon.py"
+"$PY" "$WIKI_DIR/lexicon.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
+
+# 2a-1a-1. compound enrichment and frames. The literal reading is composed from
+#     the parts; `frame` records what a compound PREDICATES, which in Thai depends
+#     on constituent order — ใจดี is kind-hearted and ดีใจ is glad, from the same
+#     two morphemes and the SAME SENSE of ใจ, so no sense-filing can separate them.
+log "Enriching compounds → lexicon_compounds.py, lexicon_frames.py"
+"$PY" "$WIKI_DIR/lexicon_compounds.py" --write
+"$PY" "$WIKI_DIR/lexicon_frames.py" --write
+
+# 2a-1a-2. the semantic network: every linguistics surface — the lexicon, the
+#     ทับศัพท์ borrowings, the glossary, the sound-change cards — emitted into ONE
+#     node/edge vocabulary and joined where they name the same Thai word, plus a
+#     resolver so any page holding Thai text can make a term a door into it.
+#     Runs after lexicon.py because it reads that output.
+log "Building the phasa semantic network → phasa_graph.py"
+"$PY" "$WIKI_DIR/phasa_graph.py" --docs "$SITE_REPO/docs"
+
+# 2a-1a-3. the portal itself: the lookup every page needs to turn Thai text into
+#     doors, and the neighbourhood a reader finds behind one — senses, the words
+#     it is found inside, the word it flips with, the words that sound identical
+#     and are not it, and the modifier family. Must follow phasa_graph.py.
+log "Building the portal → phasa_portal.py"
+"$PY" "$WIKI_DIR/phasa_portal.py" --docs "$SITE_REPO/docs"
+
+# 2a-1b. the yant index: 36 designs across 63 plates → docs/yant/.
+#     THIS WAS MISSING, and the completeness gate is the only reason anyone found
+#     out. build_static.py wipes docs/ at the start of every run, docs/yant was
+#     never committed, and nothing here rebuilt it — so the page survived only as
+#     an untracked working-tree copy left over from a manual run of yant_index.py.
+#     Every nightly since has either tripped verify_build.py or been one full
+#     rebuild away from dropping /yant off the site. routes.py expects it; now it
+#     is built like every other route rather than remembered.
+log "Building yant index → yant_index.py"
+"$PY" "$WIKI_DIR/yant_index.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
+
+# 2a-1b. /handpoke — the whole Hand Poke site, 311 pages on 28 hand-tattooing
+#     traditions, built in its own repository (../hand-poke) and exported into this
+#     one, the way Amulet Essentials is at step 2a-6. Nan moved it here on
+#     2026-09-21: it was served from nanobotco.github.io/hand-poke with only a
+#     corpus count at this address, which meant two hosts and no way for either to
+#     carry the canonical honestly. The GitHub copy is redirect stubs now.
+#     "handpoke" is in build_static.py's UNMANAGED, so the wipe leaves the subtree
+#     alone and a publish that skips this step serves the last good copy rather than
+#     a hole. routes.py declares the route, so a failure makes verify_build (gate 2c)
+#     refuse the publish.
+log "Building Hand Poke → hand-poke/tools/export_wichaa.py"
+"$PY" "$WIKI_DIR/../hand-poke/tools/export_wichaa.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
+
+# 2a-1b-ii. /handpoke/corpus — the Lanna leg tattoo counted against the corpus, which
+#     is this repository's own question and not the site's. Self-contained like
+#     yant_index.py: reads catalog.db, counts, writes its own HTML. It runs AFTER the
+#     export, which replaces the subtree and carries this page across.
+log "Building the leg-tattoo page → handpoke.py"
+"$PY" "$WIKI_DIR/handpoke.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
+
+# 2a-1c. /kesa — the yant that writes the thirty-two parts of the body as
+#     thirty-two letters, and where that method came from. Same shape as
+#     handpoke.py: reads catalog.db, counts, writes its own HTML. It also
+#     solves the knight's-tour question the design raises; board results are
+#     cached in manuscript-wiki/data/kesa_boards.json and re-verified on every
+#     run — every stored tour is re-walked move by move, so a cache that has
+#     drifted is re-solved rather than trusted. With the cache present this step
+#     takes about two seconds; with the cache deleted it re-solves all eleven
+#     boards and takes about five minutes, because the hardest of them needs
+#     25.3M positions to settle. If a search is cut short the script writes
+#     nothing and exits 1, rather than publish a claim of exhaustiveness it did
+#     not earn. routes.py declares the page, so a failure here also makes
+#     verify_build (gate 2c) refuse the publish.
+log "Building the kesa-yant page → kesa.py"
+"$PY" "$WIKI_DIR/kesa.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
 
 # 2a-2. the visual na-compendium: every na (sacred glyph) from manuscript #6964,
 #     sliced out and paired one-by-one with the page it was drawn on. Regenerates
@@ -230,6 +311,24 @@ fi
 log "Building per-place share pages → build_place_pages.py"
 "$PY" "$WIKI_DIR/build_place_pages.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL" || \
   echo "  ! place pages skipped"
+
+# 2a-5. /holding — "I'm holding an amulet": the object-in-hand door onto the
+#     class/material vocabulary. NO fallback echo here on purpose: routes.py
+#     declares the page, so if this step fails, verify_build (gate 2c) refuses
+#     the publish — a declared door that silently vanished is exactly what that
+#     gate exists to catch. It exits loudly on its own missing inputs (vault
+#     class vocabulary, data/holding_key.json).
+log "Building the holding page → holding.py"
+"$PY" "$WIKI_DIR/holding.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
+
+# 2a-6. /amulets — Amulet Essentials, the catalogue of kinds, from its own repo
+#     (../amulet-essentials). Pictures are mirrored into R2 (cas/<sha256>, the
+#     store the router serves at /img/) BEFORE the pages are written, and a failed
+#     upload aborts this step rather than shipping pages with missing pictures.
+#     No fallback echo, on the /holding precedent: routes.py declares /amulets,
+#     so a failure here makes verify_build (gate 2c) refuse the publish.
+log "Building Amulet Essentials → amulet-essentials/tools/export_wichaa.py"
+"$PY" "$WIKI_DIR/../amulet-essentials/tools/export_wichaa.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
 
 # 2b. add the machine-legibility layer on top of the fresh build: llms.txt, robots.txt,
 #     sitemap.xml, OpenAPI + AI-plugin manifest, JSON Feed, schema.org JSON-LD in heads.
@@ -269,6 +368,39 @@ log "Completeness gate → verify_build.py against routes.py"
 "$PY" "$WIKI_DIR/verify_build.py" --docs "$SITE_REPO/docs" || {
   echo "✗ incomplete build — NOT publishing (nothing committed, nothing pushed)" >&2
   exit 3
+}
+
+# 2d. LINK-INTEGRITY GATE (WW-7.3, wired 2026-08-19). The two gates above ask
+#     "did anything leak?" and "did everything get built?"; this asks "does every
+#     link in the authored articles still go somewhere?". md_to_html silently
+#     DELETES a link whose first path segment is not a route (anchor text stays,
+#     so the page reads fine and nobody notices), and a /m/ or /place/ link can
+#     point at a record that no longer exists. scripts/check_articles.py was the
+#     only thing that caught either, and it was run by hand. Its warnings print
+#     and do not halt; it exits 1 only when a link target is provably missing,
+#     and that is the one case worth refusing to ship.
+log "Link-integrity gate → scripts/check_articles.py"
+"$PY" "$WIKI_DIR/scripts/check_articles.py" --docs "$SITE_REPO/docs" || {
+  echo "✗ an article links to a page that does not exist — NOT publishing" >&2
+  echo "  (run: python3 scripts/check_articles.py   in manuscript-wiki to see which)" >&2
+  exit 4
+}
+
+# 2e. GOLDEN-QUERIES GATE (wired 2026-08-26). The gates above ask "did anything
+#     leak / not get built / link nowhere?"; this one asks "does the thing the
+#     search page PROMISES actually happen?". On 2026-08-26 /search had returned
+#     zero results for every query — including its own six example chips — for
+#     days: index fine, page fine, every gate green, the matcher's answer shape
+#     wrong. The gate runs each chip from the built page through the exact
+#     matcher file the pages ship (search_match.js) against the built index.
+#     A chip with zero results stops the publish BEFORE the commit.
+#     PATH: launchd gives background jobs no Homebrew, and the gate runs on node
+#     (same interpreter as the shipped page — that is the point of it).
+log "Golden-queries gate → golden_queries.mjs against the built search index"
+PATH="/opt/homebrew/bin:/usr/local/bin:$PATH" \
+  node "$WIKI_DIR/golden_queries.mjs" "$SITE_REPO/docs" || {
+  echo "✗ the search page's own example chips return nothing — NOT publishing" >&2
+  exit 6
 }
 
 # 3. commit only if the working tree changed
@@ -311,6 +443,12 @@ fi
 log "Deploying to Cloudflare → deploy.sh wichaa  (two halves, ~25 min upload)"
 "$DEPLOY_SH" wichaa
 log "Done. Live → ${SITE_URL}/"
+
+# 4b. IndexNow — tell Bing and the engines that share its feed which pages
+# changed tonight. After the deploy, because it announces URLs that must
+# already be live. Best-effort: it exits 0 on any refusal and says why.
+"$PY" "$WIKI_DIR/publishing/ping_indexnow.py" --docs "$SITE_REPO/docs" \
+  || log "  ! IndexNow ping failed (site is live regardless)"
 
 # 5. GitHub push — best-effort, OFF by default. See the header: the account is
 # flagged, so this would push into a 404. It never fails the publish, because by

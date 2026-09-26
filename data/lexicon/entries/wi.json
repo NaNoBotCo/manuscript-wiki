@@ -1,0 +1,571 @@
+{
+ "id": "w:wi",
+ "th": "วี",
+ "status": "mapped",
+ "rtgs": "wi",
+ "paiboon": "wii",
+ "ipa": "/wiː˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "to fan",
+     "to wave"
+    ],
+    "th": "พัด, โบก",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: วี 'to fan'.",
+    "Declared root: วี 'to fan'.",
+    "Declared root: วี 'to fan'.",
+    "Declared root: วี 'to fan'."
+   ],
+   "compounds": [
+    {
+     "th": "นาวี",
+     "rtgs": "na-wi",
+     "ipa": "/naː˧.wiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "วี"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.30, next 0.21",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + to fan",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + พัด"
+    },
+    {
+     "th": "ราวี",
+     "rtgs": "ra-wi",
+     "ipa": "/raː˧.wiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รา",
+      "วี"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.32, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "รา"
+     ],
+     "lit": "joist + to fan",
+     "lit_th": "ไม้ที่กระหนาบอยู่ใต้ท้องพรึงรับพื้ + พัด"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ชื่อตัวอักษรในอักษรละติน V/v",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นาทวี",
+     "rtgs": "na-tha-wi",
+     "ipa": "/naː˧.tʰa˦˥.wiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสงขลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาท",
+      "วี"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit_th": "ความบันลือ + ชื่อตัวอักษรในอักษรละติน V/v"
+    },
+    {
+     "th": "วาวี",
+     "rtgs": "wa-wi",
+     "ipa": "/waː˧.wiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่สรวย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วา",
+      "วี"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "วา"
+     ],
+     "lit": "to spread the arms + to fan",
+     "lit_th": "มาตราวัดตามวิธีประเพณี คือระยะที่ก + ชื่อตัวอักษรในอักษรละติน V/v"
+    }
+   ],
+   "needs_check": [
+    "Declared root: the Latin letter V.",
+    "Declared root: the Latin letter V.",
+    "Declared root: the Latin letter V.",
+    "Declared root: the Latin letter V."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 44 manuscript titles, 72 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "วีระ",
+   "rtgs": "wi-ra",
+   "ipa": "/wiː˧.raʔ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปแบบอื่นของ วีร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วี",
+    "ระ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "พัด + กระทบเรียดไป",
+   "use": "false-split"
+  },
+  {
+   "th": "ทีวี",
+   "rtgs": "thi-wi",
+   "ipa": "/tʰiː˧.wiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องรับโทรทัศน์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ที",
+    "วี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ที"
+   ],
+   "lit": "time + to fan",
+   "lit_th": "ครั้ง + พัด",
+   "use": "false-split"
+  },
+  {
+   "th": "มนัสวี",
+   "rtgs": "ma-nat-sa-wi",
+   "ipa": "/ma˦˥.nat̚˦˥.sa˨˩.wiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผู้เป็นปราชญ์, ผู้มีความคิดสูง, ผู้มีใจเด็ดเดี่ยว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มนัส",
+    "วี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ใจ + พัด"
+  },
+  {
+   "th": "กีวี",
+   "rtgs": "ki-wi",
+   "ipa": "/kiː˧.wiː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นกในสกุล Apteryx ตัวเล็กสีน้ำตาล ปากยาวแหลม บินไม่ได้ ถิ่นกำเนิดอยู่ในประเทศนิวซีแลนด์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กี",
+    "วี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "หอยกาบกี้ + พัด",
+   "use": "false-split"
+  },
+  {
+   "th": "การราวี",
+   "rtgs": "kan-ra-wi",
+   "ipa": "/kaːn˧.raː˧.wiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ราวี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การรา",
+    "วี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ รา + พัด"
+  },
+  {
+   "th": "ยาวี",
+   "rtgs": "ya-wi",
+   "ipa": "/jaː˧.wiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อักษรอาหรับที่ใช้เขียนภาษามาเลเซีย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยา",
+    "วี"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ยา"
+   ],
+   "lit": "medicine + to fan",
+   "lit_th": "สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ + พัด"
+  },
+  {
+   "th": "วีซีดี",
+   "rtgs": "wi-si-di",
+   "ipa": "/wiː˧.siː˧.diː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แผ่นซีดีที่บันทึกภาพและเสียงอย่างภาพยนตร์หรือมิวสิกวิดีโอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วี",
+    "ซีดี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "พัด + สื่อบันทึกข้อมูลชนิดหนึ่ง ลักษณะเป",
+   "use": "false-split"
+  },
+  {
+   "th": "การวี",
+   "rtgs": "kan-wi",
+   "ipa": "/kaːn˧.wiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ วี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "วี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit_th": "งาน + พัด"
+  },
+  {
+   "th": "คาวี",
+   "rtgs": "kha-wi",
+   "ipa": "/kʰaː˧.wiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วัว, วัวตัวเมีย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คา",
+    "วี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "คา"
+   ],
+   "lit": "cangue + to fan",
+   "lit_th": "เครื่องจำคอนักโทษ ทำด้วยไม้ + พัด",
+   "use": "false-split"
+  },
+  {
+   "th": "วีสะ",
+   "rtgs": "wi-sa",
+   "ipa": "/wiː˧.saʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยี่สิบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วี",
+    "สะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.29, next 0.20 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "พัด + สวย",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "มาลาวี",
+   "rtgs": "ma-la-wi",
+   "ipa": "/maː˧.laː˧.wiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ประเทศในแอฟริกาตะวันออก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มาลา",
+    "วี"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.25, next 0.16 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "mood + to fan",
+   "lit_th": "ดอกไม้ + พัด",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับอีสาน วี, ลาว ວີ (วี), คำเมือง ᩅᩦ (วี), เขิน ᩅᩦ (วี), ไทลื้อ ᦞᦲ (วี), ไทใหญ่ ဝီး (วี๊), ไทใต้คง ᥝᥤᥰ (วี๊), จ้วงแบบจั่วเจียง viz (วี, “พัดลม”) ยืมมาจากอังกฤษ vee (วี, “ชื่อเรียกอักษร V”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩅᩦ",
+  "th": "วี",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

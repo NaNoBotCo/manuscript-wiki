@@ -1,0 +1,841 @@
+{
+ "id": "w:chue",
+ "th": "ชื่อ",
+ "status": "mapped",
+ "rtgs": "chue",
+ "paiboon": "chʉ̂ʉ",
+ "ipa": "/t͡ɕʰɯː˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ สถานที่ และสิ่งของโดยทั่ว ๆ ไปหรือโดยเฉพาะเจาะจง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ชื่อสามัญ",
+     "rtgs": "chue-sa-man",
+     "ipa": "/t͡ɕʰɯː˥˩.saː˩˩˦.man˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อของสิ่งมีชีวิตหรือสารเคมีเป็นต้น เรียกตามภาษาท้องถิ่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "สามัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "name + usual",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + ปรกติ",
+     "frame": "quality"
+    },
+    {
+     "th": "ชื่อตัว",
+     "rtgs": "chue-tua",
+     "ipa": "/t͡ɕʰɯː˥˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อประจำบุคคล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "name + form",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + รูป",
+     "frame": "entity"
+    },
+    {
+     "th": "ชื่อเล่น",
+     "rtgs": "chue-len",
+     "ipa": "/t͡ɕʰɯː˥˩.len˥˩/",
+     "gloss": {
+      "en": [
+       "nickname"
+      ],
+      "th": "ชื่อของบุคคลที่ใช้กันในหมู่ญาติหรือผู้ใกล้ชิด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "เล่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "name + play",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + ทำเพื่อสนุกหรือผ่อนอารมณ์"
+    },
+    {
+     "th": "รายชื่อ",
+     "rtgs": "rai-chue",
+     "ipa": "/raːj˧.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "list"
+      ],
+      "th": "บัญชีชื่อที่เรียงกันเป็นลำดับไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ราย",
+      "ชื่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "record + name",
+     "lit_th": "เรื่อง ส่วน บุคคล หรือสิ่งซึ่งแยกก + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส",
+     "frame": "entity"
+    },
+    {
+     "th": "ชื่อแฝง",
+     "rtgs": "chue-faeng",
+     "ipa": "/t͡ɕʰɯː˥˩.fɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นามแฝง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "แฝง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "name + behind",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + หลบ"
+    },
+    {
+     "th": "ชื่อย่อ",
+     "rtgs": "chue-yo",
+     "ipa": "/t͡ɕʰɯː˥˩.jɔː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อที่ย่อมาจากชื่อเต็ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "ย่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "name + abbreviate",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + ยอบลง"
+    },
+    {
+     "th": "ออกชื่อ",
+     "rtgs": "ok-chue",
+     "ipa": "/ʔɔːk̚˨˩.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บอกชื่อ, ขานชื่อ, แสดงชื่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "ชื่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ออก"
+     ],
+     "lit": "tear + name",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส",
+     "frame": "entity"
+    },
+    {
+     "th": "ชื่อว่า",
+     "rtgs": "chue-wa",
+     "ipa": "/t͡ɕʰɯː˥˩.waː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แม้ว่า, เรียกว่า, นับว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "ว่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ว่า"
+     ],
+     "lit": "name + to say",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + พูด"
+    },
+    {
+     "th": "ชื่อสกุล",
+     "rtgs": "chue-sa-kun",
+     "ipa": "/t͡ɕʰɯː˥˩.sa˨˩.kun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อประจำวงศ์สกุลซึ่งสืบเนื่องจากบิดาถึงบุตร หรือซึ่งได้รับอนุญาตให้จดทะเบียนเป็นทางการแล้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "สกุล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + ตระกูล",
+     "frame": "entity"
+    },
+    {
+     "th": "ลงชื่อ",
+     "rtgs": "long-chue",
+     "ipa": "/loŋ˧.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เขียนชื่อ, ลงลายมือชื่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ชื่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ลง"
+     ],
+     "lit": "drop + name",
+     "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส"
+    },
+    {
+     "th": "ชื่อรอง",
+     "rtgs": "chue-rong",
+     "ipa": "/t͡ɕʰɯː˥˩.rɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อประกอบถัดจากชื่อตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "รอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "รอง"
+     ],
+     "lit": "name + deputy",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+    },
+    {
+     "th": "ชื่อจริง",
+     "rtgs": "chue-ching",
+     "ipa": "/t͡ɕʰɯː˥˩.t͡ɕiŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อของบุคคลที่ใช้เป็นทางการ ปรากฏอยู่ในทะเบียนสำมะโนครัวเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "จริง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "name + real",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + แท้",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เกียรติยศ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ชื่อเสียง",
+     "rtgs": "chue-siang",
+     "ipa": "/t͡ɕʰɯː˥˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "face",
+       "renown",
+       "reputation"
+      ],
+      "th": "เกียรติยศ, ชื่อ ก็ว่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "เสียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.23, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เสียง"
+     ],
+     "lit": "name + voice",
+     "lit_th": "เกียรติยศ + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    },
+    {
+     "th": "ได้ชื่อ",
+     "rtgs": "dai-chue",
+     "ipa": "/daːj˥˩.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขึ้นชื่อ, มีชื่อเสียง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ได้",
+      "ชื่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ได้"
+     ],
+     "lit": "have + name",
+     "lit_th": "รับมาหรือตกมาเป็นของตัว + เกียรติยศ"
+    },
+    {
+     "th": "ขึ้นชื่อ",
+     "rtgs": "khuen-chue",
+     "ipa": "/kʰɯn˥˩.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "famous"
+      ],
+      "th": "ลือชื่อ, เอ่ยถึงบ่อย ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "ชื่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขึ้น"
+     ],
+     "lit": "rise + name",
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + เกียรติยศ"
+    },
+    {
+     "th": "ลือชื่อ",
+     "rtgs": "lue-chue",
+     "ipa": "/lɯː˧.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีชื่อโด่งดัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลือ",
+      "ชื่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "พูดกันทั่วไป แต่ยังไม่มีอะไรยืนยัน + เกียรติยศ"
+    },
+    {
+     "th": "สิ้นชื่อ",
+     "rtgs": "sin-chue",
+     "ipa": "/sin˥˩.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมดชื่อเสียง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิ้น",
+      "ชื่อ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "สิ้น"
+     ],
+     "lit": "to be exhausted + name",
+     "lit_th": "หมด + เกียรติยศ"
+    },
+    {
+     "th": "ชื่อเสีย",
+     "rtgs": "chue-sia",
+     "ipa": "/t͡ɕʰɯː˥˩.sia̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเสียงในทางไม่ดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "เสีย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "name + bad",
+     "lit_th": "เกียรติยศ + เสื่อมลงไป"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A name stands for the standing it carries: reputation, honour.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 12 manuscript titles, 69 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การขึ้นชื่อ",
+   "rtgs": "kan-khuen-chue",
+   "ipa": "/kaːn˧.kʰɯn˥˩.t͡ɕʰɯː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขึ้นชื่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขึ้น",
+    "ชื่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขึ้น + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส",
+   "frame": "entity"
+  },
+  {
+   "th": "ชื่อพ้อง",
+   "rtgs": "chue-phong",
+   "ipa": "/t͡ɕʰɯː˥˩.pʰɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ คำพ้องความ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชื่อ",
+    "พ้อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + ต้องกัน",
+   "frame": "quality"
+  },
+  {
+   "th": "การลงชื่อ",
+   "rtgs": "kan-long-chue",
+   "ipa": "/kaːn˧.loŋ˧.t͡ɕʰɯː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลงชื่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลง",
+    "ชื่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การลง"
+   ],
+   "lit": "nominalisation of ลง + name",
+   "lit_th": "คำอาการนามของ ลง + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส",
+   "frame": "entity"
+  },
+  {
+   "th": "การออกชื่อ",
+   "rtgs": "kan-ok-chue",
+   "ipa": "/kaːn˧.ʔɔːk̚˨˩.t͡ɕʰɯː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ออกชื่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การออก",
+    "ชื่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออก + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส",
+   "frame": "entity"
+  },
+  {
+   "th": "การสิ้นชื่อ",
+   "rtgs": "kan-sin-chue",
+   "ipa": "/kaːn˧.sin˥˩.t͡ɕʰɯː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สิ้นชื่อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสิ้น",
+    "ชื่อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สิ้น + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ɟɤːᴮ, จากจีนยุคกลาง 字 (MC dziH); ร่วมเชื้อสายกับปักษ์ใต้ ฉือ, อีสาน ซื่อ, ลาว ຊື່ (ซื่), คำเมือง ᨩᩨ᩵ (ชื่), ไทลื้อ ᦋᦹᧈ (ชื่), ไทดำ ꪋꪳ꪿ (จฺึ่), ไทใหญ่ ၸိုဝ်ႈ (จึ้ว), อาหม 𑜋𑜢𑜤𑜈𑜫 (ฉึว์) หรือ 𑜋𑜥 (ฉู), ภาษาจ้วงใต้ cwh (ซื่อ)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨩᩨ᩵",
+  "th": "ชื่",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "name",
+  "title",
+  "nameword"
+ ]
+}

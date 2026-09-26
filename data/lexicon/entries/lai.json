@@ -1,0 +1,1003 @@
+{
+ "id": "w:lai",
+ "th": "ลาย",
+ "status": "mapped",
+ "rtgs": "lai",
+ "paiboon": "laai",
+ "ipa": "/laːj˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประกอบขึ้นด้วยเส้นเป็นสำคัญ ลักษณะเป็นแบบซ้ำ ๆ เป็นหมู่ ๆ หรือต่อเนื่องกันไปก็มี มีทั้งลายแบบธรรมชาติและลายแบบประดิษฐ์ ใช้เขียน ปั้น หรือแกะสลัก เป็นต้น เพื่อตกแต่งให้สวยงาม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ออกลาย",
+     "rtgs": "ok-lai",
+     "ipa": "/ʔɔːk̚˨˩.laːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เริ่มแสดงความไม่ดีให้ปรากฏหลังจากที่แสร้งทำดีมาแล้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "ลาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ออก"
+     ],
+     "lit": "tear + design",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+     "frame": "entity"
+    },
+    {
+     "th": "ลายเส้น",
+     "translit_auto": "laysen",
+     "ipa": "[läːj˧.sẽn˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปภาพที่เขียนขึ้นด้วยเส้นดินสอหรือเส้นปากกา จะเป็นสีหรือขาวดำก็ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาย",
+      "เส้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เส้น"
+     ],
+     "lit": "design + mark",
+     "lit_th": "รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก + สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ลายน้ำ",
+     "rtgs": "lai-nam",
+     "ipa": "/laːj˧.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลวดลายหรือภาพในเนื้อกระดาษที่ทำขึ้นพร้อม ๆ กับกระดาษจะมองเห็นได้ชัดเมื่อยกกระดาษนั้นขึ้นส่องกับแสงสว่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาย",
+      "น้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "design + water",
+     "lit_th": "รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "flips_with": "น้ำลาย",
+     "frame": "entity"
+    },
+    {
+     "th": "ลายมือ",
+     "rtgs": "lai-mue",
+     "ipa": "/laːj˧.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รอยเส้นที่ฝ่ามือและนิ้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาย",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "design + hand",
+     "lit_th": "รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+     "frame": "entity"
+    },
+    {
+     "th": "ไว้ลาย",
+     "rtgs": "wai-lai",
+     "ipa": "/waj˦˥.laːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงความกล้าหาญหรือความสามารถอันเป็นลักษณะพิเศษของตนฝากไว้ให้ประจักษ์แก่ผู้อื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไว้",
+      "ลาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เก็บเข้าที่ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก"
+    },
+    {
+     "th": "ลายลักษณ์",
+     "rtgs": "lai-lak",
+     "ipa": "/laːj˧.lak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัวหนังสือ, เครื่องหมายเป็นรูปต่าง ๆ เช่น ตัวอักษรอียิปต์โบราณ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาย",
+      "ลักษณ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก + สมบัติเฉพาะตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "ลายเซ็น",
+     "rtgs": "lai-sen",
+     "ipa": "/laːj˧.sen˧/",
+     "gloss": {
+      "en": [
+       "autograph",
+       "signature"
+      ],
+      "th": "ลายมือชื่อ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลาย",
+      "เซ็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก + นิกายหนึ่งในพระพุทธศาสนาฝ่ายมหายาน"
+    },
+    {
+     "th": "เกี้ยวลาย",
+     "translit_auto": "keiywlay",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าคาดพุงที่มีลาย (บางทีเข้าใจกันว่าเป็นผ้านุ่งอย่างหนึ่ง)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกี้ยว",
+      "ลาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เครื่องประดับลักษณะเป็นวงคล้ายพวงม + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+     "frame": "entity"
+    },
+    {
+     "th": "ลายสือ",
+     "rtgs": "lai-sue",
+     "ipa": "/laːj˧.sɯː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัวหนังสือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาย",
+      "สือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก + ตัวอักษร",
+     "frame": "entity"
+    },
+    {
+     "th": "ลายแทง",
+     "rtgs": "lai-thaeng",
+     "ipa": "/laːj˧.tʰɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้อความที่เป็นปริศนาแฝงคำตอบชี้แหล่งขุมทรัพย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาย",
+      "แทง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "design + stab",
+     "lit_th": "รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก + เอาของแหลมทิ่มหรือปักเข้าไป"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "กรรมวิธีประดิษฐ์สิ่งต่าง ๆ ให้เป็นลวดลาย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลวดลาย",
+     "rtgs": "luat-lai",
+     "ipa": "/lua̯t̚˥˩.laːj˧/",
+     "gloss": {
+      "en": [
+       "pattern"
+      ],
+      "th": "ลายต่าง ๆ ที่เขียนหรือแกะสลัก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลวด",
+      "ลาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "wire + design",
+     "lit_th": "สิ่งที่ทำเป็นเส้นยาว ๆ + กรรมวิธีประดิษฐ์สิ่งต่าง ๆ ให้เป็น",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The pattern names the craft of making it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "(ยุง~) ชื่อยุงหลายชนิด ในสกุล Aedes วงศ์ Culicidae ผนังด้านล่างของส่วนท้องมีเกล็ด พื้นลำตัวสีดำหรือน้ำตาลแก่ เกล็ดสีขาวสลับเป็นแถบลายต่าง ๆ เพศเมียมีรยางค์คู่ใกล้ปากสั้นกว่าตัวผู้ เกาะดูดเลือดโดยลำตัวขนานกับพื้น วางไข่ในน้ำนิ่งสะอาด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ยุงลาย, the Aedes mosquito, named for its banding.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "(หอย~) ชื่อหอยทะเลกาบคู่หลายชนิด ในวงศ์ Veneridae เปลือกเรียบ พื้นสีน้ำตาลอมเหลือง หรือเหลืองเข้ม มีลายเป็นเส้นหยักสีน้ำตาลหรือสีเทาเข้ม อาศัยตามพื้นที่เป็นทรายปนโคลน บางชนิดใช้เป็นอาหาร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "หอยลาย, the venus clam, named for its markings.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เป็นแนวยาว ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Running in long streaks.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ม้าลาย",
+     "rtgs": "ma-lai",
+     "ipa": "/maː˦˥.laːj˧/",
+     "gloss": {
+      "en": [
+       "zebra"
+      ],
+      "th": "สัตว์เลี้ยงลูกด้วยน้ำนมชนิดหนึ่งในสกุล Equus เป็นสัตว์ป่า ออกลูกเป็นตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ม้า",
+      "ลาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "horse + design",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus + เป็นแนวยาว ๆ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เป็นแผลยาว ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "And a long streak on the skin: a scar.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เป็นจุด ๆ เป็นแต้ม ๆ เป็นดวง ๆ หรือเป็นเส้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Spotted, dotted, mottled — patterned however.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ตาลาย",
+     "rtgs": "ta-lai",
+     "ipa": "/taː˧.laːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่มองเห็นอะไรไม่ชัดพร่าลายไปหมด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "ลาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "eye + design",
+     "lit_th": "พ่อของแม่ + เป็นจุด ๆ เป็นแต้ม ๆ เป็นดวง ๆ หรื",
+     "frame": "entity"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 31 manuscript titles, 448 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['เลือด', 'ท้อง', 'ปาก', 'ขน'].",
+ "compounds_unassigned": [
+  {
+   "th": "การกลาย",
+   "rtgs": "kan-klai",
+   "ipa": "/kaːn˧.klaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กลาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การก",
+    "ลาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้กระทำ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "frame": "entity"
+  },
+  {
+   "th": "บัวลาย",
+   "rtgs": "bua-lai",
+   "ipa": "/bua̯˧.laːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บัว",
+    "ลาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "บัว"
+   ],
+   "lit": "lotus + design",
+   "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "frame": "entity"
+  },
+  {
+   "th": "ปีกลาย",
+   "rtgs": "pi-klai",
+   "ipa": "/piː˧.klaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ปีที่แล้ว, ปีก่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ปีก",
+    "ลาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: thai-full splits it ปี + กลาย — the word is year + passed, and ลาย is not a morpheme in it; the ปีก + ลาย split is an accident of the syllable boundary",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "wing + design",
+   "lit_th": "อวัยวะสำหรับบินของนกหรือแมลงเป็นต้ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "การละลาย",
+   "rtgs": "kan-la-lai",
+   "ipa": "/kaːn˧.la˦˥.laːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ละลาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การละ",
+    "ลาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ละ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "frame": "entity"
+  },
+  {
+   "th": "ความลาย",
+   "rtgs": "khwam-lai",
+   "ipa": "/kʰwaːm˧.laːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "ลาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + design",
+   "lit_th": "เรื่อง + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "frame": "entity"
+  },
+  {
+   "th": "การไว้ลาย",
+   "rtgs": "kan-wai-lai",
+   "ipa": "/kaːn˧.waj˦˥.laːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ไว้ลาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การไว้",
+    "ลาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ไว้ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "frame": "entity"
+  },
+  {
+   "th": "ทำลาย",
+   "rtgs": "tham-lai",
+   "ipa": "/tʰam˧.laːj˧/",
+   "gloss": {
+    "en": [
+     "destroy",
+     "raze",
+     "defeat"
+    ],
+    "th": "อาการที่ทำให้สิ่งซึ่งเป็นกลุ่มก้อนแตกหักหรือพังกระจัดกระจาย, ทำให้พัง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ทำ",
+    "ลาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: thai-full gives the etymology แผลงมาจาก ทลาย, จากเขมรเก่า ទ្លាយ៑ — the whole word is an alteration of a Khmer borrowing and its -ลาย is inherited, not composed",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ทำ"
+   ],
+   "lit": "do + design",
+   "lit_th": "กระทำ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "use": "false-split"
+  },
+  {
+   "th": "การทำลาย",
+   "rtgs": "kan-tham-lai",
+   "ipa": "/kaːn˧.tʰam˧.laːj˧/",
+   "gloss": {
+    "en": [
+     "hurt",
+     "destruction"
+    ],
+    "th": "คำอาการนามของ ทำลาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การทำ",
+    "ลาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การทำ"
+   ],
+   "lit": "doing + design",
+   "lit_th": "คำอาการนามของ ทำ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "frame": "entity"
+  },
+  {
+   "th": "น้ำลาย",
+   "rtgs": "nam-lai",
+   "ipa": "/naːm˦˥.laːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "น้ำย่อยจากต่อมน้ำลายในปาก มีสารช่วยย่อยอาหารจำพวกแป้ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "น้ำ",
+    "ลาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: thai-full attaches this ลาย to Proto-Tai *laːjᴬ, a separate etymon from the pattern word's Proto-Southwestern-Tai *laːjᴬ⁴ — the source separates the roots without saying outright that they are different words, so the tag is probable",
+   "conf": "probable",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "น้ำ"
+   ],
+   "lit": "water + design",
+   "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "flips_with": "ลายน้ำ",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ละลาย",
+   "rtgs": "la-lai",
+   "ipa": "/la˦˥.laːj˧/",
+   "gloss": {
+    "en": [
+     "melt",
+     "dissolve"
+    ],
+    "th": "อาการที่ของแข็งเปลี่ยนสภาพเป็นของเหลวด้วยความร้อน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ละ",
+    "ลาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ละ"
+   ],
+   "lit": "to leave + design",
+   "lit_th": "แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *laːjᴬ⁴; ร่วมเชื้อสายกับคำเมือง ᩃᩣ᩠ᨿ (ลาย), ลาว ລາຍ (ลาย), ไทลื้อ ᦟᦻ (ลาย), ไทดำ ꪩꪱꪥ (ลาย), ไทใหญ่ လၢႆး (ล๊าย), ไทใต้คง ᥘᥣᥭᥰ (ล๊าย), พ่าเก လ︀ႝ (ลย์), อาหม 𑜎𑜩 (ลย์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩃᩣ᩠ᨿ",
+  "th": "ลาย",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "design"
+ ]
+}

@@ -1,0 +1,599 @@
+{
+ "id": "w:pho",
+ "th": "โพธิ์",
+ "status": "mapped",
+ "rtgs": "pho",
+ "paiboon": "poo",
+ "ipa": "/pʰoː˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "enlightenment",
+     "bodhi"
+    ],
+    "th": "ความตรัสรู้",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธเจ้า, ปัจจุบันหมายถึงต้นโพ (Ficus religiosa L.)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:religion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "โคกโพธิ์",
+     "rtgs": "khok-pho",
+     "ipa": "/kʰoːk̚˥˩.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดปัตตานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "โพธิ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "mound + enlightenment",
+     "lit_th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
+    },
+    {
+     "th": "โพธิ์ไชย",
+     "rtgs": "pho-chai",
+     "ipa": "/pʰoː˧.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโคกโพธิ์ไชย จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพธิ์",
+      "ไชย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + ดีกว่า",
+     "frame": "quality"
+    },
+    {
+     "th": "กกโพธิ์",
+     "rtgs": "kok-pho",
+     "ipa": "/kok̚˨˩.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองพอก จังหวัดร้อยเอ็ด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กก",
+      "โพธิ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กก"
+     ],
+     "lit": "the -k final spelling class + enlightenment",
+     "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ก ข ค ฆ + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
+    },
+    {
+     "th": "ห้วยโพธิ์",
+     "rtgs": "huai-pho",
+     "ipa": "/hua̯j˥˩.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาฬสินธุ์ จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้วย",
+      "โพธิ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + enlightenment",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
+    },
+    {
+     "th": "บ่อโพธิ์",
+     "rtgs": "bo-pho",
+     "ipa": "/bɔː˨˩.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนครไทย จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ่อ",
+      "โพธิ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ่อ"
+     ],
+     "lit": "well + enlightenment",
+     "lit_th": "ช่องลึกลงไปในดินหรือในหินใช้เป็นที + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
+    },
+    {
+     "th": "นาโพธิ์",
+     "rtgs": "na-pho",
+     "ipa": "/naː˧.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดบุรีรัมย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "โพธิ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + enlightenment",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
+    },
+    {
+     "th": "วังโพธิ์",
+     "rtgs": "wang-pho",
+     "ipa": "/waŋ˧.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านเหลื่อม จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "โพธิ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + enlightenment",
+     "lit_th": "ที่อยู่ของเจ้านาย + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
+    },
+    {
+     "th": "โพธิ์กลาง",
+     "rtgs": "pho-klang",
+     "ipa": "/pʰoː˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพธิ์",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "enlightenment + middle",
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "โพธิ์ไทร",
+     "rtgs": "pho-sai",
+     "ipa": "/pʰoː˧.saj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุบลราชธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพธิ์",
+      "ไทร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace",
+     "frame": "entity"
+    },
+    {
+     "th": "ท่าโพธิ์",
+     "rtgs": "tha-pho",
+     "ipa": "/tʰaː˥˩.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "โพธิ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + enlightenment",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
+    },
+    {
+     "th": "โพธิ์ตาก",
+     "rtgs": "pho-tak",
+     "ipa": "/pʰoː˧.taːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดหนองคาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพธิ์",
+      "ตาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + ผึ่งให้แห้ง"
+    },
+    {
+     "th": "โพธิ์รังนก",
+     "rtgs": "pho-rang-nok",
+     "ipa": "/pʰoː˧.raŋ˧.nok̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโพธิ์ทอง จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพธิ์",
+      "รังนก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "enlightenment + nest",
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + รังของนกอีแอ่นชนิดหนึ่ง เมื่อแช่น้",
+     "frame": "entity"
+    },
+    {
+     "th": "โพธิ์ชัย",
+     "rtgs": "pho-chai",
+     "ipa": "/pʰoː˧.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดร้อยเอ็ด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพธิ์",
+      "ชัย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชัย"
+     ],
+     "lit": "enlightenment + victory",
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + การชนะ",
+     "frame": "entity"
+    },
+    {
+     "th": "โพธิ์ทอง",
+     "rtgs": "pho-thong",
+     "ipa": "/pʰoː˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โพธิ์",
+      "ทอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "enlightenment + gold",
+     "lit_th": "ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    },
+    {
+     "th": "บ้านโพธิ์",
+     "rtgs": "ban-pho",
+     "ipa": "/baːn˥˩.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "โพธิ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + enlightenment",
+     "lit_th": "ที่อยู่อาศัย + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
+    },
+    {
+     "th": "ถนนโพธิ์",
+     "rtgs": "tha-non-pho",
+     "ipa": "/tʰa˨˩.non˩˩˦.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโนนไทย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถนน",
+      "โพธิ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "drive + enlightenment",
+     "lit_th": "ดินที่พูนขึ้นเป็นคันสำหรับเป็นทางส + ชื่อต้นไม้เป็นที่ตรัสรู้ของพระพุทธ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The awakening names the tree it happened under.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 3 manuscript titles, 134 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 16; domain seeded by keyword hits ['พุทธ', 'พระ'].",
+ "etymology": {
+  "summary": "โพธิ ยืมมาจากสันสกฤต बोधि (โพธิ, “รู้, ตื่น”) หรือบาลี โพธิ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

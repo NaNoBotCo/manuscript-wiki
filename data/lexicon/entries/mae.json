@@ -1,0 +1,2946 @@
+{
+ "id": "w:mae",
+ "th": "แม่",
+ "status": "mapped",
+ "rtgs": "mae",
+ "paiboon": "mɛ̂ɛ",
+ "ipa": "/mɛː˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก, คำที่ลูกเรียกหญิงผู้ให้กำเนิดหรือเลี้ยงดูตน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "พ่อแม่",
+     "rtgs": "pho-mae",
+     "ipa": "/pʰɔː˥˩.mɛː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พ่อ",
+      "แม่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "father + mother",
+     "lit_th": "ชายผู้ให้กำเนิดหรือเลี้ยงดูลูก + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ยาย",
+     "rtgs": "mae-yai",
+     "ipa": "/mɛː˥˩.jaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แม่ของเมีย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ยาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mother + gram",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + แม่ของแม่",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เลี้ยง",
+     "rtgs": "mae-liang",
+     "ipa": "/mɛː˥˩.lia̯ŋ˦˥/",
+     "gloss": {
+      "en": [
+       "stepmother"
+      ],
+      "th": "เมียของพ่อ แต่ไม่ใช่แม่ของตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เลี้ยง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เลี้ยง"
+     ],
+     "lit": "mother + grow",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ดูแล"
+    },
+    {
+     "th": "เพศแม่",
+     "translit_auto": "phesm",
+     "ipa": "[pʰeːt̚˥˩.mɛː˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้หญิง (ใช้เปรียบว่าเป็นเพศเดียวกับแม่)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เพศ",
+      "แม่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "sex + mother",
+     "lit_th": "รูปที่แสดงให้รู้ว่าหญิงหรือชาย + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ทูนหัว",
+     "rtgs": "mae-thun-hua",
+     "ipa": "/mɛː˥˩.tʰuːn˧.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แม่ที่รับเป็นผู้อุปถัมภ์เด็กตามประเพณีชาวคริสต์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ทูนหัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + คำพูดแสดงความรักใคร่หรือยกย่อง",
+     "frame": "entity"
+    },
+    {
+     "th": "ภาษาแม่",
+     "rtgs": "pha-sa-mae",
+     "ipa": "/pʰaː˧.saː˩˩˦.mɛː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาษาที่เรียนเป็นภาษาแรก และสามารถใช้ภาษานี้ได้ดีกว่าภาษาอื่น ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภาษา",
+      "แม่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ภาษา"
+     ],
+     "lit": "language + mother",
+     "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "คำที่ผู้ใหญ่เรียกผู้หญิงที่มีอายุน้อยกว่าด้วยความสนิทสนมหรือรักใคร่เป็นต้นว่า แม่นั่น แม่นี่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Mother widened to a warm address for any younger woman.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "คำใช้นำหน้านามเพศหญิง แปลว่า ผู้เป็นหัวหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Mother as the one at the head of something — the prefix that makes a female leader.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใดอย่างหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แม่ครัว",
+     "rtgs": "mae-khrua",
+     "ipa": "/mɛː˥˩.kʰrua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้หญิงที่ประกอบอาหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ครัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mother + kitchen",
+     "lit_th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใ + โรง เรือน หรือห้องสำหรับทำกับข้าวข",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ค้า",
+     "rtgs": "mae-kha",
+     "ipa": "/mɛː˥˩.kʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้หญิงที่ทำการค้าขาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ค้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใ + ซื้อขายสินค้าหรือบริการ"
+    },
+    {
+     "th": "แม่เรือน",
+     "translit_auto": "maereueon",
+     "ipa": "[mɛː˥˩.rɯːä̃n˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงผู้ปกครองบ้านเรือน, แม่เจ้าเรือน หรือ แม่เหย้าแม่เรือน ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เรือน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือน"
+     ],
+     "lit": "mother + house",
+     "lit_th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใ + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่นม",
+     "rtgs": "mae-nom",
+     "ipa": "/mɛː˥˩.nom˧/",
+     "gloss": {
+      "en": [
+       "nurse"
+      ],
+      "th": "หญิงที่ให้เด็กอื่นกินนมของตนแทนแม่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "นม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นม"
+     ],
+     "lit": "mother + milk",
+     "lit_th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใ + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่สื่อ",
+     "rtgs": "mae-sue",
+     "ipa": "/mɛː˥˩.sɯː˨˩/",
+     "gloss": {
+      "en": [
+       "matchmaker"
+      ],
+      "th": "หญิงที่ทำหน้าที่ชักนำเพื่อให้ชายหญิงได้แต่งงานกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใ + ผู้หรือสิ่งที่ติดต่อให้ถึงกันหรือช",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เล้า",
+     "rtgs": "mae-lao",
+     "ipa": "/mɛː˥˩.law˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงที่ทำหน้าที่เป็นนายหน้าติดต่อธุรกิจเกี่ยวกับการซื้อขายทางเพศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เล้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้หญิงที่กระทำกิจการหรืองานอย่างใ + คอกสำหรับให้สัตว์เช่นเป็ดและหมูอยู",
+     "frame": "entity"
+    }
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "A woman who runs some particular trade or task.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เรียกสัตว์ตัวเมียที่มีลูก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Extended to female animals with young.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เรียกคนผู้เป็นหัวหน้าหรือเป็นนายโดยไม่จำกัดว่าเป็นชายหรือหญิง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แม่ทัพ",
+     "rtgs": "mae-thap",
+     "ipa": "/mɛː˥˩.tʰap̚˦˥/",
+     "gloss": {
+      "en": [
+       "general"
+      ],
+      "th": "นายทัพ, ผู้ทำหน้าที่คุมกองทัพ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ทัพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทัพ"
+     ],
+     "lit": "mother + army",
+     "lit_th": "เรียกคนผู้เป็นหัวหน้าหรือเป็นนายโด + กองทหาร",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่งาน",
+     "rtgs": "mae-ngan",
+     "ipa": "/mɛː˥˩.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวหน้าผู้รับผิดชอบในงานบางอย่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "งาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "งาน"
+     ],
+     "lit": "mother + job",
+     "lit_th": "เรียกคนผู้เป็นหัวหน้าหรือเป็นนายโด + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "The leader-sense loosened until it no longer specifies sex.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "คำยกย่องเทวดาผู้หญิงบางพวก, บางทีก็ใช้ว่า เจ้าแม่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เจ้าแม่",
+     "rtgs": "chao-mae",
+     "ipa": "/t͡ɕaw˥˩.mɛː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เทพารักษ์ผู้หญิงที่ถือว่าศักดิ์สิทธิ์จะให้ความคุ้มเกรงรักษาได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เจ้า",
+      "แม่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + mother",
+     "lit_th": "ผู้เป็นใหญ่ + คำยกย่องเทวดาผู้หญิงบางพวก",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ย่า",
+     "rtgs": "mae-ya",
+     "ipa": "/mɛː˥˩.jaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เทพารักษ์หญิง; ผีผู้หญิงที่ได้รับการยกย่อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ย่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mother + gram",
+     "lit_th": "คำยกย่องเทวดาผู้หญิงบางพวก + แม่ของพ่อ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่พระ",
+     "rtgs": "mae-phra",
+     "ipa": "/mɛː˥˩.pʰraʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเรียกพระมารดาของพระเยซู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "พระ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "mother + the honorific prefix phra",
+     "lit_th": "คำยกย่องเทวดาผู้หญิงบางพวก + คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "An honorific for certain goddesses — the mother as the one who protects.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง ๆ ในพวกเดียวกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แม่พิมพ์",
+     "rtgs": "mae-phim",
+     "ipa": "/mɛː˥˩.pʰim˧/",
+     "gloss": {
+      "en": [
+       "form"
+      ],
+      "th": "สิ่งที่เป็นต้นแบบ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "พิมพ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: gloss similarity 0.24, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พิมพ์"
+     ],
+     "lit": "mother + print",
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + รูป",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่แคร่",
+     "translit_auto": "maekhaen",
+     "ipa": "[mɛː˥˩.kʰrɛː˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กรอบไม้หรือไม้ไผ่ประกับแคร่ทั้ง 4 ด้าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แคร่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + ที่สำหรับนั่งหรือนอนโดยมากมีรูปสี่",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่แบบ",
+     "rtgs": "mae-baep",
+     "ipa": "/mɛː˥˩.bɛːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "model",
+       "role model"
+      ],
+      "th": "สิ่งที่เป็นต้นแบบ, แม่พิมพ์ ก็ว่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แบบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แบบ"
+     ],
+     "lit": "mother + model",
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่สี",
+     "rtgs": "mae-si",
+     "ipa": "/mɛː˥˩.siː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลุ่มสีซึ่งสามารถผสมออกมาเป็นสีอื่น ๆ ได้ทุกสี มี 5 สี คือ แดง เขียว (คราม) เหลือง ดำ ขาว เรียกว่า เบญจรงค์, แม่สีวัตถุตามสากลคือ แดง น้ำเงิน เหลือง และแม่สีของแสงคือ แดง เขียว น้ำเงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สี"
+     ],
+     "lit": "mother + color",
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่แรง",
+     "rtgs": "mae-raeng",
+     "ipa": "/mɛː˥˩.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสำหรับดีดงัดหรือยกของหนัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แรง"
+     ],
+     "lit": "mother + bright",
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + กำลัง",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เหล็ก",
+     "rtgs": "mae-lek",
+     "ipa": "/mɛː˥˩.lek̚˨˩/",
+     "gloss": {
+      "en": [
+       "magnet"
+      ],
+      "th": "แร่หรือโลหะที่มีสมบัติดูดเหล็กได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เหล็ก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mother + iron",
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + ธาตุลำดับที่ 26 สัญลักษณ์ Fe เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่บท",
+     "rtgs": "mae-bot",
+     "ipa": "/mɛː˥˩.bot̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวข้อใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "บท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บท"
+     ],
+     "lit": "mother + unit",
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + ข้อความเรื่องหนึ่ง ๆ หรือตอนหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่กุญแจ",
+     "rtgs": "mae-kun-chae",
+     "ipa": "/mɛː˥˩.kun˧.t͡ɕɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกกุญแจที่ไขตัวกุญแจชนิดเดียวกันได้ทั่วไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "กุญแจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mother + key",
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + เครื่องสำหรับใส่ประตูหน้าต่างเป็นต",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เบี้ย",
+     "rtgs": "mae-bia",
+     "ipa": "/mɛː˥˩.bia̯˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พังพานงู (ใช้แก่งูเห่าและงูจงอาง)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เบี้ย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "แม่กระชังหน้าใหญ่",
+     "translit_auto": "maekrachanghnahain",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่ชอบออกหน้าเป็นหัวเรือใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "กระชังหน้าใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "เรียกสิ่งที่เป็นประธานของสิ่งต่าง + จัดจ้าน",
+     "frame": "quality"
+    }
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "The principal thing among a set of like things, the one the others belong to.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "เรียกชิ้นใหญ่กว่าในจำพวกสิ่งที่สำหรับกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "The larger of a matched pair.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "แม่น้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แม่น้ำ",
+     "rtgs": "mae-nam",
+     "ipa": "/mɛː˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "river",
+       "ground"
+      ],
+      "th": "ลำน้ำใหญ่ซึ่งเป็นที่รวมของลำธารทั้งปวง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "น้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 10: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "mother + water",
+     "lit_th": "แม่น้ำ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 8,
+   "via": "metaphor",
+   "via_note": "The principal water: แม่น้ำ, a river against its tributaries.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "มาตราตัวสะกดในหลักภาษาไทย มี 9 แม่ ได้แก่ แม่ ก กา แม่กก แม่กง แม่กด แม่กน แม่กบ แม่กม แม่เกย และแม่เกอว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "metaphor",
+   "via_note": "The spelling classes of Thai, each แม่ heading the syllables that end alike.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "mae as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 52 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 287 of the 5333 wats in the northern registry carry it, and 302 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 52 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 52 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "287 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "แม่เงา",
+     "rtgs": "mae-ngao",
+     "ipa": "/mɛː˥˩.ŋaw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอขุนยวม จังหวัดแม่ฮ่องสอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เงา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + shadow",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนที่มืดเพราะมีวัตถุบังแสงทำให้แ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ระกา",
+     "rtgs": "mae-ra-ka",
+     "ipa": "/mɛː˥˩.ra˦˥.kaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวังทอง จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ระกา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อปีที่ 10 ของรอบปีนักษัตร มีไก่",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เย็น",
+     "rtgs": "mae-yen",
+     "ipa": "/mɛː˥˩.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เย็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "เย็น"
+     ],
+     "lit": "mae as an element in place names + cold",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "แม่ไร่",
+     "rtgs": "mae-rai",
+     "ipa": "/mɛː˥˩.raj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่จัน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ไร่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + garden",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ปลูกพืชและต้นไม้บนไหล่เขาหรือใน",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่วงก์",
+     "rtgs": "mae-wong",
+     "ipa": "/mɛː˥˩.woŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "วงก์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เบ็ด",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่สวด",
+     "rtgs": "mae-suat",
+     "ipa": "/mɛː˥˩.sua̯t̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสบเมย จังหวัดแม่ฮ่องสอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สวด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ว่าเป็นทำนองอย่างพระสวดมนต์"
+    },
+    {
+     "th": "แม่วาง",
+     "rtgs": "mae-wang",
+     "ipa": "/mɛː˥˩.waːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "วาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "วาง"
+     ],
+     "lit": "mae as an element in place names + put",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ"
+    },
+    {
+     "th": "แม่กระบุง",
+     "rtgs": "mae-kra-bung",
+     "ipa": "/mɛː˥˩.kra˨˩.buŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอศรีสวัสดิ์ จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "กระบุง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + basket",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะสานทึบรูปกลมสูง พื้นก้นเป็นสี",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ระมาด",
+     "rtgs": "mae-ra-mat",
+     "ipa": "/mɛː˥˩.ra˦˥.maːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ระมาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แรด",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่อาย",
+     "rtgs": "mae-ai",
+     "ipa": "/mɛː˥˩.ʔaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "อาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รู้สึกกระดาก"
+    },
+    {
+     "th": "แม่นะ",
+     "rtgs": "mae-na",
+     "ipa": "/mɛː˥˩.naʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเชียงดาว จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "นะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 0,
+     "cross_listed": [
+      "นะ"
+     ],
+     "lit": "mae as an element in place names + the sentence particle na",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำประกอบท้ายคำอื่น บอกความเป็นเชิง"
+    },
+    {
+     "th": "แม่สอย",
+     "rtgs": "mae-soi",
+     "ipa": "/mɛː˥˩.sɔːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอจอมทอง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เอาไม้มีขอหรือมีง่ามหรือไม้จำปาเกี"
+    },
+    {
+     "th": "แม่ศึก",
+     "rtgs": "mae-suek",
+     "ipa": "/mɛː˥˩.sɯk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่แจ่ม จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ศึก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + fight",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + การใช้กำลังเข้าประหัตประหารกันอย่า",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่แตง",
+     "rtgs": "mae-taeng",
+     "ipa": "/mɛː˥˩.tɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แตง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้เถาล้มลุกหลายชนิดหลายสกุล ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่อ้อ",
+     "rtgs": "mae-o",
+     "ipa": "/mɛː˥˩.ʔɔː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "อ้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อหญ้าชนิด Arundo donax L. ในวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่สิน",
+     "rtgs": "mae-sin",
+     "ipa": "/mɛː˥˩.sin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอศรีสัชนาลัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สิน"
+     ],
+     "lit": "mae as an element in place names + wealth",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เงิน",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่พริก",
+     "rtgs": "mae-phrik",
+     "ipa": "/mɛː˥˩.pʰrik̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลำปาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "พริก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + pepper",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกในสกุล Capsicum วงศ์",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เหาะ",
+     "rtgs": "mae-ho",
+     "ipa": "/mɛː˥˩.hɔʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่สะเรียง จังหวัดแม่ฮ่องสอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เหาะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เคลื่อนที่ไปในอากาศด้วยฤทธิ์"
+    },
+    {
+     "th": "แม่สา",
+     "rtgs": "mae-sa",
+     "ipa": "/mɛː˥˩.saː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่ริม จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หมา",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เงิน",
+     "rtgs": "mae-ngoen",
+     "ipa": "/mɛː˥˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเชียงแสน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เงิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เงิน"
+     ],
+     "lit": "mae as an element in place names + bread",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ลาว",
+     "rtgs": "mae-lao",
+     "ipa": "/mɛː˥˩.laːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ลาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit": "mae as an element in place names + Lao",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ประเทศ ใน เอเชียตะวันออกเฉียงใต้"
+    },
+    {
+     "th": "แม่จัน",
+     "rtgs": "mae-chan",
+     "ipa": "/mɛː˥˩.t͡ɕan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "จัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นขนาดกลางถึงขนาดใหญ่ชนิด",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เปา",
+     "rtgs": "mae-pao",
+     "ipa": "/mɛː˥˩.paw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพญาเม็งราย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เปา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ซาลาเปา",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่คง",
+     "rtgs": "mae-khong",
+     "ipa": "/mɛː˥˩.kʰoŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่สะเรียง จังหวัดแม่ฮ่องสอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "คง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mae as an element in place names + probably",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ยังมียังเป็นอยู่อย่างเดิม"
+    },
+    {
+     "th": "แม่โป่ง",
+     "rtgs": "mae-pong",
+     "ipa": "/mɛː˥˩.poːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอดอยสะเก็ด จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "โป่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "mae as an element in place names + swollen",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่แวน",
+     "rtgs": "mae-waen",
+     "ipa": "/mɛː˥˩.wɛːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพร้าว จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "แม่คำ",
+     "rtgs": "mae-kham",
+     "ipa": "/mɛː˥˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่จัน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "คำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "mae as an element in place names + word",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เสียงพูด",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่กลอง",
+     "rtgs": "mae-klong",
+     "ipa": "/mɛː˥˩.klɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแม่น้ำในภาคตะวันตกของไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "กลอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + drum",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เครื่องตี ขึงด้วยหนัง มีหลายชนิด",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ทา",
+     "rtgs": "mae-tha",
+     "ipa": "/mɛː˥˩.tʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลำพูน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ทา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mae as an element in place names + coat",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำรวมหมายถึงกิริยาอาการที่เอาของเป"
+    },
+    {
+     "th": "แม่ใจ",
+     "rtgs": "mae-chai",
+     "ipa": "/mɛː˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพะเยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "mae as an element in place names + heart",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่สำ",
+     "rtgs": "mae-sam",
+     "ipa": "/mɛː˥˩.sam˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอศรีสัชนาลัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "สำ"
+     ],
+     "lit": "mae as an element in place names + jumbled",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ซับซ้อนกัน"
+    },
+    {
+     "th": "แม่ยาว",
+     "rtgs": "mae-yao",
+     "ipa": "/mɛː˥˩.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงราย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ยาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ยาว"
+     ],
+     "lit": "mae as an element in place names + long",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+     "frame": "quality"
+    },
+    {
+     "th": "แม่ลาน",
+     "rtgs": "mae-lan",
+     "ipa": "/mɛː˥˩.laːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดปัตตานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ลาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาน"
+     ],
+     "lit": "mae as an element in place names + open ground",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + บริเวณที่ว่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่เจดีย์",
+     "rtgs": "mae-che-di",
+     "ipa": "/mɛː˥˩.t͡ɕeː˧.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเวียงป่าเป้า จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เจดีย์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + pagoda",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สิ่งซึ่งก่อเป็นรูปคล้ายลอมฟาง มียอ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่สาว",
+     "rtgs": "mae-sao",
+     "ipa": "/mɛː˥˩.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่อาย จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สาว"
+     ],
+     "lit": "mae as an element in place names + maid",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ริม",
+     "rtgs": "mae-rim",
+     "ipa": "/mɛː˥˩.rim˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ริม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + border",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชาย",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่แจ่ม",
+     "rtgs": "mae-chaem",
+     "ipa": "/mɛː˥˩.t͡ɕɛm˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แจ่ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กระจ่าง",
+     "frame": "quality"
+    },
+    {
+     "th": "แม่ลอย",
+     "rtgs": "mae-loi",
+     "ipa": "/mɛː˥˩.lɔːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเทิง จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ลอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลอย"
+     ],
+     "lit": "mae as an element in place names + float",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ทรงตัวอยู่ในอากาศ"
+    },
+    {
+     "th": "แม่คะ",
+     "rtgs": "mae-kha",
+     "ipa": "/mɛː˥˩.kʰaʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอฝาง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "คะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + คำลงท้ายที่ผู้หญิงใช้ในการถาม หรือ"
+    },
+    {
+     "th": "แม่ข้าวต้ม",
+     "rtgs": "mae-khao-tom",
+     "ipa": "/mɛː˥˩.kʰaːw˥˩.tom˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงราย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ข้าวต้ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + porridge",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ข้าวที่ต้มให้สุก",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่แดด",
+     "rtgs": "mae-daet",
+     "ipa": "/mɛː˥˩.dɛːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกัลยาณิวัฒนา จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แดด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แสงที่พุ่งจากดวงอาทิตย์ตรงมายังโลก",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่งอน",
+     "rtgs": "mae-ngon",
+     "ipa": "/mɛː˥˩.ŋɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอฝาง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "งอน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนปลายแห่งของบางอย่างที่เป็นรูปย",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่โถ",
+     "rtgs": "mae-tho",
+     "ipa": "/mɛː˥˩.tʰoː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่ลาน้อย จังหวัดแม่ฮ่องสอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "โถ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ภาชนะโดยมากทำด้วยดินเผาหรือกระเบื้",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ตื่น",
+     "rtgs": "mae-tuen",
+     "ipa": "/mɛː˥˩.tɯːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภออมก๋อย จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ตื่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mae as an element in place names + wake",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ฟื้นจากหลับ"
+    },
+    {
+     "th": "แม่สอด",
+     "rtgs": "mae-sot",
+     "ipa": "/mɛː˥˩.sɔːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สอด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เสือกหรือใส่เข้าไปในช่องหรือในระหว"
+    },
+    {
+     "th": "แม่แฝก",
+     "rtgs": "mae-faek",
+     "ipa": "/mɛː˥˩.fɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสันทราย จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แฝก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อหญ้าชนิด Vetiveria zizanioides",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่สาบ",
+     "rtgs": "mae-sap",
+     "ipa": "/mɛː˥˩.saːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสะเมิง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สาบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กลิ่นเหม็นชนิดหนึ่ง เช่นกลิ่นเสื้อ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่สาย",
+     "rtgs": "mae-sai",
+     "ipa": "/mɛː˥˩.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "mae as an element in place names + late",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่แรม",
+     "rtgs": "mae-raem",
+     "ipa": "/mɛː˥˩.rɛːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่ริม จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ส่วนของเดือนจันทรคติที่พระจันทร์เร",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่ลาด",
+     "rtgs": "mae-lat",
+     "ipa": "/mɛː˥˩.laːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองขลุง จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ลาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลาด"
+     ],
+     "lit": "mae as an element in place names + decline",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ปูแผ่ออกไป"
+    },
+    {
+     "th": "แม่คือ",
+     "rtgs": "mae-khue",
+     "ipa": "/mɛː˥˩.kʰɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอดอยสะเก็ด จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "คือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mae as an element in place names + are",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เป็น"
+    },
+    {
+     "th": "แม่ข่า",
+     "rtgs": "mae-kha",
+     "ipa": "/mɛː˥˩.kʰaː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอฝาง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ข่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 12: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mae as an element in place names + galangal",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ล้มลุกชนิด Alpinia galanga",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 33 manuscript titles, 260 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 80; domain seeded by keyword hits ['override'].",
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *meːᴮ; ร่วมเชื้อสายกับอีสาน แม่, ลาว ແມ່ (แม่), คำเมือง ᨾᩯ᩵ (แม่), ไทลื้อ ᦶᦙᧈ (แม่), ไทดำ ꪵꪣ꪿ (แม่), ไทใหญ่ မႄႈ (แม้), ไทใต้คง ᥛᥥ (เม), อาหม 𑜉𑜦𑜧 (เม), แสก เหม้, ปู้อี meeh, จ้วง meh, ภาษาจ้วงใต้ meq",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨾᩯ᩵",
+  "th": "แม่",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "mother",
+  "mom",
+  "mum"
+ ]
+}

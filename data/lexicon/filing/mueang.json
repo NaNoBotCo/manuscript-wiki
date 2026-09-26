@@ -1,0 +1,10 @@
+{
+ "head": "mueang",
+ "rule": "เมือง's senses narrow from แดน, a realm, down through country, province, demoted town, and the urban district itself — and the compounds sort by which scale they assume. Sense 1, the realm, takes the CLASSICAL polity, which is what a เมือง was before it was an administrative unit: the man who holds it (พ่อเมือง, เจ้าเมือง), the acts of holding it (กินเมือง, นั่งเมือง, เลียบเมือง), the things that make it one (หลักเมือง, ขวัญเมือง, อกเมือง, ไส้เมือง), and any realm at all, including เมืองฟ้า, heaven. Sense 2, the country, takes the modern state and its business — การเมือง, นักการเมือง, เมืองขึ้น, เมืองนอก, แขกเมือง, กวนเมือง, ฝุ่นเมือง — because these are about a nation, not a town. Sense 3 takes หัวเมือง, the provinces against the capital. Sense 5, the built-up district, takes ชานเมือง and เมืองหลวง beside ตัวเมือง: all three are the city itself rather than the polity around it.",
+ "senses": {
+  "1": ["กินเมือง","ขวัญเมือง","นั่งเมือง","พ่อเมือง","พื้นเมือง","หลักเมือง","อกเมือง","เจ้าเมือง","เมืองฟ้า","เลียบเมือง","ไส้เมือง"],
+  "2": ["กวนเมือง","การเมือง","นักการเมือง","ฝุ่นเมือง","เมืองขึ้น","เมืองนอก","แขกเมือง"],
+  "3": ["หัวเมือง"],
+  "5": ["ชานเมือง","เมืองหลวง"]
+ }
+}

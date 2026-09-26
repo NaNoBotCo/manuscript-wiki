@@ -1,0 +1,10 @@
+{
+ "head": "luang",
+ "rule": "หลวง means the king's, and then by widening, the principal or simply the big. Sense 1 keeps what actually belongs to the crown or the state: เรือนหลวง, ของหลวง, ในหลวง, หม่อมหลวง, and เกวียนหลวง, the official cartload. Sense 2, เป็นใหญ่, was empty and is the PRINCIPAL one of its kind — เมืองหลวง and นครหลวง, the chief city, which is not the king's property but the country's first. Sense 3, plain bigness, was also empty and takes บัวหลวง, the great lotus, and ไทหลวง, the Shan, who are the 'great Tai' against the ไทน้อย. Sense 6, the respectful term for those in robes, takes บาทหลวง and หลวงเจ๊ — the second a joke, but built on the same address.",
+ "senses": {
+  "1": ["ของหลวง","หม่อมหลวง","เกวียนหลวง","เรือนหลวง","ในหลวง"],
+  "2": ["นครหลวง","เมืองหลวง"],
+  "3": ["บัวหลวง","ไทหลวง"],
+  "6": ["บาทหลวง","หลวงเจ๊"]
+ }
+}

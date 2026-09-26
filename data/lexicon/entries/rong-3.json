@@ -1,0 +1,833 @@
+{
+ "id": "w:rong-3",
+ "th": "รอง",
+ "status": "mapped",
+ "rtgs": "rong",
+ "paiboon": "rɔɔng",
+ "ipa": "/rɔːŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกลงมา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: รอง 'to catch what falls'.",
+    "Declared root: รอง 'to catch what falls'.",
+    "Declared root: รอง 'to catch what falls'.",
+    "Declared root: รอง 'to catch what falls'.",
+    "Declared root: รอง 'to catch what falls'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ต้านทานค้ำจุนให้คงอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Holding under to catch becomes holding under to support.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "หนุนให้สูงขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Putting something under to raise a thing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "รองรับ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Bearing, receiving what comes down.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เป็นที่ 2 โดยตำแหน่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "The one underneath: second in rank — รองนายก, รองประธาน.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ถัดลงมาโดยอายุหรือตำแหน่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "And next by age or standing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ด้อยกว่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "And so, lesser, inferior.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "งามสุกใส",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เรืองรอง",
+     "rtgs": "rueang-rong",
+     "ipa": "/rɯa̯ŋ˧.rɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สุกปลั่ง, มีรัศมีเรือง ๆ, สว่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือง",
+      "รอง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "มีแสงน้อย ๆ อย่างแมงคาเรืองหรือหิ่ + งามสุกใส",
+     "frame": "quality"
+    }
+   ],
+   "needs_check": [
+    "Declared root: รอง 'bright, lustrous' — a separate word.",
+    "Declared root: รอง 'bright, lustrous' — a separate word.",
+    "Declared root: รอง 'bright, lustrous' — a separate word.",
+    "Declared root: รอง 'bright, lustrous' — a separate word.",
+    "Declared root: รอง 'bright, lustrous' — a separate word."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 5 manuscript titles, 184 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['ตก', 'ขึ้น', 'ลง', 'มา'].",
+ "compounds_unassigned": [
+  {
+   "th": "พระรอง",
+   "rtgs": "phra-rong",
+   "ipa": "/pʰra˦˥.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระเอกที่มีบทบาทรองลงมาจากพระเอก/นางเอกในนวนิยาย ละคร หรือภาพยนตร์เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พระ",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "พระ"
+   ],
+   "lit": "the honorific prefix phra + deputy",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "รองชนะเลิศ",
+   "translit_auto": "rongchnaleis",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผลงานที่เป็น อันดับ ที่ ๒ รองจาก ชนะเลิศ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รอง",
+    "ชนะเลิศ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล + ผลงานที่ดีที่สุด"
+  },
+  {
+   "th": "การทดรอง",
+   "rtgs": "kan-thot-rong",
+   "ipa": "/kaːn˧.tʰot̚˦˥.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ทดรอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การทด",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ทด + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "การกรอง",
+   "rtgs": "kan-krong",
+   "ipa": "/kaːn˧.krɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กรอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การก",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ผู้กระทำ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "การรอง",
+   "rtgs": "kan-rong",
+   "ipa": "/kaːn˧.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ รอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "รองเง็ง",
+   "rtgs": "rong-ngeng",
+   "ipa": "/rɔːŋ˧.ŋeŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ศิลปะการแสดงแบบหนึ่งของชาวไทยมุสลิมภาคใต้ เป็นการเต้นรำคู่ชายหญิง และร้องเพลงคลอไปด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รอง",
+    "เง็ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล + งงมาก"
+  },
+  {
+   "th": "สำรอง",
+   "rtgs": "sam-rong",
+   "ipa": "/sam˩˩˦.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "reserve"
+    ],
+    "th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Scaphium scaphigerum (Wall. ex G. Don) Guib. et Planch. ในวงศ์ Sterculiaceae ผลแช่น้ำแล้วพองเป็นวุ้น ใช้กินกับ น้ำตาลและใช้ทำยาได้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สำ",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "biological",
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "สำ"
+   ],
+   "lit": "jumbled + deputy",
+   "lit_th": "ซับซ้อนกัน + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "รองเท้า",
+   "rtgs": "rong-thao",
+   "ipa": "/rɔːŋ˧.tʰaːw˦˥/",
+   "gloss": {
+    "en": [
+     "shoe"
+    ],
+    "th": "เกือก, เครื่องสวมเท้าทำด้วยหนังหรือฟองน้ำเป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รอง",
+    "เท้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "deputy + foot",
+   "lit_th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล + ตีน"
+  },
+  {
+   "th": "การต่อรอง",
+   "rtgs": "kan-to-rong",
+   "ipa": "/kaːn˧.tɔː˨˩.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ต่อรอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การต่อ",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "engagement + deputy",
+   "lit_th": "คำอาการนามของ ต่อ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "นางรอง",
+   "rtgs": "than-to",
+   "ipa": "/tʰaːn˧.toː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดบุรีรัมย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นาง",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "นาง"
+   ],
+   "lit": "Mrs + deputy",
+   "lit_th": "ผู้หญิง + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "ทดรอง",
+   "rtgs": "thot-rong",
+   "ipa": "/tʰot̚˦˥.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ออกเงินรองจ่ายไปก่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทด",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "กันไว้ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "ต่อรอง",
+   "rtgs": "to-rong",
+   "ipa": "/tɔː˨˩.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ขอลดหรือเพิ่มเงื่อนไขเพื่อให้เป็นที่ยอมรับของทั้ง 2 ฝ่าย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ต่อ",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ต่อ"
+   ],
+   "lit": "a + deputy",
+   "lit_th": "ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "ชื่อรอง",
+   "rtgs": "chue-rong",
+   "ipa": "/t͡ɕʰɯː˥˩.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อประกอบถัดจากชื่อตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชื่อ",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ชื่อ"
+   ],
+   "lit": "name + deputy",
+   "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "รับรอง",
+   "rtgs": "rap-rong",
+   "ipa": "/rap̚˦˥.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "able",
+     "vouch",
+     "affirm"
+    ],
+    "th": "รับประกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รับ",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "รับ"
+   ],
+   "lit": "accept + deputy",
+   "lit_th": "ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "เมียรอง",
+   "rtgs": "mia-rong",
+   "ipa": "/mia̯˧.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ เมียน้อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เมีย",
+    "รอง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "wife + deputy",
+   "lit_th": "ภรรยา + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "รองท้อง",
+   "rtgs": "rong-thong",
+   "ipa": "/rɔːŋ˧.tʰɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กินพอกันหิวไปก่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รอง",
+    "ท้อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ท้อง"
+   ],
+   "lit": "deputy + carry",
+   "lit_th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับคำเมือง ᩁᩬᨦ (รอง), อีสาน ฮอง, ลาว ຮອງ (ฮอง), ไทใหญ่ ႁွင်း (ห๊อ̂ง), ไทลื้อ ᦣᦸᧂ (ฮอ̂ง), อาหม 𑜍𑜨𑜂𑜫 (รอ̂ง์), จ้วงแบบจั่วเจียง rongz (รอง-ปูไว้ที่ใต้ รองรับไว้)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩁᩬᨦ",
+  "th": "รอง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:rong",
+   "label": "โรง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"rong\". รอง is rɔɔng, โรง is roong — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:rong-2",
+   "label": "ร้อง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"rong\". รอง is rɔɔng, ร้อง is rɔ́ɔng — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "deputy"
+ ]
+}

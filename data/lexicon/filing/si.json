@@ -1,0 +1,30 @@
+{
+ "head": "si",
+ "rule": "สี is two words: to grind or rub (1-5) and colour (6-7). Among the colour senses the RID's own split is quality against substance, and it holds up. Sense 6 is colour as a PROPERTY — สีสัน, แม่สี, สีหน้า, เก็บสี. Sense 7 is the STUFF that colours, so it takes the paints (สีน้ำ, สีน้ำมัน) and every act of applying them (ทาสี, ลงสี, ระบายสี, ป้ายสี, including ป้ายสี in its figurative use of smearing a reputation), plus สีผึ้ง, whose etymology the dictionary gives as สี + ผึ้ง. Sense 3, ครูด / ถู, takes the rubbing words: เสียดสี, glossed simply ถูกัน, สูสี, and สีข้าง, which the dictionary confirms as สี + ข้าง — the flank being the part that gets scraped. Pulled out 2026-09-18 as spelling-variant, a gloss that reads only รูปสะกดผิดของ X: สีสรร, สีสรรค์. An entry that points at another spelling carries no sense of this head to file it under.",
+ "senses": {
+  "3": [
+   "สีข้าง",
+   "สูสี",
+   "เสียดสี"
+  ],
+  "6": [
+   "สีสัน",
+   "สีหน้า",
+   "เก็บสี",
+   "แม่สี"
+  ],
+  "7": [
+   "ทาสี",
+   "ป้ายสี",
+   "ระบายสี",
+   "ลงสี",
+   "สีน้ำ",
+   "สีน้ำมัน",
+   "สีผึ้ง"
+  ]
+ },
+ "spelling_variants": [
+  "สีสรร",
+  "สีสรรค์"
+ ]
+}

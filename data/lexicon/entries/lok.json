@@ -1,0 +1,873 @@
+{
+ "id": "w:lok",
+ "th": "โลก",
+ "status": "mapped",
+ "rtgs": "lok",
+ "paiboon": "lôok",
+ "ipa": "/loːk̚˥˩/",
+ "syllable_respelling": "โล-กะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "แผ่นดิน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "โลกธาตุ",
+     "rtgs": "lok-ka-that",
+     "ipa": "/loːk̚˥˩.ka˨˩.tʰaːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แผ่นดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โลก",
+      "ธาตุ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.32, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "world + element",
+     "lit_th": "แผ่นดิน + สิ่งที่ถือว่าเป็นส่วนสำคัญที่คุมกั",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "โดยปริยายหมายถึงหมู่มนุษย์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The earth stands for those who live on it.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ลวงโลก",
+     "rtgs": "luang-lok",
+     "ipa": "/lua̯ŋ˧.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตลบตะแลงปลิ้นปล้อนในคำว่า คนลวงโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลวง",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ทำให้หลงผิด + โดยปริยายหมายถึงหมู่มนุษย์"
+    },
+    {
+     "th": "ขวางโลก",
+     "rtgs": "khwang-lok",
+     "ipa": "/kʰwaːŋ˩˩˦.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แปลกไปจากคนอื่น, ผิดจากปรกติวิสัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขวาง",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขวาง"
+     ],
+     "lit": "across + world",
+     "lit_th": "กีดกั้น + โดยปริยายหมายถึงหมู่มนุษย์"
+    },
+    {
+     "th": "สัตวโลก",
+     "rtgs": "sat-ta-wa-lok",
+     "ipa": "/sat̚˨˩.ta˨˩.wa˦˥.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมู่สัตว์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัตว",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ สัตว์ + โดยปริยายหมายถึงหมู่มนุษย์",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ส่วนหนึ่งแห่งสกลจักรวาล",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "มนุษยโลก",
+     "rtgs": "ma-nut-sa-ya-lok",
+     "ipa": "/ma˦˥.nut̚˦˥.sa˨˩.ja˦˥.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โลกมนุษย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มนุษย",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สัตว์ที่รู้จักใช้เหตุผล + ส่วนหนึ่งแห่งสกลจักรวาล",
+     "frame": "entity"
+    },
+    {
+     "th": "สามโลก",
+     "rtgs": "sam-lok",
+     "ipa": "/saːm˩˩˦.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โลกทั้ง 3 คือ มนุษยโลก เทวโลก และพรหมโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาม",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "three + world",
+     "lit_th": "จำนวนสองบวกหนึ่ง + ส่วนหนึ่งแห่งสกลจักรวาล"
+    },
+    {
+     "th": "สวรรคโลก",
+     "rtgs": "sa-wan-kha-lok",
+     "ipa": "/sa˨˩.wan˩˩˦.kʰa˦˥.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สวรรค",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "โลกของเทวดา + ส่วนหนึ่งแห่งสกลจักรวาล",
+     "frame": "entity"
+    },
+    {
+     "th": "ยมโลก",
+     "rtgs": "yom-ma-lok",
+     "ipa": "/jom˧.ma˦˥.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โลกของคนตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยม",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ร้องไห้ + ส่วนหนึ่งแห่งสกลจักรวาล"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "And for a division of the cosmos.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "แผ่นดินรวมกับทุกประเทศ คนทุกกลุ่ม และลักษณะธรรมชาติทุกอย่างของแผ่นดิน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "And for the whole of it, peoples and all.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เจ้าโลก",
+     "rtgs": "chao-lok",
+     "ipa": "/t͡ɕaːw˥˩.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เจ้าแห่งโลก, ผู้เป็นใหญ่ในโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เจ้า",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + world",
+     "lit_th": "ผู้เป็นใหญ่ + แผ่นดินรวมกับทุกประเทศ คนทุกกลุ่ม",
+     "frame": "entity"
+    },
+    {
+     "th": "ลาโลก",
+     "rtgs": "la-lok",
+     "ipa": "/laː˧.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จากโลกไป, ตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลา",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "ass + world",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus + แผ่นดินรวมกับทุกประเทศ คนทุกกลุ่ม",
+     "frame": "entity"
+    },
+    {
+     "th": "สงครามโลก",
+     "rtgs": "song-khram-lok",
+     "ipa": "/soŋ˩˩˦.kʰraːm˧.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สงครามใหญ่ที่มีประเทศมหาอำนาจเป็นคู่สงคราม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สงคราม",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "war + world",
+     "lit_th": "การรบใหญ่ที่มีคนจำนวนมากต่อสู้ฆ่าฟ + แผ่นดินรวมกับทุกประเทศ คนทุกกลุ่ม",
+     "frame": "entity"
+    },
+    {
+     "th": "ล้างโลก",
+     "rtgs": "lang-lok",
+     "ipa": "/laːŋ˦˥.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำลายโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ล้าง",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "wash + world",
+     "lit_th": "ทำให้หมดสิ้นไปโดยใช้สิ่งเช่นน้ำหรื + แผ่นดินรวมกับทุกประเทศ คนทุกกลุ่ม"
+    },
+    {
+     "th": "มรดกโลก",
+     "rtgs": "mo-ra-dok-lok",
+     "ipa": "/mɔː˧.ra˦˥.dok̚˨˩.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สมบัติเก่าแก่ที่แสดงถึงความเจริญทางวัฒนธรรมอันล้ำค่าของประเทศต่าง ๆ ทั่วโลกที่ตกทอดถึงลูกหลาน ซึ่งองค์การยูเนสโกขึ้นทำเนียบเป็นสมบัติล้ำค่าของโลกและมนุษยชาติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มรดก",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "heirloom + world",
+     "lit_th": "สิ่งที่ตกทอดมาจากบรรพบุรุษหรือที่ส + แผ่นดินรวมกับทุกประเทศ คนทุกกลุ่ม",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ดาวเคราะห์ดวงหนึ่ง มีขนาดใหญ่เป็นอันดับ 5 ในระบบสุริยะ เป็นที่อยู่อาศัยของมนุษย์และสิ่งมีชีวิตทั้งหลาย ลักษณะอย่างรูปทรงกลม มีเส้นผ่าศูนย์กลางที่ศูนย์สูตรยาว 12,755 กิโลเมตร ศูนย์กลางที่ขั้วโลกยาว 12,711 กิโลเมตร มีเนื้อที่บนผิวโลก 510,903,400 ตารางกิโลเมตร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขั้วโลก",
+     "rtgs": "khua-lok",
+     "ipa": "/kʰua̯˥˩.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริเวณปลายสุดของแกนโลกเหนือและใต้ที่มีละติจูด 90 องศาเหนือและใต้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขั้ว",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่ต่อของก้านดอกไม้ ใบไม้ ผลไม + ดาวเคราะห์ดวงหนึ่ง มีขนาดใหญ่เป็นอ",
+     "frame": "entity"
+    },
+    {
+     "th": "ซีกโลก",
+     "rtgs": "sik-lok",
+     "ipa": "/siːk̚˥˩.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ครึ่งหนึ่งของโลกด้านเหนือหรือใต้โดยแบ่งตามเส้นศูนย์สูตร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ซีก",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่ผ่าครึ่ง + ดาวเคราะห์ดวงหนึ่ง มีขนาดใหญ่เป็นอ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกโลก",
+     "rtgs": "luk-lok",
+     "ipa": "/luːk̚˥˩.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หุ่นจำลองของโลกที่ทำขึ้นเพื่อใช้แสดงรูปทรงสัณฐานของโลก มีแผนที่แสดงตำแหน่งต่าง ๆ บนพื้นโลก ทำด้วยกระดาษ โลหะ หรือพลาสติก เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + world",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ดาวเคราะห์ดวงหนึ่ง มีขนาดใหญ่เป็นอ",
+     "frame": "entity"
+    },
+    {
+     "th": "เปลือกโลก",
+     "rtgs": "plueak-lok",
+     "ipa": "/plɯa̯k̚˨˩.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของโลกที่เป็นของแข็งหุ้มห่ออยู่รอบนอกสุด ประกอบด้วย หิน ดิน และแร่ธาตุต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เปลือก",
+      "โลก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "coat + world",
+     "lit_th": "ส่วนที่หุ้มนอกของสิ่งต่าง ๆ เช่น ต + ดาวเคราะห์ดวงหนึ่ง มีขนาดใหญ่เป็นอ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "And for the planet as an object in the system.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "อาณาบริเวณ, ชีวบริเวณ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "A domain, a sphere of life.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 177 manuscript titles, 57 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits ['ผิว', 'เนื้อ', 'ขน', 'ตา'].",
+ "compounds_unassigned": [
+  {
+   "th": "สังคโลก",
+   "rtgs": "sang-kha-lok",
+   "ipa": "/saŋ˩˩˦.kʰa˦˥.loːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องปั้นเคลือบที่ผลิตขึ้นในสมัยอาณาจักรสุโขทัย ซึ่งมีแหล่งผลิตที่เมืองศรีสัชนาลัย และเมืองสุโขทัย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สังค",
+    "โลก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: thai-full gives the etymology as เป็นไปได้ว่าแผลงมาจาก สวรรคโลก — the whole word is a phonetic alteration of the town name, so its -โลก is inherited from สวรรคโลก and สังค- is not a morpheme. The source hedges (เป็นไปได้ว่า), so this is probable, not verified.",
+   "conf": "probable",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT",
+    "thai-full.json"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ความข้องอยู่ + แผ่นดิน",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "สังฆโลก",
+   "rtgs": "sang-kha-lok",
+   "ipa": "/saŋ˩˩˦.kʰa˦˥.loːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ สังคโลก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สังฆ",
+    "โลก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the RID calls it รูปสะกดผิดของ สังคโลก, a misspelling, and สังคโลก is itself an alteration of สวรรคโลก rather than a compound of โลก.",
+   "conf": "probable",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT",
+    "thai-full.json"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ สงฆ์ + แผ่นดิน",
+   "frame": "entity",
+   "use": "spelling-variant"
+  },
+  {
+   "th": "พรหมโลก",
+   "rtgs": "phrom-ma-lok",
+   "ipa": "/pʰrom˧.ma˦˥.loːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "โลกของพระพรหม, ภูมิเป็นที่สถิตของพระพรหม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พรหม",
+    "โลก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "PROP+N",
+   "head": 1,
+   "lit_th": "ชื่อพระเป็นเจ้าผู้สร้างโลก + แผ่นดิน",
+   "use": "false-split"
+  },
+  {
+   "th": "เทวโลก",
+   "rtgs": "the-wa-lok",
+   "ipa": "/tʰeː˧.wa˦˥.loːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภูมิเป็นที่สถิตของเทวดา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เทว",
+    "โลก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เทวดา + แผ่นดิน",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต लोक (โลก) หรือบาลี โลก",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "world",
+  "earth"
+ ]
+}

@@ -1,0 +1,707 @@
+{
+ "id": "w:chut",
+ "th": "จุด",
+ "status": "mapped",
+ "rtgs": "chut",
+ "paiboon": "jùt",
+ "ipa": "/t͡ɕut̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ทำให้ไฟติด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: จุด 'to light'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "รอยหรือแต้มที่มีลักษณะกลม ๆ ปรากฏที่ผิวพื้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: จุด 'a dot, a point'."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เครื่องหมายวรรคตอนรูปดังนี้ . เรียกเต็มว่า มหัพภาค",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "จุดครึ่ง",
+     "translit_auto": "chudkhrueng",
+     "ipa": "[t͡ɕut̚˩.kʰrɯ̃ŋ˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องหมายวรรคตอนรูปดังนี้ ; เรียกเต็มว่า อัฒภาค",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จุด",
+      "ครึ่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.67, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "lit": "mark + half",
+     "lit_th": "เครื่องหมายวรรคตอนรูปดังนี้ . เรีย + กึ่ง",
+     "frame": "quality"
+    },
+    {
+     "th": "จุดลูกน้ำ",
+     "rtgs": "chut-luk-nam",
+     "ipa": "/t͡ɕut̚˨˩.luːk̚˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องหมายวรรคตอนรูปดังนี้ ,",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จุด",
+      "ลูกน้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.52, next 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เครื่องหมายวรรคตอนรูปดังนี้ . เรีย + ลูกอ่อนของยุงที่ยังอาศัยอยู่ในน้ำ"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "The dot as the full stop, มหัพภาค.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ขีด, ระดับ, ขั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "จุดเดือด",
+     "rtgs": "chut-dueat",
+     "ipa": "/t͡ɕut̚˨˩.dɯa̯t̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อุณหภูมิขณะที่ความดันสูงสุดของไอของของเหลวเท่ากับความกดของบรรยากาศ ณ อุณหภูมินี้ ของเหลวจะเปลี่ยนสถานะกลายเป็นไอได้ทั่วทั้งหมด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จุด",
+      "เดือด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "mark + angry",
+     "lit_th": "ขีด + อาการที่ของเหลวพลุ่งขึ้นเพราะความร"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "A point on a scale: a level, a degree.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ที่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "จุดหมาย",
+     "rtgs": "chut-mai",
+     "ipa": "/t͡ɕut̚˨˩.maːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จุดหรือสภาวะที่ต้องพยายามไปให้ถึง, จุดหรือสภาวะที่ตั้งใจจะให้บรรลุถึง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จุด",
+      "หมาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "mark + sign",
+     "lit_th": "ที่ + หนังสือราชการที่ใช้เกณฑ์ เกาะกุม ห"
+    },
+    {
+     "th": "จุดประสงค์",
+     "rtgs": "chut-pra-song",
+     "ipa": "/t͡ɕut̚˨˩.pra˨˩.soŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "mark",
+       "meaning",
+       "design"
+      ],
+      "th": "ผลที่ประสงค์ให้บรรลุ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "จุด",
+      "ประสงค์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "mark + wishful",
+     "lit_th": "ที่ + ต้องการ"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "A point in space: a spot, a place.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ประเด็นสำคัญของเรื่องที่พูดหรือถกเถียงกัน เป็นต้น (มักใช้ในเชิงปฏิเสธ)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "And the point at issue in what is being argued.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ทำเครื่องหมายเป็นรอยหรือแต้มที่มีลักษณะกลม ๆ ปรากฏที่ผิวพื้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "The dot names the making of it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 14 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['พูด', 'เรียก'].",
+ "compounds_unassigned": [
+  {
+   "th": "ชื่อไม่รองรับ/จุดจุด",
+   "translit_auto": "chuemairongrabchudchud",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การแสดงรหัสมอร์สสำหรับ ◌ี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชื่อไม่รองรับ/จุด",
+    "จุด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "การแสดงรหัสมอร์สสำหรับ เ + ทำให้ไฟติด"
+  },
+  {
+   "th": "การจุด",
+   "rtgs": "kan-chut",
+   "ipa": "/kaːn˧.t͡ɕut̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ จุด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "จุด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ทำให้ไฟติด"
+  },
+  {
+   "th": "จุดอ่อน",
+   "rtgs": "chut-on",
+   "ipa": "/t͡ɕut̚˨˩.ʔɔːn˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จุดอ่อนแอ, จุดที่ฝ่ายตรงข้ามจะเอาชนะได้โดยง่าย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จุด",
+    "อ่อน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "อ่อน"
+   ],
+   "lit": "mark + young",
+   "lit_th": "ทำให้ไฟติด + ไม่กระด้าง",
+   "frame": "quality"
+  },
+  {
+   "th": "จุดทศนิยม",
+   "rtgs": "chut-thot-sa-ni-yom",
+   "ipa": "/t͡ɕut̚˨˩.tʰot̚˦˥.sa˨˩.ni˦˥.jom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จุดที่ใส่หลังจำนวนเต็มและหน้าเศษตามวิธีทำเลขแบบทศนิยม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จุด",
+    "ทศนิยม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ทำให้ไฟติด + จำนวนจริงในรูปเลขฐานสิบ โดยกำหนดจุ"
+  },
+  {
+   "th": "จุดยืน",
+   "rtgs": "chut-yuen",
+   "ipa": "/t͡ɕut̚˨˩.jɯːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความคิดแน่วแน่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จุด",
+    "ยืน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "mark + stand",
+   "lit_th": "ทำให้ไฟติด + ตั้งอยู่"
+  },
+  {
+   "th": "จุดรวม",
+   "rtgs": "chut-ruam",
+   "ipa": "/t͡ɕut̚˨˩.rua̯m˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จุดกลางซึ่งเป็นที่รวมของคน สิ่งของ หรือความรู้สึกนึกคิด เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จุด",
+    "รวม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "mark + convergence",
+   "lit_th": "ทำให้ไฟติด + บวกเข้าด้วยกัน"
+  },
+  {
+   "th": "จุดขาย",
+   "rtgs": "chut-khai",
+   "ipa": "/t͡ɕut̚˨˩.kʰaːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จุดที่ตั้งขายสินค้าและบริการ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จุด",
+    "ขาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "ขาย"
+   ],
+   "lit": "mark + sell",
+   "lit_th": "ทำให้ไฟติด + เอาของแลกเงินตรา"
+  },
+  {
+   "th": "การกดจุด",
+   "rtgs": "kan-kot-chut",
+   "ipa": "/kaːn˧.kot̚˨˩.t͡ɕut̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กดจุด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกด",
+    "จุด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กด + ทำให้ไฟติด"
+  },
+  {
+   "th": "กดจุด",
+   "rtgs": "kot-chut",
+   "ipa": "/kot̚˨˩.t͡ɕut̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ใช้นิ้วกดตามตำแหน่งหรือจุดต่าง ๆ บนร่างกายเพื่อบำบัดโรคหรือทำให้ผ่อนคลาย เป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กด",
+    "จุด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "press + mark",
+   "lit_th": "ชื่อมาตรา กด มีตัว จ ฉ ช ซ ฌ ฏ ฎ ฐ + ทำให้ไฟติด"
+  },
+  {
+   "th": "จุดแข็ง",
+   "rtgs": "chut-khaeng",
+   "ipa": "/t͡ɕut̚˨˩.kʰɛŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จุดที่เข้มแข็ง, จุดที่ฝ่ายตรงข้ามจะเอาชนะได้ยาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จุด",
+    "แข็ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "แข็ง"
+   ],
+   "lit": "mark + hard",
+   "lit_th": "ทำให้ไฟติด + กระด้าง",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับไทย จุด, อีสาน จูด, คำเมือง ᨧᩪᨯ (จูด), เขิน ᨧᩪᨯ (จูด), ไทลื้อ ᦈᦳᧆᧈ (จุ่ด), ไทใหญ่ ၸုတ်ႇ (จุ่ต) ร่วมเชื้อสายกับอีสาน จุด, ลาว ຈຸດ (จุด), เขิน ᨧᩩᨯ (จุด)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨧᩪᨯ",
+  "th": "จูด",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "mark",
+  "point",
+  "spot",
+  "dot"
+ ]
+}

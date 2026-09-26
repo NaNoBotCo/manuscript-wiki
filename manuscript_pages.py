@@ -37,6 +37,7 @@ from __future__ import annotations
 import html
 import json
 
+import byline
 import cartography
 import imagemeta
 import strings
@@ -248,7 +249,20 @@ def _jsonld(det, url, og_image, page=None, crumb_items=None):
         ld["image"] = imagemeta.image_object(det, og_image, page)
     if det.get("genreLabel"):
         ld["genre"] = det["genreLabel"]
-    out = [json.dumps(ld, ensure_ascii=False)]
+    # THE RECORD PAGE IS NOT THE MANUSCRIPT — 2026-09-23
+    # The palm-leaf text has no author anyone can name, and writing a living
+    # cataloguer into that field would be a false claim about the object. So
+    # the Manuscript keeps describing the thing, and a second node describes
+    # the page about it — who compiled it, who publishes it, when it last
+    # changed. Across 6,986 pages that is the difference between an archive
+    # with a name behind it and an anonymous scrape.
+    ld["@id"] = f"{url}#manuscript"
+    route = url.split("://", 1)[-1].split("/", 1)[-1] if "://" in url else url.lstrip("/")
+    out = [json.dumps(ld, ensure_ascii=False),
+           json.dumps(byline.webpage(url, det.get("title") or "Manuscript", route,
+                                     "https://creativecommons.org/licenses/by/4.0/",
+                                     about={"@id": f"{url}#manuscript"}),
+                      ensure_ascii=False)]
     if crumb_items:
         # Same trail as the visible breadcrumb (wichaa › tradition › genre › this),
         # as a real BreadcrumbList — a rich-result lever the visible nav alone isn't.
@@ -293,6 +307,22 @@ def _pages_gallery(det):
             + (f' &middot; {dia} with diagrams' if dia else '') + ')</h2>'
             f'<p class=iconolede>{lead}</p>'
             f'<div class=thumbwall>{"".join(cells)}</div></div>')
+
+
+def _doors(text):
+    """Mark portal doors in Thai text, or fall back to plain escaped text.
+
+    Never let a portal failure take a manuscript page down with it: if the door
+    tables are missing (a partial build, a fresh checkout) the title still renders.
+    """
+    try:
+        import phasa_doors
+        return phasa_doors.mark(text, _DOCS_DIR or "")
+    except Exception:
+        return _esc(text)
+
+
+_DOCS_DIR = None
 
 
 def page_html(det, wiki, base="/", path=None):
@@ -446,7 +476,8 @@ def page_html(det, wiki, base="/", path=None):
         f'<meta name="twitter:title" content="{_esc(title[:90])}">'
         f'<meta name="twitter:image" content="{_esc(ogimg)}">'
         + _jsonld(det, url, og_image, hero_page, crumb_ld)
-        + f"<style>{_CSS}</style></head>")
+        + f"<style>{_CSS}</style>"
+        + '<script src="/phasa/portal.js" defer></script></head>')
 
     top = ('<div class=top><a class=mark href="/">วิชา · wichaa</a>'
            '<nav><a href="/browse">Browse</a> <a href="/atlas">Atlas</a> '
@@ -456,7 +487,10 @@ def page_html(det, wiki, base="/", path=None):
         "<body>" + top + '<div class=wrap>'
         + crumb_html
         + f"<h1>{_esc(title[:90])}</h1>"
-        + (f'<p class=th>{_esc(title_thai)}</p>' if title_thai else "")
+        # The Thai title is the densest Thai on the site and the reason the lexicon
+        # knows what ลูกแก้ว means. Doors are marked at build time by phasa_doors,
+        # which refuses Pali titles rather than shredding them — see its four guards.
+        + (f'<p class=th>{_doors(title_thai)}</p>' if title_thai else "")
         + subj_html + hero_html + meta_html + read_html
         + icon_html + pages_html + threads_html + tool_html + peers_html + share_html + foot_html
         + "</div></body></html>")

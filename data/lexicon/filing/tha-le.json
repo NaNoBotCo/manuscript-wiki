@@ -1,0 +1,9 @@
+{
+ "head": "tha-le",
+ "rule": "ทะเล is the sea and sense 1 takes almost everything — the water and its parts (น้ำทะเล, ชายทะเล, ชะวากทะเล, สะดือทะเล the whirlpool), going onto it (ออกทะเล), being beyond it (โพ้นทะเล), being lost on it (กลางทะเล), a song named for it (อกทะเล, which the dictionary confirms as อก + ทะเล), and ทะเลทราย, a desert, which Thai names as a sea of sand rather than by any word for desert. Sense 4, ที่อยู่หรือเกิดในทะเล, is for creatures OF the sea and takes เหรียญทะเล, the sand dollar, beside ปลิงทะเล and ผีทะเล. Sense 2 is the clipped อาหารทะเล and takes ก๋วยเตี๋ยวราดหน้าทะเล, where ทะเล has stopped meaning the sea and means the seafood on the plate.",
+ "senses": {
+  "1": ["กลางทะเล","ชะวากทะเล","ชายทะเล","ทะเลทราย","น้ำทะเล","สะดือทะเล","ออกทะเล","อกทะเล","โพ้นทะเล"],
+  "2": ["ก๋วยเตี๋ยวราดหน้าทะเล"],
+  "4": ["เหรียญทะเล"]
+ }
+}

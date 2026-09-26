@@ -1,0 +1,548 @@
+{
+ "id": "w:phan-3",
+ "th": "ภัณฑ์",
+ "status": "proposed",
+ "rtgs": "phan",
+ "paiboon": "pan",
+ "ipa": "/pʰan˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "goods",
+     "articles",
+     "wares"
+    ],
+    "th": "สิ่งของ, เครื่องใช้",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "อาภรณ์ภัณฑ์",
+     "rtgs": "a-phon-phan",
+     "ipa": "/ʔaː˧.pʰɔːn˧.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าหรือเครื่องหมายเพิ่มเติมสำหรับใส่ประดับในภารกิจพิเศษหรืองานพิธี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อาภรณ์",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.20",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เครื่องประดับ + สิ่งของ",
+     "frame": "entity"
+    },
+    {
+     "th": "เคมีภัณฑ์",
+     "rtgs": "khe-mi-phan",
+     "ipa": "/kʰeː˧.miː˧.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สารบริสุทธิ์ที่เตรียมได้โดยกรรมวิธีเคมีหรือที่ใช้ในกรรมวิธีเคมี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เคมี",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "chemistry + goods",
+     "lit_th": "วิทยาศาสตร์กายภาพแขนงหนึ่ง ซึ่งกล่ + สิ่งของ",
+     "frame": "entity"
+    },
+    {
+     "th": "สังฆภัณฑ์",
+     "rtgs": "sang-kha-phan",
+     "ipa": "/saŋ˩˩˦.kʰa˦˥.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งของเครื่องใช้สำหรับพระสงฆ์ (นอกจากบริขาร)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สังฆ",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.46",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ สงฆ์ + สิ่งของ",
+     "frame": "entity"
+    },
+    {
+     "th": "เวชภัณฑ์",
+     "rtgs": "wet-cha-phan",
+     "ipa": "/weːt̚˥˩.t͡ɕʰa˦˥.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งของเครื่องมือเครื่องใช้เกี่ยวกับการแพทย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เวช",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.45",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หมอรักษาโรค + สิ่งของ",
+     "frame": "entity"
+    },
+    {
+     "th": "พัสดุภัณฑ์",
+     "rtgs": "phat-sa-du-phan",
+     "ipa": "/pʰat̚˦˥.sa˨˩.du˨˩.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งของที่บรรจุหีบห่อสำหรับส่งจากแห่งหนึ่งไปยังอีกแห่งหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัสดุ",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.21",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "parcel + goods",
+     "lit_th": "สิ่งของต่าง ๆ + สิ่งของ",
+     "frame": "entity"
+    },
+    {
+     "th": "กุมภัณฑ์",
+     "rtgs": "kum-phan",
+     "ipa": "/kum˧.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยักษ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กุม",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.24",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอาอุ้งมือรวบ ปิด กัน หรือจับไว้ + สิ่งของ"
+    },
+    {
+     "th": "บรรจุภัณฑ์",
+     "rtgs": "ban-chu-phan",
+     "ipa": "/ban˧.t͡ɕu˨˩.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วัสดุที่ทำขึ้นสำหรับห่อหุ้มหรือบรรจุสินค้า อาทิ ขวด กระป๋อง กล่อง ถุง ห่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บรรจุ",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.13",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "carry + goods",
+     "lit_th": "ใส่ลงในขวด หีบ หรือถุง เป็นต้น + สิ่งของ"
+    },
+    {
+     "th": "โภคภัณฑ์",
+     "rtgs": "phok-kha-phan",
+     "ipa": "/pʰoːk̚˥˩.kʰa˦˥.pʰan˧/",
+     "gloss": {
+      "en": [
+       "real"
+      ],
+      "th": "เครื่องอุปโภคบริโภค",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "โภค",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สมบัติ + สิ่งของ",
+     "frame": "entity"
+    },
+    {
+     "th": "ยุทธภัณฑ์",
+     "rtgs": "yut-tha-phan",
+     "ipa": "/jut̚˦˥.tʰa˦˥.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาวุธ เครื่องอุปกรณ์ของอาวุธ สารเคมี สารชีวะ สารรังสี หรือเครื่องมือเครื่องใช้ที่อาจนำไปใช้ในการรบหรือการสงครามได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยุทธ",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.21",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ ยุทธ์ + สิ่งของ",
+     "frame": "entity"
+    },
+    {
+     "th": "อมภัณฑ์",
+     "rtgs": "a-ma-phan",
+     "ipa": "/ʔa˨˩.ma˦˥.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระสุนชนิดต่าง ๆ (ในคลังเป็นต้น)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อม",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอาสิ่งของใส่ปากแล้วหุบปากไว้ไม่กล + สิ่งของ"
+    },
+    {
+     "th": "สุขภัณฑ์",
+     "rtgs": "suk-kha-phan",
+     "ipa": "/suk̚˨˩.kʰa˨˩.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องอุปกรณ์ที่ใช้สำหรับห้องน้ำ เช่นอ่างล้างหน้า อ่างอาบน้ำ โถส้วม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สุข"
+     ],
+     "lit": "happiness + goods",
+     "lit_th": "ความสบายกายสบายใจ + สิ่งของ",
+     "frame": "entity"
+    },
+    {
+     "th": "ผลิตภัณฑ์",
+     "rtgs": "pha-lit-ta-phan",
+     "ipa": "/pʰa˨˩.lit̚˨˩.ta˨˩.pʰan˧/",
+     "gloss": {
+      "en": [
+       "product"
+      ],
+      "th": "สิ่งที่ทำขึ้น เป็นวัตถุที่จับต้องได้ สำหรับขายเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ผลิต",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "produce + goods",
+     "lit_th": "ทำให้เกิดมีขึ้นตามที่ต้องการด้วยอา + สิ่งของ"
+    },
+    {
+     "th": "พิพิธภัณฑ์",
+     "rtgs": "phi-phit-tha-phan",
+     "ipa": "/pʰi˦˥.pʰit̚˦˥.tʰa˦˥.pʰan˧/",
+     "gloss": {
+      "en": [
+       "museum"
+      ],
+      "th": "สถานที่เก็บรวบรวมและแสดงสิ่งต่าง ๆ ที่มีความสำคัญด้านวัฒนธรรมหรือด้านวิทยาศาสตร์ โดยมีความมุ่งหมายเพื่อให้เป็นประโยชน์ต่อการศึกษา และก่อให้เกิดความเพลิดเพลินใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พิพิธ",
+      "ภัณฑ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ วิวิธ + สิ่งของ",
+     "frame": "quality"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 15 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "วัสดุภัณฑ์",
+   "rtgs": "wat-sa-du-phan",
+   "ipa": "/wat̚˦˥.sa˨˩.du˨˩.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ พัสดุภัณฑ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วัสดุ",
+    "ภัณฑ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "accessory + goods",
+   "lit_th": "วัตถุที่นำมาใช้ เช่น วัสดุก่อสร้าง + สิ่งของ",
+   "frame": "entity"
+  },
+  {
+   "th": "ครุภัณฑ์",
+   "rtgs": "kha-ru-phan",
+   "ipa": "/kʰa˦˥.ru˦˥.pʰan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของที่ใช้ทนทาน เช่น ตู้ โต๊ะ เก้าอี้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ครุ",
+    "ภัณฑ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.24 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ภาชนะสานชนิดหนึ่ง รูปกลม ๆ เหมือนก + สิ่งของ",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากบาลี ภณฺฑ, จากสันสกฤต भाण्ड (ภาณฺฑ)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:phan",
+   "label": "พัน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"phan\". ภัณฑ์ is pan, พัน is pan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:phan-2",
+   "label": "พันธุ์",
+   "why": "spelling",
+   "distinction": "Both romanise as \"phan\". ภัณฑ์ is pan, พันธุ์ is pan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

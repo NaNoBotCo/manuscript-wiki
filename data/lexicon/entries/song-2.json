@@ -1,0 +1,823 @@
+{
+ "id": "w:song-2",
+ "th": "ส่ง",
+ "status": "mapped",
+ "rtgs": "song",
+ "paiboon": "sòng",
+ "ipa": "/soŋ˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากที่หนึ่งไปยังอีกที่หนึ่ง เพื่อให้ถึงผู้รับหรือเป้าหมายด้วยอาการต่าง ๆ กัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "หนุน ดัน หรือเสริมให้สูงขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ส่งเสริม",
+     "rtgs": "song-soem",
+     "ipa": "/soŋ˨˩.sɤːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "further",
+       "help",
+       "encourage"
+      ],
+      "th": "เกื้อหนุน, ช่วยเหลือสนับสนุนให้ดีขึ้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ส่ง",
+      "เสริม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.11, next 0.01",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "send + introduce",
+     "lit_th": "หนุน ดัน หรือเสริมให้สูงขึ้น + เพิ่ม"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Sending upward: to boost, to prop higher.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "แสดงอัธยาศัยในเมื่อมีผู้จะจากไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เลี้ยงส่ง",
+     "rtgs": "liang-song",
+     "ipa": "/lia̯ŋ˦˥.soŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เลี้ยงอาหารแก่ผู้ที่จะจากไปอย่างเดินทางไปต่างประเทศเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เลี้ยง",
+      "ส่ง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "เลี้ยง"
+     ],
+     "lit": "grow + send",
+     "lit_th": "ดูแล + แสดงอัธยาศัยในเมื่อมีผู้จะจากไป"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Sending someone off: to see them away.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "อาการที่ส่งเครื่องหมาย ข้อความข่าวสาร หรือภาพ เป็นต้นไปให้อีกฝ่ายหนึ่งโดยอาศัยกรรมวิธีต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Sending a signal, a message, a picture: to transmit.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "การบรรเลงหรือขับร้องเมื่อจบท่อนหรือจบเพลง แล้วมีการทอดเสียงส่งต่อให้มีการปฏิบัติต่อไปอีก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun",
+   "pos_th": "คำกริยา, คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ส่งเสียง",
+     "rtgs": "song-siang",
+     "ipa": "/soŋ˨˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ร้องเสียงดัง, แผดเสียง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่ง",
+      "เสียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.11, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "เสียง"
+     ],
+     "lit": "send + voice",
+     "lit_th": "การบรรเลงหรือขับร้องเมื่อจบท่อนหรื + สิ่งที่รับรู้ได้ด้วยหู"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The passage that sends a piece off at its close.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 33 manuscript titles, 552 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['เคลื่อน', 'ขึ้น', 'ลง', 'ไป'].",
+ "compounds_unassigned": [
+  {
+   "th": "การขายส่ง",
+   "rtgs": "kan-khai-song",
+   "ipa": "/kaːn˧.kʰaːj˩˩˦.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "wholesale"
+    ],
+    "th": "คำอาการนามของ ขายส่ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การขาย",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "sale + send",
+   "lit_th": "คำอาการนามของ ขาย + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "การค้าส่ง",
+   "rtgs": "kan-kha-song",
+   "ipa": "/kaːn˧.kʰaː˦˥.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ค้าส่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การค้า",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ค้า + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "ส่งเดช",
+   "rtgs": "song-det",
+   "ipa": "/soŋ˨˩.deːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลวก ๆ, มักง่าย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ส่ง",
+    "เดช"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท + อำนาจ"
+  },
+  {
+   "th": "ค้าส่ง",
+   "rtgs": "kha-song",
+   "ipa": "/kʰaː˦˥.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ขายส่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ค้า",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "ซื้อขายสินค้าหรือบริการ + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "สูงส่ง",
+   "rtgs": "sung-song",
+   "ipa": "/suːŋ˩˩˦.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "supernal"
+    ],
+    "th": "ที่ยกย่องกันว่าดีเด่น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สูง",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "cross_listed": [
+    "สูง"
+   ],
+   "lit": "tall + send",
+   "lit_th": "มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท",
+   "frame": "quality"
+  },
+  {
+   "th": "การสาปส่ง",
+   "rtgs": "kan-sap-song",
+   "ipa": "/kaːn˧.saːp̚˨˩.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สาปส่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสาป",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สาป + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "ส่งท้าย",
+   "rtgs": "song-thai",
+   "ipa": "/soŋ˨˩.tʰaːj˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พายกระตุ้นท้ายเรือเพื่อให้แล่นเร็ว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ส่ง",
+    "ท้าย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท + ส่วนที่อยู่สุดด้านหนึ่ง"
+  },
+  {
+   "th": "การเลี้ยงส่ง",
+   "rtgs": "kan-liang-song",
+   "ipa": "/kaːn˧.lia̯ŋ˦˥.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เลี้ยงส่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเลี้ยง",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เลี้ยง + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "ส่งมอบ",
+   "rtgs": "song-mop",
+   "ipa": "/soŋ˨˩.mɔːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ส่งให้, มอบให้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ส่ง",
+    "มอบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "send + hand",
+   "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท + เวนให้"
+  },
+  {
+   "th": "การผ่อนส่ง",
+   "rtgs": "kan-phon-song",
+   "ipa": "/kaːn˧.pʰɔn˨˩.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ผ่อนส่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การผ่อน",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ผ่อน + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "การส่ง",
+   "rtgs": "kan-song",
+   "ipa": "/kaːn˧.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "delivery",
+     "transfer",
+     "delivering"
+    ],
+    "th": "คำอาการนามของ ส่ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "การขนส่ง",
+   "rtgs": "kan-khon-song",
+   "ipa": "/kaːn˧.kʰon˩˩˦.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "carry",
+     "transport",
+     "transfer"
+    ],
+    "th": "คำอาการนามของ ขนส่ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การขน",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขน + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "ความสูงส่ง",
+   "rtgs": "khwam-sung-song",
+   "ipa": "/kʰwaːm˧.suːŋ˩˩˦.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สูงส่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความสูง",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "height + send",
+   "lit_th": "คำอาการนามของ สูง + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "ผ่อนส่ง",
+   "rtgs": "phon-song",
+   "ipa": "/pʰɔn˨˩.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ผ่อนชำระ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ผ่อน",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "ทำให้หย่อนหรือคลายความตึง + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "ขายส่ง",
+   "rtgs": "khai-song",
+   "ipa": "/kʰaːj˩˩˦.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "wholesale"
+    ],
+    "th": "ขายเป็นจำนวนมาก ๆ แก่ร้านค้าย่อยหรือร้านที่เป็นลูกค้าประจำ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขาย",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "ขาย"
+   ],
+   "lit": "sell + send",
+   "lit_th": "เอาของแลกเงินตรา + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "ขนส่ง",
+   "rtgs": "khon-song",
+   "ipa": "/kʰon˩˩˦.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "bring",
+     "carry"
+    ],
+    "th": "ธุรกิจเกี่ยวกับการขนและการส่ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ขน",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ขน"
+   ],
+   "lit": "coat + send",
+   "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  },
+  {
+   "th": "สาปส่ง",
+   "rtgs": "sap-song",
+   "ipa": "/saːp̚˨˩.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตัดขาดไม่เกี่ยวข้องด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาป",
+    "ส่ง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "jinx + send",
+   "lit_th": "คำแช่งให้เป็นไปต่าง ๆ ของผู้มีฤทธิ + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *soŋᴮ¹\nร่วมเชื้อสายกับลาว ສົ່ງ (ส็่ง), คำเมือง ᩈᩫ᩠᩵ᨦ (ส็่ง), เขิน ᩈᩫ᩠᩵ᨦ (ส็่ง), ไทลื้อ ᦉᦳᧂᧈ (สุ่ง), ไทดำ ꪶꪎ꪿ꪉ (โส่ง), ไทใหญ่ သူင်ႇ (สู่ง), ไทใต้คง ᥔᥨᥒᥱ (โส่ง), พ่าเก ꩬ︀ုင︀် (สุง์), อาหม 𑜏𑜤𑜂𑜫 (สุง์)\nเทียบจีนยุคกลาง 送 (MC suwngH)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩈᩫ᩠᩵ᨦ",
+  "th": "ส็่ง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:song",
+   "label": "ทรง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"song\". ส่ง is sòng, ทรง is song — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "send",
+  "deliver"
+ ]
+}

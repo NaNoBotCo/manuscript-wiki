@@ -1,0 +1,9 @@
+{
+ "head": "lak",
+ "rule": "หลัก is a post driven into the ground, and its senses are what a post becomes. Sense 1 keeps the literal one — หลักเมือง, the city pillar — and the two words about having or lacking a fixed place, หลักแหล่ง and หลักลอย. Sense 6, the position of a digit, takes หลักสาม and หลักสี่, which mean one's thirties and forties: an age named by its decade column. Everything else is sense 5, สาระที่มั่นคง — the post as what a thing rests on. That is the largest group and it is the abstract vocabulary of Thai institutions: หลักการ, หลักเกณฑ์, หลักฐาน, หลักสูตร, หลักทรัพย์, ประโยคหลัก, and เสียหลัก, losing it. A principle is a stake you have driven in.",
+ "senses": {
+  "1": ["หลักลอย","หลักเมือง","หลักแหล่ง"],
+  "5": ["ประโยคหลัก","หลักการ","หลักฐาน","หลักทรัพย์","หลักสูตร","หลักเกณฑ์","หลักแหลม","เสียหลัก"],
+  "6": ["หลักสาม","หลักสี่"]
+ }
+}

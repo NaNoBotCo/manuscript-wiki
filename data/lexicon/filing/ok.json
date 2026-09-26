@@ -1,0 +1,8 @@
+{
+ "head": "ok",
+ "rule": "อก is a one-syllable head ending in a common Thai rhyme, so a third of its candidates were never compounds — eight are single morphemes that merely end in -อก, and the test that catches every one of them is that the remainder is not a word: หน-, หง-, กร-, ตร-, ขย-, คล-, กล-, หย-. What is left divides simply. Sense 2, ใจ, takes the chest as the SEAT OF FEELING and it is only three words — โล่งอก the relief, อกหัก the heartbreak, อกคราก the cry of being overburdened. Everything else stays in sense 1, because อก's real productivity is not emotional but structural: it names the central spine or front face of a made thing (อกเลา on a door, อกว่าว in a kite, อกเลื่อย and เลื่อยอก on a saw, อกเมือง in a town, อกแตก of a town split by water). Sense 3 (พวก, หมู่) takes nothing and stays empty.",
+ "senses": {
+  "1": ["กระโจมอก","หน้าอก","หัวอก","อกตั้ง","อกทะเล","อกรวบ","อกว่าว","อกเต่า","อกเมือง","อกเลา","อกเลื่อย","อกแตก","อกโรย","อกไก่","เกาะอก","เลื่อยอก"],
+  "2": ["อกคราก","อกหัก","โล่งอก"]
+ }
+}

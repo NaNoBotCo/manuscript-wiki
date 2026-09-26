@@ -1,0 +1,853 @@
+{
+ "id": "w:wit-tha-ya",
+ "th": "วิทยา",
+ "status": "mapped",
+ "rtgs": "wit-tha-ya",
+ "paiboon": "wít-tá-yaa",
+ "ipa": "/wit̚˦˥.tʰa˦˥.jaː˧/",
+ "syllable_respelling": "วิด-ทะ-ยา",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "knowledge",
+     "science"
+    ],
+    "th": "ความรู้",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "วิทยาการ",
+     "rtgs": "wit-tha-ya-kan",
+     "ipa": "/wit̚˦˥.tʰa˦˥.jaː˧.kaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความรู้แขนงต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วิทยา",
+      "การ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.41, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ความรู้ + งาน",
+     "frame": "entity"
+    },
+    {
+     "th": "ญาณวิทยา",
+     "rtgs": "ya-na-wit-tha-ya",
+     "ipa": "/jaː˧.na˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปรัชญาสาขาหนึ่ง ว่าด้วยกำเนิดลักษณะและความถูกต้องแห่งความรู้ ตลอดจนวิธีหาความรู้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ญาณ",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.23, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ปรีชาหยั่งรู้หรือกำหนดรู้ที่เกิดจา + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "ธรณีวิทยา",
+     "rtgs": "tho-ra-ni-wit-tha-ya",
+     "ipa": "/tʰɔː˧.ra˦˥.niː˧.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาที่ว่าด้วยความรู้เกี่ยวกับประวัติโครงสร้างและสภาพของโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ธรณี",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.24, next 0.13",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "แผ่นดิน + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "วิทยากร",
+     "rtgs": "wit-tha-ya-kon",
+     "ipa": "/wit̚˦˥.tʰa˦˥.jaː˧.kɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ทรงความรู้ความสามารถในศิลปวิทยาแขนงต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วิทยา",
+      "กร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.28, next 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ความรู้ + ผู้ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ศิลปวิทยา",
+     "rtgs": "sin-la-pa-wit-tha-ya",
+     "ipa": "/sin˩˩˦.la˦˥.pa˨˩.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ศิลปะและวิชาการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศิลป",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ ศิลป์ + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "เทววิทยา",
+     "rtgs": "the-wa-wit-tha-ya",
+     "ipa": "/tʰeː˧.wa˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาว่าด้วยพระเป็นเจ้าและความสัมพันธ์ระหว่างพระเป็นเจ้ากับโลก โดยศึกษาลักษณะของพระเป็นเจ้าและความเชื่อทางศาสนา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เทว",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เทวดา + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "กีฏวิทยา",
+     "rtgs": "ki-ta-wit-tha-ya",
+     "ipa": "/kiː˧.ta˨˩.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาว่าด้วยแมลง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กีฏ",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "แมลง + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "พยาธิวิทยา",
+     "rtgs": "pha-ya-thi-wit-tha-ya",
+     "ipa": "/pʰa˦˥.jaː˧.tʰi˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาอันว่าด้วยเชื้อโรค",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พยาธิ",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "disease + knowledge",
+     "lit_th": "ความเจ็บไข้ + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "วิทยาเขต",
+     "rtgs": "wit-tha-ya-khet",
+     "ipa": "/wit̚˦˥.tʰa˦˥.jaː˧.kʰeːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "campus"
+      ],
+      "th": "ส่วนหนึ่งของมหาวิทยาลัย แต่ตั้งอยู่ในบริเวณอื่น มีคณาจารย์ อาคาร สถานที่ ตลอดจนอุปกรณ์ต่าง ๆ ของตนเอง เกี่ยวพันกับมหาวิทยาลัยโดยมีอธิการบดีคนเดียวกัน และสภามหาวิทยาลัยชุดเดียวกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "วิทยา",
+      "เขต"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "knowledge + land",
+     "lit_th": "ความรู้ + แดนที่กำหนดขีดคั่นไว้",
+     "frame": "entity"
+    },
+    {
+     "th": "วิทยาศาสตร์",
+     "rtgs": "wit-tha-ya-sat",
+     "ipa": "/wit̚˦˥.tʰa˦˥.jaː˧.saːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "science"
+      ],
+      "th": "ความรู้ที่ได้โดยการสังเกตและค้นคว้าจากปรากฏการณ์ธรรมชาติแล้วจัดเข้าเป็นระเบียบ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "วิทยา",
+      "ศาสตร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "knowledge + discipline",
+     "lit_th": "ความรู้ + ระบบวิชาความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "วิทยาการคอมพิวเตอร์",
+     "rtgs": "wit-tha-ya-kan-khom-phio-toe",
+     "ipa": "/wit̚˦˥.tʰa˦˥.jaː˧.kaːn˧.kʰɔm˧.pʰiw˧.tɤː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การศึกษาเกี่ยวกับคอมพิวเตอร์ สถาปัตยกรรมคอมพิวเตอร์ ภาษาคอมพิวเตอร์ และการประยุกต์ในทุกด้าน ตลอดจนโครงสร้างทางคณิตศาสตร์ที่เกี่ยวข้องกับคอมพิวเตอร์และการคำนวณ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วิทยา",
+      "การคอมพิวเตอร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ความรู้ + การศึกษาและการใช้คอมพิวเตอร์ ระบบค",
+     "frame": "entity"
+    },
+    {
+     "th": "คูถวิทยา",
+     "rtgs": "khu-tha-wit-tha-ya",
+     "ipa": "/kʰuː˧.tʰa˨˩.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิทยาศาสตร์ที่ศึกษาอุจจาระของคนหรือสัตว์ ซึ่งจะให้ข้อมูลเกี่ยวกับถิ่นอาศัย สุขภาพโดยรวม และโรคที่ปรากฏ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คูถ",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ขี้ + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "วิทยานิพนธ์",
+     "rtgs": "wit-tha-ya-ni-phon",
+     "ipa": "/wit̚˦˥.tʰa˦˥.jaː˧.ni˦˥.pʰon˧/",
+     "gloss": {
+      "en": [
+       "paper"
+      ],
+      "th": "งานเขียนเชิงวิชาการ ที่เป็นผลงานจากการวิจัย ซึ่งเสนอต่อมหาวิทยาลัยเพื่อรับปริญญา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "วิทยา",
+      "นิพนธ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ความรู้ + เรื่องที่แต่งขึ้น",
+     "frame": "entity"
+    },
+    {
+     "th": "มีนวิทยา",
+     "rtgs": "mi-na-wit-tha-ya",
+     "ipa": "/miː˧.na˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "ichthyology"
+      ],
+      "th": "สัตวศาสตร์แขนงที่ว่าด้วยปลา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มีน",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ปลา + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "สัทวิทยา",
+     "rtgs": "sat-tha-wit-tha-ya",
+     "ipa": "/sat̚˨˩.tʰa˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาว่าด้วยการศึกษาระบบเสียงของแต่ละภาษา โดยเน้นศึกษาความสัมพันธ์ระหว่างเสียงต่าง ๆ ที่เป็นส่วนหนึ่งขององค์ประกอบพื้นฐานของภาษา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัท",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เสียง + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "ชีววิทยา",
+     "rtgs": "chi-wa-wit-tha-ya",
+     "ipa": "/t͡ɕʰiː˧.wa˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "biology"
+      ],
+      "th": "วิชาที่ว่าด้วยการศึกษาทางวิทยาศาสตร์ ที่เกี่ยวข้องกับสิ่งมีชีวิตในทุก ๆ แง่มุม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชีว",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชีวิต + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "นักษัตรวิทยา",
+     "rtgs": "nak-sat-tra-wit-tha-ya",
+     "ipa": "/nak̚˦˥.sat̚˨˩.tra˨˩.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดาราศาสตร์แบบดั้งเดิม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นักษัตร",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ดาว + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "ภูมิวิทยา",
+     "rtgs": "phu-mi-wit-tha-ya",
+     "ipa": "/pʰuː˧.mi˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ธรณีวิทยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ภูมิ"
+     ],
+     "lit": "land + knowledge",
+     "lit_th": "แผ่นดิน + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "คัพภวิทยา",
+     "rtgs": "khap-pha-wit-tha-ya",
+     "ipa": "/kʰap̚˦˥.pʰa˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การศึกษาการเจริญของคัพภะหรือเอ็มบริโอ และพัฒนาการของไซโกตภายในครรภ์ ซึ่งจะเจริญเป็นทารก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คัพภ",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ คัพภ์ + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "พิษวิทยา",
+     "rtgs": "phit-sa-wit-tha-ya",
+     "ipa": "/pʰit̚˦˥.sa˨˩.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาที่ว่าด้วยการศึกษาพิษ การตรวจสอบพิษ ผลของพิษต่อสิ่งมีชีวิต และวิธีการรักษา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พิษ",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พิษ"
+     ],
+     "lit": "harm + knowledge",
+     "lit_th": "สิ่งที่ร้ายเป็นอันตรายแก่ร่างกายหร + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "จิตวิทยา",
+     "rtgs": "chit-ta-wit-tha-ya",
+     "ipa": "/t͡ɕit̚˨˩.ta˨˩.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาว่าด้วยจิต, วิทยาศาสตร์แขนงหนึ่งว่าด้วยปรากฏการณ์ พฤติกรรม และกระบวนการของจิต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จิต",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "mind + knowledge",
+     "lit_th": "ใจ + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "สัตววิทยา",
+     "rtgs": "sat-ta-wa-wit-tha-ya",
+     "ipa": "/sat̚˨˩.ta˨˩.wa˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "zoology"
+      ],
+      "th": "วิทยาศาสตร์ชีวภาพสาขาหนึ่งว่าด้วยเรื่องของสัตว์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สัตว",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ สัตว์ + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "อุทกวิทยา",
+     "rtgs": "u-thok-wit-tha-ya",
+     "ipa": "/ʔu˨˩.tʰok̚˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาว่าด้วยน้ำที่มีอยู่ในโลก เช่น ศึกษาถึงสาเหตุการเกิด การหมุนเวียน ตลอดจนคุณลักษณะของน้ำ รวมทั้งการนำน้ำมาใช้ให้เป็นประโยชน์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อุทก",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "น้ำ + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "ภววิทยา",
+     "rtgs": "pha-wa-wit-tha-ya",
+     "ipa": "/pʰa˦˥.wa˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สาขาของอภิปรัชญาซึ่งว่าด้วยธรรมชาติของการเป็นอยู่หรือภาวะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภว",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "โลก + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "จักษุวิทยา",
+     "rtgs": "chak-su-wit-tha-ya",
+     "ipa": "/t͡ɕak̚˨˩.su˨˩.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาที่ว่าด้วยการศึกษาเรื่องโรคที่เกี่ยวกับดวงตาและวิธีการรักษา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จักษุ",
+      "วิทยา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ตา + ความรู้",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ชื่อจริงรวม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Knowledge used as a personal name.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 11 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 25; domain seeded by keyword hits —.",
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต विद्या (วิทฺยา); ร่วมรากกับ วิชชา และ วิชา",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

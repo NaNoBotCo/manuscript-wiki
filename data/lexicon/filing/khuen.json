@@ -1,0 +1,14 @@
+{
+ "head": "khuen",
+ "rule": "ขึ้น has twenty-seven senses and no compound should be filed at the core unless nothing narrower fits. Reading each gloss for its own verb: putting something away is sense 19, and it takes the three storage compounds — ขึ้นยุ้ง, ขึ้นฉาง and ขึ้นหิ้ง, where being shelved is the same act as being put in a granary. Being under another's authority is sense 8 (เมืองขึ้น). Being esteemed is sense 7 (ขึ้นชื่อ). Beginning is sense 3 (ขึ้นครู, the first rite to a teacher). First appearing over the horizon is sense 11, and รุ่งขึ้น, tomorrow, is that dawn. Sense 6, เกิด / มี, was empty and takes ของขึ้น — the sacred object's power arising in someone. Sense 12, งอก, takes ขมิ้นขึ้น. Sense 1 keeps plain upward motion (น้ำขึ้น, บรรจุขึ้น, ขึ้นเขียง, ขึ้นคาน).",
+ "senses": {
+  "1": ["ขึ้นคาน","ขึ้นเขียง","น้ำขึ้น","บรรจุขึ้น"],
+  "3": ["ขึ้นครู"],
+  "6": ["ของขึ้น"],
+  "7": ["ขึ้นชื่อ"],
+  "8": ["เมืองขึ้น"],
+  "11": ["รุ่งขึ้น"],
+  "12": ["ขมิ้นขึ้น"],
+  "19": ["ขึ้นฉาง","ขึ้นยุ้ง","ขึ้นหิ้ง"]
+ }
+}

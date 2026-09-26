@@ -1,0 +1,895 @@
+{
+ "id": "w:sen",
+ "th": "เส้น",
+ "status": "mapped",
+ "rtgs": "sen",
+ "paiboon": "sên",
+ "ipa": "/sen˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ไม่จำกัดความยาว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เส้นพระเจ้า",
+     "translit_auto": "senphrachea",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เส้นผม, ผม (ใช้กับพระราชา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "พระเจ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mark + God",
+     "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + พระพุทธเจ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "กินเส้น",
+     "rtgs": "kin-sen",
+     "ipa": "/kin˧.sen˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชอบกัน, เข้ากันได้, มักใช้ในความปฏิเสธว่า ไม่กินเส้นกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "เส้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "eat + mark",
+     "lit_th": "เคี้ยว + สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่"
+    },
+    {
+     "th": "วุ้นเส้น",
+     "rtgs": "wun-sen",
+     "ipa": "/wun˦˥.sen˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แป้งถั่วเขียวทำเป็นเส้นเล็ก ๆ ยาวอย่างเส้นลวด เมื่อแช่น้ำทำให้อ่อนคล้ายวุ้น ใช้ทำเป็นอาหาร เช่น แกงร้อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วุ้น",
+      "เส้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ของกินชนิดหนึ่ง ทำจากสาหร่ายทะเลเป + สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ยาเส้น",
+     "rtgs": "ya-sen",
+     "ipa": "/jaː˧.sen˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยาสูบชนิดหนึ่งที่หั่นใบยาเป็นเส้น ๆ หรือเป็นชิ้นเล็ก ๆ สำหรับมวนสูบหรือใส่กล้องสูบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยา",
+      "เส้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "medicine + mark",
+     "lit_th": "สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ + สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่",
+     "frame": "entity"
+    },
+    {
+     "th": "เส้นใย",
+     "rtgs": "sen-yai",
+     "ipa": "/sen˥˩.jaj˧/",
+     "gloss": {
+      "en": [
+       "fiber"
+      ],
+      "th": "วัสดุที่เป็นเส้น ใช้ประโยชน์นำไปทำสิ่งทอ เช่น เสื้อผ้า พรม แบ่งเป็น 2 ประเภท คือ เส้นใยธรรมชาติ ประเภทนี้มีอยู่ในธรรมชาติ เช่น เส้นใยที่ได้จากขนสัตว์ ฝ้าย นุ่น ป่าน ปอ ไหม แร่ซิลิเกต และเส้นใยสังเคราะห์ ประเภทนี้ไม่มีในธ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "ใย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + สิ่งที่เป็นเส้นเล็ก ๆ บาง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "เส้นหมี่",
+     "rtgs": "sen-mi",
+     "ipa": "/sen˥˩.miː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แป้งข้าวเจ้าที่โรยเป็นเส้นลงในน้ำเดือดพอสุกแล้วนำมาตากแห้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "หมี่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + เรียกแป้งข้าวเจ้าที่โรยเป็นเส้นลงใ",
+     "frame": "entity"
+    },
+    {
+     "th": "เส้นเล็ก",
+     "rtgs": "sen-lek",
+     "ipa": "/sen˥˩.lek̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แป้งข้าวเจ้ารีดเป็นแผ่นบาง ๆ นึ่งไอน้ำให้สุก แล้วตัดซอยกว้างประมาณ 1-3 มิลลิเมตร นำไปตากแห้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "เล็ก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "mark + small",
+     "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + มีขนาดย่อมกว่าเมื่อเทียบกัน",
+     "frame": "quality"
+    },
+    {
+     "th": "เส้นจันท์",
+     "rtgs": "sen-chan",
+     "ipa": "/sen˥˩.t͡ɕan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เส้นก๋วยเตี๋ยวที่กว้างกว่าเส้นเล็ก มักใช้ทำผัดไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "จันท์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + ดวงจันทร์",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เส้นเลือด เส้นเอ็น และเส้นประสาท",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The lines of the body: vessel, tendon, nerve.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เส้นตื้น",
+     "rtgs": "sen-tuen",
+     "ipa": "/sen˥˩.tɯːn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ทำให้รู้สึกขันหรือหัวเราะได้ง่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "ตื้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "mark + shallow",
+     "lit_th": "เส้นเลือด เส้นเอ็น และเส้นประสาท + ต่ำลงไปจากขอบน้อยกว่าปรกติ",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "รอยที่ปรากฏเป็นทางบนพื้นเป็นแนว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "A line marked along a surface.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ลายเส้น",
+     "translit_auto": "laysen",
+     "ipa": "[läːj˧.sẽn˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปภาพที่เขียนขึ้นด้วยเส้นดินสอหรือเส้นปากกา จะเป็นสีหรือขาวดำก็ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาย",
+      "เส้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลาย"
+     ],
+     "lit": "design + mark",
+     "lit_th": "รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก + รอยที่ปรากฏเป็นทางบนพื้นเป็นแนว",
+     "frame": "entity"
+    },
+    {
+     "th": "เส้นตาย",
+     "rtgs": "sen-tai",
+     "ipa": "/sen˥˩.taːj˧/",
+     "gloss": {
+      "en": [
+       "deadline"
+      ],
+      "th": "วันเวลาที่กำหนดเป็นขั้นเด็ดขาด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "ตาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตาย"
+     ],
+     "lit": "mark + demise",
+     "lit_th": "รอยที่ปรากฏเป็นทางบนพื้นเป็นแนว + สิ้นใจ"
+    },
+    {
+     "th": "เส้นชัย",
+     "rtgs": "sen-chai",
+     "ipa": "/sen˥˩.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "tape"
+      ],
+      "th": "เส้นที่กำหนดไว้ว่าผู้เข้าแข่งขันที่ไปถึงก่อนเป็นผู้ชนะ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "ชัย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชัย"
+     ],
+     "lit": "mark + victory",
+     "lit_th": "รอยที่ปรากฏเป็นทางบนพื้นเป็นแนว + การชนะ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ชื่อมาตราวัด โดย 1 เส้นเท่ากับ 20 วา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A traditional length — one เส้น, twenty wa.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "สิ่งซึ่งมีแต่ความยาว ไม่มีความกว้างและความหนา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The geometer's line, length without breadth.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เส้นแวง",
+     "rtgs": "sen-waeng",
+     "ipa": "/sen˥˩.wɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "parallel",
+       "longitude"
+      ],
+      "th": "ลองจิจูด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "แวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "สิ่งซึ่งมีแต่ความยาว ไม่มีความกว้า + ยาว",
+     "frame": "quality"
+    },
+    {
+     "th": "เส้นรุ้ง",
+     "rtgs": "sen-rung",
+     "ipa": "/sen˥˩.ruŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ละติจูด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "รุ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "mark + iris",
+     "lit_th": "สิ่งซึ่งมีแต่ความยาว ไม่มีความกว้า + แสงที่ปรากฏบนท้องฟ้าเป็นแถบโค้งสีต",
+     "frame": "entity"
+    },
+    {
+     "th": "เส้นโค้ง",
+     "rtgs": "sen-khong",
+     "ipa": "/sen˥˩.kʰoːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "arc",
+       "curve"
+      ],
+      "th": "เส้นใด ๆ ที่ลากระหว่างจุด 2 จุด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "โค้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "mark + bend",
+     "lit_th": "สิ่งซึ่งมีแต่ความยาว ไม่มีความกว้า + น้อมลง"
+    },
+    {
+     "th": "เส้นตรง",
+     "rtgs": "sen-trong",
+     "ipa": "/sen˥˩.troŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เส้นที่สั้นที่สุดระหว่างจุด 2 จุด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "ตรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "mark + straight",
+     "lit_th": "สิ่งซึ่งมีแต่ความยาว ไม่มีความกว้า + ไม่คดโค้ง",
+     "frame": "quality"
+    },
+    {
+     "th": "เส้นขนาน",
+     "rtgs": "sen-kha-nan",
+     "ipa": "/sen˥˩.kʰa˨˩.naːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "parallel"
+      ],
+      "th": "เส้นตรงคู่ใด ๆ ซึ่งอยู่ห่างกันเป็นระยะเท่ากันโดยตลอด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "ขนาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · moved from sense 4 (the 20-วา measure) to sense 5 by hand: its RID gloss is 'เส้นตรงคู่ใด ๆ ซึ่งอยู่ห่างกันเป็นระยะเท่ากัน' — a pair of straight lines, not a length; the sense-4 filing came from gloss similarity 0.15",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งซึ่งมีแต่ความยาว ไม่มีความกว้า + หมู่",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "โดยปริยายหมายถึงอิทธิพลของผู้มีอำนาจ หรือ ผู้ช่วยเหลือที่อำนวยประโยชน์ให้ได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The line one has to someone in power: connections, pull.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เส้นสาย",
+     "rtgs": "sen-sai",
+     "ipa": "/sen˥˩.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระบบเส้นของร่างกาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "สาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "mark + late",
+     "lit_th": "โดยปริยายหมายถึงอิทธิพลของผู้มีอำน + เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เรียกสิ่งที่เป็นสาย แถว แนว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The classifier for line-like things.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เส้นทาง",
+     "rtgs": "sen-thang",
+     "ipa": "/sen˥˩.tʰaːŋ˧/",
+     "gloss": {
+      "en": [
+       "run",
+       "course"
+      ],
+      "th": "ทาง, แนวทาง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "ทาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทาง"
+     ],
+     "lit": "mark + way",
+     "lit_th": "เรียกสิ่งที่เป็นสาย แถว แนว + ที่สำหรับเดินไปมา",
+     "frame": "entity"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 14 manuscript titles, 63 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['เท่า', 'วัด'].",
+ "compounds_unassigned": [
+  {
+   "th": "เส้นแกงร้อน",
+   "rtgs": "sen-kaeng-ron",
+   "ipa": "/sen˥˩.kɛːŋ˧.rɔːn˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ วุ้นเส้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เส้น",
+    "แกงร้อน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + ชื่อแกงจืดชนิดหนึ่งใส่วุ้นเส้น",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *selꟲ; เทียบจีนยุคกลาง 線 (MC sjenH); ร่วมเชื้อสายกับลาว ເສັ້ນ (เสั้น), ไทลื้อ ᦉᦲᧃᧉ (สี้น), ไทใหญ่ သဵၼ်ႈ (เส้น), แสก แซ̂น, ไทใต้คง ᥔᥥᥢᥲ (เส้น), จ้วง sienq",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "mark",
+  "line"
+ ]
+}

@@ -1,0 +1,4323 @@
+{
+ "id": "w:tua",
+ "th": "ตัว",
+ "status": "mapped",
+ "rtgs": "tua",
+ "paiboon": "dtuua",
+ "ipa": "/tua̯˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "form",
+     "body",
+     "physical shape"
+    ],
+    "th": "รูป (สิ่งที่จับต้องได้)",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ตัวกลาง",
+     "rtgs": "tua-klang",
+     "ipa": "/tua̯˧.klaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งที่แสงหรือเสียงหรือคลื่นแม่เหล็กไฟฟ้าต้องเคลื่อนที่ผ่าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "กลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.24, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กลาง"
+     ],
+     "lit": "form + middle",
+     "lit_th": "รูป + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวกลม",
+     "rtgs": "tua-klom",
+     "ipa": "/tua̯˧.klom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อ้วน, อวบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "กลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "form + round",
+     "lit_th": "รูป + ชื่อเพลงไทยของเก่าที่ใช้เครื่องปี่",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวสะกด",
+     "rtgs": "tua-sa-kot",
+     "ipa": "/tua̯˧.sa˨˩.kot̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พยัญชนะท้ายคำหรือพยางค์ที่ทำหน้าที่บังคับเสียงให้เป็นไปตามมาตราต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "สะกด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "form + spell",
+     "lit_th": "รูป + กลั้นไว้"
+    },
+    {
+     "th": "ตัวอักษร",
+     "rtgs": "tua-ak-son",
+     "ipa": "/tua̯˧.ʔak̚˨˩.sɔːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัญลักษณ์แทนเสียงหรือคำพูด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "อักษร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "form + letter",
+     "lit_th": "รูป + ตัวหนังสือ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลงตัว",
+     "rtgs": "long-tua",
+     "ipa": "/loŋ˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่มีเศษ ในคำว่า หารลงตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ลง"
+     ],
+     "lit": "drop + form",
+     "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + รูป"
+    },
+    {
+     "th": "ตายตัว",
+     "rtgs": "tai-tua",
+     "ipa": "/taːj˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คงที่อยู่อย่างนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตาย",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตาย"
+     ],
+     "lit": "demise + form",
+     "lit_th": "สิ้นใจ + รูป"
+    },
+    {
+     "th": "ตัวย่อ",
+     "rtgs": "tua-yo",
+     "ipa": "/tua̯˧.jɔː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำที่เกิดจากการนำตัวอักษรต้นคำของคำขนาดยาวมาตัวเดียว หรือหลายตัวเขียนต่อกัน เพื่อประหยัดเวลาในการสื่อสาร, สำหรับภาษาต่างประเทศ ตัวย่ออาจอ่านรวมเป็นพยางค์ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ย่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "form + abbreviate",
+     "lit_th": "รูป + ยอบลง"
+    },
+    {
+     "th": "ตัวอย่าง",
+     "rtgs": "tua-yang",
+     "ipa": "/tua̯˧.jaːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "example",
+       "model",
+       "representation"
+      ],
+      "th": "สิ่งที่นำมาอ้างเพื่อแสดงให้เห็นลักษณะที่เป็นส่วนรวมทั้งหมด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "อย่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "รูป + วิธี",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวเมือง",
+     "rtgs": "tua-mueang",
+     "ipa": "/tua̯˧.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "city"
+      ],
+      "th": "ย่านใจกลางเมือง, ในสมัยโบราณ มักมีแม่น้ำหรือกำแพงล้อมรอบ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "เมือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "form + town",
+     "lit_th": "รูป + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวขาว",
+     "rtgs": "tua-khao",
+     "ipa": "/tua̯˧.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โน้ตดนตรีรูปดังนี้ 𝅗𝅥 มีความยาว 2 เคาะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ขาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขาว"
+     ],
+     "lit": "form + white",
+     "lit_th": "รูป + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวดำ",
+     "rtgs": "tua-dam",
+     "ipa": "/tua̯˧.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โน้ตดนตรีรูปดังนี้ 𝅘𝅥 มีความยาว 1 เคาะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ดำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ดำ"
+     ],
+     "lit": "form + black",
+     "lit_th": "รูป + มุดลง ในคำว่า ดำน้ำ"
+    },
+    {
+     "th": "ขาดตัว",
+     "rtgs": "khat-tua",
+     "ipa": "/kʰaːt̚˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จำกัดราคาคงที่ไม่เพิ่มไม่ลด, จำกัดราคาตายตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาด",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขาด"
+     ],
+     "lit": "blow + form",
+     "lit_th": "แยกออกจากกันเพราะถูกดึง ตัด หรือฉี + รูป"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ร่างกาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กลิ่นตัว",
+     "rtgs": "klin-tua",
+     "ipa": "/klin˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลิ่นที่ส่งมาจากร่างกาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลิ่น",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.42, next 0.21",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "smell + form",
+     "lit_th": "สิ่งที่รู้ได้ด้วยจมูก คือ เหม็น หอ + ร่างกาย",
+     "frame": "entity"
+    },
+    {
+     "th": "แต่งตัว",
+     "rtgs": "taeng-tua",
+     "ipa": "/tɛŋ˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "cover",
+       "dress"
+      ],
+      "th": "สวมเสื้อผ้าหรือประดับประดาร่างกาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แต่ง",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.13, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "dress + form",
+     "lit_th": "จัดให้งาม + ร่างกาย"
+    },
+    {
+     "th": "ห่อตัว",
+     "rtgs": "ho-tua",
+     "ipa": "/hɔː˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "งอตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห่อ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "fold + form",
+     "lit_th": "พันหรือหุ้มสิ่งของด้วยใบไม้หรือกระ + ร่างกาย"
+    },
+    {
+     "th": "ลำตัว",
+     "rtgs": "lam-tua",
+     "ipa": "/lam˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนกลางของตัวสัตว์ ซึ่งไม่รวมหัว แขน ขา และหาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลำ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ตัวของคน สัตว์ หรือสิ่งต่าง ๆ ไม่น + ร่างกาย",
+     "frame": "entity"
+    },
+    {
+     "th": "แข็งตัว",
+     "rtgs": "khaeng-tua",
+     "ipa": "/kʰɛŋ˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เปลี่ยนสภาพไปมีลักษณะแข็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แข็ง",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "แข็ง"
+     ],
+     "lit": "hard + form",
+     "lit_th": "กระด้าง + ร่างกาย"
+    },
+    {
+     "th": "ตัวอ่อน",
+     "rtgs": "tua-on",
+     "ipa": "/tua̯˧.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัตว์ในระยะนับต่อจากไซโกตไปจนคลอด หรือออกจากไข่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "อ่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "อ่อน"
+     ],
+     "lit": "form + young",
+     "lit_th": "ร่างกาย + ไม่กระด้าง"
+    },
+    {
+     "th": "ไหวตัว",
+     "rtgs": "wai-tua",
+     "ipa": "/waj˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขยับตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไหว",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "สั่น + ร่างกาย"
+    },
+    {
+     "th": "ถีบตัว",
+     "rtgs": "thip-tua",
+     "ipa": "/tʰiːp̚˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พุ่งหรือดันขึ้นเร็ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถีบ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "งอเข่าแล้วใช้ฝ่าเท้ากระแทกออกไป + ร่างกาย"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Physical form narrowed to the body that has it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบางอย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตัวหนังสือ",
+     "rtgs": "tua-nang-sue",
+     "ipa": "/tua̯˧.naŋ˩˩˦.sɯː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัญลักษณ์แทนเสียงหรือคำพูด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "หนังสือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "form + book",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + เครื่องหมายใช้ขีดเขียนแทนเสียงหรือ",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวละคร",
+     "rtgs": "tua-la-khon",
+     "ipa": "/tua̯˧.la˦˥.kʰɔːn˧/",
+     "gloss": {
+      "en": [
+       "player"
+      ],
+      "th": "ผู้มีบทบาทในวรรณกรรมประเภทละคร นวนิยายเรื่องสั้นและเรื่องแต่งประเภทต่าง ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ละคร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + การแสดงประเภทหนึ่ง ผู้แสดงเรียกว่า",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวสำรอง",
+     "rtgs": "tua-sam-rong",
+     "ipa": "/tua̯˧.sam˩˩˦.rɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "alternate",
+       "reserve"
+      ],
+      "th": "ผู้กำหนดตัวไว้ให้ทำการแทนเมื่อตัวจริงไม่ว่าง เจ็บป่วย หรือสละสิทธิ์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "สำรอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "form + reserve",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + ชื่อไม้ต้นขนาดใหญ่ชนิด Scaphium sc",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวเอก",
+     "rtgs": "tua-ek",
+     "ipa": "/tua̯˧.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "lead"
+      ],
+      "th": "ตัวละครหลักในเรื่องลิเก ละคร เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "เอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "form + one",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + หนึ่ง"
+    },
+    {
+     "th": "ตัวแทน",
+     "rtgs": "tua-thaen",
+     "ipa": "/tua̯˧.tʰɛːn˧/",
+     "gloss": {
+      "en": [
+       "proxy",
+       "representative",
+       "deputy"
+      ],
+      "th": "ผู้ที่ได้รับมอบให้ทำการแทนบุคคลอื่น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "แทน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "form + for",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + สนอง"
+    },
+    {
+     "th": "คุณตัว",
+     "rtgs": "khun-tua",
+     "ipa": "/kʰun˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงที่หาเลี้ยงชีพด้วยการค้าประเวณี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "คุณ"
+     ],
+     "lit": "you + form",
+     "lit_th": "คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค + คำใช้เรียกแทนคน สัตว์ และสิ่งของบา"
+    },
+    {
+     "th": "ตัวร้าย",
+     "rtgs": "tua-rai",
+     "ipa": "/tua̯˧.raːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่แสดงหรือเคยแสดงเป็นตัวร้าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ร้าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ร้าย"
+     ],
+     "lit": "form + bad",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + ดุ"
+    },
+    {
+     "th": "ตัวเมีย",
+     "rtgs": "tua-mia",
+     "ipa": "/tua̯˧.mia̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เพศอย่างเดียวกับหญิง (ใช้เฉพาะสัตว์และพืชบางชนิด)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "เมีย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "form + wife",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + ภรรยา",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวการ",
+     "translit_auto": "tawkar",
+     "ipa": "[tu(ː)ä˧.kä̃ːn˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ก่อเหตุ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "การ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + งาน",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวสำคัญ",
+     "rtgs": "tua-sam-khan",
+     "ipa": "/tua̯˧.sam˩˩˦.kʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุคคลหรือสิ่งของที่มีความสำคัญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "สำคัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "form + key",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + เป็นพิเศษกว่าธรรมดา"
+    },
+    {
+     "th": "ตัวกระตุ้น",
+     "rtgs": "tua-kra-tun",
+     "ipa": "/tua̯˧.kra˨˩.tun˥˩/",
+     "gloss": {
+      "en": [
+       "fuel",
+       "stimulus"
+      ],
+      "th": "สิ่งหรือเหตุการณ์ที่เรียกปฏิกิริยาเชิงหน้าที่จำเพาะในอวัยวะหรือเนื้อเยื่อ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "กระตุ้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "form + drive",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + ใช้มือหรือสิ่งใด ๆ กระแทกเบา ๆ ให้"
+    },
+    {
+     "th": "ตัวเอ้",
+     "rtgs": "tua-e",
+     "ipa": "/tua̯˧.ʔeː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวโจก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "เอ้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + สำคัญ"
+    },
+    {
+     "th": "ตัวผู้",
+     "rtgs": "tua-phu",
+     "ipa": "/tua̯˧.pʰuː˥˩/",
+     "gloss": {
+      "en": [
+       "male"
+      ],
+      "th": "เพศอย่างเดียวกับชาย (ใช้เฉพาะสัตว์และพืชบางชนิด)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ผู้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวประกอบ",
+     "rtgs": "tua-pra-kop",
+     "ipa": "/tua̯˧.pra˨˩.kɔːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "factor"
+      ],
+      "th": "ผู้แสดงบทบาทไม่สำคัญในภาพยนตร์ ละคร เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ประกอบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "form + commit",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + เอาชิ้นส่วนต่าง ๆ มารวมหรือคุมกันเ"
+    },
+    {
+     "th": "ตัวยุ่ง",
+     "rtgs": "tua-yung",
+     "ipa": "/tua̯˧.juŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่ชอบไปวุ่นวาย, คนที่แส่เข้าไปทุกเรื่อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ยุ่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "form + busy",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + อาการของสิ่งที่เป็นเส้นเป็นฝอยสับส"
+    },
+    {
+     "th": "ตัวประกัน",
+     "rtgs": "tua-pra-kan",
+     "ipa": "/tua̯˧.pra˨˩.kan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุคคลที่ถูกยึดตัวไว้เพื่อใช้ต่อรอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ประกัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + รับรองว่าจะรับผิดในความเสียหายที่เ"
+    },
+    {
+     "th": "ตัวตึง",
+     "rtgs": "tua-tueng",
+     "ipa": "/tua̯˧.tɯŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัวเต็งหรือเต็งหนึ่ง คือ ผู้ที่มีความสามารถหรือจุดแข็งที่โดดเด่นในด้านต่างๆ หรือมีพฤติกรรมที่เตะตาผู้คน ซึ่งไม่จำเป็นต้องใช้ในการแข่งขันเสมอไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ตึง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + ไม่หย่อน"
+    },
+    {
+     "th": "อีตัว",
+     "rtgs": "i-tua",
+     "ipa": "/ʔiː˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงที่หาเลี้ยงชีพด้วยการค้าประเวณี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อี",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "คำประกอบคำอื่นบอกให้รู้ว่าเป็นเพศห + คำใช้เรียกแทนคน สัตว์ และสิ่งของบา",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวนำ",
+     "rtgs": "tua-nam",
+     "ipa": "/tua̯˧.nam˧/",
+     "gloss": {
+      "en": [
+       "conductor"
+      ],
+      "th": "สารที่กระแสไฟฟ้าหรือความร้อนผ่านไปได้ง่าย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "นำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "นำ"
+     ],
+     "lit": "form + lead",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + ไปข้างหน้า"
+    },
+    {
+     "th": "ตัวตลก",
+     "rtgs": "tua-ta-lok",
+     "ipa": "/tua̯˧.ta˨˩.lok̚˨˩/",
+     "gloss": {
+      "en": [
+       "clown",
+       "jester"
+      ],
+      "th": "ผู้แสดงที่ทำให้ผู้ชมขบขัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ตลก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "form + rich",
+     "lit_th": "คำใช้เรียกแทนคน สัตว์ และสิ่งของบา + ทำให้คนอื่นขบขันด้วยคำพูดหรือกิริย"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "The body stands in for the whole creature, so the word becomes a way of referring to it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ลักษณนามใช้เรียกสัตว์และสิ่งของบางอย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "The referring word hardens into the counting word — Thai classifiers come from exactly this move.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "ตน, ตนเอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขอตัว",
+     "rtgs": "kho-tua",
+     "ipa": "/kʰɔː˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พูดเพื่อให้ยกเว้นตัวเอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.30, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ขอ"
+     ],
+     "lit": "ask + form",
+     "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + ตน",
+     "frame": "entity"
+    },
+    {
+     "th": "เห็นแก่ตัว",
+     "rtgs": "hen-kae-tua",
+     "ipa": "/hen˩˩˦.kɛː˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "selfish"
+      ],
+      "th": "มุ่งเฉพาะเพื่อตนเอง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เห็นแก่",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.14, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "มุ่งเฉพาะเพื่อ + ตน"
+    },
+    {
+     "th": "กินตัว",
+     "rtgs": "kin-tua",
+     "ipa": "/kin˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผุหรือขาดกร่อนไปเอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.32, next 0.23",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "eat + form",
+     "lit_th": "เคี้ยว + ตน"
+    },
+    {
+     "th": "คืนตัว",
+     "translit_auto": "khuentaw",
+     "ipa": "[kʰɯ̃ːn˧.tuːä˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลับสู่สภาพเดิม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คืน",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "back + form",
+     "lit_th": "ระยะเวลาตั้งแต่ย่ำค่ำถึงย่ำรุ่ง + ตน",
+     "frame": "entity"
+    },
+    {
+     "th": "ตัวเอง",
+     "rtgs": "tua-eng",
+     "ipa": "/tua̯˧.ʔeːŋ˧/",
+     "gloss": {
+      "en": [
+       "yourself"
+      ],
+      "th": "คำสรรพนามสะท้อนกลับ ใช้เพื่อแสดงให้เห็นว่าการกระทำกริยาของประธานในประโยคมีผลต่อตัวประธานเอง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "เอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "ตน + คำเน้นแสดงว่าไม่ใช่ผู้อื่นหรือสิ่ง"
+    },
+    {
+     "th": "คุมตัว",
+     "translit_auto": "khumtaw",
+     "ipa": "[kʰũm˧.tuːä˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ควบคุมไว้หรือจับกุมไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุม",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "คอยกำกับดูแล + ตน"
+    },
+    {
+     "th": "ติดตัว",
+     "rtgs": "tit-tua",
+     "ipa": "/tit̚˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "by"
+      ],
+      "th": "มีอยู่กับตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ติด"
+     ],
+     "lit": "fit + form",
+     "lit_th": "อาการที่ข้องอยู่ + ตน"
+    },
+    {
+     "th": "คงตัว",
+     "rtgs": "khong-tua",
+     "ipa": "/kʰoŋ˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ผันแปร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คง",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "probably + form",
+     "lit_th": "ยังมียังเป็นอยู่อย่างเดิม + ตน"
+    },
+    {
+     "th": "ตั้งตัว",
+     "rtgs": "tang-tua",
+     "ipa": "/taŋ˥˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตั้งฐานะหรือตั้งหลักฐาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "introduce + form",
+     "lit_th": "ชูตัว + ตน",
+     "flips_with": "ตัวตั้ง",
+     "frame": "act"
+    },
+    {
+     "th": "ชื่อตัว",
+     "rtgs": "chue-tua",
+     "ipa": "/t͡ɕʰɯː˥˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อประจำบุคคล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ชื่อ"
+     ],
+     "lit": "name + form",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + ตน",
+     "frame": "entity"
+    },
+    {
+     "th": "เสนอตัว",
+     "rtgs": "sa-noe-tua",
+     "ipa": "/sa˨˩.nɤː˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงความจำนงมอบตัวให้พิจารณาเพื่อแต่งตั้งหรือรับไว้ทำงานเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสนอ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "project + form",
+     "lit_th": "ยื่นเรื่องราว ความเห็น ญัตติ เป็นต + ตน"
+    },
+    {
+     "th": "เฉพาะตัว",
+     "rtgs": "cha-pho-tua",
+     "ipa": "/t͡ɕʰa˨˩.pʰɔʔ˦˥.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เฉพาะบุคคล, ส่วนตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เฉพาะ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "very + form",
+     "lit_th": "โดยเจาะจง + ตน"
+    },
+    {
+     "th": "กักตัว",
+     "rtgs": "kak-tua",
+     "ipa": "/kak̚˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยึดไว้, ไม่ปล่อยไป (ใช้กับคน)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กัก",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "retain + form",
+     "lit_th": "ไม่ให้ล่วงพ้นเขตที่กำหนดไว้ + ตน"
+    },
+    {
+     "th": "ฝากตัว",
+     "rtgs": "fak-tua",
+     "ipa": "/faːk̚˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มอบตัวให้อยู่ในความดูแลหรืออุปการะของผู้อื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝาก",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "มอบให้ไว้เป็นต้นว่าเพื่อให้ช่วยดูแ + ตน"
+    },
+    {
+     "th": "รู้ตัว",
+     "rtgs": "ru-tua",
+     "ipa": "/ruː˦˥.tua̯˧/",
+     "gloss": {
+      "en": [
+       "aware"
+      ],
+      "th": "รู้สึกตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "รู้"
+     ],
+     "lit": "know + form",
+     "lit_th": "แจ้ง + ตน"
+    },
+    {
+     "th": "เปิดตัว",
+     "rtgs": "poet-tua",
+     "ipa": "/pɤːt̚˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "launch",
+       "release"
+      ],
+      "th": "(คนหรือสิ่งของ) แสดงตัวครั้งแรกต่อสาธารณะ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เปิด",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "open + form",
+     "lit_th": "ทำให้สิ่งที่ปิดอยู่เผยออก + ตน"
+    },
+    {
+     "th": "ตื่นตัว",
+     "rtgs": "tuen-tua",
+     "ipa": "/tɯːn˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไหวทันเหตุการณ์, รู้ตัวทันเหตุการณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตื่น",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "wake + form",
+     "lit_th": "ฟื้นจากหลับ + ตน"
+    },
+    {
+     "th": "หายตัว",
+     "rtgs": "hai–tua",
+     "ipa": "/haːj˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้ไม่เห็นตัว, มักใช้คู่กับ ล่องหน เป็น ล่องหนหายตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หาย",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "หาย"
+     ],
+     "lit": "all + form",
+     "lit_th": "สูญ + ตน"
+    },
+    {
+     "th": "ขายตัว",
+     "rtgs": "khai-tua",
+     "ipa": "/kʰaːj˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาตัวแลกเงิน (เช่น เป็นทาสหรือโสเภณี)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาย",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขาย"
+     ],
+     "lit": "sell + form",
+     "lit_th": "เอาของแลกเงินตรา + ตน"
+    },
+    {
+     "th": "เตรียมตัว",
+     "rtgs": "triam-tua",
+     "ipa": "/tria̯m˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำตัวให้พร้อมไว้เพื่อรับเหตุการณ์ข้างหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เตรียม",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "fit + form",
+     "lit_th": "จัดแจงไว้ให้เรียบร้อย + ตน"
+    },
+    {
+     "th": "รายงานตัว",
+     "rtgs": "rai-ngan-tua",
+     "ipa": "/raːj˧.ŋaːn˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รายงานต่อผู้บังคับบัญชาตามแบบพิธีโดยบอกชื่อ นามสกุล ยศ ตำแหน่ง หน้าที่ และภารกิจที่ต้องรับผิดชอบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รายงาน",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "report + form",
+     "lit_th": "เรื่องราวที่ไปศึกษาค้นคว้าแล้วนำมา + ตน",
+     "frame": "entity"
+    },
+    {
+     "th": "ก่อตัว",
+     "rtgs": "ko-tua",
+     "ipa": "/kɔː˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รวมตัว, เกิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก่อ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "build + form",
+     "lit_th": "ทำให้เกิดขึ้น มีขึ้น หรือเป็นรูปขึ + ตน"
+    },
+    {
+     "th": "สลายตัว",
+     "rtgs": "sa-lai-tua",
+     "ipa": "/sa˨˩.laːj˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เปลี่ยนสภาพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สลาย",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "สูญสิ้นไป + ตน"
+    },
+    {
+     "th": "ถ่อมตัว",
+     "rtgs": "thom-tua",
+     "ipa": "/tʰɔm˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "humble",
+       "modest"
+      ],
+      "th": "แสดงฐานะหรือความรู้ความสามารถต่ำกว่าที่เป็นจริง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ถ่อม",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ทำให้ต่ำลง + ตน"
+    },
+    {
+     "th": "เล่นตัว",
+     "rtgs": "len-tua",
+     "ipa": "/len˥˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตั้งแง่ไม่ยอมทำหรือไม่ยอมให้ทำง่าย ๆ ตามที่มีผู้งอนง้อหรือขอร้อง เพราะคิดว่าตัวมีดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เล่น",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "play + form",
+     "lit_th": "ทำเพื่อสนุกหรือผ่อนอารมณ์ + ตน"
+    },
+    {
+     "th": "วางตัว",
+     "rtgs": "wang-tua",
+     "ipa": "/waːŋ˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประพฤติตน, ปฏิบัติตน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "วาง"
+     ],
+     "lit": "put + form",
+     "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ + ตน"
+    },
+    {
+     "th": "ส่วนตัว",
+     "rtgs": "suan-tua",
+     "ipa": "/sua̯n˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "private"
+      ],
+      "th": "เฉพาะตัว, เฉพาะบุคคล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ส่วน"
+     ],
+     "lit": "zone + form",
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + ตน",
+     "frame": "entity"
+    },
+    {
+     "th": "ปลีกตัว",
+     "rtgs": "plik-tua",
+     "ipa": "/pliːk̚˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แยกตัวออกมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปลีก",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "แยกหรือหลีกออกจากหมู่จากพวกไป + ตน"
+    },
+    {
+     "th": "ถือตัว",
+     "rtgs": "thue-tua",
+     "ipa": "/tʰɯː˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "haughty",
+       "arrogant"
+      ],
+      "th": "ไว้ตัวไม่ยอมลดตัวเพราะหยิ่งในศักดิ์หรือฐานะของตนเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ถือ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ถือ"
+     ],
+     "lit": "hold + form",
+     "lit_th": "เอาไว้ในมือ + ตน"
+    },
+    {
+     "th": "เจ้าตัว",
+     "rtgs": "chao-tua",
+     "ipa": "/t͡ɕaw˥˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัวของผู้ที่ถูกอ้างถึง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เจ้า",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + form",
+     "lit_th": "ผู้เป็นใหญ่ + ตน",
+     "frame": "entity"
+    },
+    {
+     "th": "ถวายตัว",
+     "translit_auto": "thwaytaw",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มอบตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถวาย",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ให้ + ตน"
+    },
+    {
+     "th": "หวงตัว",
+     "rtgs": "huang-tua",
+     "ipa": "/hua̯ŋ˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รักนวลสงวนตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หวง",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ไม่อยากให้ + ตน"
+    },
+    {
+     "th": "แก่ตัว",
+     "rtgs": "kae-tua",
+     "ipa": "/kɛː˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ย่างเข้าวัยแก่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก่",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "old + form",
+     "lit_th": "มีอายุมาก + ตน"
+    },
+    {
+     "th": "ลืมตัว",
+     "rtgs": "luem-tua",
+     "ipa": "/lɯːm˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขาดสติไปชั่วคราว, เผลอตัวไปชั่วคราว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลืม",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "forget + form",
+     "lit_th": "หายไปจากความจำ + ตน"
+    },
+    {
+     "th": "ไว้ตัว",
+     "rtgs": "wai-tua",
+     "ipa": "/waj˦˥.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สงวนฐานะและเกียรติยศของตนให้เหมาะให้ควร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไว้",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เก็บเข้าที่ + ตน"
+    },
+    {
+     "th": "ทำตัว",
+     "rtgs": "tham-tua",
+     "ipa": "/tʰam˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วางตัว, ประพฤติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ทำ"
+     ],
+     "lit": "do + form",
+     "lit_th": "กระทำ + ตน"
+    },
+    {
+     "th": "เสียตัว",
+     "rtgs": "sia-tua",
+     "ipa": "/sia̯˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถูกชายร่วมประเวณี (ใช้แก่ผู้หญิง), เสียเนื้อเสียตัว ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสีย",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เสีย"
+     ],
+     "lit": "bad + form",
+     "lit_th": "เสื่อมลงไป + ตน"
+    },
+    {
+     "th": "อวดตัว",
+     "rtgs": "uat-tua",
+     "ipa": "/ʔua̯t̚˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสดงให้เห็นว่าตัวเองดีกว่าผู้อื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อวด",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "สำแดงให้รู้เห็น + ตน"
+    },
+    {
+     "th": "ร้อนตัว",
+     "rtgs": "ron-tua",
+     "ipa": "/rɔːn˦˥.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลัวว่าโทษหรือความเดือดร้อนจะมาถึงตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ร้อน",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "ร้อน"
+     ],
+     "lit": "hot + form",
+     "lit_th": "มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ + ตน"
+    },
+    {
+     "th": "ลดตัว",
+     "rtgs": "lot-tua",
+     "ipa": "/lot̚˦˥.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถ่อมตัว, ไม่ถือตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลด",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "น้อยลง ต่ำลง หรือทำให้น้อยลงต่ำลงก + ตน"
+    },
+    {
+     "th": "ทะนงตัว",
+     "rtgs": "tha-nong-tua",
+     "ipa": "/tʰa˦˥.noŋ˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "proud"
+      ],
+      "th": "ถือดีในตัวของตัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทะนง",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "arrogant + form",
+     "lit_th": "ถือตัว + ตน"
+    },
+    {
+     "th": "แยกตัว",
+     "rtgs": "yaek-tua",
+     "ipa": "/jɛːk̚˥˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "seclude"
+      ],
+      "th": "ผละออก, เลี่ยงออก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แยก",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "separate + form",
+     "lit_th": "ทำให้สิ่งที่รวมกันอยู่หรือประกอบกั + ตน"
+    },
+    {
+     "th": "ถอนตัว",
+     "rtgs": "thon-tua",
+     "ipa": "/tʰɔːn˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "retire",
+       "retired"
+      ],
+      "th": "เอาตัวออกจากพันธะหรือข้อกำหนด, ไม่เข้าร่วม, ไม่ขอร่วมต่อไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ถอน",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "draw + form",
+     "lit_th": "ฉุดขึ้น + ตน"
+    },
+    {
+     "th": "เลี้ยงตัว",
+     "rtgs": "liang-tua",
+     "ipa": "/lia̯ŋ˦˥.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำมาหากินเพื่อให้ชีวิตดำรงอยู่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เลี้ยง",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เลี้ยง"
+     ],
+     "lit": "grow + form",
+     "lit_th": "ดูแล + ตน"
+    },
+    {
+     "th": "เก็บตัว",
+     "rtgs": "kep-tua",
+     "ipa": "/kep̚˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กักตัวไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เก็บ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เก็บ"
+     ],
+     "lit": "keep + form",
+     "lit_th": "เอาไปหรือเอามาจากที่ + ตน"
+    },
+    {
+     "th": "มอบตัว",
+     "rtgs": "mop-tua",
+     "ipa": "/mɔːp̚˥˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นำเด็กนักเรียนไปมอบให้อยู่ในความปกครองของโรงเรียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มอบ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "hand + form",
+     "lit_th": "เวนให้ + ตน"
+    },
+    {
+     "th": "เสมอตัว",
+     "rtgs": "sa-moe-tua",
+     "ipa": "/sa˨˩.mɤː˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ได้ไม่เสีย, ไม่ขาดทุน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสมอ",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "เท่ากัน + ตน"
+    },
+    {
+     "th": "แก้ตัว",
+     "rtgs": "kae-tua",
+     "ipa": "/kɛː˥˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "alibi",
+       "defend"
+      ],
+      "th": "พูดหรือทำเพื่อปลดเปลื้องความผิดหรือข้อผิดพลาดของตน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แก้"
+     ],
+     "lit": "cowrie shell used to burnish cloth + form",
+     "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ตน",
+     "frame": "entity"
+    },
+    {
+     "th": "เกินตัว",
+     "rtgs": "koen-tua",
+     "ipa": "/kɤːn˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกินฐานะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "ตัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "เกิน"
+     ],
+     "lit": "to exceed + form",
+     "lit_th": "พ้น + ตน"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "The body as the self: what is mine becomes who I am.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "ใช้เรียกผู้ที่ตนพูดด้วยในฐานะคนเสมอกันที่สนิทกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "The self-word turned outward to address an equal one is close to.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 7]"
+    ],
+    "th": "จำนวนเลขที่ใช้ในการคำนวณหาคำตอบตามวิธีการทางคณิตศาสตร์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "A term in a calculation treated as a countable body standing in a row.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ตัวตั้ง",
+     "rtgs": "tua-tang",
+     "ipa": "/tua̯˧.taŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำตั้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "ตั้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "form + introduce",
+     "lit_th": "จำนวนเลขที่ใช้ในการคำนวณหาคำตอบตาม + ชูตัว",
+     "flips_with": "ตั้งตัว",
+     "frame": "state"
+    },
+    {
+     "th": "ตัวแปร",
+     "rtgs": "tua-prae",
+     "ipa": "/tua̯˧.prɛː˧/",
+     "gloss": {
+      "en": [
+       "variable"
+      ],
+      "th": "จำนวนจริงหรือจำนวนเชิงซ้อนที่มีค่าได้หลาย ๆ ค่าในช่วงหรือเซตที่กำหนดให้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "แปร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "form + become",
+     "lit_th": "จำนวนเลขที่ใช้ในการคำนวณหาคำตอบตาม + เปลี่ยนกลายไปจากลักษณะหรือภาวะเดิม"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 8]"
+    ],
+    "th": "ลักษณนามใช้เรียกตัวเลข",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier, pronoun",
+   "pos_th": "คำนาม, คำลักษณนาม, คำสรรพนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตัวเลข",
+     "rtgs": "tua-lek",
+     "ipa": "/tua̯˧.leːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "number",
+       "figure"
+      ],
+      "th": "สัญลักษณ์ที่ใช้แทนจำนวนจริง เช่น ๑๒ 53 VIII",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตัว",
+      "เลข"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "form + number",
+     "frame": "entity"
+    }
+   ],
+   "extends": 7,
+   "via": "specialisation",
+   "via_note": "And then the classifier for those terms.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 139 manuscript titles, 390 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 130; domain seeded by keyword hits ['ตอบ', 'พูด', 'เรียก', 'คำ'].",
+ "compounds_unassigned": [
+  {
+   "th": "ความรู้ตัว",
+   "rtgs": "khwam-ru-tua",
+   "ipa": "/kʰwaːm˧.ruː˦˥.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ รู้ตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความรู้",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "knowledge + form",
+   "lit_th": "สิ่งที่สั่งสมมาจากการศึกษาเล่าเรีย + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "ความร้อนตัว",
+   "rtgs": "khwam-ron-tua",
+   "ipa": "/kʰwaːm˧.rɔːn˦˥.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ร้อนตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความร้อน",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "thermal + form",
+   "lit_th": "คำอาการนามของ ร้อน + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การแก้ตัว",
+   "rtgs": "kan-kae-tua",
+   "ipa": "/kaːn˧.kɛː˥˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แก้ตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแก้",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แก้ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การลดตัว",
+   "rtgs": "kan-lot-tua",
+   "ipa": "/kaːn˧.lot̚˦˥.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลดตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลด",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ลด + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การก่อตัว",
+   "rtgs": "kan-ko-tua",
+   "ipa": "/kaːn˧.kɔː˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ก่อตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การก่อ",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ก่อ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การแต่งตัว",
+   "rtgs": "kan-taeng-tua",
+   "ipa": "/kaːn˧.tɛŋ˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แต่งตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแต่ง",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แต่ง + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การถอนตัว",
+   "rtgs": "kan-thon-tua",
+   "ipa": "/kaːn˧.tʰɔːn˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "abdication"
+    ],
+    "th": "คำอาการนามของ ถอนตัว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การถอน",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถอน + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การขายตัว",
+   "rtgs": "kan-khai-tua",
+   "ipa": "/kaːn˧.kʰaːj˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขายตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขาย",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "sale + form",
+   "lit_th": "คำอาการนามของ ขาย + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การตื่นตัว",
+   "rtgs": "kan-tuen-tua",
+   "ipa": "/kaːn˧.tɯːn˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตื่นตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตื่น",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตื่น + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การรายงานตัว",
+   "rtgs": "kan-rai-ngan-tua",
+   "ipa": "/kaːn˧.raːj˧.ŋaːn˧.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ รายงานตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การรายงาน",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ รายงาน + รูป"
+  },
+  {
+   "th": "ความหวงตัว",
+   "rtgs": "khwam-huang-tua",
+   "ipa": "/kʰwaːm˧.hua̯ŋ˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หวงตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความหวง",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หวง + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การทำตัว",
+   "rtgs": "kan-tham-tua",
+   "ipa": "/kaːn˧.tʰam˧.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ทำตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การทำ",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การทำ"
+   ],
+   "lit": "doing + form",
+   "lit_th": "คำอาการนามของ ทำ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การขอตัว",
+   "rtgs": "kan-kho-tua",
+   "ipa": "/kaːn˧.kʰɔː˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขอตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขอ",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขอ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การเห็นแก่ตัว",
+   "rtgs": "kan-hen-kae-tua",
+   "ipa": "/kaːn˧.hen˩˩˦.kɛː˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เห็นแก่ตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเห็นแก่",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เห็นแก่ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การมอบตัว",
+   "rtgs": "kan-mop-tua",
+   "ipa": "/kaːn˧.mɔːp̚˥˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ มอบตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การมอบ",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ มอบ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การรู้ตัว",
+   "rtgs": "kan-ru-tua",
+   "ipa": "/kaːn˧.ruː˦˥.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ รู้ตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การรู้",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ รู้ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การหายตัว",
+   "rtgs": "kan-hai–tua",
+   "ipa": "/kaːn˧.haːj˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หายตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหาย",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หาย + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การกินตัว",
+   "rtgs": "kan-kin-tua",
+   "ipa": "/kaːn˧.kin˧.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กินตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกิน",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กิน + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การสลายตัว",
+   "rtgs": "kan-sa-lai-tua",
+   "ipa": "/kaːn˧.sa˨˩.laːj˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "dissolution"
+    ],
+    "th": "คำอาการนามของ สลายตัว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การสลาย",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สลาย + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การกักตัว",
+   "rtgs": "kan-kak-tua",
+   "ipa": "/kaːn˧.kak̚˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กักตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกัก",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กัก + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การตั้งตัว",
+   "rtgs": "kan-tang-tua",
+   "ipa": "/kaːn˧.taŋ˥˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตั้งตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตั้ง",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตั้ง + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การเสียตัว",
+   "rtgs": "kan-sia-tua",
+   "ipa": "/kaːn˧.sia̯˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เสียตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเสีย",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เสีย + รูป"
+  },
+  {
+   "th": "การเก็บตัว",
+   "rtgs": "kan-kep-tua",
+   "ipa": "/kaːn˧.kep̚˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เก็บตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเก็บ",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เก็บ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การแข็งตัว",
+   "rtgs": "kan-khaeng-tua",
+   "ipa": "/kaːn˧.kʰɛŋ˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แข็งตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแข็ง",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แข็ง + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การถือตัว",
+   "rtgs": "kan-thue-tua",
+   "ipa": "/kaːn˧.tʰɯː˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ถือตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การถือ",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถือ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การวางตัว",
+   "rtgs": "kan-wang-tua",
+   "ipa": "/kaːn˧.waːŋ˧.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ วางตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การวาง",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "lie + form",
+   "lit_th": "คำอาการนามของ วาง + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การไหวตัว",
+   "rtgs": "kan-wai-tua",
+   "ipa": "/kaːn˧.waj˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ไหวตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การไหว",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ไหว + รูป"
+  },
+  {
+   "th": "การหวงตัว",
+   "rtgs": "kan-huang-tua",
+   "ipa": "/kaːn˧.hua̯ŋ˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หวงตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหวง",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หวง + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การเปิดตัว",
+   "rtgs": "kan-poet-tua",
+   "ipa": "/kaːn˧.pɤːt̚˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "launch"
+    ],
+    "th": "คำอาการนามของ เปิดตัว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การเปิด",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เปิด + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การถีบตัว",
+   "rtgs": "kan-thip-tua",
+   "ipa": "/kaːn˧.tʰiːp̚˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ถีบตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การถีบ",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถีบ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การไว้ตัว",
+   "rtgs": "kan-wai-tua",
+   "ipa": "/kaːn˧.waj˦˥.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ไว้ตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การไว้",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ไว้ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การแยกตัว",
+   "rtgs": "kan-yaek-tua",
+   "ipa": "/kaːn˧.jɛːk̚˥˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แยกตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแยก",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "parting + form",
+   "lit_th": "คำอาการนามของ แยก + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การเลี้ยงตัว",
+   "rtgs": "kan-liang-tua",
+   "ipa": "/kaːn˧.lia̯ŋ˦˥.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เลี้ยงตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเลี้ยง",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เลี้ยง + รูป"
+  },
+  {
+   "th": "การลืมตัว",
+   "rtgs": "kan-luem-tua",
+   "ipa": "/kaːn˧.lɯːm˧.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลืมตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลืม",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ลืม + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การเสนอตัว",
+   "rtgs": "kan-sa-noe-tua",
+   "ipa": "/kaːn˧.sa˨˩.nɤː˩˩˦.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เสนอตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเสนอ",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "presentation + form",
+   "lit_th": "คำอาการนามของ เสนอ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การอวดตัว",
+   "rtgs": "kan-uat-tua",
+   "ipa": "/kaːn˧.ʔua̯t̚˨˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อวดตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การอวด",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อวด + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การเล่นตัว",
+   "rtgs": "kan-len-tua",
+   "ipa": "/kaːn˧.len˥˩.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เล่นตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเล่น",
+    "ตัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "play + form",
+   "lit_th": "คำอาการนามของ เล่น + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "ตัวแปล",
+   "rtgs": "tua-plae",
+   "ipa": "/tua̯˧.plɛː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ ตัวแปร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตัว",
+    "แปล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "รูป + ถ่ายความหมายจากภาษาหนึ่งมาเป็นอีกภ",
+   "use": "spelling-variant",
+   "unfiled_from_sense": 1
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากจีนเก่า 頭 (OC *doː); ร่วมเชื้อสายกับอีสาน โต, ลาว ໂຕ (โต), ຕົວ (ต็ว), คำเมือง ᨲ᩠ᩅᩫ (ตว็), เขิน ᨲ᩠ᩅᩫ (ตว็), ไทลื้อ ᦷᦎ (โต), ไทดำ ꪶꪔ (โต), ไทขาว ꪔꪺ, ไทใหญ่ တူဝ် (ตูว), ไทใต้คง ᥖᥨᥝ (โตว), อาหม 𑜄𑜥 (ตู) หรือ 𑜄𑜤 (ตุ), จ้วง duz, แสก ทั๊ว",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨲ᩠ᩅᩫ",
+  "th": "ตว็",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

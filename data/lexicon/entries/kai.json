@@ -1,0 +1,974 @@
+{
+ "id": "w:kai",
+ "th": "ไก่",
+ "status": "mapped",
+ "rtgs": "kai",
+ "paiboon": "gài",
+ "ipa": "/kaj˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ในระยะสั้น หากินตามพื้นดิน ตกไข่ก่อนแล้วจึงฟักเป็นตัว ตัวผู้หงอนใหญ่และเดือยยาว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หนังไก่",
+     "rtgs": "nang-kai",
+     "ipa": "/naŋ˩˩˦.kaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแพรหรือกระดาษพิมพ์ที่มีเนื้อย่นคล้ายหนังไก่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนัง",
+      "ไก่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "film + chicken",
+     "lit_th": "ส่วนของร่างกายที่หุ้มเนื้ออยู่ + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่ป่า",
+     "rtgs": "kai-pa",
+     "ipa": "/kaj˨˩.paː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไก่ชนิด Gallus gallus ในวงศ์ Phasianidae ตัวผู้สีเข้มสดใสและหลากสีกว่าตัวเมีย เช่น สีเขียว ดำ แดง ตัวเมียสีน้ำตาลอมเหลือง ทั้งตัวผู้และตัวเมียขาสีเทาเข้ม โคนหางสีขาวอาศัยในป่าโปร่ง เช่น ป่าไผ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "ป่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "chicken + forest",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+     "frame": "entity"
+    },
+    {
+     "th": "ลักไก่",
+     "rtgs": "lak-kai",
+     "ipa": "/lak̚˦˥.kaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลอกล่อให้หลงเข้าใจผิด, ใช้อุบายลวงให้หลง, (มักใช้แก่การกีฬา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลัก",
+      "ไก่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอาสิ่งของที่เขาไม่ให้ไปด้วยอาการซ + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ"
+    },
+    {
+     "th": "ไก่กา",
+     "rtgs": "kai-ka",
+     "ipa": "/kaj˨˩.kaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่จริงใจ, โกหก, หลอกลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "กา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กา"
+     ],
+     "lit": "chicken + crow",
+     "frame": "entity"
+    },
+    {
+     "th": "ลิ้นไก่",
+     "rtgs": "lin-kai",
+     "ipa": "/lin˦˥.kaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ติ่งบนเพดานอ่อนที่ยื่นลงมาในช่องปาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลิ้น",
+      "ไก่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "tongue + chicken",
+     "lit_th": "อวัยวะที่อยู่ในปาก มีหน้าที่ + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่กอและ",
+     "translit_auto": "kaiklaea",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออาหารชนิดหนึ่ง ทำด้วยไก่ที่ถอดกระดูก ชุบเครื่องปรุงรส ปิ้งให้สุก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "กอและ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่บ้าน",
+     "rtgs": "kai-ban",
+     "ipa": "/kaj˨˩.baːn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไก่ชนิด Gallus gallus ในวงศ์ Phasianidae เป็นไก่ที่มีสายพันธุ์มาจากไก่ป่า แตกต่างจากไก่ป่าที่ขนลำตัวมีสีต่าง ๆ กัน เช่น สีดำ ขาว น้ำตาลอมแดง มีแข้งสีแตกต่างกัน เช่น สีเหลือง ขาว โดยที่ไก่ป่ามีสีเทาเข้ม การคัดและผสมพั",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "บ้าน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "chicken + home",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ที่อยู่อาศัย",
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่ต่อ",
+     "rtgs": "kai-to",
+     "ipa": "/kaj˨˩.tɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไก่ตัวเมียที่เลี้ยงไว้เพื่อนำไปต่อไก่ป่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "ต่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ต่อ"
+     ],
+     "lit": "chicken + a",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากไก่",
+     "rtgs": "pak-kai",
+     "ipa": "/paːk̚˨˩.kaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสำหรับขีดเขียนชนิดหนึ่ง ประกอบด้วยตัวปากและด้าม ตัวปากมักทำด้วยโลหะ เช่น ปากกาคอแร้ง ปากกาเบอร์ 5 ใช้เสียบที่ด้ามจุ้มหมึกหรือน้ำสีอื่นเขียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "ไก่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ปาก"
+     ],
+     "lit": "mouth + chicken",
+     "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่แก้ว",
+     "translit_auto": "kaikaeo",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไก่ชนิดหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "แก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "chicken + glass",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
+    },
+    {
+     "th": "ตาไก่",
+     "rtgs": "ta-kai",
+     "ipa": "/taː˧.kaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฟองมัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "ไก่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "eye + chicken",
+     "lit_th": "พ่อของแม่ + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่ชน",
+     "rtgs": "kai-chon",
+     "ipa": "/kaj˨˩.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไก่ชนิดพันธุ์ ที่ใช้สำหรับทำการแข่งขัน ในกีฬาชนไก่ เช่น ไก่เหลืองหางขาว, ไก่เขียวพาลี, ไก่ประดู่หางดำ เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "ชน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ชน"
+     ],
+     "lit": "chicken + hit",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + โดนแรง ๆ"
+    },
+    {
+     "th": "ไก่โห่",
+     "rtgs": "kai-ho",
+     "ipa": "/kaj˨˩.hoː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รุ่งสาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "โห่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+INTJ",
+     "head": 0,
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + เสียงที่เปล่งออกมาดังเช่นนั้น เป็น"
+    },
+    {
+     "th": "ไก่เตี้ย",
+     "rtgs": "kai-tia",
+     "ipa": "/kaj˨˩.tia̯˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้เถาชนิด Canavalia maritima ในวงศ์ Leguminosae ขึ้นตามหาดทรายชายทะเล ดอกสีชมพู ขาว หรือม่วง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "เตี้ย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "chicken + short",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + มีรูปร่างต่ำกว่าปรกติ",
+     "frame": "quality"
+    },
+    {
+     "th": "ข้าวมันไก่",
+     "rtgs": "khao-man-kai",
+     "ipa": "/kʰaːw˥˩.man˧.kaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวเจ้าหุงด้วยน้ำต้มกระดูกไก่โดยหุงแบบไม่เช็ดน้ำ กินกับไก่ตอนต้มหั่นเป็นชิ้น มีเต้าเจี้ยว ขิงแก่ และพริกน้ำส้มหรือซีอิ๊วเป็นน้ำจิ้ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าวมัน",
+      "ไก่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ข้าวเจ้าที่หุงด้วยกะทิ มักกินกับส้ + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่เขี่ย",
+     "rtgs": "kai-khia",
+     "ipa": "/kaj˨˩.kʰia̯˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หวัด, ยุ่งจนเกือบอ่านไม่ออก (มักใช้แก่ลายมือ)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "เขี่ย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ใช้ไม้หรือสิ่งอื่น ๆ ทำให้สิ่งใดสิ"
+    },
+    {
+     "th": "อกไก่",
+     "rtgs": "ok-kai",
+     "ipa": "/ʔok̚˨˩.kaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อกของไก่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อก",
+      "ไก่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "อก"
+     ],
+     "lit": "chest + chicken",
+     "lit_th": "ส่วนของร่างกายด้านหน้าอยู่ระหว่างค + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่ไห้",
+     "rtgs": "kai-hai",
+     "ipa": "/kaj˨˩.haj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้พุ่มชนิด Capparis flavicans ในวงศ์ Capparidaceae ขึ้นในป่าเบญจพรรณทั่วไป ลำต้นมีหนาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "ไห้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ร้องไห้"
+    },
+    {
+     "th": "ไก่ฟ้า",
+     "rtgs": "kai-fa",
+     "ipa": "/kaj˨˩.faː˦˥/",
+     "gloss": {
+      "en": [
+       "pheasant"
+      ],
+      "th": "ชื่อนกขนาดกลางในวงศ์ Phasianidae ตัวโตขนาดไก่บ้าน ขาและปากแข็งแรงมาก ตัวผู้มีหางยาว สีสันสวยงามกว่าตัวเมีย บินเก่งแต่ในระยะทางสั้น ๆ ทำรังบนพื้นดิน กินเมล็ดพืช ผลไม้สุก และแมลง มีหลายชนิด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "ฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "chicken + sky",
+     "frame": "entity"
+    },
+    {
+     "th": "ไก่นา",
+     "rtgs": "kai-na",
+     "ipa": "/kaj˨˩.naː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อที่ชาวบ้านเรียกนกที่อาศัยตามทุ่งนาหลายชนิด เช่น คุ่มสี [Coturnix chinensis (Linn.)] และนกอื่น ๆ หลายชนิดในวงศ์ Rallidae เช่น กวัก [Amaurornis phoenicurus (Pennant)] อีล้ำ [Gallinula choropus (Linn.)] อีลุ้ม [Gallicre",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "นา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "chicken + farm",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ผู้หญิงหากิน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Slang: a woman selling sex.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ผู้หญิงที่ถูกล่อลวงมาเพื่อมีเพศสัมพันธ์ด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "And one lured into it.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ไก่หลง",
+     "rtgs": "kai-long",
+     "ipa": "/kaj˨˩.loŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้หญิงที่รู้ไม่เท่าทันโลก พลัดมาอยู่ในที่ที่ถูกผู้ชายล่อลวงไปได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "หลง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผู้หญิงที่ถูกล่อลวงมาเพื่อมีเพศสัม + สำคัญผิด"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ผู้หญิงที่มีท่าทางหรือลักษณะการแต่งตัวที่เชิญชวนให้ผู้ชายต้องการมีเพศสัมพันธ์ด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "And loosened to a woman dressed to invite.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "อ่อนด้อย (คำตรงข้าม : ตัวตึง)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Gaming slang: weak, unskilled — against ตัวตึง.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ไก่อ่อน",
+     "rtgs": "kai-on",
+     "ipa": "/kaj˨˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้มีประสบการณ์น้อยยังไม่รู้ทันเล่ห์เหลี่ยมของคน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "อ่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "อ่อน"
+     ],
+     "lit": "chicken + young",
+     "lit_th": "อ่อนด้อย + ไม่กระด้าง",
+     "frame": "quality"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 5 manuscript titles, 88 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['สัตว์', 'นก'].",
+ "compounds_unassigned": [
+  {
+   "th": "ไก่เถื่อน",
+   "rtgs": "kai-thuean",
+   "ipa": "/kaj˨˩.tʰɯa̯n˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ไก่ป่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไก่",
+    "เถื่อน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "chicken + animal",
+   "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + ป่า",
+   "frame": "entity"
+  },
+  {
+   "th": "การลักไก่",
+   "rtgs": "kan-lak-kai",
+   "ipa": "/kaːn˧.lak̚˦˥.kaj˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลักไก่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลัก",
+    "ไก่"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ลัก + สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *kajᴮ, จากจีนยุคกลาง 雞 (MC kej); ร่วมเชื้อสายกับคำเมือง ᨠᩱ᩵ (ไก่), ลาว ໄກ່ (ไก่), ไทลื้อ ᦺᦂᧈ (ไก่), ไทดำ ꪼꪀ꪿ (ไก่), ไทขาว ꪼꪀꫀ, ไทใหญ่ ၵႆႇ (ไก่), ไทใต้คง ᥐᥭᥱ (กั่ย), อ่ายตน က︀ႝ (กย์), พ่าเก က︀ႝ (กย์), อาหม 𑜀𑜩 (กย์), ปู้อี gais (ไก๋), จ้วง gaeq (ไก๊), แสก ไก; เทียบเบดั้งเดิม *kajᴬ¹",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨠᩱ᩵",
+  "th": "ไก่",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kai-2",
+   "label": "กาย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kai\". ไก่ is gài, กาย is gaai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "chicken"
+ ]
+}

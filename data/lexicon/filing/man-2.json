@@ -1,0 +1,9 @@
+{
+ "head": "man-2",
+ "rule": "มั่น is firmness, and the split is physical against mental. Sense 2, แน่น / ไม่เคลื่อนจากที่, is a thing held in place — ยึดมั่น, ตั้งมั่น, มั่นคง, ที่มั่น, a stronghold. Sense 1, แน่นอน, is certainty rather than fixity, and takes the resolve words มุ่งมั่น, มั่นหมาย, หมายมั่น and คำมั่น, a binding promise. Sense 3 is confidence in oneself and takes เชื่อมั่น beside มั่นใจ. Worth noting: **มั่นหมาย and หมายมั่น are the same two morphemes in either order with the SAME meaning** — the opposite of the ใจ asymmetry, where ใจดี and ดีใจ part company. Order is not always meaningful, and this head is the counter-example.",
+ "senses": {
+  "1": ["คำมั่น","มั่นหมาย","มุ่งมั่น","หมายมั่น"],
+  "2": ["ตั้งมั่น","ที่มั่น","มั่นคง","ยึดมั่น"],
+  "3": ["เชื่อมั่น"]
+ }
+}

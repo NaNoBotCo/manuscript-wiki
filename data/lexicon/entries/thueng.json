@@ -1,0 +1,790 @@
+{
+ "id": "w:thueng",
+ "th": "ถึง",
+ "status": "mapped",
+ "rtgs": "thueng",
+ "paiboon": "tʉ̌ng",
+ "ipa": "/tʰɯŋ˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "บรรลุจุดหมาย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, conjunction, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำสันธาน, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ถึง 'to reach'.",
+    "Declared root: ถึง 'to reach'.",
+    "Declared root: ถึง 'to reach'.",
+    "Declared root: ถึง 'to reach'.",
+    "Declared root: ถึง 'to reach'.",
+    "Declared root: ถึง 'to reach'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "รับนับถือ, ยึดถือ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, conjunction, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำสันธาน, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Reaching a thing in the mind: to hold to it, to revere it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "มากพอ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, conjunction, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำสันธาน, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Reaching what is required: enough.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "จนกระทั่ง, ถึงแก่ หรือ ถึงกับ ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, conjunction, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำสันธาน, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "To the point of, so far as.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "บรรลุระดับที่กำหนด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, conjunction, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำสันธาน, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Reaching a set level.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "สู่, กระทั่ง, ยัง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, conjunction, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำสันธาน, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Bleached to a preposition: to, until.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ใช้เป็นคำจ่าหน้าในจดหมายระบุตัวผู้รับ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, conjunction, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำสันธาน, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "And heading a letter: ถึง, to.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "แม้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, conjunction, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำสันธาน, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Granting the point and going past it: even though.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "จึง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, conjunction, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำสันธาน, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "metaphor",
+   "via_note": "And then: therefore, so.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "ลังถึง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, preposition, conjunction, noun",
+   "pos_th": "คำกริยา, คำบุพบท, คำสันธาน, คำนาม",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [],
+   "needs_check": [
+    "Declared root: ลังถึง, the stacked steamer — a Chinese loan, unrelated.",
+    "Declared root: ลังถึง, the stacked steamer — a Chinese loan, unrelated.",
+    "Declared root: ลังถึง, the stacked steamer — a Chinese loan, unrelated.",
+    "Declared root: ลังถึง, the stacked steamer — a Chinese loan, unrelated.",
+    "Declared root: ลังถึง, the stacked steamer — a Chinese loan, unrelated.",
+    "Declared root: ลังถึง, the stacked steamer — a Chinese loan, unrelated."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 49 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['นับ', 'มาก'].",
+ "compounds_unassigned": [
+  {
+   "th": "ถึงฆาต",
+   "rtgs": "thueng-khat",
+   "ipa": "/tʰɯŋ˩˩˦.kʰaːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถึงที่ตาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถึง",
+    "ฆาต"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "บรรลุจุดหมาย + การฆ่า"
+  },
+  {
+   "th": "คิดถึง",
+   "rtgs": "khit-thueng",
+   "ipa": "/kʰit̚˦˥.tʰɯŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "anxious"
+    ],
+    "th": "นึกถึง, นึกถึงด้วยใจผูกพัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "คิด",
+    "ถึง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "คิด"
+   ],
+   "lit": "think + arrive",
+   "lit_th": "ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น + บรรลุจุดหมาย"
+  },
+  {
+   "th": "การคิดถึง",
+   "rtgs": "kan-khit-thueng",
+   "ipa": "/kaːn˧.kʰit̚˦˥.tʰɯŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ คิดถึง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การคิด",
+    "ถึง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ คิด + บรรลุจุดหมาย"
+  },
+  {
+   "th": "ถึงใจ",
+   "rtgs": "thueng-chai",
+   "ipa": "/tʰɯŋ˩˩˦.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จุใจ, สะใจ, สาแก่ใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถึง",
+    "ใจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "arrive + heart",
+   "lit_th": "บรรลุจุดหมาย + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+  },
+  {
+   "th": "การนึกถึง",
+   "rtgs": "kan-nuek-thueng",
+   "ipa": "/kaːn˧.nɯk̚˦˥.tʰɯŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ นึกถึง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การนึก",
+    "ถึง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ นึก + บรรลุจุดหมาย"
+  },
+  {
+   "th": "ถึงที่",
+   "rtgs": "thueng-thi",
+   "ipa": "/tʰɯŋ˩˩˦.tʰiː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถึงคราวตาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถึง",
+    "ที่"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "arrive + at",
+   "lit_th": "บรรลุจุดหมาย + แหล่ง"
+  },
+  {
+   "th": "นึกถึง",
+   "rtgs": "nuek-thueng",
+   "ipa": "/nɯk̚˦˥.tʰɯŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "moon"
+    ],
+    "th": "ระลึกถึง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "นึก",
+    "ถึง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "คิด + บรรลุจุดหมาย"
+  },
+  {
+   "th": "ทั่วถึง",
+   "rtgs": "thua-thueng",
+   "ipa": "/tʰua̯˥˩.tʰɯŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถึงทุกคน, ครบทั่วทุกคน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทั่ว",
+    "ถึง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "ทั้งหมด + บรรลุจุดหมาย",
+   "frame": "quality"
+  },
+  {
+   "th": "จนถึง",
+   "rtgs": "chon-thueng",
+   "ipa": "/t͡ɕon˧.tʰɯŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "until",
+     "till"
+    ],
+    "th": "ตราบเท่า, ที่สุดถึง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "จน",
+    "ถึง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "poor + arrive",
+   "lit_th": "แพ้ + บรรลุจุดหมาย"
+  },
+  {
+   "th": "ถึงมรณกรรม",
+   "rtgs": "thueng-mo-ra-na-kam",
+   "ipa": "/tʰɯŋ˩˩˦.mɔː˧.ra˦˥.na˦˥.kam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถึงที่ตาย (ใช้แก่คนทั่วไป)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถึง",
+    "มรณกรรม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "บรรลุจุดหมาย + ความตาย"
+  },
+  {
+   "th": "การถึง",
+   "rtgs": "kan-thueng",
+   "ipa": "/kaːn˧.tʰɯŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ถึง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ถึง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + บรรลุจุดหมาย"
+  },
+  {
+   "th": "ถึงชีพิตักษัย",
+   "rtgs": "thueng-chi-phi-tak-sai",
+   "ipa": "/tʰɯŋ˩˩˦.t͡ɕʰiː˧.pʰi˦˥.tak̚˨˩.saj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตาย (ใช้เฉพาะหม่อมเจ้า), สิ้นชีพิตักษัย ก็ใช้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถึง",
+    "ชีพิตักษัย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "บรรลุจุดหมาย + ตาย"
+  },
+  {
+   "th": "ความคิดถึง",
+   "rtgs": "khwam-khit-thueng",
+   "ipa": "/kʰwaːm˧.kʰit̚˦˥.tʰɯŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ คิดถึง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความคิด",
+    "ถึง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "idea + arrive",
+   "lit_th": "สิ่งที่นึกรู้ขึ้นในใจ + บรรลุจุดหมาย"
+  },
+  {
+   "th": "ถึงมรณภาพ",
+   "rtgs": "thueng-mo-ra-na-phap",
+   "ipa": "/tʰɯŋ˩˩˦.mɔː˧.ra˦˥.na˦˥.pʰaːp̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถึงที่ตาย (ใช้แก่พระสงฆ์)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถึง",
+    "มรณภาพ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "บรรลุจุดหมาย + ความตาย"
+  },
+  {
+   "th": "ลังถึง",
+   "rtgs": "lang-thueng",
+   "ipa": "/laŋ˧.tʰɯŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาชนะสำหรับนึ่งของ ทำด้วยโลหะมีลักษณะทรงกระบอกเตี้ย ๆ ซ้อนกันเป็นชั้น ๆ 2-3 ชั้น ชั้นล่างใส่น้ำสำหรับต้มให้มีไอน้ำร้อน ชั้นที่ซ้อนข้างบนเจาะเป็นรู ๆ ที่ก้นเพื่อให้ไอน้ำร้อนผ่านให้ของในชั้นที่ซ้อนสุก มีฝาครอบคล้ายฝาชี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลัง",
+    "ถึง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 10: the sense gloss names this compound · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ภาชนะต่อด้วยไม้หรือสานเป็นรูปสี่เห + บรรลุจุดหมาย",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *tʰɤŋᴬ¹ (Pittayaporn, 2008), จากไทดั้งเดิม *C̬.tɤŋᴬ; ร่วมเชื้อสายกับคำเมือง ᨳᩮᩥ᩠ᨦ (เถิง), ลาว ເຖິງ (เถิง), ไทใหญ่ ထိုင် (ถึง), อาหม 𑜌𑜢𑜤𑜂𑜫 (ถึง์), จ้วง daengz, จ้วงแบบจั่วเจียง twng ยืมมาจากแต้จิ๋ว 燙 (teng3 ถึ่ง, “ร้อน; ทำให้ร้อน”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨳᩮᩥ᩠ᨦ",
+  "th": "เถิง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "arrive"
+ ]
+}

@@ -1,0 +1,1097 @@
+{
+ "_note": "Curated index of named yant designs, read out of the corpus's own diagram plates (vision_desc) volume by volume. Each entry cites the manuscript and page it was read from; the plate image renders on demand via /pimg. Virtue families use the tradition's own terms, not translated categories. Captioned=false means the plate carries no caption and the reading is from the figure alone — marked so a reader can tell curation from source.",
+ "_sources": {
+  "6985": "แบบสักยันต์สำหรับลอกลาย — Sak Yant Stencils for Tracing",
+  "6983": "ตำราสร้างเครื่องรางของขลัง — Making Sacred Charms and Amulets",
+  "6980": "ตำราวิชายันต์ คาถาสายล้านนา — Yantra Craft and Katha, Lanna Lineage",
+  "6989": "ตำรามหายันต์ — Maha Yant Manual"
+ },
+ "_virtues": {
+  "metta_mahaniyom": {
+   "th": "เมตตามหานิยม",
+   "translit": "metta-mahaniyom",
+   "root": "Pali mettā 'loving-kindness' + mahā 'great' + niyama/niyom 'liking, popularity'",
+   "gloss": "charm, likeability, being well-received and desired",
+   "th_search": "เมตตามหานิยม"
+  },
+  "kong_krapan": {
+   "th": "คงกระพัน",
+   "translit": "kong krapan",
+   "root": "คง 'to remain, hold fast' + กระพัน (‹ Khmer) 'invulnerable to blade'",
+   "gloss": "invulnerability — the body that weapons do not open",
+   "th_search": "คงกระพัน"
+  },
+  "khlaeo_khlat": {
+   "th": "แคล้วคลาด",
+   "translit": "khlaeo khlat",
+   "root": "แคล้ว 'to miss, to slip past' + คลาด 'to be apart from'",
+   "gloss": "evasion — harm arrives and does not land",
+   "th_search": "แคล้วคลาด"
+  },
+  "phokkhasap": {
+   "th": "โภคทรัพย์",
+   "translit": "phokkhasap",
+   "root": "Pali bhoga 'enjoyment, wealth' + Skt sampatti/ทรัพย์ 'property'",
+   "gloss": "wealth, means, abundance drawn in and held",
+   "th_search": "โภคทรัพย์"
+  },
+  "amnat": {
+   "th": "อำนาจ",
+   "translit": "amnat",
+   "root": "‹ Pali ānā / Skt ājñā 'command'",
+   "gloss": "authority, commanding presence, the power to be obeyed",
+   "th_search": "อำนาจ"
+  },
+  "khum_khrong": {
+   "th": "คุ้มครอง",
+   "translit": "khum khrong",
+   "root": "คุ้ม 'to shelter' + ครอง 'to hold, to govern'",
+   "gloss": "guardianship — sheltered and watched over",
+   "th_search": "คุ้มครอง"
+  },
+  "borisut": {
+   "th": "บริสุทธิ์",
+   "translit": "borisut",
+   "root": "‹ Pali parisuddha 'wholly clean'",
+   "gloss": "purity, merit rising unstained",
+   "th_search": "บริสุทธิ์"
+  },
+  "changngang": {
+   "th": "มหาจังงัง",
+   "translit": "maha changngang",
+   "th_search": "จังงัง",
+   "root": "มหา 'great' + จังงัง 'struck motionless, transfixed, dumbstruck'",
+   "gloss": "freezing an opponent where he stands — the only family that acts on the OTHER person rather than on the bearer"
+  },
+  "maha_ut": {
+   "th": "มหาอุด",
+   "translit": "maha ut",
+   "th_search": "มหาอุด",
+   "root": "มหา 'great' + อุด 'to stop up, to seal'",
+   "gloss": "the great sealing — a weapon that will not discharge, a passage that will not open"
+  },
+  "maha_saneh": {
+   "th": "มหาเสน่ห์",
+   "translit": "maha saneh",
+   "th_search": "มหาเสน่ห์",
+   "root": "มหา + เสน่ห์ (‹ Skt snelha/sneha 'affection, oil') 'allure'",
+   "gloss": "great allure — desire drawn toward the bearer, stronger and more particular than metta"
+  },
+  "maha_lalway": {
+   "th": "มหาละลวย",
+   "translit": "maha lalway",
+   "th_search": "มหาละลวย",
+   "root": "มหา + ละลวย 'to be dazed, infatuated, made giddy'",
+   "gloss": "infatuation — the beholder's judgement clouded in the bearer's favour"
+  },
+  "kan_phai": {
+   "th": "กันภัย",
+   "translit": "kan phai",
+   "th_search": "กันภัย",
+   "root": "กัน 'to ward off' + ภัย (‹ Pali bhaya) 'danger, peril'",
+   "gloss": "warding danger away before it arrives"
+  },
+  "kha_khai": {
+   "th": "ค้าขาย",
+   "translit": "kha khai",
+   "th_search": "ค้าขาย",
+   "root": "ค้า 'to trade' + ขาย 'to sell'",
+   "gloss": "trade — goods that move and customers who come"
+  }
+ },
+ "designs": [
+  {
+   "slug": "dok-bua-thong",
+   "th": "ยันต์ดอกบัวทอง",
+   "translit": "yant dok bua thong",
+   "en": "the golden-lotus yant",
+   "roots": "ดอก 'flower' + บัว 'lotus' (‹ Skt padma via Khmer) + ทอง 'gold'",
+   "ms": 6985,
+   "page": 8,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "lotus",
+    "unalom"
+   ],
+   "virtues": [
+    "borisut",
+    "phokkhasap"
+   ],
+   "placement": "spine",
+   "desc": "A single tall column of Tham Lanna spell-script runs the length of the leaf like a spine tattoo, rising to a full-blown lotus at the crown; three flame-spike unalom stand above it like antennae. The lotus marks purity and blossoming fortune; the script column is the katha inked down the back."
+  },
+  {
+   "slug": "sarika-khu",
+   "th": "ยันต์สาริกาคู่",
+   "translit": "yant sarika khu",
+   "en": "the paired-sarika yant",
+   "roots": "สาริกา (‹ Pali sāḷikā) the myna bird + คู่ 'pair'",
+   "ms": 6985,
+   "page": 10,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "bird",
+    "sarika",
+    "unalom"
+   ],
+   "virtues": [
+    "metta_mahaniyom"
+   ],
+   "placement": "spine or nape",
+   "variants": [
+    {
+     "ms": 6985,
+     "page": 23
+    },
+    {
+     "ms": 6985,
+     "page": 25
+    }
+   ],
+   "desc": "Two facing sarika (myna) birds perch head-to-head atop a long column of Tham Lanna spell-script, three unalom spikes rising above. The sarika is the bird of sweet, persuasive speech; the paired form is the classic charm for eloquence and drawing affection. Two further variants in the same volume set the birds around a central lotus with a Khom column dropping from it — the birds face each other to signify harmonious, winning speech between people."
+  },
+  {
+   "slug": "ha-thaeo",
+   "th": "ยันต์ ๕ แถว",
+   "translit": "yant ha thaeo",
+   "en": "the five-row yant",
+   "roots": "ห้า 'five' + แถว 'row, line'",
+   "ms": 6985,
+   "page": 14,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "script_column",
+    "unalom"
+   ],
+   "virtues": [
+    "kong_krapan"
+   ],
+   "placement": "upper back",
+   "living": "Still the commonest back piece. Photographed in the field archive on a client of สำนักสักยันต์อาจารย์พยัคฆ์ เขี้ยวดาบ (Pathum Thani) as ยันต์ห้าแถวหนุนดวง — the five-row worked to 'support the fortune'.",
+   "desc": "Five parallel vertical lines of dense Tham Lanna script, each capped by an unalom spike — the five-line protection grid. Drawn on the same sheet as a lattice yant: a diagonal crosshatch net filled with Tham Lanna numerals under five unalom, a woven number-mesh for enclosing protection."
+  },
+  {
+   "slug": "thung-ngoen-thung-thong",
+   "th": "ยันต์ถุงเงินถุงทอง",
+   "translit": "yant thung ngoen thung thong",
+   "en": "the silver-bag gold-bag yant",
+   "roots": "ถุง 'bag' + เงิน 'silver, money' + ทอง 'gold'",
+   "ms": 6985,
+   "page": 17,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "money_bag",
+    "na_square",
+    "unalom"
+   ],
+   "virtues": [
+    "phokkhasap"
+   ],
+   "placement": "chest or shoulder",
+   "blank_template": {
+    "ms": 6985,
+    "page": 63
+   },
+   "desc": "Two money-bag roundels, each a drawn pouch: a quartered Na-square of four seed-syllables set inside a round bag, tied at the neck, ringed by Tham Lanna script and crowned with an unalom. The volume also carries the blank version — the same pouch with its quarters left empty, the frame a practitioner completes by inking the seed-syllables in."
+  },
+  {
+   "slug": "dok-bua",
+   "th": "ยันต์ดอกบัว",
+   "translit": "yant dok bua",
+   "en": "the lotus yant",
+   "roots": "ดอก 'flower' + บัว 'lotus'",
+   "ms": 6985,
+   "page": 21,
+   "captioned": true,
+   "script": "khom",
+   "figure": [
+    "lotus",
+    "unalom"
+   ],
+   "virtues": [
+    "borisut",
+    "metta_mahaniyom"
+   ],
+   "placement": "any",
+   "desc": "Two lotus yant drawn one above the other in fine outline, captioned ๑ ยันต์ดอกบัว ฯ. Each is a stylised blossom crowned by a flame-shaped unalom finial flanked by small Khom finial ticks, a single Khom syllable at the heart of each lotus and an arc of further syllables beneath the petals. Tradition holds the lotus a Buddhist purity emblem — rising unstained above defilement — commonly given for metta and clean, rising fortune."
+  },
+  {
+   "slug": "nok-yung",
+   "th": "ยันต์นกยูง",
+   "translit": "yant nok yung",
+   "en": "the peacock yant",
+   "roots": "นก 'bird' + ยูง 'peacock'",
+   "ms": 6985,
+   "page": 26,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "bird",
+    "peacock",
+    "money_bag"
+   ],
+   "virtues": [
+    "metta_mahaniyom"
+   ],
+   "placement": "back or chest",
+   "desc": "Two peacocks with long sweeping tail-plumes stand facing, flanking a central tied money-bag, the whole enclosed in a broad oval arc of Tham Lanna spell-script under a small unalom crown. The peacock is an emblem of beauty, allure and radiant charm — a charm to be seen and favoured."
+  },
+  {
+   "slug": "hong-kham",
+   "th": "ยันต์หงส์คำ",
+   "translit": "yant hong kham",
+   "en": "the golden-hamsa yant",
+   "roots": "หงส์ (‹ Skt haṃsa) the celestial goose + คำ, Lanna for 'gold' (cf. Central Thai ทอง)",
+   "ms": 6985,
+   "page": 31,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "bird",
+    "hong"
+   ],
+   "virtues": [
+    "metta_mahaniyom",
+    "phokkhasap"
+   ],
+   "placement": "shoulder or back",
+   "desc": "A single hamsa rises with wings spread and a long curling scrolled tail, wrapped in an arc of Tham Lanna script with three unalom spikes above. The hong bears grace, high status and auspicious ascent. Note the Lanna คำ for gold rather than Central Thai ทอง — the caption is northern."
+  },
+  {
+   "slug": "phaya-kai-fa",
+   "th": "ยันต์พญาไก่ฟ้า",
+   "translit": "yant phaya kai fa",
+   "en": "the lord-pheasant yant",
+   "roots": "พญา (‹ Skt/Pali) 'lord, chief' + ไก่ 'fowl' + ฟ้า 'sky' — the sky-fowl, the pheasant",
+   "ms": 6985,
+   "page": 32,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "bird",
+    "pheasant"
+   ],
+   "virtues": [
+    "metta_mahaniyom"
+   ],
+   "placement": "back or shoulder",
+   "desc": "A crested pheasant-phoenix sweeps across the leaf with a long trailing plumed tail, a small Na-circle and unalom at its crown, the body ringed and underscored by Tham Lanna spell-script. An emblem of beauty, allure and charm."
+  },
+  {
+   "slug": "phi-suea",
+   "th": "ยันต์ผีเสื้อ",
+   "translit": "yant phi suea",
+   "en": "the butterfly yant",
+   "roots": "ผีเสื้อ 'butterfly' — literally ผี 'spirit' + เสื้อ, an old word for a tutelary spirit, not the modern 'shirt'",
+   "ms": 6985,
+   "page": 34,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "butterfly"
+   ],
+   "virtues": [
+    "metta_mahaniyom"
+   ],
+   "placement": "nape or shoulder, small",
+   "variants": [
+    {
+     "ms": 6985,
+     "page": 80
+    }
+   ],
+   "desc": "Above, a symmetrical open-winged butterfly with patterned wings, an unalom crown and an arc of Tham Lanna script; below, a single butterfly banked into a crescent of script. A charm of beauty and attraction, worked to make the wearer alluring and beloved."
+  },
+  {
+   "slug": "hanuman",
+   "th": "ยันต์หนุมาน",
+   "translit": "yant hanuman",
+   "en": "the Hanuman yant",
+   "roots": "หนุมาน ‹ Skt Hanumān, the monkey-general of the Ramayana; Thai Ramakien",
+   "ms": 6985,
+   "page": 43,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "hanuman",
+    "ramakien",
+    "na_syllables"
+   ],
+   "virtues": [
+    "kong_krapan",
+    "amnat"
+   ],
+   "placement": "back or chest",
+   "variants": [
+    {
+     "ms": 6985,
+     "page": 86
+    },
+    {
+     "ms": 6985,
+     "page": 89
+    },
+    {
+     "ms": 6985,
+     "page": 91
+    }
+   ],
+   "desc": "Hanuman the white monkey-warrior leaps in three-quarter view brandishing a staff and a pennoned flag, mouth open, tail curling; his limbs and torso are covered in Na seed-syllables and the figure is wrapped in a sweeping arc of Tham Lanna script. Three further uncaptioned Hanuman figures follow in the same volume as plain flash. Hanuman lends strength, boldness and immunity to harm."
+  },
+  {
+   "slug": "sian-ruesi",
+   "th": "ยันต์เศียรฤๅษี",
+   "translit": "yant sian ruesi",
+   "en": "the head of the hermit-teacher (พ่อแก่ Pho Kae, the Old Father)",
+   "roots": "เศียร (‹ Skt śiras) 'head', the royal/sacred register + ฤๅษี (‹ Skt ṛṣi) 'seer, hermit'",
+   "ms": 6985,
+   "page": 58,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "ruesi",
+    "teacher"
+   ],
+   "virtues": [
+    "khum_khrong",
+    "amnat"
+   ],
+   "placement": "nape or upper back",
+   "variants": [
+    {
+     "ms": 6985,
+     "page": 103
+    },
+    {
+     "ms": 6985,
+     "page": 104
+    }
+   ],
+   "desc": "Above, a frontal face of the ascetic master crowned with a tiered headdress under three unalom spikes and an arc of script; below, a profile head of a bearded ruesi in a peaked tiger-skin cap. Pho Kae is the primordial teacher honoured in the wai khru — this stencil places the lineage-master himself on the skin as protector and source of the craft. See the corpus article on the lersi tradition.",
+   "see_also": "entity:lersi"
+  },
+  {
+   "slug": "suea",
+   "th": "ยันต์เสือ",
+   "translit": "yant suea",
+   "en": "the tiger yant",
+   "roots": "เสือ 'tiger'",
+   "ms": 6985,
+   "page": 95,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "tiger"
+   ],
+   "virtues": [
+    "kong_krapan",
+    "amnat"
+   ],
+   "placement": "back or chest",
+   "variants": [
+    {
+     "ms": 6985,
+     "page": 96
+    },
+    {
+     "ms": 6985,
+     "page": 99
+    }
+   ],
+   "desc": "A striding tiger roaring, body fully striped, one forepaw raised with claws spread, tail lashing. The volume also holds a tiger-head (na suea) as a compact motif for shoulder or nape, and a prowling tiger paired with a singha. The tiger is a paramount Lanna power-emblem carrying invulnerability, fierce authority and command — one of the great sak-yant beasts."
+  },
+  {
+   "slug": "singha",
+   "th": "ยันต์สิงห์",
+   "translit": "yant singha / rachasi",
+   "en": "the guardian-lion yant",
+   "roots": "สิงห์ (‹ Pali sīha / Skt siṃha) 'lion'; ราชสีห์ 'royal lion'",
+   "ms": 6985,
+   "page": 100,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "singha",
+    "lion"
+   ],
+   "virtues": [
+    "kong_krapan",
+    "khum_khrong"
+   ],
+   "placement": "back",
+   "variants": [
+    {
+     "ms": 6985,
+     "page": 101
+    },
+    {
+     "ms": 6983,
+     "page": 149
+    }
+   ],
+   "desc": "A mythical lion-beast prowling, its dragon-like crested head thrown up, flame-scroll mane, ridged spine and clawed feet, tail curling into a flame-frond — the temple-guardian emblem in the Lanna mural idiom. The amulet treatise uses the same beast on the reverse of a tiger-skin takrut, captioned ราชสีห์ตัวนี้ลงข้างหลัง, 'this lion on the back'."
+  },
+  {
+   "slug": "narai-song-khrut",
+   "th": "ยันต์นารายณ์ทรงครุฑ",
+   "translit": "yant narai song khrut",
+   "en": "Narai mounted on Garuda",
+   "roots": "นารายณ์ ‹ Skt Nārāyaṇa (Vishnu) + ทรง 'to ride, royal register' + ครุฑ ‹ Skt Garuḍa",
+   "ms": 6985,
+   "page": 83,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "deity",
+    "garuda",
+    "vishnu"
+   ],
+   "virtues": [
+    "amnat",
+    "khum_khrong"
+   ],
+   "placement": "back",
+   "desc": "A four-armed deity astride Garuda: Phra Narai crowned with a tiered mongkut, bearing discus, conch, club and trident, mounted on the winged bird-man Khrut whose wings spread wide and talons grip below. A divine-mount motif carrying power, kingship and protection."
+  },
+  {
+   "slug": "yak",
+   "th": "ยันต์ยักษ์",
+   "translit": "yant yak",
+   "en": "the yaksha (giant) yant",
+   "roots": "ยักษ์ ‹ Skt yakṣa, a class of guardian spirit",
+   "ms": 6985,
+   "page": 87,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "yaksha",
+    "guardian",
+    "ramakien"
+   ],
+   "virtues": [
+    "khum_khrong",
+    "amnat"
+   ],
+   "placement": "back",
+   "variants": [
+    {
+     "ms": 6985,
+     "page": 92
+    }
+   ],
+   "desc": "A crowned, fanged demon-warrior striding with a long sword raised overhead and a bow in the other hand, ornamented armour and sash, scroll-clouds below his feet. A variant stands frontally on a woven knot of naga serpents — the guardian-giant treading the nagas, an emblem of dominating power and command over the serpent-world."
+  },
+  {
+   "slug": "tukkae",
+   "th": "ยันต์ตุ๊กแก",
+   "translit": "yant tukkae",
+   "en": "the tokay-gecko yant",
+   "roots": "ตุ๊กแก, onomatopoeic — the gecko is named for its call",
+   "ms": 6985,
+   "page": 65,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "gecko",
+    "lotus"
+   ],
+   "virtues": [
+    "metta_mahaniyom",
+    "phokkhasap"
+   ],
+   "placement": "small, any",
+   "variants": [
+    {
+     "ms": 6985,
+     "page": 64
+    },
+    {
+     "ms": 6985,
+     "page": 66
+    }
+   ],
+   "desc": "Two tokay geckos with star-splayed toes flanking a central lotus, tails curling outward; below, a single gecko poised over a looped heart. Its call summons luck and admirers, and paired around the lotus it doubles the draw. Elsewhere the gecko climbs a bottle-gourd — the gourd a vessel of holy water and containment of fortune, the pair a prosperity-and-attraction stencil."
+  },
+  {
+   "slug": "namtao",
+   "th": "ยันต์น้ำเต้า",
+   "translit": "yant namtao",
+   "en": "the bottle-gourd yant",
+   "roots": "น้ำ 'water' + เต้า 'gourd, vessel' — the gourd that holds water",
+   "ms": 6985,
+   "page": 64,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "gourd"
+   ],
+   "virtues": [
+    "phokkhasap"
+   ],
+   "placement": "small, any",
+   "desc": "A small bottle-gourd tied at the neck. The gourd is a vessel of holy water and a containment of fortune — what is gathered does not leak away. Kept in the stock of small emblems a tattooist uses to fill a composition."
+  },
+  {
+   "slug": "kai",
+   "th": "ยันต์ไก่",
+   "translit": "yant kai",
+   "en": "the fighting-cock yant",
+   "roots": "ไก่ 'fowl, cock'",
+   "ms": 6985,
+   "page": 79,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "rooster"
+   ],
+   "virtues": [
+    "kong_krapan",
+    "amnat"
+   ],
+   "placement": "small, any",
+   "desc": "A proud cockerel with arched sickle tail-feathers and finely scaled breast; below, a second cock striding with raised hackles. An emblem of courage, valour and fighting spirit. The corpus carries a separate article on the cock in the tradition.",
+   "see_also": "entity:kai"
+  },
+  {
+   "slug": "pla",
+   "th": "ยันต์ปลา",
+   "translit": "yant pla",
+   "en": "the fish yant",
+   "roots": "ปลา 'fish'",
+   "ms": 6985,
+   "page": 81,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "fish"
+   ],
+   "virtues": [
+    "phokkhasap"
+   ],
+   "placement": "small, any",
+   "variants": [
+    {
+     "ms": 6985,
+     "page": 60
+    }
+   ],
+   "desc": "Two round-bodied fish facing nose-to-nose with ruffled fins; below, a koi-style carp swimming upward. An auspicious emblem of abundance, fertility and flowing fortune. The paired fish also appear flanking a lotus as a section ornament."
+  },
+  {
+   "slug": "kwang",
+   "th": "ยันต์กวาง",
+   "translit": "yant kwang",
+   "en": "the deer yant",
+   "roots": "กวาง 'deer'",
+   "ms": 6985,
+   "page": 82,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "deer"
+   ],
+   "virtues": [
+    "metta_mahaniyom"
+   ],
+   "placement": "any",
+   "desc": "A leaping deer in mid-bound, antlers stylised into curling flame-fronds, a patterned kranok band looping around neck and haunch. Carries a sense of gentleness and grace, and recalls the deer of the Buddha's first sermon at the deer park."
+  },
+  {
+   "slug": "naga",
+   "th": "ยันต์นาค",
+   "translit": "yant nak / naga",
+   "en": "the naga yant",
+   "roots": "นาค ‹ Skt/Pali nāga, the serpent-lord of the waters",
+   "ms": 6985,
+   "page": 102,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "naga",
+    "snake"
+   ],
+   "virtues": [
+    "khum_khrong",
+    "phokkhasap"
+   ],
+   "placement": "any",
+   "variants": [
+    {
+     "ms": 6985,
+     "page": 62
+    },
+    {
+     "ms": 6985,
+     "page": 76
+    }
+   ],
+   "desc": "A single snake rising in an S-curve, its lower body looped into a heart; below, two snakes rearing head-to-head from an interlaced love-knot of their own braided bodies — protection bound to the sense of union and holding-fast. A rearing naga also appears among the stock small emblems, and naga-headed hong fly in the kranok idiom. The corpus carries a full article on the naga.",
+   "see_also": "entity:naga"
+  },
+  {
+   "slug": "ganesha",
+   "th": "ยันต์พระพิฆเนศ",
+   "translit": "yant phra phikhanet",
+   "en": "the Ganesha emblem",
+   "roots": "พิฆเนศ ‹ Skt Vighneśa 'lord of obstacles'",
+   "ms": 6985,
+   "page": 62,
+   "captioned": false,
+   "script": "none",
+   "figure": [
+    "ganesha",
+    "om"
+   ],
+   "virtues": [
+    "phokkhasap",
+    "amnat"
+   ],
+   "placement": "small, any",
+   "desc": "A Ganesha head crowned with an Om glyph, one of six small charm motifs on a sampler leaf — the remover of obstacles and giver of success, kept as a compact auspicious sign."
+  },
+  {
+   "slug": "rup-kai",
+   "th": "ยันต์รูปกาย",
+   "translit": "yant rup kai",
+   "en": "the body-form yant",
+   "roots": "รูป (‹ Pali rūpa) 'form' + กาย (‹ Pali kāya) 'body'",
+   "ms": 6989,
+   "page": 125,
+   "captioned": true,
+   "script": "khom",
+   "figure": [
+    "anthropomorphic",
+    "unalom",
+    "lotus_pedestal"
+   ],
+   "virtues": [
+    "khum_khrong"
+   ],
+   "placement": "cloth, foil or skin",
+   "desc": "A tall anthropomorphic yant built from paired conjoined heart-lobes stacked in three tiers — broad base, mid-body, small head — so the whole reads as a seated torso. Each lobe encloses a Khom syllable, set in facing pairs; the figure is crowned by an unalom spiral flame and seated on a lotus pedestal, long lines lacing the tiers together. A single small red-ink glyph sits at the base centre."
+  },
+  {
+   "slug": "krop-si-liam",
+   "th": "ยันต์กรอบสี่เหลี่ยม",
+   "translit": "yant krop si liam",
+   "en": "the boxed/framed yant",
+   "roots": "กรอบ 'frame' + สี่ 'four' + เหลี่ยม 'sided, angled'",
+   "ms": 6989,
+   "page": 149,
+   "captioned": true,
+   "script": "khom",
+   "figure": [
+    "frame",
+    "knot_corners"
+   ],
+   "virtues": [
+    "kong_krapan"
+   ],
+   "placement": "copied as a unit",
+   "desc": "Two rectangular yant frames drawn with looped knot corners, each corner tied off in a small circle. The upper frame holds two Khom words each finished with a wavy tail-stroke; the lower, wider frame contains four identical repeated hook-strokes in a row — a reduplicated syllable series of the sort used to multiply a katha's force."
+  },
+  {
+   "slug": "klom",
+   "th": "ยันต์กลม",
+   "translit": "yant klom / yant wong klom",
+   "en": "the circular wheel yant",
+   "roots": "กลม 'round'; วงกลม 'circle'",
+   "ms": 6989,
+   "page": 159,
+   "captioned": true,
+   "script": "khom",
+   "figure": [
+    "mandala",
+    "wheel"
+   ],
+   "virtues": [
+    "khum_khrong"
+   ],
+   "placement": "encircling",
+   "desc": "A round mandala-form yant: three concentric rings divided by radial spokes into cells, each holding one Khom syllable so the syllable-string winds around the wheel. At the hub, four quadrants each carry a rosette of three grouped finger-strokes around a small central mark. Used for all-round, encircling protection — the syllables reading around the ring rather than in lines."
+  },
+  {
+   "slug": "chedi",
+   "th": "ยันต์เจดีย์",
+   "translit": "yant chedi",
+   "en": "the stupa yant",
+   "roots": "เจดีย์ ‹ Pali cetiya 'monument, thing to be venerated'",
+   "ms": 6980,
+   "page": 18,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "number_grid",
+    "chedi",
+    "architecture"
+   ],
+   "virtues": [
+    "khum_khrong",
+    "borisut"
+   ],
+   "placement": "drawn",
+   "desc": "A magic-number grid built up into the silhouette of a chedi, narrow at the crowning tier and widening through stepped registers to a broad base, two short arms projecting near the mid-body. Every cell holds a Tham Lanna numeral; read across and down, rows and columns form the recited number-square (ยางเลข yang lek) whose totals carry the spell. Scripture-numbers laid into sacred architecture, so that drawing the diagram rebuilds a stupa in miniature."
+  },
+  {
+   "slug": "fa-thao",
+   "th": "ยันต์ฝ่าเท้า",
+   "translit": "yant fa thao",
+   "en": "the sole-of-the-foot yant",
+   "roots": "ฝ่า 'sole, palm' + เท้า 'foot'",
+   "ms": 6980,
+   "page": 38,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "footprint",
+    "buddhapada"
+   ],
+   "virtues": [
+    "khum_khrong"
+   ],
+   "placement": "low — worn beneath the body or trodden",
+   "desc": "A single large footprint outline with a Tham Lanna caption at the toes. A dotted seam runs down the centre dividing the sole into left and right fields, each filled with a descending column of Tham Lanna letters and numerals. The form recalls the Buddhapada repurposed as charm-ground: syllables written into the sole are trodden and thereby empowered — inscribed low, where it will be walked upon or worn beneath the body."
+  },
+  {
+   "slug": "thun",
+   "th": "ยันต์ทูน",
+   "translit": "yant thun",
+   "en": "the borne/supported-tower yant",
+   "roots": "ทูน 'to carry on the head, to bear aloft'",
+   "ms": 6980,
+   "page": 59,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "number_grid",
+    "bearer_figure",
+    "caryatid"
+   ],
+   "virtues": [
+    "khum_khrong",
+    "amnat"
+   ],
+   "placement": "drawn",
+   "desc": "A tall multi-tiered obelisk of stacked magic-number cells — triangular-hatched upper registers narrowing to a finial above a dense square grid — held aloft by a squatting frontal figure. The bearer, broad-faced with patterned loincloth and knees splayed, lifts the whole number-tower on raised hands, a small syllable-cluster written across its chest. A guardian or bearer carries the empowered grid, giving the abstract numbers a living support."
+  },
+  {
+   "slug": "hua-chai",
+   "th": "ยันต์หัวใจ",
+   "translit": "yant hua chai",
+   "en": "the heart-of-the-katha yant",
+   "roots": "หัว 'head' + ใจ 'heart' — idiomatically 'the essence, the core'",
+   "ms": 6980,
+   "page": 140,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "emblem",
+    "face_crown"
+   ],
+   "virtues": [
+    "kong_krapan"
+   ],
+   "placement": "drawn as a single stroke-cluster",
+   "variants": [
+    {
+     "ms": 6980,
+     "page": 138
+    }
+   ],
+   "desc": "A symmetrical face-or-crown emblem — a central rounded visage with a small seed-glyph at its middle, framed by two great curling arms that sweep outward and hook back like a crown or moustache, loose Tham Lanna letters floating above and to the sides. A hua chai figure: the essential syllables of a spell compressed into one anthropomorphic emblem, meant to be memorised and drawn as a single stroke-cluster. A companion plate shows a seated figure with a segmented unalom spiralling from the crown into a rising flame."
+  },
+  {
+   "slug": "itipiso-prakham",
+   "th": "ยันต์พระอิติปิโส",
+   "translit": "yant phra itipiso",
+   "en": "the Itipiso rosary-bead yant",
+   "roots": "อิติปิโส, the opening of the Pali Itipi so bhagavā homage to the Buddha",
+   "ms": 6983,
+   "page": 107,
+   "captioned": true,
+   "script": "khom",
+   "figure": [
+    "bead",
+    "gourd_form",
+    "unalom"
+   ],
+   "virtues": [
+    "khum_khrong",
+    "borisut"
+   ],
+   "placement": "cast in lead as rosary beads",
+   "desc": "Seven gourd- or vase-shaped yant arranged in a pyramid — one at the top, then two rows of three. Each holds Khom syllables in its bulb, is crowned by a flame-like unalom spire with radiating strokes, carries Thai numerals beneath and ends in a small bow-tie motif. The caption สิทธิการิยะ directs that these seven be cast in lead as rosary beads, one yant per bead, then consecrated 108 times.",
+   "note": "The volume runs a further catalogue of numbered bead figures across pp. 108–113, including the rosary of พระเจ้ากลืนไตรภพ, 'the Buddha who swallows the three worlds'."
+  },
+  {
+   "slug": "chimphli-set",
+   "th": "ยันต์พระฉิมพลี",
+   "translit": "yant phra chimphli",
+   "en": "the Phra Sivali placement set",
+   "roots": "ฉิมพลี ‹ Sīvalī, the arahant of good fortune and provisions",
+   "ms": 6983,
+   "page": 25,
+   "captioned": true,
+   "script": "khom",
+   "figure": [
+    "square_grid",
+    "prasat_crown"
+   ],
+   "virtues": [
+    "phokkhasap"
+   ],
+   "placement": "architectural — not on the body",
+   "variants": [
+    {
+     "ms": 6983,
+     "page": 26
+    },
+    {
+     "ms": 6983,
+     "page": 27
+    },
+    {
+     "ms": 6983,
+     "page": 28
+    },
+    {
+     "ms": 6983,
+     "page": 29
+    }
+   ],
+   "desc": "A set of five plates whose captions place each yant on a different surface of a shrine to Phra Sivali: on pink cloth hung in front (p.25), on the back wall (p.26), made into a banner set in front (p.27), on red cloth made into a curtain (p.28), and on the ceiling and on the ceremonial parasol (p.29, two figures). Every one is a square or tiered grid of Khom syllables under a stepped prasat crown with stupa finials. A reminder that the yant repertoire is not only skin: the same craft dresses a building."
+  },
+  {
+   "slug": "takrut-nang-suea",
+   "th": "ยันต์ตะกรุดหนังเสือ",
+   "translit": "yant takrut nang suea",
+   "en": "the tiger-skin takrut yant",
+   "roots": "ตะกรุด 'rolled amulet scroll' + หนัง 'hide' + เสือ 'tiger'",
+   "ms": 6983,
+   "page": 149,
+   "captioned": true,
+   "script": "khom",
+   "figure": [
+    "diamond_grid",
+    "rachasi"
+   ],
+   "virtues": [
+    "kong_krapan",
+    "amnat"
+   ],
+   "placement": "rolled scroll worn at the waist",
+   "desc": "A large square yant grid set on the diagonal, cells packed with Khom syllables, arrows projecting at the four points and stupa-like caps studding the border, captioned ยันต์นี้ลงข้างหน้า — 'inscribe this yant on the front'. Below, a walking lion with flame-like mane and Khom on its body: ราชสีห์ตัวนี้ลงข้างหลัง, 'this lion on the back'. The prose directs scraping the tiger hide bare before inscribing."
+  },
+  {
+   "slug": "thong-chulamani",
+   "th": "ยันต์ธงพระจุฬามณี",
+   "translit": "yant thong phra chulamani",
+   "en": "the Phra Chulamani banner yant",
+   "roots": "ธง 'banner' + จุฬามณี ‹ Skt cūḷāmaṇi, the crest-jewel stupa in Tavatimsa heaven",
+   "ms": 6983,
+   "page": 162,
+   "captioned": true,
+   "script": "khom",
+   "figure": [
+    "banner",
+    "tung",
+    "grid"
+   ],
+   "virtues": [
+    "borisut",
+    "khum_khrong"
+   ],
+   "placement": "flown, not worn",
+   "desc": "A tall flagpole flying two large triangular pennants, one above the other, each ruled into a grid of Khom syllables with a line of Khom katha along the top edge. To the left hangs a separate fish- or rocket-shaped tung whose long body is a vertical grid of syllables, finished with decorative fins and pennant tails."
+  },
+  {
+   "slug": "thian-rachaputto",
+   "th": "ยันต์เทียนพราชปุตโต",
+   "translit": "yant thian racha-putto",
+   "en": "the candle yant, Racha-putto",
+   "roots": "เทียน 'candle' + ราชปุตโต 'the king's son'",
+   "ms": 6983,
+   "page": 33,
+   "captioned": true,
+   "script": "khom",
+   "figure": [
+    "knot",
+    "number_square",
+    "unalom"
+   ],
+   "virtues": [
+    "khum_khrong"
+   ],
+   "placement": "front",
+   "desc": "The upper yant rises from an interlaced double-loop whose crossing straps each carry a Khom syllable; above it a pointed arch holds numerals, then two rows of sacred syllables, capped by a spiral unalom tipped with a small circle. Below sits a rectangular magic-number square, an outer ring of bordered cells framing an inner block of Thai numerals. Captioned ยันต์นี้ลงข้างหน้า."
+  },
+  {
+   "slug": "khom-primer",
+   "th": "แบบเรียนเขียนขอม",
+   "translit": "baep rian khian khom",
+   "en": "the Khom writing primer",
+   "roots": "แบบเรียน 'lesson-book' + เขียน 'to write' + ขอม 'Khom', the Thai name for the Khmer-derived sacred script",
+   "ms": 6983,
+   "page": 8,
+   "captioned": true,
+   "script": "khom",
+   "figure": [
+    "syllabary",
+    "chart"
+   ],
+   "virtues": [],
+   "placement": "learned before anything is drawn",
+   "variants": [
+    {
+     "ms": 6983,
+     "page": 9
+    },
+    {
+     "ms": 6983,
+     "page": 10
+    },
+    {
+     "ms": 6983,
+     "page": 11
+    },
+    {
+     "ms": 6983,
+     "page": 12
+    },
+    {
+     "ms": 6983,
+     "page": 13
+    },
+    {
+     "ms": 6983,
+     "page": 14
+    },
+    {
+     "ms": 6983,
+     "page": 15
+    }
+   ],
+   "desc": "Eight pages teaching the sacred alphabet in which katha and yantra are inscribed, glyph by glyph. The opening page glosses a line of Khom as นะ โม พุท ธา ยะ สิท ธัง, the auspicious opening. Then a syllabary: vowels อะ อา อิ อี อุ อู เอ ไอ across the top, consonants กะ ขะ คะ ฆะ งะ down to อัง ออ. Pages 9–11 run the แม่กะกา spelling grid — twelve vowel forms per consonant, each Khom glyph paired with its Thai reading. Pages 12–15 drill the clustered classes: แจกแม่กันนะ, กัณณะ, กัพพะ, กัลละ, กัปปะ, กัตตะ, กัจจะ, กัชชะ, กัญจะ, กักกะ, กัคคะ, กังงะ, กัมมะ, กัยยะ.",
+   "note": "This is the volume's answer to where the craft begins: not with a design but with an alphabet."
+  },
+  {
+   "slug": "yang-lek-worksheet",
+   "th": "ยางเลข",
+   "translit": "yang lek",
+   "en": "the number-reckoning worksheet",
+   "roots": "ยาง/ยันต์ + เลข 'number, figure'",
+   "ms": 6980,
+   "page": 118,
+   "captioned": true,
+   "script": "tham_lanna",
+   "figure": [
+    "worksheet",
+    "numerals"
+   ],
+   "virtues": [],
+   "placement": "working notes",
+   "desc": "Not a finished figure but the reckoning behind one: four separate number-groups, each headed by a Tham Lanna numeral, set out as small blocks of stacked digits down the left, with cursive annotations in the right margin keying each group to its use. The component number-sequences a practitioner assembles and totals before laying them into a grid. A faint seam divides worksheet from notes.",
+   "note": "Worth reading beside any of the number-grid yant — this is the arithmetic they are made of."
+  }
+ ],
+ "ornament": {
+  "_note": "Uncaptioned decorative flash in ms6985 — the modern fine-line repertoire kept alongside the script-bearing yant. Listed so the volume is represented whole, but these are not working yant and are marked as such on the page.",
+  "pages": [
+   59,
+   60,
+   61,
+   67,
+   68,
+   69,
+   70,
+   71,
+   72,
+   73,
+   74,
+   75,
+   76,
+   77,
+   78,
+   88,
+   90,
+   93
+  ],
+  "desc": "Lotus frontispieces and rosettes, paired birds and lovebirds forming hearts, peacocks with money-bags, swallows, an owl, phoenix and hong figures, serpent-birds in the kranok idiom, a knotted guardian-face roundel, a deva on a rearing lion-beast, and an archer sheathed in spiral koh-marks. Several carry no spell-script at all — decorative flash in the modern idiom rather than formal yant."
+ },
+ "living": {
+  "_note": "Photographs taken by Nan at a working session she and Michael sat for. Published with her permission; the ajarn and his assistant appear by their own encouragement — they welcome the photographs and the link back.",
+  "credit": "Photographs © Nan, NaNoBotCo. The work is by <b>Ajarn Dang</b> and <b>Ajarn Sak</b>, who welcomed the camera.",
+  "photos": [
+   {
+    "img": "/img/yant/session-015.jpg",
+    "hero": true,
+    "alt": "Two people photographed from behind before a gilded Buddha image and a printed yant cloth, flanked by sunflowers and lilies. The man's back carries a large eight-pointed starburst yant; the woman's nape carries a spired grid panel over a line of sacred script.",
+    "caption": "The pair of them, after. On his back the eight-pointed <b>ยันต์แปดทิศ</b> <i>yant paet thit</i>, the yant of the eight directions; on her nape a spired <b>prasat</b> grid over a band of khom. Behind, a printed ผ้ายันต์ — the same craft worked on cloth."
+   },
+   {
+    "img": "/img/yant/session-045.jpg",
+    "alt": "Two forearms held side by side with hands clasped, each carrying a crowned prasat-form yant drawn in black outline and filled with red script",
+    "caption": "Matching forearms, <b>black outline filled with red</b>. Two inks in one design is a deliberate technique, not decoration — the same two-colour working shows up across practitioners from Chiang Mai to Khon Kaen."
+   },
+   {
+    "img": "/img/yant/session-051.jpg",
+    "alt": "A collarbone and upper chest carrying a broad collar of sacred script arcs and radiating spired rays, with a small crowned face at the centre",
+    "caption": "A collar worked across both clavicles: two arcs of khom with <b>tapu</b> — nail-spikes — radiating between them and a crowned ruesi face at the notch of the throat. The masters' own book lists it as the <b>Hermit Necklace</b>, two hours' work, and gives its virtue as \"invincibility and wisdom with communication and Spiritual Peace\"."
+   },
+   {
+    "img": "/img/yant/session-005.jpg",
+    "alt": "The back of a woman's neck, freshly tattooed with a spired grid panel above a line of sacred script, being wiped by a gloved hand",
+    "caption": "Fresh work being wiped back. The grid is ruled cell by cell and each cell takes one syllable — the panel is read, not merely looked at."
+   },
+   {
+    "img": "/img/yant/session-010.jpg",
+    "alt": "A man seated forward on a low stool while an ajarn works his shoulder with a long steel rod and an assistant steadies the skin, before an altar of gilded hermit figures",
+    "caption": "The work itself. The ajarn drives the ink with a long steel rod — <b>เข็มสัก</b> <i>khem sak</i> — while an assistant holds the skin taut. On the altar behind, gilt ฤๅษี <i>ruesi</i> figures: the hermit-teachers in whose line the craft is held."
+   },
+   {
+    "img": "/img/yant/session-030.jpg",
+    "alt": "Overhead view of a tattooing session: purple stencil lines forming a spired panel drawn on an upper back, the ajarn working with a long steel rod under a clip lamp",
+    "caption": "Seen from above: the design goes on in stencil pen first, and the rod follows it. This one is <b>ยี่สิบเก้ายอด</b> <i>yi sip kao yot</i> — the twenty-nine spires, counted along the crown of the panel."
+   }
+  ],
+  "ajarns": [
+   {
+    "name": "Ajarn Dang",
+    "detail": "33 years at the work, 10 of them as a monk; a fifth-generation master of his family's line, who studied under Sukhawaphuthargo. Other masters come to him to be taught."
+   },
+   {
+    "name": "Ajarn Sak",
+    "detail": "18 years at the work, 12 of them as a monk; the tradition came to him from his father and his grandfather, and he trained besides in Burmese magic — his background is in the magic of the northern Tai Yai forest people."
+   }
+  ],
+  "link": {
+   "href": "https://sakyantchiangmai.com/sak-yant-masters-in-chiang-mai/",
+   "label": "Sak Yant Chiang Mai — the masters' own profiles"
+  },
+  "_provenance_note": "Frames were selected from the photo library's 'sakyant-session' vein, which contains false positives (a US logging event; a thigh piece that is not Nan's). Nan confirmed the set below; anything added later must be confirmed the same way before publishing."
+ },
+ "key": {
+  "_note": "Quoted from a contributed volume in the corpus. This is the tradition stating its own interpretive rule, and it is the ground for the virtue tags used above.",
+  "geometry": [
+   {
+    "th": "ยันต์สามเหลี่ยม",
+    "translit": "yant sam liam",
+    "en": "the triangle yant",
+    "means": "พระรัตนตรัย — the Triple Gem: the Buddha, the Dhamma, the Sangha"
+   },
+   {
+    "th": "ยันต์สี่เหลี่ยม",
+    "translit": "yant si liam",
+    "en": "the square yant",
+    "means": "ธาตุทั้ง ๔ — the four elements; or จตุราริยสัจจ์ ๔, the Four Noble Truths"
+   }
+  ],
+  "figure_rule_th": "จะลงยันต์ให้เป็นตบะเดชะอำนาจ ก็มักจะนิยมลงยันต์ที่มีรูปราชสีห์ประกอบด้วย ทั้งนี้ก็เพราะว่าราชสีห์เป็นสิ่งที่ทรงไว้ซึ่งอำนาจมาก ถ้าจะเป็นทางอยู่ยงคงกระพันก็มักนิยมลงยันต์ที่มีรูปหนุมานประกอบ",
+  "figure_rule_en": "To inscribe a yant for ascetic power and authority, one commonly uses a yant incorporating the rachasi — because the rachasi is a thing that holds great power. For invulnerability, one commonly uses a yant incorporating Hanuman — because by the Brahmanical reckoning Hanuman holds the highest might: none can fight him, he is bold, he cannot be killed, and he withstands every weapon.",
+  "gloss": "The figure is not decoration. It is chosen for what it holds, and the choice is made by need."
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "head": "sa",
+ "rule": "สระ is three unrelated words — a pond (1), a vowel (2-4), and washing (5-6) — and the vowel senses do the work here, split exactly as the RID splits them. Sense 2 is the vowel as a SOUND and takes the length terms in both registers: สระยาว and สระสั้น in Thai, ทีฆสระ and รัสสระ in the Pali. Sense 3 is the vowel as a WRITTEN SIGN and takes สระลอย and สระจม — the free-standing signs against those that cannot be written without a consonant. That is a distinction only a script makes, and the head has a sense for each. สระบุรี and สระแก้ว go to the name-use sense 7; both carry the (จังหวัด~) marker, and both were still unfiled here, so they could be put where they belong — สระบุรี is one of the ten provinces still sitting in the wrong sense over on บุรี.",
+ "senses": {
+  "2": ["ทีฆสระ","รัสสระ","สระยาว","สระสั้น"],
+  "3": ["สระจม","สระลอย"],
+  "7": ["สระบุรี","สระแก้ว"]
+ }
+}

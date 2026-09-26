@@ -1,0 +1,32 @@
+{
+ "head": "khi",
+ "rule": "ขี้ runs one clean chain and 18 of 27 sort along it. Sense 2 is the substance itself (ขี้หมา, ขี้เทา the meconium, and โยนขี้, which throws it). Sense 3 is what cakes on a BODY — ขี้มือ, ขี้ตีน, ขี้เกลือ, ขี้เล็บ, and ขี้เรื้อน the crusting mange. Sense 4 is anything unwanted once the body is out of the picture: a rag (ขี้ริ้ว), a servant spoken of with contempt (ขี้ข้า, ขี้เค้า), and the green that grows where it is not wanted (ขี้ตะไคร่, ขี้แดด). Sense 5 is narrower than 4 and takes only residue OF a named thing — ash out of fire (ขี้เถ้า and its dead spelling ขี้เท่า), wax out of a hive (ขี้ผึ้ง), slag out of iron (ขี้เหล็ก, which then names the tree), and the general leavings ขี้ผง. NINE WORDS DO NOT FILE and are left open on purpose: see the log.",
+ "senses": {
+  "2": [
+   "ขี้หมา",
+   "ขี้เทา",
+   "โยนขี้"
+  ],
+  "3": [
+   "ขี้มือ",
+   "ขี้ตีน",
+   "ขี้เกลือ",
+   "ขี้เล็บ",
+   "ขี้เรื้อน"
+  ],
+  "4": [
+   "ขี้ริ้ว",
+   "ขี้ข้า",
+   "ขี้เค้า",
+   "ขี้ตะไคร่",
+   "ขี้แดด"
+  ],
+  "5": [
+   "ขี้เถ้า",
+   "ขี้เท่า",
+   "ขี้ผึ้ง",
+   "ขี้ผง",
+   "ขี้เหล็ก"
+  ]
+ }
+}

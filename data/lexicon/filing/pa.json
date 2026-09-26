@@ -1,0 +1,10 @@
+{
+ "head": "pa",
+ "rule": "ป่า is the forest, and the working line is sense 1 against sense 5. Sense 1 is the PLACE — kinds of forest (ป่าแดง, ป่าดงดิบ, ป่าชัฏ), what happens in it (ไฟป่า), and what is set aside as one (ป่าช้า, the burning ground). Sense 5 is ที่ได้มาจากป่าหรืออยู่ในป่า, the WILD variety of something that also exists tame, and it follows สัตว์ป่า and ของป่า already there: ไก่ป่า against the farmyard fowl, หมูป่า against the village pig, สารภีป่า against the garden tree, แกงป่า against the coconut-milk curry, น้ำป่า against ordinary flood water, and กระต่ายป่า, whose gloss is already the metaphor. Sense 7 was empty and takes ฮาป่า: ตีป่า is going at something indiscriminately, and jeering in unison is that.",
+ "senses": {
+  "1": ["ป่าช้า","ป่าชัฏ","ป่าดงดิบ","ป่าแดง","ไฟป่า"],
+  "5": ["กระต่ายป่า","น้ำป่า","สารภีป่า","หมูป่า","แกงป่า","ไก่ป่า"],
+  "7": ["ฮาป่า"],
+  "8": ["ตกั่วป่า"]
+ }
+}

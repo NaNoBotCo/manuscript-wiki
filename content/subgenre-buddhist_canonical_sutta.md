@@ -181,3 +181,11 @@ recited the suttas; one library preserved the copies. Behind Sung Men come
   four or more missing, and no page text in the archive for any of them. Start with
   [fascicle ten](/m/wohan-mahamokkala-nippana-watthu-phuk-thuan-sip-1075/) and work
   backwards. [Browse the basket](/browse?subgenre=Sutta) to see what else clusters.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **The deepest roots in the collection** — The ten earliest-dated manuscripts, reaching back to 1471 CE — the far anchor of the single continuous timeline that runs all the way to today's amulet stalls. [see the finding →](/findings#chronologydeep-roots)
+<!-- derived:end -->

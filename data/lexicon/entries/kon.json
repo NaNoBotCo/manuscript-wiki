@@ -1,0 +1,936 @@
+{
+ "id": "w:kon",
+ "th": "ก้น",
+ "status": "mapped",
+ "rtgs": "kon",
+ "paiboon": "gôn",
+ "ipa": "/kon˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่วนท้ายของลำตัวของสัตว์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ก้นย้อย",
+     "rtgs": "kon-yoi",
+     "ipa": "/kon˥˩.jɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เนื้อก้นทั้งสองข้างที่ยุ้ยออกมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ย้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "ass + drop",
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + ห้อยเป็นทางลงมา"
+    },
+    {
+     "th": "ก้นอ้อย",
+     "rtgs": "kon-oi",
+     "ipa": "/kon˥˩.ʔɔːj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เนื้อก้นสองข้างตรงที่นั่งทับ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "อ้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + ชื่อไม้ล้มลุกชนิด Saccharum offici",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้นปอด",
+     "rtgs": "kon-pot",
+     "ipa": "/kon˥˩.pɔːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ก้นที่สอบเล็กผิดปรกติ, ก้นที่ไม่ค่อยมีเนื้อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ปอด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ass + lung",
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + อวัยวะทำหน้าที่เกี่ยวกับการหายใจอย",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้นกบ",
+     "rtgs": "kon-kop",
+     "ipa": "/kon˥˩.kop̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปลายกระดูกสันหลังที่สุดลงมาข้างล่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "กบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กบ"
+     ],
+     "lit": "ass + frog",
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + เรียกคำหรือพยางค์ที่มีตัว บ ป พ ฟ",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้นร้อน",
+     "rtgs": "kon-ron",
+     "ipa": "/kon˥˩.rɔːn˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นั่งอยู่ที่ใดได้ไม่นาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ร้อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ร้อน"
+     ],
+     "lit": "ass + hot",
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ",
+     "frame": "quality"
+    },
+    {
+     "th": "ก้นหนัก",
+     "rtgs": "kon-nak",
+     "ipa": "/kon˥˩.nak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นั่งอยู่ที่ใดที่หนึ่งได้นาน ๆ ไม่ลุกหรือขยับเขยื้อนไปไหนง่าย ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "หนัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "ass + heavy",
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + มีน้ำหนักมาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ก้นกระดก",
+     "rtgs": "kon-kra-dok",
+     "ipa": "/kon˥˩.kra˨˩.dok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลืมตัวเพราะถูกเยินยอ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "กระดก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + ทำให้ปลายข้างหนึ่งยกสูงขึ้น"
+    },
+    {
+     "th": "ก้นปล่อง",
+     "rtgs": "kon-plong",
+     "ipa": "/kon˥˩.plɔŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อยุงในสกุล Anopheles วงศ์ Culicidae ที่พบทั่วไป เช่น ชนิด A. dirus Peyton & Harrison, A. minimus Theobald, A. maculatus Theobald ยุงเหล่านี้เวลาเกาะหรือดูดเลือดคนหรือสัตว์ หัวจะปักลง ก้นชี้ขึ้น ผนังด้านล่างของส่วนท้อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ปล่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ass + chimney",
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + ช่องหรือรูที่ทะลุขึ้นจากพื้นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้นขบ",
+     "rtgs": "kon-khop",
+     "ipa": "/kon˥˩.kʰop̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(งู~) ชื่องูขนาดเล็กชนิด Cylindrophis ruffus (Laurenti) ในวงศ์ Aniliidae หรือ Uropeltidae สีดำแกมม่วง มีลายประตามลำตัวสีขาวเห็นได้ชัดเมื่อยังมีขนาดเล็ก ท้องมีลายดำขาวสลับกัน พื้นท้องของหางเกือบปลายสุดมีสีแดงอมส้ม ไม่มีพิ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ขบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "ass + bite",
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + เอาฟันเน้นเพื่อให้แตก"
+    },
+    {
+     "th": "ก้นหอย",
+     "rtgs": "kon-hoi",
+     "ipa": "/kon˥˩.hɔj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รอยเส้นที่ขดวนเข้าหาศูนย์กลางอย่างก้นหอยที่นิ้วมือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "หอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + ชื่อสัตว์ไม่มีกระดูกสันหลัง ไฟลัม",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "บริเวณก้นด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The buttocks widened to the whole seat of the body.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ส่วนล่างของภาชนะ, ตรงข้ามกับ ปาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The bottom of a vessel, against its ปาก.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ก้นปิด",
+     "rtgs": "kon-pit",
+     "ipa": "/kon˥˩.pit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(ใบ~) ใบไม้ที่มีก้านติดอยู่ภายในของใบ เช่นใบบัว ใบมะละกอ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ปิด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "ass + shut",
+     "lit_th": "ส่วนล่างของภาชนะ + กันหรือกั้นไว้ไม่ให้เผยออก"
+    },
+    {
+     "th": "ก้นถุง",
+     "rtgs": "kon-thung",
+     "ipa": "/kon˥˩.tʰuŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินจำนวนหนึ่งที่ผู้ใหญ่มอบให้ในงานแต่งงานเป็นต้น เพื่อเก็บไว้เป็นเงินก้อนแรก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ถุง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ass + bag",
+     "lit_th": "ส่วนล่างของภาชนะ + เครื่องใช้สำหรับใส่สิ่งของ ทำด้วยผ",
+     "frame": "entity"
+    },
+    {
+     "th": "นอนก้น",
+     "rtgs": "non-kon",
+     "ipa": "/nɔːn˧.kon˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ผงหรือตะกอนเป็นต้นในของเหลวตกลงไปอยู่ก้นที่รับของเหลวนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นอน",
+      "ก้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "dormant + ass",
+     "lit_th": "เอนตัวลงกับพื้นหรือที่ใด ๆ + ส่วนล่างของภาชนะ"
+    },
+    {
+     "th": "ก้นรั่ว",
+     "rtgs": "kon-rua",
+     "ipa": "/kon˥˩.rua̯˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สุรุ่ยสุร่าย, ไม่ระมัดระวังการใช้จ่ายทำให้สูญเสียทรัพย์ไปเปล่า ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "รั่ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "ass + escape",
+     "lit_th": "ส่วนล่างของภาชนะ + อาการที่อากาศหรือของเหลวเป็นต้นไหล"
+    },
+    {
+     "th": "ก้นตะกรน",
+     "rtgs": "kon-ta-kron",
+     "ipa": "/kon˥˩.ta˨˩.kron˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ก้นที่มีขี้ตะกอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ตะกรน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนล่างของภาชนะ + อุปกรณ์ของเครื่องทอผ้า ใช้อย่างกระ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ส่วนสุดของห้วงหรือแอ่ง, ตรงข้ามกับ ปาก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "generalisation",
+   "via_note": "And the bottom of a pool or hollow.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ก้นบึ้ง",
+     "rtgs": "kon-bueng",
+     "ipa": "/kon˥˩.bɯŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนสุดของสิ่งที่ลึก, ส่วนใต้สุด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "บึ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนสุดของห้วงหรือแอ่ง + ชื่อแมงมุมขนาดใหญ่หลายชนิด หลายสกุ",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้นครัว",
+     "rtgs": "kon-khrua",
+     "ipa": "/kon˥˩.kʰrua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ได้ออกหน้าออกตา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ครัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ass + kitchen",
+     "lit_th": "ส่วนสุดของห้วงหรือแอ่ง + โรง เรือน หรือห้องสำหรับทำกับข้าวข",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้นกุฏิ",
+     "rtgs": "kon-kut-ti",
+     "ipa": "/kon˥˩.kut̚˨˩.tiʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่สนิทเป็นที่ไว้วางใจได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "กุฏิ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนสุดของห้วงหรือแอ่ง + ที่อยู่ของนักบวช เช่น พระภิกษุ สาม",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ส่วนสุดที่เหลือ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ก้นบุหรี่",
+     "rtgs": "kon-bu-ri",
+     "ipa": "/kon˥˩.bu˨˩.riː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนท้ายของมวนบุหรี่ที่สั้นจนสูบต่อไปไม่ได้, ก้นยา ก็เรียก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "บุหรี่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ass + smoke",
+     "lit_th": "ส่วนสุดที่เหลือ + ยาสูบที่ใช้ใบตองหรือกระดาษเป็นต้นม",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้นก๊อก",
+     "rtgs": "kon-kok",
+     "ipa": "/kon˥˩.kɔk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ก้นกรอง (ส่วนท้ายของบุหรี่ชนิดที่มีที่กรองสารพิษ)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ก๊อก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนสุดที่เหลือ + เครื่องเปิดปิดน้ำจากท่อหรือภาชนะ",
+     "frame": "entity"
+    },
+    {
+     "th": "ก้นกรอง",
+     "rtgs": "kon-krong",
+     "ipa": "/kon˥˩.krɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนท้ายของบุหรี่ชนิดที่มีที่กรองสารพิษเช่นนิโคตินซึ่งอยู่ในควันบุหรี่, เดิมเรียกว่า ก้นก๊อก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "กรอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "ass + filter",
+     "lit_th": "ส่วนสุดที่เหลือ + ร้อย"
+    },
+    {
+     "th": "ก้นยา",
+     "rtgs": "kon-ya",
+     "ipa": "/kon˥˩.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนท้ายของมวนบุหรี่ที่สั้นจนสูบต่อไปไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ก้น",
+      "ยา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "ass + medicine",
+     "lit_th": "ส่วนสุดที่เหลือ + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "What is left at the bottom: the last of it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 14 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การนอนก้น",
+   "rtgs": "kan-non-kon",
+   "ipa": "/kaːn˧.nɔːn˧.kon˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ นอนก้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การนอน",
+    "ก้น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ นอน + ส่วนเบื้องล่างของลำตัวของคนหรือส่ว",
+   "frame": "entity"
+  },
+  {
+   "th": "ก้นปูด",
+   "rtgs": "kon-put",
+   "ipa": "/kon˥˩.puːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ กะปูด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ก้น",
+    "ปูด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ส่วนเบื้องล่างของลำตัวของคนหรือส่ว + คำพ้องความของ กะปูด",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *konꟲ², จากไทดั้งเดิม *konꟲ; ร่วมเชื้อสายกับคำเมือง ᨠᩫ᩠᩶ᨶ (ก็้น), ลาว ກົ້ນ (ก็้น), ไทลื้อ ᦂᦳᧃᧉ (กุ้น), ไทใหญ่ ၵူၼ်ႈ (กู้น), ไทใต้คง ᥐᥨᥢᥲ (โก้น), พ่าเก က︀ုꩫ︀် (กุน์), อาหม 𑜀𑜤𑜃𑜫 (กุน์), ซาปา kunꟲ¹, จ้วง gunj (กุ้น, “ก้น”), จ้วงแบบจั่วเจียง gunj (กุ้น, “ก้น”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨠᩫ᩠᩶ᨶ",
+  "th": "ก็้น",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kon-2",
+   "label": "กล",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kon\". ก้น is gôn, กล is gon — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "ass",
+  "bottom"
+ ]
+}

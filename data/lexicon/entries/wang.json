@@ -1,0 +1,1711 @@
+{
+ "id": "w:wang",
+ "th": "วัง",
+ "status": "mapped",
+ "rtgs": "wang",
+ "paiboon": "wang",
+ "ipa": "/waŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ที่อยู่ของเจ้านาย, ถ้าเป็นที่อยู่ของพระมหากษัตริย์เรียก พระราชวัง หรือ พระบรมมหาราชวัง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, proper noun",
+   "pos_th": "คำนาม, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'.",
+    "Declared root: วัง 'palace'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "กรมวัง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, proper noun",
+   "pos_th": "คำนาม, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กรมวัง",
+     "rtgs": "krom-wang",
+     "ipa": "/krom˧.waŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แผนกราชการสมัยก่อนที่บริหารกิจการในราชสำนัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กรม",
+      "วัง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ระทม + กรมวัง"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "กรมวัง, the department named from the palace it runs.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ล้อม, ห้อมล้อม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, proper noun",
+   "pos_th": "คำนาม, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it.",
+    "Declared root: วัง 'to encircle' — possibly the origin of the palace word, but this project has not established it."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ห้วงน้ำลึก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, proper noun",
+   "pos_th": "คำนาม, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river.",
+    "Declared root: วัง, the deep pool in a river."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ชื่อแม่น้ำในภาคเหนือของไทย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, proper noun",
+   "pos_th": "คำนาม, คำกริยา, คำวิสามานยนาม",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "วังไทร",
+     "rtgs": "wang-sai",
+     "ipa": "/waŋ˧.saj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองขลุง จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ไทร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace",
+     "frame": "entity"
+    },
+    {
+     "th": "วังจันทร์",
+     "rtgs": "wang-chan",
+     "ipa": "/waŋ˧.t͡ɕan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดระยอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "จันทร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PROP",
+     "head": 0
+    },
+    {
+     "th": "วังวน",
+     "rtgs": "wang-won",
+     "ipa": "/waŋ˧.won˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพรหมพิราม จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "วน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "วน"
+     ],
+     "lit": "palace + to circle",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + เวียนไปโดยรอบ"
+    },
+    {
+     "th": "วังชัย",
+     "rtgs": "wang-chai",
+     "ipa": "/waŋ˧.t͡ɕʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอน้ำพอง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ชัย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชัย"
+     ],
+     "lit": "palace + victory",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + การชนะ",
+     "frame": "entity"
+    },
+    {
+     "th": "วังควง",
+     "rtgs": "wang-khuang",
+     "ipa": "/waŋ˧.kʰua̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพรานกระต่าย จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ควง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + แกว่งหรือทำให้หมุนไปโดยรอบ"
+    },
+    {
+     "th": "วังเพิ่ม",
+     "rtgs": "wang-phoem",
+     "ipa": "/waŋ˧.pʰɤːm˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสีชมพู จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "เพิ่ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "palace + aggrandize",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ทำให้มากขึ้น"
+    },
+    {
+     "th": "วังขนาย",
+     "rtgs": "wang-kha-nai",
+     "ipa": "/waŋ˧.kʰa˨˩.naːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่าม่วง จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ขนาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + งาช้างพัง",
+     "frame": "entity"
+    },
+    {
+     "th": "วังศาลา",
+     "rtgs": "wang-sa-la",
+     "ipa": "/waŋ˧.saː˩˩˦.laː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่าม่วง จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ศาลา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + อาคารทรงไทย ปล่อยโถง ไม่กั้นฝา ใช้",
+     "frame": "entity"
+    },
+    {
+     "th": "วังแขม",
+     "rtgs": "wang-khaem",
+     "ipa": "/waŋ˧.kʰɛːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองขลุง จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "แขม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ล้มลุกชนิด Saccharum arundi",
+     "frame": "entity"
+    },
+    {
+     "th": "วังบัว",
+     "rtgs": "wang-bua",
+     "ipa": "/waŋ˧.bua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองขลุง จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "บัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "palace + lotus",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว",
+     "frame": "entity"
+    },
+    {
+     "th": "วังชะพลู",
+     "rtgs": "wang-cha-phlu",
+     "ipa": "/waŋ˧.t͡ɕʰa˦˥.pʰluː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอขาณุวรลักษบุรี จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ชะพลู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ล้มลุกเกาะเลื้อยชนิด Piper",
+     "frame": "entity"
+    },
+    {
+     "th": "วังม่วง",
+     "rtgs": "wang-muang",
+     "ipa": "/waŋ˧.mua̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสระบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ม่วง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ม่วง"
+     ],
+     "lit": "palace + purple",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + สีน้ำเงินปนแดง",
+     "frame": "quality"
+    },
+    {
+     "th": "วังไผ่",
+     "rtgs": "wang-phai",
+     "ipa": "/waŋ˧.pʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอห้วยกระเจา จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ไผ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไผ่"
+     ],
+     "lit": "palace + bamboo",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
+    },
+    {
+     "th": "วังโพธิ์",
+     "rtgs": "wang-pho",
+     "ipa": "/waŋ˧.pʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านเหลื่อม จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "โพธิ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โพธิ์"
+     ],
+     "lit": "palace + enlightenment",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ความตรัสรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "วังแสง",
+     "rtgs": "wang-saeng",
+     "ipa": "/waŋ˧.sɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชนบท จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "แสง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แสง"
+     ],
+     "lit": "palace + light",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ความสว่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "วังยาง",
+     "rtgs": "wang-yang",
+     "ipa": "/waŋ˧.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครพนม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ยาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "palace + rubber",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    },
+    {
+     "th": "วังเย็น",
+     "rtgs": "wang-yen",
+     "ipa": "/waŋ˧.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาญจนบุรี จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "เย็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "เย็น"
+     ],
+     "lit": "palace + cold",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "วังพิกุล",
+     "rtgs": "wang-phi-kun",
+     "ipa": "/waŋ˧.pʰi˦˥.kun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวังทอง จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "พิกุล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ไม้ต้นชนิด Mimusops elengi L. ในวง",
+     "frame": "entity"
+    },
+    {
+     "th": "วังใหม่",
+     "rtgs": "wang-mai",
+     "ipa": "/waŋ˧.maj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนายายอาม จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ใหม่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหม่"
+     ],
+     "lit": "palace + again",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + เพิ่งมี",
+     "frame": "quality"
+    },
+    {
+     "th": "วังน้อย",
+     "rtgs": "wang-noi",
+     "ipa": "/waŋ˧.nɔːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพระนครศรีอยุธยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "น้อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "น้อย"
+     ],
+     "lit": "palace + little",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ไม่มาก",
+     "frame": "quality"
+    },
+    {
+     "th": "วังชิ้น",
+     "rtgs": "wang-chin",
+     "ipa": "/waŋ˧.t͡ɕʰin˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดแพร่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ชิ้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "palace + piece",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ก้อนหรือแผ่นเล็กที่ตัด แล่ แบ่ง แย",
+     "frame": "entity"
+    },
+    {
+     "th": "วังโป่ง",
+     "rtgs": "wang-pong",
+     "ipa": "/waŋ˧.poːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเพชรบูรณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "โป่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "palace + swollen",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
+    },
+    {
+     "th": "ค้อวัง",
+     "rtgs": "kho-wang",
+     "ipa": "/kʰɔː˦˥.waŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดยโสธร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ค้อ",
+      "วัง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อปาล์มชนิด Livistona speciosa K + ชื่อแม่น้ำในภาคเหนือของไทย",
+     "frame": "entity"
+    },
+    {
+     "th": "วังหิน",
+     "rtgs": "wang-hin",
+     "ipa": "/waŋ˧.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดศรีสะเกษ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "หิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หิน"
+     ],
+     "lit": "palace + rock",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+     "frame": "entity"
+    },
+    {
+     "th": "วังตะเคียน",
+     "rtgs": "wang-ta-khian",
+     "ipa": "/waŋ˧.ta˨˩.kʰia̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ตะเคียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ต้นขนาดใหญ่ชนิด Hopea odora",
+     "frame": "entity"
+    },
+    {
+     "th": "วังหินลาด",
+     "rtgs": "wang-hin-lat",
+     "ipa": "/waŋ˧.hin˩˩˦.laːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชุมแพ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "หินลาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PROP",
+     "head": 0,
+     "cross_listed": [
+      "ลาด"
+     ],
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อตำบลหนึ่งในอำเภอวัดโบสถ์ จังหว"
+    },
+    {
+     "th": "วังหมี",
+     "rtgs": "wang-mi",
+     "ipa": "/waŋ˧.miː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวังน้ำเขียว จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "หมี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "palace + bear",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อสัตว์เลี้ยงลูกด้วยนมในวงศ์ Urs",
+     "frame": "entity"
+    },
+    {
+     "th": "บ้านวัง",
+     "rtgs": "ban-wang",
+     "ipa": "/baːn˥˩.waŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโนนไทย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "วัง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + palace",
+     "lit_th": "ที่อยู่อาศัย + ชื่อแม่น้ำในภาคเหนือของไทย",
+     "frame": "entity"
+    },
+    {
+     "th": "วังเจ้า",
+     "rtgs": "wang-chao",
+     "ipa": "/waŋ˧.t͡ɕaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "เจ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "palace + thou",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ผู้เป็นใหญ่",
+     "frame": "entity"
+    },
+    {
+     "th": "วังน้ำขาว",
+     "rtgs": "wang-nam-khao",
+     "ipa": "/waŋ˧.nam˦˥.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านด่านลานหอย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "น้ำขาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + น้ำเมาชนิดหนึ่งทำด้วยข้าวเหนียวนึ่",
+     "frame": "entity"
+    },
+    {
+     "th": "วังโพรง",
+     "rtgs": "wang-phrong",
+     "ipa": "/waŋ˧.pʰroːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเนินมะปราง จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "โพรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "palace + hole",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ช่องที่กลวงเข้าไป",
+     "frame": "entity"
+    },
+    {
+     "th": "วังวิเศษ",
+     "rtgs": "wang-wi-set",
+     "ipa": "/waŋ˧.wi˦˥.seːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดตรัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "วิเศษ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "palace + fine",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ยอดเยี่ยม",
+     "frame": "quality"
+    },
+    {
+     "th": "วังโตนด",
+     "rtgs": "wang-ta-not",
+     "ipa": "/waŋ˧.ta˨˩.noːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนายายอาม จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "โตนด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "วังใหญ่",
+     "rtgs": "wang-yai",
+     "ipa": "/waŋ˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอศรีสำโรง จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "palace + huge",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "วังทอง",
+     "rtgs": "wang-thong",
+     "ipa": "/waŋ˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ทอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "palace + gold",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    },
+    {
+     "th": "วังเหนือ",
+     "rtgs": "wang-nuea",
+     "ipa": "/waŋ˧.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดลำปาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "เหนือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เหนือ"
+     ],
+     "lit": "palace + above",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "นาวัง",
+     "rtgs": "na-wang",
+     "ipa": "/naː˧.waŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดหนองบัวลำภู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นา",
+      "วัง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นา"
+     ],
+     "lit": "farm + palace",
+     "lit_th": "พื้นที่ราบทำเป็นคันกั้นน้ำเป็นแปลง + ชื่อแม่น้ำในภาคเหนือของไทย",
+     "frame": "entity"
+    },
+    {
+     "th": "วังสมบูรณ์",
+     "rtgs": "wang-som-bun",
+     "ipa": "/waŋ˧.som˩˩˦.buːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "สมบูรณ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "palace + absolute",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + บริบูรณ์"
+    },
+    {
+     "th": "วังทองหลาง",
+     "rtgs": "wang-thong-lang",
+     "ipa": "/waŋ˧.tʰɔːŋ˧.laːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ทองหลาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ชื่อไม้ต้นหลายชนิดในสกุล Erythrina",
+     "frame": "entity"
+    },
+    {
+     "th": "วังทองแดง",
+     "rtgs": "wang-thong-daeng",
+     "ipa": "/waŋ˧.tʰɔːŋ˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองสุโขทัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ทองแดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "palace + copper",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ธาตุลำดับที่ 29 สัญลักษณ์ Cu เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "วังลึก",
+     "rtgs": "wang-luek",
+     "ipa": "/waŋ˧.lɯk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านด่านลานหอย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ลึก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "palace + deep",
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ต่ำลงไปจากขอบมากกว่าปรกติ",
+     "frame": "quality"
+    },
+    {
+     "th": "วังกระแจะ",
+     "rtgs": "wang-kra-chae",
+     "ipa": "/waŋ˧.kra˨˩.t͡ɕɛʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอไทรโยค จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "กระแจะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อแม่น้ำในภาคเหนือของไทย + ผงเครื่องหอมต่าง ๆ ที่ประสมกันสำหร",
+     "frame": "entity"
+    }
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "The Wang river of the north, named from its deep pools.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 25 manuscript titles, 98 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 48; domain seeded by keyword hits ['toponym formative'].",
+ "compounds_unassigned": [
+  {
+   "th": "ทวารวัง",
+   "translit_auto": "thwarwang",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ประตูวัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทวาร",
+    "วัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ประตู + ที่อยู่ของเจ้านาย",
+   "frame": "entity"
+  },
+  {
+   "th": "การระวัง",
+   "rtgs": "kan-ra-wang",
+   "ipa": "/kaːn˧.ra˦˥.waŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ระวัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การระ",
+    "วัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การระ"
+   ],
+   "lit": "nominalisation of ระ + palace",
+   "lit_th": "คำอาการนามของ ระ + ที่อยู่ของเจ้านาย",
+   "frame": "entity"
+  },
+  {
+   "th": "ชาววัง",
+   "rtgs": "chao-wang",
+   "ipa": "/t͡ɕʰaːw˧.waŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หญิงที่อยู่ในวัง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชาว",
+    "วัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "กลุ่มชนที่มีเชื้อชาติเดียวกัน หรือ + ที่อยู่ของเจ้านาย",
+   "frame": "entity"
+  },
+  {
+   "th": "ระวัง",
+   "rtgs": "ra-wang",
+   "ipa": "/ra˦˥.waŋ˧/",
+   "gloss": {
+    "en": [
+     "mind",
+     "cautious"
+    ],
+    "th": "คอยดู",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ระ",
+    "วัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "กระทบเรียดไป + ที่อยู่ของเจ้านาย"
+  },
+  {
+   "th": "แยกวัง",
+   "rtgs": "yaek-wang",
+   "ipa": "/jɛːk̚˥˩.waŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แยกบ้าน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แยก",
+    "วัง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "separate + palace",
+   "lit_th": "ทำให้สิ่งที่รวมกันอยู่หรือประกอบกั + ที่อยู่ของเจ้านาย"
+  }
+ ],
+ "etymology": {
+  "summary": "จากเขมรเก่า វាង៑ (วางฺ), វាង្ង៑ (วางฺงฺ), វង៑ (วงฺ), จากมอญ-เขมรดั้งเดิม *wa(a)ŋ; ร่วมเชื้อสายกับเขมร វាំង (วาํง), ពាំង (พาํง), ลาว ວັງ (วัง), คำเมือง ᩅᩢ᩠ᨦ (วัง), เขิน ᩅᩤ᩠ᨦ (วาง), ไทลื้อ ᦞᧂ (วัง); ร่วมรากกับ วง และ เวียง ร่วมเชื้อสายกับลาว ວັງ (วัง), คำเมือง ᩅᩢ᩠ᨦ (วัง), ไทใหญ่ ဝင်း (วั๊ง); เทียบจีนยุคกลาง 汪 (MC 'wang)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩅᩢ᩠ᨦ",
+  "th": "วัง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:wang-2",
+   "label": "วาง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"wang\". วัง is wang, วาง is waang — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "palace"
+ ]
+}

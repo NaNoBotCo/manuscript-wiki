@@ -1,0 +1,52 @@
+{
+ "head": "kin",
+ "rule": "กิน files by WHO or WHAT is doing the eating. Sense 2 keeps everything a mouth or a body can take in: the feast vocabulary (กินเลี้ยง, กินบุญ, กินดอง, กินแขก), subsistence (หากิน, อยู่กิน, เก็บกิน, ของกิน), and the sexual idioms, which work only while the person is being read as food. Once the eater is not a mouth the word forks three ways — a THING that uses up a resource files at 4 (กินที่, beside the source-filed กินเวลา) or at 5 when it is an affliction eating its host (หวัดกิน, ใบ้กิน, กินตัว); a PERSON who takes something into himself files at 6 (กินเมือง takes a city, กินลม takes wind, กินแหนง takes suspicion); and a person who takes what is not owed him files at 7.",
+ "senses": {
+  "2": [
+   "กินเลี้ยง",
+   "กินบุญ",
+   "กินดอง",
+   "กินแขก",
+   "กินสำรับ",
+   "กินนอน",
+   "กินยุง",
+   "ของกิน",
+   "หากิน",
+   "อยู่กิน",
+   "เก็บกิน",
+   "เกินกิน",
+   "กินข้าวแดง",
+   "กินน้ำตา",
+   "กินตับ",
+   "กินเด็ก",
+   "กินไข่แดง",
+   "กินถั่วดำ"
+  ],
+  "4": [
+   "กินที่"
+  ],
+  "5": [
+   "กินตัว",
+   "หวัดกิน",
+   "ใบ้กิน"
+  ],
+  "6": [
+   "กินเมือง",
+   "กินลม",
+   "กินลูกปืน",
+   "กินเส้น",
+   "กินแหนง",
+   "กินใจ"
+  ],
+  "7": [
+   "เกาะกิน",
+   "ตีกิน",
+   "กินกริบ",
+   "กินแรง"
+  ],
+  "8": [
+   "กินแบ่ง",
+   "กินรวบ"
+  ]
+ }
+}

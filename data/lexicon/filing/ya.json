@@ -1,0 +1,35 @@
+{
+ "head": "ya",
+ "rule": "ยา is a short Indic-looking syllable and the first job on this head is subtraction, not filing: ten of its thirty-five candidates are not ยา at all. What survives divides cleanly. Sense 1 is the substance that treats the body, and it holds the poisons as readily as the cures (ยาพิษ, ยาเบื่อ, ยาสั่ง) because Thai names both by what they are given as, and it holds the tobacco vocabulary (ยาสูบ, ยาเส้น, กล้องยา, ก้นยา) because tobacco entered Thai as a medicinal herb and the RID never moved it out. Sense 3 is ยาเสพติด and takes only the modern street drugs — ยาบ้า, ยาม้า, ยาขยัน, ยาอี — where the word means a narcotic and nothing else. Sense 4 is the chemical laid onto metal, and it takes ลงยา, whose gloss describes enamelling silverware, and ยาขัด, the polish. Sense 10 (with พี่, น้อง, ลูก) and sense 11 (the royal male) stay empty: nothing in this list is kin or royal.",
+ "senses": {
+  "1": [
+   "กล้องยา",
+   "ก้นยา",
+   "ทายา",
+   "ปิดยา",
+   "ป้ายยา",
+   "ฉีดยา",
+   "ยาชา",
+   "ยาสลบ",
+   "ยาสั่ง",
+   "ยาสูบ",
+   "ยาเบื่อ",
+   "ยาเส้น",
+   "ยาโป๊",
+   "ยาพิษ",
+   "ยาไส้",
+   "วางยา",
+   "หยูกยา"
+  ],
+  "3": [
+   "ยาขยัน",
+   "ยาบ้า",
+   "ยาม้า",
+   "ยาอี"
+  ],
+  "4": [
+   "ยาขัด",
+   "ลงยา"
+  ]
+ }
+}

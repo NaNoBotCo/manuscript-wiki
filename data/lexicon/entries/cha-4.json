@@ -1,0 +1,709 @@
+{
+ "id": "w:cha-4",
+ "th": "ช้า",
+ "status": "mapped",
+ "rtgs": "cha",
+ "paiboon": "cháa",
+ "ipa": "/t͡ɕʰaː˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ค่อย ๆ เคลื่อนไป, ไม่เร็ว, ไม่ไว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำกริยาวิเศษณ์, adjective, noun, verb",
+   "pos_th": "คำกริยาวิเศษณ์, คำคุณศัพท์, คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ช้า 'slow'."
+   ],
+   "compounds": [
+    {
+     "th": "ช้านาน",
+     "rtgs": "cha-nan",
+     "ipa": "/t͡ɕʰaː˦˥.naːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ล่วงเลยมานานแล้ว (ใช้แก่เวลา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้า",
+      "นาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "slow + great",
+     "lit_th": "ค่อย ๆ เคลื่อนไป + ยาว"
+    },
+    {
+     "th": "เชื่องช้า",
+     "rtgs": "chueang-cha",
+     "ipa": "/t͡ɕʰɯa̯ŋ˥˩.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อืดอาด, ยืดยาด, ไม่ว่องไว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เชื่อง",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "docile + slow",
+     "lit_th": "ไม่เปรียว + ค่อย ๆ เคลื่อนไป"
+    },
+    {
+     "th": "ช้าก่อน",
+     "rtgs": "cha-kon",
+     "ipa": "/t͡ɕʰaː˦˥.kɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หยุดก่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้า",
+      "ก่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "slow + anterior",
+     "lit_th": "ค่อย ๆ เคลื่อนไป + ใช้บอกลำดับเวลา หมายความว่า เดิม"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ล่า, ไม่ทันเวลาที่กำหนด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำกริยาวิเศษณ์, adjective, noun, verb",
+   "pos_th": "คำกริยาวิเศษณ์, คำคุณศัพท์, คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Slow, and so late.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชักช้า",
+     "rtgs": "chak-cha",
+     "ipa": "/t͡ɕʰak̚˦˥.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โอ้เอ้, ล่าช้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัก",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "ชัก"
+     ],
+     "lit": "draw + slow",
+     "lit_th": "ดึงสายเชือกเป็นต้นที่ผูกอยู่กับสิ่ + ล่า"
+    },
+    {
+     "th": "ล่าช้า",
+     "rtgs": "la-cha",
+     "ipa": "/laː˥˩.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "late",
+       "delay"
+      ],
+      "th": "ช้ามาก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ล่า",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "hunt + slow",
+     "lit_th": "เที่ยวติดตามหา + ล่า"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "หยาบ, ชั่ว, เลว, ทราม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำกริยาวิเศษณ์, adjective, noun, verb",
+   "pos_th": "คำกริยาวิเศษณ์, คำคุณศัพท์, คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ต่ำช้า",
+     "rtgs": "tam-cha",
+     "ipa": "/tam˨˩.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "base"
+      ],
+      "th": "เลวทราม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ต่ำ",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.31, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "low + slow",
+     "lit_th": "มีระดับด้อยหรือน้อยกว่าปรกติ + หยาบ"
+    },
+    {
+     "th": "ชั่วช้า",
+     "rtgs": "chua-cha",
+     "ipa": "/t͡ɕʰua̯˥˩.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เลวทราม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชั่ว",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.26, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "evil + slow",
+     "lit_th": "ระยะ + หยาบ"
+    },
+    {
+     "th": "หยาบช้า",
+     "rtgs": "yap-cha",
+     "ipa": "/jaːp̚˨˩.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต่ำช้า, เลวทราม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หยาบ",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.22, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "coarse + slow",
+     "lit_th": "ไม่ละเอียด + หยาบ"
+    },
+    {
+     "th": "ป่าช้า",
+     "rtgs": "pa-cha",
+     "ipa": "/paː˨˩.t͡ɕʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "grave"
+      ],
+      "th": "ป่าหรือที่ซึ่งจัดไว้เป็นที่ฝังหรือเผาศพ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ป่า",
+      "ช้า"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "forest + slow",
+     "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + หยาบ"
+    }
+   ],
+   "needs_check": [
+    "Declared root: ช้า 'base, vile' — separate."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ชื่อเพลงในบทละคร เรียกว่า เพลงช้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำกริยาวิเศษณ์, adjective, noun, verb",
+   "pos_th": "คำกริยาวิเศษณ์, คำคุณศัพท์, คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "เพลงช้า, the slow tune.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ชื่อเพลงบทละครอื่น ๆ มีชื่อขึ้นต้นด้วยคำว่า ช้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำกริยาวิเศษณ์, adjective, noun, verb",
+   "pos_th": "คำกริยาวิเศษณ์, คำคุณศัพท์, คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "generalisation",
+   "via_note": "And the other songs whose names open with it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ขับ, กล่อม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำกริยาวิเศษณ์, adjective, noun, verb",
+   "pos_th": "คำกริยาวิเศษณ์, คำคุณศัพท์, คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ช้า 'to sing, to lull' — separate."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 39 manuscript titles, 266 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['เคลื่อน', 'ขึ้น', 'ลง', 'ไป'].",
+ "compounds_unassigned": [
+  {
+   "th": "ชิงช้า",
+   "rtgs": "ching-cha",
+   "ipa": "/t͡ɕʰiŋ˧.t͡ɕʰaː˦˥/",
+   "gloss": {
+    "en": [
+     "swing"
+    ],
+    "th": "ที่นั่งผูกด้วยเชือกเป็นต้น 2 ข้าง แขวนตามกิ่งไม้หรือที่สูง สำหรับนั่งหรือยืนไกวไปมา",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ชิง",
+    "ช้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: a swing. The dictionary gives เป็นไปได้ว่ามาจากจีน 韆鞦, Cantonese cin1 cau1 / Hokkien chhian-chhiu — a Chinese borrowing. Hedged as เป็นไปได้ว่า, so probable.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "แข่ง + ค่อย ๆ เคลื่อนไป",
+   "use": "false-split"
+  },
+  {
+   "th": "ความชั่วช้า",
+   "rtgs": "khwam-chua-cha",
+   "ipa": "/kʰwaːm˧.t͡ɕʰua̯˥˩.t͡ɕʰaː˦˥/",
+   "gloss": {
+    "en": [
+     "iniquity"
+    ],
+    "th": "คำอาการนามของ ชั่วช้า",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความชั่ว",
+    "ช้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชั่ว + ค่อย ๆ เคลื่อนไป"
+  },
+  {
+   "th": "ความช้า",
+   "rtgs": "khwam-cha",
+   "ipa": "/kʰwaːm˧.t͡ɕʰaː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ช้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "ช้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit": "-ness + slow",
+   "lit_th": "เรื่อง + ค่อย ๆ เคลื่อนไป"
+  },
+  {
+   "th": "ชะช้า",
+   "rtgs": "cha-cha",
+   "ipa": "/t͡ɕʰa˦˥.t͡ɕʰaː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำที่เปล่งออกมาเมื่อเวลาโกรธหรือไม่ชอบใจเป็นต้น, ชะ ชะชะ หรือ ชัดช้า ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชะ",
+    "ช้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: an exclamation of anger. The gloss lists its variants as ชะ, ชะชะ — it is the interjection ชะ extended, not ช้า 'slow' or 'base'. No etymology stated, so probable.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "cross_listed": [
+    "ชะ"
+   ],
+   "lit": "to rinse + slow",
+   "lit_th": "ล้างหรือทำให้สิ่งที่ติดอยู่หลุดออก + ค่อย ๆ เคลื่อนไป",
+   "use": "false-split"
+  },
+  {
+   "th": "ความหยาบช้า",
+   "rtgs": "khwam-yap-cha",
+   "ipa": "/kʰwaːm˧.jaːp̚˨˩.t͡ɕʰaː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หยาบช้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความหยาบ",
+    "ช้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หยาบ + ค่อย ๆ เคลื่อนไป"
+  },
+  {
+   "th": "ความต่ำช้า",
+   "rtgs": "khwam-tam-cha",
+   "ipa": "/kʰwaːm˧.tam˨˩.t͡ɕʰaː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ต่ำช้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความต่ำ",
+    "ช้า"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ต่ำ + ค่อย ๆ เคลื่อนไป"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับลาว ຊ້າ (ซ้า), คำเมือง ᨩ᩶ᩣ (ช้า); เทียบไทดำ ꪋ꫁ꪱ (จฺ้า, “โง่”) ร่วมเชื้อสายกับคำเมือง ᨩ᩶ᩣ (ช้า), ไทใหญ่ ၸႃႉ (จ๎า)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨩ᩶ᩣ",
+  "th": "ช้า",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha",
+   "label": "ชา",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ช้า is cháa, ชา is chaa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha-2",
+   "label": "ชะ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ช้า is cháa, ชะ is chá — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:cha-3",
+   "label": "จะ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"cha\". ช้า is cháa, จะ is jà — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "slow",
+  "behind"
+ ]
+}

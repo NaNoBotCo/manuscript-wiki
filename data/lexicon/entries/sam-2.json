@@ -1,0 +1,667 @@
+{
+ "id": "w:sam-2",
+ "th": "สำ",
+ "status": "proposed",
+ "rtgs": "sam",
+ "paiboon": "sǎm",
+ "ipa": "/sam˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "jumbled",
+     "tangled",
+     "out of order"
+    ],
+    "th": "ซับซ้อนกัน, ปะปนกัน, ไม่เป็นลำดับ, ไม่เป็นระเบียบ",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "สำส่อน",
+     "rtgs": "sam-son",
+     "ipa": "/sam˩˩˦.sɔn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปะปนโดยไม่เลือกเช่นในการคบค้าสมาคมหรือในการซ่องเสพเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "ส่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "lit_th": "ซับซ้อนกัน + เรียกตาที่มีตาดำอยู่ไม่ตรงที่ตามปร",
+     "frame": "quality"
+    },
+    {
+     "th": "สำเพ็ง",
+     "rtgs": "sam-pheng",
+     "ipa": "/sam˩˩˦.pʰeŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงโสเภณี (ใช้เป็นคำด่า)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "เพ็ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.18",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "lit_th": "ซับซ้อนกัน + คำพ้องความของ เพ็ญ",
+     "frame": "quality"
+    },
+    {
+     "th": "สำลาน",
+     "rtgs": "sam-lan",
+     "ipa": "/sam˩˩˦.laːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สีเหลืองปนแดง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "ลาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาน"
+     ],
+     "lit": "jumbled + open ground",
+     "lit_th": "ซับซ้อนกัน + บริเวณที่ว่าง"
+    },
+    {
+     "th": "สำนอง",
+     "rtgs": "sam-nong",
+     "ipa": "/sam˩˩˦.nɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รับผิดชอบ, ต้องรับใช้แทน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "นอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ซับซ้อนกัน + ค้าง เจิ่ง หรือขังอยู่บนพื้น ใช้แก"
+    },
+    {
+     "th": "สำรับ",
+     "rtgs": "sam-rap",
+     "ipa": "/sam˩˩˦.rap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาชนะเช่นถาดเป็นต้นใส่ถ้วยชามพร้อมบรรจุอาหารคาวหรือหวานเป็นชุด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "รับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "รับ"
+     ],
+     "lit": "jumbled + accept",
+     "lit_th": "ซับซ้อนกัน + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
+    },
+    {
+     "th": "สำฤทธิ์",
+     "rtgs": "sam-rit",
+     "ipa": "/sam˩˩˦.rit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปเลิกใช้ของ สัมฤทธิ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "ฤทธิ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ซับซ้อนกัน + อำนาจศักดิ์สิทธิ์"
+    },
+    {
+     "th": "สำเนียง",
+     "rtgs": "sam-niang",
+     "ipa": "/sam˩˩˦.nia̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียง, น้ำเสียง, หางเสียง, วิธีออกเสียง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "เนียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ซับซ้อนกัน + นาง"
+    },
+    {
+     "th": "สำลัก",
+     "rtgs": "sam-lak",
+     "ipa": "/sam˩˩˦.lak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่เกิดเมื่ออาหารหรือน้ำเข้าไปหลอดลม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "ลัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ซับซ้อนกัน + เอาสิ่งของที่เขาไม่ให้ไปด้วยอาการซ"
+    },
+    {
+     "th": "สำแดง",
+     "rtgs": "sam-daeng",
+     "ipa": "/sam˩˩˦.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "declare"
+      ],
+      "th": "แสดง, ทำให้เห็นปรากฏ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "jumbled + red",
+     "lit_th": "ซับซ้อนกัน + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "สำเนา",
+     "rtgs": "sam-nao",
+     "ipa": "/sam˩˩˦.naw˧/",
+     "gloss": {
+      "en": [
+       "copy",
+       "facsimile"
+      ],
+      "th": "ข้อความหรือภาพเป็นต้นที่ผลิตซ้ำจากต้นแบบหรือต้นฉบับ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "เนา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ซับซ้อนกัน + เย็บห่าง ๆ ด้วยมือพอให้อยู่เป็นแนว"
+    },
+    {
+     "th": "สำราญ",
+     "rtgs": "sam-ran",
+     "ipa": "/sam˩˩˦.raːn˧/",
+     "gloss": {
+      "en": [
+       "enjoy"
+      ],
+      "th": "สุขสบาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "ราญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ซับซ้อนกัน + รบ"
+    },
+    {
+     "th": "สำรอก",
+     "rtgs": "sam-rok",
+     "ipa": "/sam˩˩˦.rɔːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "vomit"
+      ],
+      "th": "ขย้อนเอาสิ่งที่กลืนลงไปในกระเพาะแล้วออกมาทางปาก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "รอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "jumbled + pulley",
+     "lit_th": "ซับซ้อนกัน + เครื่องผ่อนแรงลักษณะคล้ายล้อ มีแกน"
+    },
+    {
+     "th": "สำรวม",
+     "rtgs": "sam-ruam",
+     "ipa": "/sam˩˩˦.rua̯m˧/",
+     "gloss": {
+      "en": [
+       "collect"
+      ],
+      "th": "ระมัดระวัง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สำ",
+      "รวม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "jumbled + convergence",
+     "lit_th": "ซับซ้อนกัน + บวกเข้าด้วยกัน"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 7 manuscript titles, 578 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "สำรอง",
+   "rtgs": "sam-rong",
+   "ipa": "/sam˩˩˦.rɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "reserve"
+    ],
+    "th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Scaphium scaphigerum (Wall. ex G. Don) Guib. et Planch. ในวงศ์ Sterculiaceae ผลแช่น้ำแล้วพองเป็นวุ้น ใช้กินกับ น้ำตาลและใช้ทำยาได้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สำ",
+    "รอง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "biological",
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "รอง"
+   ],
+   "lit": "jumbled + deputy",
+   "lit_th": "ซับซ้อนกัน + รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล"
+  },
+  {
+   "th": "แม่สำ",
+   "rtgs": "mae-sam",
+   "ipa": "/mɛː˥˩.sam˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอศรีสัชนาลัย จังหวัดสุโขทัย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แม่",
+    "สำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "mother + jumbled",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ซับซ้อนกัน"
+  },
+  {
+   "th": "สำลี",
+   "rtgs": "sam-li",
+   "ipa": "/sam˩˩˦.liː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อไม้ต้นขนาดเล็กชนิด Gossypium barbadense L. var. acuminatum (Roxb. ex G. Don) Triana et Planch. ในวงศ์ Malvaceae เมล็ดมีปุยขาวใช้ทอผ้าได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สำ",
+    "ลี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "ลี"
+   ],
+   "lit": "jumbled + to go",
+   "lit_th": "ซับซ้อนกัน + ไป"
+  },
+  {
+   "th": "สำโรง",
+   "rtgs": "sam-rong",
+   "ipa": "/sam˩˩˦.roːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อไม้ต้นชนิด Sterculia foetida L. ในวงศ์ Sterculiaceae ดอกมีกลิ่นเหม็น เมล็ดให้น้ำมัน เรียกว่า น้ำมันลูกไม้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สำ",
+    "โรง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "โรง"
+   ],
+   "lit": "jumbled + shed",
+   "lit_th": "ซับซ้อนกัน + สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ"
+  },
+  {
+   "th": "สำนัก",
+   "rtgs": "sam-nak",
+   "ipa": "/sam˩˩˦.nak̚˦˥/",
+   "gloss": {
+    "en": [
+     "school"
+    ],
+    "th": "ที่อยู่อาศัย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สำ",
+    "นัก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ซับซ้อนกัน + ใช้ประกอบหน้าคำอื่นหมายความว่า ผู้",
+   "use": "false-split"
+  },
+  {
+   "th": "สำนึก",
+   "rtgs": "sam-nuek",
+   "ipa": "/sam˩˩˦.nɯk̚˦˥/",
+   "gloss": {
+    "en": [
+     "accept",
+     "recognise"
+    ],
+    "th": "รู้สึกซาบซึ้ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สำ",
+    "นึก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ซับซ้อนกัน + คิด",
+   "use": "false-split"
+  }
+ ],
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:sam",
+   "label": "สาม",
+   "why": "spelling",
+   "distinction": "Both romanise as \"sam\". สำ is sǎm, สาม is sǎam — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

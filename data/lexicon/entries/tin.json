@@ -1,0 +1,615 @@
+{
+ "id": "w:tin",
+ "th": "ตีน",
+ "status": "mapped",
+ "rtgs": "tin",
+ "paiboon": "dtiin",
+ "ipa": "/tiːn˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "foot"
+    ],
+    "th": "อวัยวะส่วนล่างสุดของคนหรือสัตว์ นับตั้งแต่ใต้ข้อเท้าลงไป สำหรับยืนหรือเดินเป็นต้น",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "สุดตีน",
+     "rtgs": "sut-tin",
+     "ipa": "/sut̚˨˩.tiːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่สุดของที่สุด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุด",
+      "ตีน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "สุด"
+     ],
+     "lit": "far + foot",
+     "lit_th": "สิ้น + อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั"
+    },
+    {
+     "th": "ขี้ตีน",
+     "rtgs": "khi-tin",
+     "ipa": "/kʰiː˥˩.tiːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฝุ่นละอองที่ติดมากับเท้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขี้",
+      "ตีน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขี้"
+     ],
+     "lit": "crap + foot",
+     "lit_th": "กิริยาที่ถ่ายกากอาหารออกทางทวารหนั + อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั"
+    },
+    {
+     "th": "กวนตีน",
+     "rtgs": "kuan-tin",
+     "ipa": "/kua̯n˧.tiːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชวนให้หมั่นไส้จนอยากทำร้าย (เป็นคำไม่สุภาพ)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กวน",
+      "ตีน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "scramble + foot",
+     "lit_th": "รบกวนทำให้เกิดความรำคาญ + อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "โดยปริยายหมายถึงสิ่งอื่นที่มีลักษณะคล้ายคลึงเช่นนั้นหรือส่วนล่างของสิ่งบางอย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตีนจก",
+     "translit_auto": "tinchk",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเชิงซิ่นที่ทอจกลายโดยใช้ขนเม่นควักและใช้ด้ายหรือไหมสอดลาย แล้วนำมาเย็บติดกับซิ่น, เรียกผ้าที่มีเชิงเช่นนั้นว่า ผ้าตีนจก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตีน",
+      "จก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.21, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "โดยปริยายหมายถึงสิ่งอื่นที่มีลักษณ + ฉก"
+    },
+    {
+     "th": "ตีนผี",
+     "rtgs": "tin-phi",
+     "ipa": "/tiːn˧.pʰiː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้ซึ่งอยู่ใต้หางหงส์ สอดอยู่ในช่องว่างระหว่างแปหัวเสากับเชิงกลอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตีน",
+      "ผี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ผี"
+     ],
+     "lit": "foot + spirit",
+     "lit_th": "โดยปริยายหมายถึงสิ่งอื่นที่มีลักษณ + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Anything with a foot's place or shape.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "ชาย, เชิง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตีนโท",
+     "rtgs": "tin-tho",
+     "ipa": "/tiːn˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โรคเท้าช้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตีน",
+      "โท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.30, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "foot + two",
+     "lit_th": "ชาย + สอง"
+    },
+    {
+     "th": "ตีนคู้",
+     "rtgs": "tin-khu",
+     "ipa": "/tiːn˧.kʰuː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปสระดังนี้ “◌ู”",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตีน",
+      "คู้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.25, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชาย + งอเข้า"
+    },
+    {
+     "th": "ปลายตีน",
+     "rtgs": "plai-tin",
+     "ipa": "/plaːj˧.tiːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ด้านปลายเท้าของผู้นอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปลาย",
+      "ตีน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.25, next 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "bottom + foot",
+     "lit_th": "ตอนยอด + ชาย",
+     "frame": "entity"
+    },
+    {
+     "th": "ฝีตีน",
+     "rtgs": "fi-tin",
+     "ipa": "/fiː˩˩˦.tiːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฝีเท้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝี",
+      "ตีน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.29, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "abscess + foot",
+     "lit_th": "โรคจำพวกหนึ่ง เป็นต่อมบวมขึ้นกลัดห + ชาย",
+     "frame": "entity"
+    },
+    {
+     "th": "ตีนเหยียด",
+     "rtgs": "tin-yiat",
+     "ipa": "/tiːn˧.jia̯t̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปสระดังนี้ “◌ุ”",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตีน",
+      "เหยียด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.25, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชาย + ทำสิ่งที่งออยู่ให้ตรง"
+    },
+    {
+     "th": "ตีนแมว",
+     "rtgs": "tin-maeo",
+     "ipa": "/tiːn˧.mɛːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นักย่องเบา, ขโมย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตีน",
+      "แมว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.25, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "foot + cat",
+     "lit_th": "ชาย + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis",
+     "frame": "entity"
+    },
+    {
+     "th": "ถุงตีน",
+     "rtgs": "thung-tin",
+     "ipa": "/tʰuŋ˩˩˦.tiːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถุงเท้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถุง",
+      "ตีน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.28, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "bag + foot",
+     "lit_th": "เครื่องใช้สำหรับใส่สิ่งของ ทำด้วยผ + ชาย",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The foot of a thing: its edge, its skirt.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "(ปลา~) ชื่อปลาน้ำกร่อยในวงศ์ Periophthalmidae ที่ใช้ครีบอกต่างตีน ตาโปนมองเห็นเหนือน้ำได้ดี เช่น ชนิด Periophthalmus barbarus, Boleophthalmus boddarti",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ปลาตีน, the mudskipper, which walks on its fins.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 5 manuscript titles, 2 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['เท้า', 'อวัยวะ', 'ตา', 'อก'].",
+ "compounds_unassigned": [
+  {
+   "th": "ตีนอู",
+   "rtgs": "tin-u",
+   "ipa": "/tiːn˧.ʔuː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ตีนคู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตีน",
+    "อู"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "frame": "entity"
+  },
+  {
+   "th": "โปรตีน",
+   "rtgs": "pro-tin",
+   "ipa": "/proː˧.tiːn˧/",
+   "gloss": {
+    "en": [
+     "protein"
+    ],
+    "th": "สารประกอบอินทรีย์เชิงซ้อนของไนโตรเจน มีโมเลกุลขนาดใหญ่ประกอบด้วยกรดแอมิโนหลายชนิดเชื่อมโยงกัน เป็นสารประกอบที่สำคัญยิ่งต่อสิ่งมีชีวิตทุกชนิดซึ่งจำเป็นต้องใช้เพื่อสร้างเนื้อเยื่อของร่างกาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "โปร",
+    "ตีน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้มีความสามารถในระดับมืออาชีพ + อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ตีนกุ",
+   "rtgs": "tin-ku",
+   "ipa": "/tiːn˧.kuʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ตีนเหยียด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตีน",
+    "กุ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั + สร้างเรื่องที่ทำให้เป็นข่าวขึ้นเอง"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับลาว ປາຕີນ (ปาตีน, “ซาลาแมนเดอร์ชนิด Laotriton laoensis, ปลาตีน”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

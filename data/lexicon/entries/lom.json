@@ -1,0 +1,1049 @@
+{
+ "id": "w:lom",
+ "th": "ลม",
+ "status": "mapped",
+ "rtgs": "lom",
+ "paiboon": "lom",
+ "ipa": "/lom˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่างกาย คือ ดิน น้ำ ไฟ ลม, ถ้าลมในร่างกายแปรปรวนไม่ปรกติจะทำให้เกิดอาการต่าง ๆ ได้ เช่น เป็นลม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เป็นลม",
+     "rtgs": "pen-lom",
+     "ipa": "/pen˧.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีอาการวิงเวียนหน้ามืด บางคราวถึงกับหมดสติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "are + wind",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
+    },
+    {
+     "th": "ประตูลม",
+     "rtgs": "pra-tu-lom",
+     "ipa": "/pra˨˩.tuː˧.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกช่องว่างที่อยู่ระหว่างนิ้วมือนิ้วเท้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ประตู",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "door + wind",
+     "lit_th": "ช่องทางเข้าออกของบ้านเรือนเป็นต้น + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ลมพิษ",
+     "rtgs": "lom-phit",
+     "ipa": "/lom˧.pʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผื่นคันเป็นพิษเห่อขึ้นตามผิวหนัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "พิษ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พิษ"
+     ],
+     "lit": "wind + harm",
+     "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + สิ่งที่ร้ายเป็นอันตรายแก่ร่างกายหร",
+     "frame": "entity"
+    },
+    {
+     "th": "ผายลม",
+     "rtgs": "phai-lom",
+     "ipa": "/pʰaːj˩˩˦.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผาย",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "แผ่กว้างออก + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
+    }
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Moving air named as one of the four elements of the body.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ลมหายใจ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลมหายใจ",
+     "rtgs": "lom-hai-chai",
+     "ipa": "/lom˧.haːj˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "breath"
+      ],
+      "th": "ลมที่ปอดสูบเข้าออกทางจมูกหรือทางปาก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "หายใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "wind + breathe",
+     "lit_th": "ลมหายใจ + กิริยาที่ทำให้อากาศเข้าสู่และออกจา"
+    },
+    {
+     "th": "หลอดลม",
+     "rtgs": "lot-lom",
+     "ipa": "/lɔːt̚˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทางเดินอากาศหายใจส่วนล่าง อยู่ระหว่างท่อลมส่วนอกกับถุงลมปอด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลอด",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "straw + wind",
+     "lit_th": "ของกลมยาวขนาดเล็กที่มีรูตลอด + ลมหายใจ",
+     "frame": "entity"
+    },
+    {
+     "th": "หมดลม",
+     "rtgs": "mot-lom",
+     "ipa": "/mot̚˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขาดใจ, ตาย, สิ้นใจ สิ้นลม หรือ หมดอายุ ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมด",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "all + wind",
+     "lit_th": "สิ้น + ลมหายใจ"
+    },
+    {
+     "th": "สิ้นลม",
+     "rtgs": "sin-lom",
+     "ipa": "/sin˥˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขาดใจ, ตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิ้น",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "สิ้น"
+     ],
+     "lit": "to be exhausted + wind",
+     "lit_th": "หมด + ลมหายใจ"
+    }
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "And the air one moves in and out: breath.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "อากาศที่เคลื่อนที่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ช่องลม",
+     "rtgs": "chong-lom",
+     "ipa": "/t͡ɕʰɔŋ˥˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่องที่เปิดไว้สำหรับระบายอากาศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.17, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช่อง"
+     ],
+     "lit": "hole + wind",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + อากาศที่เคลื่อนที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ลมบ้าหมู",
+     "rtgs": "lom-ba-mu",
+     "ipa": "/lom˧.baː˥˩.muː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลมหมุนที่เกิดในบริเวณแคบ ๆ มีความรุนแรงไม่มากนัก มักหอบเอาของเป็นวงขึ้นไปในอากาศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "บ้าหมู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อากาศที่เคลื่อนที่ + คำพ้องความของ ลมบ้าหมู",
+     "frame": "entity"
+    },
+    {
+     "th": "ห้องลม",
+     "rtgs": "hong-lom",
+     "ipa": "/hɔŋ˥˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่องบรรจุอากาศหรือแก๊สอื่น ซึ่งทำหน้าที่เหมือนสปริง เพื่อรักษาระดับการไหลของของเหลวในเครื่องสูบหรือระบบไฮดรอลิก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้อง",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "room + wind",
+     "lit_th": "ส่วนของเรือนหรือตึกเป็นต้นที่มีฝาก + อากาศที่เคลื่อนที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ติดลม",
+     "rtgs": "tit-lom",
+     "ipa": "/tit̚˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่ว่าวขึ้นไปสูงได้ลมพยุงให้ทรงตัวอยู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ติด"
+     ],
+     "lit": "fit + wind",
+     "lit_th": "อาการที่ข้องอยู่ + อากาศที่เคลื่อนที่"
+    },
+    {
+     "th": "ลมตะวันตก",
+     "rtgs": "lom-ta-wan-tok",
+     "ipa": "/lom˧.ta˨˩.wan˧.tok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลมที่พัดมาจากทิศตะวันตกไปทางทิศตะวันออกในกลางฤดูฝน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "ตะวันตก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อากาศที่เคลื่อนที่ + ทิศที่ดวงอาทิตย์ลับขอบฟ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ลมตะวันออก",
+     "rtgs": "lom-ta-wan-ok",
+     "ipa": "/lom˧.ta˨˩.wan˧.ʔɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลมที่พัดมาจากทิศตะวันออกไปทางทิศตะวันตกในปลายฤดูฝน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "ตะวันออก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อากาศที่เคลื่อนที่ + ทิศที่ดวงอาทิตย์โผล่พ้นขอบฟ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่ลม",
+     "rtgs": "khai-lom",
+     "ipa": "/kʰaj˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ของสัตว์ปีกที่เชื้อตัวผู้ไม่ได้ผสมกับไข่ของตัวเมีย ไม่สามารถฟักให้เป็นตัวได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "egg + wind",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + อากาศที่เคลื่อนที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ลมค้า",
+     "rtgs": "lom-kha",
+     "ipa": "/lom˧.kʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลมซึ่งพัดออกจากบริเวณความกดอากาศสูงกึ่งโซนร้อนไปยังบริเวณความกดอากาศต่ำที่เส้นศูนย์สูตร ในซีกโลกเหนือจะพัดมาจากทิศตะวันออกเฉียงเหนือ ส่วนในซีกโลกใต้จะพัดมาจากทิศตะวันออกเฉียงใต้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "ค้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อากาศที่เคลื่อนที่ + ซื้อขายสินค้าหรือบริการ"
+    },
+    {
+     "th": "อัดลม",
+     "rtgs": "at-lom",
+     "ipa": "/ʔat̚˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อัดแก๊สเข้าไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อัด",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ดันลมเข้าไป + อากาศที่เคลื่อนที่"
+    },
+    {
+     "th": "พกลม",
+     "rtgs": "phok-lom",
+     "ipa": "/pʰok̚˦˥.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหลวไหล, พูดจาไม่จริง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พก",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ริมผ้านุ่งที่ดึงรวบขึ้นมาไขว้ไว้ที + อากาศที่เคลื่อนที่",
+     "frame": "entity"
+    },
+    {
+     "th": "กินลม",
+     "rtgs": "kin-lom",
+     "ipa": "/kin˧.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต้านลม, รับลม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "eat + wind",
+     "lit_th": "เคี้ยว + อากาศที่เคลื่อนที่"
+    },
+    {
+     "th": "ชกลม",
+     "rtgs": "chok-lom",
+     "ipa": "/t͡ɕʰok̚˦˥.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำหมัดแล้วพุ่งออกไป เป็นการออกกำลังกายอย่างหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชก",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "punch + wind",
+     "lit_th": "กำหมัดแล้วพุ่งตรงไปยังที่หมาย + อากาศที่เคลื่อนที่"
+    },
+    {
+     "th": "พัดลม",
+     "rtgs": "phat-lom",
+     "ipa": "/pʰat̚˦˥.lom˧/",
+     "gloss": {
+      "en": [
+       "fan"
+      ],
+      "th": "เครื่องพัดให้เย็นด้วยแรงไฟฟ้าเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พัด",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "fan + wind",
+     "lit_th": "เครื่องโบกหรือกระพือลม + อากาศที่เคลื่อนที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ลมลวง",
+     "rtgs": "lom-luang",
+     "ipa": "/lom˧.lua̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำพูดโกหกหลอกลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "ลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อากาศที่เคลื่อนที่ + ทำให้หลงผิด"
+    }
+   ],
+   "needs_check": [
+    "Declared root: ลม, air in motion — the physical thing, from which the element and the illness follow.",
+    "Declared root: ลม, air in motion — the physical thing, from which the element and the illness follow.",
+    "Declared root: ลม, air in motion — the physical thing, from which the element and the illness follow."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ชื่อโรคชนิดหนึ่ง มีอาการหลายอย่าง เช่น วิงเวียน หน้ามืด คลื่นเหียน, ถ้าอาการรุนแรงอาจถึงแก่สิ้นสติหรือตายได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "บ้านแหลม",
+     "rtgs": "ban-laem",
+     "ipa": "/baːn˥˩.lɛːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเพชรบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้านแห",
+      "ลม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองอ่างทอง จ + ชื่อโรคชนิดหนึ่ง มีอาการหลายอย่าง"
+    },
+    {
+     "th": "ลมแดด",
+     "rtgs": "lom-daet",
+     "ipa": "/lom˧.dɛːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่เป็นลมเพราะโดนแดดจัด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลม",
+      "แดด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อโรคชนิดหนึ่ง มีอาการหลายอย่าง + แสงที่พุ่งจากดวงอาทิตย์ตรงมายังโลก",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The illness read as the wind element out of order — วิงเวียน, หน้ามืด.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 24 manuscript titles, 217 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 28; domain seeded by keyword hits ['คลื่น', 'อากาศ', 'ลม', 'น้ำ'].",
+ "compounds_unassigned": [
+  {
+   "th": "เคลม",
+   "rtgs": "khlem",
+   "ipa": "/kʰleːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรียกร้อง, อ้างสิทธิ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เค",
+    "ลม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ชื่อตัวอักษรในอักษรละติน K/k + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "แหลม",
+   "rtgs": "laem",
+   "ipa": "/lɛːm˩˩˦/",
+   "gloss": {
+    "en": [
+     "tongue",
+     "cape"
+    ],
+    "th": "มีปลายเสี้ยมคม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แห",
+    "ลม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: แหลม is a single inherited morpheme — สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *ʰlɛːmᴬ¹, จากไทดั้งเดิม *ʰleːmᴬ, cognate with Lao ແຫຼມ and คำเมือง ᩉᩖᩯᨾ. The recorded split แห + ลม is an accident of Thai spelling; there is no wind in it.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แห"
+   ],
+   "lit": "net + wind",
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ลมสินค้า",
+   "rtgs": "lom-sin-kha",
+   "ipa": "/lom˧.sin˩˩˦.kʰaː˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ลมค้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลม",
+    "สินค้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "wind + goods",
+   "lit_th": "ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง + สิ่งของที่ซื้อขายกัน",
+   "frame": "entity"
+  },
+  {
+   "th": "การเป็นลม",
+   "rtgs": "kan-pen-lom",
+   "ipa": "/kaːn˧.pen˧.lom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เป็นลม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเป็น",
+    "ลม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เป็น + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *C̬.lɯmᴬ; ร่วมเชื้อสายกับคำเมือง ᩃᩫ᩠ᨾ (ล็ม), ลาว ລົມ (ล็ม), ไทลื้อ ᦟᦳᧄ (ลุม), ไทดำ ꪶꪩꪣ (โลม), ไทใหญ่ လူမ်း (ลู๊ม), พ่าเก လ︀ုံ (ลุํ), อาหม 𑜎𑜤𑜪 (ลุํ), ปู้อี ndumx หรือ rumx, จ้วง rumz; เทียบสุ่ย luml และจีนเก่า 風 (OC *plum)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩃᩫ᩠ᨾ",
+  "th": "ล็ม",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "wind"
+ ]
+}

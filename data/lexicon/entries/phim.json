@@ -1,0 +1,608 @@
+{
+ "id": "w:phim",
+ "th": "พิมพ์",
+ "status": "mapped",
+ "rtgs": "phim",
+ "paiboon": "pim",
+ "ipa": "/pʰim˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "รูป, รูปร่าง, แบบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ถ่ายแบบ, ใช้เครื่องจักรกดตัวหนังสือหรือภาพเป็นต้นให้ติดบนวัตถุ เช่นแผ่นกระดาษ ผ้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สำนักพิมพ์",
+     "rtgs": "sam-nak-phim",
+     "ipa": "/sam˩˩˦.nak̚˦˥.pʰim˧/",
+     "gloss": {
+      "en": [
+       "press",
+       "publisher"
+      ],
+      "th": "สถานที่ดำเนินธุรกิจจัดพิมพ์และจำหน่ายตำราหรือหนังสือ สารคดี นวนิยาย เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สำนัก",
+      "พิมพ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.17, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "school + print",
+     "lit_th": "ที่อยู่อาศัย + ถ่ายแบบ",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องพิมพ์",
+     "rtgs": "khrueang-phim",
+     "ipa": "/kʰrɯa̯ŋ˥˩.pʰim˧/",
+     "gloss": {
+      "en": [
+       "printer"
+      ],
+      "th": "อุปกรณ์คอมพิวเตอร์สำหรับใช้พิมพ์เอกสาร รูปภาพ ลงบนกระดาษหรือสื่ออื่นที่พิมพ์ได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "พิมพ์"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.17, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + print",
+     "lit_th": "สิ่ง + ถ่ายแบบ",
+     "frame": "entity"
+    },
+    {
+     "th": "พิมพ์ดีด",
+     "rtgs": "phim-dit",
+     "ipa": "/pʰim˧.diːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(เครื่อง~) เครื่องพิมพ์ชนิดหนึ่ง ใช้ปลายนิ้วเคาะแป้นอักษรให้ตัวอักษรไปกดผ้าหมึกให้กระทบกระดาษปรากฏเป็นตัวอักษร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พิมพ์",
+      "ดีด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.17, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "print + flick",
+     "lit_th": "ถ่ายแบบ + สะบัดนิ้วออกไปโดยแรงเพื่อให้สิ่งใด",
+     "flips_with": "ดีดพิมพ์"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The mould names the taking of an impression from it: to print.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 524 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 16; domain seeded by keyword hits ['จักร', 'เครื่อง'].",
+ "compounds_unassigned": [
+  {
+   "th": "ตีพิมพ์",
+   "rtgs": "ti-phim",
+   "ipa": "/tiː˧.pʰim˧/",
+   "gloss": {
+    "en": [
+     "issue"
+    ],
+    "th": "พิมพ์หนังสือ, พิมพ์ด้วยแท่นพิมพ์",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ตี",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ตี"
+   ],
+   "lit": "hit + print",
+   "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + รูป"
+  },
+  {
+   "th": "พิมพ์สัมผัส",
+   "rtgs": "phim-sam-phat",
+   "ipa": "/pʰim˧.sam˩˩˦.pʰat̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ใช้ปลายนิ้วมือทั้ง 10 เคาะแป้นอักษรโดยไม่ต้องมองแป้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พิมพ์",
+    "สัมผัส"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "print + touch",
+   "lit_th": "รูป + ถูกต้อง"
+  },
+  {
+   "th": "ดีดพิมพ์",
+   "rtgs": "dit-phim",
+   "ipa": "/diːt̚˨˩.pʰim˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พิมพ์ด้วยเครื่องพิมพ์ดีด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ดีด",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "flick + print",
+   "lit_th": "สะบัดนิ้วออกไปโดยแรงเพื่อให้สิ่งใด + รูป",
+   "flips_with": "พิมพ์ดีด"
+  },
+  {
+   "th": "แม่พิมพ์",
+   "rtgs": "mae-phim",
+   "ipa": "/mɛː˥˩.pʰim˧/",
+   "gloss": {
+    "en": [
+     "form"
+    ],
+    "th": "สิ่งที่เป็นต้นแบบ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แม่",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "mother + print",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "อรพิมพ์",
+   "rtgs": "o-ra-phim",
+   "ipa": "/ʔɔː˧.ra˦˥.pʰim˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอครบุรี จังหวัดนครราชสีมา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อร",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ผู้หญิง + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การดีดพิมพ์",
+   "rtgs": "kan-dit-phim",
+   "ipa": "/kaːn˧.diːt̚˨˩.pʰim˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ดีดพิมพ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การดีด",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "flick + print",
+   "lit_th": "คำอาการนามของ ดีด + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "แป้นพิมพ์",
+   "rtgs": "paen-phim",
+   "ipa": "/pɛn˥˩.pʰim˧/",
+   "gloss": {
+    "en": [
+     "keyboard"
+    ],
+    "th": "คำพ้องความของ คีย์บอร์ด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แป้น",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "กระดานที่มักมีรูปกลมแบน + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "โรงพิมพ์",
+   "rtgs": "rong-phim",
+   "ipa": "/roːŋ˧.pʰim˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สถานที่พิมพ์หนังสือและสิ่งพิมพ์อื่น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โรง",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "โรง"
+   ],
+   "lit": "shed + print",
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "การพิมพ์",
+   "rtgs": "kan-phim",
+   "ipa": "/kaːn˧.pʰim˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ พิมพ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "หนังสือพิมพ์",
+   "rtgs": "nang-sue-phim",
+   "ipa": "/naŋ˩˩˦.sɯː˩˩˦.pʰim˧/",
+   "gloss": {
+    "en": [
+     "paper",
+     "newspaper"
+    ],
+    "th": "สิ่งพิมพ์ข่าวและความเห็นเป็นต้นเสนอประชาชน ตามปรกติออกเป็นรายวัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หนังสือ",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "book + print",
+   "lit_th": "เครื่องหมายใช้ขีดเขียนแทนเสียงหรือ + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "พิมพ์ใจ",
+   "rtgs": "phim-chai",
+   "ipa": "/pʰim˧.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ประทับใจ, ติดตรึงใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พิมพ์",
+    "ใจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "print + heart",
+   "lit_th": "รูป + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+   "frame": "entity"
+  },
+  {
+   "th": "การตีพิมพ์",
+   "rtgs": "kan-ti-phim",
+   "ipa": "/kaːn˧.tiː˧.pʰim˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตีพิมพ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตี",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "drive + print",
+   "lit_th": "คำอาการนามของ ตี + รูป",
+   "frame": "entity"
+  },
+  {
+   "th": "พระพิมพ์",
+   "rtgs": "phra-phim",
+   "ipa": "/pʰra˦˥.pʰim˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พระเครื่องที่สร้างขึ้นตามแบบแม่พิมพ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "พระ",
+    "พิมพ์"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "พระ"
+   ],
+   "lit": "the honorific prefix phra + print",
+   "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + รูป",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต बिम्ब (พิมฺพ) หรือบาลี พิมฺพ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "print"
+ ]
+}

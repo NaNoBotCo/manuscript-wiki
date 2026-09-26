@@ -1,0 +1,10 @@
+{
+ "head": "tai",
+ "rule": "ตาย's chain runs from a death (1) to a body that cannot move (2) to a value that will not change (4), and a compound files by which of those three the word is actually about. Sense 1 keeps everything where something really dies or is killed, the figurative uses included — a friend you would die for, a tree dead on its feet, a finishing blow. Sense 2 takes what is inert or unfeeling: skin, a face, a heart that stops being wary, a syllable whose sound stops. Sense 4, whose member ตายตัว is fixedness itself, takes what is settled and will not shift — a date, a certainty, a card stuck in the hand, a door shut for good. Sense 7 is the bleached intensifier.",
+ "senses": {
+  "1": ["ตายรัง", "ไม้ตาย", "ยืนต้นตาย", "เพื่อนตาย", "จับตาย", "สู้ตาย", "เกี่ยงตาย"],
+  "2": ["ตายด้าน", "หน้าตาย", "ตายใจ", "คำตาย", "เงื่อนตาย"],
+  "4": ["ไพ่ตาย", "เส้นตาย", "ปิดตาย", "ของตาย"],
+  "7": ["จะตาย"]
+ }
+}

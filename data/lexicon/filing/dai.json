@@ -1,0 +1,11 @@
+{
+ "head": "dai",
+ "rule": "ได้ is receiving, and sense 1 keeps every compound where something is actually obtained — a reputation (ได้ชื่อ, ได้หน้า), a perception (ได้ยิน, ได้กลิ่น), an advantage (ได้เปรียบ, ได้ที, ได้ช่อง), a moment (ได้ฤกษ์, ได้ที่), money (รายได้, ได้เสีย) or a swelled head (ได้ใจ). The grammatical senses take only what is grammatical. Sense 3, สามารถ, takes ใช้ได้ — usable. Sense 4, สำเร็จผล, takes ได้ดี. Sense 2, the post-verbal particle whose reading depends on context, was empty and takes the two words where ได้ carries no lexical weight at all: ได้แก่, meaning 'namely', and ได้อีก, 'again'. Sense 6, the past auxiliary, was also empty and takes มิได้, which is that auxiliary negated.",
+ "senses": {
+  "1": ["รายได้","ได้กลิ่น","ได้ช่อง","ได้ชื่อ","ได้ที","ได้ที่","ได้ฤกษ์","ได้ยิน","ได้หน้า","ได้เปรียบ","ได้เสีย","ได้ใจ"],
+  "2": ["ได้อีก","ได้แก่"],
+  "3": ["ใช้ได้"],
+  "4": ["ได้ดี"],
+  "6": ["มิได้"]
+ }
+}

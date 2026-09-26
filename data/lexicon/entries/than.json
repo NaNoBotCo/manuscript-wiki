@@ -1,0 +1,808 @@
+{
+ "id": "w:than",
+ "th": "ทาน",
+ "status": "mapped",
+ "rtgs": "than",
+ "paiboon": "taan",
+ "ipa": "/tʰaːn˧/",
+ "syllable_respelling": "ทา-นะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "การให้, มักใช้ประกอบท้ายคำอื่น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ทาน < Pali dāna 'giving'.",
+    "Declared root: ทาน < Pali dāna 'giving'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "สิ่งที่ให้ มักหมายถึงเงินหรือสิ่งของที่คนให้แก่คนยากจน, เป็นธรรมข้อ 1 ในสังคหวัตถุและทศพิธราชธรรม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขอทาน",
+     "rtgs": "kho-than",
+     "ipa": "/kʰɔː˩˩˦.tʰaːn˧/",
+     "gloss": {
+      "en": [
+       "beggar"
+      ],
+      "th": "ขอเงินหรือสิ่งของเลี้ยงชีวิต",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ทาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.21, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ขอ"
+     ],
+     "lit": "ask + eat",
+     "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + สิ่งที่ให้ มักหมายถึงเงินหรือสิ่งข",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The giving names the thing given.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ยันหรือรับไว้, มักใช้เข้าคู่กับคำ ต้าน เป็น ต้านทาน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ต้านทาน",
+     "rtgs": "tan-than",
+     "ipa": "/taːn˥˩.tʰaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขัดขวาง, ยับยั้ง, ต่อสู้ยันไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้าน",
+      "ทาน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ยันหรือรับไว้เพื่อไม่ให้ล้ำแนวเข้า + ยันหรือรับไว้"
+    }
+   ],
+   "needs_check": [
+    "Declared root: ทาน 'to resist' (ต้านทาน) — separate.",
+    "Declared root: ทาน 'to resist' (ต้านทาน) — separate."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "สอบหนังสือให้ถูกต้องหรือให้ตรงกับต้นฉบับ, ตรวจทาน ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ทาน 'to check against an original' (ตรวจทาน) — separate.",
+    "Declared root: ทาน 'to check against an original' (ตรวจทาน) — separate."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "กิน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ทาน 'to eat', clipped from รับประทาน.",
+    "Declared root: ทาน 'to eat', clipped from รับประทาน."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 236 manuscript titles, 94 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['หนังสือ', 'คำ'].",
+ "compounds_unassigned": [
+  {
+   "th": "การทิ้งทาน",
+   "rtgs": "kan-thing-than",
+   "ipa": "/kaːn˧.tʰiŋ˦˥.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ทิ้งทาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การทิ้ง",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "drop + eat",
+   "lit_th": "คำอาการนามของ ทิ้ง + การให้",
+   "frame": "entity"
+  },
+  {
+   "th": "การประทาน",
+   "rtgs": "kan-pra-than",
+   "ipa": "/kaːn˧.pra˨˩.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ประทาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การประ",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ประ + การให้",
+   "frame": "entity"
+  },
+  {
+   "th": "การโปรยทาน",
+   "rtgs": "kan-proi-than",
+   "ipa": "/kaːn˧.proːj˧.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ โปรยทาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การโปรย",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ โปรย + การให้",
+   "frame": "entity"
+  },
+  {
+   "th": "ทัดทาน",
+   "translit_auto": "thadthan",
+   "ipa": "[tʰät̚˥.tʰä̃ːn˧]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กล่าวหรือแสดงออกเป็นทำนองห้ามหรือท้วงเพื่อให้งดไว้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทัด",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
+  },
+  {
+   "th": "ปาทาน",
+   "rtgs": "pa-than",
+   "ipa": "/paː˧.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรียกแขกเผ่าหนึ่งส่วนใหญ่อยู่ในอัฟกานิสถาน ว่าแขกปาทาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ปา",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ซัดไปด้วยอาการยกแขนขึ้นสูงแล้วเอี้ + การให้"
+  },
+  {
+   "th": "ทนทาน",
+   "rtgs": "thon-than",
+   "ipa": "/tʰon˧.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "durable",
+     "tough"
+    ],
+    "th": "มั่นคง, ไม่เสียหายง่าย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ทน",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "abide + eat",
+   "lit_th": "อดกลั้นได้ + การให้",
+   "flips_with": "ทานทน"
+  },
+  {
+   "th": "โวทาน",
+   "rtgs": "wo-than",
+   "ipa": "/woː˧.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การทำให้สะอาด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โว",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "พูดโอ้อวด + การให้",
+   "use": "false-split"
+  },
+  {
+   "th": "ทานตะวัน",
+   "rtgs": "than-ta-wan",
+   "ipa": "/tʰaːn˧.ta˨˩.wan˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อไม้ล้มลุกชนิด Helianthus annuus L. ในวงศ์ Compositae ช่อดอกกลมใหญ่สีเหลือง ดอกเรียงซ้อนกันเป็นระเบียบ เมล็ดให้น้ำมัน กินได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทาน",
+    "ตะวัน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "biological",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "การให้ + ดวงอาทิตย์",
+   "frame": "entity"
+  },
+  {
+   "th": "สังฆทาน",
+   "rtgs": "sang-kha-than",
+   "ipa": "/saŋ˩˩˦.kʰa˦˥.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทานที่ทายกถวายแก่สงฆ์หรือภิกษุโดยไม่เจาะจงรูปใดรูปหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สังฆ",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ สงฆ์ + การให้",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ทิ้งทาน",
+   "rtgs": "thing-than",
+   "ipa": "/tʰiŋ˦˥.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ให้ทานโดยวิธีหว่านหรือโปรยสตางค์หรือเหรียญ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทิ้ง",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "drop + eat",
+   "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งที่ถืออยู่หลุด + การให้"
+  },
+  {
+   "th": "โปรยทาน",
+   "rtgs": "proi-than",
+   "ipa": "/proːj˧.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ให้ทานโดยวิธีหว่านหรือโปรยสตางค์หรือเหรียญ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โปรย",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ตกลงมาเป็นเม็ด ๆ กระจายทั่วไป + การให้"
+  },
+  {
+   "th": "ความทนทาน",
+   "rtgs": "khwam-thon-than",
+   "ipa": "/kʰwaːm˧.tʰon˧.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ทนทาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความทน",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ทน + การให้",
+   "frame": "entity"
+  },
+  {
+   "th": "ประทาน",
+   "rtgs": "pra-than",
+   "ipa": "/pra˨˩.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "add"
+    ],
+    "th": "ให้ (เจ้านายให้)",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ประ",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + การให้",
+   "use": "false-split"
+  },
+  {
+   "th": "การขอทาน",
+   "rtgs": "kan-kho-than",
+   "ipa": "/kaːn˧.kʰɔː˩˩˦.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขอทาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขอ",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขอ + การให้",
+   "frame": "entity"
+  },
+  {
+   "th": "การต้านทาน",
+   "rtgs": "kan-tan-than",
+   "ipa": "/kaːn˧.taːn˥˩.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ต้านทาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การต้าน",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ต้าน + การให้",
+   "frame": "entity"
+  },
+  {
+   "th": "ทานทน",
+   "rtgs": "than-thon",
+   "ipa": "/tʰaːn˧.tʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มั่นคง, ไม่เสียหายง่าย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ทาน",
+    "ทน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "eat + abide",
+   "lit_th": "การให้ + อดกลั้นได้",
+   "flips_with": "ทนทาน"
+  },
+  {
+   "th": "การทาน",
+   "rtgs": "kan-than",
+   "ipa": "/kaːn˧.tʰaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ทาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + การให้",
+   "frame": "entity"
+  },
+  {
+   "th": "กระยาทาน",
+   "translit_auto": "krayathan",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องบริจาค",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระยา",
+    "ทาน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เครื่อง + การให้",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต दान (ทาน, “การให้, สิ่งที่ให้”) หรือบาลี ทาน (“การให้, สิ่งที่ให้”); ร่วมเชื้อสายกับลาว ທານ (ทาน), คำเมือง ᨴᩤ᩠ᨶ (ทาน), ไทลื้อ ᦑᦱᧃ (ทาน) เทียบลาว ທານ (ทาน) ตัดทอนจาก รับประทาน",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨴᩤ᩠ᨶ",
+  "th": "ทาน",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:than-2",
+   "label": "ฐาน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"than\". ทาน is taan, ฐาน is tǎan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "eat"
+ ]
+}

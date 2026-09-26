@@ -1,0 +1,29 @@
+{
+ "head": "khai",
+ "rule": "ไข่ is the egg (1) and eight things named after it. The test is whether the referent IS an egg. Everything here but one is: the kitchen vocabulary that names an egg by how it is cooked (ไข่ดาว, ไข่เจียว, ไข่ลวก, ไข่กวน, ไข่คน, ไข่ปิ้ง, ไข่ฟู), by what is in it (ไข่แดง), by where it is made (รังไข่), by what is done with it (ไข่ขวัญ, ตั้งไข่, วางไข่) or by what it failed to become (ไข่ข้าว, ไข่ลม) — all sense 1, because these are eggs. The metaphor senses take only compounds whose referent is NOT an egg, and just one of those appears: sense 6 exists for the กล้วยไข่ banana and takes it. Senses 3, 4 and 5 — testicle, a score of zero, a bomb — take nothing here, and ไข่ระเบิด is the trap that shows why: the egg in it is a real fried egg and ระเบิด is only the topping, so it files at 1.",
+ "senses": {
+  "1": [
+   "ไข่ข้าว",
+   "ตั้งไข่",
+   "ไข่กระทะ",
+   "ไข่ขวัญ",
+   "ไข่ลม",
+   "ไข่ปิ้ง",
+   "ไข่หวาน",
+   "ไข่ฟู",
+   "รังไข่",
+   "ไข่เจียว",
+   "ไข่ระเบิด",
+   "ไข่ลวก",
+   "ไข่ลูกสะใภ้",
+   "ไข่กวน",
+   "ไข่คน",
+   "ไข่แดง",
+   "ไข่เต่า",
+   "วางไข่",
+   "ไข่น้ำ",
+   "ไข่ดาว"
+  ],
+  "6": ["กล้วยไข่"]
+ }
+}

@@ -1210,6 +1210,11 @@ ENTITIES = [
     # Lampang animal-marks list (5131) where the elephant is one item in a row.
     ("chang",       "Chang (elephant)",                  2.2, ["khwan cang", "lakkhana cang", "cang phueak", "cang phoek", "cang foek", "cang pong", "cang phong", "cang cet hua", "cang cet ho", "cang sam nga", "cang sam pai", "cang satan", "cang sattanta", "cang satanta", "phanya cang", "satanta", "sattanta", ", cang,"]),
     ("patiloma",    "Paṭiloma (reversal & mirror katha)", 2.2, ["ถอยหลัง", "ปฏิโลม", "อนุโลม", "อิติปิโส", "itipiso"]),
+    # Phanya In = Indra (Sakka). Aliases verified row by row on 2026-09-26: "phanya in"
+    # hits 13 rows, every one a Tamnan/Owat/Tesana of Phanya In (incl. Inthathirat,
+    # Inta lokkahini); "sakkapanha" hits the 5 Sakkapañha Sutta witnesses. Bare
+    # "sakka" is NOT safe (Sakkaban/Sakkati in the Vessantara lists, Munla sakkaya).
+    ("phanya_in",   "Phanya In (Indra) and his net",     1.6, ["phanya in", "sakkapanha"]),
     ("khun_phaen",  "Khun Phaen (epic hero & amulet)",   2.0, ["khun phaen", "khun paen", "khunpaen", "ขุนแผน", "พระขุนแผน", "ขุนช้าง", "khun chang", "พลายแก้ว", "phlai kaeo", "พลายกุมาร", "plai kuman"]),
     ("suep_cata",   "Suep Cata (life-extension rite)",   2.6, ["suep cata", "suep chata", "sup cata", "sueb cata", "sup chata"]),
     ("sut_thon",    "Thon (protective / funerary rite)", 2.2, ["sut thon", "sutthon", "suat thon", "thon tai", "thon phi", "thon khon tai", "thon huean", "thon ban"]),
@@ -1261,6 +1266,7 @@ ENTITY_HOOKS = {
     "ma":          "The horse — what the spirit rides, what the caravan loaded, and the seventh year of the Lanna cycle.",
     "chang":       "The elephant — the six-tusked king of the jataka, the white one that chose Doi Suthep, the khwan rite on the leaf, and the twelfth year of the Lanna cycle.",
     "patiloma":    "Reversal as technique — katha recited backward, and texts and yantra grids built to read the same when they are.",
+    "phanya_in":   "Indra, king of the gods — Sakka of the sutta, giver of Chiang Mai's pillar, and the god whose name hangs on the jewel net.",
     "khun_phaen":  "The seducer-soldier of the Ayutthaya epic, pressed into an amulet — a Buddha's form outside, kuman material within.",
     "suep_cata":   "The rite that lengthens a threatened life when the stars turn against it.",
     "sut_thon":    "Protective and funerary chant, spoken over the house and the dead.",
@@ -3423,6 +3429,7 @@ VOCAB_META = [
     ("ผี", "phi", "ghost / spirit", "beings / objects", None, []),
     ("พราย", "phrai", "prai — spirit of the dead", "beings / objects", None, []),
     ("กุมาร", "kuman", "kuman — child-spirit", "beings / objects", None, []),
+    ("พระอินทร์", "phra-in", "Phra In / Phanya In — Indra, king of the gods (Pali Sakka)", "beings / objects", "phanya_in", ["พระยาอิน", "พยาอิน", "พระยาอินทร์"]),
     ("ขุนแผน", "khun-phaen", "Khun Phaen — epic hero, charm amulet", "beings / objects", "khun_phaen", ["ขุนแผน", "พระขุนแผน"]),
     ("ตะกรุด", "takrut", "takrut — scroll amulet", "beings / objects", None, ["ตะกรุด", "ตระกรุด"]),
     ("ผ้ายันต์", "pha-yan", "yantra cloth", "beings / objects", "yantra", []),
@@ -8485,7 +8492,7 @@ function render(){const d=window.__W,main=document.getElementById('main');main.t
   sr.append(el('span',{className:'sortlab',textContent:'Sort'}));
   const sel=el('select',{className:'wsort'});
   for(const [v,label] of [['photos','Most photographs'],['name','Name (A–Z)'],
-      ['heritage','Heritage first'],['age','Oldest known first'],['near','Nearest to me']]){
+      ['heritage','Heritage first'],['age','Oldest known first'],['near','Nearest to me (straight line)']]){
     const o=el('option',{value:v,textContent:label}); if(v===sortBy)o.selected=true; sel.append(o);}
   sel.onchange=()=>{
     if(sel.value==='near'&&!here){
@@ -8545,7 +8552,7 @@ function render(){const d=window.__W,main=document.getElementById('main');main.t
 
 const SORTNOTE={
   age:'Only 8 temples have a recorded founding date — the rest sort after them, undated.',
-  near:'Distances are computed on your device; your location is never sent anywhere.',
+  near:'Straight-line distance from your device, worked out on your device. The road there can be longer: one-way streets, U-turns, the moat.',
   photos:'Temples with the most freely-licensed photographs first.'};
 function paint(grid){grid.textContent='';const items=visible();
   const note=document.getElementById('heronote');
@@ -8560,7 +8567,7 @@ function paint(grid){grid.textContent='';const items=visible();
     b.append(el('div',{className:'wt'},[w.heritage?el('span',{className:'wbadge',textContent:'Heritage'}):null,document.createTextNode(w.nameRoman||w.name||'(unnamed)')]));
     if(w.name&&w.name!==w.nameRoman)b.append(el('div',{className:'wth',textContent:w.name}));
     const bits=[];if(w.province)bits.push(w.province);
-    const dk=distKm(w); if(dk!=null)bits.push(dk<1?Math.round(dk*1000)+' m away':dk.toFixed(dk<10?1:0)+' km away');
+    const dk=distKm(w); if(dk!=null)bits.push((dk<1?Math.round(dk*1000)+' m':dk.toFixed(dk<10?1:0)+' km')+' straight-line');
     if(w.founded)bits.push('founded '+w.founded);
     if(nphotos(w))bits.push(nphotos(w)+' photo'+(nphotos(w)===1?'':'s'));
     b.append(el('div',{className:'wm',textContent:bits.join(' · ')}));
@@ -9036,6 +9043,23 @@ load();
 #
 # ADDING ONE: append a dict to SIDE_TOOLS. Nothing else needs touching.
 SIDE_TOOLS = [
+    {
+        "name": "Indra's Net, Drawn",
+        "url": "https://nanobotco.github.io/indras-net/",
+        "tag": "buddhist thought \u00b7 mathematics \u00b7 plain-spoken",
+        "blurb": ("A net over Indra's palace with a jewel at every knot, each jewel "
+                  "showing every other. Read sixteen ways \u2014 Huayan, dependent "
+                  "origination, Phra In and the Inthakhin pillar, Leibniz, the "
+                  "Quakers, holograms, small worlds \u2014 and drawn live from the "
+                  "arithmetic of round mirrors. Companion to the "
+                  "<a href=\"/a/entity_phanya_in/\">Phanya In</a> article."),
+        "facts": ["16 readings, each with where its rhyme quits",
+                  "Fazang's mirror room, unfolded and traced",
+                  "every picture computed, most of them live"],
+        "card": "https://nanobotco.github.io/indras-net/card.jpg",
+        "extra": [("Open it", "https://nanobotco.github.io/indras-net/"),
+                  ("The readings", "https://nanobotco.github.io/indras-net/readings/")],
+    },
     {
         "name": "Skip DJT",
         "url": "https://nanobotco.github.io/skipdjt/",

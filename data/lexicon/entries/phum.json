@@ -1,0 +1,1152 @@
+{
+ "id": "w:phum",
+ "th": "ภูมิ",
+ "status": "mapped",
+ "rtgs": "phum",
+ "paiboon": "puum",
+ "ipa": "/pʰuːm˧/",
+ "syllable_respelling": "พู-มิ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "land",
+     "ground"
+    ],
+    "th": "แผ่นดิน, ที่ดิน",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ภูมิศาสตร์",
+     "rtgs": "phu-mi-sat",
+     "ipa": "/pʰuː˧.mi˦˥.saːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "geography"
+      ],
+      "th": "วิชาที่ศึกษาถึงความสัมพันธ์ระหว่างสิ่งแวดล้อมทางธรรมชาติกับสังคมที่ปรากฏในดินแดนต่าง ๆ ของโลก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "ศาสตร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "land + discipline",
+     "lit_th": "แผ่นดิน + ระบบวิชาความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "ปริภูมิ",
+     "rtgs": "pa-ri-phum",
+     "ipa": "/pa˨˩.ri˦˥.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เซตที่มีโครงสร้างบางอย่าง อาจเป็นโครงสร้างแบบเรขาคณิตหรือโครงสร้างแบบอื่นก็ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปริ",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "แย้ม + แผ่นดิน"
+    },
+    {
+     "th": "รณภูมิ",
+     "rtgs": "ron-na-phum",
+     "ipa": "/ron˧.na˦˥.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สนามรบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รณ",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เสียง + แผ่นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "แผนภูมิ",
+     "rtgs": "phaen-phum",
+     "ipa": "/pʰɛːn˩˩˦.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แผนที่ เส้น หรือ ตาราง ที่ทำขึ้นเพื่อแสดงเรื่องใดเรื่องหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แผน",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "plan + land",
+     "lit_th": "สิ่งที่กำหนดถือเป็นแนวดำเนิน + แผ่นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "ภูมิลำเนา",
+     "rtgs": "phum-lam-nao",
+     "ipa": "/pʰuːm˧.lam˧.naw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถิ่นที่อยู่อันเป็นแหล่งสำคัญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "ลำเนา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "แผ่นดิน + แนว",
+     "frame": "entity"
+    },
+    {
+     "th": "ภูมิอากาศ",
+     "rtgs": "phu-mi-a-kat",
+     "ipa": "/pʰuː˧.mi˦˥.ʔaː˧.kaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อากาศประจำถิ่น, ลักษณะอากาศเฉลี่ยของภูมิภาคแห่งใดแห่งหนึ่งในช่วงระยะเวลาหนึ่งซึ่งอาจเป็นเดือน เป็นปี หรือเป็นศตวรรษก็ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "อากาศ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "อากาศ"
+     ],
+     "lit": "land + air",
+     "lit_th": "แผ่นดิน + แก๊สผสมที่ประกอบด้วยไนโตรเจนและออก",
+     "frame": "entity"
+    },
+    {
+     "th": "ภูมิวิทยา",
+     "rtgs": "phu-mi-wit-tha-ya",
+     "ipa": "/pʰuː˧.mi˦˥.wit̚˦˥.tʰa˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ธรณีวิทยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "วิทยา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "วิทยา"
+     ],
+     "lit": "land + knowledge",
+     "lit_th": "แผ่นดิน + ความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "ภูมิประเทศ",
+     "rtgs": "phu-mi-pra-thet",
+     "ipa": "/pʰuː˧.mi˦˥.pra˨˩.tʰeːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "landscape"
+      ],
+      "th": "ลักษณะทางกายภาพและทางธรรมชาติของแผ่นดิน รวมถึงความสูงต่ำของผิวโลก ทะเลสาบ ถนนหนทาง และเมืองต่าง ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "ประเทศ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "land + country",
+     "lit_th": "แผ่นดิน + บ้านเมือง",
+     "frame": "entity"
+    },
+    {
+     "th": "ภูมิภาค",
+     "rtgs": "phu-mi-phak",
+     "ipa": "/pʰuː˧.mi˦˥.pʰaːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "region"
+      ],
+      "th": "หัวเมือง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "ภาค"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "land + sector",
+     "lit_th": "แผ่นดิน + ส่วน",
+     "frame": "entity"
+    },
+    {
+     "th": "ชัยภูมิ",
+     "rtgs": "chai-ya-phum",
+     "ipa": "/t͡ɕʰaj˧.ja˦˥.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำเลที่เหมาะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชัย",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ชัย"
+     ],
+     "lit": "victory + land",
+     "lit_th": "การชนะ + แผ่นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "ภูมิรัฐศาสตร์",
+     "rtgs": "phu-mi-rat-tha-sat",
+     "ipa": "/pʰuː˧.mi˦˥.rat̚˦˥.tʰa˨˩.saːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาในหมวดสังคมศาสตร์สาขาหนึ่ง มีลักษณะคล้ายวิชาภูมิศาสตร์การเมือง แต่เน้นหนักไปทางการเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "รัฐศาสตร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "แผ่นดิน + วิชาว่าด้วยการเมืองและการปกครองประ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "เทวีแห่งโลก เรียกว่า ภูมิ หรือ ภูเทวี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The earth as the goddess of it — ภูเทวี.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "พื้น, ชั้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Ground becomes level, stratum, storey.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ตติยภูมิ",
+     "rtgs": "ta-ti-ya-phum",
+     "ipa": "/ta˨˩.ti˨˩.ja˦˥.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่สาม, ขั้นสาม, ที่ต่อจากทุติยภูมิ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตติย",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "ที่สาม + พื้น"
+    },
+    {
+     "th": "ทุติยภูมิ",
+     "rtgs": "thu-ti-ya-phum",
+     "ipa": "/tʰu˦˥.ti˨˩.ja˦˥.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "secondary"
+      ],
+      "th": "ที่สอง, ขั้นสอง, รอง, ที่ตามมา, ที่ต่อจากปฐมภูมิ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทุติย",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "ที่ 2 + พื้น"
+    },
+    {
+     "th": "อบายภูมิ",
+     "rtgs": "a-bai-ya-phum",
+     "ipa": "/ʔa˨˩.baːj˧.ja˦˥.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภูมิกำเนิดที่ปราศจาก ความเจริญมี ๔ คือนรกเปรตวิสัยอสุรกายภูมิ และกำเนิดเดรัจฉาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อบาย",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ที่ที่ปราศจากความเจริญ + พื้น",
+     "frame": "entity"
+    },
+    {
+     "th": "อุณหภูมิ",
+     "rtgs": "un-ha-phum",
+     "ipa": "/ʔun˧.ha˨˩.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "temperature"
+      ],
+      "th": "ระดับความสูงต่ำของความร้อน นิยมวัดได้ด้วยเครื่องมือที่เรียกว่า เทอร์โมมิเตอร์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อุณห",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ร้อน + พื้น",
+     "frame": "quality"
+    },
+    {
+     "th": "ปฐมภูมิ",
+     "rtgs": "pa-thom-ma-phum",
+     "ipa": "/pa˨˩.tʰom˩˩˦.ma˦˥.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แรก, ขั้นแรก, ดั้งเดิม, เบื้องต้น, พื้นฐาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปฐม",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ประถม + พื้น",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "พื้นเพ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "The ground someone comes from: background, origins.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ภูมิแพ้",
+     "rtgs": "phum-phae",
+     "ipa": "/pʰuːm˧.pʰɛː˦˥/",
+     "gloss": {
+      "en": [
+       "allergy"
+      ],
+      "th": "สภาพที่ร่างกายมีปฏิกิริยาผิดปรกติต่อสิ่งที่ตามธรรมดาเมื่อเข้าสู่ร่างกายคนทั่ว ๆ ไปแล้วจะไม่มีอันตรายใด ๆ จะมีอันตรายก็เฉพาะในคนบางคนที่แพ้สิ่งนั้นเท่านั้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "แพ้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "land + lose",
+     "lit_th": "พื้นเพ + ชนะ"
+    },
+    {
+     "th": "ภูมิคุ้มกัน",
+     "rtgs": "phum-khum-kan",
+     "ipa": "/pʰuːm˧.kʰum˦˥.kan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สภาพที่ร่างกายมีแรงต่อต้านเชื้อโรคที่เข้าสู่ร่างกาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "คุ้มกัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "land + cover",
+     "lit_th": "พื้นเพ + คอยป้องกันให้ปลอดภัย"
+    },
+    {
+     "th": "ภูมิธรรม",
+     "rtgs": "phum-tham",
+     "ipa": "/pʰuːm˧.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พื้นจิตใจที่มีคุณธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "ธรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ธรรม"
+     ],
+     "lit": "land + dharma",
+     "lit_th": "พื้นเพ + คุณความดี",
+     "frame": "entity"
+    },
+    {
+     "th": "เกียรติภูมิ",
+     "rtgs": "kiat-ti-phum",
+     "ipa": "/kia̯t̚˨˩.ti˨˩.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกียรติเพราะความนิยม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกียรติ",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "honor + land",
+     "lit_th": "ชื่อเสียง + พื้นเพ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "ความรู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ภูมิรู้",
+     "rtgs": "phum-ru",
+     "ipa": "/pʰuːm˧.ruː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความรู้, พื้นความรู้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "รู้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.46, next 0.30",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "รู้"
+     ],
+     "lit": "land + know",
+     "lit_th": "ความรู้ + แจ้ง"
+    },
+    {
+     "th": "ภูมิปัญญา",
+     "rtgs": "phum-pan-ya",
+     "ipa": "/pʰuːm˧.pan˧.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พื้นฐานความรู้ความสามารถ, ความคิดที่ชาญฉลาด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "ปัญญา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "land + wit",
+     "lit_th": "ความรู้ + ความรอบรู้",
+     "frame": "entity"
+    }
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "And what that ground has given them: knowledge, attainment.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "สง่า, โอ่โถง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Standing on a level above: dignified, imposing.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ภูมิฐาน",
+     "rtgs": "phum-than",
+     "ipa": "/pʰuːm˧.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สง่าผ่าเผย, โก้หรู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "ฐาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฐาน"
+     ],
+     "lit": "land + bottom",
+     "lit_th": "สง่า + ที่ตั้ง",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 7]"
+    ],
+    "th": "องอาจ, ผึ่งผาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "And in bearing: bold, impressive.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ภูมิใจ",
+     "rtgs": "phum-chai",
+     "ipa": "/pʰuːm˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระหยิ่มใจ, รู้สึกว่ามีเกียรติยศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภูมิ",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "land + heart",
+     "lit_th": "องอาจ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "phum as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 4 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 4 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 4 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "10 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ศรีภูมิ",
+     "rtgs": "si-phum",
+     "ipa": "/siː˩˩˦.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศรี",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ศรี"
+     ],
+     "lit": "splendour + phum as an element in place names",
+     "lit_th": "มิ่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "ไชยภูมิ",
+     "rtgs": "chai-ya-phum",
+     "ipa": "/t͡ɕʰaj˧.ja˦˥.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอไชโย จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไชย",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ดีกว่า + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "วาริชภูมิ",
+     "rtgs": "wa-rit-cha-phum",
+     "ipa": "/waː˧.rit̚˦˥.t͡ɕʰa˦˥.pʰuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสกลนคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาริช",
+      "ภูมิ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "เกิดแต่น้ำ คือ บัว ปลา + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 32 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 28; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "สุวรรณภูมิ",
+   "rtgs": "su-wan-na-phum",
+   "ipa": "/su˨˩.wan˧.na˦˥.pʰuːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดร้อยเอ็ด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สุวรรณ",
+    "ภูมิ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ทอง + แผ่นดิน",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต भूमि (ภูมิ) หรือบาลี ภูมิ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

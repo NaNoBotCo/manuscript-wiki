@@ -1,0 +1,949 @@
+{
+ "id": "w:mak",
+ "th": "หมาก",
+ "status": "mapped",
+ "rtgs": "mak",
+ "paiboon": "màak",
+ "ipa": "/maːk̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "areca palm",
+     "betel nut"
+    ],
+    "th": "ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวงศ์ Palmae โดยเฉพาะชนิด Areca catechuL. ผลมีรสฝาด ใช้เคี้ยวกินกับปูน พลู ซึ่งรวมเรียกว่า กินหมาก และใช้ฟอกหนัง, ผลที่ยังไม่แก่เรียก หมากดิบ, ผลที่แก่จัดเรียก หมากสง, เนื้อหมากที่ฝานบาง ๆ ตากแห้ง ลักษณะคล้ายอีแปะ เรียก หมากอีแปะ, ผลแก่จัดที่เก็บไว้ทั้งเปลือกเพื่อไว้กินนาน ๆ เรียก หมากยับ",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หัวหมาก",
+     "rtgs": "hua-mak",
+     "ipa": "/hua̯˩˩˦.maːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตบางกะปิ กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "หมาก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + areca palm",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+     "frame": "entity"
+    },
+    {
+     "th": "หมากสง",
+     "rtgs": "mak-song",
+     "ipa": "/maːk̚˨˩.soŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมากที่แก่จัด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "สง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง + หย่งให้กระจายตัวหรือยกขึ้นให้น้ำหร"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ผลไม้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หมากปราง",
+     "rtgs": "mak-prang",
+     "ipa": "/maːk̚˨˩.praːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะปราง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "ปราง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผลไม้ + แก้ม",
+     "frame": "entity"
+    },
+    {
+     "th": "หมากขาม",
+     "rtgs": "mak-kham",
+     "ipa": "/maːk̚˨˩.kʰaːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะขาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "ขาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผลไม้ + คร้าม"
+    },
+    {
+     "th": "หมากเขือ",
+     "rtgs": "mak-khuea",
+     "ipa": "/maːk̚˨˩.kʰɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะเขือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "เขือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PRON",
+     "head": 0,
+     "lit_th": "ผลไม้ + พวกมึง"
+    },
+    {
+     "th": "หมากตูม",
+     "rtgs": "mak-tum",
+     "ipa": "/maːk̚˨˩.tuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะตูม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "ตูม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผลไม้ + มะตูม",
+     "frame": "entity"
+    },
+    {
+     "th": "หมากนาว",
+     "rtgs": "mak-nao",
+     "ipa": "/maːk̚˨˩.naːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะนาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "นาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผลไม้ + มะนาว",
+     "frame": "entity"
+    },
+    {
+     "th": "หมากม่วง",
+     "rtgs": "mak-muang",
+     "ipa": "/maːk̚˨˩.mua̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะม่วง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "ม่วง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ม่วง"
+     ],
+     "lit": "areca palm + purple",
+     "lit_th": "ผลไม้ + สีน้ำเงินปนแดง",
+     "frame": "quality"
+    },
+    {
+     "th": "หมากงั่ว",
+     "rtgs": "mak-ngua",
+     "ipa": "/maːk̚˨˩.ŋua̯˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะงั่ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "งั่ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผลไม้ + ลูกชายคนที่ 5",
+     "frame": "entity"
+    },
+    {
+     "th": "หมากพร้าว",
+     "rtgs": "mak-phrao",
+     "ipa": "/maːk̚˨˩.pʰraːw˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะพร้าว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "พร้าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.29, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผลไม้ + มะพร้าว",
+     "frame": "entity"
+    },
+    {
+     "th": "หมากเดื่อ",
+     "rtgs": "mak-duea",
+     "ipa": "/maːk̚˨˩.dɯa̯˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะเดื่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "เดื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.29, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผลไม้ + มะเดื่อ",
+     "frame": "entity"
+    },
+    {
+     "th": "หมากยม",
+     "rtgs": "mak-yom",
+     "ipa": "/maːk̚˨˩.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะยม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "ยม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.31, next 0.20",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผลไม้ + ร้องไห้"
+    },
+    {
+     "th": "หมากกรูด",
+     "rtgs": "mak-krut",
+     "ipa": "/maːk̚˨˩.kruːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะกรูด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "กรูด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผลไม้ + มะกรูด",
+     "frame": "entity"
+    },
+    {
+     "th": "หมากเฟือง",
+     "rtgs": "mak-fueang",
+     "ipa": "/maːk̚˨˩.fɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะเฟือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "เฟือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.29, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "areca palm + gear",
+     "lit_th": "ผลไม้ + มะเฟือง",
+     "frame": "entity"
+    },
+    {
+     "th": "หมากกอก",
+     "rtgs": "mak-kok",
+     "ipa": "/maːk̚˨˩.kɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะกอก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "กอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผลไม้ + ดูดเลือด หนอง หรือลมออกจากร่างกาย"
+    },
+    {
+     "th": "หมากไฟ",
+     "rtgs": "mak-fai",
+     "ipa": "/maːk̚˨˩.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มะไฟ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "ไฟ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.31, next 0.20",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "areca palm + fire",
+     "lit_th": "ผลไม้ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The areca widened to fruit generally — as it still is in the north.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "เรียกสิ่งของที่เป็นหน่วยเป็นลูก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หมากรุก",
+     "rtgs": "mak-ruk",
+     "ipa": "/maːk̚˨˩.ruk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การเล่นชนิดหนึ่ง ใช้ตัวหมากซึ่งมีรูปและชื่อต่างกันได้แก่ ขุน เรือ ม้า โคน เม็ด และเบี้ย (หมากรุกไทย) เดินบนกระดานสี่เหลี่ยมจัตุรัสแบ่งเป็น 64 ตาเท่า ๆ กันเรียกว่า กระดานหมากรุก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "รุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "เรียกสิ่งของที่เป็นหน่วยเป็นลูก + ล่วงล้ำเข้าไปในเขตแดนของผู้อื่น"
+    },
+    {
+     "th": "หมากเก็บ",
+     "rtgs": "mak-kep",
+     "ipa": "/maːk̚˨˩.kep̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การเล่นของเด็กใช้เม็ดกรวดหรือลูกไม้โยนแล้วเก็บ มีวิธีการเล่นและกติกาต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาก",
+      "เก็บ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เก็บ"
+     ],
+     "lit": "areca palm + keep",
+     "lit_th": "เรียกสิ่งของที่เป็นหน่วยเป็นลูก + เอาไปหรือเอามาจากที่"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And a unit for counting round things.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 11 manuscript titles, 296 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits ['ลูก', 'วงศ์', 'ตา'].",
+ "compounds_unassigned": [
+  {
+   "th": "เดินหมาก",
+   "rtgs": "doen-mak",
+   "ipa": "/dɤːn˧.maːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดำเนินการหรือเคลื่อนไหวอย่างมีแผน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เดิน",
+    "หมาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "walk + areca palm",
+   "lit_th": "ยกเท้าก้าวไป + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง"
+  },
+  {
+   "th": "เชี่ยนหมาก",
+   "translit_auto": "cheiynhmak",
+   "ipa": "[t͡ɕʰi(ː)ä̃n˥˩.mäːk̚˨˩]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาชนะสำหรับใส่เครื่องหมากพลู",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เชี่ยน",
+    "หมาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ภาชนะสำหรับใส่เครื่องหมากพลู + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+   "frame": "entity"
+  },
+  {
+   "th": "ข้าวหมาก",
+   "rtgs": "khao-mak",
+   "ipa": "/kʰaːw˥˩.maːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของกินอย่างหนึ่ง ทำด้วยข้าวเหนียวนึ่งแล้วหมักกับแป้งเชื้อ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ข้าว",
+    "หมาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ข้าว"
+   ],
+   "lit": "rice + areca palm",
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+   "frame": "entity"
+  },
+  {
+   "th": "หมากล้อม",
+   "rtgs": "mak-lom",
+   "ipa": "/maːk̚˨˩.lɔːm˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หมากกระดานชนิดหนึ่ง มีตัวหมากเป็นเม็ดกลมสีขาวกับดำ กติกาคือผลัดกันวางหมากให้ล้อมพื้นที่ว่างบนกระดาน ให้ได้ดินแดนของตนมากกว่าคู่ต่อสู้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หมาก",
+    "ล้อม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "areca palm + gird",
+   "lit_th": "ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง + โอบเป็นวงโดยรอบ"
+  },
+  {
+   "th": "การแก้หมาก",
+   "rtgs": "kan-kae-mak",
+   "ipa": "/kaːn˧.kɛː˥˩.maːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แก้หมาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแก้",
+    "หมาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แก้ + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+   "frame": "entity"
+  },
+  {
+   "th": "วางหมาก",
+   "rtgs": "wang-mak",
+   "ipa": "/waːŋ˧.maːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กำหนดตัวบุคคลให้เหมาะแก่งานเพื่อให้ได้ผลตามแผนการที่กำหนดไว้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วาง",
+    "หมาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "วาง"
+   ],
+   "lit": "put + areca palm",
+   "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง"
+  },
+  {
+   "th": "การวางหมาก",
+   "rtgs": "kan-wang-mak",
+   "ipa": "/kaːn˧.waːŋ˧.maːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ วางหมาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การวาง",
+    "หมาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "lie + areca palm",
+   "lit_th": "คำอาการนามของ วาง + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+   "frame": "entity"
+  },
+  {
+   "th": "แก้หมาก",
+   "rtgs": "kae-mak",
+   "ipa": "/kɛː˥˩.maːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แก้อุบายของอีกฝ่ายหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก้",
+    "หมาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "แก้"
+   ],
+   "lit": "cowrie shell used to burnish cloth + areca palm",
+   "lit_th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+   "frame": "entity"
+  },
+  {
+   "th": "การเดินหมาก",
+   "rtgs": "kan-doen-mak",
+   "ipa": "/kaːn˧.dɤːn˧.maːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เดินหมาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเดิน",
+    "หมาก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "walking + areca palm",
+   "lit_th": "คำอาการนามของ เดิน + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ʰmaːkᴰ (“ผลไม้”); ร่วมเชื้อสายกับปักษ์ใต้ ม๊าก, ลาว ໝາກ (หมาก), ไทลื้อ ᦖᦱᧅ (หมาก), ไทดำ ꪢꪱꪀ (หมาก), ไทใหญ่ မၢၵ်ႇ (ม่าก), จ้วง mak; เทียบเบดั้งเดิม *maːkᴰ²",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

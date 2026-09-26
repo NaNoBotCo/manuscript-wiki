@@ -1,0 +1,5 @@
+{
+ "head": "ke",
+ "rule": "**Eleven of twelve were never เก.** This is the most lopsided head yet, and the reason is structural: เก is a single short syllable with an extremely common onset, so the splitter finds it at the front of monosyllables that merely begin เก- (เกลา, เกลื้อ, เกริน, เกล้า, เกลือ), at the front of Indic hair-words (เกสา, เกศี, เกสี < Sanskrit keśa), and inside whole borrowings (ลิเก and ยี่เก from Persian zikr, สาเก from Tamil). Exactly one survives: **เกทับ**, which the dictionary confirms as เก + ทับ, and it files under sense 4 — the betting sense, raising a stake to show you hold the better hand. Senses 1-3, the crookedness and unruliness that make up most of this head's meaning, take nothing at all.",
+ "senses": {"4": ["เกทับ"]}
+}

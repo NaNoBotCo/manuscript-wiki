@@ -1,0 +1,11 @@
+{
+ "head": "mun",
+ "rule": "มูล is two words at least: a root or base (1-5) and dung (6-7). The dung senses are unambiguous — มูลโค and มูลกระบือ, both marked คำสุภาพ, at sense 6, and มูลดิน, a mound of earth, at sense 7, which generalises dung to the leavings of anything. On the root side, sense 2 (ราก, รากเหง้า) was empty and takes มูลฐาน, the fundamental, and คำมูล, a word with no parts. Sense 3, เค้า, is the basis one reasons from and takes ข้อมูล, data. Sense 5, ทั้งหมด, takes พร้อมมูล, complete. The dictionary confirms the splits for ข้อมูล and พร้อมมูล; ประมูล it removes entirely.",
+ "senses": {
+  "2": ["คำมูล","มูลฐาน"],
+  "3": ["ข้อมูล"],
+  "5": ["พร้อมมูล"],
+  "6": ["มูลกระบือ","มูลโค"],
+  "7": ["มูลดิน"]
+ }
+}

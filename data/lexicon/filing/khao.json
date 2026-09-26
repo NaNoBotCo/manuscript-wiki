@@ -1,0 +1,51 @@
+{
+ "head": "khao",
+ "rule": "ข้าว divides at the pot. Sense 1 is the plant and its seed, and it takes the grain in every state up to cooking — standing in the field (ข้าวเบา, ข้าวหนัก, ข้าวต้อง, นาบข้าว, เกี่ยวข้าว, ขวัญข้าว), husked, milled, pounded, popped or roasted (ข้าวเปลือก, ข้าวกล้อง, ข้าวสาร, ข้าวเบือ, ข้าวคั่ว, ข้าวตอก), and the grain as goods (เก็บข้าว, กากข้าว). Sense 1's RID gloss says หลายชนิดหลายสกุลในวงศ์ Gramineae — many species and genera of the grass family — so the other grasses named ข้าว file there too, which is where ข้าวโภชน์, the retired spelling of maize, belongs. Sense 2 is อาหาร, and it begins the moment the grain becomes a meal: every named dish (ข้าวผัด, ข้าวหมก, ข้าวต้ม, ข้าวหมูกรอบ, ข้าวจี่, ข้าวหลาม), the states of cooked rice (ข้าวสวย, ข้าวสุก, ข้าวตาก, ข้าวเปียก), what is carried or poured off it (ก่องข้าว, น้ำข้าว, ตาน้ำข้าว), the royal register (ข้าวเสวย), the offering (ข้าวขวัญ, ไข่ข้าว) and the dvandva ข้าวของ, where ข้าว is the household's food and ของ everything else. Sense 3, a year of age, takes none of these — it counts harvests, and no compound in this list counts anything.",
+ "senses": {
+  "1": [
+   "กากข้าว",
+   "ขวัญข้าว",
+   "ข้าวกล้อง",
+   "ข้าวคั่ว",
+   "ข้าวตอก",
+   "ข้าวบิณฑ์",
+   "ข้าวปลูก",
+   "ข้าวมันปู",
+   "ข้าวสาร",
+   "ข้าวหนัก",
+   "ข้าวเบา",
+   "ข้าวเบือ",
+   "ข้าวเปลือก",
+   "ข้าวแดง",
+   "ข้าวโภชน์",
+   "ข้าวต้อง",
+   "นาบข้าว",
+   "เก็บข้าว",
+   "เกี่ยวข้าว"
+  ],
+  "2": [
+   "ก่องข้าว",
+   "ข้าวขวัญ",
+   "ข้าวของ",
+   "ข้าวจี่",
+   "ข้าวตาก",
+   "ข้าวต้ม",
+   "ข้าวปั้น",
+   "ข้าวผัด",
+   "ข้าวมัน",
+   "ข้าวสวย",
+   "ข้าวสุก",
+   "ข้าวหมก",
+   "ข้าวหมาก",
+   "ข้าวหมูกรอบ",
+   "ข้าวหลาม",
+   "ข้าวอบ",
+   "ข้าวเปียก",
+   "ข้าวเสวย",
+   "ข้าวแขก",
+   "ตาน้ำข้าว",
+   "น้ำข้าว",
+   "ไข่ข้าว"
+  ]
+ }
+}

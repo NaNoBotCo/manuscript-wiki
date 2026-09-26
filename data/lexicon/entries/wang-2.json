@@ -1,0 +1,957 @@
+{
+ "id": "w:wang-2",
+ "th": "วาง",
+ "status": "mapped",
+ "rtgs": "wang",
+ "paiboon": "waang",
+ "ipa": "/waːŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ่าเป็นต้นด้วยอาการกิริยาต่าง ๆ ตามที่ต้องการ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "วางตัว",
+     "rtgs": "wang-tua",
+     "ipa": "/waːŋ˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประพฤติตน, ปฏิบัติตน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "put + form",
+     "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ + รูป"
+    },
+    {
+     "th": "วางไข่",
+     "rtgs": "wang-khai",
+     "ipa": "/waːŋ˧.kʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออกไข่ (ใช้กับสัตว์)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "ไข่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "put + egg",
+     "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ + ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ"
+    },
+    {
+     "th": "วางหน้า",
+     "rtgs": "wang-na",
+     "ipa": "/waːŋ˧.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตีหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "put + before",
+     "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา"
+    },
+    {
+     "th": "วางท่า",
+     "rtgs": "wang-tha",
+     "ipa": "/waːŋ˧.tʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำท่าไว้ยศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "ท่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "put + landing",
+     "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "กำหนด, ตั้ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Setting a rule down: to lay down, to fix.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "วางหมาก",
+     "rtgs": "wang-mak",
+     "ipa": "/waːŋ˧.maːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำหนดตัวบุคคลให้เหมาะแก่งานเพื่อให้ได้ผลตามแผนการที่กำหนดไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "หมาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "หมาก"
+     ],
+     "lit": "put + areca palm",
+     "lit_th": "กำหนด + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง"
+    },
+    {
+     "th": "วางแผน",
+     "rtgs": "wang-phaen",
+     "ipa": "/waːŋ˧.pʰɛːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "plan",
+       "frame",
+       "plot"
+      ],
+      "th": "กะกำหนดแผนหรือโครงการที่จะดำเนินการต่อไป, วางแผนการ ก็ว่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "แผน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "put + plan",
+     "lit_th": "กำหนด + สิ่งที่กำหนดถือเป็นแนวดำเนิน"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "จัดเข้าประจำที่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Setting things into their places: to arrange.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "วางข่าย",
+     "translit_auto": "wangkhay",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ขึงตาข่ายดักสัตว์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "ข่าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "จัดเข้าประจำที่ + เครื่องดักสัตว์ชนิดหนึ่ง ถักเป็นตา"
+    },
+    {
+     "th": "วางอวน",
+     "translit_auto": "wangown",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ตีอวน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "อวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "จัดเข้าประจำที่ + ชื่อเครื่องจับปลา มีหลายชนิด ถักเป"
+    },
+    {
+     "th": "วางเบ็ด",
+     "translit_auto": "wangbet",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ตกปลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "เบ็ด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "จัดเข้าประจำที่ + เครื่องมือสำหรับตกปลา หรือ กุ้ง รู"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ปล่อยวาง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ปล่อยวาง",
+     "rtgs": "ploi-wang",
+     "ipa": "/plɔj˨˩.waːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พิจารณาจนเห็นจริงแล้วปล่อยไปตามสภาพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปล่อย",
+      "วาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "let + put",
+     "lit_th": "ทำให้ออกจากสิ่งที่ติดอยู่ ผูกอยู่ + ปล่อยวาง"
+    },
+    {
+     "th": "วางใจ",
+     "rtgs": "wang-chai",
+     "ipa": "/waːŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เชื่อใจ, ไว้ใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "put + heart",
+     "lit_th": "ปล่อยวาง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    },
+    {
+     "th": "วางวาย",
+     "rtgs": "wang-wai",
+     "ipa": "/waːŋ˧.waːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "วาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ปล่อยวาง + ค่อยสิ้นไปตามคราวหรือกำหนดอายุเวลา",
+     "flips_with": "วายวาง"
+    },
+    {
+     "th": "วายวาง",
+     "rtgs": "wai-wang",
+     "ipa": "/waːj˧.waːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาย",
+      "วาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ค่อยสิ้นไปตามคราวหรือกำหนดอายุเวลา + ปล่อยวาง",
+     "flips_with": "วางวาย"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Setting a thing down and leaving it: to let go.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ปล่อยด้วยการขบ กัด หรือต่อยเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Releasing by bite or sting.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ปล่อยเข้าสู่, ใช้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "วางยา",
+     "rtgs": "wang-ya",
+     "ipa": "/waːŋ˧.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ให้กินยาเพื่อรักษาโรค",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "ยา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "put + medicine",
+     "lit_th": "ปล่อยเข้าสู่ + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ"
+    }
+   ],
+   "extends": 4,
+   "via": "generalisation",
+   "via_note": "Releasing into something: to apply, to put in.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ยิง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "Loosing a shot: to fire.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "อาการที่เคลื่อนไปโดยรีบร้อน, ปล่อยออกไป, พุ่งออกไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Loosed and running: to dash, to bolt.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "วางมวย",
+     "rtgs": "wang-muai",
+     "ipa": "/waːŋ˧.mua̯j˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชกต่อยวิวาทกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "มวย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "put + bun",
+     "lit_th": "อาการที่เคลื่อนไปโดยรีบร้อน + การชกกันด้วยหมัดเป็นต้น"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 10 manuscript titles, 58 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits ['เคลื่อน', 'เข้า', 'ออก', 'ไป'].",
+ "compounds_unassigned": [
+  {
+   "th": "การปล่อยวาง",
+   "rtgs": "kan-ploi-wang",
+   "ipa": "/kaːn˧.plɔj˨˩.waːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ปล่อยวาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การปล่อย",
+    "วาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "drop + put",
+   "lit_th": "คำอาการนามของ ปล่อย + ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ"
+  },
+  {
+   "th": "แม่วาง",
+   "rtgs": "mae-wang",
+   "ipa": "/mɛː˥˩.waːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงใหม่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แม่",
+    "วาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "mother + put",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ"
+  },
+  {
+   "th": "การวาง",
+   "rtgs": "kan-wang",
+   "ipa": "/kaːn˧.waːŋ˧/",
+   "gloss": {
+    "en": [
+     "lie"
+    ],
+    "th": "คำอาการนามของ วาง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "วาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ"
+  },
+  {
+   "th": "จางวาง",
+   "rtgs": "chang-wang",
+   "ipa": "/t͡ɕaːŋ˧.waːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตำแหน่งข้าราชการชั้นสูงกว่าเจ้ากรมที่มิใช่กรมเสนาบดี ทำหน้าที่เป็นที่ปรึกษา กำกับดูแลกรมนั้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จาง",
+    "วาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit": "aquamarine + put",
+   "lit_th": "น้อยไป + ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ",
+   "frame": "quality"
+  },
+  {
+   "th": "หูกวาง",
+   "rtgs": "hu-kwang",
+   "ipa": "/huː˩˩˦.kwaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อไม้ต้นชนิด Terminalia catappa L. ในวงศ์ Combretaceae ใบใหญ่ แตกกิ่งเป็นชั้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หูก",
+    "วาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: split at the wrong boundary. The dictionary gives หู + กวาง — a deer's ear, the tree Terminalia catappa named for its leaf shape. กวาง is inherited Proto-Tai *kwɯəŋᴬ. There is no วาง in it.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "หู"
+   ],
+   "lit_th": "เครื่องทอแบบพื้นเมือง + ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ"
+  },
+  {
+   "th": "ระวาง",
+   "rtgs": "ra-wang",
+   "ipa": "/ra˦˥.waːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทำเนียบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ระ",
+    "วาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "กระทบเรียดไป + ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *waːŋᴬ⁴; ร่วมเชื้อสายกับคำเมือง ᩅᩤ᩠ᨦ (วาง), ลาว ວາງ (วาง), ไทลื้อ ᦞᦱᧂ (วาง), ไทดำ ꪫꪱꪉ (วาง), ไทใหญ่ ဝၢင်း (ว๊าง), ไทใต้คง ᥝᥣᥒᥰ (ว๊าง), อาหม 𑜈𑜂𑜫 (บง์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩅᩤ᩠ᨦ",
+  "th": "วาง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:wang",
+   "label": "วัง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"wang\". วาง is waang, วัง is wang — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "put",
+  "lay",
+  "release"
+ ]
+}

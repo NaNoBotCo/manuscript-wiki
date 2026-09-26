@@ -1,0 +1,9 @@
+{
+ "head": "bot",
+ "rule": "บท is a passage of text, and sense 1 takes almost everything written or taught — บทความ, บทเรียน, แม่บท, ธรรมบท, ทฤษฎีบท, บุพบท. Sense 2, the metrical stanza, takes the two prosodic forms กลบท and บทดอกสร้อย. **บทบาท goes to sense 6, the FOOT**, which is the head's actual core and easy to miss: the dictionary splits it บท + บาท, and both morphemes mean foot — a synonym compound, and a role is what you do with your feet on a stage. Sense 6's other occupant, บทกลอน, sits there for the same reason.",
+ "senses": {
+  "1": ["ทฤษฎีบท","ธรรมบท","บทความ","บทเรียน","บุพบท","แม่บท"],
+  "2": ["กลบท","บทดอกสร้อย"],
+  "6": ["บทบาท"]
+ }
+}

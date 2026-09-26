@@ -1,0 +1,888 @@
+{
+ "id": "w:chong",
+ "th": "ช่อง",
+ "status": "mapped",
+ "rtgs": "chong",
+ "paiboon": "chɔ̂ng",
+ "ipa": "/t͡ɕʰɔŋ˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ที่ว่างซึ่งเป็นทางเข้าออกได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ช่องเขา",
+     "rtgs": "chong-khao",
+     "ipa": "/t͡ɕʰɔŋ˥˩.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เส้นทางที่ใช้เป็นทางข้ามทิวเขาจากด้านหนึ่งไปยังอีกด้านหนึ่ง, ช่องที่อยู่ในระหว่างเขา 2 ลูก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "เขา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เขา"
+     ],
+     "lit": "hole + mountain",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
+    },
+    {
+     "th": "ช่องลม",
+     "rtgs": "chong-lom",
+     "ipa": "/t͡ɕʰɔŋ˥˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่องที่เปิดไว้สำหรับระบายอากาศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "ลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลม"
+     ],
+     "lit": "hole + wind",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ช่องท้อง",
+     "rtgs": "chong-thong",
+     "ipa": "/t͡ɕʰɔŋ˥˩.tʰɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "abdomen"
+      ],
+      "th": "ส่วนของร่างกายที่อยู่ถัดจากส่วนอก (thorax) ลงมาถึงบริเวณต้นขา ภายในมีอวัยวะเกี่ยวกับการย่อยอาหาร เช่น กระเพาะอาหาร ตับ ลำไส้เล็ก ลำไส้ใหญ่ เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "ท้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ท้อง"
+     ],
+     "lit": "hole + carry",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น",
+     "frame": "entity"
+    },
+    {
+     "th": "ลอดช่อง",
+     "rtgs": "lot-chong",
+     "ipa": "/lɔːt̚˥˩.t͡ɕʰɔŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อขนมอย่างหนึ่งทำด้วยแป้งข้าวเจ้ากวนพอสุก กดลงในกะโหลกที่มีรูให้ไหลออกเป็นตัว ๆ หัวท้ายแหลม กินกับน้ำกะทิ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลอด",
+      "ช่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "escape + hole",
+     "lit_th": "ผ่านเข้าไปในช่อง หรือใต้สิ่งที่มีพ + ที่ว่างซึ่งเป็นทางเข้าออกได้"
+    },
+    {
+     "th": "ช่องโหว่",
+     "rtgs": "chong-wo",
+     "ipa": "/t͡ɕʰɔŋ˥˩.woː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนที่ไม่ครบถ้วนสมบูรณ์, จุดอ่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "โหว่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + เป็นช่องกลวงเข้าไป",
+     "frame": "quality"
+    },
+    {
+     "th": "ช่องคอ",
+     "rtgs": "chong-kho",
+     "ipa": "/t͡ɕʰɔŋ˥˩.kʰɔː˧/",
+     "gloss": {
+      "en": [
+       "throat"
+      ],
+      "th": "โพรงที่หุ้มด้วยเยื่อ อยู่หลังจมูกกับปากและเชื่อมต่ออวัยวะทั้งสองนี้กับหลอดอาหาร",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "คอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คอ"
+     ],
+     "lit": "hole + neck",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ส่วนของร่างกายที่ต่อศีรษะกับตัว",
+     "frame": "entity"
+    },
+    {
+     "th": "ช่องคลอด",
+     "rtgs": "chong-khlot",
+     "ipa": "/t͡ɕʰɔŋ˥˩.kʰlɔːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "walls"
+      ],
+      "th": "ส่วนของอวัยวะสืบพันธุ์ของเพศหญิง เป็นช่องที่ต่อมาจากปากมดลูก และเป็นทางที่ทารกคลอดออกมา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "คลอด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "hole + deliver",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ออกลูก"
+    },
+    {
+     "th": "ช่องแคบ",
+     "rtgs": "chong-khaep",
+     "ipa": "/t͡ɕʰɔŋ˥˩.kʰɛːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "channel"
+      ],
+      "th": "ทางน้ำยาวที่อยู่ระหว่างแผ่นดินหรือเกาะ เชื่อมต่อทะเลทั้ง 2 ข้าง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "แคบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "hole + narrow",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + มีส่วนกว้างน้อย",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ที่ว่างซึ่งเป็นที่กำหนดเฉพาะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ช่องว่าง",
+     "rtgs": "chong-wang",
+     "ipa": "/t͡ɕʰɔŋ˥˩.waːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "hole",
+       "gap",
+       "blank"
+      ],
+      "th": "พื้นที่ว่างในระหว่างที่กั้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "ว่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.21",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "hole + empty",
+     "lit_th": "ที่ว่างซึ่งเป็นที่กำหนดเฉพาะ + เปล่า",
+     "frame": "quality"
+    },
+    {
+     "th": "ช่องไฟ",
+     "rtgs": "chong-fai",
+     "ipa": "/t͡ɕʰɔŋ˥˩.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่องขนาดย่อม ๆ และตื้นที่ทำไว้บนฝาผนังหรือกำแพง สำหรับตั้งเครื่องตามไฟให้แสงสว่างเวลากลางคืน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "ไฟ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "hole + fire",
+     "lit_th": "ที่ว่างซึ่งเป็นที่กำหนดเฉพาะ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    },
+    {
+     "th": "การ์ตูนช่อง",
+     "rtgs": "ka-tun-chong",
+     "ipa": "/kaː˧.tuːn˧.t͡ɕʰɔŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทัศนศิลป์รูปแบบหนึ่งที่ประกอบด้วยรูปภาพที่จัดเป็นช่อง ๆ และข้อความที่อยู่ในบัลลูนคำพูดหรือเป็นคำบรรยายภาพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "การ์ตูน",
+      "ช่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "cartoon + hole",
+     "lit_th": "ภาพล้อ + ที่ว่างซึ่งเป็นที่กำหนดเฉพาะ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "An opening set aside for a purpose: a slot, a lane.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ย่านความถี่ที่ใช้สัญญาณภาพและเสียงที่กำหนดไว้ต่าง ๆ กันตามมาตรฐานการส่งกระจายเสียงวิทยุโทรทัศน์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "A band of frequency held open for a signal.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "คำเรียกสถานีโทรทัศน์แต่ละสถานี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "And the station that broadcasts on it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "โอกาส, ช่องทาง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ช่องทาง",
+     "rtgs": "chong-thang",
+     "ipa": "/t͡ɕʰɔŋ˥˩.tʰaːŋ˧/",
+     "gloss": {
+      "en": [
+       "channel"
+      ],
+      "th": "ทางที่กำหนดเป็นช่องเฉพาะให้ไปหรือมา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "ทาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทาง"
+     ],
+     "lit": "hole + way",
+     "lit_th": "โอกาส + ที่สำหรับเดินไปมา",
+     "frame": "entity"
+    },
+    {
+     "th": "ได้ช่อง",
+     "rtgs": "dai-chong",
+     "ipa": "/daj˥˩.t͡ɕʰɔŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ได้โอกาส",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ได้",
+      "ช่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.19, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ได้"
+     ],
+     "lit": "have + hole",
+     "lit_th": "รับมาหรือตกมาเป็นของตัว + โอกาส"
+    },
+    {
+     "th": "ชี้ช่อง",
+     "rtgs": "chi-chong",
+     "ipa": "/t͡ɕʰiː˦˥.t͡ɕʰɔŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แนะลู่ทางให้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชี้",
+      "ช่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เหยียดนิ้วชี้เป็นต้นตรงไปที่ใดที่ห + โอกาส"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "An opening in circumstances: an opportunity.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "chong as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 5 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 5 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 5 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "2 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ช่องกุ่ม",
+     "rtgs": "chong-kum",
+     "ipa": "/t͡ɕʰɔŋ˥˩.kum˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวัฒนานคร จังหวัดสระแก้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "กุ่ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นในสกุล Crateva วงศ์ Capp",
+     "frame": "entity"
+    },
+    {
+     "th": "ช่องแมว",
+     "rtgs": "chong-maeo",
+     "ipa": "/t͡ɕʰɔŋ˥˩.mɛːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอลำทะเมนชัย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "แมว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "chong as an element in place names + cat",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis",
+     "frame": "entity"
+    },
+    {
+     "th": "ช่องด่าน",
+     "rtgs": "chong-dan",
+     "ipa": "/t͡ɕʰɔŋ˥˩.daːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ่อพลอย จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "ด่าน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่สำหรับกัก ตรวจ คอยระวังเหตุ และ",
+     "frame": "entity"
+    },
+    {
+     "th": "ช่องสะเดา",
+     "rtgs": "chong-sa-dao",
+     "ipa": "/t͡ɕʰɔŋ˥˩.sa˨˩.daw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาญจนบุรี จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "สะเดา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Azadirachta indica",
+     "frame": "entity"
+    },
+    {
+     "th": "ปากช่อง",
+     "rtgs": "pak-chong",
+     "ipa": "/paːk̚˨˩.t͡ɕʰɔŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "ช่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ปาก"
+     ],
+     "lit": "mouth + chong as an element in place names",
+     "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 11 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['เข้า', 'ออก', 'มา'].",
+ "compounds_unassigned": [
+  {
+   "th": "การชี้ช่อง",
+   "rtgs": "kan-chi-chong",
+   "ipa": "/kaːn˧.t͡ɕʰiː˦˥.t͡ɕʰɔŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชี้ช่อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การชี้",
+    "ช่อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชี้ + ที่ว่างซึ่งเป็นทางเข้าออกได้",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ɟoːŋᴮ; ร่วมเชื้อสายกับคำเมือง ᨩᩬ᩵ᨦ (ชอ่ง), เขิน ᨩᩬ᩵ᨦ (ชอ่ง), อีสาน ซ่อง, ลาว ຊ່ອງ (ซ่อง), ไทลื้อ ᦋᦸᧂᧈ (ช่อ̂ง), ไทขาว ꪋꪮꪉꫀ, ไทใหญ่ ၸွင်ႈ (จ้อ̂ง), อาหม 𑜋𑜨𑜂𑜫 (ฉอ̂ง์), จ้วง congh; เป็นไปได้ว่าเกี่ยวข้องกับ ซ่อง",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨩᩬ᩵ᨦ",
+  "th": "ชอ่ง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "hole"
+ ]
+}

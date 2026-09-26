@@ -1,0 +1,1762 @@
+{
+ "id": "w:khrueang",
+ "th": "เครื่อง",
+ "status": "mapped",
+ "rtgs": "khrueang",
+ "paiboon": "krʉ̂ʉang",
+ "ipa": "/kʰrɯa̯ŋ˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สิ่ง, สิ่งของ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เครื่องเครา",
+     "rtgs": "khrueang-khrao",
+     "ipa": "/kʰrɯa̯ŋ˥˩.kʰraw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่อง, สิ่ง, สิ่งของ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "เครา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.43, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "device + waterfall",
+     "lit_th": "สิ่ง + ขนที่ขึ้นตามแก้มหรือขากรรไกร",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดียวกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Things that belong together as a set.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เครื่องดื่ม",
+     "rtgs": "khrueang-duem",
+     "ipa": "/kʰrɯa̯ŋ˥˩.dɯːm˨˩/",
+     "gloss": {
+      "en": [
+       "drink"
+      ],
+      "th": "น้ำหรือของเหลวชนิดต่าง ๆ ที่บริโภคโดยวิธีดื่มเพื่อดับกระหายหรือบำรุงกำลังเป็นต้น เช่น น้ำอัดลม น้ำผลไม้คั้น กาแฟ เบียร์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ดื่ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "device + drink",
+     "lit_th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดีย + กิน ใช้แก่เครื่องดื่มอย่างน้ำ เหล้"
+    },
+    {
+     "th": "เครื่องใน",
+     "rtgs": "khrueang-nai",
+     "ipa": "/kʰrɯa̯ŋ˥˩.naj˧/",
+     "gloss": {
+      "en": [
+       "inside"
+      ],
+      "th": "อวัยวะภายในของสัตว์บางชนิด เช่น ตับ ไต ไส้ ของวัวและควาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ใน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 0,
+     "cross_listed": [
+      "ใน"
+     ],
+     "lit": "device + in",
+     "lit_th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดีย + ตรงกันข้ามกับ นอก"
+    },
+    {
+     "th": "เครื่องประดับ",
+     "rtgs": "khrueang-pra-dap",
+     "ipa": "/kʰrɯa̯ŋ˥˩.pra˨˩.dap̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องตกแต่งกายมี สร้อย แหวน นาฬิกา เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ประดับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "device + embellish",
+     "lit_th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดีย + ตกแต่งให้งามด้วยสิ่งต่าง ๆ มีสร้อย"
+    },
+    {
+     "th": "เครื่องหอม",
+     "rtgs": "khrueang-hom",
+     "ipa": "/kʰrɯa̯ŋ˥˩.hɔːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งต่าง ๆ ที่มีกลิ่นหอม เช่น แป้งร่ำ น้ำอบไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "หอม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดีย + ชื่อไม้ล้มลุกมีหัวหลายชนิดในสกุล A",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องสำอาง",
+     "rtgs": "khrueang-sam-ang",
+     "ipa": "/kʰrɯa̯ŋ˥˩.sam˩˩˦.ʔaːŋ˧/",
+     "gloss": {
+      "en": [
+       "make-up",
+       "brights"
+      ],
+      "th": "สิ่งเสริมแต่งหรือบำรุงใบหน้า ผิวพรรณ ผม ฯลฯ ให้ดูงาม เช่น แป้ง ลิปสติก ดินสอเขียนคิ้ว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "สำอาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดีย + เครื่องแป้งเครื่องหอม",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องเงิน",
+     "rtgs": "khrueang-ngoen",
+     "ipa": "/kʰrɯa̯ŋ˥˩.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งของเครื่องใช้หรือเครื่องประดับที่ทำด้วยเงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "เงิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เงิน"
+     ],
+     "lit": "device + bread",
+     "lit_th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดีย + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องหลัง",
+     "rtgs": "khrueang-lang",
+     "ipa": "/kʰrɯa̯ŋ˥˩.laŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัมภาระที่ทหารหรือนักเดินทางเป็นต้นนำติดตัวไป โดยผูกรัดไว้ข้างหลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "หลัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หลัง"
+     ],
+     "lit": "device + back",
+     "lit_th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดีย + ซีกของกายที่ตรงข้ามกับหน้าอก",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องเทศ",
+     "rtgs": "khrueang-thet",
+     "ipa": "/kʰrɯa̯ŋ˥˩.tʰeːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "spice",
+       "spicery"
+      ],
+      "th": "ของหอมฉุนและเผ็ดร้อนที่ได้มาจากพืช โดยมากมาจากต่างประเทศสำหรับใช้ทำยาไทยและปรุงอาหาร เช่น ลูกผักชี ยี่หร่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "เทศ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดีย + ต่างประเทศ",
+     "frame": "quality"
+    },
+    {
+     "th": "เครื่องเขิน",
+     "rtgs": "khrueang-khoen",
+     "ipa": "/kʰrɯa̯ŋ˥˩.kʰɤːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสานที่ทำจากผิวไม้ไผ่ซึ่งนำมาเรียดแล้วทำเป็นโครง ฉาบด้วยรักสมุกหรือรักชาดเพื่อกันน้ำรั่วซึม ไทยได้รับวิธีการทำมาจากไทเขินซึ่งอยู่ในยูนนานตอนใต้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "เขิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "device + abashed",
+     "lit_th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดีย + ชื่อคนไทใหญ่เผ่าหนึ่ง ส่วนมากอยู่ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องแบบ",
+     "rtgs": "khrueang-baep",
+     "ipa": "/kʰrɯa̯ŋ˥˩.bɛːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "uniform"
+      ],
+      "th": "เครื่องแต่งกายที่กำหนดให้แต่งเหมือน ๆ กันเฉพาะหมู่หนึ่งคณะหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "แบบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แบบ"
+     ],
+     "lit": "device + model",
+     "lit_th": "สิ่งสำหรับประกอบกันหรือเป็นพวกเดีย + สิ่งที่กำหนดให้ถือเป็นหลักหรือเป็น",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "สิ่งของสำหรับใช้การต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เครื่องเรือน",
+     "rtgs": "khrueang-ruean",
+     "ipa": "/kʰrɯa̯ŋ˥˩.rɯa̯n˧/",
+     "gloss": {
+      "en": [
+       "furniture"
+      ],
+      "th": "เครื่องปรุงเรือนหรือเครื่องไม้ที่จะคุมกันเข้าเป็นเรือน เช่น ขื่อ เสา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "เรือน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือน"
+     ],
+     "lit": "device + house",
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + สิ่งปลูกสร้างที่ยกพื้นและกั้นฝา มี",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องใช้",
+     "rtgs": "khrueang-chai",
+     "ipa": "/kʰrɯa̯ŋ˥˩.t͡ɕʰaj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งของสำหรับใช้การต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ใช้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.72, next 0.21",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "device + consume",
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + บังคับให้ทำ"
+    },
+    {
+     "th": "เครื่องมือ",
+     "rtgs": "khrueang-mue",
+     "ipa": "/kʰrɯa̯ŋ˥˩.mɯː˧/",
+     "gloss": {
+      "en": [
+       "measure",
+       "tool"
+      ],
+      "th": "สิ่งของสำหรับใช้ในการประดิษฐ์ สร้าง หรือทำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.39, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "device + hand",
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+     "frame": "entity"
+    },
+    {
+     "th": "ฟิตเครื่อง",
+     "rtgs": "fit-khrueang",
+     "ipa": "/fit̚˦˥.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปรับเครื่องยนต์ให้กระชับหรืออยู่ในสภาพปรกติ, เรียกช่างแก้เครื่องยนต์ว่า ช่างฟิต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฟิต",
+      "เครื่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "คับจนรัดรูป + สิ่งของสำหรับใช้การต่าง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องหมาย",
+     "rtgs": "khrueang-mai",
+     "ipa": "/kʰrɯa̯ŋ˥˩.maːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "sign",
+       "mark"
+      ],
+      "th": "สิ่งที่ทำขึ้นแสดงความหมายเพื่อจดจำหรือกำหนดรู้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "หมาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "device + sign",
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + หนังสือราชการที่ใช้เกณฑ์ เกาะกุม ห",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องยนต์",
+     "rtgs": "khrueang-yon",
+     "ipa": "/kʰrɯa̯ŋ˥˩.jon˧/",
+     "gloss": {
+      "en": [
+       "machine",
+       "motor",
+       "engine"
+      ],
+      "th": "เครื่องจักรที่ให้กำเนิดพลังงานหรือทำให้วัตถุเคลื่อนที่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ยนต์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + เครื่องกลไก",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องบิน",
+     "rtgs": "khrueang-bin",
+     "ipa": "/kʰrɯa̯ŋ˥˩.bin˧/",
+     "gloss": {
+      "en": [
+       "plane",
+       "aeroplane",
+       "airplane"
+      ],
+      "th": "อากาศยานชนิดหนึ่งซึ่งหนักกว่าอากาศ ลอยตัวอยู่ได้ด้วยการให้พลังงานกลแก่อากาศโดยรอบก่อให้เกิดแรงพยุงขึ้นโต้ตอบกับความโน้มถ่วงของโลกและใช้เครื่องยนต์ขับเคลื่อน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "บิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "device + fly",
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + ไปในอากาศด้วยกำลังปีกหรือเครื่องยน"
+    },
+    {
+     "th": "เครื่องพิมพ์",
+     "rtgs": "khrueang-phim",
+     "ipa": "/kʰrɯa̯ŋ˥˩.pʰim˧/",
+     "gloss": {
+      "en": [
+       "printer"
+      ],
+      "th": "อุปกรณ์คอมพิวเตอร์สำหรับใช้พิมพ์เอกสาร รูปภาพ ลงบนกระดาษหรือสื่ออื่นที่พิมพ์ได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "พิมพ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พิมพ์"
+     ],
+     "lit": "device + print",
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + รูป",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องครัว",
+     "rtgs": "khrueang-khrua",
+     "ipa": "/kʰrɯa̯ŋ˥˩.kʰrua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องใช้ในการหุงหาอาหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ครัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "device + kitchen",
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + โรง เรือน หรือห้องสำหรับทำกับข้าวข",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องปรับอากาศ",
+     "rtgs": "khrueang-prap-a-kat",
+     "ipa": "/kʰrɯa̯ŋ˥˩.prap̚˨˩.ʔaː˧.kaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "air conditioner"
+      ],
+      "th": "อุปกรณ์สำหรับปรับอุณหภูมิและความชื้นของอากาศ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ปรับอากาศ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + ที่ปรับอุณหภูมิและความชื้นของอากาศ",
+     "frame": "quality"
+    },
+    {
+     "th": "ส่วนเครื่อง",
+     "rtgs": "suan-khrueang",
+     "ipa": "/sua̯n˨˩.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฮาร์ดแวร์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "เครื่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ส่วน"
+     ],
+     "lit": "zone + device",
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + สิ่งของสำหรับใช้การต่าง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "ยกเครื่อง",
+     "rtgs": "yok-khrueang",
+     "ipa": "/jok̚˦˥.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ซ่อมใหญ่เครื่องยนต์ของรถยนต์หรือเรือยนต์เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยก",
+      "เครื่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ยก"
+     ],
+     "lit": "to lift + device",
+     "lit_th": "เอาขึ้นให้สูงจากที่เดิมทั้งโดยตรงแ + สิ่งของสำหรับใช้การต่าง ๆ"
+    },
+    {
+     "th": "เครื่องจักร",
+     "rtgs": "khrueang-chak",
+     "ipa": "/kʰrɯa̯ŋ˥˩.t͡ɕak̚˨˩/",
+     "gloss": {
+      "en": [
+       "machine",
+       "engine",
+       "machinery"
+      ],
+      "th": "กลอุปกรณ์ต่าง ๆ ที่ประกอบกันขึ้นเป็นเครื่อง เพื่อใช้ประโยชน์ในการผลิตสิ่งใดสิ่งหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "จักร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "จักร"
+     ],
+     "lit": "device + chakra",
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + อาวุธในนิยาย รูปเป็นวงกลมและมีแฉก",
+     "frame": "entity"
+    },
+    {
+     "th": "ติดเครื่อง",
+     "rtgs": "tit-khrueang",
+     "ipa": "/tit̚˨˩.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้เครื่องจักรกลติดหรือเดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ติด",
+      "เครื่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ติด"
+     ],
+     "lit": "fit + device",
+     "lit_th": "อาการที่ข้องอยู่ + สิ่งของสำหรับใช้การต่าง ๆ"
+    },
+    {
+     "th": "เครื่องสาย",
+     "rtgs": "khrueang-sai",
+     "ipa": "/kʰrɯa̯ŋ˥˩.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องดนตรีชนิดที่มีสาย เช่น จะเข้ ซอ พิณ ไวโอลิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "สาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "device + late",
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องดนตรี",
+     "rtgs": "khrueang-don-tri",
+     "ipa": "/kʰrɯa̯ŋ˥˩.don˧.triː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องบรรเลงซึ่งมีเสียงดัง ทำให้รู้สึกเพลิดเพลิน หรือเกิดอารมณ์รัก โศก และรื่นเริงได้ตามทำนองเพลง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ดนตรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "device + music",
+     "lit_th": "สิ่งของสำหรับใช้การต่าง ๆ + เสียงที่ประกอบกันเป็นทำนองเพลง",
+     "frame": "entity"
+    },
+    {
+     "th": "ห้องเครื่อง",
+     "rtgs": "hong-khrueang",
+     "ipa": "/hɔŋ˥˩.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ห้องที่มีเครื่องยนต์เครื่องจักรต่าง ๆ ของเรือกลไฟหรือรถไฟเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้อง",
+      "เครื่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "room + device",
+     "lit_th": "ส่วนของเรือนหรือตึกเป็นต้นที่มีฝาก + สิ่งของสำหรับใช้การต่าง ๆ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Things for doing something with: apparatus, machine.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ของที่เข้าสำรับกับสิ่งใดสิ่งหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เครื่องราง",
+     "rtgs": "khrueang-rang",
+     "ipa": "/kʰrɯa̯ŋ˥˩.raːŋ˧/",
+     "gloss": {
+      "en": [
+       "amulet"
+      ],
+      "th": "ของที่นับถือว่าป้องกันอันตราย ยิงไม่ออก ฟันไม่เข้า เช่น ตะกรุด ผ้ายันต์ เหล็กไหล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ราง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.12, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ของที่เข้าสำรับกับสิ่งใดสิ่งหนึ่ง + ร่องที่ขุดเป็นทางสำหรับให้น้ำไหล",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องปรุง",
+     "rtgs": "khrueang-prung",
+     "ipa": "/kʰrɯa̯ŋ˥˩.pruŋ˧/",
+     "gloss": {
+      "en": [
+       "mix"
+      ],
+      "th": "สิ่งที่ใช้ในการปรุงอาหารเป็นต้น เช่น เนื้อสัตว์ ผัก เครื่องแกง กะทิ ผลไม้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ปรุง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "device + mix",
+     "lit_th": "ของที่เข้าสำรับกับสิ่งใดสิ่งหนึ่ง + ประสมหรือประกอบให้เหมาะส่วน"
+    },
+    {
+     "th": "เครื่องเคียง",
+     "rtgs": "khrueang-khiang",
+     "ipa": "/kʰrɯa̯ŋ˥˩.kʰia̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินที่เอามาตั้งเทียบข้างเพื่อกินประกอบกับอาหารบางชนิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "เคียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "ของที่เข้าสำรับกับสิ่งใดสิ่งหนึ่ง + ชิดกันโดยเรียงข้าง"
+    },
+    {
+     "th": "เครื่องแกง",
+     "rtgs": "khrueang-kaeng",
+     "ipa": "/kʰrɯa̯ŋ˥˩.kɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งที่ใช้ในการทำแกง เช่น พริก กระเทียม เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "แกง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แกง"
+     ],
+     "lit": "device + curry",
+     "lit_th": "ของที่เข้าสำรับกับสิ่งใดสิ่งหนึ่ง + กับข้าวประเภทที่เป็นน้ำ มีชื่อต่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ข้าวต้มเครื่อง",
+     "rtgs": "khao-tom-khrueang",
+     "ipa": "/kʰaːw˥˩.tom˥˩.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้าวต้มที่ใส่เนื้อสัตว์ เช่น หมู ไก่ กุ้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าวต้ม",
+      "เครื่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "porridge + device",
+     "lit_th": "ข้าวที่ต้มให้สุก + ของที่เข้าสำรับกับสิ่งใดสิ่งหนึ่ง",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "What is set out to go with a dish.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ของใช้ของกินสำหรับเจ้านาย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เครื่องเซ่น",
+     "rtgs": "khrueang-sen",
+     "ipa": "/kʰrɯa̯ŋ˥˩.sen˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินของไหว้ผี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "เซ่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.19, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ของใช้ของกินสำหรับเจ้านาย + เอาอาหารเป็นต้นไปไหว้หรือสังเวยผีห"
+    },
+    {
+     "th": "เครื่องเสวย",
+     "rtgs": "khrueang-sa-woei",
+     "ipa": "/kʰrɯa̯ŋ˥˩.sa˨˩.wɤːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาหาร, ของกิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "เสวย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ของใช้ของกินสำหรับเจ้านาย + กิน"
+    },
+    {
+     "th": "เครื่องทรง",
+     "rtgs": "khrueang-song",
+     "ipa": "/kʰrɯa̯ŋ˥˩.soŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องแต่งตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ทรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทรง"
+     ],
+     "lit": "device + form",
+     "lit_th": "ของใช้ของกินสำหรับเจ้านาย + รูปร่าง",
+     "flips_with": "ทรงเครื่อง",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องต้น",
+     "rtgs": "khrueang-ton",
+     "ipa": "/kʰrɯa̯ŋ˥˩.ton˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องทรงสำหรับพระมหากษัตริย์ในพระราชพิธี เช่น พระราชพิธีบรมราชาภิเษก, เรียกเต็มว่า ฉลองพระองค์เครื่องต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ต้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "device + trunk",
+     "lit_th": "ของใช้ของกินสำหรับเจ้านาย + ลำของต้นไม้",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องพระสำอาง",
+     "rtgs": "khrueang-phra-sam-ang",
+     "ipa": "/kʰrɯa̯ŋ˥˩.pʰra˦˥.sam˩˩˦.ʔaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสำอาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "พระสำอาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ของใช้ของกินสำหรับเจ้านาย + เครื่องสำอาง",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องราชูปโภค",
+     "translit_auto": "kherueongrachupphok",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องใช้ (ใช้กับพระราชา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ราชูปโภค"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ของใช้ของกินสำหรับเจ้านาย + เครื่องใช้สอยของพระราชา",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องยศ",
+     "rtgs": "khrueang-yot",
+     "ipa": "/kʰrɯa̯ŋ˥˩.jot̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องประดับหรือเครื่องแต่งกายตามบรรดาศักดิ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ยศ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ของใช้ของกินสำหรับเจ้านาย + ความยกย่องนับถือเกียรติของตน",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องสูง",
+     "translit_auto": "kherueongsung",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของประดับเกียรติ, เครื่องประดับเกียรติยศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "สูง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "สูง"
+     ],
+     "lit": "device + tall",
+     "lit_th": "ของใช้ของกินสำหรับเจ้านาย + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ทรงเครื่อง",
+     "rtgs": "song-khrueang",
+     "ipa": "/soŋ˧.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แต่งตัวมีเครื่องประดับ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทรง",
+      "เครื่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทรง"
+     ],
+     "lit": "form + device",
+     "lit_th": "รูปร่าง + ของใช้ของกินสำหรับเจ้านาย",
+     "flips_with": "เครื่องทรง",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องว่าง",
+     "rtgs": "khrueang-wang",
+     "ipa": "/kʰrɯa̯ŋ˥˩.waːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของว่าง, ของกินนอกเวลากินอาหารตามปรกติ มักกินในเวลาบ่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "ว่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "device + empty",
+     "lit_th": "ของใช้ของกินสำหรับเจ้านาย + เปล่า",
+     "frame": "quality"
+    },
+    {
+     "th": "ตั้งเครื่อง",
+     "rtgs": "tang-khrueang",
+     "ipa": "/taŋ˥˩.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตั้งของกิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "เครื่อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "introduce + device",
+     "lit_th": "ชูตัว + ของใช้ของกินสำหรับเจ้านาย"
+    }
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "And in royal language, the food and articles of a prince.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 2 manuscript titles, 1015 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 49; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "เครื่องหวาน",
+   "rtgs": "khrueang-wan",
+   "ipa": "/kʰrɯa̯ŋ˥˩.waːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ของหวาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เครื่อง",
+    "หวาน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "หวาน"
+   ],
+   "lit": "device + sweet",
+   "lit_th": "สิ่ง + มีรสอย่างรสน้ำตาล",
+   "frame": "quality"
+  },
+  {
+   "th": "รถเครื่อง",
+   "rtgs": "rot-khrueang",
+   "ipa": "/rot̚˦˥.kʰrɯa̯ŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ จักรยานยนต์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รถ",
+    "เครื่อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รถ"
+   ],
+   "lit": "auto + device",
+   "lit_th": "ยานที่มีล้อสำหรับเคลื่อนไป + สิ่ง",
+   "frame": "entity"
+  },
+  {
+   "th": "การติดเครื่อง",
+   "rtgs": "kan-tit-khrueang",
+   "ipa": "/kaːn˧.tit̚˨˩.kʰrɯa̯ŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ติดเครื่อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การติด",
+    "เครื่อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "addiction + device",
+   "lit_th": "คำอาการนามของ ติด + สิ่ง",
+   "frame": "entity"
+  },
+  {
+   "th": "เครื่องคาว",
+   "rtgs": "khrueang-khao",
+   "ipa": "/kʰrɯa̯ŋ˥˩.kʰaːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ของคาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เครื่อง",
+    "คาว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สิ่ง + กลิ่นเหม็นอย่างหนึ่งอย่างกลิ่นปลาส",
+   "frame": "entity"
+  },
+  {
+   "th": "การยกเครื่อง",
+   "rtgs": "kan-yok-khrueang",
+   "ipa": "/kaːn˧.jok̚˦˥.kʰrɯa̯ŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ยกเครื่อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การยก",
+    "เครื่อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "lift + device",
+   "lit_th": "คำอาการนามของ ยก + สิ่ง",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับอีสาน เครื่อง, ลาว ເຄື່ອງ (เคื่อง), คำเมือง ᨣᩕᩮᩬᩥ᩵ᨦ (เครอิ่ง), เขิน ᨤᩮᩨ᩠᩵ᨦ (เฅื่ง), ไทลื้อ ᦵᦆᦲᧂᧈ (เฅี่ง), ไทดำ ꪹꪋ꪿ꪉ (เจฺ่ง), ไทขาว ꪋꪷꪉꫀ, ไทใหญ่ ၶိူင်ႈ (เขิ้ง), ไทใต้คง ᥑᥫᥒ (เฃอ̂ง), อาหม 𑜁𑜢𑜤𑜂𑜫 (ขึง์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨣᩕᩮᩬᩥ᩵ᨦ",
+  "th": "เครอิ่ง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "device"
+ ]
+}

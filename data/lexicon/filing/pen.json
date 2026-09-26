@@ -1,0 +1,10 @@
+{
+ "head": "pen",
+ "rule": "เป็น is mostly the copula, and sense 1 keeps everything that is simply 'to be in some state' — in debt, in litigation, at ease, worried, happy, necessary. The finding is sense 3, ยังมีชีวิตอยู่: it is not just biological life but the whole **เป็น / ตาย opposition** that Thai runs across unrelated domains, and every member of it files here. เงื่อนเป็น is a knot that unties against เงื่อนตาย that does not; คำเป็น is a live syllable against คำตาย; จับเป็น is to take alive against จับตาย. เป็นอยู่ (how one lives) and หน้าเป็น (a face always animated) join them. Sense 2, สามารถ, was empty and takes อยู่เป็น — knowing HOW to live among people, which is ability and not existence. Sense 4, ประหนึ่ง, takes ทำเป็น, to act as if.",
+ "senses": {
+  "1": ["จำเป็น","เป็นกันเอง","เป็นความ","เป็นต่อ","เป็นต้น","เป็นที่","เป็นธรรม","เป็นลม","เป็นสุข","เป็นหนี้","เป็นห่วง","เป็นอาทิ","เป็นเจ้าของ","เป็นใจ","เป็นไป"],
+  "2": ["อยู่เป็น"],
+  "3": ["คำเป็น","จับเป็น","หน้าเป็น","เงื่อนเป็น","เป็นอยู่"],
+  "4": ["ทำเป็น"]
+ }
+}

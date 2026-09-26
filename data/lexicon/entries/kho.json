@@ -1,0 +1,931 @@
+{
+ "id": "w:kho",
+ "th": "ขอ",
+ "status": "mapped",
+ "rtgs": "kho",
+ "paiboon": "kɔ̌ɔ",
+ "ipa": "/kʰɔː˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ยว แขวน หรือสับ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ขอ, the hook.",
+    "Declared root: ขอ, the hook.",
+    "Declared root: ขอ, the hook.",
+    "Declared root: ขอ, the hook."
+   ],
+   "compounds": [
+    {
+     "th": "ขอฉาย",
+     "rtgs": "kho-chai",
+     "ipa": "/kʰɔː˩˩˦.t͡ɕʰaːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดอง, ไม้สำหรับสงฟางในเวลานวดข้าว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ฉาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + เงา",
+     "frame": "entity"
+    },
+    {
+     "th": "ตาขอ",
+     "rtgs": "ta-kho",
+     "ipa": "/taː˧.kʰɔː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ยว แขวน หรือสับ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "ขอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.86, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "eye + ask",
+     "lit_th": "พ่อของแม่ + ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่",
+     "frame": "entity"
+    },
+    {
+     "th": "ขอแกว",
+     "rtgs": "kho-kaeo",
+     "ipa": "/kʰɔː˩˩˦.kɛːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้ยาว ๆ ที่ผูกเบ็ดที่ปลาย สำหรับชักกบในรู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "แกว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.19, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + คนชาติหนึ่งในเขตตังเกี๋ย",
+     "frame": "entity"
+    },
+    {
+     "th": "ขอช้าง",
+     "rtgs": "kho-chang",
+     "ipa": "/kʰɔː˩˩˦.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขอเหล็กมีด้าม สำหรับสับช้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ช้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.25, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "ask + elephant",
+     "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "เหลือขอ",
+     "rtgs": "luea-kho",
+     "ipa": "/lɯa̯˩˩˦.kʰɔː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดื้อมาก, เอาไว้ไม่อยู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหลือ",
+      "ขอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "down to + ask",
+     "lit_th": "เกิน + ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่"
+    },
+    {
+     "th": "ขอปิ่น",
+     "rtgs": "kho-pin",
+     "ipa": "/kʰɔː˩˩˦.pin˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขอช้างที่ปลายเป็นยอดปิ่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ปิ่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + เครื่องประดับสำหรับปักผมที่มุ่นเป็",
+     "frame": "entity"
+    },
+    {
+     "th": "ของ้าว",
+     "rtgs": "kho–ngao",
+     "ipa": "/kʰɔː˩˩˦.ŋaːw˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาวุธด้ามยาวมีง้าวอยู่ตรงปลาย ใต้คอของด้ามมีขอสำหรับสับบังคับช้างได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ง้าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + อาวุธชนิดหนึ่ง คล้ายดาบ มีด้ามยาว",
+     "frame": "entity"
+    },
+    {
+     "th": "ขอเกราะ",
+     "rtgs": "kho-kro",
+     "ipa": "/kʰɔː˩˩˦.krɔʔ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขอช้างที่มีปลายโค้งใช้ในพิธีช้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "เกราะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "ask + mail",
+     "lit_th": "ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่ + เครื่องสวมใส่หรือเครื่องหุ้มสำหรับ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "พูดให้เขาให้สิ่งที่ต้องการ, วิงวอน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขอขมา",
+     "rtgs": "kho-kha-ma",
+     "ipa": "/kʰɔː˩˩˦.kʰa˨˩.maː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขอไม่ให้เอาโทษในสิ่งที่ได้ล่วงละเมิดหรือล่วงเกิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ขมา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.16, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + กล่าวคำขอโทษ"
+    },
+    {
+     "th": "ของ้อ",
+     "rtgs": "kho-ngo",
+     "ipa": "/kʰɔː˩˩˦.ŋɔː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อ่อนเข้าหาเพื่อขอคืนดีด้วย, อ่อนเข้าหาเพื่อให้ยอมหรือช่วยเหลือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ง้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + ขอคืนดีด้วย"
+    },
+    {
+     "th": "ขอตัว",
+     "rtgs": "kho-tua",
+     "ipa": "/kʰɔː˩˩˦.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พูดเพื่อให้ยกเว้นตัวเอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "ask + form",
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + รูป",
+     "frame": "entity"
+    },
+    {
+     "th": "ขออภัย",
+     "rtgs": "kho-a-phai",
+     "ipa": "/kʰɔː˩˩˦.ʔa˨˩.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "apologise",
+       "forgive",
+       "sorry"
+      ],
+      "th": "ขอโทษ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "อภัย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + ความไม่มีภัย",
+     "frame": "entity"
+    },
+    {
+     "th": "ขอร้อง",
+     "rtgs": "kho-rong",
+     "ipa": "/kʰɔː˩˩˦.rɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "appeal",
+       "demand",
+       "request"
+      ],
+      "th": "ขอให้ช่วยเหลือ, ขอให้ทำตามที่ขอ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ร้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ร้อง"
+     ],
+     "lit": "ask + sing",
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + เปล่งเสียงดัง",
+     "flips_with": "ร้องขอ"
+    },
+    {
+     "th": "ขอประทาน",
+     "translit_auto": "khoprathan",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขอ (ใช้แก่เจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ประทาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "ask + add",
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + ให้"
+    },
+    {
+     "th": "ขอรับ",
+     "rtgs": "kho-rap",
+     "ipa": "/kʰɔː˩˩˦.rap̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำรับของสุภาพชนสำหรับต่อท้ายประโยค",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "รับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "รับ"
+     ],
+     "lit": "ask + accept",
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + ยื่นมือออกถือเอาสิ่งของที่ผู้อื่นส"
+    },
+    {
+     "th": "ร้องขอ",
+     "rtgs": "rong-kho",
+     "ipa": "/rɔːŋ˦˥.kʰɔː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขอเป็นทางการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ร้อง",
+      "ขอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ร้อง"
+     ],
+     "lit": "sing + ask",
+     "lit_th": "เปล่งเสียงดัง + พูดให้เขาให้สิ่งที่ต้องการ",
+     "flips_with": "ขอร้อง"
+    },
+    {
+     "th": "ขอที",
+     "rtgs": "kho-thi",
+     "ipa": "/kʰɔː˩˩˦.tʰiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ห้ามเชิงขอร้อง, ขอให้ละเว้นการกระทำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ที"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ที"
+     ],
+     "lit": "ask + time",
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + ครั้ง",
+     "frame": "entity"
+    },
+    {
+     "th": "ขอเดชะ",
+     "rtgs": "kho-de-cha",
+     "ipa": "/kʰɔː˩˩˦.deː˧.t͡ɕʰaʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำขึ้นต้นและคำลงท้ายในการกราบบังคมทูลพระบาทสมเด็จพระเจ้าอยู่หัวและสมเด็จพระบรมราชินีนาถ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "เดชะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + อำนาจ",
+     "frame": "entity"
+    },
+    {
+     "th": "ขอโทษ",
+     "rtgs": "kho-thot",
+     "ipa": "/kʰɔː˩˩˦.tʰoːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "forgive"
+      ],
+      "th": "ขอให้ยกโทษ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "โทษ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โทษ"
+     ],
+     "lit": "ask + badness",
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + ความไม่ดี",
+     "frame": "entity"
+    },
+    {
+     "th": "สู่ขอ",
+     "rtgs": "su-kho",
+     "ipa": "/suː˨˩.kʰɔː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เจรจาขอหญิงจากพ่อแม่หรือผู้ปกครองเพื่อการแต่งงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สู่",
+      "ขอ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ไปเยี่ยม + พูดให้เขาให้สิ่งที่ต้องการ"
+    },
+    {
+     "th": "ขอทาน",
+     "rtgs": "kho-than",
+     "ipa": "/kʰɔː˩˩˦.tʰaːn˧/",
+     "gloss": {
+      "en": [
+       "beggar"
+      ],
+      "th": "ขอเงินหรือสิ่งของเลี้ยงชีวิต",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขอ",
+      "ทาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทาน"
+     ],
+     "lit": "ask + eat",
+     "lit_th": "พูดให้เขาให้สิ่งที่ต้องการ + การให้",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: ขอ 'to ask' — the link to the hook is not established here.",
+    "Declared root: ขอ 'to ask' — the link to the hook is not established here.",
+    "Declared root: ขอ 'to ask' — the link to the hook is not established here.",
+    "Declared root: ขอ 'to ask' — the link to the hook is not established here."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ชื่อว่านชนิดหนึ่ง ต้นเหมือนขมิ้น แต่หัวเล็กสอดกันเป็นข้อ ๆ ต้นและใบเขียว เนื้อเหลือง มีสรรพคุณอยู่คงเขี้ยว เขา และงา, กบิลว่าน ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ขอ, a ว่าน plant.",
+    "Declared root: ขอ, a ว่าน plant.",
+    "Declared root: ขอ, a ว่าน plant.",
+    "Declared root: ขอ, a ว่าน plant."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 37 manuscript titles, 987 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['เนื้อ', 'หัว', 'ขา', 'มือ'].",
+ "compounds_unassigned": [
+  {
+   "th": "การร้องขอ",
+   "rtgs": "kan-rong-kho",
+   "ipa": "/kaːn˧.rɔːŋ˦˥.kʰɔː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ร้องขอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การร้อง",
+    "ขอ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ร้อง + ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่",
+   "frame": "entity"
+  },
+  {
+   "th": "การสู่ขอ",
+   "rtgs": "kan-su-kho",
+   "ipa": "/kaːn˧.suː˨˩.kʰɔː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สู่ขอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสู่",
+    "ขอ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สู่ + ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่",
+   "frame": "entity"
+  },
+  {
+   "th": "การขอ",
+   "rtgs": "kan-kho",
+   "ipa": "/kaːn˧.kʰɔː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ขอ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ไม้หรือเหล็กที่งอ ๆ สำหรับชัก เกี่",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *xɔːᴬ; ร่วมเชื้อสายกับลาว ຂໍ (ขํ), คำเมือง ᨡᩬᩴ (ขอํ), ᨢᩬᩴ (ฃอํ), เขิน ᨡᩳ (ขอ), ไทลื้อ ᦃᦸ (ฃอ̂), ไทใหญ่ ၶေႃ (ขอ̂), อาหม 𑜁𑜦𑜡 (ขอ̂), ภาษาจ้วงเหนือ go, ภาษาจ้วงใต้ ko สืบทอดจากไทดั้งเดิม *k.roːᴬ; ร่วมเชื้อสายกับลาว ຂໍ (ขํ), คำเมือง ᨡᩬᩴ (ขอํ), เขิน ᨡᩳ (ขอ), ไทลื้อ ᦃᦸ (ฃอ̂), ไทดำ ꪎꪷ (สํ), ไทขาว ꪌꪮ, ไทใหญ่ ၶေႃ (ขอ̂), จ้วง gouz, ปู้อี hoz",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩬᩴ",
+  "th": "ขอํ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kho-2",
+   "label": "คอ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kho\". ขอ is kɔ̌ɔ, คอ is kɔɔ — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kho-3",
+   "label": "โค",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kho\". ขอ is kɔ̌ɔ, โค is koo — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "ask"
+ ]
+}

@@ -1,0 +1,752 @@
+{
+ "id": "w:khom",
+ "th": "คม",
+ "status": "mapped",
+ "rtgs": "khom",
+ "paiboon": "kom",
+ "ipa": "/kʰom˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ไหว้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, adjective",
+   "pos_th": "คำกริยา, คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: คม 'to bow in salute' — separate."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ส่วนบางมากจนสามารถบาดได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, adjective",
+   "pos_th": "คำกริยา, คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: คม 'sharp, keen'."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ไม่ทื่อ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, adjective",
+   "pos_th": "คำกริยา, คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Sharp, and so not blunt.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "บาดได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, adjective",
+   "pos_th": "คำกริยา, คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "Sharp enough to cut.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เฉียบแหลม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, adjective",
+   "pos_th": "คำกริยา, คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Sharp in the mind: acute.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ชัดเจน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, adjective",
+   "pos_th": "คำกริยา, คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "And sharp to the eye: clear, distinct.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "โดยปริยายใช้สำหรับตาและปากซึ่งมีลักษณะอย่างของที่คมอาจบาดหรือแทงใจได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, adjective",
+   "pos_th": "คำกริยา, คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "Of eyes and mouth, cut clean and striking.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 15 manuscript titles, 166 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['ยาย', 'ย่า', 'ตา'].",
+ "compounds_unassigned": [
+  {
+   "th": "ความคม",
+   "rtgs": "khwam-khom",
+   "ipa": "/kʰwaːm˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ คม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "-ness + sharp",
+   "lit_th": "เรื่อง + ไหว้"
+  },
+  {
+   "th": "เฉียบคม",
+   "rtgs": "chiap-khom",
+   "ipa": "/t͡ɕʰia̯p̚˨˩.kʰom˧/",
+   "gloss": {
+    "en": [
+     "bright"
+    ],
+    "th": "คมคาย, ฉลาดหลักแหลม, มีไหวพริบดี",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เฉียบ",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ยิ่งนัก + ไหว้"
+  },
+  {
+   "th": "สิงหาคม",
+   "rtgs": "sing-ha-khom",
+   "ipa": "/siŋ˩˩˦.haː˩˩˦.kʰom˧/",
+   "gloss": {
+    "en": [
+     "August"
+    ],
+    "th": "ชื่อเดือนที่ 8 ตามสุริยคติ มี 31 วัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สิงหา",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "calendrical",
+   "pattern": "PROP+V",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ สิงหาคม + ไหว้"
+  },
+  {
+   "th": "ตุลาคม",
+   "rtgs": "tu-la-khom",
+   "ipa": "/tu˨˩.laː˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "October"
+    ],
+    "th": "ชื่อเดือนที่ 10 ตามสุริยคติ มี 31 วัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ตุลา",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "calendrical",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คันชั่ง + ไหว้"
+  },
+  {
+   "th": "มกราคม",
+   "rtgs": "ma-ka-ra-khom",
+   "ipa": "/ma˦˥.ka˨˩.raː˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "January"
+    ],
+    "th": "ชื่อเดือนที่ 1 ตามสุริยคติ มี 31 วัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "มกรา",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "calendrical",
+   "pattern": "PROP+V",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ มกราคม + ไหว้"
+  },
+  {
+   "th": "การลูบคม",
+   "rtgs": "kan-lup-khom",
+   "ipa": "/kaːn˧.luːp̚˥˩.kʰom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลูบคม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลูบ",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "stroke + sharp",
+   "lit_th": "คำอาการนามของ ลูบ + ไหว้"
+  },
+  {
+   "th": "ธันวาคม",
+   "rtgs": "than-wa-khom",
+   "ipa": "/tʰan˧.waː˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "December"
+    ],
+    "th": "ชื่อเดือนที่ 12 ตามสุริยคติ มี 31 วัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ธันวา",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "calendrical",
+   "pattern": "PROP+V",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ ธันวาคม + ไหว้"
+  },
+  {
+   "th": "ลูบคม",
+   "rtgs": "lup-khom",
+   "ipa": "/luːp̚˥˩.kʰom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทำให้เกียรติหรือศักดิ์ศรีด้อยลงไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลูบ",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "stroke + sharp",
+   "lit_th": "เอาฝ่ามือทาบลงแล้วเลื่อนไปหรือมาเป + ไหว้"
+  },
+  {
+   "th": "ความเฉียบคม",
+   "rtgs": "khwam-chiap-khom",
+   "ipa": "/kʰwaːm˧.t͡ɕʰia̯p̚˨˩.kʰom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เฉียบคม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเฉียบ",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เฉียบ + ไหว้"
+  },
+  {
+   "th": "คำคม",
+   "rtgs": "kham-khom",
+   "ipa": "/kʰam˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถ้อยคำที่หลักแหลมชวนให้คิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คำ",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "คำ"
+   ],
+   "lit": "word + sharp",
+   "lit_th": "เสียงพูด + ไหว้"
+  },
+  {
+   "th": "พฤษภาคม",
+   "rtgs": "phruet-sa-pha-khom",
+   "ipa": "/pʰrɯt̚˦˥.sa˨˩.pʰaː˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "May"
+    ],
+    "th": "ชื่อเดือนที่ 5 ตามสุริยคติ มี 31 วัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "พฤษภา",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "calendrical",
+   "pattern": "PROP+V",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ พฤษภาคม + ไหว้"
+  },
+  {
+   "th": "คมบาง",
+   "rtgs": "khom-bang",
+   "ipa": "/kʰom˧.baːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี จังหวัดจันทบุรี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คม",
+    "บาง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "บาง"
+   ],
+   "lit": "sharp + thin",
+   "lit_th": "ไหว้ + ทางน้ำเล็ก ๆ"
+  },
+  {
+   "th": "อาคม",
+   "rtgs": "a-khom",
+   "ipa": "/ʔaː˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เวทมนตร์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อา",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "อา"
+   ],
+   "lit": "father's younger sibling + sharp",
+   "lit_th": "น้องชายหรือน้องสาวของพ่อ + ไหว้",
+   "use": "false-split"
+  },
+  {
+   "th": "มีนาคม",
+   "rtgs": "mi-na-khom",
+   "ipa": "/miː˧.naː˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "March"
+    ],
+    "th": "ชื่อเดือนที่ 3 ตามสุริยคติ มี 31 วัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "มีนา",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "calendrical",
+   "pattern": "PROP+V",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ มีนาคม + ไหว้"
+  },
+  {
+   "th": "คมคาย",
+   "rtgs": "khom-khai",
+   "ipa": "/kʰom˧.kʰaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ฉลาด, ไหวพริบดี, ทันคน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คม",
+    "คาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "ไหว้ + ปล่อยของที่ไม่ต้องการจะกลืนหรือกลื"
+  },
+  {
+   "th": "กรกฎาคม",
+   "rtgs": "ka-ra-ka-da-khom",
+   "ipa": "/ka˨˩.ra˦˥.ka˨˩.daː˧.kʰom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อเดือนที่ 7 ตามสุริยคติ มี 31 วัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรกฎา",
+    "คม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself. · definition form: calendrical. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "calendrical",
+   "pattern": "PROP+V",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ กรกฎาคม + ไหว้"
+  },
+  {
+   "th": "คมช.",
+   "rtgs": "kho-mo-cho",
+   "ipa": "/kʰɔː˧.mɔː˧.t͡ɕʰɔː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อักษรย่อของ คณะมนตรีความมั่นคงแห่งชาติ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คม",
+    "ช."
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "ไหว้ + อักษรย่อของ ชาย"
+  }
+ ],
+ "etymology": {
+  "summary": "ตัดมาจาก บังคม, จากเขมร បង្គំ (บงฺคํ) สืบทอดจากไทดั้งเดิม *ɣɤmᴬ; ร่วมเชื้อสายกับอีสาน คม, ลาว ຄົມ (ค็ม), เขิน ᨤᩫ᩠ᨾ (ฅ็ม), ไทลื้อ ᦆᦳᧄ (ฅุม), ไทใหญ่ ၶူမ်း (ขู๊ม), อาหม 𑜁𑜤𑜪 (ขุํ), แสก กฺั๊ม, จ้วง hoemz (ฮม)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "sharp",
+  "keen"
+ ]
+}

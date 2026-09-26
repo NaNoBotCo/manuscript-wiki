@@ -1,0 +1,9 @@
+{
+ "head": "hai",
+ "rule": "หาย is vanishing. Sense 1, สูญ, takes the plain losses — สูญหาย, ฉิบหาย, and the three body-and-spirit words where what vanishes is one's composure: ใจหาย, ขวัญหาย and หายใจ, breathing, which Thai builds on the same verb. Sense 3, ไม่ปรากฏ, takes หายหัว, being gone a long while, beside หายตัว. Sense 4, หมด / สิ้น, takes เสียหาย. Left unfiled: หายยา, a tambon on a head with no name-use sense, and **กระหาย / กะหาย** and **กระดองหาย**, where I could not decide — กระ- is a real Thai prefix and หาย a real word, so the usual structural test does not apply, but nothing about thirsting or a winnowing stick involves vanishing, and no etymology is stated for any of the three.",
+ "senses": {
+  "1": ["ขวัญหาย","สูญหาย","หายใจ","ฉิบหาย","ใจหาย"],
+  "3": ["หายหัว"],
+  "4": ["เสียหาย"]
+ }
+}

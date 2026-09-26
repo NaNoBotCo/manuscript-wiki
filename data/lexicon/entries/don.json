@@ -1,0 +1,951 @@
+{
+ "id": "w:don",
+ "th": "ดอน",
+ "status": "mapped",
+ "rtgs": "don",
+ "paiboon": "dɔɔn",
+ "ipa": "/dɔːn˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "พื้นที่ที่น้ำท่วมไม่ถึง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ดอน, ground above the flood.",
+    "Declared root: ดอน, ground above the flood.",
+    "Declared root: ดอน, ground above the flood."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "หาดที่มีลักษณะราบซึ่งจะปรากฏให้เห็นเมื่อน้ำลด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "A flat bar that shows when the water drops.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหวัดนครราชสีมา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ดอนชมพู",
+     "rtgs": "don-chom-phu",
+     "ipa": "/dɔːn˧.t͡ɕʰom˧.pʰuː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโนนสูง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ชมพู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ไม้หว้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนชะเอม",
+     "rtgs": "don-cha-em",
+     "ipa": "/dɔːn˧.t͡ɕʰa˦˥.ʔeːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่ามะกา จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ชะเอม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อไม้เถาชนิด Myriopteron extensu",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนศิลา",
+     "rtgs": "don-si-la",
+     "ipa": "/dɔːn˧.si˨˩.laː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเวียงชัย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ศิลา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + หิน",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนทอง",
+     "rtgs": "don-thong",
+     "ipa": "/dɔːn˧.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ทอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "hill + gold",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนขมิ้น",
+     "rtgs": "don-kha-min",
+     "ipa": "/dɔːn˧.kʰa˨˩.min˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่ามะกา จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ขมิ้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "hill + turmeric",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อไม้ล้มลุกชนิด Curcuma longa ใน",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนมัน",
+     "rtgs": "don-man",
+     "ipa": "/dɔːn˧.man˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอประทาย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "มัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มัน"
+     ],
+     "lit": "hill + it",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนใหญ่",
+     "rtgs": "don-yai",
+     "ipa": "/dɔːn˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "hill + huge",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ดอนฉิมพลี",
+     "rtgs": "don-chim-phli",
+     "ipa": "/dɔːn˧.t͡ɕʰim˩˩˦.pʰliː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางน้ำเปรี้ยว จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ฉิมพลี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ไม้งิ้ว",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนสัก",
+     "rtgs": "don-sak",
+     "ipa": "/dɔːn˧.sak̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุราษฎร์ธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "สัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สัก"
+     ],
+     "lit": "hill + teak",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อไม้ต้นชนิด Tectona grandis L.f",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนตาล",
+     "rtgs": "don-tan",
+     "ipa": "/dɔːn˧.taːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดมุกดาหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ตาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อพืชชนิด Borassus flabellifer L",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนทราย",
+     "rtgs": "don-sai",
+     "ipa": "/dɔːn˧.saːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านโพธิ์ จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ทราย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "hill + sand",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนสมบูรณ์",
+     "rtgs": "don-som-bun",
+     "ipa": "/dɔːn˧.som˩˩˦.buːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอยางตลาด จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "สมบูรณ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "hill + absolute",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + บริบูรณ์"
+    },
+    {
+     "th": "ดอนแก้ว",
+     "rtgs": "don-kaeo",
+     "ipa": "/dɔːn˧.kɛːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่ริม จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "แก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แก้ว"
+     ],
+     "lit": "hill + glass",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนเจดีย์",
+     "rtgs": "don-che-di",
+     "ipa": "/dɔːn˧.t͡ɕeː˧.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสุพรรณบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "เจดีย์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "hill + pagoda",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + สิ่งซึ่งก่อเป็นรูปคล้ายลอมฟาง มียอ",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนช้าง",
+     "rtgs": "don-chang",
+     "ipa": "/dɔːn˧.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ช้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "hill + elephant",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนดั่ง",
+     "rtgs": "don-dang",
+     "ipa": "/dɔːn˧.daŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองสองห้อง จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ดั่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+PREP",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + เช่น"
+    },
+    {
+     "th": "ดอนหัน",
+     "rtgs": "don-han",
+     "ipa": "/dɔːn˧.han˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "หัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ผันร่างไปทางใดทางหนึ่ง"
+    },
+    {
+     "th": "ดอนหวาย",
+     "rtgs": "don-wai",
+     "ipa": "/dɔːn˧.waːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโนนสูง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "หวาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อเรียกปาล์มหลายชนิดหลายสกุล ในว",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนเปา",
+     "rtgs": "don-pao",
+     "ipa": "/dɔːn˧.paw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแม่วาง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "เปา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ซาลาเปา",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนเมือง",
+     "rtgs": "don-mueang",
+     "ipa": "/dɔːn˧.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "เมือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "hill + town",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนจาน",
+     "rtgs": "don-chan",
+     "ipa": "/dɔːn˧.t͡ɕaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "จาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "hill + plate",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ภาชนะรูปแบน ๆ สำหรับใส่สิ่งของต่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนตูม",
+     "rtgs": "don-tum",
+     "ipa": "/dɔːn˧.tuːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครปฐม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "ตูม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + มะตูม",
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนแตง",
+     "rtgs": "don-taeng",
+     "ipa": "/dɔːn˧.tɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอขาณุวรลักษบุรี จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดอน",
+      "แตง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหว + ชื่อไม้เถาล้มลุกหลายชนิดหลายสกุล ใ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A tambon named from its high ground.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "หัวหน้าใหญ่ของแก๊งค์เจ้าพ่อ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:toponym"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ดอน as a gang boss — the English/Italian don, modern.",
+    "Declared root: ดอน as a gang boss — the English/Italian don, modern.",
+    "Declared root: ดอน as a gang boss — the English/Italian don, modern."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 19 manuscript titles, 20 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 26; domain seeded by keyword hits ['toponym formative'].",
+ "compounds_unassigned": [
+  {
+   "th": "ลอนดอน",
+   "rtgs": "lon-don",
+   "ipa": "/lɔn˧.dɔn˧/",
+   "gloss": {
+    "en": [
+     "London",
+     "O2"
+    ],
+    "th": "เมืองหลวงของอังกฤษ และสหราชอาณาจักร ชื่อเต็มคือ นครลอนดอนและปริมณฑล",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ลอน",
+    "ดอน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "ส่วนที่มีลักษณะสูง ๆ ต่ำ ๆ อย่างลู + พื้นที่ที่น้ำท่วมไม่ถึง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "กระดอน",
+   "rtgs": "kra-don",
+   "ipa": "/kra˨˩.dɔːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สะท้อนขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "ดอน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
+  },
+  {
+   "th": "สันดอน",
+   "rtgs": "san-don",
+   "ipa": "/san˩˩˦.dɔːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดินหรือกรวดทรายเป็นต้นซึ่งน้ำพัดเอามารวมกัน ปรากฏนูนยาวอยู่ใต้น้ำ ทำให้สูงเป็นสันขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สัน",
+    "ดอน"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "สัน"
+   ],
+   "lit": "ridge + hill",
+   "lit_th": "สิ่งที่มีลักษณะนูนสูงขึ้นเป็นแนวยา + พื้นที่ที่น้ำท่วมไม่ถึง",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับอีสาน ดอน, ลาว ດອນ (ดอน), ไทลื้อ ᦡᦸᧃ (ดอ̂น), จ้วง ndon (ดอน, “พื้นที่ที่น้ำท่วมไม่ถึง”) ยืมมาจากอังกฤษ don",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "hill"
+ ]
+}

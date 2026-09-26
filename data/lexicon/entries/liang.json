@@ -1,0 +1,899 @@
+{
+ "id": "w:liang",
+ "th": "เลี้ยง",
+ "status": "mapped",
+ "rtgs": "liang",
+ "paiboon": "líiang",
+ "ipa": "/lia̯ŋ˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ดูแล, เอาใจใส่, บำรุง, เลี้ยงดู ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "เลี้ยงดู",
+     "rtgs": "liang-du",
+     "ipa": "/lia̯ŋ˦˥.duː˧/",
+     "gloss": {
+      "en": [
+       "rear"
+      ],
+      "th": "ดูแล, เอาใจใส่ (มักใช้แก่คน)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เลี้ยง",
+      "ดู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "grow + look",
+     "lit_th": "ดูแล + ใช้สายตาเพื่อให้เห็น"
+    },
+    {
+     "th": "ชุบเลี้ยง",
+     "rtgs": "chup-liang",
+     "ipa": "/t͡ɕʰup̚˦˥.lia̯ŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บำรุงเลี้ยงดูให้มีฐานะดีขึ้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชุบ",
+      "เลี้ยง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.29, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "เอาสิ่งใดสิ่งหนึ่งจุ่มลงไปในน้ำหรื + ดูแล"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ปรนปรือด้วยอาหารการกินเป็นต้น, เลี้ยงดู ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Care narrowed to feeding.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ประคับประคองให้ทรงตัวอยู่ได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เลี้ยงชีพ",
+     "rtgs": "liang-chip",
+     "ipa": "/lia̯ŋ˦˥.t͡ɕʰiːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เลี้ยงตัว ทำมาหากินเพื่อให้ชีวิตดำรงอยู่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เลี้ยง",
+      "ชีพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ชีพ"
+     ],
+     "lit": "grow + life",
+     "lit_th": "ประคับประคองให้ทรงตัวอยู่ได้ + ชีวิต"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Keeping a thing balanced and going — เลี้ยงไข้, เลี้ยงลูกบอล.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "กินร่วมกันเพื่อความรื่นเริงหรือความสามัคคีเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กินเลี้ยง",
+     "rtgs": "kin-liang",
+     "ipa": "/kin˧.lia̯ŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กินอาหารร่วมกันหลายคนเพื่อสังสรรค์กันเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "เลี้ยง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.29, next 0.20",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "eat + grow",
+     "lit_th": "เคี้ยว + กินร่วมกันเพื่อความรื่นเริงหรือควา"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Feeding together: a gathering over food.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เป็นเจ้ามือจ่ายค่าอาหารหรือค่าบันเทิงเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:food"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "And the one who pays for it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 4 manuscript titles, 30 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 23; domain seeded by keyword hits ['อาหาร', 'กิน'].",
+ "compounds_unassigned": [
+  {
+   "th": "การกินเลี้ยง",
+   "rtgs": "kan-kin-liang",
+   "ipa": "/kaːn˧.kin˧.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กินเลี้ยง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกิน",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กิน + ดูแล"
+  },
+  {
+   "th": "หล่อเลี้ยง",
+   "rtgs": "lo-liang",
+   "ipa": "/lɔː˨˩.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยังชีพไว้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หล่อ",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "handsome + grow",
+   "lit_th": "เทโลหะเหลวหรือขี้ผึ้งเหลวเป็นต้นลง + ดูแล"
+  },
+  {
+   "th": "พ่อเลี้ยง",
+   "rtgs": "pho-liang",
+   "ipa": "/pʰɔː˥˩.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "stepfather"
+    ],
+    "th": "ผัวของแม่ แต่ไม่ใช่พ่อของตัว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "พ่อ",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "father + grow",
+   "lit_th": "ชายผู้ให้กำเนิดหรือเลี้ยงดูลูก + ดูแล"
+  },
+  {
+   "th": "สัตว์เลี้ยง",
+   "rtgs": "sat-liang",
+   "ipa": "/sat̚˨˩.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "pet"
+    ],
+    "th": "สัตว์ที่มนุษย์เลี้ยงไว้เพื่อใช้แรงงาน เพื่อเป็นอาหาร หรือเพื่อความเพลิดเพลิน เป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สัตว์",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "animal + grow",
+   "lit_th": "สิ่งมีชีวิตซึ่งแตกต่างไปจากพรรณไม้ + ดูแล"
+  },
+  {
+   "th": "การเลี้ยง",
+   "rtgs": "kan-liang",
+   "ipa": "/kaːn˧.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เลี้ยง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ดูแล"
+  },
+  {
+   "th": "โอเลี้ยง",
+   "rtgs": "o-liang",
+   "ipa": "/ʔoː˧.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กาแฟดำใส่น้ำแข็ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โอ",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "โอ"
+   ],
+   "lit": "pomelo + grow",
+   "use": "false-split"
+  },
+  {
+   "th": "เบี้ยเลี้ยง",
+   "rtgs": "bia-liang",
+   "ipa": "/bia̯˥˩.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "allowance"
+    ],
+    "th": "เงินที่จ่ายให้เพื่อเป็นค่าใช้จ่ายที่เกิดขึ้นจากการไปปฏิบัติงานนอกสถานที่โดยไม่รวมถึงค่าเช่าที่พักและค่าพาหนะในการเดินทาง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เบี้ย",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1
+  },
+  {
+   "th": "แม่เลี้ยง",
+   "rtgs": "mae-liang",
+   "ipa": "/mɛː˥˩.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "stepmother"
+    ],
+    "th": "เมียของพ่อ แต่ไม่ใช่แม่ของตัว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แม่",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "mother + grow",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ดูแล"
+  },
+  {
+   "th": "เลี้ยงแขก",
+   "rtgs": "liang-khaek",
+   "ipa": "/lia̯ŋ˦˥.kʰɛːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เลี้ยงอาหารแก่ผู้ได้รับเชิญ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เลี้ยง",
+    "แขก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "grow + guest",
+   "lit_th": "ดูแล + ผู้มาหา"
+  },
+  {
+   "th": "ลูกเลี้ยง",
+   "rtgs": "luk-liang",
+   "ipa": "/luːk̚˥˩.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลูกที่ติดพ่อหรือแม่มา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลูก",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ลูก"
+   ],
+   "lit": "child + grow",
+   "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ดูแล"
+  },
+  {
+   "th": "การชุบเลี้ยง",
+   "rtgs": "kan-chup-liang",
+   "ipa": "/kaːn˧.t͡ɕʰup̚˦˥.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชุบเลี้ยง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การชุบ",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชุบ + ดูแล"
+  },
+  {
+   "th": "ไม่เลี้ยง",
+   "rtgs": "mai-liang",
+   "ipa": "/maj˥˩.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่ยั้งมือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไม่",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit": "no + grow",
+   "lit_th": "มิ + ดูแล"
+  },
+  {
+   "th": "ใบเลี้ยง",
+   "rtgs": "bai-liang",
+   "ipa": "/baj˧.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ใบที่แตกออกมาจากเมล็ดเป็นใบแรกหรือคู่แรก, ใบที่อยู่ชิดกับขั้วผลไม้บางชนิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ใบ",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ใบ"
+   ],
+   "lit": "leaf + grow",
+   "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + ดูแล"
+  },
+  {
+   "th": "เลี้ยงผี",
+   "rtgs": "liang-phi",
+   "ipa": "/lia̯ŋ˦˥.pʰiː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เลี้ยงวิญญาณของคนที่ตายแล้วเพื่อเอามาใช้ประโยชน์เช่นการเสี่ยงทายเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เลี้ยง",
+    "ผี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ผี"
+   ],
+   "lit": "grow + spirit",
+   "lit_th": "ดูแล + สิ่งที่มนุษย์เชื่อว่าเป็นสภาพลึกลั"
+  },
+  {
+   "th": "เลี้ยงผม",
+   "rtgs": "liang-phom",
+   "ipa": "/lia̯ŋ˦˥.pʰom˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไว้ผมยาวโดยไม่ตัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เลี้ยง",
+    "ผม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "grow + hair",
+   "lit_th": "ดูแล + ขนที่ขึ้นอยู่บนศีรษะ โดยปกติเป็นเส"
+  },
+  {
+   "th": "ความหล่อเลี้ยง",
+   "rtgs": "khwam-lo-liang",
+   "ipa": "/kʰwaːm˧.lɔː˨˩.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หล่อเลี้ยง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความหล่อ",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หล่อ + ดูแล"
+  },
+  {
+   "th": "เลี้ยงตัว",
+   "rtgs": "liang-tua",
+   "ipa": "/lia̯ŋ˦˥.tua̯˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทำมาหากินเพื่อให้ชีวิตดำรงอยู่ได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เลี้ยง",
+    "ตัว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตัว"
+   ],
+   "lit": "grow + form",
+   "lit_th": "ดูแล + รูป"
+  },
+  {
+   "th": "การหล่อเลี้ยง",
+   "rtgs": "kan-lo-liang",
+   "ipa": "/kaːn˧.lɔː˨˩.lia̯ŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หล่อเลี้ยง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหล่อ",
+    "เลี้ยง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หล่อ + ดูแล"
+  },
+  {
+   "th": "เลี้ยงส่ง",
+   "rtgs": "liang-song",
+   "ipa": "/lia̯ŋ˦˥.soŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เลี้ยงอาหารแก่ผู้ที่จะจากไปอย่างเดินทางไปต่างประเทศเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เลี้ยง",
+    "ส่ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "ส่ง"
+   ],
+   "lit": "grow + send",
+   "lit_th": "ดูแล + ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *liəŋꟲ, จากจีนเก่า 養 (OC *laŋʔ); ร่วมเชื้อสายกับคำเมือง ᩃ᩠ᨿ᩶ᨦ (ลย้ง), ลาว ລ້ຽງ (ล้ยง), ไทลื้อ ᦵᦟᧂᧉ (เล้ง), ไทดำ ꪩꪸ꫁ꪉ (ลย้̂ง), ไทขาว ꪩꪸꪉꫂ, ไทใหญ่ လဵင်ႉ (เล๎ง), ไทใต้คง ᥘᥥᥒᥳ (เล๎ง), อาหม 𑜎𑜢𑜂𑜫 (ลิง์)，จ้วง yiengx",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩃ᩠ᨿ᩶ᨦ",
+  "th": "ลย้ง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "grow",
+  "breed",
+  "tend",
+  "treat"
+ ]
+}

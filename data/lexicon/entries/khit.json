@@ -1,0 +1,877 @@
+{
+ "id": "w:khit",
+ "th": "คิด",
+ "status": "mapped",
+ "rtgs": "khit",
+ "paiboon": "kít",
+ "ipa": "/kʰit̚˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็นรูปหรือเป็นเรื่องขึ้นในใจ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "แนวคิด",
+     "rtgs": "naeo-khit",
+     "ipa": "/nɛːw˧.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "course",
+       "thinking"
+      ],
+      "th": "ความคิดที่เป็นแนวที่จะดำเนินต่อไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แนว",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "แนว"
+     ],
+     "lit": "row + think",
+     "lit_th": "สิ่งที่มีลักษณะเป็นแถว + ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น"
+    },
+    {
+     "th": "คิดค้น",
+     "rtgs": "khit-khon",
+     "ipa": "/kʰit̚˦˥.kʰon˦˥/",
+     "gloss": {
+      "en": [
+       "invent",
+       "create"
+      ],
+      "th": "ตริตรองเพื่อหาความจริง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คิด",
+      "ค้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "think + look",
+     "lit_th": "ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น + พยายามหาให้พบโดยวิธีสืบ เสาะ แสวง"
+    },
+    {
+     "th": "ต้นคิด",
+     "rtgs": "ton-khit",
+     "ipa": "/ton˥˩.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ริเริ่ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "trunk + think",
+     "lit_th": "ลำของต้นไม้ + ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น"
+    },
+    {
+     "th": "ความคิด",
+     "rtgs": "khwam-khit",
+     "ipa": "/kʰwaːm˧.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "idea",
+       "thinking",
+       "concept"
+      ],
+      "th": "สิ่งที่นึกรู้ขึ้นในใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ความ",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "-ness + think",
+     "lit_th": "เรื่อง + ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ใคร่ครวญ, ไตร่ตรอง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "คิดอ่าน",
+     "rtgs": "khit-an",
+     "ipa": "/kʰit̚˦˥.ʔaːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใคร่ครวญหาหนทางแก้ไข",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คิด",
+      "อ่าน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.20, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "think + read",
+     "lit_th": "ใคร่ครวญ + ว่าตามตัวหนังสือ"
+    },
+    {
+     "th": "นึกคิด",
+     "rtgs": "nuek-khit",
+     "ipa": "/nɯk̚˦˥.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คิดใคร่ครวญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นึก",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.23, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "คิด + ใคร่ครวญ"
+    },
+    {
+     "th": "ขบคิด",
+     "translit_auto": "khbkhid",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คิดตรึกตรองอย่างหนัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขบ",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "bite + think",
+     "lit_th": "เอาฟันเน้นเพื่อให้แตก + ใคร่ครวญ"
+    },
+    {
+     "th": "สิ้นคิด",
+     "rtgs": "sin-khit",
+     "ipa": "/sin˥˩.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมดปัญญาจะแก้ปัญหา, หมดหนทางคิดอ่าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิ้น",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "สิ้น"
+     ],
+     "lit": "to be exhausted + think",
+     "lit_th": "หมด + ใคร่ครวญ"
+    },
+    {
+     "th": "คิดเห็น",
+     "rtgs": "khit-hen",
+     "ipa": "/kʰit̚˦˥.hen˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เข้าใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คิด",
+      "เห็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "think + see",
+     "lit_th": "ใคร่ครวญ + อาการของตาที่ประสบรูป"
+    },
+    {
+     "th": "รู้คิด",
+     "translit_auto": "rukhid",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้จักคิดอ่าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "รู้"
+     ],
+     "lit": "know + think",
+     "lit_th": "แจ้ง + ใคร่ครวญ"
+    },
+    {
+     "th": "ข้อคิด",
+     "rtgs": "kho-khit",
+     "ipa": "/kʰɔː˥˩.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประเด็นที่เสนอให้คิด, ประเด็นที่ชวนคิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้อ",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร + ใคร่ครวญ"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Forming a thing in the mind and turning it: to ponder.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "คาดคะเน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Forming a figure of what is not yet known: to estimate.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "คำนวณ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "And working it exactly: to calculate.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ลูกคิด",
+     "rtgs": "luk-khit",
+     "ipa": "/luːk̚˥˩.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "abacus"
+      ],
+      "th": "เครื่องคำนวณเลขของจีน ทำด้วยไม้ เป็นลูกกลม ๆ ร้อยใส่ไว้ในราง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + think",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + คำนวณ"
+    },
+    {
+     "th": "คิดบัญชี",
+     "rtgs": "khit–ban–chi",
+     "ipa": "/kʰit̚˦˥.ban˧.t͡ɕʰiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระทำสิ่งใดสิ่งหนึ่งเพื่อจัดการกับผู้ที่กระทำความชั่วความผิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คิด",
+      "บัญชี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "think + list",
+     "lit_th": "คำนวณ + สมุดหรือกระดาษสำหรับจดรายการต่าง ๆ"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "มุ่ง, จงใจ, ตั้งใจ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Setting the mind on a thing: to intend.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "คิดคด",
+     "rtgs": "khit-khot",
+     "ipa": "/kʰit̚˦˥.kʰot̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คิดทรยศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คิด",
+      "คด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "lit_th": "มุ่ง + ลักษณะที่ไม่ตรงตลอด",
+     "frame": "quality"
+    },
+    {
+     "th": "คบคิด",
+     "rtgs": "khop-khit",
+     "ipa": "/kʰop̚˦˥.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ร่วมคิดกันทำการอย่างใดอย่างหนึ่งโดยไม่เปิดเผย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คบ",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ง่ามต้นไม้ที่กิ่งใหญ่กับลำต้นแยกกั + มุ่ง"
+    },
+    {
+     "th": "คิดสั้น",
+     "rtgs": "khit-san",
+     "ipa": "/kʰit̚˦˥.san˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คิดทำลายตนเองเพราะหาทางออกไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คิด",
+      "สั้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "lit": "think + short",
+     "lit_th": "มุ่ง + ลักษณะส่วนหนึ่งของสิ่งใด ๆ มีกำหนด",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "นึก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "And simply, to have in mind.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "คิดถึง",
+     "rtgs": "khit-thueng",
+     "ipa": "/kʰit̚˦˥.tʰɯŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "anxious"
+      ],
+      "th": "นึกถึง, นึกถึงด้วยใจผูกพัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คิด",
+      "ถึง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "ถึง"
+     ],
+     "lit": "think + arrive",
+     "lit_th": "นึก + บรรลุจุดหมาย"
+    },
+    {
+     "th": "สมคิด",
+     "rtgs": "som-khit",
+     "ipa": "/som˩˩˦.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อจริงรวม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สม",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · definition form: personal-name. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "personal-name",
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit": "suitable + think",
+     "lit_th": "เหมาะ + นึก",
+     "frame": "quality"
+    },
+    {
+     "th": "ฉุกคิด",
+     "rtgs": "chuk-khit",
+     "ipa": "/t͡ɕʰuk̚˨˩.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คิดขึ้นมาทันที, คิดได้ในขณะนั้น, บังเอิญคิดได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฉุก",
+      "คิด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "อาการที่เกิดขึ้นโดยพลัน + นึก"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 15 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits ['นึก', 'ใจ'].",
+ "compounds_unassigned": [
+  {
+   "th": "การคิด",
+   "rtgs": "kan-khit",
+   "ipa": "/kaːn˧.kʰit̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ คิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "คิด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น"
+  },
+  {
+   "th": "การคบคิด",
+   "rtgs": "kan-khop-khit",
+   "ipa": "/kaːn˧.kʰop̚˦˥.kʰit̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ คบคิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การคบ",
+    "คิด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ คบ + ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากเขมรกลาง gita, gitra, gīta, gītra, gitta, gittha, gīttha, gï̄tta, gœta, gata, เขมรเก่าสมัยอังกอร์ git (“idem”), หรือ เขมรเก่าสมัยก่อนอังกอร์ git (“idem”). ร่วมเชื้อสายกับลาว ຄຶດ (คึด).",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "think",
+  "concoct",
+  "reckon"
+ ]
+}

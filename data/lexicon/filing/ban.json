@@ -1,0 +1,10 @@
+{
+ "head": "ban",
+ "rule": "บ้าน runs from one dwelling out to inhabited country, and the compounds sort by how far out they have gone. Sense 1 keeps the house itself (บ้านเก่า, เพื่อนบ้าน, การบ้าน). Sense 4 is the village as a body of people and takes ชาวบ้าน and ลูกบ้าน. Sense 5 is inhabited territory at large — พื้นบ้าน, บ้านนอก, บ้านนา, บ้านเมือง — where บ้าน has stopped meaning anyone's house and means where people are. Sense 7 is the DOMESTIC pole against the wild, and its own gloss sets the pattern with หมูบ้าน คู่กับ หมูป่า; ไก่บ้าน files there against ไก่ป่า, which I filed under ป่า sense 5 for the same reason. The two heads carry the same opposition from opposite ends.",
+ "senses": {
+  "1": ["การบ้าน","บ้านเก่า","เพื่อนบ้าน"],
+  "4": ["ชาวบ้าน","ลูกบ้าน"],
+  "5": ["บ้านนอก","บ้านนา","บ้านเมือง","พื้นบ้าน"],
+  "7": ["ไก่บ้าน"]
+ }
+}

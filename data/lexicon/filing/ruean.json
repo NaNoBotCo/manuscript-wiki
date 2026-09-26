@@ -1,0 +1,8 @@
+{
+ "head": "ruean",
+ "rule": "เรือน is a dwelling, and sense 1 takes everything that is one, is part of one, or is named for one — the houseboat and the palace building, the household and its work (ครัวเรือน, การเรือน, แม่เรือน), what lives in it (ผีเรือน), what it is built from (เครื่องเรือน), and the two buildings that borrowed the word for confinement and for civilian life (เรือนจำ, พลเรือน). เรือนลูกอ่อน, the womb, is still a dwelling. Sense 3, ที่รับเพชรพลอย — the setting that holds a gem — was empty, and it generalises exactly as a setting should: เรือนไฟ is the housing that holds a flame and เรือนตะเกียง the one that holds a lamp. A setting is a small house for a bright thing.",
+ "senses": {
+  "1": ["การเรือน","ครัวเรือน","บ้านเรือน","ผีเรือน","พลเรือน","เครื่องเรือน","เรือนจำ","เรือนลูกอ่อน","เรือนหลวง","เรือนแพ","แม่เรือน"],
+  "3": ["เรือนตะเกียง","เรือนไฟ"]
+ }
+}

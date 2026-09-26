@@ -1,0 +1,8 @@
+{
+ "head": "won",
+ "rule": "วน is two words — to circle (1-2) and Sanskrit *vana*, forest (3) — and six of nine candidates are neither. The forest sense takes **วนศาสตร์**, forestry, which the dictionary confirms as วน + ศาสตร์ and marks a Royal Institute coinage for *forestry*; it is the same Indic morpheme that fills วัน sense 6 in ปทุมวัน, so the two heads now agree. The circling sense takes วนเวียน and กระวน, the latter on its own gloss — วนเวียน วุ่น หวน — which uses the head word to define it. Everything else is a monosyllable that merely ends in -วน (แขวน and แหวน both inherited Proto-Tai, ตรวน, ขมวน, บ่วน) or the doublet ขบวน / กระบวน.",
+ "senses": {
+  "1": ["กระวน","วนเวียน"],
+  "3": ["วนศาสตร์"]
+ }
+}

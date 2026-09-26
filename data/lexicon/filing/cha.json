@@ -1,0 +1,8 @@
+{
+ "head": "cha",
+ "rule": "ชา is at least five unrelated words in one entry — the tea plant, the hedge shrub, liquor, numbness, the perfumery boat — plus four candidates that are not ชา at all. What files is small and unambiguous. Sense 3, the brewed drink, takes everything drinkable or about drinking: ชาเย็น, ชาไทย, ชาชัก, ชาไข่มุก, ช้อนชา, สุธารสชา the royal word, and ค่าน้ำชา, tea money, where the tea is a euphemism for the bribe but still tea. Sense 6, numbness, takes ยาชา and ชินชา, which the dictionary confirms as ชิน + ชา — being so used to a thing that feeling for it goes numb. ฦๅชา is left unfiled: the retired spelling of ลือชา, renowned, and no sense of ชา accounts for it.",
+ "senses": {
+  "3": ["ค่าน้ำชา","ชาชัก","ชาเย็น","ชาไข่มุก","ชาไทย","ช้อนชา","สุธารสชา"],
+  "6": ["ชินชา","ยาชา"]
+ }
+}

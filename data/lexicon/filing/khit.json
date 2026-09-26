@@ -1,0 +1,11 @@
+{
+ "head": "khit",
+ "rule": "คิด's six senses divide by WHAT the thinking produces. Sense 1 is the making: a thought composed in the mind, so the nouns of a formed idea and the words for devising and originating file there. Sense 2 is the turning-over: any word for hard or repeated deliberation, and anything offered to be deliberated on. Sense 4 is reckoning with numbers, which takes the abacus and the settling of an account. Sense 5 is thinking AT something — an intention formed against a person or against oneself. Sense 6 is bare นึก, a thing merely held in mind or arriving in it, with no work done on it.",
+ "senses": {
+  "1": ["ความคิด", "แนวคิด", "คิดค้น", "ต้นคิด"],
+  "2": ["ขบคิด", "สิ้นคิด", "คิดเห็น", "รู้คิด", "ข้อคิด"],
+  "4": ["ลูกคิด", "คิดบัญชี"],
+  "5": ["คิดคด", "คบคิด", "คิดสั้น"],
+  "6": ["คิดถึง", "สมคิด", "ฉุกคิด"]
+ }
+}

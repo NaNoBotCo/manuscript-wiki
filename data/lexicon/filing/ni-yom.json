@@ -1,0 +1,32 @@
+{
+ "head": "ni-yom",
+ "rule": "นิยม's senses divide by what the compound NAMES, and sense 2 is not a meaning but a construction — the RID's own gloss says it is what นิยม means when it closes a สมาส — so every coined -ism files there, with the ราชบัณฑิตยสภา coinage line in the etymology as the tell. Sense 3 takes the words that name LIKING itself: taste, fashion, a written appreciation. Sense 1, the bare Sanskrit niyama 'determination', keeps the words where นิยม fixes or designates rather than approves — the demonstrative, the decimal point, the university's honours grade. Pulled out 2026-09-18 as spelling-variant, a gloss that reads only รูปสะกดผิดของ X: อนุรักษ์นิยม. An entry that points at another spelling carries no sense of this head to file it under.",
+ "senses": {
+  "1": [
+   "นิยมสรรพนาม",
+   "ทศนิยม",
+   "เกียรตินิยม"
+  ],
+  "2": [
+   "วัตถุนิยม",
+   "ธรรมนิยม",
+   "ทุนนิยม",
+   "เสรีนิยม",
+   "ปัจเจกนิยม",
+   "ประเพณีนิยม",
+   "คตินิยม",
+   "คุณธรรมนิยม",
+   "จักรวรรดินิยม",
+   "เหตุผลนิยม",
+   "สุขนิยม"
+  ],
+  "3": [
+   "รสนิยม",
+   "สมัยนิยม",
+   "คำนิยม"
+  ]
+ },
+ "spelling_variants": [
+  "อนุรักษ์นิยม"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "head": "khu",
+ "rule": "คู่ divides by what the two are TO EACH OTHER. Sense 2 is the working pair — two that belong together and are better for it: คู่ซี้, คู่หู, คู่ใจ, คู่ขา, the two monks who chant an ordination (คู่สวด), mixed doubles (คู่ผสม), and คู่มือ, the manual that stays at your hand. Sense 3 narrows that to the marriage and takes seven, including the two that reach back into a former life, คู่บุญ and เนื้อคู่. Sense 5 is the pair held APART — parties to a dispute (คู่กรณี, คู่พิพาท), a rival (คู่แข่ง), a feud (คู่กัด), a blood enemy (คู่อาฆาต) — and it takes คู่มิตร too, which is friendly but is still a fixed relation between two charts, the counterpart of คู่ศัตรู. Sense 4 takes only objects that ARE two (ฆ้องคู่, and the twin thickets of ดงคู่), and sense 1 only the arithmetic (เดือนคู่). บังคู่ does not file: see the log.",
+ "senses": {
+  "1": [
+   "เดือนคู่"
+  ],
+  "2": [
+   "คู่ซี้",
+   "คู่หู",
+   "คู่ใจ",
+   "คู่ขา",
+   "คู่มือ",
+   "คู่สวด",
+   "คู่ผสม",
+   "คู่ควร",
+   "เข้าคู่"
+  ],
+  "3": [
+   "คู่ครอง",
+   "คู่ชีวิต",
+   "คู่สมรส",
+   "คู่หมั้น",
+   "คู่รัก",
+   "เนื้อคู่",
+   "คู่บุญ"
+  ],
+  "4": [
+   "ฆ้องคู่",
+   "ดงคู่"
+  ],
+  "5": [
+   "คู่กรณี",
+   "คู่พิพาท",
+   "คู่แข่ง",
+   "คู่กัด",
+   "คู่อาฆาต",
+   "คู่มิตร"
+  ]
+ }
+}

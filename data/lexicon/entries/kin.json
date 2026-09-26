@@ -1,0 +1,1668 @@
+{
+ "id": "w:kin",
+ "th": "กิน",
+ "status": "mapped",
+ "rtgs": "kin",
+ "paiboon": "gin",
+ "ipa": "/kin˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "เคี้ยว (แล้วคายทิ้ง)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Chewing without swallowing — the betel quid.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เคี้ยวกลืน, ทำให้ล่วงลำคอลงไปสู่กระเพาะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first.",
+    "Declared root: กิน 'to chew and swallow' — the core, though the RID prints the betel sense first."
+   ],
+   "compounds": [
+    {
+     "th": "กินน้ำตา",
+     "translit_auto": "kinnamta",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ร้องไห้, เศร้าโศก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "น้ำตา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "eat + tear",
+     "lit_th": "เคี้ยวกลืน + น้ำที่ไหลออกจากนัยน์ตา"
+    },
+    {
+     "th": "กินเลี้ยง",
+     "rtgs": "kin-liang",
+     "ipa": "/kin˧.lia̯ŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กินอาหารร่วมกันหลายคนเพื่อสังสรรค์กันเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "เลี้ยง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "cross_listed": [
+      "เลี้ยง"
+     ],
+     "lit": "eat + grow",
+     "lit_th": "เคี้ยวกลืน + ดูแล"
+    },
+    {
+     "th": "กินถั่วดำ",
+     "rtgs": "kin-thua-dam",
+     "ipa": "/kin˧.tʰua̯˨˩.dam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นิยมชายรักร่วมเพศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ถั่วดำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เคี้ยวกลืน + เมล็ดแก่ของถั่วฝักยาวชนิดที่เมล็ดส"
+    },
+    {
+     "th": "กินยุง",
+     "rtgs": "kin-yung",
+     "ipa": "/kin˧.juŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อปลาน้ำจืดขนาดเล็กชนิด Gambusia affinis ในวงศ์ปลาสอด คล้ายปลาหางนกยูง แต่มีขนาดใหญ่กว่า ปากแหลมกว่าและปลายปากเชิดขึ้นด้านบน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ยุง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เคี้ยวกลืน + วงศ์ Culicidae โดยทั่วไปลำตัวยาว 3"
+    },
+    {
+     "th": "กินบุญ",
+     "rtgs": "kin-bun",
+     "ipa": "/kin˧.bun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กินเลี้ยงในงานทำบุญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "บุญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "บุญ"
+     ],
+     "lit": "eat + merit",
+     "lit_th": "เคี้ยวกลืน + ความสุข"
+    },
+    {
+     "th": "กินตับ",
+     "rtgs": "kin-tap",
+     "ipa": "/kin˧.tap̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีเพศสัมพันธ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ตับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "eat + liver",
+     "lit_th": "เคี้ยวกลืน + อวัยวะประเภทต่อมของระบบทางเดินอาหา"
+    },
+    {
+     "th": "กินข้าวแดง",
+     "rtgs": "kin-khao-daeng",
+     "ipa": "/kin˧.kʰaːw˥˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จำคุก, ติดคุก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ข้าวแดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เคี้ยวกลืน + เมล็ดข้าวที่มีปลอกรำสีแดงหุ้มอยู่ร"
+    },
+    {
+     "th": "กินดอง",
+     "rtgs": "kin-dong",
+     "ipa": "/kin˧.dɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กินเลี้ยงในการแต่งงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ดอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "เคี้ยวกลืน + แช่หรือหมักผัก ผลไม้ หรือสิ่งต่าง"
+    },
+    {
+     "th": "กินนอน",
+     "translit_auto": "kinnon",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกโรงเรียนที่จัดให้นักเรียนกินอยู่หลับนอนในโรงเรียนที่เรียกว่า โรงเรียนกินนอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "นอน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "eat + dormant",
+     "lit_th": "เคี้ยวกลืน + เอนตัวลงกับพื้นหรือที่ใด ๆ"
+    },
+    {
+     "th": "เกินกิน",
+     "rtgs": "koen-kin",
+     "ipa": "/kɤːn˧.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กินไม่ดีเพราะแก่เกินไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกิน",
+      "กิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "cross_listed": [
+      "เกิน"
+     ],
+     "lit": "to exceed + eat",
+     "lit_th": "พ้น + เคี้ยวกลืน",
+     "frame": "quality"
+    },
+    {
+     "th": "กินเด็ก",
+     "rtgs": "kin-dek",
+     "ipa": "/kin˧.dek̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีแฟนอายุน้อยกว่ามาก (ใช้กับผู้หญิงหรือกะเทย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "เด็ก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "eat + child",
+     "lit_th": "เคี้ยวกลืน + คนที่มีอายุยังน้อย"
+    },
+    {
+     "th": "กินไข่แดง",
+     "rtgs": "kin-khai-daeng",
+     "ipa": "/kin˧.kʰaj˨˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำลายความบริสุทธิ์ของผู้หญิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ไข่แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "eat + egg yolk",
+     "lit_th": "เคี้ยวกลืน + ส่วนของไข่สัตว์ เช่น ไข่ของนก ไข่ข"
+    },
+    {
+     "th": "กินสำรับ",
+     "translit_auto": "kinsamrab",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กินอาหารที่เขาจัดมาเป็นสำรับ, กินอาหารอย่างดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "สำรับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เคี้ยวกลืน + ภาชนะเช่นถาดเป็นต้นใส่ถ้วยชามพร้อม"
+    },
+    {
+     "th": "กินแขก",
+     "rtgs": "kin-khaek",
+     "ipa": "/kin˧.kʰɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กินเลี้ยงในการแต่งงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "แขก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "eat + guest",
+     "lit_th": "เคี้ยวกลืน + ผู้มาหา"
+    },
+    {
+     "th": "หากิน",
+     "rtgs": "ha-kin",
+     "ipa": "/haː˩˩˦.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำงานเลี้ยงชีวิต, หาเลี้ยงชีพ, มักใช้เข้าคู่กับคำ ทำมา เป็น ทำมาหากิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หา",
+      "กิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "หา"
+     ],
+     "lit": "find + eat",
+     "lit_th": "มุ่งพบ + เคี้ยวกลืน"
+    },
+    {
+     "th": "เก็บกิน",
+     "rtgs": "kep-kin",
+     "ipa": "/kep̚˨˩.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เก็บผลประโยชน์เอาไว้ใช้สอยยังชีพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เก็บ",
+      "กิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "เก็บ"
+     ],
+     "lit": "keep + eat",
+     "lit_th": "เอาไปหรือเอามาจากที่ + เคี้ยวกลืน"
+    },
+    {
+     "th": "อยู่กิน",
+     "rtgs": "yu-kin",
+     "ipa": "/juː˨˩.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดำรงชีวิตฉันผัวเมีย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อยู่",
+      "กิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "dwell + eat",
+     "lit_th": "พัก + เคี้ยวกลืน"
+    },
+    {
+     "th": "ของกิน",
+     "rtgs": "khong-kin",
+     "ipa": "/kʰɔːŋ˩˩˦.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของสำหรับกิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "กิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + eat",
+     "lit_th": "สิ่งต่าง ๆ + เคี้ยวกลืน"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ดื่ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กินน้ำ",
+     "translit_auto": "kinnam",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีท้องเรือจมลึกลงไปในน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "น้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "eat + water",
+     "lit_th": "ดื่ม + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ"
+    }
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Taking in by mouth, whether solid or liquid.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เปลือง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กินเวลา",
+     "rtgs": "kin-we-la",
+     "ipa": "/kin˧.weː˧.laː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เปลืองเวลา, ใช้เวลามาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "เวลา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "eat + time",
+     "lit_th": "เปลือง + ชั่วขณะความยาวนานที่มีอยู่หรือเป็น"
+    },
+    {
+     "th": "กินที่",
+     "rtgs": "kin-thi",
+     "ipa": "/kin˧.tʰiː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เปลืองที่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ที่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "eat + at",
+     "lit_th": "เปลือง + แหล่ง"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "A thing eating up money, fuel, time.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ทำให้หมดเปลือง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "And causing that consumption.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หวัดกิน",
+     "rtgs": "wat-kin",
+     "ipa": "/wat̚˨˩.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่เยื่อของอวัยวะที่เป็นเครื่องหายใจอักเสบ มักทำให้เสียงแห้งและนํ้ามูกไหล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หวัด",
+      "กิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "cold + eat",
+     "lit_th": "อาการที่เยื่อของอวัยวะที่เป็นเครื่ + ทำให้หมดเปลือง"
+    },
+    {
+     "th": "กินตัว",
+     "rtgs": "kin-tua",
+     "ipa": "/kin˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผุหรือขาดกร่อนไปเอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "eat + form",
+     "lit_th": "ทำให้หมดเปลือง + รูป"
+    },
+    {
+     "th": "ใบ้กิน",
+     "rtgs": "bai-kin",
+     "ipa": "/baj˥˩.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พูดไม่ออก, พูดไม่ได้อย่างที่ตั้งใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใบ้",
+      "กิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "พิการแต่กำเนิด ไม่สามารถพูดเป็นถ้อ + ทำให้หมดเปลือง",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "รับเอา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "To take in, to receive.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "กินเมือง",
+     "rtgs": "kin-mueang",
+     "ipa": "/kin˧.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ครองเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "เมือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "eat + town",
+     "lit_th": "รับเอา + แดน"
+    },
+    {
+     "th": "กินเส้น",
+     "rtgs": "kin-sen",
+     "ipa": "/kin˧.sen˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชอบกัน, เข้ากันได้, มักใช้ในความปฏิเสธว่า ไม่กินเส้นกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "เส้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "เส้น"
+     ],
+     "lit": "eat + mark",
+     "lit_th": "รับเอา + สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่"
+    },
+    {
+     "th": "กินลูกปืน",
+     "rtgs": "kin-luk-puen",
+     "ipa": "/kin˧.luːk̚˥˩.pɯːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ถูกยิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ลูกปืน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "รับเอา + ลูกตะกั่วหรือเหล็กเป็นต้นที่ยัดใส่"
+    },
+    {
+     "th": "กินแหนง",
+     "rtgs": "kin-naeng",
+     "ipa": "/kin˧.nɛːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สงสัย, ระแวง, ไม่แน่ใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "แหนง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "รับเอา + หมาง"
+    },
+    {
+     "th": "กินลม",
+     "rtgs": "kin-lom",
+     "ipa": "/kin˧.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต้านลม, รับลม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ลม"
+     ],
+     "lit": "eat + wind",
+     "lit_th": "รับเอา + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง"
+    },
+    {
+     "th": "กินใจ",
+     "rtgs": "kin-chai",
+     "ipa": "/kin˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้สึกแหนงใจ, สะดุดใจ, กระทบใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "eat + heart",
+     "lit_th": "รับเอา + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "หารายได้โดยไม่สุจริต",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "Taking what is not owed: graft.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เกาะกิน",
+     "rtgs": "ko–kin",
+     "ipa": "/kɔʔ˨˩.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาศัยกินอยู่กับคนอื่นโดยเอาแต่ประโยชน์ฝ่ายเดียว ไม่ช่วยทำงานหรือช่วยเหลือจุนเจือผู้นั้น, ทำตัวดุจกาฝาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "กิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "เกาะ"
+     ],
+     "lit": "island + eat",
+     "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + หารายได้โดยไม่สุจริต"
+    },
+    {
+     "th": "ตีกิน",
+     "rtgs": "ti-kin",
+     "ipa": "/tiː˧.kin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฉวยโอกาสเอาประโยชน์ที่ไม่ควรจะได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตี",
+      "กิน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "ตี"
+     ],
+     "lit": "hit + eat",
+     "lit_th": "เอามือหรือไม้เป็นต้นฟาดหรือเข่นลงไ + หารายได้โดยไม่สุจริต"
+    },
+    {
+     "th": "กินแรง",
+     "rtgs": "kin-raeng",
+     "ipa": "/kin˧.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาเปรียบผู้อื่นในการทำงานหรือในการเลี้ยงชีพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "แรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "แรง"
+     ],
+     "lit": "eat + bright",
+     "lit_th": "หารายได้โดยไม่สุจริต + กำลัง"
+    },
+    {
+     "th": "กินกริบ",
+     "rtgs": "kin-krip",
+     "ipa": "/kin˧.krip̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หาประโยชน์ใส่ตัวได้อย่างแนบเนียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "กริบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "หารายได้โดยไม่สุจริต + ตัดให้ขาดด้วยกรรไกร"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ชนะในการพนันบางอย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb",
+   "pos_th": "คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กินกัน",
+     "rtgs": "kin-kan",
+     "ipa": "/kin˧.kan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาเงินกันในระหว่างคู่ขาการพนัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "กัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: gloss similarity 0.16, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+PRON",
+     "head": 0,
+     "lit_th": "ชนะในการพนันบางอย่าง + สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูดเ"
+    },
+    {
+     "th": "กินแบ่ง",
+     "rtgs": "kin-baeng",
+     "ipa": "/kin˧.bɛŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกสลากที่จำหน่ายแก่ผู้ถือเพื่อรับรางวัลในการเสี่ยงโชคโดยผู้จำหน่ายหักส่วนลดเป็นกำไรว่า สลากกินแบ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "แบ่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "eat + divide",
+     "lit_th": "ชนะในการพนันบางอย่าง + แยกออกเป็นส่วน ๆ"
+    },
+    {
+     "th": "กินรวบ",
+     "rtgs": "kin-ruap",
+     "ipa": "/kin˧.rua̯p̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สลากชนิดที่จำหน่ายแก่ผู้ถือเพื่อรับสิ่งของเป็นรางวัลในการเสี่ยงโชคโดยผู้จำหน่ายรวบเงินค่าสลากไว้ทั้งหมด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "รวบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "ชนะในการพนันบางอย่าง + อาการที่เอาสิ่งต่าง ๆ เข้ามาไว้ด้ว"
+    }
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "Taking the stake: to win at cards or dice.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 14 manuscript titles, 60 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 45; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การตีกิน",
+   "rtgs": "kan-ti-kin",
+   "ipa": "/kaːn˧.tiː˧.kin˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตีกิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตี",
+    "กิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "drive + eat",
+   "lit_th": "คำอาการนามของ ตี + เคี้ยว"
+  },
+  {
+   "th": "กินรี",
+   "rtgs": "kin-na-ri",
+   "ipa": "/kin˧.na˦˥.riː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กินนรเพศหญิง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กิน",
+    "รี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "รี"
+   ],
+   "lit": "eat + oval",
+   "lit_th": "เคี้ยว + เรียว ถ้ากลมเรียวอย่างรูปไข่ เรียก",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "การกิน",
+   "rtgs": "kan-kin",
+   "ipa": "/kaːn˧.kin˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "กิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + เคี้ยว"
+  },
+  {
+   "th": "การหากิน",
+   "rtgs": "kan-ha-kin",
+   "ipa": "/kaːn˧.haː˩˩˦.kin˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หากิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหา",
+    "กิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หา + เคี้ยว"
+  },
+  {
+   "th": "การอยู่กิน",
+   "rtgs": "kan-yu-kin",
+   "ipa": "/kaːn˧.juː˨˩.kin˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ อยู่กิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การอยู่",
+    "กิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ อยู่ + เคี้ยว"
+  },
+  {
+   "th": "กินริน",
+   "translit_auto": "kinrin",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กินนรเพศหญิง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กิน",
+    "ริน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: กินริน is a variant of กินรี, borrowed from Sanskrit किंनरी / Pali kinnarī — the second syllable is not ริน \"to pour\"",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "เคี้ยว + เทให้ไหลออกเรื่อย ๆ ทีละน้อย",
+   "use": "false-split"
+  },
+  {
+   "th": "กินนร",
+   "rtgs": "kin-non",
+   "ipa": "/kin˧.nɔːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อมนุษย์ในเทพนิยาย มี 2 ชนิด ชนิดหนึ่งเป็นครึ่งคนครึ่งนก ท่อนบนเป็นคน ท่อนล่างเป็นนก อีกชนิดหนึ่งมีรูปร่างเหมือนคน เมื่อจะไปไหนมาไหน ก็ใส่ปีกใส่หางบินไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กิน",
+    "นร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "เคี้ยว + คน",
+   "use": "false-split"
+  },
+  {
+   "th": "การเก็บกิน",
+   "rtgs": "kan-kep-kin",
+   "ipa": "/kaːn˧.kep̚˨˩.kin˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เก็บกิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเก็บ",
+    "กิน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เก็บ + เคี้ยว"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *kɯɲᴬ; ร่วมเชื้อสายกับลาว ກິນ (กิน), คำเมือง ᨠᩥ᩠ᨶ (กิน), ไทลื้อ ᦂᦲᧃ (กีน), ไทดำ ꪀꪲꪙ (กิน), ไทใหญ่ ၵိၼ် (กิน), ไทใต้คง ᥐᥤᥢ (กีน), อาหม 𑜀𑜢𑜃𑜫 (กิน์), แสก กิ๋น, จ้วง gwn, จ้วงแบบจั่วเจียง gin, ญ้อ กิน",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨠᩥ᩠ᨶ",
+  "th": "กิน",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "eat",
+  "consume",
+  "have",
+  "take"
+ ]
+}

@@ -459,3 +459,11 @@ tewada*, the assembling of the deities.
   Junglefowl King belong with [kai](/a?s=entity:kai); the Naga-King candle with
   [naga](/a?s=entity:naga). None of those are separate subjects from this one.
   They are places where this one is being used.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **Where the drawn tradition is thickest** — Manuscripts carrying the most diagram pages — the yantra, cosmological charts, and talismanic figures that are drawn, not written. [see the finding →](/findings#visualdiagram-rich)
+<!-- derived:end -->

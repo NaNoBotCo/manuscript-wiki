@@ -1,0 +1,1073 @@
+{
+ "id": "w:yang",
+ "th": "ยาง",
+ "status": "mapped",
+ "rtgs": "yang",
+ "paiboon": "yaang",
+ "ipa": "/jaːŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล Dipterocarpus วงศ์ Dipterocarpaceae เช่น ยางนา (D. alatus Roxb. et G. Don) ยางแดง (D. turbinatus C. F. Gaertn.), ยางที่เจาะเผาจากลำต้นใช้ประสมชันยาเรือ เรียกว่า น้ำมันยาง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ยางม่วง",
+     "rtgs": "yang-muang",
+     "ipa": "/jaːŋ˧.mua̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอท่ามะกา จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "ม่วง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ม่วง"
+     ],
+     "lit": "rubber + purple",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + สีน้ำเงินปนแดง",
+     "frame": "quality"
+    },
+    {
+     "th": "คลองยาง",
+     "rtgs": "khlong-yang",
+     "ipa": "/kʰlɔːŋ˧.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเกาะลันตา จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คลอง",
+      "ยาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คลอง"
+     ],
+     "lit": "canal + rubber",
+     "lit_th": "ทางน้ำหรือลำน้ำที่เกิดขึ้นเองหรือข + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    },
+    {
+     "th": "วังยาง",
+     "rtgs": "wang-yang",
+     "ipa": "/waŋ˧.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครพนม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "ยาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + rubber",
+     "lit_th": "ที่อยู่ของเจ้านาย + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    },
+    {
+     "th": "โคกยาง",
+     "rtgs": "khok-yang",
+     "ipa": "/kʰoːk̚˥˩.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเหนือคลอง จังหวัดกระบี่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคก",
+      "ยาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "โคก"
+     ],
+     "lit": "mound + rubber",
+     "lit_th": "ที่ดินที่นูนสูงขึ้นคล้ายเนิน แต่เต + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    },
+    {
+     "th": "โค้งยาง",
+     "rtgs": "khong-yang",
+     "ipa": "/kʰoːŋ˦˥.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสูงเนิน จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โค้ง",
+      "ยาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bend + rubber",
+     "lit_th": "น้อมลง + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D"
+    },
+    {
+     "th": "เนินยาง",
+     "rtgs": "noen-yang",
+     "ipa": "/nɤːn˧.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคำม่วง จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เนิน",
+      "ยาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "border + rubber",
+     "lit_th": "โคกขนาดใหญ่ที่ค่อยลาดสูงขึ้นจากระด + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    },
+    {
+     "th": "ห้วยยาง",
+     "rtgs": "huai-yang",
+     "ipa": "/hua̯j˥˩.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกระนวน จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้วย",
+      "ยาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "lit": "stream pool + rubber",
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    },
+    {
+     "th": "ยางซ้าย",
+     "rtgs": "yang-sai",
+     "ipa": "/jaːŋ˧.saːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองสุโขทัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "ซ้าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "rubber + other",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + ตรงข้ามกับ ขวา",
+     "frame": "quality"
+    },
+    {
+     "th": "ยางคราม",
+     "rtgs": "yang-khram",
+     "ipa": "/jaːŋ˧.kʰraːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอดอยหล่อ จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "คราม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + บ้าน",
+     "frame": "entity"
+    },
+    {
+     "th": "เมืองยาง",
+     "rtgs": "mueang-yang",
+     "ipa": "/mɯa̯ŋ˧.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เมือง",
+      "ยาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "town + rubber",
+     "lit_th": "แดน + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    },
+    {
+     "th": "บ้านยาง",
+     "rtgs": "ban-yang",
+     "ipa": "/baːn˥˩.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอลำทะเมนชัย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "ยาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + rubber",
+     "lit_th": "ที่อยู่อาศัย + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    },
+    {
+     "th": "ท่ายาง",
+     "rtgs": "tha-yang",
+     "ipa": "/tʰaː˥˩.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเพชรบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "ยาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + rubber",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    },
+    {
+     "th": "ยางสูง",
+     "rtgs": "yang-sung",
+     "ipa": "/jaːŋ˧.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอขาณุวรลักษบุรี จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "สูง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "สูง"
+     ],
+     "lit": "rubber + tall",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    },
+    {
+     "th": "ยางคำ",
+     "rtgs": "yang-kham",
+     "ipa": "/jaːŋ˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองเรือ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "คำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "rubber + word",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + เสียงพูด",
+     "frame": "entity"
+    },
+    {
+     "th": "ยางตลาด",
+     "rtgs": "yang-ta-lat",
+     "ipa": "/jaːŋ˧.ta˨˩.laːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "ตลาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตลาด"
+     ],
+     "lit": "rubber + market",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "ยางโกลน",
+     "rtgs": "yang-klon",
+     "ipa": "/jaːŋ˧.kloːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนครไทย จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "โกลน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + ห่วงสำหรับสอดเท้าเวลาขึ้นม้าหรือขี",
+     "frame": "entity"
+    },
+    {
+     "th": "หนองยาง",
+     "rtgs": "nong-yang",
+     "ipa": "/nɔːŋ˩˩˦.jaːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเฉลิมพระเกียรติ จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "ยาง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + rubber",
+     "lit_th": "แอ่งน้ำ + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "The dipterocarp named from the resin it is tapped for.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ของเหลวและเหนียวไหลออกจากแผลต้นไม้หรือผลไม้บางอย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ยาง 'resin, latex' — taken as the origin, the dipterocarp being named for what it yields.",
+    "Declared root: ยาง 'resin, latex' — taken as the origin, the dipterocarp being named for what it yields.",
+    "Declared root: ยาง 'resin, latex' — taken as the origin, the dipterocarp being named for what it yields.",
+    "Declared root: ยาง 'resin, latex' — taken as the origin, the dipterocarp being named for what it yields.",
+    "Declared root: ยาง 'resin, latex' — taken as the origin, the dipterocarp being named for what it yields.",
+    "Declared root: ยาง 'resin, latex' — taken as the origin, the dipterocarp being named for what it yields."
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เรียกสิ่งบางอย่างที่ทำจากยางพาราเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ยางลบ",
+     "rtgs": "yang-lop",
+     "ipa": "/jaːŋ˧.lop̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยางไม้หรือพลาสติกบางประเภทที่ทำเป็นแท่งหรือเป็นก้อน ใช้ลบรอยดินสอรอยหมึกเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "ลบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "rubber + remove",
+     "lit_th": "เรียกสิ่งบางอย่างที่ทำจากยางพาราเป + ทำให้หายไปด้วยอาการเช็ดหรือถู"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And things made of rubber, from the latex.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "โดยปริยายเรียกของเหลวที่มีลักษณะเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Loosened to any thick sticky liquid.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ชื่อนกขนาดกลางหลายชนิด ในวงศ์ Ardeidae ปากยาวแหลมตรง ส่วนใหญ่ตัวสีขาว บางชนิดสีดำ น้ำตาล หรือเขียว ขายาว นิ้วกลางที่หันไปทางด้านหน้ามีเล็บหยักคล้ายซี่หวี ทำรังแบบง่าย ๆ ด้วยกิ่งไม้บนต้นไม้ พุ่มไม้ หรือตามซอกหิน หากินตามชายน้ำ โดยส่วนใหญ่เป็นแหล่งน้ำจืด บางชนิดหากินตามชายทะเล กินปลา แมลง และสัตว์น้ำขนาดเล็ก เช่น ยางควาย [Bubulcus ibis (Linn.)] ยางเขียว [Butorides striatus (Linn.)] ยางไฟหัวดำ [Ixobr",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: นกยาง the egret — a bird name.",
+    "Declared root: นกยาง the egret — a bird name.",
+    "Declared root: นกยาง the egret — a bird name.",
+    "Declared root: นกยาง the egret — a bird name.",
+    "Declared root: นกยาง the egret — a bird name.",
+    "Declared root: นกยาง the egret — a bird name."
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ชนชาติกะเหรี่ยง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ยาง as the old exonym for the Karen — a separate word.",
+    "Declared root: ยาง as the old exonym for the Karen — a separate word.",
+    "Declared root: ยาง as the old exonym for the Karen — a separate word.",
+    "Declared root: ยาง as the old exonym for the Karen — a separate word.",
+    "Declared root: ยาง as the old exonym for the Karen — a separate word.",
+    "Declared root: ยาง as the old exonym for the Karen — a separate word."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 7 manuscript titles, 30 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 27; domain seeded by keyword hits ['นิ้ว', 'ปาก', 'หัว', 'ขน'].",
+ "compounds_unassigned": [
+  {
+   "th": "การเจาะยาง",
+   "rtgs": "kan-cho-yang",
+   "ipa": "/kaːn˧.t͡ɕɔʔ˨˩.jaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เจาะยาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเจาะ",
+    "ยาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เจาะ + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+   "frame": "entity"
+  },
+  {
+   "th": "ยางมะตูม",
+   "rtgs": "yang-ma-tum",
+   "ipa": "/jaːŋ˧.ma˦˥.tuːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำเรียกไข่ที่ต้มหรือทอดยังไม่สุกดี ไข่แดงมีลักษณะเป็นยางเหนียว คล้ายกับยางในผลมะตูม (ยางใสเหนียวหุ้มเมล็ด)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยาง",
+    "มะตูม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "rubber + wood apple",
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + ชื่อไม้ต้นชนิด Aegle marmelos",
+   "frame": "entity"
+  },
+  {
+   "th": "หนังยาง",
+   "rtgs": "nang-yang",
+   "ipa": "/naŋ˩˩˦.jaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ยางรัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หนัง",
+    "ยาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "film + rubber",
+   "lit_th": "ส่วนของร่างกายที่หุ้มเนื้ออยู่ + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+   "frame": "entity"
+  },
+  {
+   "th": "เจาะยาง",
+   "rtgs": "cho-yang",
+   "ipa": "/t͡ɕɔʔ˨˩.jaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทำให้ยางรถรั่วโดยวิธีการเจาะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เจาะ",
+    "ยาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "dig + rubber",
+   "lit_th": "ทำให้เป็นช่องเป็นรู + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D"
+  },
+  {
+   "th": "ยางอาย",
+   "rtgs": "yang-ai",
+   "ipa": "/jaːŋ˧.ʔaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความกระดากหรือละอายใจ, ความรู้สึกผิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยาง",
+    "อาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + รู้สึกกระดาก"
+  },
+  {
+   "th": "กระยาง",
+   "rtgs": "kra-yang",
+   "ipa": "/kra˨˩.jaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นกยาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "ยาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
+  },
+  {
+   "th": "ยางรัด",
+   "rtgs": "yang-rat",
+   "ipa": "/jaːŋ˧.rat̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยางเส้นเล็ก ๆ เป็นวง ยืดหดได้ ใช้รัดถุงพลาสติกเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยาง",
+    "รัด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + โอบรอบหรือพันให้กระชับ"
+  },
+  {
+   "th": "ถุงยาง",
+   "rtgs": "thung-yang",
+   "ipa": "/tʰuŋ˩˩˦.jaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถุงยางอนามัย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ถุง",
+    "ยาง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "bag + rubber",
+   "lit_th": "เครื่องใช้สำหรับใส่สิ่งของ ทำด้วยผ + ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D",
+   "frame": "entity"
+  },
+  {
+   "th": "ยางวง",
+   "rtgs": "yang-wong",
+   "ipa": "/jaːŋ˧.woŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ยางรัด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยาง",
+    "วง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ยา"
+   ],
+   "lit": "rubber + zone",
+   "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ˀjaːŋᴬ; ร่วมเชื้อสายกับไทใหญ่ ယၢင် (ยาง), ลาว ຢາງ (อยาง), ຍາງ (ยาง), ไทใหญ่ ယၢင် (ยาง)，จ้วงแบบจั่วเจียง yang， จ้วง yang ร่วมเชื้อสายกับลาว ຍາງ (ยาง), อีสาน ยาง, เขิน ᨿᩣ᩠ᨦ (ยาง), ไทลื้อ ᦍᦱᧂ (ยาง)\nเทียบพม่า ဗျိုင်း (พฺไยง์:) ร่วมเชื้อสายกับอีสาน ยาง, เขิน ᨿᩣ᩠ᨦ (ยาง), ลาว ຍາງ (ยาง), ไทใหญ่ ယၢင်း (ย๊าง)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "rubber"
+ ]
+}

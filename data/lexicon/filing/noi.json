@@ -1,0 +1,10 @@
+{
+ "head": "noi",
+ "rule": "น้อย is smallness in quantity (1), size (2) and rank (3). Sense 1 keeps the amount readings — เล็กน้อย, and the two feeling-words น้อยใจ and ใจน้อย, where what is too little is the regard one receives. Sense 2, ไม่ใหญ่, was empty and is the smaller of a NAMED PAIR: ไปยาลน้อย and เปยยาลน้อย against the ใหญ่ forms already filed on that head, ท้องน้อย against the belly above it, ช้างน้อย, ผีน้อย, หนอนน้อย. Sense 3 is junior standing, and it takes a complete kinship paradigm that should be read together — **ตาน้อย, ยายน้อย, ปู่น้อย, ย่าน้อย**, each the younger sibling of the corresponding grandparent. Four words, one rule, and no other sense of น้อย would hold them. Sense 4, the endearing น้อย, takes แน่งน้อย.",
+ "senses": {
+  "1": ["น้อยใจ","เล็กน้อย","ใจน้อย"],
+  "2": ["ช้างน้อย","ท้องน้อย","ผีน้อย","หนอนน้อย","เปยยาลน้อย","ไปยาลน้อย"],
+  "3": ["ตาน้อย","ปู่น้อย","ยายน้อย","ย่าน้อย"],
+  "4": ["แน่งน้อย"]
+ }
+}

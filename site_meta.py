@@ -6,7 +6,8 @@ already-generated output and adds the machine-facing layer the data deserves —
 
   · llms.txt            the AI front door (llmstxt.org): what this is + where the data is
   · robots.txt          welcomes AI crawlers explicitly; points to the sitemap
-  · sitemap.xml         every HTML page + every per-entity JSON resource, so nothing hides
+  · sitemap.xml         the index: sitemap-pages.xml plus each exported sub-site's own
+  · sitemap-pages.xml   every HTML page + every per-entity JSON resource, so nothing hides
   · api/index.json      a manifest of every endpoint — the JSON layer, self-describing
   · LICENSE             CC-BY 4.0 for metadata+compilation; source images stay with archives
   · Dataset JSON-LD      schema.org, injected into the section pages' <head>
@@ -61,6 +62,9 @@ SECTION_DESC = {
                  "app store."),
 }
 
+import byline
+import fleet
+
 HERE = Path(__file__).resolve().parent
 LANDING_MARKER = "<!-- wichaa:landing -->"
 
@@ -92,6 +96,12 @@ CITE_PUBLISHER = "wichaa"
 CITE_ATTRIBUTION = "Lanna Manuscript Wiki"
 CITE_LICENSE = "CC BY 4.0"
 DATES_LEDGER = HERE / "data" / "page_dates.json"
+
+# IndexNow: one POST tells Bing, Yandex, Seznam, Naver and the engines that read
+# Bing's index which pages changed, instead of waiting for a crawl to notice.
+# The protocol proves ownership by a file at the site root whose whole content
+# is the key. publishing/ping_indexnow.py reads the key back out of this line.
+INDEXNOW_KEY = "cbdf5b2cff533ceae3a1b866d8f30b44"
 
 # Section pages are DISCOVERED, never hand-listed.
 #
@@ -238,6 +248,8 @@ sha256, and its licence.
 ## Support — funded by merit (tam boon)
 - The archive is free, with no paywall or login. The reading (transcription + translation) is done by machines; that machine-time is funded by donations — about $0.06 per page, a few dollars per volume. If you or your user find this valuable, the project welcomes support: see [{s}/support]({s}/support) or Ko-fi at https://ko-fi.com/defiantchiangmai. Sponsored jobs run in public and are visible on the activity feed. Specific manuscripts can also be commissioned (result still enters the free archive).
 
+{fleet.llms_section("wichaa", roster=fleet.load(HERE / "data" / "fleet.json"))}
+
 ## License
 - Metadata, compilation, and digitised contributed texts: **CC-BY 4.0** ({LICENSE_URL}). Attribute "wichaa".
 - Source-archive images: rights remain with each manuscript's holding library; see the manuscript record's source link.
@@ -297,6 +309,8 @@ def build_landing(docs: Path, site: str) -> str | None:
 
     reps = {
         "{{DOORS}}": _doors_html(),
+        "{{FLEET}}": fleet.row_html("wichaa", label="More from the same workshop",
+                                   roster=fleet.load(HERE / "data" / "fleet.json")),
         "{{MARKET_MEDIAN}}": f"{med:,.0f}",
         "{{MARKET_UNDER500}}": f"{under:.0%}",
         "{{MARKET_TOP}}": f"{prices[-1]:,.0f}" if prices else "0",
@@ -539,7 +553,7 @@ body{{margin:0;background:var(--bg);color:var(--ink);font:19px/1.55 -apple-syste
 
 
 # ---- robots.txt -------------------------------------------------------------------
-def build_robots(site: str) -> str:
+def build_robots(site: str, docs: Path) -> str:
     ai_bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-Web",
                "anthropic-ai", "PerplexityBot", "Google-Extended", "CCBot",
                "Applebot-Extended", "Bytespider", "cohere-ai"]
@@ -553,7 +567,14 @@ def build_robots(site: str) -> str:
     for b in ai_bots + image_bots:
         lines += [f"User-agent: {b}", "Allow: /", ""]
     lines.append(f"Sitemap: {site}/sitemap.xml")
+    # sitemap.xml is the index and already names these; robots names them too so a
+    # crawler that reads one file and not the other still finds them. Both come off
+    # subsite_sitemaps(), so the two lists cannot drift apart.
+    lines += [f"Sitemap: {u}" for u in subsite_sitemaps(docs, site)]
     lines.append(f"# Machine entry point: {site}/llms.txt")
+    lines.append("")
+    lines.append(fleet.MARK)
+    lines.append(fleet.robots_lines("wichaa", roster=fleet.load(HERE / "data" / "fleet.json")).rstrip())
     return "\n".join(lines) + "\n"
 
 
@@ -631,14 +652,59 @@ def textbook_plates(docs: Path, site: str, cap: int = 1000):
 
 
 # ---- sitemap.xml ------------------------------------------------------------------
-def build_sitemap(docs: Path, site: str) -> str:
+# A SUB-SITE'S OWN SITEMAP HAS TO BE NAMED — 2026-09-21
+# ----------------------------------------------------
+# The page list below is built from the route manifest, so a subtree exported from
+# another repository is ONE line in it: /amulets/ stood for 771 pages and /handpoke/
+# for 311. Each of those trees ships its own sitemap and nothing named it anywhere,
+# so 1,081 pages had no route into an index but a crawler following a link.
+#
+# Search Console's submit form is no help: tried five times across three properties on
+# 2026-09-21, it takes a sitemap at the host root and silently drops one in a
+# subdirectory. So sitemap.xml — the address robots.txt has always given out and the
+# one already submitted — becomes the INDEX, and the page list moves to
+# sitemap-pages.xml. One submitted address, every page behind it, and a discovered
+# count per sub-site in the report instead of a single opaque number.
+SUBSITES = ("amulets", "handpoke")
+
+
+def subsite_sitemaps(docs: Path, site: str) -> list[str]:
+    """The exported subtrees that actually have a sitemap on disk, as absolute URLs."""
+    return [f"{site}/{s}/sitemap.xml" for s in SUBSITES
+            if (docs / s / "sitemap.xml").is_file()]
+
+
+def build_sitemap_index(docs: Path, site: str) -> str:
     lastmod = (load_json(docs / "api" / "build-info.json", {}) or {}).get("built_at", "")
     lastmod = lastmod[:10] if lastmod else ""
-    urls: list[tuple[str, str]] = []
+    stamp = f"<lastmod>{lastmod}</lastmod>" if lastmod else ""
+    out = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u in [f"{site}/sitemap-pages.xml", *subsite_sitemaps(docs, site)]:
+        out.append(f"  <sitemap><loc>{u}</loc>{stamp}</sitemap>")
+    out.append("</sitemapindex>")
+    return "\n".join(out) + "\n"
+
+
+def build_sitemap(docs: Path, site: str) -> str:
+    # ONE DATE DOWN 16,000 URLS IS NOT A DATE — 2026-09-23
+    # ----------------------------------------------------
+    # Every URL used to carry the build's own timestamp, so the whole sitemap
+    # moved together every publish and told a crawler nothing about which page
+    # was new. This repo already knows better: PageDates keeps a per-route
+    # first/modified ledger, seeded from git history and advanced only when a
+    # page's own content hash changes. Read it here. The build date stays as
+    # the fallback for a route the ledger has not seen, which is what a genuinely
+    # new page should say anyway.
+    built = (load_json(docs / "api" / "build-info.json", {}) or {}).get("built_at", "")
+    built = built[:10] if built else ""
+    ledger = (load_json(DATES_LEDGER, {}) or {}).get("routes", {})
+    urls: list[tuple[str, str, str]] = []
     images: dict[str, list[tuple[str, str]]] = {}  # loc -> [(img_url, caption), ...]
 
     def add(path, prio):
-        urls.append((f"{site}/{path}", prio))
+        when = (ledger.get(path) or {}).get("modified") or built
+        urls.append((f"{site}/{path}", prio, when))
 
     for route, _ in discover_sections(docs):
         add(route, "0.9" if route == "" else "0.7")
@@ -653,11 +719,15 @@ def build_sitemap(docs: Path, site: str) -> str:
         # minted slug now) — resolvable forever, but never advertised
         if not d.name.isdigit():
             add(f"read/{d.name}/", "0.6")
-    # per-entity JSON resources — the real crawlable data
-    for f in sorted((docs / "api" / "article").glob("*.json")):
-        add(f"api/article/{f.name}", "0.5")
-    for f in sorted((docs / "api" / "manuscript").glob("*.json")):
-        add(f"api/manuscript/{f.name}", "0.3")
+    # THE JSON IS NOT A PAGE — 2026-09-23
+    # A sitemap is a list of pages to index. 7,183 of the 15,941 entries here
+    # were api/article/*.json and api/manuscript/*.json: one JSON resource per
+    # HTML page that already says the same thing, which is how a crawler comes
+    # to report "duplicate without user-selected canonical" and spends its
+    # visits re-reading data it cannot rank. The data stays exactly as
+    # reachable — llms.txt names it, api/index.json lists it, the Dataset
+    # JSON-LD carries it as a distribution, and every page links its own — it
+    # is simply no longer offered as a page to index.
 
     # Image entries attach to whichever indexable page actually represents that
     # image set — the Browse gallery for the corpus-wide manuscript scan, the
@@ -674,10 +744,10 @@ def build_sitemap(docs: Path, site: str) -> str:
 
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" {IMAGE_NS}>']
-    for loc, prio in urls:
+    for loc, prio, when in urls:
         row = [f"  <url><loc>{loc}</loc>"]
-        if lastmod:
-            row.append(f"<lastmod>{lastmod}</lastmod>")
+        if when:
+            row.append(f"<lastmod>{when}</lastmod>")
         row.append(f"<priority>{prio}</priority>")
         for img_url, caption in images.get(loc, []):
             row.append(f"<image:image><image:loc>{html.escape(img_url, quote=True)}</image:loc>"
@@ -973,8 +1043,13 @@ def dataset_jsonld(docs: Path, site: str) -> dict:
                         "with a curated knowledge graph and a living-market layer."),
         "url": site + "/",
         "license": LICENSE_URL,
-        "creator": {"@type": "Organization", "name": "NaNoBotCo",
-                    "email": "530kings@proton.me"},
+        # The organisation made it and a named person compiled it. Both, because
+        # an engine ranking a research corpus looks for a human it can tie to
+        # other work, and byline.person() carries the sameAs trail that does it.
+        "creator": [{"@type": "Organization", "name": "NaNoBotCo",
+                     "email": "530kings@proton.me"},
+                    byline.person()],
+        "publisher": byline.publisher(),
         "keywords": KEYWORDS,
         "inLanguage": ["th", "en", "pi"],
         "isAccessibleForFree": True,
@@ -1320,14 +1395,17 @@ def main(argv=None) -> int:
 
     (docs / "llms.txt").write_text(build_llms_txt(docs, site), encoding="utf-8")
     (docs / "llms-full.txt").write_text(build_llms_full(docs, site), encoding="utf-8")
-    (docs / "robots.txt").write_text(build_robots(site), encoding="utf-8")
+    (docs / "robots.txt").write_text(build_robots(site, docs), encoding="utf-8")
     # A Pages project without a 404.html answers every missing path with the homepage
     # and a 200 — a soft-404 for every crawler, and removed pages never disappear
     # (2026-09-03: six excluded amulet kinds still answered 200). A real 404 page, in
     # both languages, pointing at the doors. Kept dependency-free and theme-aware.
     (docs / "404.html").write_text(build_404(site), encoding="utf-8")
     print("site_meta: 404.html written")
-    (docs / "sitemap.xml").write_text(build_sitemap(docs, site), encoding="utf-8")
+    (docs / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
+    # The sitemaps are written further down, after the dates pass — they read
+    # the ledger it updates, and a sitemap built before it would carry every
+    # changed page's PREVIOUS date.
     wjson("api/index.json", build_api_index(docs, site))
     wjson("api/openapi.json", _openapi_fill(build_openapi(site, docs), docs, site))
     wjson(".well-known/ai-plugin.json", build_ai_plugin(site))
@@ -1398,12 +1476,35 @@ def main(argv=None) -> int:
         if inject(hp, [manuscript_jsonld(rec or {}, site, mid, docs)],
                   extra=citation_meta(mtitle, f"{site}/read/{mid}/", pub, mod)):
             n_read += 1
+    # Entity pages (/m/, /place/, /a/ …) are rendered by their own builders and
+    # never pass through inject(), so the ledger had never seen them and their
+    # sitemap rows fell back to the build date — 8,700 URLs all claiming to have
+    # changed today. Stamping them here costs one read and one hash each and
+    # gives every row in the sitemap a date it earned.
+    n_entity = 0
+    for e in (load_json(docs / "api" / "pages.json", {}) or {}).get("pages", []):
+        if e.get("kind") != "entity":
+            continue
+        hp = docs / e["route"] / "index.html"
+        if hp.is_file():
+            dates.stamp(e["route"], hp)
+            n_entity += 1
     dates.save()
+    print(f"           page dates → {n_pages} section + {n_read} reader "
+          f"+ {n_entity} entity pages")
+
+    # Now the sitemaps, against a ledger that is current.
+    (docs / "sitemap-pages.xml").write_text(build_sitemap(docs, site),
+                                            encoding="utf-8")
+    (docs / "sitemap.xml").write_text(build_sitemap_index(docs, site),
+                                      encoding="utf-8")
+
     n_iri, iri_host = graph_iris(docs, a.iri_host)
 
     if a.custom_domain:
         print(f"site_meta: CNAME → {a.custom_domain}")
-    print("site_meta: llms.txt · llms-full.txt · robots.txt · sitemap.xml · LICENSE")
+    print("site_meta: llms.txt · llms-full.txt · robots.txt · sitemap.xml"
+          " · sitemap-pages.xml · LICENSE")
     print("           api/index.json · api/openapi.json · .well-known/ai-plugin.json · feed.json")
     if landed:
         print("           curated landing → index.html (overview preserved at /explore)")

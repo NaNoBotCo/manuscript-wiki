@@ -1,0 +1,11 @@
+{
+ "head": "wang-2",
+ "rule": "วาง is putting down, and the senses divide by what is released and how deliberately. Sense 1 is plain placing, including placing oneself or one's face (วางตัว, วางหน้า, วางท่า, วางไข่). Sense 3, จัดเข้าประจำที่, is deploying something into position, which is what the three polite fishing-and-trapping verbs do — วางข่าย, วางอวน, วางเบ็ด. Sense 2, กำหนด / ตั้ง, was empty and is placing that FIXES something: วางแผน and วางหมาก, laying a plan and setting the pieces. Sense 4, ปล่อยวาง, is letting go rather than setting down, and it takes วางใจ, entrusting, and the pair วางวาย and วายวาง, both meaning to die — the dictionary confirms both orders. Sense 8, letting fly, takes วางมวย. แม่วาง is left unfiled: an อำเภอ on a head with no name-use sense.",
+ "senses": {
+  "1": ["วางตัว","วางท่า","วางหน้า","วางไข่"],
+  "2": ["วางหมาก","วางแผน"],
+  "3": ["วางข่าย","วางอวน","วางเบ็ด"],
+  "4": ["วางวาย","วางใจ","วายวาง"],
+  "8": ["วางมวย"]
+ }
+}

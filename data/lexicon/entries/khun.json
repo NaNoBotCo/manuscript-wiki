@@ -1,0 +1,1317 @@
+{
+ "id": "w:khun",
+ "th": "คุณ",
+ "status": "mapped",
+ "rtgs": "khun",
+ "paiboon": "kun",
+ "ipa": "/kʰun˧/",
+ "syllable_respelling": "คุน-นะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงความยกย่อง เช่น คุณพ่อ คุณแม่ คุณสมร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "The quality attributed to a person becomes the word placed before their name.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "คุณตัว",
+     "rtgs": "khun-tua",
+     "ipa": "/kʰun˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หญิงที่หาเลี้ยงชีพด้วยการค้าประเวณี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "you + form",
+     "lit_th": "คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค + รูป"
+    },
+    {
+     "th": "คุณนาย",
+     "rtgs": "khun-nai",
+     "ipa": "/kʰun˧.naːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำยกย่อง ใช้เรียกภรรยาข้าราชการชั้นสัญญาบัตรที่ยังมิได้เป็นคุณหญิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "นาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "นาย"
+     ],
+     "lit": "you + baboo",
+     "lit_th": "คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค + คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "คำที่ใช้เรียกราชนิกูลชั้นหม่อมหลวงอย่างลำลอง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The honorific used informally of หม่อมหลวง.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "คำนำหน้าชื่อสตรีที่ยังไม่ได้สมรสและได้รับพระราชทานเครื่องราชอิสริยาภรณ์ตั้งแต่ชั้นจตุตถจุลจอมเกล้าถึงชั้นทุติยจุลจอมเกล้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Before the name of an unmarried woman holding a royal decoration.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "คำนำหน้าชื่อสตรีที่ยังไม่ได้สมรสและได้รับพระราชทานเครื่องราชอิสริยาภรณ์จุลจอมเกล้าฝ่ายในชั้นทุติยจุลจอมเกล้าวิเศษขึ้นไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "The same, for the other class of decoration.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "คำที่ใช้เรียกนำหน้าบุคคลเพื่อให้เกียรติ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "And loosened to any respectful prefix.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "คุณลักษณะ",
+     "rtgs": "khun-na-lak-sa-na",
+     "ipa": "/kʰun˧.na˦˥.lak̚˦˥.sa˨˩.naʔ˨˩/",
+     "gloss": {
+      "en": [
+       "character",
+       "quality"
+      ],
+      "th": "เครื่องหมายหรือสิ่งที่ชี้ให้เห็นความดีหรือลักษณะประจำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ลักษณะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.20, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "you + mark",
+     "lit_th": "ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ + รูปแบบอื่นของ ลักษณ์"
+    },
+    {
+     "th": "คุณค่า",
+     "rtgs": "khun-kha",
+     "ipa": "/kʰun˧.kʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "value"
+      ],
+      "th": "สิ่งที่มีประโยชน์หรือมีมูลค่าสูง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ค่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.23, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ค่า"
+     ],
+     "lit": "you + value",
+     "lit_th": "ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ + มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ"
+    },
+    {
+     "th": "คุณภาพ",
+     "rtgs": "khun-na-phap",
+     "ipa": "/kʰun˧.na˦˥.pʰaːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "quality"
+      ],
+      "th": "ลักษณะที่ดีเด่นของบุคคลหรือสิ่งของ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ภาพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "you + image",
+     "lit_th": "ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ + ความมี"
+    },
+    {
+     "th": "คุณธรรมนิยม",
+     "rtgs": "khun-na-tham-ma-ni-yom",
+     "ipa": "/kʰun˧.na˦˥.tʰam˧.ma˦˥.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รัฐบาลหรือการครองอำนาจโดยคนที่ได้รับการเลือกตามคุณธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ธรรมนิยม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "นิยม"
+     ],
+     "lit_th": "ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ + ความประพฤติที่มีธรรมเป็นที่ตั้ง"
+    },
+    {
+     "th": "นพคุณ",
+     "rtgs": "nop-pha-khun",
+     "ipa": "/nop̚˦˥.pʰa˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทองเนื้อเก้า, ทองนพคุณ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นพ",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ นว + ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ"
+    },
+    {
+     "th": "คุณตะพาบ",
+     "rtgs": "khun-ta-phap",
+     "ipa": "/kʰun˧.ta˨˩.pʰaːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่ค่อยมีคุณภาพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ตะพาบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ + ชื่อเต่าน้ำจืดกระดองอ่อนหลายชนิดหล"
+    },
+    {
+     "th": "เกียรติคุณ",
+     "rtgs": "kiat-ti-khun",
+     "ipa": "/kia̯t̚˨˩.ti˨˩.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คุณที่เลื่องลือ, ชื่อเสียงโดยคุณงามความดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกียรติ",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "honor + you",
+     "lit_th": "ชื่อเสียง + ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ"
+    },
+    {
+     "th": "พุทธคุณ",
+     "rtgs": "phut-tha-khun",
+     "ipa": "/pʰut̚˦˥.tʰa˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(พระ~) คุณของพระพุทธเจ้าอย่างย่อที่สุด มี 3 ประการ คือ พระบริสุทธิคุณ พระปัญญาคุณ พระกรุณาคุณ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พุทธ",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "พุทธ"
+     ],
+     "lit": "the awakened one + you",
+     "lit_th": "ผู้ตรัสรู้ + ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ"
+    },
+    {
+     "th": "ธรรมคุณ",
+     "rtgs": "tham-ma-khun",
+     "ipa": "/tʰam˧.ma˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(พระ~) คุณของพระธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ธรรม",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "ธรรม"
+     ],
+     "lit": "dharma + you",
+     "lit_th": "คุณความดี + ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ",
+     "flips_with": "คุณธรรม"
+    },
+    {
+     "th": "คุณสมบัติ",
+     "rtgs": "khun-na-som-bat",
+     "ipa": "/kʰun˧.na˦˥.som˩˩˦.bat̚˨˩/",
+     "gloss": {
+      "en": [
+       "property",
+       "qualification"
+      ],
+      "th": "คุณงามความดี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "สมบัติ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "you + riches",
+     "lit_th": "ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ + ความถึงพร้อม หมายถึง ทรัพย์สิน เงิ"
+    },
+    {
+     "th": "กิตติคุณ",
+     "rtgs": "kit-ti-khun",
+     "ipa": "/kit̚˨˩.ti˨˩.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คุณที่เลื่องลือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิตติ",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "คำเล่าลือ + ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ"
+    },
+    {
+     "th": "คุณวุฒิ",
+     "rtgs": "khun-na-wut-thi",
+     "ipa": "/kʰun˧.na˦˥.wut̚˦˥.tʰiʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความรู้ความสามารถของบุคคล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "วุฒิ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ + ภูมิรู้"
+    },
+    {
+     "th": "คุณประโยชน์",
+     "rtgs": "khun-na-pra-yot",
+     "ipa": "/kʰun˧.na˦˥.pra˨˩.joːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลักษณะที่เป็นประโยชน์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ประโยชน์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "you + use",
+     "lit_th": "ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ + สิ่งที่มีผลใช้ได้ดีสมกับที่คิดมุ่ง"
+    },
+    {
+     "th": "สรรพคุณ",
+     "rtgs": "sap-pha-khun",
+     "ipa": "/sap̚˨˩.pʰa˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คุณสมบัติของสิ่งที่เป็นยา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สรรพ",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "all + you",
+     "lit_th": "ทุกสิ่ง + ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ"
+    },
+    {
+     "th": "คุณธรรม",
+     "rtgs": "khun-na-tham",
+     "ipa": "/kʰun˧.na˦˥.tʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สภาพคุณงามความดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ธรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ธรรม"
+     ],
+     "lit": "you + dharma",
+     "lit_th": "ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ + คุณความดี",
+     "flips_with": "ธรรมคุณ"
+    },
+    {
+     "th": "สังฆคุณ",
+     "rtgs": "sang-kha-khun",
+     "ipa": "/saŋ˩˩˦.kʰa˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(พระ~) คุณของพระสงฆ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สังฆ",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ สงฆ์ + ความดีที่มีประจำอยู่ในสิ่งนั้น ๆ"
+    }
+   ],
+   "needs_check": [
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included.",
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included.",
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included.",
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included.",
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included.",
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included.",
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included.",
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included.",
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included.",
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included.",
+    "Declared root: คุณ < Pali guṇa 'quality, virtue' — the inherent good is the origin of all of it, honorifics included."
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ความเกื้อกูล เช่น รู้คุณ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "รู้คุณ",
+     "rtgs": "ru-khun",
+     "ipa": "/ruː˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระลึกถึงความดีที่ผู้อื่นทำให้แก่ตน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รู้",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "รู้"
+     ],
+     "lit": "know + you",
+     "lit_th": "แจ้ง + ความเกื้อกูล เช่น รู้คุณ"
+    },
+    {
+     "th": "เนรคุณ",
+     "rtgs": "ne-ra-khun",
+     "ipa": "/neː˧.ra˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อกตัญญูไม่รู้คุณ, ไม่สำนึกถึงบุญคุณ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เนร",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.12, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "รูปเลิกใช้ของ เณร + ความเกื้อกูล เช่น รู้คุณ"
+    },
+    {
+     "th": "ชนกคุณ",
+     "translit_auto": "chnkkhun",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระคุณของพ่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชนก",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "ชายผู้ให้กำเนิด + ความเกื้อกูล เช่น รู้คุณ"
+    },
+    {
+     "th": "พระคุณ",
+     "rtgs": "phra-khun",
+     "ipa": "/pʰra˦˥.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุญคุณ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พระ",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "พระ"
+     ],
+     "lit": "the honorific prefix phra + you",
+     "lit_th": "คำใช้แทนชื่อเรียกภิกษุสงฆ์และภิกษุ + ความเกื้อกูล เช่น รู้คุณ"
+    },
+    {
+     "th": "บุญคุณ",
+     "rtgs": "bun-khun",
+     "ipa": "/bun˧.kʰun˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความดีที่ทำไว้ต่อผู้ใดผู้หนึ่งและสมควรจะได้รับการตอบแทน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บุญ",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "บุญ"
+     ],
+     "lit": "merit + you",
+     "lit_th": "ความสุข + ความเกื้อกูล เช่น รู้คุณ"
+    },
+    {
+     "th": "ขอบคุณ",
+     "rtgs": "khop-khun",
+     "ipa": "/kʰɔːp̚˨˩.kʰun˧/",
+     "gloss": {
+      "en": [
+       "gracias"
+      ],
+      "th": "คำกล่าวแสดงความรู้สึกบุญคุณ (เป็นคำที่ใช้แก่บุคคลที่เสมอกัน หรือผู้น้อยใช้แก่ผู้ใหญ่)",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขอบ",
+      "คุณ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "board + you",
+     "lit_th": "ริมรอบ + ความเกื้อกูล เช่น รู้คุณ"
+    }
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "Inherent good narrowed to good done to someone — รู้คุณ, to know the benefit received.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "(ไวยากรณ์) คำแต่งชื่อ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "Grammatical: the word that states a quality — the modifier.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "คุณศัพท์",
+     "rtgs": "khun-na-sap",
+     "ipa": "/kʰun˧.na˦˥.sap̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำคุณ หรือ วิเศษณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณ",
+      "ศัพท์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค + เสียง"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "อาถรรพณ์ คือ พิธีทำร้ายต่ออมิตร โดยเสกสิ่งใดสิ่งหนึ่งเข้าในตัว หรือฝังรูปฝังรอย เรียกกันว่า กระทำคุณ, ผู้ถูกกระทำ เรียกว่า ถูกคุณ, คุณไสย ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "euphemism",
+   "via_note": "คุณไสย, malefic rite — the word for virtue turned to name its opposite.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "เป็นสรรพนามบุรุษที่ 2 ใช้แทนผู้ที่เราพูดด้วย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metonymy",
+   "via_note": "The honorific standing alone: the polite second person.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "เป็นสรรพนามบุรุษที่ 3 ใช้แทนผู้ที่เราพูดถึงด้วยความสุภาพ, คุณท่าน ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "คำอนุภาค, noun, pronoun",
+   "pos_th": "คำอนุภาค, คำนาม, คำสรรพนาม",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 10,
+   "via": "generalisation",
+   "via_note": "And the polite third.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 15 manuscript titles, 645 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 31; domain seeded by keyword hits ['พ่อ', 'แม่', 'ย่า'].",
+ "compounds_unassigned": [
+  {
+   "th": "กามคุณ",
+   "rtgs": "kam-ma-khun",
+   "ipa": "/kaːm˧.ma˦˥.kʰun˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สิ่งที่น่าปรารถนา มี 5 ประการ คือ รูป เสียง กลิ่น รส สัมผัส",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กาม",
+    "คุณ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "cross_listed": [
+    "กาม"
+   ],
+   "lit": "desire + you",
+   "lit_th": "ความใคร่ + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค",
+   "use": "false-split"
+  },
+  {
+   "th": "อันตคุณ",
+   "translit_auto": "antkhun",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลำไส้เล็ก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อันต",
+    "คุณ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "เขต + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค",
+   "use": "false-split"
+  },
+  {
+   "th": "ความรู้คุณ",
+   "rtgs": "khwam-ru-khun",
+   "ipa": "/kʰwaːm˧.ruː˦˥.kʰun˧/",
+   "gloss": {
+    "en": [
+     "gratitude"
+    ],
+    "th": "คำอาการนามของ รู้คุณ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความรู้",
+    "คุณ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit": "knowledge + you",
+   "lit_th": "สิ่งที่สั่งสมมาจากการศึกษาเล่าเรีย + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค"
+  },
+  {
+   "th": "เณรคุณ",
+   "rtgs": "ne-ra-khun",
+   "ipa": "/neː˧.ra˦˥.kʰun˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ เนรคุณ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เณร",
+    "คุณ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head as split: its own gloss says รูปสะกดผิดของ เนรคุณ, and เนรคุณ is แผลงมาจาก นิรคุณ — the first element is the privative นิร- 'without', not เณร 'novice'. The recorded split เณร + คุณ is wrong even though the คุณ in it is real.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "สามเณร + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค",
+   "use": "spelling-variant"
+  },
+  {
+   "th": "การรู้คุณ",
+   "rtgs": "kan-ru-khun",
+   "ipa": "/kaːn˧.ruː˦˥.kʰun˧/",
+   "gloss": {
+    "en": [
+     "appreciation"
+    ],
+    "th": "คำอาการนามของ รู้คุณ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การรู้",
+    "คุณ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ รู้ + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค"
+  },
+  {
+   "th": "กัลยาณคุณ",
+   "rtgs": "kan-la-ya-na-khun",
+   "ipa": "/kan˧.la˦˥.jaː˧.na˦˥.kʰun˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คุณอันดี, คุณอันงาม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กัลยาณ",
+    "คุณ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ดี + คำที่ใช้เรียกนำหน้าบุคคลเพื่อแสดงค",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต गुण (คุณ, “คุณภาพ, คุณธรรม, คุณความดี”) หรือบาลี คุณ (“เส้น, สาย; ส่วนประกอบ; คุณภาพ, ผลประโยชน์, คุณความดี”); ร่วมเชื้อสายกับลาว ຄຸນ (คุน), คำเมือง ᨣᩩᨱ (คุณ), ไทลื้อ ᦅᦳᧃ (คุน)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨣᩩᨱ",
+  "th": "คุณ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "you",
+  "Ms"
+ ]
+}

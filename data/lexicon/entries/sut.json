@@ -1,0 +1,737 @@
+{
+ "id": "w:sut",
+ "th": "สุด",
+ "status": "mapped",
+ "rtgs": "sut",
+ "paiboon": "sùt",
+ "ipa": "/sut̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สิ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "หมด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Ending names being used up.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "จบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And coming to a close.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ปลายหรือท้าย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The ending names the end itself: the last, the tail.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ปลายทางใดทางหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "The far end of a way.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "อย่างมาก, อย่างยิ่งยวด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "To the limit: utmost, extreme.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เต็มที่เต็มกำลัง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สุดกำลัง",
+     "rtgs": "sut-kam-lang",
+     "ipa": "/sut̚˨˩.kam˧.laŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เต็มที่, เต็มกำลังทั้งหมดที่มีอยู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุด",
+      "กำลัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.48, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "far + force",
+     "lit_th": "เต็มที่เต็มกำลัง + แรง"
+    },
+    {
+     "th": "สุดขีด",
+     "rtgs": "sut-khit",
+     "ipa": "/sut̚˨˩.kʰiːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เต็มที่, มากที่สุด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุด",
+      "ขีด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.24, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit": "far + tear",
+     "lit_th": "เต็มที่เต็มกำลัง + ใช้ของแหลมหรือมีดเป็นต้นทำให้เป็นเ"
+    }
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "With all one's force.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "เกินกว่าจะทำได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำคุณศัพท์, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "And past the limit: beyond doing.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 398 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['ปลา', 'นก'].",
+ "compounds_unassigned": [
+  {
+   "th": "สุดฮิต",
+   "rtgs": "sut-hit",
+   "ipa": "/sut̚˨˩.hit̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นิยมมาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สุด",
+    "ฮิต"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit_th": "สิ้น + นิยมมาก"
+  },
+  {
+   "th": "สุดตีน",
+   "rtgs": "sut-tin",
+   "ipa": "/sut̚˨˩.tiːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ที่สุดของที่สุด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สุด",
+    "ตีน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตีน"
+   ],
+   "lit": "far + foot",
+   "lit_th": "สิ้น + อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั"
+  },
+  {
+   "th": "สิ้นสุด",
+   "rtgs": "sin-sut",
+   "ipa": "/sin˥˩.sut̚˨˩/",
+   "gloss": {
+    "en": [
+     "determine"
+    ],
+    "th": "ถึงที่สุด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สิ้น",
+    "สุด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "สิ้น"
+   ],
+   "lit": "to be exhausted + far",
+   "lit_th": "หมด + สิ้น",
+   "flips_with": "สุดสิ้น"
+  },
+  {
+   "th": "สุดยอด",
+   "rtgs": "sut-yot",
+   "ipa": "/sut̚˨˩.jɔːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "dope"
+    ],
+    "th": "ดีมาก, ดีที่สุด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สุด",
+    "ยอด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "สิ้น + ส่วนสูงสุด"
+  },
+  {
+   "th": "การสุด",
+   "rtgs": "kan-sut",
+   "ipa": "/kaːn˧.sut̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สุด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "สุด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + สิ้น"
+  },
+  {
+   "th": "ที่สุด",
+   "rtgs": "thi-sut",
+   "ipa": "/tʰiː˥˩.sut̚˨˩/",
+   "gloss": {
+    "en": [
+     "extreme",
+     "ultimate"
+    ],
+    "th": "ปลายสุด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ที่",
+    "สุด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "at + far",
+   "lit_th": "แหล่ง + สิ้น"
+  },
+  {
+   "th": "สุดสิ้น",
+   "rtgs": "sut-sin",
+   "ipa": "/sut̚˨˩.sin˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถึงที่สุด, จบ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สุด",
+    "สิ้น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "สิ้น"
+   ],
+   "lit": "far + to be exhausted",
+   "lit_th": "สิ้น + หมด",
+   "flips_with": "สิ้นสุด"
+  },
+  {
+   "th": "สุดด้าม",
+   "rtgs": "sut-dam",
+   "ipa": "/sut̚˨˩.daːm˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่ใช้มีดหรือของมีคมแทงเข้าไปจนจมถึงด้าม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สุด",
+    "ด้าม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "สิ้น + ส่วนของสิ่งใดสิ่งหนึ่งที่ใช้ถือใช้"
+  },
+  {
+   "th": "สุดวิสัย",
+   "rtgs": "sut-wi-sai",
+   "ipa": "/sut̚˨˩.wi˦˥.saj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พ้นกำลังความสามารถ, พ้นความสามารถที่ใครจะอาจป้องกันได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สุด",
+    "วิสัย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "สิ้น + ความสามารถ"
+  },
+  {
+   "th": "สุดท้าย",
+   "rtgs": "sut-thai",
+   "ipa": "/sut̚˨˩.tʰaːj˦˥/",
+   "gloss": {
+    "en": [
+     "final",
+     "latest",
+     "ultimate"
+    ],
+    "th": "ทีหลังเพื่อน, หลังสุด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สุด",
+    "ท้าย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "สิ้น + ส่วนที่อยู่สุดด้านหนึ่ง"
+  },
+  {
+   "th": "การสิ้นสุด",
+   "rtgs": "kan-sin-sut",
+   "ipa": "/kaːn˧.sin˥˩.sut̚˨˩/",
+   "gloss": {
+    "en": [
+     "end",
+     "cease"
+    ],
+    "th": "คำอาการนามของ สิ้นสุด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การสิ้น",
+    "สุด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สิ้น + สิ้น"
+  },
+  {
+   "th": "ท่าสุด",
+   "rtgs": "tha-sut",
+   "ipa": "/tʰaː˥˩.sut̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงราย จังหวัดเชียงราย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ท่า",
+    "สุด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ท่า"
+   ],
+   "lit": "landing + far",
+   "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + สิ้น"
+  },
+  {
+   "th": "สุดโต่ง",
+   "rtgs": "sut-tong",
+   "ipa": "/sut̚˨˩.toːŋ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไกลมาก, ปลายไกลสุด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สุด",
+    "โต่ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "สิ้น + ที่สุดของสิ่งที่เป็นแถวเป็นแนว"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับอีสาน สุด, ลาว ສຸດ (สุด), คำเมือง ᩈᩩᨯ (สุด), เขิน ᩈᩩᨯ (สุด), ไทลื้อ ᦉᦳᧆ (สุด), ไทดำ ꪎꪴꪒ (สุด), ไทใหญ่ သုတ်း (สุ๊ต), อาหม 𑜏𑜤𑜄𑜫 (สุต์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩈᩩᨯ",
+  "th": "สุด",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "far"
+ ]
+}

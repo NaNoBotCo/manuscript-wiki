@@ -1,0 +1,19 @@
+{
+ "head": "yen",
+ "rule": "เย็น is coolness, calm, and the late afternoon. Sense 1 keeps physical cold — ตู้เย็น, ไฟเย็น, สงครามเย็น — and sense 2, not being agitated, was empty and takes ใจเย็น and เยือกเย็น. **The pair เยือกเย็น and เย็นเยือก is the whole rule in miniature**: same two morphemes, opposite order, opposite sense. เยือกเย็น is composure (2) and เย็นเยือก is being chilled to the heart (1) — the same order-asymmetry the corpus already records for ใจ, where ใจดี and ดีใจ part company. Sense 3 is the hour and takes อาหารเย็น.",
+ "senses": {
+  "1": [
+   "ตู้เย็น",
+   "สงครามเย็น",
+   "เย็นเยือก",
+   "ไฟเย็น"
+  ],
+  "2": [
+   "ใจเย็น",
+   "เยือกเย็น"
+  ],
+  "3": [
+   "อาหารเย็น"
+  ]
+ }
+}

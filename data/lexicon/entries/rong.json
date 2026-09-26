@@ -1,0 +1,842 @@
+{
+ "id": "w:rong",
+ "th": "โรง",
+ "status": "mapped",
+ "rtgs": "rong",
+ "paiboon": "roong",
+ "ipa": "/roːŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "shed",
+     "hall",
+     "roofed building"
+    ],
+    "th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติพื้นอยู่ติดกับดิน สำหรับเป็นที่อยู่อาศัย ประกอบการ หรือไว้สิ่งของเป็นต้น",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "โรงพิมพ์",
+     "rtgs": "rong-phim",
+     "ipa": "/roːŋ˧.pʰim˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สถานที่พิมพ์หนังสือและสิ่งพิมพ์อื่น ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "พิมพ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "พิมพ์"
+     ],
+     "lit": "shed + print",
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + รูป",
+     "frame": "entity"
+    },
+    {
+     "th": "โรงเจ",
+     "rtgs": "rong-che",
+     "ipa": "/roːŋ˧.t͡ɕeː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โรงอาหารที่มีแต่อาหารเจ ตามปรกติสำหรับคนจีนที่ถือศีลกินอยู่โดยไม่เสียเงิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "เจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.24, next 0.12",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + อาหารที่ไม่ปรุงด้วยเนื้อสัตว์ และผ",
+     "frame": "entity"
+    },
+    {
+     "th": "โรงเบียร์",
+     "rtgs": "rong-bia",
+     "ipa": "/roːŋ˧.bia̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สถานที่ที่มีการทำเบียร์ในเชิงพาณิชย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "เบียร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "shed + beer",
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + น้ำเมาอย่างหนึ่งเป็นชนิดเมรัย",
+     "frame": "entity"
+    },
+    {
+     "th": "โรงเชือด",
+     "rtgs": "rong-chueat",
+     "ipa": "/roːŋ˧.t͡ɕʰɯa̯t̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สถานที่ฆ่าและชำแหละชิ้นส่วนปศุสัตว์ เพื่อจำหน่ายเป็นสินค้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "เชือด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ใช้ของมีคมเช่นมีดโกนตัดให้ลึกเข้าไ"
+    },
+    {
+     "th": "โรงแรม",
+     "rtgs": "rong-raem",
+     "ipa": "/roːŋ˧.rɛːm˧/",
+     "gloss": {
+      "en": [
+       "hotel"
+      ],
+      "th": "ที่พักคนเดินทางซึ่งต้องเสียค่าพักแรมด้วย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "แรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ส่วนของเดือนจันทรคติที่พระจันทร์เร",
+     "frame": "entity"
+    },
+    {
+     "th": "โรงบาล",
+     "rtgs": "rong-ban",
+     "ipa": "/roːŋ˧.baːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปตัดทอนของ โรงพยาบาล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "บาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "บาล"
+     ],
+     "lit": "shed + to guard",
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + เลี้ยง"
+    },
+    {
+     "th": "โรงพยาบาล",
+     "rtgs": "rong-pha-ya-ban",
+     "ipa": "/roːŋ˧.pʰa˦˥.jaː˧.baːn˧/",
+     "gloss": {
+      "en": [
+       "hospital"
+      ],
+      "th": "สถานที่ที่ให้บริการเกี่ยวกับสุขภาพ เช่น การรักษาพยาบาล การวินิจฉัยโรค ฯลฯ บุคคลที่ทำหน้าที่ในโรงพยาบาล ได้แก่ แพทย์ นางพยาบาล ฯลฯ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "พยาบาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "shed + nurse",
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ดูแลคนไข้"
+    },
+    {
+     "th": "โรงงาน",
+     "rtgs": "rong-ngan",
+     "ipa": "/roːŋ˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "factory"
+      ],
+      "th": "อาคารหรือแหล่งสำหรับผลิตสินค้า โดยอาจใช้เครื่องจักร",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "งาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "งาน"
+     ],
+     "lit": "shed + job",
+     "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "นายโรง",
+     "rtgs": "nai-rong",
+     "ipa": "/naːj˧.roːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระเอกลิเก, เจ้าของคณะลิเก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาย",
+      "โรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นาย"
+     ],
+     "lit": "baboo + shed",
+     "lit_th": "คำนำหน้าชื่อชายที่มีอายุตั้งแต่ 15 + สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "เรียกสิ่งปลูกสร้างเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, classifier",
+   "pos_th": "คำนาม, คำลักษณนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไขว้โรง",
+     "rtgs": "khwai-rong",
+     "ipa": "/kʰwaj˥˩.roːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลับตรงกันข้าม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไขว้",
+      "โรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.18, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "fold + shed",
+     "lit_th": "ขัด + เรียกสิ่งปลูกสร้างเช่นนั้น"
+    },
+    {
+     "th": "โรงเตี๊ยม",
+     "rtgs": "rong-tiam",
+     "ipa": "/roːŋ˧.tia̯m˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โรงแรมเล็ก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "เตี๊ยม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.19, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เรียกสิ่งปลูกสร้างเช่นนั้น + ใช้เฉพาะใน",
+     "frame": "entity"
+    },
+    {
+     "th": "โรงพัก",
+     "rtgs": "rong-phak",
+     "ipa": "/roːŋ˧.pʰak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สถานีตำรวจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "พัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.19, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "shed + rest",
+     "lit_th": "เรียกสิ่งปลูกสร้างเช่นนั้น + หยุดชั่วคราว"
+    },
+    {
+     "th": "โรงเยี่ยว",
+     "translit_auto": "rongyeiyo",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระเพาะปัสสาวะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "เยี่ยว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.18, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "shed + piss",
+     "lit_th": "เรียกสิ่งปลูกสร้างเช่นนั้น + ของเหลวที่เสียซึ่งไตขับถ่ายออกจากโ",
+     "frame": "entity"
+    },
+    {
+     "th": "โรงธารกำนัล",
+     "translit_auto": "rongtharkamnal",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ท้องพระโรง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "ธารกำนัล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.19, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เรียกสิ่งปลูกสร้างเช่นนั้น + ที่ชุมนุมชน",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "And any structure of that kind takes the name.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "rong as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 3 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 3 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 3 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "7 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "โรงเรียน",
+     "rtgs": "rong-rian",
+     "ipa": "/roːŋ˧.ria̯n˧/",
+     "gloss": {
+      "en": [
+       "school",
+       "phrontistery"
+      ],
+      "th": "สถานศึกษา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "เรียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.11, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เรียน"
+     ],
+     "lit": "rong as an element in place names + learn",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เข้ารับความรู้จากผู้สอน"
+    },
+    {
+     "th": "โรงช้าง",
+     "rtgs": "rong-chang",
+     "ipa": "/roːŋ˧.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอป่าแดด จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โรง",
+      "ช้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "rong as an element in place names + elephant",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "หนองโรง",
+     "rtgs": "nong-rong",
+     "ipa": "/nɔːŋ˩˩˦.roːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนมทวน จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "โรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + rong as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "บางโรง",
+     "rtgs": "bang-rong",
+     "ipa": "/baːŋ˧.roːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองเขื่อน จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "โรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + rong as an element in place names",
+     "lit_th": "ทางน้ำเล็ก ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1 manuscript titles, 41 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "โรงตึ๊ง",
+   "rtgs": "rong-tueng",
+   "ipa": "/roːŋ˧.tɯŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ โรงรับจำนำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โรง",
+    "ตึ๊ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ใช้เฉพาะใน",
+   "frame": "entity"
+  },
+  {
+   "th": "โรงจำนำ",
+   "rtgs": "rong-cham-nam",
+   "ipa": "/roːŋ˧.t͡ɕam˧.nam˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ โรงรับจำนำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โรง",
+    "จำนำ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "shed + pawn",
+   "lit_th": "สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ + ชื่อสัญญาซึ่งบุคคลคนหนึ่ง เรียกว่า",
+   "frame": "entity"
+  },
+  {
+   "th": "สำโรง",
+   "rtgs": "sam-rong",
+   "ipa": "/sam˩˩˦.roːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อไม้ต้นชนิด Sterculia foetida L. ในวงศ์ Sterculiaceae ดอกมีกลิ่นเหม็น เมล็ดให้น้ำมัน เรียกว่า น้ำมันลูกไม้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สำ",
+    "โรง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a biological; filed under the head's name-use sense · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "สำ"
+   ],
+   "lit": "jumbled + shed",
+   "lit_th": "ซับซ้อนกัน + สิ่งปลูกสร้างที่มีหลังคาคลุม ปรกติ"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับคำเมือง ᩁᩰᩫ᩠ᨦ (โร็ง), ลาว ໂຮງ (โฮง), ไทลื้อ ᦷᦣᧂ (โฮง), ไทใหญ่ ႁူင်း (หู๊ง); เทียบเขมร រោង (โรง), มอญ ရိုၚ် (ริุัง), พม่า ရုံ (รุํ)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩁᩰᩫ᩠ᨦ",
+  "th": "โร็ง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:rong-2",
+   "label": "ร้อง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"rong\". โรง is roong, ร้อง is rɔ́ɔng — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:rong-3",
+   "label": "รอง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"rong\". โรง is roong, รอง is rɔɔng — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

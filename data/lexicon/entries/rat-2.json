@@ -1,0 +1,669 @@
+{
+ "id": "w:rat-2",
+ "th": "รัฐ",
+ "status": "mapped",
+ "rtgs": "rat",
+ "paiboon": "rát",
+ "ipa": "/rat̚˦˥/",
+ "syllable_respelling": "รัด-ถะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "แคว้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "บ้านเมือง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "นครรัฐ",
+     "rtgs": "na-khon-rat",
+     "ipa": "/na˦˥.kʰɔːn˧.rat̚˦˥/",
+     "gloss": {
+      "en": [
+       "city-state"
+      ],
+      "th": "เมืองที่ปกครองตนเองเป็นอิสระ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "นคร",
+      "รัฐ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.19, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "นคร"
+     ],
+     "lit": "city + sovereign state",
+     "lit_th": "เมืองใหญ่ + บ้านเมือง",
+     "frame": "entity"
+    },
+    {
+     "th": "ประชารัฐ",
+     "rtgs": "pra-cha-rat",
+     "ipa": "/pra˨˩.t͡ɕʰaː˧.rat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประเทศหรือบ้านเมืองของปวงชน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ประชา",
+      "รัฐ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.23, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หมู่คน + บ้านเมือง",
+     "frame": "entity"
+    },
+    {
+     "th": "รัฐบุรุษ",
+     "rtgs": "rat-tha-bu-rut",
+     "ipa": "/rat̚˦˥.tʰa˨˩.bu˨˩.rut̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่ได้รับยกย่องอย่างสูงว่ามีความรู้ความสามารถในการบริหารบ้านเมือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัฐ",
+      "บุรุษ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.14, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "บ้านเมือง + คน",
+     "frame": "entity"
+    },
+    {
+     "th": "รัฐประศาสน์",
+     "rtgs": "rat-tha-pra-sat",
+     "ipa": "/rat̚˦˥.tʰa˨˩.pra˨˩.saːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "public administration"
+      ],
+      "th": "การปกครองบ้านเมือง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รัฐ",
+      "ประศาสน์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.23, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "บ้านเมือง + การแนะนำ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The region widened to the country.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ประเทศ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:settlement"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สยามรัฐ",
+     "rtgs": "sa-yam-ma-rat",
+     "ipa": "/sa˨˩.jaːm˩˩˦.ma˦˥.rat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประเทศสยาม; ประเทศไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สยาม",
+      "รัฐ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.16, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit": "Siam + sovereign state"
+    },
+    {
+     "th": "สาธารณรัฐ",
+     "rtgs": "sa-tha-ra-na-rat",
+     "ipa": "/saː˩˩˦.tʰaː˧.ra˦˥.na˦˥.rat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประเทศหรือการปกครองที่มีประธานาธิบดีเป็นประมุข",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาธารณ",
+      "รัฐ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ สาธารณะ + ประเทศ",
+     "frame": "quality"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "And to the state as a polity.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 8 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['บ้าน', 'เมือง'].",
+ "compounds_unassigned": [
+  {
+   "th": "รัฐสภา",
+   "rtgs": "rat-tha-sa-pha",
+   "ipa": "/rat̚˦˥.tʰa˨˩.sa˨˩.pʰaː˧/",
+   "gloss": {
+    "en": [
+     "congress",
+     "parliament"
+    ],
+    "th": "องค์กรนิติบัญญัติ ทำหน้าที่บัญญัติกฎหมาย ประกอบด้วยวุฒิสภาและสภาผู้แทนราษฎร",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "สภา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "sovereign state + assembly",
+   "lit_th": "แคว้น + องค์การหรือสถานที่ประชุม",
+   "frame": "entity"
+  },
+  {
+   "th": "รัฐมนตรี",
+   "rtgs": "rat-tha-mon-tri",
+   "ipa": "/rat̚˦˥.tʰa˨˩.mon˧.triː˧/",
+   "gloss": {
+    "en": [
+     "minister",
+     "secretary"
+    ],
+    "th": "ผู้เป็นสมาชิกของคณะรัฐมนตรีหรือคณะรัฐบาล รับผิดชอบร่วมกับคณะรัฐมนตรีในนโยบายทั่วไปของรัฐบาลในการบริหารราชการแผ่นดิน, ถ้าเป็นรัฐมนตรีว่าการกระทรวงหรือทบวง ก็เป็นผู้บังคับบัญชาสูงสุดในกระทรวงหรือทบวงที่ตนว่าการ และรับผิดชอ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "มนตรี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "แคว้น + ที่ปรึกษาราชการ",
+   "frame": "entity"
+  },
+  {
+   "th": "สหรัฐ",
+   "rtgs": "sa-ha-rat",
+   "ipa": "/sa˨˩.ha˨˩.rat̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปตัดทอนของ สหรัฐอเมริกา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สห",
+    "รัฐ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 1,
+   "lit_th": "ด้วยกัน + แคว้น",
+   "frame": "quality"
+  },
+  {
+   "th": "รัฐกันชน",
+   "rtgs": "rat-kan-chon",
+   "ipa": "/rat̚˦˥.kan˧.t͡ɕʰon˧/",
+   "gloss": {
+    "en": [
+     "buffer state"
+    ],
+    "th": "ประเทศหรือรัฐที่กั้นอยู่ระหว่างดินแดนของ 2 ประเทศ เพื่อมิให้พิพาทกันในเรื่องดินแดนและผลประโยชน์",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "กันชน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "sovereign state + buffer",
+   "lit_th": "แคว้น + เครื่องป้องกันการกระทบกระแทกด้านหน",
+   "frame": "entity"
+  },
+  {
+   "th": "รัฐศาสตร์",
+   "rtgs": "rat-tha-sat",
+   "ipa": "/rat̚˦˥.tʰa˨˩.saːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "วิชาว่าด้วยการเมืองและการปกครองประเทศตลอดจนความสัมพันธ์ระหว่างประเทศ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "ศาสตร์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "sovereign state + discipline",
+   "lit_th": "แคว้น + ระบบวิชาความรู้",
+   "frame": "entity"
+  },
+  {
+   "th": "รัฐธรรมนูญ",
+   "rtgs": "rat-tha-tham-ma-nun",
+   "ipa": "/rat̚˦˥.tʰa˨˩.tʰam˧.ma˦˥.nuːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บทกฎหมายสูงสุดที่จัดระเบียบการปกครองประเทศ กำหนดรูปแบบและระบอบการปกครองของประเทศ สิทธิ เสรีภาพ และหน้าที่ของประชาชน อำนาจหน้าที่ขององค์กร และความสัมพันธ์ระหว่างองค์กร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "ธรรมนูญ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "แคว้น + กฎหมายที่จัดระเบียบองค์กร",
+   "frame": "entity"
+  },
+  {
+   "th": "รัฐกาล",
+   "rtgs": "rat-tha-kan",
+   "ipa": "/rat̚˦˥.tʰa˨˩.kaːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ รัชกาล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "กาล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "แคว้น + เวลา",
+   "frame": "entity",
+   "use": "spelling-variant"
+  },
+  {
+   "th": "รัฐประหาร",
+   "rtgs": "rat-tha-pra-han",
+   "ipa": "/rat̚˦˥.tʰa˨˩.pra˨˩.haːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "coup",
+     "coup d'état"
+    ],
+    "th": "การใช้กำลังเปลี่ยนแปลงคณะรัฐบาลโดยฉับพลัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "ประหาร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "แคว้น + การตี",
+   "frame": "entity"
+  },
+  {
+   "th": "รัฐพิธี",
+   "rtgs": "rat-tha-phi-thi",
+   "ipa": "/rat̚˦˥.tʰa˨˩.pʰi˦˥.tʰiː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "งานที่รัฐบาลจัดขึ้นโดยกราบบังคมทูลพระกรุณาให้ทรงรับไว้มีกำหนดการเป็นประจำ ซึ่งพระบาทสมเด็จพระเจ้าอยู่หัวจะเสด็จพระราชดำเนินไปทรงเป็นประธาน เช่น วันที่ระลึกสมเด็จพระเจ้าตากสินมหาราช วันที่ระลึกพระบาทสมเด็จพระนั่งเกล้าเจ้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "พิธี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "แคว้น + งานที่จัดขึ้นตามลัทธิหรือความเชื่อ",
+   "frame": "entity"
+  },
+  {
+   "th": "รัฐบาล",
+   "rtgs": "rat-tha-ban",
+   "ipa": "/rat̚˦˥.tʰa˨˩.baːn˧/",
+   "gloss": {
+    "en": [
+     "government"
+    ],
+    "th": "องค์กรปกครองประเทศ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "บาล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.24, next 0.08 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "บาล"
+   ],
+   "lit": "sovereign state + to guard",
+   "lit_th": "แคว้น + เลี้ยง",
+   "use": "false-split"
+  },
+  {
+   "th": "รัฐนิยม",
+   "rtgs": "rat-tha-ni-yom",
+   "ipa": "/rat̚˦˥.tʰa˨˩.ni˦˥.jom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ระเบียบแบบแผนที่พึงปฏิบัติของคนในประเทศ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "นิยม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.11, next 0.00 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นิยม"
+   ],
+   "lit": "sovereign state + like",
+   "lit_th": "แคว้น + การกำหนด",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากบาลี รฏฺฐ; เทียบสันสกฤต राष्ट्र (ราษฺฏฺร)\nเป็นศัพท์บัญญัติสำนักงานราชบัณฑิตยสภาของ state",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:rat",
+   "label": "ราช",
+   "why": "spelling",
+   "distinction": "Both romanise as \"rat\". รัฐ is rát, ราช is râat — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "sovereign state",
+  "state"
+ ]
+}

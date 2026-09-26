@@ -1,0 +1,3014 @@
+{
+ "id": "w:hua",
+ "th": "หัว",
+ "status": "mapped",
+ "rtgs": "hua",
+ "paiboon": "hǔua",
+ "ipa": "/hua̯˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'.",
+    "Declared root: หัว 'head'."
+   ],
+   "compounds": [
+    {
+     "th": "กดหัว",
+     "rtgs": "kot-hua",
+     "ipa": "/kot̚˨˩.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บังคับให้อยู่ใต้อำนาจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กด",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "press + head",
+     "lit_th": "ชื่อมาตรา กด มีตัว จ ฉ ช ซ ฌ ฏ ฎ ฐ + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวไหล่",
+     "rtgs": "hua-lai",
+     "ipa": "/hua̯˩˩˦.laj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จะงอยบ่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ไหล่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "head + shoulder",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ส่วนของบ่าตอนที่ติดกับต้นแขน",
+     "frame": "entity"
+    },
+    {
+     "th": "เด็ดหัว",
+     "rtgs": "det-hua",
+     "ipa": "/det̚˨˩.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัดหัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เด็ด",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ทำให้ขาดด้วยเล็บหรือนิ้ว + ส่วนบนสุดของร่างกายของคนหรือสัตว์"
+    },
+    {
+     "th": "หัวเข่า",
+     "rtgs": "hua-khao",
+     "ipa": "/hua̯˩˩˦.kʰaw˨˩/",
+     "gloss": {
+      "en": [
+       "knee"
+      ],
+      "th": "เข่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "เข่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "head + knee",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ส่วนที่ต่อระหว่างขาส่วนบนกับขาส่วน",
+     "frame": "entity"
+    },
+    {
+     "th": "ทูนหัว",
+     "rtgs": "thun-hua",
+     "ipa": "/tʰuːn˧.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำพูดแสดงความรักใคร่หรือยกย่อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทูน",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เทิน + ส่วนบนสุดของร่างกายของคนหรือสัตว์"
+    },
+    {
+     "th": "หายหัว",
+     "rtgs": "hai–hua",
+     "ipa": "/haːj˩˩˦.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หายไปนาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หาย",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "หาย"
+     ],
+     "lit": "all + head",
+     "lit_th": "สูญ + ส่วนบนสุดของร่างกายของคนหรือสัตว์"
+    },
+    {
+     "th": "หัวนม",
+     "rtgs": "hua-nom",
+     "ipa": "/hua̯˩˩˦.nom˧/",
+     "gloss": {
+      "en": [
+       "nipple"
+      ],
+      "th": "อวัยวะส่วนที่อยู่ตอนยอดของนมมนุษย์หรือสัตว์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "นม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นม"
+     ],
+     "lit": "head + milk",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+     "frame": "entity"
+    },
+    {
+     "th": "ไสหัว",
+     "rtgs": "sai-hua",
+     "ipa": "/saj˩˩˦.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขับไล่อย่างไม่เกรงใจ (เป็นคำพูดไม่สุภาพ)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไส",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เสือกไป + ส่วนบนสุดของร่างกายของคนหรือสัตว์"
+    },
+    {
+     "th": "เวียนหัว",
+     "rtgs": "wian-hua",
+     "ipa": "/wia̯n˧.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รู้สึกมึนหัว ตาลาย ใจหวิว มองเห็นอะไรหมุนไปหมด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เวียน",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "อาการที่ของสิ่งหนึ่งเคลื่อนไหวไปรอ + ส่วนบนสุดของร่างกายของคนหรือสัตว์"
+    },
+    {
+     "th": "ดูกหัว",
+     "translit_auto": "dukhaw",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระโหลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดูก",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "กระดูก + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "กะลาหัว",
+     "rtgs": "ka-la-hua",
+     "ipa": "/ka˨˩.laː˧.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กะลา",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนแข็งที่หุ้มเนื้อมะพร้าว ถ้าผ่า + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวอก",
+     "rtgs": "hua-ok",
+     "ipa": "/hua̯˩˩˦.ʔok̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนเบื้องบนของอกในระดับหัวใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "อก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "อก"
+     ],
+     "lit": "head + chest",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+     "frame": "entity"
+    },
+    {
+     "th": "สุมหัว",
+     "rtgs": "sum-hua",
+     "ipa": "/sum˩˩˦.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอายาสมุนไพรพอกโปะไว้บนกระหม่อมเด็กเล็ก ๆ เพื่อแก้หวัดเป็นต้น, สุมกระหม่อม ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุม",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "วางทับซ้อน ๆ กันลงไปจนสูงเป็นกองอย + ส่วนบนสุดของร่างกายของคนหรือสัตว์"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ผม (ในบางบริบท)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "What grows on the head stands for the head.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขนหัว",
+     "rtgs": "khon-hua",
+     "ipa": "/kʰon˩˩˦.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขน",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ขน"
+     ],
+     "lit": "coat + head",
+     "lit_th": "สิ่งที่เป็นเส้นขึ้นตามผิวหนังคนและ + ผม",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "สติปัญญา, ความสามารถพิเศษ, ความคิดริเริ่ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ถวายหัว",
+     "translit_auto": "thwayhaw",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยอมเสี่ยงชีวิตเพื่อชาติ, เอาชีวิตเป็นประกัน, ทำจนสุดความสามารถ, ยอมสู้ตาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถวาย",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.13, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ให้ + สติปัญญา"
+    },
+    {
+     "th": "หัวโบราณ",
+     "rtgs": "hua-bo-ran",
+     "ipa": "/hua̯˩˩˦.boː˧.raːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นิยมตามแบบเก่าแก่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "โบราณ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "head + ancient",
+     "lit_th": "สติปัญญา + มีมาแล้วช้านาน"
+    },
+    {
+     "th": "รวมหัว",
+     "rtgs": "ruam-hua",
+     "ipa": "/rua̯m˧.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ร่วมกันคิดร่วมกันทำ (ใช้ในทางที่ดีหรือไม่ดีก็ได้)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รวม",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "convergence + head",
+     "lit_th": "บวกเข้าด้วยกัน + สติปัญญา"
+    },
+    {
+     "th": "หัวสูง",
+     "rtgs": "hua-sung",
+     "ipa": "/hua̯˩˩˦.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีรสนิยมสูงจนเกินตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "สูง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "สูง"
+     ],
+     "lit": "head + tall",
+     "lit_th": "สติปัญญา + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก"
+    },
+    {
+     "th": "หัวร้อน",
+     "rtgs": "hua-ron",
+     "ipa": "/hua̯˩˩˦.rɔːn˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โกรธ, โมโห",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ร้อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ร้อน"
+     ],
+     "lit": "head + hot",
+     "lit_th": "สติปัญญา + มีความรู้สึกตามผิวหนังเหมือนถูกไฟเ"
+    },
+    {
+     "th": "ฝังหัว",
+     "rtgs": "fang-hua",
+     "ipa": "/faŋ˩˩˦.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เชื่ออย่างแน่นแฟ้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฝัง",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bury + head",
+     "lit_th": "จมหรือทำให้จมลงไปจากระดับพื้นจนมิด + สติปัญญา"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The head as the seat of the mind, so the mind's qualities are spoken of as the head.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ผู้ที่มีความคิดหนักไปทางใดทางหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metonymy",
+   "via_note": "The cast of mind stands in for the person who has it.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หัวเบี้ย",
+     "rtgs": "hua-bia",
+     "ipa": "/hua̯˩˩˦.bia̯˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่เก็บและจ่ายเงินในวงถั่วโปเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "เบี้ย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "หัวป่า",
+     "rtgs": "hua-pa",
+     "ipa": "/hua̯˩˩˦.paː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนทำอาหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ป่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "head + forest",
+     "lit_th": "ผู้ที่มีความคิดหนักไปทางใดทางหนึ่ง + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวแรง",
+     "rtgs": "hua-raeng",
+     "ipa": "/hua̯˩˩˦.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้เป็นกำลังสำคัญในการทำกิจกรรมต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "แรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แรง"
+     ],
+     "lit": "head + bright",
+     "lit_th": "ผู้ที่มีความคิดหนักไปทางใดทางหนึ่ง + กำลัง",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวคะแนน",
+     "rtgs": "hua-kha-naen",
+     "ipa": "/hua̯˩˩˦.kʰa˦˥.nɛːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้รับหาคะแนนเสียงให้แก่ผู้สมัครรับเลือกตั้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "คะแนน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "head + mark",
+     "lit_th": "ผู้ที่มีความคิดหนักไปทางใดทางหนึ่ง + เครื่องหมายในการนับ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ปัญญา, ความคิด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หัวดี",
+     "rtgs": "hua-di",
+     "ipa": "/hua̯˩˩˦.diː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เฉลียวฉลาดรอบคอบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ดี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "head + good",
+     "lit_th": "ปัญญา + มีลักษณะที่เป็นไปในทางที่ต้องการ น"
+    },
+    {
+     "th": "หัวไว",
+     "rtgs": "hua-wai",
+     "ipa": "/hua̯˩˩˦.waj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฉลาด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ไว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "head + fast",
+     "lit_th": "ปัญญา + ลักษณะที่เคลื่อนไหว หรือสามารถคิด"
+    }
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Narrowed from talent in general to the thinking itself.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ส่วนของพืชพันธุ์บางอย่างตอนที่อยู่ใต้ดิน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The rounded mass a plant carries underground is its head.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หัวปลี",
+     "rtgs": "hua-pli",
+     "ipa": "/hua̯˩˩˦.pliː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่อดอกของกล้วยที่ยังมีกาบหุ้มอยู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ปลี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนของพืชพันธุ์บางอย่างตอนที่อยู่ + ช่อดอกของกล้วยที่ยังมีกาบหุ้มอยู่",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวมัน",
+     "rtgs": "hua-man",
+     "ipa": "/hua̯˩˩˦.man˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวที่อยู่ใต้ดินของมัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "มัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มัน"
+     ],
+     "lit": "head + it",
+     "lit_th": "ส่วนของพืชพันธุ์บางอย่างตอนที่อยู่ + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ส่วนที่อยู่ใต้ดินของพืชบางชนิด เป็นที่เกิดต้นอ่อน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "Specifically the part shoots rise from.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ส่วนเริ่มต้นที่เป็นวงของตัวหนังสือ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The initial loop of a Thai letter is the letter's head — and it is where writing it starts.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้างหน้า หรือข้างต้น หรือแรกเริ่ม เรียกว่า หัวของสิ่งนั้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หัวถนน",
+     "rtgs": "hua-tha-non",
+     "ipa": "/hua̯˩˩˦.tʰa˨˩.non˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองขลุง จังหวัดกำแพงเพชร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ถนน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "head + drive",
+     "lit_th": "ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง + ดินที่พูนขึ้นเป็นคันสำหรับเป็นทางส",
+     "frame": "entity"
+    },
+    {
+     "th": "เจ้าหัว",
+     "rtgs": "chao-hua",
+     "ipa": "/t͡ɕaːw˥˩.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระเจ้าแผ่นดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เจ้า",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + head",
+     "lit_th": "ผู้เป็นใหญ่ + ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ค่าหัว",
+     "rtgs": "kha-hua",
+     "ipa": "/kʰaː˥˩.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ราคาที่กำหนดไว้เป็นค่าเอาชีวิต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ค่า",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ค่า"
+     ],
+     "lit": "value + head",
+     "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวหน้า",
+     "rtgs": "hua-na",
+     "ipa": "/hua̯˩˩˦.naː˥˩/",
+     "gloss": {
+      "en": [
+       "boss"
+      ],
+      "th": "ผู้เป็นใหญ่ในหมู่หนึ่ง ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "head + before",
+     "lit_th": "ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "หมายหัว",
+     "rtgs": "mai-hua",
+     "ipa": "/maːj˩˩˦.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผูกอาฆาตไว้, คาดโทษไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาย",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "sign + head",
+     "lit_th": "หนังสือราชการที่ใช้เกณฑ์ เกาะกุม ห + ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวเมือง",
+     "rtgs": "hua-mueang",
+     "ipa": "/hua̯˩˩˦.mɯa̯ŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมืองอื่นนอกจากเมืองหลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "เมือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "head + town",
+     "lit_th": "ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง + แดน",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวน่า",
+     "translit_auto": "hawna",
+     "ipa": "[huːä˩˥.näː˥˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "น่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "head + -able"
+    },
+    {
+     "th": "เห็นหัว",
+     "rtgs": "hen-hua",
+     "ipa": "/hen˩˩˦.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เคารพ, เห็นคุณค่า, ให้ความสำคัญ, ให้เกียรติ, ไว้หน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เห็น",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "see + head",
+     "lit_th": "อาการของตาที่ประสบรูป + ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง"
+    },
+    {
+     "th": "เหนือหัว",
+     "rtgs": "nuea-hua",
+     "ipa": "/nɯa̯˩˩˦.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พระเจ้าแผ่นดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหนือ",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เหนือ"
+     ],
+     "lit": "above + head",
+     "lit_th": "ชื่อทิศตรงข้ามกับทิศใต้ + ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวข้อ",
+     "rtgs": "hua-kho",
+     "ipa": "/hua̯˩˩˦.kʰɔː˥˩/",
+     "gloss": {
+      "en": [
+       "content",
+       "theme",
+       "topic"
+      ],
+      "th": "ต้นเรื่อง, ส่วนสำคัญของเรื่องที่แยกออกเป็นส่วน ๆ และกำหนดไว้ตอนต้นเรื่อง, ใจความสำคัญ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ข้อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง + ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวนอน",
+     "rtgs": "hua-non",
+     "ipa": "/hua̯˩˩˦.nɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ด้านทางหัวของผู้นอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "นอน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "head + dormant",
+     "lit_th": "ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง + เอนตัวลงกับพื้นหรือที่ใด ๆ"
+    },
+    {
+     "th": "หัวเกษียน",
+     "translit_auto": "hawkesiyn",
+     "ipa": "[huǎː kà sǐaːn]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้อความที่เขียนไว้บนหัวกระดาษคำสั่ง หรือหนังสือราชการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "เกษียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 9 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนแห่งสิ่งของบางอย่างที่อยู่ข้าง + ข้อความที่เขียนแทรกไว้เช่นในใบลาน",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Head as front: the leading or beginning part of a thing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "ช่วงแรกเริ่มของเวลา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หัวปี",
+     "rtgs": "hua-pi",
+     "ipa": "/hua̯˩˩˦.piː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เกิดก่อนเพื่อน, ทีแรก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ปี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 10: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "head + year",
+     "lit_th": "ช่วงแรกเริ่มของเวลา + เวลาชั่วโลกโคจรรอบดวงอาทิตย์ครั้งห",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวงาน",
+     "rtgs": "hua-ngan",
+     "ipa": "/hua̯˩˩˦.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เวลาตั้งต้นทำงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "งาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 10 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "งาน"
+     ],
+     "lit": "head + job",
+     "lit_th": "ช่วงแรกเริ่มของเวลา + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 9,
+   "via": "metaphor",
+   "via_note": "Front in space becomes front in time — the head of an hour, a season, a reign.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "ส่วนแห่งสิ่งของที่เป็นยอด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Head as topmost.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หัวเทียน",
+     "rtgs": "hua-thian",
+     "ipa": "/hua̯˩˩˦.tʰia̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เดือยหัวเสาสำหรับรับขื่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "เทียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "head + candle",
+     "lit_th": "ส่วนแห่งสิ่งของที่เป็นยอด + เครื่องตามไฟที่ฟั่นหรือหล่อด้วยขี้",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวเม็ด",
+     "rtgs": "hua-met",
+     "ipa": "/hua̯˩˩˦.met̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนตกแต่งของหัวเสาขนาดสั้น ๆ ในงานสถาปัตยกรรม มักนิยมใช้่เป็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "เม็ด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "head + seed",
+     "lit_th": "ส่วนแห่งสิ่งของที่เป็นยอด + ส่วนภายในของผลไม้ที่เพาะเป็นต้นขึ้",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[RID sense 12 — no English yet]"
+    ],
+    "th": "ส่วนแห่งสิ่งของที่ยื่นเด่นออกไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หัวแหลม",
+     "rtgs": "hua-laem",
+     "ipa": "/hua̯˩˩˦.lɛːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปลายแห่งแผ่นดินที่ยื่นออกไปในน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "แหลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "head + tongue",
+     "lit_th": "ส่วนแห่งสิ่งของที่ยื่นเด่นออกไป + มีปลายเสี้ยมคม"
+    },
+    {
+     "th": "หัวหน่าว",
+     "rtgs": "hua-nao",
+     "ipa": "/hua̯˩˩˦.naːw˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของร่างกายอยู่ระหว่างท้องน้อยกับอวัยวะสืบพันธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "หน่าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนแห่งสิ่งของที่ยื่นเด่นออกไป + ส่วนของร่างกายอยู่ระหว่างท้องน้อยก",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวเหน่า",
+     "rtgs": "hua-nao",
+     "ipa": "/hua̯˩˩˦.naw˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปเลิกใช้ของ หัวหน่าว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "เหน่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนแห่งสิ่งของที่ยื่นเด่นออกไป + รูปเลิกใช้ของ หน่าว",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวแร้ง",
+     "rtgs": "hua-raeng",
+     "ipa": "/hua̯˩˩˦.rɛːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหล็กที่ปลายมีลักษณะคล้ายหัวของนกแร้ง ใช้เผาไฟให้ร้อนจัดแล้วจี้ตะกั่วบัดกรีเพื่อเชื่อมโลหะให้ติดกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "แร้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    }
+   ],
+   "extends": 11,
+   "via": "generalisation",
+   "via_note": "From topmost to anything that juts out.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 13,
+   "gloss": {
+    "en": [
+     "[RID sense 13 — no English yet]"
+    ],
+    "th": "ในการเล่นปั่นแปะหรือโยนหัวโยนก้อย เรียกสมมุติด้านหนึ่งของเงินปลีกว่า ด้านหัว คู่กับ ด้านก้อย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The head side of a coin, against the tail.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 14,
+   "gloss": {
+    "en": [
+     "[RID sense 14 — no English yet]"
+    ],
+    "th": "ส่วนที่ตรงข้ามกับหางหรือท้าย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "specialisation",
+   "via_note": "The front end, against the tail or rear.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 15,
+   "gloss": {
+    "en": [
+     "[RID sense 15 — no English yet]"
+    ],
+    "th": "ส่วนที่ตรงข้ามกับ ก้น ในความว่า หัวหวานก้นเปรี้ยว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 14,
+   "via": "generalisation",
+   "via_note": "And more loosely the end opposite the bottom — หัวหวานก้นเปรี้ยว.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 16,
+   "gloss": {
+    "en": [
+     "[RID sense 16 — no English yet]"
+    ],
+    "th": "ส่วนที่เป็นแก่นสาร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The pith of the matter as its head.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หัวกะทิ",
+     "rtgs": "hua-ka-thi",
+     "ipa": "/hua̯˩˩˦.ka˨˩.tʰiʔ˦˥/",
+     "gloss": {
+      "en": [
+       "flower"
+      ],
+      "th": "กะทิที่คั้นครั้งแรก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "กะทิ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 16 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "head + coconut milk",
+     "lit_th": "ส่วนที่เป็นแก่นสาร + น้ำที่ได้จากการคั้นเนื้อมะพร้าวขูด",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวใจ",
+     "rtgs": "hua-chai",
+     "ipa": "/hua̯˩˩˦.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "heart"
+      ],
+      "th": "อวัยวะภายในสำหรับฉีดเลือดให้หมุนเวียนเลี้ยงร่างกาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 16 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "head + heart",
+     "lit_th": "ส่วนที่เป็นแก่นสาร + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "gloss": {
+    "en": [
+     "[RID sense 17 — no English yet]"
+    ],
+    "th": "หัวเราะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ยิ้มหัว",
+     "rtgs": "yim-hua",
+     "ipa": "/jim˦˥.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยิ้มแกมหัวเราะ, ยิ้มแย้มหยอกล้อกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยิ้ม",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 17: gloss similarity 0.17, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "smile + head",
+     "lit_th": "แสดงให้ปรากฏว่าชอบใจ เยาะเย้ย หรือ + หัวเราะ"
+    },
+    {
+     "th": "ชวนหัว",
+     "rtgs": "chuan-hua",
+     "ipa": "/t͡ɕʰua̯n˧.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "funny"
+      ],
+      "th": "ที่ทำให้ขบขัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชวน",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 17 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "invite + head",
+     "lit_th": "จูงใจ + หัวเราะ"
+    },
+    {
+     "th": "เล่นหัว",
+     "rtgs": "len-hua",
+     "ipa": "/len˥˩.hua̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หยอกล้อกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เล่น",
+      "หัว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 17 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "play + head",
+     "lit_th": "ทำเพื่อสนุกหรือผ่อนอารมณ์ + หัวเราะ"
+    }
+   ],
+   "needs_check": [
+    "หัวเราะ 'to laugh' is a separate lexeme that happens to begin with หัว. The RID files it here; no chain should be drawn to it.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว.",
+    "Declared root: หัวเราะ 'to laugh' — a separate word that merely begins with หัว."
+   ]
+  },
+  {
+   "n": 18,
+   "gloss": {
+    "en": [
+     "hua as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 11 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 70 of the 5333 wats in the northern registry carry it, and 35 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 11 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 11 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "70 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "หัวงัว",
+     "rtgs": "hua-ngua",
+     "ipa": "/hua̯˩˩˦.ŋua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอยางตลาด จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "งัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รูปสะกดแบบอื่นของ วัว",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวทุ่ง",
+     "rtgs": "hua-thung",
+     "ipa": "/hua̯˩˩˦.tʰuŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพล จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ทุ่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "hua as an element in place names + open field",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ที่ราบโล่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวหิน",
+     "rtgs": "hua-hin",
+     "ipa": "/hua̯˩˩˦.hin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดประจวบคีรีขันธ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "หิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หิน"
+     ],
+     "lit": "hua as an element in place names + rock",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ของแข็งที่ประกอบด้วยแร่ชนิดเดียวหร",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวหมาก",
+     "rtgs": "hua-mak",
+     "ipa": "/hua̯˩˩˦.maːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อแขวงหนึ่งในเขตบางกะปิ กรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "หมาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หมาก"
+     ],
+     "lit": "hua as an element in place names + areca palm",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวรอ",
+     "rtgs": "hua-ro",
+     "ipa": "/hua̯˩˩˦.rɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองพิษณุโลก จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "รอ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "hua as an element in place names + wait",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หลักปักกันกระแสน้ำ",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวทะเล",
+     "rtgs": "hua-tha-le",
+     "ipa": "/hua̯˩˩˦.tʰa˦˥.leː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ทะเล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทะเล"
+     ],
+     "lit": "hua as an element in place names + sea",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวหนอง",
+     "rtgs": "hua-nong",
+     "ipa": "/hua̯˩˩˦.nɔːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านไผ่ จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "หนอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "hua as an element in place names + abscess",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + แอ่งน้ำ",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวนาคำ",
+     "rtgs": "hua-na-kham",
+     "ipa": "/hua̯˩˩˦.naː˧.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอยางตลาด จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "นาคำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภออุบลรัตน์ จังห"
+    },
+    {
+     "th": "หัวไทร",
+     "rtgs": "hua-sai",
+     "ipa": "/hua̯˩˩˦.saj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครศรีธรรมราช",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ไทร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวไผ่",
+     "rtgs": "hua-phai",
+     "ipa": "/hua̯˩˩˦.pʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองอ่างทอง จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "ไผ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไผ่"
+     ],
+     "lit": "hua as an element in place names + bamboo",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้พุ่มหลายชนิดและหลายสกุลในวง",
+     "frame": "entity"
+    },
+    {
+     "th": "หัวสำโรง",
+     "rtgs": "hua-sam-rong",
+     "ipa": "/hua̯˩˩˦.sam˩˩˦.roːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอแปลงยาว จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "สำโรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 18: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นชนิด Sterculia foetida L",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 16 manuscript titles, 246 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 76; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "การเห็นหัว",
+   "rtgs": "kan-hen-hua",
+   "ipa": "/kaːn˧.hen˩˩˦.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เห็นหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเห็น",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "sight + head",
+   "lit_th": "คำอาการนามของ เห็น + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "การหัว",
+   "rtgs": "kan-hua",
+   "ipa": "/kaːn˧.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "การเวียนหัว",
+   "rtgs": "kan-wian-hua",
+   "ipa": "/kaːn˧.wia̯n˧.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เวียนหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเวียน",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เวียน + ส่วนบนสุดของร่างกายของคนหรือสัตว์"
+  },
+  {
+   "th": "การรวมหัว",
+   "rtgs": "kan-ruam-hua",
+   "ipa": "/kaːn˧.rua̯m˧.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ รวมหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การรวม",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ รวม + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "การหมายหัว",
+   "rtgs": "kan-mai-hua",
+   "ipa": "/kaːn˧.maːj˩˩˦.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หมายหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหมาย",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หมาย + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "การหายหัว",
+   "rtgs": "kan-hai–hua",
+   "ipa": "/kaːn˧.haːj˩˩˦.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หายหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหาย",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หาย + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "การเด็ดหัว",
+   "rtgs": "kan-det-hua",
+   "ipa": "/kaːn˧.det̚˨˩.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เด็ดหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเด็ด",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เด็ด + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "การสุมหัว",
+   "rtgs": "kan-sum-hua",
+   "ipa": "/kaːn˧.sum˩˩˦.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สุมหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสุม",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สุม + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "การกดหัว",
+   "rtgs": "kan-kot",
+   "ipa": "/kaːn˧.kot̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กดหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกด",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กด + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "การเล่นหัว",
+   "rtgs": "kan-len-hua",
+   "ipa": "/kaːn˧.len˥˩.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เล่นหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเล่น",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "play + head",
+   "lit_th": "คำอาการนามของ เล่น + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "การยิ้มหัว",
+   "rtgs": "kan-yim-hua",
+   "ipa": "/kaːn˧.jim˦˥.hua̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ยิ้มหัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การยิ้ม",
+    "หัว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ยิ้ม + ส่วนบนสุดของร่างกายของคนหรือสัตว์",
+   "frame": "entity"
+  },
+  {
+   "th": "หัวหอม",
+   "rtgs": "hua-hom",
+   "ipa": "/hua̯˩˩˦.hɔːm˩˩˦/",
+   "gloss": {
+    "en": [
+     "onion"
+    ],
+    "th": "คำพ้องความของ หอมใหญ่",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "หัว",
+    "หอม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + ชื่อไม้ล้มลุกมีหัวหลายชนิดในสกุล A",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *truəᴬ; ร่วมเชื้อสายกับลาว ຫົວ (ห็ว), คำเมือง ᩉ᩠ᩅᩫ (หว็), เขิน ᩉ᩠ᩅᩫ (หว็), ไทลื้อ ᦷᦠ (โห), ไทดำ ꪬꪺ (หัว), ไทขาว ꪬꪺ, ไทใหญ่ ႁူဝ် (หูว), อาหม 𑜑𑜥 (หู), 𑜍𑜥 (รู) หรือ 𑜍𑜤𑜈𑜫 (รุว์), จ้วง hu [Longzhou], จ้วงแบบจั่วเจียง hue หรือ vue สืบทอดจากไทดั้งเดิม *krɯəwᴬ; ร่วมเชื้อสายกับอีสาน หัว, ลาว ຫົວ (ห็ว), ไทลื้อ ᦷᦃ (โฃ), จ้วงแบบจั่วเจียง vue, hue (หัว,หวัว)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩉ᩠ᩅᩫ",
+  "th": "หว็",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "head",
+  "bulb",
+  "skull"
+ ]
+}

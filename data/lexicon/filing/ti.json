@@ -1,0 +1,11 @@
+{
+ "head": "ti",
+ "rule": "ตี is striking, and ten of fifteen are still that — attacking, rowing, flanking, somersaulting, bouncing back, beating (โจมตี, ตีกรรเชียง, ตีขนาบ, ตีลังกา, ตีโต้, ตีกลับ, ทุบตี, ตีวง, ตีกิน, ตีรวน). The remainder go by the metaphor their gloss names. Sense 7, ทำให้เข้ากัน — beating things together until they combine — takes ตีเกลียว, twisting strands into rope, and ตีสนิท, working oneself into someone's confidence: the same action on fibres and on people. Sense 4, แผ่ให้แบน, takes ตีแผ่, spreading a concealed thing out flat. Sense 8, กำหนด, takes ตีความ, fixing a meaning. Sense 9, ทิ้งให้เห็น, was empty and takes ตีหน้า, putting on a face for others to see.",
+ "senses": {
+  "1": ["ตีกลับ","ตีกิน","ตีกรรเชียง","ตีขนาบ","ตีรวน","ตีลังกา","ตีวง","ตีโต้","ทุบตี","โจมตี"],
+  "4": ["ตีแผ่"],
+  "7": ["ตีสนิท","ตีเกลียว"],
+  "8": ["ตีความ"],
+  "9": ["ตีหน้า"]
+ }
+}

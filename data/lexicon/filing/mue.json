@@ -1,0 +1,45 @@
+{
+ "head": "mue",
+ "rule": "มือ divides on whether the hand is a limb or a PERSON. Sense 6 is the agent — the RID glosses it as prefixing an instrument to mean the one skilled with it, and its occupants มือปราบ and มือใหม่ show it reaches past instruments to any role: มือปืน, มือมีด, มือมืด, ลูกมือ. Sense 3 is the narrower numbered participant, a hand in a game, and takes มือสอง, the second headsman. Sense 2 is the implement that stands in for the hand; it was empty and takes exactly one word, เครื่องมือ. Everything else is the limb, and the limb carries its own figurative reach without needing a sense of its own — เงื้อมมือ the clutches, น้ำมือ one's own doing, มือสะอาด honest, ฝีมือ skill, ลงมือ to begin. Those are not a fifth meaning of มือ; they are what a hand does.",
+ "senses": {
+  "1": [
+   "กระพุ่มมือ",
+   "กระแบะมือ",
+   "กำมือ",
+   "กุญแจมือ",
+   "ข้อมือ",
+   "ขี้มือ",
+   "คู่มือ",
+   "ฝีมือ",
+   "ฟายมือ",
+   "ภาษามือ",
+   "มือถือ",
+   "มือฝรั่ง",
+   "มือสะอาด",
+   "มือเปล่า",
+   "ระเบิดมือ",
+   "รับมือ",
+   "ร่วมมือ",
+   "ลงมือ",
+   "หลุดมือ",
+   "ถุงมือ",
+   "น้ำมือ",
+   "เงื้อมมือ",
+   "เต็มมือ",
+   "แก้มือ",
+   "ไม้มือ"
+  ],
+  "2": [
+   "เครื่องมือ"
+  ],
+  "3": [
+   "มือสอง"
+  ],
+  "6": [
+   "มือปืน",
+   "มือมีด",
+   "มือมืด",
+   "ลูกมือ"
+  ]
+ }
+}

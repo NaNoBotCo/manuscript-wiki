@@ -1,0 +1,28 @@
+{
+ "head": "siang",
+ "rule": "เสียง is sound (1) and a three-link chain away from it: the voice you raise becomes an opinion (2), opinions become standing (3), and standing is counted as votes (4). Sense 1 takes nearly everything, and the compounds organise it in five sets the RID does not itself separate — the five Thai tones (เสียงสามัญ, เสียงโท, เสียงจัตวา), the vocal registers (เสียงหลบ, เสียงสอง, เสียงแตก), the apparatus that makes, stores or removes sound (กล่องเสียง, แผ่นเสียง, ขยายเสียง, ดูดเสียง, หนังสือเสียง, เสียงสะท้อน), the manner of a person's speaking (น้ำเสียง, กระแสเสียง, ทำนองเสียง, หางเสียง, ขึ้นเสียง), and the linguists' unit (หน่วยเสียง). Only two words leave sense 1, and the line between them is countability: ชื่อเสียง is regard you have and cannot count, so 3; หาเสียง is canvassing for the thing that IS counted, so 4. Sense 2, the bare opinion, takes nothing here.",
+ "senses": {
+  "1": [
+   "ขยายเสียง",
+   "น้ำเสียง",
+   "กล่องเสียง",
+   "เสียงสามัญ",
+   "ทำนองเสียง",
+   "แผ่นเสียง",
+   "หางเสียง",
+   "เสียงโท",
+   "กระแสเสียง",
+   "เสียงหลบ",
+   "เสียงแตก",
+   "เสียงสอง",
+   "เสียงสะท้อน",
+   "หน่วยเสียง",
+   "ดูดเสียง",
+   "เสียงจัตวา",
+   "หนังสือเสียง",
+   "ขึ้นเสียง"
+  ],
+  "3": ["ชื่อเสียง"],
+  "4": ["หาเสียง"]
+ }
+}

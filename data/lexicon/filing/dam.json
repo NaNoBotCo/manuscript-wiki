@@ -1,0 +1,25 @@
+{
+ "head": "dam",
+ "rule": "ดำ is two unrelated words sharing a spelling: the verb (dive, 1; transplant rice seedlings, 2, and the transplanted paddy it names, 3) and the colour (4). The verbal senses take no modifier compounds at all — their compounds are ดำน้ำ and นาดำ, already filed by source — so every X+ดำ and ดำ+X word here is the colour, and sense 4's own gloss says why: ใช้ประกอบสิ่งต่าง ๆ บางอย่างโดยอนุโลมตามลักษณะ สี เป็นชื่อเรียกเฉพาะ, it is the naming element for things called after their blackness. That covers the literal (หมีดำ, ถั่วดำ), the classificatory (คดีดำ, ตัวดำ, บัญชีดำ) and the figurative (ใจดำ, หูดำ, แกะดำ) alike, because the figure is built on the colour, not on the verb. Words that merely OPEN with ดำ- are the trap: ดำริ, ดำเนิน and ดำรู are Khmer-pattern infixed stems (แผลงมาจาก ตริ / เดิน / ตรู) in which ดำ- is the infix, not the head.",
+ "senses": {
+  "4": [
+   "หูดำ",
+   "ขาวดำ",
+   "หมีดำ",
+   "หลุมดำ",
+   "ใจดำ",
+   "ยาดำ",
+   "กระดานดำ",
+   "ใบดำ",
+   "บัญชีดำ",
+   "ตะกั่วดำ",
+   "ตาดำ",
+   "ดินดำ",
+   "ถั่วดำ",
+   "คดีดำ",
+   "มนตร์ดำ",
+   "ตัวดำ",
+   "แกะดำ"
+  ]
+ }
+}

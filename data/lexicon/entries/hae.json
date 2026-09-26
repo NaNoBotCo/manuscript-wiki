@@ -1,0 +1,596 @@
+{
+ "id": "w:hae",
+ "th": "แห",
+ "status": "mapped",
+ "rtgs": "hae",
+ "paiboon": "hɛ̌ɛ",
+ "ipa": "/hɛː˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็นตาข่าย ใช้ทอดแผ่ลงในน้ำแล้วค่อย ๆ ดึงขึ้นมา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำอนุภาค",
+   "pos_th": "คำนาม, คำอนุภาค",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: แห, the cast net.",
+    "Declared root: แห, the cast net.",
+    "Declared root: แห, the cast net.",
+    "Declared root: แห, the cast net."
+   ],
+   "compounds": [
+    {
+     "th": "บ้านแห",
+     "rtgs": "ban-hae",
+     "ipa": "/baːn˥˩.hɛː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองอ่างทอง จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บ้าน",
+      "แห"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "home + net",
+     "lit_th": "ที่อยู่อาศัย + ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น",
+     "frame": "entity"
+    },
+    {
+     "th": "เหวี่ยงแห",
+     "rtgs": "wiang-hae",
+     "ipa": "/wia̯ŋ˨˩.hɛː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โยนแหแผ่ลงน้ำ, ใช้ว่า ทอดแห ก็ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหวี่ยง",
+      "แห"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ซัดเบี่ยงไป + ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น"
+    },
+    {
+     "th": "แหลน",
+     "rtgs": "laen",
+     "ipa": "/lɛːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องมือใช้แทงปลาเป็นต้น ทำด้วยเหล็กกลมยาว ปลายแหลม มีด้ามยาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แห",
+      "ลน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.14, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + อังไฟเพื่อให้ร้อนแต่ผิว ๆ หรือให้อ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ใช้เข้าคู่กับคำ ห่าง เป็น ห่างแห หรือ แหห่าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำอนุภาค",
+   "pos_th": "คำนาม, คำอนุภาค",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ห่างแห — spread apart as the net is when it is cast.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "กุ้งกะต่อม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำอนุภาค",
+   "pos_th": "คำนาม, คำอนุภาค",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: แห, the small shrimp กุ้งกะต่อม.",
+    "Declared root: แห, the small shrimp กุ้งกะต่อม.",
+    "Declared root: แห, the small shrimp กุ้งกะต่อม.",
+    "Declared root: แห, the small shrimp กุ้งกะต่อม."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 24 manuscript titles, 582 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['เข้า', 'ขึ้น', 'ลง', 'มา'].",
+ "compounds_unassigned": [
+  {
+   "th": "การเหวี่ยงแห",
+   "rtgs": "kan-wiang-hae",
+   "ipa": "/kaːn˧.wia̯ŋ˨˩.hɛː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เหวี่ยงแห",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเหวี่ยง",
+    "แห"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เหวี่ยง + ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น",
+   "frame": "entity"
+  },
+  {
+   "th": "แหละ",
+   "rtgs": "lae",
+   "ipa": "/lɛʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำประกอบเพื่อเน้นความ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แห",
+    "ละ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ละ"
+   ],
+   "lit": "net + to leave",
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + แยกตัวไปให้พ้นจากสิ่งที่เกี่ยวข้อง"
+  },
+  {
+   "th": "แหนม",
+   "rtgs": "naem",
+   "ipa": "/nɛːm˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาหารอย่างหนึ่ง ทำด้วยหมู หมักให้เปรี้ยว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แห",
+    "นม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "นม"
+   ],
+   "lit": "net + milk",
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "แหนบ",
+   "rtgs": "naep",
+   "ipa": "/nɛːp̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เครื่องสำหรับถอนหนวดถอนคิ้วเป็นต้น รูปคล้ายคีมเล็ก ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แห",
+    "นบ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + ไหว้"
+  },
+  {
+   "th": "แหวะ",
+   "rtgs": "wae",
+   "ipa": "/wɛʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เอาสิ่งที่มีคมกรีดให้เป็นช่องตามที่ต้องการ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แห",
+    "วะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+INTJ",
+   "head": 0,
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + คำที่เปล่งออกมาเมื่อรู้สึกไม่พอใจห"
+  },
+  {
+   "th": "กระแห",
+   "rtgs": "kra-hae",
+   "ipa": "/kra˨˩.hɛː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ปลาตะเพียนขนาดกลางชนิด Barbonymus schwanefeldi (Bleeker) หรือ Puntius schwanefeldi (Bleeker) ในวงศ์ Cyprinidae ลำตัวสั้นกว้างคล้ายปลาตะเพียนขาว มักมีสีแดงอ่อนบนครีบเฉพาะส่วนปลายของครีบหลังและขอบทั้งบนและล่างของครีบ หางมี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "แห"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
+  },
+  {
+   "th": "แหวก",
+   "rtgs": "waek",
+   "ipa": "/wɛːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แยกให้เป็นช่อง, แยกสิ่งที่ปิดบังหรือกีดขวางให้เป็นช่องทาง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แห",
+    "วก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + หักเลี้ยวกลับ"
+  },
+  {
+   "th": "แหล่ม",
+   "rtgs": "laem",
+   "ipa": "/lɛm˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ดี, เลิศ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แห",
+    "ล่ม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + กิริยาที่ทรงตัวไม่อยู่ เอียงจนตะแค"
+  },
+  {
+   "th": "แหลม",
+   "rtgs": "laem",
+   "ipa": "/lɛːm˩˩˦/",
+   "gloss": {
+    "en": [
+     "tongue",
+     "cape"
+    ],
+    "th": "มีปลายเสี้ยมคม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แห",
+    "ลม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ลม"
+   ],
+   "lit": "net + wind",
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
+   "frame": "entity"
+  },
+  {
+   "th": "แหนง",
+   "rtgs": "naeng",
+   "ipa": "/nɛːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หมาง, ระแวง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แห",
+    "นง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + นาง",
+   "frame": "entity"
+  },
+  {
+   "th": "แหลก",
+   "rtgs": "laek",
+   "ipa": "/lɛːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เป็นชิ้นเล็กชิ้นน้อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แห",
+    "ลก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + ลูกชายคนที่ 6",
+   "frame": "entity"
+  },
+  {
+   "th": "แหวน",
+   "rtgs": "waen",
+   "ipa": "/wɛːn˩˩˦/",
+   "gloss": {
+    "en": [
+     "ring"
+    ],
+    "th": "เครื่องประดับสำหรับสวมนิ้วทำด้วยเงินหรือทอง เป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แห",
+    "วน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "วน"
+   ],
+   "lit": "net + to circle",
+   "lit_th": "ชื่อเครื่องจับปลาชนิดหนึ่ง ถักเป็น + เวียนไปโดยรอบ"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *kreːᴬ; ร่วมเชื้อสายกับคำเมือง ᩉᩯ (แห), ᩉᩕᩯ (แหร), เขิน ᩉᩯ (แห), ลาว ແຫ (แห), ແຂ (แข), ไทลื้อ ᦶᦠ (แห), ไทดำ ꪵꪬ (แห), ไทใหญ่ ၶႄ (แข), อาหม 𑜁𑜦𑜧 (เข), จ้วง re, จ้วงแบบจั่วเจียง he",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩉᩯ",
+  "th": "แห",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "net"
+ ]
+}

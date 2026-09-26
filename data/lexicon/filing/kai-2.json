@@ -1,0 +1,8 @@
+{
+ "head": "kai-2",
+ "rule": "กาย has two senses and the second was empty for want of one word. Sense 1, the body, takes the ten that are about a body — กายภาพ, กายบริหาร, กายศิลป์, กายสิทธิ์, กายกรรม, ภาษากาย, ออกกำลังกาย, เปลือยกาย, ฝากกาย, แก่นกาย. **Sense 2, หมู่ / พวก, takes อสุรกาย**, and it is worth saying why: Pali *kāya* means a body AND a collection, and อสุรกาย is the asura CLASS, a category of beings, not one being's body. The sense was in the entry all along with nothing in it because only the Indic stratum uses it.",
+ "senses": {
+  "1": ["กายกรรม","กายบริหาร","กายภาพ","กายศิลป์","กายสิทธิ์","ฝากกาย","ภาษากาย","ออกกำลังกาย","เปลือยกาย","แก่นกาย"],
+  "2": ["อสุรกาย"]
+ }
+}

@@ -312,3 +312,11 @@ sub-genre figures together.
   [Secular History](/a?s=subgenre:tamnan_chronicle:Secular History) is a labelling
   artefact as much as a content one. Each sub-page says which parts of its own
   boundary it does not trust.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **The heavyweights: the longest manuscripts** — The twelve longest texts by leaf count, led by one running to 1,046 leaves. [see the finding →](/findings#scaleepic-length)
+<!-- derived:end -->

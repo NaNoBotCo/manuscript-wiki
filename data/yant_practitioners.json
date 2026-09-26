@@ -1,0 +1,260 @@
+{
+ "_note": "Practitioner roster read from Sak Yant Chiang Mai's own public master profiles (sakyantchiangmai.com/sak-yant-masters-in-chiang-mai/). Recorded as DATA — lineage, teachers, temples, years in and out of the robe — not reproduced as their copy. This is a living lineage map: it is the one place in the whole survey where teacher-to-student descent is stated plainly and at scale.",
+ "_source": "https://sakyantchiangmai.com/sak-yant-masters-in-chiang-mai/",
+ "_fetched": "2026-08-17",
+ "_caution": "Self-reported by the operator. Treat years and generation counts as claims, not verified fact. Spellings are theirs.",
+ "practitioners": [
+  {
+   "name": "Ajarn Dang",
+   "role": "ajarn",
+   "yearsPractising": 33,
+   "yearsAsMonk": 10,
+   "generation": 5,
+   "lineage": "family, 5th generation",
+   "teachers": [
+    "Sukhawaphuthargo"
+   ],
+   "base": "own samnak, 40km from the city",
+   "note": "sought out by other masters for training; reputation stated to extend throughout Thailand",
+   "sat_with_nan": true
+  },
+  {
+   "name": "Ajarn Sak",
+   "altSpelling": "Ajarn Sek",
+   "role": "ajarn",
+   "yearsPractising": 18,
+   "yearsAsMonk": 12,
+   "lineage": "father and grandfather; trained in Burmese magic",
+   "teachers": [
+    "Ajarn Kamnoeg Singsupa",
+    "Ajarn Suchati Boonchu",
+    "Ajarn Moon Jongkom",
+    "Ajarn Surachai Ngeachat"
+   ],
+   "base": "Wat Weluwan / samnak, 15km",
+   "speciality": "the magic practised by the Northern Tai Yai forest people",
+   "sat_with_nan": true
+  },
+  {
+   "name": "Ajarn Beer",
+   "role": "ajarn",
+   "yearsPractising": 16,
+   "yearsAsMonk": 12,
+   "generation": 3,
+   "lineage": "family, 3rd generation",
+   "teachers": [
+    "grandfather"
+   ],
+   "temples": [
+    "Wat Aramrongtai",
+    "Wat Bang Phra"
+   ],
+   "base": "own samnak, 15km"
+  },
+  {
+   "name": "Ajarn Tom (I)",
+   "role": "ajarn",
+   "yearsPractising": 16,
+   "yearsAsMonk": 12,
+   "generation": 3,
+   "lineage": "family, 3rd generation",
+   "teachers": [
+    "grandfather"
+   ],
+   "temples": [
+    "Wat Aramrongtai",
+    "Wat Bang Phra"
+   ],
+   "base": "own samnak, 15km"
+  },
+  {
+   "name": "Ajarn Sam",
+   "role": "ajarn",
+   "yearsPractising": 13,
+   "yearsAsMonk": 5,
+   "yearsAsAjarn": 8,
+   "lineage": "Worapho temple tradition",
+   "temples": [
+    "Thudongkhasathan Lanna",
+    "Wat Phra Dhammakaya",
+    "Wat Chedi Mae Khrua"
+   ],
+   "base": "own samnak, 20km",
+   "note": "began study at 17"
+  },
+  {
+   "name": "Ajarn Non (Cody)",
+   "role": "ajarn",
+   "yearsPractising": 3,
+   "yearsAsMonk": 12,
+   "lineage": "various Lanna masters",
+   "teachers": [
+    "Ajarn Neang",
+    "Ajarn Deang",
+    "Monk Aum",
+    "Monk Sang"
+   ],
+   "temples": [
+    "Wat Suan Dok"
+   ],
+   "base": "3km from the city",
+   "note": "became ajarn November 2025; formerly a staff member of the agency itself, and a monk assistant"
+  },
+  {
+   "name": "Ajarn Amnat",
+   "role": "ajarn",
+   "yearsPractising": 21,
+   "yearsAsMonk": 7,
+   "yearsAsAjarn": 12,
+   "lineage": "Sodaram temple tradition",
+   "teachers": [
+    "25 teachers, incl. Monks Sathar Pon Wasawangarom"
+   ],
+   "base": "home samnak, 35km"
+  },
+  {
+   "name": "Arjan Inn Kham Pan Ya Reang",
+   "epithet": "Father Tattoo",
+   "role": "ajarn",
+   "yearsPractising": 48,
+   "yearsAsMonk": 7,
+   "lineage": "Cambodian and Thai trained",
+   "temples": [
+    "Wat Wang Than",
+    "Wat Ban Hong"
+   ],
+   "base": "home-based, 50km",
+   "script": "Khmer",
+   "method": "tattoo machine",
+   "note": "will work on women; the longest-practising in the roster"
+  },
+  {
+   "name": "Ajarn Tom (II)",
+   "role": "ajarn",
+   "yearsPractising": 20,
+   "yearsAsMonk": 5,
+   "yearsAsAjarn": 20,
+   "lineage": "Wat Na Laung tradition, Udon Thani",
+   "teachers": [
+    "Ajarn Utane",
+    "Pra Kru Chalerm Pitisaro",
+    "Ruesi Kumpan (Po Kru / Po Gae)"
+   ],
+   "base": "samnak, Amphoe San Kamphaeng, 40km",
+   "script": "both Khmer and Lanna",
+   "note": "stated to work both the white and the dark sides"
+  },
+  {
+   "name": "Ajarn NanKhong",
+   "role": "ajarn",
+   "yearsPractising": 29,
+   "yearsAsMonk": 10,
+   "yearsAsAjarn": 14,
+   "lineage": "Wat Sub Han tradition",
+   "teachers": [
+    "Ku Ba Kam Ton",
+    "Arjan Nan Dang"
+   ],
+   "base": "samnak, San Pa Tong, 40km"
+  },
+  {
+   "name": "Ajarn Ton",
+   "role": "ajarn",
+   "yearsPractising": 21,
+   "yearsAsMonk": 21,
+   "lineage": "Wat Bang Phra tradition",
+   "teachers": [
+    "Wat Bang Phra",
+    "Po Nan Ma",
+    "Po Nan Pha",
+    "Kru Bayana"
+   ],
+   "base": "own samnak, 35km",
+   "note": "recently left the robe to run his own samnak"
+  },
+  {
+   "name": "K Munglanna (Ajarn K)",
+   "role": "ajarn",
+   "yearsPractising": 10,
+   "yearsAsMonk": 12,
+   "lineage": "Thien Chai Thamarangsi, Temple Cham Chang",
+   "teachers": [
+    "Khu Ba Ao",
+    "and six others"
+   ],
+   "base": "Cham Chang, then own samnak, 35km",
+   "note": "became ajarn April 2017"
+  },
+  {
+   "name": "Monk Rachon",
+   "role": "monk",
+   "yearsAsMonk": 35,
+   "yearsPractising": 35,
+   "generation": 4,
+   "lineage": "family, 4th generation",
+   "teachers": [
+    "grandfather",
+    "father"
+   ],
+   "temples": [
+    "Nhong Pha Muad, Phayao"
+   ],
+   "note": "born into the art; learning from 1988; works on men only"
+  },
+  {
+   "name": "Monk Eak",
+   "role": "monk",
+   "yearsAsMonk": 15,
+   "yearsPractising": 15,
+   "generation": 4,
+   "lineage": "family, 4th generation",
+   "temples": [
+    "withheld at his request"
+   ],
+   "note": "born into the art"
+  },
+  {
+   "name": "Monk Aum",
+   "role": "monk",
+   "yearsAsMonk": 20,
+   "yearsPractising": 17,
+   "lineage": "Wat Salaeng Lamphun, Wat Sung Thammaram",
+   "teachers": [
+    "Ajarn Kaew San Pa Tong",
+    "Ajarn Tongsuk Lamphun",
+    "Ajarn Phan Lamphun",
+    "Ajarn Town Chiangmai"
+   ],
+   "script": "Lanna",
+   "base": "rural temple, 34km",
+   "note": "donations fund the temple's building work"
+  },
+  {
+   "name": "Monk Eng",
+   "role": "monk",
+   "yearsAsMonk": 35,
+   "yearsPractising": 35,
+   "generation": 4,
+   "lineage": "family, 4th generation",
+   "temples": [
+    "Nhong Pha Muad"
+   ],
+   "note": "born into the art; now works mostly on amulets rather than skin"
+  },
+  {
+   "name": "Monk Rung",
+   "role": "monk",
+   "yearsAsMonk": 20,
+   "yearsPractising": 18,
+   "lineage": "Phichit Maniwanno tradition",
+   "teachers": [
+    "five masters"
+   ],
+   "temples": [
+    "Wat Aramrongtai",
+    "Wat Doi Thinpra"
+   ],
+   "note": "works on both men and women; asks a higher minimum donation than the other monks"
+  }
+ ]
+}

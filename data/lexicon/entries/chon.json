@@ -1,0 +1,1036 @@
+{
+ "id": "w:chon",
+ "th": "ชน",
+ "status": "mapped",
+ "rtgs": "chon",
+ "paiboon": "chon",
+ "ipa": "/t͡ɕʰon˧/",
+ "syllable_respelling": "ชน-นะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "โดนแรง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, proper noun",
+   "pos_th": "คำกริยา, คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'.",
+    "Declared root: ชน 'to collide, to butt'."
+   ],
+   "compounds": [
+    {
+     "th": "กันชน",
+     "rtgs": "kan-chon",
+     "ipa": "/kan˧.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "buffer",
+       "pilot"
+      ],
+      "th": "เครื่องป้องกันการกระทบกระแทกด้านหน้าและด้านหลังรถยนต์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กัน",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PRON+V",
+     "head": 1,
+     "lit_th": "สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูดเ + โดนแรง ๆ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ชิดจนติด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, proper noun",
+   "pos_th": "คำกริยา, คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Colliding and staying there: right up against.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "บรรจบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, proper noun",
+   "pos_th": "คำกริยา, คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Two things brought together: to meet, to join.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ให้ต่อสู้กัน (ใช้กับสัตว์บางชนิด)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, proper noun",
+   "pos_th": "คำกริยา, คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Setting animals to collide: to fight them.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชนช้าง",
+     "rtgs": "chon-chang",
+     "ipa": "/t͡ɕʰon˧.t͡ɕʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไสช้างเข้าปะทะกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชน",
+      "ช้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "hit + elephant",
+     "lit_th": "ให้ต่อสู้กัน + ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เรียกไก่อูชนิดหนึ่งที่เลี้ยงไว้ชนกันว่า ไก่ชน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, proper noun",
+   "pos_th": "คำกริยา, คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไก่ชน",
+     "rtgs": "kai-chon",
+     "ipa": "/kaj˨˩.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไก่ชนิดพันธุ์ ที่ใช้สำหรับทำการแข่งขัน ในกีฬาชนไก่ เช่น ไก่เหลืองหางขาว, ไก่เขียวพาลี, ไก่ประดู่หางดำ เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไก่",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ไก่"
+     ],
+     "lit": "chicken + hit",
+     "lit_th": "สัตว์ปีกจำพวกนก มีหลายวงศ์ บินได้ใ + เรียกไก่อูชนิดหนึ่งที่เลี้ยงไว้ชนก"
+    }
+   ],
+   "extends": 4,
+   "via": "metonymy",
+   "via_note": "ไก่ชน, the cock kept for it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "คน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, proper noun",
+   "pos_th": "คำกริยา, คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated.",
+    "Declared root: ชน 'people' — Pali jana, unrelated."
+   ],
+   "compounds": [
+    {
+     "th": "ปัญญาชน",
+     "rtgs": "pan-ya-chon",
+     "ipa": "/pan˧.jaː˧.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่มีความรู้หรือความฉลาดอันเกิดแต่การเรียนมามาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปัญญา",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "wit + hit",
+     "lit_th": "ความรอบรู้ + คน"
+    },
+    {
+     "th": "มวลชน",
+     "rtgs": "muan-chon",
+     "ipa": "/mua̯n˧.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลุ่มชนจำนวนมาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มวล",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit": "mass + hit",
+     "lit_th": "ทั้งหมด + คน",
+     "frame": "quality"
+    },
+    {
+     "th": "ทรชน",
+     "rtgs": "tho-ra-chon",
+     "ipa": "/tʰɔː˧.ra˦˥.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนชั่วร้าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทร",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "ชั่ว + คน",
+     "frame": "quality"
+    },
+    {
+     "th": "สาธารณชน",
+     "rtgs": "sa-tha-ra-na-chon",
+     "ipa": "/saː˩˩˦.tʰaː˧.ra˦˥.na˦˥.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประชาชนทั่วไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาธารณ",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ สาธารณะ + คน",
+     "frame": "quality"
+    },
+    {
+     "th": "ชุมนุมชน",
+     "rtgs": "chum-num-chon",
+     "ipa": "/t͡ɕʰum˧.num˧.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมู่ชนที่รวมกันอยู่หนาแน่น, หมู่ชนที่มารวมกันมาก ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชุมนุม",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "meet + hit",
+     "lit_th": "กอง + คน"
+    },
+    {
+     "th": "อติชน",
+     "rtgs": "a-ti-chon",
+     "ipa": "/ʔa˨˩.ti˨˩.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "elite"
+      ],
+      "th": "ชนผู้สืบมาจากตระกูลสูง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อติ",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "พิเศษ + คน",
+     "frame": "quality"
+    },
+    {
+     "th": "เอกชน",
+     "rtgs": "ek-ka-chon",
+     "ipa": "/ʔeːk̚˨˩.ka˨˩.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุคคลคนหนึ่ง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เอก",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "one + hit",
+     "lit_th": "หนึ่ง + คน"
+    },
+    {
+     "th": "วิญญูชน",
+     "rtgs": "win-yu-chon",
+     "ipa": "/win˧.juː˧.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บุคคลซึ่งรู้ผิดรู้ชอบตามปรกติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วิญญู",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ผู้รู้แจ้ง + คน"
+    },
+    {
+     "th": "วีรชน",
+     "rtgs": "wi-ra-chon",
+     "ipa": "/wiː˧.ra˦˥.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่ได้รับยกย่องว่ามีความกล้าหาญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วีร",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "กล้าหาญ + คน",
+     "frame": "quality"
+    },
+    {
+     "th": "ชุมชน",
+     "rtgs": "chum-chon",
+     "ipa": "/t͡ɕʰum˧.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "village",
+       "community"
+      ],
+      "th": "หมู่ชน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชุม",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "ชุม"
+     ],
+     "lit": "abound + hit",
+     "lit_th": "มารวมกัน + คน"
+    },
+    {
+     "th": "ประชาชน",
+     "rtgs": "pra-cha-chon",
+     "ipa": "/pra˨˩.t͡ɕʰaː˧.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "nation"
+      ],
+      "th": "พลเมือง, ผู้คนที่อาศัยอยู่ในประเทศ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ประชา",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "หมู่คน + คน"
+    },
+    {
+     "th": "สามัญชน",
+     "rtgs": "sa-man-chon",
+     "ipa": "/saː˩˩˦.man˧.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "man on the street"
+      ],
+      "th": "คนธรรมดาที่มิใช่เจ้าหรือนักบวช",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สามัญ",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit": "usual + hit",
+     "lit_th": "ปรกติ + คน",
+     "frame": "quality"
+    },
+    {
+     "th": "สาธุชน",
+     "rtgs": "sa-thu-chon",
+     "ipa": "/saː˩˩˦.tʰu˦˥.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนดี, คนที่มีคุณงามความดี (ใช้ในการยกย่อง)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาธุ",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit": "amen + hit",
+     "lit_th": "ดีแล้ว + คน",
+     "frame": "quality"
+    },
+    {
+     "th": "อภิชน",
+     "rtgs": "a-phi-chon",
+     "ipa": "/ʔa˨˩.pʰi˦˥.t͡ɕʰon˧/",
+     "gloss": {
+      "en": [
+       "elite"
+      ],
+      "th": "ชนผู้สืบมาจากตระกูลสูง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อภิ",
+      "ชน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 1,
+     "lit_th": "ยิ่ง + คน",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "อักษรย่อของ ชัยนาท",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, noun, proper noun",
+   "pos_th": "คำกริยา, คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense.",
+    "Declared root: an abbreviation of ชัยนาท — not a sense."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 81 manuscript titles, 186 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['ไก่', 'สัตว์', 'นก'].",
+ "compounds_unassigned": [
+  {
+   "th": "มหาชน",
+   "rtgs": "ma-ha-chon",
+   "ipa": "/ma˦˥.haː˩˩˦.t͡ɕʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คนจำนวนมาก, คนส่วนใหญ่, ชนจำนวนมาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มหา",
+    "ชน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ใหญ่ + โดนแรง ๆ",
+   "use": "false-split"
+  },
+  {
+   "th": "ชนวน",
+   "rtgs": "cha-nuan",
+   "ipa": "/t͡ɕʰa˦˥.nua̯n˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อหินชนิดหนึ่งเป็นแผ่นบาง ๆ ซ้อนติดกัน เนื้อแน่นและละเอียด มีสีต่าง ๆ กัน ตั้งแต่สีเทาไปจนถึงสีเทาแก่ สีดำ สีน้ำเงิน ที่มีสีแดง สีเขียว สีม่วง ก็มี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชน",
+    "วน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "วน"
+   ],
+   "lit": "hit + to circle",
+   "lit_th": "โดนแรง ๆ + เวียนไปโดยรอบ",
+   "use": "false-split"
+  },
+  {
+   "th": "วีระชน",
+   "rtgs": "wi-ra-chon",
+   "ipa": "/wiː˧.ra˦˥.t͡ɕʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ วีรชน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วีระ",
+    "ชน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: its entire gloss is รูปสะกดผิดของ วีรชน — a pointer to the correctly spelled วีรชน, which is in this same queue. A misspelling is not a compound.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "รูปแบบอื่นของ วีร + โดนแรง ๆ",
+   "frame": "quality",
+   "use": "spelling-variant"
+  },
+  {
+   "th": "การชน",
+   "rtgs": "kan-chon",
+   "ipa": "/kaːn˧.t͡ɕʰon˧/",
+   "gloss": {
+    "en": [
+     "knock",
+     "crash"
+    ],
+    "th": "คำอาการนามของ ชน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ชน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + โดนแรง ๆ"
+  },
+  {
+   "th": "ชนบท",
+   "rtgs": "chon-na-bot",
+   "ipa": "/t͡ɕʰon˧.na˦˥.bot̚˨˩/",
+   "gloss": {
+    "en": [
+     "open",
+     "countryside"
+    ],
+    "th": "บ้านนอก, เขตแดนที่พ้นจากเมืองหลวงออกไป",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ชน",
+    "บท"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "บท"
+   ],
+   "lit": "hit + unit",
+   "lit_th": "โดนแรง ๆ + ข้อความเรื่องหนึ่ง ๆ หรือตอนหนึ่ง",
+   "use": "false-split"
+  },
+  {
+   "th": "ชนแดน",
+   "rtgs": "chon-daen",
+   "ipa": "/t͡ɕʰon˧.dɛːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดเพชรบูรณ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ชน",
+    "แดน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "โดนแรง ๆ + ที่ที่กำหนดไว้โดยตรงหรือโดยหมายรู้"
+  },
+  {
+   "th": "จารชน",
+   "rtgs": "cha-ra-chon",
+   "ipa": "/t͡ɕaː˧.ra˦˥.t͡ɕʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ สายลับ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จาร",
+    "ชน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "ใช้เหล็กปลายแหลมเขียนตัวหนังสือ ลว + โดนแรง ๆ"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับคำเมือง ᨩᩫ᩠ᨶ (ช็น), ลาว ຊົນ (ซ็น); เทียบเขมร ជល់ (ชล̍), จีนยุคกลาง 衝 (MC tsyhowng), จ้วงแบบจั่วเจียง cwnj (เฉิ้น, “พุ่งเขาไปชนอย่างแรง”) ยืมมาจากสันสกฤต जन (ชน, “คน”) หรือบาลี ชน (“คน”); ร่วมเชื้อสายกับลาว ຊົນ (ซ็น)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨩᩫ᩠ᨶ",
+  "th": "ช็น",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:chon-2",
+   "label": "จร",
+   "why": "spelling",
+   "distinction": "Both romanise as \"chon\". ชน is chon, จร is jɔɔn — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "hit",
+  "bump",
+  "knock",
+  "collide"
+ ]
+}

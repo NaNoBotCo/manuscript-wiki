@@ -1,0 +1,12 @@
+{
+ "head": "phum",
+ "rule": "ภูมิ is ground, and its senses are what ground becomes when you stop meaning dirt. Sense 1 stays literal-geographical and takes the disciplines and features of the earth (ภูมิศาสตร์, ภูมิวิทยา, ภูมิประเทศ, ภูมิอากาศ, ภูมิภาค, ภูมิลำเนา, รณภูมิ, ชัยภูมิ, ปริภูมิ, แผนภูมิ, ภูมิรัฐศาสตร์). Sense 3, พื้น / ชั้น, is a LEVEL in an ordered series and it was empty: it takes the ordinals ปฐมภูมิ, ทุติยภูมิ, ตติยภูมิ, the Buddhist อบายภูมิ, and อุณหภูมิ, whose own gloss is ระดับความสูงต่ำของความร้อน. Sense 4, พื้นเพ, is the ground a person or body stands on — ภูมิธรรม, เกียรติภูมิ, and the two medical words ภูมิคุ้มกัน and ภูมิแพ้, where the ภูมิ is the constitution that resists or misfires. Senses 6 and 7 were both empty and take one word each, exactly as their glosses read: ภูมิฐาน is สง่าผ่าเผย, and ภูมิใจ is the dignified bearing turned inward.",
+ "senses": {
+  "1": ["ชัยภูมิ","ปริภูมิ","ภูมิประเทศ","ภูมิภาค","ภูมิรัฐศาสตร์","ภูมิลำเนา","ภูมิวิทยา","ภูมิศาสตร์","ภูมิอากาศ","รณภูมิ","แผนภูมิ"],
+  "3": ["ตติยภูมิ","ทุติยภูมิ","ปฐมภูมิ","อบายภูมิ","อุณหภูมิ"],
+  "4": ["ภูมิคุ้มกัน","ภูมิธรรม","ภูมิแพ้","เกียรติภูมิ"],
+  "5": ["ภูมิปัญญา"],
+  "6": ["ภูมิฐาน"],
+  "7": ["ภูมิใจ"]
+ }
+}

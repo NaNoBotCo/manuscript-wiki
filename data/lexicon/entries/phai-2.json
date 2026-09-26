@@ -1,0 +1,499 @@
+{
+ "id": "w:phai-2",
+ "th": "ภัย",
+ "status": "proposed",
+ "rtgs": "phai",
+ "paiboon": "pai",
+ "ipa": "/pʰaj˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "threat"
+    ],
+    "th": "สิ่งที่น่ากลัว, อันตราย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "พิษภัย",
+     "rtgs": "phit-phai",
+     "ipa": "/pʰit̚˦˥.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งอันตราย, ผลร้าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พิษ",
+      "ภัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.27",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "พิษ"
+     ],
+     "lit": "harm + threat",
+     "lit_th": "สิ่งที่ร้ายเป็นอันตรายแก่ร่างกายหร + สิ่งที่น่ากลัว",
+     "frame": "entity"
+    },
+    {
+     "th": "ภัยพิบัติ",
+     "rtgs": "phai-phi-bat",
+     "ipa": "/pʰaj˧.pʰi˦˥.bat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งที่น่ากลัวอันตราย, สิ่งที่ทำให้เกิดความเสียหายเดือดร้อนเป็นอย่างมาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภัย",
+      "พิบัติ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.37",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่น่ากลัว + รูปแบบอื่นของ วิบัติ",
+     "frame": "entity"
+    },
+    {
+     "th": "ปลอดภัย",
+     "rtgs": "plot-phai",
+     "ipa": "/plɔːt̚˨˩.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "safe",
+       "all right"
+      ],
+      "th": "พ้นภัย, ไม่มีภยันตราย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ปลอด",
+      "ภัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "พ้นจาก + สิ่งที่น่ากลัว"
+    },
+    {
+     "th": "ผจญภัย",
+     "rtgs": "pha-chon-phai",
+     "ipa": "/pʰa˨˩.t͡ɕon˧.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออกไปเสี่ยงสู้ภัยอันตราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผจญ",
+      "ภัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "พยายามต่อสู้ + สิ่งที่น่ากลัว"
+    },
+    {
+     "th": "วาตภัย",
+     "rtgs": "wa-ta-phai",
+     "ipa": "/waː˧.ta˨˩.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภัยอันตรายที่เกิดจากพายุ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาต",
+      "ภัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.21",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ลม + สิ่งที่น่ากลัว",
+     "frame": "entity"
+    },
+    {
+     "th": "อัคคีภัย",
+     "rtgs": "ak-khi-phai",
+     "ipa": "/ʔak̚˨˩.kʰiː˧.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภัยที่เกิดจากไฟ, ไฟไหม้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อัคคี",
+      "ภัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ไฟ + สิ่งที่น่ากลัว",
+     "frame": "entity"
+    },
+    {
+     "th": "อุทกภัย",
+     "rtgs": "u-thok-ka-phai",
+     "ipa": "/ʔu˨˩.tʰok̚˦˥.ka˨˩.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "flood"
+      ],
+      "th": "ภัยธรรมชาติอย่างหนึ่งเกิดจากฝนตกในปริมาณมากและไหลระบายไม่ทัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อุทก",
+      "ภัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "น้ำ + สิ่งที่น่ากลัว",
+     "frame": "entity"
+    },
+    {
+     "th": "โอษฐภัย",
+     "rtgs": "ot-tha-phai",
+     "ipa": "/ʔoːt̚˨˩.tʰa˨˩.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภัยที่เกิดจากคำพูด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โอษฐ",
+      "ภัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ริมฝีปาก + สิ่งที่น่ากลัว",
+     "frame": "entity"
+    },
+    {
+     "th": "เภทภัย",
+     "rtgs": "phet-phai",
+     "ipa": "/pʰeːt̚˥˩.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภัยต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เภท",
+      "ภัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "การแบ่ง + สิ่งที่น่ากลัว",
+     "frame": "entity"
+    },
+    {
+     "th": "ลี้ภัย",
+     "rtgs": "li-phai",
+     "ipa": "/liː˦˥.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หลีกหนีภัย, หลบหนีภัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลี้",
+      "ภัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "หลีกหนีไป + สิ่งที่น่ากลัว"
+    },
+    {
+     "th": "กู้ภัย",
+     "rtgs": "ku-phai",
+     "ipa": "/kuː˥˩.pʰaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ช่วยให้รอดปลอดภัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กู้",
+      "ภัย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "restore + threat",
+     "lit_th": "ยืมเงินโดยให้ดอกเบี้ย + สิ่งที่น่ากลัว"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 6 manuscript titles, 362 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 14; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การผจญภัย",
+   "rtgs": "kan-pha-chon-phai",
+   "ipa": "/kaːn˧.pʰa˨˩.t͡ɕon˧.pʰaj˧/",
+   "gloss": {
+    "en": [
+     "adventure"
+    ],
+    "th": "คำอาการนามของ ผจญภัย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การผจญ",
+    "ภัย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ผจญ + สิ่งที่น่ากลัว",
+   "frame": "entity"
+  },
+  {
+   "th": "การกู้ภัย",
+   "rtgs": "kan-ku-phai",
+   "ipa": "/kaːn˧.kuː˥˩.pʰaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กู้ภัย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกู้",
+    "ภัย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กู้ + สิ่งที่น่ากลัว",
+   "frame": "entity"
+  },
+  {
+   "th": "การลี้ภัย",
+   "rtgs": "kan-li-phai",
+   "ipa": "/kaːn˧.liː˦˥.pʰaj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลี้ภัย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลี้",
+    "ภัย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ลี้ + สิ่งที่น่ากลัว",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต भय (ภย, “ความกลัว”) หรือบาลี ภย (“ความกลัว”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:phai",
+   "label": "ไผ่",
+   "why": "spelling",
+   "distinction": "Both romanise as \"phai\". ภัย is pai, ไผ่ is pài — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

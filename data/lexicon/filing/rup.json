@@ -1,0 +1,12 @@
+{
+ "head": "rup",
+ "rule": "รูป narrows from what the eye perceives, through the body, to the outline and the model. Sense 1 stays with the IMAGE as an object — พุทธรูป, พระรูป, รูปภาพ, รูปถ่าย, ฝังรูป, and รูปสระ, a vowel's written shape. Sense 2 and 3 are the body: sense 3 takes descriptions of it (รูปพรรณ, รูปสมบัติ), sense 2 the body losing or changing its form (หมดรูป, แปรรูป, the rite of laying out burnt bones in human shape). Sense 4, เค้าโครง, is the outline of a thing or a situation (รูปทรง, รูปการณ์). Sense 5, แบบ, is the pattern or model — รูปแบบ, สำเร็จรูป, and อัญรูป, an allotrope, which is one element in two forms. Sense 6 was empty and takes รูปชี, since รูป is the counter and the term for those in robes.",
+ "senses": {
+  "1": ["พระรูป","พุทธรูป","ฝังรูป","รูปถ่าย","รูปภาพ","รูปสระ"],
+  "2": ["หมดรูป","แปรรูป"],
+  "3": ["รูปพรรณ","รูปสมบัติ"],
+  "4": ["รูปการณ์","รูปทรง"],
+  "5": ["รูปแบบ","สำเร็จรูป","อัญรูป"],
+  "6": ["รูปชี"]
+ }
+}

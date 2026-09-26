@@ -1,0 +1,657 @@
+{
+ "id": "w:tho",
+ "th": "โท",
+ "status": "mapped",
+ "rtgs": "tho",
+ "paiboon": "too",
+ "ipa": "/tʰoː˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "two",
+     "second"
+    ],
+    "th": "สอง",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "เลข, noun",
+   "pos_th": "เลข, คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ตีนโท",
+     "rtgs": "tin-tho",
+     "ipa": "/tiːn˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โรคเท้าช้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตีน",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.32, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "ตีน"
+     ],
+     "lit": "foot + two",
+     "lit_th": "อวัยวะส่วนล่างสุดของคนหรือสัตว์ นั + สอง"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ชั้นที่สอง (ใช้เกี่ยวกับลำดับชั้นหรือขั้นของยศ ตำแหน่ง คุณภาพ หรือ วิทยฐานะ ต่ำกว่า เอก สูงกว่า ตรี)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "เลข, noun",
+   "pos_th": "เลข, คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เรือโท",
+     "rtgs": "ruea-tho",
+     "ipa": "/rɯa̯˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่าเรือตรี ต่ำกว่าเรือเอก, ย่อว่า ร.ท. และลงท้ายด้วย ร.น.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เรือ",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "เรือ"
+     ],
+     "lit": "boat + two",
+     "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ชั้นที่สอง"
+    },
+    {
+     "th": "ร้อยโท",
+     "rtgs": "roi-tho",
+     "ipa": "/rɔːj˦˥.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "lieutenant"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าร้อยตรี ต่ำกว่าร้อยเอก, ย่อว่า ร.ท.",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ร้อย",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "hundred + two",
+     "lit_th": "จำนวน 100 คือ 10 สิบหนรวมกัน + ชั้นที่สอง"
+    },
+    {
+     "th": "พลตำรวจโท",
+     "rtgs": "phon-tam-ruat-tho",
+     "ipa": "/pʰon˧.tam˧.rua̯t̚˨˩.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศตำรวจชั้นสัญญาบัตร สูงกว่าพลตำรวจตรี ต่ำกว่าพลตำรวจเอก, ย่อว่า พล.ต.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พลตำรวจ",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "ยศตำรวจชั้นต่ำสุด ต่ำกว่าสิบตำรวจต + ชั้นที่สอง"
+    },
+    {
+     "th": "จ่าโท",
+     "rtgs": "cha-tho",
+     "ipa": "/t͡ɕaː˨˩.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นประทวนของกองทัพเรือ สูงกว่าจ่าตรี ต่ำกว่าจ่าเอก, ย่อว่า จ.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จ่า",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.30, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "หัวหน้า + ชั้นที่สอง"
+    },
+    {
+     "th": "พันโท",
+     "rtgs": "phan-tho",
+     "ipa": "/pʰan˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพันตรี ต่ำกว่าพันเอก, ย่อว่า พ.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พัน",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "พัน"
+     ],
+     "lit": "k + two",
+     "lit_th": "เรียกจำนวน 10 ร้อย + ชั้นที่สอง"
+    },
+    {
+     "th": "นาวาโท",
+     "rtgs": "na-wa-tho",
+     "ipa": "/naː˧.waː˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพเรือ สูงกว่านาวาตรี ต่ำกว่านาวาเอก, ย่อว่า น.ท. และลงท้ายด้วย ร.น.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นาวา",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "เรือ + ชั้นที่สอง"
+    },
+    {
+     "th": "สิบโท",
+     "rtgs": "sip-tho",
+     "ipa": "/sip̚˨˩.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นประทวนของกองทัพบก สูงกว่าสิบตรี ต่ำกว่าสิบเอก, ย่อว่า ส.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.26, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "สิบ"
+     ],
+     "lit": "ten + two",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + ชั้นที่สอง"
+    },
+    {
+     "th": "พลโท",
+     "rtgs": "phon-tho",
+     "ipa": "/pʰon˧.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นสัญญาบัตรของกองทัพบก สูงกว่าพลตรี ต่ำกว่าพลเอก, ย่อว่า พล.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พล",
+      "โท"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.24, next 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "cross_listed": [
+      "พล"
+     ],
+     "lit": "strength + two",
+     "lit_th": "กำลัง + ชั้นที่สอง"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Two as the second grade or rank.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "เรียกเครื่องหมายวรรณยุกต์รูปดังนี้ ◌้ ว่า ไม้โท",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "เลข, noun",
+   "pos_th": "เลข, คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ไม้โท, the second of the tone marks.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 6 manuscript titles, 262 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "คนโท",
+   "rtgs": "khon-tho",
+   "ipa": "/kʰon˧.tʰoː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กุณโฑ, หม้อนํ้ารูปต่าง ๆ คอยาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คน",
+    "โท"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "cross_listed": [
+    "คน"
+   ],
+   "lit": "stir + two",
+   "lit_th": "มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด + สอง",
+   "use": "false-split"
+  },
+  {
+   "th": "เสียงโท",
+   "rtgs": "siang-tho",
+   "ipa": "/sia̯ŋ˩˩˦.tʰoː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ระดับเสียงสูงแล้วตกลงต่ำในภาษาไทย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เสียง",
+    "โท"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "cross_listed": [
+    "เสียง"
+   ],
+   "lit": "voice + two",
+   "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + สอง"
+  },
+  {
+   "th": "โทโทษ",
+   "rtgs": "tho-thot",
+   "ipa": "/tʰoː˧.tʰoːt̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำที่ใช้ไม้เอกโดยปรกติ แต่เปลี่ยนใช้ไม้โทเสียงเดียวกันในบทร้อยกรองที่บังคับให้ใช้ไม้โท เช่น ง่าย เป็น หง้าย, พลั่ง เป็น ผลั้ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โท",
+    "โทษ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "โทษ"
+   ],
+   "lit": "two + badness",
+   "lit_th": "สอง + ความไม่ดี"
+  },
+  {
+   "th": "วิชาโท",
+   "translit_auto": "wichatho",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รายวิชาที่ผู้เรียนเลือกเรียนให้ลึกซึ้งรองลงมาจากวิชาเอก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วิชา",
+    "โท"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit": "course + two",
+   "lit_th": "ความรู้ + สอง"
+  },
+  {
+   "th": "โทศก",
+   "rtgs": "tho-sok",
+   "ipa": "/tʰoː˧.sok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรียกปีจุลศักราชที่ลงท้ายด้วยเลข 2",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โท",
+    "ศก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "ศก"
+   ],
+   "lit": "two + hair",
+   "lit_th": "สอง + ผม"
+  },
+  {
+   "th": "สาโท",
+   "rtgs": "sa-tho",
+   "ipa": "/saː˩˩˦.tʰoː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "น้ำเมาที่ได้จากการหมัก เช่น น้ำขาว อุ กะแช่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สา",
+    "โท"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "หมา + สอง"
+  },
+  {
+   "th": "โทรม",
+   "rtgs": "som",
+   "ipa": "/soːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เสื่อมสภาพเดิม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โท",
+    "รม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.26, next 0.17 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "รม"
+   ],
+   "lit": "two + to smoke",
+   "lit_th": "สอง + อบด้วยควันหรือไอไฟ",
+   "use": "false-split"
+  },
+  {
+   "th": "โทลา",
+   "rtgs": "tho-la",
+   "ipa": "/tʰoː˧.laː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชิงช้า, เปล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โท",
+    "ลา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.29, next 0.16 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit": "two + ass",
+   "lit_th": "สอง + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus",
+   "use": "false-split"
+  },
+  {
+   "th": "โทมนัส",
+   "rtgs": "thom-ma-nat",
+   "ipa": "/tʰoːm˧.ma˦˥.nat̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ความเสียใจ, ความเป็นทุกข์ใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โท",
+    "มนัส"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.22, next 0.13 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "สอง + ใจ",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "จากเขมรเก่าสมัยก่อนอังกอร์ ទោ (โท), จากบาลี ทุ หรือ ทฺวิ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

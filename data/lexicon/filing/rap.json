@@ -1,0 +1,14 @@
+{
+ "head": "rap",
+ "rule": "รับ's twelve senses are one gesture — the open hand — followed out along three lines, and the compound says which line. TAKING: 1 is the hand physically closing on what is held out (รับประทาน, receiving what is bestowed), 2 is taking what was sent (รายรับ, money in), 3 is going to meet the arriver (รับน้อง, รับขวัญ), 4 is the same taking with an abstract object, which is where anything received but not touchable goes (รับฟัง, แบกรับ, รับสั่ง, รับไหว้). SAYING YES: 5 is the answer that does not refuse and takes every undertaking given in words (รับปาก, รับใช้, รับรู้, รับประกัน, รับรอง); 7 is ตกลงตาม, agreeing to an arrangement rather than to a question, and takes the work one takes on (รับจ้าง, รับจ๊อบ, รับราชการ); 10 is ขานตอบ, the answer given when called, and takes the polite particle ขอรับ. STANDING FIRM: 11 is ต้าน, and takes รับมือ — whose gloss is literally ต่อต้าน — and รับหน้า. Senses 8, 9 and 12 are the rhyme, the aptness and the answering phrase in music; they take nothing here because their compounds are built on คล้องจอง, not on รับ.",
+ "senses": {
+  "1": ["รับประทาน"],
+  "2": ["รายรับ"],
+  "3": ["รับน้อง", "รับขวัญ"],
+  "4": ["รับไหว้", "รับสั่ง", "รับฟัง", "แบกรับ"],
+  "5": ["รับรู้", "รับใช้", "รับปาก", "รับประกัน", "รับรอง"],
+  "7": ["รับจ้าง", "รับจ๊อบ", "รับราชการ"],
+  "10": ["ขอรับ"],
+  "11": ["รับมือ", "รับหน้า"]
+ }
+}

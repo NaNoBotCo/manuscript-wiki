@@ -1,0 +1,1870 @@
+{
+ "id": "w:long",
+ "th": "ลง",
+ "status": "mapped",
+ "rtgs": "long",
+ "paiboon": "long",
+ "ipa": "/loŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถือว่าตรงข้ามกับขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ทัวร์ลง",
+     "rtgs": "thua-long",
+     "ipa": "/tʰua̯˧.loŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "โดนคนรุมแสดงความเห็นเชิงลบในสื่อสังคม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทัวร์",
+      "ลง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ท่องเที่ยว + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ไปสู่พื้นดินและพื้นอื่น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Downward motion narrowed to reaching the ground or a surface.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ลงทุน",
+     "rtgs": "long-thun",
+     "ipa": "/loŋ˧.tʰun˧/",
+     "gloss": {
+      "en": [
+       "invest"
+      ],
+      "th": "นำเงินหรือทรัพย์สินเป็นทุนเพื่อประกอบธุรกิจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ทุน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "drop + fund",
+     "lit_th": "ไปสู่พื้นดินและพื้นอื่น ๆ + ของเดิมหรือเงินเดิมที่มีไว้ ลงไว้"
+    },
+    {
+     "th": "ลงขัน",
+     "rtgs": "long-khan",
+     "ipa": "/loŋ˧.kʰan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาเงินใส่ลงในขันเป็นต้นเพื่อช่วยในงานต่าง ๆ เช่น งานตัดจุก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ขัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ขัน"
+     ],
+     "lit": "drop + bowl",
+     "lit_th": "ไปสู่พื้นดินและพื้นอื่น ๆ + ภาชนะสำหรับตักหรือใส่น้ำ มีหลายชนิ"
+    },
+    {
+     "th": "ลงยา",
+     "rtgs": "long-ya",
+     "ipa": "/loŋ˧.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใช้น้ำยาเคมีใส่ลงในพื้นที่เป็นร่องระหว่างลวดลายในเครื่องเงิน แล้วใช้ความร้อนอบให้น้ำยาติดและให้พื้นเป็นสีต่าง ๆ, เรียกเต็มว่า ลงถมยาสี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ยา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "drop + medicine",
+     "lit_th": "ไปสู่พื้นดินและพื้นอื่น ๆ + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ"
+    },
+    {
+     "th": "ลงแขก",
+     "rtgs": "long-khaek",
+     "ipa": "/loŋ˧.kʰɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ร่วมแรงเพื่อนบ้านมาช่วยกันทำงานเช่นดำนา เกี่ยวข้าว ให้ลุล่วงเร็วขึ้นโดยไม่รับค่าจ้าง และผลัดเปลี่ยนช่วยกันไปตามความจำเป็นของแต่ละบ้าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "แขก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "drop + guest",
+     "lit_th": "ไปสู่พื้นดินและพื้นอื่น ๆ + ผู้มาหา"
+    },
+    {
+     "th": "ลงแรง",
+     "rtgs": "long-raeng",
+     "ipa": "/loŋ˧.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออกแรงทำงาน, ทุ่มเททำงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "แรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "แรง"
+     ],
+     "lit": "drop + bright",
+     "lit_th": "ไปสู่พื้นดินและพื้นอื่น ๆ + กำลัง"
+    },
+    {
+     "th": "ลงรัก",
+     "rtgs": "long-rak",
+     "ipa": "/loŋ˧.rak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอารักทาลงบนผิวสิ่งใดสิ่งหนึ่งเพื่อทำให้ผิวเรียบ เกลี้ยง ดำ เป็นมัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "รัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "drop + love",
+     "lit_th": "ไปสู่พื้นดินและพื้นอื่น ๆ + ชื่อไม้พุ่มชนิด Calotropis gigante"
+    },
+    {
+     "th": "ลงสี",
+     "rtgs": "long-si",
+     "ipa": "/loŋ˧.siː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระบายสีเป็นรูปภาพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "สี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "สี"
+     ],
+     "lit": "drop + color",
+     "lit_th": "ไปสู่พื้นดินและพื้นอื่น ๆ + ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เอาเครื่องมือจับสัตว์น้ำวางขึง หรือปัก เพื่อจับสัตว์น้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Setting fishing gear by lowering it into the water.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "จด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Putting a mark down onto a surface: to write, to enter.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ลงมติ",
+     "translit_auto": "lngmti",
+     "ipa": "[lõŋ˧.mä˥.tiʔ˩ ~ lõŋ˧.mä˧.tiʔ˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลงความเห็นร่วมกันอย่างใดอย่างหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "มติ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "จด + ความเห็น"
+    },
+    {
+     "th": "ลงคะแนน",
+     "rtgs": "long-kha-naen",
+     "ipa": "/loŋ˧.kʰa˦˥.nɛːn˧/",
+     "gloss": {
+      "en": [
+       "vote"
+      ],
+      "th": "แสดงความเห็นโดยลงเป็นคะแนน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "คะแนน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "drop + mark",
+     "lit_th": "จด + เครื่องหมายในการนับ"
+    },
+    {
+     "th": "ลงชื่อ",
+     "rtgs": "long-chue",
+     "ipa": "/loŋ˧.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เขียนชื่อ, ลงลายมือชื่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ชื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ชื่อ"
+     ],
+     "lit": "drop + name",
+     "lit_th": "จด + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส"
+    },
+    {
+     "th": "ลงนาม",
+     "rtgs": "long-nam",
+     "ipa": "/loŋ˧.naːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เขียนชื่อ, ลงลายมือชื่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "นาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "นาม"
+     ],
+     "lit": "drop + name",
+     "lit_th": "จด + ชื่อ"
+    },
+    {
+     "th": "ลงทะเบียน",
+     "rtgs": "long-tha-bian",
+     "ipa": "/loŋ˧.tʰa˦˥.bia̯n˧/",
+     "gloss": {
+      "en": [
+       "calendar",
+       "carry",
+       "enroll"
+      ],
+      "th": "จดเป็นหลักฐาน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ทะเบียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "drop + register",
+     "lit_th": "จด + บัญชีจดลักษณะจำนวนคน จำนวนสัตว์ หร"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ทำพิธีจารึกมนตร์หรือสิ่งศักดิ์สิทธิ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Writing that inscribes mantra — ลงยันต์, ลงอักขระ.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ยอม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Coming down from a position: to yield.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ตีพิมพ์ออกเผยแพร่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลงข่าว",
+     "rtgs": "long-khao",
+     "ipa": "/loŋ˧.kʰaːw˨˩/",
+     "gloss": {
+      "en": [
+       "publish"
+      ],
+      "th": "ตีพิมพ์ข่าวออกเผยแพร่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ข่าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.58, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ข่าว"
+     ],
+     "lit": "drop + news",
+     "lit_th": "ตีพิมพ์ออกเผยแพร่ + คำบอกเล่าเรื่องราวซึ่งโดยปรกติมักเ"
+    }
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Putting words down, now into print and out to readers.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ตกลงปลงใจแล้วก็ปักใจถือเอาเป็นแน่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตกลง",
+     "rtgs": "tok-long",
+     "ipa": "/tok̚˨˩.loŋ˧/",
+     "gloss": {
+      "en": [
+       "accept",
+       "admit",
+       "agree"
+      ],
+      "th": "หล่นหรือร่วงลงไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ลง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "cross_listed": [
+      "ตก"
+     ],
+     "lit": "decrease + drop",
+     "lit_th": "พลัดลง + ตกลงปลงใจแล้วก็ปักใจถือเอาเป็นแน่"
+    },
+    {
+     "th": "ลงเอย",
+     "rtgs": "long-oei",
+     "ipa": "/loŋ˧.ʔɤːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จบ, เลิก, สิ้นสุด, ยุติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "เอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "ตกลงปลงใจแล้วก็ปักใจถือเอาเป็นแน่ + คำกล่าวประกอบหลังคำจำแนกรายละเอียด"
+    },
+    {
+     "th": "ลงตัว",
+     "rtgs": "long-tua",
+     "ipa": "/loŋ˧.tua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่มีเศษ ในคำว่า หารลงตัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "drop + form",
+     "lit_th": "ตกลงปลงใจแล้วก็ปักใจถือเอาเป็นแน่ + รูป"
+    },
+    {
+     "th": "ลงท้าย",
+     "rtgs": "long-thai",
+     "ipa": "/loŋ˧.tʰaːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ท้าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ตกลงปลงใจแล้วก็ปักใจถือเอาเป็นแน่ + ส่วนที่อยู่สุดด้านหนึ่ง"
+    },
+    {
+     "th": "ลงรอย",
+     "rtgs": "long-roi",
+     "ipa": "/loŋ˧.rɔːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เข้ากันได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "รอย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "drop + mark",
+     "lit_th": "ตกลงปลงใจแล้วก็ปักใจถือเอาเป็นแน่ + ลักษณะที่เป็นเส้น เป็นริ้ว หรือลวด"
+    }
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "Coming down onto a decision and staying there.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ปลูก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Putting a plant down into the ground.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "ลด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Quantity going down: to reduce.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "ตก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Any falling.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[RID sense 12 — no English yet]"
+    ],
+    "th": "เฆี่ยน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Bringing blows down on someone.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ลงดาบ",
+     "rtgs": "long-dap",
+     "ipa": "/loŋ˧.daːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประหารชีวิตด้วยการใช้ดาบฟันคอให้ขาด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ดาบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "drop + knife",
+     "lit_th": "เฆี่ยน + อาวุธชนิดหนึ่ง มีขนาดยาวและมีคมที่"
+    },
+    {
+     "th": "ลงทัณฑ์",
+     "rtgs": "long-than",
+     "ipa": "/loŋ˧.tʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลงโทษ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ทัณฑ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เฆี่ยน + โทษที่เนื่องด้วยความผิด"
+    },
+    {
+     "th": "ลงพระราชอาญา",
+     "translit_auto": "lngphrarachaya",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลงโทษ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "พระราชอาญา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เฆี่ยน + โทษ"
+    },
+    {
+     "th": "ลงโทษ",
+     "rtgs": "long-thot",
+     "ipa": "/loŋ˧.tʰoːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "punish",
+       "sanction",
+       "discipline"
+      ],
+      "th": "ทำโทษเช่นเฆี่ยน จำขัง ปรับเอาเงิน เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "โทษ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "โทษ"
+     ],
+     "lit": "drop + badness",
+     "lit_th": "เฆี่ยน + ความไม่ดี"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "gloss": {
+    "en": [
+     "[RID sense 13 — no English yet]"
+    ],
+    "th": "ท้องเดิน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลงแดง",
+     "rtgs": "long-daeng",
+     "ipa": "/loŋ˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ท้องเดินและถ่ายเป็นเลือดออกมามาก (มักใช้แก่คนอดฝิ่น)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 13: gloss similarity 0.18, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "drop + red",
+     "lit_th": "ท้องเดิน + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ลงราก",
+     "rtgs": "long-rak",
+     "ipa": "/loŋ˧.raːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ท้องเดินและอาเจียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "ราก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 13: gloss similarity 0.32, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "drop + root",
+     "lit_th": "ท้องเดิน + ส่วนของต้นไม้ ตามปรกติอยู่ในดิน มี"
+    }
+   ],
+   "extends": 11,
+   "via": "euphemism",
+   "via_note": "The bowels going down — a polite way to name diarrhoea.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 14,
+   "gloss": {
+    "en": [
+     "[RID sense 14 — no English yet]"
+    ],
+    "th": "ติดตั้ง (โปรแกรม)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลงมือ",
+     "rtgs": "long-mue",
+     "ipa": "/loŋ˧.mɯː˧/",
+     "gloss": {
+      "en": [
+       "begin"
+      ],
+      "th": "เริ่มทำ, ตั้งต้นทำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 14: gloss similarity 0.11, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "drop + hand",
+     "lit_th": "ติดตั้ง + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา"
+    },
+    {
+     "th": "บรรจุลง",
+     "rtgs": "ban-chu-long",
+     "ipa": "/ban˧.t͡ɕu˨˩.loŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดาวน์โหลด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บรรจุ",
+      "ลง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 14 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "carry + drop",
+     "lit_th": "ใส่ลงในขวด หีบ หรือถุง เป็นต้น + ติดตั้ง"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Modern: putting a program down onto a machine, to install.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 15,
+   "gloss": {
+    "en": [
+     "[RID sense 15 — no English yet]"
+    ],
+    "th": "อาการที่ไปสู่เบื้องต่ำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แคลง",
+     "rtgs": "khlaeng",
+     "ipa": "/kʰlɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่เรือเอียงหรือตะแคง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แค",
+      "ลง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15: gloss similarity 0.20, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ชื่อไม้ต้นชนิด Sesbania grandiflor + อาการที่ไปสู่เบื้องต่ำ"
+    },
+    {
+     "th": "ขาลง",
+     "rtgs": "kha-long",
+     "ipa": "/kʰaː˩˩˦.loŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสื่อมความนิยมลง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขา",
+      "ลง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 15 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ขา"
+     ],
+     "lit": "leg + drop",
+     "lit_th": "อวัยวะของมนุษย์หรือสัตว์ที่ยื่นจาก + อาการที่ไปสู่เบื้องต่ำ"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The manner of the descent, named from the descent.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 16,
+   "gloss": {
+    "en": [
+     "[RID sense 16 — no English yet]"
+    ],
+    "th": "มากกว่าเดิม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Intensifying: more so than before.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 31 manuscript titles, 522 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 43; domain seeded by keyword hits ['เดิน', 'ตก', 'ขึ้น', 'ลง'].",
+ "compounds_unassigned": [
+  {
+   "th": "แพลง",
+   "rtgs": "phlaeng",
+   "ipa": "/pʰlɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บิดไป, พลิกตะแคง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แพ",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the word is one morpheme /pʰlɛːŋ/ with a พล- onset cluster; the dictionary gives it no etymology and no parts. The ล here is the second element of a CONSONANT CLUSTER, not the head ลง",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "raft + drop",
+   "lit_th": "ไม้ไผ่หรือซุงเป็นต้นที่ผูกมัดเรียง + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
+  },
+  {
+   "th": "การแถลง",
+   "rtgs": "kan-tha-laeng",
+   "ipa": "/kaːn˧.tʰa˨˩.lɛːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แถลง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การแถ",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แถ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
+  },
+  {
+   "th": "กันลง",
+   "rtgs": "kan-long",
+   "ipa": "/kan˧.loŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "แมลงภู่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กัน",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "PRON+V",
+   "head": 1,
+   "lit_th": "สรรพนามบุรุษที่ 1 ใช้แทนตัวผู้พูดเ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
+  },
+  {
+   "th": "ลงกา",
+   "rtgs": "long-ka",
+   "ipa": "/loŋ˧.kaː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อเกาะอันเป็นที่ตั้งของประเทศศรีลังกา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลง",
+    "กา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "กา"
+   ],
+   "lit": "drop + crow"
+  },
+  {
+   "th": "แกลง",
+   "rtgs": "klaeng",
+   "ipa": "/klɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดระยอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แก",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แก"
+   ],
+   "lit": "house crow + drop",
+   "lit_th": "ชื่อนกชนิด Corvus splendens ในวงศ์ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
+  },
+  {
+   "th": "การบรรจุลง",
+   "rtgs": "kan-ban-chu-long",
+   "ipa": "/kaːn˧.ban˧.t͡ɕu˨˩.loŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ บรรจุลง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การบรรจุ",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ บรรจุ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
+  },
+  {
+   "th": "การลง",
+   "rtgs": "kan-long",
+   "ipa": "/kaːn˧.loŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
+  },
+  {
+   "th": "แสลง",
+   "rtgs": "sa-laeng",
+   "ipa": "/sa˨˩.lɛːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่ถูกกับโรค",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แส",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "แฉ + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
+  },
+  {
+   "th": "แถลง",
+   "rtgs": "tha-laeng",
+   "ipa": "/tʰa˨˩.lɛːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "บอก เล่า หรือแจ้งให้ทราบเป็นทางการ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แถ",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "อาการที่นกเป็นต้นเอียงปีกร่อนลง + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
+  },
+  {
+   "th": "โขลง",
+   "rtgs": "khlong",
+   "ipa": "/kʰloːŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ฝูง (ใช้เฉพาะช้าง)",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โข",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+V",
+   "head": 1,
+   "lit_th": "มาก + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "โคลง",
+   "rtgs": "khlong",
+   "ipa": "/kʰloːŋ˧/",
+   "gloss": {
+    "en": [
+     "fit",
+     "labor"
+    ],
+    "th": "คำประพันธ์ประเภทหนึ่ง มีจำนวนคำในวรรคสัมผัสและบังคับเอกโทตามตำราฉันทลักษณ์",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "โค",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the word is one morpheme /kʰloːŋ/ with a คล- onset cluster, inherited whole — the dictionary gives the Lao cognate ໂຄງ as a single word. The ล here is the second element of a CONSONANT CLUSTER, not the head ลง",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "โค"
+   ],
+   "lit": "cow + drop",
+   "lit_th": "วัว + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
+  },
+  {
+   "th": "เพลง",
+   "rtgs": "phleng",
+   "ipa": "/pʰleːŋ˧/",
+   "gloss": {
+    "en": [
+     "song",
+     "fit"
+    ],
+    "th": "สำเนียงขับร้อง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เพ",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit_th": "พังทลาย + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
+  },
+  {
+   "th": "การตกลง",
+   "rtgs": "kan-tok-long",
+   "ipa": "/kaːn˧.tok̚˨˩.loŋ˧/",
+   "gloss": {
+    "en": [
+     "agreement",
+     "decrease",
+     "accordance"
+    ],
+    "th": "คำอาการนามของ ตกลง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การตก",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "drop + drop",
+   "lit_th": "คำอาการนามของ ตก + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื"
+  },
+  {
+   "th": "แปลง",
+   "rtgs": "plaeng",
+   "ipa": "/plɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ที่โล่งแห่งหนึ่ง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แป",
+    "ลง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the word is one morpheme /plɛːŋ/ with a ปล- onset cluster; the dictionary says ไม่ทราบรากศัพท์ and gives the Northern Thai and Lao cognates as แปง, with NO ล at all — which is decisive, since a real ลง morpheme would survive in them. The ล here is the second element of a CONSONANT CLUSTER, not the head ลง",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ส่วนหนึ่งของโครงสร้างหลังคา วางอยู + ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *n̩.loŋᴬ; ร่วมเชื้อสายกับคำเมือง ᩃᩫ᩠ᨦ (ล็ง), ลาว ລົງ (ล็ง), ไทลื้อ ᦟᦳᧂ (ลุง), ไทดำ ꪶꪩꪉ (โลง), ไทใหญ่ လူင်း (ลู๊ง), ไทใต้คง ᥘᥨᥒᥰ (โล๊ง), อาหม 𑜎𑜤𑜂𑜫 (ลุง์), จ้วง roengz, ภาษาจ้วงใต้ loengz/noengz",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩃᩫ᩠ᨦ",
+  "th": "ล็ง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "drop"
+ ]
+}

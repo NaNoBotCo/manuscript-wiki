@@ -1,0 +1,715 @@
+{
+ "id": "w:man-2",
+ "th": "มั่น",
+ "status": "mapped",
+ "rtgs": "man",
+ "paiboon": "mân",
+ "ipa": "/man˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 1]"
+    ],
+    "th": "แน่, แน่นอน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Firm in place becomes firm in the mind: certain.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "มั่นหมาย",
+     "rtgs": "man-mai",
+     "ipa": "/man˥˩.maːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มุ่งหมายอย่างแน่วแน่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มั่น",
+      "หมาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "lit": "firm + sign",
+     "lit_th": "แน่ + หนังสือราชการที่ใช้เกณฑ์ เกาะกุม ห",
+     "flips_with": "หมายมั่น",
+     "frame": "quality"
+    },
+    {
+     "th": "หมายมั่น",
+     "rtgs": "mai-man",
+     "ipa": "/maːj˩˩˦.man˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มุ่งหมายอย่างแน่วแน่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หมาย",
+      "มั่น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "sign + firm",
+     "lit_th": "หนังสือราชการที่ใช้เกณฑ์ เกาะกุม ห + แน่",
+     "flips_with": "มั่นหมาย",
+     "frame": "quality"
+    },
+    {
+     "th": "คำมั่น",
+     "rtgs": "kham-man",
+     "ipa": "/kʰam˧.man˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การแสดงเจตนาฝ่ายเดียวของผู้ให้คำมั่นที่มีผลผูกพันผู้ให้คำมั่นเมื่อมีผู้แสดงเจตนารับรู้ที่สอดคล้องกับคำมั่น อันเป็นความผูกพันก่อนเกิดสัญญาที่มุ่งประสงค์จะทำระหว่างกัน, คำมั่นไม่จำเป็นต้องมีการเสนอให้มีการตกลงทำสัญญาเสมอไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "มั่น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "word + firm",
+     "lit_th": "เสียงพูด + แน่",
+     "frame": "quality"
+    },
+    {
+     "th": "มุ่งมั่น",
+     "rtgs": "mung-man",
+     "ipa": "/muŋ˥˩.man˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตั้งใจอย่างแน่วแน่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มุ่ง",
+      "มั่น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit_th": "ตั้งใจ + แน่",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "firm",
+     "fixed",
+     "immovable"
+    ],
+    "th": "แน่น, ไม่เคลื่อนจากที่",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: มั่น 'firm, immovable' — the physical sense, taken as the origin of the certainty one.",
+    "Declared root: มั่น 'firm, immovable' — the physical sense, taken as the origin of the certainty one.",
+    "Declared root: มั่น 'firm, immovable' — the physical sense, taken as the origin of the certainty one.",
+    "Declared root: มั่น 'firm, immovable' — the physical sense, taken as the origin of the certainty one."
+   ],
+   "compounds": [
+    {
+     "th": "ยึดมั่น",
+     "rtgs": "yuet-man",
+     "ipa": "/jɯt̚˦˥.man˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยึดถืออย่างมั่นคง ไม่เปลี่ยนแปลงง่าย ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยึด",
+      "มั่น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit_th": "ถือเอาไว้ + แน่น",
+     "frame": "quality"
+    },
+    {
+     "th": "ที่มั่น",
+     "rtgs": "thi-man",
+     "ipa": "/tʰiː˥˩.man˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฐานสำหรับเตรียมการสู้รบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ที่",
+      "มั่น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "at + firm",
+     "lit_th": "แหล่ง + แน่น",
+     "frame": "quality"
+    },
+    {
+     "th": "มั่นคง",
+     "rtgs": "man-khong",
+     "ipa": "/man˥˩.kʰoŋ˧/",
+     "gloss": {
+      "en": [
+       "stable",
+       "constant",
+       "firm"
+      ],
+      "th": "แน่นหนาและทนทาน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มั่น",
+      "คง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+V",
+     "head": 0,
+     "lit": "firm + probably",
+     "lit_th": "แน่น + ยังมียังเป็นอยู่อย่างเดิม",
+     "frame": "quality"
+    },
+    {
+     "th": "ตั้งมั่น",
+     "rtgs": "tang-man",
+     "ipa": "/taŋ˥˩.man˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตั้งกองทัพไว้ในที่ใดที่หนึ่งอย่างมั่นคง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "มั่น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "introduce + firm",
+     "lit_th": "ชูตัว + แน่น",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "มั่นใจในตนเอง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "adjective, verb",
+   "pos_th": "คำคุณศัพท์, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "มั่นใจ",
+     "rtgs": "man-chai",
+     "ipa": "/man˥˩.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "certain",
+       "depend",
+       "sanguine"
+      ],
+      "th": "แน่ใจ, เชื่อใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มั่น",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "firm + heart",
+     "lit_th": "มั่นใจในตนเอง + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "quality"
+    },
+    {
+     "th": "เชื่อมั่น",
+     "rtgs": "chuea-man",
+     "ipa": "/t͡ɕʰɯa̯˥˩.man˥˩/",
+     "gloss": {
+      "en": [
+       "depend"
+      ],
+      "th": "เชื่อโดยไม่เปลี่ยนแปลง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เชื่อ",
+      "มั่น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit": "believe + firm",
+     "lit_th": "เห็นตามด้วย + มั่นใจในตนเอง",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And certainty about oneself: confidence.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 34 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การมั่น",
+   "rtgs": "kan-man",
+   "ipa": "/kaːn˧.man˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ มั่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "มั่น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "งาน + แน่",
+   "frame": "quality"
+  },
+  {
+   "th": "ความหมายมั่น",
+   "rtgs": "khwam-mai-man",
+   "ipa": "/kʰwaːm˧.maːj˩˩˦.man˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หมายมั่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความหมาย",
+    "มั่น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "meaning + firm",
+   "lit_th": "สิ่งที่ตีความไว้ + แน่",
+   "frame": "quality"
+  },
+  {
+   "th": "ความมั่น",
+   "rtgs": "khwam-man",
+   "ipa": "/kʰwaːm˧.man˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ มั่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "มั่น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + firm",
+   "lit_th": "เรื่อง + แน่",
+   "frame": "quality"
+  },
+  {
+   "th": "การเชื่อมั่น",
+   "rtgs": "kan-chuea-man",
+   "ipa": "/kaːn˧.t͡ɕʰɯa̯˥˩.man˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เชื่อมั่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเชื่อ",
+    "มั่น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ เชื่อ + แน่",
+   "frame": "quality"
+  },
+  {
+   "th": "การมุ่งมั่น",
+   "rtgs": "kan-mung-man",
+   "ipa": "/kaːn˧.muŋ˥˩.man˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ มุ่งมั่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การมุ่ง",
+    "มั่น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ มุ่ง + แน่",
+   "frame": "quality"
+  },
+  {
+   "th": "การหมายมั่น",
+   "rtgs": "kan-mai-man",
+   "ipa": "/kaːn˧.maːj˩˩˦.man˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หมายมั่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหมาย",
+    "มั่น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หมาย + แน่",
+   "frame": "quality"
+  },
+  {
+   "th": "การยึดมั่น",
+   "rtgs": "kan-yuet-man",
+   "ipa": "/kaːn˧.jɯt̚˦˥.man˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ยึดมั่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การยึด",
+    "มั่น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ยึด + แน่",
+   "frame": "quality"
+  },
+  {
+   "th": "ความเชื่อมั่น",
+   "rtgs": "khwam-chuea-man",
+   "ipa": "/kʰwaːm˧.t͡ɕʰɯa̯˥˩.man˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เชื่อมั่น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความเชื่อ",
+    "มั่น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "idea + firm",
+   "lit_th": "คำอาการนามของ เชื่อ + แน่",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับคำเมือง ᩉ᩠ᨾᩢ᩶ᩁ (หมั้ร), ลาว ໝັ້ນ (หมั้น), ไทลื้อ ᦖᧃᧉ (หมั้น), ไทดำ ꪢ꫁ꪽ (หมั้น), ไทใหญ่ မၼ်ႈ (มั้น), พ่าเก မ︀ꩫ︀် (มน์), อาหม 𑜉𑜃𑜫 (มน์), จ้วงแบบจั่วเจียง maenq (หมั่น, “แน่น, ไม่สั่น”) ร่วมเชื้อสายกับ จ้วงแบบจั่วเจียง maenj (หมั้น-มั่นใจในตนเองมาก เชื่อมาก)\nตัดมาจาก มั่นใจ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩉ᩠ᨾᩢ᩶ᩁ",
+  "th": "หมั้ร",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:man",
+   "label": "มัน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"man\". มั่น is mân, มัน is man — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

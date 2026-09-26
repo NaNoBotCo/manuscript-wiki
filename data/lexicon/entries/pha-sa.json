@@ -1,0 +1,743 @@
+{
+ "id": "w:pha-sa",
+ "th": "ภาษา",
+ "status": "mapped",
+ "rtgs": "pha-sa",
+ "paiboon": "paa-sǎa",
+ "ipa": "/pʰaː˧.saː˩˩˦/",
+ "syllable_respelling": "พา-สา",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อความของชนกลุ่มใดกลุ่มหนึ่ง หรือเพื่อสื่อความเฉพาะวงการ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ภาษาราชการ",
+     "rtgs": "pha-sa-rat-cha-kan",
+     "ipa": "/pʰaː˧.saː˩˩˦.raːt̚˥˩.t͡ɕʰa˦˥.kaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาษาที่ใช้สื่อสารในราชการและวิชาการเป็นต้น เช่น จดหมายติดต่อราชการ รายงานการประชุมของหน่วยงาน รายงานการวิจัย รายงานวิชาการสาขาต่าง ๆ, ภาษาระดับทางการ หรือ ภาษากึ่งแบบแผน ก็เรียก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภาษา",
+      "ราชการ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + การงานของรัฐบาลหรือของพระเจ้าแผ่นด",
+     "frame": "entity"
+    },
+    {
+     "th": "ภาษาถิ่น",
+     "rtgs": "pha-sa-thin",
+     "ipa": "/pʰaː˧.saː˩˩˦.tʰin˨˩/",
+     "gloss": {
+      "en": [
+       "dialect"
+      ],
+      "th": "ภาษาเฉพาะของท้องถิ่นใดท้องถิ่นหนึ่งที่มีรูปลักษณะเฉพาะตัวทั้งถ้อยคำและสำเนียงเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ภาษา",
+      "ถิ่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.13, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "language + area",
+     "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + ที่",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เสียง ตัวหนังสือ หรือกิริยาอาการที่สื่อความได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ภาษามือ",
+     "rtgs": "pha-sa-mue",
+     "ipa": "/pʰaː˧.saː˩˩˦.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การใช้กิริยาของมือแสดงความหมายต่าง ๆ ตามกำหนดของการศึกษาของผู้บกพร่องทางการได้ยิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภาษา",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "language + hand",
+     "lit_th": "เสียง ตัวหนังสือ หรือกิริยาอาการที + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Widened to any sound, letter or gesture that conveys.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "คนหรือชาติที่พูดภาษานั้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เจ้าของภาษา",
+     "rtgs": "chao-khong-pha-sa",
+     "ipa": "/t͡ɕaw˥˩.kʰɔːŋ˩˩˦.pʰaː˧.saː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่พูดภาษาใดภาษาหนึ่งตั้งแต่เกิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เจ้าของ",
+      "ภาษา"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.20, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "owner + language",
+     "lit_th": "ผู้มีกรรมสิทธิ์ในทรัพย์สิน + คนหรือชาติที่พูดภาษานั้น ๆ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A language stands for the people who speak it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "กลุ่มของชุดอักขระ สัญนิยม และกฎเกณฑ์ที่กำหนดขึ้นเพื่อสั่งงานคอมพิวเตอร์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ภาษาโปรแกรม",
+     "rtgs": "pha-sa-pro-kraem",
+     "ipa": "/pʰaː˧.saː˩˩˦.proː˧.krɛm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาษาที่ออกแบบโครงสร้างขึ้นเพื่อใช้ในการเขียนคำสั่งให้คอมพิวเตอร์ทำงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ภาษา",
+      "โปรแกรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.25, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "กลุ่มของชุดอักขระ สัญนิยม และกฎเกณ + กำหนดการ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "And for a formal system of signs — a programming language.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "สาระ, เรื่องราว, เนื้อความที่เข้าใจกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "And for the substance of what is said.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 5 manuscript titles, 2 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits ['หนังสือ', 'เขียน', 'ภาษา', 'พูด'].",
+ "compounds_unassigned": [
+  {
+   "th": "ภาษาสากล",
+   "rtgs": "pha-sa-sa-kon",
+   "ipa": "/pʰaː˧.saː˩˩˦.saː˩˩˦.kon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาษาที่ใช้สื่อสารระหว่างประเทศหรือชาติพันธุ์ต่าง ๆ ได้ทั่วโลก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "สากล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "language + international",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + ทั่วไป",
+   "frame": "quality"
+  },
+  {
+   "th": "กากภาษา",
+   "rtgs": "ka-ka-pha-sa",
+   "ipa": "/kaː˧.ka˨˩.pʰaː˧.saː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชาติกา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กาก",
+    "ภาษา"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สิ่งที่เหลือเมื่อคั้นหรือคัดเอาส่ว + ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ภาษาคาราโอเกะ",
+   "rtgs": "pha-sa-kha-ra-o-ke",
+   "ipa": "/pʰaː˧.saː˩˩˦.kʰaː˧.raː˧.ʔoː˧.keʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การเขียนอักษรโรมันทับศัพท์ภาษาไทยทีละคำหรือพยางค์โดยตลอดทั้งข้อความ ซึ่งสะกดโดยไม่มีมาตรฐานตายตัว เหมือนที่ปรากฏในวีดิทัศน์คาราโอเกะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "คาราโอเกะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + แผ่นซีดีบันทึกทำนองเพลงที่มีเนื้อร",
+   "frame": "entity"
+  },
+  {
+   "th": "วัจนภาษา",
+   "rtgs": "wat-cha-na-pha-sa",
+   "ipa": "/wat̚˦˥.t͡ɕa˨˩.na˦˥.pʰaː˧.saː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาษาที่เป็นถ้อยคำ, ภาษาที่ใช้คำพูดและตัวหนังสือในการสื่อสาร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วัจน",
+    "ภาษา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำพูด + ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค",
+   "frame": "entity"
+  },
+  {
+   "th": "ภาษาใบ้",
+   "rtgs": "pha-sa-bai",
+   "ipa": "/pʰaː˧.saː˩˩˦.baj˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การใช้กิริยาของมือแสดงความหมายต่าง ๆ ตามกำหนดของการศึกษาของผู้บกพร่องทางการพูดหรือการได้ยิน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "ใบ้"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + พิการแต่กำเนิด ไม่สามารถพูดเป็นถ้อ",
+   "frame": "quality"
+  },
+  {
+   "th": "ภาษากลาง",
+   "rtgs": "pha-sa-klang",
+   "ipa": "/pʰaː˧.saː˩˩˦.klaːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาษาสามัญที่ใช้สื่อสารระหว่างผู้คนที่มีภูมิหลังต่างกัน (เช่น ต่างเผ่า ต่างชาติพันธุ์ ต่างประเทศ) มักจะเป็นรูปแบบพื้นฐานของคำพูดที่มีไวยากรณ์อย่างง่าย โดยเฉพาะอย่างยิ่ง ภาษาที่ไม่ใช่ภาษาแรกของผู้พูด, ภาษากลางอาจใช้เฉพาะใน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "กลาง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "กลาง"
+   ],
+   "lit": "language + middle",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + ส่วนที่ไม่ค่อนไปข้างใดข้างหนึ่ง",
+   "frame": "entity"
+  },
+  {
+   "th": "ภาษาพ่อขุน",
+   "rtgs": "pha-sa-pho-khun",
+   "ipa": "/pʰaː˧.saː˩˩˦.pʰɔː˥˩.kʰun˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาษาระดับกันเอง ซึ่งโดยมากมักจะไม่สุภาพหรือค่อนข้างหยาบคาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "พ่อขุน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + กษัตริย์ผู้เป็นใหญ่ในสมัยสุโขทัย",
+   "frame": "entity"
+  },
+  {
+   "th": "ภาษากาย",
+   "rtgs": "pha-sa-kai",
+   "ipa": "/pʰaː˧.saː˩˩˦.kaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "การใช้ความเคลื่อนไหวหรือท่าทางของร่างกาย สื่อให้ผู้คนเข้าใจตามความต้องการ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "กาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "กาย"
+   ],
+   "lit": "language + body",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + ตัว",
+   "frame": "entity"
+  },
+  {
+   "th": "ภาษาศาสตร์",
+   "rtgs": "pha-sa-sat",
+   "ipa": "/pʰaː˧.saː˩˩˦.saːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "linguistics"
+    ],
+    "th": "วิชาที่ศึกษาภาษาและโครงสร้างต่าง ๆ ของภาษา โดยอาศัยวิธีการวิทยาศาสตร์ เช่น ตั้งสมมติฐาน เก็บรวบรวมและวิเคราะห์ข้อมูล แบ่งออกเป็นสาขาย่อย ได้แก่ วิทยาหน่วยคำ วากยสัมพันธ์ สัทศาสตร์ สัทวิทยา และอรรถศาสตร์ เป็นต้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "ศาสตร์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "language + discipline",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + ระบบวิชาความรู้",
+   "frame": "entity"
+  },
+  {
+   "th": "ตระกูลภาษา",
+   "rtgs": "tra-kun-pha-sa",
+   "ipa": "/tra˨˩.kuːn˧.pʰaː˧.saː˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กลุ่มภาษาที่มีวิวัฒนาการมาจากบรรพบุรุษร่วมกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตระกูล",
+    "ภาษา"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "สกุล + ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค",
+   "frame": "entity"
+  },
+  {
+   "th": "ภาษาอะไร",
+   "rtgs": "pha-sa-a-rai",
+   "ipa": "/pʰaː˧.saː˩˩˦.ʔa˨˩.raj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่เป็นไปตามอย่างที่ควร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "อะไร"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+PRON",
+   "head": 0,
+   "lit": "language + how",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + คำใช้แทนนาม แสดงคำถาม"
+  },
+  {
+   "th": "ภาษาแม่",
+   "rtgs": "pha-sa-mae",
+   "ipa": "/pʰaː˧.saː˩˩˦.mɛː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาษาที่เรียนเป็นภาษาแรก และสามารถใช้ภาษานี้ได้ดีกว่าภาษาอื่น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "แม่"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "language + mother",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก",
+   "frame": "entity"
+  },
+  {
+   "th": "ภาษาปาก",
+   "rtgs": "pha-sa-pak",
+   "ipa": "/pʰaː˧.saː˩˩˦.paːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ภาษาพูดที่แสดงความคุ้นเคย ไม่เหมาะที่จะใช้เป็นพิธีรีตอง เช่น ตาแป๊ะ ตะบี้ตะบัน เทน้ำเทท่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ภาษา",
+    "ปาก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ปาก"
+   ],
+   "lit": "language + mouth",
+   "lit_th": "ถ้อยคำที่ใช้พูดหรือเขียนเพื่อสื่อค + อวัยวะส่วนหนึ่งของร่างกายคนและสัตว",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต भाषा (ภาษา); เทียบบาลี ภาสา",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "language",
+  "tongue"
+ ]
+}

@@ -1,0 +1,781 @@
+{
+ "id": "w:suk",
+ "th": "สุข",
+ "status": "mapped",
+ "rtgs": "suk",
+ "paiboon": "sùk",
+ "ipa": "/suk̚˨˩/",
+ "syllable_respelling": "สุก-ขะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "happiness",
+     "ease",
+     "wellbeing"
+    ],
+    "th": "ความสบายกายสบายใจ, มักใช้เข้าคู่กับคำ เป็น เป็น เป็นสุข, ความสุข ก็ว่า",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "สุขนิยม",
+     "rtgs": "suk-kha-ni-yom",
+     "ipa": "/suk̚˨˩.kʰa˨˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "hedonism"
+      ],
+      "th": "ทฤษฎีทางจริยศาสตร์ที่ระบุว่าสุขารมณ์ (ในแง่ความสมปรารถนาต่าง ๆ) เป็นความดีที่สูงสุดและเป็นจุดประสงค์ที่เหมาะสมของชีวิตมนุษย์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "นิยม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นิยม"
+     ],
+     "lit": "happiness + like",
+     "lit_th": "ความสบายกายสบายใจ + การกำหนด",
+     "frame": "entity"
+    },
+    {
+     "th": "เป็นสุข",
+     "rtgs": "pen-suk",
+     "ipa": "/pen˧.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีความสุข",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เป็น",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "เป็น"
+     ],
+     "lit": "are + happiness",
+     "lit_th": "คำกริยาสำหรับแสดงความสัมพันธ์ระหว่ + ความสบายกายสบายใจ"
+    },
+    {
+     "th": "สุขศึกษา",
+     "rtgs": "suk-kha-suek-sa",
+     "ipa": "/suk̚˨˩.kʰa˨˩.sɯk̚˨˩.saː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การศึกษาที่ว่าด้วยกระบวนการที่เกี่ยวกับสุขภาพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "ศึกษา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "happiness + learn",
+     "lit_th": "ความสบายกายสบายใจ + การเล่าเรียน การฝึกฝน และการอบรม",
+     "frame": "entity"
+    },
+    {
+     "th": "สุขนิสัย",
+     "rtgs": "suk-kha-ni-sai",
+     "ipa": "/suk̚˨˩.kʰa˨˩.ni˦˥.saj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นิสัยที่ก่อให้เกิดสุขลักษณะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "นิสัย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "happiness + nature",
+     "lit_th": "ความสบายกายสบายใจ + ความประพฤติที่เคยชิน",
+     "frame": "entity"
+    },
+    {
+     "th": "สันติสุข",
+     "rtgs": "san-ti-suk",
+     "ipa": "/san˩˩˦.ti˨˩.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความสุขที่มาจากความสงบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สันติ",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความสงบ + ความสบายกายสบายใจ",
+     "frame": "entity"
+    },
+    {
+     "th": "สุขทุกข์",
+     "rtgs": "suk-thuk",
+     "ipa": "/suk̚˨˩.tʰuk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความเป็นอยู่หรือความเป็นไปของชีวิตในขณะนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "ทุกข์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทุกข์"
+     ],
+     "lit": "happiness + suffering",
+     "lit_th": "ความสบายกายสบายใจ + ความยากลำบาก",
+     "flips_with": "ทุกข์สุข",
+     "frame": "entity"
+    },
+    {
+     "th": "สุขภาพ",
+     "rtgs": "suk-kha-phap",
+     "ipa": "/suk̚˨˩.kʰa˨˩.pʰaːp̚˥˩/",
+     "gloss": {
+      "en": [
+       "condition"
+      ],
+      "th": "ภาวะที่ปราศจากโรคภัยไข้เจ็บ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "ภาพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "happiness + image",
+     "lit_th": "ความสบายกายสบายใจ + ความมี",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุกข์สุข",
+     "rtgs": "thuk-suk",
+     "ipa": "/tʰuk̚˦˥.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความเป็นอยู่หรือความเป็นไปของชีวิตในขณะนั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุกข์",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทุกข์"
+     ],
+     "lit": "suffering + happiness",
+     "lit_th": "ความยากลำบาก + ความสบายกายสบายใจ",
+     "flips_with": "สุขทุกข์",
+     "frame": "entity"
+    },
+    {
+     "th": "สุขนาฏกรรม",
+     "rtgs": "suk-kha-nat-ta-kam",
+     "ipa": "/suk̚˨˩.kʰa˨˩.naːt̚˥˩.ta˨˩.kam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วรรณกรรมโดยเฉพาะประเภทละครที่ลงท้ายด้วยความสุขหรือสมหวัง เช่นเรื่องอิเหนา ศกุนตลา ชิงนาง ปริศนา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "นาฏกรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "happiness + dance",
+     "lit_th": "ความสบายกายสบายใจ + การละครหรือการฟ้อนรำ",
+     "frame": "entity"
+    },
+    {
+     "th": "สาธารณสุข",
+     "rtgs": "sa-tha-ra-na-suk",
+     "ipa": "/saː˩˩˦.tʰaː˧.ra˦˥.na˦˥.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "public health"
+      ],
+      "th": "กิจการเกี่ยวกับการป้องกัน การบำบัดโรค การรักษา และส่งเสริมสุขภาพของประชาชน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สาธารณ",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ สาธารณะ + ความสบายกายสบายใจ",
+     "frame": "quality"
+    },
+    {
+     "th": "สุขภัณฑ์",
+     "rtgs": "suk-kha-phan",
+     "ipa": "/suk̚˨˩.kʰa˨˩.pʰan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องอุปกรณ์ที่ใช้สำหรับห้องน้ำ เช่นอ่างล้างหน้า อ่างอาบน้ำ โถส้วม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "ภัณฑ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ภัณฑ์"
+     ],
+     "lit": "happiness + goods",
+     "lit_th": "ความสบายกายสบายใจ + สิ่งของ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "สบายกายสบายใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:heart"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ศานติสุข",
+     "rtgs": "san-ti-suk",
+     "ipa": "/saːn˩˩˦.ti˨˩.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สันติสุข",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศานติ",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.25, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ความสงบ + สบายกายสบายใจ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The happiness names the state of being in it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "suk as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 6 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 6 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 6 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "29 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "สุขเกษม",
+     "rtgs": "suk-ka-sem",
+     "ipa": "/suk̚˨˩.ka˨˩.seːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "เกษม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความสุขสบาย",
+     "frame": "entity"
+    },
+    {
+     "th": "ประสุข",
+     "rtgs": "pra-suk",
+     "ipa": "/pra˨˩.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชุมพวง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ประ",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 1,
+     "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "แสนสุข",
+     "rtgs": "saen-suk",
+     "ipa": "/sɛːn˩˩˦.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองชลบุรี จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แสน",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "head": 1,
+     "lit": "hundred thousand + suk as an element in place names",
+     "lit_th": "จำนวนนับเท่ากับ 10 หมื่น + ใช้ประกอบชื่อสถานที่"
+    },
+    {
+     "th": "ศรีสุข",
+     "rtgs": "si-suk",
+     "ipa": "/siː˩˩˦.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสีชมพู จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศรี",
+      "สุข"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ศรี"
+     ],
+     "lit": "splendour + suk as an element in place names",
+     "lit_th": "มิ่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "สุขสำราญ",
+     "rtgs": "suk-sam-ran",
+     "ipa": "/suk̚˨˩.sam˩˩˦.raːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดระนอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "สำราญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "suk as an element in place names + enjoy",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + สุขสบาย"
+    },
+    {
+     "th": "สุขไพบูลย์",
+     "rtgs": "suk-phai-bun",
+     "ipa": "/suk̚˨˩.pʰaj˧.buːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเสิงสาง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "ไพบูลย์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ความเต็มเปี่ยม",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 127 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['สุข', 'ใจ'].",
+ "compounds_unassigned": [
+  {
+   "th": "ความสุข",
+   "rtgs": "khwam-suk",
+   "ipa": "/kʰwaːm˧.suk̚˨˩/",
+   "gloss": {
+    "en": [
+     "pleasure"
+    ],
+    "th": "คำอาการนามของ สุข",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "สุข"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + happiness",
+   "lit_th": "เรื่อง + ความสบายกายสบายใจ",
+   "frame": "entity"
+  },
+  {
+   "th": "ผาสุข",
+   "rtgs": "pha-suk",
+   "ipa": "/pʰaː˩˩˦.suk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ ผาสุก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ผา",
+    "สุข"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.21, next 0.12",
+   "conf": "probable",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "หินที่เขา + ความสบายกายสบายใจ",
+   "frame": "entity",
+   "use": "spelling-variant",
+   "unfiled_from_sense": 2
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต सुख (สุข) หรือบาลี สุข",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

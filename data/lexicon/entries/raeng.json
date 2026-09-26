@@ -1,0 +1,968 @@
+{
+ "id": "w:raeng",
+ "th": "แรง",
+ "status": "mapped",
+ "rtgs": "raeng",
+ "paiboon": "rɛɛng",
+ "ipa": "/rɛːŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "กำลัง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ออกแรง",
+     "rtgs": "ok-raeng",
+     "ipa": "/ʔɔːk̚˨˩.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใช้กำลัง, ใช้แรงงาน, ใช้ความพยายาม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ออก"
+     ],
+     "lit": "tear + bright",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + กำลัง",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่แรง",
+     "rtgs": "mae-raeng",
+     "ipa": "/mɛː˥˩.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องสำหรับดีดงัดหรือยกของหนัก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + bright",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + กำลัง",
+     "frame": "entity"
+    },
+    {
+     "th": "เรี่ยวแรง",
+     "rtgs": "riao-raeng",
+     "ipa": "/ria̯w˥˩.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "strength"
+      ],
+      "th": "แรง, กำลัง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เรี่ยว",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "แรง + กำลัง",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "อำนาจ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Strength as power over others: authority.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "อิทธิพลภายนอกใด ๆ ที่เปลี่ยนแปลงหรือพยายามทำให้เกิดการเปลี่ยนแปลงสถานะอยู่นิ่งหรือสถานะการเคลื่อนที่ของเทหวัตถุ ด้วยอัตราเร็วสม่ำเสมอในแนวเส้นตรง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Force in the physicist's sense.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แรงจูงใจ",
+     "rtgs": "raeng-chung-chai",
+     "ipa": "/rɛːŋ˧.t͡ɕuːŋ˧.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "motif"
+      ],
+      "th": "สิ่งจูงใจหรือสิ่งกระตุ้นที่ทำให้บุคคลกระทําสิ่งใดสิ่งหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แรง",
+      "จูงใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "อิทธิพลภายนอกใด ๆ ที่เปลี่ยนแปลงหร + ชักนำหรือเกลี้ยกล่อมเพื่อให้เห็นคล"
+    },
+    {
+     "th": "แรงกระตุ้น",
+     "rtgs": "raeng-kra-tun",
+     "ipa": "/rɛːŋ˧.kra˨˩.tun˥˩/",
+     "gloss": {
+      "en": [
+       "urge",
+       "impulse"
+      ],
+      "th": "ความต้องการสูงหรือความอยากทำอย่างแรงกล้าที่เกิดขึ้นโดยฉับพลันและไม่ได้ผ่านการไตร่ตรอง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แรง",
+      "กระตุ้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "bright + drive",
+     "lit_th": "อิทธิพลภายนอกใด ๆ ที่เปลี่ยนแปลงหร + ใช้มือหรือสิ่งใด ๆ กระแทกเบา ๆ ให้"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "อัตราการทำงาน กำหนดเป็นกำลังคนต่อช่วงเวลาหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หัวแรง",
+     "rtgs": "hua-raeng",
+     "ipa": "/hua̯˩˩˦.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้เป็นกำลังสำคัญในการทำกิจกรรมต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หัว",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.20, next 0.10",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หัว"
+     ],
+     "lit": "head + bright",
+     "lit_th": "ส่วนบนสุดของร่างกายของคนหรือสัตว์ + อัตราการทำงาน กำหนดเป็นกำลังคนต่อช",
+     "frame": "entity"
+    },
+    {
+     "th": "แรงงาน",
+     "rtgs": "raeng-ngan",
+     "ipa": "/rɛːŋ˧.ŋaːn˧/",
+     "gloss": {
+      "en": [
+       "labour"
+      ],
+      "th": "คนงาน, ผู้ใช้แรงในการทำงาน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แรง",
+      "งาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.15, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "งาน"
+     ],
+     "lit": "bright + job",
+     "lit_th": "อัตราการทำงาน กำหนดเป็นกำลังคนต่อช + สิ่งหรือกิจกรรมที่ทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "กินแรง",
+     "rtgs": "kin-raeng",
+     "ipa": "/kin˧.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาเปรียบผู้อื่นในการทำงานหรือในการเลี้ยงชีพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "eat + bright",
+     "lit_th": "เคี้ยว + อัตราการทำงาน กำหนดเป็นกำลังคนต่อช"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Strength counted as a rate of work: manpower.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ฉุน, จัด, กล้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Strong to the senses: pungent, sharp, intense.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รุนแรง",
+     "rtgs": "run-raeng",
+     "ipa": "/run˧.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "grave",
+       "acrid",
+       "acrimonious"
+      ],
+      "th": "หนักมาก, แรงมาก, เกินปรกติ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รุน",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ดุนสิ่งใดสิ่งหนึ่งให้เคลื่อนที่ไปข + ฉุน"
+    },
+    {
+     "th": "อย่างแรง",
+     "rtgs": "yang-raeng",
+     "ipa": "/jaːŋ˨˩.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มากอย่างยิ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อย่าง",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "วิธี + ฉุน",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "แข็ง, มีกำลัง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Simply strong, hard.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แข็งแรง",
+     "rtgs": "khaeng-raeng",
+     "ipa": "/kʰɛŋ˩˩˦.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "strong",
+       "fit",
+       "able"
+      ],
+      "th": "มีกำลังมาก, ล่ำสัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แข็ง",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "แข็ง"
+     ],
+     "lit": "hard + bright",
+     "lit_th": "กระด้าง + แข็ง",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ศักดิ์สิทธิ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Power that is not ordinary: sacred, potent.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ใช้กำลังกระทำถึงขีด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "To bring strength to bear.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ออกแรง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลงแรง",
+     "rtgs": "long-raeng",
+     "ipa": "/loŋ˧.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออกแรงทำงาน, ทุ่มเททำงาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.17, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ลง"
+     ],
+     "lit": "drop + bright",
+     "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + ออกแรง"
+    },
+    {
+     "th": "ร้ายแรง",
+     "rtgs": "rai-raeng",
+     "ipa": "/raːj˦˥.rɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "bad",
+       "serious"
+      ],
+      "th": "รุนแรง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ร้าย",
+      "แรง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.14, next 0.01",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "ร้าย"
+     ],
+     "lit": "bad + bright",
+     "lit_th": "ดุ + ออกแรง",
+     "frame": "quality"
+    }
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "And to exert oneself.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "หมกมุ่น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, adjective, คำกริยาวิเศษณ์, verb",
+   "pos_th": "คำนาม, คำคุณศัพท์, คำกริยาวิเศษณ์, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "Intensity turned inward: absorbed, obsessed.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 121 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['เคลื่อน', 'ลง', 'ออก'].",
+ "compounds_unassigned": [
+  {
+   "th": "การลงแรง",
+   "rtgs": "kan-long-raeng",
+   "ipa": "/kaːn˧.loŋ˧.rɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "effort"
+    ],
+    "th": "คำอาการนามของ ลงแรง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การลง",
+    "แรง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "การลง"
+   ],
+   "lit": "nominalisation of ลง + bright",
+   "lit_th": "คำอาการนามของ ลง + กำลัง",
+   "frame": "entity"
+  },
+  {
+   "th": "ความร้ายแรง",
+   "rtgs": "khwam-rai-raeng",
+   "ipa": "/kʰwaːm˧.raːj˦˥.rɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ร้ายแรง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความร้าย",
+    "แรง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ร้าย + กำลัง",
+   "frame": "entity"
+  },
+  {
+   "th": "ความแข็งแรง",
+   "rtgs": "khwam-khaeng-raeng",
+   "ipa": "/kʰwaːm˧.kʰɛŋ˩˩˦.rɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "strength"
+    ],
+    "th": "คำอาการนามของ แข็งแรง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความแข็ง",
+    "แรง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ แข็ง + กำลัง",
+   "frame": "entity"
+  },
+  {
+   "th": "การกินแรง",
+   "rtgs": "kan-kin-raeng",
+   "ipa": "/kaːn˧.kin˧.rɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กินแรง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกิน",
+    "แรง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กิน + กำลัง",
+   "frame": "entity"
+  },
+  {
+   "th": "ความแรง",
+   "rtgs": "khwam-raeng",
+   "ipa": "/kʰwaːm˧.rɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แรง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "แรง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + bright",
+   "lit_th": "เรื่อง + กำลัง",
+   "frame": "entity"
+  },
+  {
+   "th": "การออกแรง",
+   "rtgs": "kan-ok-raeng",
+   "ipa": "/kaːn˧.ʔɔːk̚˨˩.rɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ออกแรง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การออก",
+    "แรง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออก + กำลัง",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *reːŋᴬ (“แข็งแรง; ความแข็งแรง”); ร่วมเชื้อสายกับคำเมือง ᩁᩯ᩠ᨦ (แรง), เขิน ᩁᩯ᩠ᨦ (แรง), อีสาน แฮง, ลาว ແຮງ (แฮง), ไทลื้อ ᦶᦣᧂ (แฮง), ไทดำ ꪵꪭꪉ (แฮง), ไทใหญ่ ႁႅင်း (แห๊ง), ไทใต้คง ᥞᥦᥒᥰ (แห๊ง), อาหม 𑜍𑜢𑜂𑜫 (ริง์), ปู้อี reengz, จ้วง rengz, แสก เร๊ง",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩁᩯ᩠ᨦ",
+  "th": "แรง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "bright",
+  "force"
+ ]
+}

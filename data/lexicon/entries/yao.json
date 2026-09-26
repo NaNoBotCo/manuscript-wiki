@@ -1,0 +1,819 @@
+{
+ "id": "w:yao",
+ "th": "ยาว",
+ "status": "mapped",
+ "rtgs": "yao",
+ "paiboon": "yaao",
+ "ipa": "/jaːw˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุดหนึ่งถึงอีกจุดหนึ่งที่ขยายออกไปไม่ได้แล้ว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ลักษณะส่วนหนึ่งของสิ่งใด ๆ มีกำหนดระยะยืดหรือยืนเป็นเส้นตรงจากจุดหนึ่งไปถึงอีกจุดหนึ่งมากกว่าอีกสิ่งหนึ่ง เมื่อมีการเปรียบเทียบกัน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The measure of a part of a thing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ไม่สั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "And simply, not short.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "นาน (ใช้แก่เวลา)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective",
+   "pos_th": "คำคุณศัพท์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Long in space becomes long in time.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "yao as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 8 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 8 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 8 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "22 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "ลาดยาว",
+     "rtgs": "lat-yao",
+     "ipa": "/laːt̚˥˩.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครสวรรค์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาด",
+      "ยาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "V+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ลาด"
+     ],
+     "lit": "decline + yao as an element in place names",
+     "lit_th": "ปูแผ่ออกไป + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "หนองยาว",
+     "rtgs": "nong-yao",
+     "ipa": "/nɔːŋ˩˩˦.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพนมสารคาม จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "ยาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + yao as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ทุ่งยาว",
+     "rtgs": "thung-yao",
+     "ipa": "/tʰuŋ˥˩.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปาย จังหวัดแม่ฮ่องสอน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทุ่ง",
+      "ยาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ทุ่ง"
+     ],
+     "lit": "open field + yao as an element in place names",
+     "lit_th": "ที่ราบโล่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "เกาะยาว",
+     "rtgs": "ko-yao",
+     "ipa": "/kɔʔ˨˩.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดพังงา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกาะ",
+      "ยาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "เกาะ"
+     ],
+     "lit": "island + yao as an element in place names",
+     "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "แม่ยาว",
+     "rtgs": "mae-yao",
+     "ipa": "/mɛː˥˩.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงราย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "ยาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + yao as an element in place names",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "วันยาว",
+     "rtgs": "wan-yao",
+     "ipa": "/wan˧.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอขลุง จังหวัดจันทบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัน",
+      "ยาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "วัน"
+     ],
+     "lit": "day + yao as an element in place names",
+     "lit_th": "ระยะเวลา 24 ชั่วโมง ตั้งแต่ย่ำรุ่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "แปลงยาว",
+     "rtgs": "plaeng-yao",
+     "ipa": "/plɛːŋ˧.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แปลง",
+      "ยาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ที่โล่งแห่งหนึ่ง ๆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ย่านยาว",
+     "rtgs": "yan-yao",
+     "ipa": "/jaːn˥˩.jaːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสวรรคโลก จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ย่าน",
+      "ยาว"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 5: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "bits + yao as an element in place names",
+     "lit_th": "แถว + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 11 manuscript titles, 210 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['ออก', 'ไป', 'มา'].",
+ "compounds_unassigned": [
+  {
+   "th": "สระยาว",
+   "rtgs": "sa-ra-yao",
+   "ipa": "/sa˨˩.ra˨˩.jaːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สระที่ออกเสียงยาว, สระที่ออกเสียงต่อเนื่อง 1 มาตราขึ้นไป ซึ่งโดยมากจะเป็น 2 มาตรา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สระ",
+    "ยาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "สระ"
+   ],
+   "lit": "vowel + long",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
+  },
+  {
+   "th": "คลื่นยาว",
+   "rtgs": "khluen-yao",
+   "ipa": "/kʰlɯːn˥˩.jaːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คลื่นแม่เหล็กไฟฟ้าที่มีความถี่ต่ำ ตั้งแต่ 30 กิโลเฮิรตซ์ ถึง 300 กิโลเฮิรตซ์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "คลื่น",
+    "ยาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "wave + long",
+   "lit_th": "น้ำในทะเลหรือแม่น้ำลำคลองเป็นต้น ซ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
+  },
+  {
+   "th": "ความยาว",
+   "rtgs": "khwam-yao",
+   "ipa": "/kʰwaːm˧.jaːw˧/",
+   "gloss": {
+    "en": [
+     "length"
+    ],
+    "th": "คำอาการนามของ ยาว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "ยาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + long",
+   "lit_th": "เรื่อง + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
+  },
+  {
+   "th": "กลองยาว",
+   "rtgs": "klong-yao",
+   "ipa": "/klɔːŋ˧.jaːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อกลองชนิดหนึ่ง ตอนหน้าใหญ่ ตอนท้ายมีลักษณะเรียวแล้วบานปลายเป็นรูปดอกลำโพง ขึ้นหนังหน้าเดียว ใช้ตีด้วยมือ วงกลองยาววงหนึ่งจะใช้กลองหลายลูกก็ได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลอง",
+    "ยาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "drum + long",
+   "lit_th": "เครื่องตี ขึงด้วยหนัง มีหลายชนิด + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
+  },
+  {
+   "th": "ลากข้างยาว",
+   "rtgs": "lak-khang-yao",
+   "ipa": "/laːk̚˥˩.kʰaːŋ˥˩.jaːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสระดังนี้ “ๅ”",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลากข้าง",
+    "ยาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "เขียนสระอาลงข้างหลังพยัญชนะ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
+  },
+  {
+   "th": "แนวยาว",
+   "rtgs": "naeo-yao",
+   "ipa": "/nɛːw˧.jaːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ แนวนอน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แนว",
+    "ยาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "แนว"
+   ],
+   "lit": "row + long",
+   "lit_th": "สิ่งที่มีลักษณะเป็นแถว + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
+  },
+  {
+   "th": "เข็มยาว",
+   "rtgs": "khem-yao",
+   "ipa": "/kʰem˩˩˦.jaːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ เข็มนาที",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เข็ม",
+    "ยาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "needle + long",
+   "lit_th": "เหล็กแหลมใช้เย็บผ้าเป็นต้นหรือกลัด + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
+  },
+  {
+   "th": "ยาวกาลิก",
+   "rtgs": "ya-wa-ka-lik",
+   "ipa": "/jaː˧.wa˦˥.kaː˧.lik̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของที่พระสงฆ์เก็บไว้ฉันได้ชั่วคราวตั้งแต่เช้าถึงเที่ยงวัน ได้แก่ ข้าวปลาอาหาร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยาว",
+    "กาลิก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "ADJ+N",
+   "head": 0,
+   "lit_th": "ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ + ของที่พระสงฆ์เก็บไว้ฉันได้ตามเวลาท",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "สันหลังยาว",
+   "translit_auto": "sanhlangyaw",
+   "ipa": "[sä̃n˩˥.lä̃ŋ˩˥.jäːw˧]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรียกคนเกียจคร้านเอาแต่นอน ว่า ขี้เกียจสันหลังยาว หรือใช้สั้น ๆ ว่า สันหลังยาว ก็มี, ขี้เกียจหลังยาว ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สันหลัง",
+    "ยาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "ส่วนของร่างกายด้านหลัง ซึ่งมีกระดู + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
+  },
+  {
+   "th": "ยืดยาว",
+   "rtgs": "yuet-yao",
+   "ipa": "/jɯːt̚˥˩.jaːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ยาวมาก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ยืด",
+    "ยาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "lit_th": "ขยายตัวให้ยาวออกไปได้ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
+  },
+  {
+   "th": "เรือยาว",
+   "rtgs": "ruea-yao",
+   "ipa": "/rɯa̯˧.jaːw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เรือขุดชนิดหนึ่ง ตามปรกติทำด้วยไม้ซุงตะเคียน ในสมัยโบราณใช้เป็นเรือรบ ปัจจุบันใช้เป็นเรือแข่ง บางลำยาวมากสามารถบรรจุฝีพาย 55-60 คนก็มี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เรือ",
+    "ยาว"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "เรือ"
+   ],
+   "lit": "boat + long",
+   "lit_th": "ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ + ลักษณะของสิ่งใด ๆ มีกำหนดระยะจากจุ",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *jaːwᴬ⁴ (Jonsson, 1991); ร่วมเชื้อสายกับอีสาน ยาว, ลาว ຍາວ (ยาว), คำเมือง ᨿᩣ᩠ᩅ (ยาว), เขิน ᨿᩣ᩠ᩅ (ยาว), ไทลื้อ ᦍᦱᧁ (ยาว), ไทใหญ่ ယၢဝ်း (ย๊าว), ไทใต้คง ᥕᥣᥝᥰ (ย๊าว), พ่าเก ယ︀ွ် (เยา); เทียบไหลดั้งเดิม *hnaːwʔ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨿᩣ᩠ᩅ",
+  "th": "ยาว",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "long"
+ ]
+}

@@ -1,0 +1,914 @@
+{
+ "id": "w:ta-lat",
+ "th": "ตลาด",
+ "status": "mapped",
+ "rtgs": "ta-lat",
+ "paiboon": "dtà-làat",
+ "ipa": "/ta˨˩.laːt̚˨˩/",
+ "syllable_respelling": "ตะ-หฺลาด",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ, สถานที่ค้าขายหรือแลกเปลี่ยนสินค้าและบริการต่าง ๆ ซึ่งไม่จำเป็นต้องเป็นสถานที่ทางกายภาพ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "กลไกตลาด",
+     "rtgs": "kon-kai-ta-lat",
+     "ipa": "/kon˧.kaj˧.ta˨˩.laːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ภาวะของราคาสินค้าในตลาด ซึ่งเปลี่ยนแปลงขึ้นลงตามอุปสงค์และอุปทาน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กลไก",
+      "ตลาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.15, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "machine + market",
+     "lit_th": "ตัวจักรต่าง ๆ + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ",
+     "frame": "entity"
+    },
+    {
+     "th": "ตลาดน้ำ",
+     "rtgs": "ta-lat-nam",
+     "ipa": "/ta˨˩.laːt̚˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ ทางน้ำ มีเรือเป็นพาหนะบรรทุกสิ่งของ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "น้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.34, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "market + water",
+     "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ขาดตลาด",
+     "rtgs": "khat-ta-lat",
+     "ipa": "/kʰaːt̚˨˩.ta˨˩.laːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่มีขายในท้องตลาดอย่างที่เคยมี, เกิดภาวะที่ผลิตสินค้าไม่เพียงพอต่อความต้องการของตลาด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาด",
+      "ตลาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.14, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขาด"
+     ],
+     "lit": "blow + market",
+     "lit_th": "แยกออกจากกันเพราะถูกดึง ตัด หรือฉี + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ"
+    },
+    {
+     "th": "ตลาดนัด",
+     "rtgs": "ta-lat-nat",
+     "ipa": "/ta˨˩.laːt̚˨˩.nat̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ ซึ่งมิได้ตั้งอยู่ประจำ จัดให้มีขึ้นเฉพาะในวันหรือสถานที่ที่กำหนดเท่านั้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "นัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.35, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ตกลงกันเพื่อการอย่างใดอย่างหนึ่งตา"
+    },
+    {
+     "th": "ตลาดมืด",
+     "rtgs": "ta-lat-muet",
+     "ipa": "/ta˨˩.laːt̚˨˩.mɯːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตลาดที่ซื้อขายกันลับ ๆ โดยหลีกเลี่ยงข้อกำหนดที่ทางการได้วางไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "มืด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "market + dark",
+     "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ขาดแสงสว่าง",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "สถานที่ซึ่งปรกติจัดไว้ให้ผู้ค้าใช้เป็นที่ชุมนุมเพื่อจำหน่ายสินค้าประเภทสัตว์ เนื้อสัตว์ ผัก ผลไม้ หรืออาหารอันมีสภาพเป็นของสด ประกอบหรือปรุงแล้ว หรือของเสียง่าย ทั้งนี้ไม่ว่าจะมีการจำหน่ายสินค้าประเภทอื่นด้วยหรือไม่ก็ตาม และหมายความรวมถึงบริเวณซึ่งจัดไว้สำหรับให้ผู้ค้าใช้เป็นที่ชุมนุมเพื่อจำหน่ายสินค้าประเภทดังกล่าวเป็นประจำหรือเป็นครั้งคราวหรือตามวันที่กำหนด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The statutory market — a place set aside for traders.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี จังหวัดจันทบุรี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ตลาดขวัญ",
+     "rtgs": "ta-lat-khwan",
+     "ipa": "/ta˨˩.laːt̚˨˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอดอยสะเก็ด จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "ขวัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "market + khwan",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "ตลาดใหม่",
+     "rtgs": "ta-lat-mai",
+     "ipa": "/ta˨˩.laːt̚˨˩.maj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอวิเศษชัยชาญ จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "ใหม่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหม่"
+     ],
+     "lit": "market + again",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี + เพิ่งมี",
+     "frame": "quality"
+    },
+    {
+     "th": "ตลาดใหญ่",
+     "rtgs": "ta-lat-yai",
+     "ipa": "/ta˨˩.laːt̚˨˩.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอดอยสะเก็ด จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "ใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "market + huge",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "ตลาดไทร",
+     "rtgs": "ta-lat-sai",
+     "ipa": "/ta˨˩.laːt̚˨˩.saj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชุมพวง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "ไทร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี + ชื่อไม้ต้นในสกุล Ficus วงศ์ Morace",
+     "frame": "entity"
+    },
+    {
+     "th": "บางตลาด",
+     "rtgs": "bang-ta-lat",
+     "ipa": "/baːŋ˧.ta˨˩.laːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอคลองเขื่อน จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาง",
+      "ตลาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "บาง"
+     ],
+     "lit": "thin + market",
+     "lit_th": "ทางน้ำเล็ก ๆ + ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี",
+     "frame": "entity"
+    },
+    {
+     "th": "ตลาดหลวง",
+     "rtgs": "ta-lat-luang",
+     "ipa": "/ta˨˩.laːt̚˨˩.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองอ่างทอง จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "หลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หลวง"
+     ],
+     "lit": "market + royal",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี + ที่เป็นของพระเจ้าแผ่นดิน",
+     "frame": "quality"
+    },
+    {
+     "th": "ตลาดเหนือ",
+     "rtgs": "ta-lat-nuea",
+     "ipa": "/ta˨˩.laːt̚˨˩.nɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองภูเก็ต จังหวัดภูเก็ต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "เหนือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เหนือ"
+     ],
+     "lit": "market + above",
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี + ชื่อทิศตรงข้ามกับทิศใต้",
+     "frame": "entity"
+    },
+    {
+     "th": "ตลาดกรวด",
+     "rtgs": "ta-lat-kruat",
+     "ipa": "/ta˨˩.laːt̚˨˩.krua̯t̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองอ่างทอง จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "กรวด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี + ก้อนหินเล็ก ๆ เขื่องกว่าเม็ดทราย",
+     "frame": "entity"
+    },
+    {
+     "th": "ยางตลาด",
+     "rtgs": "yang-ta-lat",
+     "ipa": "/jaːŋ˧.ta˨˩.laːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยาง",
+      "ตลาด"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ยาง"
+     ],
+     "lit": "rubber + market",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่หลายชนิดในสกุล D + ชื่อตำบลหนึ่งในอำเภอเมืองจันทบุรี",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A tambon named from its market.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, proper noun",
+   "pos_th": "คำนาม, คำวิสามานยนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "And another.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 24 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['แลก', 'ซื้อ', 'ขาย', 'ค้า'].",
+ "compounds_unassigned": [
+  {
+   "th": "ตลาดเสรี",
+   "rtgs": "ta-lat-se-ri",
+   "ipa": "/ta˨˩.laːt̚˨˩.seː˩˩˦.riː˧/",
+   "gloss": {
+    "en": [
+     "free market"
+    ],
+    "th": "ระบบเศรษฐกิจที่ราคาถูกกำหนดโดยการแข่งขันระหว่างธุรกิจเอกชนโดยไม่มีข้อจำกัด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ตลาด",
+    "เสรี"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ที่ทำได้โดยอิสระ",
+   "frame": "quality"
+  },
+  {
+   "th": "การติดตลาด",
+   "rtgs": "kan-tit-ta-lat",
+   "ipa": "/kaːn˧.tit̚˨˩.ta˨˩.laːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ติดตลาด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การติด",
+    "ตลาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "addiction + market",
+   "lit_th": "คำอาการนามของ ติด + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "ติดตลาด",
+   "rtgs": "tit-ta-lat",
+   "ipa": "/tit̚˨˩.ta˨˩.laːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จัดให้มีตลาดขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ติด",
+    "ตลาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ติด"
+   ],
+   "lit": "fit + market",
+   "lit_th": "อาการที่ข้องอยู่ + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ"
+  },
+  {
+   "th": "ตลาดสด",
+   "rtgs": "ta-lat-sot",
+   "ipa": "/ta˨˩.laːt̚˨˩.sot̚˨˩/",
+   "gloss": {
+    "en": [
+     "market"
+    ],
+    "th": "ตลาดที่ขายของสด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ตลาด",
+    "สด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "lit": "market + fresh",
+   "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ใหม่ ใช้แก่ลักษณะของสิ่งต่าง ๆ ที่",
+   "frame": "quality"
+  },
+  {
+   "th": "ล้นตลาด",
+   "rtgs": "lon-ta-lat",
+   "ipa": "/lon˦˥.ta˨˩.laːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "มีขายในท้องตลาดมากเกินไป, เกิดภาวะที่ผลิตสินค้ามากจนเกินความต้องการของตลาด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ล้น",
+    "ตลาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "พ้นหรือเลยระดับที่เปี่ยมอยู่แล้วจน + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ"
+  },
+  {
+   "th": "ตลาดหุ้น",
+   "rtgs": "ta-lat-hun",
+   "ipa": "/ta˨˩.laːt̚˨˩.hun˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตลาดหลักทรัพย์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตลาด",
+    "หุ้น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ส่วนที่ลงทุนเท่ากันในการค้าขายเป็น",
+   "frame": "entity"
+  },
+  {
+   "th": "การขาดตลาด",
+   "rtgs": "kan-khat-ta-lat",
+   "ipa": "/kaːn˧.kʰaːt̚˨˩.ta˨˩.laːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขาดตลาด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขาด",
+    "ตลาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขาด + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "ท้องตลาด",
+   "rtgs": "thong-ta-lat",
+   "ipa": "/tʰɔːŋ˦˥.ta˨˩.laːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตลาดทั่ว ๆ ไปซึ่งลูกค้าสามารถหาซื้อสินค้าชนิดเดียวกันหรือใกล้เคียงได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ท้อง",
+    "ตลาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ท้อง"
+   ],
+   "lit": "carry + market",
+   "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "ตลาดเงิน",
+   "rtgs": "ta-lat-ngoen",
+   "ipa": "/ta˨˩.laːt̚˨˩.ŋɤn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตลาดสำหรับการซื้อขายตราสารหนี้ระยะสั้น เช่น ตั๋วเงินคลัง (Treasury Bills) ตั๋วแลกเงินที่ธนาคารรับรอง (Banker’s Acceptances) ตราสารพาณิชย์หรือเอกสารการค้า (Commercial Paper) ใบรับฝากเงินที่เปลี่ยนมือได้ (Negotiable Certif",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ตลาด",
+    "เงิน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "เงิน"
+   ],
+   "lit": "market + bread",
+   "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+   "frame": "entity"
+  },
+  {
+   "th": "การล้นตลาด",
+   "rtgs": "kan-lon-ta-lat",
+   "ipa": "/kaːn˧.lon˦˥.ta˨˩.laːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ล้นตลาด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การล้น",
+    "ตลาด"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ล้น + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "เป็นไปได้ว่าแผลงมาจาก กาด",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "market"
+ ]
+}

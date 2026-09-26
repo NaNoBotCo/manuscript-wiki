@@ -63,9 +63,15 @@ import hotrai  # noqa: E402  — หอไตร: writes the machine-facing libr
 import cartography  # noqa: E402
 import manuscript_pages  # noqa: E402
 import article_pages  # noqa: E402
+import phasa  # noqa: E402  — /phasa: the linguistics door
 
 
 # ---- the client shim, injected into every page -----------------------------------
+# The lexical matcher is a separate file so the golden-queries deploy gate can run
+# the exact code the pages ship (see search_match.js). It is injected inline right
+# before the shim, which calls it as window.WICHAA_MATCH.
+MATCHER_JS = "<script>" + (HERE / "search_match.js").read_text() + "</script>"
+
 # Must match art() below for /api/article filenames.
 SHIM = r"""<script>
 (function(){
@@ -106,45 +112,19 @@ SHIM = r"""<script>
   function loadThes(){ if(_thes) return Promise.resolve(_thes);
     return _fetch(S('/api/thesaurus.json')).then(function(r){return r.json();})
       .then(function(t){_thes=t;return t;}).catch(function(){_thes={};return {};}); }
-  // mirrors wiki.py _expand_token: query token -> OR-set of cross-language equivalents
-  function expand(tok, thes){
-    tok=(tok||'').toLowerCase();
-    var members={}; members[tok]=1;
-    if(tok.length<2) return Object.keys(members);
-    for(var key in thes){
-      if(tok===key || (tok.length>=3 && (tok.indexOf(key)>=0 || key.indexOf(tok)>=0))){
-        var grp=thes[key]; for(var i=0;i<grp.length;i++) members[grp[i]]=1;
-      }
-    }
-    return Object.keys(members);
-  }
+  // Matching itself lives in search_match.js (injected right before this shim,
+  // as window.WICHAA_MATCH) so the golden-queries deploy gate can run the SAME
+  // code in Node against the same built index. Two shapes are answered from it:
+  //   staticSearch  -> {manuscripts, articles}  — the browse page's quick search
+  //   staticMeaning -> {results, understood}    — /search, when the semantic
+  //                                               Worker can't be reached
   function staticSearch(q){
     q=(q||'').trim(); var out={manuscripts:[],articles:[],query:q};
     if(!q) return Promise.resolve(jresp(out));
     return Promise.all([loadDocs(), loadThes()]).then(function(res){
-      var docs=res[0], thes=res[1];
-      var groups=q.toLowerCase().split(/\s+/).filter(Boolean)
-                  .map(function(t){return expand(t, thes);}).filter(function(g){return g.length;});
-      if(!groups.length) return jresp(out);
-      var scored=[];
-      for(var i=0;i<docs.length;i++){
-        var d=docs[i], title=(d.ntitle||'').toLowerCase(), body=(d.nbody||'').toLowerCase();
-        var ok=true, score=0, pos=null;
-        for(var j=0;j<groups.length;j++){
-          var g=groups[j], ghit=0;
-          for(var m=0;m<g.length;m++){
-            var tk=g[m]; if(!tk) continue;
-            if(title.indexOf(tk)>=0) ghit+=12;
-            var idx=body.indexOf(tk);
-            if(idx>=0){ ghit+=Math.min(body.split(tk).length-1,6); if(pos===null||idx<pos)pos=idx; }
-          }
-          if(ghit===0){ok=false;break;} score+=ghit;
-        }
-        if(ok) scored.push([score,d,pos]);
-      }
-      scored.sort(function(a,b){return b[0]-a[0];});
+      var scored=window.WICHAA_MATCH.match(res[0], res[1], q);
       for(var k=0;k<scored.length;k++){
-        var d2=scored[k][1], pos2=scored[k][2]==null?0:scored[k][2];
+        var d2=scored[k].doc, pos2=scored[k].pos==null?0:scored[k].pos;
         var text=d2.nbody||d2.ntitle||'';
         var snip=text.substr(Math.max(0,pos2-60),200).replace(/\s+/g,' ').trim();
         if(d2.kind==='m'){ if(out.manuscripts.length<60)
@@ -153,6 +133,24 @@ SHIM = r"""<script>
           out.articles.push({key:d2.ref,label:d2.label,snippet:snip}); }
       }
       return jresp(out);
+    });
+  }
+  function staticMeaning(q, n){
+    q=(q||'').trim(); n=parseInt(n||'24',10)||24;
+    var understood={terms:q?q.split(/\s+/):[], notes:['static'], filters:{}, basis:'words'};
+    if(!q) return Promise.resolve(jresp({query:q, understood:understood, count:0, results:[]}));
+    return Promise.all([loadDocs(), loadThes()]).then(function(res){
+      var scored=window.WICHAA_MATCH.match(res[0], res[1], q).slice(0, n);
+      // Only fields the lexical index really has; no score -> the page renders
+      // no meter rather than an invented number.
+      var results=scored.map(function(s){ var d=s.doc, m=(d.kind==='m');
+        return {id:(m?'ms:':'a:')+d.ref, kind:(m?'manuscript':'article'),
+                mid:(m?parseInt(d.ref,10):null),
+                url:(m?'/m/'+d.ref+'/':'/a?s='+encodeURIComponent(d.ref)),
+                title_th:d.label, title_en:'', translit:'',
+                genre:'', place:'', temple:'', date:''};
+      });
+      return jresp({query:q, understood:understood, count:results.length, results:results});
     });
   }
 
@@ -206,7 +204,25 @@ SHIM = r"""<script>
     var method = (init.method || (typeof input!=='string' && input.method) || 'GET').toUpperCase();
     var p = url.pathname, sp = url.searchParams;
     if(method !== 'GET') return Promise.resolve(jresp({ok:false, readonly:true}));
-    if(p==='/api/search') return staticSearch(sp.get('q'));
+    if(p==='/api/search'){
+      // Two consumers, two shapes. /search sends n= and reads the semantic
+      // Worker's {results} shape — that request must REACH the network, where
+      // the wichaa-router Worker answers it (hijacking it here and answering in
+      // the legacy shape is what left /search dead-on-arrival, found
+      // 2026-08-26). The browse page's quick search sends no n= and reads the
+      // legacy {manuscripts, articles} shape, answered locally as always.
+      if(sp.has('n')){
+        return _fetch(input, init).then(function(r){
+          return (r && r.ok) ? r : staticMeaning(sp.get('q'), sp.get('n'));
+        }).catch(function(e){
+          // AbortError means a newer keystroke superseded this query — let it
+          // die silently instead of racing stale fallback results onto the page.
+          if(e && e.name==='AbortError') throw e;
+          return staticMeaning(sp.get('q'), sp.get('n'));
+        });
+      }
+      return staticSearch(sp.get('q'));
+    }
     if(p==='/api/gallery' && sp.get('source')==='scans') return scansSlice(sp);
     // analysis widgets: /api/w/<name> -> the dumped snapshot; geo.geojson is a real
     // file already, everything else gains a .json extension on disk.
@@ -358,7 +374,7 @@ def inject(html_str, base):
     html_str = html_str.replace("href='/favicon.svg'", f"href='{base}favicon.svg'")
     html_str = html_str.replace("url('/favicon.svg')", f"url('{base}favicon.svg')")
     base_js = f'<script>window.__LANNA_BASE__={json.dumps(base)};</script>'
-    return html_str.replace(marker, marker + base_js + SHIM, 1)
+    return html_str.replace(marker, marker + base_js + MATCHER_JS + SHIM, 1)
 
 
 def write_text(path, text):
@@ -591,6 +607,19 @@ def main():
         print(f"ERROR: catalogue not found at {wiki.CATALOG_DB}", file=sys.stderr)
         return 1
 
+    # Wat pins sit in the Lanna north (lat 17–20.6 N, lng 97.3–101.4 E). The
+    # ranges do not overlap, so a swapped lat/lng fails too. Checked before the
+    # wipe, so a bad pin stops the build with docs/ untouched.
+    _bad = [w for w in wiki.wats_snapshot().get("wats", [])
+            if w.get("lat") is not None and w.get("lng") is not None
+            and not (17.0 <= w["lat"] <= 20.6 and 97.3 <= w["lng"] <= 101.4)]
+    if _bad:
+        print(f"ERROR: {len(_bad)} wat pin(s) outside the Lanna north or lat/lng "
+              f"swapped, e.g. " + "; ".join(
+                  f"{w.get('nameRoman') or w.get('name')} {w['lat']},{w['lng']}"
+                  for w in _bad[:5]), file=sys.stderr)
+        return 1
+
     out = Path(args.out).expanduser().resolve()
     if (out / ".git").exists():
         print(f"ERROR: refusing to wipe {out} — it is a git working tree.\n"
@@ -623,17 +652,17 @@ def main():
     # nothing puts them back. That is what happened on 2026-07-28 03:06: 7,049 files
     # removed, wichaa.net/hun, /jovilabe and /need serving 404 until restored by hand.
     #
-    # Until those modules grow real entry points and join the pipeline, the honest
+    # Until those modules grow real entry points and join the pipeline, the correct
     # thing is to leave their output alone rather than destroy pages we cannot
     # rebuild. Everything build_static owns is still wiped and rebuilt from scratch.
     UNMANAGED = (
         "hun", "jovilabe", "redspot", "divination", "atlas",
-        "need", "nuea", "trails", "trail", "graph-audit",
+        "need", "nuea", "handpoke", "trails", "trail", "graph-audit",
         "api/graph", "api/trails.json",
     )
     if out.exists():
         # Move-aside/move-back rather than a filtered walk: it handles the nested
-        # api/… entries for free and never leaves a half-deleted tree behind.
+        # api/… entries for free and leaves no half-deleted tree behind.
         keep = Path(tempfile.mkdtemp(prefix="lanna-keep-", dir=out.parent))
         for rel in UNMANAGED:
             src = out / rel
@@ -690,6 +719,11 @@ def main():
         # taxonomy: they are utilities, and folding them into the archive's facets
         # would muddy both. Add one by appending to wiki.WIDGETS.
         "widgets/index.html":    (wiki.SIDE_TOOLS_PAGE, "Widgets & shit", "section"),
+        # /phasa — ภาษา, the linguistics door. Gathers รากศัพท์ (roots),
+        # ทับศัพท์ (English written in Thai script) and ถ่ายเสียง (romanisation)
+        # as one subject. Counts and the misreading exhibit come from the
+        # thapsap catalogue's export; the page is empty without it.
+        "phasa/index.html":      (phasa.phasa_page(wiki.NAV, wiki.page), "ภาษา · Language", "section"),
         # /sukhwan — สู่ขวัญยนต์, the khwan-calling rite for machines and robots.
         # A /widgets side tool (see its SIDE_TOOLS entry); robot opt-in goes
         # through the su-khwan Worker, the page itself is fully static.
@@ -706,6 +740,11 @@ def main():
         # /blessings — ใต้ร่มพร, the map of the household: the standing blessings
         # the fleet works under, one page, fully static, reading is receiving.
         "blessings/index.html":  (wiki.BLESSINGS_PAGE, "ใต้ร่มพร — the blessings the bots work under", "section"),
+        # /poppy — ฝิ่น, the highland agricultural year: rice, maize and poppy in
+        # one twelve months, the festivals cut into the gaps, and the coffee
+        # substitution read as a calendar rather than a moral. Fully static; the
+        # year-wheel is inline SVG with no library behind it.
+        "poppy/index.html":      (wiki.POPPY_PAGE, "ฝิ่น — the year the poppy made", "section"),
         "findings/index.html":   (wiki.FINDINGS_PAGE, "Discoveries", "section"),
         # activity/ is a STATIC SNAPSHOT (as-of-build state), not a live dashboard —
         # matches this whole export's "consistent, not live" design (see the docstring
@@ -768,6 +807,21 @@ def main():
     write_json(api / "img-iiif.json", iiif_map)
     print(f"  · core APIs  (+{len(iiif_map)} IIIF image URLs)")
 
+    # 2a-0. Static API files whose generators no longer exist as scripts —
+    # the /need and /nuea axis data plus the landing strata (wander, term-echo).
+    # Their HTML survives the wipe via UNMANAGED above; their JSON did not, and
+    # from 2026-07-28 to 2026-08-26 every build shipped without them while Pages
+    # answered the misses with landing-page HTML and HTTP 200. Copied from
+    # data/api_static/ (see its README for the recovery provenance) so the
+    # pipeline owns them like everything else here. verify_build.py refuses to
+    # publish a build where any of them is absent.
+    api_static = HERE / "data" / "api_static"
+    n_static = 0
+    for f in sorted(api_static.glob("*.json")):
+        shutil.copyfile(f, api / f.name)
+        n_static += 1
+    print(f"  · static APIs  ({n_static} axis/strata files from data/api_static)")
+
     # หอไตร — the library itself. The /hotrai HTML page above is the courtesy copy
     # for humans; these are the files a machine reads. Same writers as everything
     # else here, so the manifest and encoding stay consistent.
@@ -784,7 +838,7 @@ def main():
     # Export each data widget as a standalone page + a JSON snapshot the shim resolves.
     # `traffic` is intentionally live-only (it counts requests to the running server) —
     # it still gets a page so the index link resolves, but with an empty snapshot so it
-    # renders its honest "no traffic recorded" state instead of a frozen, stale number.
+    # renders its "no traffic recorded" state instead of a frozen, stale number.
     wdir = api / "w"
     wdir.mkdir(exist_ok=True)
     write_text(out / "w" / "index.html", inject(wiki.widgets_index_page(), base))
@@ -904,6 +958,7 @@ def main():
         # this is the door search engines and share-unfurlers actually see. A digested
         # (but not yet transcribed) contributed volume's page_html() includes a page
         # gallery — bake those scans too, the same way the reader's are baked below.
+        manuscript_pages._DOCS_DIR = str(out)
         det["threads"] = cartography.threads_for(g, f"ms:{mid}")
         mdir = mpath(mid)
         write_text(out / "m" / mdir / "index.html",
@@ -1052,7 +1107,21 @@ def main():
     # live search does (typing 'astrology' / 'hora' / 'โหร' all reach the same group)
     write_json(api / "thesaurus.json",
                {k: sorted(v) for k, v in wiki._thesaurus().items()})
-    print(f"  · {len(docs)} search docs + thesaurus")
+    # The Thai segmentation dictionary, published so the router Worker can split a
+    # Thai query the same way this build does. Thai is written without spaces, so
+    # a Thai query reached the re-rank as one long token that substring-matched
+    # nothing — the lexical half of the hybrid search did nothing at all for the
+    # language most of this corpus is catalogued in. The list is mined from the
+    # corpus by search-core/mine.py; only words the corpus contains are in it,
+    # because a word absent from the corpus can only ever produce a wrong split.
+    segdict = (HERE.parent / "search-core" / "data" / "wichaa.segdict.txt")
+    n_seg = 0
+    if segdict.exists():
+        words = [w for w in segdict.read_text().split("\n")
+                 if w.strip() and not w.startswith("#")]
+        (api / "segdict.txt").write_text("\n".join(words))
+        n_seg = len(words)
+    print(f"  · {len(docs)} search docs + thesaurus + {n_seg} segmentation words")
 
     # 6. rendered plates ---------------------------------------------------------
     n_img = 0

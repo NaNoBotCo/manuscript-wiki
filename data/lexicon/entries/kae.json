@@ -1,0 +1,1075 @@
+{
+ "id": "w:kae",
+ "th": "แก้",
+ "status": "mapped",
+ "rtgs": "kae",
+ "paiboon": "gɛ̂ɛ",
+ "ipa": "/kɛː˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "cowrie shell used to burnish cloth"
+    ],
+    "th": "ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งให้ผิวเป็นมัน",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name.",
+    "Declared root: แก้, the large cowrie used to burnish cloth — a shell name."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ทำให้คลายจากลักษณะที่แน่นที่ติดขัดหรือที่เป็นเงื่อนเป็นปมอยู่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'.",
+    "Declared root: แก้ 'to loosen, undo'."
+   ],
+   "compounds": [
+    {
+     "th": "แก้ขัด",
+     "rtgs": "kae-khat",
+     "ipa": "/kɛː˥˩.kʰat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แก้ข้อขัดข้องให้ลุล่วงไปชั่วคราว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ขัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ขัด"
+     ],
+     "lit": "cowrie shell used to burnish cloth + abrade",
+     "lit_th": "ทำให้คลายจากลักษณะที่แน่นที่ติดขัด + ให้ติดขวางไว้ไม่ให้หลุดออก"
+    },
+    {
+     "th": "แก้ผ้า",
+     "rtgs": "kae-pha",
+     "ipa": "/kɛː˥˩.pʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาผ้าที่นุ่งอยู่ออกจากตัว, เปลือยกายไม่นุ่งผ้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ผ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ผ้า"
+     ],
+     "lit": "cowrie shell used to burnish cloth + cloth",
+     "lit_th": "ทำให้คลายจากลักษณะที่แน่นที่ติดขัด + สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "ทำให้หลุดให้พ้นไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Undoing widened to freeing, getting clear of.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แก้บน",
+     "rtgs": "kae-bon",
+     "ipa": "/kɛː˥˩.bon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เซ่นสรวงสิ่งศักดิ์สิทธิ์ตามที่ได้บนบานไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "บน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "cowrie shell used to burnish cloth + above",
+     "lit_th": "ทำให้หลุดให้พ้นไป + เบื้องสูง",
+     "frame": "quality"
+    },
+    {
+     "th": "แก้หน้า",
+     "rtgs": "kae-na",
+     "ipa": "/kɛː˥˩.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้พ้นอาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "cowrie shell used to burnish cloth + before",
+     "lit_th": "ทำให้หลุดให้พ้นไป + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้โทษ",
+     "rtgs": "kae-thot",
+     "ipa": "/kɛː˥˩.tʰoːt̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลุแก่โทษ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "โทษ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โทษ"
+     ],
+     "lit": "cowrie shell used to burnish cloth + badness",
+     "lit_th": "ทำให้หลุดให้พ้นไป + ความไม่ดี",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้บาป",
+     "translit_auto": "kaebap",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สารภาพความผิดเพื่อให้พ้นบาป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "บาป"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ทำให้หลุดให้พ้นไป + การกระทำผิดหลักคำสอนหรือข้อห้ามในศ",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้ตัว",
+     "rtgs": "kae-tua",
+     "ipa": "/kɛː˥˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "alibi",
+       "defend"
+      ],
+      "th": "พูดหรือทำเพื่อปลดเปลื้องความผิดหรือข้อผิดพลาดของตน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "cowrie shell used to burnish cloth + form",
+     "lit_th": "ทำให้หลุดให้พ้นไป + รูป",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ทำให้ดีขึ้น, ทำให้ใช้การได้, ทำส่วนที่เสียให้คืนดีอย่างเดิม, ดัดแปลงให้ดีขึ้น, แก้ไข ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แก้ไข",
+     "rtgs": "kae-khai",
+     "ipa": "/kɛː˥˩.kʰaj˩˩˦/",
+     "gloss": {
+      "en": [
+       "edit",
+       "key",
+       "alter"
+      ],
+      "th": "ทำส่วนที่เสียให้คืนดีอย่างเดิม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ไข"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไข"
+     ],
+     "lit": "cowrie shell used to burnish cloth + fat",
+     "lit_th": "ทำให้ดีขึ้น + มันข้น",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้ฟ้อง",
+     "rtgs": "kae-fong",
+     "ipa": "/kɛː˥˩.fɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แก้ไขคำฟ้องตามที่ศาลสั่งในกรณีที่คำฟ้องไม่ถูกต้องตามกฎหมาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ฟ้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ทำให้ดีขึ้น + กล่าวหาหรือกล่าวโทษต่อผู้ใหญ่หรือต"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Undoing what is wrong in a thing: to mend, to correct.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "ทำให้หาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แก้เกี้ยว",
+     "rtgs": "kae-kiao",
+     "ipa": "/kɛː˥˩.kia̯w˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แก้อย่างย้อนรอยให้หายกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "เกี้ยว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.32, next 0.23",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ทำให้หาย + เครื่องประดับลักษณะเป็นวงคล้ายพวงม",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้ขวย",
+     "rtgs": "kae-khuai",
+     "ipa": "/kɛː˥˩.kʰua̯j˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระทำการอย่างใดอย่างหนึ่งเพื่อบรรเทาความกระดากอาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ขวย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ทำให้หาย + กระดาก"
+    },
+    {
+     "th": "แก้เขิน",
+     "rtgs": "kae-khoen",
+     "ipa": "/kɛː˥˩.kʰɤːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระทำการอย่างใดอย่างหนึ่งเพื่อบรรเทาความกระดากอาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "เขิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "cowrie shell used to burnish cloth + abashed",
+     "lit_th": "ทำให้หาย + ชื่อคนไทใหญ่เผ่าหนึ่ง ส่วนมากอยู่ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้เคล็ด",
+     "rtgs": "kae-khlet",
+     "ipa": "/kɛː˥˩.kʰlet̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระทำการอย่างใดอย่างหนึ่งที่เชื่อกันว่าเป็นวิธีปัดเป่าหรือป้องกันภัยหรือเหตุร้ายที่จะมีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "เคล็ด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "cowrie shell used to burnish cloth + technique",
+     "lit_th": "ทำให้หาย + วิธีการที่ฉลาด พลิกแพลง ใช้ในการอย",
+     "frame": "entity"
+    }
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "Mending a body: to cure.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "เฉลย, อธิบายให้เข้าใจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Undoing a difficulty in words: to explain, to solve.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แก้ต่าง",
+     "rtgs": "kae-tang",
+     "ipa": "/kɛː˥˩.taːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "answer"
+      ],
+      "th": "ว่าความแทนจำเลย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ต่าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "cowrie shell used to burnish cloth + other",
+     "lit_th": "เฉลย + ภาชนะสำหรับบรรทุกสิ่งของมีคานพาดไว",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้ตก",
+     "translit_auto": "kaetk",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แก้ให้สำเร็จลุล่วงไปได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ตก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตก"
+     ],
+     "lit": "cowrie shell used to burnish cloth + decrease",
+     "lit_th": "เฉลย + พลัดลง"
+    },
+    {
+     "th": "แก้ฝัน",
+     "rtgs": "kae-fan",
+     "ipa": "/kɛː˥˩.fan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เล่าฝันให้ผู้อื่นทำนาย, ทำนายฝัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ฝัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "cowrie shell used to burnish cloth + dream",
+     "lit_th": "เฉลย + การเห็นเป็นเรื่องราวเมื่อหลับ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 7]"
+    ],
+    "th": "ร้องเพลงหรือลำตัดเป็นต้นโต้ตอบกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metaphor",
+   "via_note": "Answering verse for verse — เพลงแก้, ลำตัดแก้.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 8]"
+    ],
+    "th": "เอากลับคืนมาให้ได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "Putting right a loss: to win back.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "แก้เชิง",
+     "translit_auto": "kaecheing",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใช้เล่ห์เหลี่ยม ชั้นเชิง หรือ อุบาย หักล้างเล่ห์เหลี่ยม ชั้นเชิง หรืออุบายของอีกฝ่ายหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "เชิง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เชิง"
+     ],
+     "lit": "cowrie shell used to burnish cloth + foot",
+     "lit_th": "เอากลับคืนมาให้ได้ + ตีนซึ่งเป็นฐานที่ตั้งของบางสิ่งบาง",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้เผ็ด",
+     "rtgs": "kae-phet",
+     "ipa": "/kɛː˥˩.pʰet̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำตอบแก่ผู้ที่เคยทำความเจ็บปวดให้แก่ตัวไว้เพื่อให้สาสมกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "เผ็ด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "cowrie shell used to burnish cloth + hot",
+     "lit_th": "เอากลับคืนมาให้ได้ + มีรสอย่างรสพริก",
+     "frame": "quality"
+    },
+    {
+     "th": "แก้มือ",
+     "rtgs": "kae-mue",
+     "ipa": "/kɛː˥˩.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขอสู้ใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "cowrie shell used to burnish cloth + hand",
+     "lit_th": "เอากลับคืนมาให้ได้ + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้ลำ",
+     "rtgs": "kae-lam",
+     "ipa": "/kɛː˥˩.lam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใช้ชั้นเชิงตอบโต้ให้เท่าเทียมกันหรือหนักมือขึ้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ลำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เอากลับคืนมาให้ได้ + ตัวของคน สัตว์ หรือสิ่งต่าง ๆ ไม่น",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้แค้น",
+     "rtgs": "kae-khaen",
+     "ipa": "/kɛː˥˩.kʰɛːn˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำตอบด้วยความแค้นหรือเพื่อให้หายแค้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "แค้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "เอากลับคืนมาให้ได้ + โกรธเจ็บใจอยู่ไม่หาย"
+    },
+    {
+     "th": "แก้ที",
+     "rtgs": "kae-thi",
+     "ipa": "/kɛː˥˩.tʰiː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แก้ตาเดิน (ใช้แก่การเล่นหมากรุก)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "ที"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ที"
+     ],
+     "lit": "cowrie shell used to burnish cloth + time",
+     "lit_th": "เอากลับคืนมาให้ได้ + ครั้ง",
+     "frame": "entity"
+    },
+    {
+     "th": "แก้หมาก",
+     "rtgs": "kae-mak",
+     "ipa": "/kɛː˥˩.maːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แก้อุบายของอีกฝ่ายหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้",
+      "หมาก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หมาก"
+     ],
+     "lit": "cowrie shell used to burnish cloth + areca palm",
+     "lit_th": "เอากลับคืนมาให้ได้ + ชื่อเรียกปาล์มหลายชนิดหลายสกุลในวง",
+     "frame": "entity"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 80 manuscript titles, 722 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['กลับ', 'เข้า', 'ขึ้น', 'ลง'].",
+ "compounds_unassigned": [
+  {
+   "th": "การแก้",
+   "rtgs": "kan-kae",
+   "ipa": "/kaːn˧.kɛː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แก้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "แก้"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ชื่อเบี้ยตัวโต ๆ สำหรับขัดผ้านุ่งใ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *keːꟲ, จากจีนยุคกลาง 解 (MC keaX); ร่วมเชื้อสายกับลาว ແກ້ (แก้), คำเมือง ᨠᩯ᩶ (แก้), ไทลื้อ ᦶᦂᧉ (แก้), ไทดำ ꪵꪀ꫁ (แก้), ไทใหญ่ ၵႄႈ (แก้), อาหม 𑜀𑜦𑜧 (เก), จ้วงแบบจั่วเจียง gej",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨠᩯ᩶",
+  "th": "แก้",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kae-2",
+   "label": "แก",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kae\". แก้ is gɛ̂ɛ, แก is gɛɛ — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

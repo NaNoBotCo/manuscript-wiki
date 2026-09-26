@@ -1,0 +1,884 @@
+{
+ "id": "w:chai-3",
+ "th": "ชาย",
+ "status": "mapped",
+ "rtgs": "chai",
+ "paiboon": "chaai",
+ "ipa": "/t͡ɕʰaːj˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "คนที่ไม่มีมดลูก, ผู้ชาย ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: ชาย 'man'."
+   ],
+   "compounds": [
+    {
+     "th": "ผู้ชาย",
+     "rtgs": "phu-chai",
+     "ipa": "/pʰuː˥˩.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "male",
+       "man",
+       "dude"
+      ],
+      "th": "มนุษย์เพศชาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ผู้",
+      "ชาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "คำใช้แทนคำว่า คนหรือสิ่งที่ถือเสมื + คนที่ไม่มีมดลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "กระทาชาย",
+     "translit_auto": "krathachay",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนผู้ชาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระทา",
+      "ชาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.18, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อนกขนาดเล็ก + คนที่ไม่มีมดลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "อวัยวะเพศชาย",
+     "rtgs": "a-wai-ya-wa-phet-chai",
+     "ipa": "/ʔa˨˩.waj˧.ja˦˥.wa˦˥.pʰeːt̚˥˩.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "prick",
+       "sausage",
+       "boy bits"
+      ],
+      "th": "อวัยวะสืบพันธุ์ของผู้ชาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อวัยวะเพศ",
+      "ชาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "bits + male",
+     "lit_th": "ส่วนของร่างกายที่บ่งบอกเพศและใช้ใน + คนที่ไม่มีมดลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกชาย",
+     "rtgs": "luk-chai",
+     "ipa": "/luːk̚˥˩.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "son"
+      ],
+      "th": "ลูกที่เป็นเพศชาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ชาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + male",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + คนที่ไม่มีมดลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "น้องชาย",
+     "rtgs": "nong-chai",
+     "ipa": "/nɔːŋ˦˥.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "younger brother"
+      ],
+      "th": "น้องที่เป็นเพศชาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้อง",
+      "ชาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ผู้ร่วมบิดาหรือมารดาเดียวกันและเกิ + คนที่ไม่มีมดลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "องค์ชาย",
+     "rtgs": "ong-chai",
+     "ipa": "/ʔoŋ˧.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เจ้าชาย, บุตรชายของพระราชา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "องค์",
+      "ชาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนของร่างกาย + คนที่ไม่มีมดลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "เด็กชาย",
+     "rtgs": "dek-chai",
+     "ipa": "/dek̚˨˩.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "boy"
+      ],
+      "th": "เด็กที่เป็นเพศชาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เด็ก",
+      "ชาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "child + male",
+     "lit_th": "คนที่มีอายุยังน้อย + คนที่ไม่มีมดลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "สมชาย",
+     "rtgs": "som-chai",
+     "ipa": "/som˩˩˦.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีคุณสมบัติอย่างผู้ชาย เช่น กำยำ เข้มแข็ง กล้าหาญ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สม",
+      "ชาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "suitable + male",
+     "lit_th": "เหมาะ + คนที่ไม่มีมดลูก",
+     "frame": "quality"
+    },
+    {
+     "th": "เจ้าชาย",
+     "rtgs": "chao-chai",
+     "ipa": "/t͡ɕaːw˥˩.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "prince"
+      ],
+      "th": "บุตรชายของพระราชา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เจ้า",
+      "ชาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เจ้า"
+     ],
+     "lit": "thou + male",
+     "lit_th": "ผู้เป็นใหญ่ + คนที่ไม่มีมดลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "พี่ชาย",
+     "rtgs": "phi-chai",
+     "ipa": "/pʰiː˥˩.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "elder brother"
+      ],
+      "th": "พี่ที่เป็นเพศชาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พี่",
+      "ชาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ผู้ร่วมบิดาหรือมารดาเดียวกันและเกิ + คนที่ไม่มีมดลูก",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ส่วนริมหรือปลายของสิ่งของบางอย่าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชาย 'edge, hem'."
+   ],
+   "compounds": [
+    {
+     "th": "ชายพก",
+     "rtgs": "chai-phok",
+     "ipa": "/t͡ɕʰaːj˧.pʰok̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ริมผ้านุ่งที่ดึงรวบขึ้นมาไขว้กัน เหน็บไว้ที่บริเวณสะดือ แล้วดึงชายข้างใดข้างหนึ่งให้ยาวกว่า มีลักษณะคล้ายถุงเล็ก ๆ เหน็บไว้ที่เอว ใส่เงินหรือหมากเป็นต้นได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชาย",
+      "พก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนริมหรือปลายของสิ่งของบางอย่าง + ริมผ้านุ่งที่ดึงรวบขึ้นมาไขว้ไว้ที",
+     "frame": "entity"
+    },
+    {
+     "th": "ชายคา",
+     "rtgs": "chai-kha",
+     "ipa": "/t͡ɕʰaːj˧.kʰaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนที่สุดของหลังคาหรือปลายกันสาดที่ยื่นพ้นตัวเรือนออกมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชาย",
+      "คา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คา"
+     ],
+     "lit": "male + cangue",
+     "lit_th": "ส่วนริมหรือปลายของสิ่งของบางอย่าง + เครื่องจำคอนักโทษ ทำด้วยไม้",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ส่วนที่สุดเขต, ริม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ชายทะเล",
+     "rtgs": "chai-tha-le",
+     "ipa": "/t͡ɕʰaːj˧.tʰa˦˥.leː˧/",
+     "gloss": {
+      "en": [
+       "shore",
+       "maritime"
+      ],
+      "th": "เขตระหว่างแนวน้ำทะเลลงต่ำสุดกับแนวน้ำทะเลขึ้นสูงสุด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชาย",
+      "ทะเล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทะเล"
+     ],
+     "lit": "male + sea",
+     "lit_th": "ส่วนที่สุดเขต + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+     "frame": "entity"
+    },
+    {
+     "th": "ชายแดน",
+     "rtgs": "chai-daen",
+     "ipa": "/t͡ɕʰaːj˧.dɛːn˧/",
+     "gloss": {
+      "en": [
+       "border",
+       "frontier",
+       "march"
+      ],
+      "th": "บริเวณเขตแดนหรือพื้นที่ที่อยู่สุดเขตแดนของประเทศ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชาย",
+      "แดน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนที่สุดเขต + ที่ที่กำหนดไว้โดยตรงหรือโดยหมายรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "ชายหาด",
+     "rtgs": "chai-hat",
+     "ipa": "/t͡ɕʰaːj˧.haːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "beach"
+      ],
+      "th": "หาด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชาย",
+      "หาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "male + beach",
+     "lit_th": "ส่วนที่สุดเขต + เนินที่ลาดลงไปในน้ำหรือบริเวณที่ตื",
+     "frame": "entity"
+    },
+    {
+     "th": "ชายฝั่ง",
+     "rtgs": "chai-fang",
+     "ipa": "/t͡ɕʰaːj˧.faŋ˨˩/",
+     "gloss": {
+      "en": [
+       "bank"
+      ],
+      "th": "แถบแผ่นดินนับจากแนวชายทะเลขึ้นไปบนบกจนถึงบริเวณที่มีลักษณะภูมิประเทศเปลี่ยนแปลงอย่างเด่นชัด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชาย",
+      "ฝั่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนที่สุดเขต + ที่ดินริมน้ำเป็นขอบเขตทะเล แม่น้ำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ชายเฟือย",
+     "rtgs": "chai-fueai",
+     "ipa": "/t͡ɕʰaːj˧.fɯa̯j˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ริมน้ำที่มีหญ้ารก ๆ หรือมีไม้น้ำปกคลุม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชาย",
+      "เฟือย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนที่สุดเขต + ที่ริมน้ำซึ่งมีหญ้าหรือไม้ขึ้นระกะ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "The hem widened to any edge or boundary.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "พัดอ่อน ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ชาย 'to blow softly, to slant, to move along'."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "คล้อย, บ่าย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "The light movement becomes the sun's slanting: to decline toward evening.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เดินเลียบเคียงไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "And a person moving alongside, edging along.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เห็นจะ, ค่อนข้าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำนาม, คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "metaphor",
+   "via_note": "And bleached to a hedge: rather, likely.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 14 manuscript titles, 256 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 19; domain seeded by keyword hits ['เดิน', 'ไป'].",
+ "compounds_unassigned": [
+  {
+   "th": "การชาย",
+   "rtgs": "kan-chai",
+   "ipa": "/kaːn˧.t͡ɕʰaːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ชาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + คนที่ไม่มีมดลูก",
+   "frame": "entity"
+  },
+  {
+   "th": "กระชาย",
+   "rtgs": "kra-chai",
+   "ipa": "/kra˨˩.t͡ɕʰaːj˧/",
+   "gloss": {
+    "en": [
+     "fingerroot"
+    ],
+    "th": "ชื่อไม้ล้มลุกชนิด Boesenbergia rotunda (L.) Mansf. ในวงศ์ Zingiberaceae สูงประมาณ 60 เซนติเมตร มีลำต้นอยู่ใต้ดินเป็นหัวกลม ๆ มีรากสะสมอาหาร ซึ่งเรียวยาว อวบน้ำ ออกเป็นกระจุก ใช้เป็นผักและเป็นเครื่องปรุงประกอบอาหาร",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "ชาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *ʑaːjᴬ (“เพศชาย”); ร่วมเชื้อสายกับลาว ຊາຍ (ซาย), คำเมือง ᨩᩣ᩠ᨿ (ชาย), ไทลื้อ ᦋᦻ (ชาย), ไทดำ ꪋꪱꪥ (จฺาย), ไทใหญ่ ၸၢႆး (จ๊าย), ไทใต้คง ᥓᥣᥭᥰ (จ๊าย), อาหม 𑜋𑜩 (ฉย์), จ้วง sai สืบทอดจากไทดั้งเดิม *ʑaːjᴬ (“ริม, ขอบ”); ร่วมเชื้อสายกับลาว ຊາຍ (ซาย)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨩᩣ᩠ᨿ",
+  "th": "ชาย",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:chai",
+   "label": "ใจ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"chai\". ชาย is chaai, ใจ is jai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:chai-2",
+   "label": "ชัย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"chai\". ชาย is chaai, ชัย is chai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "male"
+ ]
+}

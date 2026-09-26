@@ -1,0 +1,9 @@
+{
+ "head": "sai",
+ "rule": "สาย is two words in one entry — the mid-morning hour (1-3) and the long thin thing (4-9) — and every unfiled compound belongs to the second. Sense 4, the line itself, takes almost all of them, and the range is the point: a cord (สายสิญจน์, สายพาน, สายดือ), a wire (เดินสาย, สายอากาศ, เครื่องสาย), a flow (สายน้ำ, สายฟ้า), a filament (สายไหม), a reach (สายตา), a creature named for its arms (หมึกสาย), and a procession of lamps strung down a river (กระทงสาย). Sense 7 is the line of DESCENT and takes สายโลหิต and สืบสาย. Sense 5 (ทาง, เส้นทาง) was empty and takes สายเขียว: the modern สาย- that names which line a person runs on, the cannabis crowd being a track someone follows rather than a route on a map.",
+ "senses": {
+  "4": ["กระทงสาย","หมึกสาย","สายดือ","สายตา","สายน้ำ","สายพาน","สายฟ้า","สายสิญจน์","สายอากาศ","สายใจ","สายไหม","เครื่องสาย","เดินสาย","เส้นสาย"],
+  "5": ["สายเขียว"],
+  "7": ["สายโลหิต","สืบสาย"]
+ }
+}

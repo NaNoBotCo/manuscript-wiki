@@ -1,0 +1,822 @@
+{
+ "id": "w:mun",
+ "th": "มูล",
+ "status": "mapped",
+ "rtgs": "mun",
+ "paiboon": "muun",
+ "ipa": "/muːn˧/",
+ "syllable_respelling": "มูน-ละ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "base",
+     "root",
+     "foot"
+    ],
+    "th": "โคน",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: มูล < Pali mūla 'root, base'.",
+    "Declared root: มูล < Pali mūla 'root, base'.",
+    "Declared root: มูล < Pali mūla 'root, base'.",
+    "Declared root: มูล < Pali mūla 'root, base'.",
+    "Declared root: มูล < Pali mūla 'root, base'."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ราก, รากเหง้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The base widened to the root, the stock.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "มูลฐาน",
+     "rtgs": "mun-la-than",
+     "ipa": "/muːn˧.la˦˥.tʰaːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "basic"
+      ],
+      "th": "พื้นฐาน, รากฐาน, เค้ามูล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มูล",
+      "ฐาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฐาน"
+     ],
+     "lit": "base + bottom",
+     "lit_th": "ราก + ที่ตั้ง",
+     "frame": "entity"
+    },
+    {
+     "th": "คำมูล",
+     "rtgs": "kham-mun",
+     "ipa": "/kʰam˧.muːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำคำเดียวที่ไม่ได้ประสมกับคำอื่น เช่น ยาม แขก นาฬิกา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "มูล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "word + base",
+     "lit_th": "เสียงพูด + ราก",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "เค้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "The root of a matter: its trace, its origin.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ข้อมูล",
+     "rtgs": "kho-mun",
+     "ipa": "/kʰɔː˥˩.muːn˧/",
+     "gloss": {
+      "en": [
+       "dope",
+       "input"
+      ],
+      "th": "ข้อเท็จจริง หรือสิ่งที่ถือหรือยอมรับว่าเป็นข้อเท็จจริง สำหรับใช้เป็นหลักอนุมานหาความจริงหรือการคำนวณ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ข้อ",
+      "มูล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่อยู่ระหว่างปล้องของไม้ไผ่หร + เค้า",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "ต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "The beginning, the first of a thing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "มวล, ทั้งหมด, ทั้งสิ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The base taken as the whole of it: the total, the sum.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "พร้อมมูล",
+     "rtgs": "phrom-mun",
+     "ipa": "/pʰrɔːm˦˥.muːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริบูรณ์, มีครบทุกอย่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พร้อม",
+      "มูล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "fit + base",
+     "lit_th": "คำแสดงกิริยาร่วมกัน + มวล"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "อุจจาระสัตว์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ถ่ายมูล",
+     "rtgs": "thai-mun",
+     "ipa": "/tʰaːj˨˩.muːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขี้ (ใช้แก่สัตว์)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ถ่าย",
+      "มูล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.39, next 0.26",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอาออกจากที่หนึ่งไปใส่อีกที่หนึ่ง + อุจจาระสัตว์"
+    },
+    {
+     "th": "มูลโค",
+     "translit_auto": "mulk",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ขี้วัว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มูล",
+      "โค"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โค"
+     ],
+     "lit": "base + cow",
+     "lit_th": "อุจจาระสัตว์ + วัว",
+     "frame": "entity"
+    },
+    {
+     "th": "มูลกระบือ",
+     "translit_auto": "mulkrabue",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ขี้ควาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มูล",
+      "กระบือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "อุจจาระสัตว์ + ควาย",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: มูล 'dung' — a separate word.",
+    "Declared root: มูล 'dung' — a separate word.",
+    "Declared root: มูล 'dung' — a separate word.",
+    "Declared root: มูล 'dung' — a separate word.",
+    "Declared root: มูล 'dung' — a separate word."
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 7]"
+    ],
+    "th": "ขี้หรือเศษของสิ่งต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "มูลค่า",
+     "rtgs": "mun-la-kha",
+     "ipa": "/muːn˧.la˦˥.kʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "value",
+       "worth"
+      ],
+      "th": "ค่าของสิ่งของ, ราคาของสิ่งของ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มูล",
+      "ค่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.12, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ค่า"
+     ],
+     "lit": "base + value",
+     "lit_th": "ขี้หรือเศษของสิ่งต่าง ๆ + มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ",
+     "frame": "entity"
+    },
+    {
+     "th": "มูลดิน",
+     "translit_auto": "muldin",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กองดิน, ขี้ดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มูล",
+      "ดิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "base + soil",
+     "lit_th": "ขี้หรือเศษของสิ่งต่าง ๆ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 6,
+   "via": "generalisation",
+   "via_note": "Dung widened to the residue or dross of anything.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 8]"
+    ],
+    "th": "ดาวฤกษ์ที่ 19 มี 9 ดวง เห็นเป็นรูปสะดือนาค, ดาวช้างน้อย หรือ ดาวแมว ก็เรียก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: ดาวมูล, the nineteenth lunar mansion.",
+    "Declared root: ดาวมูล, the nineteenth lunar mansion.",
+    "Declared root: ดาวมูล, the nineteenth lunar mansion.",
+    "Declared root: ดาวมูล, the nineteenth lunar mansion.",
+    "Declared root: ดาวมูล, the nineteenth lunar mansion."
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 9]"
+    ],
+    "th": "ชื่อแม่น้ำในภาคตะวันออกเฉียงเหนือของไทย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, proper noun",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำวิสามานยนาม",
+   "domains": [
+    "d:animal"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ทรายมูล",
+     "rtgs": "sai-mun",
+     "ipa": "/saːj˧.muːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดยโสธร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทราย",
+      "มูล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ทราย"
+     ],
+     "lit": "sand + base",
+     "lit_th": "วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ + ชื่อแม่น้ำในภาคตะวันออกเฉียงเหนือข",
+     "frame": "entity"
+    },
+    {
+     "th": "ลำมูล",
+     "rtgs": "lam-mun",
+     "ipa": "/lam˧.muːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโนนสูง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลำ",
+      "มูล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ตัวของคน สัตว์ หรือสิ่งต่าง ๆ ไม่น + ชื่อแม่น้ำในภาคตะวันออกเฉียงเหนือข",
+     "frame": "entity"
+    },
+    {
+     "th": "ดงมูล",
+     "rtgs": "dong-mun",
+     "ipa": "/doŋ˧.muːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอหนองกุงศรี จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดง",
+      "มูล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดง"
+     ],
+     "lit": "deep forest + base",
+     "lit_th": "ป่าที่มีต้นไม้ใหญ่ขึ้นหนาแน่น + ชื่อแม่น้ำในภาคตะวันออกเฉียงเหนือข",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: แม่น้ำมูล, the Mun river.",
+    "Declared root: แม่น้ำมูล, the Mun river.",
+    "Declared root: แม่น้ำมูล, the Mun river.",
+    "Declared root: แม่น้ำมูล, the Mun river.",
+    "Declared root: แม่น้ำมูล, the Mun river."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 80 manuscript titles, 15 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 16; domain seeded by keyword hits ['แมว', 'ช้าง', 'สัตว์'].",
+ "compounds_unassigned": [
+  {
+   "th": "ประมูล",
+   "rtgs": "pra-mun",
+   "ipa": "/pra˨˩.muːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เสนอราคาแข่งขันกันในการซื้อหรือขายทรัพย์สินเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ประ",
+    "มูล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: to bid at auction. The dictionary says มาจากภาษาเขมร ប្រមូល (ปฺรมูล, 'รวบรวม, ตะล่อมเข้าด้วยกัน') — Khmer pramūl, to gather. Nothing to do with มูล.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit_th": "ใช้เติมหน้าคำอื่นเพื่อให้คำหนักแน่ + โคน",
+   "use": "false-split"
+  },
+  {
+   "th": "การถ่ายมูล",
+   "rtgs": "kan-thai-mun",
+   "ipa": "/kaːn˧.tʰaːj˨˩.muːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ถ่ายมูล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การถ่าย",
+    "มูล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ถ่าย + โคน",
+   "frame": "entity"
+  },
+  {
+   "th": "ความพร้อมมูล",
+   "rtgs": "khwam-phrom-mun",
+   "ipa": "/kʰwaːm˧.pʰrɔːm˦˥.muːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ พร้อมมูล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความพร้อม",
+    "มูล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ พร้อม + โคน",
+   "frame": "entity"
+  },
+  {
+   "th": "การประมูล",
+   "rtgs": "kan-pra-mun",
+   "ipa": "/kaːn˧.pra˨˩.muːn˧/",
+   "gloss": {
+    "en": [
+     "auction",
+     "bid"
+    ],
+    "th": "คำอาการนามของ ประมูล",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การประ",
+    "มูล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ประ + โคน",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต मूल (มูล, “ราก”) หรือบาลี มูล (“ราก”); ร่วมเชื้อสายกับลาว ມູນ (มูน), เขมร មូល (มูล) ยืมมาจากบาลี มูล ยืมมาจากบาลี มูลา ยืมมาจากอีสาน มูน (“มั่งคั่ง, มั่งมี, (ของ)มีค่า”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

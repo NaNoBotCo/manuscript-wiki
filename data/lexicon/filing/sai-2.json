@@ -1,0 +1,8 @@
+{
+ "head": "sai-2",
+ "rule": "ทราย is sand, and the only call is sense 1 against sense 2 — real sand against things NAMED for it. Sense 1 takes actual sand in every use: the grades (ทรายแป้ง, ทรายถม, ทรายแก้ว), the desert, the casting core, the sandbag, and นาฬิกาทราย, an hourglass, which runs on the real thing. Sense 2 takes what only resembles it: ทรายแมว, whose own gloss says วัสดุคล้ายทราย, and ขนมทราย, a sweet named for its grain, beside น้ำตาลทราย and กระดาษทราย already there.",
+ "senses": {
+  "1": ["กระสอบทราย","ทรายถม","ทรายแก้ว","ทรายแป้ง","ทะเลทราย","นาฬิกาทราย","แกนทราย"],
+  "2": ["ขนมทราย","ทรายแมว"]
+ }
+}

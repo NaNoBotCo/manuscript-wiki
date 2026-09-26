@@ -1,0 +1,41 @@
+{
+ "head": "kham",
+ "rule": "คำ is two words and a place-name habit sharing one entry: speech (1-6), gold (7), and the northern toponym (8). Among the speech senses the line that does the work is sense 2 against sense 3. Sense 2 is a word or utterance IN THE WORLD — a thing someone said, asked, promised, ruled or went back on (คำถาม, คำสั่ง, คำพิพากษา, คำมั่น, กลับคำ, คืนคำ). Sense 3 is the grammarian's คำ-, naming a CLASS OF WORD inside a description of the language, and its existing occupant คำมูล sets the pattern: คำเป็น, คำตาย, คำประสม, คำยืม, คำตั้ง, คำเติม, หน่วยคำ, ลูกคำ. The test is where the compound lives — in the mouth or in the grammar book. Sense 7 is gold and takes หอคำ, whose etymology says so outright: หอ ('หอ, วัง') + คำ ('ทองคำ').",
+ "senses": {
+  "2": [
+   "กลับคำ",
+   "คำคม",
+   "คำถาม",
+   "คำนิยม",
+   "คำประพันธ์",
+   "คำพิพากษา",
+   "คำพูด",
+   "คำมั่น",
+   "คำสนอง",
+   "คำสั่ง",
+   "คำเสนอ",
+   "คำแปล",
+   "คำตอบ",
+   "คืนคำ",
+   "ถ้อยคำ",
+   "ปากคำ",
+   "รับคำ"
+  ],
+  "3": [
+   "คำตั้ง",
+   "คำตาย",
+   "คำประสม",
+   "คำผวน",
+   "คำผสม",
+   "คำยืม",
+   "คำสุภาพ",
+   "คำเติม",
+   "คำเป็น",
+   "ลูกคำ",
+   "หน่วยคำ"
+  ],
+  "7": [
+   "หอคำ"
+  ]
+ }
+}

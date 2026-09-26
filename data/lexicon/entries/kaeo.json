@@ -1,0 +1,1228 @@
+{
+ "id": "w:kaeo",
+ "th": "แก้ว",
+ "rtgs": "kaeo",
+ "status": "mapped",
+ "ipa": "/kɛ̂ːw/",
+ "tones": "one syllable, falling — ไม้โท on a mid-class consonant",
+ "syllables": 1,
+ "stratum": "tai",
+ "core_image": "the hard, bright, translucent, precious thing",
+ "core_image_th": "ของแข็ง ใส วาว และมีค่า",
+ "loose_key": "แกว",
+ "freq": "core",
+ "spelling_note": "Differs from แก้ (kae, 'to fix, to solve, to undo') only by the final ว — the commonest miss a learner makes with this word.",
+ "lanna": {
+  "th": "แก้ว",
+  "tham": "ᨠᩯ᩶ᩅ",
+  "rtgs": "kaeo",
+  "note": "The Northern reflex is the same word, and it is heavily productive in Northern toponymy and ritual vocabulary — see sense 4 (ลูกแก้ว) and sense 8.",
+  "conf": "unverified",
+  "src": [
+   "CUR"
+  ]
+ },
+ "etymology": {
+  "summary": "Native Tai. Proto-Tai *kɛːwꟲ, glossed both 'glass' and 'gem' — cognate with Lao ແກ້ວ, Northern Thai แก้ว, and Shan. Glass beads arrived in mainland Southeast Asia as trade goods and were themselves treasure, so the substance-sense and the gem-sense are not obviously separable in the ancestor.",
+  "summary_th": "คำไทดั้งเดิม ไทดั้งเดิม *kɛːwꟲ มีความหมายทั้ง 'แก้ว(วัสดุ)' และ 'อัญมณี' ตรงกับลาว ແກ້ວ คำเมือง แก้ว และไทใหญ่",
+  "chain": [
+   "e:pt:*kɛːwꟲ"
+  ],
+  "conf": "probable",
+  "src": [
+   "CUR",
+   "SEALANG"
+  ]
+ },
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "glass"
+    ],
+    "th": "วัตถุแข็ง ใส ทำจากทรายหลอม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "def": "Glass as a substance — the hard transparent material itself.",
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "register": [
+    "reg:day"
+   ],
+   "domains": [
+    "d:material"
+   ],
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "จอแก้ว",
+     "rtgs": "cho kaeo",
+     "gloss": {
+      "en": [
+       "television",
+       "the small screen"
+      ],
+      "th": "โทรทัศน์"
+     },
+     "parts": [
+      "จอ",
+      "แก้ว"
+     ],
+     "lit": "glass screen",
+     "register": [
+      "reg:day"
+     ],
+     "note": "ละครจอแก้ว 'a TV drama' is the usual carrier. Now slightly dated, as screens stopped being glass.",
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit_th": "ชื่อปีที่ 11 ของรอบปีนักษัตร มีหมา + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    },
+    {
+     "th": "กระเปาะแก้ว",
+     "rtgs": "krapo kaeo",
+     "gloss": {
+      "en": [
+       "glass bulb",
+       "glass bulb of an instrument"
+      ],
+      "th": "ส่วนที่เป็นกระเปาะทำด้วยแก้ว"
+     },
+     "parts": [
+      "กระเปาะ",
+      "แก้ว"
+     ],
+     "lit": "glass bulb",
+     "note": "The RID uses it to define นาฬิกาทราย, an hourglass: two glass bulbs joined by a narrow hole.",
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit_th": "เรียกสิ่งที่มีสัณฐานคล้ายคลึงรูปนู + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    },
+    {
+     "th": "ใยแก้ว",
+     "rtgs": "yai kaeo",
+     "gloss": {
+      "en": [
+       "fibreglass",
+       "glass wool"
+      ],
+      "th": "เส้นใยที่ทำจากแก้ว"
+     },
+     "parts": [
+      "ใย",
+      "แก้ว"
+     ],
+     "lit": "glass fibre",
+     "conf": "standard",
+     "src": [
+      "CUR"
+     ],
+     "lit_th": "สิ่งที่เป็นเส้นเล็ก ๆ บาง ๆ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    },
+    {
+     "th": "กระดาษแก้ว",
+     "rtgs": "kradat kaeo",
+     "gloss": {
+      "en": [
+       "cellophane",
+       "glassine"
+      ],
+      "th": "กระดาษบางใสอย่างแก้ว"
+     },
+     "parts": [
+      "กระดาษ",
+      "แก้ว"
+     ],
+     "lit": "glass paper",
+     "note": "Named for clarity, not for grit — it is NOT English 'glasspaper' (sandpaper).",
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit_th": "วัตถุเป็นแผ่นบาง ๆ โดยมากทำจากใยเป + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    }
+   ],
+   "edges": [
+    {
+     "rel": "NEAR_SYNONYM",
+     "to": "w:krachok",
+     "label": "กระจก",
+     "distinction": "กระจก is glass in its flat and reflective form — a pane, a windscreen, a mirror. แก้ว is the substance, and the vessel made of it. You drink from a แก้ว and check your face in a กระจก; neither swaps.",
+     "conf": "standard",
+     "src": [
+      "CUR"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "a glass",
+     "tumbler",
+     "cup"
+    ],
+    "th": "ภาชนะสำหรับใส่น้ำดื่ม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "def": "A drinking vessel — by default glass, but the word survives the material, so a paper แก้ว and a plastic แก้ว are both ordinary Thai.",
+   "pos": "noun, and classifier",
+   "pos_th": "คำนาม, ลักษณนาม",
+   "register": [
+    "reg:day"
+   ],
+   "domains": [
+    "d:material",
+    "d:food"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The substance names the thing made of it — the same move as English 'a glass'. Thai then took it one step further than English does, into the classifier.",
+   "via_note_th": "วัสดุกลายเป็นชื่อภาชนะ แล้วต่อไปเป็นลักษณนาม",
+   "via_conf": "standard",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "classifier": [
+    "ใบ",
+    "ลูก"
+   ],
+   "compounds": [
+    {
+     "th": "แก้วน้ำ",
+     "rtgs": "kaeo nam",
+     "gloss": {
+      "en": [
+       "drinking glass",
+       "water glass"
+      ],
+      "th": "แก้วสำหรับใส่น้ำ"
+     },
+     "parts": [
+      "แก้ว",
+      "น้ำ"
+     ],
+     "lit": "water glass",
+     "register": [
+      "reg:day"
+     ],
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit_th": "วัตถุแข็ง ใส ทำจากทรายหลอม + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "แก้วเบียร์",
+     "rtgs": "kaeo bia",
+     "gloss": {
+      "en": [
+       "beer glass"
+      ],
+      "th": "แก้วสำหรับใส่เบียร์"
+     },
+     "parts": [
+      "แก้ว",
+      "เบียร์"
+     ],
+     "register": [
+      "reg:day"
+     ],
+     "conf": "standard",
+     "src": [
+      "CUR"
+     ],
+     "lit": "glass + beer",
+     "lit_th": "วัตถุแข็ง ใส ทำจากทรายหลอม + น้ำเมาอย่างหนึ่งเป็นชนิดเมรัย",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "สองแก้ว",
+     "rtgs": "song kaeo",
+     "gloss": {
+      "en": [
+       "two glasses (of)",
+       "two cups (of)"
+      ],
+      "th": "จำนวนสองแก้ว"
+     },
+     "lit": "two glass",
+     "is_classifier_use": true,
+     "register": [
+      "reg:day"
+     ],
+     "note": "แก้ว is a live classifier of measure: กาแฟสองแก้ว 'two coffees'. The vessel has become the unit, so ordering is counted in แก้ว whatever the cup is made of.",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "CUR"
+     ]
+    }
+   ],
+   "examples": [
+    {
+     "th": "ขอน้ำเปล่าหนึ่งแก้วครับ",
+     "rtgs": "kho nam plao nueng kaeo khrap",
+     "en": "One glass of plain water, please.",
+     "note": "The classifier use in the wild — หนึ่งแก้ว, not หนึ่งใบ, because what is counted is the serving.",
+     "conf": "standard",
+     "src": [
+      "CUR"
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "gem",
+     "jewel",
+     "crystal",
+     "precious stone"
+    ],
+    "th": "หินหรือแร่ที่มีค่า, รัตนะ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "def": "A gem or jewel — the treasure-sense. Co-primary with sense 1 rather than derived from it: the Proto-Tai etymon already covers both, and which face came first is unsettled.",
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "register": [
+    "reg:elevated",
+    "reg:religious"
+   ],
+   "domains": [
+    "d:religion",
+    "d:royalty",
+    "d:material"
+   ],
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "cultural": "This is the sense that carries the word into Buddhist and royal language, and it is why แก้ว is everywhere in temple and place names. In Thai Buddhist vocabulary แก้ว is the native word that renders Pali ratana 'jewel' — so the Triple Gem, พระรัตนตรัย, is also spoken of as แก้วสามประการ or แก้วทั้งสาม, the three jewels.",
+   "cultural_th": "ความหมายนี้พาคำเข้าสู่ภาษาพระและภาษาราชาศัพท์ แก้ว เป็นคำไทยที่ใช้แทน ratana ในบาลี พระรัตนตรัยจึงเรียกได้ว่า แก้วสามประการ หรือ แก้วทั้งสาม",
+   "compounds": [
+    {
+     "th": "แก้วมณี",
+     "rtgs": "kaeo mani",
+     "gloss": {
+      "en": [
+       "jewel",
+       "gem"
+      ],
+      "th": "รัตนมณี, ของมีค่า"
+     },
+     "parts": [
+      "แก้ว",
+      "มณี"
+     ],
+     "lit": "gem-gem",
+     "note": "A tautological compound: native แก้ว plus Indic มณี (< Pali/Skt maṇi), both meaning 'gem'. Pairing a native word with its Indic synonym is a standard Thai way of raising register, and this is a clean specimen of it.",
+     "note_th": "คำซ้อนสองภาษา — แก้ว (ไทย) + มณี (บาลี-สันสกฤต) แปลว่าอัญมณีทั้งคู่ เป็นวิธีทำให้คำสูงขึ้น",
+     "register": [
+      "reg:elevated"
+     ],
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit_th": "วัตถุแข็ง ใส ทำจากทรายหลอม + แก้วหินมีค่าสีแดง ในจำพวกนพรัตน์ ม",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "แก้วแหวนเงินทอง",
+     "rtgs": "kaeo waen ngoen thong",
+     "gloss": {
+      "en": [
+       "valuables",
+       "worldly treasure",
+       "jewellery and money"
+      ],
+      "th": "ทรัพย์สินมีค่าต่าง ๆ"
+     },
+     "parts": [
+      "แก้ว",
+      "แหวน",
+      "เงิน",
+      "ทอง"
+     ],
+     "lit": "gems, rings, silver and gold",
+     "is_phrase": true,
+     "register": [
+      "reg:day"
+     ],
+     "note": "A fixed four-part phrase for material wealth as a category. It is not a list to be broken up — no one says แก้วแหวน alone.",
+     "conf": "verified",
+     "src": [
+      "RID"
+     ]
+    },
+    {
+     "th": "ลูกแก้ว",
+     "rtgs": "luk kaeo",
+     "gloss": {
+      "en": [
+       "crystal ball",
+       "glass marble",
+       "orb"
+      ],
+      "th": "ลูกกลมทำด้วยแก้ว"
+     },
+     "parts": [
+      "ลูก",
+      "แก้ว"
+     ],
+     "lit": "gem-child, using ลูก as the classifier of round things",
+     "note": "The divination and the child's-toy readings share a form. For the ordination reading, which is a different sense entirely, see sense 4.",
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "frame": "entity"
+    },
+    {
+     "th": "ดวงแก้ว",
+     "rtgs": "duang kaeo",
+     "gloss": {
+      "en": [
+       "orb",
+       "crystal sphere",
+       "a shining gem"
+      ],
+      "th": "แก้วที่เป็นดวงกลม"
+     },
+     "parts": [
+      "ดวง",
+      "แก้ว"
+     ],
+     "lit": "orb-gem",
+     "register": [
+      "reg:elevated",
+      "reg:poetic"
+     ],
+     "note": "ดวง is the classifier of luminous round things — sun, moon, heart, fate — so ดวงแก้ว is a gem framed as something that shines.",
+     "conf": "standard",
+     "src": [
+      "RID",
+      "CUR"
+     ],
+     "lit_th": "คำเรียกสิ่งที่มีลักษณะเป็นรูปกลม ๆ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    },
+    {
+     "th": "พระแก้วมรกต",
+     "rtgs": "phra kaeo morakot",
+     "gloss": {
+      "en": [
+       "the Emerald Buddha"
+      ],
+      "th": "พระพุทธมหามณีรัตนปฏิมากร"
+     },
+     "parts": [
+      "พระ",
+      "แก้ว",
+      "มรกต"
+     ],
+     "lit": "the venerable emerald gem",
+     "is_name": true,
+     "register": [
+      "reg:religious",
+      "reg:elevated"
+     ],
+     "domains": [
+      "d:religion",
+      "d:royalty"
+     ],
+     "note": "The palladium of the Thai kingdom. The image is jade — nephrite or jasper — not emerald; มรกต names the colour, not the stone. It reached Bangkok by way of the Lanna north, which is why the name saturates northern toponymy.",
+     "note_th": "พระพุทธรูปสำคัญของแผ่นดิน ทำจากหยก มิใช่มรกต — มรกตบอกสี ไม่ได้บอกชนิดหิน",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "CUR"
+     ]
+    },
+    {
+     "th": "ร้อยแก้ว",
+     "rtgs": "roi kaeo",
+     "gloss": {
+      "en": [
+       "prose"
+      ],
+      "th": "ความเรียงที่ไม่ใช่ร้อยกรอง"
+     },
+     "parts": [
+      "ร้อย",
+      "แก้ว"
+     ],
+     "lit": "strung gems",
+     "note": "Paired against ร้อยกรอง 'verse', literally 'strung-and-sieved'. The traditional reading is that prose strings its gems freely while verse strings them through a sieve of metre. Treat the motivation as what the tradition says about itself, not as established etymology.",
+     "note_th": "คู่กับ ร้อยกรอง — คำอธิบายตามประเพณีว่า ร้อยแก้ว ร้อยอย่างอิสระ ส่วนร้อยกรองร้อยผ่านแบบแผน",
+     "register": [
+      "reg:elevated"
+     ],
+     "domains": [
+      "d:literature"
+     ],
+     "conf": "traditional",
+     "src": [
+      "RID",
+      "CUR"
+     ],
+     "needs_check": [
+      "Whether the ร้อย here is 'to string' or the numeral 'hundred' is argued; RID's own wording does not settle it."
+     ],
+     "lit_th": "จำนวน 100 คือ 10 สิบหนรวมกัน + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "head": 1
+    }
+   ],
+   "edges": [
+    {
+     "rel": "CALQUES",
+     "to": "e:pali:ratana",
+     "label": "ratana · รัตนะ",
+     "note": "แก้ว is the native Thai rendering of Pali ratana 'jewel'. This is the edge that joins the two halves of the old ThaiRoots data: the native bucket and the indic bucket were describing the same concept and never touched.",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "CUR"
+     ]
+    },
+    {
+     "rel": "SEE_ALSO",
+     "to": "w:mani",
+     "label": "มณี",
+     "conf": "standard",
+     "src": [
+      "CUR"
+     ]
+    }
+   ],
+   "needs_check": [
+    "แก้วสามประการ / แก้วทั้งสาม for the Triple Gem: zero hits in 6,986 manuscript titles and 16,490 item titles, but titles are not text — check page transcriptions and the Northern sermon corpus before calling it common."
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "darling",
+     "treasured one",
+     "the precious one"
+    ],
+    "th": "ผู้เป็นที่รักยิ่ง, สิ่งที่รักยิ่ง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "def": "A person or thing held as treasure. Productive as a term of endearment and as an honorific for a child.",
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "register": [
+    "reg:poetic",
+    "reg:day"
+   ],
+   "domains": [
+    "d:kinship",
+    "d:religion"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "What is precious as a gem is precious as a person. The metaphor is live enough that แก้ว can be attached to almost any beloved noun and be understood.",
+   "via_note_th": "สิ่งมีค่าอย่างอัญมณี กลายเป็นคำเรียกผู้เป็นที่รัก",
+   "via_conf": "standard",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "แก้วตา",
+     "rtgs": "kaeo ta",
+     "gloss": {
+      "en": [
+       "the apple of one's eye",
+       "beloved"
+      ],
+      "th": "ผู้เป็นที่รักดั่งดวงตา"
+     },
+     "parts": [
+      "แก้ว",
+      "ตา"
+     ],
+     "lit": "gem of the eye",
+     "register": [
+      "reg:poetic"
+     ],
+     "note": "Cross-listed at ตา. Note the RID defines แววตา, the eye's shining film, as ใสเป็นแสงวาวดั่งแก้ว 'clear and glistening like glass' — the eye and this word keep meeting.",
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "edges": [
+      {
+       "rel": "COMPOUND_OF",
+       "to": "w:ta",
+       "label": "ตา"
+      }
+     ],
+     "lit_th": "วัตถุแข็ง ใส ทำจากทรายหลอม + พ่อของแม่",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตา"
+     ],
+     "frame": "entity"
+    },
+    {
+     "th": "แก้วตาดวงใจ",
+     "rtgs": "kaeo ta duang chai",
+     "gloss": {
+      "en": [
+       "one's dearest",
+       "heart's treasure"
+      ],
+      "th": "ผู้เป็นที่รักที่สุด"
+     },
+     "parts": [
+      "แก้ว",
+      "ตา",
+      "ดวง",
+      "ใจ"
+     ],
+     "lit": "gem of the eye, orb of the heart",
+     "is_phrase": true,
+     "register": [
+      "reg:poetic"
+     ],
+     "conf": "standard",
+     "src": [
+      "CUR"
+     ]
+    },
+    {
+     "th": "ลูกแก้ว",
+     "rtgs": "luk kaeo",
+     "gloss": {
+      "en": [
+       "beloved child",
+       "precious child"
+      ],
+      "th": "ลูกที่รักดั่งแก้ว"
+     },
+     "parts": [
+      "ลูก",
+      "แก้ว"
+     ],
+     "lit": "gem-child",
+     "register": [
+      "reg:poetic"
+     ],
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกแก้ว",
+     "rtgs": "luk kaeo",
+     "gloss": {
+      "en": [
+       "a boy about to be ordained as a novice"
+      ],
+      "th": "เด็กชายที่จะบวชเป็นสามเณร (ล้านนา/ไทใหญ่)"
+     },
+     "parts": [
+      "ลูก",
+      "แก้ว"
+     ],
+     "lit": "gem-child",
+     "register": [
+      "reg:religious"
+     ],
+     "domains": [
+      "d:religion",
+      "d:ritual"
+     ],
+     "note": "The Northern and Shan ordination sense: the boy being made a novice is the ลูกแก้ว, and the rite that carries him is ปอยส่างลอง / บวชลูกแก้ว. Attested in this corpus — five manuscripts and twenty-one items carry ลูกแก้ว in the title, and three of them are คำเรียกขวัญลูกแก้ว, khwan-calling texts for the ordinand.",
+     "note_th": "ความหมายทางล้านนา-ไทใหญ่ — เด็กชายที่จะบวชเณร เรียกว่า ลูกแก้ว พิธีคือปอยส่างลอง หรือบวชลูกแก้ว",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "catalog.db"
+     ],
+     "edges": [
+      {
+       "rel": "ATTESTED_IN",
+       "to": "ms:327",
+       "label": "คำเรียกขวัญลูกแก้ว และคำส่งอุบาทว์",
+       "conf": "verified",
+       "src": [
+        "catalog.db"
+       ]
+      },
+      {
+       "rel": "ATTESTED_IN",
+       "to": "ms:5134",
+       "label": "คำเรียกขวัญลูกแก้ว",
+       "conf": "verified",
+       "src": [
+        "catalog.db"
+       ]
+      },
+      {
+       "rel": "ATTESTED_IN",
+       "to": "ms:5492",
+       "label": "คำเรียกขวัญลูกแก้ว",
+       "conf": "verified",
+       "src": [
+        "catalog.db"
+       ]
+      },
+      {
+       "rel": "ATTESTED_IN",
+       "to": "ms:6380",
+       "label": "เอาขวัญลูกแก้ว",
+       "conf": "verified",
+       "src": [
+        "catalog.db"
+       ]
+      },
+      {
+       "rel": "SEE_ALSO",
+       "to": "w:khwan",
+       "label": "ขวัญ",
+       "note": "The khwan is called for the ลูกแก้ว before he is ordained — see /khwan.",
+       "conf": "verified",
+       "src": [
+        "CUR"
+       ]
+      }
+     ],
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "a thin clear membrane"
+    ],
+    "th": "เยื่อบางใส",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Restricted to anatomy, and effectively to one word.",
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "register": [
+    "reg:day"
+   ],
+   "domains": [
+    "d:body"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Not the gem but the glass: what is thin, taut and translucent.",
+   "via_conf": "standard",
+   "conf": "standard",
+   "src": [
+    "RID"
+   ],
+   "compounds": [
+    {
+     "th": "แก้วหู",
+     "rtgs": "kaeo hu",
+     "gloss": {
+      "en": [
+       "eardrum",
+       "tympanic membrane"
+      ],
+      "th": "เยื่อแก้วหู"
+     },
+     "parts": [
+      "แก้ว",
+      "หู"
+     ],
+     "lit": "glass of the ear",
+     "domains": [
+      "d:body",
+      "d:medicine"
+     ],
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit_th": "วัตถุแข็ง ใส ทำจากทรายหลอม + ส่วนหนึ่งของร่างกายคนและสัตว์ ทำหน",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หู"
+     ],
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "parrot (in นกแก้ว)"
+    ],
+    "th": "นกแก้ว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "def": "Bound to the bird name; แก้ว alone does not mean parrot.",
+   "pos": "noun (bound)",
+   "pos_th": "คำนาม (ใช้ประกอบ)",
+   "register": [
+    "reg:day"
+   ],
+   "domains": [
+    "d:animal"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "The usual explanation is the plumage: a gem-coloured bird. Recorded here as the tradition's account of the name, not as established etymology.",
+   "via_note_th": "คำอธิบายที่ใช้กันคือสีขนงามอย่างอัญมณี — บันทึกไว้ในฐานะคำอธิบายตามประเพณี",
+   "via_conf": "traditional",
+   "conf": "verified",
+   "src": [
+    "RID"
+   ],
+   "compounds": [
+    {
+     "th": "นกแก้ว",
+     "rtgs": "nok kaeo",
+     "gloss": {
+      "en": [
+       "parrot",
+       "parakeet"
+      ],
+      "th": "ชื่อนกปากงุ้มเป็นขอ สีสันสดใส"
+     },
+     "parts": [
+      "นก",
+      "แก้ว"
+     ],
+     "lit": "gem bird",
+     "domains": [
+      "d:animal"
+     ],
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit_th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "The gem-plumage motivation is the common account; no source consulted here establishes it. Zero hits in the manuscript corpus, so this word does not touch the tradition material."
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "orange jessamine",
+     "and a naming element in plant names"
+    ],
+    "th": "ชื่อไม้พุ่มดอกขาวหอม; ใช้ประกอบชื่อพรรณไม้"
+   },
+   "def": "Plants named for the gem — for white flowers, for pale fine hard wood, or simply for value.",
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "register": [
+    "reg:day"
+   ],
+   "domains": [
+    "d:plant"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Orange jessamine earns it twice: white flowers like cut glass, and a dense pale wood valued by carvers.",
+   "via_conf": "probable",
+   "conf": "verified",
+   "src": [
+    "RID"
+   ],
+   "compounds": [
+    {
+     "th": "ต้นแก้ว",
+     "rtgs": "ton kaeo",
+     "gloss": {
+      "en": [
+       "orange jessamine",
+       "Murraya paniculata"
+      ],
+      "th": "ไม้พุ่มดอกขาวกลิ่นหอม"
+     },
+     "parts": [
+      "ต้น",
+      "แก้ว"
+     ],
+     "domains": [
+      "d:plant"
+     ],
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit": "trunk + glass",
+     "lit_th": "ลำของต้นไม้ + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    },
+    {
+     "th": "ดอกแก้ว",
+     "rtgs": "dok kaeo",
+     "gloss": {
+      "en": [
+       "the orange-jessamine flower"
+      ],
+      "th": "ดอกของต้นแก้ว"
+     },
+     "parts": [
+      "ดอก",
+      "แก้ว"
+     ],
+     "domains": [
+      "d:plant"
+     ],
+     "conf": "verified",
+     "src": [
+      "RID"
+     ],
+     "lit": "flower + glass",
+     "lit_th": "ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    },
+    {
+     "th": "แก้วมังกร",
+     "rtgs": "kaeo mangkon",
+     "gloss": {
+      "en": [
+       "dragon fruit",
+       "pitaya"
+      ],
+      "th": "ผลไม้เปลือกสีชมพูเนื้อขาว"
+     },
+     "parts": [
+      "แก้ว",
+      "มังกร"
+     ],
+     "lit": "dragon's gem",
+     "domains": [
+      "d:plant",
+      "d:food"
+     ],
+     "note": "A modern coinage for an introduced fruit, and evidence the gem-sense is still productive for naming.",
+     "conf": "standard",
+     "src": [
+      "CUR"
+     ],
+     "lit_th": "วัตถุแข็ง ใส ทำจากทรายหลอม + สัตว์ในนิยายจีน รูปร่างคล้ายงู แต่",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "แก้วเจ้าจอม",
+     "rtgs": "kaeo chao chom",
+     "gloss": {
+      "en": [
+       "lignum vitae",
+       "Guaiacum officinale"
+      ],
+      "th": "ชื่อไม้ต้นดอกสีฟ้าม่วง"
+     },
+     "parts": [
+      "แก้ว",
+      "เจ้าจอม"
+     ],
+     "lit": "the royal consort's gem",
+     "domains": [
+      "d:plant"
+     ],
+     "conf": "standard",
+     "src": [
+      "RID",
+      "CUR"
+     ],
+     "lit_th": "วัตถุแข็ง ใส ทำจากทรายหลอม + ตำแหน่งภรรยาของพระมหากษัตริย์ ซึ่ง",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "Kaeo (as a personal name and a place-name element)"
+    ],
+    "th": "ใช้เป็นชื่อบุคคลและส่วนประกอบของชื่อสถานที่"
+   },
+   "def": "One of the most productive naming elements in Thai and especially in the Lanna north — as a given name, a nickname, a royal style, and a component of temple, hill and water names.",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "register": [
+    "reg:day",
+    "reg:elevated"
+   ],
+   "domains": [
+    "d:name",
+    "d:place"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "Naming a child or a place a gem is a blessing, not a description. This sense is the reason แก้ว saturates the northern map.",
+   "via_note_th": "การตั้งชื่อคนหรือสถานที่ว่าแก้วเป็นการให้พร มิใช่การพรรณนา",
+   "via_conf": "standard",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "wichaa.segdict",
+    "wat-registry"
+   ],
+   "cultural": "Counted in this project's own data rather than asserted: 59 of the segmentation dictionary's place-name entries carry แก้ว, and 138 of the 5,333 wats in the northern registry are named with it — ดอนแก้ว, ดอยแก้ว, ห้วยแก้ว, เวียงแก้ว, พระธาตุดอยแก้ว. It also heads Lanna noble styles: พญาแก้ว, ม่อนพญาแก้ว.",
+   "cultural_th": "นับจากข้อมูลของโครงการเอง — ชื่อสถานที่ในพจนานุกรมตัดคำ 59 รายการ และวัดในทะเบียนภาคเหนือ 138 จาก 5,333 วัด มีคำว่าแก้ว",
+   "compounds": [
+    {
+     "th": "ห้วยแก้ว",
+     "rtgs": "huai kaeo",
+     "gloss": {
+      "en": [
+       "Huai Kaeo — 'gem creek'"
+      ],
+      "th": "ชื่อห้วยและถนนในเชียงใหม่"
+     },
+     "parts": [
+      "ห้วย",
+      "แก้ว"
+     ],
+     "lit": "gem creek",
+     "is_name": true,
+     "domains": [
+      "d:place"
+     ],
+     "note": "In Chiang Mai the best-known bearer: the creek, and the road that climbs from it toward Doi Suthep.",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "wichaa.segdict"
+     ],
+     "lit_th": "แอ่งน้ำลึกกว้างมีทางน้ำไหลจากภูเขา + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ห้วย"
+     ],
+     "frame": "entity"
+    },
+    {
+     "th": "ดอนแก้ว",
+     "rtgs": "don kaeo",
+     "gloss": {
+      "en": [
+       "Don Kaeo — 'gem rise'"
+      ],
+      "th": "ชื่อตำบลและวัดหลายแห่ง"
+     },
+     "parts": [
+      "ดอน",
+      "แก้ว"
+     ],
+     "lit": "gem hillock",
+     "is_name": true,
+     "domains": [
+      "d:place"
+     ],
+     "note": "Among the commonest northern names — four separate wats in the registry carry it alone.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ],
+     "lit_th": "พื้นที่ที่น้ำท่วมไม่ถึง + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ดอน"
+     ],
+     "frame": "entity"
+    },
+    {
+     "th": "เวียงแก้ว",
+     "rtgs": "wiang kaeo",
+     "gloss": {
+      "en": [
+       "Wiang Kaeo — 'gem walled-city'"
+      ],
+      "th": "ชื่อสถานที่"
+     },
+     "parts": [
+      "เวียง",
+      "แก้ว"
+     ],
+     "lit": "gem citadel",
+     "is_name": true,
+     "domains": [
+      "d:place"
+     ],
+     "conf": "verified",
+     "src": [
+      "wichaa.segdict"
+     ],
+     "lit_th": "เมืองที่มีกำแพงล้อม + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    }
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "138 of 5,333 northern wats",
+     "note": "A counted edge, not an asserted one — re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kaeo~2",
+   "label": "แกว",
+   "why": "tone-only",
+   "note": "แกว, mid tone, no tone mark, is an old ethnonym for the Vietnamese and is now offensive; it is not to be used. It shares this word's phonetic key แกว exactly, so the site's own search collapses the two — which is precisely why the entry has to say so.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "CUR"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kae",
+   "label": "แก้",
+   "why": "spelling",
+   "note": "แก้ 'to fix, solve, undo' differs only by the missing final ว. The commonest learner slip on this word, and the two are unrelated.",
+   "conf": "verified",
+   "src": [
+    "RID"
+   ]
+  },
+  {
+   "rel": "SEE_ALSO",
+   "to": "w:ratana",
+   "label": "รัตนะ",
+   "conf": "standard",
+   "src": [
+    "CUR"
+   ]
+  }
+ ],
+ "conf": "verified",
+ "src": [
+  "RID",
+  "WIKT",
+  "CUR",
+  "catalog.db",
+  "wat-registry",
+  "wichaa.segdict"
+ ],
+ "needs_check": [
+  "Which of sense 1 (glass) and sense 3 (gem) is primary in Proto-Tai. Presented as co-primary; a Tai comparative source would settle it.",
+  "The Tham Lanna orthography ᨠᩯ᩶ᩅ is written from the letter values and has not been checked against a manuscript. The corpus can settle it.",
+  "แก้วสามประการ / แก้วทั้งสาม — register and currency for the Triple Gem; zero title hits here, needs page-text search.",
+  "The gem-plumage motivation for นกแก้ว (sense 6) is traditional, not established."
+ ],
+ "editorial": "The model entry for the schema. It is deliberately over-filled: every field the schema allows appears at least once, so the shape can be argued about on a real word. Sense 4's ordination reading and sense 8's counts are the two places where the lexicon touches the rest of wichaa, and they are the argument for the dictionary living here rather than as a standalone app."
+}

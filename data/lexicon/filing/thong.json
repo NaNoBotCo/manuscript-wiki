@@ -1,0 +1,10 @@
+{
+ "head": "thong",
+ "rule": "ทอง is the metal and sense 1 keeps almost everything that touches it — the gold itself (ทองเค, ทองใบ, กรองทอง), acts on it (ขุดทอง, ตกทอง), objects of it (ทองข้อพระกร, ทองข้อพระบาท, จำลองทอง, เหรียญทอง), and the figures built on its worth (ขวานทอง for Thailand, คานทอง, ดอกทอง). Sense 2 is base metal still called ทอง and takes ทองแดง beside ทองเหลือง. Sense 3 was empty and is the one worth naming: **ใช้ประกอบสิ่งต่าง ๆ โดยอนุโลมตามลักษณะสี เป็นชื่อเรียกเฉพาะ** — ทอง as a NAMING element for things that are merely gold-coloured. It takes the sweets ทองเอก and กระทงทอง, the mango หมอนทอง, and ฝนทอง, the diacritic. อ่างทอง goes to the name-use sense 7: it is a province, and its gloss carries the (จังหวัด~) marker that has been defeating the toponym filer elsewhere — here it was still unfiled, so it could be put where it belongs.",
+ "senses": {
+  "1": ["กรองทอง","ขวานทอง","ขุดทอง","คานทอง","จำลองทอง","ดอกทอง","ตกทอง","ทองข้อพระกร","ทองข้อพระบาท","ทองเค","ทองใบ","เหรียญทอง"],
+  "2": ["ทองแดง"],
+  "3": ["กระทงทอง","ทองเอก","ฝนทอง","หมอนทอง"],
+  "7": ["อ่างทอง"]
+ }
+}

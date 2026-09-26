@@ -1,0 +1,916 @@
+{
+ "id": "w:kon-2",
+ "th": "กล",
+ "status": "mapped",
+ "rtgs": "kon",
+ "paiboon": "gon",
+ "ipa": "/kon˧/",
+ "syllable_respelling": "กน-ละ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "trick",
+     "deception",
+     "stratagem"
+    ],
+    "th": "การลวงหรือล่อลวงให้หลง",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: กล 'trick, deception'.",
+    "Declared root: กล 'trick, deception'.",
+    "Declared root: กล 'trick, deception'."
+   ],
+   "compounds": [
+    {
+     "th": "เล่ห์กล",
+     "rtgs": "le-kon",
+     "ipa": "/leː˥˩.kon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การลวงหรือล่อลวงให้หลงผิดหรือเพื่อให้เข้าใจผิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เล่ห์",
+      "กล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.52, next 0.17",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "กลอุบายหรือเงื่อนงำอันอาจทำให้คนอื + การลวงหรือล่อลวงให้หลง",
+     "frame": "entity"
+    },
+    {
+     "th": "กลอักษร",
+     "rtgs": "kon-la-ak-son",
+     "ipa": "/kon˧.la˦˥.ʔak̚˨˩.sɔːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลบทที่ซ่อนเงื่อนไว้ให้อ่านฉงน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กล",
+      "อักษร"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "trick + letter",
+     "lit_th": "การลวงหรือล่อลวงให้หลง + ตัวหนังสือ",
+     "frame": "entity"
+    },
+    {
+     "th": "กลฉ้อฉล",
+     "rtgs": "kon-cho-chon",
+     "ipa": "/kon˧.t͡ɕʰɔː˥˩.t͡ɕʰon˩˩˦/",
+     "gloss": {
+      "en": [
+       "cheat"
+      ],
+      "th": "การใช้อุบายหลอกลวงด้วยการแสดงข้อความอันเป็นเท็จ หรือการจงใจปิดบังซ่อนเร้นข้อความจริงเพื่อให้ผู้อื่นหลงผิดจนเข้าทำนิติกรรม หรือจนคู่กรณีอีกฝ่ายหนึ่งยอมรับข้อกำหนดอันเป็นภาระอันหนักขึ้นกว่าที่คู่กรณีฝ่ายนั้นจะยอมรับโดยปรกต",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กล",
+      "ฉ้อฉล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "trick + cheat",
+     "lit_th": "การลวงหรือล่อลวงให้หลง + การใช้กลอุบายหลอกลวง",
+     "frame": "entity"
+    },
+    {
+     "th": "กลบท",
+     "rtgs": "kon-la-bot",
+     "ipa": "/kon˧.la˦˥.bot̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำประพันธ์ที่บัญญัติให้ใช้คำหรือสัมผัสเป็นชั้นเชิงยิ่งกว่าธรรมดา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กล",
+      "บท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บท"
+     ],
+     "lit": "trick + unit",
+     "lit_th": "การลวงหรือล่อลวงให้หลง + ข้อความเรื่องหนึ่ง ๆ หรือตอนหนึ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "กลยุทธ์",
+     "rtgs": "kon-la-yut",
+     "ipa": "/kon˧.la˦˥.jut̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิธีการต่อสู้ที่ต้องใช้กลอุบายต่าง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กล",
+      "ยุทธ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "การลวงหรือล่อลวงให้หลง + สงคราม",
+     "frame": "entity"
+    },
+    {
+     "th": "กลเม็ด",
+     "rtgs": "kon-la-met",
+     "ipa": "/kon˧.la˦˥.met̚˦˥/",
+     "gloss": {
+      "en": [
+       "game"
+      ],
+      "th": "วิธีที่แยบคายหรือพลิกแพลง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กล",
+      "เม็ด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "trick + seed",
+     "lit_th": "การลวงหรือล่อลวงให้หลง + ส่วนภายในของผลไม้ที่เพาะเป็นต้นขึ้",
+     "frame": "entity"
+    },
+    {
+     "th": "หลงกล",
+     "rtgs": "long-kon",
+     "ipa": "/loŋ˩˩˦.kon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แพ้รู้ในกลอุบาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลง",
+      "กล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "สำคัญผิด + การลวงหรือล่อลวงให้หลง"
+    },
+    {
+     "th": "กลวิธี",
+     "rtgs": "kon-la-wi-thi",
+     "ipa": "/kon˧.la˦˥.wi˦˥.tʰiː˧/",
+     "gloss": {
+      "en": [
+       "game"
+      ],
+      "th": "วิธีการพลิกแพลงที่อาศัยความชำนาญ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กล",
+      "วิธี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "trick + mean",
+     "lit_th": "การลวงหรือล่อลวงให้หลง + ทำนองหรือหนทางที่จะทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ชอบกล",
+     "rtgs": "chop-kon",
+     "ipa": "/t͡ɕʰɔːp̚˥˩.kon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ต้องด้วยชั้นเชิง, เข้าที, น่าคิด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชอบ",
+      "กล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "like + trick",
+     "lit_th": "พอใจและทำบ่อย ๆ + การลวงหรือล่อลวงให้หลง"
+    },
+    {
+     "th": "เกียจกล",
+     "translit_auto": "keiychkn",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ซ่อนกล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกียจ",
+      "กล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "คด + การลวงหรือล่อลวงให้หลง"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "การเล่นที่ลวงตา, เล่นกล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "มายากล",
+     "rtgs": "ma-ya-kon",
+     "ipa": "/maː˧.jaː˧.kon˧/",
+     "gloss": {
+      "en": [
+       "magic"
+      ],
+      "th": "การเล่นกล, การแสดงกล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "มายา",
+      "กล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.20, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "การลวง + การเล่นที่ลวงตา",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The trick narrowed to the conjuror's trick.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "เครื่องกลไก, เครื่องจักร, เครื่องยนต์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "กลไฟ",
+     "rtgs": "kon-fai",
+     "ipa": "/kon˧.faj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือที่ไปด้วยเครื่องจักร ซึ่งใช้กำลังไอน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กล",
+      "ไฟ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.29, next 0.16",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "trick + fire",
+     "lit_th": "เครื่องกลไก + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    },
+    {
+     "th": "กลไก",
+     "rtgs": "kon-kai",
+     "ipa": "/kon˧.kaj˧/",
+     "gloss": {
+      "en": [
+       "machine",
+       "device"
+      ],
+      "th": "ตัวจักรต่าง ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กล",
+      "ไก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "เครื่องกลไก + ที่สำหรับเหนี่ยวให้ลูกกระสุนเป็นต้",
+     "frame": "entity"
+    },
+    {
+     "th": "กลศาสตร์",
+     "rtgs": "kon-la-sat",
+     "ipa": "/kon˧.la˦˥.saːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วิชาฟิสิกส์สาขาหนึ่ง ที่ศึกษาเกี่ยวกับการกระทำของแรงต่อเทหวัตถุ และผลที่เกิดขึ้นแก่เทหวัตถุนั้นภายหลังที่ถูกแรงมากระทำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กล",
+      "ศาสตร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "trick + discipline",
+     "lit_th": "เครื่องกลไก + ระบบวิชาความรู้",
+     "frame": "entity"
+    },
+    {
+     "th": "ปืนกล",
+     "rtgs": "puen-kon",
+     "ipa": "/pɯːn˧.kon˧/",
+     "gloss": {
+      "en": [
+       "machine gun"
+      ],
+      "th": "ปืนที่มีกลไกยิงได้เร็วมาก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ปืน",
+      "กล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "gun + trick",
+     "lit_th": "อาวุธสำหรับยิงให้ลูกออกจากลำกล้องด + เครื่องกลไก",
+     "frame": "entity"
+    },
+    {
+     "th": "ต้นกล",
+     "rtgs": "ton-kon",
+     "ipa": "/ton˥˩.kon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หัวหน้าช่างกลในเรือเดินทะเล เรือรบ เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "กล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "trunk + trick",
+     "lit_th": "ลำของต้นไม้ + เครื่องกลไก",
+     "frame": "entity"
+    },
+    {
+     "th": "สมองกล",
+     "rtgs": "sa-mong-kon",
+     "ipa": "/sa˨˩.mɔːŋ˩˩˦.kon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คอมพิวเตอร์ (ใช้ในบางบริบท)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สมอง",
+      "กล"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "brain + trick",
+     "lit_th": "ส่วนที่อยู่ภายในกะโหลกศีรษะ มีลักษ + เครื่องกลไก",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A contrivance that works by hidden means: machinery, an engine.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "เช่น, อย่าง, เหมือน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "noun, adjective",
+   "pos_th": "คำนาม, คำคุณศัพท์",
+   "domains": [
+    "d:tool"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: กล 'like, as' — a separate morpheme.",
+    "Declared root: กล 'like, as' — a separate morpheme.",
+    "Declared root: กล 'like, as' — a separate morpheme."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 29 manuscript titles, 824 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits ['จักร', 'เครื่อง'].",
+ "compounds_unassigned": [
+  {
+   "th": "สากล",
+   "rtgs": "sa-kon",
+   "ipa": "/saː˩˩˦.kon˧/",
+   "gloss": {
+    "en": [
+     "international",
+     "universal"
+    ],
+    "th": "ทั่วไป, ทั้งหมด, ทั้งสิ้น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สา",
+    "กล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "หมา + การลวงหรือล่อลวงให้หลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "กลอน",
+   "rtgs": "klon",
+   "ipa": "/klɔːn˧/",
+   "gloss": {
+    "en": [
+     "poem"
+    ],
+    "th": "ไม้ขัดประตูหน้าต่าง, ดาล, เครื่องสลักประตูหน้าต่าง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กล",
+    "อน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the head กล is /kon˧/ and this word is a single syllable with the initial cluster /kl-/, split at the cluster as if กล + X · inherited from Proto-Southwestern-Tai *klɔːnᴬ² — a single etymon",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "การลวงหรือล่อลวงให้หลง + เป็นคำปฏิเสธ แปลว่า ไม่",
+   "use": "false-split"
+  },
+  {
+   "th": "กลอย",
+   "rtgs": "kloi",
+   "ipa": "/klɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อไม้เถามีหนามชนิด Dioscorea hispida Dennst. ในวงศ์ Dioscoreaceae มีหัวกลมใหญ่อยู่ใต้ดิน ใบเป็นใบประกอบ มีใบย่อย 3 ใบ หัวดิบมีพิษเบื่อเมา แต่เมื่อฝานแช่น้ำไหลและนำมานึ่งหรือต้มให้สุกแล้วกินได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กล",
+    "อย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · NOT a compound of this head: the head กล is /kon˧/ and this word is a single syllable with the initial cluster /kl-/, split at the cluster as if กล + X · only Tai cognates on record (Lao ກອຍ, Kham Mueang), each the same single syllable",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "การลวงหรือล่อลวงให้หลง + เหล็ก",
+   "frame": "entity"
+  },
+  {
+   "th": "กลอก",
+   "rtgs": "klok",
+   "ipa": "/klɔːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เคลื่อนหรือขยับเขยื้อนกลับไปกลับมาภายในเขตของสิ่งนั้น ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กล",
+    "อก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the head กล is /kon˧/ and this word is a single syllable with the initial cluster /kl-/, split at the cluster as if กล + X · no etymology on record, but the IPA is one syllable /klɔːk̚˨˩/",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "อก"
+   ],
+   "lit": "trick + chest",
+   "lit_th": "การลวงหรือล่อลวงให้หลง + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "วิกล",
+   "rtgs": "wi-kon",
+   "ipa": "/wi˦˥.kon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่ปรกติ, แปลกไป, ไม่สมบูรณ์, อ่อนแอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "วิ",
+    "กล"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the word is the Sanskrit वikala 'deficient, defective' taken in whole — its meaning reaches no sense of กล, and กล is exactly the kind of short Indic-looking syllable that attracts a false split",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "รูปตัดทอนของ วินาที + การลวงหรือล่อลวงให้หลง",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "กลวง",
+   "rtgs": "kluang",
+   "ipa": "/klua̯ŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เป็นรูเป็นโพรงข้างใน, ไม่ตัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กล",
+    "วง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the head กล is /kon˧/ and this word is a single syllable with the initial cluster /kl-/, split at the cluster as if กล + X · only Tai and Zhuang cognates on record, each the same single syllable",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "trick + zone",
+   "lit_th": "การลวงหรือล่อลวงให้หลง + รูปเขียนมีเส้นล้อมรอบไม่มีเหลี่ยม",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "กลอง",
+   "rtgs": "klong",
+   "ipa": "/klɔːŋ˧/",
+   "gloss": {
+    "en": [
+     "drum"
+    ],
+    "th": "เครื่องตี ขึงด้วยหนัง มีหลายชนิด",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กล",
+    "อง"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "อง"
+   ],
+   "lit": "trick + the Vietnamese royal prefix ong",
+   "lit_th": "การลวงหรือล่อลวงให้หลง + คำนำหน้านามของบุคคลซึ่งเป็นเชื้อพร",
+   "frame": "entity",
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: the head กล is /kon˧/ and this word is a single syllable with the initial cluster /kl-/, split at the cluster as if กล + X · inherited from Proto-Tai *kloːŋᴬ — a single etymon; it is a drum, and it had been filed under sense 3 (machinery) on a gloss similarity of 0.11 against a next-best of 0.00",
+   "use": "false-split",
+   "conf": "verified"
+  }
+ ],
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:kon",
+   "label": "ก้น",
+   "why": "spelling",
+   "distinction": "Both romanise as \"kon\". กล is gon, ก้น is gôn — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ]
+}

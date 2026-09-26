@@ -1,0 +1,4005 @@
+{
+ "id": "w:nam",
+ "th": "น้ำ",
+ "status": "mapped",
+ "rtgs": "nam",
+ "paiboon": "náam",
+ "ipa": "/naːm˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไฮโดรเจนและออกซิเจนในอัตราส่วน 1 : 8 โดยน้ำหนัก สูตรเคมีว่า H₂O เมื่อบริสุทธิ์มีลักษณะเป็นของเหลว ใส ไม่มีสี กลิ่น รส มีประโยชน์มากเช่นใช้ดื่ม ชำระล้างสิ่งสกปรก, โบราณถือว่าเป็น ธาตุ 1 ในธาตุ 4 คือ ดิน น้ำ ไฟ ลม (คำลักษณนามเปลี่ยนไปตามภาชนะ)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "น้ำหนัก",
+     "rtgs": "nam-nak",
+     "ipa": "/nam˦˥.nak̚˨˩/",
+     "gloss": {
+      "en": [
+       "measure",
+       "weight"
+      ],
+      "th": "ความหนักของสิ่งต่าง ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "หนัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "water + heavy",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + มีน้ำหนักมาก",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำดื่ม",
+     "rtgs": "nam-duem",
+     "ipa": "/naːm˦˥.dɯːm˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ดื่มได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ดื่ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "water + drink",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + กิน ใช้แก่เครื่องดื่มอย่างน้ำ เหล้"
+    },
+    {
+     "th": "ห้องน้ำ",
+     "rtgs": "hong-nam",
+     "ipa": "/hɔŋ˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "bathroom",
+       "necessary",
+       "toilet"
+      ],
+      "th": "ห้องอาบน้ำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ห้อง",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "room + water",
+     "lit_th": "ส่วนของเรือนหรือตึกเป็นต้นที่มีฝาก + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ช้างน้ำ",
+     "rtgs": "chang-nam",
+     "ipa": "/t͡ɕʰaːŋ˦˥.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัตว์ในนิยาย มีรูปร่างเหมือนช้าง มีงวงและงาคล้ายช้าง หางเป็นปลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ช้าง",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช้าง"
+     ],
+     "lit": "elephant + water",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนม เป็นสัตว์ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "กดน้ำ",
+     "rtgs": "kot-nam",
+     "ipa": "/kot̚˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใช้กำลังกดสิ่งใดสิ่งหนึ่งให้มิดลงไปในน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กด",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "press + water",
+     "lit_th": "ชื่อมาตรา กด มีตัว จ ฉ ช ซ ฌ ฏ ฎ ฐ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ตลาดน้ำ",
+     "rtgs": "ta-lat-nam",
+     "ipa": "/ta˨˩.laːt̚˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ ทางน้ำ มีเรือเป็นพาหนะบรรทุกสิ่งของ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตลาด",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตลาด"
+     ],
+     "lit": "market + water",
+     "lit_th": "ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "หม้อน้ำ",
+     "rtgs": "mo-nam",
+     "ipa": "/mɔː˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หม้อโลหะขนาดใหญ่ ใช้ต้มน้ำทำให้เกิดไอน้ำเดือดที่มีแรงดันสูงเพื่อหมุนเครื่องจักรเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หม้อ",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "pot + water",
+     "lit_th": "ภาชนะประเภทหนึ่ง มีรูปทรงต่าง ๆ สำ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "กินน้ำ",
+     "translit_auto": "kinnam",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีท้องเรือจมลึกลงไปในน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิน",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "กิน"
+     ],
+     "lit": "eat + water",
+     "lit_th": "เคี้ยว + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ"
+    },
+    {
+     "th": "สรงน้ำ",
+     "translit_auto": "srngnam",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาบน้ำ (ใช้กับพระราชา เจ้านาย)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สรง",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "อาบน้ำ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ"
+    },
+    {
+     "th": "สีน้ำ",
+     "rtgs": "si-nam",
+     "ipa": "/siː˩˩˦.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สีสำหรับระบายชนิดหนึ่ง ใช้น้ำเจือให้ละลายก่อนจะใช้ระบาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สี",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สี"
+     ],
+     "lit": "color + water",
+     "lit_th": "ชื่อเครื่องสำหรับหมุนบดข้าวเปลือกเ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ตาน้ำ",
+     "rtgs": "ta-nam",
+     "ipa": "/taː˧.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทางน้ำใต้ดินที่มีน้ำไหลไม่ขาดสาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตา",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "eye + water",
+     "lit_th": "พ่อของแม่ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "flips_with": "น้ำตา",
+     "frame": "entity"
+    },
+    {
+     "th": "กระแสน้ำ",
+     "rtgs": "kra-sae-nam",
+     "ipa": "/kra˨˩.sɛː˩˩˦.nam˦˥/",
+     "gloss": {
+      "en": [
+       "race",
+       "tide"
+      ],
+      "th": "สายน้ำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กระแส",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "stream + water",
+     "lit_th": "น้ำหรือลมที่ไหลหรือพัดเรื่อยไปไม่ข + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ตะพาบน้ำ",
+     "rtgs": "ta-phap-nam",
+     "ipa": "/ta˨˩.pʰaːp̚˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตะพาบ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตะพาบ",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ชื่อเต่าน้ำจืดกระดองอ่อนหลายชนิดหล + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำค้าง",
+     "rtgs": "nam-khang",
+     "ipa": "/nam˦˥.kʰaːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "dew"
+      ],
+      "th": "ไอน้ำในอากาศที่ถูกความเย็นแล้วหยาดลงมาค้างบนใบไม้ใบหญ้าเป็นต้น ในเวลากลางคืนหรือเช้ามืด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ค้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ตกลงมาหรือขึ้นไปติดอยู่กับสิ่งใดสิ"
+    },
+    {
+     "th": "สายน้ำ",
+     "rtgs": "sai-nam",
+     "ipa": "/saːj˩˩˦.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระแสน้ำที่ไหลเห็นเป็นสายยาวไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สาย"
+     ],
+     "lit": "late + water",
+     "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำแข็ง",
+     "rtgs": "nam-khaeng",
+     "ipa": "/nam˦˥.kʰɛŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "ice"
+      ],
+      "th": "น้ำที่ถูกความเย็นจัดจนแข็งตัวเป็นก้อน, น้ำในสถานะของแข็ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "แข็ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แข็ง"
+     ],
+     "lit": "water + hard",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + กระด้าง",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำทะเล",
+     "rtgs": "nam-tha-le",
+     "ipa": "/naːm˦˥.tʰa˦˥.leː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำในทะเลหรือมหาสมุทร มีรสเค็มเนื่องจากมีเกลือซึ่งประกอบด้วยแร่ธาตุต่าง ๆ ปะปนอยู่ในรูปของสารละลาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ทะเล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทะเล"
+     ],
+     "lit": "water + sea",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ห้วงน้ำเค็มที่เวิ้งว้างกว้างใหญ่ แ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำมนต์",
+     "rtgs": "nam-mon",
+     "ipa": "/naːm˦˥.mon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่เข้าพิธีทางพระพุทธศาสนาเพื่อให้อาบ กิน หรือประพรม เป็นต้น ถือกันว่าเป็นมงคล, เรียกเต็มว่า น้ำพระพุทธมนต์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "มนต์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + คำศักดิ์สิทธิ์",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำประปา",
+     "rtgs": "nam-pra-pa",
+     "ipa": "/naːm˦˥.pra˨˩.paː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ผ่านกระบวนการทำให้สะอาดปราศจากเชื้อโรค แล้วจ่ายไปให้ประชาชนบริโภคใช้สอย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ประปา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + น้ำที่เกรอะกรองให้สะอาดปราศจากเชื้",
+     "frame": "entity"
+    },
+    {
+     "th": "ห้วงน้ำ",
+     "rtgs": "huang-nam",
+     "ipa": "/hua̯ŋ˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทะเลหรือแม่น้ำตอนที่กว้างใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ห้วง",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ช่วง + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำท่า",
+     "rtgs": "nam-tha",
+     "ipa": "/naːm˦˥.tʰaː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำในแม่น้ำลำคลอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ท่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "water + landing",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำสุก",
+     "rtgs": "nam-suk",
+     "ipa": "/naːm˦˥.suk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ต้มแล้ว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "สุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + พ้นจากห่าม"
+    },
+    {
+     "th": "ต้นน้ำ",
+     "rtgs": "ton-nam",
+     "ipa": "/ton˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แหล่งที่เกิดของลำน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ต้น",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ต้น"
+     ],
+     "lit": "trunk + water",
+     "lit_th": "ลำของต้นไม้ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ร่องน้ำ",
+     "rtgs": "rong-nam",
+     "ipa": "/rɔŋ˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "channel",
+       "race"
+      ],
+      "th": "ทางน้ำลึกที่เรือเดินได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ร่อง",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "hole + water",
+     "lit_th": "รอยลึกเป็นช่องทางไปตามยาว + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลายน้ำ",
+     "rtgs": "lai-nam",
+     "ipa": "/laːj˧.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลวดลายหรือภาพในเนื้อกระดาษที่ทำขึ้นพร้อม ๆ กับกระดาษจะมองเห็นได้ชัดเมื่อยกกระดาษนั้นขึ้นส่องกับแสงสว่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลาย",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลาย"
+     ],
+     "lit": "design + water",
+     "lit_th": "รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "flips_with": "น้ำลาย",
+     "frame": "entity"
+    },
+    {
+     "th": "พืชน้ำ",
+     "rtgs": "phuet-nam",
+     "ipa": "/pʰɯːt̚˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "hydrophyte"
+      ],
+      "th": "พืชที่ขึ้นอยู่ในแหล่งน้ำอย่างเช่นคลองหรือแม่น้ำ โดยที่ไม่จำเป็นต้องใช้ดิน เช่น ผักตบชวา, บัว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "พืช",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "plant + water",
+     "lit_th": "สิ่งมีชีวิตที่โดยทั่วไปสร้างอาหารเ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำดิบ",
+     "rtgs": "nam-dip",
+     "ipa": "/naːm˦˥.dip̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ยังไม่ได้ต้มหรือยังไม่ได้ผ่านกระบวนการทำน้ำประปา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ดิบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "water + animal",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ยังไม่สุก",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำพุ",
+     "rtgs": "nam-phu",
+     "ipa": "/nam˦˥.pʰuʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำใต้ดินที่ผุดพุ่งขึ้นมาเหนือพื้น มีอุณหภูมิต่ำกว่าอุณหภูมิของร่างกายมนุษย์, ถ้ามีอุณหภูมิสูงกว่า ซึ่งมีตั้งแต่อุ่น ๆ จนถึงเดือดพล่าน เรียกว่า น้ำพุร้อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "พุ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + อาการที่น้ำหรือแก๊สเป็นต้นผุดขึ้นม"
+    },
+    {
+     "th": "น้ำกระด้าง",
+     "rtgs": "nam-kra-dang",
+     "ipa": "/naːm˦˥.kra˨˩.daːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำซึ่งเมื่อฟอกกับสบู่แล้วเกิดตะกอนขึ้น ซึ่งเรียกว่า ไคลสบู่ และไม่มีฟองสบู่เกิดขึ้นหรือเกิดขึ้นน้อย ทั้งนี้เพราะมีเกลือของแคลเซียมและแมกนีเซียมละลายอยู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "กระด้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ชื่อถั่วชนิด Vigna unguiculata",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำอ่อน",
+     "rtgs": "nam-on",
+     "ipa": "/naːm˦˥.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ละลายสบู่ได้ดี ให้ฟองได้ง่าย และไม่เกิดไคลสบู่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "อ่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "อ่อน"
+     ],
+     "lit": "water + young",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไม่กระด้าง",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำขึ้น",
+     "rtgs": "nam-khuen",
+     "ipa": "/naːm˦˥.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "flow"
+      ],
+      "th": "น้ำในทะเลและแม่น้ำลำคลองที่มีทางติดต่อโดยตรงกับทะเลหรือได้รับอิทธิพลจากน้ำทะเลเป็นต้นที่มีระดับน้ำสูงขึ้น ในวันหนึ่ง ๆ ตามปรกติน้ำจะขึ้น 2 ครั้ง และน้ำขึ้นครั้งแรกจะมีระดับสูงกว่าขึ้นครั้งที่ 2",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ขึ้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ขึ้น"
+     ],
+     "lit": "water + rise",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    },
+    {
+     "th": "น้ำใต้ดิน",
+     "rtgs": "nam-tai-din",
+     "ipa": "/nam˦˥.taj˥˩.din˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำฝนที่ตกลงมาสู่พื้นดินแล้วไหลซึมไปรวมอยู่ใต้ดิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ใต้ดิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ที่อยู่ต่ำกว่าระดับพื้นดิน",
+     "frame": "quality"
+    },
+    {
+     "th": "ตำหนักน้ำ",
+     "translit_auto": "tamhnaknam",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรือนริมน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตำหนัก",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "บ้านเรือน + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำแร่",
+     "rtgs": "nam-rae",
+     "ipa": "/nam˦˥.rɛː˥˩/",
+     "gloss": {
+      "en": [
+       "mineral"
+      ],
+      "th": "น้ำที่มีสารบางอย่างละลายอยู่เป็นพิเศษ บางอย่างมีสมบัติทางยารักษาโรค",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "แร่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + mineral",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ธาตุหรือสารประกอบอนินทรีย์ที่เกิดข",
+     "frame": "entity"
+    },
+    {
+     "th": "อาบน้ำ",
+     "rtgs": "ap-nam",
+     "ipa": "/ʔaːp̚˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "bath",
+       "shower"
+      ],
+      "th": "เอาน้ำรดตัวหรือลงในน้ำทั้งตัว เพื่อแก้ร้อนหรือชำระล้างเหงื่อไคลเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อาบ",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "bathe + water",
+     "lit_th": "เอาน้ำรดตัวหรือลงในน้ำทั้งตัว เพื่ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ"
+    },
+    {
+     "th": "น้ำกลั่น",
+     "rtgs": "nam-klan",
+     "ipa": "/naːm˦˥.klan˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำบริสุทธิ์ที่ได้จากการกลั่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "กลั่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "water + distill",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + คัดเอาแต่ส่วนหรือสิ่งที่สำคัญหรือท"
+    },
+    {
+     "th": "น้ำเค็ม",
+     "rtgs": "nam-khem",
+     "ipa": "/naːm˦˥.kʰem˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำทะเล",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เค็ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "water + salty",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + มีรสอย่างรสเกลือ",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำฟ้า",
+     "rtgs": "nam-fa",
+     "ipa": "/naːm˦˥.faː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำฝน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "water + sky",
+     "frame": "entity"
+    },
+    {
+     "th": "กรวดน้ำ",
+     "rtgs": "kruat-nam",
+     "ipa": "/krua̯t̚˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แผ่ส่วนบุญด้วยวิธีหลั่งน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กรวด",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ก้อนหินเล็ก ๆ เขื่องกว่าเม็ดทราย + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "น่านน้ำ",
+     "rtgs": "nan-nam",
+     "ipa": "/naːn˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พื้นที่ทางน้ำ, เขตทางน้ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น่าน",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ย่าน + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ตะไคร่น้ำ",
+     "rtgs": "ta-khrai-nam",
+     "ipa": "/ta˨˩.kʰraj˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สาหร่ายเซลล์เดียวซึ่งเกาะยึดในพื้นที่ที่มีน้ำไหล คล้ายตะไคร่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตะไคร่",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "พืชสีเขียวที่เกิดติดอยู่ตามต้นไม้ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่น้ำ",
+     "rtgs": "mae-nam",
+     "ipa": "/mɛː˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "river",
+       "ground"
+      ],
+      "th": "ลำน้ำใหญ่ซึ่งเป็นที่รวมของลำธารทั้งปวง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + water",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำท่วม",
+     "rtgs": "nam-thuam",
+     "ipa": "/naːm˦˥.tʰua̯m˥˩/",
+     "gloss": {
+      "en": [
+       "flood",
+       "inundation"
+      ],
+      "th": "ภัยธรรมชาติอย่างหนึ่งเกิดจากฝนตกในปริมาณมากและไหลระบายไม่ทัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ท่วม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "water + flood",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไหลหลาก บ่า หรือเอ่อท้นจนลบพื้นที่"
+    },
+    {
+     "th": "ฟองน้ำ",
+     "rtgs": "fong-nam",
+     "ipa": "/fɔːŋ˧.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "sponge"
+      ],
+      "th": "ต่อมนํ้าที่ผุดหรือปุดขึ้นเป็นรูปโป่งๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ฟอง",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "bubble + water",
+     "lit_th": "ไข่ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำตก",
+     "rtgs": "nam-tok",
+     "ipa": "/nam˦˥.tok̚˨˩/",
+     "gloss": {
+      "en": [
+       "waterfall"
+      ],
+      "th": "น้ำที่ขังอยู่บนเขาตกลงมาที่หน้าผา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ตก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ตก"
+     ],
+     "lit": "water + decrease",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + พลัดลง"
+    },
+    {
+     "th": "น้ำซึม",
+     "rtgs": "nam-suem",
+     "ipa": "/nam˦˥.sɯm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกที่ซึ่งมีนํ้าไหลซึมอยู่ตลอดเวลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ซึม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + กิริยาของน้ำหรือของเหลวที่ไหลไปตาม"
+    },
+    {
+     "th": "อวบน้ำ",
+     "rtgs": "uap-nam",
+     "ipa": "/ʔua̯p̚˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีเนื้อชุ่มด้วยน้ำ (ใช้แก่พืช)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อวบ",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "มีเนื้อหนังสมบูรณ์เต่งตึงกว่าปรกติ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "quality"
+    },
+    {
+     "th": "ค่าน้ำ",
+     "rtgs": "kha-nam",
+     "ipa": "/kʰaː˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เงินที่ไก๊ด์ได้รับจากร้านซึ่งพานักท่องเที่ยวไปซื้อของ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ค่า",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ค่า"
+     ],
+     "lit": "value + water",
+     "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกน้ำ",
+     "rtgs": "luk-nam",
+     "ipa": "/luːk̚˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกอ่อนของยุงที่ยังอาศัยอยู่ในน้ำ เมื่อแก่เข้าหลุดจากปลอกเป็นยุง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ลูก"
+     ],
+     "lit": "child + water",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำเปล่า",
+     "rtgs": "nam-plao",
+     "ipa": "/naːm˦˥.plaw˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำดื่มบริสุทธิ์; น้ำดื่มที่ไม่ผสมสิ่งใด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เปล่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไม่มีอะไรนอกจากตัวของมันเองที่อ้าง",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำดี",
+     "rtgs": "nam-di",
+     "ipa": "/naːm˦˥.diː˧/",
+     "gloss": {
+      "en": [
+       "gall"
+      ],
+      "th": "น้ำสะอาดที่ใช้ในการซักล้าง, น้ำอ่อน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ดี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ดี"
+     ],
+     "lit": "water + good",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + มีลักษณะที่เป็นไปในทางที่ต้องการ น",
+     "frame": "quality"
+    },
+    {
+     "th": "ปากน้ำ",
+     "rtgs": "pak-nam",
+     "ipa": "/paːk̚˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริเวณที่แควไหลลงมาบรรจบลำน้ำใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปาก",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ปาก"
+     ],
+     "lit": "mouth + water",
+     "lit_th": "อวัยวะส่วนหนึ่งของร่างกายคนและสัตว + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "สัตว์น้ำ",
+     "rtgs": "sat-nam",
+     "ipa": "/sat̚˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัตว์ที่ดำรงชีวิตอยู่ได้ในน้ำ ส่วนใหญ่อยู่ไม่ได้บนบก มีกุ้งหอยปูปลาเป็นต้น เป็นการแบ่งอย่างหยาบ ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สัตว์",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "animal + water",
+     "lit_th": "สิ่งมีชีวิตซึ่งแตกต่างไปจากพรรณไม้ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำป่า",
+     "rtgs": "nam-pa",
+     "ipa": "/naːm˦˥.paː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่เกิดท่วมในที่ต่ำโดยฉับพลันทันทีและไหลลดลงอย่างรวดเร็ว เกิดจากฝนตกชุกในที่สูงบริเวณเทือกเขาหรือในป่า เมื่อสะสมไว้มีปริมาณมากขึ้นก็จะไหลบ่าสู่ที่ต่ำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ป่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "water + forest",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำเงิน",
+     "rtgs": "nam-ngoen",
+     "ipa": "/nam˦˥.ŋɤn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปลานาง; ชื่อปลาน้ำจืดไม่มีเกล็ดพวกปลาเนื้ออ่อน ชนิด Phalacronotus apogon (Bleeker) หรือ Micronema apogon (Bleeker) ในวงศ์ Siluridae ปากเชิดขึ้น หนวดที่ขากรรไกรบนยาวไม่ถึงขอบแผ่นปิดเหงือกคล้ายปลาแดง แต่ไม่มีหนวดที่ขากรรไก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เงิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เงิน"
+     ],
+     "lit": "water + bread",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ธาตุลำดับที่ 47 สัญลักษณ์ Ag เป็นโ",
+     "frame": "entity"
+    },
+    {
+     "th": "ประตูน้ำ",
+     "rtgs": "pra-tu-nam",
+     "ipa": "/pra˨˩.tuː˧.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประตูสำหรับควบคุมระดับน้ำที่ไหลเข้าออก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ประตู",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "door + water",
+     "lit_th": "ช่องทางเข้าออกของบ้านเรือนเป็นต้น + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำหรือเหลวเหมือนน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "น้ำตา",
+     "rtgs": "nam-ta",
+     "ipa": "/nam˦˥.taː˧/",
+     "gloss": {
+      "en": [
+       "tear"
+      ],
+      "th": "น้ำที่ไหลออกจากนัยน์ตา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ตา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "water + eye",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + พ่อของแม่",
+     "flips_with": "ตาน้ำ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำพริก",
+     "rtgs": "nam-phrik",
+     "ipa": "/nam˦˥.pʰrik̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาหารชนิดหนึ่ง ปรุงด้วย กะปิ กระเทียม พริกขี้หนู มะนาว เป็นต้น ใช้เป็นเครื่องจิ้มหรือคลุกข้าวกิน ใช้น้ำปลาหรือน้ำปลาร้าแทนกะปิก็มี ใช้ของเปรี้ยวอื่น ๆ เช่น มะขาม มะดัน มะม่วง แทนมะนาวก็มี เรียกชื่อต่างกันไปตามเครื่องปรุง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "พริก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + pepper",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อไม้ล้มลุกในสกุล Capsicum วงศ์",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่ดาวน้ำ",
+     "rtgs": "khai-dao-nam",
+     "ipa": "/kʰaj˨˩.daːw˧.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ทอดทั้งลูกในน้ำ แทนที่จะเป็นน้ำมัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่ดาว",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.20, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ไข่ทอดทั้งลูกโดยไม่ต้องตีไข่แดงกับ + ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำส้ม",
+     "rtgs": "nam-som",
+     "ipa": "/naːm˦˥.som˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำคั้นจากผลส้ม ใช้เป็นเครื่องดื่ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ส้ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + orange",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อไม้พุ่มหรือไม้ต้นขนาดเล็กหลายช",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำผึ้ง",
+     "rtgs": "nam-phueng",
+     "ipa": "/nam˦˥.pʰɯŋ˥˩/",
+     "gloss": {
+      "en": [
+       "honey"
+      ],
+      "th": "น้ำหวานมีลักษณะข้นที่แมลงผึ้งเก็บสะสมเอามาจากดอกไม้ต่าง ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ผึ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.18, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + bee",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อแมลงหลายชนิดในวงศ์ Apidae มีปี",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำจิ้ม",
+     "rtgs": "nam-chim",
+     "ipa": "/nam˦˥.t͡ɕim˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องจิ้มลักษณะเป็นน้ำใสหรือข้น โดยมากมีรสเปรี้ยวเค็มหวาน ใช้ชูรสอาหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "จิ้ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.21, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + จุ่ม"
+    },
+    {
+     "th": "น้ำมัน",
+     "rtgs": "nam-man",
+     "ipa": "/nam˦˥.man˧/",
+     "gloss": {
+      "en": [
+       "oil"
+      ],
+      "th": "ของเหลวที่มีลักษณะเป็นมันลื่น ไม่ละลายน้ำ สกัดจากพืช สัตว์ แร่บางชนิด เช่น ถ่านหิน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "มัน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.26, next 0.13",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มัน"
+     ],
+     "lit": "water + it",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อเรียกไม้เถาหรือไม้ต้นหลายชนิดห",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำปลา",
+     "rtgs": "nam-pla",
+     "ipa": "/nam˦˥.plaː˧/",
+     "gloss": {
+      "en": [
+       "fish sauce"
+      ],
+      "th": "น้ำสำหรับปรุงอาหารให้มีรสเค็ม ทำจากปลาเป็นต้นหมักกับเกลือ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ปลา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + fish",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อสัตว์น้ำเย็นมีกระดูกสันหลัง ร่",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำปรุง",
+     "rtgs": "nam-prung",
+     "ipa": "/naːm˦˥.pruŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำหอมอย่างไทยที่ทำจากกลิ่นดอกไม้สกัดผสมน้ำบริสุทธิ์เจือแอลกอฮอล์และหัวน้ำหอมเล็กน้อย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ปรุง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "water + mix",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ประสมหรือประกอบให้เหมาะส่วน"
+    },
+    {
+     "th": "น้ำหอม",
+     "rtgs": "nam-hom",
+     "ipa": "/nam˦˥.hɔːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "perfume"
+      ],
+      "th": "น้ำที่กลั่นจากเครื่องหอม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "หอม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อไม้ล้มลุกมีหัวหลายชนิดในสกุล A",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำนม",
+     "rtgs": "nam-nom",
+     "ipa": "/nam˦˥.nom˧/",
+     "gloss": {
+      "en": [
+       "milk"
+      ],
+      "th": "ของเหลวสีขาวออกมาจากนมคนและสัตว์ สำหรับเลี้ยงลูก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "นม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "นม"
+     ],
+     "lit": "water + milk",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ส่วนของร่างกาย อยู่บริเวณหน้าอก มี",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำตาล",
+     "rtgs": "nam-tan",
+     "ipa": "/nam˦˥.taːn˧/",
+     "gloss": {
+      "en": [
+       "sugar"
+      ],
+      "th": "สารประกอบคาร์โบไฮเดรตประเภทโมโนแซ็กคาไรด์และไดแซ็กคาไรด์ ซึ่งมีรสหวาน โดยมากได้จากตาล มะพร้าว อ้อย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ตาล"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อพืชชนิด Borassus flabellifer L",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำเกลือ",
+     "rtgs": "nam-kluea",
+     "ipa": "/nam˦˥.klɯa̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่มีเกลือโซเดียมคลอไรด์ละลายอยู่ สำหรับฉีดเข้าหลอดเลือดดำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เกลือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เกลือ"
+     ],
+     "lit": "water + light",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + วัตถุที่มีรสเค็ม ใช้ประกอบอาหารเป็",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำเต้าหู้",
+     "rtgs": "nam-tao-hu",
+     "ipa": "/naːm˦˥.taw˥˩.huː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ได้จากการคั้นถั่วเหลือง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เต้าหู้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + tofu",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ถั่วเหลืองที่โม่เป็นแป้งแล้วทำเป็น",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำเหลือง",
+     "rtgs": "nam-lueang",
+     "ipa": "/nam˦˥.lɯa̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของเหลวที่ไหลออกมาจากหลอดเลือดฝอย เข้าไปอยู่ในเนื้อเยื่อของร่างกาย แล้วไหลเข้าสู่หลอดน้ำเหลือง ซึ่งจะส่งต่อไปยังหลอดเลือดดำ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เหลือง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำรัก",
+     "rtgs": "nam-rak",
+     "ipa": "/nam˦˥.rak̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยางที่ได้จากไม้ต้นในสกุล Melanorrhoea และไม้พุ่มในสกุล Rhus วงศ์ Anacardiaceae ทำให้มีสีดำแล้วใช้ทาลงพื้นให้เหนียวเพื่อปิดทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "รัก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + love",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อไม้พุ่มชนิด Calotropis gigante",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำเคย",
+     "rtgs": "nam-khoei",
+     "ipa": "/nam˦˥.kʰɤːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ได้จากเยื่อเคยหมักทำเป็นกะปิ มีรสเค็ม ใช้ปรุงอาหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เคย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + ever",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อกุ้งขนาดเล็กหลายชนิดหลายสกุล ใ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำเดิน",
+     "rtgs": "nam-doen",
+     "ipa": "/nam˦˥.dɤːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีน้ำใสไหลออกมาทางโยนี เนื่องจากถุงน้ำคร่ำแตก เป็นสัญญาณว่าใกล้คลอด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เดิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "water + walk",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ยกเท้าก้าวไป"
+    },
+    {
+     "th": "น้ำข้าว",
+     "rtgs": "nam-khao",
+     "ipa": "/nam˦˥.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำที่ได้จากข้าวเมื่อหุงแล้วเช็ดน้ำหรือตักน้ำออก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ข้าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ข้าว"
+     ],
+     "lit": "water + rice",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำมูก",
+     "rtgs": "nam-muk",
+     "ipa": "/nam˦˥.muːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำเมือกที่ออกจากจมูก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "มูก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ใบ้",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำเชื่อม",
+     "rtgs": "nam-chueam",
+     "ipa": "/nam˦˥.t͡ɕʰɯa̯m˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำตาลทรายผสมน้ำตั้งไฟจนละลาย ใช้ใส่ขนม เช่นวุ้นน้ำเชื่อม ใช้ทำทองหยิบ ทองหยอด ฝอยทอง หรือใช้ผสมกับแป้งทำขนมชั้นหรือขนมน้ำดอกไม้เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เชื่อม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "water + link",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ทำของหวานอย่างหนึ่ง โดยเอาน้ำตาลใส"
+    },
+    {
+     "th": "น้ำอัดลม",
+     "rtgs": "nam-at-lom",
+     "ipa": "/naːm˦˥.ʔat̚˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องดื่มที่ผสมน้ำตาลหรือน้ำผลไม้ มีแก๊สคาร์บอนไดออกไซด์ละลายอยู่โดยใช้ความดัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "อัดลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + อัดแก๊สเข้าไป"
+    },
+    {
+     "th": "น้ำจัณฑ์",
+     "rtgs": "nam-chan",
+     "ipa": "/naːm˦˥.t͡ɕan˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สุรา, เหล้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "จัณฑ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ดุร้าย",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำกาม",
+     "rtgs": "nam-kam",
+     "ipa": "/nam˦˥.kaːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำเชื้อที่เกิดจากความกำหนัด แล้วเคลื่อนออกมาจากอวัยวะสืบพันธุ์ของเพศชาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "กาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กาม"
+     ],
+     "lit": "water + desire",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ความใคร่",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำขาว",
+     "rtgs": "nam-khao",
+     "ipa": "/nam˦˥.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำเมาชนิดหนึ่งทำด้วยข้าวเหนียวนึ่งคลุกกับแป้งเหล้าซึ่งเป็นเชื้อ หมักไว้จนมีน้ำขุ่นขาว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ขาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขาว"
+     ],
+     "lit": "water + white",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำยา",
+     "rtgs": "nam-ya",
+     "ipa": "/nam˦˥.jaː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาหารคาวอย่างหนึ่ง ลักษณะอย่างแกง ทำด้วยปลาโขลกกับเครื่องปรุง กินกับผักบางอย่าง เช่น ถั่วงอก ใบแมงลัก ใช้คลุกกินกับขนมจีน, คู่กับ น้ำพริก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ยา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "water + medicine",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำว่าว",
+     "rtgs": "nam-wao",
+     "ipa": "/naːm˦˥.waw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำอสุจิ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ว่าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + kite",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + เครื่องเล่นอย่างหนึ่ง มีไม้ไผ่เป็น",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่น้ำ",
+     "rtgs": "khai-nam",
+     "ipa": "/kʰaj˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แกงจืดไข่เจียว ใส่ต้นหอมหรือใบโหระพา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "egg + water",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำลำไย",
+     "rtgs": "nam-lam-yai",
+     "ipa": "/naːm˦˥.lam˧.jaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำจากน้ำดื่ม ซึ่งนำมาต้มกับเนื้อลำไยอบแห้งและเนื้อลำไยสดเป็นส่วนผสมหลัก อาจเติมน้ำตาล และใช้เป็นเครื่องดื่มสมุนไพร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ลำไย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + longan",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ชื่อไม้ต้นชนิด Dimocarpus longan L",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำกรด",
+     "rtgs": "nam-krot",
+     "ipa": "/nam˦˥.krot̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สารละลายของกรดซึ่งใช้น้ำเป็นตัวทำละลาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "กรด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + acid",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + สารอย่างหนึ่ง มีรสเปรี้ยว โดยปรกติ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำย่อย",
+     "rtgs": "nam-yoi",
+     "ipa": "/nam˦˥.jɔj˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของเหลวที่มีสารอินทรีย์บางชนิดสำหรับย่อยอาหาร สร้างจากอวัยวะของระบบทางเดินอาหาร ได้แก่ ปาก ต่อมน้ำลาย กระเพาะอาหาร และ ลำไส้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ย่อย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ทำเป็นส่วนเล็กส่วนน้อยโดยแยกจากส่ว"
+    },
+    {
+     "th": "น้ำกะทิ",
+     "rtgs": "nam-ka-thi",
+     "ipa": "/nam˦˥.ka˨˩.tʰiʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นํ้าที่คั้นออกจากมะพร้าวขูด, นํ้าที่คั้นจากมะพร้าวขูดที่ผสมนํ้าตาลปึกกินกับข้าวเหนียวหรือลอดช่องเป็นต้น เช่น ข้าวเหนียวนํ้ากะทิ ลอดช่องนํ้ากะทิ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "กะทิ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + coconut milk",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + น้ำที่ได้จากการคั้นเนื้อมะพร้าวขูด",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำแตก",
+     "rtgs": "nam-taek",
+     "ipa": "/naːm˦˥.tɛːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่น้ำอสุจิไหลออกมาเวลาเกิดความเสียวสุดยอดทางเพศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "แตก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "แตก"
+     ],
+     "lit": "water + fracture",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + แยกออกจากส่วนรวม"
+    },
+    {
+     "th": "น้ำนางเอก",
+     "rtgs": "nam-nang-ek",
+     "ipa": "/naːm˦˥.naːŋ˧.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำส้ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "นางเอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "water + lead",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + ตัวเอกฝ่ายหญิงในนวนิยาย ละคร หรือภ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำลาย",
+     "rtgs": "nam-lai",
+     "ipa": "/naːm˦˥.laːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "น้ำย่อยจากต่อมน้ำลายในปาก มีสารช่วยย่อยอาหารจำพวกแป้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ลาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลาย"
+     ],
+     "lit": "water + design",
+     "lit_th": "ใช้เรียกสิ่งอื่นที่มีลักษณะเป็นน้ำ + รูปแบบทางทัศนศิลป์ประเภทหนึ่ง ประก",
+     "flips_with": "ลายน้ำ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Any liquid that behaves like water takes the water word.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "คุณสมบัติที่ถือว่าเป็นสาระของสิ่งที่กล่าวถึง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "น้ำมือ",
+     "rtgs": "nam-mue",
+     "ipa": "/nam˦˥.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มือของตัวแท้ ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "water + hand",
+     "lit_th": "คุณสมบัติที่ถือว่าเป็นสาระของสิ่งท + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำใจ",
+     "rtgs": "nam-chai",
+     "ipa": "/naːm˦˥.t͡ɕaj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใจแท้ ๆ, ใจจริง, ความรู้สึกนึกคิดจริง ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "water + heart",
+     "lit_th": "คุณสมบัติที่ถือว่าเป็นสาระของสิ่งท + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำเสียง",
+     "rtgs": "nam-siang",
+     "ipa": "/nam˦˥.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "tone"
+      ],
+      "th": "คำพูด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เสียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เสียง"
+     ],
+     "lit": "water + voice",
+     "lit_th": "คุณสมบัติที่ถือว่าเป็นสาระของสิ่งท + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำหน้า",
+     "rtgs": "nam-na",
+     "ipa": "/naːm˦˥.naː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หน้า (ใช้ในความแดกดัน รังเกียจ หรือดูหมิ่น เป็นต้น)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "หน้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "water + before",
+     "lit_th": "คุณสมบัติที่ถือว่าเป็นสาระของสิ่งท + ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The essential quality of a thing spoken of as its liquid — น้ำใจ, น้ำเสียง: what flows out of someone and shows what they are.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ความแวววาว (ใช้แก่รัตนชาติ)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A gem's lustre as its water: clarity and brightness are what water and a cut stone share.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เรียกเรือที่ใช้มาแล้ว 2 ปี 3 ปี ว่า เรือ 2 น้ำ เรือ 3 น้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขนานน้ำ",
+     "translit_auto": "khnannam",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ท่าที่เอาเรือ 2 ลำมาจอดเทียบเคียงกัน แล้วปูกระดานเพื่อให้ขึ้นลงสะดวก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขนาน",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.11, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "หมู่ + เรียกเรือที่ใช้มาแล้ว 2 ปี 3 ปี ว่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "The counted-occurrence sense fixed to boats: เรือ 2 น้ำ, a boat that has seen two floods.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ใช้เกี่ยวกับน้ำหมายความว่า ครั้ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "One water = one occurrence, counted off the flood cycle — the annual rise stands in for the round of time.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "มีแสงแวววาว (ใช้แก่รัตนชาติ)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "น้ำหนึ่ง",
+     "rtgs": "nam-nueng",
+     "ipa": "/naːm˦˥.nɯŋ˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีคุณสมบัติสูงสุดและมีแสงแวววาวบริสุทธิ์ (ใช้แก่เพชร เรียกว่า เพชรน้ำหนึ่ง)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "หนึ่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.24, next 0.15",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "water + a",
+     "lit_th": "มีแสงแวววาว + ตัวเลขตัวแรกของจำนวนนับ"
+    }
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "The lustre noun used adjectivally of a stone that has it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "nam as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 12 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 111 of the 5333 wats in the northern registry carry it, and 83 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 12 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 12 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "111 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "น้ำปาด",
+     "rtgs": "nam-pat",
+     "ipa": "/naːm˦˥.paːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุตรดิตถ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ปาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เอาส่วนที่ไม่ต้องการออกโดยวิธีฝานบ"
+    },
+    {
+     "th": "น้ำอ้อม",
+     "rtgs": "nam-om",
+     "ipa": "/naːm˦˥.ʔɔːm˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอกระนวน จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "อ้อม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โอบรอบ"
+    },
+    {
+     "th": "น้ำหนาว",
+     "rtgs": "nam-nao",
+     "ipa": "/naːm˦˥.naːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเพชรบูรณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "หนาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "nam as an element in place names + cold",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เย็นจัด",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำขุ่น",
+     "rtgs": "nam-khun",
+     "ipa": "/naːm˦˥.kʰun˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุบลราชธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ขุ่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "nam as an element in place names + cloudy",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + มีลักษณะมัว ไม่ใส ไม่ชัดเจน",
+     "frame": "quality"
+    },
+    {
+     "th": "กาน้ำ",
+     "rtgs": "ka-nam",
+     "ipa": "/kaː˧.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อนกน้ำขนาดกลางถึงขนาดใหญ่หลายชนิด ในวงศ์ Phalacrocoracidae คอยาว ตัวสีดำ ตีนมีพังผืดนิ้วแบบตีนพัดเต็ม ว่ายน้ำเหมือนเป็ด ดำน้ำจับปลากิน อาศัยอยู่รวมกันเป็นฝูง ในประเทศไทยมี 3 ชนิด คือ กาน้ำใหญ่ กาน้ำปากยาว และกาน้ำเล็ก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กา",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กา"
+     ],
+     "lit": "crow + nam as an element in place names",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำพอง",
+     "rtgs": "nam-phong",
+     "ipa": "/naːm˦˥.pʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "พอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "nam as an element in place names + blown",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + อาการที่โป่งหรือฟูขึ้นมาเพราะมีอาก"
+    },
+    {
+     "th": "ม้าน้ำ",
+     "rtgs": "ma-nam",
+     "ipa": "/maː˦˥.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อสัตว์ในวรรณคดี ท่อนบนเป็นม้า ท่อนล่างเป็นปลา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ม้า",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "horse + nam as an element in place names",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำแพร่",
+     "rtgs": "nam-phrae",
+     "ipa": "/naːm˦˥.pʰrɛː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพร้าว จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "แพร่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + กระจายออกไป"
+    },
+    {
+     "th": "น้ำยืน",
+     "rtgs": "nam-yuen",
+     "ipa": "/naːm˦˥.jɯːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุบลราชธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ยืน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "nam as an element in place names + stand",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ตั้งอยู่"
+    },
+    {
+     "th": "น้ำเกลี้ยง",
+     "rtgs": "nam-kliang",
+     "ipa": "/naːm˦˥.klia̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดศรีสะเกษ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เกลี้ยง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เรียบ ๆ ไม่ขรุขระหรือไม่มีลวดลาย",
+     "frame": "quality"
+    },
+    {
+     "th": "น้ำโสม",
+     "rtgs": "nam-som",
+     "ipa": "/naːm˦˥.soːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดอุดรธานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "โสม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำขุม",
+     "rtgs": "nam-khum",
+     "ipa": "/naːm˦˥.kʰum˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอศรีนคร จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ขุม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "nam as an element in place names + trove",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + หลุม",
+     "frame": "entity"
+    },
+    {
+     "th": "แมวน้ำ",
+     "rtgs": "maeo-nam",
+     "ipa": "/mɛːw˧.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "seal"
+      ],
+      "th": "ชื่อสัตว์เลี้ยงลูกด้วยนม ในวงศ์ Phocidae ไม่มีใบหู และในวงศ์ Otaliidae มีใบหู ทั้ง 2 วงศ์ รูปร่างอ้วนใหญ่ มีหนวดคล้ายแมว ขาคล้ายพาย คู่หน้าสั้น คู่หลังลู่ไปตามลำตัว ใช้ว่ายน้ำและคืบคลานหรือกลิ้งตัวไปตามพื้นได้ดี หางเป็นต",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แมว",
+      "น้ำ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "cat + nam as an element in place names",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำกุ่ม",
+     "rtgs": "nam-kum",
+     "ipa": "/naːm˦˥.kum˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนครไทย จังหวัดพิษณุโลก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "กุ่ม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อไม้ต้นในสกุล Crateva วงศ์ Capp",
+     "frame": "entity"
+    },
+    {
+     "th": "น้ำบ่อหลวง",
+     "rtgs": "nam-bo-luang",
+     "ipa": "/naːm˦˥.bɔː˨˩.lua̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสันป่าตอง จังหวัดเชียงใหม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "บ่อหลวง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่อตำบลหนึ่งในอำเภอฮอด จังหวัดเชี"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 31 manuscript titles, 1214 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 116; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "การกดน้ำ",
+   "rtgs": "kan-kot-nam",
+   "ipa": "/kaːn˧.kot̚˨˩.naːm˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กดน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกด",
+    "น้ำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กด + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+   "frame": "entity"
+  },
+  {
+   "th": "การกรวดน้ำ",
+   "rtgs": "kan-kruat-nam",
+   "ipa": "/kaːn˧.krua̯t̚˨˩.naːm˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กรวดน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกรวด",
+    "น้ำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กรวด + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+   "frame": "entity"
+  },
+  {
+   "th": "ไม้น้ำ",
+   "rtgs": "mai-nam",
+   "ipa": "/maːj˦˥.naːm˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ พืชน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไม้",
+    "น้ำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "ไม้"
+   ],
+   "lit": "wood + water",
+   "lit_th": "คำรวมเรียกพืชทั่วไป โดยปรกติมีราก + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+   "frame": "entity"
+  },
+  {
+   "th": "กลัวน้ำ",
+   "rtgs": "klua-nam",
+   "ipa": "/klua̯˧.naːm˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ พิษสุนัขบ้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กลัว",
+    "น้ำ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "afraid + water",
+   "lit_th": "รู้สึกไม่อยากประสบสิ่งที่ไม่ดีแก่ต + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *C̬.namꟲ; ร่วมเชื้อสายกับคำเมือง ᨶ᩶ᩣᩴ (น้าํ), ปักษ์ใต้ หน่าม, ลาว ນ້ຳ (น้ำ), ไทลื้อ ᦓᧄᧉ (นั้ม), ไทดำ ꪙꪾ꫁ (น้ำ), ไทใหญ่ ၼမ်ႉ (นั๎ม), ไทใต้คง ᥘᥛᥳ (ลั๎ม), คำตี้ ꩫ︀မ︀်ႇ, อ่ายตน ꩫ︀ံ (นํ), พ่าเก ꩫ︀ံ (นํ), อาหม 𑜃𑜪 (นํ), จ้วง raemx, จ้วงแบบหนง naemx, จ้วงแบบจั่วเจียง naemx, แสก นัม, ตั่ย nặm; เทียบเบดั้งเดิม *namᴮꟲ², ไหลดั้งเดิม *C-nəmʔ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨶ᩶ᩣᩴ",
+  "th": "น้าํ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:nam-2",
+   "label": "นาม",
+   "why": "spelling",
+   "distinction": "Both romanise as \"nam\". น้ำ is náam, นาม is naam — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:nam-3",
+   "label": "นำ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"nam\". น้ำ is náam, นำ is nam — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "water"
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "head": "tai-2",
+ "rule": "ใต้ is below (6) and the south (1, 5), and all seven compounds are the south. They go to **sense 5**, ที่ตั้งอยู่ มาจาก หรือไปทางทิศใต้ — located in or toward the south — rather than to the name-use sense 7: แอฟริกาใต้, เกาหลีใต้, เอเชียใต้, มหาสมุทรใต้, ขั้วโลกใต้ and แสงใต้ are all descriptions that became names, and sense 5 exists precisely to hold them. (On กลาง I sent อเมริกากลาง and ตะวันออกกลาง to the name-use sense instead — not an inconsistency but a difference in the two heads: กลาง has no 'located in the middle' sense, and ใต้ does.) Only ใต้ถุน uses sense 6, the space under a raised house.",
+ "senses": {
+  "5": ["ขั้วโลกใต้","มหาสมุทรใต้","เกาหลีใต้","เอเชียใต้","แสงใต้","แอฟริกาใต้"],
+  "6": ["ใต้ถุน"]
+ }
+}

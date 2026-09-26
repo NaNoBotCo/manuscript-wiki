@@ -255,3 +255,11 @@ A rule-book is a clean object; a working monastery is not, and the bundles show 
   probation-and-restoration cluster at Wat Sung Men and Wat Ban Ueam: a documented,
   still-practised judicial procedure that nothing in the digested contributed
   volumes covers.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **The deepest roots in the collection** — The ten earliest-dated manuscripts, reaching back to 1471 CE — the far anchor of the single continuous timeline that runs all the way to today's amulet stalls. [see the finding →](/findings#chronologydeep-roots)
+<!-- derived:end -->

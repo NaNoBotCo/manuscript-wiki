@@ -1,0 +1,1466 @@
+{
+ "id": "w:khuen",
+ "th": "ขึ้น",
+ "status": "mapped",
+ "rtgs": "khuen",
+ "paiboon": "kʉ̂n",
+ "ipa": "/kʰɯn˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้องหน้า, ไปสู่เบื้องที่ถือว่าตรงข้ามกับลง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ขึ้นคาน",
+     "rtgs": "khuen-khan",
+     "ipa": "/kʰɯn˥˩.kʰaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีฝีมือในทางใดทางหนึ่งจนไม่มีคู่แข่งขัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "คาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + เครื่องเรือนที่ยึดเสาและรองตง ทำด้"
+    },
+    {
+     "th": "บรรจุขึ้น",
+     "rtgs": "ban-chu-khuen",
+     "ipa": "/ban˧.t͡ɕu˨˩.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อัปโหลด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บรรจุ",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "carry + rise",
+     "lit_th": "ใส่ลงในขวด หีบ หรือถุง เป็นต้น + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    },
+    {
+     "th": "น้ำขึ้น",
+     "rtgs": "nam-khuen",
+     "ipa": "/naːm˦˥.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "flow"
+      ],
+      "th": "น้ำในทะเลและแม่น้ำลำคลองที่มีทางติดต่อโดยตรงกับทะเลหรือได้รับอิทธิพลจากน้ำทะเลเป็นต้นที่มีระดับน้ำสูงขึ้น ในวันหนึ่ง ๆ ตามปรกติน้ำจะขึ้น 2 ครั้ง และน้ำขึ้นครั้งแรกจะมีระดับสูงกว่าขึ้นครั้งที่ 2",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + rise",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+    },
+    {
+     "th": "ขึ้นเขียง",
+     "rtgs": "khuen-khiang",
+     "ipa": "/kʰɯn˥˩.kʰia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตกอยู่ในภาวะที่แทบไม่มีทางจะต่อสู้หรือเอาชนะหรือหลีกเลี่ยงได้เลย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "เขียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + ไม้รองรับการสับ หั่น มักเป็นแผ่นกล"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เพิ่มหรือทำให้เพิ่ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Quantity rising: to increase.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เริ่ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A thing rising into existence: to begin.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขึ้นครู",
+     "rtgs": "khuen-khru",
+     "ipa": "/kʰɯn˥˩.kʰruː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำพิธีคำนับครูที่ประสาทวิชาให้เมื่อแรกเรียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "ครู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "rise + teacher",
+     "lit_th": "เริ่ม + ผู้สั่งสอนศิษย์"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "เอาเข้าไว้เป็นหลักฐาน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขึ้นทะเบียน",
+     "rtgs": "khuen-tha-bian",
+     "ipa": "/kʰɯn˥˩.tʰa˦˥.bia̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาเข้าไว้ในทะเบียน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "ทะเบียน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "rise + register",
+     "lit_th": "เอาเข้าไว้เป็นหลักฐาน + บัญชีจดลักษณะจำนวนคน จำนวนสัตว์ หร"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Putting something up onto the record — ขึ้นทะเบียน.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เอ่ยคำหยาบออกมาด้วยความโกรธ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขึ้นเสียง",
+     "rtgs": "khuen-siang",
+     "ipa": "/kʰɯn˥˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออกเสียงดังด้วยความโกรธ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "เสียง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.28, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "เสียง"
+     ],
+     "lit": "rise + voice",
+     "lit_th": "เอ่ยคำหยาบออกมาด้วยความโกรธ + สิ่งที่รับรู้ได้ด้วยหู"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A coarse word rising out of anger.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เกิด, มี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "To arise, to come to be.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ของขึ้น",
+     "rtgs": "khong-khuen",
+     "ipa": "/kʰɔːŋ˩˩˦.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการผิดปรกติอย่างใดอย่างหนึ่ง เชื่อว่าเกิดจากอำนาจของขลัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ของ",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ของ"
+     ],
+     "lit": "by + rise",
+     "lit_th": "สิ่งต่าง ๆ + เกิด"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "นิยมนับถือ, เลื่อมใส",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Raising a thing in one's regard: to esteem it.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขึ้นชื่อ",
+     "rtgs": "khuen-chue",
+     "ipa": "/kʰɯn˥˩.t͡ɕʰɯː˥˩/",
+     "gloss": {
+      "en": [
+       "famous"
+      ],
+      "th": "ลือชื่อ, เอ่ยถึงบ่อย ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "ชื่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "cross_listed": [
+      "ชื่อ"
+     ],
+     "lit": "rise + name",
+     "lit_th": "นิยมนับถือ + คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "อยู่ในสังกัด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Coming up under an authority — ขึ้นกับ, to fall under.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เมืองขึ้น",
+     "rtgs": "mueang-khuen",
+     "ipa": "/mɯa̯ŋ˧.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รัฐที่อยู่ใต้บังคับบัญชาของรัฐอื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เมือง",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "เมือง"
+     ],
+     "lit": "town + rise",
+     "lit_th": "แดน + อยู่ในสังกัด"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "อืดพอง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "Increase as swelling.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "ฟู",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 9,
+   "via": "specialisation",
+   "via_note": "And dough swelling as it rises.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "แรกปรากฏจากขอบฟ้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "First appearing over the horizon.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รุ่งขึ้น",
+     "rtgs": "rung-khuen",
+     "ipa": "/ruŋ˥˩.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วันใหม่, วันพรุ่งนี้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รุ่ง",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 11 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "ระยะเวลาตอนเริ่มแรกแห่งวัน + แรกปรากฏจากขอบฟ้า"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "gloss": {
+    "en": [
+     "[RID sense 12 — no English yet]"
+    ],
+    "th": "งอก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "A shoot rising from the ground.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขมิ้นขึ้น",
+     "rtgs": "kha–min–khuen",
+     "ipa": "/kʰa˨˩.min˥˩.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขมิ้นอ้อย, ชื่อไม้ล้มลุกในสกุล Curcuma วงศ์ Zingiberaceae",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขมิ้น",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 12 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "turmeric + rise",
+     "lit_th": "ชื่อไม้ล้มลุกชนิด Curcuma longa ใน + งอก"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "gloss": {
+    "en": [
+     "[RID sense 13 — no English yet]"
+    ],
+    "th": "มีโชคจะทำอะไรก็ประสบผล",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "On the rise: in luck, and whatever is tried comes off.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 14,
+   "gloss": {
+    "en": [
+     "[RID sense 14 — no English yet]"
+    ],
+    "th": "ก่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Drawing a bow up to tension.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 15,
+   "gloss": {
+    "en": [
+     "[RID sense 15 — no English yet]"
+    ],
+    "th": "ขึง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 14,
+   "via": "generalisation",
+   "via_note": "And any stretching taut.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 16,
+   "gloss": {
+    "en": [
+     "[RID sense 16 — no English yet]"
+    ],
+    "th": "เริ่มเดินเป็นครั้งแรก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "Beginning to walk for the first time.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 17,
+   "gloss": {
+    "en": [
+     "[RID sense 17 — no English yet]"
+    ],
+    "th": "ทำให้เป็นรูปร่าง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Raising a thing into shape: to form it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 18,
+   "gloss": {
+    "en": [
+     "[RID sense 18 — no English yet]"
+    ],
+    "th": "เอาเช็คเป็นต้นไปขอรับเป็นตัวเงินจากธนาคาร เรียกว่า ขึ้นเงิน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Drawing money up out of a bank — ขึ้นเงิน.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 19,
+   "gloss": {
+    "en": [
+     "[RID sense 19 — no English yet]"
+    ],
+    "th": "เอาเข้าเก็บไว้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Putting a thing up into store.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ขึ้นยุ้ง",
+     "translit_auto": "khuenyung",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ใส่ยุ้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "ยุ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 19 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เอาเข้าเก็บไว้ + สิ่งปลูกสร้างสำหรับเก็บข้าวเปลือกข"
+    },
+    {
+     "th": "ขึ้นหิ้ง",
+     "rtgs": "khuen-hing",
+     "ipa": "/kʰɯn˥˩.hiŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เก็บไว้โดยไม่ได้ใช้ประโยชน์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "หิ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 19 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เอาเข้าเก็บไว้ + ที่วางของซึ่งแขวนหรือติดไว้ข้างฝา"
+    },
+    {
+     "th": "ขึ้นฉาง",
+     "translit_auto": "khuenchang",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(คำสุภาพ) ใส่ฉาง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "ฉาง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 19 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "เอาเข้าเก็บไว้ + อาคารเก็บผลิตผลทางการเกษตรอย่างข้า"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "gloss": {
+    "en": [
+     "[RID sense 20 — no English yet]"
+    ],
+    "th": "แล่นไปตามทางจากใต้ไปเหนือ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขาขึ้น",
+     "rtgs": "kha-khuen",
+     "ipa": "/kʰaː˩˩˦.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำลังได้รับความนิยม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขา",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 20: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "ขา"
+     ],
+     "lit": "leg + rise",
+     "lit_th": "อวัยวะของมนุษย์หรือสัตว์ที่ยื่นจาก + แล่นไปตามทางจากใต้ไปเหนือ"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Travelling up the map, south to north.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 21,
+   "gloss": {
+    "en": [
+     "[RID sense 21 — no English yet]"
+    ],
+    "th": "ข้างขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ข้างขึ้น",
+     "rtgs": "khang-khuen",
+     "ipa": "/kʰaːŋ˥˩.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของเดือนจันทรคติที่มีพระจันทร์สว่าง คือ ตั้งแต่ขึ้นค่ำหนึ่งไปถึงกลางเดือน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าง",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 21: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit": "board + rise",
+     "lit_th": "เบื้อง + ข้างขึ้น"
+    }
+   ],
+   "extends": 11,
+   "via": "specialisation",
+   "via_note": "ข้างขึ้น, the waxing half of the lunar month.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 22,
+   "gloss": {
+    "en": [
+     "[RID sense 22 — no English yet]"
+    ],
+    "th": "ใช้ประกอบคำอื่นเพื่อเน้นความให้เด่นหรือให้ชัดแจ้งกว่าเดิม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "Bleached to an emphatic after another word.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 23,
+   "gloss": {
+    "en": [
+     "[RID sense 23 — no English yet]"
+    ],
+    "th": "เป็นคำประกอบท้ายหมายความว่า มากกว่าเดิม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "generalisation",
+   "via_note": "And as a suffix meaning more so than before.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 24,
+   "gloss": {
+    "en": [
+     "[RID sense 24 — no English yet]"
+    ],
+    "th": "เป็นไปตามคำที่ยอหรือยุเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 7,
+   "via": "metaphor",
+   "via_note": "Rising to flattery or provocation.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 25,
+   "gloss": {
+    "en": [
+     "[RID sense 25 — no English yet]"
+    ],
+    "th": "ดูสวยกว่าตัวจริง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Coming out better than the person actually looks.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 26,
+   "gloss": {
+    "en": [
+     "[RID sense 26 — no English yet]"
+    ],
+    "th": "มีเหตุผลสมควร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ฟังขึ้น",
+     "rtgs": "fang-khuen",
+     "ipa": "/faŋ˧.kʰɯn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พอจะยึดถือได้ (มักใช้ในความปฏิเสธ)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฟัง",
+      "ขึ้น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 26: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit": "hear + rise",
+     "lit_th": "ตั้งใจสดับ + มีเหตุผลสมควร"
+    }
+   ],
+   "extends": 2,
+   "via": "metaphor",
+   "via_note": "Standing up to scrutiny: reasonable.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 27,
+   "gloss": {
+    "en": [
+     "[RID sense 27 — no English yet]"
+    ],
+    "th": "ถ้าใช้ในความปฏิเสธ หมายความว่า ไม่ชนะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, คำกริยาวิเศษณ์",
+   "pos_th": "คำกริยา, คำกริยาวิเศษณ์",
+   "domains": [
+    "d:motion"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 13,
+   "via": "specialisation",
+   "via_note": "Negated, the luck-sense becomes not winning.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 5 manuscript titles, 102 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['เดิน', 'เข้า', 'ขึ้น', 'ลง'].",
+ "compounds_unassigned": [
+  {
+   "th": "การบรรจุขึ้น",
+   "rtgs": "kan-ban-chu-khuen",
+   "ipa": "/kaːn˧.ban˧.t͡ɕu˨˩.kʰɯn˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ บรรจุขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การบรรจุ",
+    "ขึ้น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ บรรจุ + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+  },
+  {
+   "th": "การขึ้น",
+   "rtgs": "kan-khuen",
+   "ipa": "/kaːn˧.kʰɯn˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ขึ้น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *χɯnꟲ; ร่วมเชื้อสายกับอีสาน ขึ้น, ลาว ຂຶ້ນ (ขึ้น), คำเมือง ᨡᩧ᩠᩶ᨶ (ขึ้น), เขิน ᨡᩨ᩠᩶ᨶ (ขื้น), ไทลื้อ ᦃᦹᧃᧉ (ฃื้น), ไทดำ ꪄꪳ꫁ꪙ (ฃึ้น), ไทขาว ꪄꪳꪙꫂ, ไทใหญ่ ၶိုၼ်ႈ (ขึ้น), ไทใต้คง ᥑᥪᥢᥲ (ฃื้น), พ่าเก ၵ︀ိုꩫ︀် (ขึน์), อาหม 𑜁𑜢𑜤𑜃𑜫 (ขึน์), จ้วง hwnj, จ้วงแบบจั่วเจียง kwnj",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩧ᩠᩶ᨶ",
+  "th": "ขึ้น",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "rise",
+  "ascend",
+  "ascent",
+  "mount"
+ ]
+}

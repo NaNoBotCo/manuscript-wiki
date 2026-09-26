@@ -1,0 +1,1367 @@
+{
+ "id": "w:siang",
+ "th": "เสียง",
+ "status": "mapped",
+ "rtgs": "siang",
+ "paiboon": "sǐiang",
+ "ipa": "/sia̯ŋ˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สิ่งที่รับรู้ได้ด้วยหู",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ขยายเสียง",
+     "rtgs": "kha-yai-siang",
+     "ipa": "/kʰa˨˩.jaːj˩˩˦.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้เสียงดังและกระจายออกไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขยาย",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "amplify + voice",
+     "lit_th": "อธิบาย + สิ่งที่รับรู้ได้ด้วยหู"
+    },
+    {
+     "th": "น้ำเสียง",
+     "rtgs": "nam-siang",
+     "ipa": "/nam˦˥.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "tone"
+      ],
+      "th": "คำพูด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "น้ำ",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "water + voice",
+     "lit_th": "สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    },
+    {
+     "th": "กล่องเสียง",
+     "rtgs": "klong-siang",
+     "ipa": "/klɔŋ˨˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อวัยวะใช้เปล่งเสียงพูด อยู่บริเวณส่วนบนของหลอดลม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กล่อง",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "box + voice",
+     "lit_th": "ภาชนะใส่ของรูปกลมหรือเหลี่ยม อาจมี + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    },
+    {
+     "th": "เสียงสามัญ",
+     "rtgs": "siang-sa-man",
+     "ipa": "/sia̯ŋ˩˩˦.saː˩˩˦.man˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระดับเสียงกลางในภาษาไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียง",
+      "สามัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "voice + usual",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + ปรกติ",
+     "frame": "quality"
+    },
+    {
+     "th": "ทำนองเสียง",
+     "rtgs": "tham-nong-siang",
+     "ipa": "/tʰam˧.nɔːŋ˧.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การขึ้นและลงของเสียงขณะที่พูด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทำนอง",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "tune + voice",
+     "lit_th": "ทาง + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    },
+    {
+     "th": "แผ่นเสียง",
+     "rtgs": "phaen-siang",
+     "ipa": "/pʰɛn˨˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "record",
+       "disc",
+       "disk"
+      ],
+      "th": "วัสดุแผ่นกลมบางซึ่งบันทึกเสียงไว้ในลักษณะเป็นร่องบนผิวพื้น เมื่อใส่บนแผ่นหมุนของหีบเสียง วางเข็มลงในร่องแล้วให้จานหมุนไป ก็จะเกิดเสียงตามที่บันทึกไว้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "แผ่น",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิ่งที่มีลักษณะแบน ๆ อย่างกระดาษหร + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    },
+    {
+     "th": "หางเสียง",
+     "rtgs": "hang-siang",
+     "ipa": "/haːŋ˩˩˦.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระแสเสียงที่ลงท้ายซึ่งแสดงนิสัย ความรู้สึก หรืออารมณ์ของผู้พูดเป็นต้น เช่นโกรธ อ่อนโยน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หาง",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "tail + voice",
+     "lit_th": "ส่วนที่ยื่นออกจากส่วนท้ายแห่งลำตัว + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    },
+    {
+     "th": "เสียงโท",
+     "rtgs": "siang-tho",
+     "ipa": "/sia̯ŋ˩˩˦.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระดับเสียงสูงแล้วตกลงต่ำในภาษาไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียง",
+      "โท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "voice + two",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + สอง"
+    },
+    {
+     "th": "กระแสเสียง",
+     "rtgs": "kra-sae-siang",
+     "ipa": "/kra˨˩.sɛː˩˩˦.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียงที่แล่นไป, น้ำเสียง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระแส",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "stream + voice",
+     "lit_th": "น้ำหรือลมที่ไหลหรือพัดเรื่อยไปไม่ข + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    },
+    {
+     "th": "เสียงหลบ",
+     "rtgs": "siang-lop",
+     "ipa": "/sia̯ŋ˩˩˦.lop̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียงพูดหรือร้องที่บีบให้แหลมสูง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียง",
+      "หลบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + หลีก"
+    },
+    {
+     "th": "เสียงแตก",
+     "translit_auto": "seiyngtaek",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียงพูดในตอนแตกเนื้อหนุ่ม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียง",
+      "แตก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "แตก"
+     ],
+     "lit": "voice + fracture",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + แยกออกจากส่วนรวม"
+    },
+    {
+     "th": "เสียงสอง",
+     "rtgs": "siang-song",
+     "ipa": "/sia̯ŋ˩˩˦.sɔːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียงพูดหรือร้องที่บีบให้แหลมสูง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียง",
+      "สอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "voice + two",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + จำนวนหนึ่งบวกหนึ่ง"
+    },
+    {
+     "th": "เสียงสะท้อน",
+     "rtgs": "siang-sa-thon",
+     "ipa": "/sia̯ŋ˩˩˦.sa˨˩.tʰɔːn˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียงที่ย้อนกลับมามีลักษณะคล้ายเสียงเดิม เนื่องจากคลื่นเสียงไปกระทบสิ่งขวางกั้นแล้วย้อนกลับ อย่างเสียงในถ้ำในหุบเขาเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียง",
+      "สะท้อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "voice + echo",
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + วกกลับ"
+    },
+    {
+     "th": "หน่วยเสียง",
+     "rtgs": "nuai-siang",
+     "ipa": "/nua̯j˨˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "phoneme"
+      ],
+      "th": "หน่วยของเสียงที่ไม่สามารถแบ่งแยกได้ในภาษาที่กำหนด หน่วยเสียงเป็นภาวะนามธรรมของเสียงพูดทางกายภาพ และอาจรวมถึงเสียงที่แตกต่างกันหลายเสียง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หน่วย",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ตัวเลขหลังสุดของเลขจำนวนเต็มที่เรี + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    },
+    {
+     "th": "ดูดเสียง",
+     "rtgs": "dut-siang",
+     "ipa": "/duːt̚˨˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กรองคลื่นความถี่เสียงที่ไม่เหมาะสมหรือไม่ต้องการ เพื่อให้อยู่ในระดับที่ไม่สามารถได้ยินเมื่อเวลาออกอากาศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดูด",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "absorb + voice",
+     "lit_th": "สูบด้วยปาก + สิ่งที่รับรู้ได้ด้วยหู"
+    },
+    {
+     "th": "เสียงจัตวา",
+     "rtgs": "siang-chat-ta-wa",
+     "ipa": "/sia̯ŋ˩˩˦.t͡ɕat̚˨˩.ta˨˩.waː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระดับเสียงต่ำแล้วยกขึ้นสูงในภาษาไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียง",
+      "จัตวา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "สิ่งที่รับรู้ได้ด้วยหู + สี่"
+    },
+    {
+     "th": "หนังสือเสียง",
+     "rtgs": "nang-sue-siang",
+     "ipa": "/naŋ˩˩˦.sɯː˩˩˦.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เสียงอ่านหนังสือที่บันทึกไว้ โดยมากบันทึกไว้เพื่อจำหน่าย หนังสือที่อ่านอาจเป็นฉบับเต็มหรือฉบับย่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนังสือ",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "book + voice",
+     "lit_th": "เครื่องหมายใช้ขีดเขียนแทนเสียงหรือ + สิ่งที่รับรู้ได้ด้วยหู",
+     "frame": "entity"
+    },
+    {
+     "th": "ขึ้นเสียง",
+     "rtgs": "khuen-siang",
+     "ipa": "/kʰɯn˥˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออกเสียงดังด้วยความโกรธ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขึ้น",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขึ้น"
+     ],
+     "lit": "rise + voice",
+     "lit_th": "ไปสู่เบื้องบน เบื้องสูง หรือ เบื้อ + สิ่งที่รับรู้ได้ด้วยหู"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ความเห็น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A voice raised stands for the opinion in it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ความนิยม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And many voices stand for popularity.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ชื่อเสียง",
+     "rtgs": "chue-siang",
+     "ipa": "/t͡ɕʰɯː˥˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "face",
+       "renown",
+       "reputation"
+      ],
+      "th": "เกียรติยศ, ชื่อ ก็ว่า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชื่อ",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ชื่อ"
+     ],
+     "lit": "name + voice",
+     "lit_th": "คำที่ตั้งขึ้นสำหรับเรียกคน สัตว์ ส + ความนิยม",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "คะแนนเสียง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:speech"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ขายเสียง",
+     "rtgs": "khai-siang",
+     "ipa": "/kʰaːj˩˩˦.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลงคะแนนเลือกตั้งเพื่อแลกกับเงินที่ผู้ซื้อเสียงจ่ายให้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขาย",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.15, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ขาย"
+     ],
+     "lit": "sell + voice",
+     "lit_th": "เอาของแลกเงินตรา + คะแนนเสียง"
+    },
+    {
+     "th": "เสียงตรี",
+     "rtgs": "siang-tri",
+     "ipa": "/sia̯ŋ˩˩˦.triː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระดับเสียงสูงในภาษาไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียง",
+      "ตรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตรี"
+     ],
+     "lit": "voice + fish",
+     "lit_th": "คะแนนเสียง + ปลา",
+     "frame": "entity"
+    },
+    {
+     "th": "ส่งเสียง",
+     "rtgs": "song-siang",
+     "ipa": "/soŋ˨˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ร้องเสียงดัง, แผดเสียง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่ง",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ส่ง"
+     ],
+     "lit": "send + voice",
+     "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งเคลื่อนพ้นจากท + คะแนนเสียง"
+    },
+    {
+     "th": "คะแนนเสียง",
+     "rtgs": "kha-naen-siang",
+     "ipa": "/kʰa˦˥.nɛːn˧.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "poll"
+      ],
+      "th": "คะแนนที่ลงในการออกเสียง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คะแนน",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "mark + voice",
+     "lit_th": "เครื่องหมายในการนับ + คะแนนเสียง",
+     "frame": "entity"
+    },
+    {
+     "th": "เสียงเอก",
+     "rtgs": "siang-ek",
+     "ipa": "/sia̯ŋ˩˩˦.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระดับเสียงต่ำในภาษาไทย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เสียง",
+      "เอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "voice + one",
+     "lit_th": "คะแนนเสียง + หนึ่ง"
+    },
+    {
+     "th": "กระบอกเสียง",
+     "rtgs": "kra-bok-siang",
+     "ipa": "/kra˨˩.bɔːk̚˨˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "organ"
+      ],
+      "th": "ผู้เป็นปากเป็นเสียงแทน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กระบอก",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.15, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ไม้ไผ่ที่ตัดเป็นท่อน + คะแนนเสียง",
+     "frame": "entity"
+    },
+    {
+     "th": "ซื้อเสียง",
+     "rtgs": "sue-siang",
+     "ipa": "/sɯː˦˥.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จ่ายเงินเพื่อแลกกับคะแนนเสียงเลือกตั้งของประชาชน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ซื้อ",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.19, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "consume + voice",
+     "lit_th": "เอาเงินตราแลกกับสิ่งของ + คะแนนเสียง"
+    },
+    {
+     "th": "กระจายเสียง",
+     "rtgs": "kra-chai-siang",
+     "ipa": "/kra˨˩.t͡ɕaːj˧.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่งเสียงแพร่ไกลออกไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระจาย",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "spread + voice",
+     "lit_th": "ทำให้แพร่หรือแตกแยกออกจากกันไปในที + คะแนนเสียง"
+    },
+    {
+     "th": "ออกเสียง",
+     "rtgs": "ok-siang",
+     "ipa": "/ʔɔːk̚˨˩.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "deliver",
+       "pronounce"
+      ],
+      "th": "เปล่งเสียง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.15, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ออก"
+     ],
+     "lit": "tear + voice",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + คะแนนเสียง",
+     "frame": "entity"
+    },
+    {
+     "th": "หาเสียง",
+     "rtgs": "ha-siang",
+     "ipa": "/haː˩˩˦.sia̯ŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสวงหาการสนับสนุน เพื่อให้ได้รับเลือกตั้งเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หา",
+      "เสียง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "หา"
+     ],
+     "lit": "find + voice",
+     "lit_th": "มุ่งพบ + คะแนนเสียง"
+    }
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "One voice counted: a vote.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 16 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 38; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "การขายเสียง",
+   "rtgs": "kan-khai-siang",
+   "ipa": "/kaːn˧.kʰaːj˩˩˦.sia̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขายเสียง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขาย",
+    "เสียง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "sale + voice",
+   "lit_th": "คำอาการนามของ ขาย + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
+  },
+  {
+   "th": "การหาเสียง",
+   "rtgs": "kan-ha-siang",
+   "ipa": "/kaːn˧.haː˩˩˦.sia̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "campaign"
+    ],
+    "th": "คำอาการนามของ หาเสียง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การหา",
+    "เสียง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หา + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
+  },
+  {
+   "th": "การซื้อเสียง",
+   "rtgs": "kan-sue-siang",
+   "ipa": "/kaːn˧.sɯː˦˥.sia̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ซื้อเสียง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การซื้อ",
+    "เสียง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "purchase + voice",
+   "lit_th": "คำอาการนามของ ซื้อ + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
+  },
+  {
+   "th": "การกระจายเสียง",
+   "rtgs": "kan-kra-chai-siang",
+   "ipa": "/kaːn˧.kra˨˩.t͡ɕaːj˧.sia̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ กระจายเสียง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การกระจาย",
+    "เสียง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ กระจาย + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
+  },
+  {
+   "th": "การส่งเสียง",
+   "rtgs": "kan-song-siang",
+   "ipa": "/kaːn˧.soŋ˨˩.sia̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ส่งเสียง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การส่ง",
+    "เสียง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "delivery + voice",
+   "lit_th": "คำอาการนามของ ส่ง + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
+  },
+  {
+   "th": "จานเสียง",
+   "rtgs": "chan-siang",
+   "ipa": "/t͡ɕaːn˧.sia̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ แผ่นเสียง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จาน",
+    "เสียง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "plate + voice",
+   "lit_th": "ภาชนะรูปแบน ๆ สำหรับใส่สิ่งของต่าง + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
+  },
+  {
+   "th": "การออกเสียง",
+   "rtgs": "kan-ok-siang",
+   "ipa": "/kaːn˧.ʔɔːk̚˨˩.sia̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ออกเสียง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การออก",
+    "เสียง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ออก + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
+  },
+  {
+   "th": "การขึ้นเสียง",
+   "rtgs": "kan-khuen-siang",
+   "ipa": "/kaːn˧.kʰɯn˥˩.sia̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขึ้นเสียง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขึ้น",
+    "เสียง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ขึ้น + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
+  },
+  {
+   "th": "การขยายเสียง",
+   "rtgs": "kan-kha-yai-siang",
+   "ipa": "/kaːn˧.kʰa˨˩.jaːj˩˩˦.sia̯ŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ขยายเสียง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การขยาย",
+    "เสียง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "increase + voice",
+   "lit_th": "คำอาการนามของ ขยาย + สิ่งที่รับรู้ได้ด้วยหู",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *siəŋᴬ¹ (Jonsson, 1991), จากจีนยุคกลาง 聲 (MC syeng); ร่วมเชื้อสายกับคำเมือง ᩈ᩠ᨿᨦ (สยง), ลาว ສຽງ (สยง), ไทลื้อ ᦵᦉᧂ (เสง), ไทดำ ꪎꪸꪉ (สย̂ง) หรือ ꪹꪎꪉ (เสง), ไทขาว ꪎꪸꪉ, ไทใหญ่ သဵင် (เสง), ไทใต้คง ᥔᥥᥒᥴ (เส๋ง), อ่ายตน ꩬ︀ိင︀် (สิง์), พ่าเก ꩬ︀ိင︀် (สิง์), อาหม 𑜏𑜢𑜂𑜫 (สิง์); เกี่ยวข้องกับ สำเนียง",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩈ᩠ᨿᨦ",
+  "th": "สยง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "voice",
+  "bright",
+  "sound",
+  "audio"
+ ]
+}

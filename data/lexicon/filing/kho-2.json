@@ -1,0 +1,33 @@
+{
+ "head": "kho-2",
+ "rule": "คอ divides by what the neck IS versus what it STANDS FOR. Sense 1, the body part, takes the whole physical throat: its anatomy and its diseases, what is worn round it (every collar — the head has no garment sense and a collar is named for the neck it encircles), what is done to it, and every figure drawn on the physical neck — กดคอ to force, ค้ำคอ to oblige, ดักคอ to forestall, คอคอด an isthmus, คอห่าน a plumbing trap. Sense 2, the narrow of a vessel between belly and mouth, takes the one architectural neck, คอระฆัง. Sense 4, the appetite that goes down the throat, takes the taste-and-disposition words: ถูกคอ, แตกคอ, ใจคอ. Sense 3, the crown-shaft of a palm, draws nothing.",
+ "senses": {
+  "1": [
+   "คอแดง",
+   "คอคอด",
+   "คอซอง",
+   "คอห่าน",
+   "กดคอ",
+   "แผงคอ",
+   "ดักคอ",
+   "คอปาด",
+   "ปลอกคอ",
+   "คอเต่า",
+   "ก้านคอ",
+   "เกลียวคอ",
+   "คอตีบ",
+   "คอหอย",
+   "ช่องคอ",
+   "ค้ำคอ",
+   "หักคอ"
+  ],
+  "2": [
+   "คอระฆัง"
+  ],
+  "4": [
+   "ใจคอ",
+   "ถูกคอ",
+   "แตกคอ"
+  ]
+ }
+}

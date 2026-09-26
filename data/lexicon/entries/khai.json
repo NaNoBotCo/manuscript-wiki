@@ -1,0 +1,1286 @@
+{
+ "id": "w:khai",
+ "th": "ไข่",
+ "status": "mapped",
+ "rtgs": "khai",
+ "paiboon": "kài",
+ "ipa": "/kʰaj˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธุ์เพศเมีย อาหาร และสิ่งห่อหุ้มซึ่งอาจจะเป็นไข่ขาว วุ้น เยื่อถุงไข่ หรือเปลือก ส่วนมากมีรูปร่างกลม จะมีตัวอ่อนภายในหรือไม่ก็ได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ไข่ขาว",
+     "rtgs": "khai-khao",
+     "ipa": "/kʰaj˨˩.kʰaːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของไข่สัตว์ เช่น ไข่ของนก ไข่ของสัตว์เลื้อยคลาน มีสีขาวใสอยู่รอบ ๆ ไข่แดง เป็นสารโปรตีนทำหน้าที่ป้องกันส่วนที่เป็นเซลล์ของไข่ เวลาเซลล์ของไข่แบ่งตัวเจริญเป็นตัวอ่อน ไข่ขาวจะเป็นอาหารของตัวอ่อนด้วย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ขาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขาว"
+     ],
+     "lit": "egg + white",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + สีชนิดหนึ่งเหมือนสำลี",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่ข้าว",
+     "rtgs": "khai-khao",
+     "ipa": "/kʰaj˨˩.kʰaːw˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ที่ฟักไม่เป็นตัวต้มแล้วแข็งและเหนียวผิดปรกติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ข้าว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ข้าว"
+     ],
+     "lit": "egg + rice",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "ตั้งไข่",
+     "rtgs": "tang-khai",
+     "ipa": "/taŋ˥˩.kʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สอนยืน, ใช้แก่เด็กเล็กที่เพิ่งหัดยืน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตั้ง",
+      "ไข่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตั้ง"
+     ],
+     "lit": "introduce + egg",
+     "lit_th": "ชูตัว + ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ"
+    },
+    {
+     "th": "ไข่กระทะ",
+     "rtgs": "khai-kra-tha",
+     "ipa": "/kʰaj˨˩.kra˨˩.tʰaʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาหารญวนชนิดหนึ่ง ประกอบด้วยไข่ทอดในกระทะเล็ก ๆ โรยหน้าด้วยหมูยอ หมูสับ พริกไทย ปรุงรสด้วยซอสตามชอบ เสิร์ฟทั้งกระทะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "กระทะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "egg + pan",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ภาชนะก้นตื้น ใช้ทอดหรือผัดอาหาร",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่ขวัญ",
+     "rtgs": "khai-khwan",
+     "ipa": "/kʰaj˨˩.kʰwan˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ปอกที่เสียบไม้ปักไว้บนยอดบายศรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ขวัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "egg + khwan",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่ลม",
+     "rtgs": "khai-lom",
+     "ipa": "/kʰaj˨˩.lom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ของสัตว์ปีกที่เชื้อตัวผู้ไม่ได้ผสมกับไข่ของตัวเมีย ไม่สามารถฟักให้เป็นตัวได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ลม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ลม"
+     ],
+     "lit": "egg + wind",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ธาตุอย่างหนึ่งในธาตุทั้ง 4 ของร่าง",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่ปิ้ง",
+     "rtgs": "khai-ping",
+     "ipa": "/kʰaj˨˩.piŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ทั้งเปลือกที่ทำให้สุกด้วยการปิ้งบนเตาถ่าน ใช้ไฟอ่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ปิ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "egg + toast",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ทำให้สุกด้วยการวางไว้เหนือไฟ มักใช"
+    },
+    {
+     "th": "ไข่หวาน",
+     "rtgs": "khai-wan",
+     "ipa": "/kʰaj˨˩.waːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อขนมอย่างหนึ่งทำโดยต่อยไข่ใส่ลงในน้ำเชื่อมร้อน ๆ แล้วต้มให้สุก มักใส่ขิงด้วย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "หวาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "หวาน"
+     ],
+     "lit": "egg + sweet",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + มีรสอย่างรสน้ำตาล",
+     "frame": "quality"
+    },
+    {
+     "th": "ไข่ฟู",
+     "rtgs": "khai-fu",
+     "ipa": "/kʰaj˨˩.fuː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่เจียวเนื้อฟู",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ฟู"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + พองตัวขึ้น"
+    },
+    {
+     "th": "รังไข่",
+     "rtgs": "rang-khai",
+     "ipa": "/raŋ˧.kʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อวัยวะภายในร่างกายของผู้หญิงและสัตว์ตัวเมีย เป็นที่เกิดไข่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "ไข่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "รัง"
+     ],
+     "lit": "nest + egg",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่เจียว",
+     "rtgs": "khai-chiao",
+     "ipa": "/kʰaj˨˩.t͡ɕia̯w˧/",
+     "gloss": {
+      "en": [
+       "omelet",
+       "omelette"
+      ],
+      "th": "ไข่ที่ตีไข่แดงกับไข่ขาวให้เข้ากันแล้วทอดน้ำมัน, ถ้าน้ำมันมากจนไข่ที่เจียวฟู เรียก ไข่ฟู, ถ้ามีเนื้อหมูสับผสมด้วย เรียก ไข่เจียวหมูสับ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "เจียว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ทอดมันสัตว์เพื่อเอาน้ำมัน"
+    },
+    {
+     "th": "ไข่ระเบิด",
+     "rtgs": "khai-ra-boet",
+     "ipa": "/kʰaj˨˩.ra˦˥.bɤːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ดาวราดหน้าด้วยหมูสับผัดกับผักมีน้ำข้น ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ระเบิด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "egg + bomb",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ปะทุแตกออกไป"
+    },
+    {
+     "th": "ไข่ลวก",
+     "rtgs": "khai-luak",
+     "ipa": "/kʰaj˨˩.lua̯k̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ที่ทำให้สุกด้วยการแช่น้ำร้อน ทำให้ไข่ขาวสุกแต่ไม่แข็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ลวก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + กิริยาที่ของเหลวหรือไอที่ร้อนจัดหร"
+    },
+    {
+     "th": "ไข่ลูกสะใภ้",
+     "rtgs": "khai-luk-sa-phai",
+     "ipa": "/kʰaj˨˩.luːk̚˥˩.sa˨˩.pʰaj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ลูกเขยที่ใช้ไข่ดาวแทนไข่ต้มทอด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ลูกสะใภ้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "egg + daughter-in-law",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + หญิงซึ่งเป็นเมียของลูกชาย",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่กวน",
+     "rtgs": "khai-kuan",
+     "ipa": "/kʰaj˨˩.kua̯n˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ที่ทำให้สุกโดยการคนเร็ว ๆ ในภาชนะที่ตั้งบนไฟ อาจใส่ผักหรือเนื้อเพิ่มเล็กน้อย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "กวน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "egg + scramble",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + รบกวนทำให้เกิดความรำคาญ"
+    },
+    {
+     "th": "ไข่คน",
+     "rtgs": "khai-khon",
+     "ipa": "/kʰaj˨˩.kʰon˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ที่ทำให้สุกโดยการคนเร็ว ๆ ในภาชนะที่ตั้งบนไฟ อาจใส่ผักหรือเนื้อเพิ่มเล็กน้อย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "คน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คน"
+     ],
+     "lit": "egg + stir",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + มนุษย์ คือสัตว์เลี้ยงลูกด้วยนมชนิด",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่แดง",
+     "rtgs": "khai-daeng",
+     "ipa": "/kʰaj˨˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "egg yolk"
+      ],
+      "th": "ส่วนของไข่สัตว์ เช่น ไข่ของนก ไข่ของสัตว์เลื้อยคลาน อยู่รอบส่วนที่จะเจริญเป็นตัวอ่อน มักมีสีเหลืองหรือแดง เป็นสารประเภทไขมันที่สะสมไว้สำหรับเลี้ยงตัวอ่อนขณะที่เติบโต",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "แดง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "แดง"
+     ],
+     "lit": "egg + red",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ไข่เต่า",
+     "rtgs": "khai-tao",
+     "ipa": "/kʰaj˨˩.taw˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขนมชนิดหนึ่ง มีลักษณะเป็นก้อนทรงกลม สีทองเหลือง ทำด้วยมันเทศผสมแป้ง ทอดในน้ำมันมาก ๆ ให้กรอบนอกนุ่มใน รสชาติหวานมัน นิยมขายคู่กับกล้วยทอด มันทอด เผือกทอด เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "เต่า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ชื่อสัตว์เลื้อยคลานหลายวงศ์ ในอันด",
+     "frame": "entity"
+    },
+    {
+     "th": "วางไข่",
+     "rtgs": "wang-khai",
+     "ipa": "/waːŋ˧.kʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออกไข่ (ใช้กับสัตว์)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วาง",
+      "ไข่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "วาง"
+     ],
+     "lit": "put + egg",
+     "lit_th": "ทำให้สิ่งใดสิ่งหนึ่งพ้นจากมือหรือบ + ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ"
+    },
+    {
+     "th": "ไข่น้ำ",
+     "rtgs": "khai-nam",
+     "ipa": "/kʰaj˨˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แกงจืดไข่เจียว ใส่ต้นหอมหรือใบโหระพา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "น้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "egg + water",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ไข่ดาว",
+     "rtgs": "khai-dao",
+     "ipa": "/kʰaj˨˩.daːw˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไข่ทอดทั้งลูกโดยไม่ต้องตีไข่แดงกับไข่ขาวให้เข้ากัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "ดาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ดาว"
+     ],
+     "lit": "egg + star",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + สิ่งที่เห็นเป็นดวงมีแสงระยิบระยับใ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เรียกสิ่งที่เป็นเม็ดกลม ๆ เล็ก ๆ ที่มีอยู่ตามใบไม้บางชนิด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ไข่มุก",
+     "rtgs": "khai-muk",
+     "ipa": "/kʰaj˨˩.muk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "วัตถุมีค่า มักมีลักษณะกลม ๆ เกิดจากหอยบางชนิด ที่รู้จักกันทั่วไปมีสีขาว ที่เป็นสีขาวอมชมพูหรือสีดำก็มี ใช้ทำเป็นเครื่องประดับ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "มุก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.16, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "egg + pearl",
+     "lit_th": "เรียกสิ่งที่เป็นเม็ดกลม ๆ เล็ก ๆ ท + ชื่อหอยทะเลกาบคู่หลายชนิดในวงศ์ Pt",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Small round grains on a leaf, called eggs for their shape.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ลูกอัณฑะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The testicle.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "คะแนนศูนย์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A score of nothing, from the shape of the nought.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ลูกระเบิด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A bomb, from the shape.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ชื่อกล้วยพันธุ์หนึ่งซึ่งกลายมาจากกล้วยป่า (Musa acuminata) ผลเล็ก เปลือกบาง ไม่มีเมล็ด บางพันธุ์มีกระที่เปลือก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หนองม่วงไข่",
+     "rtgs": "nong-muang-khai",
+     "ipa": "/nɔːŋ˩˩˦.mua̯ŋ˥˩.kʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดแพร่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนองม่วง",
+      "ไข่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "PROP+N",
+     "head": 1,
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดลพบุรี + ชื่อกล้วยพันธุ์หนึ่งซึ่งกลายมาจากก"
+    },
+    {
+     "th": "ท่าไข่",
+     "rtgs": "tha-khai",
+     "ipa": "/tʰaː˥˩.kʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "ไข่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + egg",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ชื่อกล้วยพันธุ์หนึ่งซึ่งกลายมาจากก",
+     "frame": "entity"
+    },
+    {
+     "th": "กล้วยไข่",
+     "rtgs": "kluai-khai",
+     "ipa": "/klua̯j˥˩.kʰaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กล้วยชนิดหนึ่งลูกกลม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กล้วย",
+      "ไข่"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "banana + egg",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดในสกุล Musa ว + ชื่อกล้วยพันธุ์หนึ่งซึ่งกลายมาจากก",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "กล้วยไข่, the small egg-shaped banana.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ตกฟอง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The egg names the laying of it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ให้กำเนิดบุตรแล้วไม่รับผิดชอบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 7,
+   "via": "metaphor",
+   "via_note": "Fathering a child and walking away from it.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ทำให้ผู้หญิงท้องแล้วมักไม่รับผิดชอบ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:plant"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "specialisation",
+   "via_note": "Said of the man who leaves a woman pregnant.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 451 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 30; domain seeded by keyword hits ['เมล็ด', 'ป่า', 'ใบ', 'ผล'].",
+ "compounds_unassigned": [
+  {
+   "th": "ไข่พอก",
+   "rtgs": "khai-phok",
+   "ipa": "/kʰaj˨˩.pʰɔːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ไข่เค็ม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข่",
+    "พอก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "egg + cover",
+   "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + หุ้ม"
+  },
+  {
+   "th": "ไข่สำเภา",
+   "rtgs": "khai-sam-phao",
+   "ipa": "/kʰaj˨˩.sam˩˩˦.pʰaw˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ไข่เยี่ยวม้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข่",
+    "สำเภา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + ชื่อเรือเดินทะเลชนิดหนึ่งแบบจีน แล",
+   "frame": "entity"
+  },
+  {
+   "th": "การไข่",
+   "rtgs": "kan-khai",
+   "ipa": "/kaːn˧.kʰaj˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ไข่",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ไข่"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ",
+   "frame": "entity"
+  },
+  {
+   "th": "ไข่ญี่ปุ่น",
+   "rtgs": "khai-yi-pun",
+   "ipa": "/kʰaj˨˩.jiː˥˩.pun˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ไข่ลูกเขย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข่",
+    "ญี่ปุ่น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+PROP",
+   "head": 0,
+   "lit": "egg + Japanese"
+  },
+  {
+   "th": "ไข่แหน",
+   "translit_auto": "khaihaen",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ผำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ไข่",
+    "แหน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + หวง"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *qraj; ร่วมเชื้อสายกับคำเมือง ᨡᩱ᩵ (ไข่), ลาว ໄຂ່ (ไข่), ไทลื้อ ᦺᦃᧈ (ไฃ่), ไทดำ ꪼꪎ꪿ (ไส่), ไทใหญ่ ၶႆႇ (ไข่), เขิน ᨡᩱ᩵ (ไข่), อาหม 𑜁𑜩 (ขย์), จ้วง gyaeq, ภาษาจ้วงใต้ kaeq/haeq",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨡᩱ᩵",
+  "th": "ไข่",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khai-2",
+   "label": "ขาย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khai\". ไข่ is kài, ขาย is kǎai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:khai-3",
+   "label": "ไข",
+   "why": "spelling",
+   "distinction": "Both romanise as \"khai\". ไข่ is kài, ไข is kǎi — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "egg"
+ ]
+}

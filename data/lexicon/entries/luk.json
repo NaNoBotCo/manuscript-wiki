@@ -1,0 +1,2575 @@
+{
+ "id": "w:luk",
+ "th": "ลูก",
+ "status": "mapped",
+ "rtgs": "luk",
+ "paiboon": "lûuk",
+ "ipa": "/luːk̚˥˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยายถือว่ามีฐานะเสมือนลูก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ลูกหลง",
+     "rtgs": "luk-long",
+     "ipa": "/luːk̚˥˩.loŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกที่เกิดทีหลังห่างจากพี่เป็นเวลานานปี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "หลง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + สำคัญผิด"
+    },
+    {
+     "th": "ลูกสะใภ้",
+     "rtgs": "luk-sa-phai",
+     "ipa": "/luːk̚˥˩.sa˨˩.pʰaj˦˥/",
+     "gloss": {
+      "en": [
+       "daughter-in-law"
+      ],
+      "th": "หญิงซึ่งเป็นเมียของลูกชาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "สะใภ้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + หญิงที่มาแต่งงานกับญาติผู้ชาย",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกครึ่ง",
+     "rtgs": "luk-khrueng",
+     "ipa": "/luːk̚˥˩.kʰrɯŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกที่เกิดจากพ่อแม่ที่เป็นคนต่างชาติกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ครึ่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit": "child + half",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + กึ่ง",
+     "frame": "quality"
+    },
+    {
+     "th": "ลูกอ่อน",
+     "rtgs": "luk-on",
+     "ipa": "/luːk̚˥˩.ʔɔːn˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกเล็ก ๆ ที่ยังไม่หย่านม, เรียกพ่อหรือแม่ที่มีลูกเล็ก ๆ ยังไม่หย่านม ว่า พ่อลูกอ่อน แม่ลูกอ่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "อ่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "อ่อน"
+     ],
+     "lit": "child + young",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ไม่กระด้าง",
+     "frame": "quality"
+    },
+    {
+     "th": "ลูกประสม",
+     "rtgs": "luk-pra-som",
+     "ipa": "/luːk̚˥˩.pra˨˩.som˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกผสม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ประสม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + รวมกันเข้า"
+    },
+    {
+     "th": "ลูกอก",
+     "translit_auto": "lukok",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกหญิงคนที่ 6",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "อก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "อก"
+     ],
+     "lit": "child + chest",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ส่วนของร่างกายด้านหน้าอยู่ระหว่างค",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกทัวร์",
+     "rtgs": "luk-thua",
+     "ipa": "/luːk̚˥˩.tʰua̯˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คณะนักท่องเที่ยวที่มากับบริษัทท่องเที่ยว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ทัวร์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ท่องเที่ยว"
+    },
+    {
+     "th": "ลูกบ้าน",
+     "rtgs": "luk-ban",
+     "ipa": "/luːk̚˥˩.baːn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชาวบ้านที่อยู่ในปกครองของนายบ้าน ซึ่งในปัจจุบันได้แก่ กำนันและผู้ใหญ่บ้านหรือนายอำเภอแล้วแต่กรณี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "บ้าน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บ้าน"
+     ],
+     "lit": "child + home",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ที่อยู่อาศัย",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกเรือ",
+     "rtgs": "luk-ruea",
+     "ipa": "/luːk̚˥˩.rɯa̯˧/",
+     "gloss": {
+      "en": [
+       "sailor"
+      ],
+      "th": "กะลาสี, คนประจำอยู่ในเรือโดยสารหรือเรือประมงเป็นต้นยกเว้นชั้นหัวหน้าเช่นกัปตันหรือนายท้าย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "เรือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เรือ"
+     ],
+     "lit": "child + boat",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ยานพาหนะที่ใช้สัญจรไปมาในน้ำ มักทำ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกชาย",
+     "rtgs": "luk-chai",
+     "ipa": "/luːk̚˥˩.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "son"
+      ],
+      "th": "ลูกที่เป็นเพศชาย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ชาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ชาย"
+     ],
+     "lit": "child + male",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + คนที่ไม่มีมดลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกหญิง",
+     "rtgs": "luk-ying",
+     "ipa": "/luːk̚˥˩.jiŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกที่เป็นเพศหญิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "หญิง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + มนุษย์เพศเมียซึ่งโดยกำเนิดมีโยนีเป",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกขุน",
+     "rtgs": "luk-khun",
+     "ipa": "/luːk̚˥˩.kʰun˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อำมาตย์, มนตรี, ขุนนาง, ข้าราชการ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ขุน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ผู้เป็นใหญ่",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกทัพฟ้า",
+     "rtgs": "luk-thap-fa",
+     "ipa": "/luːk̚˥˩.tʰap̚˦˥.faː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทหารอากาศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ทัพฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + กองทหารที่ป้องกันประเทศภาคน่านฟ้า",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกหัวปี",
+     "rtgs": "luk-hua-pi",
+     "ipa": "/luːk̚˥˩.hua̯˩˩˦.piː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกคนแรกของพ่อแม่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "หัวปี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + เกิดก่อนเพื่อน",
+     "frame": "quality"
+    },
+    {
+     "th": "ลูกค้า",
+     "rtgs": "luk-kha",
+     "ipa": "/luːk̚˥˩.kʰaː˦˥/",
+     "gloss": {
+      "en": [
+       "customer",
+       "client"
+      ],
+      "th": "ผู้ซื้อ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ค้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ซื้อขายสินค้าหรือบริการ"
+    },
+    {
+     "th": "รีดลูก",
+     "rtgs": "rit-luk",
+     "ipa": "/riːt̚˥˩.luːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทำให้แท้งลูก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "รีด",
+      "ลูก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "iron + child",
+     "lit_th": "บีบ รูด หรือทำสิ่งใดสิ่งหนึ่งให้แผ + ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย"
+    },
+    {
+     "th": "ลูกหนี้",
+     "rtgs": "luk-ni",
+     "ipa": "/luːk̚˥˩.niː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้เป็นหนี้, คู่กับ เจ้าหนี้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "หนี้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + เงินที่ผู้หนึ่งติดค้างอยู่จะต้องใช",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกผู้ชาย",
+     "rtgs": "luk-phu-chai",
+     "ipa": "/luːk̚˥˩.pʰuː˥˩.t͡ɕʰaːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกชาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ผู้ชาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + male",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + มนุษย์เพศชาย",
+     "frame": "entity"
+    },
+    {
+     "th": "ออกลูก",
+     "rtgs": "ok-luk",
+     "ipa": "/ʔɔːk̚˨˩.luːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คลอดลูก (ใช้กับสัตว์)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ออก",
+      "ลูก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ออก"
+     ],
+     "lit": "tear + child",
+     "lit_th": "คำนำหน้าบรรดาศักดิ์ + ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกเลี้ยง",
+     "rtgs": "luk-liang",
+     "ipa": "/luːk̚˥˩.lia̯ŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกที่ติดพ่อหรือแม่มา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "เลี้ยง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "เลี้ยง"
+     ],
+     "lit": "child + grow",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ดูแล"
+    },
+    {
+     "th": "ลูกเขย",
+     "rtgs": "luk-khoei",
+     "ipa": "/luːk̚˥˩.kʰɤːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "son-in-law"
+      ],
+      "th": "ชายซึ่งเป็นผัวของลูกสาว",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "เขย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ชายที่มาแต่งงานกับญาติผู้หญิง",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกเสือ",
+     "rtgs": "luk-suea",
+     "ipa": "/luːk̚˥˩.sɯa̯˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกของเสือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "เสือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + tiger",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ชื่อสัตว์เลี้ยงลูกด้วยน้ำนมในวงศ์",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกลก",
+     "translit_auto": "luklk",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกชายคนที่ 6",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ลก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ลูกชายคนที่ 6",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกแก้ว",
+     "rtgs": "luk-kaeo",
+     "ipa": "/luːk̚˥˩.kɛːw˥˩/",
+     "gloss": {
+      "en": [
+       "marble"
+      ],
+      "th": "สิ่งที่กลึงเป็นรูปกลม ๆ ตามหัวเม็ดและขาโต๊ะเป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "แก้ว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "แก้ว"
+     ],
+     "lit": "child + glass",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + วัตถุแข็ง ใส ทำจากทรายหลอม",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกขวัญ",
+     "translit_auto": "lukkhway",
+     "ipa": "[luːk̚˥˩.kʰwä̃n˩˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกคนที่รักมากที่สุด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ขวัญ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ขวัญ"
+     ],
+     "lit": "child + khwan",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ผมหรือขนที่ขึ้นเวียนเป็นก้นหอย",
+     "frame": "entity"
+    },
+    {
+     "th": "ตกลูก",
+     "rtgs": "tok-luk",
+     "ipa": "/tok̚˨˩.luːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ออกลูก (ใช้แก่สัตว์สี่เท้า)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ตก",
+      "ลูก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "cross_listed": [
+      "ตก"
+     ],
+     "lit": "decrease + child",
+     "lit_th": "พลัดลง + ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย"
+    },
+    {
+     "th": "ลูกสาว",
+     "rtgs": "luk-sao",
+     "ipa": "/luːk̚˥˩.saːw˩˩˦/",
+     "gloss": {
+      "en": [
+       "daughter"
+      ],
+      "th": "ลูกที่เป็นเพศหญิง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "สาว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "สาว"
+     ],
+     "lit": "child + maid",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + หญิงที่มีอายุพ้นวัยเด็ก นับตามความ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกจ้าง",
+     "rtgs": "luk-chang",
+     "ipa": "/luːk̚˥˩.t͡ɕaːŋ˥˩/",
+     "gloss": {
+      "en": [
+       "employee",
+       "worker"
+      ],
+      "th": "ผู้รับจ้างทำการงานโดยได้รับค่าตอบแทน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "จ้าง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + hire",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกเถื่อน",
+     "rtgs": "luk-thuean",
+     "ipa": "/luːk̚˥˩.tʰɯa̯n˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกช้างที่เกิดจากช้างเถื่อนในป่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "เถื่อน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + animal",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ป่า",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกหลาน",
+     "rtgs": "luk-lan",
+     "ipa": "/luːk̚˥˩.laːn˩˩˦/",
+     "gloss": {
+      "en": [
+       "descendant",
+       "issue",
+       "offspring"
+      ],
+      "th": "ผู้มีอายุคราวลูกหรือหลานที่เป็นญาติห่าง ๆ หรือที่นับว่าเป็นญาติ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "หลาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + grandchild",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ลูกของลูก",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกผู้หญิง",
+     "rtgs": "luk-phu-ying",
+     "ipa": "/luːk̚˥˩.pʰuː˥˩.jiŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกสาว, ลูกหญิง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ผู้หญิง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + woman",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + มนุษย์เพศหญิง",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกน้อง",
+     "rtgs": "luk-nong",
+     "ipa": "/luːk̚˥˩.nɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริวาร, ผู้อยู่ในปกครองหรือใต้บังคับบัญชา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "น้อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ผู้ร่วมบิดาหรือมารดาเดียวกันและเกิ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกพี่",
+     "rtgs": "luk-phi",
+     "ipa": "/luːk̚˥˩.pʰiː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำที่ลูกน้องหรือลูกสมุนเรียกเพื่อยกย่องผู้ที่เป็นหัวหน้านักเลงเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "พี่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + ผู้ร่วมบิดาหรือมารดาเดียวกันและเกิ",
+     "frame": "entity"
+    },
+    {
+     "th": "มดลูก",
+     "rtgs": "mot-luk",
+     "ipa": "/mot̚˦˥.luːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อวัยวะภายในอันเป็นที่ตั้งครรภ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มด",
+      "ลูก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "ant + child",
+     "lit_th": "ชื่อแมลงหลายชนิดในวงศ์ Formicidae + ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกผสม",
+     "rtgs": "luk-pha-som",
+     "ipa": "/luːk̚˥˩.pʰa˨˩.som˩˩˦/",
+     "gloss": {
+      "en": [
+       "cross"
+      ],
+      "th": "ต้นไม้หรือสัตว์ที่เกิดจากการผสมพันธุ์ต่างชนิดกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ผสม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "child + mix",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + นำมารวมกัน"
+    },
+    {
+     "th": "ลูกมือ",
+     "rtgs": "luk-mue",
+     "ipa": "/luːk̚˥˩.mɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ทำการตามคำแนะนำของหัวหน้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "มือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "มือ"
+     ],
+     "lit": "child + hand",
+     "lit_th": "ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย + อวัยวะส่วนหนึ่งของร่างกายอยู่ต่อจา",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "คำที่พ่อแม่เรียกลูกของตนโดยตรง หรือเรียกเด็กอื่นหรือผู้เยาว์กว่าผู้พูดหลายปีด้วยความรู้สึกรักและเอ็นดู",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "The word parents use to their own child, widened to any younger person spoken to fondly.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "คำที่ลูกใช้แทนชื่อตนเวลาพูดกับพ่อแม่ด้วยความรักและเคารพ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "And turned around: what a child calls itself when speaking to a parent.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "สัตว์ที่ยังไม่โต",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลูกแม็กซ์",
+     "rtgs": "luk-maek",
+     "ipa": "/luːk̚˥˩.mɛk̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลวดเย็บกระดาษที่ยังไม่ได้ใช้ สำหรับเติมเครื่องเย็บกระดาษ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "แม็กซ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: gloss similarity 0.16, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สัตว์ที่ยังไม่โต + เครื่องเย็บกระดาษ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกแมว",
+     "rtgs": "luk-ma",
+     "ipa": "/luːk̚˥˩.maː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกของแมว",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "แมว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + cat",
+     "lit_th": "สัตว์ที่ยังไม่โต + ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Felis",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกหมา",
+     "rtgs": "luk-ma",
+     "ipa": "/luːk̚˥˩.maː˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกของหมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "หมา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + canine",
+     "lit_th": "สัตว์ที่ยังไม่โต + สัตว์เลี้ยงลูกด้วยน้ำนมหลายชนิดหลา",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกกระจอก",
+     "rtgs": "luk-kra-chok",
+     "ipa": "/luːk̚˥˩.kra˨˩.t͡ɕɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกน้อง, ลูกสมุน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "กระจอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สัตว์ที่ยังไม่โต + ชื่อนกขนาดเล็ก วงศ์ย่อย Passerinae",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกเจี๊ยบ",
+     "rtgs": "luk-chiap",
+     "ipa": "/luːk̚˥˩.t͡ɕia̯p̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกไก่ตัวเล็ก ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "เจี๊ยบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "สัตว์ที่ยังไม่โต + จัด"
+    }
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Extended to the young of animals.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ผลไม้, ลูกไม้, สิ่งที่จะสืบเป็นพันธุ์ไม้มีลักษณะกลม ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลูกไม้",
+     "rtgs": "luk-mai",
+     "ipa": "/luːk̚˥˩.maːj˦˥/",
+     "gloss": {
+      "en": [
+       "fruit",
+       "lace"
+      ],
+      "th": "ผลไม้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ไม้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "child + wood",
+     "lit_th": "ผลไม้ + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกหวาย",
+     "rtgs": "luk-wai",
+     "ipa": "/luːk̚˥˩.waːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ตะกร้อ (กีฬา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "หวาย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ผลไม้ + ชื่อเรียกปาล์มหลายชนิดหลายสกุล ในว",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "What a plant bears is its child — fruit, and the round seed-bearing thing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เมื่อกล่าวถึงผลไม้ชนิดใดโดยเฉพาะ ซึ่งโดยมากเป็นคำพยางค์เดียวอันอาจทำให้เข้าใจผิดเป็นอย่างอื่นได้ ตามปรกติมักมีคำ ลูก ประกอบข้างหน้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 5,
+   "via": "specialisation",
+   "via_note": "Placed before a one-syllable fruit name so it is not misread as something else.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว ๆ หรือโดยอนุโลม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลูกกุญแจ",
+     "rtgs": "luk-kun-chae",
+     "ipa": "/luːk̚˥˩.kun˧.t͡ɕɛː˧/",
+     "gloss": {
+      "en": [
+       "key"
+      ],
+      "th": "เครื่องมือชนิดหนึ่ง ทำด้วยเหล็กหรือทองเหลืองเป็นต้น สำหรับไขแม่กุญแจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "กุญแจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + key",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + เครื่องสำหรับใส่ประตูหน้าต่างเป็นต",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกหนัง",
+     "rtgs": "luk-nang",
+     "ipa": "/luːk̚˥˩.naŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฟุตบอล (กีฬา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "หนัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + film",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ส่วนของร่างกายที่หุ้มเนื้ออยู่",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกคิด",
+     "rtgs": "luk-khit",
+     "ipa": "/luːk̚˥˩.kʰit̚˦˥/",
+     "gloss": {
+      "en": [
+       "abacus"
+      ],
+      "th": "เครื่องคำนวณเลขของจีน ทำด้วยไม้ เป็นลูกกลม ๆ ร้อยใส่ไว้ในราง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "คิด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "คิด"
+     ],
+     "lit": "child + think",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ทำให้ปรากฏเป็นรูปหรือประกอบให้เป็น"
+    },
+    {
+     "th": "ลูกกวาด",
+     "rtgs": "luk-kwat",
+     "ipa": "/luːk̚˥˩.kwaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "sweets"
+      ],
+      "th": "ของหวานทำด้วยน้ำตาล มีสีต่าง ๆ มีลักษณะเป็นเม็ดกลม ๆ แน่นแข็ง บางอย่างมีถั่วเป็นต้นอยู่ข้างใน ใช้เคี้ยวหรืออมให้ค่อย ๆ ละลายไปเอง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "กวาด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "child + sweep",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ทำให้เตียนหรือหมดฝุ่นละอองด้วยไม้ก"
+    },
+    {
+     "th": "ล้วงลูก",
+     "rtgs": "luang-luk",
+     "ipa": "/lua̯ŋ˦˥.luːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เข้าไปก้าวก่ายในงานที่อยู่ในความรับผิดชอบของผู้อยู่ใต้บังคับบัญชาโดยผิดขั้นตอน หรือไม่โปร่งใส",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ล้วง",
+      "ลูก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "เอามือสอดเข้าไปในที่ซึ่งเป็นช่องเป + ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว"
+    },
+    {
+     "th": "ลูกปัด",
+     "rtgs": "luk-pat",
+     "ipa": "/luːk̚˥˩.pat̚˨˩/",
+     "gloss": {
+      "en": [
+       "bead"
+      ],
+      "th": "เม็ดแก้วเป็นต้นมีรูตรงกลางสำหรับร้อยเป็นเครื่องประดับต่าง ๆ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ปัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "child + flick",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ทำให้หมดไปด้วยการพัดหรือโบกเป็นต้น"
+    },
+    {
+     "th": "ลูกบาศก์",
+     "translit_auto": "lukbask",
+     "gloss": {
+      "en": [
+       "cube"
+      ],
+      "th": "ลูกเต๋า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "บาศก์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ลูกเต๋า",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกนิมิต",
+     "rtgs": "luk-ni-mit",
+     "ipa": "/luːk̚˥˩.ni˦˥.mit̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกที่ทำกลม ๆ ประมาณเท่าบาตร มักทำด้วยหิน ใช้ฝังเป็นเครื่องหมายเขตอุโบสถ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "นิมิต"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + สร้าง"
+    },
+    {
+     "th": "ลูกชะเนาะ",
+     "rtgs": "luk-cha-no",
+     "ipa": "/luːk̚˥˩.t͡ɕʰa˦˥.nɔʔ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้สั้น ๆ สำหรับขันบิดเชือกที่ผูกให้แน่นเช่นในการทำนั่งร้าน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ชะเนาะ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ไม้สั้น ๆ สำหรับขันบิดเชือกที่ผูกใ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกคลื่น",
+     "rtgs": "luk-khluen",
+     "ipa": "/luːk̚˥˩.kʰlɯːn˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีลักษณะสูง ๆ ต่ำ ๆ เป็นลอนอย่างคลื่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "คลื่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + wave",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + น้ำในทะเลหรือแม่น้ำลำคลองเป็นต้น ซ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกระเบิด",
+     "rtgs": "luk-ra-boet",
+     "ipa": "/luːk̚˥˩.ra˦˥.bɤːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "ammunition"
+      ],
+      "th": "สิ่งที่มีรูปร่างต่าง ๆ บรรจุดินระเบิดหรือสารเคมีบางอย่างเมื่อเกิดการระเบิด บางชนิดมีอำนาจในการทำลาย บางชนิดก่อให้เกิดไฟไหม้ บางชนิดก่อให้เกิดอาการระคายเคืองแก่เยื่อตา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ระเบิด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "child + bomb",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ปะทุแตกออกไป"
+    },
+    {
+     "th": "ลูกสูบ",
+     "rtgs": "luk-sup",
+     "ipa": "/luːk̚˥˩.suːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "piston",
+       "sucker"
+      ],
+      "th": "อุปกรณ์ชนิดหนึ่งในเครื่องยนต์ ทำหน้าที่อัดไอน้ำมันเชื้อเพลิงผสมอากาศเข้าไปในกระบอกสูบเพื่อให้จุดระเบิด แล้วรับกำลังจากแรงระเบิดส่งต่อไปยังก้านสูบ แล้วขับไล่ไอเสียออกไปด้วย",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "สูบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + smoke",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + เครื่องสำหรับดูดของเหลวเช่นน้ำให้เ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกเอ็น",
+     "rtgs": "luk-en",
+     "ipa": "/luːk̚˥˩.ʔen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกกระวานเทศ, เครื่องเทศชนิดหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "เอ็น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + กลุ่มหรือมัดเส้นใยเนื้อเยื่อเกี่ยว",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกเล่น",
+     "rtgs": "luk-len",
+     "ipa": "/luːk̚˥˩.len˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เล่ห์เหลี่ยม, ชั้นเชิง, กลเม็ด",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "เล่น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "child + play",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ทำเพื่อสนุกหรือผ่อนอารมณ์"
+    },
+    {
+     "th": "ลูกดอก",
+     "rtgs": "luk-dok",
+     "ipa": "/luːk̚˥˩.dɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้หรือเหล็กปลายแหลม มีพู่ข้างท้ายใช้หลอดเป่ายิงสัตว์, เหล็กปลายแหลมมีด้ามเป็นไม้ มีหาง ใช้ปาไปที่เป้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ดอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + flower",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ส่วนหนึ่งของต้นไม้ที่ผลิออกจากต้นห",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกบิด",
+     "rtgs": "luk-bit",
+     "ipa": "/luːk̚˥˩.bit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อุปกรณ์สำหรับจับบิดเพื่อปิด เปิดประตูหน้าต่าง เดิมทำเป็นลูกกลม ๆ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "บิด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "child + force",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + หมุนให้เป็นเกลียวอย่างบิดผ้า"
+    },
+    {
+     "th": "ลูกอม",
+     "rtgs": "luk-om",
+     "ipa": "/luːk̚˥˩.ʔom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกกลม ๆ ทำด้วยของต่าง ๆ ใช้อมเป็นเครื่องราง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "อม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + เอาสิ่งของใส่ปากแล้วหุบปากไว้ไม่กล"
+    },
+    {
+     "th": "ลูกคำ",
+     "rtgs": "luk-kham",
+     "ipa": "/luːk̚˥˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรียกคำ 2 คำเมื่อเอามาประสมกันแล้วมีความหมายต่างไปจากคำเดิมว่า ลูกคำของคำตั้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "คำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "child + word",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + เสียงพูด",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกกรง",
+     "translit_auto": "lukkrng",
+     "ipa": "[luːk̚˥˩.krõŋ˧]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งซึ่งเรียงกันเป็นซี่ ๆ ของกรงหรือที่คุมขัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "กรง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + cage",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + สิ่งที่ทำเป็นซี่ ๆ ล้อมรอบสำหรับขั",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกกะโล่",
+     "translit_auto": "lukkalo",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่อ่อนแอสู้ใครไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "กะโล่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ชื่อภาชนะสานโบราณคล้ายกระด้ง แต่มี",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกโซ่",
+     "rtgs": "luk-so",
+     "ipa": "/luːk̚˥˩.soː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ห่วงของโซ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "โซ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + chain",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + โลหะมีเหล็กเป็นต้นที่เกี่ยวกันเป็น",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกเห็บ",
+     "rtgs": "luk-hep",
+     "ipa": "/luːk̚˥˩.hep̚˨˩/",
+     "gloss": {
+      "en": [
+       "hailstone"
+      ],
+      "th": "เม็ดน้ำแข็งที่เกิดจากการกลั่นตัวของไอน้ำในอากาศแล้วตกลงมา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "เห็บ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ชื่อแมงสัตว์ขาปล้องหลายชนิด หลายสก",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกโลก",
+     "rtgs": "luk-lok",
+     "ipa": "/luːk̚˥˩.loːk̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หุ่นจำลองของโลกที่ทำขึ้นเพื่อใช้แสดงรูปทรงสัณฐานของโลก มีแผนที่แสดงตำแหน่งต่าง ๆ บนพื้นโลก ทำด้วยกระดาษ โลหะ หรือพลาสติก เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "โลก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โลก"
+     ],
+     "lit": "child + world",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + แผ่นดิน",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกประคำ",
+     "rtgs": "luk-pra-kham",
+     "ipa": "/luːk̚˥˩.pra˨˩.kʰam˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม้หรือแก้วเป็นต้นที่ทำเป็นเม็ดกลมมีรูตรงกลางร้อยด้วยด้ายหรือไหม ส่วนมากมี 108 ลูก สำหรับนักบวชมีฤษีเป็นต้นใช้สวมคอเพื่อกำหนดนับการบริกรรมภาวนา คือเมื่อบริกรรมภาวนาจบครั้งหนึ่ง ๆ ก็รูดไว้เม็ดหนึ่ง, เครื่องประดับที่ทำเช่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ประคำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ลูกกลม ๆ ที่ร้อยเป็นพวงสำหรับเป็นเ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกน้ำ",
+     "rtgs": "luk-nam",
+     "ipa": "/luːk̚˥˩.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกอ่อนของยุงที่ยังอาศัยอยู่ในน้ำ เมื่อแก่เข้าหลุดจากปลอกเป็นยุง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "น้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "child + water",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกโป่ง",
+     "rtgs": "luk-pong",
+     "ipa": "/luːk̚˥˩.poːŋ˨˩/",
+     "gloss": {
+      "en": [
+       "balloon"
+      ],
+      "th": "ถุงทำด้วยยางหรือพลาสติกเป็นต้นที่เป่าหรืออัดลมให้ยืดโป่งเป็นรูปต่าง ๆ ได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "โป่ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "child + swollen",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกชิ้น",
+     "rtgs": "luk-chin",
+     "ipa": "/luːk̚˥˩.t͡ɕʰin˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เนื้อปลาหรือเนื้อวัวเป็นต้นที่โขลกทำเป็นลูกกลม ๆ แล้วลวกสำหรับทำของกิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ชิ้น"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + piece",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + ก้อนหรือแผ่นเล็กที่ตัด แล่ แบ่ง แย",
+     "frame": "entity"
+    },
+    {
+     "th": "ลูกปืน",
+     "rtgs": "luk-puen",
+     "ipa": "/luːk̚˥˩.pɯːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลูกตะกั่วหรือเหล็กเป็นต้นที่ยัดใส่ในลำกล้องปืนแล้วยิง, กระสุนที่บรรจุในลำกล้องปืนสำหรับยิง ประกอบด้วยปลอกโลหะ ตรงปลายด้านหนึ่งมีหัวกระสุนโลหะ ถ้าเป็นปืนลูกซอง ปลอกทำด้วยกระดาษแข็ง ไม่มีหัวกระสุน แต่มีลูกปรายหลายลูกอยู่ภา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูก",
+      "ปืน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "child + gun",
+     "lit_th": "ใช้เรียกสิ่งที่มีรูปกลม ๆ หรือยาว + อาวุธสำหรับยิงให้ลูกออกจากลำกล้องด",
+     "frame": "entity"
+    }
+   ],
+   "extends": 5,
+   "via": "generalisation",
+   "via_note": "From fruit to anything round or oblong.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ใช้แก่ลูกไม้หรือสิ่งที่มีรูปกลม ๆ หรือยาว ๆ หรือคล้ายคลึงเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 7,
+   "via": "specialisation",
+   "via_note": "And then the classifier for counting them.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ที่มีลักษณะเป็นทรงกลม, ที่กลม ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, classifier, adjective",
+   "pos_th": "คำนาม, คำลักษณนาม, คำคุณศัพท์",
+   "domains": [
+    "d:kinship"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 7,
+   "via": "specialisation",
+   "via_note": "Used adjectivally of what is round.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 17 manuscript titles, 321 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 72; domain seeded by keyword hits ['override'].",
+ "compounds_unassigned": [
+  {
+   "th": "การตกลูก",
+   "rtgs": "kan-tok-luk",
+   "ipa": "/kaːn˧.tok̚˨˩.luːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตกลูก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตก",
+    "ลูก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "drop + child",
+   "lit_th": "คำอาการนามของ ตก + ผู้มีกำเนิดจากพ่อแม่ หรือโดยปริยาย",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *lɯ:kᴰ; ร่วมเชื้อสายกับอีสาน ลูก, ลาว ລູກ (ลูก), คำเมือง ᩃᩪᨠ (ลูก), ไทลื้อ ᦟᦴᧅ (ลูก), ไทดำ ꪩꪴꪀ (ลุก), ไทใหญ่ လုၵ်ႈ (ลุ้ก), ไทใต้คง ᥘᥧᥐ (ลูก), คำตี้ လ︀ုက︀်ႉ, พ่าเก လ︀ုက︀် (ลุก์), อาหม 𑜎𑜤𑜀𑜫 (ลุก์), ปู้อี leg, จ้วง lwg, จ้วงแบบจั่วเจียง lug",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩃᩪᨠ",
+  "th": "ลูก",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "child",
+  "fruit"
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "head": "yai",
+ "rule": "ใหญ่ divides on whether the bigness is absolute or COMPARATIVE, and sense 3 — ขนาดโตกว่าหรือสำคัญกว่าเมื่อเปรียบเทียบกัน — takes twelve of seventeen because nearly every one has a smaller twin it exists against: ลำไส้ใหญ่ against ลำไส้เล็ก, ไปยาลใหญ่ and เปยยาลใหญ่ against ไปยาลน้อย, ไทใหญ่ against ไทน้อย, หอมใหญ่ against หอมแดง, หุ่นใหญ่ against หุ่นเล็ก, หนังใหญ่ against หนังตะลุง, ครูใหญ่ and อาจารย์ใหญ่ against the ordinary teacher, ทรงเครื่องใหญ่ against the lesser dressing. Sense 1 keeps bigness with no twin (ปืนใหญ่, กว้างใหญ่, ใหญ่โต, ยิ่งใหญ่). Sense 2, คนโต, was empty and takes ผู้ใหญ่, where the ใหญ่ is age and standing rather than size.",
+ "senses": {
+  "1": ["กว้างใหญ่","ปืนใหญ่","ยิ่งใหญ่","ใหญ่โต"],
+  "2": ["ผู้ใหญ่"],
+  "3": ["ขาใหญ่","ครูใหญ่","ทรงเครื่องใหญ่","ลำไส้ใหญ่","หนังใหญ่","หอมใหญ่","หุ่นใหญ่","อาจารย์ใหญ่","เปยยาลใหญ่","ไทยใหญ่","ไทใหญ่","ไปยาลใหญ่"]
+ }
+}

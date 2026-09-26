@@ -1,0 +1,686 @@
+{
+ "id": "w:nok",
+ "th": "นก",
+ "status": "mapped",
+ "rtgs": "nok",
+ "paiboon": "nók",
+ "ipa": "/nok̚˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ่น มี 2 เท้า 2 ปีก ตัวเต็มวัยจะมีขนปลุกคลุมเต็มตัว ออกลูกเป็นไข่ ส่วนมากใช้ชีวิตอยู่บนต้นไม้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: นก 'bird'.",
+    "Declared root: นก 'bird'.",
+    "Declared root: นก 'bird'.",
+    "Declared root: นก 'bird'."
+   ],
+   "compounds": [
+    {
+     "th": "นกออก",
+     "rtgs": "nok-ok",
+     "ipa": "/nok̚˦˥.ʔɔːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปักธงชัย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "ออก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ออก"
+     ],
+     "lit": "bird + tear",
+     "lit_th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ + คำนำหน้าบรรดาศักดิ์",
+     "frame": "entity"
+    },
+    {
+     "th": "นกเขา",
+     "rtgs": "nok-khao",
+     "ipa": "/nok̚˦˥.kʰaw˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อนกขนาดกลางหลายชนิดหลายสกุล (ดูที่ เขา)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "เขา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เขา"
+     ],
+     "lit": "bird + mountain",
+     "lit_th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ + เนินที่นูนสูงขึ้นไปเป็นจอมเด่น",
+     "frame": "entity"
+    },
+    {
+     "th": "ขนุนนก",
+     "translit_auto": "khnunnk",
+     "ipa": "[kʰä˩.nũn˩˥.nok̚˦˥]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Palaquium obovatum ในวงศ์ Sapotaceae มีน้ำยางขาวจับเป็นก้อนแข็งเมื่อผสมกับยางอื่น ๆ ใช้ยาเรือได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ขนุน",
+      "นก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "jackfruit + bird",
+     "lit_th": "ชื่อไม้ต้นขนาดกลางถึงขนาดใหญ่ชนิด + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ",
+     "frame": "entity"
+    },
+    {
+     "th": "หลับนก",
+     "rtgs": "lap-nok",
+     "ipa": "/lap̚˨˩.nok̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นั่งหลับ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลับ",
+      "นก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "fall asleep + bird",
+     "lit_th": "ปิด + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ"
+    },
+    {
+     "th": "นอนนก",
+     "rtgs": "non-nok",
+     "ipa": "/nɔːn˧.nok̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นั่งหลับ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นอน",
+      "นก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "dormant + bird",
+     "lit_th": "เอนตัวลงกับพื้นหรือที่ใด ๆ + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ"
+    },
+    {
+     "th": "นกรู้",
+     "translit_auto": "nkru",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผู้ที่มีไหวพริบรู้เท่าทันเหตุการณ์หรือภัยที่จะมาถึงตน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "รู้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "รู้"
+     ],
+     "lit": "bird + know",
+     "lit_th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ + แจ้ง"
+    },
+    {
+     "th": "นกต่อ",
+     "rtgs": "nok-to",
+     "ipa": "/nok̚˦˥.tɔː˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คนที่ทำหน้าที่ติดต่อหรือชักจูงหลอกล่อคนอื่นให้หลงเชื่อ ใช้ในทางไม่ดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "ต่อ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ต่อ"
+     ],
+     "lit": "bird + a",
+     "lit_th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ + ชื่อแมลงขนาดกลางถึงขนาดใหญ่หลายวงศ",
+     "frame": "entity"
+    },
+    {
+     "th": "เลือดนก",
+     "rtgs": "lueat-nok",
+     "ipa": "/lɯa̯t̚˥˩.nok̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "(สี~) สีแดงอย่างสีเลือดของนก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เลือด",
+      "นก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "blood + bird",
+     "lit_th": "ของเหลวปรกติมีสีแดง อยู่ในหลอดเลือ + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ",
+     "frame": "entity"
+    },
+    {
+     "th": "รังนก",
+     "rtgs": "rang-nok",
+     "ipa": "/raŋ˧.nok̚˦˥/",
+     "gloss": {
+      "en": [
+       "nest"
+      ],
+      "th": "รังของนกอีแอ่นชนิดหนึ่ง เมื่อแช่น้ำมีลักษณะคล้ายวุ้น กินได้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รัง",
+      "นก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "รัง"
+     ],
+     "lit": "nest + bird",
+     "lit_th": "ชื่อไม้ต้นขนาดใหญ่ชนิด Shorea siam + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เครื่องสับแก๊ปปืนให้ลั่น ซึ่งมีรูปร่างคล้ายนก",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลั่นนก",
+     "rtgs": "lan-nok",
+     "ipa": "/lan˥˩.nok̚˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เหนี่ยวไกปืนให้นกสับลงที่แก๊ป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลั่น",
+      "นก"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.16, next 0.01",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "มีเสียงดัง + เครื่องสับแก๊ปปืนให้ลั่น ซึ่งมีรูป"
+    },
+    {
+     "th": "นกเหล็ก",
+     "rtgs": "nok-lek",
+     "ipa": "/nok̚˦˥.lek̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องบิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นก",
+      "เหล็ก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 2: gloss similarity 0.14, next 0.01",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "bird + iron",
+     "lit_th": "เครื่องสับแก๊ปปืนให้ลั่น ซึ่งมีรูป + ธาตุลำดับที่ 26 สัญลักษณ์ Fe เป็นโ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The hammer of a gun, shaped and named for a bird.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "พลาด, อด, ชวด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: นก 'to miss out, to be denied' — colloquial and separate.",
+    "Declared root: นก 'to miss out, to be denied' — colloquial and separate.",
+    "Declared root: นก 'to miss out, to be denied' — colloquial and separate.",
+    "Declared root: นก 'to miss out, to be denied' — colloquial and separate."
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 93 manuscript titles, 409 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 17; domain seeded by keyword hits ['เลือด', 'กระดูก', 'เท้า', 'หลัง'].",
+ "compounds_unassigned": [
+  {
+   "th": "กระนก",
+   "rtgs": "kra-nok",
+   "ipa": "/kra˨˩.nok̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ทองคำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: glossed ทองคำ, gold. The dictionary says แผลงมาจาก กนก, and its กนก entry gives ยืมมาจากสันสกฤต कनक — Sanskrit kanaka. No bird in it.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "แพนก",
+   "rtgs": "pha-naek",
+   "ipa": "/pʰa˦˥.nɛːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หน้า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แพ",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "raft + bird",
+   "lit_th": "ไม้ไผ่หรือซุงเป็นต้นที่ผูกมัดเรียง + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "โหนก",
+   "rtgs": "nok",
+   "ipa": "/noːk̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "นูนยื่นออกมา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "โห",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: glossed นูนยื่นออกมา, protruding. One morpheme: the โห- left over is not a word, and nothing in the gloss is a bird. No etymology stated, so probable.",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "INTJ+N",
+   "head": 1,
+   "lit_th": "คำที่เปล่งออกมาแสดงความตกใจหรือประ + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ",
+   "use": "false-split"
+  },
+  {
+   "th": "นกม.",
+   "rtgs": "no-ko-mo",
+   "ipa": "/nɔː˧.kɔː˧.mɔː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อักษรย่อของ นักการเมือง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "นก",
+    "ม."
+   ],
+   "note": "head-initial; both parts are dictionary headwords · NOT a compound of this head: its own gloss says อักษรย่อของ นักการเมือง — an abbreviation of 'politician', written with a full stop. An abbreviation is not a compound.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ + อักษรย่อของ เมตร",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "การนก",
+   "rtgs": "kan-nok",
+   "ipa": "/kaːn˧.nok̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ นก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ",
+   "frame": "entity"
+  },
+  {
+   "th": "การลั่นนก",
+   "rtgs": "kan-lan-nok",
+   "ipa": "/kaːn˧.lan˥˩.nok̚˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลั่นนก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลั่น",
+    "นก"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ลั่น + ชื่อสัตว์ปีกมีกระดูกสันหลังเลือดอุ",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *C̬.nokᴰ; ร่วมเชื้อสายกับอีสาน นก, ลาว ນົກ (น็ก), ญ้อ หนก, คำเมือง ᨶᩫ᩠ᨠ (น็ก), ไทลื้อ ᦷᦓᧅ (โนก), ไทดำ ꪶꪙꪀ (โนก), ไทใหญ่ ၼူၵ်ႉ (นู๎ก), อาหม 𑜃𑜤𑜀𑜫 (นุก์), จ้วง roeg, แสก น็อก; เทียบเบดั้งเดิม *nukᴰ² (“นก”), ออสโตรนีเซียนดั้งเดิม *manuk (“นก; ไก่”), ม้ง-เมี่ยนดั้งเดิม *m-nɔk (“นก”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨶᩫ᩠ᨠ",
+  "th": "น็ก",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:nok-2",
+   "label": "นอก",
+   "why": "spelling",
+   "distinction": "Both romanise as \"nok\". นก is nók, นอก is nɔ̂ɔk — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "bird",
+  "fowl"
+ ]
+}

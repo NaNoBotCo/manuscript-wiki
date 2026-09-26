@@ -1,0 +1,11 @@
+{
+ "head": "wa",
+ "rule": "ว่า is saying, and by far its most productive use is grammatical: sense 7, the complementizer and clause-linker, takes nine of fourteen — หากว่า, แม้ว่า, ผิว่า, แต่ว่า, สักว่า, ชื่อว่า, ถือว่า, นัยว่า, ว่าด้วย. In all of these ว่า has stopped meaning 'say' and become the joint between clauses. Three empty senses fill with one word each. Sense 1, plain speaking, takes ว่าความ — pleading a case is speaking it. Sense 2, ดุ / ติ, takes ว่ายาก, one who is hard to admonish. Sense 5, engaging someone for a post, takes ว่าที่, an acting rank. Sense 6, ว่า standing in for another verb such as ทำ, takes ว่าการ and ว่าราชการ, where the ว่า means to conduct.\n\nNote on หากว่า: it is tagged false-split on the head หา, because there the boundary was cut as หา + กว่า. Here the boundary is หาก + ว่า, which is correct, so the same word is a true compound of this head. A false split is a claim about a boundary, not about a word.",
+ "senses": {
+  "1": ["ว่าความ"],
+  "2": ["ว่ายาก"],
+  "5": ["ว่าที่"],
+  "6": ["ว่าการ","ว่าราชการ"],
+  "7": ["ชื่อว่า","ถือว่า","นัยว่า","ผิว่า","สักว่า","ว่าด้วย","หากว่า","แต่ว่า","แม้ว่า"]
+ }
+}

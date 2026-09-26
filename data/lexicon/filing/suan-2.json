@@ -1,0 +1,10 @@
+{
+ "head": "suan-2",
+ "rule": "ส่วน is a part, and sense 1 keeps the plain ones — a component, a deduction, what is one's own (ส่วนประกอบ, ส่วนเครื่อง, ส่วนอุปกรณ์, ส่วนลด, ส่วนตัว, ส่วนรวม). Two empty senses fill with one word each and both are precise: sense 2, การเข้าร่วม, is not a part but the ACT of taking part, and that is หุ้นส่วน, a partnership; sense 3, แผนกย่อย / ฝ่าย, is an administrative division, and that is ส่วนราชการ, a government unit. Sense 5 is size in PROPORTION rather than part of a whole, so สัดส่วน joins สมส่วน and ส่วนสัด there, and ส่วนสูง with them — a height is a measured dimension, not a piece broken off.",
+ "senses": {
+  "1": ["ส่วนตัว","ส่วนประกอบ","ส่วนรวม","ส่วนลด","ส่วนอุปกรณ์","ส่วนเครื่อง"],
+  "2": ["หุ้นส่วน"],
+  "3": ["ส่วนราชการ"],
+  "5": ["สัดส่วน","ส่วนสูง"]
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "head": "ok-2",
+ "rule": "ออก has twenty-two senses off one motion, going out, and the only workable method is to read each compound's gloss for the verb it actually uses. Leaving a STATE is sense 9 (ออกทุกข์, ลาออก, ไล่ออก); leaving a PLACE is sense 6 (ออกทะเล, ออกบวช, which is going forth from the household). Making something appear is 7 (ออกอากาศ, ออกเสียง, ออกลาย); making something EXIST is 8 (ออกแบบ, ออกลูก); and displaying it is 13, where the glosses say แสดง outright (ออกชื่อ, แสดงออก). Sense 12, จ่าย, is spending rather than emitting, so it takes ออกแรง and ออกกำลัง. Sense 17, the pole opposite เข้า, takes สินค้าออก against สินค้าเข้า. Sense 19 takes ออกหาก, separating oneself off. Sense 10 (แตก, ผลิ, งอก) was empty and takes ออกดอก, which is flowering whether the flower is on a plant or on skin.",
+ "senses": {
+  "5": ["ตะวันออก"],
+  "6": ["ออกทะเล","ออกบวช"],
+  "7": ["ออกลาย","ออกอากาศ","ออกเสียง"],
+  "8": ["ออกลูก","ออกแบบ"],
+  "9": ["ลาออก","ออกทุกข์","ไล่ออก"],
+  "10": ["ออกดอก"],
+  "12": ["ออกกำลัง","ออกแรง"],
+  "13": ["ออกชื่อ","แสดงออก"],
+  "17": ["สินค้าออก"],
+  "19": ["ออกหาก"]
+ }
+}

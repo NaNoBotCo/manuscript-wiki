@@ -1,0 +1,774 @@
+{
+ "id": "w:chap",
+ "th": "จับ",
+ "status": "mapped",
+ "rtgs": "chap",
+ "paiboon": "jàp",
+ "ipa": "/t͡ɕap̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ่งตลอดจนกำไว้ยึดไว้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, classifier",
+   "pos_th": "คำกริยา, คำลักษณนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เกาะ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, classifier",
+   "pos_th": "คำกริยา, คำลักษณนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Taking hold with the feet: to perch.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ติด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, classifier",
+   "pos_th": "คำกริยา, คำลักษณนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Taking hold and staying: to adhere.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "กินหรือกลืน ในความว่า คราสจับดวงอาทิตย์หรือดวงจันทร์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, classifier",
+   "pos_th": "คำกริยา, คำลักษณนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "คราสจับ — the eclipse laying hold of the sun.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "เริ่ม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, classifier",
+   "pos_th": "คำกริยา, คำลักษณนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Laying hold of a task: to begin.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "เกาะกุมตัวไว้ไม่ให้หนี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, classifier",
+   "pos_th": "คำกริยา, คำลักษณนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Holding so it cannot get away: to seize.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "เกาะกุมตัวไว้โดยเจ้าพนักงานผู้มีอำนาจตามกฎหมาย, จับกุม ก็ว่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, classifier",
+   "pos_th": "คำกริยา, คำลักษณนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "จับกุม",
+     "rtgs": "chap-kum",
+     "ipa": "/t͡ɕap̚˨˩.kum˧/",
+     "gloss": {
+      "en": [
+       "capture"
+      ],
+      "th": "เกาะกุมตัวไว้ไม่ให้หนี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "จับ",
+      "กุม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 0,
+     "lit_th": "เกาะกุมตัวไว้โดยเจ้าพนักงานผู้มีอำ + เอาอุ้งมือรวบ ปิด กัน หรือจับไว้"
+    }
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "And seizing under legal authority: to arrest.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "กิริยาที่ทำขนมจีนให้เป็นหัว ๆ เรียกว่า จับขนมจีน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, classifier",
+   "pos_th": "คำกริยา, คำลักษณนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Gathering ขนมจีน into skeins by hand.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "เรียกขนมจีนว่า จับ หรือ หัว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, classifier",
+   "pos_th": "คำกริยา, คำลักษณนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "metonymy",
+   "via_note": "And the skein itself.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 21 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 15; domain seeded by keyword hits ['หัว', 'ขน', 'มือ', 'ตา'].",
+ "compounds_unassigned": [
+  {
+   "th": "จับใจ",
+   "rtgs": "chap-chai",
+   "ipa": "/t͡ɕap̚˨˩.t͡ɕaj˧/",
+   "gloss": {
+    "en": [
+     "entrance"
+    ],
+    "th": "ติดใจ, เป็นที่พอใจ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "ใจ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "grab + heart",
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ"
+  },
+  {
+   "th": "จับผิด",
+   "rtgs": "chap-phit",
+   "ipa": "/t͡ɕap̚˨˩.pʰit̚˨˩/",
+   "gloss": {
+    "en": [
+     "vituperate"
+    ],
+    "th": "จับความผิดของผู้อื่น, สรรหาเอาผิดจนได้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "ผิด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "ผิด"
+   ],
+   "lit": "grab + false",
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + ไม่ตรงกับความจริงหรือที่กำหนดนิยมไ",
+   "frame": "quality"
+  },
+  {
+   "th": "กระจับ",
+   "rtgs": "kra-chap",
+   "ipa": "/kra˨˩.t͡ɕap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อไม้น้ำชนิด Trapa bicornis Osbeck ในวงศ์ Trapaceae",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กระ",
+    "จับ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "biological",
+   "pattern": "N+V",
+   "head": 1
+  },
+  {
+   "th": "จับความ",
+   "rtgs": "chap-khwam",
+   "ipa": "/t͡ɕap̚˨˩.kʰwaːm˧/",
+   "gloss": {
+    "en": [
+     "comprehend"
+    ],
+    "th": "จับใจความ, เข้าใจความหมาย",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "ความ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "grab + -ness",
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + เรื่อง"
+  },
+  {
+   "th": "จับตา",
+   "rtgs": "chap-ta",
+   "ipa": "/t͡ɕap̚˨˩.taː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ถูกตา, เหมาะตา, เป็นที่พอตา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "ตา"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "cross_listed": [
+    "ตา"
+   ],
+   "lit": "grab + eye",
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + พ่อของแม่"
+  },
+  {
+   "th": "การจับ",
+   "rtgs": "kan-chap",
+   "ipa": "/kaːn˧.t͡ɕap̚˨˩/",
+   "gloss": {
+    "en": [
+     "touch"
+    ],
+    "th": "คำอาการนามของ จับ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "การ",
+    "จับ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ"
+  },
+  {
+   "th": "จับปิ้ง",
+   "rtgs": "chap-ping",
+   "ipa": "/t͡ɕap̚˨˩.piŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปแบบอื่นของ จะปิ้ง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "ปิ้ง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "grab + toast",
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + ทำให้สุกด้วยการวางไว้เหนือไฟ มักใช"
+  },
+  {
+   "th": "จับกลุ่ม",
+   "rtgs": "chap-klum",
+   "ipa": "/t͡ɕap̚˨˩.klum˨˩/",
+   "gloss": {
+    "en": [
+     "collect",
+     "flock",
+     "assemble"
+    ],
+    "th": "เข้ามารวมกันเป็นหมู่ ๆ หรือเป็นกลุ่มก้อน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "กลุ่ม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "grab + a",
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + คน สัตว์ หรือสิ่งต่าง ๆ ที่รวมกันเ"
+  },
+  {
+   "th": "จับตาย",
+   "rtgs": "chap-tai",
+   "ipa": "/t͡ɕap̚˨˩.taːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จับตัวมาให้ได้แม้ว่าจะต้องฆ่า",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "ตาย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "ตาย"
+   ],
+   "lit": "grab + demise",
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + สิ้นใจ"
+  },
+  {
+   "th": "จับจ่าย",
+   "rtgs": "chap-chai",
+   "ipa": "/t͡ɕap̚˨˩.t͡ɕaːj˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ใช้เงินซื้อหา, มักใช้เข้าคู่กับคำ ใช้สอย เป็น จับจ่ายใช้สอย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "จ่าย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "lit": "grab + pay",
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + เอาออกใช้หรือให้"
+  },
+  {
+   "th": "จับกัง",
+   "rtgs": "chap-kang",
+   "ipa": "/t͡ɕap̚˨˩.kaŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กรรมกร, ผู้ใช้แรงงาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "กัง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + ชื่อลิงชนิด Macaca nemestrina ในวง"
+  },
+  {
+   "th": "หมายจับ",
+   "rtgs": "mai-chap",
+   "ipa": "/maːj˩˩˦.t͡ɕap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หนังสือสั่งการที่ศาลสั่งให้เจ้าหน้าที่จับกุมผู้ต้องหาหรือจำเลย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หมาย",
+    "จับ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit": "sign + grab",
+   "lit_th": "หนังสือราชการที่ใช้เกณฑ์ เกาะกุม ห + อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ"
+  },
+  {
+   "th": "กุดจับ",
+   "rtgs": "kut-chap",
+   "ipa": "/kut̚˨˩.t͡ɕap̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่ออำเภอหนึ่งในจังหวัดอุดรธานี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กุด",
+    "จับ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "กุด"
+   ],
+   "lit": "to cut short + grab",
+   "lit_th": "ตัด + อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ"
+  },
+  {
+   "th": "จับเป็น",
+   "rtgs": "chap-pen",
+   "ipa": "/t͡ɕap̚˨˩.pen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "จับตัวมาให้ได้โดยไม่ทำให้ตาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "จับ",
+    "เป็น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 0,
+   "cross_listed": [
+    "เป็น"
+   ],
+   "lit": "grab + are",
+   "lit_th": "อาการที่ใช้มือแตะต้องสิ่งใดสิ่งหนึ + คำกริยาสำหรับแสดงความสัมพันธ์ระหว่"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *capᴰ; ร่วมเชื้อสายกับลาว ຈັບ (จับ), คำเมือง ᨧᩢ᩠ᨷ (จับ), เขิน ᨧᩢ᩠ᨷ (จับ), ไทใหญ่ ၸပ်း (จั๊ป), จ้วง caep (ฉับ), จ้วงแบบจั่วเจียง zaep (จับ)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨧᩢ᩠ᨷ",
+  "th": "จับ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "grab",
+  "hold",
+  "touch",
+  "take"
+ ]
+}

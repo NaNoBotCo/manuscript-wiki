@@ -1,0 +1,864 @@
+{
+ "id": "w:yen",
+ "th": "เย็น",
+ "status": "mapped",
+ "rtgs": "yen",
+ "paiboon": "yen",
+ "ipa": "/jen˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "มีความรู้สึกตามผิวหนังเหมือนถูกน้ำแข็งเป็นต้น, หนาว, หายร้อน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หวานเย็น",
+     "rtgs": "wan-yen",
+     "ipa": "/waːn˩˩˦.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ของกินเป็นก้อนสี่เหลี่ยม ทำด้วยน้ำหวานหรือน้ำกะทิเป็นต้น แล้วทำให้แข็งด้วยความเย็น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หวาน",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.16, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หวาน"
+     ],
+     "lit": "sweet + cold",
+     "lit_th": "มีรสอย่างรสน้ำตาล + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "ร่มเย็น",
+     "rtgs": "rom-yen",
+     "ipa": "/rom˥˩.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีความสุขสบาย, ไม่มีความเดือดร้อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ร่ม",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.12, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "umbrella + cold",
+     "lit_th": "บริเวณที่แดดส่องไม่ถึง + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "กาแฟเย็น",
+     "rtgs": "ka-fae-yen",
+     "ipa": "/kaː˧.fɛː˧.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กาแฟใส่นม ใส่น้ำตาล ใส่น้ำแข็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กาแฟ",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อเครื่องดื่มชนิดหนึ่ง ทำมาจากเม + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "แช่เย็น",
+     "rtgs": "chae-yen",
+     "ipa": "/t͡ɕʰɛː˥˩.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เอาใส่ไว้ในเครื่องทำความเย็นหรือน้ำแข็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แช่",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.15, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "lit_th": "ใส่ลงในน้ำหรือของเหลวอย่างอื่น ชั่ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "ชาเย็น",
+     "rtgs": "cha-yen",
+     "ipa": "/t͡ɕʰaː˧.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชาที่ชงใส่น้ำตาล นม และน้ำแข็ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ชา",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.10, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ชา"
+     ],
+     "lit": "tea + cold",
+     "lit_th": "ชื่อไม้ต้นขนาดเล็กชนิด Camellia si + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "เย็นเยือก",
+     "rtgs": "yen-yueak",
+     "ipa": "/jen˧.jɯa̯k̚˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาการที่รู้สึกหนาวสะท้านถึงขั้วหัวใจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เย็น",
+      "เยือก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "lit_th": "มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ + อาการที่รู้สึกหนาวสะท้านถึงขั้วหัว",
+     "flips_with": "เยือกเย็น",
+     "frame": "quality"
+    },
+    {
+     "th": "ไฟเย็น",
+     "rtgs": "fai-yen",
+     "ipa": "/faj˧.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ดอกไม้ไฟชนิดหนึ่ง ลักษณะคล้ายธูป สามารถถือได้ เมื่อจุดไฟจะเป็นประกาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "fire + cold",
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "ตู้เย็น",
+     "rtgs": "tu-yen",
+     "ipa": "/tuː˥˩.jen˧/",
+     "gloss": {
+      "en": [
+       "refrigerator",
+       "fridge"
+      ],
+      "th": "เครื่องใช้ไฟฟ้า มีลักษณะเป็นตู้ ภายในมีอุณหภูมิต่ำ เพื่อให้ความเย็นรักษาอาหารหรือของอย่างอื่นไม่ให้เสื่อมสภาพ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ตู้",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "cupboard + cold",
+     "lit_th": "เครื่องเรือนสำหรับเก็บหรือใส่สิ่งข + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    },
+    {
+     "th": "สงครามเย็น",
+     "rtgs": "song-khram-yen",
+     "ipa": "/soŋ˩˩˦.kʰraːm˧.jen˧/",
+     "gloss": {
+      "en": [
+       "Cold War"
+      ],
+      "th": "การต่อสู้ระหว่างประเทศต่อประเทศโดยไม่ใช้อาวุธ แต่ใช้อำนาจอื่นแทน เช่น อำนาจทางการเมือง อำนาจทางเศรษฐกิจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สงคราม",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "war + cold",
+     "lit_th": "การรบใหญ่ที่มีคนจำนวนมากต่อสู้ฆ่าฟ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ไม่รู้สึกกระวนกระวาย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Cool to the touch becomes cool in temper: unagitated.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "เยือกเย็น",
+     "rtgs": "yueak-yen",
+     "ipa": "/jɯa̯k̚˥˩.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีจิตใจหนักแน่น ไม่ฉุนเฉียวโกรธง่าย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เยือก",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+ADJ",
+     "head": 1,
+     "lit_th": "อาการที่รู้สึกหนาวสะท้านถึงขั้วหัว + ไม่รู้สึกกระวนกระวาย",
+     "flips_with": "เย็นเยือก",
+     "frame": "quality"
+    },
+    {
+     "th": "ใจเย็น",
+     "rtgs": "chai-yen",
+     "ipa": "/t͡ɕaj˧.jen˧/",
+     "gloss": {
+      "en": [
+       "even",
+       "gentle"
+      ],
+      "th": "ใจหนักแน่นไม่ฉุนเฉียว, ไม่รีบร้อน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ใจ",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "heart + cold",
+     "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ไม่รู้สึกกระวนกระวาย",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "เวลาใกล้ค่ำ ประมาณ 16-18 นาฬิกา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "adjective, noun",
+   "pos_th": "คำคุณศัพท์, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The cool of the day names the hour of it.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "อาหารเย็น",
+     "rtgs": "a-han-yen",
+     "ipa": "/ʔaː˧.haːn˩˩˦.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "อาหารที่ทานในช่วงเย็นของวัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "อาหาร",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "aid + cold",
+     "lit_th": "ของกิน + เวลาใกล้ค่ำ ประมาณ 16-18 นาฬิกา",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "yen as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 3 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 3 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 3 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "17 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "แม่เย็น",
+     "rtgs": "mae-yen",
+     "ipa": "/mɛː˥˩.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอพาน จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + yen as an element in place names",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "บานเย็น",
+     "rtgs": "ban-yen",
+     "ipa": "/baːn˧.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อไม้พุ่มขนาดเล็กชนิด Mirabilis jalapa L. ในวงศ์ Nyctaginaceae รากอวบ ใบเดี่ยว โคนดอกเป็นหลอด ปลายบานเป็น 5 แฉก บานในเวลาเย็น มีหลายสี เช่น ขาว แดงอมม่วง เหลือง รากใช้ทำยาได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บาน",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "น้ำสำหรับดื่ม + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "วังเย็น",
+     "rtgs": "wang-yen",
+     "ipa": "/waŋ˧.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองกาญจนบุรี จังหวัดกาญจนบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วัง",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit": "palace + yen as an element in place names",
+     "lit_th": "ที่อยู่ของเจ้านาย + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "พญาเย็น",
+     "rtgs": "pha-ya-yen",
+     "ipa": "/pʰa˦˥.jaː˧.jen˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอปากช่อง จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "พญา",
+      "เย็น"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 4: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "เจ้าแผ่นดิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 33 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits ['ผิว', 'มือ', 'ตา'].",
+ "compounds_unassigned": [
+  {
+   "th": "มื้อเย็น",
+   "rtgs": "mue-yen",
+   "ipa": "/mɯː˦˥.jen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ อาหารเย็น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "มื้อ",
+    "เย็น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "meal + cold",
+   "lit_th": "คราว + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+   "frame": "quality"
+  },
+  {
+   "th": "ความเย็น",
+   "rtgs": "khwam-yen",
+   "ipa": "/kʰwaːm˧.jen˧/",
+   "gloss": {
+    "en": [
+     "coolness"
+    ],
+    "th": "คำอาการนามของ เย็น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "เย็น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + cold",
+   "lit_th": "เรื่อง + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+   "frame": "quality"
+  },
+  {
+   "th": "ความชาเย็น",
+   "rtgs": "khwam-cha-yen",
+   "ipa": "/kʰwaːm˧.t͡ɕʰaː˧.jen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ชาเย็น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความชา",
+    "เย็น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ชา + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+   "frame": "quality"
+  },
+  {
+   "th": "ข้าวเย็น",
+   "rtgs": "khao-yen",
+   "ipa": "/kʰaːw˥˩.jen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ อาหารเย็น",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ข้าว",
+    "เย็น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "ข้าว"
+   ],
+   "lit": "rice + cold",
+   "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + มีความรู้สึกตามผิวหนังเหมือนถูกน้ำ",
+   "frame": "quality"
+  },
+  {
+   "th": "เดือนเย็น",
+   "rtgs": "duean-yen",
+   "ipa": "/dɯa̯n˧.jen˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ฤดูหนาว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เดือน",
+    "เย็น"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "month + cold",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับอีสาน เย็น, ลาว ເຢັນ (เอยัน), คำเมือง ᩀᩮ᩠ᨶ (เอยน), เขิน ᨿᩮ᩠ᨶ (เยน), ไทลื้อ ᦊᦲᧃ (หยีน), ไทดำ ꪹꪤꪸꪙ (เหยย̂น), ไทใหญ่ ယဵၼ် (เยน), ไทใต้คง ᥕᥥᥢ (เยน), อาหม 𑜊𑜢𑜃𑜫 (ยิน์), ภาษาจ้วงถิ่น Yongning yen (เยน); เทียบเวียดนาม yên (เอียน), จีนยุคกลาง 安 (MC 'an)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩀᩮ᩠ᨶ",
+  "th": "เอยน",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "cold",
+  "cool"
+ ]
+}

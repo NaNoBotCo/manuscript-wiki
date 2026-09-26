@@ -1,0 +1,865 @@
+{
+ "id": "w:suan-2",
+ "th": "ส่วน",
+ "status": "mapped",
+ "rtgs": "suan",
+ "paiboon": "sùuan",
+ "ipa": "/sua̯n˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "สิ่งที่แบ่งจากสิ่งรวม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ส่วนประสม",
+     "rtgs": "suan-pra-som",
+     "ipa": "/sua̯n˨˩.pra˨˩.som˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สิ่งต่าง ๆ ที่ผสมกันให้เกิดเป็นสิ่งรวม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "ประสม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.21, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + รวมกันเข้า"
+    },
+    {
+     "th": "ส่วนผสม",
+     "rtgs": "suan-pha-som",
+     "ipa": "/sua̯n˨˩.pʰa˨˩.som˩˩˦/",
+     "gloss": {
+      "en": [
+       "mix",
+       "ingredient",
+       "mixture"
+      ],
+      "th": "สิ่งต่าง ๆ ที่ผสมกันให้เกิดเป็นสิ่งรวม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "ผสม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.19, next 0.04",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "zone + mix",
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + นำมารวมกัน"
+    },
+    {
+     "th": "ส่วนเครื่อง",
+     "rtgs": "suan-khrueang",
+     "ipa": "/sua̯n˨˩.kʰrɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฮาร์ดแวร์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "เครื่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "zone + device",
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + สิ่ง",
+     "frame": "entity"
+    },
+    {
+     "th": "ส่วนอุปกรณ์",
+     "rtgs": "suan-u-pa-kon",
+     "ipa": "/sua̯n˨˩.ʔu˨˩.pa˨˩.kɔːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฮาร์ดแวร์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "อุปกรณ์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "zone + accessory",
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + เครื่องมือ",
+     "frame": "entity"
+    },
+    {
+     "th": "ส่วนลด",
+     "rtgs": "suan-lot",
+     "ipa": "/sua̯n˨˩.lot̚˦˥/",
+     "gloss": {
+      "en": [
+       "discount",
+       "allowance"
+      ],
+      "th": "ส่วนที่หักจากจำนวนเงินที่เก็บมาได้ หรือจากจำนวนที่ซื้อหรือที่ใช้ตามส่วนที่กำหนดไว้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "ลด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + น้อยลง ต่ำลง หรือทำให้น้อยลงต่ำลงก"
+    },
+    {
+     "th": "ส่วนตัว",
+     "rtgs": "suan-tua",
+     "ipa": "/sua̯n˨˩.tua̯˧/",
+     "gloss": {
+      "en": [
+       "private"
+      ],
+      "th": "เฉพาะตัว, เฉพาะบุคคล",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "ตัว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตัว"
+     ],
+     "lit": "zone + form",
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + รูป",
+     "frame": "entity"
+    },
+    {
+     "th": "ส่วนรวม",
+     "rtgs": "suan-ruam",
+     "ipa": "/sua̯n˨˩.rua̯m˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หมู่คณะ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "รวม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "zone + convergence",
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + บวกเข้าด้วยกัน"
+    },
+    {
+     "th": "ส่วนประกอบ",
+     "rtgs": "suan-pra-kop",
+     "ipa": "/sua̯n˨˩.pra˨˩.kɔːp̚˨˩/",
+     "gloss": {
+      "en": [
+       "member",
+       "constituent",
+       "component"
+      ],
+      "th": "สิ่งต่าง ๆ ที่ใช้ประกอบเป็นสิ่งใหญ่",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "ประกอบ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit": "zone + commit",
+     "lit_th": "สิ่งที่แบ่งจากสิ่งรวม + เอาชิ้นส่วนต่าง ๆ มารวมหรือคุมกันเ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "การเข้าร่วม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A share taken stands for taking part.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "หุ้นส่วน",
+     "rtgs": "hun-suan",
+     "ipa": "/hun˥˩.sua̯n˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทุนที่เข้ากันเพื่อทำการต่าง ๆ เช่น ค้าขายเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หุ้น",
+      "ส่วน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ส่วนที่ลงทุนเท่ากันในการค้าขายเป็น + การเข้าร่วม",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "แผนกย่อย, ฝ่าย",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "A part of an organisation: a section, a division.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "ส่วนราชการ",
+     "rtgs": "suan-rat-cha-kan",
+     "ipa": "/sua̯n˨˩.raːt̚˥˩.t͡ɕʰa˦˥.kaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หน่วยงานของรัฐที่มีกฎหมายจัดตั้งขึ้นและกำหนดให้เป็นส่วนราชการเพื่อประโยชน์ในการบริหารราชการส่วนกลาง ราชการส่วนภูมิภาค และราชการส่วนท้องถิ่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "ราชการ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "แผนกย่อย + การงานของรัฐบาลหรือของพระเจ้าแผ่นด",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ตอน, ท่อน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "A part of a length: a segment, a stretch.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ขนาดที่พอเหมาะพอดี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สมส่วน",
+     "rtgs": "som-suan",
+     "ipa": "/som˩˩˦.sua̯n˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีส่วนสัดเหมาะเจาะ, รับกันพอเหมาะพอดี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สม",
+      "ส่วน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit": "suitable + zone",
+     "lit_th": "เหมาะ + ขนาดที่พอเหมาะพอดี",
+     "frame": "quality"
+    },
+    {
+     "th": "ส่วนสัด",
+     "rtgs": "suan-sat",
+     "ipa": "/sua̯n˨˩.sat̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขนาดที่พอเหมาะพอดีตามเกณฑ์ที่กำหนดหรือที่นิยม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "สัด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.39, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ขนาดที่พอเหมาะพอดี + ภาชนะรูปทรงกระบอก ทำด้วยไม้หรือสาน",
+     "flips_with": "สัดส่วน",
+     "frame": "entity"
+    },
+    {
+     "th": "ส่วนสูง",
+     "rtgs": "suan-sung",
+     "ipa": "/sua̯n˨˩.suːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความสูง (มักใช้แก่บุคคล)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ส่วน",
+      "สูง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "สูง"
+     ],
+     "lit": "zone + tall",
+     "lit_th": "ขนาดที่พอเหมาะพอดี + มีระยะที่วัดตรงขึ้นไปตามแนวตั้งฉาก",
+     "frame": "quality"
+    },
+    {
+     "th": "สัดส่วน",
+     "rtgs": "sat-suan",
+     "ipa": "/sat̚˨˩.sua̯n˨˩/",
+     "gloss": {
+      "en": [
+       "proportion"
+      ],
+      "th": "ส่วนผสมของสิ่งต่างๆ ตามอัตราที่กำหนด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สัด",
+      "ส่วน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ภาชนะรูปทรงกระบอก ทำด้วยไม้หรือสาน + ขนาดที่พอเหมาะพอดี",
+     "flips_with": "ส่วนสัด",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The part that fits: due proportion.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ด้าน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "One part as one side or aspect of a thing.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "จำนวนที่อยู่ข้างล่างของเศษในเลขเศษส่วน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เศษส่วน",
+     "rtgs": "set-suan",
+     "ipa": "/seːt̚˨˩.sua̯n˨˩/",
+     "gloss": {
+      "en": [
+       "fraction"
+      ],
+      "th": "จำนวน 2 จำนวน หรือนิพจน์ 2 นิพจน์ที่เขียนในรูปของผลหารโดยไม่ต้องหารต่อไปอีก เช่น 7/8 หรือ a+b/c+d จำนวนบนเรียกว่า เศษ จำนวนล่างเรียกว่า ส่วน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เศษ",
+      "ส่วน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "end + zone",
+     "lit_th": "ส่วนที่เหลือใช้การไม่ได้ตามวัตถุปร + จำนวนที่อยู่ข้างล่างของเศษในเลขเศษ",
+     "frame": "entity"
+    },
+    {
+     "th": "อัตราส่วน",
+     "rtgs": "at-tra-suan",
+     "ipa": "/ʔat̚˨˩.traː˧.sua̯n˨˩/",
+     "gloss": {
+      "en": [
+       "ratio"
+      ],
+      "th": "เกณฑ์เปรียบเทียบปริมาณของของอย่างเดียวกันหรือต่างกัน เพื่อจะได้ทราบว่าปริมาณแรกเป็นเศษส่วนเท่าใดของปริมาณหลัง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อัตรา",
+      "ส่วน"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.11, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ระดับที่กำหนดไว้ + จำนวนที่อยู่ข้างล่างของเศษในเลขเศษ",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "The part under the line: the denominator.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ฝ่าย, ข้าง, อีกทางหนึ่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, conjunction",
+   "pos_th": "คำนาม, คำสันธาน",
+   "domains": [
+    "d:number"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 6,
+   "via": "metonymy",
+   "via_note": "And heading a clause: as for, on the other hand.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 14 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits ['จำนวน', 'หนึ่ง'].",
+ "compounds_unassigned": [
+  {
+   "th": "ออส่วน",
+   "rtgs": "o-suan",
+   "ipa": "/ʔɔː˧.sua̯n˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาหารจีนชนิดหนึ่ง มักใช้หอยนางรมทอดกับแป้งและไข่ มีลักษณะข้นเหนียว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ออ",
+    "ส่วน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "รวมกันเป็นกลุ่ม + สิ่งที่แบ่งจากสิ่งรวม",
+   "use": "false-split"
+  },
+  {
+   "th": "เต้าส่วน",
+   "rtgs": "tao-suan",
+   "ipa": "/taw˥˩.sua̯n˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อของหวานชนิดหนึ่ง ทำด้วยถั่วเขียวต้มสุกเลาะเปลือกออก เปียกกับแป้ง น้ำตาล แล้วราดน้ำกะทิ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เต้า",
+    "ส่วน"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "เครื่องบนของเรือนลักษณะเป็นไม้ท่อน + สิ่งที่แบ่งจากสิ่งรวม",
+   "frame": "entity",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับคำเมือง ᩈ᩠ᩅ᩵ᩁ (สว่ร), ลาว ສ່ວນ (ส่วน), ไทลื้อ ᦷᦉᧃᧈ (โส่น)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩈ᩠ᩅ᩵ᩁ",
+  "th": "สว่ร",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:suan",
+   "label": "สวน",
+   "why": "spelling",
+   "distinction": "Both romanise as \"suan\". ส่วน is sùuan, สวน is sǔuan — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "zone",
+  "fraction"
+ ]
+}

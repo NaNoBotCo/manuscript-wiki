@@ -1,0 +1,45 @@
+{
+ "head": "sia",
+ "rule": "เสีย has fifteen senses that are mostly gradations of one idea, so the filing turns on WHAT is spoiled and whether เสีย leads or follows. Head-INITIAL เสีย + an intangible a person can lose is sense 1, and that is twelve of the twenty-three — สติ, ใจ, ขวัญ, หน้า, น้ำใจ, หลัก, ท่า, รู้, ตัว, สันดาน. Sense 2 takes what is used up or given up rather than damaged: เสียเวลา, เสียสละ, เสียดาย. Head-FINAL เสีย is the adjective instead — 'is bad' at 8 (ปากเสีย, ชื่อเสีย, which the dictionary says is modelled on ชื่อเสียง) and 'the bad stuff' at 13 (ของเสีย, ไอเสีย). Three rare senses each take exactly one word and would otherwise stand empty: 9 'to pay' takes **เสียผี**, the rite of paying the spirits for a sexual transgression; 10 'to lose at gambling' takes ได้เสีย; 15, the completive particle, takes สั่งเสีย. ท้องเสีย alone is sense 3, an organ out of order.",
+ "senses": {
+  "1": [
+   "เสียสติ",
+   "เสียใจ",
+   "เสียขวัญ",
+   "ขวัญเสีย",
+   "เสียหน้า",
+   "เสียน้ำใจ",
+   "เสียหลัก",
+   "เสียท่า",
+   "เสียรู้",
+   "เสียตัว",
+   "เสียสันดาน",
+   "เสื่อมเสีย"
+  ],
+  "2": [
+   "เสียเวลา",
+   "เสียสละ",
+   "เสียดาย"
+  ],
+  "3": [
+   "ท้องเสีย"
+  ],
+  "8": [
+   "ปากเสีย",
+   "ชื่อเสีย"
+  ],
+  "9": [
+   "เสียผี"
+  ],
+  "10": [
+   "ได้เสีย"
+  ],
+  "13": [
+   "ของเสีย",
+   "ไอเสีย"
+  ],
+  "15": [
+   "สั่งเสีย"
+  ]
+ }
+}

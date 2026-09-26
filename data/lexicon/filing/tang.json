@@ -1,0 +1,13 @@
+{
+ "head": "tang",
+ "rule": "ตั้ง is standing something up, and its eleven senses are that act aimed at different objects. Sense 1 keeps literal uprightness (ตั้งไข่, แนวตั้ง, ตั้งวง, อกตั้ง, ตั้งหน้า). Sense 2, ทรง / ดำรง, was empty and is the act aimed at ONESELF or a position held — ตั้งตัว, to get established, and ตั้งมั่น, to encamp and hold. Sense 3 brings a thing into existence (จัดตั้ง, ก่อตั้ง) and sense 4 raises a person into a post, which is why แต่งตั้ง and เลือกตั้ง belong together despite one being appointment and the other election. Sense 5, กำหนด, is setting a value or a proposition and takes ตั้งเป้า, ตั้งเวลา, ตั้งนาฬิกา, ตั้งใจ, and the two logic-and-lexicon terms ข้อตั้ง and ตัวตั้ง. Sense 6, วาง, is putting a thing down or a posture on — ตั้งท่า is glossed วางท่า outright, and ตั้งแง่, หน้าตั้ง and ตั้งเครื่อง follow it. Sense 8 is beginning (ตั้งต้น, ตั้งแต่).",
+ "senses": {
+  "1": ["ตั้งวง","ตั้งหน้า","ตั้งไข่","อกตั้ง","แนวตั้ง"],
+  "2": ["ตั้งตัว","ตั้งมั่น"],
+  "3": ["จัดตั้ง","ก่อตั้ง"],
+  "4": ["เลือกตั้ง","แต่งตั้ง"],
+  "5": ["ข้อตั้ง","ตัวตั้ง","ตั้งนาฬิกา","ตั้งเป้า","ตั้งเวลา","ตั้งใจ"],
+  "6": ["ตั้งท่า","ตั้งเครื่อง","ตั้งแง่","หน้าตั้ง"],
+  "8": ["ตั้งต้น","ตั้งแต่"]
+ }
+}

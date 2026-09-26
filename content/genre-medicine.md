@@ -122,3 +122,11 @@ Only reading the bundles will do it.
 - **Read alongside [magic & ritual](/a?s=genre:magic_ritual) and
   [astrology](/a?s=genre:astrology)** — on the evidence of 4516, those two
   genres are partly made of medicine.
+
+<!-- derived:begin -->
+## What the bots have noticed
+
+*Auto-derived from the catalogue and the curiosity bots — refreshed automatically, not hand-written. Each note links to its finding.*
+
+- **Already legible to a machine** — The manuscripts with the most recognised Thai text — the leading edge of the whole point: making a living tradition readable to a model and not only to a scholar. [see the finding →](/findings#legibilitymachine-readable)
+<!-- derived:end -->

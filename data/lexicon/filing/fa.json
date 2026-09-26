@@ -1,0 +1,37 @@
+{
+ "head": "fa",
+ "rule": "ฟ้า splits on whether the word looks UP at the vault or happens IN the air. Sense 1 is the visible dome and takes what reaches it or is measured against it — ระฟ้า, ดาดฟ้า, ขอบฟ้า, ค้ำฟ้า — plus the two things named for it, ไก่ฟ้า and เฟื่องฟ้า, and two toponyms. Sense 2 is the atmosphere and everything weather does there: the four lightning-and-thunder words, ฟ้าหลัว the haze, น้ำฟ้า the rain, ขวานฟ้า the neolithic axe believed to fall in a strike, and the three air-domain words ว่ายฟ้า, น่านฟ้า, ทัพฟ้า. ไฟฟ้า belongs there too — the dictionary dates the coinage to พ.ศ. 2427, when electricity reached Siam, and the metaphor it was built on is the lightning, not the dome. Sense 3 takes ดอกฟ้า, a woman out of reach, and sense 4 takes ไพร่ฟ้า, the commoners of the sky-lord. Sense 5, the colour, takes nothing.",
+ "senses": {
+  "1": [
+   "ระฟ้า",
+   "ดาดฟ้า",
+   "ขอบฟ้า",
+   "ค้ำฟ้า",
+   "ไก่ฟ้า",
+   "เฟื่องฟ้า",
+   "ตากฟ้า",
+   "หลักฟ้า",
+   "รถไฟฟ้า"
+  ],
+  "2": [
+   "ฟ้าผ่า",
+   "ฟ้าร้อง",
+   "ฟ้าแลบ",
+   "ฟ้าแมลบ",
+   "ฟ้าหลัว",
+   "สายฟ้า",
+   "ขวานฟ้า",
+   "น้ำฟ้า",
+   "ไฟฟ้า",
+   "ว่ายฟ้า",
+   "น่านฟ้า",
+   "ทัพฟ้า"
+  ],
+  "3": [
+   "ดอกฟ้า"
+  ],
+  "4": [
+   "ไพร่ฟ้า"
+  ]
+ }
+}

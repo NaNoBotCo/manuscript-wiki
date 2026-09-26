@@ -1,0 +1,886 @@
+{
+ "id": "w:ni-yom",
+ "th": "นิยม",
+ "status": "mapped",
+ "rtgs": "ni-yom",
+ "paiboon": "ní-yom",
+ "ipa": "/ni˦˥.jom˧/",
+ "syllable_respelling": "นิ-ยม",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "การกำหนด",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ค่านิยม",
+     "rtgs": "kha-ni-yom",
+     "ipa": "/kʰaː˥˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "value"
+      ],
+      "th": "สิ่งที่บุคคลหรือสังคมยึดถือเป็นเครื่องช่วยตัดสินใจ และกำหนดการกระทำของตนเอง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ค่า",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.11, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ค่า"
+     ],
+     "lit": "value + like",
+     "lit_th": "มูลค่าหรือราคาของสิ่งใด ๆ ทั้งที่เ + การกำหนด",
+     "frame": "entity"
+    },
+    {
+     "th": "เกียรตินิยม",
+     "rtgs": "kiat-ni-yom",
+     "ipa": "/kia̯t̚˨˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความรู้ดีเด่นเหนือระดับปรกติที่มหาวิทยาลัยกำหนดไว้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เกียรติ",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "honor + like",
+     "lit_th": "ชื่อเสียง + การกำหนด",
+     "frame": "entity"
+    },
+    {
+     "th": "นิยมสรรพนาม",
+     "rtgs": "ni-ya-ma-sap-pha-nam",
+     "ipa": "/ni˦˥.ja˦˥.ma˦˥.sap̚˨˩.pʰa˦˥.naːm˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สรรพนามชี้ระยะที่กำหนดให้รู้ความใกล้ไกลของนามกับผู้พูดและผู้ฟัง ในภาษาไทยได้แก่คำว่า นี่ นั่น โน่น นี้ นั้น โน้น เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นิยม",
+      "สรรพนาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "frame": "entity"
+    },
+    {
+     "th": "ทศนิยม",
+     "rtgs": "thot-sa-ni-yom",
+     "ipa": "/tʰot̚˦˥.sa˨˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จำนวนจริงในรูปเลขฐานสิบ โดยกำหนดจุดจุดหนึ่งให้ตัวเลขที่อยู่ข้างหน้าจุดแสดงจำนวนเต็ม ตัวเลขที่อยู่ข้างหลังจุดแสดงจำนวนที่เป็นส่วนของสิบ ร้อย พัน ไปเรื่อย ๆ เช่น 856.128 ล้านบาท หมายความว่า แปดร้อยห้าสิบหกล้านหนึ่งแสนสองหม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ทศ",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "สิบ + การกำหนด"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความหมายว่า ลัทธิ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สังคมนิยม",
+     "rtgs": "sang-khom-ni-yom",
+     "ipa": "/saŋ˩˩˦.kʰom˧.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทฤษฎีเศรษฐกิจและการเมือง ที่มีหลักการให้รัฐหรือส่วนรวมเป็นเจ้าของปัจจัยในการผลิต ตลอดจนการจำแนกแจกจ่าย และวางระเบียบการบริโภคผลผลิต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สังคม",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "society + like",
+     "lit_th": "คนจำนวนหนึ่งที่มีความสัมพันธ์ต่อเน + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    },
+    {
+     "th": "ชาตินิยม",
+     "rtgs": "chat-ni-yom",
+     "ipa": "/t͡ɕʰaːt̚˥˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "nationalism"
+      ],
+      "th": "ลัทธิที่ถือชาติเป็นใหญ่, ความรักชาติ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ชาติ",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ชาติ"
+     ],
+     "lit": "birth + like",
+     "lit_th": "การเกิด + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    },
+    {
+     "th": "วัตถุนิยม",
+     "rtgs": "wat-thu-ni-yom",
+     "ipa": "/wat̚˦˥.tʰu˨˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "materialism"
+      ],
+      "th": "ทฤษฎีหรือความเชื่อที่ว่าวัตถุเท่านั้นมีอยู่จริง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "วัตถุ",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "matter + like",
+     "lit_th": "สิ่งของ + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    },
+    {
+     "th": "ธรรมนิยม",
+     "rtgs": "tham-ma-ni-yom",
+     "ipa": "/tʰam˧.ma˦˥.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ความประพฤติที่มีธรรมเป็นที่ตั้ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ธรรม",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ธรรม"
+     ],
+     "lit": "dharma + like",
+     "lit_th": "คุณความดี + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    },
+    {
+     "th": "ทุนนิยม",
+     "rtgs": "thun-ni-yom",
+     "ipa": "/tʰun˧.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "capitalism"
+      ],
+      "th": "ระบบเศรษฐกิจที่ยอมให้บุคคลมีกรรมสิทธิ์ในที่ดินและทรัพยากรที่เป็นทุน มีเสรีภาพในการผลิตและการค้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทุน",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "fund + like",
+     "lit_th": "ของเดิมหรือเงินเดิมที่มีไว้ ลงไว้ + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    },
+    {
+     "th": "เสรีนิยม",
+     "rtgs": "se-ri-ni-yom",
+     "ipa": "/seː˩˩˦.riː˧.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "liberal",
+       "liberalism"
+      ],
+      "th": "ลัทธิเศรษฐกิจสังคมที่ต้องการให้รัฐเข้าไปยุ่งเกี่ยวควบคุมการดำเนินการทางเศรษฐกิจและการดำเนินชีวิตของเอกชนน้อยที่สุด",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เสรี",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "ที่ทำได้โดยอิสระ + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "quality"
+    },
+    {
+     "th": "ปัจเจกนิยม",
+     "rtgs": "pat-chek-ka-ni-yom",
+     "ipa": "/pat̚˨˩.t͡ɕeːk̚˨˩.ka˨˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "นิสัยหรือหลักการของความเป็นอิสระและเชื่อมั่นในตัวเอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปัจเจก",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "lit_th": "เฉพาะตัว + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "quality"
+    },
+    {
+     "th": "ประเพณีนิยม",
+     "rtgs": "pra-phe-ni-ni-yom",
+     "ipa": "/pra˨˩.pʰeː˧.niː˧.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ประเพณีของสังคมที่ถือปฏิบัติสืบทอดกันมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ประเพณี",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "tradition + like",
+     "lit_th": "สิ่งที่นิยมถือประพฤติปฏิบัติสืบ ๆ + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    },
+    {
+     "th": "คตินิยม",
+     "rtgs": "kha–ti–ni–yom",
+     "ipa": "/kʰa˦˥.ti˨˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "ideology"
+      ],
+      "th": "แบบอย่างความคิดเห็น ความเชื่อ หรือวิธีการคิดรวมกันที่เป็นลักษณะของกลุ่มชน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "คติ",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "การไป + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    },
+    {
+     "th": "คุณธรรมนิยม",
+     "rtgs": "khun-na-tham-ma-ni-yom",
+     "ipa": "/kʰun˧.na˦˥.tʰam˧.ma˦˥.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รัฐบาลหรือการครองอำนาจโดยคนที่ได้รับการเลือกตามคุณธรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คุณธรรม",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คุณ"
+     ],
+     "lit_th": "สภาพคุณงามความดี + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    },
+    {
+     "th": "จักรวรรดินิยม",
+     "rtgs": "chak-kra-wat-ni-yom",
+     "ipa": "/t͡ɕak̚˨˩.kra˨˩.wat̚˨˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ลัทธิขยายอาณาเขตและอำนาจปกครองของรัฐ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "จักรวรรดิ",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รัฐหรือสหภาพของรัฐต่าง ๆ ที่มีจักร + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    },
+    {
+     "th": "เหตุผลนิยม",
+     "rtgs": "het-phon-la-ni-yom",
+     "ipa": "/heːt̚˨˩.pʰon˩˩˦.la˦˥.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การปฏิบัติหรือหลักการของการมีความเห็นและการกระทำที่อยู่บนพื้นฐานของเหตุผลและความรู้ไม่ใช่บนพื้นฐานของความเชื่อทางศาสนาหรือการตอบสนองทางอารมณ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เหตุผล",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "reason + like",
+     "lit_th": "เหตุ + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    },
+    {
+     "th": "สุขนิยม",
+     "rtgs": "suk-kha-ni-yom",
+     "ipa": "/suk̚˨˩.kʰa˨˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "hedonism"
+      ],
+      "th": "ทฤษฎีทางจริยศาสตร์ที่ระบุว่าสุขารมณ์ (ในแง่ความสมปรารถนาต่าง ๆ) เป็นความดีที่สูงสุดและเป็นจุดประสงค์ที่เหมาะสมของชีวิตมนุษย์",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สุข",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "สุข"
+     ],
+     "lit": "happiness + like",
+     "lit_th": "ความสบายกายสบายใจ + ถ้าใช้ประกอบท้ายคำสมาสบางคำมีความห",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Suffixed to make an -ism: a fixed way of holding things.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ชมชอบ, ยอมรับนับถือ, ชื่นชมยินดี",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "And what one fixes on becomes what one favours.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "รสนิยม",
+     "rtgs": "rot-sa-ni-yom",
+     "ipa": "/rot̚˦˥.sa˨˩.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "gout"
+      ],
+      "th": "ความนิยมชมชอบ, ความพอใจ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "รส",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "สิ่งที่รู้ได้ด้วยลิ้น เช่น เปรี้ยว + ชมชอบ",
+     "frame": "entity"
+    },
+    {
+     "th": "สมัยนิยม",
+     "rtgs": "sa-mai-ni-yom",
+     "ipa": "/sa˨˩.maj˩˩˦.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "trend"
+      ],
+      "th": "แฟชั่น, ความนิยมตามสมัย, แนวโน้มที่เป็นที่นิยม โดยเฉพาะแนวโน้มของพฤติกรรมหรือแนวโน้มของรูปแบบเครื่องแต่งกายและเครื่องประดับ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สมัย",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "period + like",
+     "lit_th": "เวลา + ชมชอบ",
+     "frame": "entity"
+    },
+    {
+     "th": "คำนิยม",
+     "rtgs": "kham-ni-yom",
+     "ipa": "/kʰam˧.ni˦˥.jom˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ข้อความที่ผู้มีชื่อเสียงเขียนชื่นชมหนังสือเล่มนั้น อยู่ก่อนส่วนที่เป็นเนื้อเรื่อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คำ",
+      "นิยม"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "คำ"
+     ],
+     "lit": "word + like",
+     "lit_th": "เสียงพูด + ชมชอบ",
+     "frame": "entity"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 579 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 24; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การนิยม",
+   "rtgs": "kan-ni-yom",
+   "ipa": "/kaːn˧.ni˦˥.jom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ นิยม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "นิยม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + การกำหนด",
+   "frame": "entity"
+  },
+  {
+   "th": "รัฐนิยม",
+   "rtgs": "rat-tha-ni-yom",
+   "ipa": "/rat̚˦˥.tʰa˨˩.ni˦˥.jom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ระเบียบแบบแผนที่พึงปฏิบัติของคนในประเทศ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รัฐ",
+    "นิยม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "cross_listed": [
+    "รัฐ"
+   ],
+   "lit": "sovereign state + like",
+   "lit_th": "แคว้น + การกำหนด",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "ความนิยม",
+   "rtgs": "khwam-ni-yom",
+   "ipa": "/kʰwaːm˧.ni˦˥.jom˧/",
+   "gloss": {
+    "en": [
+     "style"
+    ],
+    "th": "คำอาการนามของ นิยม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "นิยม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + like",
+   "lit_th": "เรื่อง + การกำหนด",
+   "frame": "entity"
+  },
+  {
+   "th": "อนุรักษ์นิยม",
+   "rtgs": "a-nu-rak-ni-yom",
+   "ipa": "/ʔa˨˩.nu˦˥.rak̚˦˥.ni˦˥.jom˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสะกดผิดของ อนุรักษนิยม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อนุรักษ์",
+    "นิยม"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 2 by hand",
+   "conf": "standard",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "รักษาให้คงเดิม + การกำหนด",
+   "use": "spelling-variant",
+   "unfiled_from_sense": 2
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากสันสกฤต नियम (นิยม, “การกำหนด”) หรือบาลี นิยม (“การกำหนด”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "like"
+ ]
+}

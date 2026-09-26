@@ -1,0 +1,1650 @@
+{
+ "id": "w:sai",
+ "th": "สาย",
+ "status": "mapped",
+ "rtgs": "sai",
+ "paiboon": "sǎai",
+ "ipa": "/saːj˩˩˦/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.00 น. ถึง 10.00 น.",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, classifier",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำลักษณนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word.",
+    "Declared root: สาย 'mid-morning; late' — the time word."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ช้ากว่าเวลาที่กำหนด, ล่าช้า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, classifier",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำลักษณนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "generalisation",
+   "via_note": "Mid-morning becomes simply later than appointed.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "พ้นเวลาที่จะแก้ไข, สุดที่จะแก้ไขได้",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, classifier",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำลักษณนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 2,
+   "via": "specialisation",
+   "via_note": "And too late to be put right.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, classifier",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำลักษณนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สายรุ้ง",
+     "rtgs": "sai-rung",
+     "ipa": "/saːj˩˩˦.ruŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระดาษม้วนสีต่างๆ ทำเป็นแถบเล็กยาว ใช้ตกแต่งสถานที่หรือใช้ขว้างให้คลี่ออกแสดงความรื่นเริง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "รุ้ง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "late + iris",
+     "lit_th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว + แสงที่ปรากฏบนท้องฟ้าเป็นแถบโค้งสีต",
+     "frame": "entity"
+    },
+    {
+     "th": "สายไฟฟ้า",
+     "rtgs": "sai-fai-fa",
+     "ipa": "/saːj˩˩˦.faj˧.faː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เส้นโลหะตัวนำไฟฟ้า ใช้เพื่อให้กระแสไฟฟ้าผ่านอาจมีฉนวนหุ้มหรือไม่มีก็ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ไฟฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "late + juice",
+     "lit_th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว + พลังงานรูปหนึ่งซึ่งเกี่ยวข้องกับกา",
+     "frame": "entity"
+    },
+    {
+     "th": "หมึกสาย",
+     "rtgs": "muek-sai",
+     "ipa": "/mɯk̚˨˩.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "octopus"
+      ],
+      "th": "(ปลา~) สัตว์พวกหอยชั้นเซฟาโลพอด มีหนวด (แขน) 8 เส้นที่มีอวัยวะดูด ลำตัวนิ่ม ขากรรไกรแข็งแรงซึ่งมีลักษณะคล้ายจะงอยปากนก ไม่มีเปลือกข้างใน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หมึก",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "ink + late",
+     "lit_th": "น้ำที่ใช้ในการขีดเขียนหรือการสักลว + สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว",
+     "frame": "entity"
+    },
+    {
+     "th": "สายใจ",
+     "translit_auto": "sayt",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชีวิต",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ใจ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ใจ"
+     ],
+     "lit": "late + heart",
+     "lit_th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว + สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ",
+     "frame": "entity"
+    },
+    {
+     "th": "สายดือ",
+     "rtgs": "sai-due",
+     "ipa": "/saːj˩˩˦.dɯː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สะดือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ดือ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว + สายดือ",
+     "frame": "entity"
+    },
+    {
+     "th": "สายน้ำ",
+     "rtgs": "sai-nam",
+     "ipa": "/saːj˩˩˦.naːm˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระแสน้ำที่ไหลเห็นเป็นสายยาวไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "น้ำ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "น้ำ"
+     ],
+     "lit": "late + water",
+     "lit_th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว + สารประกอบซึ่งมีองค์ประกอบเป็นธาตุไ",
+     "frame": "entity"
+    },
+    {
+     "th": "เดินสาย",
+     "rtgs": "doen-sai",
+     "ipa": "/dɤːn˧.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ติดสายไฟฟ้าหรือสายโทรเลขโทรศัพท์เป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เดิน",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit": "walk + late",
+     "lit_th": "ยกเท้าก้าวไป + สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว"
+    },
+    {
+     "th": "เส้นสาย",
+     "rtgs": "sen-sai",
+     "ipa": "/sen˥˩.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระบบเส้นของร่างกาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เส้น",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เส้น"
+     ],
+     "lit": "mark + late",
+     "lit_th": "สิ่งที่มีลักษณะเป็นสาย แถว แนว ที่ + สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว",
+     "frame": "entity"
+    },
+    {
+     "th": "สายสิญจน์",
+     "rtgs": "sai-sin",
+     "ipa": "/saːj˩˩˦.sin˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ด้ายดิบสีขาวที่นำมาจับทบเป็น 3 เส้น หรือ 9 เส้น ใช้ในพิธีทางศาสนา เช่นสำหรับพระถือในเวลาสวดมนต์ หรือพราหมณ์ใช้ในพระราชพิธีบางอย่าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "สิญจน์"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว + รดน้ำ"
+    },
+    {
+     "th": "สายพาน",
+     "rtgs": "sai-phan",
+     "ipa": "/saːj˩˩˦.pʰaːn˧/",
+     "gloss": {
+      "en": [
+       "belt"
+      ],
+      "th": "เส้นด้ายที่คล้องโยงในเครื่องไนหูก",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "พาน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว + ภาชนะมีเชิงประเภทหนึ่ง มีหลายชนิด",
+     "frame": "entity"
+    },
+    {
+     "th": "เครื่องสาย",
+     "rtgs": "khrueang-sai",
+     "ipa": "/kʰrɯa̯ŋ˥˩.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องดนตรีชนิดที่มีสาย เช่น จะเข้ ซอ พิณ ไวโอลิน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เครื่อง",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "เครื่อง"
+     ],
+     "lit": "device + late",
+     "lit_th": "สิ่ง + สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว",
+     "frame": "entity"
+    },
+    {
+     "th": "สายตา",
+     "rtgs": "sai-ta",
+     "ipa": "/saːj˩˩˦.taː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ระยะที่ตาจะมองเห็นได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ตา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ตา"
+     ],
+     "lit": "late + eye",
+     "lit_th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว + พ่อของแม่",
+     "frame": "entity"
+    },
+    {
+     "th": "สายอากาศ",
+     "rtgs": "sai-a-kat",
+     "ipa": "/saːj˩˩˦.ʔaː˧.kaːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "antenna"
+      ],
+      "th": "สายลวดที่ขึงไว้เพื่อส่งหรือรับคลื่นแม่เหล็กไฟฟ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "อากาศ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "อากาศ"
+     ],
+     "lit": "late + air",
+     "lit_th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว + แก๊สผสมที่ประกอบด้วยไนโตรเจนและออก",
+     "frame": "entity"
+    },
+    {
+     "th": "สายฟ้า",
+     "rtgs": "sai-fa",
+     "ipa": "/saːj˩˩˦.faː˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "แสงที่เป็นสายแวบวาบเมื่อเวลาฟ้าแลบฟ้าผ่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ฟ้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ฟ้า"
+     ],
+     "lit": "late + sky",
+     "frame": "entity"
+    },
+    {
+     "th": "สายไหม",
+     "rtgs": "sai-mai",
+     "ipa": "/saːj˩˩˦.maj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อขนมชนิดหนึ่ง ทำด้วยน้ำตาลซึ่งใช้เครื่องปั่นจนเป็นเส้นฝอย ๆ คล้ายเส้นไหม ห่อด้วยแผ่นโรตีหรือแผ่นเปาะเปี๊ยะ, ถ้าห่อด้วยแผ่นโรตี เรียกว่า โรตีสายไหม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ไหม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว + ชื่อผีเสื้อชนิด Bombyx mori ในวงศ์",
+     "frame": "entity"
+    },
+    {
+     "th": "กระทงสาย",
+     "translit_auto": "krathngsay",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระทงที่ทำด้วยกะลามะพร้าว ใส่น้ำมัน มีไส้ จุดไฟ ปล่อยให้ลอยลงน้ำต่อกันเป็นสายยาว เดิมใช้จุดในเทศกาลลอยกระทงที่จังหวัดตาก ต่อมาใช้จุดในงานสำคัญระดับชาติ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระทง",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 4 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ภาชนะเย็บด้วยใบตองหรือใบไม้เป็นต้น + สิ่งที่มีลักษณะเป็นเส้นเป็นแนวยาว",
+     "frame": "entity"
+    }
+   ],
+   "needs_check": [
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one.",
+    "Declared root: สาย 'a line, a strand' — a separate word, and the productive one."
+   ]
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "ทาง, เส้นทาง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, classifier",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำลักษณนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "A line drawn across country is a route.",
+   "via_conf": "probable",
+   "compounds": [
+    {
+     "th": "สายเขียว",
+     "rtgs": "sai-khiao",
+     "ipa": "/saːj˩˩˦.kʰia̯w˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กลุ่มคนที่นิยมเสพหรือบริโภคกัญชา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "เขียว"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 5 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "lit_th": "ทาง + มีสีอย่างสีใบไม้สด",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "สิ่งที่มีลักษณะคล้ายคลึงเช่นนั้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, classifier",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำลักษณนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สายการบิน",
+     "rtgs": "sai-kan-bin",
+     "ipa": "/saːj˩˩˦.kaːn˧.bin˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บริษัทที่ทำหน้าที่ขนส่งผู้โดยสารหรือสิ่งของทางอากาศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "การบิน"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "late + flight",
+     "lit_th": "สิ่งที่มีลักษณะคล้ายคลึงเช่นนั้น + คำอาการนามของ บิน",
+     "frame": "entity"
+    },
+    {
+     "th": "กระสาย",
+     "rtgs": "kra-sai",
+     "ipa": "/kra˨˩.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เครื่องแทรกยา เช่น น้ำเหล้า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระ",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.12, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "frame": "entity"
+    }
+   ],
+   "extends": 4,
+   "via": "generalisation",
+   "via_note": "Anything of that long thin shape.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ญาติที่สืบมาจากต้นวงศ์หรือต้นสกุลเดียวกัน แล้วแยกเป็นสกุลย่อยออกไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, classifier",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำลักษณนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เชื้อสาย",
+     "rtgs": "chuea-sai",
+     "ipa": "/t͡ɕʰɯa̯˦˥.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "lineage",
+       "line"
+      ],
+      "th": "ผู้ที่สืบสกุลต่อ ๆ กันมา",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เชื้อ",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7: gloss similarity 0.14, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "seed + late",
+     "lit_th": "สิ่งที่เป็นต้นเหตุทำให้เกิดสิ่งอื่ + ญาติที่สืบมาจากต้นวงศ์หรือต้นสกุลเ",
+     "frame": "entity"
+    },
+    {
+     "th": "สายโลหิต",
+     "translit_auto": "saylohit",
+     "ipa": "[säːj˩˥.loː˧.hit̚˩]",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ญาติพี่น้องที่มีบรรพบุรุษร่วมกัน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "โลหิต"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ญาติที่สืบมาจากต้นวงศ์หรือต้นสกุลเ + เลือด",
+     "frame": "entity"
+    },
+    {
+     "th": "สืบสาย",
+     "rtgs": "suep-sai",
+     "ipa": "/sɯːp̚˨˩.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สืบสกุล, สืบเชื้อสาย ก็ว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สืบ",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 7 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "ต่อเนื่องเป็นลำดับ + ญาติที่สืบมาจากต้นวงศ์หรือต้นสกุลเ"
+    }
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "A family line branching from one stock.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "รูปตัดทอนของ สายลับ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, classifier",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำลักษณนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สายไฟ",
+     "rtgs": "sai-fai",
+     "ipa": "/saːj˩˩˦.faj˧/",
+     "gloss": {
+      "en": [
+       "wire",
+       "cord"
+      ],
+      "th": "รูปตัดทอนของ สายไฟฟ้า",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ไฟ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: gloss similarity 0.57, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "late + fire",
+     "lit_th": "รูปตัดทอนของ สายลับ + ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ",
+     "frame": "entity"
+    },
+    {
+     "th": "สายลับ",
+     "rtgs": "sai-lap",
+     "ipa": "/saːj˩˩˦.lap̚˦˥/",
+     "gloss": {
+      "en": [
+       "infiltrant"
+      ],
+      "th": "ผู้เข้าไปสืบความลับ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ลับ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 8: the sense gloss names this compound",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "ลับ"
+     ],
+     "lit": "late + to whet",
+     "lit_th": "รูปตัดทอนของ สายลับ + ถูให้คม"
+    },
+    {
+     "th": "ฦๅสาย",
+     "rtgs": "lue-sai",
+     "ipa": "/lɯː˧.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "รูปเลิกใช้ของ ลือสาย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฦๅ",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 8: gloss similarity 0.12, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "รูปสระในภาษาสันสกฤต ซึ่งเป็นเสียงย + รูปตัดทอนของ สายลับ"
+    }
+   ],
+   "extends": 4,
+   "via": "metaphor",
+   "via_note": "สาย clipped from สายลับ — the line along which information runs.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "เรียกสิ่งที่เป็นแนวหรือเส้นยาว",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, คำกริยาวิเศษณ์, classifier",
+   "pos_th": "คำนาม, คำกริยาวิเศษณ์, คำลักษณนาม",
+   "domains": [
+    "d:time"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลือสาย",
+     "rtgs": "lue-sai",
+     "ipa": "/lɯː˧.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเรียกผู้เป็นใหญ่ เช่น กษัตริย์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลือ",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.14, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "พูดกันทั่วไป แต่ยังไม่มีอะไรยืนยัน + เรียกสิ่งที่เป็นแนวหรือเส้นยาว"
+    },
+    {
+     "th": "ฤๅสาย",
+     "rtgs": "rue-sai",
+     "ipa": "/rɯː˧.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คำเรียกผู้เป็นใหญ่",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฤๅ",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 9: gloss similarity 0.17, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "รูปสระในภาษาสันสกฤต ซึ่งเป็นเสียงย + เรียกสิ่งที่เป็นแนวหรือเส้นยาว"
+    }
+   ],
+   "extends": 6,
+   "via": "specialisation",
+   "via_note": "The classifier for line-like things: roads, wires, rivers.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "sai as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 6 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต).",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 6 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 6 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "3 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "สายนาวัง",
+     "rtgs": "sai-na-wang",
+     "ipa": "/saːj˩˩˦.naː˧.waŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนาคู จังหวัดกาฬสินธุ์",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "นาวัง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+PROP",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ชื่ออำเภอหนึ่งในจังหวัดหนองบัวลำภู"
+    },
+    {
+     "th": "สายทอง",
+     "rtgs": "sai-thong",
+     "ipa": "/saːj˩˩˦.tʰɔːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอป่าโมก จังหวัดอ่างทอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ทอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "sai as an element in place names + gold",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล",
+     "frame": "entity"
+    },
+    {
+     "th": "ท่าสาย",
+     "rtgs": "tha-sai",
+     "ipa": "/tʰaː˥˩.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองเชียงราย จังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท่า",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ท่า"
+     ],
+     "lit": "landing + sai as an element in place names",
+     "lit_th": "ฝั่งน้ำสำหรับขึ้นลงหรือจอดเรือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    },
+    {
+     "th": "สายออ",
+     "rtgs": "sai-o",
+     "ipa": "/saːj˩˩˦.ʔɔː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอโนนไทย จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "ออ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+V",
+     "head": 0,
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + รวมกันเป็นกลุ่ม"
+    },
+    {
+     "th": "สายบุรี",
+     "rtgs": "sai-bu-ri",
+     "ipa": "/saːj˩˩˦.bu˨˩.riː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดปัตตานี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สาย",
+      "บุรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "บุรี"
+     ],
+     "lit": "sai as an element in place names + town",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + เมือง",
+     "frame": "entity"
+    },
+    {
+     "th": "แม่สาย",
+     "rtgs": "mae-sai",
+     "ipa": "/mɛː˥˩.saːj˩˩˦/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดเชียงราย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แม่",
+      "สาย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 10: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "แม่"
+     ],
+     "lit": "mother + sai as an element in place names",
+     "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ใช้ประกอบชื่อสถานที่",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 2 manuscript titles, 315 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto several senses. Moved to `bridge_en` at the word; these senses show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 39; domain seeded by keyword hits ['เช้า', 'เวลา'].",
+ "compounds_unassigned": [
+  {
+   "th": "การสืบสาย",
+   "rtgs": "kan-suep-sai",
+   "ipa": "/kaːn˧.sɯːp̚˨˩.saːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สืบสาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การสืบ",
+    "สาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ สืบ + เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0",
+   "frame": "entity"
+  },
+  {
+   "th": "สายมงคล",
+   "rtgs": "sai-mong-khon",
+   "ipa": "/saːj˩˩˦.moŋ˧.kʰon˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ ยัชโญปวีต",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาย",
+    "มงคล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + เหตุที่นำมาซึ่งความเจริญ",
+   "frame": "entity"
+  },
+  {
+   "th": "สายอักขระ",
+   "rtgs": "sai-ak-kha-ra",
+   "ipa": "/saːj˩˩˦.ʔak̚˨˩.kʰa˨˩.raʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ สตริง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาย",
+    "อักขระ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "late + character",
+   "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + ตัวหนังสือ",
+   "frame": "entity"
+  },
+  {
+   "th": "ความสาย",
+   "rtgs": "khwam-sai",
+   "ipa": "/kʰwaːm˧.saːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ สาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "สาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "-ness + late",
+   "lit_th": "เรื่อง + เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0",
+   "frame": "entity"
+  },
+  {
+   "th": "สายชู",
+   "rtgs": "sai-chu",
+   "ipa": "/saːj˩˩˦.t͡ɕʰuː˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ น้ำส้มสายชู",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สาย",
+    "ชู"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "synonym-pointer",
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0 + ยกขึ้นสูงกว่าระดับเดิม"
+  },
+  {
+   "th": "การเดินสาย",
+   "rtgs": "kan-doen-sai",
+   "ipa": "/kaːn˧.dɤːn˧.saːj˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ เดินสาย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การเดิน",
+    "สาย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "walking + late",
+   "lit_th": "คำอาการนามของ เดิน + เวลาระหว่างเช้ากับเที่ยงประมาณ 9.0",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "ร่วมเชื้อสายกับคำเมือง ᩈᩣ᩠ᨿ (สาย), ᨡ᩠ᩅᩣ᩠ᨿ (ขวาย), ลาว ສາຍ (สาย), ສວາຍ (สวาย), ไทดำ ꪎꪱꪥ (สาย), จ้วง sai, จ้วงแบบจั่วเจียง svai สืบทอดจากไทดั้งเดิม *saːjᴬ; ร่วมเชื้อสายกับคำเมือง ᩈᩣ᩠ᨿ (สาย), ลาว ສາຍ (สาย), ไทลื้อ ᦉᦻ (สาย), ไทดำ ꪎꪱꪥ (สาย), ไทขาว ꪎꪱꪥ, ไทแดง ꪎꪱꪥ, ไทใหญ่ သၢႆ (สาย), ไทใต้คง ᥔᥣᥭᥴ (ส๋าย), อ่ายตน ꩬ︀ႝ (สย์), พ่าเก ꩬ︀ႝ (สย์), อาหม 𑜏𑜩 (สย์), จ้วง sai, จ้วงแบบจั่วเจียง sai",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩈᩣ᩠ᨿ",
+  "th": "สาย",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:sai-2",
+   "label": "ทราย",
+   "why": "spelling",
+   "distinction": "Both romanise as \"sai\". สาย is sǎai, ทราย is saai — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:sai-3",
+   "label": "ไส้",
+   "why": "spelling",
+   "distinction": "Both romanise as \"sai\". สาย is sǎai, ไส้ is sâi — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  },
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:sai-4",
+   "label": "ใส",
+   "why": "spelling",
+   "distinction": "Both romanise as \"sai\". สาย is sǎai, ใส is sǎi — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "late"
+ ]
+}

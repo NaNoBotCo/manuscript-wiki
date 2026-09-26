@@ -1,0 +1,506 @@
+{
+ "id": "w:kit",
+ "th": "กิจ",
+ "status": "proposed",
+ "rtgs": "kit",
+ "paiboon": "gìt",
+ "ipa": "/kit̚˨˩/",
+ "syllable_respelling": "กิด-จะ-",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "business",
+     "affair",
+     "duty"
+    ],
+    "th": "ธุระ, งาน",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "กามกิจ",
+     "rtgs": "kam-ma-kit",
+     "ipa": "/kaːm˧.ma˦˥.kit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การร่วมประเวณี, การร่วมเพศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กาม",
+      "กิจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.21",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "กาม"
+     ],
+     "lit": "desire + business",
+     "lit_th": "ความใคร่ + ธุระ",
+     "frame": "entity"
+    },
+    {
+     "th": "ฌาปนกิจ",
+     "rtgs": "cha-pa-na-kit",
+     "ipa": "/t͡ɕʰaː˧.pa˨˩.na˦˥.kit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การเผาศพ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ฌาปน",
+      "กิจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.27",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "การเผาศพ + ธุระ",
+     "frame": "entity"
+    },
+    {
+     "th": "ลากิจ",
+     "rtgs": "la-kit",
+     "ipa": "/laː˧.kit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ขออนุญาตหยุดงานชั่วคราวเนื่องจากมีกิจธุระ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลา",
+      "กิจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.24",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit": "ass + business",
+     "lit_th": "ชื่อสัตว์เลี้ยงลูกด้วยนมชนิด Equus + ธุระ",
+     "frame": "entity"
+    },
+    {
+     "th": "ราชกิจ",
+     "rtgs": "rat-cha-kit",
+     "ipa": "/raːt̚˥˩.t͡ɕʰa˦˥.kit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กิจของพระราชาทั้งที่เป็นส่วนพระองค์และราชการ ใช้ว่า พระราชกิจ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ราช",
+      "กิจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.14",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ราช"
+     ],
+     "lit": "king + business",
+     "lit_th": "พระเจ้าแผ่นดิน + ธุระ",
+     "frame": "entity"
+    },
+    {
+     "th": "นวกิจ",
+     "rtgs": "na-wa-kit",
+     "ipa": "/na˦˥.wa˦˥.kit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การก่อสร้าง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "นว",
+      "กิจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.26",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "เก้า + ธุระ"
+    },
+    {
+     "th": "ศิลปกิจ",
+     "rtgs": "sin-la-pa-kit",
+     "ipa": "/sin˩˩˦.la˦˥.pa˨˩.kit̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การช่างฝีมือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศิลป",
+      "กิจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.25",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ ศิลป์ + ธุระ",
+     "frame": "entity"
+    },
+    {
+     "th": "กิจการ",
+     "rtgs": "kit-cha-kan",
+     "ipa": "/kit̚˨˩.t͡ɕa˨˩.kaːn˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "การงานที่ประกอบ, ธุระ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กิจ",
+      "การ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.32",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ธุระ + งาน",
+     "frame": "entity"
+    },
+    {
+     "th": "ธุรกิจ",
+     "rtgs": "thu-ra-kit",
+     "ipa": "/tʰu˦˥.ra˦˥.kit̚˨˩/",
+     "gloss": {
+      "en": [
+       "business",
+       "matter",
+       "company"
+      ],
+      "th": "การงานประจำเกี่ยวกับอาชีพค้าขาย หรือกิจการอย่างอื่นที่สำคัญและที่ไม่ใช่ราชการ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ธุร",
+      "กิจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "รูปแบบอื่นของ ธุระ + ธุระ",
+     "frame": "entity"
+    },
+    {
+     "th": "กิจกรรม",
+     "rtgs": "kit-cha-kam",
+     "ipa": "/kit̚˨˩.t͡ɕa˨˩.kam˧/",
+     "gloss": {
+      "en": [
+       "activity"
+      ],
+      "th": "การที่ผู้เรียนปฏิบัติการอย่างใดอย่างหนึ่งเพื่อการเรียนรู้",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "กิจ",
+      "กรรม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "กรรม"
+     ],
+     "lit": "business + karma",
+     "lit_th": "ธุระ + การ",
+     "frame": "entity"
+    },
+    {
+     "th": "ภารกิจ",
+     "rtgs": "pha-ra-kit",
+     "ipa": "/pʰaː˧.ra˦˥.kit̚˨˩/",
+     "gloss": {
+      "en": [
+       "matter"
+      ],
+      "th": "งานที่จำต้องทำ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ภาร",
+      "กิจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "lit_th": "ของหนัก + ธุระ",
+     "frame": "entity"
+    },
+    {
+     "th": "เฉพาะกิจ",
+     "rtgs": "cha-pho-kit",
+     "ipa": "/t͡ɕʰa˨˩.pʰɔʔ˦˥.kit̚˨˩/",
+     "gloss": {
+      "en": [
+       "ad hoc"
+      ],
+      "th": "เจาะจงกิจเรื่องใดเรื่องหนึ่ง เมื่อกิจสำเร็จแล้วก็อาจเลิกรากันไป",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เฉพาะ",
+      "กิจ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: the head has one sense, so this is forced rather than chosen",
+     "conf": "verified",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "very + business",
+     "lit_th": "โดยเจาะจง + ธุระ"
+    }
+   ]
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 4 manuscript titles, 27 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 14; domain seeded by keyword hits —.",
+ "compounds_unassigned": [
+  {
+   "th": "การลากิจ",
+   "rtgs": "kan-la-kit",
+   "ipa": "/kaːn˧.laː˧.kit̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลากิจ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลา",
+    "กิจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ลา + ธุระ",
+   "frame": "entity"
+  },
+  {
+   "th": "กรณียกิจ",
+   "rtgs": "ka-ra-ni-ya-kit",
+   "ipa": "/ka˨˩.ra˦˥.niː˧.ja˦˥.kit̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กิจที่พึงทำ, หน้าที่อันพึงทำ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กรณีย",
+    "กิจ"
+   ],
+   "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.20 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "กิจ + ธุระ",
+   "frame": "entity",
+   "use": "false-split"
+  },
+  {
+   "th": "กิจจะ",
+   "rtgs": "kit-cha",
+   "ipa": "/kit̚˨˩.t͡ɕaʔ˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ธุระ, งาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "กิจ",
+    "จะ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.56 · NOT a compound of this head: the etymology says the whole word is borrowed, and the Thai-looking split is an accident of spelling",
+   "conf": "verified",
+   "src": [
+    "CUR",
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "cross_listed": [
+    "จะ"
+   ],
+   "lit": "business + will",
+   "lit_th": "ธุระ + คำกร่อนของคำหน้าซึ่งซ้ำกับคำหลังใน",
+   "use": "false-split"
+  }
+ ],
+ "etymology": {
+  "summary": "ยืมมาจากบาลี กิจฺจ (“การงานอันพึงกระทำ”)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

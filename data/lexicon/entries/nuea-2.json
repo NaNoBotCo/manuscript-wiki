@@ -1,0 +1,957 @@
+{
+ "id": "w:nuea-2",
+ "th": "เนื้อ",
+ "status": "mapped",
+ "rtgs": "nuea",
+ "paiboon": "nʉ́ʉa",
+ "ipa": "/nɯa̯˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนังเข้าไป",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf.",
+    "Declared root: เนื้อ 'flesh'. This is the /nuea axis word — see the material register.",
+    "Declared root: เนื้อ 'flesh'. This is the /nuea axis word — see the material register.",
+    "Declared root: เนื้อ 'flesh'. This is the /nuea axis word — see the material register.",
+    "Declared root: เนื้อ 'flesh'. This is the /nuea axis word — see the material register.",
+    "Declared root: เนื้อ 'flesh'. This is the /nuea axis word — see the material register.",
+    "Declared root: เนื้อ 'flesh'. This is the /nuea axis word — see the material register.",
+    "Declared root: เนื้อ 'flesh'. This is the /nuea axis word — see the material register.",
+    "Declared root: เนื้อ 'flesh'. This is the /nuea axis word — see the material register."
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เนื้อวัวหรือเนื้อควายที่ใช้เป็นอาหาร",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Flesh as food, and by default beef or buffalo.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "สิ่งที่เป็นลักษณะประจำตัวของสิ่งต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เนื้อไม้",
+     "rtgs": "nuea-mai",
+     "ipa": "/nɯa̯˦˥.maːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของต้นไม้ที่เป็นแก่นและกระพี้ อยู่ถัดเปลือกเข้าไป",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เนื้อ",
+      "ไม้"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "cross_listed": [
+      "ไม้"
+     ],
+     "lit": "flesh + wood",
+     "lit_th": "สิ่งที่เป็นลักษณะประจำตัวของสิ่งต่ + คำรวมเรียกพืชทั่วไป โดยปรกติมีราก",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The substance a thing is made of — the axis this site calls เนื้อ.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ส่วนที่อยู่ถัดเปลือกของผลไม้ต่าง ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The flesh of a fruit under its skin.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "สิ่งที่ประกอบกันเป็นตัวอาหาร, คู่กับ น้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "The solid part of a dish, against น้ำ.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "สาระสำคัญ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เนื้อหา",
+     "rtgs": "nuea-ha",
+     "ipa": "/nɯa̯˦˥.haː˩˩˦/",
+     "gloss": {
+      "en": [
+       "meat"
+      ],
+      "th": "ใจความสำคัญ, ข้อสำคัญ, สาระสำคัญ",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เนื้อ",
+      "หา"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.33, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 0,
+     "cross_listed": [
+      "หา"
+     ],
+     "lit": "flesh + find",
+     "lit_th": "สาระสำคัญ + มุ่งพบ"
+    },
+    {
+     "th": "เนื้อเรื่อง",
+     "rtgs": "nuea-rueang",
+     "ipa": "/nɯa̯˦˥.rɯa̯ŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เรื่องราว, สาระของเรื่อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เนื้อ",
+      "เรื่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "flesh + animal",
+     "lit_th": "สาระสำคัญ + ภาวะหรือเนื้อหาของสิ่งซึ่งเนื่องกั",
+     "frame": "entity"
+    }
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "The substance of what is said: the gist.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "คุณสมบัติของเนื้อทองคำและเงินเป็นต้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "specialisation",
+   "via_note": "The quality of the metal in gold or silver.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "[RID sense 8 — no English yet]"
+    ],
+    "th": "ราคาทองคำเป็นเงินบาทตามคุณภาพของเนื้อทอง เช่น ทองคำหนัก 1 บาท เป็นราคาเงิน 8 บาท เรียกว่า ทองเนื้อแปด, ถ้าเป็นราคาเงิน 9 บาท เรียกว่า ทองเนื้อเก้า หรือ ทองนพคุณเก้าน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 7,
+   "via": "metonymy",
+   "via_note": "And the baht price that quality commands.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 9,
+   "gloss": {
+    "en": [
+     "[RID sense 9 — no English yet]"
+    ],
+    "th": "ทุนเดิม, เงิน, ทรัพย์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 8,
+   "via": "metonymy",
+   "via_note": "And so capital, money, means.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 10,
+   "gloss": {
+    "en": [
+     "[RID sense 10 — no English yet]"
+    ],
+    "th": "คำพ้องความของ กัญชา",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Declared root: เนื้อ as slang for cannabis — separate, and modern.",
+    "Declared root: เนื้อ as slang for cannabis — separate, and modern.",
+    "Declared root: เนื้อ as slang for cannabis — separate, and modern.",
+    "Declared root: เนื้อ as slang for cannabis — separate, and modern.",
+    "Declared root: เนื้อ as slang for cannabis — separate, and modern.",
+    "Declared root: เนื้อ as slang for cannabis — separate, and modern.",
+    "Declared root: เนื้อ as slang for cannabis — separate, and modern.",
+    "Declared root: เนื้อ as slang for cannabis — separate, and modern."
+   ]
+  },
+  {
+   "n": 11,
+   "gloss": {
+    "en": [
+     "[RID sense 11 — no English yet]"
+    ],
+    "th": "ชื่อสัตว์ป่าประเภทกวาง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun",
+   "pos_th": "คำนาม",
+   "domains": [
+    "d:money"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "เนื้อร้าย",
+     "rtgs": "nuea-rai",
+     "ipa": "/nɯa̯˦˥.raːj˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "สัตว์ป่าที่ดุร้าย เช่น หมี เสือ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เนื้อ",
+      "ร้าย"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 11: gloss similarity 0.19, next 0.07",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ร้าย"
+     ],
+     "lit": "flesh + bad",
+     "lit_th": "ชื่อสัตว์ป่าประเภทกวาง + ดุ"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "เนื้อทราย, the deer — the meat animal named from its flesh.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 1757 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 18; domain seeded by keyword hits ['ทุน', 'ราคา', 'ทรัพย์', 'ทอง'].",
+ "compounds_unassigned": [
+  {
+   "th": "เนื้อทราย",
+   "rtgs": "nuea-sai",
+   "ipa": "/nɯa̯˦˥.saːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อกวางชนิด Cervus porcinus Zimmermann ในวงศ์ Cervidae เป็นกวางขนาดกลาง ขนลำตัวสีน้ำตาลเข้มแต่ตอนล่างสีจางกว่า ตามลำตัวมีจุดขาวจาง ๆ กระจายอยู่ทั่วไป โดยเฉพาะลูกที่เกิดใหม่จุดขาวนี้จะเห็นชัดเจนเช่นเดียวกับลูกกวางดาว ตัว",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "ทราย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ทราย"
+   ],
+   "lit": "flesh + sand",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + วัตถุที่เป็นเศษหินขนาดเล็ก มีลักษณ",
+   "frame": "entity"
+  },
+  {
+   "th": "เนื้อที่",
+   "rtgs": "nuea-thi",
+   "ipa": "/nɯa̯˦˥.tʰiː˥˩/",
+   "gloss": {
+    "en": [
+     "area"
+    ],
+    "th": "ขนาดของพื้นที่",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "ที่"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "flesh + at",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + แหล่ง",
+   "frame": "entity"
+  },
+  {
+   "th": "ขนงเนื้อ",
+   "translit_auto": "khnngneue",
+   "ipa": "[kʰä˩.nɔ̃ŋ˩˥.nɯːä˦˥]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "หนังสัตว์ที่เผาไฟให้สุกแล้วต้มให้เปื่อย เพื่อปรุงเป็นอาหาร",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขนง",
+    "เนื้อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คิ้ว + ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั",
+   "frame": "entity"
+  },
+  {
+   "th": "เนื้อร้อง",
+   "rtgs": "nuea-rong",
+   "ipa": "/nɯa̯˦˥.rɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "words"
+    ],
+    "th": "คำที่แต่งขึ้นเพื่อขับร้อง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "ร้อง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "ร้อง"
+   ],
+   "lit": "flesh + sing",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + เปล่งเสียงดัง"
+  },
+  {
+   "th": "เนื้อสัตว์",
+   "rtgs": "nuea-sat",
+   "ipa": "/nɯa̯˦˥.sat̚˨˩/",
+   "gloss": {
+    "en": [
+     "meat"
+    ],
+    "th": "(หน่วยข้อมูลนี้เป็นศูนย์กลางของคำแปล)",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "สัตว์"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "flesh + animal",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + สิ่งมีชีวิตซึ่งแตกต่างไปจากพรรณไม้",
+   "frame": "entity"
+  },
+  {
+   "th": "เนื้อผ้า",
+   "rtgs": "nuea-pha",
+   "ipa": "/nɯa̯˦˥.pʰaː˥˩/",
+   "gloss": {
+    "en": [
+     "texture"
+    ],
+    "th": "ความเป็นจริง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "ผ้า"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ผ้า"
+   ],
+   "lit": "flesh + cloth",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม",
+   "frame": "entity"
+  },
+  {
+   "th": "เลือดเนื้อ",
+   "rtgs": "lueat-nuea",
+   "ipa": "/lɯa̯t̚˥˩.nɯa̯˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ลูกในไส้, ลูกของตนแท้ ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เลือด",
+    "เนื้อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit": "blood + flesh",
+   "lit_th": "ของเหลวปรกติมีสีแดง อยู่ในหลอดเลือ + ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั",
+   "frame": "entity"
+  },
+  {
+   "th": "ควักเนื้อ",
+   "rtgs": "khwak-nuea",
+   "ipa": "/kʰwak̚˦˥.nɯa̯˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "เสียเงินส่วนตัวเพราะเงินหรืองบประมาณที่ได้มาไม่เพียงพอ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ควัก",
+    "เนื้อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit_th": "ดึงหรือล้วงสิ่งใดสิ่งหนึ่งออกมา + ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั"
+  },
+  {
+   "th": "เนื้อคู่",
+   "rtgs": "nuea-khu",
+   "ipa": "/nɯa̯˦˥.kʰuː˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชายหญิงที่ถือกันว่าเคยอยู่ร่วมกันมาแต่ปางก่อน, ชายหญิงที่สมเป็นคู่ครองกัน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "คู่"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "คู่"
+   ],
+   "lit": "flesh + even",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + จำนวนที่หารด้วย 2 ลงตัว",
+   "frame": "entity"
+  },
+  {
+   "th": "เนื้อความ",
+   "rtgs": "nuea-khwam",
+   "ipa": "/nɯa̯˦˥.kʰwaːm˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ข้อความทั่ว ๆ ไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "ความ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "flesh + -ness",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + เรื่อง",
+   "frame": "entity"
+  },
+  {
+   "th": "กล้ามเนื้อ",
+   "rtgs": "klam-nuea",
+   "ipa": "/klaːm˥˩.nɯa̯˦˥/",
+   "gloss": {
+    "en": [
+     "muscle"
+    ],
+    "th": "มัดเนื้อที่รวมกันเป็นก้อน ๆ ภายในคนและสัตว์",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "กล้าม",
+    "เนื้อ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "มัดเนื้อที่รวมกันเป็นก้อน ๆ ภายในค + ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั",
+   "frame": "entity"
+  },
+  {
+   "th": "เนื้อเยื่อ",
+   "rtgs": "nuea-yuea",
+   "ipa": "/nɯa̯˦˥.jɯa̯˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กลุ่มของเซลล์ที่มักมีลักษณะเหมือนกัน ทำหน้าที่ร่วมกัน มีหลายชนิด",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "เยื่อ"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + สิ่งที่เป็นแผ่นบางอยู่ตามผิวหรือภา",
+   "frame": "entity"
+  },
+  {
+   "th": "เนื้องอก",
+   "rtgs": "nuea-ngok",
+   "ipa": "/nɯa̯˦˥.ŋɔːk̚˥˩/",
+   "gloss": {
+    "en": [
+     "tumor"
+    ],
+    "th": "เนื้อเยื่อที่เจริญเติบโตผิดปรกติ อาจเป็นเนื้อร้าย หรือมะเร็ง หรือเป็นผลมาจากสาเหตุอื่น เช่นเชื้อโรค ก็ได้",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "งอก"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + การเจริญจากเมล็ดออกมาเป็นต้นอ่อน"
+  },
+  {
+   "th": "เนื้อหนัง",
+   "rtgs": "nuea-nang",
+   "ipa": "/nɯa̯˦˥.naŋ˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ร่างกายของมนุษย์และความต้องการต่าง ๆ ทางกายภาพของร่างกายนั้น ๆ โดยเฉพาะเมื่อเปรียบต่างกับจิตหรือวิญญาณ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เนื้อ",
+    "หนัง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "flesh + film",
+   "lit_th": "ส่วนของร่างกายคนและสัตว์อยู่ถัดหนั + ส่วนของร่างกายที่หุ้มเนื้ออยู่",
+   "frame": "entity"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *n.mɤːꟲ; ร่วมเชื้อสายกับลาว ເນຶ້ອ (เนึ้อ), ເນື້ອ (เนื้อ), คำเมือง ᨶᩮᩬᩥ᩶ᩋ (เนอิ้อ), เขิน ᨶᩮᩬᩨ᩶ (เนอื้), ไทลื้อ ᦵᦓᦲᧉ (เนี้), ไทดำ ꪹꪙ꫁ (เน้), ไทใหญ่ ၼိူဝ်ႉ (เนิ๎ว), ไทใต้คง ᥘᥫᥳ (เล๎อ̂), อาหม 𑜃𑜢𑜤𑜈𑜫 (นึว์), ปู้อี noh, จ้วง noh, จ้วงแบบหนง nowx หรือ nwx, แสก หมร้อ, จ้วงแบบจั่วเจียง nwex",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨶᩮᩬᩥ᩶ᩋ",
+  "th": "เนอิ้อ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:nuea",
+   "label": "เหนือ",
+   "why": "spelling",
+   "distinction": "Both romanise as \"nuea\". เนื้อ is nʉ́ʉa, เหนือ is nʉ̌ʉa — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "flesh"
+ ]
+}

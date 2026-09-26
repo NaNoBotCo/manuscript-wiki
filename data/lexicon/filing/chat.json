@@ -1,0 +1,11 @@
+{
+ "head": "chat",
+ "rule": "ชาติ runs from a birth to a nation in six steps — birth (1), the lifetime that birth opens (2), the stock one is born into (3), the country that stock claims (4), its people (5), the nation they feel themselves to be (6) — and then sideways from 3 to kind (7) and to the bound Pali suffix (8). The country/nation line is the busiest, and the 4/6 split is whether the word points at a territory or at a people: ธงชาติ, เพลงชาติ, ประเทศชาติ, ต่างชาติ and ขายชาติ are all about the country, so 4; ชาตินิยม and สร้างชาติ are about the people being one thing, so 6. Sense 8 is the real work on this head. Its gloss — คำสกรรถ … ความหมายคงเดิม หรือหมายถึงพวกหรือหมู่ — describes a Pali stem plus -ชาติ that names the stem itself or the class of it, which is exactly ชลชาติ (water), รุกขชาติ (trees), สัตวชาติ (animals) and the two words for snake, ทีฆชาติ and เทียรฆชาติ, 'the long kind'. They join the source-filed คชาชาติ, มนุษยชาติ and รสชาติ. The test that keeps 8 from swallowing every Pali compound is whether the whole names its first element or a class of it: ธรรมชาติ names neither ธรรม nor a group of ธรรม but the arising of a thing by itself, so it files at 1 with ชาติรส, whose gloss says โดยกำเนิด. Sense 7, ชาติ as a free noun meaning kind, takes nothing here — all five class-words are bound compounds.",
+ "senses": {
+  "1": ["ชาติรส", "ธรรมชาติ"],
+  "3": ["ชาติมาลา", "ชาติพันธุ์"],
+  "4": ["เพลงชาติ", "ขายชาติ", "ประเทศชาติ", "ธงชาติ", "ต่างชาติ"],
+  "6": ["ชาตินิยม", "สร้างชาติ"],
+  "8": ["ทีฆชาติ", "เทียรฆชาติ", "ชลชาติ", "รุกขชาติ", "สัตวชาติ"]
+ }
+}

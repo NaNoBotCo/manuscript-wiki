@@ -1,0 +1,1467 @@
+{
+ "id": "w:daeng",
+ "th": "แดง",
+ "status": "mapped",
+ "rtgs": "daeng",
+ "paiboon": "dɛɛng",
+ "ipa": "/dɛːŋ˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "red"
+    ],
+    "th": "สีอย่างสีเลือดหรือสีชาด",
+    "conf": "standard",
+    "src": [
+     "CUR",
+     "RID"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ผ้าแดง",
+     "rtgs": "pha-daeng",
+     "ipa": "/pʰaː˥˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ผ้าทอด้วยด้ายย้อมสีแดงเลือดนก มักใช้ทำผ้านุ่งโจงกระเบนหรือผ้าเช็ดปากสำหรับคนกินหมากเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ผ้า",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ผ้า"
+     ],
+     "lit": "cloth + red",
+     "lit_th": "สิ่งที่ทำด้วยเยื่อใยเช่น ฝ้าย ไหม + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "หน้าแดง",
+     "rtgs": "na-daeng",
+     "ipa": "/naː˥˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "หน้าเต็มไปด้วยเลือดฝาดเพราะความกระดากอายหรือโกรธเป็นต้น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "before + red",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ใบแดง",
+     "rtgs": "bai-daeng",
+     "ipa": "/baj˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ใบแจ้งกำหนดการมงคลสมรส",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ใบ",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ใบ"
+     ],
+     "lit": "leaf + red",
+     "lit_th": "ส่วนของพืชที่ติดอยู่กับกิ่งหรือลำต + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ลงแดง",
+     "rtgs": "long-daeng",
+     "ipa": "/loŋ˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ท้องเดินและถ่ายเป็นเลือดออกมามาก (มักใช้แก่คนอดฝิ่น)",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลง",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ลง"
+     ],
+     "lit": "drop + red",
+     "lit_th": "ไปสู่เบื้องต่ำหรือไปสู่เบื้องที่ถื + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ป่าแดง",
+     "rtgs": "pa-daeng",
+     "ipa": "/paː˨˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ป่าที่มีใบไม้ร่วงตามฤดูกาล เช่น ป่าเต็ง ป่ารัง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ป่า",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ป่า"
+     ],
+     "lit": "forest + red",
+     "lit_th": "ที่ที่มีต้นไม้ต่าง ๆ ขึ้นมาก + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ข้าวแดง",
+     "rtgs": "khao-daeng",
+     "ipa": "/kʰaːw˥˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เมล็ดข้าวที่มีปลอกรำสีแดงหุ้มอยู่ร้อยละ 25 ของเนื้อที่เมล็ดข้าวหรือมากกว่า",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ข้าว",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ข้าว"
+     ],
+     "lit": "rice + red",
+     "lit_th": "ชื่อไม้ล้มลุกหลายชนิดหลายสกุลในวงศ + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "เหรียญทองแดง",
+     "rtgs": "rian-thong-daeng",
+     "ipa": "/ria̯n˩˩˦.tʰɔːŋ˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "copper"
+      ],
+      "th": "เหรียญรางวัลสำหรับตำแหน่งชนะเลิศรองจากเหรียญเงิน ซึ่งก็คืออันดับที่สาม",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เหรียญทอง",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "เหรียญรางวัลที่ให้สำหรับผู้ชนะเลิศ + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ยาแดง",
+     "rtgs": "ya-daeng",
+     "ipa": "/jaː˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยาสูบชนิดหนึ่งของจีน เส้นแดง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ยา",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ยา"
+     ],
+     "lit": "medicine + red",
+     "lit_th": "สิ่งที่ใช้แก้หรือป้องกันโรค หรือบำ + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "แก้มแดง",
+     "translit_auto": "kaemdaeng",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อมะม่วงพันธุ์หนึ่งของชนิด Mangifera indica",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แก้ม",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "cheek + red",
+     "lit_th": "บริเวณหน้าทั้ง 2 ข้างถัดตาลงมา + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ไฟแดง",
+     "rtgs": "fai-daeng",
+     "ipa": "/faj˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไฟจราจรที่เป็นสีแดง เป็นสัญญาณบอกยวดยานพาหนะหรือผู้ใช้ถนนให้หยุด, ถ้าเป็นไฟแดงกระพริบ หมายถึงให้หยุดรอจนกว่าจะปลอดภัยแล้วจึงไปต่อ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ไฟ",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ไฟ"
+     ],
+     "lit": "fire + red",
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "คดีแดง",
+     "rtgs": "kha-di-daeng",
+     "ipa": "/kʰa˦˥.diː˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "คดีหมายเลขแดง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คดี",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "case + red",
+     "lit_th": "ทาง + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ไข่แดง",
+     "rtgs": "khai-daeng",
+     "ipa": "/kʰaj˨˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "egg yolk"
+      ],
+      "th": "ส่วนของไข่สัตว์ เช่น ไข่ของนก ไข่ของสัตว์เลื้อยคลาน อยู่รอบส่วนที่จะเจริญเป็นตัวอ่อน มักมีสีเหลืองหรือแดง เป็นสารประเภทไขมันที่สะสมไว้สำหรับเลี้ยงตัวอ่อนขณะที่เติบโต",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ไข่",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ไข่"
+     ],
+     "lit": "egg + red",
+     "lit_th": "ตัวสืบพันธุ์ประกอบด้วยเซลล์สืบพันธ + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "เด็กแดง",
+     "rtgs": "dek-daeng",
+     "ipa": "/dek̚˨˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "เด็กที่เพิ่งคลอดไม่นาน อายุประมาณ ๑ เดือน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "เด็ก",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "child + red",
+     "lit_th": "คนที่มีอายุยังน้อย + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "กระเจี๊ยบแดง",
+     "rtgs": "kra-chiap-daeng",
+     "ipa": "/kra˨˩.t͡ɕia̯p̚˦˥.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กระเจี๊ยบชนิด Hibiscus sabdariffa",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กระเจี๊ยบ",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อไม้ล้มลุกชนิด Abelmoschus escu + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ปูนแดง",
+     "rtgs": "pun-daeng",
+     "ipa": "/puːn˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ปูนสุกที่เมื่อผสมกับผงขมิ้นและน้ำจะเป็นสีแดง สำหรับป้ายพลูกินกับหมาก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปูน",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "หินปูนหรือเปลือกหอยเมื่อถูกเผาจนสล + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "ทองแดง",
+     "rtgs": "thong-daeng",
+     "ipa": "/tʰɔːŋ˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "copper"
+      ],
+      "th": "ธาตุลำดับที่ 29 สัญลักษณ์ Cu เป็นโลหะ ลักษณะเป็นของแข็งสีแดง หลอมละลายที่ 1,083 องศาเซลเซียส เนื้ออ่อนบุให้เป็นแผ่นบางและรีดเป็นเส้นลวดได้ง่าย เป็นตัวนำความร้อนและไฟฟ้าได้ดี",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ทอง",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ทอง"
+     ],
+     "lit": "gold + red",
+     "lit_th": "ธาตุแท้ชนิดหนึ่งเนื้อแน่นมาก สีเหล + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    },
+    {
+     "th": "บัวแดง",
+     "rtgs": "bua-daeng",
+     "ipa": "/bua̯˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "บัวหลวง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "บัว",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1 by hand",
+     "conf": "standard",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "บัว"
+     ],
+     "lit": "lotus + red",
+     "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + สีอย่างสีเลือดหรือสีชาด",
+     "frame": "quality"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 2]"
+    ],
+    "th": "ลักษณะที่ความลับซึ่งปกปิดไว้ได้ปรากฏออกมา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A hidden thing coming out is said to go red — ความแดง, the secret out.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 3]"
+    ],
+    "th": "สตางค์",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ลูกอ่อนแดง",
+     "translit_auto": "lukondaeng",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ทารก",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลูกอ่อน",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.30, next 0.22",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ลูกเล็ก ๆ ที่ยังไม่หย่านม + สตางค์",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The copper coin named from its colour.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 4]"
+    ],
+    "th": "(ไม้~) ชื่อไม้ต้นชนิด Xylia xylocarpa (Roxb.) W. Theob. ในวงศ์ Leguminosae เนื้อไม้แข็ง สีแดง ใช้ในการก่อสร้าง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ไม้แดง, the tree named for its red heartwood.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 5]"
+    ],
+    "th": "(เทียน~) ชื่อเรียกเมล็ดแก่แห้งของไม้ล้มลุกชนิด Lepidium sativum L. ในวงศ์ Cruciferae",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "เทียนแดง, the seed named for its colour.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 6]"
+    ],
+    "th": "(ปลา~) ชื่อปลาน้ำจืดไม่มีเกล็ด พวกปลาเนื้ออ่อน ชนิด Phalacronotus bleekeri (Günther) หรือ Micronema bleekeri (Günther) ปากเชิดขึ้น มีหนวด 2 คู่ หนวดที่ขากรรไกรบนยาวไม่ถึงขอบแผ่นปิดเหงือก หนวดที่ขากรรไกรล่างสั้นมากคล้ายปลาน้ำเงิน แต่มีกลุ่มฟันที่กระดูกฐานจมูกเรียงเป็นแถบมีมุมแหลมคล้ายหัวลูกศร ลำตัวมีสีเงินอมแดงหรือชมพู ไม่มีครีบหลัง ครีบก้นใสไม่มีสี อาศัยอยู่ตามแม่น้ำลำคลองหรือแหล่งน้ำนิ่งขนาดใหญ่ท",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "ปลาแดง, the catfish named for its colour.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[needs an English gloss — RID sense 7]"
+    ],
+    "th": "(มด~) ชื่อมดชนิด Oecophylla smaragdina (Fabricius) ในวงศ์ Formicidae มดงานลำตัวยาวประมาณ 1 เซนติเมตร สีส้มหรือน้ำตาลปนแดงตลอดรวมทั้งหนวดและขา ตาเล็ก สีน้ำตาลแก่ ทำรังอยู่ตามต้นไม้ เช่น มะม่วง ขนุน โดยใช้ใบมาห่อเข้าด้วยกัน ขณะถูกรบกวนจะป้องกันตัวโดยกัดให้เกิดแผลแล้วปล่อยกรดออกมาทำให้ปวดแสบปวดร้อน เพศเมียที่มีปีก เรียก แม่เป้ง ลำตัวยาว 1.5-1.8 เซนติเมตร สีเขียวปนน้ำตาล ปีกใสสีน้ำตาล เมื่อผสมพันธุ์แล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "pos": "adjective, verb, noun",
+   "pos_th": "คำคุณศัพท์, คำกริยา, คำนาม",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "มดแดง, the weaver ant named for its colour.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 8,
+   "gloss": {
+    "en": [
+     "daeng as an element in place names"
+    ],
+    "th": "ใช้ประกอบชื่อสถานที่",
+    "conf": "standard",
+    "src": [
+     "RID",
+     "CUR"
+    ]
+   },
+   "def": "Used to build place names. Not listed as a sense by the RID, but 14 of this head's dictionary-attested compounds are place-name definitions (ชื่อตำบล / ชื่ออำเภอ / ชื่อเขต). Strongly northern: 57 of the 5333 wats in the northern registry carry it, and 38 entries of the segmentation dictionary.",
+   "def_th": "ใช้ประกอบชื่อสถานที่ — พบในคำที่พจนานุกรมนิยามว่าเป็นชื่อสถานที่ 14 คำ",
+   "pos": "proper noun",
+   "pos_th": "วิสามานยนาม",
+   "domains": [
+    "d:toponym",
+    "d:place"
+   ],
+   "order_conf": "unverified",
+   "conf": "standard",
+   "src": [
+    "RID",
+    "CUR",
+    "wat-registry"
+   ],
+   "needs_check": [
+    "This sense is NOT in the RID's own sense list. It is added on counted evidence — 14 place-name compounds — and which literal sense it grew out of has not been argued, so it carries no EXTENDS edge yet."
+   ],
+   "edges": [
+    {
+     "rel": "ATTESTED_IN",
+     "to": "corpus:wat-registry",
+     "label": "57 of 5333 northern wats",
+     "note": "A counted edge, re-derivable from wats_north.json.",
+     "conf": "verified",
+     "src": [
+      "wat-registry"
+     ]
+    }
+   ],
+   "compounds": [
+    {
+     "th": "คอแดง",
+     "rtgs": "kho-daeng",
+     "ipa": "/kʰɔː˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่องูลายสาบชนิด Rhabdophis subminiatus ในวงศ์ Colubridae ตัวสีเขียวหรือเทา คอสีแดง ออกหากินเวลากลางวัน มีพิษอ่อน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "คอ",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · definition form: biological. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a biological; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "biological",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "คอ"
+     ],
+     "lit": "neck + daeng as an element in place names",
+     "lit_th": "ส่วนของร่างกายที่ต่อศีรษะกับตัว + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "วิหารแดง",
+     "rtgs": "wi-han-daeng",
+     "ipa": "/wi˦˥.haːn˩˩˦.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดสระบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วิหาร",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit": "temple + daeng as an element in place names",
+     "lit_th": "วัด + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "หนองบัวแดง",
+     "rtgs": "nong-bua-daeng",
+     "ipa": "/nɔːŋ˩˩˦.bua̯˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดชัยภูมิ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนองบัว",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit_th": "รูปตัดทอนของ หนองบัวลำภู + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "โนนแดง",
+     "rtgs": "non-daeng",
+     "ipa": "/noːn˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โนน",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โนน"
+     ],
+     "lit": "mound + daeng as an element in place names",
+     "lit_th": "เนิน + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "แดงใหญ่",
+     "rtgs": "daeng-yai",
+     "ipa": "/dɛːŋ˧.jaj˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองขอนแก่น จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "แดง",
+      "ใหญ่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "ADJ+ADJ",
+     "head": 0,
+     "cross_listed": [
+      "ใหญ่"
+     ],
+     "lit": "daeng as an element in place names + huge",
+     "lit_th": "ใช้ประกอบชื่อสถานที่ + โต",
+     "frame": "quality"
+    },
+    {
+     "th": "โป่งแดง",
+     "rtgs": "pong-daeng",
+     "ipa": "/poːŋ˨˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอขามทะเลสอ จังหวัดนครราชสีมา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โป่ง",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "โป่ง"
+     ],
+     "lit": "swollen + daeng as an element in place names",
+     "lit_th": "ลักษณะของสิ่งที่พองด้วยลมหรือแก๊ส + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ปอแดง",
+     "rtgs": "po-daeng",
+     "ipa": "/pɔː˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอชนบท จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปอ",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "เส้นใยที่ทำจากเปลือกไม้บางชนิด + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "หนองบอนแดง",
+     "rtgs": "nong-bon-daeng",
+     "ipa": "/nɔːŋ˩˩˦.bɔːn˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบ้านบึง จังหวัดชลบุรี",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนองบอน",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อตำบลหนึ่งในอำเภอเมืองสระแก้ว จ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ปลวกแดง",
+     "rtgs": "pluak-daeng",
+     "ipa": "/plua̯k̚˨˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่ออำเภอหนึ่งในจังหวัดระยอง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ปลวก",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ชื่อแมลงหลายชนิดหลายวงศ์ ในอันดับ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ศาลาแดง",
+     "rtgs": "sa-la-daeng",
+     "ipa": "/saː˩˩˦.laː˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอบางน้ำเปรี้ยว จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ศาลา",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "อาคารทรงไทย ปล่อยโถง ไม่กั้นฝา ใช้ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "กกแดง",
+     "rtgs": "kok-daeng",
+     "ipa": "/kok̚˨˩.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอนิคมคำสร้อย จังหวัดมุกดาหาร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "กก",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "กก"
+     ],
+     "lit": "the -k final spelling class + daeng as an element in place names",
+     "lit_th": "เรียกคำหรือพยางค์ที่มีตัว ก ข ค ฆ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "ดินแดง",
+     "rtgs": "din-daeng",
+     "ipa": "/din˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเขตหนึ่งในกรุงเทพมหานคร",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ดิน",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "ดิน"
+     ],
+     "lit": "soil + daeng as an element in place names",
+     "lit_th": "ชื่อธาตุอย่างหนึ่งในธาตุทั้ง 4 คือ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "หนามแดง",
+     "rtgs": "nam-daeng",
+     "ipa": "/naːm˩˩˦.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองฉะเชิงเทรา จังหวัดฉะเชิงเทรา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนาม",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "lit_th": "ส่วนแหลม ๆ ที่งอกออกจากต้นหรือกิ่ง + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "หนองแดง",
+     "rtgs": "nong-daeng",
+     "ipa": "/nɔːŋ˩˩˦.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอสีชมพู จังหวัดขอนแก่น",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หนอง",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "N+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "หนอง"
+     ],
+     "lit": "abscess + daeng as an element in place names",
+     "lit_th": "แอ่งน้ำ + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    },
+    {
+     "th": "วังทองแดง",
+     "rtgs": "wang-thong-daeng",
+     "ipa": "/waŋ˧.tʰɔːŋ˧.dɛːŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อตำบลหนึ่งในอำเภอเมืองสุโขทัย จังหวัดสุโขทัย",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "วังทอง",
+      "แดง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · filed under sense 8: definition form is a toponym; filed under the head's name-use sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "use": "toponym",
+     "pattern": "PROP+ADJ",
+     "head": 1,
+     "cross_listed": [
+      "วัง"
+     ],
+     "lit_th": "ชื่ออำเภอหนึ่งในจังหวัดพิษณุโลก + ใช้ประกอบชื่อสถานที่",
+     "frame": "quality"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "A place is named for the feature it has — the feature stands in for the location. That is metonymy rather than metaphor: the marsh, the field, the creek is actually there, and the name points at it.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 5 manuscript titles, 432 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 36; domain seeded by keyword hits ['จมูก', 'เลือด', 'กระดูก', 'ฟัน'].",
+ "compounds_unassigned": [
+  {
+   "th": "ความแดง",
+   "rtgs": "khwam-daeng",
+   "ipa": "/kʰwaːm˧.dɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ แดง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ความ",
+    "แดง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "lit": "-ness + red",
+   "lit_th": "เรื่อง + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
+  },
+  {
+   "th": "สำแดง",
+   "rtgs": "sam-daeng",
+   "ipa": "/sam˩˩˦.dɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "declare"
+    ],
+    "th": "แสดง, ทำให้เห็นปรากฏ",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สำ",
+    "แดง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · NOT a compound of this head: the dictionary gives แผลงมาจาก แสดง; จากเขมร សំដែង (สํแฎง), itself an infixed form of Khmer ស្ដែង (สฺแฎง) 'to show'. The สำ- is Khmer's nominalising infix and the -แดง is the middle of that stem, not แดง 'red'.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "สำ"
+   ],
+   "lit": "jumbled + red",
+   "lit_th": "ซับซ้อนกัน + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality",
+   "use": "false-split"
+  },
+  {
+   "th": "การลงแดง",
+   "rtgs": "kan-long daeng",
+   "ipa": "/kaːn˧.loŋ˧.dɛːŋ˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลงแดง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การลง",
+    "แดง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+ADJ",
+   "head": 1,
+   "cross_listed": [
+    "การลง"
+   ],
+   "lit": "nominalisation of ลง + red",
+   "lit_th": "คำอาการนามของ ลง + สีอย่างสีเลือดหรือสีชาด",
+   "frame": "quality"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *ˀdɛːŋᴬ³, จากไทดั้งเดิม *C̥.dwiːŋᴬ; ร่วมเชื้อสายกับคำเมือง ᨯᩯ᩠ᨦ (แดง), ลาว ແດງ (แดง), ไทลื้อ ᦶᦡᧂ (แดง), ไทดำ ꪵꪒꪉ (แดง), ไทใหญ่ လႅင် (แลง), ไทใต้คง ᥘᥦᥒ (แลง), พ่าเก ꩫ︀ိင︀် (นิง์), อาหม 𑜓𑜢𑜂𑜫 (ดิง์) หรือ 𑜃𑜢𑜂𑜫 (นิง์), จ้วง nding, จ้วงแบบหนง ndiang, แสก รี๋ง; เทียบเบดั้งเดิม *ziːŋᴬ¹ (“แดง; แดงเข้ม”) ตัดมาจาก สตางค์แดง จากลักษณะของสิ่งมีชีวิตต่าง ๆ ที่มีสีแดงหรือคล้ายแดง",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨯᩯ᩠ᨦ",
+  "th": "แดง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ }
+}

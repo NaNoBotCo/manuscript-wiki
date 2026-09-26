@@ -1,0 +1,783 @@
+{
+ "id": "w:sip",
+ "th": "สิบ",
+ "status": "mapped",
+ "rtgs": "sip",
+ "paiboon": "sìp",
+ "ipa": "/sip̚˨˩/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "จำนวนเก้าบวกหนึ่ง, จำนวนจุดที่มีในนี้ (••••• •••••)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun",
+   "pos_th": "เลข, คำนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "หกสิบ",
+     "rtgs": "hok-sip",
+     "ipa": "/hok̚˨˩.sip̚˨˩/",
+     "gloss": {
+      "en": [
+       "sixty"
+      ],
+      "th": "จำนวน 60 คือ 10 หกหนรวมกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "หก",
+      "สิบ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.11, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "six + ten",
+     "lit_th": "จำนวนห้าบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+     "flips_with": "สิบหก"
+    },
+    {
+     "th": "เก้าสิบ",
+     "rtgs": "kao-sip",
+     "ipa": "/kaːw˥˩.sip̚˨˩/",
+     "gloss": {
+      "en": [
+       "ninety"
+      ],
+      "th": "จำนวน 90 คือ 10 เก้าหนรวมกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "เก้า",
+      "สิบ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.14, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit": "nine + ten",
+     "lit_th": "จำนวนแปดบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+     "flips_with": "สิบเก้า"
+    },
+    {
+     "th": "สิบเจ็ด",
+     "rtgs": "sip-chet",
+     "ipa": "/sip̚˨˩.t͡ɕet̚˨˩/",
+     "gloss": {
+      "en": [
+       "seventeen"
+      ],
+      "th": "จำนวนสิบหกบวกหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "เจ็ด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.25, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "ten + seven",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนหกบวกหนึ่ง",
+     "flips_with": "เจ็ดสิบ"
+    },
+    {
+     "th": "สิบสอง",
+     "rtgs": "sip-song",
+     "ipa": "/sip̚˨˩.sɔːŋ˩˩˦/",
+     "gloss": {
+      "en": [
+       "twelve"
+      ],
+      "th": "จำนวนสิบเอ็ดบวกหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "สอง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.26, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "ten + two",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนหนึ่งบวกหนึ่ง"
+    },
+    {
+     "th": "สิบห้า",
+     "rtgs": "sip-ha",
+     "ipa": "/sip̚˨˩.haː˥˩/",
+     "gloss": {
+      "en": [
+       "fifteen"
+      ],
+      "th": "จำนวนสิบสี่บวกหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "ห้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.26, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "ten + five",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนสี่บวกหนึ่ง",
+     "flips_with": "ห้าสิบ"
+    },
+    {
+     "th": "สิบสี่",
+     "rtgs": "sip-si",
+     "ipa": "/sip̚˨˩.siː˨˩/",
+     "gloss": {
+      "en": [
+       "fourteen"
+      ],
+      "th": "จำนวนสิบสามบวกหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "สี่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.25, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "ten + four",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนสามบวกหนึ่ง",
+     "flips_with": "สี่สิบ"
+    },
+    {
+     "th": "ยี่สิบ",
+     "rtgs": "yi-sip",
+     "ipa": "/jiː˥˩.sip̚˨˩/",
+     "gloss": {
+      "en": [
+       "twenty"
+      ],
+      "th": "จำนวนสิบเก้าบวกหนึ่ง, จำนวน 20 คือ 10 สองหนรวมกัน",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ยี่",
+      "สิบ"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.39, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 1,
+     "lit_th": "สอง ในคำว่า ยี่สิบ + จำนวนเก้าบวกหนึ่ง"
+    },
+    {
+     "th": "สิบสาม",
+     "rtgs": "sip-sam",
+     "ipa": "/sip̚˨˩.saːm˩˩˦/",
+     "gloss": {
+      "en": [
+       "thirteen",
+       "baker's dozen"
+      ],
+      "th": "จำนวนสิบสองบวกหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "สาม"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.22, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "สาม"
+     ],
+     "lit": "ten + three",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนสองบวกหนึ่ง",
+     "flips_with": "สามสิบ"
+    },
+    {
+     "th": "สิบแปด",
+     "rtgs": "sip-paet",
+     "ipa": "/sip̚˨˩.pɛːt̚˨˩/",
+     "gloss": {
+      "en": [
+       "eighteen"
+      ],
+      "th": "จำนวนสิบเจ็ดบวกหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "แปด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.25, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "ten + eight",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนเจ็ดบวกหนึ่ง",
+     "flips_with": "แปดสิบ"
+    },
+    {
+     "th": "สิบเก้า",
+     "rtgs": "sip-kao",
+     "ipa": "/sip̚˨˩.kaːw˥˩/",
+     "gloss": {
+      "en": [
+       "nineteen"
+      ],
+      "th": "จำนวนสิบแปดบวกหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "เก้า"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.25, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "ten + nine",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนแปดบวกหนึ่ง",
+     "flips_with": "เก้าสิบ"
+    },
+    {
+     "th": "สิบเอ็ด",
+     "rtgs": "sip-et",
+     "ipa": "/sip̚˨˩.ʔet̚˨˩/",
+     "gloss": {
+      "en": [
+       "eleven"
+      ],
+      "th": "จำนวนสิบบวกหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "เอ็ด"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.27, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + หนึ่ง"
+    },
+    {
+     "th": "สิบหก",
+     "rtgs": "sip-hok",
+     "ipa": "/sip̚˨˩.hok̚˨˩/",
+     "gloss": {
+      "en": [
+       "sixteen"
+      ],
+      "th": "จำนวนสิบห้าบวกหนึ่ง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "หก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.31, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "lit": "ten + six",
+     "lit_th": "จำนวนเก้าบวกหนึ่ง + จำนวนห้าบวกหนึ่ง",
+     "flips_with": "หกสิบ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เรียกเดือนที่ 10 ทางจันทรคติ ว่า เดือน 10 ตกในราวเดือนกันยายน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun",
+   "pos_th": "เลข, คำนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The tenth lunar month, named from the number.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ยศทหารบกหรือตำรวจชั้นประทวน ต่ำกว่าจ่า",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "เลข, noun",
+   "pos_th": "เลข, คำนาม",
+   "domains": [
+    "d:power"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "สิบเอก",
+     "rtgs": "sip-ek",
+     "ipa": "/sip̚˨˩.ʔeːk̚˨˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นประทวนของกองทัพบก สูงกว่าสิบโท ต่ำกว่าจ่าสิบตรี, ย่อว่า ส.อ.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "เอก"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.36, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "เอก"
+     ],
+     "lit": "ten + one",
+     "lit_th": "ยศทหารบกหรือตำรวจชั้นประทวน ต่ำกว่ + หนึ่ง"
+    },
+    {
+     "th": "สิบโท",
+     "rtgs": "sip-tho",
+     "ipa": "/sip̚˨˩.tʰoː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นประทวนของกองทัพบก สูงกว่าสิบตรี ต่ำกว่าสิบเอก, ย่อว่า ส.ท.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "โท"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.31, next 0.02",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "โท"
+     ],
+     "lit": "ten + two",
+     "lit_th": "ยศทหารบกหรือตำรวจชั้นประทวน ต่ำกว่ + สอง"
+    },
+    {
+     "th": "สิบตรี",
+     "rtgs": "sip-tri",
+     "ipa": "/sip̚˨˩.triː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ยศทหารชั้นประทวนของกองทัพบก สูงกว่าพลทหาร ต่ำกว่าสิบโท, ย่อว่า ส.ต.",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "สิบ",
+      "ตรี"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "head": 0,
+     "cross_listed": [
+      "ตรี"
+     ],
+     "lit": "ten + fish",
+     "lit_th": "ยศทหารบกหรือตำรวจชั้นประทวน ต่ำกว่ + ปลา"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "And the sergeant, once the commander of ten.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 95 manuscript titles, 21 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 21; domain seeded by keyword hits ['ทหาร', 'ยศ'].",
+ "compounds_unassigned": [
+  {
+   "th": "เจ็ดสิบ",
+   "rtgs": "chet-sip",
+   "ipa": "/t͡ɕet̚˨˩.sip̚˨˩/",
+   "gloss": {
+    "en": [
+     "seventy"
+    ],
+    "th": "จำนวน 70 คือ 10 เจ็ดหนรวมกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "เจ็ด",
+    "สิบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit": "seven + ten",
+   "lit_th": "จำนวนหกบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบเจ็ด"
+  },
+  {
+   "th": "สี่สิบ",
+   "rtgs": "si-sip",
+   "ipa": "/siː˨˩.sip̚˨˩/",
+   "gloss": {
+    "en": [
+     "forty"
+    ],
+    "th": "จำนวน 40 คือ 10 สี่หนรวมกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สี่",
+    "สิบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit": "four + ten",
+   "lit_th": "จำนวนสามบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบสี่"
+  },
+  {
+   "th": "สิบเหลี่ยม",
+   "rtgs": "sip-liam",
+   "ipa": "/sip̚˨˩.lia̯m˨˩/",
+   "gloss": {
+    "en": [
+     "decagon"
+    ],
+    "th": "(รูป~) รูปเหลี่ยมที่มีด้านโดยรอบเป็นเส้นตรง 10 เส้น ปลายเส้นจดกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สิบ",
+    "เหลี่ยม"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 0,
+   "lit_th": "จำนวนเก้าบวกหนึ่ง + ด้านที่เป็นสัน"
+  },
+  {
+   "th": "แปดสิบ",
+   "rtgs": "paet-sip",
+   "ipa": "/pɛːt̚˨˩.sip̚˨˩/",
+   "gloss": {
+    "en": [
+     "eighty"
+    ],
+    "th": "จำนวน 80 คือ 10 แปดหนรวมกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แปด",
+    "สิบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit": "eight + ten",
+   "lit_th": "จำนวนเจ็ดบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบแปด"
+  },
+  {
+   "th": "สามสิบ",
+   "rtgs": "sam-sip",
+   "ipa": "/saːm˩˩˦.sip̚˨˩/",
+   "gloss": {
+    "en": [
+     "thirty"
+    ],
+    "th": "จำนวน 30 คือ 10 สามหนรวมกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "สาม",
+    "สิบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "cross_listed": [
+    "สาม"
+   ],
+   "lit": "three + ten",
+   "lit_th": "จำนวนสองบวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบสาม"
+  },
+  {
+   "th": "ห้าสิบ",
+   "rtgs": "ha-sip",
+   "ipa": "/haː˥˩.sip̚˨˩/",
+   "gloss": {
+    "en": [
+     "fifty"
+    ],
+    "th": "จำนวน 50 คือ 10 ห้าหนรวมกัน",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ห้า",
+    "สิบ"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "head": 1,
+   "lit": "five + ten",
+   "lit_th": "จำนวนสี่บวกหนึ่ง + จำนวนเก้าบวกหนึ่ง",
+   "flips_with": "สิบห้า"
+  }
+ ],
+ "etymology": {
+  "summary": "จากจีนยุคกลาง 十 (MC dzyip); ร่วมเชื้อสายกับอีสาน สิบ, ลาว ສິບ (สิบ), คำเมือง ᩈᩥ᩠ᨷ (สิบ), ไทลื้อ ᦉᦲᧇ (สีบ), ไทดำ ꪎꪲꪚ (สิบ), ไทใหญ่ သိပ်း (สิ๊ป), ไทใต้คง ᥔᥤᥙᥴ (สี๋ป), อาหม 𑜏𑜢𑜆𑜫 (สิป์), ปู้อี xib, จ้วง cib, แสก ซิ̄บ",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩈᩥ᩠ᨷ",
+  "th": "สิบ",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "ten"
+ ]
+}

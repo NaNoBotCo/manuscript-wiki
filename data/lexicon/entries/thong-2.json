@@ -1,0 +1,836 @@
+{
+ "id": "w:thong-2",
+ "th": "ท้อง",
+ "status": "mapped",
+ "rtgs": "thong",
+ "paiboon": "tɔ́ɔng",
+ "ipa": "/tʰɔːŋ˦˥/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้นปี่จนถึงบริเวณต้นขา มีสะดืออยู่ตรงกลาง มีกระเพาะและไส้พุงอยู่ภายใน",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ช่องท้อง",
+     "rtgs": "chong-thong",
+     "ipa": "/t͡ɕʰɔŋ˥˩.tʰɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "abdomen"
+      ],
+      "th": "ส่วนของร่างกายที่อยู่ถัดจากส่วนอก (thorax) ลงมาถึงบริเวณต้นขา ภายในมีอวัยวะเกี่ยวกับการย่อยอาหาร เช่น กระเพาะอาหาร ตับ ลำไส้เล็ก ลำไส้ใหญ่ เป็นต้น",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "ช่อง",
+      "ท้อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.28, next 0.08",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "ช่อง"
+     ],
+     "lit": "hole + carry",
+     "lit_th": "ที่ว่างซึ่งเป็นทางเข้าออกได้ + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น",
+     "frame": "entity"
+    },
+    {
+     "th": "หน้าท้อง",
+     "rtgs": "na-thong",
+     "ipa": "/naː˥˩.tʰɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนหน้าของท้อง ตั้งแต่ลิ้นปี่จนถึงบริเวณต้นขา",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หน้า",
+      "ท้อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.41, next 0.13",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 1,
+     "cross_listed": [
+      "หน้า"
+     ],
+     "lit": "before + carry",
+     "lit_th": "ส่วนของศีรษะตั้งแต่หน้าผากลงมาจดคา + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น",
+     "frame": "entity"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "ครรภ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "The belly stands for what is carried in it: pregnancy.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "พื้นที่หรือบริเวณที่กว้างใหญ่",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ท้องที่",
+     "rtgs": "thong-thi",
+     "ipa": "/tʰɔːŋ˦˥.tʰiː˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "พื้นที่หรือถิ่นที่แห่งใดแห่งหนึ่ง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท้อง",
+      "ที่"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.23, next 0.05",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit": "carry + at",
+     "lit_th": "พื้นที่หรือบริเวณที่กว้างใหญ่ + แหล่ง",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "A broad expanse — ท้องฟ้า, ท้องทุ่ง, ท้องน้ำ.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ส่วนที่มีลักษณะโค้ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "ท้องน่อง",
+     "rtgs": "thong-nong",
+     "ipa": "/tʰɔːŋ˦˥.nɔŋ˥˩/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ส่วนของขาเบื้องหลัง ด้านตรงกันข้ามกับหน้าแข้ง มีลักษณะโค้งนูน",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ท้อง",
+      "น่อง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 4: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+N",
+     "head": 0,
+     "lit_th": "ส่วนที่มีลักษณะโค้ง + กล้ามเนื้อที่อยู่ด้านหลังหน้าแข้ง",
+     "frame": "entity"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "And any curved, bellying part.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "มีลูกอยู่ในท้อง, ตั้งครรภ์",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "noun, verb",
+   "pos_th": "คำนาม, คำกริยา",
+   "domains": [
+    "d:body"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "มีท้อง",
+     "rtgs": "mi-thong",
+     "ipa": "/miː˧.tʰɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "มีลูกอยู่ในท้อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "มี",
+      "ท้อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.41, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "ADJ+N",
+     "head": 1,
+     "cross_listed": [
+      "มี"
+     ],
+     "lit": "have + carry",
+     "lit_th": "รวย + มีลูกอยู่ในท้อง"
+    },
+    {
+     "th": "โกยท้อง",
+     "rtgs": "koi-thong",
+     "ipa": "/koːj˧.tʰɔːŋ˦˥/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ฝืนท้อง",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โกย",
+      "ท้อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.11, next 0.00",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "อาการที่ใช้มือหรือสิ่งอื่นคุ้ยหรือ + มีลูกอยู่ในท้อง"
+    },
+    {
+     "th": "อุ้มท้อง",
+     "translit_auto": "umthong",
+     "ipa": "[ʔũm˥˩.tʰɔ̃ːŋ˦˥]",
+     "gloss": {
+      "en": [
+       "carry"
+      ],
+      "th": "มีลูกอยู่ในท้อง",
+      "conf": "verified",
+      "src": [
+       "RID",
+       "WIKT"
+      ]
+     },
+     "parts": [
+      "อุ้ม",
+      "ท้อง"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 5: gloss similarity 0.55, next 0.19",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 1,
+     "lit_th": "โอบยกขึ้น + มีลูกอยู่ในท้อง"
+    }
+   ],
+   "extends": 2,
+   "via": "metonymy",
+   "via_note": "And the state itself: to be pregnant.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 0 manuscript titles, 16 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['ลิ้น', 'ร่างกาย', 'ท้อง', 'ขา'].",
+ "compounds_unassigned": [
+  {
+   "th": "การโกยท้อง",
+   "rtgs": "kan-koi-thong",
+   "ipa": "/kaːn˧.koːj˧.tʰɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ โกยท้อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การโกย",
+    "ท้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ โกย + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น",
+   "frame": "entity"
+  },
+  {
+   "th": "ท้องน้อย",
+   "rtgs": "thong-noi",
+   "ipa": "/tʰɔːŋ˦˥.nɔːj˦˥/",
+   "gloss": {
+    "en": [
+     "abdomen"
+    ],
+    "th": "ส่วนของท้องระหว่างสะดือกับหัวหน่าว",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ท้อง",
+    "น้อย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+ADJ",
+   "head": 0,
+   "cross_listed": [
+    "น้อย"
+   ],
+   "lit": "carry + little",
+   "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + ไม่มาก"
+  },
+  {
+   "th": "การท้อง",
+   "rtgs": "kan-thong",
+   "ipa": "/kaːn˧.tʰɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ท้อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ท้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "งาน + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น",
+   "frame": "entity"
+  },
+  {
+   "th": "ตั้งท้อง",
+   "rtgs": "tang-thong",
+   "ipa": "/taŋ˥˩.tʰɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "expect"
+    ],
+    "th": "เริ่มมีท้อง",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ตั้ง",
+    "ท้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "ตั้ง"
+   ],
+   "lit": "introduce + carry",
+   "lit_th": "ชูตัว + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น"
+  },
+  {
+   "th": "อยู่ท้อง",
+   "rtgs": "yu-thong",
+   "ipa": "/juː˨˩.tʰɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อิ่มได้นาน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "อยู่",
+    "ท้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "dwell + carry",
+   "lit_th": "พัก + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น"
+  },
+  {
+   "th": "ข่มท้อง",
+   "translit_auto": "khmthong",
+   "ipa": "[kʰõm˩.tʰɔ̃ːŋ˦˥]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ใช้มือกดท้องช่วยในการคลอดลูก",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ข่ม",
+    "ท้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "lit": "bluff + carry",
+   "lit_th": "กดไว้ + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น"
+  },
+  {
+   "th": "ท้องตลาด",
+   "rtgs": "thong-ta-lat",
+   "ipa": "/tʰɔːŋ˦˥.ta˨˩.laːt̚˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตลาดทั่ว ๆ ไปซึ่งลูกค้าสามารถหาซื้อสินค้าชนิดเดียวกันหรือใกล้เคียงได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ท้อง",
+    "ตลาด"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "cross_listed": [
+    "ตลาด"
+   ],
+   "lit": "carry + market",
+   "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + ที่ชุมนุมเพื่อซื้อขายของต่าง ๆ",
+   "frame": "entity"
+  },
+  {
+   "th": "ท้องเสีย",
+   "rtgs": "thong-sia",
+   "ipa": "/tʰɔːŋ˦˥.sia̯˩˩˦/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่ถ่ายอุจจาระบ่อยกว่าปรกติหรือถ่ายกะปริบกะปรอย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ท้อง",
+    "เสีย"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "cross_listed": [
+    "เสีย"
+   ],
+   "lit": "carry + bad",
+   "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + เสื่อมลงไป"
+  },
+  {
+   "th": "ท้องเดิน",
+   "rtgs": "thong-doen",
+   "ipa": "/tʰɔːŋ˦˥.dɤːn˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่ถ่ายอุจจาระเหลวมากบ่อย ๆ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ท้อง",
+    "เดิน"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "carry + walk",
+   "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + ยกเท้าก้าวไป"
+  },
+  {
+   "th": "การตั้งท้อง",
+   "rtgs": "kan-tang-thong",
+   "ipa": "/kaːn˧.taŋ˥˩.tʰɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ตั้งท้อง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การตั้ง",
+    "ท้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+N",
+   "head": 1,
+   "lit_th": "คำอาการนามของ ตั้ง + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น",
+   "frame": "entity"
+  },
+  {
+   "th": "ท้องร่วง",
+   "rtgs": "thong-ruang",
+   "ipa": "/tʰɔːŋ˦˥.rua̯ŋ˥˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "อาการที่ท้องเดินอย่างแรง",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ท้อง",
+    "ร่วง"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 0,
+   "lit": "carry + fall",
+   "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + หล่น"
+  },
+  {
+   "th": "ท้องถิ่น",
+   "rtgs": "thong-thin",
+   "ipa": "/tʰɔːŋ˦˥.tʰin˨˩/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ท้องที่ใดท้องที่หนึ่งโดยเฉพาะ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ท้อง",
+    "ถิ่น"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+N",
+   "head": 0,
+   "lit": "carry + area",
+   "lit_th": "ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น + ที่",
+   "frame": "entity"
+  },
+  {
+   "th": "รองท้อง",
+   "rtgs": "rong-thong",
+   "ipa": "/rɔːŋ˧.tʰɔːŋ˦˥/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "กินพอกันหิวไปก่อน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "รอง",
+    "ท้อง"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 1,
+   "cross_listed": [
+    "รอง"
+   ],
+   "lit": "deputy + carry",
+   "lit_th": "รับรวมของเหลวหรือสิ่งอื่นที่ไหลตกล + ส่วนของร่างกายด้านหน้า ตั้งแต่ลิ้น"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทดั้งเดิม *dwuːŋꟲ; ร่วมเชื้อสายกับอีสาน ท้อง, ลาว ທ້ອງ (ท้อง), คำเมือง ᨴᩬ᩶ᨦ (ทอ้ง), เขิน ᨴᩬ᩶ᨦ (ทอ้ง), ไทลื้อ ᦑᦸᧂᧉ (ท้อ̂ง), ไทดำ ꪕ꫁ꪮꪉ (ตฺ้อง), ไทใหญ่ တွင်ႉ (ต๎อ̂ง), จ้วง dungx, จ้วงแบบจั่วเจียง tongx",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᨴᩬ᩶ᨦ",
+  "th": "ทอ้ง",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "edges": [
+  {
+   "rel": "CONFUSABLE_WITH",
+   "to": "w:thong",
+   "label": "ทอง",
+   "why": "spelling",
+   "distinction": "Both romanise as \"thong\". ท้อง is tɔ́ɔng, ทอง is tɔɔng — RTGS drops the tone that separates them.",
+   "conf": "verified",
+   "src": [
+    "WIKT"
+   ]
+  }
+ ],
+ "bridge_en": [
+  "carry",
+  "expect",
+  "stomach"
+ ]
+}

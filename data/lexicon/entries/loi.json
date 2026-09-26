@@ -1,0 +1,863 @@
+{
+ "id": "w:loi",
+ "th": "ลอย",
+ "status": "mapped",
+ "rtgs": "loi",
+ "paiboon": "lɔɔi",
+ "ipa": "/lɔːj˧/",
+ "stratum": "unknown",
+ "freq": "core",
+ "senses": [
+  {
+   "n": 1,
+   "gloss": {
+    "en": [
+     "[RID sense 1 — no English yet]"
+    ],
+    "th": "ทรงตัวอยู่ในอากาศ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "needs_check": [
+    "Sense order is the RID's, not an argument about semantic development. Rank it, then set order_conf."
+   ],
+   "compounds": [
+    {
+     "th": "ล่องลอย",
+     "rtgs": "long-loi",
+     "ipa": "/lɔːŋ˥˩.lɔːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "กำลังทรงตัวอยู่ในอากาศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ล่อง",
+      "ลอย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 1: gloss similarity 0.53, next 0.09",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+V",
+     "head": 1,
+     "lit_th": "ลงมาตามน้ำ + ทรงตัวอยู่ในอากาศ"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "gloss": {
+    "en": [
+     "[RID sense 2 — no English yet]"
+    ],
+    "th": "เด่นขึ้น, นูนขึ้น",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Standing out from a surface as a thing stands in air.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 3,
+   "gloss": {
+    "en": [
+     "[RID sense 3 — no English yet]"
+    ],
+    "th": "ไม่อยู่เป็นหลักแหล่ง, ไม่มีตำแหน่งหรือหน้าที่การงานเป็นหลักแหล่ง",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "หลักลอย",
+     "rtgs": "lak-loi",
+     "ipa": "/lak̚˨˩.lɔːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ไม่มีหลักแหล่ง, ไม่อยู่เป็นที่, เชื่อถือไม่ได้",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "หลัก",
+      "ลอย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 3: gloss similarity 0.36, next 0.06",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "cross_listed": [
+      "หลัก"
+     ],
+     "lit": "key + float",
+     "lit_th": "เสาที่ปักไว้ + ไม่อยู่เป็นหลักแหล่ง"
+    }
+   ],
+   "extends": 1,
+   "via": "metaphor",
+   "via_note": "Unmoored: without a fixed place or post.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 4,
+   "gloss": {
+    "en": [
+     "[RID sense 4 — no English yet]"
+    ],
+    "th": "ไม่จม",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 1,
+   "via": "specialisation",
+   "via_note": "Held up rather than sinking.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 5,
+   "gloss": {
+    "en": [
+     "[RID sense 5 — no English yet]"
+    ],
+    "th": "อยู่บนผิวน้ำ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 4,
+   "via": "specialisation",
+   "via_note": "And so, on the surface of water.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 6,
+   "gloss": {
+    "en": [
+     "[RID sense 6 — no English yet]"
+    ],
+    "th": "ปล่อยให้ไปตามน้ำหรืออากาศ",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "compounds": [
+    {
+     "th": "โคมลอย",
+     "rtgs": "khom-loi",
+     "ipa": "/kʰoːm˧.lɔːj˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเครื่องตามไฟชนิดหนึ่งที่จุดไฟแล้วปล่อยให้ลอยไปในอากาศ",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "โคม",
+      "ลอย"
+     ],
+     "note": "head-final; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.20, next 0.11",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "N+V",
+     "head": 1,
+     "lit_th": "เครื่องครอบตะเกียงเพื่อบังลมหรือบั + ปล่อยให้ไปตามน้ำหรืออากาศ"
+    },
+    {
+     "th": "ลอยกระทง",
+     "rtgs": "loi-kra-thong",
+     "ipa": "/lɔːj˧.kra˨˩.tʰoŋ˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "ชื่อเทศกาลอย่างหนึ่ง เอากระทงที่บรรจุธูปเทียนดอกไม้ แล้วจุดให้ลอยในน้ำ ทำในวันเพ็ญเดือน 12",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลอย",
+      "กระทง"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: wiktionary lists it as an example of this sense",
+     "conf": "verified",
+     "src": [
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit_th": "ปล่อยให้ไปตามน้ำหรืออากาศ + ภาชนะเย็บด้วยใบตองหรือใบไม้เป็นต้น"
+    },
+    {
+     "th": "ลอยแพ",
+     "rtgs": "loi-phae",
+     "ipa": "/lɔːj˧.pʰɛː˧/",
+     "gloss": {
+      "en": [
+       "[needs a gloss]"
+      ],
+      "th": "จับใส่แพแล้วปล่อยให้ลอยล่องไปในน้ำตามยถากรรม",
+      "conf": "unverified",
+      "src": [
+       "RID"
+      ]
+     },
+     "parts": [
+      "ลอย",
+      "แพ"
+     ],
+     "note": "head-initial; both parts are dictionary headwords · filed under sense 6: gloss similarity 0.18, next 0.03",
+     "conf": "probable",
+     "src": [
+      "CUR",
+      "RID",
+      "WIKT"
+     ],
+     "pattern": "V+N",
+     "head": 0,
+     "lit": "float + raft",
+     "lit_th": "ปล่อยให้ไปตามน้ำหรืออากาศ + ไม้ไผ่หรือซุงเป็นต้นที่ผูกมัดเรียง"
+    }
+   ],
+   "extends": 1,
+   "via": "metonymy",
+   "via_note": "Setting a thing adrift — ลอยกระทง, ลอยอังคาร.",
+   "via_conf": "probable"
+  },
+  {
+   "n": 7,
+   "gloss": {
+    "en": [
+     "[RID sense 7 — no English yet]"
+    ],
+    "th": "ไม่มีอะไรคุ้มหรือผูกไว้ (ใช้ในการเล่นหมากรุก)",
+    "conf": "unverified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "pos": "verb, adjective",
+   "pos_th": "คำกริยา, คำคุณศัพท์",
+   "domains": [
+    "d:water"
+   ],
+   "order_conf": "unverified",
+   "conf": "probable",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "extends": 3,
+   "via": "metaphor",
+   "via_note": "In chess, a piece left unprotected.",
+   "via_conf": "probable"
+  }
+ ],
+ "conf": "probable",
+ "src": [
+  "RID",
+  "WIKT",
+  "thai-full.json"
+ ],
+ "needs_check": [
+  "Auto-ingested: senses are listed in the RID's order and no EXTENDS chain has been asserted. Order the senses and file each compound under the one that motivates it to reach status 'mapped'.",
+  "Attested in this corpus: 1 manuscript titles, 138 item titles. Turn the useful ones into ATTESTED_IN edges.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'.",
+  "The Wiktionary bridge gave one English gloss for the whole word and the ingest copied it onto every sense. It has been moved to `bridge_en` at the word; the senses now show their RID Thai and await English of their own.",
+  "Compound filing is tiered: entries marked 'verified' were filed by a source, 'probable' by gloss similarity. Neither orders the senses, so this entry is 'proposed', not 'mapped'."
+ ],
+ "editorial": "Generated by lexicon_ingest.py. Generativity 20; domain seeded by keyword hits ['อากาศ', 'น้ำ'].",
+ "compounds_unassigned": [
+  {
+   "th": "การลอย",
+   "rtgs": "kan-loi",
+   "ipa": "/kaːn˧.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ ลอย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การ",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "งาน + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "ใจลอย",
+   "rtgs": "chai-loi",
+   "ipa": "/t͡ɕaj˧.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "absent",
+     "absent-minded",
+     "distraction"
+    ],
+    "th": "เผลอสติ, เคลิบเคลิ้ม",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "ใจ",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "ใจ"
+   ],
+   "lit": "heart + float",
+   "lit_th": "สิ่งที่ทำหน้าที่รู้ รู้สึก นึก และ + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "เลื่อนลอย",
+   "rtgs": "luean-loi",
+   "ipa": "/lɯa̯n˥˩.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ไม่คงที่, ไม่แน่นอน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เลื่อน",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ยานชนิดหนึ่งไม่มีล้อ ใช้ลากไปตามท้ + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "แผงลอย",
+   "rtgs": "phaeng-loi",
+   "ipa": "/pʰɛːŋ˩˩˦.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "pitch"
+    ],
+    "th": "ที่ที่จัดไว้ในถนนสาธารณะหรือที่สาธารณะ รวมตลอดถึงอาคาร แคร่ แท่น โต๊ะ แผง เสื่อ พื้นดิน เรือ หรือ แพ สำหรับขายอาหาร น้ำแข็ง หรือสิ่งของอย่างอื่น",
+    "conf": "verified",
+    "src": [
+     "RID",
+     "WIKT"
+    ]
+   },
+   "parts": [
+    "แผง",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "เครื่องสานชนิดหนึ่ง เป็นแผ่นอย่างเ + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "หลุดลอย",
+   "rtgs": "lut-loi",
+   "ipa": "/lut̚˨˩.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "พ้นจากที่ยึดไว้แล้วล่องลอยไป",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "หลุด",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "lit": "escape + float",
+   "lit_th": "ออกจากที่ที่ติดอยู่ + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "ขาดลอย",
+   "rtgs": "khat-loi",
+   "ipa": "/kʰaːt̚˨˩.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สูญไปโดยไม่มีหวังว่าจะได้คืน",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ขาด",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+V",
+   "head": 1,
+   "cross_listed": [
+    "ขาด"
+   ],
+   "lit": "blow + float",
+   "lit_th": "แยกออกจากกันเพราะถูกดึง ตัด หรือฉี + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "สระลอย",
+   "rtgs": "sa-ra-loi",
+   "ipa": "/sa˨˩.ra˨˩.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "รูปสระที่สามารถเขียนเดี่ยว ๆ ได้โดยไม่ต้องมีพยัญชนะประกอบ มีใช้ในบางภาษา",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สระ",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "สระ"
+   ],
+   "lit": "vowel + float",
+   "lit_th": "แอ่งน้ำขนาดใหญ่ ซึ่งเป็นเองหรือคนข + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "ลอยนวล",
+   "rtgs": "loi-nuan",
+   "ipa": "/lɔːj˧.nua̯n˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ตามสบาย, ไม่มีผู้ขัดขวางจับกุม",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลอย",
+    "นวล"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+ADJ",
+   "head": 0,
+   "lit_th": "ทรงตัวอยู่ในอากาศ + สีขาวปนเหลืองเล็กน้อย",
+   "frame": "quality"
+  },
+  {
+   "th": "แอลลอย",
+   "rtgs": "aen-loi",
+   "ipa": "/ʔɛːn˧.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำพ้องความของ โลหะเจือ",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แอล",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · definition form: synonym-pointer — not a semantic compound of this head · NOT a compound of this head: the etymology says the whole word is borrowed",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "false-split",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "ชื่อตัวอักษรในอักษรละติน L/l + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "สะพานลอย",
+   "rtgs": "sa-phan-loi",
+   "ipa": "/sa˨˩.pʰaːn˧.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "สะพานสูงแคบ ๆ ที่สร้างคร่อมขวางถนน ใช้เป็นทางให้คนเดินข้ามถนน รถสามารถแล่นผ่านใต้สะพานได้",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "สะพาน",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "สิ่งปลูกสร้างที่ทำสำหรับข้ามแม่น้ำ + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "แม่ลอย",
+   "rtgs": "mae-loi",
+   "ipa": "/mɛː˥˩.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอเทิง จังหวัดเชียงราย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "แม่",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "แม่"
+   ],
+   "lit": "mother + float",
+   "lit_th": "หญิงผู้ให้กำเนิดหรือเลี้ยงดูลูก + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "เกาะลอย",
+   "rtgs": "ko-loi",
+   "ipa": "/kɔʔ˨˩.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อตำบลหนึ่งในอำเภอพานทอง จังหวัดชลบุรี",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "เกาะ",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself. · definition form: toponym. This head has no name-use sense to file it under — add one, then this files itself.",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "toponym",
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "เกาะ"
+   ],
+   "lit": "island + float",
+   "lit_th": "ส่วนของแผ่นดินที่มีน้ำล้อมรอบ + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "ลอยแก้ว",
+   "translit_auto": "loykaeo",
+   "ipa": "[loːj˧.kɛːw˥˩]",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ของหวานทำด้วยเนื้อผลไม้รสเปรี้ยวลอยในน้ำเชื่อม เจือเกลือเล็กน้อย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "ลอย",
+    "แก้ว"
+   ],
+   "note": "head-initial; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "V+N",
+   "head": 0,
+   "lit": "float + glass",
+   "lit_th": "ทรงตัวอยู่ในอากาศ + วัตถุแข็ง ใส ทำจากทรายหลอม"
+  },
+  {
+   "th": "การหลุดลอย",
+   "rtgs": "kan-lut-loi",
+   "ipa": "/kaːn˧.lut̚˨˩.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "คำอาการนามของ หลุดลอย",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "การหลุด",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head · definition form: nominalisation — not a semantic compound of this head",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "use": "nominalisation",
+   "pattern": "N+V",
+   "head": 1,
+   "lit_th": "คำอาการนามของ หลุด + ทรงตัวอยู่ในอากาศ"
+  },
+  {
+   "th": "บัวลอย",
+   "rtgs": "bua-loi",
+   "ipa": "/bua̯˧.lɔːj˧/",
+   "gloss": {
+    "en": [
+     "[needs a gloss]"
+    ],
+    "th": "ชื่อขนมชนิดหนึ่ง ทำด้วยแป้งข้าวเหนียว ปั้นเป็นเม็ดกลม ๆ เล็ก ๆ ต้มในน้ำกะทิผสมน้ำตาล",
+    "conf": "unverified",
+    "src": [
+     "RID"
+    ]
+   },
+   "parts": [
+    "บัว",
+    "ลอย"
+   ],
+   "note": "head-final; both parts are dictionary headwords",
+   "conf": "verified",
+   "src": [
+    "RID",
+    "WIKT"
+   ],
+   "pattern": "N+V",
+   "head": 1,
+   "cross_listed": [
+    "บัว"
+   ],
+   "lit": "lotus + float",
+   "lit_th": "ชื่อเรียกไม้น้ำหลายชนิดหลายสกุลในว + ทรงตัวอยู่ในอากาศ"
+  }
+ ],
+ "etymology": {
+  "summary": "สืบทอดจากไทตะวันตกเฉียงใต้ดั้งเดิม *lɔːjᴬ⁴, จากไทดั้งเดิม *loːjᴬ (“ว่ายน้ำ”); ร่วมเชื้อสายกับคำเมือง ᩃᩬ᩠ᨿ (ลอย), เขิน ᩃᩭ (ลอย), อีสาน ลอย, ลาว ລອຍ (ลอย), ไทลื้อ ᦟᦾ (ลอ̂ย), ไทใหญ่ လွႆး (ล๊อ̂ย), พ่าเก လ︀ွႝ (ลอ̂ย์), อาหม 𑜎𑜨𑜐𑜫 (ลอ̂ญ์) และ 𑜃𑜨𑜩 (นอ̂ย์)",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "lanna": {
+  "tham": "ᩃᩬ᩠ᨿ",
+  "th": "ลอย",
+  "note": "Extracted from the Wiktionary etymology line.",
+  "conf": "probable",
+  "src": [
+   "WIKT"
+  ]
+ },
+ "bridge_en": [
+  "float",
+  "afloat"
+ ]
+}

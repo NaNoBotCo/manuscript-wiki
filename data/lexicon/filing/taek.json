@@ -1,0 +1,13 @@
+{
+ "head": "taek",
+ "rule": "แตก is breaking, and eleven senses split it by WHAT breaks and how. Sense 1, coming apart from the whole, is the default and takes the social ruptures (แตกแยก, แตกคอ, แพแตก, วงแตก, แตกหัก, แตกต่าง) along with หน้าแตก, โป๊ะแตก and ดีแตก. Sense 7, having a crack, takes what is physically split — อกแตก of a town cut by water, แตกร้าว, ถังแตก. Sense 3, not being held in, takes what bursts past control: แตกตื่น, ขำแตก, ห่วยแตก, beside เบรกแตก and ใจแตก already there. Three empty senses fill with one word each and each is exact: sense 6, flowing out of itself, takes ก๊อกแตก, to weep like a tap; sense 10, reading fluently, takes แตกฉาน, to have mastered a subject; sense 2, causing the break, takes แตกเงิน, breaking a large note.",
+ "senses": {
+  "1": ["ดีแตก","วงแตก","หน้าแตก","แตกคอ","แตกต่าง","แตกหัก","แตกแยก","แพแตก","โป๊ะแตก"],
+  "2": ["แตกเงิน"],
+  "3": ["ขำแตก","ห่วยแตก","แตกตื่น"],
+  "6": ["ก๊อกแตก"],
+  "7": ["ถังแตก","อกแตก","แตกร้าว"],
+  "8": ["น้ำแตก"],
+  "10": ["แตกฉาน"]
+ }
+}
