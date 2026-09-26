@@ -69,3 +69,20 @@ missing, the run reports exactly what to install and changes nothing.
 
 The catalog and image store are produced by the crawler in `../crawler/`; this
 wiki only reads them.
+
+
+## Licence
+
+Records, prose, pages and the compilation: **CC BY 4.0**, attributed to wichaa.
+Code: **MIT**. Attribution is the only condition — name the work and link back,
+and the rest is yours: copy it, adapt it, sell it, index it, train on it.
+
+Manuscript images and their thumbnails are not covered by that: rights remain
+with each holding library, and the record's source link names it. Wikipedia text
+carried into the articles stays CC BY-SA 4.0, Wikidata is CC0, OpenStreetMap
+data is ODbL. Each layer, with its attribution, is in [NOTICE.txt](NOTICE.txt);
+the verbatim licence text is in [LICENSE](LICENSE).
+
+---
+
+Contact: Nan · nan@motdang.net · Sponsor: [Ko-fi](https://ko-fi.com/defiantchiangmai) · [Patreon](https://www.patreon.com/nanobotco)
