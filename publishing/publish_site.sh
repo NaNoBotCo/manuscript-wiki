@@ -287,6 +287,15 @@ log "Building the leg-tattoo page → handpoke.py"
 log "Building the kesa-yant page → kesa.py"
 "$PY" "$WIKI_DIR/kesa.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
 
+# 2a-1d. /expedite — St. Expedite, the saint of today. Reads the shrine records
+#     (items.method='devotion') from catalog.db and its own committed data in
+#     manuscript-wiki/data/expedite/ (images, land outline, ngram series); writes
+#     docs/expedite/. With no shrine records or incomplete data it writes nothing
+#     and exits 1; routes.py declares the page, so verify_build (gate 2c) then
+#     refuses the publish.
+log "Building the St. Expedite page → expedite.py"
+"$PY" "$WIKI_DIR/expedite.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
+
 # 2a-2. the visual na-compendium: every na (sacred glyph) from manuscript #6964,
 #     sliced out and paired one-by-one with the page it was drawn on. Regenerates
 #     its own source data (na_compendium.py) and bundles the page images it needs.

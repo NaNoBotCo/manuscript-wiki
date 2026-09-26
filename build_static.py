@@ -751,9 +751,7 @@ def main():
         # of publish_site.sh); a truly live feed on a static host is a separate,
         # bigger feature (tracked in PRIORITIES.md), not something to fake here.
         "activity/index.html":   (wiki.ACTIVITY_PAGE, "Activity", "section"),
-        # /expedite is served by the live wiki and linked from the landing page, but
-        # was missing from this export — so the published door 404'd. Exported now.
-        "expedite/index.html":   (wiki.EXPEDITE_PAGE, "St. Expedite", "section"),
+        # /expedite is written by expedite.py (publish_site.sh step 2a-1d), not here.
         # /wats — temple catalogue of the Lanna north (OSM+Wikidata via sync_wats.py).
         "wats/index.html":       (wiki.WATS_PAGE, "Wats of the Lanna north", "section"),
     }

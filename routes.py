@@ -433,10 +433,16 @@ ROUTES: tuple[Route, ...] = (
           door="Market", blurb="the same tradition, still trading today", featured=True,
           desc="The living amulet market — the same tradition, still trading today.", door_i=11, nav_i=4),
 
+    # HODIE over CRAS: the image, the shrines as lights on a globe, his name in
+    # five languages' books, the cult from Melitene to Buenos Aires. Self-contained
+    # like kesa.py — reads catalog.db and data/expedite/, writes its own HTML.
     Route("/expedite", "expedite/index.html", "St. Expedite", nav="St. Expedite",
-          door="St. Expedite",
-          blurb="a global saint-cult of urgent causes — 192 shrines", featured=True,
-          desc="St. Expedite — a global saint-cult of urgent causes, 192 shrines mapped.", door_i=12, nav_i=6),
+          door="นักบุญเอ็กซ์เปดิต · St. Expedite",
+          blurb="the saint of today — HODIE over CRAS, 192 lights on a turning globe", featured=True,
+          desc=("St. Expedite, patron of urgent causes — a cross lettered HODIE over a crow "
+                "crying CRAS, 192 shrines and churches as lights on a globe, and the cult "
+                "from Melitene to Buenos Aires."),
+          door_i=12, nav_i=6, built_by="expedite.py"),
 
     Route("/wats", "wats/index.html", "Wats of the Lanna north", nav="Wats",
           door="Wats of the Lanna north",
