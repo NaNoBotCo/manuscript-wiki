@@ -8386,7 +8386,7 @@ WATS_PAGE = page("Wats of Chiang Mai — wichaa", """
   #kofloat:hover{filter:brightness(.97)}
   @media (max-width:560px){#kofloat{bottom:70px}}
 """,
-  "<header><div><h1>Wats of Chiang Mai</h1><p class=sub>The tradition standing up in the landscape &mdash; temples of the Lanna north, heritage-registered sites marked</p></div>" + NAV + "</header>"
+  "<header><div><h1>Wats of Chiang Mai</h1><p class=sub>The tradition standing up in the landscape &mdash; temples of the Lanna north, heritage-registered sites marked</p><p class=sub>City directory: <a href='https://motdang.net/cm/index.html'>เชียงใหม่ · Chiang Mai</a> · <a href='https://motdang.net/cr/index.html'>เชียงราย · Chiang Rai</a></p></div>" + NAV + "</header>"
   "<main id=main><p class=muted>Loading&hellip;</p></main>"
   "<div class=mback id=mback hidden></div>"
   "<a id=kofloat href='https://ko-fi.com/defiantchiangmai' target=_blank rel=noopener>&#9749; Support</a>"
