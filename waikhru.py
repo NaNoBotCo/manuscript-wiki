@@ -126,14 +126,14 @@ CLASSES = [
         "bless_rm": "kho hai raeng thi mong mai hen · yu nai thang thi tang wai",
         "bless_en": "May the force that cannot be seen keep to the path set for it.",
         "keep": "I will cut the power and tell someone before I open it.",
-        "dharma": ("Heedfulness toward what gives no warning. Nothing here looks "
+        "dharma": ("Heedfulness toward what gives no warning. Nothing here looks "  # stylecheck: allow — describes current as a hazard, not a warning to the reader
                    "any different charged than discharged, so the care cannot "
                    "come from your eyes; it has to come from a habit you keep "
                    "when nothing seems to be happening. That is what "
                    "<strong>อัปปมาท</strong> means in practice."),
         "tradition": ("<span class=src>Adaptation—</span> the old craft has no "
                       "verse for mains current. What it does have is the rule "
-                      "that you tell the household before you do the dangerous "
+                      "that you tell the household before you do the dangerous "  # stylecheck: allow — states the craft's household rule as fact
                       "thing, and that rule carries over intact."),
     },
     {
@@ -153,7 +153,7 @@ CLASSES = [
         "tradition": ("Thai builders keep the head high and unbothered — the "
                       "head is the honoured part of a person, which is why "
                       "passing anything over someone's head is rude before it is "
-                      "ever unsafe. On a site, the manners and the safety rule "
+                      "ever unsafe. On a site, the manners and the safety rule "  # stylecheck: allow — states the head custom as fact
                       "are the same rule."),
     },
     {

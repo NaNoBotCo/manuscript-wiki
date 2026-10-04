@@ -158,7 +158,7 @@ TIMELINE = [
      "Fanny Fleurié, stranded in Marseille by the 1918 influenza, vows him a statue if she gets home. A bishop blesses it in Saint-Denis on 3 May 1931.",
      "ฟานี เฟลอรีเย ติดอยู่ที่มาร์เซย์ช่วงไข้หวัดใหญ่ ๑๙๑๘ บนไว้ว่าถ้าได้กลับบ้านจะถวายรูปปั้น บิชอปเสกรูปปั้นนั้นที่แซ็งเดอนี ๓ พฤษภาคม ๑๙๓๑"),
     ("1935–39", "New Orleans", "scholarship",
-     "Harry Middleton Hyatt records a devotee who owes the saint flowers, and warns what happens to a house that withholds them. The pound cake comes later.",
+     "Harry Middleton Hyatt records a devotee who owes the saint flowers, and warns what happens to a house that withholds them. The pound cake comes later.",  # stylecheck: allow — reports what Hyatt's 1930s informant said
      "แฮร์รี่ มิดเดิลตัน ไฮแอตต์ บันทึกคำของผู้ศรัทธาที่ต้องถวายดอกไม้แก่ท่าน และเล่าว่าบ้านที่ไม่ถวายจะเกิดอะไรขึ้น เค้กปอนด์มาทีหลัง"),
     ("1940s", "Santo Expedito · São Paulo state", "documented",
      "A family chapel grows into a town that carries his name.",

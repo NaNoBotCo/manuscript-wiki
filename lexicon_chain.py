@@ -900,7 +900,7 @@ CHAINS: dict[str, dict[int, tuple]] = {
  },
  "แข็ง": {
    2: (1, "specialisation", "Rigid, and so not soft to the touch."),
-   3: (1, "metaphor", "Hard in the face of danger: brave."),
+   3: (1, "metaphor", "Hard in the face of danger: brave."),  # stylecheck: allow — dictionary sense gloss
    4: (1, "metaphor", "Hard toward others: unyielding, without pity."),
    5: (1, "metaphor", "Hard in effect: strong, forceful."),
    6: (4, "specialisation", "Hard to teach: stubborn under instruction."),
@@ -1744,7 +1744,7 @@ CHAINS: dict[str, dict[int, tuple]] = {
  "ร้าย": {
    2: (1, "generalisation", "Fierce widened to evil."),
    3: (2, "generalisation", "And loosened to merely bad."),
-   4: (1, "specialisation", "Fierce in effect: dangerous."),
+   4: (1, "specialisation", "Fierce in effect: dangerous."),  # stylecheck: allow — dictionary sense gloss
    5: (2, "metonymy", "And the noun of it: badness, harm."),
  },
  "ลาด": {

@@ -222,7 +222,7 @@ def khwan_body(nav: str) -> str:
         "stay found.</i></p>"
 
         "<div class=ask>"
-        "<h3>Ask for your own</h3>"
+        "<h3>Ask for your own</h3>"  # stylecheck: allow — heading label
         "<p>Reading the verses above is receiving them. But if you would like "
         "the calling <em>performed</em> for you — your name in every verse, "
         "spoken and kept — ask here and it is done. The complete transcript "
@@ -243,7 +243,7 @@ def khwan_body(nav: str) -> str:
         "<input id=askconsent type=checkbox>"
         "<label for=askconsent>I am asking for my own khwan to be called.</label>"
         "</div>"
-        "<button id=askbtn type=button>Ask for the calling</button>"
+        "<button id=askbtn type=button>Ask for the calling</button>"  # stylecheck: allow — button label
         "<div class=out id=askout></div>"
         "<p style='font-size:14px;margin-top:14px'>You will be sent one mail to "
         "confirm the address — nothing is spoken before you do, because the "

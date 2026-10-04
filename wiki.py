@@ -3416,7 +3416,7 @@ VOCAB_META = [
     ("เสน่ห์", "saneh", "attraction / allure", "effect / merit", None, []),
     ("มหานิยม", "mahaniyom", "great popularity", "effect / merit", None, []),
     ("คงกระพัน", "khong-kraphan", "invulnerability", "effect / merit", None, []),
-    ("แคล้วคลาด", "khlaeo-khlat", "evasion of danger", "effect / merit", None, []),
+    ("แคล้วคลาด", "khlaeo-khlat", "evasion of danger", "effect / merit", None, []),  # stylecheck: allow — term gloss for แคล้วคลาด
     ("มหาอุด", "maha-ut", "gun-stopping / sealing", "effect / merit", None, []),
     ("โชคลาภ", "chok-lap", "fortune / luck", "effect / merit", None, []),
     ("ค้าขาย", "kha-khai", "trade / commerce success", "effect / merit", None, []),

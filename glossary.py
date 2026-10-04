@@ -31,7 +31,7 @@ _db = HERE.parent / "manuscript-crawler" / "crawler" / "catalog.db"
 GLOSS = {
  "ยันต์": {"roman":"yan · yantra","domain":"yantra","en":"A sacred diagram of letters, syllables and lines — drawn, inscribed or tattooed to protect, empower, or attract. The north's core visual magic.","zh":"符 · 護身法陣 — 由聖字、音節與線條構成的幾何圖，用以護身、加持或招引。"},
  "ผ้ายันต์": {"roman":"pha yant","domain":"yantra","en":"A yantra inked onto cloth — a protective banner or wearing-cloth carrying the diagram.","zh":"符布 — 繪有法陣的護身布或旗。"},
- "คาถา": {"roman":"katha","domain":"katha","en":"A Pali incantation — verses of power, recited to activate a charm, ward danger, or draw fortune.","zh":"咒語 — 巴利語的靈驗偈頌，誦唸以啟動法物、驅邪或招福。"},
+ "คาถา": {"roman":"katha","domain":"katha","en":"A Pali incantation — verses of power, recited to activate a charm, ward danger, or draw fortune.","zh":"咒語 — 巴利語的靈驗偈頌，誦唸以啟動法物、驅邪或招福。"},  # stylecheck: allow — glossary definition of katha
  "นะ": {"roman":"na","domain":"katha","en":"The sacred syllable นะ — a seed-letter at the heart of countless katha and yantra; the tradition counts 108 of its forms.","zh":"「那」聖音字 — 眾多咒與符的種子字，傳有一百零八變化。"},
  "ตะกรุด": {"roman":"takrut","domain":"amulet","en":"A spell inscribed on a thin metal scroll, rolled tight and empowered — worn for protection, invulnerability, or love.","zh":"符管 — 刻於薄金屬並捲緊加持的經文護符，用於護身、刀槍不入或招情。"},
  "เครื่องราง": {"roman":"khrueang rang","domain":"amulet","en":"Talisman or charm, in the broad sense — any empowered object worn or carried for its power.","zh":"護身符（廣義）— 一切經加持、隨身佩帶以求靈力的物件。"},

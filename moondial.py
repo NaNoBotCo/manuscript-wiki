@@ -1175,9 +1175,8 @@ def moon_body(nav: str) -> str:
         "&#8220;geometric approximations.&#8221; I was grading my errors against a "
         "condescension I had invented. They are not approximations. They are very nearly "
         "exact, and the reason they look simple is that somebody did this work already.</p>"
-        "<blockquote><p class=rule>Do not assume the old design is a compromise. Measure it "
-        "first. Very often the thing that looks like a stylistic choice is the "
-        "solution.</p></blockquote>"
+        "<blockquote><p class=rule>The old design was not a compromise. Measured, the "
+        "thing that looked like a stylistic choice was the solution.</p></blockquote>"
 
         "<h2>8. What actually drives it</h2>"
         "<p>The dial needed a gear that a clock could keep for decades without drifting. The "
