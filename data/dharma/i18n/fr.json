@@ -1,0 +1,336 @@
+{
+ "lang_name": "Français",
+ "meta_title": "Dharma · ธรรม · wichaa",
+ "meta_desc": "Le dharma pour chaque langue et chaque foi : le mot en dix-huit langues, ce qu'il signifie pour les hindous, les bouddhistes, les jaïns et les sikhs, et le wat comme un lieu animé et coloré. Des cloches, une roue, des bâtonnets de fortune et une pagode de sable à construire.",
+ "skip": "Aller au contenu",
+ "nav_home": "wichaa",
+ "nav_lang": "Langue",
+ "hero_kicker": "un mot · plusieurs portes",
+ "hero_title": "Dharma",
+ "hero_tap": "Touchez le mot pour le voir dans une autre écriture.",
+ "hero_lede": "Un mot qui désigne ce qui soutient toute chose. Hindous, bouddhistes, jaïns et sikhs l'emploient chacun à leur manière. En Thaïlande, il vit au wat : un temple plein de couleurs, de nourriture, de chiens, d'enfants, de fêtes et de conversations.",
+ "hero_go": "Entrer",
+ "credit": "Photo",
+ "word_kicker": "Le mot",
+ "word_title": "Dix-huit cloches",
+ "word_body": "Dharma vient de la racine sanskrite dhṛ, tenir ou soutenir. Le dharma est ce qui tient : l'ordre qui maintient le monde stable, la juste manière d'y vivre, et l'enseignement qui l'explique. En voyageant à travers l'Asie, le mot a été transporté dans certaines langues et traduit dans d'autres.",
+ "word_hint": "Faites sonner une cloche. Chacune dit dharma dans une autre langue.",
+ "word_all": "Toutes les faire sonner",
+ "word_cognate": "transporté depuis le sanskrit ou le pali",
+ "word_translated": "un autre mot choisi pour le traduire",
+ "bells": {
+  "sa": "Sanskrit, la langue des Védas. La forme la plus ancienne du mot.",
+  "pi": "Pali, la langue des écritures theravada lues en Thaïlande, au Laos, en Birmanie, au Cambodge et au Sri Lanka.",
+  "hi": "Hindi. Dans la langue de tous les jours, il signifie aussi religion.",
+  "pa": "Pendjabi, en écriture gurmukhi. Les sikhs parlent du dharam comme d'une vie juste.",
+  "th": "Thaï. Prononcé tham. Il se cache dans des mots thaïs ordinaires : thammada (normal) et thammachat (nature).",
+  "tt": "Écriture tham du Lanna, les lettres du dharma du nord de la Thaïlande. Des milliers de manuscrits sur feuilles de palmier sont écrits dans cette écriture.",
+  "lo": "Lao. Prononcé tham, comme en thaï.",
+  "km": "Khmer, la langue du Cambodge. Prononcé thoa.",
+  "my": "Birman, écrit dhamma. Le birman dit aussi taya, et un tribunal est un taya-yon, une salle du dharma.",
+  "si": "Cinghalais, la langue du Sri Lanka.",
+  "bo": "Tibétain. Chö est un mot natif choisi pour traduire dharma.",
+  "mn": "Mongol. Nom est venu par les marchands sogdiens depuis le grec nomos, la loi.",
+  "zh": "Chinois. 法 signifie aussi loi et méthode ; un tribunal est 法院, une salle de fa.",
+  "ja": "Japonais. Une cérémonie bouddhiste de commémoration est un hōji, un événement du dharma.",
+  "ko": "Coréen. Beop signifie aussi loi ; un tribunal est beobwon.",
+  "vi": "Vietnamien, du chinois 法.",
+  "ta": "Tamoul. Aram, la vertu, est le mot natif que le tamoul emploie pour dharma. Le Tirukkural s'ouvre sur un livre appelé Aram.",
+  "id": "Indonésien et malais. Le mot est resté et a changé : derma est un don à une œuvre, et dermawan signifie généreux."
+ },
+ "rooms_kicker": "Quatre traditions",
+ "rooms_title": "Un mot, quatre maisons",
+ "rooms_body": "Le même mot accomplit un travail différent dans chaque tradition. Touchez une carte pour la retourner.",
+ "rooms_turn": "Retourner",
+ "rooms": [
+  {
+   "id": "hindu",
+   "name": "Hindou",
+   "word": "dharma",
+   "front": "L'ordre qui maintient le monde uni, et la part de chacun à le préserver.",
+   "back": "Le dharma est l'un des quatre buts d'une vie, avec la richesse (artha), le plaisir (kāma) et la liberté (mokṣa). Chaque personne a un svadharma, un dharma qui lui est propre, fixé par l'âge, la famille et la vocation. Dans la Bhagavad Gita, Krishna dit au guerrier Arjuna qu'il vaut mieux accomplir son propre dharma imparfaitement que celui d'un autre à la perfection. Beaucoup d'hindous appellent leur religion Sanātana Dharma, le dharma éternel."
+  },
+  {
+   "id": "buddhist",
+   "name": "Bouddhiste",
+   "word": "dhamma",
+   "front": "L'enseignement du Bouddha, et la manière dont les choses sont, qu'il désigne.",
+   "back": "Les bouddhistes prennent refuge dans trois joyaux : le Bouddha (l'enseignant), le Dhamma (l'enseignement) et le Sangha (la communauté des moines, des moniales et des pratiquants). L'enseignement commence par quatre vérités : la vie contient la souffrance ; la souffrance a une cause, la soif ; elle peut cesser ; et un chemin en huit parties y mène. Au pluriel, les dhammas sont les plus petites parts de l'expérience : un son, une sensation, une pensée."
+  },
+  {
+   "id": "jain",
+   "name": "Jaïn",
+   "word": "dharma",
+   "front": "Le chemin de la non-violence, et aussi une substance qui permet le mouvement.",
+   "back": "Pour les jaïns, le dharma est la religion elle-même, bâtie sur l'ahiṃsā, ne faire aucun mal à aucun être vivant. La philosophie jaïne nomme aussi le dharma comme l'une des six substances de l'univers : le milieu du mouvement. L'eau ne fait pas nager un poisson, mais un poisson ne peut pas nager sans elle. Son partenaire, l'adharma, est le milieu du repos, comme l'ombre qui permet à un voyageur fatigué de s'arrêter.",
+   "toy_on": "dharma : le poisson peut bouger",
+   "toy_off": "adharma : le poisson se repose"
+  },
+  {
+   "id": "sikh",
+   "name": "Sikh",
+   "word": "dharam",
+   "front": "Vivre avec droiture : gagner sa vie par son propre travail, partager, et se souvenir de Dieu.",
+   "back": "Le Japji, la prière du matin qui ouvre le Guru Granth Sahib, dit que le taureau qui porte la terre est le dharam, fils de la compassion. Il appelle la terre elle-même un dharamsāl, un lieu pour pratiquer le dharam. Les premiers lieux de culte sikhs s'appelaient aussi des dharamsāls. Chaque gurdwara tient un langar, une cuisine gratuite où chacun, de toute foi, s'assied par terre et mange ensemble."
+  },
+  {
+   "id": "thai",
+   "name": "Thaï de tous les jours",
+   "word": "ธรรม tham",
+   "front": "Le dharma se cache dans des mots thaïs ordinaires. Retournez la carte pour le trouver.",
+   "back": "Cherchez ธรรม dans chaque mot."
+  }
+ ],
+ "thai_words": [
+  {
+   "th": "ธรรมดา",
+   "rom": "thammada",
+   "en": "normal, ordinaire"
+  },
+  {
+   "th": "ธรรมชาติ",
+   "rom": "thammachat",
+   "en": "nature"
+  },
+  {
+   "th": "ยุติธรรม",
+   "rom": "yutitham",
+   "en": "juste, justice"
+  },
+  {
+   "th": "ธรรมเนียม",
+   "rom": "thamniam",
+   "en": "coutume, tradition"
+  },
+  {
+   "th": "คุณธรรม",
+   "rom": "khunnatham",
+   "en": "vertu"
+  },
+  {
+   "th": "อักษรธรรม",
+   "rom": "aksòn tham",
+   "en": "écriture tham, les lettres du dharma"
+  },
+  {
+   "th": "ธรรมาสน์",
+   "rom": "thammat",
+   "en": "le siège élevé d'où un moine prêche"
+  },
+  {
+   "th": "รัฐธรรมนูญ",
+   "rom": "ratthathammanun",
+   "en": "constitution"
+  }
+ ],
+ "band_langar": "Un langar : chacun peut entrer, s'asseoir et manger.",
+ "wheel_kicker": "La roue",
+ "wheel_title": "Tournez la roue",
+ "wheel_body": "Le premier discours du Bouddha est rappelé comme la Mise en mouvement de la roue du Dhamma. Une roue à huit rayons représente le chemin en huit parties. Une roue du dharma à vingt-quatre rayons, l'Ashoka Chakra, se trouve au centre du drapeau de l'Inde.",
+ "wheel_spin": "Tourner",
+ "wheel_hint": "Faites glisser la roue ou appuyez sur Tourner. Le rayon en haut est le vôtre.",
+ "spokes": [
+  {
+   "pali": "sammā diṭṭhi",
+   "en": "Voir clairement",
+   "say": "Voir comment sont les choses : elles changent, et s'y accrocher fait mal."
+  },
+  {
+   "pali": "sammā saṅkappa",
+   "en": "Vouloir le bien",
+   "say": "Partir avec bienveillance, non avec malveillance ou cruauté."
+  },
+  {
+   "pali": "sammā vācā",
+   "en": "Bien parler",
+   "say": "Pas de mensonges, pas de commérages qui divisent, pas de paroles dures, pas de bavardages vains."
+  },
+  {
+   "pali": "sammā kammanta",
+   "en": "Bien agir",
+   "say": "Pas de meurtre, pas de vol, pas de mal par la sexualité."
+  },
+  {
+   "pali": "sammā ājīva",
+   "en": "Bien gagner sa vie",
+   "say": "Un gagne-pain qui ne fait de mal à personne."
+  },
+  {
+   "pali": "sammā vāyāma",
+   "en": "Un effort constant",
+   "say": "Abandonner ce qui n'aide pas, cultiver ce qui aide."
+  },
+  {
+   "pali": "sammā sati",
+   "en": "Être attentif",
+   "say": "Remarquer le corps, les sensations, l'esprit et ce que l'esprit rencontre, au moment où ils surviennent."
+  },
+  {
+   "pali": "sammā samādhi",
+   "en": "Un esprit posé",
+   "say": "La concentration calme et rassemblée que la méditation construit."
+  }
+ ],
+ "wat_kicker": "Le wat",
+ "wat_title": "Un wat est animé",
+ "wat_body": "Un wat (วัด) est un temple-monastère thaïlandais. Des moines et des novices y vivent, et des chiens, des chats et parfois une poule aussi. Les écoles de village ont commencé dans les wats. Des marchés s'installent à la porte, des familles viennent recevoir des bénédictions, des enfants jouent dans la cour, et pendant la saison fraîche les terrains se remplissent de fêtes de temple : une grande roue, des stands de lancer d'anneaux, un orchestre sur une scène et des calmars grillés. La couleur est là exprès : mosaïque de verre, or, laque rouge et longues bannières tung qui bougent dans le vent.",
+ "day_title": "Une journée au wat",
+ "day_hint": "Faites glisser le soleil au long de la journée.",
+ "day": [
+  {
+   "t": "04:30",
+   "what": "Une cloche réveille les moines. La récitation du matin en pali emplit la salle."
+  },
+  {
+   "t": "06:00",
+   "what": "La tournée d'aumônes. Les moines marchent pieds nus sur le chemin avec leur bol. Des gens attendent au bord de la route avec du riz et de la nourriture, et s'inclinent en donnant."
+  },
+  {
+   "t": "08:00",
+   "what": "L'école commence. Beaucoup d'écoles thaïlandaises se trouvent dans l'enceinte d'un wat ou à côté. Les novices étudient aussi."
+  },
+  {
+   "t": "11:00",
+   "what": "Le tambour phen (กลองเพล) résonne. Il appelle les moines à leur dernier repas de la journée, qu'ils terminent avant midi."
+  },
+  {
+   "t": "13:00",
+   "what": "La sieste. Les chiens du temple dorment à l'ombre de la salle. Les gens passent pour faire des mérites, allumer de l'encens ou demander une bénédiction à un moine."
+  },
+  {
+   "t": "16:00",
+   "what": "Les enfants jouent au football dans la cour. Les vendeurs de collations poussent leurs chariots jusqu'à la porte."
+  },
+  {
+   "t": "18:00",
+   "what": "La récitation du soir. Le tambour et la grande cloche sonnent pendant que la lumière décline."
+  },
+  {
+   "t": "20:00",
+   "what": "Les soirs de fête : la fête du temple (งานวัด) est ouverte. Des lumières sur le chedi, une scène, des jeux, des douceurs, tout le village dehors."
+  }
+ ],
+ "moon_now": "Lune ce soir : {phase}, environ le jour {d} de 15.",
+ "moon_waxing": "croissante",
+ "moon_waning": "décroissante",
+ "moon_note": "Wan phra (วันพระ), le jour saint bouddhiste, tombe le 8e et le 15e jour de la lune croissante et de la lune décroissante. Plus de gens viennent au wat ces jours-là.",
+ "moon_near": "Wan phra est à peu près maintenant.",
+ "sand_title": "Du sable pour le wat",
+ "sand_body": "Dans le nord de la Thaïlande, on dit que l'on emporte un peu du wat sous ses pieds toute l'année. À Songkran, le Nouvel An thaïlandais à la mi-avril, les familles rapportent du sable au wat et construisent avec lui des chedi (pagodes), puis plantent des drapeaux brillants au sommet. Ensuite, tout le monde se jette de l'eau.",
+ "sand_carry": "Porter un seau",
+ "sand_flag": "Planter un drapeau",
+ "sand_count": "{n} seaux portés",
+ "sand_done": "Votre chedi est terminé. Touchez-le pour plus de drapeaux.",
+ "sand_reset": "Recommencer",
+ "photos_title": "La couleur, de près",
+ "cap_tung": "Bannières tung au-dessus du chedi au Wat Lok Molee, Chiang Mai.",
+ "cap_mosaic": "Verre coloré et or au Wat Chiang Man, Chiang Mai.",
+ "cap_whisper": "Le Murmure d'amour : une peinture murale au Wat Phumin, à Nan, d'un homme murmurant à une femme.",
+ "cap_avenue": "Un chemin bordé de tung au Wat Hiranyawat.",
+ "cap_bells": "Des cloches sur une rampe de naga au Wat Saeng Kaew Phothiyan. Les visiteurs les font sonner en passant.",
+ "cap_dog": "Un chien du temple et des novices au Wat Phra Singh, Chiang Mai.",
+ "cap_songkran": "Songkran à Chiang Mai.",
+ "cap_sand": "Chedi de sable et drapeaux à Songkran, Wat Pho, Bangkok.",
+ "cap_langar": "Langar au gurdwara de Manikaran, en Inde.",
+ "cap_langar_family": "Une famille cuisine pour un langar.",
+ "cap_naga": "Des serpents naga gardent l'escalier du Wat Phra That Doi Suthep.",
+ "sticks_kicker": "Siam si",
+ "sticks_title": "Secouez les bâtonnets",
+ "sticks_body": "Dans beaucoup de temples thaïlandais et chinois, les gens s'agenouillent, tiennent un gobelet de bambou rempli de bâtonnets numérotés et le secouent jusqu'à ce qu'un bâtonnet tombe. Le numéro correspond à un billet imprimé. Ces billets portent des versets du Dhammapada, un recueil de paroles du Bouddha.",
+ "sticks_shake": "Secouer",
+ "sticks_again": "Secouer encore",
+ "sticks_num": "Bâtonnet {n}",
+ "sticks_src": "Dhammapada, verset {v}. Traduit du pali en anglais par F. Max Müller, 1881.",
+ "sticks_tr": "Traduit ici depuis l'anglais de Müller.",
+ "sticks_motion": "Vous pouvez aussi secouer votre téléphone.",
+ "verses": {
+  "1": "Tout ce que nous sommes est le résultat de ce que nous avons pensé : cela est fondé sur nos pensées, cela est fait de nos pensées. Si un homme parle ou agit avec une pensée mauvaise, la douleur le suit, comme la roue suit le pied du bœuf qui tire le chariot.",
+  "5": "Car la haine ne cesse jamais par la haine : la haine cesse par l'amour, c'est là une règle ancienne.",
+  "6": "Le monde ne sait pas que nous devons tous finir ici ; mais ceux qui le savent, leurs querelles cessent aussitôt.",
+  "25": "En s'éveillant lui-même, par le sérieux, par la retenue et la maîtrise, l'homme sage peut se faire une île qu'aucun flot ne peut submerger.",
+  "35": "Il est bon de dompter l'esprit, difficile à contenir et instable, qui se précipite où il veut ; un esprit dompté apporte le bonheur.",
+  "49": "Comme l'abeille recueille le nectar et s'en va sans blesser la fleur, ni sa couleur ni son parfum, qu'ainsi le sage demeure dans son village.",
+  "51": "Comme une belle fleur, pleine de couleur mais sans parfum, sont les paroles belles mais vaines de celui qui n'agit pas en conséquence.",
+  "53": "Comme on peut faire plusieurs sortes de guirlandes avec un tas de fleurs, ainsi un mortel, une fois né, peut accomplir beaucoup de bonnes choses.",
+  "62": "« Ces fils m'appartiennent, et cette richesse m'appartient », par de telles pensées un sot est tourmenté. Lui-même ne s'appartient pas ; combien moins ses fils et sa richesse ?",
+  "80": "Les faiseurs de puits mènent l'eau où ils veulent ; les fléchiers courbent la flèche ; les charpentiers courbent une bûche de bois ; les sages se façonnent eux-mêmes.",
+  "81": "Comme un rocher solide n'est pas ébranlé par le vent, les sages ne vacillent pas parmi le blâme et la louange.",
+  "91": "Ils s'en vont avec des pensées bien recueillies, ils ne sont pas heureux dans leur demeure ; comme des cygnes qui ont quitté leur lac, ils quittent leur maison et leur foyer.",
+  "100": "Même si un discours compte mille mots, mais fait de mots insensés, un seul mot de sens vaut mieux, et si un homme l'entend, il devient paisible.",
+  "103": "Si un homme vainc en bataille mille fois mille hommes, et si un autre se vainc lui-même, c'est lui le plus grand des vainqueurs.",
+  "121": "Que nul ne prenne le mal à la légère, en disant en son cœur : Il ne m'atteindra pas. Même par la chute des gouttes d'eau, un pot se remplit ; le sot se remplit de mal, même s'il le recueille peu à peu.",
+  "122": "Que nul ne prenne le bien à la légère, en disant en son cœur : Il ne m'atteindra pas. Même par la chute des gouttes d'eau, un pot se remplit ; le sage se remplit de bien, même s'il le recueille peu à peu.",
+  "158": "Que chacun se dirige d'abord lui-même vers ce qui est juste, puis qu'il enseigne les autres ; ainsi un homme sage ne souffrira pas.",
+  "170": "Regarde le monde comme une bulle, regarde-le comme un mirage : le roi de la mort ne voit pas celui qui regarde ainsi le monde de haut.",
+  "172": "Celui qui autrefois fut insouciant et ensuite devint sage illumine ce monde, comme la lune libérée des nuages.",
+  "183": "Ne commettre aucun péché, faire le bien, et purifier son esprit, voilà l'enseignement de tous les Éveillés.",
+  "197": "Vivons donc heureux, sans haïr ceux qui nous haïssent ! parmi les hommes qui nous haïssent, demeurons libres de haine !",
+  "201": "La victoire engendre la haine, car le vaincu est malheureux. Celui qui a abandonné et la victoire et la défaite, lui, le content, est heureux.",
+  "204": "La santé est le plus grand des dons, le contentement la meilleure des richesses ; la confiance est la meilleure des relations, le Nirvana le plus haut des bonheurs.",
+  "223": "Que l'homme vainque la colère par l'amour, qu'il vainque le mal par le bien ; qu'il vainque l'avare par la générosité, le menteur par la vérité !",
+  "227": "C'est là un vieux dicton, ô Atula, ce n'est pas seulement d'aujourd'hui : « On blâme celui qui reste silencieux, on blâme celui qui parle beaucoup, on blâme aussi celui qui parle peu ; il n'y a personne sur terre qui ne soit blâmé. »",
+  "252": "La faute des autres est facile à voir, mais la sienne est difficile à voir ; un homme vanne les fautes de son voisin comme la paille, mais sa propre faute, il la cache, comme un tricheur cache le mauvais dé au joueur.",
+  "276": "Tu dois toi-même faire un effort. Les Tathagatas (les Bouddhas) ne font que prêcher. Les hommes réfléchis qui entrent dans la voie sont libérés des liens de Mara.",
+  "354": "Le don de la loi dépasse tous les dons ; la douceur de la loi dépasse toutes les douceurs ; le plaisir dans la loi dépasse tous les plaisirs ; l'extinction de la soif surmonte toute douleur."
+ },
+ "verse354_note": "Müller écrit « la loi » là où le pali dit dhamma.",
+ "tham_kicker": "Les lettres du dharma",
+ "tham_title": "Écrit en tham",
+ "tham_body": "Dans le nord de la Thaïlande, l'ancienne écriture s'appelle tua tham ou aksòn tham, les lettres du dharma, parce que les moines l'utilisaient pour écrire l'enseignement sur des feuilles de palmier. Un manuscrit sur feuille de palmier s'appelle lui-même un tham. En commander un et l'offrir à un wat, c'est offrir le tham, et la grande fête de prédication du Lanna, tenue à Yi Peng au douzième mois lunaire, est Tang Tham Luang, l'installation du grand tham.",
+ "tham_stat_tham": "des {total} manuscrits catalogués sur wichaa sont écrits en écritures tham : lanna, lao et lue.",
+ "tham_stat_wats": "temples nommés les conservent.",
+ "tham_stat_ves": "portent l'histoire de Vessantara, le prince qui donna tout, lue à voix haute en treize chapitres lors des fêtes du Thet Mahachat.",
+ "tham_go": "Ouvrir les manuscrits",
+ "tham_kesa": "Un yant, trente-deux lettres",
+ "nb_kicker": "Voisins",
+ "nb_title": "Des mots qui font un travail semblable",
+ "nb_body": "D'autres traditions ont leurs propres mots pour l'ordre des choses et la manière d'y marcher. Ils ne sont pas identiques au dharma. Ce sont des voisins. Touchez-en un pour le lire.",
+ "neighbours": [
+  {
+   "w": "ṛta",
+   "from": "Sanskrit védique",
+   "say": "L'ordre cosmique dans les plus anciens hymnes védiques, le rythme qui fait se lever le soleil et tourner les saisons. Le dharma a repris plus tard une grande partie de son travail."
+  },
+  {
+   "w": "道 dao",
+   "from": "Chinois",
+   "say": "La voie. Dans le Daodejing, elle est la source de toutes choses, et le chemin qui ne peut être entièrement nommé."
+  },
+  {
+   "w": "λόγος logos",
+   "from": "Grec",
+   "say": "Parole, raison, compte rendu. Pour Héraclite, l'ordre qui traverse tout changement. L'Évangile de Jean s'ouvre avec lui : Au commencement était la Parole."
+  },
+  {
+   "w": "maat",
+   "from": "Égyptien ancien",
+   "say": "Vérité, équilibre et ordre, représentée comme une déesse avec une plume d'autruche. Dans l'au-delà, un cœur était pesé contre sa plume."
+  },
+  {
+   "w": "הֲלָכָה halakha",
+   "from": "Hébreu",
+   "say": "La loi juive. Le mot signifie la marche : le chemin que suit une personne."
+  },
+  {
+   "w": "شَرِيعَة sharīʿa",
+   "from": "Arabe",
+   "say": "La loi islamique et la manière de vivre. Le sens ancien est le chemin vers le point d'eau."
+  },
+  {
+   "w": "دِين dīn",
+   "from": "Arabe",
+   "say": "La religion comme une manière de vivre tout entière, due et dont on répond."
+  },
+  {
+   "w": "ἡ ὁδός la Voie",
+   "from": "Grec, chrétien",
+   "say": "Le livre des Actes dit que les premiers disciples de Jésus étaient appelés gens de la Voie."
+  }
+ ],
+ "end_title": "Visite",
+ "end_body": "La plupart des wats sont ouverts aux visiteurs. Les gens couvrent leurs épaules et leurs genoux, enlèvent leurs chaussures à la porte de chaque salle, gardent leurs pieds pointés loin des images du Bouddha, et déposent un peu d'argent dans la boîte de dons s'ils le souhaitent.",
+ "more": "Plus sur wichaa",
+ "src_title": "Sources et crédits",
+ "src_body": "Photographies de Wikimedia Commons et du site Lanna Craft, avec leurs auteurs et licences ci-dessous. Versets du Dhammapada tirés de la traduction anglaise de F. Max Müller de 1881 (Project Gutenberg). Les comptages de manuscrits sont lus dans le catalogue wichaa lorsque la page est construite.",
+ "made": "Fait à San Klang pour wichaa.net."
+}

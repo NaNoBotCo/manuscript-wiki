@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """siteindex — the authored index of wichaa (WAYFINDING_PLAN.md, the nav rebuild).
 
-"Never index your own book." — Cat's Cradle. An index is a portrait: the shape of
+"Never index your own book." — Cat's Cradle. An index is a portrait: the shape of  (stylecheck: allow — quotes Cat's Cradle)
 how knowledge is organised reveals, and creates, what the thing IS. routes.py can
 guarantee that every page exists and is reachable, but it cannot give the site a
 SHAPE — an auto-generated list has no point of view. This module is the point of

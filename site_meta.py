@@ -856,7 +856,7 @@ def build_api_index(docs: Path, site: str) -> dict:
                          "(ตะกรุด, ผ้ายันต์, พระเครื่อง …), with corpus counts (/need)."),
         "materials.json": ("The material axis (/nuea): เนื้อ — what a sacred object is "
                            "made of, the first thing an expert names. Each material with "
-                           "its dating signal, counterfeit pressure and corpus counts."),
+                           "its dating signal, counterfeit pressure and corpus counts."),  # stylecheck: allow — names a dataset field (counterfeit pressure on a material)
         "term-echo.json": ("Term echo: for a handful of emic terms, how often the "
                            "treatises and the living market each use them — the same "
                            "word counted across both corpora."),

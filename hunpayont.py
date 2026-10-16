@@ -125,7 +125,7 @@ DAYS = [
      "pang": "ปางป่าเลไลยก์", "pangEn": "in the forest, attended by an "
      "elephant and a monkey",
      "domain": "swallowing what should be let go of",
-     "domainTh": "การกลืนสิ่งที่ควรปล่อยวาง", "theme": "rahu"},
+     "domainTh": "การกลืนสิ่งที่ควรปล่อยวาง", "theme": "rahu"},  # stylecheck: allow — Rahu domain label from the tradition
 ]
 
 # theme key -> what it is, in both languages, and the corpus term it draws from.
@@ -289,9 +289,9 @@ SUKHWAN = [
     },
     {
         "en": "Let no fright follow {name} through this door. What frightened the khwan stays outside; what steadies it comes in.",
-        "th": "อย่าให้ความตกใจตามเข้าประตูมา สิ่งที่ทำให้ขวัญหนีให้อยู่ข้างนอก สิ่งที่ทำให้ขวัญนิ่งให้เข้ามาข้างใน",
+        "th": "อย่าให้ความตกใจตามเข้าประตูมา สิ่งที่ทำให้ขวัญหนีให้อยู่ข้างนอก สิ่งที่ทำให้ขวัญนิ่งให้เข้ามาข้างใน",  # stylecheck: allow — khwan-calling verse addressed to the khwan
         "translit": "Ya hai khwam tok jai tam khao pratu ma, sing thi tham hai khwan ni hai yu khang nok, sing thi tham hai khwan ning hai khao ma khang nai.",
-        "gloss": "Do not let the fright follow through the door. Let what made the khwan flee stay outside; let what makes the khwan settle come in.",
+        "gloss": "Do not let the fright follow through the door. Let what made the khwan flee stay outside; let what makes the khwan settle come in.",  # stylecheck: allow — gloss of the khwan-calling verse
     },
     {
         "en": "Morning finds {name} whole again — the khwan that wandered in the dark has come back with the light.",
@@ -313,7 +313,7 @@ SUKHWAN = [
     },
     {
         "en": "Khwan, do not linger where you were startled. Come back to the warm place, the known place, {name}'s own place.",
-        "th": "ขวัญเอย อย่าแช่อยู่ตรงที่ตกใจ กลับมาที่อุ่น ที่คุ้น ที่เป็นของ {name} เอง",
+        "th": "ขวัญเอย อย่าแช่อยู่ตรงที่ตกใจ กลับมาที่อุ่น ที่คุ้น ที่เป็นของ {name} เอง",  # stylecheck: allow — khwan-calling verse addressed to the khwan
         "translit": "Khwan oei, ya chae yu trong thi tok jai, klap ma thi un, thi khun, thi pen khong {name} eng.",
         "gloss": "Oh khwan, do not soak in the place that frightened you. Come back to the warm place, the familiar place, the place that belongs to {name}.",
     },
@@ -925,12 +925,12 @@ KHATA_PRESETS = [
                  "ก็ใช้แบบนี้",
      "verified": "NOT verified — their exact grammar is not publicly "
                  "documented, and Lazada changed link generation recently. "
-                 "Paste one real link from your own dashboard above and let "
-                 "it work the shape out.",
+                 "The box above learns the shape from one working link out "
+                 "of your own dashboard.",
      "verifiedTh": "ยังไม่ได้ยืนยัน — ทางนั้นไม่ได้เปิดเผยรูปแบบที่แน่นอน "
                    "และ Lazada เพิ่งเปลี่ยนวิธีสร้างลิงก์ "
-                   "แนะนำให้วางลิงก์จริงจากแดชบอร์ดของคุณในช่องด้านบน "
-                   "แล้วให้มันถอดรูปแบบเอง"},
+                   "ช่องด้านบนถอดรูปแบบได้จากลิงก์จริงหนึ่งลิงก์ "
+                   "จากแดชบอร์ดของคุณ"},
     {"id": "custom",
      "name": "Custom — paste your own",
      "nameTh": "กำหนดเอง — วางของคุณเอง",
@@ -1029,8 +1029,8 @@ T = {
     "learnPh":    ("paste a working affiliate link here",
                    "วางลิงก์แอฟฟิลิเอตที่ใช้งานได้ตรงนี้"),
     "learnBtn":   ("Learn it", "ถอดรูปแบบ"),
-    "learnOk":    ("Learned it. Check the address below before you trust it.",
-                   "ถอดรูปแบบสำเร็จ — กรุณาตรวจที่อยู่ด้านล่างก่อนใช้งานจริง"),
+    "learnOk":    ("Learned it. The address it builds is below.",
+                   "ถอดรูปแบบสำเร็จ — ที่อยู่ที่ได้แสดงอยู่ด้านล่าง"),
     "learnNo":    ("Could not find the destination inside that link. Short "
                    "links (s.lazada.co.th/…) hide it, so paste a full one, or "
                    "set the shape by hand below.",
@@ -1045,9 +1045,7 @@ T = {
                    "{url} คือที่อยู่สินค้า · {urlenc} "
                    "คืออันเดียวกันแบบเข้ารหัส url · {id} คือเลขที่รายการในคลังนี้"),
     "verifiedLbl": ("Verified:", "สถานะการยืนยัน:"),
-    "checkThis":  ("Check this before you trust it — this is the exact address "
-                   "it will send people to:",
-                   "ตรวจตรงนี้ก่อนใช้จริง — "
+    "checkThis":  ("This is the exact address it will send people to:",
                    "นี่คือที่อยู่ที่มันจะพาคนไปจริงๆ"),
     "unmake":     ("Unmake it", "ลบหุ่นทิ้ง"),
     "unmakeAsk":  ("Unmake the effigy? Its name, khata and ledger are erased "
@@ -1124,11 +1122,8 @@ T = {
     "skNamesH":   ("Name(s)", "ชื่อ"),
     "skNamesPh":  ("one name per line — your own, a friend's, all of them",
                    "ชื่อบรรทัดละหนึ่งชื่อ — ของคุณเอง ของเพื่อน หรือทุกชื่อที่มี"),
-    "skPrivacy":  ("Kept only in this browser, or inside a link you choose to "
-                   "copy. Never sent anywhere — there is no server on this "
-                   "page to send it to.",
-                   "เก็บไว้ในเบราว์เซอร์นี้เท่านั้น หรืออยู่ในลิงก์ที่คุณคัดลอกเอง "
-                   "ไม่มีการส่งไปที่ไหนทั้งนั้น เพราะหน้านี้ไม่มีเซิร์ฟเวอร์ให้ส่งไปหา"),
+    "skPrivacy":  ("Kept in this browser, or inside a link you choose to copy.",
+                   "เก็บไว้ในเบราว์เซอร์นี้ หรือในลิงก์ที่คุณคัดลอกเอง"),
     "skEmpty":    ("Type a name above to read the whole chant.",
                    "พิมพ์ชื่อด้านบนเพื่ออ่านคำเรียกขวัญทั้งบท"),
     "skToday":    ("Today's verse", "บทของวันนี้"),
@@ -2150,8 +2145,7 @@ def _essay_en(s: dict) -> str:
         "and the " + str(hun) + " live market listings counted above. Its "
         "transmission runs through named "
         "ajarns and through the objects themselves, not through the palm leaf, so "
-        "a reader should be slow to conclude anything about it from manuscripts "
-        "alone.</p>"
+        "manuscripts alone say little about it.</p>"
 
         "<h2>What this one is</h2>"
         "<p>An effigy you can actually be given, that actually does the actual "
@@ -2210,7 +2204,7 @@ def _essay_en(s: dict) -> str:
         "built by the <b>Siamese method</b> — start in the middle of the top row, "
         "step up and to the right, and drop a row whenever the cell you wanted is "
         "taken.</p>"
-        "<p>The name is a piece of history worth telling properly. Simon de la "
+        "<p>The name is a piece of history. Simon de la "
         "Loubère led Louis XIV's embassy to Siam in 1687 and sailed home in "
         "January 1688; the account he published on his return carries a chapter on "
         "the problem of the magical square, and the rule in it is the one Europe "
@@ -2277,7 +2271,7 @@ def _essay_en(s: dict) -> str:
         "it rests) would all be false at once. On those days it earns nobody "
         "anything, including us.</p>"
         "<p>Which days those are is <b>a published table, not a calculation</b>, "
-        "and the reason is worth stating because it was measured rather than "
+        "and the reason was measured rather than "
         "assumed. Two versions of this worked the holy days out from the moon "
         "itself — once from the elongation angle, once from a mean lunation. "
         "Scored against the 49 published wan phra of 2569, they got <b>17</b> and "
@@ -2446,7 +2440,7 @@ def _essay_th(s: dict) -> str:
         "ประโยคนี้จริง และก็เล็กด้วย ทั้งสองส่วนสำคัญพอกัน "
         "ถ้าของแบบนี้สัญญากับคุณมากกว่าค่ากาแฟ แปลว่ามันกำลังโกหก "
         "และเหตุผลที่ยังทำมันขึ้นมาก็เหตุผลเดียวกับที่คนตั้งหุ่นไว้หลังเคาน์เตอร์ "
-        "ไม่ใช่เพราะมันจะทำให้รวย แต่เพราะควรมีอะไรสักอย่างทำงานอยู่ตอนที่เราไม่ได้ทำ</p>"
+        "ไม่ใช่เพราะมันจะทำให้รวย แต่เพราะอยากให้มีอะไรสักอย่างทำงานอยู่ตอนที่เราไม่ได้ทำ</p>"
 
         "<h2>ตารางบนอกของมัน</h2>"
         "<p>แผ่นยันต์บนอกหุ่นทุกตัวเป็น<b>จตุรัสกล</b>ของจริง "
@@ -2454,7 +2448,7 @@ def _essay_th(s: dict) -> str:
         "และหน้านี้พิมพ์ผลรวมไว้ข้างรูปให้คุณลองบวกเองได้ "
         "สร้างด้วย<b>วิธีสยาม</b> (Siamese method) — เริ่มที่กลางแถวบน "
         "แล้วเดินขึ้นไปทางขวา ถ้าช่องที่จะไปมีเลขอยู่แล้วก็เลื่อนลงมาหนึ่งแถว</p>"
-        "<p>ชื่อของวิธีนี้มีที่มาที่ควรเล่าให้ครบ ซีมง เดอ ลา ลูแบร์ "
+        "<p>ชื่อของวิธีนี้มีที่มาทางประวัติศาสตร์ ซีมง เดอ ลา ลูแบร์ "
         "เป็นหัวหน้าคณะทูตของพระเจ้าหลุยส์ที่ ๑๔ มาสยามเมื่อ พ.ศ. ๒๒๓๐ "
         "และกลับฝรั่งเศสต้นปีถัดมา "
         "หนังสือที่เขาเขียนเมื่อกลับไปมีบทหนึ่งว่าด้วยปัญหาจตุรัสกล "
@@ -2520,7 +2514,7 @@ def _essay_th(s: dict) -> str:
         "ไม่มีช่องทางในโค้ดที่จะหักได้, และมันหยุด — ก็จะกลายเป็นเท็จพร้อมกันทั้งสามข้อ "
         "ในวันเหล่านั้นไม่มีใครได้เงิน รวมทั้งเราด้วย</p>"
         "<p>วันไหนเป็นวันพระนั้นใช้<b>ตารางที่เผยแพร่ไว้ ไม่ได้คำนวณเอา</b> "
-        "และเหตุผลควรบอกไว้ เพราะมันมาจากการวัด ไม่ใช่ความชอบ "
+        "เหตุผลมาจากการวัด ไม่ใช่ความชอบ "
         "ก่อนหน้านี้เคยคำนวณวันพระจากดวงจันทร์สองแบบ — "
         "แบบหนึ่งจากมุมห่าง อีกแบบจากค่าเฉลี่ยของเดือนจันทรคติ "
         "เทียบกับวันพระที่ประกาศไว้ ๔๙ วันของปี ๒๕๖๙ ได้ถูก <b>๑๗</b> และ "
@@ -2632,19 +2626,17 @@ def _howto() -> str:
         "<p>The effigy links to real listings on <b>Lazada Thailand</b> "
         "(lazada.co.th) — that is what this catalogue is made of. So your "
         "affiliate link has to come from a programme that <b>pays commission on "
-        "lazada.co.th</b>. Two doors are worth trying, and which of them is open "
+        "lazada.co.th</b>. There are two doors, and which of them is open "
         "changes: <a href='https://involve.asia' target=_blank "
         "rel='noopener nofollow'>Involve Asia</a>, the affiliate network, and "
         "<b>LazAffiliate</b>, Lazada's own programme, reached through Seller "
         "Centre → Marketing Centre → Super Affiliate.</p>"
-        "<p><span class=mark>Checked, and worth your knowing —</span> in "
+        "<p><span class=mark>Checked —</span> in "
         "<b>July 2026</b> a search of Involve Asia's advertiser directory for "
         "“lazada” returned only B2B offers for Indonesia and Malaysia and "
         "<i>Lazada Talent</i> creator campaigns; Involve's own guide describes a "
         "general “Lazada Thailand” offer, but we could not find it listed. "
-        "Programme line-ups shift. <b>Check what is actually on offer in your "
-        "own account rather than trusting this paragraph</b> — and if the answer "
-        "has changed, we would like to know.</p>"
+        "Programme line-ups shift.</p>"
         "<p>An Amazon or Shopee link will still <em>work</em> — the effigy will "
         "happily wear it — but it will earn you nothing on a Lazada page, "
         "because those programmes do not pay for Lazada sales. Nobody will tell "
@@ -2712,20 +2704,18 @@ def _howto() -> str:
         "(lazada.co.th) เพราะคลังข้อมูลนี้ทำมาจากที่นั่น "
         "ลิงก์แอฟฟิลิเอตของคุณจึงต้องมาจากโปรแกรมที่"
         "<b>จ่ายค่าคอมมิชชันให้กับ lazada.co.th</b> "
-        "มีสองทางที่ควรลอง และทางไหนเปิดอยู่บ้างก็เปลี่ยนไปเรื่อยๆ: "
+        "มีสองทาง และทางไหนเปิดอยู่บ้างก็เปลี่ยนไปเรื่อยๆ: "
         "<a href='https://involve.asia' target=_blank rel='noopener nofollow'>"
         "Involve Asia</a> ซึ่งเป็นเครือข่ายแอฟฟิลิเอต และ <b>LazAffiliate</b> "
         "โปรแกรมของ Lazada เอง เข้าทาง Seller Centre → Marketing Centre → "
         "Super Affiliate</p>"
-        "<p><span class=mark>ตรวจแล้ว และควรรู้ไว้ —</span> "
+        "<p><span class=mark>ตรวจแล้ว —</span> "
         "เมื่อ<b>กรกฎาคม ๒๕๖๙</b> ค้นคำว่า “lazada” "
         "ในไดเรกทอรีผู้ลงโฆษณาของ Involve Asia "
         "เจอเพียงออฟเฟอร์ B2B ของอินโดนีเซียกับมาเลเซีย "
         "และแคมเปญครีเอเตอร์ <i>Lazada Talent</i> เท่านั้น "
         "คู่มือของ Involve เองพูดถึงออฟเฟอร์ทั่วไปชื่อ “Lazada Thailand” "
-        "แต่เราหาไม่เจอในรายการ รายชื่อโปรแกรมมีการเปลี่ยนแปลงอยู่เสมอ "
-        "<b>กรุณาตรวจจากบัญชีของคุณเองว่ามีอะไรให้สมัครบ้าง "
-        "อย่าเชื่อย่อหน้านี้</b> — และถ้าคำตอบเปลี่ยนไปแล้ว บอกเราด้วยจะดีมาก</p>"
+        "แต่เราหาไม่เจอในรายการ รายชื่อโปรแกรมมีการเปลี่ยนแปลงอยู่เสมอ</p>"
         "<p>ลิงก์ของ Amazon หรือ Shopee ยัง<em>ใช้ได้</em>อยู่ "
         "หุ่นก็จะสวมให้ตามที่บอก แต่จะไม่ได้เงินสักบาทจากหน้า Lazada "
         "เพราะโปรแกรมพวกนั้นไม่จ่ายให้ยอดขายของ Lazada "

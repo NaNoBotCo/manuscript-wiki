@@ -339,6 +339,15 @@ log "Building the holding page → holding.py"
 log "Building Amulet Essentials → amulet-essentials/tools/export_wichaa.py"
 "$PY" "$WIKI_DIR/../amulet-essentials/tools/export_wichaa.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
 
+# 2a-7. /dharma — the word dharma for readers of any language or faith: bells in
+#     eighteen languages, four traditions, the wheel, a day at a wat, sand chedi,
+#     siam si sticks with Dhammapada verses, and the tham-script counts read from
+#     the catalogue. Reads data/dharma/ (photos, credits, i18n/<lang>.json); writes
+#     docs/dharma/. routes.py declares /dharma, so a failure here stops the publish
+#     at gate 2c.
+log "Building the dharma page → dharma.py"
+"$PY" "$WIKI_DIR/dharma.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL"
+
 # 2b. add the machine-legibility layer on top of the fresh build: llms.txt, robots.txt,
 #     sitemap.xml, OpenAPI + AI-plugin manifest, JSON Feed, schema.org JSON-LD in heads.
 #     Post-build (not inside build_static.py) so it stays decoupled; idempotent, so it's
@@ -464,9 +473,5 @@ log "Done. Live → ${SITE_URL}/"
 # this point the site is already public on Cloudflare.
 if [ "${PUBLISH_GITHUB:-0}" = "1" ]; then
   log "PUBLISH_GITHUB=1 — also pushing to GitHub…"
-  if git rev-parse --abbrev-ref --symbolic-full-name '@{u}' >/dev/null 2>&1; then
-    git push -q || echo "  ! GitHub push failed (site is live on Cloudflare regardless)"
-  else
-    git push -q -u origin HEAD || echo "  ! GitHub push failed (site is live on Cloudflare regardless)"
-  fi
+  "$HOME/.claude/bin/pr-push" . || echo "  ! GitHub push failed (site is live on Cloudflare regardless)"
 fi

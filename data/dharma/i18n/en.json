@@ -1,0 +1,336 @@
+{
+ "lang_name": "English",
+ "meta_title": "Dharma · ธรรม · wichaa",
+ "meta_desc": "Dharma for every language and faith: the word in eighteen tongues, what it means to Hindus, Buddhists, Jains and Sikhs, and the wat as a busy, colourful place. Bells, a wheel, fortune sticks and a sand pagoda to build.",
+ "skip": "Skip to content",
+ "nav_home": "wichaa",
+ "nav_lang": "Language",
+ "hero_kicker": "one word · many doors",
+ "hero_title": "Dharma",
+ "hero_tap": "Tap the word to see it in another script.",
+ "hero_lede": "A word that means the thing that holds everything up. Hindus, Buddhists, Jains and Sikhs each use it, in their own way. In Thailand it lives at the wat: a temple full of colour, food, dogs, children, festivals and talk.",
+ "hero_go": "Inside",
+ "credit": "Photo",
+ "word_kicker": "The word",
+ "word_title": "Eighteen bells",
+ "word_body": "Dharma comes from the Sanskrit root dhṛ, to hold or to support. Dharma is what holds: the order that keeps the world steady, the right way to live in it, and the teaching that explains it. As the word travelled across Asia it was carried in some languages and translated in others.",
+ "word_hint": "Ring a bell. Each one says dharma in another language.",
+ "word_all": "Ring them all",
+ "word_cognate": "carried from Sanskrit or Pali",
+ "word_translated": "another word chosen to translate it",
+ "bells": {
+  "sa": "Sanskrit, the language of the Vedas. The oldest form of the word.",
+  "pi": "Pali, the language of the Theravada scriptures read in Thailand, Laos, Myanmar, Cambodia and Sri Lanka.",
+  "hi": "Hindi. In everyday speech it also means religion.",
+  "pa": "Punjabi, in Gurmukhi script. Sikhs speak of dharam as righteous living.",
+  "th": "Thai. Pronounced tham. It hides inside ordinary Thai words: thammada (normal) and thammachat (nature).",
+  "tt": "Lanna Tham script, the dharma letters of northern Thailand. Thousands of palm-leaf manuscripts are written in it.",
+  "lo": "Lao. Pronounced tham, as in Thai.",
+  "km": "Khmer, the language of Cambodia. Pronounced thoa.",
+  "my": "Burmese, written dhamma. Burmese also says taya, and a courthouse is a taya-yon, a dharma hall.",
+  "si": "Sinhala, the language of Sri Lanka.",
+  "bo": "Tibetan. Chö is a native word chosen to translate dharma.",
+  "mn": "Mongolian. Nom came by way of Sogdian traders from the Greek nomos, law.",
+  "zh": "Chinese. 法 means law and method too; a courthouse is 法院, a hall of fa.",
+  "ja": "Japanese. A Buddhist memorial service is a hōji, a dharma event.",
+  "ko": "Korean. Beop also means law; a courthouse is beobwon.",
+  "vi": "Vietnamese, from the Chinese 法.",
+  "ta": "Tamil. Aram, virtue, is the native word Tamil uses for dharma. The Tirukkural opens with a book called Aram.",
+  "id": "Indonesian and Malay. The word stayed and changed: derma is a gift to charity, and dermawan means generous."
+ },
+ "rooms_kicker": "Four traditions",
+ "rooms_title": "One word, four houses",
+ "rooms_body": "The same word does different work in each tradition. Tap a card to turn it over.",
+ "rooms_turn": "Turn over",
+ "rooms": [
+  {
+   "id": "hindu",
+   "name": "Hindu",
+   "word": "dharma",
+   "front": "The order that holds the world together, and each person's share in keeping it.",
+   "back": "Dharma is one of four aims of a life, beside wealth (artha), pleasure (kāma) and freedom (mokṣa). Each person has a svadharma, a dharma of their own, set by age, family and calling. In the Bhagavad Gita, Krishna tells the warrior Arjuna it is better to do one's own dharma imperfectly than another's well. Many Hindus call their religion Sanātana Dharma, the eternal dharma."
+  },
+  {
+   "id": "buddhist",
+   "name": "Buddhist",
+   "word": "dhamma",
+   "front": "The Buddha's teaching, and the way things are that it points to.",
+   "back": "Buddhists take refuge in three jewels: the Buddha (the teacher), the Dhamma (the teaching) and the Sangha (the community of monks, nuns and practitioners). The teaching begins with four truths: life holds suffering; suffering has a cause, craving; it can end; and a path of eight parts leads there. In the plural, dhammas are the smallest pieces of experience: a sound, a feeling, a thought."
+  },
+  {
+   "id": "jain",
+   "name": "Jain",
+   "word": "dharma",
+   "front": "The path of non-harm, and also a substance that lets things move.",
+   "back": "For Jains, dharma is the religion itself, built on ahiṃsā, doing no harm to any living being. Jain philosophy also names dharma as one of six substances of the universe: the medium of motion. Water does not make a fish swim, but a fish cannot swim without it. Its partner, adharma, is the medium of rest, like shade that lets a tired traveller stop.",
+   "toy_on": "dharma: the fish can move",
+   "toy_off": "adharma: the fish rests"
+  },
+  {
+   "id": "sikh",
+   "name": "Sikh",
+   "word": "dharam",
+   "front": "Righteous living: earning by one's own work, sharing, and remembering God.",
+   "back": "The Japji, the morning prayer that opens the Guru Granth Sahib, says the bull that holds up the earth is dharam, the son of compassion. It calls the earth itself a dharamsāl, a place for practising dharam. The first Sikh places of worship were called dharamsāls too. Every gurdwara keeps a langar, a free kitchen where anyone, of any faith, sits on the floor and eats together."
+  },
+  {
+   "id": "thai",
+   "name": "Everyday Thai",
+   "word": "ธรรม tham",
+   "front": "Dharma hides inside ordinary Thai words. Turn over to find it.",
+   "back": "Look for ธรรม in each word."
+  }
+ ],
+ "thai_words": [
+  {
+   "th": "ธรรมดา",
+   "rom": "thammada",
+   "en": "normal, ordinary"
+  },
+  {
+   "th": "ธรรมชาติ",
+   "rom": "thammachat",
+   "en": "nature"
+  },
+  {
+   "th": "ยุติธรรม",
+   "rom": "yutitham",
+   "en": "fair, justice"
+  },
+  {
+   "th": "ธรรมเนียม",
+   "rom": "thamniam",
+   "en": "custom, tradition"
+  },
+  {
+   "th": "คุณธรรม",
+   "rom": "khunnatham",
+   "en": "virtue"
+  },
+  {
+   "th": "อักษรธรรม",
+   "rom": "aksòn tham",
+   "en": "Tham script, the dharma letters"
+  },
+  {
+   "th": "ธรรมาสน์",
+   "rom": "thammat",
+   "en": "the high seat a monk preaches from"
+  },
+  {
+   "th": "รัฐธรรมนูญ",
+   "rom": "ratthathammanun",
+   "en": "constitution"
+  }
+ ],
+ "band_langar": "A langar: anyone may come in, sit down and eat.",
+ "wheel_kicker": "The wheel",
+ "wheel_title": "Turn the wheel",
+ "wheel_body": "The Buddha's first talk is remembered as Turning the Wheel of Dhamma. A wheel with eight spokes stands for the eight-part path. A dharma wheel with twenty-four spokes, the Ashoka Chakra, sits in the middle of India's flag.",
+ "wheel_spin": "Spin",
+ "wheel_hint": "Drag the wheel or press Spin. The spoke at the top is yours.",
+ "spokes": [
+  {
+   "pali": "sammā diṭṭhi",
+   "en": "Seeing clearly",
+   "say": "Seeing how things are: they change, and grabbing at them hurts."
+  },
+  {
+   "pali": "sammā saṅkappa",
+   "en": "Meaning well",
+   "say": "Setting out with goodwill, not with ill will or cruelty."
+  },
+  {
+   "pali": "sammā vācā",
+   "en": "Speaking well",
+   "say": "No lies, no gossip that divides, no harsh words, no idle chatter."
+  },
+  {
+   "pali": "sammā kammanta",
+   "en": "Acting well",
+   "say": "No killing, no stealing, no harm through sex."
+  },
+  {
+   "pali": "sammā ājīva",
+   "en": "Earning well",
+   "say": "A living that harms no one."
+  },
+  {
+   "pali": "sammā vāyāma",
+   "en": "Steady effort",
+   "say": "Letting go of the unhelpful, growing the helpful."
+  },
+  {
+   "pali": "sammā sati",
+   "en": "Paying attention",
+   "say": "Noticing body, feelings, mind and what the mind meets, as they happen."
+  },
+  {
+   "pali": "sammā samādhi",
+   "en": "A settled mind",
+   "say": "The calm, gathered focus that meditation builds."
+  }
+ ],
+ "wat_kicker": "The wat",
+ "wat_title": "A wat is busy",
+ "wat_body": "A wat (วัด) is a Thai temple-monastery. Monks and novices live there, and so do dogs, cats and the odd chicken. Village schools started in wats. Markets set up at the gate, families come for blessings, children play in the courtyard, and in the cool season the grounds fill with temple fairs: a Ferris wheel, ring-toss stalls, a band on a stage and grilled squid. The colour is there on purpose: glass mosaic, gold, red lacquer and long tung banners that move in the wind.",
+ "day_title": "A day at the wat",
+ "day_hint": "Slide the sun across the day.",
+ "day": [
+  {
+   "t": "04:30",
+   "what": "A bell wakes the monks. Morning chanting in Pali fills the hall."
+  },
+  {
+   "t": "06:00",
+   "what": "Alms round. Monks walk barefoot down the lane with their bowls. People wait at the roadside with rice and food, and bow as they give."
+  },
+  {
+   "t": "08:00",
+   "what": "School starts. Many Thai schools stand in or beside a wat's grounds. Novices study too."
+  },
+  {
+   "t": "11:00",
+   "what": "The phen drum (กลองเพล) booms. It calls the monks to their last meal of the day, which they finish before noon."
+  },
+  {
+   "t": "13:00",
+   "what": "Siesta. Temple dogs sleep in the shade of the hall. People drop in to make merit, light incense or ask a monk for a blessing."
+  },
+  {
+   "t": "16:00",
+   "what": "Children play football in the courtyard. Snack sellers wheel carts up to the gate."
+  },
+  {
+   "t": "18:00",
+   "what": "Evening chanting. The drum and the big bell sound as the light goes."
+  },
+  {
+   "t": "20:00",
+   "what": "Fair nights: the temple fair (งานวัด) is open. Lights on the chedi, a stage, games, sweets, the whole village out."
+  }
+ ],
+ "moon_now": "Moon tonight: {phase}, about day {d} of 15.",
+ "moon_waxing": "waxing",
+ "moon_waning": "waning",
+ "moon_note": "Wan phra (วันพระ), the Buddhist holy day, falls on the 8th and the 15th day of the waxing moon and of the waning moon. More people come to the wat on those days.",
+ "moon_near": "Wan phra is about now.",
+ "sand_title": "Sand for the wat",
+ "sand_body": "In northern Thailand people say you carry a little of the wat away on your feet all year. At Songkran, the Thai New Year in mid-April, families carry sand back into the wat and build chedi (pagodas) of it, then plant bright flags on top. Then everybody throws water at each other.",
+ "sand_carry": "Carry a bucket",
+ "sand_flag": "Plant a flag",
+ "sand_count": "{n} buckets carried",
+ "sand_done": "Your chedi is done. Tap it for more flags.",
+ "sand_reset": "Start again",
+ "photos_title": "Colour, up close",
+ "cap_tung": "Tung banners over the chedi at Wat Lok Molee, Chiang Mai.",
+ "cap_mosaic": "Coloured glass and gold at Wat Chiang Man, Chiang Mai.",
+ "cap_whisper": "The Whisper of Love: a mural at Wat Phumin, Nan, of a man murmuring to a woman.",
+ "cap_avenue": "A path lined with tung at Wat Hiranyawat.",
+ "cap_bells": "Bells on a naga rail at Wat Saeng Kaew Phothiyan. Visitors ring them as they pass.",
+ "cap_dog": "A temple dog and novices at Wat Phra Singh, Chiang Mai.",
+ "cap_songkran": "Songkran in Chiang Mai.",
+ "cap_sand": "Sand chedi and flags at Songkran, Wat Pho, Bangkok.",
+ "cap_langar": "Langar at the gurdwara in Manikaran, India.",
+ "cap_langar_family": "A family cooks for a langar.",
+ "cap_naga": "Naga serpents guard the stair to Wat Phra That Doi Suthep.",
+ "sticks_kicker": "Siam si",
+ "sticks_title": "Shake the sticks",
+ "sticks_body": "At many Thai and Chinese temples people kneel, hold a bamboo cup of numbered sticks and shake it until one stick falls out. The number matches a printed slip. These slips carry verses of the Dhammapada, a book of the Buddha's sayings.",
+ "sticks_shake": "Shake",
+ "sticks_again": "Shake again",
+ "sticks_num": "Stick {n}",
+ "sticks_src": "Dhammapada, verse {v}. Translated from Pali into English by F. Max Müller, 1881.",
+ "sticks_tr": "Translated here from Müller's English.",
+ "sticks_motion": "You can also shake your phone.",
+ "verses": {
+  "1": "All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts. If a man speaks or acts with an evil thought, pain follows him, as the wheel follows the foot of the ox that draws the carriage.",
+  "5": "For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.",
+  "6": "The world does not know that we must all come to an end here;—but those who know it, their quarrels cease at once.",
+  "25": "By rousing himself, by earnestness, by restraint and control, the wise man may make for himself an island which no flood can overwhelm.",
+  "35": "It is good to tame the mind, which is difficult to hold in and flighty, rushing wherever it listeth; a tamed mind brings happiness.",
+  "49": "As the bee collects nectar and departs without injuring the flower, or its colour or scent, so let a sage dwell in his village.",
+  "51": "Like a beautiful flower, full of colour, but without scent, are the fine but fruitless words of him who does not act accordingly.",
+  "53": "As many kinds of wreaths can be made from a heap of flowers, so many good things may be achieved by a mortal when once he is born.",
+  "62": "\"These sons belong to me, and this wealth belongs to me,\" with such thoughts a fool is tormented. He himself does not belong to himself; how much less sons and wealth?",
+  "80": "Well-makers lead the water (wherever they like); fletchers bend the arrow; carpenters bend a log of wood; wise people fashion themselves.",
+  "81": "As a solid rock is not shaken by the wind, wise people falter not amidst blame and praise.",
+  "91": "They depart with their thoughts well-collected, they are not happy in their abode; like swans who have left their lake, they leave their house and home.",
+  "100": "Even though a speech be a thousand (of words), but made up of senseless words, one word of sense is better, which if a man hears, he becomes quiet.",
+  "103": "If one man conquer in battle a thousand times thousand men, and if another conquer himself, he is the greatest of conquerors.",
+  "121": "Let no man think lightly of evil, saying in his heart, It will not come nigh unto me. Even by the falling of water-drops a water-pot is filled; the fool becomes full of evil, even if he gather it little by little.",
+  "122": "Let no man think lightly of good, saying in his heart, It will not come nigh unto me. Even by the falling of water-drops a water-pot is filled; the wise man becomes full of good, even if he gather it little by little.",
+  "158": "Let each man direct himself first to what is proper, then let him teach others; thus a wise man will not suffer.",
+  "170": "Look upon the world as a bubble, look upon it as a mirage: the king of death does not see him who thus looks down upon the world.",
+  "172": "He who formerly was reckless and afterwards became sober, brightens up this world, like the moon when freed from clouds.",
+  "183": "Not to commit any sin, to do good, and to purify one's mind, that is the teaching of (all) the Awakened.",
+  "197": "Let us live happily then, not hating those who hate us! among men who hate us let us dwell free from hatred!",
+  "201": "Victory breeds hatred, for the conquered is unhappy. He who has given up both victory and defeat, he, the contented, is happy.",
+  "204": "Health is the greatest of gifts, contentedness the best riches; trust is the best of relationships, Nirvana the highest happiness.",
+  "223": "Let a man overcome anger by love, let him overcome evil by good; let him overcome the greedy by liberality, the liar by truth!",
+  "227": "This is an old saying, O Atula, this is not only of to-day: 'They blame him who sits silent, they blame him who speaks much, they also blame him who says little; there is no one on earth who is not blamed.'",
+  "252": "The fault of others is easily perceived, but that of oneself is difficult to perceive; a man winnows his neighbour's faults like chaff, but his own fault he hides, as a cheat hides the bad die from the gambler.",
+  "276": "You yourself must make an effort. The Tathagatas (Buddhas) are only preachers. The thoughtful who enter the way are freed from the bondage of Mara.",
+  "354": "The gift of the law exceeds all gifts; the sweetness of the law exceeds all sweetness; the delight in the law exceeds all delights; the extinction of thirst overcomes all pain."
+ },
+ "verse354_note": "Müller writes \"the law\" where the Pali says dhamma.",
+ "tham_kicker": "Dharma letters",
+ "tham_title": "Written in tham",
+ "tham_body": "In northern Thailand the old script is called tua tham or aksòn tham, the dharma letters, because monks used it to write the teaching onto palm leaves. A palm-leaf manuscript itself is called a tham. To sponsor one and give it to a wat is to offer tham, and the great preaching festival of Lanna, held at Yi Peng in the twelfth lunar month, is Tang Tham Luang, setting up the great tham.",
+ "tham_stat_tham": "of the {total} manuscripts catalogued on wichaa are written in tham scripts: Lanna, Lao and Lue.",
+ "tham_stat_wats": "named temples hold them.",
+ "tham_stat_ves": "carry the Vessantara story, the prince who gave everything away, read aloud in thirteen chapters at Thet Mahachat festivals.",
+ "tham_go": "Open the manuscripts",
+ "tham_kesa": "One yant, thirty-two letters",
+ "nb_kicker": "Neighbours",
+ "nb_title": "Words that do similar work",
+ "nb_body": "Other traditions have their own words for the order of things and the way to walk in it. They are not the same as dharma. They are neighbours. Tap one to read it.",
+ "neighbours": [
+  {
+   "w": "ṛta",
+   "from": "Vedic Sanskrit",
+   "say": "The cosmic order in the oldest Vedic hymns, the rhythm that keeps the sun rising and the seasons turning. Dharma later took over much of its work."
+  },
+  {
+   "w": "道 dao",
+   "from": "Chinese",
+   "say": "The way. In the Daodejing it is the source of all things, and the path that cannot be fully named."
+  },
+  {
+   "w": "λόγος logos",
+   "from": "Greek",
+   "say": "Word, reason, account. For Heraclitus, the order running through all change. The Gospel of John opens with it: In the beginning was the Word."
+  },
+  {
+   "w": "maat",
+   "from": "Ancient Egyptian",
+   "say": "Truth, balance and order, pictured as a goddess with an ostrich feather. In the afterlife a heart was weighed against her feather."
+  },
+  {
+   "w": "הֲלָכָה halakha",
+   "from": "Hebrew",
+   "say": "Jewish law. The word means the walking: the way a person goes."
+  },
+  {
+   "w": "شَرِيعَة sharīʿa",
+   "from": "Arabic",
+   "say": "Islamic law and way of life. The old meaning is the path to the watering place."
+  },
+  {
+   "w": "دِين dīn",
+   "from": "Arabic",
+   "say": "Religion as a whole way of life, owed and answered for."
+  },
+  {
+   "w": "ἡ ὁδός the Way",
+   "from": "Greek, Christian",
+   "say": "The Book of Acts says the first followers of Jesus were called people of the Way."
+  }
+ ],
+ "end_title": "Visiting",
+ "end_body": "Most wats are open to visitors. People cover shoulders and knees, take their shoes off at the door of each hall, keep their feet pointed away from the Buddha images, and drop a little money in the donation box if they wish.",
+ "more": "More on wichaa",
+ "src_title": "Sources and credits",
+ "src_body": "Photographs from Wikimedia Commons and the Lanna Craft site, with their makers and licences below. Dhammapada verses from F. Max Müller's 1881 translation (Project Gutenberg). Manuscript counts are read from the wichaa catalogue when the page is built.",
+ "made": "Made in San Klang for wichaa.net."
+}

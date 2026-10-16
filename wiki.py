@@ -3416,7 +3416,7 @@ VOCAB_META = [
     ("เสน่ห์", "saneh", "attraction / allure", "effect / merit", None, []),
     ("มหานิยม", "mahaniyom", "great popularity", "effect / merit", None, []),
     ("คงกระพัน", "khong-kraphan", "invulnerability", "effect / merit", None, []),
-    ("แคล้วคลาด", "khlaeo-khlat", "evasion of danger", "effect / merit", None, []),
+    ("แคล้วคลาด", "khlaeo-khlat", "evasion of danger", "effect / merit", None, []),  # stylecheck: allow — term gloss for แคล้วคลาด
     ("มหาอุด", "maha-ut", "gun-stopping / sealing", "effect / merit", None, []),
     ("โชคลาภ", "chok-lap", "fortune / luck", "effect / merit", None, []),
     ("ค้าขาย", "kha-khai", "trade / commerce success", "effect / merit", None, []),
@@ -9044,6 +9044,22 @@ load();
 # ADDING ONE: append a dict to SIDE_TOOLS. Nothing else needs touching.
 SIDE_TOOLS = [
     {
+        "name": "Hodie \u00b7 Saint Expedite",
+        "url": "https://nanobotco.github.io/expedite/",
+        "tag": "devotion \u00b7 toys \u00b7 English and Thai",
+        "blurb": ("The saint whose cross says <i>hodie</i>, today, and whose crow says "
+                  "<i>cras</i>, tomorrow. Catch the crows, stamp tomorrow's list with "
+                  "today, set a red spirit house with red Fanta, incense, flowers and "
+                  "Thai sweets, count his days, and set your thanks in newspaper type. "
+                  "Companion to <a href=\"/expedite/\">St. Expedite</a> here."),
+        "facts": ["eight offerings, each with where it comes from",
+                  "his Wednesdays, 19ths and feast from your own clock",
+                  "the picture from 1773 to 1897, and the verse on trade"],
+        "card": "https://nanobotco.github.io/expedite/card.jpg",
+        "extra": [("Open it", "https://nanobotco.github.io/expedite/"),
+                  ("The red house", "https://nanobotco.github.io/expedite/#house")],
+    },
+    {
         "name": "Indra's Net, Drawn",
         "url": "https://nanobotco.github.io/indras-net/",
         "tag": "buddhist thought \u00b7 mathematics \u00b7 plain-spoken",
@@ -9059,6 +9075,23 @@ SIDE_TOOLS = [
         "card": "https://nanobotco.github.io/indras-net/card.jpg",
         "extra": [("Open it", "https://nanobotco.github.io/indras-net/"),
                   ("The readings", "https://nanobotco.github.io/indras-net/readings/")],
+    },
+    {
+        "name": "Cosmic Weaponry, Drawn",
+        "url": "https://nanobotco.github.io/cosmic-weaponry/",
+        "tag": "myth \u00b7 physics \u00b7 English and Thai",
+        "blurb": ("Phra In's vajra, thunderbolt and diamond in one word, turned in 3-D "
+                  "from a single prong curve. Then the Buddhist bell, lightning grown cell "
+                  "by cell, Mekhala's jewel and Ramasun's axe as a light-then-thunder clock, "
+                  "the \u0e02\u0e27\u0e32\u0e19\u0e1f\u0e49\u0e32 sky-axe and Tutankhamun's meteorite dagger, the "
+                  "discus and trident ground off the sun, and the Monkey King's eight-tonne "
+                  "staff. Companion to <a href=\"/a/entity_phanya_in/\">Phanya In</a>."),
+        "facts": ["Mekhala and Ramasun from a Thai painting, and the typhoons named for them",
+                  "the Chakri emblem's discus and trident, made from sun-dust",
+                  "every picture computed, most of them live"],
+        "card": "https://nanobotco.github.io/cosmic-weaponry/card.jpg",
+        "extra": [("Open it", "https://nanobotco.github.io/cosmic-weaponry/"),
+                  ("ภาษาไทย", "https://nanobotco.github.io/cosmic-weaponry/th/")],
     },
     {
         "name": "Skip DJT",

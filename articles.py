@@ -65,7 +65,7 @@ def draft_markdown(art):
         f"## Overview\n\n"
         f"{lede}\n\n"
         f"_Expand this: what this {noun} is, why it matters to the Lanna / wichaa "
-        f"tradition, and what a reader should know before browsing it._\n\n"
+        f"tradition, and what a reader should know before browsing it._\n\n"  # stylecheck: allow — stub placeholder for the article writer; no content file carries it
         f"## In the collection\n\n"
         f"The catalogue holds {prof['count']} manuscripts under this {noun}. {places}\n\n"
         f"## Notes\n\n"

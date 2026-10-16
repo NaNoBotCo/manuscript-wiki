@@ -450,6 +450,19 @@ ROUTES: tuple[Route, ...] = (
           featured=True,
           desc="Every mapped temple of the Lanna north — coordinates, heritage status, photographs.", door_i=13, nav_i=5),
 
+    # dharma for readers of any language or faith, and the wat as a busy place.
+    # Self-contained like kesa.py: dharma.py reads data/dharma/ and the catalogue's
+    # tham-script counts, and writes its own page with eleven translations beside it.
+    Route("/dharma", "dharma/index.html", "Dharma · ธรรม",
+          door="ธรรม · Dharma",
+          blurb="the word in eighteen languages, four traditions, and a wat full of toys",
+          desc=("Dharma for readers of any language or faith: the word in eighteen "
+                "languages, what it means to Hindus, Buddhists, Jains and Sikhs, the "
+                "eight-spoked wheel, a day at a Thai wat, sand chedi at Songkran, siam si "
+                "sticks with Dhammapada verses, and the tham script this corpus is written in. "
+                "In twelve languages."),
+          door_i=3, built_by="dharma.py"),
+
     Route("/trails", "trails/index.html", "Trails", nav="Trails",
           door="เส้นทาง · Trails",
           blurb="walks through the archive — a few records in an order, and why",

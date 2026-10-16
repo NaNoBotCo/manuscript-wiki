@@ -238,7 +238,7 @@ CHAIN = [
      "สูตรการลงยันต์แบบขอมผสมไทย",
      "page 45",
      "Every letter carries its own line — X กาโรโหติสัมภะโว, the letter X comes "
-     "into being — and the manual warns that a letter not pinned (กรึง) "
+     "into being — and the manual warns that a letter not pinned (กรึง) "  # stylecheck: allow — reports the manual's own instruction (page 45)
      "afterwards can escape and fade. A sequence that closes on itself is a "
      "sequence with nowhere to leave from.",
      ""),

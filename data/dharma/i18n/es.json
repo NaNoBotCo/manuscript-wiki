@@ -1,0 +1,336 @@
+{
+ "lang_name": "Español",
+ "meta_title": "Dharma · ธรรม · wichaa",
+ "meta_desc": "Dharma para cada lengua y fe: la palabra en dieciocho idiomas, qué significa para hindúes, budistas, jainistas y sijes, y el wat como un lugar vivo y lleno de color. Campanas, una rueda, palillos de la fortuna y una pagoda de arena por construir.",
+ "skip": "Saltar al contenido",
+ "nav_home": "wichaa",
+ "nav_lang": "Idioma",
+ "hero_kicker": "una palabra · muchas puertas",
+ "hero_title": "Dharma",
+ "hero_tap": "Toca la palabra para verla en otra escritura.",
+ "hero_lede": "Una palabra que significa aquello que sostiene todo. Hindúes, budistas, jainistas y sijes la usan, cada uno a su manera. En Tailandia vive en el wat: un templo lleno de color, comida, perros, niños, fiestas y conversación.",
+ "hero_go": "Entrar",
+ "credit": "Foto",
+ "word_kicker": "La palabra",
+ "word_title": "Dieciocho campanas",
+ "word_body": "Dharma viene de la raíz sánscrita dhṛ, sostener o sustentar. Dharma es lo que sostiene: el orden que mantiene estable al mundo, la manera correcta de vivir en él y la enseñanza que lo explica. Al viajar por Asia, la palabra fue llevada en unas lenguas y traducida en otras.",
+ "word_hint": "Toca una campana. Cada una dice dharma en otra lengua.",
+ "word_all": "Tócalas todas",
+ "word_cognate": "llevada desde el sánscrito o el pali",
+ "word_translated": "otra palabra elegida para traducirla",
+ "bells": {
+  "sa": "Sánscrito, la lengua de los Vedas. La forma más antigua de la palabra.",
+  "pi": "Pali, la lengua de las escrituras theravada que se leen en Tailandia, Laos, Myanmar, Camboya y Sri Lanka.",
+  "hi": "Hindi. En el habla cotidiana también significa religión.",
+  "pa": "Panyabí, en escritura gurmukhi. Los sijes hablan de dharam como vida recta.",
+  "th": "Tailandés. Se pronuncia tham. Se esconde dentro de palabras tailandesas comunes: thammada (normal) y thammachat (naturaleza).",
+  "tt": "Escritura tham de Lanna, las letras del dharma del norte de Tailandia. Miles de manuscritos en hoja de palma están escritos con ellas.",
+  "lo": "Laosiano. Se pronuncia tham, como en tailandés.",
+  "km": "Jemer, la lengua de Camboya. Se pronuncia thoa.",
+  "my": "Birmano, escrito dhamma. En birmano también se dice taya, y un tribunal es un taya-yon, una sala del dharma.",
+  "si": "Cingalés, la lengua de Sri Lanka.",
+  "bo": "Tibetano. Chö es una palabra propia elegida para traducir dharma.",
+  "mn": "Mongol. Nom llegó por medio de los mercaderes sogdianos desde el griego nomos, ley.",
+  "zh": "Chino. 法 significa también ley y método; un tribunal es 法院, una sala del fa.",
+  "ja": "Japonés. Un servicio conmemorativo budista es un hōji, un acontecimiento del dharma.",
+  "ko": "Coreano. Beop también significa ley; un tribunal es beobwon.",
+  "vi": "Vietnamita, del chino 法.",
+  "ta": "Tamil. Aram, virtud, es la palabra propia que el tamil usa para dharma. El Tirukkural se abre con un libro llamado Aram.",
+  "id": "Indonesio y malayo. La palabra se quedó y cambió: derma es un donativo a la caridad, y dermawan significa generoso."
+ },
+ "rooms_kicker": "Cuatro tradiciones",
+ "rooms_title": "Una palabra, cuatro casas",
+ "rooms_body": "La misma palabra hace un trabajo distinto en cada tradición. Toca una tarjeta para darle la vuelta.",
+ "rooms_turn": "Dar la vuelta",
+ "rooms": [
+  {
+   "id": "hindu",
+   "name": "Hindú",
+   "word": "dharma",
+   "front": "El orden que mantiene unido al mundo, y la parte de cada persona en conservarlo.",
+   "back": "El dharma es uno de los cuatro fines de la vida, junto con la riqueza (artha), el placer (kāma) y la liberación (mokṣa). Cada persona tiene un svadharma, un dharma propio, marcado por la edad, la familia y la vocación. En el Bhagavad Gita, Krishna dice al guerrero Arjuna que es mejor cumplir el propio dharma de manera imperfecta que cumplir bien el de otro. Muchos hindúes llaman a su religión Sanātana Dharma, el dharma eterno."
+  },
+  {
+   "id": "buddhist",
+   "name": "Budista",
+   "word": "dhamma",
+   "front": "La enseñanza del Buda, y la manera en que son las cosas, que esa enseñanza señala.",
+   "back": "Los budistas se refugian en tres joyas: el Buda (el maestro), el Dhamma (la enseñanza) y la Sangha (la comunidad de monjes, monjas y practicantes). La enseñanza empieza con cuatro verdades: la vida contiene sufrimiento; el sufrimiento tiene una causa, el ansia; puede terminar; y un camino de ocho partes lleva hasta allí. En plural, los dhammas son las piezas más pequeñas de la experiencia: un sonido, una sensación, un pensamiento."
+  },
+  {
+   "id": "jain",
+   "name": "Jainista",
+   "word": "dharma",
+   "front": "El camino de la no violencia, y también una sustancia que permite el movimiento.",
+   "back": "Para los jainistas, el dharma es la religión misma, edificada sobre ahiṃsā, no hacer daño a ningún ser vivo. La filosofía jainista nombra también al dharma como una de las seis sustancias del universo: el medio del movimiento. El agua no hace nadar a un pez, pero un pez no puede nadar sin ella. Su compañero, adharma, es el medio del reposo, como la sombra que deja descansar al viajero cansado.",
+   "toy_on": "dharma: el pez puede moverse",
+   "toy_off": "adharma: el pez descansa"
+  },
+  {
+   "id": "sikh",
+   "name": "Sij",
+   "word": "dharam",
+   "front": "Vida recta: ganarse la vida con el propio trabajo, compartir y recordar a Dios.",
+   "back": "El Japji, la oración matinal que abre el Guru Granth Sahib, dice que el toro que sostiene la tierra es dharam, el hijo de la compasión. Llama a la propia tierra un dharamsāl, un lugar para practicar el dharam. Los primeros lugares de culto sij también se llamaron dharamsāls. Cada gurdwara mantiene un langar, una cocina gratuita donde cualquiera, de cualquier fe, se sienta en el suelo y come junto con los demás."
+  },
+  {
+   "id": "thai",
+   "name": "Tailandés cotidiano",
+   "word": "ธรรม tham",
+   "front": "El dharma se esconde dentro de palabras tailandesas comunes. Dale la vuelta para encontrarlo.",
+   "back": "Busca ธรรม en cada palabra."
+  }
+ ],
+ "thai_words": [
+  {
+   "th": "ธรรมดา",
+   "rom": "thammada",
+   "en": "normal, corriente"
+  },
+  {
+   "th": "ธรรมชาติ",
+   "rom": "thammachat",
+   "en": "naturaleza"
+  },
+  {
+   "th": "ยุติธรรม",
+   "rom": "yutitham",
+   "en": "justo, justicia"
+  },
+  {
+   "th": "ธรรมเนียม",
+   "rom": "thamniam",
+   "en": "costumbre, tradición"
+  },
+  {
+   "th": "คุณธรรม",
+   "rom": "khunnatham",
+   "en": "virtud"
+  },
+  {
+   "th": "อักษรธรรม",
+   "rom": "aksòn tham",
+   "en": "escritura tham, las letras del dharma"
+  },
+  {
+   "th": "ธรรมาสน์",
+   "rom": "thammat",
+   "en": "el asiento elevado desde el que predica un monje"
+  },
+  {
+   "th": "รัฐธรรมนูญ",
+   "rom": "ratthathammanun",
+   "en": "constitución"
+  }
+ ],
+ "band_langar": "Un langar: cualquiera puede entrar, sentarse y comer.",
+ "wheel_kicker": "La rueda",
+ "wheel_title": "Gira la rueda",
+ "wheel_body": "El primer sermón del Buda se recuerda como la puesta en marcha de la Rueda del Dhamma. Una rueda de ocho radios representa el camino de ocho partes. Una rueda del dharma con veinticuatro radios, el Ashoka Chakra, está en el centro de la bandera de la India.",
+ "wheel_spin": "Girar",
+ "wheel_hint": "Arrastra la rueda o pulsa Girar. El radio que quede arriba es el tuyo.",
+ "spokes": [
+  {
+   "pali": "sammā diṭṭhi",
+   "en": "Ver con claridad",
+   "say": "Ver cómo son las cosas: cambian, y aferrarse a ellas duele."
+  },
+  {
+   "pali": "sammā saṅkappa",
+   "en": "Intención bondadosa",
+   "say": "Partir con buena voluntad, no con mala voluntad ni crueldad."
+  },
+  {
+   "pali": "sammā vācā",
+   "en": "Hablar bien",
+   "say": "No mentir, no cotillear para dividir, no usar palabras duras ni charla ociosa."
+  },
+  {
+   "pali": "sammā kammanta",
+   "en": "Actuar bien",
+   "say": "No matar, no robar, no dañar mediante el sexo."
+  },
+  {
+   "pali": "sammā ājīva",
+   "en": "Ganarse la vida bien",
+   "say": "Un sustento que no daña a nadie."
+  },
+  {
+   "pali": "sammā vāyāma",
+   "en": "Esfuerzo constante",
+   "say": "Soltar lo que no ayuda, cultivar lo que ayuda."
+  },
+  {
+   "pali": "sammā sati",
+   "en": "Prestar atención",
+   "say": "Notar el cuerpo, las sensaciones, la mente y aquello que la mente encuentra, tal como suceden."
+  },
+  {
+   "pali": "sammā samādhi",
+   "en": "Una mente serena",
+   "say": "La calma y la concentración recogida que construye la meditación."
+  }
+ ],
+ "wat_kicker": "El wat",
+ "wat_title": "Un wat es un lugar animado",
+ "wat_body": "Un wat (วัด) es un templo-monasterio tailandés. Allí viven monjes y novicios, y también perros, gatos y alguna gallina. Las escuelas de los pueblos empezaron en los wats. Los mercados se instalan junto a la puerta, las familias llegan para recibir bendiciones, los niños juegan en el patio y, en la estación fresca, los recintos se llenan de ferias de templo: una noria, puestos de lanzamiento de aros, una banda sobre un escenario y calamares a la parrilla. El color está allí a propósito: mosaico de vidrio, oro, laca roja y largas banderas tung que se mueven con el viento.",
+ "day_title": "Un día en el wat",
+ "day_hint": "Desliza el sol a lo largo del día.",
+ "day": [
+  {
+   "t": "04:30",
+   "what": "Una campana despierta a los monjes. El canto matinal en pali llena la sala."
+  },
+  {
+   "t": "06:00",
+   "what": "Ronda de limosnas. Los monjes caminan descalzos por el sendero con sus cuencos. La gente espera al borde del camino con arroz y comida, y se inclina al ofrecerla."
+  },
+  {
+   "t": "08:00",
+   "what": "Empieza la escuela. Muchas escuelas tailandesas están dentro o junto al recinto de un wat. Los novicios también estudian."
+  },
+  {
+   "t": "11:00",
+   "what": "Retumba el tambor phen (กลองเพล). Llama a los monjes a su última comida del día, que terminan antes del mediodía."
+  },
+  {
+   "t": "13:00",
+   "what": "Siesta. Los perros del templo duermen a la sombra de la sala. La gente se acerca para hacer méritos, encender incienso o pedir a un monje una bendición."
+  },
+  {
+   "t": "16:00",
+   "what": "Los niños juegan al fútbol en el patio. Los vendedores de aperitivos acercan sus carritos a la puerta."
+  },
+  {
+   "t": "18:00",
+   "what": "Canto vespertino. El tambor y la gran campana suenan cuando cae la luz."
+  },
+  {
+   "t": "20:00",
+   "what": "Noches de feria: la feria del templo (งานวัด) está abierta. Luces en el chedi, un escenario, juegos, dulces, todo el pueblo en la calle."
+  }
+ ],
+ "moon_now": "Luna esta noche: {phase}, alrededor del día {d} de 15.",
+ "moon_waxing": "creciente",
+ "moon_waning": "menguante",
+ "moon_note": "Wan phra (วันพระ), el día sagrado budista, cae el día 8 y el día 15 de la luna creciente y de la luna menguante. Más gente acude al wat esos días.",
+ "moon_near": "Wan phra es más o menos ahora.",
+ "sand_title": "Arena para el wat",
+ "sand_body": "En el norte de Tailandia se dice que durante todo el año uno se lleva un poco del wat en los pies. En Songkran, el Año Nuevo tailandés a mediados de abril, las familias llevan arena de vuelta al wat y construyen con ella chedis, pagodas, y luego plantan banderas brillantes en lo alto. Después todo el mundo se lanza agua.",
+ "sand_carry": "Lleva un cubo",
+ "sand_flag": "Planta una bandera",
+ "sand_count": "{n} cubos llevados",
+ "sand_done": "Tu chedi está terminado. Tócalo para más banderas.",
+ "sand_reset": "Empezar de nuevo",
+ "photos_title": "Color, de cerca",
+ "cap_tung": "Banderas tung sobre el chedi en Wat Lok Molee, Chiang Mai.",
+ "cap_mosaic": "Vidrio de colores y oro en Wat Chiang Man, Chiang Mai.",
+ "cap_whisper": "El Susurro de Amor: un mural en Wat Phumin, Nan, de un hombre murmurando a una mujer.",
+ "cap_avenue": "Un camino bordeado de tung en Wat Hiranyawat.",
+ "cap_bells": "Campanas sobre una barandilla naga en Wat Saeng Kaew Phothiyan. Los visitantes las tocan al pasar.",
+ "cap_dog": "Un perro del templo y novicios en Wat Phra Singh, Chiang Mai.",
+ "cap_songkran": "Songkran en Chiang Mai.",
+ "cap_sand": "Chedi de arena y banderas en Songkran, Wat Pho, Bangkok.",
+ "cap_langar": "Langar en el gurdwara de Manikaran, India.",
+ "cap_langar_family": "Una familia cocina para un langar.",
+ "cap_naga": "Serpientes naga custodian la escalera de Wat Phra That Doi Suthep.",
+ "sticks_kicker": "Siam si",
+ "sticks_title": "Agita los palillos",
+ "sticks_body": "En muchos templos tailandeses y chinos la gente se arrodilla, sostiene un cubo de bambú con palillos numerados y lo agita hasta que un palillo cae. El número corresponde a una papeleta impresa. Esas papeletas llevan versos del Dhammapada, un libro de dichos del Buda.",
+ "sticks_shake": "Agitar",
+ "sticks_again": "Agitar de nuevo",
+ "sticks_num": "Palillo {n}",
+ "sticks_src": "Dhammapada, verso {v}. Traducido del pali al inglés por F. Max Müller, 1881.",
+ "sticks_tr": "Traducido aquí del inglés de Müller.",
+ "sticks_motion": "También puedes agitar el teléfono.",
+ "verses": {
+  "1": "Todo lo que somos es el resultado de lo que hemos pensado: está fundado en nuestros pensamientos, está hecho de nuestros pensamientos. Si un hombre habla o actúa con un pensamiento malvado, el dolor lo sigue, como la rueda sigue al pie del buey que arrastra el carro.",
+  "5": "Porque el odio no cesa con odio en ningún momento: el odio cesa con amor, esta es una regla antigua.",
+  "6": "El mundo no sabe que todos debemos llegar a un fin aquí; pero quienes lo saben, sus disputas cesan al instante.",
+  "25": "Despertándose a sí mismo, con seriedad, con moderación y dominio, el sabio puede hacerse una isla que ninguna inundación pueda anegar.",
+  "35": "Es bueno domar la mente, que es difícil de sujetar y voluble, que corre adonde se le antoja; una mente domada trae felicidad.",
+  "49": "Como la abeja recoge el néctar y se marcha sin dañar la flor, ni su color ni su aroma, así habite el sabio en su aldea.",
+  "51": "Como una flor hermosa, llena de color, pero sin aroma, son las palabras bellas pero estériles de quien no actúa en consecuencia.",
+  "53": "Como muchas clases de guirnaldas pueden hacerse con un montón de flores, así muchas cosas buenas puede lograr un mortal una vez que ha nacido.",
+  "62": "«Estos hijos me pertenecen, y esta riqueza me pertenece», con tales pensamientos se atormenta el necio. Él mismo no se pertenece a sí mismo; ¿cuánto menos los hijos y la riqueza?",
+  "80": "Los que hacen canales conducen el agua adonde quieren; los flecheros doblan la flecha; los carpinteros doblan un tronco de madera; las personas sabias se modelan a sí mismas.",
+  "81": "Como una roca sólida no se mueve con el viento, las personas sabias no flaquean ante la culpa y la alabanza.",
+  "91": "Se marchan con sus pensamientos bien recogidos, no son felices en su morada; como cisnes que han dejado su lago, dejan su casa y su hogar.",
+  "100": "Aunque un discurso tenga mil palabras, pero esté hecho de palabras sin sentido, una palabra con sentido es mejor, y si un hombre la escucha, se aquieta.",
+  "103": "Si un hombre vence en batalla a mil veces mil hombres, y si otro se vence a sí mismo, este es el mayor de los conquistadores.",
+  "121": "Que nadie piense a la ligera del mal, diciendo en su corazón: No se acercará a mí. Incluso con la caída de gotas de agua se llena un cántaro; el necio se llena de mal, aunque lo junte poco a poco.",
+  "122": "Que nadie piense a la ligera del bien, diciendo en su corazón: No se acercará a mí. Incluso con la caída de gotas de agua se llena un cántaro; el sabio se llena de bien, aunque lo junte poco a poco.",
+  "158": "Que cada hombre se dirija primero a sí mismo hacia lo que es correcto; luego que enseñe a otros; así el sabio no sufrirá.",
+  "170": "Mira el mundo como una burbuja, míralo como un espejismo: el rey de la muerte no ve a quien así mira el mundo.",
+  "172": "Quien antes era descuidado y después se volvió sobrio, ilumina este mundo, como la luna cuando se libera de las nubes.",
+  "183": "No cometer pecado alguno, hacer el bien y purificar la propia mente: esa es la enseñanza de todos los Despiertos.",
+  "197": "Vivamos felices, entonces, sin odiar a quienes nos odian. Entre hombres que nos odian, vivamos libres de odio.",
+  "201": "La victoria engendra odio, porque el vencido es infeliz. Quien ha renunciado tanto a la victoria como a la derrota, ese, el contento, es feliz.",
+  "204": "La salud es el mayor de los dones, el contento la mejor de las riquezas; la confianza es la mejor de las relaciones, el Nirvana la felicidad más alta.",
+  "223": "Que un hombre venza la ira con amor, que venza el mal con el bien; que venza al avaro con generosidad, al mentiroso con la verdad.",
+  "227": "Este es un dicho antiguo, Atula, no es solo de hoy: «Culpan a quien se sienta en silencio, culpan a quien habla mucho, también culpan a quien habla poco; no hay nadie en la tierra que no sea culpado».",
+  "252": "La falta ajena se percibe fácilmente, pero la propia es difícil de percibir; un hombre aventa las faltas de su vecino como paja, pero esconde su propia falta, como un tramposo esconde el dado malo al jugador.",
+  "276": "Tú mismo debes esforzarte. Los Tathagatas, los Budas, solo son predicadores. Los reflexivos que entran en el camino quedan libres de la esclavitud de Mara.",
+  "354": "El don de la ley supera todos los dones; la dulzura de la ley supera toda dulzura; el deleite en la ley supera todos los deleites; la extinción de la sed vence todo dolor."
+ },
+ "verse354_note": "Müller escribe «la ley» donde el pali dice dhamma.",
+ "tham_kicker": "Letras del dharma",
+ "tham_title": "Escrito en tham",
+ "tham_body": "En el norte de Tailandia la escritura antigua se llama tua tham o aksòn tham, las letras del dharma, porque los monjes la usaban para escribir la enseñanza en hojas de palma. Un manuscrito en hoja de palma se llama también tham. Patrocinar uno y regalarlo a un wat es ofrecer tham, y el gran festival de predicación de Lanna, celebrado en Yi Peng en el duodécimo mes lunar, es Tang Tham Luang, la instalación del gran tham.",
+ "tham_stat_tham": "de los {total} manuscritos catalogados en wichaa están escritos en escrituras tham: lanna, lao y lue.",
+ "tham_stat_wats": "templos nombrados los conservan.",
+ "tham_stat_ves": "llevan la historia de Vessantara, el príncipe que lo dio todo, leída en voz alta en trece capítulos en los festivales de Thet Mahachat.",
+ "tham_go": "Abrir los manuscritos",
+ "tham_kesa": "Un yant, treinta y dos letras",
+ "nb_kicker": "Vecinos",
+ "nb_title": "Palabras que hacen un trabajo parecido",
+ "nb_body": "Otras tradiciones tienen sus propias palabras para el orden de las cosas y el camino por el que andar en él. No son lo mismo que dharma. Son vecinos. Toca una para leerla.",
+ "neighbours": [
+  {
+   "w": "ṛta",
+   "from": "Sánscrito védico",
+   "say": "El orden cósmico en los himnos védicos más antiguos, el ritmo que mantiene al sol saliendo y a las estaciones girando. Dharma asumió después gran parte de su trabajo."
+  },
+  {
+   "w": "道 dao",
+   "from": "Chino",
+   "say": "El camino. En el Daodejing es la fuente de todas las cosas, y la senda que no puede nombrarse del todo."
+  },
+  {
+   "w": "λόγος logos",
+   "from": "Griego",
+   "say": "Palabra, razón, relato. Para Heráclito, el orden que recorre todo cambio. El Evangelio de Juan se abre con ella: En el principio era la Palabra."
+  },
+  {
+   "w": "maat",
+   "from": "Egipcio antiguo",
+   "say": "Verdad, equilibrio y orden, representada como una diosa con una pluma de avestruz. En el más allá se pesaba el corazón contra su pluma."
+  },
+  {
+   "w": "הֲלָכָה halakha",
+   "from": "Hebreo",
+   "say": "Ley judía. La palabra significa el caminar: la manera en que va una persona."
+  },
+  {
+   "w": "شَرِيعَة sharīʿa",
+   "from": "Árabe",
+   "say": "Ley islámica y modo de vida. El sentido antiguo es el camino hacia el abrevadero."
+  },
+  {
+   "w": "دِين dīn",
+   "from": "Árabe",
+   "say": "Religión como modo de vida completo, que se debe y del que se responde."
+  },
+  {
+   "w": "ἡ ὁδός el Camino",
+   "from": "Griego, cristiano",
+   "say": "El Libro de los Hechos dice que a los primeros seguidores de Jesús se les llamaba gente del Camino."
+  }
+ ],
+ "end_title": "De visita",
+ "end_body": "La mayoría de los wats están abiertos a los visitantes. La gente se cubre hombros y rodillas, se quita los zapatos en la puerta de cada sala, mantiene los pies apuntando lejos de las imágenes del Buda y deja un poco de dinero en la caja de donativos si lo desea.",
+ "more": "Más en wichaa",
+ "src_title": "Fuentes y créditos",
+ "src_body": "Fotografías de Wikimedia Commons y del sitio Lanna Craft, con sus autores y licencias abajo. Versos del Dhammapada de la traducción de F. Max Müller de 1881 (Project Gutenberg). Las cifras de manuscritos se leen del catálogo de wichaa cuando se construye la página.",
+ "made": "Hecho en San Klang para wichaa.net."
+}
