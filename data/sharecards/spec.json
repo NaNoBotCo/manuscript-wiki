@@ -1,0 +1,220 @@
+{
+  "site": "https://wichaa.net",
+  "common": {
+    "kicker": "wichaa · วิชา",
+    "accent": "#e9c46a",
+    "bg": "#12302d",
+    "font": "Noto Serif Thai"
+  },
+  "pages": {
+    "index.html": {
+      "keep": true,
+      "alt": "Card: The Lanna Manuscript Wiki, Northern Thai knowledge where no line is drawn between science, magic, medicine and nature, in dark serif type on cream"
+    },
+    "amulets/index.html": {
+      "keep": true,
+      "alt": "Card: Amulet Essentials, สารบบเครื่องราง, ten amulets in gold, red and green set round a ring on a dark ground"
+    },
+    "atlas/index.html": {
+      "keep": true,
+      "alt": "Card: The Atlas, every concept in the archive as dots joined by lines, in green on dark teal"
+    },
+    "blessings/index.html": {
+      "keep": true,
+      "alt": "Card: ใต้ร่มพร, the blessings the bots work under, a five-tiered umbrella drawn in gold on dark blue"
+    },
+    "divination/index.html": {
+      "keep": true,
+      "alt": "Card: Divination, a gold yin-yang disc beside I Ching, Plum Blossom and Wen Wang Gua, on dark teal"
+    },
+    "expedite/index.html": {
+      "keep": true,
+      "alt": "Card: HODIE, St. Expedite the saint of today, a holy card of the Roman soldier holding a cross, CRAS struck through"
+    },
+    "holding/index.html": {
+      "keep": true,
+      "alt": "Card: I'm holding an amulet, ถืออยู่ในมือ, with material choices as buttons: pressed powder, fired earth, lead-tin alloy, cast metal, organic, relic cloth"
+    },
+    "hotrai/index.html": {
+      "keep": true,
+      "alt": "Card: หอไตร, the ho trai, a gold manuscript library on stilts over water, on green"
+    },
+    "hun/index.html": {
+      "keep": true,
+      "alt": "Card: The servant that works while you sleep, หุ่นพยนต์ Hun Payont, a bamboo effigy with a green sash beside its text"
+    },
+    "jovilabe/index.html": {
+      "keep": true,
+      "alt": "Card: The Jovilabe, a brass dial of Jupiter's four great moons in their orbits, on cream"
+    },
+    "moon/index.html": {
+      "keep": true,
+      "alt": "Card: The moon complication, a moonphase dial with two moons behind a cloud plate, on dark green"
+    },
+    "need/index.html": {
+      "keep": true,
+      "alt": "Card: Find by need, a bar chart of purposes with their manuscript and market listing counts"
+    },
+    "redspot/index.html": {
+      "keep": true,
+      "alt": "Card: The Red Spot dial, a dial of the sky over Jupiter's Great Red Spot with the four moons"
+    },
+    "sukhwan/index.html": {
+      "keep": true,
+      "alt": "Card: สู่ขวัญยนต์, su khwan for machines and robots, a white thread with a ring on night blue"
+    },
+    "trails/index.html": {
+      "keep": true,
+      "alt": "Card: Trails, walks through the archive, five gold dots joined by a line on dark green"
+    },
+    "waikhru/index.html": {
+      "keep": true,
+      "alt": "Card: ไหว้ครูยนต์, a blessing for the hand at the machine, a gold spiral and nine dots on dark blue"
+    },
+    "widgets/index.html": {
+      "keep": true,
+      "alt": "Card: Widgets, small free tools that do one thing, with a Skip DJT button, on cream"
+    },
+    "nuea/index.html": {
+      "image": "/nuea/card.png",
+      "alt": "Card: เนื้อ, what it is made of, with a bar chart of the materials listings name"
+    },
+    "articles/index.html": {
+      "slug": "articles",
+      "alt": "Card: Profiles, subject profiles drawn from the catalogue, in cream serif type on dark teal",
+      "render": {
+        "title": "Profiles",
+        "sub": "Subject profiles from the catalogue, with counts and cross-links.",
+        "glyph": "P"
+      }
+    },
+    "browse/index.html": {
+      "slug": "browse",
+      "alt": "Card: Browse the catalogue, the Lanna manuscript corpus by tradition, script and genre, in cream serif type on dark teal",
+      "render": {
+        "title": "Browse the catalogue",
+        "sub": "The Lanna manuscript corpus, by tradition, script, genre and more.",
+        "glyph": "B"
+      }
+    },
+    "diagrams/index.html": {
+      "slug": "diagrams",
+      "alt": "Card: Diagrams, the drawn tradition, in cream serif type on dark teal",
+      "render": {
+        "title": "Diagrams",
+        "sub": "The drawn tradition: yantra, sak-yant stencils, cosmological charts and talismanic figures.",
+        "glyph": "ย"
+      }
+    },
+    "glossary/index.html": {
+      "slug": "glossary",
+      "alt": "Card: Glossary, the words of the tradition in Thai, English and Chinese, in cream serif type on dark teal",
+      "render": {
+        "title": "Glossary",
+        "sub": "The words the tradition uses, in Thai, English and 中文.",
+        "glyph": "ศ"
+      }
+    },
+    "graph/index.html": {
+      "slug": "graph",
+      "alt": "Card: Relationship graph, how subjects and genres connect, in cream serif type on dark teal",
+      "render": {
+        "title": "Relationship graph",
+        "sub": "The web of subjects, genres and how they connect.",
+        "glyph": "G"
+      }
+    },
+    "handpoke/index.html": {
+      "slug": "handpoke",
+      "alt": "Card: Hand Poke, 28 traditions of marking skin by hand, over a Wat Phumin mural of a man carrying two pots on a pole",
+      "render": {
+        "title": "Hand Poke",
+        "sub": "28 traditions of marking skin by hand, and where on the body.",
+        "image": "https://wichaa.net/handpoke/images/sak-kha-lai/sak-kha-lai-peinture-murale-wat-phumin2-nan.jpg",
+        "focus": "50% 40%",
+        "credit": "Wat Phumin mural, Nan · Ellnik · CC BY-SA 3.0"
+      }
+    },
+    "kesa/index.html": {
+      "slug": "kesa",
+      "alt": "Card: ยันต์เกศาผิด, a body written as thirty-two letters laid in by the knight's move, over the plate with its arrowed route on a grid",
+      "render": {
+        "title": "ยันต์เกศาผิด",
+        "sub": "A body written as thirty-two letters, laid in by the knight's move.",
+        "image": "https://wichaa.net/kesa/plate-order.jpeg",
+        "focus": "50% 66%",
+        "lang": "th",
+        "dark": true
+      }
+    },
+    "market/index.html": {
+      "slug": "market",
+      "alt": "Card: The Living Tradition, wichaa still worn, carried and traded today, in cream serif type on dark teal",
+      "render": {
+        "title": "The Living Tradition",
+        "sub": "The wichaa the manuscripts describe, still worn, carried and traded today.",
+        "glyph": "ว"
+      }
+    },
+    "na/index.html": {
+      "slug": "na",
+      "alt": "Card: The 108 Na, sacred syllable-glyphs from the Scripture of 108 Magical Na, in cream serif type on dark teal",
+      "render": {
+        "title": "The 108 Na",
+        "sub": "Every na from the Scripture of 108 Magical Na, paired with the page it was drawn on.",
+        "glyph": "น"
+      }
+    },
+    "search/index.html": {
+      "slug": "search",
+      "alt": "Card: ค้นความหมาย, search the Lanna manuscript corpus by meaning, in Thai or English, in cream serif type on dark teal",
+      "render": {
+        "title": "ค้นความหมาย · Search by meaning",
+        "sub": "Search the Lanna manuscript corpus by meaning, in Thai or English.",
+        "glyph": "ค",
+        "lang": "th"
+      }
+    },
+    "support/index.html": {
+      "slug": "support",
+      "alt": "Card: Support the archive, a tip buys the bots time to read one more text, in cream serif type on dark teal",
+      "render": {
+        "title": "Support the archive",
+        "sub": "A tip buys the bots time to read one more text, so everyone can have it.",
+        "glyph": "บ"
+      }
+    },
+    "textbooks/index.html": {
+      "slug": "textbooks",
+      "alt": "Card: Textbooks, contributed wichaa manuscripts transcribed and translated a page at a time, in cream serif type on dark teal",
+      "render": {
+        "title": "Textbooks",
+        "sub": "Contributed wichaa manuscripts, transcribed and translated one page at a time.",
+        "glyph": "ต"
+      }
+    },
+    "wats/index.html": {
+      "slug": "wats",
+      "alt": "Card: Wats of Chiang Mai, an open map of Buddhist temples across the Lanna north, over a photograph of Wat Chedi Luang's brick chedi behind a viharn",
+      "render": {
+        "title": "Wats of Chiang Mai",
+        "sub": "An open map of Buddhist temples across the Lanna north, with heritage sites marked.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Wat_Chedi_Luang%2C_Buddhist_temple%2C_Chiang_Mai%2C_Thailand.jpg/1280px-Wat_Chedi_Luang%2C_Buddhist_temple%2C_Chiang_Mai%2C_Thailand.jpg",
+        "focus": "50% 50%",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0"
+      }
+    },
+    "yant/index.html": {
+      "slug": "yant",
+      "alt": "Card: ยันต์ The yant designs, named designs from the Lanna corpus, over a sak yant stencil with a lotus and a long line of script",
+      "render": {
+        "title": "ยันต์ · The yant designs",
+        "sub": "Named designs from the Lanna corpus, by Thai name, by figure and by what each is worked for.",
+        "image": "https://wichaa.net/pimg/6985/8.png",
+        "focus": "50% 28%",
+        "dark": true,
+        "credit": "Lanna Manuscript Wiki · CC BY 4.0"
+      }
+    }
+  }
+}

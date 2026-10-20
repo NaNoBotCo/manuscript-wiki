@@ -356,6 +356,14 @@ log "Adding machine-legibility layer → site_meta.py"
 "$PY" "$WIKI_DIR/site_meta.py" --docs "$SITE_REPO/docs" --site-url "$SITE_URL" \
   ${CUSTOM_DOMAIN:+--custom-domain "$CUSTOM_DOMAIN"}
 
+# 2b-1. link cards: og:image, size and alt tags for the pages whose generators do not
+#     write them, and the cards drawn for them (data/sharecards/) copied to docs/og/.
+#     After site_meta.py so nothing rewrites the head again. Not fatal: a page it
+#     cannot tag keeps the tags its generator wrote.
+log "Link cards → sharecards.py"
+"$PY" "$WIKI_DIR/sharecards.py" apply --docs "$SITE_REPO/docs" --site-url "$SITE_URL" || \
+  echo "  ! link cards skipped"
+
 # 2b. FINAL privacy gate — runs LAST, after EVERY generator (build_static.py has its
 #     own gate but glossary.py / na_gallery.py / site_meta.py all write files after it).
 #     A build machine's absolute path leaks the operator's username + local layout
