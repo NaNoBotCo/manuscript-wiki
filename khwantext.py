@@ -227,7 +227,7 @@ def khwan_body(nav: str) -> str:
         "the calling <em>performed</em> for you — your name in every verse, "
         "spoken and kept — ask here and it is done. The complete transcript "
         "comes to you by mail: Thai, romanization, English and gloss, with the "
-        "timestamps of the rite as performed. It is free, and it stays free.</p>"
+        "timestamps of the rite as performed. It is free.</p>"
         "<p><strong>Only for yourself.</strong> Not for a friend, not as a "
         "surprise, not on anyone's behalf. Some people would consider this "
         "idolatry, and no one should be prayed over without having asked. If "
