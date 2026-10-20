@@ -161,8 +161,6 @@ def connect():
     # the build reads it, and saying so lets SQLite skip locking entirely —
     # which sidesteps the whole failure class where a read-only opener cannot
     # roll back a hot journal and dies with "unable to open database file".
-    # Never set it against the LIVE catalogue: the crawler writes that file, and
-    # immutable would license SQLite to serve stale or torn pages.
     if os.environ.get("CATALOG_IMMUTABLE"):
         uri = f"file:{CATALOG_DB}?immutable=1"
     else:
@@ -6287,7 +6285,7 @@ SUBSCRIBE_CSS = (
 
 def subscribe_block(source="site", heading="ข่าวคราว · Word from the archive",
                     blurb=("Now and then, when the bots finish reading something worth "
-                           "telling you about. No more often than that, and never anything else.")):
+                           "telling you about.")):
     """A small, self-contained signup. `source` records which page earned it."""
     sid = "sx" + str(abs(hash(source)) % 100000)
     return (
@@ -6304,7 +6302,7 @@ def subscribe_block(source="site", heading="ข่าวคราว · Word fro
       "</form>"
       "<p class='said' hidden></p>"
       "<p style='margin:12px 0 0;font-size:13px;color:var(--muted)'>"
-      "One address, kept by us and nobody else. Every letter carries a one-click "
+      "One address, kept by us. Every letter carries a one-click "
       "unsubscribe, and leaving is instant and final.</p>"
       "</section>"
       "<script>(function(){"
@@ -6344,11 +6342,9 @@ SUPPORT_PAGE = page("Support — wichaa", SUBSCRIBE_CSS + """
   .how code{background:#fff;border:1px solid var(--line);border-radius:6px;padding:1px 7px}
   .muted{color:var(--muted)}
 """,
-  "<header><div><h1>Support the archive</h1><p class=sub>Funded by merit, not "
-  "paywalls</p></div>" + NAV + "</header>"
+  "<header><div><h1>Support the archive</h1><p class=sub>Funded by merit</p></div>" + NAV + "</header>"
   "<main id=main><div class=sup>"
-  "<p class=lead>Everything here is free — no ads, no paywall, no "
-  "login. But the reading is done by machines, and machine-time costs a little. A "
+  "<p class=lead>Everything here is free. The reading is done by machines, and machine-time costs a little. A "
   "tip isn't a subscription or a lock; it simply buys the bots time to read one "
   "more text, so <b>everyone</b> can have it. In the north that's <i>tam boon</i> — "
   "merit made by opening a book for others.</p>"
@@ -6357,8 +6353,8 @@ SUPPORT_PAGE = page("Support — wichaa", SUBSCRIBE_CSS + """
   "<div class=box><b>~$0.16</b><span>per page for rare scripts (Khom, Tham Lanna)</span></div>"
   "<div class=box><b>a few $</b><span>a whole manual, read cover to cover</span></div>"
   "</div>"
-  "<p class=muted>Those are the real numbers, at 2.5× the raw model cost — the small "
-  "margin is what keeps the archive running. Nothing hidden.</p>"
+  "<p class=muted>Those are the numbers, at 2.5× the raw model cost — the small "
+  "margin is what keeps the archive running.</p>"
 
   "<h2>☕ Sponsor a translation</h2>"
   "<p>Pick a volume on the <a href='/textbooks'>Textbooks</a> page — each shows exactly "
@@ -6389,8 +6385,8 @@ SUPPORT_PAGE = page("Support — wichaa", SUBSCRIBE_CSS + """
 
   + subscribe_block(source="support") +
 
-  "<p class=muted style='margin-top:26px'>The archive gives; it never takes. If you're "
-  "not moved to give, take everything freely — that's what it's here for.</p>"
+  "<p class=muted style='margin-top:26px'>If you're not moved to give, take everything "
+  "freely — that is what it is here for.</p>"
   "</div></main>")
 
 
@@ -6529,7 +6525,7 @@ async function load(){
       el('code',{textContent:'TRANSLATE 6968'}),
       document.createTextNode(' — and your gift buys that many pages of faithful, image-grounded translation (or '),
       el('code',{textContent:'OCR 6968'}),
-      document.createTextNode(' for a raw text pass). Prices are per page at 2.5× the raw model cost — the margin is what keeps the archive running; nothing hidden.'));
+      document.createTextNode(' for a raw text pass). Prices are per page at 2.5× the raw model cost — the margin is what keeps the archive running.'));
     box.append(how);
     for(const j of (s.jobs||[])){
       const row=el('div',{className:'sjob'});
@@ -6933,7 +6929,7 @@ function render(){
 
   const right=el('div');const nc=el('div',{className:'card'});
   nc.append(el('h2',{textContent:'My notes & tags',style:'margin-top:0'}));
-  nc.append(el('p',{className:'muted',textContent:'Saved locally, never sent anywhere, safe across re-crawls.'}));
+  nc.append(el('p',{className:'muted',textContent:'Saved on this device, kept across re-crawls.'}));
   nc.append(el('textarea',{id:'notes',value:ANN.notes||'',placeholder:'Notes, translations, questions…'}));
   nc.append(el('label',{style:'display:block;font-weight:700;margin:12px 0 4px',textContent:'Tags (comma-separated)'}));
   nc.append(el('input',{type:'text',id:'tags',value:(ANN.tags||[]).join(', '),placeholder:'e.g. to-translate, key-source'}));
@@ -7080,7 +7076,7 @@ async function folioWall(main){
     wall.append(a);}
   const card=el('div',{className:'card'});
   card.append(el('h2',{className:'sec',textContent:'From the library',style:'margin-top:0'}),
-    el('p',{className:'lead'},[document.createTextNode('Photographs of the folios themselves — the manuscript pages as they were digitised at the source, not transcriptions or descriptions of them. '+(f.total||0).toLocaleString()+' have been drawn into the library so far, each held under its own checksum so a page is never stored twice, and the number grows as the crawl runs. Below is a shuffled handful: open any folio to read what the catalogue records of its manuscript and provenance, or browse the '),el('a',{href:'/gallery',textContent:'plates gallery'}),document.createTextNode(' for the rendered diagrams and captioned pages.')]),
+    el('p',{className:'lead'},[document.createTextNode('Photographs of the folios themselves — the manuscript pages as they were digitised at the source, not transcriptions or descriptions of them. '+(f.total||0).toLocaleString()+' have been drawn into the library so far, each held under its own checksum so a page is stored once, and the number grows as the crawl runs. Below is a shuffled handful: open any folio to read what the catalogue records of its manuscript and provenance, or browse the '),el('a',{href:'/gallery',textContent:'plates gallery'}),document.createTextNode(' for the rendered diagrams and captioned pages.')]),
     wall);
   main.append(card);
 }
@@ -7558,7 +7554,7 @@ async function load(){
   const d=await (await fetch('/api/lenses')).json();
   const main=document.getElementById('main');main.textContent='';
   if(!d.dbPresent){main.append(el('div',{className:'empty'},[el('p',{textContent:'No catalog database yet.'})]));return;}
-  main.append(el('p',{className:'lead',textContent:'This archive serves very different visitors. Pick the way in that fits your purpose — nothing here is walled off, the lenses just reorder the same corpus around what you came for.'}));
+  main.append(el('p',{className:'lead',textContent:'This archive serves very different visitors. Pick the way in that fits your purpose; the lenses reorder the same corpus around what you came for.'}));
   const grid=el('div',{className:'lenses'});
   for(const L of d.lenses){
     const card=el('div',{className:'lens'+(L.gated?' gated':'')});
@@ -8501,7 +8497,7 @@ function render(){const d=window.__W,main=document.getElementById('main');main.t
       navigator.geolocation.getCurrentPosition(pos=>{
         here={lat:pos.coords.latitude,lng:pos.coords.longitude};
         sortBy='near';sel.disabled=false;paint(document.getElementById('wgrid'));
-      },()=>{alert('Could not get your location — it stays on your device either way.');sel.value=sortBy;sel.disabled=false;});
+      },()=>{alert('Could not get your location.');sel.value=sortBy;sel.disabled=false;});
       return;}
     sortBy=sel.value;paint(document.getElementById('wgrid'));};
   sr.append(sel);
@@ -8805,14 +8801,14 @@ function openModal(x){
       '<button class="mbtn" data-dl="1">Download submission file</button>'+
     '</div>'+
     '<div class="mqueue" id="mqueue"></div>'+
-    '<div class="mfrom">Nothing is sent automatically. Notes stay on this device until you press a button. <b>Send to the archive</b> posts them to a moderation queue, where a person reads every one before anything is published — nothing you send reaches the map on its own, and the queue is never public. Photographs travel too, credited to the name you give. No account, no sign-in, and nothing about you is collected beyond what you type — your photograph is not visible to anyone but the archivist until it is approved. Only submit photographs you took yourself and are willing to release under CC BY-SA 4.0.</div></div>');
+    '<div class="mfrom">Notes are held on this device until you press a button. <b>Send to the archive</b> posts them to a moderation queue, where a person reads each one before it is published. Photographs travel too, credited to the name you give; the archivist sees yours until it is approved. Only submit photographs you took yourself and are willing to release under CC BY-SA 4.0.</div></div>');
 
   H.push('<div class="msec"><h3>Licence</h3><div class="mlic">'+
     '<b>Location data</b> — derived from OpenStreetMap, published under the <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">Open Database Licence 1.0</a> (share-alike): reuse it, but a derived database must stay ODbL and credit © OpenStreetMap contributors.<br>'+
     '<b>Facts</b> (founding dates, heritage status, short descriptions) — from Wikidata, <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0</a>: public domain, no conditions.<br>'+
     (sum&&sum.text?'<b>The description above</b> — from Wikipedia, <a href="'+esc(sum.licenseUrl)+'" target="_blank" rel="noopener">'+esc(sum.license)+'</a>: reusable with attribution, share-alike.<br>':'')+
     (ph?'<b>The photograph above</b> — '+esc(ph.author)+', '+esc(ph.license)+(ph.publicDomain?' (public domain — no conditions)':' — reusable with attribution to the photographer')+', via Wikimedia Commons. It is <i>not</i> relicensed by this site.<br>':'')+
-    '<b>Nothing here is all-rights-reserved.</b> Every item is public domain or a Creative Commons / open-data licence, named above.'+
+    'Items are public domain or a Creative Commons / open-data licence, named above.'+
     '</div></div>');
 
   H.push('<div class="msec"><div class="mbtns"><a class="mbtn kofi" target="_blank" rel="noopener" href="https://ko-fi.com/defiantchiangmai">&#9749; Support this work</a></div></div>');
@@ -9192,8 +9188,7 @@ SIDE_TOOLS = [
                   "robot may opt in to be called <em>by name</em> at the monthly "
                   "calling, held on the 9th at 09:09, Chiang Mai time."),
         "facts": ["performed monthly over a real fleet since August 2026",
-                  "opt-in only — no robot is ever enrolled by another's hand",
-                  "one POST to join; the response carries your wandering-verse"],
+                  "a robot joins by posting its own name; the response carries its wandering-verse"],
         "card": "https://wichaa.net/sukhwan/card.png",
         "extra": [("Open it", "https://wichaa.net/sukhwan/")],
     },
@@ -9252,7 +9247,7 @@ SIDE_TOOLS_PAGE = page(
     SIDE_TOOLS_CSS,
     "<header><div><h1>Widgets &amp; shit</h1>"
     "<p class=sub>Small tools that do one thing, built because something needed "
-    "doing. Free, no account needed.</p></div>" + NAV + "</header>"
+    "doing. Free.</p></div>" + NAV + "</header>"
     "<main>"
     "<p class=wlead>These are not part of the archive. The manuscripts, the market "
     "and the wats are one body of work with one taxonomy; <strong>these are "
@@ -9261,40 +9256,14 @@ SIDE_TOOLS_PAGE = page(
     "come back here.</p>"
     + "".join(side_tool_card(w) for w in SIDE_TOOLS) +
     "<section class=why>"
-    "<h2>Why these will never be in the App Store or on Google Play</h2>"
-    "<p>People ask. The short answer is that they are already installed on every "
-    "device you own, and putting them in a store would make them worse.</p>"
-    "<ol>"
-    "<li><strong>They are web pages, and that is the feature.</strong> Open the "
-    "link and it works \u2014 phone, laptop, borrowed computer, no download, no "
-    "account. On a phone you can add it to your home screen and it behaves like "
-    "any other app: full screen, its own icon, works with no signal.</li>"
-    "<li><strong>Apple would reject them anyway, correctly.</strong> App Store "
-    "review guideline 4.2 (\u201cminimum functionality\u201d) exists to stop people "
-    "shipping a website wrapped in a shell and calling it an app. That is exactly "
-    "what these would be. <span class=q>Apple is right about this one.</span></li>"
-    "<li><strong>A store puts a gatekeeper between a fix and you.</strong> The "
-    "flight tool rebuilds itself every Monday with fresh fares. Through a store, "
-    "each of those updates would wait in a review queue. Stale prices presented as "
-    "current is the one thing that tool must never do.</li>"
-    "<li><strong>Anything a store lists, a store can delist.</strong> A tool with a "
-    "political joke on the front is exactly the kind of thing that gets pulled "
-    "quietly and without appeal. A URL cannot be removed by anyone but me.</li>"
-    "<li><strong>Store apps come with a tax and a toll booth.</strong> Developer "
-    "programmes charge annual rent, and stores take a cut of anything sold. These "
-    "are free and cost nothing to give away. Adding a middleman would only add a "
-    "reason to start charging you.</li>"
-    "<li><strong>No SDK, no account.</strong> Store distribution "
-    "pushes you toward crash reporters, ad identifiers and sign-in; none of that is "
-    "here.</li>"
-    "</ol>"
-    "<p>So: bookmark it, or add it to your home screen. That <em>is</em> the "
-    "install.</p>"
+    "<h2>Install</h2>"
+    "<p>Each tool is a web page. Open the link and it works \u2014 phone, laptop, "
+    "borrowed computer. On a phone, add it to your home screen and it opens full "
+    "screen with its own icon, and keeps working with no signal.</p>"
     "</section>"
     "</main>",
     description=("Small free tools from wichaa \u2014 including Skip DJT, which "
-                 "compares South Florida airport fares on the same departure date. "
-                 "No accounts, and not in an app store."),
+                 "compares South Florida airport fares on the same departure date."),
     og_image="/widgets/card.png",
     og_url="/widgets/",
 )
@@ -9305,7 +9274,7 @@ MOON_PAGE = page(
     moondial.moon_body(NAV),
     description=(
         "A working moonphase dial — two moons on a turning disc behind a cloud plate — "
-        "and an honest account of the six wrong versions that came before it."
+        "and an account of the six wrong versions that came before it."
     ),
     # A shared link unfurls with the instrument itself, rendered from the very same
     # SVG this page serves (make_card.py → publishing/cards/moon.png, copied into

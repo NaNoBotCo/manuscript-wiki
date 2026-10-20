@@ -107,7 +107,7 @@ def atlas_page(wiki):
         "<p style='max-width:46rem'>Every dot is a concept the archive actually uses — a "
         "script, a language, a genre, a province, a word people search for. Two are joined "
         "when records belong to both, and the line is heavier the more records they share. "
-        "Nothing here is modelled or guessed: each line is a count you can go and check.</p>"
+        "Each line is a count you can go and check.</p>"
         "<div class=atbar>"
         "<input id=atq type=search placeholder='Find a concept — ยันต์, Pali, Phrae…' "
         "aria-label='Find a concept'>"

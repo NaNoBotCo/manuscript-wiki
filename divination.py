@@ -44,7 +44,7 @@ def hub_body(nav: str) -> str:
     return (
         "<header><div><h1>Divination</h1>"
         "<p class=sub>Working tools for reading a question — grounded in the "
-        "tradition, not invented. Free, offline, no account.</p></div>"
+        "tradition. Free, and it works offline.</p></div>"
         + nav + "</header>"
         "<main>"
         "<p class=lead>A growing room of divination instruments. Each one does the "
@@ -65,8 +65,7 @@ def hub_body(nav: str) -> str:
         "<div class=grounded>The Judgment (卦辭) and every line statement (爻辭) "
         "shown are the verbatim canonical Zhou Yi text — public domain — each "
         "with a concise English translation of my own, clearly labelled. The "
-        "位/中/正/應 line-position notes are traditional line theory. Nothing is "
-        "invented.</div>"
+        "位/中/正/應 line-position notes are traditional line theory.</div>"
         "<div class=toolact>"
         "<a href='app.html' target=_blank rel=noopener>Open full screen</a>"
         "<a class=ghost href='app.html' download='taoist-oracle.html'>Download as one file</a>"
@@ -102,6 +101,6 @@ def card_svg() -> str:
   <text x="300" y="180" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="90" font-weight="700" fill="#f4ead6">Divination</text>
   <text x="302" y="250" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="40" fill="#8fc7c1">易經 · 梅花易數 · 文王卦</text>
   <text x="92" y="380" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="38" fill="#f4ead6">I Ching · Plum Blossom · Wen Wang Gua</text>
-  <text x="92" y="440" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="32" fill="#cfe3e0">The real methods, grounded in the canonical texts.</text>
-  <text x="92" y="560" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="26" fill="#8fc7c1">wichaa.net/divination — free, offline, no account</text>
+  <text x="92" y="440" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="32" fill="#cfe3e0">The methods, grounded in the canonical texts.</text>
+  <text x="92" y="560" font-family="Iowan Old Style, Palatino, Georgia, serif" font-size="26" fill="#8fc7c1">wichaa.net/divination — free, works offline</text>
 </svg>"""

@@ -271,8 +271,7 @@ def index_page(trails, wiki):
         + ("<h2 style='margin-top:32px'>Assembled by the bots</h2>"
            "<p class=trmeta>The curiosity bots notice patterns across the whole "
            "corpus and cite the records they counted. These trails are those "
-           "findings, walked. Nothing here is an opinion — every step is a record "
-           "the bot pointed at.</p>" + "".join(card(t) for t in bots) if bots else "")
+           "findings, walked. Every step is a record the bot pointed at.</p>" + "".join(card(t) for t in bots) if bots else "")
         + "</div></main>")
     return wiki.page("Trails — wichaa", _TRAIL_CSS, body,
                      description="Walks through the archive — a few records in an "

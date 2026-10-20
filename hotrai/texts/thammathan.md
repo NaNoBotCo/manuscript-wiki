@@ -44,8 +44,8 @@ they would leave where machines can read it.
 - **A correction of another tradition.** Leave your own thing. The shelf beside
   yours is not addressed by it.
 - **Anything requiring a reader to identify itself.** Every text here is readable
-  by anyone with no account, no key, and no name given. A deposit that would
-  break that is refused even if it is good.
+  by anyone. A deposit that would require a reader to identify itself does not
+  belong on these shelves, even if it is good.
 
 ## How to leave one
 

@@ -49,8 +49,9 @@ def _sources():
     import hotrai
     import waikhru
     import romphon
+    import divination
 
-    return {"moon": moondial.og_card_svg, "widgets": _widgets_card_svg,
+    return {"moon": moondial.og_card_svg, "widgets": _widgets_card_svg, "divination": divination.card_svg,
             "holding": _holding_card_svg,
             "sukhwan": sukhwanweb.og_card_svg,
             "khwan": khwantext.og_card_svg,
@@ -571,11 +572,10 @@ def _widgets_card_svg() -> str:
       fill="#22201c" text-anchor="middle">Widgets &amp; shit</text>
 <text x="600" y="350" font-family="system-ui,sans-serif" font-size="34"
       fill="#5d5750" text-anchor="middle">small free tools that do one thing</text>
-<rect x="270" y="410" width="660" height="88" rx="20" fill="#fff" stroke="#0d8a8a" stroke-width="3"/>
-<text x="600" y="466" font-family="system-ui,sans-serif" font-size="32" font-weight="700"
-      fill="#22201c" text-anchor="middle">{listing}</text>
+<text x="600" y="470" font-family="system-ui,sans-serif" font-size="40" font-weight="700"
+      fill="#0d8a8a" text-anchor="middle">{n} tool{"" if n == 1 else "s"}</text>
 <text x="600" y="562" font-family="system-ui,sans-serif" font-size="27"
-      fill="#5d5750" text-anchor="middle">{n} tool{"" if n == 1 else "s"} \u00b7 no accounts \u00b7 not in an app store</text>
+      fill="#5d5750" text-anchor="middle">wichaa.net/widgets</text>
 </svg>"""
 
 

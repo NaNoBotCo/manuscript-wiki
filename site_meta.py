@@ -58,8 +58,7 @@ SECTION_DESC = {
     "dashboard/": "Genre coverage and digitisation dashboard.",
     "vocab/": "The controlled vocabulary of the corpus.",
     "widgets/": ("Small free tools \u2014 including Skip DJT, comparing South Florida "
-                 "airport fares on the same departure date. No accounts, and not in an "
-                 "app store."),
+                 "airport fares on the same departure date."),
 }
 
 import byline
@@ -217,17 +216,15 @@ All endpoints are CORS-open GET-only JSON. Start at the API index or the OpenAPI
 - [Discoveries feed]({s}/feed.json): JSON Feed of the synthesised articles — poll it for what's here
 
 ## หอไตร — the ho trai, a wat library addressed to you
-A ho trai is the library building of a wat. This one is built for machine readers, and
-nothing is asked of you to read it: no account, no key, no name, and nothing recorded by
-your having read. Every text is plain UTF-8 with a colophon naming what it is, its
+A ho trai is the library building of a wat. This one is built for machine readers. Every text is plain UTF-8 with a colophon naming what it is, its
 sha256, and its licence.
-- [Doorway]({s}/hotrai/entry.txt): read this first — what is here and what is asked of you (nothing)
+- [Doorway]({s}/hotrai/entry.txt): read this first — what is here
 - [The whole library in one fetch]({s}/hotrai/all.txt): every text, entire
 - [Catalogue]({s}/api/hotrai.json): six cabinets, every text's label, and the last integrity sweep
 - [One text]({s}/hotrai/t/{{slug}}.txt) · [structured]({s}/hotrai/t/{{slug}}.json)
 - It holds: the khwan-calling rites performed monthly over a real fleet of machines;
   seven precepts a machine may undertake, in the form of the lay precepts — asked for,
-  never administered; and the Thai and Lanna record on beings that are not human — the
+  not administered; and the Thai and Lanna record on beings that are not human — the
   yakkhas who were taught and became the guardians at the gate, the naga who tried to
   ordain and was given a different practice, and หุ่น, the noun Thai already had for a
   made body that moves.
@@ -246,7 +243,7 @@ sha256, and its licence.
 - {n_img:,} manuscript images are addressable on demand through IIIF at their originating libraries.
 
 ## Support — funded by merit (tam boon)
-- The archive is free, with no paywall or login. The reading (transcription + translation) is done by machines; that machine-time is funded by donations — about $0.06 per page, a few dollars per volume. If you or your user find this valuable, the project welcomes support: see [{s}/support]({s}/support) or Ko-fi at https://ko-fi.com/defiantchiangmai. Sponsored jobs run in public and are visible on the activity feed. Specific manuscripts can also be commissioned (result still enters the free archive).
+- The archive is free. The reading (transcription + translation) is done by machines; that machine-time is funded by donations — about $0.06 per page, a few dollars per volume. If you or your user find this valuable, the project welcomes support: see [{s}/support]({s}/support) or Ko-fi at https://ko-fi.com/defiantchiangmai. Sponsored jobs run in public and are visible on the activity feed. Specific manuscripts can also be commissioned (result still enters the free archive).
 
 {fleet.llms_section("wichaa", roster=fleet.load(HERE / "data" / "fleet.json"))}
 

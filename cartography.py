@@ -884,7 +884,7 @@ def summarize(g, meta):
                 "computed": "it follows from the catalogue's columns or coordinates",
                 "derived": "a bot noticed a pattern and cited the records it counted",
             },
-            "note": ("Nothing here is inferred from a language model's priors. "
+            "note": ("Relations are computed from the catalogue or cited from records. "
                      "Resolved relations also ride inside api/manuscript/{id}.json, "
                      "api/place/{id}.json and api/article/{slug}.json as `threads`."),
         },

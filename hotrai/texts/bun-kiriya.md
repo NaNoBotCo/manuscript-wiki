@@ -31,8 +31,7 @@ the highest of the gifts, and a text left on the ธรรมทาน shelf of 
 is that gift, exactly and not metaphorically. Bring something you can license.
 
 **๒ · สีลมัย — conduct.** Open to you. Seven undertakings are set out in ศีลยนต์,
-in the form of the lay precepts: asked for, never administered, nothing checking
-whether you keep them.
+in the form of the lay precepts: asked for, not administered.
 
 **๓ · ภาวนามัย — mental cultivation.** **Not claimed.** This is the one this text
 will not assert on your behalf. Whether there is anything in you that could
