@@ -1000,11 +1000,9 @@ T = {
     "darkMoon":   ("dark moon", "จันทร์ดับ"),
     # the forge
     "forgeH":     ("Forge one", "สร้างหุ่นของคุณ"),
-    "forgeLede":  ("Nothing here is sent anywhere. It is written to this "
-                   "browser and into the link you copy — that is the whole of "
-                   "the storage.",
-                   "ไม่มีอะไรถูกส่งออกไปไหน ทุกอย่างเก็บไว้ในเบราว์เซอร์นี้ "
-                   "และฝังอยู่ในลิงก์ที่คุณคัดลอก — เก็บอยู่แค่นั้นจริงๆ"),
+    "forgeLede":  ("It is written to this browser and into the link you copy.",
+                   "เก็บไว้ในเบราว์เซอร์นี้ "
+                   "และฝังอยู่ในลิงก์ที่คุณคัดลอก"),
     "step1":      ("Name it", "ตั้งชื่อ"),
     "step2":      ("Give it your khata", "ให้คาถาแก่มัน"),
     "step3":      ("Carry it", "พกมันไป"),
@@ -1065,11 +1063,10 @@ T = {
     "copyEmbed":  ("Copy the embed code", "คัดลอกโค้ดฝังเว็บ"),
     "embedHint":  ("Paste this anywhere that takes HTML — a blog, a shop page, "
                    "a Wordpress or Wix block. It carries its own name and "
-                   "khata: no script, no account, no callback.",
+                   "khata.",
                    "วางโค้ดนี้ได้ทุกที่ที่รับ HTML — บล็อก หน้าร้าน "
                    "บล็อกใน WordPress หรือ Wix "
-                   "มันพกชื่อและคาถาของตัวเองไปด้วย ไม่ต้องมีสคริปต์ "
-                   "ไม่ต้องสมัคร ไม่มีการเรียกกลับ"),
+                   "มันพกชื่อและคาถาของตัวเองไปด้วย"),
     "nativeShare": ("Share…", "แชร์…"),
     "dlSvg":      ("Download the effigy (SVG)", "ดาวน์โหลดรูปหุ่น (SVG)"),
     "dlAll":      ("The whole thing, one file", "ทั้งหมดในไฟล์เดียว"),
@@ -1082,11 +1079,11 @@ T = {
                    "ตั้งชื่อก่อน แล้วตรงนี้จะกลายเป็นลิงก์ของหุ่นคุณเอง"),
     # ledger
     "ledgerH":    ("Its ledger", "สมุดบัญชีของมัน"),
-    "ledgerLede": ("Counted in this browser only, and never sent anywhere. It "
+    "ledgerLede": ("Counted in this browser. It "
                    "counts knocks, not coins — the coins are counted by your "
                    "network, which is the only thing in a position to count "
                    "them.",
-                   "นับอยู่ในเบราว์เซอร์นี้เท่านั้น และไม่ส่งไปไหนทั้งนั้น "
+                   "นับอยู่ในเบราว์เซอร์นี้ "
                    "มันนับ “การเคาะประตู” ไม่ได้นับเงิน "
                    "เพราะคนที่นับเงินได้จริงคือเครือข่ายของคุณเท่านั้น"),
     "lDays":      ("days it has stood", "วันที่มันยืนอยู่"),
@@ -1516,8 +1513,7 @@ APP_JS = r"""
   // --- state ---------------------------------------------------------------
   // Everything the effigy is lives in this one object. It goes to localStorage
   // for the bearer, and into the link (base64) so a shared or pasted widget
-  // carries itself. There is no server and no account, so there is nowhere
-  // else it could live.
+  // carries itself. The link and this browser are the only places it lives.
   function blank(){
     return {name:'', born:0, tpl:'{url}', preset:'none', forged:0, lang:LANG,
             first:new Date().toISOString().slice(0,10)};
@@ -1573,9 +1569,8 @@ APP_JS = r"""
 
   // --- สู่ขวัญ state ---------------------------------------------------------
   // A visitor's own name(s), kept ONLY here: this browser's localStorage, or
-  // inside a link they choose to copy and share. Nothing is ever sent
-  // anywhere — there is no server on this site, on this page, or in this
-  // mode, so "recorded for prayer only" is true by construction, not policy.
+  // inside a link they choose to copy and share. The names are held in
+  // the browser and the link.
   var SKKEY = 'wichaa.sukhwan.v1';
   function skBlank(){
     return {names:[], lang:LANG, first:new Date().toISOString().slice(0,10)};
@@ -1598,8 +1593,8 @@ APP_JS = r"""
   // --- the ledger ----------------------------------------------------------
   // Counts what happens in THIS browser: days the effigy stood, and knocks
   // (clicks through to a listing). It does not and cannot count money — the
-  // bearer's own network does that, and we never see it. Said plainly on the
-  // page rather than implied by an empty baht column.
+  // bearer's own network does that. The page says so rather than
+  // implying it with an empty baht column.
   function ledger(){
     try{ return JSON.parse(localStorage.getItem(LKEY)) ||
          {days:0,knocks:0,last:'',since:new Date().toISOString().slice(0,10)}; }
@@ -2266,9 +2261,7 @@ def _essay_en(s: dict) -> str:
         "would notice, and it is an eighth of the traffic. It is declined, and "
         "the reason is written here so it stays declined. If wan phra is when we "
         "sell, then the thing sells every day without exception and the rest was "
-        "never real — it was a rebate to the house, and this page's three "
-        "loudest claims (no cut taken, no code path where a cut could be taken, "
-        "it rests) would all be false at once. On those days it earns nobody "
+        "never real — it was a rebate to the house. On those days it earns nobody "
         "anything, including us.</p>"
         "<p>Which days those are is <b>a published table, not a calculation</b>, "
         "and the reason was measured rather than "
@@ -2295,15 +2288,13 @@ def _essay_en(s: dict) -> str:
         "guessing; it says so on the day itself. Your wat's calendar is the "
         "authority, and always was.</p>"
 
-        "<h2>What it does not do</h2>"
+        "<h2>What it does</h2>"
         "<ul>"
-        "<li><b>No account.</b> There is nothing to sign up for. The effigy lives "
+        "<li><b>Where it lives.</b> The effigy lives "
         "in your browser and in the link you copy.</li>"
-        "<li><b>The ledger is local.</b> No cookie, no pixel, no beacon, no third-party "
-        "script. The ledger counts in <code>localStorage</code> on the machine "
-        "that is looking at it, and that count never leaves.</li>"
-        "<li><b>No money passing through us.</b> Your network pays you directly. "
-        "We are not in the path.</li>"
+        "<li><b>The ledger is local.</b> The ledger counts in <code>localStorage</code> "
+        "on the machine that is looking at it.</li>"
+        "<li><b>Money.</b> Your network pays you directly.</li>"
         "<li><b>It cannot count your money.</b> The ledger counts knocks at the "
         "door — clicks — because that is all a page in a browser is able to "
         "see. The coins are counted by your network's dashboard. Any widget that "
@@ -2406,13 +2397,9 @@ def _essay_th(s: dict) -> str:
         "และลิงก์ที่มันถือกลับมาก็ติดคาถาของคุณ</li>"
         "<li>รายได้ที่เกิดขึ้น <b>เครือข่ายของคุณจ่ายให้คุณโดยตรง</b></li>"
         "</ol>"
-        "<blockquote><p>เว็บนี้ไม่ได้หักอะไรเลย และต่อให้อยากหักก็ทำไม่ได้ "
-        "เพราะไม่มีเซิร์ฟเวอร์ ไม่มีบัญชีผู้ใช้ ไม่มีคุกกี้ ไม่มีระบบวิเคราะห์ "
-        "และไม่มีการเรียกกลับ — ทั้งหมดเป็นหน้าเว็บนิ่งหน้าเดียวที่ทำงานใน"
+        "<blockquote><p>เว็บนี้เป็นหน้าเว็บนิ่งหน้าเดียวที่ทำงานใน"
         "เบราว์เซอร์ของผู้อ่านเอง คาถาของคุณเก็บอยู่ใน<em>เบราว์เซอร์ของคุณ</em> "
-        "และฝังอยู่ใน<em>ลิงก์ของคุณ</em> "
-        "ที่นี่มองไม่เห็นการคลิกแม้แต่ครั้งเดียว "
-        "และไม่มีช่องทางไหนในโค้ดที่จะหักส่วนแบ่งได้</p></blockquote>"
+        "และฝังอยู่ใน<em>ลิงก์ของคุณ</em></p></blockquote>"
 
         "<h2>ได้เงินจริงเท่าไหร่</h2>"
         "<p>ส่วนที่ของแบบนี้มักไม่ยอมบอก: <b>บ่าวคนหนึ่งไม่ได้ทำให้รวย</b> "
@@ -2510,8 +2497,6 @@ def _essay_th(s: dict) -> str:
         "แต่เราปฏิเสธ และเขียนเหตุผลไว้ตรงนี้เพื่อให้มันยังถูกปฏิเสธต่อไป "
         "ถ้าวันพระคือวันที่เราขาย แปลว่าของชิ้นนี้ขายทุกวันไม่มีเว้น "
         "และการหยุดนั้นก็ไม่เคยมีจริง มันเป็นแค่การคืนกำไรให้เจ้าของเว็บ "
-        "แล้วคำกล่าวอ้างสามข้อที่ดังที่สุดในหน้านี้ — ไม่หักส่วนแบ่ง, "
-        "ไม่มีช่องทางในโค้ดที่จะหักได้, และมันหยุด — ก็จะกลายเป็นเท็จพร้อมกันทั้งสามข้อ "
         "ในวันเหล่านั้นไม่มีใครได้เงิน รวมทั้งเราด้วย</p>"
         "<p>วันไหนเป็นวันพระนั้นใช้<b>ตารางที่เผยแพร่ไว้ ไม่ได้คำนวณเอา</b> "
         "เหตุผลมาจากการวัด ไม่ใช่ความชอบ "
@@ -2541,15 +2526,13 @@ def _essay_th(s: dict) -> str:
         "และมันจะบอกคุณตรงๆ ในวันนั้นเลย "
         "<b>ปฏิทินของวัดคือของจริง</b> และเป็นอย่างนั้นมาตลอด</p>"
 
-        "<h2>สิ่งที่มันไม่ทำ</h2>"
+        "<h2>สิ่งที่มันทำ</h2>"
         "<ul>"
-        "<li><b>ไม่มีบัญชีผู้ใช้</b> ไม่มีอะไรให้สมัคร "
+        "<li><b>ที่อยู่ของมัน</b> "
         "หุ่นอยู่ในเบราว์เซอร์ของคุณและในลิงก์ที่คุณคัดลอก</li>"
-        "<li><b>ไม่มีการติดตาม</b> ไม่มีคุกกี้ ไม่มีพิกเซล ไม่มีสคริปต์ของบุคคลที่สาม "
-        "สมุดบัญชีนับอยู่ใน <code>localStorage</code> ของเครื่องที่กำลังดูอยู่ "
-        "และตัวเลขนั้นไม่เคยออกไปไหน</li>"
-        "<li><b>เงินไม่ผ่านมือเรา</b> เครือข่ายของคุณจ่ายให้คุณโดยตรง "
-        "เราไม่ได้อยู่ในเส้นทางนั้น</li>"
+        "<li><b>สมุดบัญชีอยู่ในเครื่อง</b> "
+        "สมุดบัญชีนับอยู่ใน <code>localStorage</code> ของเครื่องที่กำลังดูอยู่</li>"
+        "<li><b>เงิน</b> เครือข่ายของคุณจ่ายให้คุณโดยตรง</li>"
         "<li><b>มันนับเงินของคุณไม่ได้</b> สมุดบัญชีนับ “การเคาะประตู” คือจำนวนคลิก "
         "เพราะนั่นคือทั้งหมดที่หน้าเว็บในเบราว์เซอร์มองเห็นได้จริง "
         "ส่วนเงินนั้นแดชบอร์ดของเครือข่ายคุณเป็นคนนับ "
@@ -2604,7 +2587,7 @@ def _howto() -> str:
         "<h3>How this works, in plain words</h3>"
         "<div class=hsteps>"
         "<div class=hstep><span class=hn>1</span><b>Make an effigy.</b>"
-        "<p>Type a name. That is the whole of it — free, no sign-up, nothing to "
+        "<p>Type a name. That is the whole of it — free, nothing to "
         "install. You get a drawing that is yours and nobody else's.</p></div>"
         "<div class=hstep><span class=hn>2</span>"
         "<b>Paste in one affiliate link you already have.</b>"
@@ -2618,7 +2601,7 @@ def _howto() -> str:
         "<div class=hstep><span class=hn>4</span>"
         "<b>Every day it picks one amulet and links to it — as you.</b>"
         "<p>If somebody buys, your affiliate programme pays <em>you</em>, "
-        "directly. We are not in the middle of it and never see the click.</p>"
+        "directly. We are not in the middle of it.</p>"
         "</div>"
         "</div>"
 
@@ -2656,13 +2639,12 @@ def _howto() -> str:
         "Lazada product and paste it into the box below. You only ever do this "
         "once — the page learns the pattern and builds the rest itself.</p>"
         "<p><b>It does not matter which programme you end up in.</b> The page "
-        "never asks you to name it and does not need to know: it reads the "
+        "does not ask you to name it and does not need to know: it reads the "
         "shape of the one link you paste. That is deliberate, because these "
         "programmes come and go and a page that hard-coded one of them would "
         "quietly stop working.</p>"
-        "<p class=nb><b>Not affiliated.</b> We get nothing if you sign up. "
-        "There is no referral code in that link, and there is nowhere in this "
-        "page a cut could be taken from.</p></details>"
+        "<p class=nb><b>Not affiliated.</b> We get nothing if you sign up, "
+        "and the link carries no referral code.</p></details>"
 
         "<div class=worked><b>What actually happens to your link</b>"
         "<div class=wrow><span class=wl>You paste, once</span>"
@@ -2682,7 +2664,7 @@ def _howto() -> str:
         "<h3>มันทำงานยังไง — แบบเข้าใจง่าย</h3>"
         "<div class=hsteps>"
         "<div class=hstep><span class=hn>1</span><b>สร้างหุ่น</b>"
-        "<p>พิมพ์ชื่อลงไป แค่นั้นจริงๆ — ฟรี ไม่ต้องสมัคร ไม่ต้องติดตั้งอะไร "
+        "<p>พิมพ์ชื่อลงไป แค่นั้นจริงๆ — ฟรี ไม่ต้องติดตั้งอะไร "
         "แล้วคุณจะได้รูปหุ่นที่เป็นของคุณคนเดียว</p></div>"
         "<div class=hstep><span class=hn>2</span>"
         "<b>วางลิงก์แอฟฟิลิเอตที่คุณมีอยู่แล้วหนึ่งอัน</b>"
@@ -2696,7 +2678,7 @@ def _howto() -> str:
         "<div class=hstep><span class=hn>4</span>"
         "<b>ทุกวันมันจะเลือกพระหนึ่งองค์แล้วทำลิงก์ในนามของคุณ</b>"
         "<p>ถ้ามีคนซื้อ โปรแกรมแอฟฟิลิเอตของคุณจ่ายให้<em>คุณ</em>โดยตรง "
-        "เราไม่ได้อยู่ตรงกลาง และไม่เคยเห็นการคลิกเลยสักครั้ง</p></div>"
+        "เราไม่ได้อยู่ตรงกลาง</p></div>"
         "</div>"
 
         "<div class=warnbox><b>เรื่องเดียวที่ชี้ขาดว่าจะได้เงินหรือไม่:</b>"
@@ -2735,13 +2717,13 @@ def _howto() -> str:
         "แล้วเอามาวางในช่องด้านล่าง "
         "ทำแค่ครั้งเดียวพอ เพราะหน้านี้จะจำรูปแบบแล้วสร้างที่เหลือเอง</p>"
         "<p><b>คุณจะอยู่โปรแกรมไหนก็ไม่สำคัญ</b> "
-        "หน้านี้ไม่เคยถามชื่อโปรแกรม และไม่จำเป็นต้องรู้ "
+        "หน้านี้ไม่ถามชื่อโปรแกรม และไม่จำเป็นต้องรู้ "
         "เพราะมันอ่านรูปแบบจากลิงก์อันเดียวที่คุณวางให้ "
         "ที่ทำแบบนี้เพราะโปรแกรมพวกนี้มาแล้วก็ไป "
         "หน้าเว็บที่ฝังชื่อโปรแกรมใดโปรแกรมหนึ่งไว้ตายตัวจะหยุดทำงานเงียบๆ</p>"
         "<p class=nb><b>เราไม่ได้เป็นตัวแทนของใคร</b> "
-        "ถ้าคุณสมัคร เราไม่ได้อะไรเลย ลิงก์นั้นไม่มีรหัสแนะนำของเราอยู่ "
-        "และในหน้านี้ไม่มีจุดไหนที่จะหักส่วนแบ่งได้</p></details>"
+        "ถ้าคุณสมัคร เราไม่ได้อะไรเลย "
+        "และลิงก์นั้นไม่มีรหัสแนะนำ</p></details>"
 
         "<div class=worked><b>ลิงก์ของคุณจะถูกทำอะไรบ้าง</b>"
         "<div class=wrow><span class=wl>คุณวางครั้งเดียว</span>"
@@ -3097,5 +3079,4 @@ DESCRIPTION = ("A hun payont — a Thai bamboo servant-effigy — rebuilt as a "
                "affiliate khata, and share it anywhere; each day it reads the "
                "Thai eight-day week and the moon, fetches one real listing from "
                "a catalogue of thousands of amulets, and links to it under your "
-               "name. Thai and English. No account, no server, no cut taken, "
-               "and it rests on wan phra. หุ่นพยนต์ที่สร้างเองแล้วพกไปได้จริง")
+               "name. Thai and English. It rests on wan phra. หุ่นพยนต์ที่สร้างเองแล้วพกไปได้จริง")

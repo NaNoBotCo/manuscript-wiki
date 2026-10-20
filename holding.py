@@ -543,8 +543,8 @@ PAGE = r"""<!doctype html>
 </div>
 
 <footer><div class="wrap">
-  Nothing here authenticates an object or names a price — this page tells you what a
-  thing of this kind <i>is</i>, and what the tradition says a keeper owes it.
+  This page tells you what a thing of this kind <i>is</i>, and what the tradition says a
+  keeper owes it.
   · <a href="/nuea">เนื้อ by material</a>
   · <a href="/need">หาตามความต้องการ by need</a>
   · <a href="/yant">the yant designs</a>

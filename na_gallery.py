@@ -246,7 +246,7 @@ PAGE = r"""<!doctype html>
 <footer><div class="wrap">
   Extracted from the completed transcription/translation — every field is either a
   heading, transcribed body text, or a <code>[diagram: …]</code> note someone wrote
-  while looking at the page. Nothing here is inferred beyond what was read off it.<br>
+  while looking at the page, as read off it.<br>
   Open under <a href="/LICENSE">CC-BY 4.0</a> · <a href="/api/na-compendium.json">na-compendium.json</a>
 </div></footer>
 <script>

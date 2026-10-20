@@ -272,7 +272,7 @@ ROUTES: tuple[Route, ...] = (
     Route("/moon", "moon/index.html", "The moon complication", nav="Moon",
           door="The moon complication",
           blurb="a working dial — two moons on one turning disc",
-          desc="A working moonphase dial, and an honest account of the versions that failed.", door_i=7, nav_i=8),
+          desc="A working moonphase dial, and an account of the versions that failed.", door_i=7, nav_i=8),
 
     # The jovilabe is the moon complication's larger cousin: same method, same
     # habit of publishing the error, a far bigger mechanism. Page module is
@@ -283,7 +283,7 @@ ROUTES: tuple[Route, ...] = (
           desc=("A working jovilabe: the four Galilean moons in their orbits to true "
                 "scale, their eclipses, transits and occultations, Rømer's light "
                 "equation, the Laplace resonance, and the gear train that would drive "
-                "it — checked against JPL Horizons and honest about the error."),
+                "it — checked against JPL Horizons, with its error stated."),
           door_i=8, nav_i=9),
 
     # The jovilabe's mirror image: the same four moons, seen from inside the system.
@@ -307,7 +307,7 @@ ROUTES: tuple[Route, ...] = (
           desc=("Divination tools that do the real method — the I Ching (coins or the "
                 "49 yarrow stalks), Plum Blossom numerology and Wen Wang Gua — with every "
                 "Judgment and line shown verbatim from the canonical Zhou Yi text, each with "
-                "a plain-English translation. Free, offline, no account."),
+                "a plain-English translation. Free, and it works offline."),
           door_i=10, nav_i=11),
 
     Route("/hun", "hun/index.html", "Hun Payont", nav="Hun Payont",
@@ -316,8 +316,8 @@ ROUTES: tuple[Route, ...] = (
           desc=("หุ่นพยนต์ — a Thai servant-effigy rebuilt as a widget you can carry, in "
                 "Thai and English. Forge one, give it your own affiliate khata, share it "
                 "anywhere; it reads the eight-day week and the moon, fetches one real "
-                "amulet listing a day, and links to it under your name. No account, no "
-                "server, no cut taken, and it rests on wan phra. "
+                "amulet listing a day, and links to it under your name. It "
+                "rests on wan phra. "
                 "หุ่นพยนต์ที่คุณสร้างเอง ปลุกเสกเอง แล้วพกไปได้จริง "
                 "มันอ่านวันแล้วออกไปตลาดให้คุณ ในชื่อของคุณเอง"),
           door_i=10, nav_i=11),
@@ -409,10 +409,9 @@ ROUTES: tuple[Route, ...] = (
 
     Route("/widgets", "widgets/index.html", "Widgets & shit", nav="Widgets",
           door="Widgets &amp; shit",
-          blurb="small free tools that do one thing — no accounts, no app store",
+          blurb="small free tools that do one thing",
           desc=("Small free tools — including Skip DJT, comparing South Florida airport "
-                "fares on the same departure date. No accounts, and not in an app "
-                "store."), door_i=15, nav_i=12),
+                "fares on the same departure date."), door_i=15, nav_i=12),
 
     # ภาษา — linguistics of Thailand. A door rather than a nav entry, on the
     # /hotrai precedent: the header is already thirteen wide. Promote it if the

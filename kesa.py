@@ -819,8 +819,7 @@ PAGE = r"""<!doctype html>
  </table>
 
  <h2>How it came to be</h2>
- <p>Nothing about the kesa yant is invented at the yant. Every part of the method is
- already in the manuals — the list, the use of the list as words-while-you-draw, the
+ <p>Each part of the kesa yant's method is already in the manuals — the list, the use of the list as words-while-you-draw, the
  knight’s move as an order, and the worry that makes a closed route worth having. What is
  new is putting them together.</p>
  <ol class="chain">{{CHAIN}}</ol>
