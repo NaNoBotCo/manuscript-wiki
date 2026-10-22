@@ -57,6 +57,11 @@ def stamp(text: str, image: str, alt: str) -> str:
     head, rest = text[:end.start()], text[end.start():]
     head = OLD.sub("", head)
     block = tags(image, alt)
+    if not re.search(r'<meta\s+[^>]*property\s*=\s*["\']og:description["\']', head, re.I):
+        d = re.search(r'<meta\s+[^>]*name\s*=\s*["\']description["\'][^>]*>', head, re.I)
+        c = CONTENT.search(d.group(0)) if d else None
+        if c:  # a page with a description and no og:description gets the same text as its preview line
+            block = f'<meta property="og:description" content="{html.escape(html.unescape(c.group(1) or c.group(2) or ""), quote=True)}">' + block
     m = (re.search(r'<meta\s+[^>]*property\s*=\s*["\']og:description["\'][^>]*>', head, re.I)
          or re.search(r'<meta\s+[^>]*property\s*=\s*["\']og:title["\'][^>]*>', head, re.I))
     head = head[:m.end()] + "\n" + block + head[m.end():] if m else head.rstrip() + "\n" + block + "\n"
