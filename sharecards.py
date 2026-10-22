@@ -128,15 +128,15 @@ def apply(docs: Path, site: str) -> int:
 def render(slugs: list[str]) -> int:
     spec = load_spec()
     jobs = []
-    for v in spec["pages"].values():
+    for rel, v in spec["pages"].items():
         r = v.get("render")
         if not r or (slugs and v["slug"] not in slugs):
             continue
         img = r.get("image", "")
         if img and not re.match(r"^(https?|data|file):", img) and not os.path.isabs(img):
             r = {**r, "image": str(DATA / img)}  # a picture kept in data/sharecards/
-        jobs.append({**spec["common"], **r, "out": str(DATA / f"{v['slug']}.jpg"),
-                     "url": f"{spec['site'].split('//')[-1]}/{v['slug']}"})
+        jobs.append({**spec["common"], "url": f"{spec['site'].split('//')[-1]}/{rel.removesuffix('index.html').rstrip('/')}",
+                     **r, "out": str(DATA / f"{v['slug']}.jpg")})
     if not jobs:
         print("nothing to draw")
         return 0
