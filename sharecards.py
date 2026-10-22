@@ -132,6 +132,9 @@ def render(slugs: list[str]) -> int:
         r = v.get("render")
         if not r or (slugs and v["slug"] not in slugs):
             continue
+        img = r.get("image", "")
+        if img and not re.match(r"^(https?|data|file):", img) and not os.path.isabs(img):
+            r = {**r, "image": str(DATA / img)}  # a picture kept in data/sharecards/
         jobs.append({**spec["common"], **r, "out": str(DATA / f"{v['slug']}.jpg"),
                      "url": f"{spec['site'].split('//')[-1]}/{v['slug']}"})
     if not jobs:
