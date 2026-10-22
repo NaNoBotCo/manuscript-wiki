@@ -335,6 +335,366 @@
     "phasa/index.html": {
       "keep": true,
       "alt": "Card: ภาษา, linguistics of Thailand, three Thai terms in gold, rak sap, thap sap and thai siang, with their meanings, on near-black"
+    },
+    "read/akhom-magic-king-narai-era-6970/index.html": {
+      "slug": "read-6970",
+      "alt": "Card: Akhom Magic Of Phra Narai, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Akhom Magic Of Phra Narai",
+        "sub": "ตำราอาคมพระนารายณ์ · bilingual reader",
+        "glyph": "A",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/ancient-medicine-manual-6990/index.html": {
+      "slug": "read-6990",
+      "alt": "Card: Ancient Traditional Medicine, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Ancient Traditional Medicine",
+        "sub": "ตำราแพทย์แผนโบราณ · bilingual reader",
+        "glyph": "A",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/ancient-thai-massage-doctor-manual-6991/index.html": {
+      "slug": "read-6991",
+      "alt": "Card: Ancient Thai Massage Manual, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Ancient Thai Massage Manual",
+        "sub": "ตำราหมอนวดไทยโบราณ · bilingual reader",
+        "glyph": "A",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/chinese-arts-beauty-wealth-6975/index.html": {
+      "slug": "read-6975",
+      "alt": "Card: Chinese Arts For Beauty And Wealth, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Chinese Arts For Beauty And Wealth",
+        "sub": "ศาสตร์จีน ทำให้หญิงงาม ร่ำรวย · bilingual reader",
+        "glyph": "C",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/compendium-katha-from-old-manuals-6966/index.html": {
+      "slug": "read-6966",
+      "alt": "Card: Compendium Of Ancient Katha, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Compendium Of Ancient Katha",
+        "sub": "ประมวลคาถาตำราโบราณ · bilingual reader",
+        "glyph": "C",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/conducting-religious-rituals-complete-6971/index.html": {
+      "slug": "read-6971",
+      "alt": "Card: Conducting Religious Rituals Complete, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Conducting Religious Rituals Complete",
+        "sub": "จัดพิธีกรรมทางศาสนา ฉบับสมบูรณ์ · bilingual reader",
+        "glyph": "C",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/herbal-recipes-khao-or-lineage-6967/index.html": {
+      "slug": "read-6967",
+      "alt": "Card: Khao Or Herbal Recipes, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Khao Or Herbal Recipes",
+        "sub": "ตำรับยาสมุนไพรเขาอ้อ · bilingual reader",
+        "glyph": "K",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/kammatthana-training-siddhi-powers-6976/index.html": {
+      "slug": "read-6976",
+      "alt": "Card: Kammatthana For Siddhi Powers, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Kammatthana For Siddhi Powers",
+        "sub": "การฝึกกรรมฐานสร้างอิทธิฤทธิ์ · bilingual reader",
+        "glyph": "K",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/kammawaca-sut-thon-pha-lae-bat-5507/index.html": {
+      "slug": "read-5507",
+      "alt": "Card: Kammawaca, Sut thon pha lae bat, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Kammawaca, Sut thon pha lae bat",
+        "sub": "กัมมวาจา, สูตถอนผ้า และบาต · bilingual reader",
+        "glyph": "K",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/life-luang-por-thob-katha-he-used-6974/index.html": {
+      "slug": "read-6974",
+      "alt": "Card: Biography Of Lp Thob And His Katha, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Biography Of Lp Thob And His Katha",
+        "sub": "ประวัติหลวงพ่อทบ คาถาที่ท่านใช้ · bilingual reader",
+        "glyph": "B",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/maha-yant-manual-6989/index.html": {
+      "slug": "read-6989",
+      "alt": "Card: Maha Yant Manual, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Maha Yant Manual",
+        "sub": "ตำรามหายันต์ · bilingual reader",
+        "glyph": "M",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/making-sacred-charms-amulets-6983/index.html": {
+      "slug": "read-6983",
+      "alt": "Card: Making Sacred Charms And Amulets, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Making Sacred Charms And Amulets",
+        "sub": "ตำราสร้างเครื่องรางของขลัง · bilingual reader",
+        "glyph": "M",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/medicine-manual-luang-pu-suk-wat-pak-khlong-makham-thao-6965/index.html": {
+      "slug": "read-6965",
+      "alt": "Card: Medicine Manual Of Luang Pu Sukh, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Medicine Manual Of Luang Pu Sukh",
+        "sub": "ตำรายา หลวงปู่ศุข · bilingual reader",
+        "glyph": "M",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/mind-current-key-saiyasat-6984/index.html": {
+      "slug": "read-6984",
+      "alt": "Card: Mind Stream Key To Saiyasat, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Mind Stream Key To Saiyasat",
+        "sub": "กระแสจิต กุญแจไสยศาสตร์ · bilingual reader",
+        "glyph": "M",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/mind-current-secrets-saiyasat-6982/index.html": {
+      "slug": "read-6982",
+      "alt": "Card: Mind Stream Secrets Of Saiyasat, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Mind Stream Secrets Of Saiyasat",
+        "sub": "กระแสจิต เคล็ดลับไสยศาสตร์ · bilingual reader",
+        "glyph": "M",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/phetcharat-great-yantra-manual-6960/index.html": {
+      "slug": "read-6960",
+      "alt": "Card: Tamra Phetcharat Maha-yant (yantra manual), a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Tamra Phetcharat Maha-yant (yantra manual)",
+        "sub": "ตำราเพชรัตน์มหายันต์ · bilingual reader",
+        "glyph": "T",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/practicing-kammatthana-vol-1-luang-por-ruesi-ling-dam-6961/index.html": {
+      "slug": "read-6961",
+      "alt": "Card: Kammatthana Practice Lp Ruesi Ling Dam Vol1, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Kammatthana Practice Lp Ruesi Ling Dam Vol1",
+        "sub": "การทำกรรมฐาน หลวงพ่อฤาษีลิงดำ1 · bilingual reader",
+        "glyph": "K",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/practicing-kammatthana-vol-2-luang-por-ruesi-ling-dam-6962/index.html": {
+      "slug": "read-6962",
+      "alt": "Card: Kammatthana Practice Lp Ruesi Ling Dam Vol2, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Kammatthana Practice Lp Ruesi Ling Dam Vol2",
+        "sub": "การทำกรรมฐาน หลวงพ่อฤาษีลิงดำ2 · bilingual reader",
+        "glyph": "K",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/practicing-kammatthana-vol-3-luang-por-ruesi-ling-dam-6963/index.html": {
+      "slug": "read-6963",
+      "alt": "Card: Kammatthana Practice Lp Ruesi Ling Dam Vol3, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Kammatthana Practice Lp Ruesi Ling Dam Vol3",
+        "sub": "การทำกรรมฐาน หลวงพ่อฤาษีลิงดำ3 · bilingual reader",
+        "glyph": "K",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/puca-mae-tholani-hiak-khwan-patakuncon-lokawutti-pu-son-lan-4361/index.html": {
+      "slug": "read-4361",
+      "alt": "Card: Puca mae tholani, hiak khwan, Patakuncon, and more, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Puca mae tholani, hiak khwan, Patakuncon, and more",
+        "sub": "Bilingual reader: Thai transcription with English translation.",
+        "glyph": "P",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/reading-women-physiognomy-ngo-heng-head-toe-6973/index.html": {
+      "slug": "read-6973",
+      "alt": "Card: Physiognomy Reading Women, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Physiognomy Reading Women",
+        "sub": "ตำราดูโหงวเฮ้ง ผู้หญิง · bilingual reader",
+        "glyph": "P",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/sak-yant-stencils-tracing-6985/index.html": {
+      "slug": "read-6985",
+      "alt": "Card: Sak Yant Stencils For Tracing, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Sak Yant Stencils For Tracing",
+        "sub": "แบบสักยันต์สำหรับลอกลาย · bilingual reader",
+        "glyph": "S",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/salup-nam-som-poi-nanto-thon-wihan-thon-sappa-puca-tao-tang-5076/index.html": {
+      "slug": "read-5076",
+      "alt": "Card: Salup nam som poi, nanto, thon wihan, and more, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Salup nam som poi, nanto, thon wihan, and more",
+        "sub": "Bilingual reader: Thai transcription with English translation.",
+        "glyph": "S",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/scripture-108-special-na-6964/index.html": {
+      "slug": "read-6964",
+      "alt": "Card: Scripture Of 108 Magical Na, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Scripture Of 108 Magical Na",
+        "sub": "คัมภีร์108นะวิเศษ · bilingual reader",
+        "glyph": "S",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/setting-up-ceremonies-ancient-edition-6969/index.html": {
+      "slug": "read-6969",
+      "alt": "Card: Setting Up Ceremonies Ancient Edition, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Setting Up Ceremonies Ancient Edition",
+        "sub": "การจัดตั้งพิธีการ ฉบับโบราณ · bilingual reader",
+        "glyph": "S",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/supreme-maha-mantra-katha-6968/index.html": {
+      "slug": "read-6968",
+      "alt": "Card: Supreme Maha Mantra Katha, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Supreme Maha Mantra Katha",
+        "sub": "อภิมหามนต์คาถา · bilingual reader",
+        "glyph": "S",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/tamnan-tao-tang-si-3476/index.html": {
+      "slug": "read-3476",
+      "alt": "Card: Tamnan tao tang si, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Tamnan tao tang si",
+        "sub": "ตำนานท้าวทังสี่ · bilingual reader",
+        "glyph": "T",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/teaching-samadhi-use-mind-power-6981/index.html": {
+      "slug": "read-6981",
+      "alt": "Card: Teaching Meditation And Psychic Power, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Teaching Meditation And Psychic Power",
+        "sub": "สอนฝึกสมาธิและใช้พลังจิต · bilingual reader",
+        "glyph": "T",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/thai-traditional-medicine-vol-1-6986/index.html": {
+      "slug": "read-6986",
+      "alt": "Card: Thai Traditional Medicine Vol1, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Thai Traditional Medicine Vol1",
+        "sub": "ตำราแพทย์แผนไทย1 · bilingual reader",
+        "glyph": "T",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/thai-traditional-medicine-vol-2-6987/index.html": {
+      "slug": "read-6987",
+      "alt": "Card: Thai Traditional Medicine Vol2, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Thai Traditional Medicine Vol2",
+        "sub": "ตำราแพทย์แผนไทย2 · bilingual reader",
+        "glyph": "T",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/thon-ban-thon-huean-thon-phi-tai-etc-363/index.html": {
+      "slug": "read-363",
+      "alt": "Card: Thon ban, Thon huean, Thon phi tai, etc., a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Thon ban, Thon huean, Thon phi tai, etc.",
+        "sub": "ถอนบ้าน, ถอนเรือน, ถอนผีตาย ฯลฯ · bilingual reader",
+        "glyph": "T",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/training-power-mind-vol-1-6978/index.html": {
+      "slug": "read-6978",
+      "alt": "Card: Training Mind Power Psychic Vol1, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Training Mind Power Psychic Vol1",
+        "sub": "ฝึกใช้อำนาจจิต (พลังจิต)1 · bilingual reader",
+        "glyph": "T",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/training-power-mind-vol-2-6979/index.html": {
+      "slug": "read-6979",
+      "alt": "Card: Training Mind Power Psychic Vol2, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Training Mind Power Psychic Vol2",
+        "sub": "ฝึกใช้อำนาจจิต (พลังจิต)2 · bilingual reader",
+        "glyph": "T",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/warrior-vedic-katha-chai-chatri-6972/index.html": {
+      "slug": "read-6972",
+      "alt": "Card: Vedic Katha For Chai Chatri, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Vedic Katha For Chai Chatri",
+        "sub": "พระเวทย์คาถาชายชาตรี · bilingual reader",
+        "glyph": "V",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/yantra-craft-katha-lanna-lineage-6980/index.html": {
+      "slug": "read-6980",
+      "alt": "Card: Yantra Craft And Katha Lanna Lineage, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Yantra Craft And Katha Lanna Lineage",
+        "sub": "ตำราวิชายันต์ คาถาสายล้านนา · bilingual reader",
+        "glyph": "Y",
+        "url": "wichaa.net/read"
+      }
+    },
+    "read/yantra-inscription-formulas-mixed-khom-thai-6977/index.html": {
+      "slug": "read-6977",
+      "alt": "Card: Yantra Inscription Formulas Khom Thai, a bilingual reader with Thai transcription and English translation, in cream serif type on dark teal",
+      "render": {
+        "title": "Yantra Inscription Formulas Khom Thai",
+        "sub": "สูตรการลงยันต์แบบขอมผสมไทย · bilingual reader",
+        "glyph": "Y",
+        "url": "wichaa.net/read"
+      }
     }
   }
 }
