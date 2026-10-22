@@ -215,6 +215,126 @@
         "dark": true,
         "credit": "Lanna Manuscript Wiki · CC BY 4.0"
       }
+    },
+    "activity/index.html": {
+      "slug": "activity",
+      "alt": "Card: Activity, what the crawlers, archiver and bots are doing, in cream serif type on dark teal",
+      "render": {
+        "title": "Activity",
+        "sub": "What the crawlers, archiver and bots are doing, live.",
+        "glyph": "A"
+      }
+    },
+    "explore/index.html": {
+      "slug": "explore",
+      "alt": "Card: Overview, the wichaa archive made legible for people and machines, in cream serif type on dark teal",
+      "render": {
+        "title": "Overview",
+        "sub": "Making living traditions of sacred knowledge legible, for people and machines.",
+        "glyph": "O"
+      }
+    },
+    "findings/index.html": {
+      "slug": "findings",
+      "alt": "Card: Discoveries, what the curiosity bots keep noticing across the corpus, in cream serif type on dark teal",
+      "render": {
+        "title": "Discoveries",
+        "sub": "What the curiosity bots keep noticing across the corpus and the living market.",
+        "glyph": "D"
+      }
+    },
+    "gallery/index.html": {
+      "slug": "gallery",
+      "alt": "Card: Plates, the rendered manuscript pages, described, in cream serif type on dark teal",
+      "render": {
+        "title": "Plates",
+        "sub": "The rendered manuscript pages, described and legible at a glance.",
+        "glyph": "P"
+      }
+    },
+    "graph-audit/index.html": {
+      "slug": "graph-audit",
+      "alt": "Card: Graph audit, the edge store counted and cross-examined, in cream serif type on dark teal",
+      "render": {
+        "title": "Graph audit",
+        "sub": "The edge store, counted and cross-examined.",
+        "glyph": "G"
+      }
+    },
+    "lens/index.html": {
+      "slug": "lens",
+      "alt": "Card: Choose a lens, the same archive read four ways, in cream serif type on dark teal",
+      "render": {
+        "title": "Choose a lens",
+        "sub": "The same archive, read four ways.",
+        "glyph": "L"
+      }
+    },
+    "status/index.html": {
+      "slug": "status",
+      "alt": "Card: Crawl status, what the crawler has harvested so far, in cream serif type on dark teal",
+      "render": {
+        "title": "Crawl status",
+        "sub": "What the crawler has harvested so far.",
+        "glyph": "C"
+      }
+    },
+    "vocab/index.html": {
+      "slug": "vocab",
+      "alt": "Card: Vocabulary, the working words of the wichaa mined from the corpus, in cream serif type on dark teal",
+      "render": {
+        "title": "Vocabulary",
+        "sub": "The working words of the wichaa, mined from the corpus, glossed and linked.",
+        "glyph": "V"
+      }
+    },
+    "w/index.html": {
+      "slug": "w",
+      "alt": "Card: Widgets, self-analysis of the archive and the living market, in cream serif type on dark teal",
+      "render": {
+        "title": "Widgets",
+        "sub": "Self-analysis of the archive and the living market, each view shareable and embeddable.",
+        "glyph": "W"
+      }
+    },
+    "roots/index.html": {
+      "slug": "roots",
+      "alt": "Card: พจนานุกรมราก, the lexicon, why a word means what it means, in cream serif type on dark teal",
+      "render": {
+        "title": "พจนานุกรมราก · the lexicon",
+        "sub": "Not what the word means: why it means that.",
+        "glyph": "ร",
+        "lang": "th"
+      }
+    },
+    "kham/index.html": {
+      "slug": "kham",
+      "alt": "Card: คำทั้งหมด, all words of the root dictionary in Thai alphabetical order, in cream serif type on dark teal",
+      "render": {
+        "title": "คำทั้งหมด · all words",
+        "sub": "The words of the root dictionary, in Thai alphabetical order.",
+        "glyph": "ค",
+        "lang": "th"
+      }
+    },
+    "poppy/index.html": {
+      "slug": "poppy",
+      "alt": "Card: ฝิ่น, the year the poppy made, a twelve-month wheel of highland work beside the coffee year, on dark teal",
+      "render": {
+        "title": "ฝิ่น",
+        "sub": "The year the poppy made: twelve months of highland work, beside the coffee year.",
+        "glyph": "ฝ",
+        "image": "src/poppy.png",
+        "lang": "th"
+      }
+    },
+    "khwan/index.html": {
+      "keep": true,
+      "alt": "Card: สู่ขวัญ, the soul-calling in full, thirty verses in Thai, romanization and English, with a gold thread tied in a loop on cream"
+    },
+    "phasa/index.html": {
+      "keep": true,
+      "alt": "Card: ภาษา, linguistics of Thailand, three Thai terms in gold, rak sap, thap sap and thai siang, with their meanings, on near-black"
     }
   }
 }
