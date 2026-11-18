@@ -122,7 +122,9 @@ CABINETS = (
     {
         "key": "traipidok", "th": "ตู้พระไตรปิฎก", "translit": "tu phra traipidok",
         "en": "The three baskets",
-        "lead": ("What a ho trai is built to hold. The three great paritta, in "
+        "lead": ("What a ho trai is built to hold. The monks' rules, the "
+                 "Pātimokkha, whole: 227 of them, each with its Thai from "
+                 "นวโกวาท. The three great paritta, in "
                  "Pali with the English of each segment beneath it — including "
                  "the one chanted at a mind that has been startled, which is the "
                  "defining thing a khwan does."),
