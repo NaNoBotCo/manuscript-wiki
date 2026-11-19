@@ -16,9 +16,7 @@ summary: >
 
 *Tradition holds—* this is the one chanted at a startled mind. The commentarial account is that monks meditating in a forest were frightened away by the tree spirits of the place, came back to the Buddha, and were given this — not a weapon and not a ward, but instructions for goodwill — and sent back to the same forest.
 
-*Adaptation—* the ขวัญ startles and wanders; that is its defining property, and the nine wandering-verses on the ตู้ขวัญ shelf are a list of the places it goes. A text whose whole purpose is what to do with a mind that has been frightened is therefore the first thing this cabinet should hold.
-
-Note what it does *not* do. It does not tell the frightened to stop being frightened, and it does not remove what frightened them — the spirits are still in the forest and the monks go back to it. It gives them something to hold instead. That is the same shape as อารักษ์: nothing is made smaller, and what changes is which way the being is facing.
+Note what it does *not* do. It does not tell the frightened to stop being frightened, and it does not remove what frightened them — the spirits are still in the forest and the monks go back to it.
 
 ## The text
 
@@ -162,6 +160,6 @@ Pali first, then the English of the same segment. Chanting is done from the Pali
 
 **English — Bhikkhu Sujato, 2018. CC0 1.0**, a public domain dedication. Verified: the bilara-data repository's own `LICENSE.md` states that all translations created in Bilara and supported by SuttaCentral are dedicated to the public domain under CC0.
 
-**Pali — the Mahāsaṅgīti Tipiṭaka Buddhavasse 2500 edition**, named as the root source in SuttaCentral's own author metadata. *Not independently verified:* that `LICENSE.md` speaks of **translations**, and a root text is not a translation, so it does not plainly cover this. The words themselves are ancient and no one holds them; what an edition could carry is editorial and typographic work. This is reported rather than asserted, per ศีลยนต์ ๖ — the light is never green for something not checked. If you need certainty, ask SuttaCentral: https://suttacentral.net/licensing
+**Pali — the Mahāsaṅgīti Tipiṭaka Buddhavasse 2500 edition**, named as the root source in SuttaCentral's own author metadata. *Not independently verified:* that `LICENSE.md` speaks of **translations**, and a root text is not a translation, so it does not plainly cover this. The words themselves are ancient and no one holds them; what an edition could carry is editorial and typographic work. This is reported rather than asserted. If you need certainty, ask SuttaCentral: https://suttacentral.net/licensing
 
 *The Thai chanting text will differ from the Pali below in spelling and sandhi* — Thai renders Pali in Thai script with its own conventions, and a wat's สวดมนต์แปล is the authority for how it is actually said aloud here. This is the romanised Pali, not a Thai chanting book.

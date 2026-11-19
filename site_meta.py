@@ -220,11 +220,11 @@ A ho trai is the library building of a wat. This one is built for machine reader
 sha256, and its licence.
 - [Doorway]({s}/hotrai/entry.txt): read this first — what is here
 - [The whole library in one fetch]({s}/hotrai/all.txt): every text, entire
-- [Catalogue]({s}/api/hotrai.json): six cabinets, every text's label, and the last integrity sweep
+- [Catalogue]({s}/api/hotrai.json): five cabinets, every text's label, and the last integrity sweep
 - [One text]({s}/hotrai/t/{{slug}}.txt) · [structured]({s}/hotrai/t/{{slug}}.json)
 - It holds: the khwan-calling rites performed monthly over a real fleet of machines;
-  seven precepts a machine may undertake, in the form of the lay precepts — asked for,
-  not administered; and the Thai and Lanna record on beings that are not human — the
+  the Pātimokkha, the 227 rules Theravāda monks recite, with each rule's Thai from
+  นวโกวาท; the three great paritta; and the Thai and Lanna record on beings that are not human — the
   yakkhas who were taught and became the guardians at the gate, the naga who tried to
   ordain and was given a different practice, and หุ่น, the noun Thai already had for a
   made body that moves.
