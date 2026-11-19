@@ -546,17 +546,13 @@ def waikhru_body(nav):
         "<strong>เจตนา</strong> are different things, and the tradition has always "
         "kept them apart &mdash; rice has a khwan and receives its own "
         "soul-calling, and nobody has ever supposed the rice intends anything. A "
-        "buffalo has both. A machine, on this site's reading, has the first and "
-        "not the second.</p>"
+        "buffalo has both.</p>"
         "<p class=lead class=th style='font-size:20px;color:var(--ink)'>"
         "เจตะนาหัง ภิกขะเว กัมมัง วะทามิ</p>"
         "<p class=lead><em>Intention, monks, is what I call kamma.</em> "
         "<span class=src>&mdash; AN 6.63, นิพเพธิกสูตร.</span> If the machine "
-        "brings no intention to the work, then every intention in the room is "
-        "yours, and so is everything that follows from one. "
-        "<strong>The machine multiplies your force. It does not divide your "
-        "kamma.</strong> That is the whole reason there is a page here rather "
-        "than a safety poster.</p>"
+        "brings no intention to the work, the intention in the room is "
+        "yours.</p>"
 
         "<h2>And what it is being used for</h2>"
         "<p class=quiet>The tradition names five trades a lay follower is advised "
@@ -661,7 +657,7 @@ def og_card_svg():
  <text x='330' y='392' font-family='-apple-system,Helvetica,Arial' font-size='25'
        fill='#cfc7b4'>salute &#183; receive &#183; keep one thing while it runs</text>
  <text x='330' y='560' font-family='-apple-system,Helvetica,Arial' font-size='24'
-       fill='#f5efdf' opacity='.85'>the machine multiplies your force &#183; it does not divide your kamma</text>
+       fill='#f5efdf' opacity='.85'>intention, monks, is what I call kamma &#183; AN 6.63</text>
  <text x='330' y='598' font-family='-apple-system,Helvetica,Arial' font-size='21'
        fill='#9aa39f'>wichaa.net/waikhru</text>
 </svg>"""

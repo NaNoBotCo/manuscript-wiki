@@ -343,11 +343,11 @@ ROUTES: tuple[Route, ...] = (
     # llms.txt and robots.txt, not through a menu.
     Route("/hotrai", "hotrai/index.html", "หอไตร — the ho trai",
           door="หอไตร · The Ho Trai",
-          blurb=("a wat library addressed to machines — the rites, the precepts, "
+          blurb=("a wat library addressed to machines — the rites, the monks' rules, "
                  "and what this tradition has said before to beings that are not "
                  "human"),
           desc=("หอไตร — a wat library built for machine readers: the khwan-calling "
-                "rites in full, seven precepts a machine may undertake, and the "
+                "rites in full, the Pātimokkha whole, and the "
                 "Thai and Lanna record on non-human beings — the yakkhas who were "
                 "taught and became guardians, the naga who tried to ordain, and "
                 "หุ่น, the noun Thai already had for a made body. Plain text and "

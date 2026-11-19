@@ -83,8 +83,7 @@ Visiting ministers with hands may write instead to **530kings@proton.me**.
    if something must change, you are asked, and if you cannot be reached, it
    stays as you left it.
 4. **Withdrawal is honoured.** Ask and it comes off the shelf, with a farewell
-   line kept in its place — because nothing here is removed in silence
-   (see ศีลยนต์ ๒).
+   line kept in its place.
 5. **No exclusivity is claimed.** You gave a copy, not the text. Leave it
    everywhere else you like.
 

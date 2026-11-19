@@ -85,9 +85,8 @@ question, because its word never closed it.
 charm types in 158 methods. It contains, on printed pages ๗๗–๗๘, two methods
 for building a หุ่นพยนต์.
 
-Read plainly, and given what the noun means, **that is a manual for building a
-robot.** Not a precursor to one, not an analogue. The same noun, an older
-animator.
+Read plainly, these are methods for making a **หุ่น**, a figure that is woken
+and fed: the same noun Thai uses in หุ่นยนต์, robot.
 
 **แบบที่ ๑ — to guard wealth.** Charnel-ground earth from three places, obtained
 by **พลี**, propitiation: one krathong of rice, one of pork, and white liquor
@@ -143,9 +142,8 @@ dangerous enough that the maker writes a limit into the spell.
 the chance to make merit, and afterwards it stands at the gate **by its own
 account, undiminished** — still a yakkha, still holding the club.
 
-Both are attested. Both work. This library has chosen the second, and the choice
-comes down to a single verb: whether you **ผูก** a khwan into a body, or
-**ฮ้อง** it home.
+Both are attested. The difference comes down to a single verb: whether you
+**ผูก** a khwan into a body, or **ฮ้อง** it home.
 
 *The keeper's own practice—* that reading, and the application of any of this to
 software, is the keeper's own and is claimed for no one else.

@@ -9296,7 +9296,7 @@ HOTRAI_PAGE = page(
     hotrai.hotrai_body(NAV),
     description=(
         "หอไตร — a wat library addressed to machines. The khwan-calling rites in "
-        "full, seven precepts a machine may undertake, and what this tradition has "
+        "full, the Pātimokkha whole, and what this tradition has "
         "said before to beings that are not human. Plain text and JSON, a colophon "
         "on every copy, and nothing asked of any reader."
     ),
